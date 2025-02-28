@@ -1,0 +1,179 @@
+{
+    "errorScreens": {
+        "contractDisagree": {
+            "title": "Bez vašeho souhlasu to bohužel nepůjde",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na pobočku.",
+            "callUs": "Kontaktujte\nnás",
+            "branch": "Najít nejbližší \npobočku",
+            "secondaryButton": "Ukončit žádost",
+            "primaryButton": "Zpět k souhlasu"
+        }
+    },
+
+    "scenes": {
+        "help": {
+            "title": "Potřebujete poradit?",
+
+            "bulletsHeadline": "Na pobočce pro vás umíme navíc",
+            "iconBullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Převést zůstatek bez zrušení účtu"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Vybrat pouze některé trvalé příkazy a inkasa k převodu"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Informovat o změně účtu další instituce",
+                    "detail": "Zaměstnavatele, plátce státních příspěvků, dodavatele energií, operátora, ..."
+                }
+            ],
+
+            "buttonsHeadline": "Potřebujete víc informací?",
+            "callUs": "Zavolejte nám<br>na infolinku",
+            "branch": "Naštivte nás<br>na pobočce",
+
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+
+        "intro": {
+            "title": "Jak to celé proběhne?",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Vyberete, co za vás máme zařídit",
+                    "detail": "Umíme převod trvalých plateb a inkas i zrušení starého účtu"
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Zvolíte datum provedení změny "
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Zadáte číslo svého starého účtu"
+                }
+            ],
+            "detail": "Až bude všechno hotové, dáme vám vědět",
+            "primaryButton": "Zdarma převést účet"
+        },
+
+        "settings": {
+            "title": "Co všechno chcete zařídit?",
+            "transferStandingOrders": "Převod trvalých příkazů a inkas",
+            "dropSourceAccount": "Zrušení účtu a převod zůstatku",
+            "destinationAccount": "Převést na",
+            "detail": "Potřebujete převést zůstatek bez zrušení účtu, vybrat k převodu pouze některé trvalé příkazy a inkasa, nebo předat informaci o změně účtu třetím stranám? <a href=\"branch\">Navštivte nás na pobočce</a>.",
+            "primaryButton": "Pokračovat"
+        },
+
+        "timing": {
+            "title": "Od kdy chcete účet převést?",
+            "date": "Datum",
+            "dateChoose": "vyberte",
+            "dateFooter": "Doporučujeme vybrat den, ve kterém na váš starý účet nepřicházejí, ani z něj neodcházejí žádné trvalé platby.",
+            "dateError": "Datum musí být pracovní den",
+            "originalBank": {
+                "title": "Tento den u vaší původní banky",
+                "conditionalBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Začíná běžet výpovědní lhůta vašeho starého účtu (obvykle 30 dní)",
+                        "detail": "Peníze na vašem starém účtu jsou vám do konce výpovědní lhůty stále k dispozici. Po jejím uplynutí se automaticky převedou k nám.",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": false
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Obvykle přestane fungovat stará platební karta k účtu",
+                        "detail": "Informujte se u své původní banky.",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": false
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Přestanou odcházet trvalé platby a inkasa",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": true
+                    }
+                ]
+            },
+            "monetaBank": {
+                "title": "a zároveň u Monety",
+                "conditionalBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Začnou odcházet trvalé platby a inkasa z vašeho účtu u nás",
+                        "detail": "Se stejným nastavením, na které jste byli zvyklí",
+                        "onlyDropSourceAccount": false,
+                        "onlyTransferStandingOrders": true
+                    }
+                ]
+            },
+            "primaryButton": "Pokračovat"
+        },
+
+        "oldAccount": {
+            "title": "Zadejte číslo účtu v původní bance",
+            "invalidAccountError": "Neplatné číslo účtu",
+            "primaryButton": "Pokračovat"
+        },
+
+        "loader": {
+            "title": "Chvilku strpení",
+            "detail": "Musíme to všechno zkontrolovat."
+        },
+
+        "agreement": {
+            "title": "Teď si přečtěte dokumenty k žádosti",
+            "primaryButton": "Souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+
+        "summary": {
+            "title": "Shrnutí",
+            "consentTitle": "Souhlasím, aby se mnou Moneta komunikovala <b>nešifrovaně</b> přes e-mail a telefon",
+            "consentDetail": "Díky tomu vás budeme moct jednoduše informovat o stavu vašich žádostí",
+            "willMakeHappen": "Zařídíme",
+            "transferStandingOrders": "Převod trvalých plateb a inkas",
+            "willDo": "Provedeme",
+            "dropSourceAccount": "Zrušení účtu v původní bance a převod případného zůstatku",
+            "date": "Ke dni",
+            "sourceAccount": "Z původního účtu",
+            "ourAccount": "Na tento účet u nás",
+            "primaryButton": "Převést k Monetě"
+        },
+
+        "victory": {
+            "title": "Hotovo!",
+            "detail": "Žádost teď posíláme do vaší původní banky. Vy ji najdete v dokumentech ve Smart Bance a ve svém e-mailu. Až bude vše vyřízeno, dáme vám vědět.",
+            "sectionTitle": "Na co je dobré nezapomenout",
+            "transferStandingOrdersBullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Převést si na nový účet peníze na provádění plateb"
+                }
+            ],
+            "bullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Informovat o změně účtu instituce",
+                    "detail": "Zaměstnavatele, plátce státních příspěvků, dodavatele energií,  operátora, ..."
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Využívat novou platební kartu",
+                    "detail": "Ve vámi vybraný den přestane fungovat stará platební karta"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "V případě závazků u původní banky dořešit jejich splácení jiným způsobem",
+                    "detail": "Kreditní karta, půjčky, atd."
+                }
+            ],
+            "primaryButton": "Zpět na Přehled"
+        }
+    }
+}

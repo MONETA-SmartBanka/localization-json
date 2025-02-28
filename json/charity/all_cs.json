@@ -1,0 +1,113 @@
+{
+  "scenes": {
+    "intro": {
+      "title": "Pomáhejte se Smart Bankou",
+      "imageUrl": "/cbl_images/charity/INTRO.png",
+      "toolbarTitle": "Pomáhejte s námi",
+      "detail": "Pečlivě jsme vybrali dobročinné organizace, kterým teď můžete jednoduše přispět na dobrou věc. Je jen na Vás, jestli to bude jednorázově nebo měsíčně.",
+      "mail": "Váš email",
+      "footer": "Na zadaný email vybrané organizace odesílají potvrzení o daru, obvykle jednou ročně",
+      "primaryButton": "Podívat se"
+    },
+    "pin": {
+      "title": "{{amount}} pro {{organization}}",
+      "detail": "Zadejte prosím PIN kód"
+    },
+    "victory": {
+      "title": "Přispěl/a jste {{amount}}, děkujeme!",
+      "titleRegular": "Přispíváte {{amount}} měsíčně, děkujeme!",
+      "detail": "Díky Vám a dalším štědrým klientům se vybralo už {{totalAmount}}.<br><br>Váš celkový příspěvek činí {{amount}}.",
+      "footer": "Na zadaný email vybrané organizace odesílají potvrzení o daru, obvykle jednou ročně.",
+      "footerRegular": "Na zadaný email vybrané organizace odesílají potvrzení o daru, obvykle jednou ročně. Svůj příspěvek najdete mezi trvalými příkazy.",
+      "share": "Nasdílejte teď přátelům a známým radost z dobré věci.",
+      "primaryButton": "Hotovo",
+      "secondaryButton": "Přispět znovu"
+    }
+  },
+  "donations": {
+    "donateButton": "Přispět",
+    "totalDonation": "Celkově jsme vybrali už {{amount}}. Připojte se k nám!",
+    "fromAccount": "Z účtu",
+    "oneTime": "Jednorázově",
+    "regularly": "Měsíčně",
+    "messageForRecipient": "Příspěvek ze Smart Banky od {{email}}",
+    "standingOrderAlert": {
+      "title": "Měsíčně již přispíváte",
+      "detail": "Pokud chcete upravit svůj stávající příspěvek, najdete jej mezi trvalými příkazy."
+    },
+    "organizations": [
+      {
+        "identifier": "UKRAINIAN_EMBASSY",
+        "title": "Velvyslanectví Ukrajiny v České republice",
+        "imageUrl": "/cbl_images/charity/UKRAINIAN_EMBASSY.png",
+        "detail": "Sbírka na pomoc s obranou Ukrajiny organizovaná zastupitelským úřadem v ČR.",
+        "url": "https://czechia.mfa.gov.ua/cs",
+        "shortTitle": "Velvyslanectví Ukrajiny"
+      },
+      {
+        "identifier": "KNIHOVNA_VACLAVA_HAVLA",
+        "title": "Knihovna Václava Havla",
+        "imageUrl": "/cbl_images/charity/KNIHOVNA_VACLAVA_HAVLA.png",
+        "detail": "Šíří myšlenkový, literární a politický odkaz Václava Havla.",
+        "url": "https://www.vaclavhavel.cz",
+        "shortTitle": "Knihovna V. Havla"
+      },
+      {
+        "identifier": "CLOVEK_V_TISNI",
+        "title": "Člověk v tísni",
+        "imageUrl": "/cbl_images/charity/CLOVEK_V_TISNI.png",
+        "detail": "Sbírka na pomoc Ukrajině organizovaná neziskovou organizací Člověk v tísni.",
+        "url": "https://www.clovekvtisni.cz/",
+        "shortTitle": "Člověk v tísni"
+      },
+      {
+        "identifier": "POMOZTE_DETEM",
+        "title": "Pomozte dětem",
+        "imageUrl": "/cbl_images/charity/POMOZTE_DETEM.png",
+        "detail": "Přináší pomoc znevýhodněným a ohroženým dětem.",
+        "url": "https://www.pomoztedetem.cz",
+        "shortTitle": "Pomozte dětem"
+      },
+      {
+        "identifier": "S_BARVOU_VEN",
+        "title": "S barvou ven",
+        "imageUrl": "/cbl_images/charity/S_BARVOU_VEN.png",
+        "detail": "Skupina mentorů a mentorek, která pomáhá mladým gayům a lesbám s coming outem.",
+        "url": "https://www.sbarvouven.cz",
+        "shortTitle": "S barvou ven"
+      },
+      {
+        "identifier": "DOBRY_ANDEL",
+        "title": "DOBRÝ ANDĚL",
+        "imageUrl": "/cbl_images/charity/DOBRY_ANDEL.png",
+        "detail": "Pomáhejte rodinám, které se potýkají s vážným onemocněním.",
+        "url": "https://www.dobryandel.cz/?utm_source=moneta&utm_medium=app&utm_campaign=moneta",
+        "shortTitle": "Dobrý Anděl"
+      },
+      {
+        "identifier": "DETSKE_KRIZOVE_CENTRUM",
+        "title": "Dětské krizové centrum",
+        "imageUrl": "/cbl_images/charity/DETSKE_KRIZ_CENTRUM.png",
+        "detail": "Pomozte nám pomáhat ohroženým dětem.",
+        "url": "https://www.ditekrize.cz/",
+        "shortTitle": "Dětské Krizové Centrum"
+      },
+      {
+        "identifier": "CSOP",
+        "title": "Český svaz ochránců přírody",
+        "imageUrl": "/cbl_images/charity/CSOP.png",
+        "detail": "Aktivně se stará o ochranu životního prostředí a přírodního dědictví v České republice.",
+        "url": "http://www.csop.cz/index.php",
+        "shortTitle": "Český svaz ochránců přírody"
+      },
+      {
+        "identifier": "POSTBELLUM",
+        "title": "Post Bellum, z. ú.",
+        "imageUrl": "/cbl_images/charity/POSTBELLUM.png",
+        "detail": "Dokumentuje příběhy pamětníků 20. století a vypráví je dál.",
+        "url": "https://www.postbellum.cz/",
+        "shortTitle": "Post Bellum"
+      }
+    ]
+  }
+}

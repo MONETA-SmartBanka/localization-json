@@ -1,0 +1,329 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Oops, something went wrong",
+                "detail": "An error has occurred. Please try again later.",
+                "callUs": "Call our helpline",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "branch": {
+                "title": "Visit our branch",
+                "detail": "We apologize but we cannot open your account in Smart Banka. <b>Visit one of our branches where we will be happy to assist you, or call our helpline for more information.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "primaryButton": "Cancel the application"
+            },
+            "precontractDisagree": {
+                "title": "We can’t continue without your agreement",
+                "detail": "In order to continue, we need your agreement to Terms and Conditions and the contract <b>Do you have any questions? Let’s talk about it.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit a branch/find the closest branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application"
+            },
+            "contractDisagree": {
+                "title": "We can’t continue without your agreement",
+                "detail": "In order to continue, we need your agreement to Terms and Conditions and the contract <b>Do you have any questions? Let’s talk about it.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit a branch/find the closest branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Welcome to Smart Bank",
+            "toolbarCreateTitle": "Activation of Smart Bank",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
+        },
+        "scenes": {
+            "intro": {
+                "toolbarTitle": "Open an acount",
+                "title": "Open a current account in Smart Banka free of charge.",
+                "detail": "An account that is <b>free of charge</b> and <b>without complicated terms and conditions</b>",
+                "imageUrl": "/cbl_images/card_logos/800_14100.png",
+                "richBullets": [
+                    {
+                        "text": "To open and manage your account",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic incoming payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic outgoing payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic cash withdrawals",
+                        "price": 0
+                    },
+                    {
+                        "text": "Cash withdrawals abroad",
+                        "price": 0
+                    },
+                    {
+                        "text": "SEPA payments within the EU (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Payment card",
+                        "price": 0
+                    },
+                    {
+                        "text": "Mobile payments (Apple a Google Pay)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Instant payments",
+                        "price": 0,
+                        "info": "Instant payments are processed within seconds.\nIf the recipient supports the feature.\nWe are ready."
+                    },
+                    {
+                        "text": "Electronic Account Statements",
+                        "price": 0
+                    },
+                    {
+                        "text": "<a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-platebni-a-neplatebni-sluzby-fon.pdf\">Price list</a>"
+                    }
+                ],
+                "icons": [
+                    {
+                        "text": "Favorable\n<b>savings</b>",
+                        "image": "/cbl_images/current-account/sporeni",
+                        "infoScreen": {
+                            "title": "Favorable savings",
+                            "detail": "Open a savings account in Smart Banka. Open and manage it free-of-charge, and access your finances anytime.\n\nIn your savings account, you can set up different envelopes and enjoy seeing yourself get closer to your dreams. Just name the envelope, set a savings goal, and start saving."
+                        }
+                    },
+                    {
+                        "text": "Simple\n<b>investments</b>",
+                        "image": "/cbl_images/current-account/investovani",
+                        "infoScreen": {
+                            "title": "Simple investments",
+                            "detail": "Investments start as low as a couple hundred Crowns. Smart Banka makes it easy. We will walk you through the purchase and sale and tell you how to keep track of your investments.\n\nEven the most experienced investors will appreciate our new and improved profotilo management."
+                        }
+                    },
+                    {
+                        "text": "The great\n<b>exchange rates</b>",
+                        "image": "/cbl_images/current-account/kurzy",
+                        "infoScreen": {
+                            "title": "The great exchange rates",
+                            "detail": "Exchange Czech Crowns for Euros or US Dollars. Every business day from 8 am to 4 pm you can get one of the best exchange rates on the market. The exchange is instantaneous, free-of-charge and hassle-free.\n\n<b>How does it work?</b>\n\nWith your first exchange, we will open an account in the selected currency (EUR/USD) for you free-of-charge, and we will credit the exchanged amount into the account. Account management is free-of-charge and you can close the account at any time. For you comfort, you also receive a payment card free-of-charge."
+                        }
+                    },
+                    {
+                        "text": "<b>Loans and credit cards</b>\nonline",
+                        "image": "/cbl_images/current-account/express",
+                        "infoScreen": {
+                            "title": "Apply for loans and credit cards online",
+                            "detail": "Apply for Express Loan and receive up to 500,000 CZK in Smart Banka. The process only takes a couple of minutes and you receive the amount within 5 minutes of approval.\n\nYou can also apply for a Smart Credit Card in Smart Banka. Receive 1% of you spending in your most-frequented stores, and receive up to 20% at Bene+ partners. You can start paying using your phone via Apple Pay or Google Pay as soon as the following day."
+                        }
+                    }
+                ],
+                "footnote": {
+                    "text": "<a href=\"https://www.moneta.cz/ucty-a-karty/bezny-ucet\">More about Tom Plus Account</a>",
+                    "title": "In order to proceed online you need:",
+                    "detail": [
+                        "to be 18 years of age or older,",
+                        "to be a resident as well as a tax resident solely of the Czech Republic,",
+                        "your ID card and another from of ID (driver’s license or passport),",
+                        "an account opened in your name in a Czech bank and",
+                        "to take a quick selfie during the application process."
+                    ]
+                },
+                "primaryButton": "Continue",
+                "secondaryButton": "Other options",
+                "investments": {
+                    "title": "Investment funds in the best banking app. Within minutes.",
+                    "detail": "You need an account to invest. We will open one for you free of charge and no strings attached. Payment card and ATM withdrawals are free of charge."
+                },
+                "investmentsIcons": [
+                    {
+                        "text": "Investments made\n<b>Simple</b>",
+                        "image": "/cbl_images/current-account/investovani"
+                    },
+                    {
+                        "text": "<b>No Entry Charge</b>",
+                        "image": "/cbl_images/current-account/zero"
+                    },
+                    {
+                        "text": "Invest from\nCZK <b>300</b>",
+                        "image": "/cbl_images/current-account/money-growth"
+                    },
+                    {
+                        "text": "<b>Specialists available</b>\nonline and in-branch",
+                        "image": "/cbl_images/current-account/support"
+                    }
+                ]
+            },
+            "acquisitionVerification": {
+                "toolbarTitle": "Identity Verification",
+                "title": "Done!\nIt's our turn now",
+                "detail": "It usually takes about 10 minutes on business days.<b>You may close the app and continue later.</b>",
+                "primaryButton": "Log out"
+            },
+            "acquisitionVerificationIntro": {
+                "toolbarTitle": "Identity Verification",
+                "title": "Identity verification via your camera",
+                "detail": [
+                    "We need to make sure that it is really you, and not someone pretending to be you. That is why we need a short video recording of your face.",
+                    "Simple gestures (moving your head from left to right and smiling) help us get an accurate reading.",
+                    "The footage is deleted immediately after verification as your privacy and security is our top priority."
+                ],
+                "primaryButton": "Continue",
+                "secondaryButton": "Disagree"
+            },
+            "acquisitionIntroduction": {
+                "title": "Welcome! In order to continue we need these details:",
+                "wueTitle": "Welcome! We're going to add your Wüstenrot products now:",
+                "infoLabel": "Unikátní kód jsme Vám poslali emailem. Pokud nedorazil, můžete pokračovat i bez něj. Pro tento případ si prosím připravte 2 doklady, například občanský a řidičský průkaz nebo cestovní pas.",
+                "detail": "By continuing, I agree that the information may be sent once in an unencrypted manner to the e-mail address and telephone number above. I also acknowledge  the <a href=\"personalData\"> privacy policy </a> of the MONETA Financial Group.",
+                "primaryButton": "Continue",
+                "checkboxMarketing": "<b>Stay in the loop</b><br>I consent to personal data processing with the purpose of receiving promotional offers from the MONETA Group. I can unsubscribe at any time. <a href=\"marketingConsent\">More</a>",
+                "checkboxUnsecured": "<b>We can communicate easily</b><br>I grant the MONETA Group the right to communicate with me in a regular, unencrypted manner via email or phone. <a href=\"unencryptedCommunication\">More</a>",
+                "checkboxIM": "<b>We can communicate via chat</b><br>I consent to unencrypted communication with the MONETA Group via WhatsApp or other instant messaging platforms. <a href=\"instantMessaging\">More</a>",
+                "instantMessaging": {
+                    "title": "Consent to standard communication via WhatsApp, or other instant messaging application.",
+                    "detail": "I consent to standard communication in the form of unencrypted electronic messages on the WhatsApp platform or other instant messaging platform, which can include information about me or contain information pertaining to the contracts concluded with the companies listed below. The list of the currently used instant messaging platforms can be found at <a href=\\\"https://www.moneta.cz\\\"> www.moneta.cz</a>. I give consent to MONETA Money Bank, a. s., IN: 256 72 720, MONETA Auto, s.r.o., IN: 601 12 743, MONETA Leasing, s.r.o., IN: 607 51 606 and MONETA Stavební Spořitelna, a.s., IN: 471 15 289. These companies shall communicate with me via the bank’s telephone number +420 224 443 636 and + 420 728 133 133. The consent can be revoked anytime. I confirm that I am familiar with the rules and facts of personal data processing listed in the Personal Data Protection section. This information is available online at www.moneta.cz, www.monetaauto.cz. and www.monetaleasing.cz, or by request from an authorized employee."
+                },
+                "firstName": "First Name*",
+                "lastName": "Last Name*",
+                "birthNumber": "Personal identification number*",
+                "email": "Email*",
+                "phone": "Phone*",
+                "code": "One-time authorization code",
+                "codeInfo": "You can find your authorization code in your email",
+                "errors": {
+                    "LOGIN_BLOCKED": {
+                        "title": "Something went wrong",
+                        "detail": "There may be multiple reasons. Call our helpline and we will get to the bottom of it."
+                    },
+                    "OK": {
+                        "title": "Something went wrong",
+                        "detail": "There may be multiple reasons. Call our helpline and we will get to the bottom of it."
+                    },
+                    "LOGIN_FAILED": {
+                        "title": "Something is wrong",
+                        "detail": "Check your details and continue."
+                    },
+                    "ACTIVATE_VIA_IB": {
+                        "title": "Activate your Smart Banka",
+                        "detail": "To proceed please activate your Smart Banka via Internet Banka."
+                    },
+                    "GO_TO_BRANCH": {
+                        "title": "Something went wrong",
+                        "detail": "We are not able to solve it in the app. Visit us at one of our branches."
+                    }
+                },
+                "marketingConsent": {
+                    "title": "Consent to marketing communication",
+                    "detail": "I agree to the processing of my personal data, especially my identification and contact details, information on banking transactions, and data generated during the use of products and services, and other personal information that I have or will share or will otherwise be obtained by the Moneta Group ( MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606 a MONETA Stavební Spořitelna a.s., IČO: 471 15 289) in order to received personalized offers for products and services."
+                },
+                "unencryptedCommunication": {
+                    "title": "Consent to unencrypted communication ",
+                    "detail": "I agree to communication with the members of the MONETA Group (MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606 a MONETA Stavební Spořitelna a.s., IČO: 471 15 289) via unencrypted electronic or SMS communication which may contain personal details and details related to contracts concluded with the members of the MONETA Group."
+                },
+                "personalData": {
+                    "title": "Consent to personal data processing",
+                    "detail": "In order to conclude the contract, it is necessary to process your personal data in order to prepare the contractual documentation, verify your credibility and payment behavior, and to protect the interests of the Bank. More information on the processing of your personal data, other purposes for which it may be processed, the legal reasons for their processing and your legal rights can be found in the ‘Information on the processing of personal data’ document which is available at <a href=\"https://www.moneta.cz/ochrana-dat\">https://www.moneta.cz/ochrana-dat</a>."
+                }
+            },
+            "acquisitionPrecontract": {
+                "title": "Before login, please read the Smart Banka Mini Contract.",
+                "detail": "Download PDF",
+                "checkboxLabel": "I read and agree with the Terms and Conditions of <a href=\"https://www.moneta.cz/documents/cz/smartbanka/produktove_podminky_smart_banka_mini.pdf\">Smart Banky Mini</a>.",
+                "primaryButton": "I understand and agree"
+            },
+            "acquisitionSmsSent": {
+                "title": "Sign with a code that we have just sent to your phone via SMS.",
+                "detail": "The code",
+                "noSMS": "I haven't received a code",
+                "primaryButton": "Continue",
+                "noSMSPopup": {
+                    "title": "Have you not received a code?",
+                    "detail": "It's okay, you can try to send it again.",
+                    "primaryButton": "Send again",
+                    "secondaryButton": "Cancel"
+                },
+                "errors": {
+                    "SMS_CANNOT_SEND": "The SMS could not be sent, please visit us at one of our branches.",
+                    "SMS_FAILED": "The SMS could not be sent, please try again.",
+                    "SMS_LIMIT_EXCEEDED": "You have reached the SMS limit. Please start over from beginning.",
+                    "BAD_MK": "You've entered an invalid code, please try it again.",
+                    "MK_EXPIRED": "The code has expired, send another one",
+                    "CANNOT_VERIFY": "The code could not be verified. Please visit us at one of our branches."
+                }
+            },
+            "acquisitionPinCreate": {
+                "title": "Choose a PIN you will use to log into Smart Banka."
+            },
+            "acquisitionDisagreement": {
+                "title": "We can't continue without your consent",
+                "detail": "You are just a step away from accessing Smart Banka. In order to access it, we need your consent to pre-contractual information and contract signature. <b>Do you have any questions? Let's talk about them.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel",
+                "primaryButton": "Continue"
+            },
+            "acquisitionSign": {
+                "title": "Sign the contract with your PIN"
+            },
+            "documentUpload": {
+                "title": "We need your current ID. Please upload it.",
+                "detail": "All we need a legible clear photo. You can upload them in the app or visit our branch. The photo upload process is secure.",
+                "primaryButton": "Continue",
+                "uploadedDocument": {
+                    "title": "<b>Please take a photo of both sides of your ID.</b>",
+                    "labels": [
+                        "Add the front of your <br>ID",
+                        "Add the back of your <br>ID"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Choose the upload method",
+                    "camera": "Camera",
+                    "photos": "Choose from gallery",
+                    "files": "Choose from files"
+                }
+            },
+            "documentUploadReview": {
+                "title": "Did we get it right?",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "birthNumber": "Personal identification number",
+                "city": "City",
+                "descriptiveNumber": "Desc. No",
+                "orientationNumber": "Or. No",
+                "idCardNumber": "ID card number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Try again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, something's wrong",
+                "detail": "We couldn't read your details. Please make sure the photo is well lit and the text are legible.",
+                "tryAgain": "Let's try again: ",
+                "primaryButton": "Try again"
+            },
+            "helpUploadDocument": {
+                "title": "We need your current ID to continue",
+                "toolbarTitle": "Identity verification",
+                "detail": "As some of your details may have changed, we need your ID to verify them. All we need a legible clear photo. You can upload it in the app or visit our branch. The photo upload process is secure and it only takes a minute.  <b>Do you have any questions? Let's talk about them.</b>",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue the application",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat needs to look things over."
+            }
+        }
+    }
+}

@@ -1,0 +1,166 @@
+{
+    "errorScreens": {
+        "contractDisagree": {
+            "title": "Bez souhlasu to bohužel nepůjde",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+            "callUs": "Zavolejte nám na infolinku",
+            "branch": "Navštivte nás na pobočce",
+            "secondaryButton": "Ukončit žádost",
+            "primaryButton": "Zpět"
+        },
+        "otherReason": {
+            "title": "Registrace se nezdařila",
+            "detail": "Zkuste to prosím znovu za chvíli.\n\nUjistěte se, že vaše telefonní číslo není pro platby na kontakt zaregistrované u jiné banky.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "unavailable": {
+            "title": "Něco se vymňouklo",
+            "detail": "Platby na kontakt momentálně nejsou dostupné.\nZkuste to prosím za chvíli znovu.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "smsSendError": {
+            "title": "Nepodařilo se odeslat potvrzovací SMS",
+            "detail": "Můžete to zkusit zase zítra.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "signDocumentError": {
+            "title": "Registrace se nezdařila",
+            "detail": "Zkuste to prosím znovu za chvíli.\n\nUjistěte se, že vaše telefonní číslo není pro platby na kontakt zaregistrované u jiné banky.",
+            "primaryButton": "Přejít na Přehled",
+            "secondaryButton": "Zkusit znovu"
+        },
+        "api": {
+            "title": "Jejda, něco se pokazilo",
+            "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.",
+            "primaryButton": "Zpět"
+        }
+    },
+    "general": {
+        "toolbarTitle": "Platba na kontakt"
+    },
+    "scenes": {
+        "registration": {
+            "title": "Peníze můžete odesílat i přijímat platbou na kontakt",
+            "description": "Spárujte si telefonní číslo se svým účtem, aby vám přes něj mohli ostatní posílat peníze.\n\nRychle a bez zbytečných poplatků.",
+            "section": "Vyberte si účet pro přijímání plateb",
+            "sectionSubtitle": "Vaše telefonní číslo se tak stane jedinečným identifikátorem pro platby na kontakt.",
+            "phoneNumber": "Vaše telefonní číslo",
+            "account": "Váš běžný účet",
+            "primaryButton": "Spárovat číslo s účtem",
+            "secondaryButton": "Odložit na později"
+        },
+        "inAnotherBank": {
+            "title": "Platby na kontakt už máte registrované jinde. Protože je můžete využívat jen s jedním účtem, spárujte si je u nás",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Otevřete si bankovní aplikaci jiné banky"
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Vyhledejte nastavení plateb na kontakt",
+                    "description": "Obvyklé umístění takové položky bývá v nastavení aplikace nebo účtu."
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Odpárujte telefonní číslo od svého účtu v jiné bance"
+                },
+                {
+                    "icon": "plain4",
+                    "text": "Vraťte se do Smart Banky a spárujte si číslo u Monety"
+                }
+            ],
+            "primaryButton": "Hotovo, používat Monetu",
+            "secondaryButton": "Přejít na Přehled"
+        },
+        "phoneNumberValidation": {
+            "title": "Na uvedené telefonní číslo jsme vám zaslali kód pro registraci",
+            "description": "Potvrďte spárování účtu a telefonního čísla",
+            "label": "Kód z SMS",
+            "primaryButton": "Potvrdit",
+            "secondaryButton": "Kód nepřišel. Poslat další?",
+            "secondaryButtonDisabled": "Kód nepřišel. Poslat další? ({0} s)",
+            "wrongCode": "Zadejte kód, který jsme Vám zaslali v SMS",
+            "expiredCode": "Vypršela platnost nebo počet pokusů na zadání kódu, můžete si zaslat nový",
+            "loading": "Posíláme Vám kontrolní SMS"
+        },
+        "waitingBeforeContract": {
+            "title": "Připravujeme Vám smlouvu, chvilku strpení prosím."
+        },
+        "contract": {
+            "title": "Přečtěte si Podmínky používání služby",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a ve vašem e-mailu.",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "sign": {
+            "title": "Zadejte PIN"
+        },
+        "busyLoaderBankSigning": {
+            "title": "Teď to musíme podepsat my, chvilku strpení prosím."
+        },
+        "victory": {
+            "title": "Hotovo!\nOd teď můžete přijímat platby na vaše telefonní číslo",
+            "detail": "Jak odesílat platby na telefonní číslo?",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Ve svém účtu vyberte možnost Platba na kontakt"
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Zadejte telefonní číslo příjemce"
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Pokud má příjemce spárovaný účet s telefonním číslem, platbu odešleme.",
+                    "description": "Když účet s číslem spárovaný není, dáme vám vědět, abyste mohli zaplatit převodem na účet."
+                }
+            ],
+            "primaryButton": "Povolte přístup ke kontaktům",
+            "secondaryButton": "Přejít na Přehled"
+        },
+        "settings": {
+            "title": "Platby na kontakt",
+            "detail": "Službu máte aktivní pro:",
+            "phoneNumber": "Vaše telefonní číslo",
+            "account": "Váš účet",
+            "primaryButton": "Odpárovat číslo",
+            "secondaryButton": "Prodloužit",
+            "tertiaryButton": "Zrušit výpověď",
+            "expiration": "Z bezpečnostních důvodů Platby na kontakt brzy vyprší. Budete je chtít prodloužit?",
+            "termination": "Platby na kontakt jste neprodloužili. Proto je za vás automaticky rušíme.",
+            "unavailable": "Platby na kontakt jsou momentálně nedostupné. Vraťte se sem prosím později.",
+            "unpair": "Telefonní číslo jsme odpárovali.",
+            "prolong": "Platby na kontakt jsme prodloužili.",
+            "terminationCancel": "Výpověď jsme zrušili.\nPlatby na kontakt jsou prodlouženy."
+        },
+        "push": {
+            "mobileChange": {
+                "title": "Na vaše telefonní číslo momentálně není možné přijímat platby na kontakt",
+                "detail": "Protože jste změnil*a některý z důležitých údajů, z bezpečnostních důvodů jsme platby na kontakt odpárovali.\n\nChcete si číslo spárovat znovu?",
+                "primaryButton": "Spárovat telefonní číslo",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "expiring": {
+                "title": "Využíváte platby na kontakt? A chcete s nimi pokračovat?",
+                "detail": "Spárování telefonního čísla je potřeba čas od času potvrdit. Službu vám můžeme zdarma prodloužit.",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nepokračovat",
+                "tertiaryButton": "Přejít na Přehled"
+            },
+            "expired": {
+                "title": "Na vaše telefonní číslo momentálně není možné přijímat platby na kontakt",
+                "detail": "Protože jste neprodloužili platby na kontakt, z bezpečnostních důvodů jsme je deaktivovali.",
+                "primaryButton": "Znovu aktivovat",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "cancellation": {
+                "title": "Neprodloužili jste platby na kontakt",
+                "detail": "Do 2 měsíců vám je automaticky zrušíme. Chcete je využívat i nadále?",
+                "primaryButton": "Zrušit výpoveď",
+                "secondaryButton": "Přejít na Přehled"
+            }
+        }
+    }
+}

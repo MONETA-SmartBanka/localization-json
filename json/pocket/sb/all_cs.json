@@ -1,0 +1,158 @@
+{
+    "general": {
+        "toolbarTitle": "Pojištění cenností, karet, elektroniky a telefonu",
+        "phoneNumber": "+420 224 443 636",
+        "phoneNumberAssist": "+420 234 240 244"
+    },
+    "screens": {
+        "help": {
+          "title": "Potřebujete poradit?",
+          "detailBranch": "Vyhledejte pobočku",
+          "detailCall": "Zavolejte nám",
+          "primaryButton": "Zpět",
+          "secondaryButton": "Ukončit sjednání"
+        },
+        "intro": {
+            "single": {
+                "bullets": [
+                    "Kompenzuje odcizenou hotovost nebo peníze z účtu včetně phishingu, a také odcizení nebo ztrátu osobních i služebních věcí",
+                    "Uhradí opravu rozbitého mobilu či tabletu, případně přispěje na nákup nového zařízení",
+                    "Ochrání při online nákupech, pokud zboží není doručeno, přijde poškozené nebo přijde jiné.",
+                    "Pomůže vám doma i v zahraničí"
+                ],
+                "limits": [
+                    {
+                        "name": "Zneužití platebních karet, elektronických plateb, phishing",
+                        "value": 250000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Odcizení nebo ztrátu osobních a služebních věcí",
+                        "value": 50000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Rozbití telefonu, tabletu se Smart Bankou",
+                        "value": 50000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Nedoručení internetové objednávky",
+                        "value": 50000,
+                        "currency": "CZK"
+                    }
+                ],
+                "limitsLink": "https://www.moneta.cz/documents/20143/11931938/mmb-pojisteni-cennosti-karet-elektroniky-telefonu-tabulka-limitu.pdf",
+                "limitsTitle": "Pojištění kryje"
+            },
+            "family": {
+                "bullets": [
+                    "Kompenzuje odcizenou hotovost nebo peníze z účtu včetně phishingu, a také odcizení nebo ztrátu osobních i služebních věcí",
+                    "Uhradí opravu rozbitého mobilu či tabletu, případně přispěje na nákup nového zařízení",
+                    "Ochrání při online nákupech, pokud zboží není doručeno, přijde poškozené nebo přijde jiné.",
+                    "Pomůže vám i vaší rodině doma i v zahraničí"
+                ],
+                "limits": [
+                    {
+                        "name": "Zneužití platebních karet, elektronických plateb, phishing",
+                        "value": 250000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Odcizení nebo ztrátu osobních a služebních věcí",
+                        "value": 50000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Rozbití telefonu, tabletu se Smart Bankou",
+                        "value": 50000,
+                        "currency": "CZK"
+                    },
+                    {
+                        "name": "Nedoručení internetové objednávky",
+                        "value": 50000,
+                        "currency": "CZK"
+                    }
+                ],
+                "limitsLink": "https://www.moneta.cz/documents/20143/11931938/mmb-pojisteni-cennosti-karet-elektroniky-telefonu-tabulka-limitu.pdf",
+                "limitsTitle": "Pojištění vám a vaší rodině kryje"
+            },
+            "singleName": "Jen já",
+            "familyName": "Já s rodinou",
+            "familyBadge": "PRO VÁS I RODINU",
+            "familyHelp": {
+                "title": "Pojištění pro vás a vaši rodinu",
+                "detail": "Pojištění ve variantě <b>Já s rodinou</b> je platné pro vás a:\n⚫︎ manžel*ka, registrovaný*á partner*ka, druh*družka, za podmínky, že partner žije s majitelem účtu ve společné domácnosti.\n⚫︎ děti majitele účtu nebo jeho partnera žijícího s majitelem účtu ve společné domácnosti, včetně dětí osvojených, svěřených do pěstounské péče nebo do výchovy, mladší 18 let. Počet dětí není omezen."
+            },
+            "selectionTitle": "Kdo se pojišťuje?",
+            "linkTitle": "Kompletní seznam všech krytí",
+            "primaryButton": "Pokračovat"
+        },
+        "agreement": {
+            "accountSelectTitle": "Účet pro platbu",
+            "summary": "Rekapitulace",
+            "insurance": "Pojištění",
+            "insuranceType": "Typ pojištění",
+            "active": "Aktivní od",
+            "insuranceEnd": "Konec pojištění",
+            "insuranceEndNoLimit": "Bez omezení",
+            "insurancePaymentTitle": "Úhrada za pojištění",
+            "insurancePaymentDescription": "Platba se strhne automaticky a bude jí uhrazeno pojistné za předchozí měsíc.",
+            "agreementTitle": "Potvrzuji, že jsem se seznámil*a s informacemi o produktu a <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-cennosti-karet-elektroniky-telefonu.pdf\">Podmínkami pojištění</a>",
+            "agreementInfo": "Smluvní dokumentaci k pojištění najdete po sjednání ve vaší Smart Bance.",
+            "primaryButton": "Sjednat pojištění za %@ / měsíc"
+        },
+        "contract": {
+            "title": "Přečtěte si souhlas s pojištěním",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "busyLoader": {
+            "title": "Připravujeme vám pojištění",
+            "detail": "Zabere to jen chviličku."
+        },
+        "victory": {
+            "title": "Hotovo.\nPojištění vám platí od půlnoci",
+            "detail": "Přehled vašich pojištění najdete v sekci Moje pojištění.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "disagree": {
+            "title": "Bez souhlasu to bohužel nepůjde",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\na pobočce",
+            "secondaryButton": "Ukončit sjednání",
+            "primaryButton": "Zpět"
+        },
+        "packageChange": {
+            "single": {
+                "title": "Změna pojištění: z rodiny bude jednotlivec",
+                "name": "Pojištění cenností, karet, elektroniky a telefonu",
+                "priceLocalized": "139 Kč",
+                "frequencyLocalized": "měsíčně"
+            },
+            "family": {
+                "title": "Změna pojištění: z jednotlivce bude rodina",
+                "name": "Pojištění cenností, karet, elektroniky a telefonu RODINA",
+                "infoSectionTitle": "Pojištění Já s rodinou je platné pro vás a:",
+                "infoSection": [
+                    "Manžel*ka, registrovaný*á partner*ka, druh*družka, za podmínky, že partner žije s majitelem účtu ve společné domácnosti.",
+                    "Děti majitele účtu nebo jeho partnera žijícího s majitelem účtu ve společné domácnosti, včetně dětí osvojených, svěřených do pěstounské péče nebo do výchovy, mladší 18 let. Počet dětí není omezen."
+                ],
+                "priceLocalized": "249 Kč",
+                "frequencyLocalized": "měsíčně"
+            },
+            "monthlyPayment": "Úhrada za pojištění",
+            "changeSectionTitle": "Jak bude změna probíhat?",
+            "changeSection": [
+                "Nejprve zrušíme stávající pojištění",
+                "Poté sjednáme nové"
+            ],
+            "activationSectionTitle": "Od kdy bude pojištění aktivní?",
+            "activeFrom": "Aktivní od",
+            "activationSectionInfo": "Tento den zároveň skončí platnost současného pojištění.",
+            "primaryButton": "Pokračovat"
+        }
+    }
+}

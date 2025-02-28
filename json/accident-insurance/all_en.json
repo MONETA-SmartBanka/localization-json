@@ -1,0 +1,330 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong. Call our Helpline and we will figure it out together.",
+                "detail": "We're sorry, currently we cannot continue to arrange accident insurance in Smart Banka.",
+                "callUs": "Call our Helpline. ",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "contractDisagree": {
+                "title": "We need your consent to continue",
+                "detail": "Do you have any questions? Don't hesitate to contact us.",
+                "callUs": "Call our Helpline ",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Accident Insurance",
+            "toolbarCreateTitle": "Accident Insurance",
+            "phoneNumberSupport": "234 240 240",
+            "phoneNumberSale": "224 443 636",
+            "messengerUrl": "https://m.me/138479367229"
+        },
+        "codeTable": [
+            {
+                "code": "ACCIDENT_INSURANCE",
+                "text": "Accident Insurance"
+            },
+            {
+                "code": "INSURANCE_ACC_J_PARENT_CARDIF",
+                "text": "Child"
+            },
+            {
+                "code": "INSURANCE_ACC_ADULT_CARDIF",
+                "text": "Single"
+            },
+            {
+                "code": "INSURANCE_ACC_FAMILY_CARDIF",
+                "text": "Family"
+            }
+        ],
+        "scenes": {
+            "accidentInsuranceIntro": {
+                "title": "Accident Insurance",
+                "image": "/cbl_images/accident-insurance/intro/image",
+                "bullets": [
+                    "<b>Accident insurance</b> for children, adults and families valid globally.",
+                    "Double benefits in case of a traffic accident.",
+                    "<b>Children receive double benefits during all school holidays.</b>",
+                    "From 129 CZK/mon. Depending on the selected bundle (Junior, Single, Family)."
+                ],
+                "detail": "Insurance helps offset the financial impact of receiving treatment and the subsequent recovery after an accident.",
+                "note": "Accident insurance is provided in cooperation with BNP Paribas Cardif Pojišťovna, a.s.",
+                "primaryButton": "Continue"
+            },
+            "accidentInsuranceSubtype": {
+                "title": "Who is being insured?",
+                "options": [
+                    {
+                        "code": "INSURANCE_ACC_J_PARENT_CARDIF",
+                        "title": "Junior",
+                        "price": "129 CZK",
+                        "currency": "CZK",
+                        "unit": " / month",
+                        "description": "Insurance for you and your child in case you need to take care of them and/or accompany them while they are hospitalized. With double benefits during all school holidays and in case of a car accident.",
+                        "limits": {
+                            "title": "Junior: Select Benefits",
+                            "values": [
+                                {
+                                    "title": "Permanent Disability",
+                                    "price": "up to 400 000",
+                                    "alternativeTitle": "During school holidays and in case of a car accident",
+                                    "alternativePrice": "up to 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Surgery as a result of an accident",
+                                    "price": "up to 30 000",
+                                    "alternativeTitle": "During school holidays and in case of a car accident",
+                                    "alternativePrice": "up to 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospital stay after an accident <br/>+ subsequent recovery",
+                                    "price": "1 800",
+                                    "alternativeTitle": "During school holidays and in case of a car accident",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Caring for a family member after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "During school holidays and in case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Hospital stay with a child after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "During school holidays and in case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                }
+                            ],
+                            "detail": "The final amount to be paid out after an accident is determined as a percentage of contractual benefits based on the severity of the accident/injury,",
+                            "terms": "What is covered and what are the limits?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Insurance framework",
+                            "values": [
+                                {
+                                    "title": "Entry age:",
+                                    "value": "Before 18 years of age"
+                                },
+                                {
+                                    "title": "Coverage expires:",
+                                    "value": "When the child turns 27 years of age"
+                                },
+                                {
+                                    "title": "Coverage starts:",
+                                    "value": "Tomorrow, {{tomorrowDate}} from 0:00 "
+                                },
+                                {
+                                    "title": "Insurance expires:",
+                                    "value": "On the last day of the calendar year in which the child turns 27 years of age."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": "INSURANCE_ACC_ADULT_CARDIF",
+                        "title": "Single",
+                        "price": "199 CZK",
+                        "currency": "CZK",
+                        "unit": " / month",
+                        "description": "Insurance for you as the owner of this Current account. With double benefits in case of car accident.",
+                        "limits": {
+                            "title": "Single: Select Benefits",
+                            "values": [
+                                {
+                                    "title": "Permanent Disability",
+                                    "price": "up to 400 000",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "up to 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Surgery as a result of an accident",
+                                    "price": "up to 30 000",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "up to 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospital stay after an accident <br/>+ subsequent recovery",
+                                    "price": "1 800",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Caring for a family member after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Hospital stay with a child after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                }
+                            ],
+                            "detail": "The final amount to be paid out after an accident is determined as a percentage of contractual benefits based on the severity of the accident/injury,",
+                            "terms": "What is covered and what are the limits?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Insurance framework",
+                            "values": [
+                                {
+                                    "title": "Age:",
+                                    "value": "18–65 years of age"
+                                },
+                                {
+                                    "title": "Coverage expires:",
+                                    "value": "At 70 years of age"
+                                },
+                                {
+                                    "title": "Coverage starts:",
+                                    "value": "Tomorrow, {{tomorrowDate}} from 0:00 "
+                                },
+                                {
+                                   "title": "Insurance expires:",
+                                    "value": "On the last day of the calendar year in which the insured person turns 70 years of age."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": "INSURANCE_ACC_FAMILY_CARDIF",
+                        "title": "Family",
+                        "price": "359 CZK",
+                        "currency": "CZK",
+                        "unit": " / month",
+                        "description": "For you, your partner and children. Children receive double benefits during all school holidays and in case of a car accident.",
+                        "limits": {
+                            "title": "Family: Select Benefits",
+                            "values": [
+                                {
+                                    "title": "Permanent Disability",
+                                    "price": "up to 400 000",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "up to 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Surgery as a result of an accident",
+                                    "price": "up to 30 000",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "up to 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospital stay after an accident <br/>+ subsequent recovery",
+                                    "price": "1 800",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Caring for a family member after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                },
+                                {
+                                    "title": "Hospital stay with a child after an accident",
+                                    "price": "600",
+                                    "alternativeTitle": "In case of a car accident",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/day"
+                                }
+                            ],
+                            "detail": "The final amount to be paid out after an accident is determined as a percentage of contractual benefits based on the severity of the accident/injury,",
+                            "terms": "What is covered and what are the limits?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Insurance framework",
+                            "values": [
+                                {
+                                    "title": "Age:",
+                                    "value": "18–65 years of age for adults, 0–18 years of age for children."
+                                },
+                                {
+                                    "title": "Coverage expires:",
+                                    "value": "At 70 years of age for adults. At 18 years of age for children."
+                                },
+                                {
+                                    "title": "Coverage starts:",
+                                    "value": "Tomorrow, {{tomorrowDate}} from 0:00"
+                                },
+                                {
+                                    "title": "Insurance expires:",
+                                    "value": "On the last day of the calendar year in which the insured person turns 70 years of age or children turns 18 years of age."
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "accidentInsuranceJunior": {
+                "title": "Accident Insurance: Child",
+                "detail": "The child's information",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "personalNumber": "Birth Number",
+                "info": "Birth Number must include the digits after the slash.",
+                "checkbox": "I hereby confirm, that I am arranging insurance for my own (or adopted) child of 0-18 years of age.",
+                "primaryButton": "Continue"
+            },
+            "accidentInsuranceSummary": {
+                "title": "Check the information below",
+                "sourceAccountTitle": "The insurance will be paid from",
+                "summaryTitle": "Insurance Overview",
+                "insurance": "Insurance",
+                "variant": "Type",
+                "dateCreated": "Date of arrangement",
+                "dateStart": "Coverage starts",
+                "price": "Premium",
+                "perMonth": " / month",
+                "paymentDue": "Premium due date",
+                "paymentDueValue": "the following month of arrangement, the premium will be deducted from your account no later tha on the 5th business day of the month.",
+                "checkbox": "I confirm that I have read and understood <a href=\"https://www.moneta.cz/documents/20143/11819140/mmb-brozura-urazove-pojisteni.pdf\">Insurance Terms and Conditions</a>",
+                "checkboxNotDisabled": "I, as the owner of the Current Account, confirm, that I do not suffer disability of I.-III. degree.",
+                "info1": "Carefully read the Accident Insurance information materials, which set out the exclusions and limits of insurance coverage.",
+                "info2": "The contractual documentation will be sent to you in electronic form. You can receive a physical copy at any <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\"> MONETA Money Bank branch </a>",
+                "primaryButton": "Arrange insurance {{type}} for {{fee}} {{currency}} / month",
+                "currency": "CZK"
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we are preparing the contract"
+            },
+            "accidentInsuranceContract": {
+                "title": "Read the Insurance Agreement",
+                "detail": "Download PDF",
+                "primaryButton": "Agree",
+                "secondaryButton": "Decline"
+            },
+            "sign": {
+                "title": "Enter your PIN"
+            },
+            "accidentInsuranceVictory": {
+                "title": "Done!\n Your accident insurance is active as of tomorrow.",
+                "detail": "You can find all information about your insurance under Insurance in the menu.",
+                "primaryButton": "View my Insurance",
+                "secondaryButton": "Back to Overview"
+            }
+        }
+    }
+}

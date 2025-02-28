@@ -1,0 +1,95 @@
+{
+    "errorScreens": {
+        "defaultError": {
+            "title": "Jejda, něco se pokazilo",
+            "detail": "Mrzí nás to, ale z technických důvodů teď není možné proces dokončit. Zkuste to prosím znovu, popřípadě se můžete k žádosti vrátit později.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zkusit znovu",
+            "secondaryButton": "Zpět na přehled"
+        }
+    },
+    "scenes": {
+        "productSummary": {
+            "title": "Úvěr zajištěný nemovitostí",
+            "description": "Nyní se splatností až 30 let a zvýšenou maximální částkou.",
+            "bullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Úvěr do 30 milionů Kč",
+                    "description": "Peníze po schválení převedeme najednou na Váš běžný podnikatelský účet."
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Bez dokládání účelu",
+                    "description": "Úvěrem financujete Vaši podnikatelskou činnost. Schvalování je rychlé a jednoduché."
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Splatnost až 30 let",
+                    "description": "Díky zajištění nabízíme delší dobu splácení a nižší splátku."
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Zajištění nemovitostí",
+                    "description": "Jako zástavu lze využít rezidenční i nerezidenční nemovitosti včetně pozemků na území ČR."
+                }
+            ],
+            "arrangementSectionHeaderTitle": "Jak probíhá sjednání",
+            "arrangementBullets": [
+                {
+                    "text": "Telefonická konzultace",
+                    "description": "Zavolejte svému bankéři pro podrobnější informace"
+                },
+                {
+                    "text": "Jaké dokumenty si připravit",
+                    "description": " \u2022 dva identifikační doklady\n \u2022 doklad opravňující k podnikání\n \u2022 dvě daňová přiznání v plném rozsahu\n \u2022 identifikace nemovitosti + aktuální fotografie interiéru a exteriéru"
+                },
+                {
+                    "text": "Sjednání úvěru",
+                    "description": "Nemusíte dokládat účel úvěru. Úvěrem financujete svou podnikatelskou činnost. Schvalování je rychlé a jednoduché"
+                }
+            ],
+            "primaryButton": "Zavolat bankéři",
+            "secondaryButton": "Zavolejte mi",
+            "bottomSheet": {
+                "title": "Zavolat bankéři",
+                "description": "Kontaktujte svého osobního bankéře",
+                "primaryButton": "{privateBankerName} \u2022 {privateBankerPhoneNumber}"
+            }
+        },
+        "calculator": {
+            "title": "Komu budeme volat?",
+            "firstName": "Jméno",
+            "lastName": "Příjmení",
+            "phone": "Telefon",
+            "email": "Email",
+            "dateSectionHeader": "Kdy Vás můžeme kontaktovat?",
+            "date": {
+                "title": "Datum",
+                "hint": "Vyberte datum"
+            },
+            "time": {
+                "title": "Čas",
+                "hint": "Vyberte čas"
+            },
+            "calculatorSectionHeader": "Kolik potřebujete peněz?",
+            "loanAmount": "Výše úvěru",
+            "collateralType": "Jakou nemovitostí úvěr zajistíte?",
+            "primaryButton": "Pokračovat",
+            "collateralTypes": {
+                "house": "Rodinný dům",
+                "flat": "Byt",
+                "commercialSpace": "Komerční prostory",
+                "land": "Pozemek",
+                "unknown": "Jiné"
+            }
+        },
+        "victory": {
+            "title": "Hotovo! Náš bankéř se Vám ozve.",
+            "detail": "Na Váš email {email} jsme odeslali potvrzení žádosti o telefonický kontakt.\n\nBrzy vás budeme kontaktovat, abychom se dohodli na podrobnostech.\nV případě změny z Vaší strany nebo dotazů nás můžete kontaktovat na naší infolince.",
+            "primaryButton": "Zpět na Přehled",
+            "secondaryButton": "Infolinka {phoneNumber}"
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "reasons": {
+        "title": "We’re sorry to see you go",
+        "primaryButton": "Close my account",
+        "secondaryButton": "Close account later",
+        "reasonHint": "In order to provide better services in the future, we’d like to know why you’ve decided to close your account",
+        "reasonTitle": "Reason for closing the account",
+        "voteHint": "Please rate your experience using this product",
+        "reasonsTitle": "What is the reason you have decided to close your account?",
+        "reasons": [
+            {
+                "title": "I´m no longer using this account",
+                "value": "NOT_USING"
+            },
+            {
+                "title": "I´m not satisfied with the interest rate ",
+                "value": "INTEREST_RATE"
+            },
+            {
+                "title": "I´m not satisfied with the services",
+                "value": "SERVICES"
+            },
+            {
+                "title": "I wish to invest the funds",
+                "value": "INVESTMENT"
+            },
+            {
+                "title": "Other",
+                "value": "OTHER"
+            }
+        ],
+        "reasonsCurrentAccount": [
+            {
+                "title": "I have a new / another current account with a different bank",
+                "value": "OTHER_BANK_NEW_ACCOUNT"
+            },
+            {
+                "title": "I have a mortgage with another bank which requires that I use the bank’s current account",
+                "value": "OTHER_BANK_MORTGAGE"
+            },
+            {
+                "title": "I´m not satisfied with MONETA Money Bank",
+                "value": "OTHER"
+            }
+        ]
+    },
+    "balanceTransfer": {
+        "title": "Close account {0}",
+        "balanceSectionTitle": "Where should we transfer the remaining balance?",
+        "otherProductsTerminationSectionTitle": "Together with the account, you will also close",
+        "primaryButton": "Close account"
+    },
+    "balanceTransferConfirmation": {
+        "title": "This action cannot be undone",
+        "detail": "<b>If you decide to close this account, you will not be able to recover. Thus, if you ever wish to open a current account with MONETA Money Bank again, it will be a brand new account.</b>\n You can still change your mind and decide to close the account later.",
+        "primaryButton": "I have read and understood the information. Continue",
+        "secondaryButton": "Close account later"
+    },
+    "contract": {
+        "title": "Read the Account Close Agreement",
+        "primaryButton": "I agree, continue",
+        "secondaryButton": "Decline"
+    },
+    "success": {
+        "title": "Done! Thank you for using MONETA Money Bank.",
+        "detail": "Closing the account might take a while. If there is a problem we will contact you."
+    },
+    "contractDisagree": {
+        "title": "Your agreement is required in order to continue",
+        "detail": "Do you have any questions? Call us or visit the nearest branch.",
+        "callUs": "Call\nHelpline",
+        "branch": "Visit\nBranch",
+        "primaryButton": "Back",
+        "secondaryButton": "Cancel Account Closure"
+    },
+    "error": {
+        "title": "Unfortunately, the account cannot be closed at this moment",
+        "statusErrors": [
+            {
+                "status": "RESERVATION",
+                "text": "Please close the account in person at one of our branches. The account cannot be closed online."
+            },
+            {
+                "status": "NONPROCESED_TRANSACTION",
+                "text": "The account cannot be closed at this moment due to an unprocessed transaction. Please try again later."
+            },
+            {
+                "status": "PRODUCT",
+                "text": "Please close the account in person at one of our branches. The account cannot be closed online as it is tied to another product:"
+            },
+            {
+                "status": "BALANCE",
+                "text": "The account is overdrawn or might become overdrawn during the closing process and thus cannot be closed online. Please close the account in person at one of our branches."
+            }
+        ]
+    }
+}

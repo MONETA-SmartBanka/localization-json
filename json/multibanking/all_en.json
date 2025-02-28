@@ -1,0 +1,48 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {},
+        "scenes": {
+            "intro": {
+                "title": "Adding an account is so easy",
+                "detail": "Smart Banka allows you to add accounts from other banks. In this version you can view your current balances and transaction history in your other banks accounts. Gradually we will be adding more features. We want you to enjoy using our app so we would appreciate any feedback. You agree to the multibanking service by adding an account in your another bank.",
+                "bullets": [
+                    "1. Choose the bank with which you have the account you want to add to Smart Banka. We currently only support some banks but more are to come.",
+                    "2. Log into the internet banking of the bank which you have selected. You can remain calm, your data is safe and nobody else can access them.",
+                    "3. Your account overview will now show your primary account in the bank which you have selected. At this time we can only show the primary account i.e. the account which you see when you log into your internet or mobile banking. The option to add multiple accounts should come in the next version of the app."
+                ],
+                "primaryButton": "Continue"
+            },
+            "agreement": {
+                "title": "Read the Contract of checking account information service",
+                "detail": "Download the PDF",
+                "contract": [
+                    "<b>Smlouva o poskytnutí služby informování o platebním účtu</b> (dále jen „Smlouva“)",
+                    "1. MMB jako poskytovatel služby informování o platebním účtu poskytuje Klientovi za podmínek uvedených v této Smlouvě službu informování o platebním účtu prostřednictvím služby Smart Banka.",
+                    "2. MMB sdělí Klientovi informace o jiném platebním účtu Klienta než vedeném MMB.",
+                    "3. MMB sdělí Klientovi informace o platebním účtu poté, kdy osobní bezpečnostní prvky přidělené jiným poskytovatelem pro účely přístupu k platebnímu účtu on-line Klient zadá v aplikačním rozhraní tohoto poskytovatele, na které jej MMB přesměruje ze Smart Banky a kdy MMB tyto informace od jiného poskytovatele obdrží. Podmínkou sdělení informací je, že platební účet vedený jiným poskytovatelem je přístupný prostřednictvím internetu a zpřístupněný pro využití služby informování o platebním účtu.",
+                    "4. Službu informování o platebním účtu je oprávněn využívat pouze Klient, který je majitelem daného účtu nebo osobou zmocněnou majitelem účtu k využívání služby informování o účtu. Uzavřením této Smlouvy Klient prohlašuje, že splňuje některou z podmínek uvedených v předchozí větě tohoto odstavce.",
+                    "5. Službu informování o platebním účtu poskytuje MMB Klientovi bezúplatně.",
+                    "6. MMB neodpovídá za neposkytnutí služby informování o platebním účtu dle tohoto ujednání PPSB v případě, že jejímu poskytnutí zabránila okolnost, která je neobvyklá, nepředvídatelná či nezávislá na vůli MMB a jejíž následky nemohla MMB odvrátit.",
+                    "7. Součástí této Smlouvy jsou Základní produktové podmínky služby Smart Banka, které se přiměřeně použijí na službu informování o platebním účtu, zejména pokud jde o samostatné ukončení této služby výpovědí, odstoupením z důvodu Případu porušení, či o blokaci služby.",
+                    "8. Zaškrtnutím pole „Pokračovat“ je uzavřena Smlouva a Klient vyjadřuje souhlas s poskytnutím služby informování o platebním účtu týkající se všech platebních účtů Klienta."
+                ],
+                "primaryButton": "Continue",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "banks": {
+                "title": "You can now manage your other bank accounts in Smart Banka."
+            },
+            "victory": {
+                "title": "You can now see your account balance in Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "failure": {
+                "title": "Adding account failed. Please try again later.",
+                "csasTitle": "Adding account failed.",
+                "csas": "Česká spořitelna a.s. needs your consent with the possibility to make your accounts or your personal data accessible by third parties in order to ensure the security of your funds in the digital world. The consent may be provided with the Administration of Third parties application accessible from your internet banking of Česka spořitelna (section Settings).\n\nUpon providing the consent, you may sign into Smart Banka and finish the enrolment.",
+                "primaryButton": "Back to Balance Overview"
+            }
+        }
+    }
+}

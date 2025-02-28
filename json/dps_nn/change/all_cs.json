@@ -1,0 +1,614 @@
+{
+  "status": "OK",
+  "responseObject": {
+    "errorScreens": {
+      "api": {
+        "title": "Omlouváme se, něco se vymňouklo",
+        "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "primaryButton": "Zpět"
+      },
+      "contractDisagree": {
+        "title": "Bez souhlasu to bohužel nepůjde",
+        "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Zpět"
+      }
+    },
+    "scenes": {
+      "changeType": {
+        "title": "Nastavení spoření",
+        "deposits": {
+          "title": "Příspěvky a vklady",
+          "detail": "Ke svému vkladu můžete získat dalších až {0} měsíčně od státu. Nastavit tu můžete také příspěvky od zaměstnavatele."
+        },
+        "strategy": {
+          "title": "Strategie",
+          "detail": "Odvážnější strategie může přinést vyšší zhodnocení, ale i rizika."
+        },
+        "secondaryButton": "Zpět"
+      },
+      "depositsCalculator": {
+        "title": "Příspěvky a vklady",
+        "detail": "Změny budou platné od prvního dne následujícího měsíce.",
+        "deposit": "Váš měsíční vklad",
+        "contribution": {
+          "title": "Státní příspěvek",
+          "term": "ročně",
+          "description": "Pro minimální státní příspěvek vkládejte alespoň <a href=\"500\">500 Kč</a> měsíčně.\n\nPro maximální příspěvek vkládejte <a href=\"1700\">1 700 Kč</a> nebo více.",
+          "message": "Aby vám mohl být připsán odpovídající státní příspěvek, je třeba upravit výši vkladu ve smlouvě."
+        },
+        "employerContribution": "Bude mi přispívat i zaměstnavatel",
+        "primaryButton": "Pokračovat"
+      },
+      "depositsReview": {
+        "title": "Rekapitulace",
+        "deposit": "Váš měsíční vklad",
+        "current": "Původní",
+        "new": "Nový",
+        "employerContribution": "Příspěvek zaměstnavatele",
+        "primaryButton": "Pokračovat"
+      },
+      "questionnaireIntro": {
+        "title": "Investiční dotazník.\nBudete spořit odvážně nebo opatrně?",
+        "detail": "Odpovězte na následující otázky, díky kterým zjistíte svůj investiční profil a jaká strategie je vhodná pro vaše spoření.",
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Přeskočit dotazník"
+      },
+      "questionnaire": {
+        "title": "První kroky ke zjištění, jaký způsob penzijního spoření je pro vás ten nejlepší",
+        "detail": "Vyplnění dotazníku od vás potřebujeme proto, abychom zjistili vaše očekávání, znalosti a zkušenosti v oblasti financí a mohli vám navrhnout nejlepší typ strategie doplňkového penzijního spoření. Zabere to jen pár minut.",
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Přeskočit dotazník",
+        "skip": {
+          "title": "Opravdu chcete přeskočit investiční dotazník?",
+          "subtitle": "Pokud dotazník nevyplníte, tak nebudeme moct vyhodnotit, jaká investiční strategie se pro vás hodí a automaticky vám doporučíme Konzervativní strategii.",
+          "checkbox": "Nechci vyplnit dotazník a beru na vědomí, že se vystavuji možnosti výběru nevhodné volby strategie penzijního spoření.",
+          "primaryButton": "Přeskočit dotazník",
+          "secondaryButton": "Zpět"
+        },
+        "notFilled": "Některé otázky nebyly správně vyplněny."
+      },
+      "nok": {
+        "results": [
+          {
+            "code": "CLIENT_TYPE",
+            "title": "Doplňkové penzijní spoření Vám bohužel nemůžeme nabídnout",
+            "detail": "Je nám líto, ale spoření mohou uzavřít pouze fyzické osoby.\n\nMáte nějaké otázky? Zavolejte nám na infolinku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "NATIONALITY",
+            "title": "Nemáte českou státní příslušnost, nebo máte trvalé bydliště mimo ČR? Zastavte se za námi na pobočce",
+            "detail": "Penzijní spoření tam s Vámi rádi sjednáme.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "TAX",
+            "title": "Odvádíte daně mimo ČR? Zastavte se za námi na pobočce",
+            "detail": "Doplňkové penzijní spoření s Vámi rádi uzavřeme na pobočce. Prosím, zastavte se za námi.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost",
+            "secondaryButton": "Odvádím daně pouze v ČR"
+          },
+          {
+            "code": "PEP",
+            "title": "Jste politicky exponovaná osoba? Zastavte se za námi na pobočce",
+            "detail": "Doplňkové penzijní spoření s Vámi rádi uzavřeme na pobočce. Prosím, zastavte se za námi.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "AML_TAX",
+            "title": "Odvádíte daně mimo ČR? Zastavte se za námi na pobočce",
+            "detail": "Doplňkové penzijní spoření s Vámi rádi uzavřeme na pobočce. Prosím, zastavte se za námi.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost",
+            "secondaryButton": "Zpět"
+          },
+          {
+            "code": "AML_GREEN_CARD",
+            "title": "Je nám líto, ale spoření nemůžete uzavřít",
+            "detail": "Doplňkové penzijní spoření si můžete sjednat pouze s českou národností.",
+            "primaryButton": "Ukončit žádost",
+            "secondaryButton": "Zpět"
+          },
+          {
+            "code": "AML_PEP",
+            "title": "Jste politicky exponovaná osoba? Zastavte se za námi na pobočce",
+            "detail": "Doplňkové penzijní spoření s Vámi rádi uzavřeme na pobočce. Prosím, zastavte se za námi.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "ID_UNVALID",
+            "title": "Aktualizujte si prosím své doklady",
+            "detail": "Vypadá to, že Vaše doklady jsou neplatné. Nahrajte prosím nové přes Smart Banku nebo se s nimi zastavte na kterékoliv naší pobočce.",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Aktualizovat doklady",
+            "secondaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "WANTS_UPDATE_ID",
+            "title": "Osobní údaje si jednoduše změníte ve Smart Bance",
+            "detail": "Stačí vyfotit aktuální platný občanský průkaz.<br><br>Jakmile nahraný doklad zpracujeme, dáme Vám vědět. Poté nůžete založit novou žádost o Doplňkové penzijní spoření.",
+            "primaryButton": "Ukončit žádost a změnit osobní údaje",
+            "secondaryButton": "Zpět"
+          },
+          {
+            "code": "PRODUCT_EXISTS",
+            "title": "Na penzi již spoříte u NN",
+            "detail": "Doplňkové penzijní spoření můžete mít sjednáno jen jednou. Penzijní připojištění je možné převést na novou smlouvu, rádi to s Vámi vyřešíme na pobočce.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "CZECH_PERMANENT_ADDRESS",
+            "title": "Nemáte českou státní příslušnost, nebo máte trvalé bydliště mimo ČR? Zastavte se za námi na pobočce",
+            "detail": "Penzijní spoření tam s Vámi rádi sjednáme.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "AML_IDENTIFICATION",
+            "title": "Nejdříve se potřebujeme vidět.",
+            "detail": "Doplňkové penzijní spoření s Vámi rádi uzavřeme na pobočce. Prosím, zastavte se za námi.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "AML_SUSPICION",
+            "title": "Kocour to nejprve musí zkontrolovat. Stavte se prosím zítra.",
+            "detail": "Máte nějaké otázky? Zavolejte nám na infolinku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "AML_NOK",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "CRR",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "INCAPACITATE",
+            "title": "Zastavte se za námi na pobočce se svým zákonným zástupcem",
+            "detail": "Doplňkové penzijní spoření Vám rádi sjednáme.\n\nMáte nějaké otázky? Zavolejte nám na infolinku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "BL_ID_REJECTED",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "BL_RC_REJECTED",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "EXECUTION",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "INSOLVENCY",
+            "title": "Online to bohužel nepůjde.",
+            "detail": "Zastavte se prosím na pobočce, zkusíme Vám pomoct tam.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "BINF",
+            "title": "Je nám líto, ale spoření nemůžete uzavřít",
+            "detail": "Bohužel Vám nepomůžeme ani na pobočce.",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "MVCR",
+            "title": "Aktualizujte si prosím své doklady",
+            "detail": "Vypadá to, že Vaše doklady jsou neplatné. Nahrajte prosím nové přes Smart Banku nebo se s nimi zastavte na kterékoliv naší pobočce.",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Aktualizovat doklady",
+            "secondaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "ADULT",
+            "title": "Zastavte se za námi na pobočce se svým zákonným zástupcem",
+            "detail": "Doplňkové penzijní spoření Vám rádi sjednáme i když Vám ještě nebylo 18 let.\n\nMáte nějaké otázky? Zavolejte nám na infolinku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+          },
+          {
+            "code": "SUSTAINABILITY",
+            "title": "Omlouváme se, ale žádný z fondů NN momentálně nesplňuje Vaše preference",
+            "detail": "Proto teď nemůžete pokračovat.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "visitus": "Naštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost",
+            "secondaryButton": "Zpět"
+          }
+        ],
+        "generic": {
+          "title": "Je nám líto, ale spoření nemůžete uzavřít",
+          "detail": "Bohužel Vám nepomůžeme ani na pobočce."
+        },
+        "callus": "Zavolejte nám\nna infolinku",
+        "visitus": "Navštivte nás\nna pobočce",
+        "primaryButton": "Ukončit žádost"
+      },
+      "amlSection": {
+        "title": "Údaje vyžadované zákonem",
+        "detail": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
+        "source": "Zdroj příjmů",
+        "assets": "Zdroj vlastního majetku",
+        "assetsMultiple": "Více zdrojů",
+        "assetsDescription": "Případně dluhu",
+        "assetsOther": "Uveďte jiný zdroj majetku nebo dluhu",
+        "assetsSelectorTitle": "Jaký je zdroj Vašeho vlastního majetku, případně dluhu?",
+        "assetsSelectorDescription": "Zvolte alespoň jednu možnost:",
+        "income": "Výše příjmu",
+        "taxNumber": "IČO",
+        "taxResidence": "Platím daně pouze v ČR",
+        "pep": "Jsem politicky exponovaná osoba",
+        "pepInfo": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí (např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil). Za politicky exponovanou osobu se považuje také: 1) osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka), 2) společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu, 3) skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby.",
+        "greenCard": "Nejsem držitelem Zelené karty, mým investičním poradcem nebo zástupcem není americká osoba",
+        "amlValues": {
+          "sourceOfIncome": [
+            {
+              "name": "Příjem ze zaměstnání",
+              "value": "Příjem ze zaměstnání"
+            },
+            {
+              "name": "Příjem z podnikání",
+              "value": "Příjem z podnikání"
+            },
+            {
+              "name": "Důchod / Renta",
+              "value": "Důchod / Renta"
+            },
+            {
+              "name": "Sociální dávky",
+              "value": "Sociální dávky"
+            },
+            {
+              "name": "Příjem od rodinných příslušníků / Výhra / Dary",
+              "value": "Příjem od rodinných příslušníků / Výhra / Dary"
+            }
+          ],
+          "sourceOfAssets": [
+            {
+              "name": "Dědictví",
+              "value": "Dědictví"
+            },
+            {
+              "name": "Kapitálový majetek",
+              "value": "Kapitálový majetek"
+            },
+            {
+              "name": "Podnikání",
+              "value": "Podníkání"
+            },
+            {
+              "name": "Příjem z licenčních poplatků",
+              "value": "Příjem z licenčních poplatků"
+            },
+            {
+              "name": "Vlastnictví nebo prodej obchodní společnosti",
+              "description": "Nebo jejího podílu",
+              "value": "Vlastnictví nebo prodej obchodní společnosti"
+            },
+            {
+              "name": "Vlastnictví nemovitosti",
+              "description": "Např. nájem nebo hypoteční úvěr",
+              "value": "Vlastnictví nemovitosti"
+            },
+            {
+              "name": "Závislá činnost",
+              "description": "Např. zaměstnání",
+              "value": "Závislá činnost"
+            },
+            {
+              "name": "Jiné",
+              "value": "Jiné"
+            }
+          ],
+          "income": [
+            {
+              "name": "Do 50000 Kč",
+              "value": "Do 50000 Kč"
+            },
+            {
+              "name": "Od 50000 Kč do 100000 Kč",
+              "value": "Od 50000 Kč do 100000 Kč"
+            },
+            {
+              "name": "Nad 100000 Kč",
+              "value": "Nad 100000 Kč"
+            }
+          ]
+        },
+        "primaryButton": "Pokračovat"
+      },
+      "strategyInfo": {
+        "title": "Strategie",
+        "detail": "Změna bude platná od prvního dne následujícího měsíce.\nPokud bude třeba převést stávající vklady do nových fondů, zabere to 3 pracovní dny navíc.",
+        "current": "Aktuální strategie spoření",
+        "primaryButton": "Pokračovat ke změně strategie"
+      },
+      "strategy": {
+        "primaryButton": "Pokračovat",
+        "selectionHeader": "Výběr strategie",
+        "recommended": "Doporučeno",
+        "strategies": {
+          "conservative": {
+            "title": "Váš investiční profil je rozvážný a doporučená strategie konzervativní",
+            "name": "Konzervativní",
+            "detail": "Nechcete příliš riskovat a dáváte přednost jistému výnosu před jeho výší? U tohoto typu profilu je očekáváno velmi mírné kolísání investovaných prostředků a výnosy mírně převyšující výnosy z depozitních produktů. Profil zahrnuje konzervativní investiční nástroje (fondy peněžního trhu, státní dluhopisy, popř. smíšené fondy s max. 25% rizikovou složkou).",
+            "documents": [
+              {
+                "title": "Podrobnější přehled účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              },
+              {
+                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
+              },
+              {
+                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
+              },
+              {
+                "title": "Portfolia účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              }
+            ]
+          },
+          "balanced": {
+            "title": "Váš investiční profil je vyrovnaný a doporučená strategie vyvážená",
+            "name": "Vyvážená",
+            "detail": "S mírným rizikem u investic počítáte a jste si vědomi nejistoty budoucích výnosů? Pokud preferujete výnos na střední úrovní, může být vyrovnaný profil tím pravým. Profil zahrnuje přiměřené vyvážené typy investičních nástrojů (vyvážené smíšené fondy s max. 65% rizikovou složkou, dluhopisové fondy aj.).",
+            "documents": [
+              {
+                "title": "Podrobnější přehled účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              },
+              {
+                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
+              },
+              {
+                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
+              },
+              {
+                "title": "Portfolia účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              }
+            ]
+          },
+          "dynamic": {
+            "title": "Váš investiční profil je odvážný a doporučená strategie dynamická",
+            "name": "Dynamická",
+            "detail": "Myslíte na vysoký výnos a uvědomujete si vysoké riziko, které akceptujete? Pokud je pro vás pokles hodnoty investic na trhu příležitost k nové investici nebo navýšení těch stávajících, můžete zvolit odvážný profil. Ten zahrnuje přiměřené dynamické typy investičních nástrojů (dynamické smíšené fondy, dluhopisové fondy, high yield dluhopisy, akciové fondy aj.).",
+            "documents": [
+              {
+                "title": "Podrobnější přehled účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              },
+              {
+                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
+              },
+              {
+                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
+              },
+              {
+                "title": "Portfolia účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              }
+            ]
+          },
+          "custom": {
+            "title": "Zvolili jste si vlastní profil. doporučená strategie je konzervativní",
+            "name": "Vlastní",
+            "detail": "Protože není vyplněný investiční dotazník, doporučujeme Vám vložit 100 % příspěvků do konzervativního fondu. Samozřejmě máte také možnost zvolit si vlastní strategii.",
+            "documents": [
+              {
+                "title": "Podrobnější přehled účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              },
+              {
+                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
+              },
+              {
+                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
+              },
+              {
+                "title": "Portfolia účastnických fondů",
+                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+              }
+            ]
+          }
+        },
+        "funds": {
+          "conservative": "Konzervativní fond",
+          "balanced": "Vyvážený fond",
+          "growth": "Růstový fond"
+        },
+        "fundsLocalizations": {
+          "CON": {
+            "title": "Konzervativní fond",
+            "color": "accent2"
+          },
+          "BAL": {
+            "title": "Vyvážený fond",
+            "color": "accent3"
+          },
+          "GROW": {
+            "title": "Růstový fond",
+            "color": "accent7"
+          }
+        },
+        "disclaimer": "Beru na vědomí, že mnou zvolená strategie neodpovídá doporučené strategii z investičního dotazníku a liší se od ní.",
+        "disclaimerValidation": "Pro pokračování musíte nejdříve potvrdit souhlas.",
+        "fundsInfo": {
+          "title": "Vše o fondech",
+          "detail": "<a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf\">Povinný konzervativní fond NN Penzijní společnosti, a. s.</a><br>Konzervativní fond pro ty, kteří chtějí bezpečně uložit peníze i za cenu nízkého výnosu.<br>Investované peníze jsou uloženy na běžných účtech bank, termínovaných vkladech a ve státních dluhopisech.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf\">Vyvážený účastnický fond NN Penzijní společnosti, a. s.</a><br>Vyvážený fond zaměřený na dlouhodobý růst akciových trhů a snížení rizika investicemi do dluhopisů.<br><br>Investice je rozdělena v poměru 60:40 na dluhopisy a akci.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf\">Růstový účastnický fond NN Penzijní společnosti, a. s.</a><br>Růstový fond pro dlouhodobé investice s důrazem na maximální zhodnocení i přes možné kolísání trhů.<br><br>Investice je téměř 100% zaměřena na akcie a podobné instrumenty."
+        },
+        "change": {
+          "title": "Do nového fondu chci převést",
+          "detail": "Změna bude platná od prvního dne následujícího měsíce",
+          "everything": {
+            "title": "Všechny stávající i nové prostředky",
+            "detail": "Zpracování nám zabere 3 pracovní dny navíc"
+          },
+          "new": {
+            "title": "Pouze nové prostředky"
+          }
+        },
+        "alreadySelected": {
+          "title": "Konzervativní strategii už máte nastavenou",
+          "detail": "Chcete ji změnit?",
+          "primaryButton": "Změnit strategii",
+          "secondaryButton": "Ukončit nastavení"
+        }
+      },
+      "scoring": {
+        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+        "detail": "Potrvá to jen chviličku"
+      },
+      "contract": {
+        "title": "Přečtěte si smlouvu o změně parametrů Doplňkového penzijního spoření",
+        "detal": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
+        "primaryButton": "Rozumím a souhlasím",
+        "secondaryButton": "Nesouhlasím"
+      },
+      "depositVictory": {
+        "title": "Hotovo! Změna Doplňkového penzijního spoření je platná od {0}",
+        "detail": "Pokud vám bude na spoření přispívat zaměstnavatel, přepošlete mu prosím smlouvu od NN pojišťovny. Najdete ji ve svém e-mailu.",
+        "section": "Nastavte si trvalý příkaz {0} z účtu:",
+        "dateTitle": "Posílat vždy",
+        "dateValue": "{0}. den v měsíci",
+        "from": "Odesíláte z účtu",
+        "defaultValue": 25,
+        "dateValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28
+        ],
+        "firstPayment": "První platba odejde {0}",
+        "primaryButton": "Nastavit trvalý příkaz",
+        "promaryButtonWoStandingOrder": "Zpět na Přehled",
+        "secondaryButton": "Příkaz nastavím později",
+        "destinationAccountNumber": {
+          "bankCode": 800,
+          "number": 5005004433
+        },
+        "standingOrderName": "Penzijní spoření"
+      },
+      "strategyVictory": {
+        "title": "Hotovo! Změna strategie Doplňkového penzijního spoření je platná od {0}",
+        "detail": "Pokud bude Váš zaměstnavatel přispívat na Vaše doplňkové penzijní spoření, přepošlete mu prosím smlouvu, kterou jsme vám poslali e-mailem.",
+        "primaryButton": "Zpět na Přehled"
+      },
+      "standingOrderVictory": {
+        "title": "Trvalý příkaz byl přijat ke zpracování",
+        "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
+        "primaryButton": "Zpět na Přehled"
+      },
+      "help": {
+        "title": "Nápověda",
+        "detail": "Se státním příspěvkem až 2 760 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 3 600 Kč ročně.",
+        "iconBullets": [
+          {
+            "icon": "starsAltFill",
+            "text": "Žádné poplatky za uzavření a vedení"
+          },
+          {
+            "icon": "starsAltFill",
+            "text": "Zřídíte přímo v aplikaci"
+          },
+          {
+            "icon": "starsAltFill",
+            "text": "Až 6 360 Kč ročně na státních  příspěvcích a daňové úspoře"
+          },
+          {
+            "icon": "starsAltFill",
+            "text": "Tuto nabídku jsme pro Vás připravili ve spolupráci s NN Penzijní společnost"
+          }
+        ],
+        "footerText": "Více informací",
+        "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
+        "helpHeadline": "Potřebujete víc informací?",
+        "callUs": "Zavolejte nám na infolinku",
+        "branch": "Navštivte nás na pobočce",
+        "primaryButton": "Pokračovat v žádosti",
+        "secondaryButton": "Přerušit žádost",
+        "tertiaryButton": "Ukončit žádost"
+      }
+    }
+  }
+}

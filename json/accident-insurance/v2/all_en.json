@@ -1,0 +1,298 @@
+{
+    "scenes": {
+        "disagree": {
+            "title": "Your Agreement is Required",
+            "detail": "If you have any questions, do not hesitate to call our Helpline or visit your nearest branch.",
+            "callUs": "Call Helpline ",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel Application",
+            "primaryButton": "Back"
+        },
+        "setup": {
+            "title": "Accident insurance",
+            "detail": "Insurance helps offset the financial impact of receiving treatment and the subsequent recovery after an accident.",
+            "bullets": [
+                "Accident insurance for children, adults, and families with global coverage.",
+                "Double benefits in case of a traffic accident.",
+                "Children receive double benefits during all school holidays."
+            ],
+            "info": "The specific amount you will receive depends on the severity of the injury. <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-letak-urazove-pojisteni-pro-dospele-rodinu.pdf\">What is covered, and what are the limits?</a>",
+            "typeSelectionTitle": "Who is being insured?",
+            "limitsSectionTitle": "Select Benefits: {0}",
+            "familyBadge": "FOR YOU AND YOUR FAMILY",
+            "types": [
+                {
+                    "name": "Junior",
+                    "description": "Insurance for you and your child in case you need to take care of them and/or accompany them while they are hospitalized. With double benefits during all school holidays and in case of a car accident.",
+                    "icon": "userFill",
+                    "frequency": "a month",
+                    "value": "INSURANCE_ACC_J_PARENT_CARDIF",
+                    "limits": [
+                        {
+                            "limit": {
+                                "title": "Permanent disability",
+                                "value": "up to 400 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "up to 800 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Surgery as result of an accident",
+                                "value": "up to 30 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "up to 60 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Hospital stay after an accident + subsequent recovery ",
+                                "value": "1 800 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "3 600 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Caring for a family member  after an accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Hospital stay with a child after an accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        }
+                    ],
+                    "parameters": {
+                        "title": "Insurance Framework",
+                        "values": [
+                            {
+                                "title": "Entry age:",
+                                "value": "Before the child’s 18th birthday"
+                            },
+                            {
+                                "title": "Coverage starts:",
+                                "value": "Tomorrow, {0} at 0:00"
+                            },
+                            {
+                                "title": "Coverage expires:",
+                                "value": "On the day of the child’s 27th birthday"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Single",
+                    "description": "Insurance for you as the owner of this Current account. With double benefits in case of a car accident.",
+                    "icon": "userFill",
+                    "frequency": "a month",
+                    "value": "INSURANCE_ACC_ADULT_CARDIF",
+                    "limits": [
+                        {
+                            "limit": {
+                                "title": "Permanent disability",
+                                "value": "up to 400 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "In case of a car accident",
+                                "value": "up to 800 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Surgery as result of an accident",
+                                "value": "up to 30 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "In case of a car accident",
+                                "value": "up to 60 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Hospital stay after an accident + subsequent recovery ",
+                                "value": "1 800 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "In case of a car accident",
+                                "value": "3 600 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Caring for a family member  after an accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "In case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "In case of a car accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "In case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        }
+                    ],
+                    "parameters": {
+                        "title": "Insurance Framework",
+                        "values": [
+                            {
+                                "title": "Entry age:",
+                                "value": "18 - 65 years of age"
+                            },
+                            {
+                                "title": "Insurance starts:",
+                                "value": "Tomorrow, {0} at 0:00"
+                            },
+                            {
+                                "title": "Insurance ends:",
+                                "value": "On the last day of the calendar year in which the insured person turns 70 years of age."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "name": "Family",
+                    "description": "For you, your partner, and children. Children receive double benefits during all school holidays and in case of a car accident. ",
+                    "icon": "usersFill",
+                    "frequency": "a month",
+                    "value": "INSURANCE_ACC_FAMILY_CARDIF",
+                    "limits": [
+                        {
+                            "limit": {
+                                "title": "Permanent disability",
+                                "value": "up to 400 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "up to 800 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Surgery as result of an accident",
+                                "value": "up to 30 000 CZK"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "up to 60 000 CZK"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Hospital stay after an accident + subsequent recovery ",
+                                "value": "1 800 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "3 600 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Caring for a family member  after an accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        },
+                        {
+                            "limit": {
+                                "title": "Hospital stay with a child after an accident",
+                                "value": "600 CZK/day"
+                            },
+                            "alternative": {
+                                "title": "During school holidays and in case of a car accident",
+                                "value": "1 200 CZK/day"
+                            }
+                        }
+                    ],
+                    "parameters": {
+                        "title": "Insurance Framework",
+                        "values": [
+                            {
+                                "title": "Entry age:",
+                                "value": "18 - 65 years of age for adults, 0 - 18 years for children."
+                            },
+                            {
+                                "title": "Insurance starts:",
+                                "value": "Tomorrow, {0} at 0:00"
+                            },
+                            {
+                                "title": "Insurance ends:",
+                                "value": "On the last day of the calendar year in which the adult turns 70 years of age or children turns 18 years of age."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "setupJunior": {
+            "title": "Accident Insurance Junior",
+            "sectionTitle": "Child’s Informations",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "birthNumber": "Birth Number",
+            "birthNumberInfo": "Enter the birth number, including the digits after the slash.",
+            "checkbox": "I confirm that I am arranging insurance for my biological or adopted child aged 0-18 years.",
+            "primaryButton": "Continue"
+        },
+        "summary": {
+            "title": "Review the following information",
+            "accountSectionTitle": "Premiums will be paid from",
+            "accountTitle": "Current Account",
+            "summarySectionTitle": "Insurance Summary",
+            "insurance": "Insurance",
+            "insuranceValue": "Accident Insurance",
+            "variant": "Package",
+            "dateCreated": "Date of arrangement",
+            "dateStart": "Coverage starts",
+            "price": "Premium",
+            "priceFrequency": "{0}/month",
+            "paymentDue": "Premium due",
+            "paymentDueValue": "The bank will charge the premium no later than the 5th business day of the month after the policy has been arranged",
+            "checkbox": "I confirm that I have read the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-urazove-pojisteni-pro-deti-a-dospele.pdf\">Insurance Terms and Conditions</a>",
+            "checkboxNotDisabled": "I, as the owner of the Current Account, that I do not suffer \ndisability of I.-III. degree.",
+            "info1": "Carefully read the Accident Insurance information materials, which set out the exclusions and limits of insurance coverage.",
+            "info2": "The contractual documentation will be sent to you in electronic form. You can receive a physical copy in any <a href=\"{0}\">branch of  MONETA Money Bank.</a>",
+            "primaryButton": "Arrange Insurance {0} for {1}/month"
+        },
+        "contract": {
+            "title": "Read the Insurance Agreement",
+            "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email.",
+            "primaryButton": "Confirm and Accept",
+            "secondaryButton": "Decline"
+        },
+        "victory": {
+            "title": "Done! Your Accident Insurance coverage starts tomorrow.",
+            "detail": "You can find all of your policies in the Insurance section.",
+            "primaryButton": "Show My Policies",
+            "secondaryButton": "Back to Overview"
+        }
+    }
+}

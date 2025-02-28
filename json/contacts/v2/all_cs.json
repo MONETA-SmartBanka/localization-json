@@ -1,0 +1,97 @@
+{
+    "title": "Kontakty",
+    "dashboard": {
+        "actionType": "PHONECALL",
+        "actionData": "224 443 636",
+        "actionLabelText": "Zákaznický servis"
+    },
+    "sections": [
+        {
+            "title": "Kontaktujte nás ve svých aplikacích",
+            "kind": "LARGE_BUTTONS",
+            "items": [
+                {
+                    "actionType": "OPENURL",
+                    "actionData": "https://m.me/138479367229",
+                    "actionLabelText": "Messenger",
+                    "actionImageName": "contactsMessenger"
+                },
+                {
+                    "actionType": "OPENURL",
+                    "actionData": "https://bcrw.apple.com/sms:open?service=iMessage&recipient=urn:biz:3f1d6b85-2f0d-4f0d-a2c6-51a766a2705b",
+                    "actionLabelText": "Zprávy",
+                    "actionImageName": "contactsMessages"
+                },
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 443 636",
+                    "actionLabelText": "Zavolat",
+                    "actionImageName": "contactsPhone"
+                }
+            ],
+            "footer": "Když nám zavoláte ze Smart Banky, nemusíte se ověřovat."
+        },
+        {
+            "title": "Kontaktní údaje",
+            "kind": "ROWS",
+            "items": [
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 443 636",
+                    "actionLabelText": "Zákaznický servis"
+                },
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 442 424",
+                    "actionLabelText": "Blokace produktů"
+                },
+                {
+                    "actionLabelText": "Sídlo banky",
+                    "actionData": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle"
+                },
+                {
+                    "actionLabelText": "Datová schránka",
+                    "actionData": "3kpd8nk"
+                },
+                {
+                    "actionLabelText": "IČ",
+                    "actionData": "25672720"
+                },
+                {
+                    "actionLabelText": "DIČ",
+                    "actionData": "CZ699003117"
+                },
+                {
+                    "actionLabelText": "SWIFT (BIC)",
+                    "actionData": "AGBACZPP"
+                }
+            ],
+            "footer": "Blokaci karty můžete provést i zde v aplikaci."
+        },
+        {
+            "kind": "SMALL_TINTED_BUTTONS",
+            "items": [
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.facebook.com/monetamoneybank/",
+                    "actionImageName": "facebookFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://twitter.com/monetamoney",
+                    "actionImageName": "twitterFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.youtube.com/user/SNGEMB",
+                    "actionImageName": "youtubeFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.instagram.com/moneta_money_bank/",
+                    "actionImageName": "instagramFill"
+                }
+            ]
+        }
+    ]
+}

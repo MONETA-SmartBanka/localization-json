@@ -1,0 +1,129 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "title": "Mortgage",
+        "partial": "Extraordinary repayment",
+        "full": "Repay the mortgage",
+        "amount": "Amount",
+        "amountFull": "Application for mortgage repayment ",
+        "amountPart": "Application for an extraordinary repayment",
+        "remains": "Total Amount Due",
+        "amountI": "The maximum repayment without covering the costs is %@",
+        "date": "Date of Repayment",
+        "dateI": "The next possible date of extraordinary repayment without covering the costs is %@.\n\n We require more time to process the application for early repayment, that is why the next available dates are in 7 days’ time.",
+        "dateIFull": "We require more time to process the application for repayment, that is why the next available dates are in 7 days’ time.",
+        "fee": "Costs",
+        "type": {
+            "title": "Adjust the repayment",
+            "i": "Do you wish to lower the repayment while maintaining the repayment period or maintain the repayment while shortening the repayment period?",
+            "short": "Shorten the repayment period",
+            "shortI": "By making an extraordinary repayment, the repayment period for the mortgage shortens, while your monthly repayments remain the same.",
+            "lower": "Lower the repayment",
+            "lowerI": "By making an extraordinary repayment, your monthly repayment amount lowers, while the repayment period remains the same.",
+            "lowerInsurance": "With the change in the amount of the annuity payment, the amount of the monthly insurance payment from BNP Paribas Cardif Pojišťovna, a.s. will also change, if it has been agreed upon in the Mortgage Loan Agreement."
+        },
+        "next": "Continue",
+        "repay": "Repay",
+        "payment": "{{date}} – regular repayment",
+        "finalBank": "{{date}} –&nbsp;{{bank}} repays your mortgage.",
+        "final": "{{date}} –&nbsp;on this date, your mortgage will be repaid. Please make sure there are sufficient funds in your account.",
+        "finalDate": "Repayment Date",
+        "repaymentReasons": {
+            "refinancing": { "label": "Refinancování", "order": 1 },
+            "sale": { "label": "Prodej nemovitosti", "order": 3 },
+            "other": { "label": "Jiné", "order": 10 },
+            "ownFunds": { "label": "Vlastní peněžní prostředky k dispozici", "order": 2 },
+            "saleBefore24Months": { "label": "Prodej nemovitosti do 24 měsíců trvání hypotéky", "order": 4 },
+            "saleAfter24Months": { "label": "Prodej nemovitosti po 24 měsících trvání hypotéky", "order": 5 },
+            "communityPropertySettlement": { "label": "Vypořádání SJM po 24 měsících trvání hypotéky", "order": 6 },
+            "longTermDisease": { "label": "Dlouhodobá nemoc", "order": 7 },
+            "disability": { "label": "Invalidita", "order": 8 },
+            "death": { "label": "Úmrtí", "order": 9 }
+        },
+        "reason": {
+            "title": "Reason",
+            "refinancing": "Refinancing",
+            "sale": "Sale of property",
+            "other": "Other",
+            "i": "If nothing is applicable, please select \"other\""
+        },
+        "bank": "Refinancing from a bank",
+        "bankText": "Please select Refinancing from a bank",
+        "registry": "Issue consent for the Land Register",
+        "registryI": "Check, if you wish to issue consent to the constitution of a second lien including a proprietary right preventing alienation and encumbrances.\n\n Should you wish to close your current account, please only do so 40 days after filling the application.",
+        "marriage": "Should the funds used be a part of a community property of spouses, I hereby declare that my spouse is aware of the repayment and agrees to it.",
+        "source": {
+            "title": "Source of the funds",
+            "heritage": "Heritage",
+            "workIncome": "Work income",
+            "businessIncome": "Business income",
+            "rentalIncome": "Rental income",
+            "gift": "Gift",
+            "saleOfVirtualAssets": "Sale of virtual assets",
+            "saleOfOtherProperty": "Sale of other property",
+            "other": "Other",
+            "i": "Please disclose the source of the funds used to make the extraordinary mortgage repayment / full repayment.",
+            "text": "Please enter the source"
+        },
+        "originOfFunds": {
+            "workIncome": "Příjmy ze zaměstnání",
+            "businessIncome": "Příjmy z podnikání",
+            "gift": "Dar",
+            "heritage": "Dědictví",
+            "other": "Jiný",
+            "rentalIncome": "Příjmy z pronájmu",
+            "saleOfVirtualAssets": "Prodej virtuálních aktiv",
+            "saleOfOtherProperty": "Prodej jiného majetku",
+            "saleOfProperty": "Prodej nemovitého majetku"
+        },
+        "detailButton": {
+            "base": "Extraordinary repayment / early repayment",
+            "progress": "We are processing the extraordinary repayment",
+            "full": "We are processing the early repayment",
+            "all": "We are processing the extraordinary repayment or early repayment"
+        },
+        "error": {
+            "title": "Our apologies, we cannot process the extraordinary repayment or early repayment in Smart Banka.",
+            "description": "The issue seems to be the repayment date. Please contact us for more information."
+        },
+        "victory": "We are processing your application. You can find all documents in My Documents section in Smart Banka on the next business day.",
+        "refresh": {
+            "button": "Recalculate",
+            "title": "Do you wish to recalculate the amount to be repaid?",
+            "subtitle": "The recalculation will result in a new document including a new amount to be repaid. An approved application cannot be changed. If you want to make changes in the application, you need to cancel the first application and open a new one.",
+            "ok": "Recalculate"
+        },
+        "documents": "Confirmation of the application",
+        "documentsFinal": "Confirmation of the application for repayment",
+        "storno": {
+            "button": "Cancel request",
+            "fullTitle": "Do you wish to cancel the application for repayment?",
+            "fullMessage": "If you cancel, the mortgage will not be repaid. You will resume repayment as usual.",
+            "partialTitle": "Do you wish to cancel the application for extraordinary repayment?",
+            "partialMessage": "If you cancel it, there will be no extraordinary repayment and you will resume repayment as usual.",
+            "victory": "We have canceled your application for early repayment of your mortgage."
+        },
+        "mortgageId": "The mortgage loan number",
+        "review": {
+            "full": "Please check the application for mortgage repayment",
+            "partial": "Please check the extraordinary repayment"
+        },
+        "accountType": {
+            "title": "Account type",
+            "standard": "Standard Account",
+            "tech": "Technical Account ",
+            "i": "Please select if the extraordinary repayment will be paid from your standard account. In other cases, please select Technical Account."
+        },
+        "remedial": {
+            "title": "The request for an extraordinary repayment or additional repayment cannot be made at this time.",
+            "description": "Please contact <a href=\"mailto:remedialhypo@moneta.cz\">remedialhypo@moneta.cz</a>"
+        },
+        "overdue": {
+            "title": "Please pay the installments first before you can make the extraordinary payments",
+            "description": ""
+        },
+        "infoFees": "You can find information about the costs under the information icons.",
+        "inProgress": "<b>We are processing your request. </b> If you do not see current information here (payment / additional payment amounts, costs, etc.), please try again within the next business day.",
+        "feeNote": "Reimbursement of costs incurred in connection with the early repayment."
+    }
+}

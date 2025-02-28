@@ -1,0 +1,1519 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "moreMoney": {
+                "title": "Do you need more money?",
+                "detail": "Of course, that should not be a problem. Visit our branch for a loan of up to CZK 1,500,000.<b> Stop by and our bankers will be happy to help.</b> Keep in mind that loans over CZK 1,000,000 require a cosigner.",
+                "callUs": "Call us at our helpline",
+                "branch": "Visit one\nof our branches",
+                "primaryButton": "Back to Balance Overview",
+                "secondaryButton": "Back"
+            },
+            "moreMoneyVictory": {
+                "title": "We will call you",
+                "detail": "<b>Our phone banker will try to get in touch with you on the following business day.</b> If he cannot reach you he will try again later.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoringLessDisagree": {
+                "title": "That is the best we can offer you at this moment",
+                "detail": "This is the amount which we are ready to loan you, should you reconsider and accept our offer.",
+                "callUs": "Call us at our helpline",
+                "branch": "Visit one of our branches",
+                "primaryButton": "Continue loan Application",
+                "secondaryButton": "Cancel Application"
+            },
+            "branch": {
+                "title": "We are able to process business income in Internet Banka",
+                "detail": "<b>For any other type of income please visit our branch</b> where we will be happy to help you. For more information call our Helpline.",
+                "callUs": "Call us for more information",
+                "branch": "Visit a branch/find the closest branch",
+                "primaryButton": "Cancel Application"
+            },
+            "branchBusiness": {
+                "title": "We can process business income in Internet Banka",
+                "detail": "For other sources of income, please visit us at a branch or call us for more information.\n\nAre you looking for a loan for business? Arrange a non-purpose loan for entrepreneurs, up to {loanAmount} without a tax return.",
+                "callUs": "Call us for more information",
+                "branch": "Visit one of our branches",
+                "primaryButton": "More about a business loan",
+                "secondaryButton": "Cancel Application"
+            },
+            "api": {
+                "title": "We are sorry, something went wrong",
+                "detail": "Please try again later.",
+                "callUs": "Call us",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoring": {
+                "title": "We are sorry, something went wrong",
+                "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
+                "branch": "Visit one of our branches",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "precontractDisagree": {
+                "title": "We can’t continue without your agreement",
+                "detail": "Your loan is almost ready. In order to receive it, we need your agreement to the pre-contractual information and the contract <b>Do you have any questions? Let’s talk about it.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit a branch/find the closest branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Loan Application"
+            },
+            "contractDisagree": {
+                "title": "We can’t continue without your agreement",
+                "detail": "Your loan is almost ready. In order to receive it, we need your agreement to the pre-contractual information and the contract <b>Do you have any questions? Let’s talk about it.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit a branch/find the closest branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Loan Application"
+            },
+            "longTermScreens": {
+                "SCORING_UNAVAILABLE": {
+                    "title": "ZZZzzzz….",
+                    "detail": "At night we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
+                    "primaryButton": "Back to Balance Overview"
+                },
+                "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night…",
+                    "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
+                },
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night…",
+                    "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
+                }
+            }
+        },
+        "general": {
+            "toolbarTitle": "Express Loan",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Loan process just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat."
+        },
+        "scenes": {
+            "billing": {
+                "title": "Where will we send the money and how to repay the loan?",
+                "accountTitle": "The money will be credited to your account:",
+                "day": "Day",
+                "dayFormatter": "{0}. day of the month",
+                "installmentDayTitle": "The monthly installment in the amount of {0} CZK will be automatically deducted from your account.:",
+                "detail": "Should the day of installment fall on a weekend or a bank holiday, the installment shall be deducted on the following business day.\nThe further the date of installment is from the date of loan arrangement, the more the amount of the last installment will differ from the rest of the installments. Please carefully read this information in the Pre-contractual information.",
+                "primaryButton": "Continue"
+            },
+            "primaryOfferNib": {
+                "title": "Expres loan",
+                "detail": "with interest rate lower up to 33 %"
+            },
+            "secondaryOfferNib": {
+                "title": "Expres loan",
+                "detail": "<b>With interest rate lower up to 33 %</b><br>Borrow fully online with unprecedentedly low interest"
+            },
+            "secondaryOfferNibUnf": {
+                "title": "Expres loan",
+                "detail": "Complete your application online"
+            },
+            "promoOfferNib": {
+                "title": "Expres loan",
+                "detail": "Need money fast and for anything? Take advantage of our advantageous Expres Loan with a low interest rate from {expres_loan_interest_rate} per year with an APR {expres_loan_rpsn}. <b>Now with lower interest rate up to 33 %.</b> You can arrange a loan in a <b>few minutes fully online.</b>",
+                "bulletsTitle": "Other benefits that you will appreciate as a client",
+                "bullets": [
+                    "Now with annual interest rate <b>lower up to 33 %.</b>",
+                    "Repayment at rest even in the event of a loss of income with the selection of ability to repay insurance",
+                    "<b>Online from application to a signing</b> of the contract. We invite you to the branch only when you can't do otherwise.",
+                    "Low interest rate<b>from {expres_loan_interest_rate}</b> per year with APR {expres_loan_rpsn}",
+                    "<b>Repay the loan early</b> is no problem for us."
+                ]
+            },
+            "help": {
+                "title": "Do you need assistance or wish to save the application for later?",
+                "toolbarTitle": "Assitance",
+                "bullets": [
+                    "Now with annual interest rate <b>lower up to 33 %.</b>",
+                    "<b>Online from application to contract signature</b> - visit a branch only as the last resort",
+                    "<b>Money in your account within 5 minutes of signature.</b>",
+                    "<b>No rush</b> - you can save the application at any time or talk it over with our bankers.",
+                    "<b>Early repayment</b> - is not a problem with us, with a maximum fee of \u00a01\u00a0% of the early repaid amount."
+                ],
+                "detail": "You can find all the information on Express Loan at <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">on our website`</a>.",
+                "summaryHeadline": "About your loan:",
+                "finishLaterHeadline": "Do you need to finish another time?",
+                "tertiaryButton": "Finish another time",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Finish Application",
+                "confusedHeadline": "Do you need assistance?",
+                "callUs": "Call our helpline",
+                "branch": "Visit one of our branches",
+                "amount": "Do you need a",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of"
+            },
+            "detail": {
+                "subtitle": "Plně online, bez poplatku a peníze do pěti minut na účtu. S jistotou, že své závazky vždy splatíte díky pojištění schopnosti splácet.",
+                "title": "Your loan:",
+                "amount": "Do you need a",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of",
+                "totalWithInsurance": "including insurance",
+                "totalTip": "<b>Tip:</b> You can lower the total amount paid by cutting the repayment period in Loan Calculator.",
+                "insurance": "Payment Protection insurance for <b>{0}</b> a month on top of your loan repayment",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Find out more about PPI here.</a>",
+                "insuranceHelp": {
+                    "title": "Pay with confidence",
+                    "subtitle": "In the event that you lose your income due to an unforeseen situation, the insurance company will assist with:",
+                    "bullets": [
+                        "<b>Up to 12 repayments</b> in the event of loss of employment (or loss of business) if you are unable to work or if you need to take care of a family member",
+                        "<b>1 repayment</b>, if you are hospitalized",
+                        "<b>Repayment of the loan in full</b> in the event of becoming disabled (from 2nd degree) and receiving a ZTP/P pass (extremely disabled person with a need of a guide), or in case of death",
+                        "<b>Virtual doctor’s office 24/7</b> with a doctor on-call, who can write an electronic prescription or a referral for further care"
+                    ],
+                    "insurance": "Payment Protection insurance for <b>{0}</b> a month on top of your loan repayment",
+                    "insuranceInfo": "Assurance that you will pay your obligations.",
+                    "detail": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a>. If you are disabled, there will be no payment in the event of an insurance claim.",
+                    "primaryButton": "I understand",
+                    "secondaryButton": "I don´t want insurance"
+                },
+                "insuranceBullet": "<b>Pay with confidence, even if you lose your income</b> thanks to payment protection insurance.",
+                "bullets": [
+                    "Now with annual interest rate <b>lower up to 33 %.</b>",
+                    "<b>Pay with confidence, even if you lose your income</b> thanks to payment protection insurance.",
+                    "<b>Fully online - from application to agreement conclusion</b> Only visit a branch if absolutely necessary.",
+                    "<b>Money in your account within 5 minutes</b> of agreement conclusion.",
+                    "<b>There is no rush</b> You can save your process for later and consult one of our bankers."
+                ],
+                "detail": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a>. If you are disabled, there will be no payment in the event of an insurance claim.",
+                "secondaryButton": "Loan Calculator",
+                "needMoreButton": "Do you need more than {0}?",
+                "primaryButton": "Continue"
+            },
+            "ufoOpsSummary": {
+                "title": "Your loan:",
+                "amount": "Do you need a",
+                "duration": "for a period of",
+                "installment": "with installment of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": {
+                    "title": "<b>Payment protection insurance</b> for {0} CZK/mth. in case of:",
+                    "detail": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Read the Terms and Conditions</a>",
+                    "bullets": [
+                        "Incapacity for work",
+                        "Loss of employment or business",
+                        "2nd and 3rd degree disability",
+                        "Taking care of a family member",
+                        "Hospitalization",
+                        "Death"
+                    ],
+                    "bulletsFooter": "Telehealth service available with a doctor on call 24/7"
+                },
+                "primaryButton": "Continue"
+            },
+            "calculator": {
+                "title": "I confirm that I will be able to monthly repay this amount",
+                "alternativeTitle": "Choose in the calculator. We can even lend you up to {0}",
+                "amount": "We will lend you",
+                "duration": "for duration",
+                "installment": "with monthly installments",
+                "totalTip": "You can return the excess funds at any time in an extraordinary installment under agreed conditions.",
+                "insurance": "Payability insurance for <b>{0}</b> monthly installments",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "detailInsurance": "I confirm that I can pay the amount for the loan and insurance <b>{0}</b> monthly",
+                "detailWoInsurance": "I confirm that I can repay the loan amount <b>{0}</b> monthly",
+                "totalWithInsurance": "including insurance",
+                "detail": "CZK monthly",
+                "rateOfInterest": "Interest rate",
+                "percentageRate": "Annual percentage rate",
+                "total": "Total for loan",
+                "footer": "By continuing, you confirm that you are not disabled and that you have familiarized yourself with <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Conditions of insurance.</a> In case of disability, there will be no payment in the event of an insurance event.",
+                "secondaryButton": "Do you need more than {1} CZK?",
+                "primaryButton": "Continue",
+                "dontWantButton": "No offer is interesting for me"
+            },
+            "permanentAddress": {
+                "title": "Is this your resident address?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "detail": "You will enter your contact address in the next step",
+                "primaryButton": "OK"
+            },
+            "contactAddress": {
+                "title": "Is this your contact address?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "OK"
+            },
+            "identification": {
+                "title": "Is this your name and surname?",
+                "firstName": "Name",
+                "lastName": "Surname",
+                "citizenship": "Citizenship",
+                "taxResidence": "Tax Residence",
+                "taxResidenceInfoTitle": "Determination of tax residence",
+                "taxResidenceInfoBody": "We kindly request information from you in order to fulfill the Common Standard for Due Diligence in the Field of Information on Financial Accounts for the purpose of exchanging information provided by financial institutions to tax administrations on the basis of the Multilateral Agreement of the Competent Authorities on the Automatic Exchange of Information on Financial Accounts (in case banks, these are current, savings accounts and time deposits).",
+                "vat": "TIN",
+                "anotherVat": "Add another tax residence",
+                "phone": "Phone",
+                "primaryButton": "Continue"
+            },
+            "incomesPim": {
+                "list": {
+                    "title": "Pokud máte více příjmů, můžete je nyní doplnit",
+                    "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
+                    "incomes": [
+                        "Příjem",
+                        "Druhý příjem",
+                        "Třetí příjem"
+                    ],
+                    "incomeSource": "Zdroj příjmu",
+                    "employer": {
+                        "EMPLOYMENT_INCOME": "Zaměstnavatel",
+                        "BUSINESS_INCOME": "Název subjektu",
+                        "RENT": "Subjekt vyplácející rentu"
+                    },
+                    "netIncome": "Čistý měsíční příjem",
+                    "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
+                    "fillMissing": "Doplňte chybějící údaje",
+                    "moreIncomes": "Další příjmy",
+                    "entrepreneurFrom": "Podnikám od",
+                    "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                    "taxationPeriodYear": "Zdaňovací období",
+                    "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                    "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                    "tax": "Daň (ř. 74)",
+                    "addMoreIncomes": {
+                        "title": "Přidat další příjem",
+                        "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
+                    },
+                    "removeAlert": {
+                        "title": "Opravdu chcete odstranit tento příjem?"
+                    },
+                    "trialPeriod": "ve zkušební lhůtě",
+                    "employmentForPeriod": "na dobu určitou do {0}",
+                    "primaryButton": "Pokračovat"
+                },
+                "incomeSource": {
+                    "title": "Jaký je váš zdroj příjmů?",
+                    "detail": "Příjem",
+                    "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
+                    "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
+                    "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "fixPeriodTitle": "a zároveň na dobu určitou",
+                    "fixPeriodDateTitle": "do",
+                    "fixPeriodDateHint": "Vyberte datum",
+                    "primaryButton": "Pokračovat",
+                    "titleConfirm": "Zaměstnání u {0}",
+                    "detailConfirm": "Vyberte všechny platné varianty",
+                    "offers": {
+                        "TO_SME": {
+                            "icon": "bussiness",
+                            "title": "Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
+                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "bullets": [
+                                "Úrok už od {interestRate} ročně",
+                                "Sjednání kompletně online",
+                                "Bez poplatku za vedení úvěru",
+                                "Bez prokazování příjmu",
+                                "Možnost odpočtu úroků úvěru z daňového základu",
+                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                            ],
+                            "primaryButton": {
+                                "actionType": "APP_PAGE",
+                                "actionData": "SME_NTC_EXPRES",
+                                "actionLabelText": "Více o podnikatelském úvěru"
+                            },
+                            "secondaryButton": {
+                                "actionType": "CLOSE",
+                                "actionLabelText": "Zpět na Expres půjčku"
+                            }
+                        }
+                    }
+                },
+                "enterpreneur": {
+                    "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
+                    "entrepreneurFrom": "Podnikám od",
+                    "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                    "taxationPeriodYear": "Zdaňovací období",
+                    "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                    "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                    "tax": "Daň (ř. 74)",
+                    "primaryButton": "Pokračovat"
+                },
+                "incomeSources": [
+                    {
+                        "id": "EMPLOYMENT_INCOME",
+                        "title": "Zaměstnanec",
+                        "detail": "Vyberte všechny platné varianty"
+                    },
+                    {
+                        "id": "BUSINESS_INCOME",
+                        "title": "Podnikatel"
+                    },
+                    {
+                        "id": "RENT",
+                        "title": "Renta"
+                    },
+                    {
+                        "id": "PARENTAL_ALLOWANCE",
+                        "title": "Rodičovský příspěvek"
+                    },
+                    {
+                        "id": "MATERNITY_ALLOWANCE",
+                        "title": "Mateřská"
+                    },
+                    {
+                        "id": "OLDAGE_PENSION",
+                        "title": "Důchodce - starobní"
+                    },
+                    {
+                        "id": "DISABILITY_PENSION",
+                        "title": "Důchodce - invalidní"
+                    },
+                    {
+                        "id": "RENTAL_OFF_TAX_RETURN",
+                        "title": "Pronájem"
+                    },
+                    {
+                        "id": "MAINTENANCE_ALLOWANCE",
+                        "title": "Výživné"
+                    },
+                    {
+                        "id": "OTHER_INCOME",
+                        "title": "Jiný",
+                        "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
+                    }
+                ],
+                "employer": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je Váš současný zaměstnavatel?",
+                        "employerTitle": "Zaměstnavatel",
+                        "employerPlaceholder": "vyberte",
+                        "streetTitle": "Ulice",
+                        "descriptiveNumberTitle": "Č. p.",
+                        "orientationNumberTitle": "Č. or.",
+                        "cityTitle": "Město",
+                        "zipTitle": "PSČ",
+                        "countryTitle": "Země",
+                        "idNumberTitle": "IČ",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Doplňte údaje o Vašem podnikání",
+                        "employerTitle": "Název",
+                        "employerPlaceholder": "Vyberte název subjektu",
+                        "streetTitle": "Ulice",
+                        "descriptiveNumberTitle": "Č. p.",
+                        "orientationNumberTitle": "Č. or.",
+                        "cityTitle": "Město",
+                        "zipTitle": "PSČ",
+                        "countryTitle": "Země",
+                        "idNumberTitle": "IČ",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "employerTitle": "Subjekt vyplácející rentu",
+                        "employerPlaceholder": "vyberte",
+                        "streetTitle": "Ulice",
+                        "descriptiveNumberTitle": "Č. p.",
+                        "orientationNumberTitle": "Č. or.",
+                        "cityTitle": "Město",
+                        "zipTitle": "PSČ",
+                        "countryTitle": "Země",
+                        "idNumberTitle": "IČ",
+                        "primaryButton": "Pokračovat"
+                    }
+                },
+                "employerSearch": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš současný zaměstnavatel?",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "employerTitle": "Zaměstnavatel"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Subjekt",
+                        "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                        "employerTitle": "Subjekt"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "employerTitle": "Subjekt vyplácející rentu"
+                    }
+                },
+                "solvency": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš příjem ze zaměstnání?",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                        "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENT": {
+                        "title": "Jaká je výše vaší renty",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "PARENTAL_ALLOWANCE": {
+                        "title": "Jaká je výše vašeho rodičovského příspěvku",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "MATERNITY_ALLOWANCE": {
+                        "title": "Jaká je výše vaší peněžité pomoci v mateřství",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "OLDAGE_PENSION": {
+                        "title": "Jaká je výše vašeho starobního důchodu?",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "DISABILITY_PENSION": {
+                        "title": "Jaká je výše vašeho invalidního důchodu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENTAL_OFF_TAX_RETURN": {
+                        "title": "Jaká je výše vašeho příjmu z pronájmu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "MAINTENANCE_ALLOWANCE": {
+                        "title": "Jaká je výše vašeho příjmu z výživného",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "OTHER_INCOME": {
+                        "title": "Jaká je výše vašeho příjmu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "primaryButton": "Pokračovat"
+                    }
+                },
+                "invalidIncomeCombination": {
+                    "title": "Je nám líto",
+                    "detail": "Máte dotaz, kontaktujte nás?",
+                    "callUs": "Zavolejte nám\nna infolinku",
+                    "branch": "Navštivte nás\nna pobočce",
+                    "primaryButton": "Zpět",
+                    "secondaryButton": "Dokončit později",
+                    "tertiaryButton": "Ukončit žádost"
+                }
+            },
+            "incomeSource": {
+                "title": "What is the source of your income?",
+                "employedTitle": "I am employed",
+                "indefinitePeriodTitle": "and at the same time for an indefinite period",
+                "trialPeriodTitle": "and on a trial period",
+                "noticePeriodTitle": "and on a notice period",
+                "employedInfo": "You can select 1-3 answers:",
+                "fixPeriodTitle": "for a fixed period",
+                "fixPeriodDateTitle": "until",
+                "fixPeriodDateHint": "select a date",
+                "businessTitle": "Business",
+                "pensionTitle": "Pension",
+                "disabilityPensionTitle": "Disability Pension",
+                "otherTitle": "Other",
+                "primaryButton": "Continue"
+            },
+            "businessExpressInfo": {
+                "title": "Are you looking for a business loan?",
+                "detail": "Arrange a non-purpose loan for entrepreneurs. Up to {loanAmount} plus no tax return.",
+                "bulletsTitle": "Advantages of a business loan",
+                "bullets": [
+                    "Interest from {interestRate} annually",
+                    "Completely online arrangement",
+                    "No credit management fee",
+                    "Without proof of income",
+                    "Possibility of deducting loan interest from the tax base",
+                    "Comfortable repayment with <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">payment ability insurance</a>"
+                ],
+                "primaryButton": "More about a business loan",
+                "secondaryButton": "Back to Expres loan"
+            },
+            "otherSource": {
+                "title": "Visit our branch",
+                "detail": "Our apologies, we are currently unable to calculate your loan in Smart Banka. <b> Please, visit one of our branches where we will take care of everything or call our helpline for more information.</b>",
+                "callUs": "Call us for more information",
+                "branch": "Visit a branch/find the closest branch",
+                "primaryButton": "Cancel Application"
+            },
+            "employer": {
+                "title": "Is this your current employer?",
+                "alternativeTitle": "Who is your current employer?",
+                "employerTitle": "Employer",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "idNumberTitle": "IN",
+                "primaryButton": "Continue"
+            },
+            "employerSearch": {
+                "title": "Employer auto-fill",
+                "hint": "Please enter at least the first 3 letters (with diacritics) of your employer",
+                "employerTitle": "Employer"
+            },
+            "solvency": {
+                "title": "Is this your monthly income?",
+                "alternativeTitle": "What is your net monthly income?",
+                "inputTitle": "Monthly income",
+                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+                "primaryButton": "Continue"
+            },
+            "personalSolvency": {
+                "title": "Is this your monthly income?",
+                "alternativeTitle": "What is your net monthly income?",
+                "inputTitle": "Monthly income",
+                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+                "primaryButton": "Continue"
+            },
+            "pensionerPersonalSolvency": {
+                "title": "Is this your monthly pension?",
+                "alternativeTitle": "What is your monthly pension?",
+                "inputTitle": "Monthly pension",
+                "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "dependents": {
+                "title": "How many dependents?",
+                "me": "Me",
+                "count": "Počet osob",
+                "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your income?",
+                "primaryButton": "Continue"
+            },
+            "pensionerDependents": {
+                "title": "How many dependents?",
+                "me": "Me",
+                "count": "Počet osob",
+                "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your pension?",
+                "primaryButton": "Continue"
+            },
+            "householdSolvency": {
+                "title": "What is the net monthly income of your household?",
+                "inputTitle": "Monthly income",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+                "primaryButton": "Continue"
+            },
+            "pensionerHouseholdSolvency": {
+                "title": "What is the net monthly income of your household?",
+                "inputTitle": "Monthly income",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "householdExpenses": {
+                "title": "What are some of the expenses of your household?",
+                "installmentsSum": "<b>Do you have any loans outside of Moneta Money Bank?</b> Enter the total amount of monthly installments:",
+                "housingExpenses": "What is your housing expenses?",
+                "housingExpensesInfo": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
+                "regularExpenses": "Do you have any unusual regular expenses such as medication or medical aids? Enter the total monthly amount:",
+                "salaryReduction": "Do you have any <b>attachments of earnings</b>, for example due to distraint or alimony? Please enter the total monthly amount:",
+                "primaryButton": "Continue"
+            },
+            "pensionerHouseholdExpenses": {
+                "title": "What are some of the expenses of your household?",
+                "installmentsSum": "<b>Do you have any loans outside of Moneta Money Bank?</b> Enter the total amount of monthly installments:",
+                "housingExpenses": "What are your housing costs?",
+                "housingExpensesInfo": "Include all <b>regular monthly housing costs.</b> For example, rent, utility payments, water and other services. <b>If you share expenses, please only state a pro rata portion.</b> These expenses do not include mortgage payments, internet payments, food, clothing or home insurance.",
+                "regularExpenses": "Do you have any unusual regular expenses such as medication or medical aids? Enter the total monthly amount:",
+                "salaryReduction": "Do you have any <b>attachments of earnings</b>, for example due to distraint or alimony? Please enter the total monthly amount:",
+                "primaryButton": "Continue"
+            },
+            "householdExpensesNecessary": {
+                "title": "What are the other monthly expenses of your household?",
+                "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
+                "installmentsSum": "Amount of monthly installments",
+                "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
+                "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
+                "necessaryExpenses": "Amount of monthly expenses",
+                "necessaryExpensesError": {
+                    "title": "Your necessary monthly expenses are higher than your income",
+                    "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
+                    "secondaryButton": "Edit Expenses",
+                    "primaryButton": "Everything is correct, continue"
+                },
+                "richBullets": [
+                    {
+                        "image": "tickFill",
+                        "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Transport (tram, fuel costs)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Health care (medicines, rehabilitation, medical devices)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Nutrition"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Wage garnishment"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Other regular monthly expenses"
+                    },
+                    {
+                        "image": "closeFill",
+                        "title": "Please do not include loan repayments including mortgages"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "housingExpenses": {
+                "title": "What is your household expenses?",
+                "inputTitle": "Monthly expenses",
+                "detail": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
+                "primaryButton": "Continue"
+            },
+            "scoringInfo": {
+                "title": "Now the small details:",
+                "detail": "Please select a form of ID which you could present at one of our branches.",
+                "statusDetail": "Status",
+                "statusDocuments": [
+                    {
+                        "title": "Single",
+                        "id": "SINGLE"
+                    },
+                    {
+                        "title": "Married",
+                        "id": "MARRIED"
+                    },
+                    {
+                        "title": "Divorced",
+                        "id": "DIVORCED"
+                    },
+                    {
+                        "title": "Partner",
+                        "id": "PARTNER"
+                    },
+                    {
+                        "title": "Widowed",
+                        "id": "WIDOWED"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ],
+                "educationDetail": "Your education",
+                "educationDocuments": [
+                    {
+                        "title": "Primary",
+                        "id": "BASIC"
+                    },
+                    {
+                        "title": "Apprenticeship",
+                        "id": "SECONDARY"
+                    },
+                    {
+                        "title": "Secondary",
+                        "id": "HIGH"
+                    },
+                    {
+                        "title": "Higher",
+                        "id": "HIGHER"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ],
+                "idDetail": "Other ID",
+                "secondDocuments": [
+                    {
+                        "title": "Driving license",
+                        "id": "DRIVING_LICENCE"
+                    },
+                    {
+                        "title": "Passport",
+                        "id": "PASSPORT"
+                    },
+                    {
+                        "title": "Birth Certificate",
+                        "id": "BIRTH_CERTIFICATE"
+                    }
+                ],
+                "primaryButton": "Continue",
+                "housingDetail": "Where do you live?",
+                "housing": [
+                    {
+                        "title": "Own house / flat",
+                        "id": "OWN"
+                    },
+                    {
+                        "title": "Rented house / flat",
+                        "id": "RENTED"
+                    },
+                    {
+                        "title": "Cooperative flat",
+                        "id": "COOPERATIVE"
+                    },
+                    {
+                        "title": "At parents",
+                        "id": "PARENTS"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ]
+            },
+            "otherInfoExtended": {
+                "title": "Now the small details:",
+                "detail": "Please select a form of ID which you could present at one of our branches.",
+                "statusDetail": "Status",
+                "statusDocuments": [
+                    {
+                        "title": "Single",
+                        "id": "SINGLE"
+                    },
+                    {
+                        "title": "Married",
+                        "id": "MARRIED"
+                    },
+                    {
+                        "title": "Divorced",
+                        "id": "DIVORCED"
+                    },
+                    {
+                        "title": "Partner",
+                        "id": "PARTNER"
+                    },
+                    {
+                        "title": "Widowed",
+                        "id": "WIDOWED"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ],
+                "educationDetail": "Your education",
+                "educationDocuments": [
+                    {
+                        "title": "Primary",
+                        "id": "BASIC"
+                    },
+                    {
+                        "title": "Apprenticeship",
+                        "id": "SECONDARY"
+                    },
+                    {
+                        "title": "Secondary",
+                        "id": "HIGH"
+                    },
+                    {
+                        "title": "Higher",
+                        "id": "HIGHER"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ],
+                "idDetail": "Other ID",
+                "secondDocuments": [
+                    {
+                        "title": "Driving license",
+                        "id": "DRIVING_LICENCE"
+                    },
+                    {
+                        "title": "Passport",
+                        "id": "PASSPORT"
+                    },
+                    {
+                        "title": "Birth Certificate",
+                        "id": "BIRTH_CERTIFICATE"
+                    }
+                ],
+                "primaryButton": "Continue",
+                "housingDetail": "Where do you live?",
+                "housing": [
+                    {
+                        "title": "Own house / flat",
+                        "id": "OWN"
+                    },
+                    {
+                        "title": "Rented house / flat",
+                        "id": "RENTED"
+                    },
+                    {
+                        "title": "Cooperative flat",
+                        "id": "COOPERATIVE"
+                    },
+                    {
+                        "title": "At parents",
+                        "id": "PARENTS"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ]
+            },
+            "agreement": {
+                "title": "One last step - the agreement",
+                "checkboxText": "I hereby confirm that the entered details are correct ",
+                "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Czech Banking Credit Bureau and the Czech Non-Banking Credit Bureau, and other steps necessary to contract conclusion.</p><p>I acknowledge <a href=\"https://www.moneta.cz/ochrana-dat\">personal data processing</a> of the MONETA Group and I solemnly declare the following:</p><p><ul><li>that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution;</li><li>I have not been convicted of crimes related to my business, or of economic crime, or crime against property;</li><li>I also declare that:<br><ul><li>I have not been declared bankrupt, and no insolvency or any such legal action has been taken against my person, nor have any steps been taken to initiate them;</li><li>the petition for bankruptcy of my assets or the insolvency petition for lack of my assets have not been rejected;</li><li>none of my assets are being liquidated</li><li>there are no arrears related to my assets in the Tax Register;</li><li>there has been no disciplinary punishment against my person in the last three years in accordance with the special regulations governing the performance of professional activities;</li><li>there are no outstanding arrears on insurance premiums and penalties for public health insurance or on insurance premiums and penalties for social security and contributions to the state employment policy.</li></ul></li></ul></p><p>I give consent to Moneta Money Bank to verify all necessary information and take any further steps which Moneta Money Bank will deem necessary to the approval of my application.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
+                "primaryButton": "I agree, prepare my offer"
+            },
+            "scoringAgreement": {
+                "title": "One last step - the agreement",
+                "checkboxText": "I hereby confirm that the entered details are correct ",
+                "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Czech Banking Credit Bureau and the Czech Non-Banking Credit Bureau, and other steps necessary to contract conclusion.</p><p>I acknowledge <a href=\"https://www.moneta.cz/ochrana-dat\">personal data processing</a> of the MONETA Group and I solemnly declare the following:</p><p><ul><li>that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution;</li><li>I have not been convicted of crimes related to my business, or of economic crime, or crime against property;</li><li>I also declare that:<br><ul><li>I have not been declared bankrupt, and no insolvency or any such legal action has been taken against my person, nor have any steps been taken to initiate them;</li><li>the petition for bankruptcy of my assets or the insolvency petition for lack of my assets have not been rejected;</li><li>none of my assets are being liquidated</li><li>there are no arrears related to my assets in the Tax Register;</li><li>there has been no disciplinary punishment against my person in the last three years in accordance with the special regulations governing the performance of professional activities;</li><li>there are no outstanding arrears on insurance premiums and penalties for public health insurance or on insurance premiums and penalties for social security and contributions to the state employment policy.</li></ul></li></ul></p><p>I give consent to Moneta Money Bank to verify all necessary information and take any further steps which Moneta Money Bank will deem necessary to the approval of my application.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
+                "primaryButton": "I agree, prepare my offer"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat is preparing your offer."
+            },
+            "busyLoader": {
+                "title": "Just a second, the cat needs to look it over",
+                "titleAlternative": "Only a moment now",
+                "choosePurposeTitle": "Enter the purpose\nof your loan",
+                "choosePurposeSubtitle": "<b>We have a couple of tips from our previous clients.</b>Don’t worry it is not a decisive factor of your loan.",
+                "tipTitle": "What is going to happen next?",
+                "tip": "We are preparing an offer tailored to your needs. The offer will be available <b>for 14 days</b> in Balance Overview.",
+                "purpose": {
+                    "reconstruction": {
+                        "position": 0,
+                        "title": "Home renovation",
+                        "icon": "/cbl_images/express/purpose-icons/bydleni.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on electrical wiring and homeware."
+                    },
+                    "vehicle": {
+                        "position": 1,
+                        "title": "To buy a car/motorbike",
+                        "icon": "/cbl_images/express/purpose-icons/auto.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on insurance and maintenance"
+                    },
+                    "household": {
+                        "position": 2,
+                        "title": "Furniture and other homeware",
+                        "icon": "/cbl_images/express/purpose-icons/domacnost.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on higher standard of the goods or home-delivery."
+                    },
+                    "electronics": {
+                        "position": 3,
+                        "title": "Home and other electronics",
+                        "icon": "/cbl_images/express/purpose-icons/elektronika.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on home-delivery and assembly services."
+                    },
+                    "vacation": {
+                        "position": 4,
+                        "title": "Vacation",
+                        "icon": "/cbl_images/express/purpose-icons/dovolena.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on entrance fees or as a financial reserve in case of health emergencies."
+                    },
+                    "education": {
+                        "position": 5,
+                        "title": "Education",
+                        "icon": "/cbl_images/express/purpose-icons/vzdelani.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on books or usual expenses."
+                    },
+                    "unspecified": {
+                        "position": 6,
+                        "title": "Other",
+                        "alternativeTitle": "Other",
+                        "icon": "/cbl_images/express/purpose-icons/neztridene.png",
+                        "detail": "Some clients end up taking up <b>a bigger loan</b> than originally planned.\nThey usually use it on expected expenses such as repairs or medicine."
+                    }
+                }
+            },
+            "scoringOk": {
+                "title": "Everything went smoothly and we have an offer for you",
+                "detail": "I confirm that I will be able to monthly repay this amount",
+                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
+                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "amount": "We will loan you",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
+                "insuranceRow": "a měsíční splátkou pojištění",
+                "insuranceDetail": "a měsíční splátkou pojištění",
+                "totalWithInsurance": "včetně pojištění",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "total": "You will pay a total of",
+                "primaryButton": "Continue"
+            },
+            "scoringMore": {
+                "navigationTitle": "Exclusively for you",
+                "title": "Ready! We can loan you up to {0}",
+                "titleSale": "An offer that is not repeated",
+                "detail": "I am certain that I will be able to repay this amount monthly.",
+                "headlineOriginal": "An interest rate of<br><em>{0}</em>&nbsp;p.&nbsp;a. tailored<br>for your choice",
+                "headlineMore": "Special offer<br>with interest of <em>{0}</em>&nbsp;p.&nbsp;a.",
+                "headlineMoreMore": "A bit more with an<br>interest rate of <em>{0}</em>&nbsp;p.&nbsp;a.",
+                "headlineSale": "Previously {0} p. a.",
+                "amount": "We will loan you",
+                "amountFormat": "<strong>{0}</strong> <small>CZK</small>",
+                "duration": "for a period of",
+                "durationFormat": "<strong>{0}</strong> <small>months</small>",
+                "installment": "with a monthly repayment of",
+                "rateOfInterest": "Interest rate",
+                "rpsn": "APR <b>{0}</b>",
+                "rpsnSale": "APR after discount <b>{0}</b>",
+                "percentageRate": "Annual percentage rate",
+                "total": "Your total amount",
+                "purpose": {
+                    "reconstruction": {
+                        "title": "During home renovation, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Electrical wiring",
+                            "New homeware",
+                            "Additional repairs"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/elektro.png",
+                            "/cbl_images/express/purpose-icons/vybaveni.png",
+                            "/cbl_images/express/purpose-icons/opravy.png"
+                        ]
+                    },
+                    "vehicle": {
+                        "title": "When buying a car or a motorcycle, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Various insurance (e.g. CTP)",
+                            "Mandatory equipment ",
+                            "(Seasonal) maintenance"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/ruceni.png",
+                            "/cbl_images/express/purpose-icons/lekarnicka.png",
+                            "/cbl_images/express/purpose-icons/opravy.png"
+                        ]
+                    },
+                    "household": {
+                        "title": "When buying furniture and other homeware, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Higher standard of goods",
+                            "Accessories ",
+                            "Home-delivery and assembly service"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/standard.png",
+                            "/cbl_images/express/purpose-icons/doplnky.png",
+                            "/cbl_images/express/purpose-icons/doprava.png"
+                        ]
+                    },
+                    "electronics": {
+                        "title": "When buying electronics, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Assembly and set up",
+                            "Accessories ",
+                            "Home-delivery and assembly service"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/kabelaz.png",
+                            "/cbl_images/express/purpose-icons/prislusenstvi.png",
+                            "/cbl_images/express/purpose-icons/opravy.png"
+                        ]
+                    },
+                    "vacation": {
+                        "title": "When planning a vacation, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Entrance fees and other entertainment ",
+                            "Travel insurance",
+                            "Unexpected health-related expenses"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/vstupne.png",
+                            "/cbl_images/express/purpose-icons/cestovniPojisteni.png",
+                            "/cbl_images/express/purpose-icons/zdravotni.png"
+                        ]
+                    },
+                    "education": {
+                        "title": "When pursuing further education, our clients usually expect additional expenses for:",
+                        "bullets": [
+                            "Accommodation",
+                            "Study materials",
+                            "Other usual expenses"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/ubytovani.png",
+                            "/cbl_images/express/purpose-icons/studijni.png",
+                            "/cbl_images/express/purpose-icons/rezerva.png"
+                        ]
+                    },
+                    "unspecified": {
+                        "title": "Our clients also usually expect:",
+                        "bullets": [
+                            "Unexpected expenses such as repairs and medicine",
+                            "Other unexpected expenses"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/express/purpose-icons/leky.png",
+                            "/cbl_images/express/purpose-icons/rezerva.png"
+                        ]
+                    }
+                },
+                "tip": "<b>Tip</b>: Excess funds can be repaid at any time as an installment under agreed conditions.",
+                "explore": "<small>Explore the offer for:</small>\n<b>{0}</b>",
+                "calculator": "Or use the calculator for {0}",
+                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
+                "insuranceRow": "a měsíční splátkou pojištění",
+                "insuranceDetail": "a měsíční splátkou pojištění",
+                "totalWithInsurance": "včetně pojištění",
+                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
+                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "primaryButton": "Continue",
+                "secondaryButton": "I’m not interested"
+            },
+            "scoringLess": {
+                "title": "We are ready to offer to you:",
+                "detail": "I confirm that I will be able to monthly repay this amount",
+                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
+                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "amount": "We will loan you",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
+                "insuranceRow": "a měsíční splátkou pojištění",
+                "insuranceDetail": "a měsíční splátkou pojištění",
+                "totalWithInsurance": "včetně pojištění",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "primaryButton": "Arrange Loan",
+                "secondaryButton": "Decline"
+            },
+            "scoringBut": {
+                "title": "We have approved your loan but we will have to continue at our branch:",
+                "detail": "Because we are missing some of your documents. <b>Bring them to one of our branches where we will finalize the loan together.</b>",
+                "branchDocumentTypes": [
+                    {
+                        "title": "Filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> from your employer",
+                        "id": "1"
+                    },
+                    {
+                        "title": "Identity card",
+                        "id": "88"
+                    },
+                    {
+                        "title": "Driving licence",
+                        "id": "91"
+                    },
+                    {
+                        "title": "Payment receipt from the Czech Post (postal order) not older than 30 days.",
+                        "id": "112"
+                    },
+                    {
+                        "title": "Pension assessment",
+                        "id": "113"
+                    }
+                ],
+                "amount": "We will loan you",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
+                "insuranceRow": "a měsíční splátkou pojištění",
+                "insuranceDetail": "a měsíční splátkou pojištění",
+                "totalWithInsurance": "včetně pojištění",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "primaryButton": "I understand; show me the nearest branch"
+            },
+            "documentUpload": {
+                "uploadScenes": {
+                    "firstUpload": {
+                        "title": "Let’s deal with it. Please provide us with your current identification documents.",
+                        "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "anotherUpload": {
+                        "title": "Thank you for your patience",
+                        "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "poorUpload": {
+                        "title": "Some documents could not be processed",
+                        "detail": "<b>Reupload a clear and sharp picture:</b>",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "branchNeeded": {
+                        "title": "We have to meet",
+                        "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
+                        "primaryButton": "I understand; show me the nearest branch"
+                    },
+                    "uploadCheck": {
+                        "title": "We’re going to check legibility and get back to you",
+                        "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
+                        "primaryButton": "Back to Balance Overview"
+                    }
+                },
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "Občanský průkaz",
+                        "photoCapture": [
+                            {
+                                "title": "Vyfoťte přední stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            },
+                            {
+                                "title": "Vyfoťte zadní stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            }
+                        ],
+                        "review": {
+                            "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                            "documentDetails": {
+                                "title": "Údaje z dokladu",
+                                "firstName": "Jméno",
+                                "lastName": "Příjmení",
+                                "birthDate": "Datum narození",
+                                "birthPlace": "Místo narození",
+                                "birthNumber": "Rodné číslo",
+                                "idCardNumber": {
+                                    "title": "Číslo občanského průkazu",
+                                    "secondaryTitle": "Číslo pasu"
+                                },
+                                "idCardValidTo": "Platnost do",
+                                "issueDate": "Platnost od",
+                                "nationality": "Státní občanství",
+                                "nationalityValue": "pouze Česká republika",
+                                "sex": "Pohlaví",
+                                "male": "muž",
+                                "female": "žena"
+                            },
+                            "documentAddress": {
+                                "title": "Trvalý pobyt",
+                                "secondary": "(Pouze Česká republika)",
+                                "street": "Ulice",
+                                "descriptiveNumber": "Číslo popisné",
+                                "orientationNumber": "Číslo orientační",
+                                "city": "Obec nebo město",
+                                "zip": "PSČ",
+                                "personalData": {
+                                    "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                                }
+                            },
+                            "primaryButton": "Pokračovat"
+                        },
+                        "busyLoader": {
+                            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+                            "detail": "Zabere to maximálně pár vteřin."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "Půjčku vám teď nemůžeme nabídnout",
+                            "detail": "Moc se omlouváme",
+                            "secondaryButton": "Ukončit žádost"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Jejda, tohle se nepovedlo",
+                            "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit znovu",
+                            "secondaryButton": "Pokračovat později"
+                        }
+                    },
+                    "143": {
+                        "icon": "idCardFill",
+                        "title": "Řidičský průkaz",
+                        "photoCapture": [
+                            {
+                                "title": "Vyfoťte přední stranu řidičského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            }
+                        ]
+                    },
+                    "13": {
+                        "icon": "documentsFill",
+                        "title": "Podepsané Potvrzení o výši příjmu",
+                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+                    },
+                    "112": {
+                        "icon": "documentsFill",
+                        "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+                    },
+                    "113": {
+                        "icon": "documentsFill",
+                        "title": "Důchodový výměr"
+                    }
+                },
+                "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
+                "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
+                "uploadedDocuments": [
+                    {
+                        "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
+                        "labels": [
+                            "Attach the front page of your ID",
+                            "Attach the back page of your ID"
+                        ],
+                        "categoryCode": "141"
+                    },
+                    {
+                        "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
+                        "labels": [
+                            "Attach a signed proof of income"
+                        ],
+                        "categoryCode": "13"
+                    },
+                    {
+                        "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
+                        "labels": [
+                            "Attach the front page of your driving licence"
+                        ],
+                        "categoryCode": "143"
+                    },
+                    {
+                        "title": "Please take a picture of the following: ",
+                        "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
+                        "documents": [
+                            {
+                                "title": "Payment receipt from the Czech Post that is not older than 30 days",
+                                "labels": [
+                                    "Attach a document"
+                                ],
+                                "documentCode": "112"
+                            },
+                            {
+                                "title": "Pension assessment",
+                                "labels": [
+                                    "Attach a document"
+                                ],
+                                "documentCode": "113"
+                            },
+                            {
+                                "labels": [
+                                    "Attach a document"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "uploadPicker": {
+                    "title": "Choose a way to upload a document",
+                    "camera": "Take a picture",
+                    "photos": "Choose from gallery",
+                    "files": "Choose from files"
+                }
+            },
+            "documentUploadReview": {
+                "title": "Is this correct?",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "birthNumber": "Birth number",
+                "city": "City",
+                "descriptiveNumber": "Dsc. no",
+                "orientationNumber": "Or. no",
+                "idCardNumber": "ID number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Scan again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, this is not going to work",
+                "detail": "We were not able to read all the data. Please make sure that the lighting is good and texts are clear and well-readable. ",
+                "tryAgain": "Let's try again:",
+                "primaryButton": "Scan again"
+            },
+            "manualCheck": {
+                "title": "We have to review your application and that may take a moment.",
+                "detail": "You will find the result here within 2 days. Thank you for understanding.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoringNok": {
+                "title": "After reviewing your application we can not offer you a loan.",
+                "detail": "<b>If you have any questions, we are here to help.</b>",
+                "callUs": "Call our helpline",
+                "primaryButton": "Cancel Application"
+            },
+            "docScoringSame": {
+                "title": "Everything is OK. Let’s continue",
+                "detail": "I am certain that I will be able to repay this amount each month",
+                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
+                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "amount": "We will loan you",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "Interest rate",
+                "percentageRate": "Annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
+                "insuranceRow": "a měsíční splátkou pojištění",
+                "insuranceDetail": "a měsíční splátkou pojištění",
+                "totalWithInsurance": "včetně pojištění",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "primaryButton": "Continue"
+            },
+            "docScoringChange": {
+                "title": "We did not have the correct details",
+                "subtitle": "Your details have changed and with them so has our offer. We can now offer you:",
+                "detail": "I am certain that I will be able to repay this amount each month",
+                "detailInsurance": "I confirm that I can repay the amount <b>{0}</b> for the loan and insurance monthly",
+                "detailWoInsurance": "I confirm that I can repay the amount <b>{0}</b> monthly",
+                "amount": "We will loan you",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "Interest rate",
+                "percentageRate": "Annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": "Repayability insurance for <b>{0} per month</b> to repay",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "insuranceRow": "and a monthly insurance payment",
+                "insuranceDetail": "and a monthly insurance payment",
+                "totalWithInsurance": "including insurance",
+                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"www.moneta.cz\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "primaryButton": "I agree, continue",
+                "secondaryButton": "Decline"
+            },
+            "docScoringBranch": {
+                "title": "We will have to meet at our branch",
+                "detail": "We are sorry but there is no other way. We are looking forward to seeing you at our branch.<br><br><b>Please bring with you:</b>",
+                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
+                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "branchDocumentTypes": [
+                    {
+                        "title": "Filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> from your employer",
+                        "id": "1"
+                    },
+                    {
+                        "title": "Identity card",
+                        "id": "88"
+                    },
+                    {
+                        "title": "Driving licence",
+                        "id": "91"
+                    },
+                    {
+                        "title": "Payment receipt from the Czech Post (postal order) not older than 30 days.",
+                        "id": "112"
+                    },
+                    {
+                        "title": "Pension assessment",
+                        "id": "113"
+                    }
+                ],
+                "amount": "Do you need a",
+                "duration": "for a period of",
+                "installment": "with installments of",
+                "rateOfInterest": "interest rate",
+                "percentageRate": "annual percentage rate",
+                "total": "You will pay a total of",
+                "insurance": "Repayability insurance for <b>{0} per month</b> to repay",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "insuranceRow": "and a monthly insurance payment",
+                "insuranceDetail": "and a monthly insurance payment",
+                "totalWithInsurance": "including insurance",
+                "primaryButton": "I understand, show me the nearest branch"
+            },
+            "technicalError": {},
+            "lowerLimit": {},
+            "insurance": {
+                "title": "Pay with confidence",
+                "subtitle": "In the event that you lose your income due to an unforeseen situation, the insurance company will assist with:",
+                "bullets": [
+                    "<b>Up to 12 repayments</b>  in the event of loss of employment (or loss of business) if you are unable to work or if you need to take care of a family member",
+                    "<b>1 repayment</b> if you are hospitalized",
+                    "<b>Repayment of the loan in full</b>  in the event of becoming disabled (from 2nd degree) and receiving a ZTP/P pass (extremely disabled person with a need of a guide), or in case of death"
+                ],
+                "bulletsFooter": "<b>Virtual doctor’s office 24/7,</b> with a doctor on-call, who can write an electronic prescription or a referral for further care ",
+                "primaryButton": "Insure for {0}\u00A0CZK a month",
+                "detail": "By clicking \"Insure\" you agree to a <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">General insurance contract including Insurance Terms and Conditions</a>, and hereby arrange an insurance in case of incapacity for work, third-degree disability, death, or loss of employment or hospitalization. The insurance is not necessary to arrange the loan.",
+                "iddDetail": "The legal documentation for your insurance will be delivered to you electronically. The original paper documents can be acquired at any <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">MONETA Money Bank branch</a>.",
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a><br><br>If you are disabled, there will be no payment in the event of an insurance claim.</a>",
+                "secondaryButton": "I don´t want insurance"
+            },
+            "precontractInfo": {
+                "title": "Read the pre\u2011contractual information",
+                "detail": "Download the PDF",
+                "secondaryButton": "Decline",
+                "primaryButton": "I agree, continue"
+            },
+            "disagreement": {
+                "title": "We need your agreement to continue",
+                "detail": "Your loan is almost ready. In order to receive it, we need your agreement to the pre-contractual information and the contract <b>Do you have any questions? Let’s talk about it.</b></b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit one of our branches",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application"
+            },
+            "contract": {
+                "title": "Read the Loan contract",
+                "detail": "Download the PDF",
+                "secondaryButton": "Decline",
+                "primaryButton": "Continue to signature"
+            },
+            "signByUs": {
+                "title": "Just a moment, we are signing the contract"
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we are preparing the contract"
+            },
+            "victory": {
+                "title": "It’s done. The money is on its way into your account and should be there within 5 minutes. Enjoy!",
+                "detail": "All of your documents can be found in Smart Banka and Internet Banka in My Documents.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "tomorrowVictory": {
+                "title": "Your loan will be ready next business day in the morning.",
+                "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "delayedVictory": {
+                "title": "We are almost done. The signing may take a while.",
+                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your My Documents section. We apologize for the inconvenience and appreciate your patience.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "sign": {
+                "title": "Sign the contract with your PIN number, eventually with biometrics"
+            },
+            "toUDC": {
+                "title": "First, we merge your existing loans and then we can add a new one to them",
+                "detail": "We will merge the new loan with this loan:",
+                "total": "Total amount borrowed",
+                "elsewhere": "I have loans elsewhere that I want to consolidate as well",
+                "primaryButton": "Consolidate and apply for another loan",
+                "secondaryButton": "How it will be?"
+            }
+        }
+    }
+}

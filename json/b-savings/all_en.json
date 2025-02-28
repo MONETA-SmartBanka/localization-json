@@ -1,0 +1,332 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Oops, something went wrong",
+                "detail": "Please try again later.",
+                "callUs": "Call our Helpline.",
+                "primaryButton": "Back",
+                "secondaryButton": "Try again"
+            },
+            "child": {
+                "title": "Building savings for children can be opened in Internet Banka or at any of our branches.",
+                "detail": "Have your child's birth certificate ready, log into Internet Banka and continue the application process.\n\nAlternatively, visit any of our branches with your ID and your child's birth certificate. ",
+                "callUs": "Call our helpline.",
+                "branch": "Visit our branch.",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoring": {
+                "title": "Oops, something went wrong",
+                "detail": "Unfortunately, we cannot help you in the app, but we will be happy to help in our branch; please remember to take a valid form of ID with you.",
+                "branch": "Visit our branch.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "cantProceed": {
+                "title": "We cannot open a building savings account for you in the app just yet",
+                "detail": "<b>Stop by one of our branches. Remember to bring two forms of valid ID with you.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "disagreement": {
+                "title": "We need your consent to continue",
+                "detail": "You are just a step away from your building savings account. <br><b>Do you have any questions? Call us or visit one of our branches.</b>",
+                "callUs": "Call our Helpline.",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue"
+            },
+            "longTermScreens": {
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night...",
+                    "detail": "We update our systems every night, and thus some services might not be available. Unfortunately, we are not able to prepare your documents right now. <b> They will be ready at about 8 am. .</b> Thank you for waiting.",
+                    "primaryButton": "Back to Balance Overview"
+                }
+            }
+        },
+        "general": {
+            "toolbarTitle": "Building Saving Account",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
+        },
+        "scenes": {
+            "helpOffer": {
+                "title": "Our app offers the best building savings account",
+                "detail": "All information about our building savings account can be found at <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">our website.</a><br><br><b>Do you have any questions? Call us or visit our branch.</b>",
+                "toolbarTitle": "Help",
+                "bullets": [
+                    "<b>Interest rate and State Contribution</b> – guaranteed interest rate of 4.9 % until the end of year 2025",
+                    "<b>Your savings are secure</b> – Your savings are secure and insured for up to 100,000 EUR.",
+                    "<b>Use your savings as you like</b> – after 6 years you can spend your savings on anything."
+                ],
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application",
+                "callUs": "Call our Helpline",
+                "branch": "Visit our branch"
+            },
+            "secondaryOfferNib": {
+                "title": "Building savings",
+                "detail":"<b>Now doubling state support and a bonus for high deposits.</b>"
+            },
+            "promoOfferNib": {
+                "title": "Attractive appreciation of 4.9% with double state support",
+                "detail": "Open a building savings account fully online with no arrangment fees and state contribution of up to CZK 1,000 annually.",
+                "bullets": [
+                    "<b>Doubling of state support with a bonus of up to CZK 6,000.</b> More in the conditions of the event at All information about our building savings account can be found at our website",
+                    "<b>CZK 3,000 bonus for a high deposit.</b> More in the conditions of the event at All information about our building savings account can be found at our website",
+                    "<b>Your savings are secure</b> – Your savings are secure and insured for up to EUR 100,000.",
+                    "<b>Use your savings as you like</b> – after 6 years you can spend your savings on anything."
+                ]
+            },
+            "promoOfferNibChild": {
+                "title": "Attractive appreciation of 4.9% with double state support",
+                "detail": "Open a building savings account fully online with no arrangment fees and state contribution of up to CZK {stateSupportMaxAmount} annually.",
+                "bullets": [
+                    "<b>Doubling state support with a bonus of up to 6,000 CZK.</b> More in the conditions of the event at our <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">website.</a>",
+                    "<b>CZK 3,000 bonus for a high deposit.</b> More in the conditions of the event at All information about our building savings account can be found at our website",
+                    "<b>Your savings are secure</b> – Your savings are secure and insured for up to EUR 100,000.",
+                    "<b>Use your savings as you like</b> – after 6 years you can spend your savings on anything."
+                ]
+            },
+            "helpPersonalDetail": {
+                "title": "Verify your personal details",
+                "detail": "We need to verify your details and check if there have been any changes. If there have been any changes you will need your ID to verify them. You can just take a photo of it right within the app. The process is secure. <b>Do you have any questions? Let's talk about them.</b>",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue with the application",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch"
+            },
+            "helpUploadDocument": {
+                "title": "We need your ID in order to continue",
+                "detail": "Due to some changes in your personal details we need you to verify them with your ID. You can take a photo of it within the app. The process is secure and only takes a minute.  <b>DO you have any questions? Let's talk about them.</b>",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue with the application",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch"
+            },
+            "buildingSavingsCalculator": {
+                "title": "Set up your building savings account",
+                "amount": "Monthly amount",
+                "amountTip": "Monthly deposit is the amount you regularly save on your building savings. In this process, you can save more monthly or deposit money into the account, for instance, once a\u00a0year.",
+                "duration": "Duration",
+                "total": "Total savings",
+                "targetAmount": "Savings Goal",
+                "totalTip": "<b>Tip:</b> Deposit a minimum of 1,700\u00a0CZK a month to receive the maximum State Contribution of 1,000\u00a0CZK a year.",
+                "stateContributionCheckbox": "I would like to receive State Contribution",
+                "ownDeposit": "Own Depoosit",
+                "stateContribution": "State Contribution",
+                "annualAppreciation": "Yearly Appreciation (with interest rate of {0}, including State Contribution)",
+                "entryFee": "Entry Fee",
+                "managementFee": "Monthly Management Fee",
+                "secondaryButton": "Open a savings account for a\u00a0child",
+                "primaryButton": "Continue"
+            },
+            "permanentAddress": {
+                "title": "Permanent address",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. No",
+                "orientationNumberTitle": "Or. No",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Confirm"
+            },
+            "contactAddress": {
+                "title": "Contact address",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. No",
+                "orientationNumberTitle": "Or. No",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Confirm"
+            },
+            "identification": {
+                "title": "Your personal details",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "permanentAddress": "Permanent address",
+                "contactAddress": "Contact address",
+                "phone": "Phone",
+                "email": "Email",
+                "stateOfBirth": "State of birth",
+                "citizenship": "Citizenship",
+                "primaryButton": "Confirm and continue",
+                "information": {
+                    "text": "By continuing, you consent that MONETA Money Bank, a.s. share your personal details with MONETA Stavební Spořitelna, a.s. in order to verify your identity. <a href=\"https://www.moneta.cz/ochrana-dat\" target=\"_blank\">Find out more here.</a>",
+                    "infoScreen": {
+                        "title": "Identity confirmation",
+                        "detail": "By continuing, you agree to the transfer of your personal data by MONETA Money Bank, a.s. to MONETA Stavební Spořitelna, a.s. for the purpose of your identification in accordance with Act No. 253/2008 Coll., on certain measures against the Legalization of Proceeds from Crime and Terrorist Funding to the following extent: <br> <br> First name and last name, birth number, place of birth, sex, address of permanent residence - or other address of residence, citizenship, type, number and date of validity of your identity document, the state that issued the document and at the request of MONETA Stavební Spořitelna, a.s., a copy of the identity document.",
+                        "primaryButton": "Back"
+                    }
+                }
+            },
+            "amlQuestionnaire": {
+                "title": "Legally required information",
+                "detail": "We are legally obligated to ask for this information under Act No. 253/2008 Coll. on money laundering.",
+                "wrongTaxResidenceDialog": {
+                    "title": "Building Savings Account can only be opened by tax residents of the Czech Republic.",
+                    "detail": "Are you a tax resident outside of the Czech Republic? In that case, visit one of our branches to finalize the Application.",
+                    "primaryButton": "I am a tax resident solely of the Czech Republic",
+                    "secondaryButton": "I am a tax resident outside of the Czech Republic"
+                },
+                "questions": {
+                    "depositOrigin": {
+                        "text": "Where will the money in the building savings account come from?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "Income from employment"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Income from business"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Pension / Annuity"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Social benefits"
+                            },
+                            {
+                                "value": "5",
+                                "text": "From family and friends / Winnings / Presents "
+                            }
+                        ]
+                    },
+                    "wayOfSaving": {
+                        "text": "How will the amount be deposited?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "I will make a direct deposit in cash"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Cashless transfer from my other account"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Direct deposit by a third party"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Cashless transfer by a third party"
+                            }
+                        ]
+                    },
+                    "rangeOfIncome": {
+                        "text": "What is your average monthly income?",
+                        "options": [
+                            {
+                                "value": "AML2.1.DO_50",
+                                "text": "Up to 50,000 CZK"
+                            },
+                            {
+                                "value": "AML2.2.DO_100",
+                                "text": "50,000 - 100,000 CZK"
+                            },
+                            {
+                                "value": "AML2.3.NAD_100",
+                                "text": "More than 100,000 CZK"
+                            }
+                        ]
+                    },
+                    "taxResidence": {
+                        "text": "Are you a tax resident solely of the Czech Republic?",
+                        "options": [
+                            {
+                                "value": "YES",
+                                "text": "Yes"
+                            },
+                            {
+                                "value": "NO",
+                                "text": "No"
+                            }
+                        ]
+                    }
+                },
+                "primaryButton": "Continue"
+            },
+            "documentUpload": {
+                "title": "We need your current ID in order to continue",
+                "detail": "A clear and legible photo will suffice. You can do it within the app or visit one of our branches. The upload process is secure.",
+                "primaryButton": "Continue",
+                "uploadedDocument": {
+                    "title": "Please take a photo of both sides of your ID.",
+                    "labels": [
+                        "Add the front of your <br>ID",
+                        "Add the back of your <br>ID"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Choose upload method",
+                    "camera": "Take a photo",
+                    "photos": "Choose from Camera Roll",
+                    "files": "Choose from Files"
+                }
+            },
+            "documentUploadReview": {
+                "title": "Did we get it right?",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "birthNumber": "Personal identification number",
+                "city": "City",
+                "descriptiveNumber": "Desc. no.",
+                "orientationNumber": "Or. no.",
+                "idCardNumber": "ID card number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Try again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, something's wrong",
+                "detail": "We couldn't read your details. Please make sure the photo is well lit and the text are legible.",
+                "tryAgain": "Let's try again: ",
+                "primaryButton": "Try again"
+            },
+            "precontractInfo": {
+                "title": "Read the pre-contractual information",
+                "detail": "Download the PDF",
+                "secondaryButton": "Decline",
+                "primaryButton": "Agree and continue"
+            },
+            "contract": {
+                "title": "Read the Contract and Product Description carefully",
+                "detail": "Download PDF",
+                "checkbox": "<b>I confirm that I have read and understood these documents, </b> including ones I have received by email in the previous step - <a href=\"https://www.moneta.cz/documents/20143/15583017/mss-sazebnik-uhrad-za-poskytovane-sluzby.pdf\" target=\"_blank\">Price List </a>, <a href=\"https://www.moneta.cz/documents/20143/11819249/mss-vop-ss-04072020.pdf\" target=\"_blank\">General Terms and Condition of the Building Savings Account</a>, <a href=\"https://www.moneta.cz/documents/20143/11819244/mss-informacni-prehled-o-systemu-pojisteni-vkladu.pdf\" target=\"_blank\">Information overview of the deposit insurance system for the client</a> and <a href=\"https://www.moneta.cz/documents/20143/11819153/mss-pokyny-k-poukazovani-plateb.pdf\" target=\"_blank\">Remittance instruction.</a>",
+                "secondaryButton": "Decline",
+                "primaryButton": "Continue to Signature"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat needs to look things over."
+            },
+            "waitingBeforeContract": {
+                "title": "Just a minute while we prepare your documents"
+            },
+            "signByUs": {
+                "title": "Now it's our turn to sign, just a moment please"
+            },
+            "sign": {
+                "title": "Sign the Contract with your PIN"
+            },
+            "buildingSavingsVictory": {
+                "title": "Done! You can start saving.",
+                "detail": "<b>Activation of your building savings account will take a moment longer, but you can already set up a standing order..</b> The Contract and other documents can be found in Smart Banka. The activation of your building savings account will be confirmed by mail.",
+                "checkbox": "<b>Start saving now </b> - from the selected account we will send a first payment in the amount of  {0} and set is a monthly standing order.",
+                "fromAccount": "Pay from account",
+                "fromDate": "Starting on",
+                "secondaryButton": "Save Standing Order",
+                "primaryButton": "Continue"
+            }
+        }
+    }
+}

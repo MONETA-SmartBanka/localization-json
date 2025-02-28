@@ -1,0 +1,1230 @@
+{
+    "errorScreens": {
+        "branchOverLimit": {
+            "title": "Musíme se potkat",
+            "detail": "Rádi bychom se s vámi setkali na pobočce, kde se sloučení vašich půjček budeme společně věnovat.",
+            "bulletsSectionTitle": "Přineste prosím s sebou:",
+            "richBullets": [
+                {
+                    "image": "documentsFill",
+                    "title": "Dokumenty ke všem vašim půjčkám",
+                    "subtitle": "Smlouvu o úvěru, výpis z úvěrového účtu nebo vyčíslení úvěru (ne starší 40 dní)"
+                },
+                {
+                    "image": "idCardFill",
+                    "title": "Občanský průkaz a další doklad",
+                    "subtitle": "Např. řidičský průkaz nebo pas"
+                },
+                {
+                    "image": "filePdfFill",
+                    "title": "Vyplněné <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Potvrzení o příjmu od zaměstnavatele</a>"
+                },
+                {
+                    "image": "userFill",
+                    "title": "U půjčky nad 800 000 Kč budete potřebovat spolužadatele"
+                }
+            ],
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "footer": "Žádost jsme vám zatím nezaložili. Pokud chcete sloučit půjčky do 800 000 Kč, můžete v ní pokračovat",
+            "primaryButton": "Pokračovat v žádosti",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "goToBranchNotSupported": {
+            "title": "Musíme se potkat",
+            "detail": "Rádi bychom se s vámi setkali na pobočce, kde se sloučení vašich půjček budeme společně věnovat.",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Ukončit žádost"
+        },
+        "noObligations": {
+            "title": "Nenašli jsme žádné půjčky ke sloučení",
+            "detail": "V aplikaci si můžete sloučit pouze některé splátkové úvěry. Pokud máte zájem o konsolidaci všech závazků, navštivte nás prosím na pobočce.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Požádat o půjčku",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "scoring": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "api": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "longTermScreens": {
+            "SCORING_UNAVAILABLE": {
+                "title": "Chrrr...chrrr...chrrr...",
+                "detail": "V noci provádíme údržbu systémů, proto některé nemusí být dostupné.<br><br><b>Vraťte se prosím za jednu až dvě hodiny, to už budeme zase vzhůru.</b>",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                "title": "Toto bude trvat celou noc...",
+                "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                "title": "Toto bude trvat celou noc...",
+                "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+                "primaryButton": "Přejít na Přehled"
+            }
+        },
+        "disagreement": {
+            "title": "Bez souhlasu to bohužel nepůjde",
+            "detail": "Pokud máte nějaké otázky, rádi vám je zodpovíme na telefonu nebo osobně na kterékoliv naší pobočce.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Naštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "scoringDisagreement": {
+            "title": "Není to ono?",
+            "detail": "Sloučení půjček jsme Vám přizpůsobili na míru a nabízíme to nejlepší, co v tuto chvíli máme.\n\nMožná bychom Vám uměli lépe poradit na telefonu. Zavoláme si?",
+            "callUs": "Zavolejte nám na infolinku",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "repaymentContractDisagree": {
+            "title": "Bez podpisu to bohužel nepůjde",
+            "detail": "Ostatní banky ho od nás pro předčasné splacení půjčky požadují.\n\nPokud máte nějaké otázky, rádi vám je zodpovíme na telefonu nebo osobně na kterékoliv naší pobočce.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Naštivte nás\nna pobočce",
+            "secondaryButton": "Ukončit žádost",
+            "primaryButton": "Zpět"
+        }
+    },
+    "general": {
+        "toolbarTitle": "Konsolidace půjček",
+        "phoneNumberSupport": "224 443 636",
+        "phoneNumberSale": "800 102 040",
+        "messengerUrl": "https://m.me/138479367229",
+        "supportChat": "<b>Konsolidace jako na pobočce</b> – klikněte, a náš bankéř Vám se sjednáním rád pomůže v online chatu"
+    },
+    "scenes": {
+        "help": {
+            "title": "Potřebujete poradit nebo chcete pokračovat později?",
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "Úrokovou sazbu půjček držíme tak nízko, jak jen to jde"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Můžete si půjčit i peníze navíc"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Sloučenou půjčku můžete vždy předčasně splatit",
+                    "subtitle": "Mimořádná splátka s poplatkem do 1 %"
+                },
+                {
+                    "image": "tickFill",
+                    "title": " Sjednání a správa půjčky je zdarma"
+                }
+            ],
+            "bulletsFooter": "Všechny informace, dokumenty a ceník najdete <a href=\"https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek\">na našem webu</a>.",
+            "summaryHeadline": "Detaily ke sjednání",
+            "amount": "Splatíme za vás",
+            "more": "Navíc si půjčíte",
+            "duration": "Délka splácení",
+            "installment": "Měsíční splátka",
+            "interest": "Roční úroková sazba",
+            "rpsn": "Roční procentní sazba nákladů",
+            "total": "Celkem zaplatíte",
+            "totalAmount": "Celková půjčka",
+            "primaryButton": "Dokončit žádost",
+            "secondaryButton": "Přejít na Přehled",
+            "tertiaryButton": "Zrušit žádost",
+            "confusedHeadline": "Nevíte si s něčím rady, a potřebujete poradit?",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Naštivte nás\nna pobočce"
+        },
+        "promo": {
+            "title": "Sloučení půjček je radost",
+            "section": "Jak to bude probíhat?",
+            "bullets": [
+                "Zkontrolujeme vaše půjčky",
+                "Můžete si půjčit také něco navíc",
+                "Doložíte dokumenty k půjčkám jinde",
+                "Žádost zodpovědně vyhodnotíme",
+                "Vaše půjčky jinde zaplatíme",
+                "Zřídíme jednu sloučenou půjčku u nás"
+            ],
+            "secondaryButton": "Více informací",
+            "secondaryButtonLink": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek",
+            "primaryButton": "Jdeme na to"
+        },
+        "agreement": {
+            "title": "Kolik vám zbývá splatit u jiných společností?",
+            "commitments": "Přibližná výše půjček jinde",
+            "inputInfo": "Zaokrouhlete na tisíce",
+            "info": "Pro sloučení kreditek, kontokorentů, apod. nás prosím navštivte <a href=\"map\">na pobočce.</a>",
+            "footer": "Po kliknutí na tlačítko \"Pokračovat\" Vám založíme žádost o Konsolidaci půjček v uvedené výši a nahlédneme do registrů na Vaše závazky. Pro vyřízení Vaší žádosti je nezbytné zpracovávat Vaše osobní údaje, a to za účelem zjištění Vaší úvěruschopnosti, důvěryhodnosti a platební morálky, včetně ověření v Bankovním registru klientských informací a Nebankovním registru klientských informací, a dalších kroků nezbytných k jednání o uzavření smlouvy. Dále berete na vědomí zásady <a href=\"https://www.moneta.cz/ochrana-dat\">zpracování osobních údajů</a> v koncernu MONETA.",
+            "primaryButton": "Pokračovat"
+        },
+        "prescoring": {
+            "title": "Chvilku strpení, kocour počítá, kolik můžete ušetřit",
+            "detail": "Potrvá to jen chviličku."
+        },
+        "prescoringNok": {
+            "title": "Po prověření vaší žádosti vám bohužel půjčky sloučit nemůžeme.",
+            "detail": "Pokud máte nějaké otázky, rádi vám je zodpovíme na telefonu nebo osobně na kterékoliv naší pobočce.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
+        },
+        "contractUploadTakingPhoto": {
+            "takingPhoto": {
+                "title": "Take or upload a document",
+                "detail": "Loan {0} (elsewhere)",
+                "primaryButton": "Take Photo"
+            },
+            "photoTakenConfirmation": {
+                "title": "Is everything clearly visible?",
+                "primaryButton": "Yes",
+                "secondaryButton": "No, retake"
+            },
+            "takingAnotherPhoto": {
+                "title": "Take or upload a document",
+                "detail": "Loan {0} (elsewhere)",
+                "primaryButton": "Done",
+                "secondaryButton": "Take photo of side {0}"
+            }
+        },
+        "calculator": {
+            "title": "Na splátkách můžete ušetřit až {0} Kč měsíčně",
+            "section": "Splatíme za vás tyto půjčky",
+            "loanElsewhere": "Půjčka {0} (jinde)",
+            "loanMoneta": "Půjčka {0} (Moneta)",
+            "loanDescription": "Celkem {loanAmount} Kč • Zbývá doplatit {dueAmount} Kč • Úrok {interest} p.a. • Splátka {installment} Kč měsíčně",
+            "rateOfInterest": "Roční úroková sazba",
+            "invalidVariantTitle": "Omlouváme se, takto to nepůjde",
+            "invalidVariantMessage": "Tato kombinace bohužel není možná. Formulář jsme vrátili do původního stavu.",
+            "invalidDialogTexts": [
+                {
+                    "key": "NO_SELECTED_OBLIGATION",
+                    "title": "Sloučit lze půjčky v minimální výši 30 000 Kč",
+                    "message": "Prosím, vyberte půjčky alespoň v této minimální výši."
+                },
+                {
+                    "key": "MIN_LIMIT",
+                    "title": "Sloučit lze půjčky v minimální výši 30 000 Kč",
+                    "message": "Prosím, vyberte půjčky alespoň v této minimální výši."
+                },
+                {
+                    "key": "MAX_LIMIT",
+                    "title": "Online umíme sloučit půjčky v maximální výši 800 000 Kč",
+                    "message": "Pokud potřebujete sloučit všechny půjčky, stavte se prosím na pobočku, kde něco vymyslíme."
+                },
+                {
+                    "key": "NOT_VALID_VARIANT",
+                    "title": "Omlouváme se, takto to nepůjde",
+                    "message": "Tato kombinace bohužel není možná. Formulář jsme vrátili do původního stavu."
+                },
+                {
+                    "key": "INTERNAL_ONLY_NOT_SUPPORTED",
+                    "title": "Mňauvajs :(",
+                    "message": "Vyberte prosím alespoň jednu půjčku jinde, jinak to online neumíme. Formulář jsme vrátili do původního stavu."
+                },
+                {
+                    "key": "TO_MANY_INTERNAL_OBLIGATIONS",
+                    "title": "Půjčky u Monety vám sloučit musíme",
+                    "message": "Pokračovat můžete pouze s jednou Expres půjčkou, ostatní úvěry musí být sloučené."
+                }
+            ],
+            "missingInfo": {
+                "title": "Chybí tu něco?",
+                "detail": "V aplikaci si můžete sloučit pouze některé půjčky. Pokud máte zájem o konsolidaci všech úvěrů, zastavte se prosím za námi na pobočce."
+            },
+            "repayment": "Splatíme za vás",
+            "topupAmount": "Navíc vám půjčíme",
+            "repaymentInfo": {
+                "title": "Splatíme za vás",
+                "detail": "Celková částka, kterou pošleme na splacení vašich půjček jinde zahrnuje jistinu, úroky a případný poplatek za předčasné splacení (1 % z předčasně splacené jistiny).\n\nÚhrada je vypočítaná ke dni podání žádosti o konsolidaci půjček. Případný přeplatek vám banka vrátí, nedoplatek je nutné uhradit z vlastních zdrojů."
+            },
+            "duration": "Délka splácení",
+            "installment": "Měsíční splátka",
+            "interestRate": "Roční úroková sazba",
+            "rpsn": "Roční procentní sazba nákladů",
+            "total": "Celková částka",
+            "totalDetail": "Spočítali jsme vám to i s úroky",
+            "savingsInfo": "Celkovou částku snížíte zkrácením doby splácení v kalkulačce.",
+            "primaryButton": "Pokračovat",
+            "secondaryButton": "Chybí tu něco?"
+        },
+        "personalDetail": {
+            "title": "Máme správně vaše údaje?",
+            "primaryButton": "Pokračovat",
+            "personalDataSection": "Osobní a kontaktní údaje",
+            "contactSameAsPermanent": "Kontaktní adresa je stejná jako trvalá",
+            "firstName": "Jméno",
+            "lastName": "Příjmení",
+            "permanentAddress": "Trvalý pobyt",
+            "contactAddress": "Kontaktní adresa",
+            "employerAddress": "Adresa zaměstnavatele",
+            "incomeSection": "Příjmy",
+            "employmentType": "Zdroj příjmů",
+            "inTrialPeriod": "Zkušební lhůta",
+            "onNotice": "Výpovědní lhůta",
+            "employmentForPeriod": "Na dobu určitou",
+            "employmentTo": "Zaměstnán do",
+            "employer": "Zaměstnavatel",
+            "dependentPersonCount": "Vyživované osoby",
+            "dependentPersonCountInfo": "Vyživovanou osobou je každý, kdo je i jen částečně závislý na vašem příjmu – například děti, manželka na mateřské, invalidní osoby o které pečujete atd.",
+            "netMonthlyIncome": "Čistý měsíční příjem",
+            "netMonthlyIncomeInfo": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce. Chcete si to v klidu spočítat? Dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+            "netMonthlyHouseIncome": "Měsíční příjem domácnosti",
+            "netMonthlyHouseIncomeInfo": "Zadejte čistý měsíční příjem Vaší domácnosti – pokud máte každý měsíc jiný příjem, uveďte průměr za poslední tři měsíce. Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+            "expensesSection": "Výdaje",
+            "installmentsSum": "Splátky mimo Monetu (leasing, úvěry)",
+            "installmentsSumInfo": "Splácíte leasing nebo úvěr jinde než v MONETA Money Bank? Zadejte prosím výši celkové měsíční splátky:",
+            "housingExpenses": "Náklady na bydlení",
+            "necessaryExpenses": "Výše měsíčních nákladů",
+            "housingExpensesInfo": "Uveďte všechny <b>pravidelné měsíční náklady spojené s bydlením.</b> Například nájem, platby za energie, vodu a další služby. <b>Pokud se o náklady dělíte, uveďte jen poměrnou část.</b> Do těchto nákladů nepatří splátky hypotéky, platby za internet, jídlo, oblečení nebo pojištění domácnosti.",
+            "regularExpenses": "Nestandardní pravidelné výdaje",
+            "regularExpensesInfo": "Máte nějaké nestandardní pravidelné výdaje, jako např. léky či zdravotní pomůcky? Napište prosím jejich měsíční výši:",
+            "salaryReduction": "Srážky ze mzdy",
+            "salaryReductionInfo": "Máte nějaké srážky ze mzdy, např. z důvodu exekuce nebo placení výživného? Zadejte prosím celkovou měsíční srážku:",
+            "moreSection": "Teď už jen drobnosti",
+            "maritalStatus": "Váš rodinný stav",
+            "education": "Vaše vzdělání",
+            "secondDocumentType": "Další doklad",
+            "nationality": "Národnost",
+            "housing": "Typ bydlení",
+            "taxResidence": "Daňová rezidence",
+            "taxResidenceInfoTitle": "Určení daňové rezidence",
+            "taxResidenceInfoBody": "Dovolujeme si Vás požádat o informace za účelem plnění Společného standardu pro náležitou péči v oblasti informací o finančních účtech za účelem výměny informací poskytovaných finančními institucemi daňovým správám na základě Mnohostranné dohody příslušných orgánů o automatické výměně informací o finančních účtech (v případě banky se jedná o běžné, spořicí účty a termínované vklady).",
+            "vat": " DIČ",
+            "anotherVat": "Přidat další daňovou rezidenci",
+            "titleHeader": "Kde odvádíte daně?",
+            "employmentTypeCodeTable": [
+                {
+                    "code": "EMPLOYEE",
+                    "text": "Zaměstnání"
+                },
+                {
+                    "code": "ENTREPRENEUR",
+                    "text": "Podnikání"
+                },
+                {
+                    "code": "PENSIONER",
+                    "text": "Důchod"
+                },
+                {
+                    "code": "OTHER",
+                    "text": "Jiný"
+                },
+                {
+                    "code": "PENSIONER_OLD_AGE",
+                    "text": "Starobní důchod"
+                },
+                {
+                    "code": "PENSIONER_DISABLED",
+                    "text": "Invalidní důchod"
+                }
+            ],
+            "maritalStatusCodeTable": [
+                {
+                    "text": "Svobodný/á",
+                    "code": "SINGLE"
+                },
+                {
+                    "text": "Ženatý/Vdaná",
+                    "code": "MARRIED"
+                },
+                {
+                    "text": "Rozvedený/á",
+                    "code": "DIVORCED"
+                },
+                {
+                    "text": "Druh/Družka",
+                    "code": "PARTNER"
+                },
+                {
+                    "text": "Vdovec/Vdova",
+                    "code": "WIDOWED"
+                },
+                {
+                    "text": "Jiný",
+                    "code": "OTHER"
+                },
+                {
+                    "text": "NEUVEDENO",
+                    "code": "Neuvedeno"
+                }
+            ],
+            "educationCodeTable": [
+                {
+                    "text": "Základní",
+                    "code": "BASIC"
+                },
+                {
+                    "text": "Odborné/Učňovské",
+                    "code": "SECONDARY"
+                },
+                {
+                    "text": "Střední",
+                    "code": "HIGH"
+                },
+                {
+                    "text": "Vysokoškolské",
+                    "code": "HIGHER"
+                },
+                {
+                    "text": "Jiné",
+                    "code": "OTHER"
+                }
+            ],
+            "secondDocumentTypeCodeTable": [
+                {
+                    "text": "Řidičský průkaz",
+                    "code": "DRIVING_LICENCE"
+                },
+                {
+                    "text": "Cestovní pas",
+                    "code": "PASSPORT"
+                },
+                {
+                    "text": "Rodný list",
+                    "code": "BIRTH_CERTIFICATE"
+                },
+                {
+                    "text": "Povolení k trvalému pobytu",
+                    "code": "PERMANENT_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Povolení ke dlouhodobému pobytu",
+                    "code": "LONGTERM_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Povolení k přechodnému pobytu",
+                    "code": "TEMPORARY_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Potvrzení trvalého pobytu",
+                    "code": "TEMPORARY_RESIDENCE_CONFIRMATION"
+                }
+            ],
+            "housingCodeTable": [
+                {
+                    "text": "Vlastní dům / byt",
+                    "code": "OWN"
+                },
+                {
+                    "text": "Pronajatý dům / byt",
+                    "code": "RENTED"
+                },
+                {
+                    "text": "Družstevní byt",
+                    "code": "COOPERATIVE"
+                },
+                {
+                    "text": "U rodičů",
+                    "code": "PARENTS"
+                },
+                {
+                    "text": "Jiné",
+                    "code": "OTHER"
+                }
+            ]
+        },
+        "incomesPim": {
+            "list": {
+                "title": "Pokud máte více příjmů, můžete je nyní doplnit",
+                "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
+                "incomes": [
+                    "Příjem",
+                    "Druhý příjem",
+                    "Třetí příjem"
+                ],
+                "incomeSource": "Zdroj příjmu",
+                "employer": {
+                    "EMPLOYMENT_INCOME": "Zaměstnavatel",
+                    "BUSINESS_INCOME": "Název subjektu",
+                    "RENT": "Subjekt vyplácející rentu"
+                },
+                "netIncome": "Čistý měsíční příjem",
+                "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
+                "fillMissing": "Doplňte chybějící údaje",
+                "moreIncomes": "Další příjmy",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "tax": "Daň (ř. 74)",
+                "addMoreIncomes": {
+                    "title": "Přidat další příjem",
+                    "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
+                },
+                "removeAlert": {
+                    "title": "Opravdu chcete odstranit tento příjem?"
+                },
+                "trialPeriod": "ve zkušební lhůtě",
+                "employmentForPeriod": "na dobu určitou do {0}",
+                "primaryButton": "Pokračovat"
+            },
+            "incomeSource": {
+                "title": "Jaký je váš zdroj příjmů?",
+                "detail": "Příjem",
+                "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
+                "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
+                "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "fixPeriodTitle": "a zároveň na dobu určitou",
+                "fixPeriodDateTitle": "do",
+                "fixPeriodDateHint": "Vyberte datum",
+                "primaryButton": "Pokračovat",
+                "titleConfirm": "Zaměstnání u {0}",
+                "detailConfirm": "Vyberte všechny platné varianty",
+                "offers": {
+                    "TO_SME": {
+                        "icon": "bussiness",
+                        "title": "Hledáte úvěr pro podnikání?",
+                        "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
+                        "bulletsTitle": "Výhody podnikatelského úvěru",
+                        "bullets": [
+                            "Úrok už od {interestRate} ročně",
+                            "Sjednání kompletně online",
+                            "Bez poplatku za vedení úvěru",
+                            "Bez prokazování příjmu",
+                            "Možnost odpočtu úroků úvěru z daňového základu",
+                            "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                        ],
+                        "primaryButton": {
+                            "actionType": "APP_PAGE",
+                            "actionData": "SME_NTC_EXPRES",
+                            "actionLabelText": "Více o podnikatelském úvěru"
+                        },
+                        "secondaryButton": {
+                            "actionType": "CLOSE",
+                            "actionLabelText": "Zpět na Expres půjčku"
+                        }
+                    }
+                }
+            },
+            "enterpreneur": {
+                "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "tax": "Daň (ř. 74)",
+                "primaryButton": "Pokračovat"
+            },
+            "incomeSources": [
+                {
+                    "id": "EMPLOYMENT_INCOME",
+                    "title": "Zaměstnanec",
+                    "detail": "Vyberte všechny platné varianty"
+                },
+                {
+                    "id": "BUSINESS_INCOME",
+                    "title": "Podnikatel"
+                },
+                {
+                    "id": "RENT",
+                    "title": "Renta"
+                },
+                {
+                    "id": "PARENTAL_ALLOWANCE",
+                    "title": "Rodičovský příspěvek"
+                },
+                {
+                    "id": "MATERNITY_ALLOWANCE",
+                    "title": "Mateřská"
+                },
+                {
+                    "id": "OLDAGE_PENSION",
+                    "title": "Důchodce - starobní"
+                },
+                {
+                    "id": "DISABILITY_PENSION",
+                    "title": "Důchodce - invalidní"
+                },
+                {
+                    "id": "RENTAL_OFF_TAX_RETURN",
+                    "title": "Pronájem"
+                },
+                {
+                    "id": "MAINTENANCE_ALLOWANCE",
+                    "title": "Výživné"
+                },
+                {
+                    "id": "OTHER_INCOME",
+                    "title": "Jiný",
+                    "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
+                }
+            ],
+            "employer": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je Váš současný zaměstnavatel?",
+                    "employerTitle": "Zaměstnavatel",
+                    "employerPlaceholder": "vyberte",
+                    "streetTitle": "Ulice",
+                    "descriptiveNumberTitle": "Č. p.",
+                    "orientationNumberTitle": "Č. or.",
+                    "cityTitle": "Město",
+                    "zipTitle": "PSČ",
+                    "countryTitle": "Země",
+                    "idNumberTitle": "IČ",
+                    "primaryButton": "Pokračovat"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "employerTitle": "Název",
+                    "employerPlaceholder": "Vyberte název subjektu",
+                    "streetTitle": "Ulice",
+                    "descriptiveNumberTitle": "Č. p.",
+                    "orientationNumberTitle": "Č. or.",
+                    "cityTitle": "Město",
+                    "zipTitle": "PSČ",
+                    "countryTitle": "Země",
+                    "idNumberTitle": "IČ",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "employerTitle": "Subjekt vyplácející rentu",
+                    "employerPlaceholder": "vyberte",
+                    "streetTitle": "Ulice",
+                    "descriptiveNumberTitle": "Č. p.",
+                    "orientationNumberTitle": "Č. or.",
+                    "cityTitle": "Město",
+                    "zipTitle": "PSČ",
+                    "countryTitle": "Země",
+                    "idNumberTitle": "IČ",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "employerSearch": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš současný zaměstnavatel?",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "employerTitle": "Zaměstnavatel"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Subjekt",
+                    "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                    "employerTitle": "Subjekt"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "employerTitle": "Subjekt vyplácející rentu"
+                }
+            },
+            "solvency": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš příjem ze zaměstnání?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                    "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Jaká je výše vaší renty",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "PARENTAL_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho rodičovského příspěvku",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "MATERNITY_ALLOWANCE": {
+                    "title": "Jaká je výše vaší peněžité pomoci v mateřství",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "OLDAGE_PENSION": {
+                    "title": "Jaká je výše vašeho starobního důchodu?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "DISABILITY_PENSION": {
+                    "title": "Jaká je výše vašeho invalidního důchodu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENTAL_OFF_TAX_RETURN": {
+                    "title": "Jaká je výše vašeho příjmu z pronájmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "MAINTENANCE_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho příjmu z výživného",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                },
+                "OTHER_INCOME": {
+                    "title": "Jaká je výše vašeho příjmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "invalidIncomeCombination": {
+                "title": "Je nám líto",
+                "detail": "Máte dotaz, kontaktujte nás?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Dokončit později",
+                "tertiaryButton": "Ukončit žádost"
+            }
+        },
+        "householdExpensesNecessary": {
+            "title": "What are the other monthly expenses of your household?",
+            "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
+            "installmentsSum": "Amount of monthly installments",
+            "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
+            "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
+            "necessaryExpenses": "Amount of monthly expenses",
+            "necessaryExpensesError": {
+                "title": "Your necessary monthly expenses are higher than your income",
+                "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
+                "secondaryButton": "Edit Expenses",
+                "primaryButton": "Everything is correct, continue"
+            },
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Transport (tram, fuel costs)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Health care (medicines, rehabilitation, medical devices)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Nutrition"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Wage garnishment"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Other regular monthly expenses"
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Please do not include loan repayments including mortgages"
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "permanentAddress": {
+            "title": "Trvalý pobyt",
+            "streetTitle": "Ulice",
+            "descriptiveNumberTitle": "Č. p.",
+            "orientationNumberTitle": "Č. or.",
+            "cityTitle": "Město",
+            "zipTitle": "PSČ",
+            "countryTitle": "Země",
+            "primaryButton": "Pokračovat"
+        },
+        "contactAddress": {
+            "title": "Kontaktní adresa",
+            "streetTitle": "Ulice",
+            "descriptiveNumberTitle": "Č. p.",
+            "orientationNumberTitle": "Č. or.",
+            "cityTitle": "Město",
+            "zipTitle": "PSČ",
+            "countryTitle": "Země",
+            "primaryButton": "Pokračovat"
+        },
+        "employerAddress": {
+            "title": "Adresa zaměstnavatele",
+            "streetTitle": "Ulice",
+            "descriptiveNumberTitle": "Č. p.",
+            "orientationNumberTitle": "Č. or.",
+            "cityTitle": "Město",
+            "zipTitle": "PSČ",
+            "countryTitle": "Země",
+            "primaryButton": "Pokračovat"
+        },
+        "employerSearch": {
+            "title": "Našeptávač zaměstnavatele",
+            "hint": "Zadejte alespoň první tři písmena názvu zaměstnavatele s diakritikou",
+            "employerTitle": "Zaměstnavatel"
+        },
+        "scoring": {
+            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+            "detail": "Potrvá to jen chviličku."
+        },
+        "scoringNok": {
+            "title": "Po prověření Vaší žádosti Vám bohužel sloučení půjček nemůžeme nabídnout",
+            "detail": "Pokud máte dotaz, jak postupovat, kontaktujte nás.",
+            "callUs": "Zavolejte nám na infolinku",
+            "primaryButton": "Ukončit žádost"
+        },
+        "scoringOk": {
+            "title": "Vše je v pořádku, můžeme pokračovat",
+            "primaryButton": "Pokračovat",
+            "secondaryButton": "Další možnosti",
+            "amount": "Splatíme za Vás",
+            "topup": "Navíc vám půjčíme",
+            "duration": "Doba splácení",
+            "installment": "Měsíční splátka",
+            "interestRate": "Roční úroková sazba",
+            "rpsn": "Roční procentní sazba nákladů",
+            "total": "Celkem zaplatíte",
+            "totalAmount": "Celková půjčka",
+            "account": "Splácet z účtu",
+            "day": "Splátku odečíst vždy",
+            "dayValue": "{0}. den v měsíci"
+        },
+        "scoringOkLess": {
+            "title": "Vaše přání můžeme splnit následovně",
+            "primaryButton": "Pokračovat",
+            "secondaryButton": "Další možnosti",
+            "amount": "Splatíme za Vás",
+            "duration": "Doba splácení",
+            "term": "Doba splácení",
+            "installment": "Měsíční splátka",
+            "interestRate": "Roční úroková sazba",
+            "rpsn": "Roční procentní sazba nákladů",
+            "total": "Celkem zaplatíte",
+            "totalAmount": "Celková půjčka",
+            "account": "Splácet z účtu",
+            "day": "Splátku odečíst vždy",
+            "dayValue": "{0}. den v měsíci"
+        },
+        "scoringOkBut": {
+            "title": "Vaše přání můžeme splnit následovně, stačí se jen za námi zastavit na pobočce",
+            "primaryButton": "Najít nejbližší pobočku",
+            "secondaryButton": "Přejít na Přehled",
+            "bulletsSectionTitle": "Na pobočku si s sebou přineste",
+            "richBullets": [
+                {
+                    "image": "documentsFill",
+                    "title": "Dokumenty ke všem vašim půjčkám",
+                    "subtitle": "Smlouvu o úvěru, výpis z úvěrového účtu nebo vyčíslení úvěru (ne starší 40 dní)"
+                },
+                {
+                    "image": "idCardFill",
+                    "title": "Občanský průkaz a další doklad",
+                    "subtitle": "Např. řidičský průkaz nebo pas"
+                },
+                {
+                    "image": "filePdfFill",
+                    "title": "Vyplněné <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Potvrzení o příjmu od zaměstnavatele</a>"
+                },
+                {
+                    "image": "userFill",
+                    "title": "U půjčky nad 800 000 Kč budete potřebovat spolužadatele"
+                }
+            ],
+            "amount": "Splatíme za Vás",
+            "totalAmount": "Celková půjčka",
+            "topup": "Navíc vám půjčíme",
+            "repayment": "Splatíme za Vás {0}",
+            "duration": "Doba splácení",
+            "term": "Doba splácení",
+            "installment": "Měsíční splátka",
+            "interestRate": "Roční úroková sazba",
+            "rpsn": "Roční procentní sazba nákladů",
+            "total": "Celkem zaplatíte"
+        },
+        "manualCheck": {
+            "title": "Vaši žádost musíme prověřit, a to může chvíli trvat",
+            "detail": "Nejpozději za dva pracovní dny zde najdete výsledek. Děkujeme za pochopení.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "documentUpload": {
+            "uploadScenes": {
+                "firstUpload": {
+                    "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
+                    "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Chci zajít na pobočku"
+                },
+                "anotherUpload": {
+                    "title": "Děkujeme, že s námi máte trpělivost",
+                    "detail": "Mrzí nás, že jsme to nemohli říct dříve, ale potřebujeme ještě jeden doklad. Stačí nám čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku.",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Chci zajít na pobočku"
+                },
+                "poorUpload": {
+                    "title": "Některé doklady se bohužel nepodařilo zpracovat",
+                    "detail": "<b>Znovu, čitelně a ostře:</b>",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Chci zajít na pobočku"
+                },
+                "branchNeeded": {
+                    "title": "Musíme se potkat",
+                    "detail": "Mrzí nás, že to jinak nejde, ale rádi bychom se s Vámi potkali osobně na pobočce.<br><b>Sloučení Vašich půjček spolu na místě dokončíme.</b>. Přineste prosím s sebou:",
+                    "primaryButton": "Rozumím, zobrazit nejbližší pobočky"
+                },
+                "uploadCheck": {
+                    "title": "Zkontrolujeme to a dáme Vám vědět",
+                    "detail": "Vaše doklady prohlédneme <b>obvykle do 15 minut</b>, nejpozději do druhého pracovního dne. Jakmile budete moci pokračovat, <b>pošleme Vám upozornění v SMS</b>.<br>Žádost jsme Vám uložili, najdete ji na Přehledu zůstatků.",
+                    "primaryButton": "Přejít na Přehled"
+                }
+            },
+            "documents": {
+                "13": {
+                    "icon": "documentsFill",
+                    "title": "Podepsané Potvrzení o výši příjmu",
+                    "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+                },
+                "112": {
+                    "icon": "documentsFill",
+                    "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+                },
+                "113": {
+                    "icon": "documentsFill",
+                    "title": "Důchodový výměr"
+                },
+                "141": {
+                    "icon": "idCardFill",
+                    "title": "Občanský průkaz",
+                    "photoCapture": [
+                        {
+                            "title": "Vyfoťte přední stranu občanského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        },
+                        {
+                            "title": "Vyfoťte zadní stranu občanského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        }
+                    ],
+                    "review": {
+                        "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                        "documentDetails": {
+                            "title": "Údaje z dokladu",
+                            "firstName": "Jméno",
+                            "lastName": "Příjmení",
+                            "birthDate": "Datum narození",
+                            "birthPlace": "Místo narození",
+                            "birthNumber": "Rodné číslo",
+                            "idCardNumber": {
+                                "title": "Číslo občanského průkazu",
+                                "secondaryTitle": "Číslo pasu"
+                            },
+                            "idCardValidTo": "Platnost do",
+                            "issueDate": "Platnost od",
+                            "nationality": "Státní občanství",
+                            "nationalityValue": "Česká republika",
+                            "sex": "Pohlaví",
+                            "male": "muž",
+                            "female": "žena"
+                        },
+                        "documentAddress": {
+                            "title": "Trvalý pobyt",
+                            "secondary": "Česká republika",
+                            "street": "Ulice",
+                            "descriptiveNumber": "Číslo popisné",
+                            "orientationNumber": "Číslo orientační",
+                            "city": "Obec nebo město",
+                            "zip": "PSČ",
+                            "personalData": {
+                                "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                            }
+                        },
+                        "primaryButton": "Pokračovat"
+                    },
+                    "busyLoader": {
+                        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+                        "detail": "Zabere to maximálně pár vteřin."
+                    },
+                    "uploadDocumentResultNok": {
+                        "title": "Půjčku vám teď nemůžeme nabídnout",
+                        "detail": "Moc se omlouváme",
+                        "secondaryButton": "Ukončit žádost"
+                    },
+                    "uploadDocumentResultUploadAgain": {
+                        "title": "Jejda, tohle se nepovedlo",
+                        "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                        "primaryButton": "Vyfotit znovu",
+                        "secondaryButton": "Pokračovat později"
+                    }
+                },
+                "143": {
+                    "icon": "idCardFill",
+                    "title": "Řidičský průkaz",
+                    "photoCapture": [
+                        {
+                            "title": "Vyfoťte přední stranu řidičského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        }
+                    ]
+                }
+            },
+            "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
+            "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
+            "uploadPicker": {
+                "title": "Vyberte způsob nahrání dokumentu",
+                "camera": "Vyfotit",
+                "photos": "Vybrat z galerie",
+                "files": "Vybrat ze souborů"
+            }
+        },
+        "insurance": {
+            "title": "Splácejte s jistotou",
+            "description": "Pro případ, že by vám poklesly příjmy z důvodu nenadálé situace, pojišťovna zajistí:",
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "<b>Až 12 splátek</b> při ztrátě zaměstnání (nebo zrušení živnosti), pokud budete v pracovní neschopnosti nebo v případě nutnosti ošetřování člena rodiny"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "<b>1 splátku</b>, pokud se budete léčit v nemocnici"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "<b>Doplacení úvěru</b> v případě přiznání invalidity II. nebo III. stupně a ZTP/P nebo v případě úmrtí"
+                },
+                {
+                    "image": "plusFill",
+                    "title": "<b>Zdarma virtuální ordinace 24/7</b> s lékařem na telefonu, který může poslat např. e-recept či žádanku na vyšetření"
+                }
+            ],
+            "primaryButton": "Pojistit za {0} Kč měsíčně",
+            "detail": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a><br><br>V případě invalidity nedojde k plnění při pojistné události.",
+            "secondaryButton": "Nechci si půjčku pojistit"
+        },
+        "taskList": {
+            "title": "Teď doložte dokumenty k půjčkám jinde a podepište žádost o jejich splacení",
+            "detail": "Můžete to udělat hned, nebo později, nejpozději ale do 14 dnů.<br>Žádost na vás počká na Přehledu Smart Banky.",
+            "contractUpload": "Půjčka {0} (jinde): Nahrát dokument",
+            "repaymentSign": "Podepsat žádost o předčasné splacení",
+            "allInVerification": "Pracujeme na tom, o výsledku\nVám dáme vědet",
+            "primaryButton": "Nahrát první dokument",
+            "primaryButtonSign": "Pokračovat k podpisu",
+            "secondaryButton": "Přejít na Přehled"
+        },
+        "contractUpload": {
+            "title": "Půjčka {0} (jinde): Vyfoťte prosím každou stranu dokumentu",
+            "detail": "Detail půjčky",
+            "loanDescription": "Celkem {loanAmount} Kč • Zbývá doplatit {dueAmount} Kč • Úrok {interest} p.a. • Splátka {installment} Kč měsíčně",
+            "docs": {
+                "title": "Stačí nám jeden z těchto dokumentů:",
+                "richBullets": [
+                    {
+                        "image": "fileLinesFill",
+                        "title": " Smlouva o úvěru"
+                    },
+                    {
+                        "image": "fileLinesFill",
+                        "title": "Návrh na uzavření smlouvy a akceptace"
+                    },
+                    {
+                        "image": "fileLinesFill",
+                        "title": "Vyčíslení úvěru (ne starší 40 dní)"
+                    },
+                    {
+                        "image": "fileLinesFill",
+                        "title": "Výpis z účtu, ze kterého splácíte půjčku za poslední měsíc"
+                    },
+                    {
+                        "image": "fileLinesFill",
+                        "title": "Detail platby poslední splátky",
+                        "subtitle": "Potvrzení, nebo snímek obrazovky z bankovnictví"
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Stačí nám jeden z těchto dokumentů:",
+                "richBullets": [
+                    {
+                        "image": "lightBulbOnFill",
+                        "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
+                    },
+                    {
+                        "image": "documentsFill",
+                        "title": "Správný a celý dokument",
+                        "subtitle": "Potřebujeme smlouvu o půjčce, nikoli předsmluvní informace, nebo jiné dokumenty které jste dostali."
+                    },
+                    {
+                        "image": "plusCircleFill",
+                        "title": "Pokud jste k vaší smlouvě podepisoval*a dodatek(y), vyfoťte je prosím také"
+                    }
+                ]
+            },
+            "primaryButton": "Vyfotit dokument",
+            "secondaryButton": "Nahrát obrázek nebo PDF"
+        },
+        "result": {
+            "ok": {
+                "title": "Hotovo. Vše zpracujeme co nejdříve. Teď můžete pokračovat.",
+                "detail": "Všechny dokumenty najdete ve Smart Bance a v Internet Bance v sekci Dokumenty.",
+                "contractUpload": "Půjčka {0} (jinde): Nahrát dokument",
+                "repaymentSign": "Podepsat žádost o předčasné splacení",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Pokračovat později"
+            },
+            "next": {
+                "title": "Hotovo. Dokument zpracujeme co nejdříve a dáme Vám vědět.",
+                "detail": "Všechny dokumenty najdete ve Smart Bance a v Internet Bance v sekci Dokumenty.",
+                "contractUpload": "Půjčka {0} (jinde): Nahrát dokument",
+                "repaymentSign": "Podepsat žádost o předčasné splacení",
+                "primaryButton": "Pokračovat smlouvou na {0} Kč",
+                "secondaryButton": "Pokračovat později"
+            },
+            "again": {
+                "title": "Tak tohle se nepovedlo",
+                "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit znovu",
+                "secondaryButton": "Pokračovat později"
+            },
+            "branch": {
+                "title": "Pojďme to vyřešit na pobočce",
+                "detail": "Zdá se, že se nám nedaří proces dokončit online. Vše vyřešíme rychleji, když nás navštívíte na kterékoliv naší pobočce.",
+                "bulletsSectionTitle": "Přineste prosím s sebou:",
+                "richBullets": [
+                    {
+                        "image": "documentsFill",
+                        "title": "Dokumenty ke všem vašim půjčkám",
+                        "subtitle": "Smlouvu o úvěru, výpis z úvěrového účtu nebo vyčíslení úvěru (ne starší 40 dní)"
+                    },
+                    {
+                        "image": "idCardFill",
+                        "title": "Občanský průkaz a další doklad",
+                        "subtitle": "Např. řidičský průkaz nebo pas"
+                    },
+                    {
+                        "image": "filePdfFill",
+                        "title": "Vyplněné <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Potvrzení o příjmu od zaměstnavatele</a>"
+                    },
+                    {
+                        "image": "userFill",
+                        "title": "U půjčky nad 800 000 Kč budete potřebovat spolužadatele"
+                    }
+                ],
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Vyfotit znovu",
+                "secondaryButton": "Pokračovat později"
+            },
+            "verification": {
+                "title": "Hotovo. Vše zpracujeme co nejdříve a poté vám dáme vědět jak pokračovat.",
+                "detail": "Všechny dokumenty najdete ve Smart Bance a v Internet Bance v sekci Moje dokumenty.",
+                "contractUpload": "Půjčka {0} (jinde): Nahrát dokument",
+                "repaymentSign": "Podepsat žádost o předčasné splacení",
+                "primaryButton": "Přejít na Přehled"
+            }
+        },
+        "repaymentInfo": {
+            "title": "Nejdřív podepíšete žádost o splacení starých půjček",
+            "richBullets": [
+                {
+                    "image": "signature",
+                    "title": " Podepište se prstem přímo na displeji",
+                    "subtitle": "Jde jen o ujištění, nemusí to být perfektní"
+                },
+                {
+                    "image": "lockFill",
+                    "title": "Váš podpis je u nás v bezpečí",
+                    "subtitle": "Připojíme ho pouze k žádosti o předčasné splacení"
+                },
+                {
+                    "image": "envelopeFill",
+                    "title": "Žádosti o splacení půjček jinde odešleme hned po podpisu smlouvy o nové půjčce u nás"
+                }
+            ],
+            "primaryButton": "Rozumím",
+            "secondaryButton": "Nechci nic podepisovat"
+        },
+        "repaymentContract": {
+            "title": "Teď podepište žádost o předčasné splacení",
+            "titleMultiple": "Teď podepíšete žádosti o předčasné splacení",
+            "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a ve vašem e-mailu.",
+            "primaryButton": "Pokračovat k podpisu",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "repaymentSign": {
+            "instruction": "Sign on the line please",
+            "signControl": "Is everything in order?",
+            "signHere": "Your signature",
+            "primaryButton": "Yes",
+            "secondaryButton": "No, try again"
+        },
+        "precontractInfo": {
+            "title": "Přečtěte si předsmluvní informace",
+            "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a ve vašem e-mailu.",
+            "secondaryButton": "Nesouhlasím",
+            "primaryButton": "Souhlasím, pokračovat"
+        },
+        "contract": {
+            "title": "Přečtěte si smlouvu o půjčce",
+            "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a ve vašem e-mailu.",
+            "secondaryButton": "Nesouhlasím",
+            "primaryButton": "Přejít k podpisu"
+        },
+        "signByUs": {
+            "title": "Teď to musíme podepsat my, chvilku strpení prosím."
+        },
+        "waitingBeforeContract": {
+            "title": "Chvilku strpení, připravíme vám smlouvu",
+            "detail": "Potrvá to jen chviličku."
+        },
+        "sign": {
+            "toolbarTitle": "Podpis smlouvy",
+            "title": "Potvrďte podpis svým PINem"
+        },
+        "consolidationVictory": {
+            "title": "Hotovo, slučujeme",
+            "titleDelayed": "Téměř hotovo, jen provedeme ještě poslední kontrolu",
+            "detail": "Žádosti o předčasné splacení brzy odešleme. Vaše staré půjčky splatíme a novou budete mít u nás. Všechny dokumenty a smlouvy najdete ve Smart Bance a Internet Bance.<br><br>První splátku ve výši <b>{installmentAmount} Kč</b> vám odečteme z účtu {date}.",
+            "detailDelayed": "Během 3 pracovních dnů odešleme žádosti o předčasné splacení. Vaše staré půjčky splatíme a novou budete mít u nás. Všechny dokumenty a najdete ve Smart Bance a Internet Bance.<br><br>První splátku ve výši <b>{installmentAmount} Kč</b> vám odečteme z účtu {date}.",
+            "sections": [
+                {
+                    "title": "Je datum splátky některé ze slučovaných půjček v příštích 10 dnech?",
+                    "detail": "Pokud ano, zaplaťte ji prosím. Případný přeplatek vám bude vrácený."
+                },
+                {
+                    "title": "Máte nedoplatek u půjčky?",
+                    "detail": "Úroky vzniklé v době mezi podáním žádosti a splacením půjčky apod. bude nutné uhradit z vlastních zdrojů. O všem se včas dozvíte."
+                },
+                {
+                    "title": "Máte přeplatek u půjčky?",
+                    "detail": "Případný přeplatek (např. nižší poplatek za splacení) vám bude vrácen."
+                }
+            ],
+            "message": "Jiné společnosti vás mohou kontaktovat ohledně potvrzení předčasného splacení.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "victory": {
+            "title": "Hotovo, slučujeme",
+            "titleDelayed": "Téměř hotovo, jen provedeme ještě poslední kontrolu",
+            "detail": "Žádosti o předčasné splacení brzy odešleme. Vaše staré půjčky splatíme a novou budete mít u nás. Všechny dokumenty a smlouvy najdete ve Smart Bance a Internet Bance.<br><br>První splátku ve výši <b>{installmentAmount} Kč</b> vám odečteme z účtu {date}.",
+            "detailDelayed": "Během 3 pracovních dnů odešleme žádosti o předčasné splacení. Vaše staré půjčky splatíme a novou budete mít u nás. Všechny dokumenty a najdete ve Smart Bance a Internet Bance.<br><br>První splátku ve výši <b>{installmentAmount} Kč</b> vám odečteme z účtu {date}.",
+            "sections": [
+                {
+                    "title": "Je datum splátky některé ze slučovaných půjček v příštích 10 dnech?",
+                    "detail": "Pokud ano, zaplaťte ji prosím. Případný přeplatek vám bude vrácený."
+                },
+                {
+                    "title": "Máte nedoplatek u půjčky?",
+                    "detail": "Úroky vzniklé v době mezi podáním žádosti a splacením půjčky apod. bude nutné uhradit z vlastních zdrojů. O všem se včas dozvíte."
+                },
+                {
+                    "title": "Máte přeplatek u půjčky?",
+                    "detail": "Případný přeplatek (např. nižší poplatek za splacení) vám bude vrácen."
+                }
+            ],
+            "message": "Jiné společnosti vás mohou kontaktovat ohledně potvrzení předčasného splacení.",
+            "primaryButton": "Přejít na Přehled"
+        }
+    }
+}

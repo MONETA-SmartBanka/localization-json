@@ -1,0 +1,383 @@
+{
+  "status": "OK",
+  "responseObject": {
+    "stepper": {
+      "offer": "Offer",
+      "request": "Application",
+      "contract": "Agreement",
+      "account": "Account"
+    },
+    "scenes": {
+      "productOffer": {
+        "title": "Business Account",
+        "accountTitle": "Current account for Your Business ",
+        "accountDescription": "Open another business account in CZK, EUR or USD",
+        "sections": [
+          {
+            "title": "Main benefits of business account",
+            "bullets": [
+              "<b>Electronic statements</b> once a month",
+              "Depending on the type of your account, you get <b>free of charge:</b><br><br><ul><li>electronic outgoing and incoming transactions,</li><li>instant payments,</li><li>SEPA payments,</li><li>withdrawals from Moneta MONEY Bank ATMs in the Czech Republic and abroad,</li><li>deposits through 186 MONETA Money Bank deposit machines.</li></ul>",
+              "Maintenance of a debit card in CZK"
+            ]
+          },
+          {
+            "title": "Business Accounts in EUR or USD",
+            "bullets": [
+              "<b>Establishment</b> and <b>maintenance of a foreign currency account</b> with electronic statements <b>free of charge</b>",
+              "<b>Debit card in account currency for free</b>"
+            ]
+          }
+        ],
+        "button": "Open an account"
+      },
+      "typeOffer": {
+        "title": "More accounts for Your Business",
+        "pills": [
+          {
+            "title": "All"
+          },
+          {
+            "title": "CZK accounts",
+            "currencies": ["CZK"]
+          },
+          {
+            "title": "EUR/USD accounts",
+            "currencies": ["EUR", "USD"]
+          }
+        ],
+        "products": [
+          {
+            "useForFeePlan": ["470", "471", "472"],
+            "title": "Business PRO (CZK)",
+            "bullets": [
+              {
+                "title": "100 electronic transactions free of charge (incoming, outgoing, instant and SEPA payments)",
+                "color": "primaryDark"
+              },
+              {
+                "title": "ATM withdrawals free of charge across the Czech Republic and abroad.",
+                "color": "primaryDark"
+              },
+              {
+                "title": "A debit card and electronic statements in online banking free of charge.",
+                "color": "primaryDark"
+              }
+            ],
+            "button": {
+              "title": "Open Free of Charge",
+              "color": "primary"
+            },
+            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">More information</a>"
+          },
+          {
+            "useForFeePlan": ["390", "391", "392"],
+            "title": "Genius Business Complete (CZK)",
+            "bullets": [
+              {
+                "title": "All electronic transactions free of charge (incoming, outgoing, instant and SEPA payments).",
+                "color": "gold"
+              },
+              {
+                "title": "ATM withdrawals <a href=\"https://www.moneta.cz/kontakt/sdilene-bankomaty\" target=\"_blank\">in a network of shared ATMs</a> free of charge.",
+                "color": "gold"
+              },
+              {
+                "title": "A Business debit card free of charge and receive up to 20 % of spending back in the bene+ loyalty program.",
+                "color": "gold"
+              }
+            ],
+            "button": {
+              "title": "Open for 149 CZK / month",
+              "color": "gold"
+            },
+            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">More information</a>"
+          },
+          {
+            "useForFeePlan": ["434", "435", "436"],
+            "title": "Business Comfort (CZK)",
+            "bullets": [
+              {
+                "title": "All electronic transactions free of charge (incoming, outgoing, instant and SEPA payments).",
+                "color": "gold"
+              },
+              {
+                "title": "ATM withdrawals free of charge across the Czech Republic and abroad.",
+                "color": "gold"
+              },
+              {
+                "title": "Two business debit cards free of charge and receive up to 20 % of spending back in the bene+ loyalty program.",
+                "color": "gold"
+              }
+            ],
+            "button": {
+              "title": "Open for 499 CZK / month",
+              "color": "gold"
+            },
+            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">More information</a>"
+          },
+          {
+            "useForFeePlan": ["465"],
+            "title": "EUR Current Account",
+            "bullets": [
+              {
+                "title": "Open at no charge with no maintenance fees",
+                "color": "primaryDark"
+              },
+              {
+                "title": "With a debit card with no maintenance fees",
+                "color": "primaryDark"
+              }
+            ],
+            "button": {
+              "title": "Open Free of Charge",
+              "color": "primary"
+            },
+            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">More information</a>"
+          },
+          {
+            "useForFeePlan": ["467"],
+            "title": "USD Current Account",
+            "bullets": [
+              {
+                "title": "Open at no charge with no maintenance fees",
+                "color": "primaryDark"
+              },
+              {
+                "title": "With a debit card with no maintenance fees",
+                "color": "primaryDark"
+              }
+            ],
+            "button": {
+              "title": "Open Free of Charge",
+              "color": "primary"
+            },
+            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">More information</a>"
+          }
+        ]
+      },
+      "statementOffer": {
+        "title": "How often do you want us to send you account statements?",
+        "daily": "Daily – if there is movement on the account",
+        "weekly": "Weekly – if there is movement on the account",
+        "monthly": "Monthly",
+        "buttonBack": "Back",
+        "buttonContinue": "Continue"
+      },
+      "userDataCheck": {
+        "title": "Is this information correct?",
+        "businessName": "Business Name",
+        "address": "Registered Address",
+        "ico": "IN",
+        "agree": "The information is correct",
+        "disagree": "The information is incorrect",
+        "back": "Back",
+        "modalText": "Please stop by at any of our branches to change your details.",
+        "branchMeeting": "Arrange a meeting",
+        "endRequest": "Cancel the application",
+        "branch": "<link href=\"https://www.moneta.cz/kontakt#mapa-pobocek-section\" target=\"_blank\">Arrange a meeting</link>"
+      },
+      "cardTypeOffer": {
+        "title": "Would you like a physical or a virtual card?",
+        "virtual": {
+          "title": "Virtual card in your smartphone",
+          "description": "Instead of a plastic physical card, you will be issued a virtual card. For payments and ATM withdrawals, just add it to your smartphone wallet.",
+          "addressRequired": false
+        },
+        "plastic": {
+          "title": "Physical + virtual card",
+          "description": "A regular physical plastic card as you know it. It can also be added to your smartphone wallet.",
+          "addressRequired": true
+        },
+        "contact": {
+          "contactTitle": "Contact details",
+          "adressTitle": "Contact address to receive the physical card",
+
+          "companyName": "Company name",
+          "street": "Street",
+          "descriptiveNumber": "Dsc. no",
+          "orientationNumber": "Or. no",
+          "city": "City",
+          "postCode": "ZIP",
+          "country": "Country",
+          "phoneMobile": "Phone",
+          "email": "E-mail"
+        },
+        "cards": {
+          "14100": "Debit card Standard",
+          "15100": "Debit card Gold",
+          "16100": "Debit card Business",
+          "17100": "Debit card Business Premium",
+          "99300": "Debit card EUR",
+          "99400": "Debit card Business EUR",
+          "88300": "Debit card USD",
+          "88400": "Debit card Business USD",
+          "43000": "Debit card Moneta Business Card",
+          "47000": "Debit card MoneyCard Smart",
+          "47006": "Credit Account",
+          "40100": "Debit card MoneyCard Gold",
+          "47009": "Debit card Visa Classic",
+          "47003": "Debit card MoneyCard Gratis",
+          "47004": "Debit card MoneyCard Plus",
+          "47002": "Debit card MoneyCard Fix"
+        },
+        "alert": "Have you changed your shipping address? We will send the card to you as soon as possible. If you want to change your contact address, you can do it in Settings.",
+        "buttonBack": "Back",
+        "buttonContinue": "Continue"
+      },
+      "cardDesignOffer": {
+        "title": "Choose the look of your new card",
+        "primaryButton": "Continue with design {card}",
+        "designs": [
+          {
+            "value": "CA141D0001",
+            "title": "MONETA - Standard",
+            "button": "Continue"
+          },
+          {
+            "value": "CA141D0003",
+            "title": "MONETA - Pride",
+            "button": "Continue"
+          },
+          {
+            "title": "MONETA - Praha",
+            "value": "CA141D0005"
+          },
+          {
+            "title": "MONETA - Středočeský kraj",
+            "value": "CA141D0006"
+          },
+          {
+            "title": "MONETA - Jihočeský kraj",
+            "value": "CA141D0007"
+          },
+          {
+            "title": "MONETA - Plzeňský kraj",
+            "value": "CA141D0008"
+          },
+          {
+            "title": "MONETA - Karlovarský kraj",
+            "value": "CA141D0009"
+          },
+          {
+            "title": "MONETA - Ústecký kraj",
+            "value": "CA141D0010"
+          },
+          {
+            "title": "MONETA - Liberecký kraj",
+            "value": "CA141D0011"
+          },
+          {
+            "title": "MONETA - Královéhradecký kraj",
+            "value": "CA141D0012"
+          },
+          {
+            "title": "MONETA - Pardubický kraj",
+            "value": "CA141D0013"
+          },
+          {
+            "title": "MONETA - Kraj Vysočina",
+            "value": "CA141D0014"
+          },
+          {
+            "title": "MONETA - Jihomoravský kraj",
+            "value": "CA141D0015"
+          },
+          {
+            "title": "MONETA - Zlínský kraj",
+            "value": "CA141D0016"
+          },
+          {
+            "title": "MONETA - Olomoucký kraj",
+            "value": "CA141D0017"
+          },
+          {
+            "title": "MONETA - Moravskoslezský kraj",
+            "value": "CA141D0018"
+          }
+        ]
+      },
+      "amlQuestionnaire": {
+        "continue": "Continue",
+        "saveAndClose": "Save and close"
+      },
+      "riskQuestionnaire": {
+        "title": "Final details",
+        "taxResidency": {
+          "customLabel": "Where do you pay your taxes?",
+          "labelTooltip": "If your income from all sources in the Czech Republic and from abroad is subject to taxation in the Czech Republic, you have tax residence in the Czech Republic."
+        },
+        "additionalData": {
+          "maritalStatus": "Marital status",
+          "education": "Education",
+          "companyTurnover": "Estimated annual turnover",
+          "companyTurnoverTooltip": "This is the total income (turnover) from your business for the past year. A rough estimate will suffice.",
+          "profitLastYear": "Your net income for the past year",
+          "profitLastYearTooltip": "This is the net income (turnover after deducting expenses and after tax) from your business for the past year.\nA rough estimate will suffice.",
+          "houseHoldMonthlyIncome": "Net monthly household income",
+          "houseHoldMonthlyIncomeTooltip": "This is the net monthly income from your business + other income of all household members.\nA rough estimate will suffice.",
+          "employeeCount": "Number of employees",
+          "unit": "CZK"
+        },
+        "invalidDic": {
+          "title": "Is Your DIČ/TIN entered correctly?",
+          "content": "Check it please.",
+          "alert": "The tax identification number always begins with the two-letter code of the state in which the entity is registered.<br><br>TIN = Tax Identification Number used for tax purposes in the <strong>United States</strong>. Fixed TIN format : XXX-XX-XXXX",
+          "buttonCancel": "Enter DIČ/TIN again",
+          "buttonContinue": "Yes, continue"
+        },
+        "continue": "Continue"
+      },
+      "goToBranch": {
+        "title": "More information is required",
+        "content": "Please visit one of our branches where we can finalize the application together.",
+        "button": "Arrange a meeting"
+      },
+      "busyLoader": "Just a moment,<br>we are checking everything",
+      "staticDocuments": {
+        "title": "Read the pre-contractual information and other documents",
+        "buttonCancel": "Decline",
+        "buttonContinue": "I understand and agree",
+        "alert": "All documents can be found in Smart Banka and Internet Banka in the Documents section."
+      },
+      "goToBranchModal": {
+        "title": "We can not continue without your consent",
+        "content": "If you have any questions, we will be happy to answer them over the phone or in person at any of our branches.",
+        "branch": "Arrange a meeting",
+        "phone": "224 443 636",
+        "buttonTerminate": "Cancel the application",
+        "buttonCancel": "Back"
+      },
+      "agreement": {
+        "title": "Read the following documents"
+      },
+      "victory": {
+        "button": "Back to Overview",
+        "sectionTitle": "Current Account",
+        "plastic": {
+          "icon": "tick",
+          "title": "Done! The account {accountNumber} has been opened.",
+          "content": "The account will be active no later than the following business day.<br><br>The debit card will be sent to: {address} . It is usually delivered within 5 business days, but it can be added to your smartphone wallet and used right away.<br><br>All important documents can be found in <b>Smart Banka</b> and <b>Internet Banka</b> under <b>Documents</b>.",
+          "alert": "Do you want to create another account? Please log out and log in again to make sure everything goes as it should."
+        },
+        "virtual": {
+          "icon": "tick",
+          "title": "Done! The account {accountNumber} has been opened.",
+          "content": "The account will be active no later than the following business day.<br><br>It can be added to your smartphone wallet and used right away.<br><br>All important documents can be found in <b>Smart Banka</b> and <b>Internet Banka</b> under <b>Documents</b>.",
+          "alert": "Do you want to create another account? Please log out and log in again to make sure everything goes as it should."
+        },
+        "nextBusinessDay": {
+          "icon": "pending",
+          "title": "We are almost done. Signing the Agreement may take some time on our end.",
+          "content": "During business days it should not take more than a couple of hours. On the weekends it will take until Monday.<br><br>As soon as it is ready, you will be notified in Overview, the Agreement will be saved in ‘Documents’ and your Account will be activated.<br/><br/>We apologize for the inconvenience and thank you for your patience."
+        },
+        "error": {
+          "icon": "close",
+          "title": "We are sorry, something went wrong",
+          "content": "We can’t continue here but we will be happy to help you at one of our branches.",
+          "branchMeeting": "Arrange a meeting"
+        }
+      }
+    }
+  }
+}

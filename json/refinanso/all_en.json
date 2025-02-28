@@ -1,0 +1,232 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong. Call our helpline for more information.",
+                "detail": "We're sorry, currently we cannot continue the process in Smart Banka.",
+                "callUs": "Call our Helpline",
+                "primaryButton": "Back to Balance Overview"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Mortgage refinance",
+            "toolbarCreateTitle": "Mortgage refinance",
+            "phoneNumberSupport": "246 034 777",
+            "phoneNumberSale": "246 034 777",
+            "messengerUrl": "https://m.me/138479367229"
+        },
+        "scenes": {
+            "refinansoIntro": {
+                "title": "Refinance your mortgage and receive a premium interest rate when applying online",
+                "bullets": [
+                    "<b>Favorable rate when applying online</b><br> in addition, you can handle the refinancing completely online from your home",
+                    "<b>Interest rate guaranteed for 30 days</b><br> you really get the interest you calculate online",
+                    "<b>You can also borrow something extra</b>"
+                ],
+                "image":"/cbl_images/refinanso/intro/image",
+                "primaryButton": "Calculator",
+                "actionType": "OPENURL",
+                "actionValue": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
+            },
+            "refinansoCalculator": {
+                "toolbarTitle": "Mortgage refinancing",
+                "title": "Calculate your new monthly payment",
+                "amount": "Amount due",
+                "topUpAmount": "Extra",
+                "maturity": "Duration",
+                "fixationInterest": "Fixation and interest",
+                "years_1": "{1} year",
+                "years_2_4": "{1} years",
+                "years_5": "{1} years",
+                "installment": "New monthly payment",
+                "insurance": {
+                    "title": "<b>I would like to arrange a payment protection insurance for {1}/month in case of:",
+                    "alternativeTitle": "<b>I would like to arrange a payment protection insurance in case of:",
+                    "titleWithoutCase": "<b>I would like to arrange a payment protection insurance for {1}/month.",
+                    "alternativeTitleWithoutCase": "<b>I would like to arrange a payment protection insurance</b>",
+                    "bullets": [
+                        "Unemployment or hospitalization",
+                        "Caring for a family member",
+                        "Sick leave",
+                        "Third-degree disability",
+                        "Death"
+                    ],
+                    "tip": "Tip",
+                    "tipContent": "Insurance lowers the interest rate and changes the APR.",
+                    "terms": "Carefully read through the terms and conditions",
+                    "termsLink": "https://refinanso.cz",
+                    "recalculationInfo": "We have calculated your monthly payment, interest rate and APR."
+                },
+                "interest": "Interest rate",
+                "rpsn": "APR",
+                "total": "Total amount",
+                "primaryButton": "Continue",
+                "secondaryButton": "Cancel application"
+            },
+            "refinansoCalculatorBonitaCheckTopUp": {
+                "title": "You can apply for a larger amount",
+                "primaryButton": "Continue",
+                "secondaryButton": "Adjust refinancing"
+            },
+            "refinansoCalculatorBonitaCheckChangeParams": {
+                "title": "Adjust your refinancing plan",
+                "primaryButton": "Confirm changes and continue",
+                "secondaryButton": "Go back and cancel changes"
+            },
+            "refinansoBonitaCheckOkLess": {
+                "title": "According to your details you can apply for:",
+                "maxAmount": "Maximum amount",
+                "maxInstalment": "with a maximum monthly payment of",
+                "loanAmount": "Refinance",
+                "fixation": "Fixation",
+                "maturity": "Duration",
+                "years_1": "{1} year",
+                "years_2_4": "{1} years",
+                "years_5": "{1} years",
+                "primaryButton": "Adjust refinancing",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "refinansoCoapplicant": {
+                "title": "Any co-applicants?",
+                "detail": "Unless there is a prenuptial agreement, your spouse needs is to be considered a co-applicant.",
+                "yes": {
+                    "title": "Yes,",
+                    "subtitle": "there is a co-applicant."
+                },
+                "no": {
+                    "title": "No,",
+                    "subtitle": "I apply alone."
+                },
+                "primaryButton": "Continue",
+                "coapplicant": {
+                    "title": "Details of the co-applicant",
+                    "firstName": "First Name",
+                    "lastName": "Last Name",
+                    "personalNumber": "Personal Identification Number",
+                    "allowedCheck": "I am authorized to enter these details on behalf of the co-applicant."
+                }
+            },
+            "refinansoSharedProperty": {
+                "title": "Do you and your spouse have any community property?",
+                "detail": "In case of Community Property of spouses, your spouse is to be considered a co-applicant.",
+                "primaryButton": "No community property, continue",
+                "secondaryButton": "Back to Select a co-applicant"
+            },
+            "refinansoIncome": {
+                "title": "Enter your monthly income",
+                "income": "Net monthly income",
+                "info": "Enter the average net income for the last 3 months.<br/> Do you need a moment to calculate? The application is saved in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "refinansoCoappIncome": {
+                "title": "Monthly income of the co-applicant",
+                "income": "Net monthly income",
+                "info": "Enter the average net income of the co-applicant for the last 3 months.</br>Do you need a moment to calculate? The application is saved in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "refinansoInstallment": {
+                "title": "Enter your monthly payments",
+                "mortgage": "Current mortgage payments",
+                "other": "Other monthly payments",
+                "info": "Enter all your other regular/monthly payments, such as: <br/>- personal loans,<br/>- leasing,<br/>- another mortgage,<br/>- credit card repayment(minimum)<br/>any other installment,<br/>- debts or obligations to Community Property of Spouses <br/>- etc.",
+                "primaryButton": "Continue"
+            },
+            "refinansoCoappInstallment": {
+                "title": "Monthly payments of the co-applicant",
+                "other": "Monthly payments",
+                "info": "Enter all other payments, excluding this mortgage, of the co-applicant. Such payments include:  <br/>- personal loans,<br/>- leasing,<br/>- another mortgage,<br/>- credit card repayment(minimum)<br/>any other installment<br/>- etc.",
+                "primaryButton": "Continue"
+            },
+            "refinansoAgreement": {
+                "title": "In order to process the application we need to review your information",
+                "detail": "Receive a guaranteed offer valid for 30 days. The offer is non-binding..",
+                "terms": "In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Banking Client Information Register, the Non-Banking Client Information Register, and other steps necessary to contract conclusion. To find out more about personal data processing in the MONETA Group, go to www.moneta.cz/ochrana-dat and www.wuestenrot.cz/informace-o-zpracovani-osobnich-udaju. I hereby confirm that I have read and fully understood the information above. I also confirm that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution. I give consent to Moneta Money Bank to verify all necessary information. I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice. You can be updated on the process of reviewing your application by SMS at the entered phone number.",
+                "primaryButton": "I agree, continue"
+            },
+            "refinansoBonitaNok": {
+                "title": "Please double check the details/changes in the refinancing application as you may have missed something. ",
+                "detail": "At the current details you have provided we cannot offer refinancing to you. ",
+                "callUs": "Call our Hepline",
+                "primaryButton": "Adjust refinancing",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "scoring": {
+                "title": "Just a few moments. It usually won't take more then 15 seconds."
+            },
+            "refinansoPrescoringOk": {
+                "title": "You have been pre-approved for refinancing",
+                "detail": "The pre-approval is valid for 30 days, starting today. You will receive confirmation via email.",
+                "amount": "Amount due",
+                "topUpAmount": "Extra",
+                "maturity": "Duration",
+                "fixationInterest": "Fixation and interest",
+                "years_1": "{1} year",
+                "years_2_4": "{1} years",
+                "years_5": "{1} years",
+                "installment": "Monthly payment",
+                "interest": "interest rate",
+                "rpsn": "APR",
+                "insurance": "<b>Arrange payment protection insurance </b><br>for {1}/month.",
+                "insuranceWithoutPrice": "<b>Arrange payment protection insurance</b>",
+                "totalWithInsurance": "Total amount (insurance included)",
+                "totalWithoutInsurance": "Total amount",
+                "primaryButton": "Continue",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "refinansoPrescoringNok": {
+                "title": "We will double check it and get back to you.",
+                "detail": "You can return to Balance Overview.",
+                "callUs": "Call our Helpline",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "refinansoHelp": {
+                "toolbarTitle": "Tips",
+                "title": "Do you need help or need to save the application for later?",
+                "confusedHeadline": "Do you need help?",
+                "finishLaterHeadline": "Do you want to continue the application later?",
+                "callUs": "Call our Helpline",
+                "branch": "Visit our branch",
+                "primaryButton": "Finish the application later",
+                "secondaryButton": "Cancel application"
+            },
+            "refinansoVictory": {
+                "title": "We have sent an email containing a link to continue on the website.",
+                "primaryButton": "Back to Balance Overview",
+                "howSection": {
+                    "title": "What are the next steps?",
+                    "bullets": [
+                        {
+                            "icon": "/cbl_images/refinanso/victory/house",
+                            "text": "Provide more details about the property "
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/document",
+                            "text": "Upload necessary documents"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/checkmark",
+                            "text": "The documents will be verified"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/contract",
+                            "text": "We will send you a contract"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/signature",
+                            "text": "Sign the contract and draw the loan. "
+                        }
+                    ]
+                },
+                "documentsSection": {
+                    "title": "What documents are necessary?",
+                    "bullets": [
+                        "Photographs of the property (exterior, interior, appliances etc.)",
+                        "The contract of your current mortgage, including all addendums thereof.",
+                        "Documents confirming the square footage of individual rooms (eg. Purchase Agreement, Owner's Statement, heating bill)"
+                    ]
+                }
+            }
+        }
+    }
+}

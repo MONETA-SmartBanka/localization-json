@@ -1,0 +1,888 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "tipsSectionsOverall": {
+                "title": "Co všechno už znáš?",
+                "toolbar": "Slovníček pojmů",
+                "tipsSections": [
+                    {
+                        "text": "Jak rozumět penězům",
+                        "icon": "😇",
+                        "detail": "Je ti do 10 let? Pomůžeme ti pochopit peníze tak, abys spolužákům vytřel/a zrak.",
+                        "code": "basic"
+                    },
+                    {
+                        "text": "Začínám platit kartou",
+                        "icon": "😎",
+                        "detail": "Je ti 11 až 13 a už víš, jak používat kartu. Platíš s ní jak v obchodech, tak i na internetu.",
+                        "code": "standard"
+                    },
+                    {
+                        "text": "Pokročilé znalosti",
+                        "icon": "🤔",
+                        "detail": "14 až 16 let. Začíná přituhovat a je potřeba získat víc peněz.",
+                        "code": "advanced"
+                    },
+                    {
+                        "text": "Pouze pro experty",
+                        "icon": "🤯",
+                        "detail": "Je ti 17 a víc. Potřebuješ znalosti, aby sis po škole uměl/a vydělat balík.",
+                        "code": "expert"
+                    }
+                ]
+            },
+            "tipsBySections": [
+                {
+                    "section": "basic",
+                    "pageList": [
+                        {
+                            "title": "Bankomat",
+                            "image": "/cbl_images/family_tips/Bankomat.png",
+                            "text": "Zařízení, ze kterého můžeš vybírat peníze ze svého účtu. Potřebuješ k tomu <a href=\"Platebni_karta\">platební kartu</a> nebo mobilní telefon.",
+                            "bullets": [
+                                "Vždycky si dávej pozor, že u bankomatu s tebou není žádná cizí osoba, která by viděla, jak zadáváš svůj <a href=\"PIN\">PIN</a>.",
+                                "Bankomat můžeš najít také pod zkratkou ATM."
+                            ],
+                            "deeplink": "Bankomat",
+                            "actionTitle": "Ukázat nejbližší bankomaty",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Běžný účet",
+                            "image": "/cbl_images/family_tips/Bezny_ucet.png",
+                            "text": "Účet v bance, kde jsou uložené tvoje peníze.",
+                            "bullets": [
+                                "Můžeš si je z něj vybírat nebo na něj vkládat další.",
+                                "Vložit nebo poslat ti je tam může i kdokoliv jiný.",
+                                "Jde to online, na pobočce nebo v <a href=\"Bankomat\">bankomatu</a>."
+                            ],
+                            "deeplink": "Bezny_ucet",
+                            "actionTitle": "Ukázat běžný účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Hotovost",
+                            "image": "/cbl_images/family_tips/Hotovost.png",
+                            "text": "Jsou to papírové bankovky a mince, kterými můžeš platit.",
+                            "bullets": [
+                                "Mince mají hodnotu 1\u00a0Kč, 2\u00a0Kč, 5\u00a0Kč, 10\u00a0Kč, 20\u00a0Kč a 50\u00a0Kč.",
+                                "Bankovky pak 100\u00a0Kč, 200\u00a0Kč, 500\u00a0Kč, 1\u00a0000\u00a0Kč, 2\u00a0000\u00a0Kč a 5\u00a0000\u00a0Kč."
+                            ],
+                            "deeplink": "Hotovost"
+                        },
+                        {
+                            "title": "PIN",
+                            "image": "/cbl_images/family_tips/PIN.png",
+                            "text": "Kód, který slouží jako tvoje heslo do Smart Banky, a další je třeba k platební kartě. Dobře si je zapamatuj a nikdy je nikomu neříkej.",
+                            "bullets": [
+                                "PIN zabezpečuje Smart Banku, aby se do ní nedostal nikdo kromě tebe.",
+                                "PIN jsme ti přidělili také k tvé <a href=\"Platebni_karta\">platební kartě</a> a můžeš si ho kdykoli zobrazit."
+                            ],
+                            "deeplink": "PIN",
+                            "actionTitle": "Ukázat kartu",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Platební karta",
+                            "image": "/cbl_images/family_tips/Platebni_karta.png",
+                            "text": "Karta, pomocí které můžeš platit v obchodech, na internetu nebo vybírat z <a href=\"Bankomat\">bankomatů</a>.",
+                            "bullets": [
+                                "Dobře si ji schovej a nikdy nikomu neříkej, jaká jsou na ní čísla. Ani ji nikomu nepůjčuj."
+                            ],
+                            "deeplink": "Platebni_karta",
+                            "actionTitle": "Ukázat kartu",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Spořicí účet",
+                            "image": "/cbl_images/family_tips/Sporici_ucet.png",
+                            "text": "Můžeš na něj ukládat peníze, za které si teď neplánuješ nic kupovat. Jejich množství na tomto účtu díky úroku poroste. To znamená, že pokud si na něj vložíš třeba 100\u00a0Kč, za rok na něm přibydou 3\u00a0Kč navíc.",
+                            "bullets": [
+                                "Na spořicím účtu si můžeš založit „obálky“, do kterých si můžeš spořit třeba na nové kolo, knížku nebo hračku.",
+                                "Úrok si můžeš zkontrolovat v detailu spořicího účtu."
+                            ],
+                            "deeplink": "Sporici_ucet",
+                            "actionTitle": "Ukázat spořicí účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_SAVINGSACCOUNT"
+                        },
+                        {
+                            "title": "Úrok",
+                            "image": "/cbl_images/family_tips/Urok.png",
+                            "text": "Když si od banky půjčíš peníze, při jejich vrácení zaplatíš o\u00a0něco víc. Třeba když si půjčíš 100\u00a0Kč, budeš muset vrátit 105\u00a0Kč. Úrok je částka, kterou platíš za to, že používáš cizí peníze.",
+                            "bullets": [
+                                "Úrok může fungovat i ve tvůj prospěch. Třeba pokud máš peníze na spořicím účtu, banka platí tobě.",
+                                "Úrok si můžeš zkontrolovat v detailu spořicího účtu."
+                            ],
+                            "deeplink": "Urok",
+                            "actionTitle": "Ukázat spořicí účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_SAVINGSACCOUNT"
+                        }
+                    ]
+                },
+                {
+                    "section": "standard",
+                    "pageList": [
+                        {
+                            "title": "Autorizace (ověření)",
+                            "image": "/cbl_images/family_tips/Autorizace.png",
+                            "text": "Možná už víš, že některé tvoje platby musí potvrdit rodiče. Ověření nebo taky autorizaci používáme hlavně kvůli bezpečnosti. Vlastně tak 2x ověříme, že platíš opravdu ty.",
+                            "bullets": [
+                                "Autorizovat musíš i platby kartou na internetu."
+                            ],
+                            "deeplink": "Autorizace",
+                            "actionTitle": "Ukázat číslo pro ověřování",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "Převod peněz",
+                            "image": "/cbl_images/family_tips/Prevod_penez.png",
+                            "text": "Jde o převedení (odeslání) peněz z jednoho účtu na druhý. Převod probíhá bezhotovostně (online) a většinou téměř okamžitě.",
+                            "bullets": [
+                                "Pokud chceš, můžeš si nastavit automatický opakovaný převod. To znamená, že třeba každý 3. den v měsíci se odešle z tvých peněz vybraná částka na jiný účet, třeba na tvůj spořicí."
+                            ],
+                            "deeplink": "Prevod_penez",
+                            "actionTitle": "Ukázat posílání peněz",
+                            "actionType": "APPPAGE",
+                            "actionData": "PAYMENTORDER"
+                        },
+                        {
+                            "title": "Biometrika",
+                            "image": "/cbl_images/family_tips/Biometrika.png",
+                            "text": "Je způsob ověření (rozpoznání) pomocí otisku prstu nebo skenu obličeje.",
+                            "bullets": [
+                                "Ve Smart Bance můžeš využít biometriku pro přihlašování i potvrzování plateb.",
+                                "Biometriku můžeš změnit v nastavení"
+                            ],
+                            "deeplink": "Biometrika",
+                            "actionTitle": "Nastavit biometriku",
+                            "actionType": "APPPAGE",
+                            "actionData": "MYSETTINGS"
+                        },
+                        {
+                            "title": "Číslo karty a CVV kód",
+                            "image": "/cbl_images/family_tips/Cislo_karty.png",
+                            "text": "Nejčastěji se s nimi setkáš při placení kartou na internetu. Jde o 16 čísel, které jsou nejčastěji na přední straně tvé <a href=\"Platebni_karta\">platební karty</a>. CVV jsou 3 čísla na zadní straně karty, které slouží k\u00a0jejímu ověření.",
+                            "bullets": [
+                                "Občas po tobě můžeme chtít pro ověření poslední 4 čísla (z 16) na tvé kartě. Ale nikdy žádná jiná. Určitě ne CVV kód.",
+                                "Dávej si na kartu pozor a měj ji vždy dobře schovanou.",
+                                "Tato čísla zobrazíš kliknutím na ikonu oka náhledu své karty."
+                            ],
+                            "deeplink": "Cislo_karty",
+                            "actionTitle": "Ukázat kartu",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Transakce",
+                            "image": "/cbl_images/family_tips/Transakce.png",
+                            "text": "Je bezhotovostní platba nebo výběr hotovosti pomocí <a href=\"Platebni_karta\">platební karty</a>.",
+                            "bullets": [
+                                "Každou transakci <a href=\"Autorizace\">ověříme</a>, ty ji ověříš a\u00a0my ji pak potvrdíme."
+                            ],
+                            "deeplink": "Transakce",
+                            "actionTitle": "Ukázat číslo pro ověřování",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "Internetové bankovnictví",
+                            "image": "/cbl_images/family_tips/IB.png",
+                            "text": "Podobně jako ve Smart Bance se tu můžeš podívat na svůj účet, odeslat platby nebo spořit.",
+                            "bullets": [
+                                "Přihlásíš se do něj ID a heslem, které ještě potvrdíš kódem z\u00a0SMS nebo notifikací ze Smart Banky."
+                            ],
+                            "deeplink": "IB"
+                        },
+                        {
+                            "title": "Limity",
+                            "image": "/cbl_images/family_tips/Limity.png",
+                            "text": "Určitě už víš, že některé tvoje platby musí potvrzovat rodiče. Jeden z důvodů, proč to tak je, jsou i limity.",
+                            "bullets": [
+                                "Horní i spodní limit určuje, co se stane, když ho překročíš. Třeba, že bude potřeba, aby platbu potvrdil rodič. Nebo v horším případě ji zamítnul.",
+                                "Limity máš nastavené pro posílání peněz, převody, výběr z <a href=\"Bankomat\">bankomatů</a> nebo platby na internetu.",
+                                "Svoje limity můžeš vidět v detailu karty a nastavuje je rodič."
+                            ],
+                            "deeplink": "Limity",
+                            "actionTitle": "Ukázat limity",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Pobočka (obchodní místo)",
+                            "image": "/cbl_images/family_tips/Pobocka.png",
+                            "text": "Dvě pojmenování pro stejnou věc, ale my máme raději pobočku. Je to místo, kde ti poradíme a pomůžeme se vším, co od nás jako od banky potřebuješ.",
+                            "bullets": [
+                                "Zatím poradíme hlavně tvým rodičům, ale až ti bude 18, rádi tě tam uvidíme.",
+                                "Na pobočku často nemusíš, většinu toho zvládneš online nebo telefonicky."
+                            ],
+                            "deeplink": "Pobocka",
+                            "actionTitle": "Ukázat nejbližší pobočky",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Blokace | Odblokování",
+                            "image": "/cbl_images/family_tips/Blokace.png",
+                            "text": "Svou <a href=\"Platebni_karta\">platební kartu</a> si můžeš dočasně nebo trvale zablokovat. Hodí se to hlavně ve chvíli, kdy ji nemůžeš najít nebo ti ji někdo ukradl.",
+                            "bullets": [
+                                "Zvládneš to v aplikaci v sekci Karta nebo na naší infolince, která je zdarma."
+                            ],
+                            "deeplink": "Blokace",
+                            "actionTitle": "Ukázat kartu",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Výpis z účtu",
+                            "image": "/cbl_images/family_tips/Vypis.png",
+                            "bullets": [
+                                "Dokument, který banka pravidelně posílá majiteli <a href=\"Bezny_ucet\">účtu</a>.",
+                                "Jsou na něm uvedeny všechny platby na účtu za určité období.",
+                                "Můžeš ho mít na papíře nebo elektronicky. Za ten papírový si ale připlatíš. Elektronický ti vždycky pošleme zdarma."
+                            ],
+                            "deeplink": "Vypis",
+                            "actionTitle": "Ukázat historii plateb",
+                            "actionType": "APPPAGE",
+                            "actionData": "PAYMENTHISTORY"
+                        }
+                    ]
+                },
+                {
+                    "section": "advanced",
+                    "pageList": [
+                        {
+                            "title": "3D Secure",
+                            "image": "/cbl_images/family_tips/3D_Secure.png",
+                            "text": "S tímto zabezpečením se setkáš při placení <a href=\"Platebni_karta\">platební kartou</a> na internetu. Kontroluje, že všechno probíhá, jak má. Ověří tebe, obchodníka i platební systém, přes který platíš.",
+                            "bullets": [
+                                "Může tě ověřit skrze Smart Banku nebo pomocí SMS."
+                            ],
+                            "deeplink": "3D_Secure",
+                            "actionTitle": "Ukázat číslo pro ověřování",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "ATM",
+                            "image": "/cbl_images/family_tips/ATM.png",
+                            "text": "Víš, co znamená Automated Teller Machine? Takhle rozepsané to často neuvidíš, ale se zkratkou ATM se občas potkáš. Proto je dobré vědět, že jde o bankomat <a href=\"Bankomat\">bankomat</a>. A co je bankomat, už přece víš.",
+                            "deeplink": "ATM",
+                            "actionTitle": "Ukázat nejbližší bankomaty",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Bezpečnostní, ochranné prvky",
+                            "image": "/cbl_images/family_tips/Bezpecnostni_prvky.png",
+                            "text": "Chrání tvou platební kartu, ale i peníze v hotovosti před paděláním.",
+                            "bullets": [
+                                "Patří sem třeba hologram, ultrafialový tisk, vodoznak nebo ochranný proužek."
+                            ],
+                            "deeplink": "Bezpecnostni_prvky"
+                        },
+                        {
+                            "title": "BIC a SWIFT",
+                            "image": "/cbl_images/family_tips/BIC.png",
+                            "text": "BIC je kód, který zadáváš při platbě do zahraničí a banka se jím identifikuje. SWIFT je organizace, která zjednodušuje převod peněz mezi bankami po celém světě.",
+                            "bullets": [
+                                "BIC/SWIFT kód je stejný. A ten Monetí je AGBACZPP.",
+                                "Svůj najdeš ve Smart Bance v detailu svého účtu."
+                            ],
+                            "deeplink": "BIC",
+                            "actionTitle": "Ukázat běžný účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Cestovní pojištění",
+                            "image": "/cbl_images/family_tips/Cestovni_pojisteni.png",
+                            "text": "Zaručí ti proplacení ošetření nebo operace v zahraničí, případně převoz zpět do ČR.",
+                            "bullets": [
+                                "Využiješ ho při cestování do zahraničí, kde ti běžné české zdravotní pojištění nestačí."
+                            ],
+                            "deeplink": "Cestovni_pojisteni"
+                        },
+                        {
+                            "title": "Debetní karta",
+                            "image": "/cbl_images/family_tips/Debetni_karta.png",
+                            "text": "Je běžná <a href=\"Platebni_karta\">platební karty</a>, kterou máš ke svému účtu. Pomocí ní můžeš platit v obchodech a vybírat z <a href=\"Bankomat\">bankomatu</a>.",
+                            "bullets": [
+                                "Najdeš na ní své jméno, datum platnosti, 16 identifikačních čísel a <a href=\"Cislo_karty\">CVV kód</a>."
+                            ],
+                            "deeplink": "Debetni_karta"
+                        },
+                        {
+                            "title": "Kreditní karta",
+                            "image": "/cbl_images/family_tips/Kreditni_karta.png",
+                            "text": "Je to platební karta s penězi, které ti půjčí banka nebo jiná instituce. Ty je můžeš používat jako by byly tvoje, ale musíš je potom splatit. Většinou máš zhruba měsíc, kdy je můžeš vrátit bez úroku.",
+                            "bullets": [
+                                "Hodí se hlavně pro platby na internetu.",
+                                "Často jsou k ní různé výhody jako <a href=\" Cestovni_pojisteni\">cestovní pojištění</a> nebo slevy do obchodů."
+                            ],
+                            "deeplink": "Kreditni_karta"
+                        },
+                        {
+                            "title": "Kryptoměna",
+                            "image": "/cbl_images/family_tips/Kryptomena.png",
+                            "text": "Virtuální měna, která existuje pouze na internetu. Vzniká a obchoduje se s ní pomocí složitých výpočtů mezi počítači. Můžeš ji směnit za běžné peníze, třeba za koruny nebo dolary.",
+                            "bullets": [
+                                "Nejznámější kryptoměny jsou <a href=\"Bitcoin\">Bitcoin</a> a <a href=\"Ethereum\">Ethereum</a>."
+                            ],
+                            "deeplink": "Kryptomena"
+                        },
+                        {
+                            "title": "Bitcoin",
+                            "image": "/cbl_images/family_tips/Bitcoin.png",
+                            "text": "Je kryptoměna spuštěná 3. 1. 2009. Je navržena tak, aby ji nikdo nemohl ovlivňovat, padělat nebo způsobovat její inflaci. Bitcoin umoňuje platit komukoliv na světě pomocí kryptoměnové peněženky.",
+                            "bullets": [
+                                "Potvrzení platby i těžba (vytvoření nového Bitcoinu) probíhá kolektivně pomocí složitých matematických operací.",
+                                "Všechny bitcoinové transakce se zapisují do databáze."
+                            ],
+                            "deeplink": "Bitcoin"
+                        },
+                        {
+                            "title": "Ethereum",
+                            "image": "/cbl_images/family_tips/Ethereum.png",
+                            "text": "Je decentralizovaná kryptoměna a tedy podobně jako <a href=\"Bitcoin\">Bitcoin</a> ji nemůže nikdo ovlivňovat, padělat nebo způsobit její inflaci.",
+                            "bullets": [
+                                "Ehereum neslouží primárně k potvrzování transakcí, ale spíše na spuštění zdrojového kódu decetralizovaných aplikací.",
+                                "Čas k potvrzení transakce je u Etherea zhruba 12 vteřin, u Bitcoinu asi 10 minut."
+                            ],
+                            "deeplink": "Ethereum"
+                        },
+                        {
+                            "title": "Hypotéka",
+                            "image": "/cbl_images/family_tips/Hypoteka.png",
+                            "text": "<a href=\"Pujcka_a_uver\">Půjčka a úvěr</a>, kterou využiješ, když si chceš koupit pozemek nebo nemovitost a nemáš dostatek peněz. Můžeš ji využít i na rekonstrukci.",
+                            "bullets": [
+                                "Ten, kdo si chce vzít hypotéku, musí mít často našetřeno 5–20 % z požadované částky."
+                            ],
+                            "deeplink": "Hypoteka"
+                        },
+                        {
+                            "title": "IBAN",
+                            "image": "/cbl_images/family_tips/IBAN.png",
+                            "text": "Je tvoje číslo účtu v mezinárodním formátu. Používá se pro platby do zahraničí. Kdyby bylo tvoje číslo účtu 123456789/0600, IBAN by vypadal takto CZ3406000000000123456789.",
+                            "bullets": [
+                                "Svůj najdeš ve Smart Bance v detailu svého účtu."
+                            ],
+                            "deeplink": "IBAN",
+                            "actionTitle": "Ukázat běžný účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Inkaso",
+                            "image": "/cbl_images/family_tips/Inkaso.png",
+                            "text": "Pokud budeš chtít, banka může povolit někomu jinému, aby si strhával z tvého <a href=\"Bezny_ucet\">účtu</a> určitou částku.",
+                            "bullets": [
+                                "Nejčastěji se inkaso používá pro placení energií nebo u telefonních operátorů.",
+                                "Svolení k inkasu můžeš nastavit podobně jako posílání peněz."
+                            ],
+                            "deeplink": "Inkaso"
+                        },
+                        {
+                            "title": "Kontokorent",
+                            "image": "/cbl_images/family_tips/Kontokorent.png",
+                            "text": "Když ti to dovolíme, můžeš jít na svém <a href=\"Bezny_ucet\">účtu</a> do mínusu. Kolik to bude, se s námi musíš nejdřív domluvit.",
+                            "bullets": [
+                                "Kontokorent má podobně jako <a href=\"Pujcka_a_uver\">půjčka</a> <a href=\"Urok_banky\">úrok</a>."
+                            ],
+                            "deeplink": "Kontokorent"
+                        },
+                        {
+                            "title": "Půjčka a úvěr",
+                            "image": "/cbl_images/family_tips/Pujcka_a_uver.png",
+                            "text": "U nás v bance jde v podstatě o to samé. Vždy jde o půjčení peněz, které musí ten, kdo si půjčil, vrátit. V termínu a s <a href=\"Urok_banky\">úrokem</a>, který jsme si dohodli.",
+                            "bullets": [
+                                "Úvěr znamená vždy půjčení peněz.",
+                                "Půjčka (mimo banku) může být i nepeněžní."
+                            ],
+                            "deeplink": "Pujcka_a_uver"
+                        },
+                        {
+                            "title": "Phishing",
+                            "image": "/cbl_images/family_tips/Phishing.png",
+                            "text": "Snaha získat důvěrné nebo osobní informace pomocí podvodných e-mailů, SMS nebo telefonátů. Tyto informace pak mohou útočníci zneužít a ukrást peníze z účtu nebo si na tebe vzít třeba <a href=\"Pujcka_a_uver\">půjčku</a>.",
+                            "bullets": [
+                                "Phishing vznikl úpravou anglického slova fishing."
+                            ],
+                            "deeplink": "Phishing"
+                        },
+                        {
+                            "title": "Úrok",
+                            "image": "/cbl_images/family_tips/Urok_banky.png",
+                            "text": "Když si od banky půjčíš peníze, při jejich vrácení zaplatíš o něco víc. Třeba když si půjčíš 100 Kč, budeš muset vrátit 105 Kč. Úrok je částka, kterou platíš za to, že používáš cizí peníze.",
+                            "bullets": [
+                                "Úrok může fungovat i ve tvůj prospěch. Třeba pokud máš peníze na <a href=\"Sporici_ucet\">spořicím účtu</a>, banka platí tobě."
+                            ],
+                            "deeplink": "Urok_banky"
+                        },
+                        {
+                            "title": "Virtuální karta",
+                            "image": "/cbl_images/family_tips/Virtualni_karta.png",
+                            "text": "Platební karta, která nemá svoji fyzickou podobu. Existuje jen online.",
+                            "bullets": [
+                                "Můžeš s ní platit stejně jako s jakoukoliv <a href=\"Platebni_karta\">platební kartou</a>",
+                                "Snadno si ji můžeš zablokovat hned po zaplacení, proto je těžší ji zneužít."
+                            ],
+                            "deeplink": "Virtualni_karta"
+                        }
+                    ]
+                },
+                {
+                    "section": "expert",
+                    "pageList": [
+                        {
+                            "title": "Akcie",
+                            "image": "/cbl_images/family_tips/Akcie.png",
+                            "text": "Je to <a href=\"Cenny_papir\">cenný papír</a>, který vydávají některé společnosti. Pokud akcie vlastníš, můžeš se podílet na rozhodování firmy nebo s nimi obchodovat na <a href=\"Burza_cennych_papiru\">burze</a>.",
+                            "bullets": [
+                                "U některých akcií se vyplácí <a href=\"Dividenda\">dividendy</a>.",
+                                "Společnosti někdy akciemi odměňují zaměstnance, nejčastěji je ale získáš nákupem na burze."
+                            ],
+                            "deeplink": "Akcie"
+                        },
+                        {
+                            "title": "Makléř",
+                            "image": "/cbl_images/family_tips/Makler.png",
+                            "text": "Člověk, který obchoduje s <a href=\"Cenny_papir\">cennými papíry</a> (<a href=\"Akcie\">akcie</a> a dluhopisy) na <a href=\"Burza_cennych_papiru\">burze</a>.",
+                            "bullets": [
+                                "V dnešní době probíhá většina obchodů online."
+                            ],
+                            "deeplink": "Makler"
+                        },
+                        {
+                            "title": "Dividenda",
+                            "image": "/cbl_images/family_tips/Dividenda.png",
+                            "text": "Jde o podíl na zisku společnosti vyplácený za určité období.",
+                            "bullets": [
+                                "Při nákupu <a href=\"Akcie\">akcie</a> se můžeš podívat, jestli společnost vyplácí <a href=\"Dividenda\">dividendy</a> a v jaké výši."
+                            ],
+                            "deeplink": "Dividenda"
+                        },
+                        {
+                            "title": "Akcionář",
+                            "image": "/cbl_images/family_tips/Akcionar.png",
+                            "text": "Majitel <a href=\"Akcie\">akcií</a>. Dělíme je podle toho, kolik akcií vlastní, na menšinové a většinové.",
+                            "bullets": [
+                                "Čím více jich má, tím více může ovlivňovat dění ve firmě."
+                            ],
+                            "deeplink": "Akcionar"
+                        },
+                        {
+                            "title": "Akontace",
+                            "image": "/cbl_images/family_tips/Akontace.png",
+                            "text": "Částka potřebná pro první splátku. Bývá většinou vyšší než další splátky.",
+                            "deeplink": "Akontace"
+                        },
+                        {
+                            "title": "Bonita",
+                            "image": "/cbl_images/family_tips/Bonita.png",
+                            "text": "Schopnost splácet úvěr, kterou banka zkoumá, než ti úvěr schválí. Ovlivňuje ji mnoho faktorů, které většinou nejsou veřejné.",
+                            "bullets": [
+                                "Bonitu určuje také věk, vzdělání, rodinný stav, profese, platební morálka nebo předchozí úvěrová historie."
+                            ],
+                            "deeplink": "Bonita"
+                        },
+                        {
+                            "title": "Broker",
+                            "image": "/cbl_images/family_tips/Broker.png",
+                            "text": "Je obchodník s <a href=\"Akcie\">akciemi</a> nebo <a href=\"Makler\">makléř</a>, který za tebe může obchodovat na burze.",
+                            "deeplink": "Broker"
+                        },
+                        {
+                            "title": "Burza cenných papírů",
+                            "image": "/cbl_images/family_tips/Burza_cennych_papiru.png",
+                            "text": "Instituce, která zprostředkovává nabídku <a href=\"Cenny_papir\">cenných papírů</a>, pomáhá určit jejich cenu a zabezpečuje obchod.",
+                            "bullets": [
+                                "V ČR je největší Burza cenných papírů Praha (BCPP), celosvětově pak New York Stock Exchange z USA."
+                            ],
+                            "deeplink": "Burza_cennych_papiru"
+                        },
+                        {
+                            "title": "Cenný papír",
+                            "image": "/cbl_images/family_tips/Cenny_papir.png",
+                            "text": "Jsou to například <a href=\"Akcie\">akcie</a>, podílové listy, dluhopisy, směnky, šeky, investiční kupóny a další.",
+                            "deeplink": "Cenny_papir"
+                        },
+                        {
+                            "title": "Disponibilní zůstatek",
+                            "image": "/cbl_images/family_tips/Disponibilni_zustatek.png",
+                            "text": "Peníze, které máš na <a href=\"Bezny_ucet\">účtu</a> k dispozici. Pokud máš k účtu <a href=\"Kontokorent\">kontokorent</a>, je disponibilní zůstatek spočítaný včetně něj.",
+                            "bullets": [
+                                "Na disponibilní zůstatek se můžeš podívat na svém běžném účtu."
+                            ],
+                            "deeplink": "Disponibilni_zustatek",
+                            "actionTitle": "Ukázat běžný účet",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Diverzifikace portfolia",
+                            "image": "/cbl_images/family_tips/Diverzifikace_portfolia.png",
+                            "text": "Jde o rozložení investic mezi více <a href=\"Cenny_papir\">cenných papírů</a>, aby se snížilo investiční riziko.",
+                            "deeplink": "Diverzifikace_portfolia"
+                        },
+                        {
+                            "title": "Emise akcií",
+                            "image": "/cbl_images/family_tips/Emise_akcii.png",
+                            "text": "Je to vydání (emise) <a href=\"Akcie\">akcií</a> jednou společností. Po emisi akcií může společnost vstoupit na burzu.",
+                            "deeplink": "Diverzifikace_portfolia"
+                        },
+                        {
+                            "title": "Fixační období",
+                            "image": "/cbl_images/family_tips/Fixacni_obdobi.png",
+                            "text": "Časové období, kdy se úroková sazba nemění. Často se využívá u <a href=\"Hypoteka\">hypoteky</a>, kde je fixační období většinou 1–7 let.",
+                            "deeplink": "Fixacni_obdobi"
+                        },
+                        {
+                            "title": "Inflace",
+                            "image": "/cbl_images/family_tips/Inflace.png",
+                            "text": "Jde o snížení hodnoty peněz, a tím i majetku. Inflace je přirozená a ovlivňuje ji mnoho faktorů. V některých letech tak může být vyšší, jindy menší.",
+                            "bullets": [
+                                "Průměrná inflace se pohybuje mezi 2-4 % ročně."
+                            ],
+                            "deeplink": "Inflace"
+                        },
+                        {
+                            "title": "Investice",
+                            "image": "/cbl_images/family_tips/Investice_child.png",
+                            "text": "Peníze můžeme směnit za něco jiného, třeba za <a href=\"Cenny_papir\">cenné papíry</a>, které se mohou časem zhodnotit. Vždy ale existuje riziko, že proděláš.",
+                            "deeplink": "Investice"
+                        },
+                        {
+                            "title": "Investiční riziko",
+                            "image": "/cbl_images/family_tips/Investicni_riziko.png",
+                            "text": "Investice může ztratit svou hodnotu. Investiční riziko představuje pravděpodobnost toho, o jak velkou ztrátu půjde.",
+                            "bullets": [
+                                "Nejmenší riziko mají konzervativní podílové fondy, největší pak <a href=\"Akcie\">akcie</a>."
+                            ],
+                            "deeplink": "Investicni_riziko"
+                        },
+                        {
+                            "title": "Investor",
+                            "image": "/cbl_images/family_tips/Investor.png",
+                            "text": "Člověk nebo firma, která vlastní <a href=\"Cenny_papir\">cenné papíry</a>.",
+                            "deeplink": "Investor"
+                        },
+                        {
+                            "title": "Konsolidace",
+                            "image": "/cbl_images/family_tips/Konsolidace.png",
+                            "text": "Sloučení půjček a úvěrů do jednoho.",
+                            "bullets": [
+                                "Konsolidované <a href=\"Pujcka_a_uver\">půjčky</a> se splácí jako jedna, většinou delší časové období.",
+                                "Konsolidovat jde téměř všechny půjčky."
+                            ],
+                            "deeplink": "Konsolidace"
+                        },
+                        {
+                            "title": "Portfolio",
+                            "image": "/cbl_images/family_tips/Portfolio.png",
+                            "text": "Jsou to všechny <a href=\"Cenny_papir\">cenné papíry</a>, které člověk nebo firma vlastní.",
+                            "deeplink": "Portfolio"
+                        },
+                        {
+                            "title": "RPSN (Roční procentní sazba nákladů)",
+                            "image": "/cbl_images/family_tips/RPSN.png",
+                            "text": "Částka, kterou zaplatíš navíc při splácení <a href=\"Pujcka_a_uver\">půjčky</a>. Uvádí se ročně a je to určité procento z půjčky.",
+                            "bullets": [
+                                "Využiješ ho také, pokud si budeš chtít srovnat nabídky půjček mezi sebou."
+                            ],
+                            "deeplink": "RPSN"
+                        },
+                        {
+                            "title": "Smíšené fondy",
+                            "image": "/cbl_images/family_tips/Smisene_fondy.png",
+                            "text": "Patří sem <a href=\"Akcie\">akciové</a> i dluhopisové fondy.",
+                            "bullets": [
+                                "Jsou flexibilní a jsou ve středním až vysokém investičním riziku.",
+                                "Jsou vhodné pro delší investiční horizont."
+                            ],
+                            "deeplink": "Smisene_fondy"
+                        },
+                        {
+                            "title": "Zástava",
+                            "image": "/cbl_images/family_tips/Zastava.png",
+                            "text": "Majetek, kterým ručíš za <a href=\"Pujcka_a_uver\">půjčku</a>. Pokud ji nesplatíš, majetek dostane ten, kdo ti peníze půjčil.",
+                            "bullets": [
+                                "Většinou se se zástavou setkáš u <a href=\"Hypoteka\">hypotéky</a>."
+                            ],
+                            "deeplink": "Zastava"
+                        }
+                    ]
+                }
+            ],
+            "tipsByAgeRangeList": [
+                {
+                    "title": "Děti 8–10 let",
+                    "value": "EIGHTTOTEN",
+                    "pageList": [
+                        {
+                            "title": "Co je v tomto věku nejdůležitější?",
+                            "text": "Seznamte dítě s tím, kolik věci stojí. Lístky do kina, sešit do školy, jeho svačina nebo třeba kolo, počítač a nové auto. Také mu vysvětlete, jak funguje spoření. Že někdy je zkrátka lepší počkat, aby získal více. <br><br>První účet pro dítě znamená zodpovědnost, ale také privilegium. Promluvte si o tom, jak je důležité hlídat si platební kartu, aplikaci a nikomu nikdy nesdělovat žádné citlivé údaje.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/important810.png"
+                        },
+                        {
+                            "title": "Princip odměňování",
+                            "text": "Dítě můžete začít odměňovat za drobné práce. Třeba mytí nádobí, uklízení hraček nebo vysávání v domácnosti.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/odmenovani.png",
+                            "bullets": [
+                                "Tak dítěti vysvětlíte, jak funguje odměňování za odvedenou práci."
+                            ]
+                        },
+                        {
+                            "title": "Spoření",
+                            "text": "Dítě získá ke svému běžnému účtu i spořicí účet s úrokem 3 %. Vysvětlete mu, že za každý měsíc mu přičteme odměnu z uložené částky.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/sporeni.png",
+                            "bullets": [
+                                "Dítě můžete motivovat k tomu, aby si spořilo na dražší věci s tím, že mu zbytek doplatíte.",
+                                "Díky obálkám okamžitě uvidí, kolik mu zbývá k dosažení cíle."
+                            ]
+                        },
+                        {
+                            "title": "Peníze na účtu a v hotovosti",
+                            "text": "Vysvětlete dítěti rozdíl mezi hotovostí a penězi na bankovním účtu.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/penize_na_uctu.png",
+                            "bullets": [
+                                "Pokud si vloží peníze na spořicí účet místo do pokladničky, přičteme mu každý měsíc úrok."
+                            ]
+                        },
+                        {
+                            "title": "Základy finanční zodpovědnosti",
+                            "text": "V tomto věku můžete dítěti předat ty nejdůležitější finanční základy. Vysvětlete mu, jak hospodaříte s penězi, kolik stojí například jídlo nebo jeho koníčky.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/penize_na_uctu.png",
+                            "bullets": [
+                                "Určitě už ví, že peníze nerostou na stromě, ale můžete mu říct, kolik si vyděláte v práci za den, týden a měsíc."
+                            ]
+                        },
+                        {
+                            "title": "Kapesné",
+                            "text": "Děti v tomto věku začínají dostávat své první kapesné. Začít můžete na 50 Kč týdně, za které si dítě může koupit drobnosti, jako je svačina do školy nebo sešit.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/kapesne.png",
+                            "bullets": [
+                                "Vysvětlete dítěti, že zbylé kapesné si může převést na spořicí účet, kde se mu zhodnotí."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Děti 11–13 let",
+                    "value": "ELEVENTOTHIRTEEN",
+                    "pageList": [
+                        {
+                            "title": "Co je v tomto věku nejdůležitější?",
+                            "text": "Děti se začínají cítit jako (mladí) dospělí. Proto jim předejte více zodpovědnosti, ale také povinností. Pravidelný úklid, nákupy nebo občasné hlídání mladších sourozenců. A předem stanovená odměna.<br><br>Začněte se s dítětem bavit o vašem zaměstnání. Vysvětlete mu, co děláte a jak jste za to odměňováni. Pokud vám to příležitost dovolí, vezměte ho s sebou do práce.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/important1113.png"
+                        },
+                        {
+                            "title": "Rozum a hodnota",
+                            "text": "Začněte s dětmi diskutovat o tom, co je racionální. Když jim někdy řeknete „ne“, vysvětlete jim, proč jste se tak rozhodli.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/rozum_hodnota.png",
+                            "bullets": [
+                                "Jaké jsou vaše hodnoty a co považujete za důležité? Je to rodina, vzdělání, zkušenosti nebo kariéra?"
+                            ]
+                        },
+                        {
+                            "title": "Marketing a reklama",
+                            "text": "Vaše dítě se stává cílem mnoha marketingových a reklamních kampaní. Vysvětlete mu, že reklama ovlivňuje jeho rozhodnutí.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/marketing_reklama.png",
+                            "bullets": [
+                                "Srovnávejte. Chce vaše dítě něco, co vidělo v reklamě? Najděte obdobnou variantu a diskutujte o tom, jestli je ta dražší opravdu lepší."
+                            ]
+                        },
+                        {
+                            "title": "Rozpočet",
+                            "text": "Vytvořte s dítětem jeho měsíční rozpočet, aby mělo větší představu o tom, kolik utrácí. V tuto chvíli je také vhodné mírně zvýšit kapesné, 200 Kč týdně by mělo pokrýt všechny náklady, které dítě má.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/rozpocet.png",
+                            "bullets": [
+                                "Ukažte dítěti rozpočet v bankovní aplikaci.",
+                                "Určete dlouhodobé cíle spoření a motivujte ho k nim."
+                            ]
+                        },
+                        {
+                            "title": "Neuvážené nákupy",
+                            "text": "Vzpomeňte si na věci, které si dítě samo koupilo nebo na které jste mu přispěli, a zeptejte se ho, jestli by si danou věc koupilo znovu. Ukažte dítěti, jak je důležité si rozhodnutí důkladně promyslet.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/emo_nakupy.png",
+                            "bullets": [
+                                "Vysvětlete mu, že také občas uděláte neuvážené rozhodnutí, ale důležité je se z toho poučit."
+                            ]
+                        },
+                        {
+                            "title": "Placení kartou",
+                            "text": "Dítě začíná častěji využívat platební kartu, a to i bez vašeho vědomí, pokud mu to limity dovolí. Domluvte se s ním na pravidelné kontrole výdajů.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/placeni_kartou.png",
+                            "bullets": [
+                                "Dítě si musí získat vaši finanční důvěru. Pokud ji má, častá kontrola už není nutná."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Děti 14–16 let",
+                    "value": "FOURTEENTOSIXTEEN",
+                    "pageList": [
+                        {
+                            "title": "Co je v tomto věku nejdůležitější?",
+                            "text": "Dítě už je opravdu mladým dospělým. V tomto věku začíná s prvními brigádami a víc si uvědomuje hodnotu peněz. Kapesné začíná doplňovat příjem z brigády.<br><br>Tlak vrstevníků je v tomto věku nejsilnější, a proto děti často a neuváženě utrácejí. Mluvte spolu o tom, kolik utrácí a jestli je to opravdu nutné. Pokud si trochu nabijí nos utrácením úspor, může to být přínosná lekce.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/importnant1416.png"
+                        },
+                        {
+                            "title": "Vyšší náklady i kapesné",
+                            "text": "Dítě je v mnoha ohledech soběstačné. Proto zvyšte kapesné až na 500 Kč týdně. Z něj si pak může platit obědy do školy, svačiny, případně i pomůcky do školy.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/vyssi_naklady.png",
+                            "bullets": [
+                                "Peníze vyplácejte na bankovní účet.",
+                                "Zjistěte jeho nutné náklady a kapesné jim přizpůsobte."
+                            ]
+                        },
+                        {
+                            "title": "Výdaje, kterým možná nechcete rozumět",
+                            "text": "Pokud vaše dítě utrácí za online hry, nemusíte to být nutně špatně. I když se tváří jako dospělí, pořád jsou to děti. Nechte si od nich vysvětlit, co za částku získají a proč si myslí, že je to důležité.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/online_hry.png",
+                            "bullets": [
+                                "Pokud nejde o velké sumy, nechte na nich, zda je toto utrácení přínosné nebo ne."
+                            ]
+                        },
+                        {
+                            "title": "Dlouhodobější cíle",
+                            "text": "Proberte s dítětem možnost spořit si na věci/události, které přijdou v budoucnu. Například na tábor, koncert nebo cestování. To všechno jsou cíle, na které si může dítě samo nebo s vaším příspěvkem naspořit.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dlouhodobe_cile.png",
+                            "bullets": [
+                                "Dlouhodobé spoření vyžaduje disciplínu. Dítě může motivovat úrok na spořicím účtu a váš příspěvek, pokud bude poctivě šetřit."
+                            ]
+                        },
+                        {
+                            "title": "Došly peníze? Výpomoc si rozmyslete",
+                            "text": "Aby si dítě osvojilo zdravé finanční návyky, je potřeba mu vysvětlit, že ne vždy, když mu dojdou peníze, mu pomůžete. Projděte spolu jejich výdaje a zjistěte, „kde se stala chyba“.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dosly_penize.png",
+                            "bullets": [
+                                "Pokud příliš utráceli, mohou ztrátu dorovnat další prací v domácnosti nebo brigádou."
+                            ]
+                        },
+                        {
+                            "title": "Bezpečnost účtu i karet",
+                            "text": "Dítě častěji utrácí peníze bez vaší přítomnosti a vědomí. Upozorněte ho, ať kartu ani telefon s bankovnictvím nikomu nepůjčuje. Ani když se jedná o dobrého kamaráda.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/bezpecnost.png",
+                            "bullets": [
+                                "Je třeba, aby si uvědomilo, že disponovat penězi znamená velkou odpovědnost."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Děti 17–18 let",
+                    "value": "SEVENTEENTOEIGHTEEN",
+                    "pageList": [
+                        {
+                            "title": "Co je v tomto věku nejdůležitější?",
+                            "text": "Vaše dítě už se stává opravdu dospělým a možná bude z finanční gramotnosti školit spíše vás. V tomto věku je důležité připravit ho na samostatnost.<br><br>Musí si zvyknout, že ne vždy budete připraveni mu se vším pomoct. Vysvětlete mu princip půjček a v jaké situaci je vhodné po nich sáhnout.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/importnant1718.png"
+                        },
+                        {
+                            "title": "Samostatné bydlení",
+                            "text": "Blíží se doba, kdy půjde vaše dítě na vysokou nebo přímo do zaměstnání. Zkuste si společně naposledy sestavit rozpočet, který bude počítat i s náklady na nájem a jídlo.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/bezpecnost.png",
+                            "bullets": [
+                                "Do rozpočtu se pokuste zahrnout i částku, kterou si dítě odloží na spoření nebo investuje. V ideálním případě by měla přesáhnout 10 %."
+                            ]
+                        },
+                        {
+                            "title": "Dlouhodobé spoření",
+                            "text": "V této chvíli je dobré probrat, jakou budoucnost si dítě představuje. Pravděpodobně bude chtít vlastní bydlení, a proto by mělo začít uvažovat nad tím, jak ho získá.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dlouhodobe_sporeni.png",
+                            "bullets": [
+                                "Spořit si na hypotéku může začít už nyní, aby mělo připraveno 10–20 % nutných pro její získání."
+                            ]
+                        },
+                        {
+                            "title": "Investice",
+                            "text": "Investovat část výdělku je dobrým způsobem, jak dosáhnout finanční svobody. Proberte společně možnost investovat třeba přímo z bankovní aplikace.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/investice.png",
+                            "bullets": [
+                                "Díky investicím může zhodnotit své peníze více než spořením."
+                            ]
+                        },
+                        {
+                            "title": "Půjčky",
+                            "text": "Dítě bude brzy odpovědné samo za sebe a s tím souvisí i možnost zažádat si o půjčku. Proberte společně, kdy a na co je vhodné si půjčovat a kdy je to zbytečné.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/pujcky.png"
+                        },
+                        {
+                            "title": "Vlastní účet",
+                            "text": "Od 18 let dítěte končí i váš rodičovský účet. Zajděte s dítětem na pobočku a převeďte ten současný na běžný. Nad ním sice nebudete mít kontrolu, ale díky vašim doporučením bude dítě dobře hospodařit.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/vlastni_ucet.png"
+                        }
+                    ]
+                }
+            ],
+            "mainTips": {
+                "title": "Průvodce rodiče",
+                "text": "Jak vysoké kapesné dostávají děti ve věku jako to vaše a co by měly vědět o financích? Připravili jsme pro vás tipy pro lepší hospodaření.",
+                "others": "Ostatní tipy"
+            },
+            "oneYearOlder": {
+                "title": "Nové tipy pro lepší hospodaření",
+                "text": "Vaše dítě je zase o rok starší, a proto jsme vám aktualizovali průvodce dětskými financemi.",
+                "more": "a mnoho dalšího",
+                "primaryButton": "Prohlédnout si tipy"
+            }
+        }
+    }
+}

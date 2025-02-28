@@ -1,0 +1,773 @@
+{
+    "errorScreens": {
+        "moreMoney": {
+            "title": "Consolidation of loans over CZK 800,000 are better done in-branch ",
+            "detail": "Visit our branch for a loan of up to CZK\u00a01,500,000. Please remember to bring with you:",
+            "bullets": [
+                "<b>At least one document for each of your loans. </b> – Loan Agreement, Credit Account Statement or Loan Quantification (no older than 40 days)",
+                "<b>ID card</b> and another form of ID",
+                "A filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of Income form your employer</a>",
+                "<b>Loans over CZK 1,000,000 require a cosigner.</b>"
+            ],
+            "callUs": "Call our Helpline",
+            "branch": "Visit our branch",
+            "footer": "<b>If you wish to consolidate your loans in the total amount of less than CZK 500,000, continue withe the application.</b>",
+            "primaryButton": "Continue Application",
+            "secondaryButton": "Cancel"
+        },
+        "noObligations": {
+            "title": "We have found no loans to consolidate",
+            "detail": "The app only allows consolidation of some loans. If you wish to consolidate all of your obligations please visit one of our branches.",
+            "callUs": "Call our Helpline",
+            "branch": "Visit our branch",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "scoring": {
+            "title": "We are sorry, something went wrong",
+            "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
+            "branch": "Visit one of our branches",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "api": {
+            "title": "We are sorry, something went wrong",
+            "detail": "Please try again later.",
+            "callUs": "Call us",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "longTermScreens": {
+            "SCORING_UNAVAILABLE": {
+                "title": "ZZZzzzz….",
+                "detail": "At night we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                "title": "This will take all night…",
+                "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                "title": "This will take all night…",
+                "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                "primaryButton": "Back to Balance Overview"
+            }
+        }
+    },
+    "general": {
+        "toolbarTitle": "Loan Consolidation",
+        "phoneNumberSupport": "224 443 636",
+        "phoneNumberSale": "800 102 040",
+        "messengerUrl": "https://m.me/138479367229",
+        "supportChat": "<b>Consolidation with the same service as in-branch</b> – click here to connect with a banker online"
+    },
+    "scenes": {
+        "consolidationHelp": {
+            "title": "Do you need any asistence or save the application for later?",
+            "toolbarTitle": "Help",
+            "bullets": [
+                "We keep our interest rates as low as possible - starting at 4.7 % p.a. (APR from 4.8 %) </b>",
+                "You can always repay the loan early, or use an unscheduled repayment at a fee of less than 1%.",
+                "Loan arrangement and management is <b>free of charge</b>.",
+                "You can find all information, documents and price list on <a href=\"https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek\">our website</a>."
+            ],
+            "summaryHeadline": "Your Consolidation",
+            "amount": "Amount {0}",
+            "duration": "Duration",
+            "repayment": "Amount {0}",
+            "term": "Duration",
+            "monthly": "Monthly",
+            "months": {
+                "one": "{0} month",
+                "few": "{0} months",
+                "many": "{0} months"
+            },
+            "interestRPSN": "Interest rate of {0} p.a. with APR of {1}",
+            "total": "Total Sum",
+            "finishLaterHeadline": "Do you wish to finish up another day?",
+            "primaryButton": "Continue Application",
+            "secondaryButton": "Finish up another day",
+            "tertiaryButton": "Cancel Application",
+            "confusedHeadline": "Do you need any help or assistance?",
+            "callUs": "Call our Helpline",
+            "branch": "Visit our branch"
+        },
+        "consolidationAgreement": {
+            "title": "You obligations will be assessed via the application for a loan consolidation",
+            "detail": "<b>We will determine them exactly, but for now an estimate will suffice:</b>",
+            "commitments": "Estimated amount of your unpaid obligations:",
+            "description": "<b>Online, we can only consolidate your unpaid loans with other companies. </b> If you wish to consolidate credit cards, overdrafts etc., please visit one of our branches.",
+            "footer": "After you click \"Continue\" we will open your application for loan consolidation and will check the appropriate sources to assess your obligations. In order to process the application we will need to process your personal details, with the purpose of verifying your credibility, solvency and payment behavior, including a verification in the Czech Banking Credit Bureau and Czech Non-Banking Credit Bureau, and also take other steps necessary to the conclusion of the agreement. You also confirm that you have read and agreed to terms of <a href=\"https://www.moneta.cz/ochrana-dat\">personal details processing</a> of the MONETA Group.",
+            "errorMinimalAmountTitle": "The minimum amount of loans that can be consolidated is CZK 30,000.",
+            "errorMinimalAmountMessage": "`Please enter an amount of at least CZK 30,000.",
+            "primaryButton": "Continue"
+        },
+        "prescoring": {
+            "title": "Just a minute while Tom the cat calculates your savings",
+            "detail": "It only takes a minute"
+        },
+        "prescoringNok": {
+            "title": "Unfortunately, after reviewing your application we cannot offer you loan consolidation at this moment.",
+            "detail": "<b>If you need help with how to proceed, do not hesitate to contact us </b>",
+            "callUs": "Call our Helpline",
+            "primaryButton": "Cancel Application"
+        },
+        "consolidationCalculator": {
+            "title": "You can save up to {0} a month on repayments",
+            "loan": {
+                "title": "Your loan with other institution {0}",
+                "internTitle": "Your loan at Moneta {0}",
+                "dueAmount": "Due amount {0}",
+                "interest": "Interest rate of {0} p.a.",
+                "monthly": "monthly"
+            },
+            "otherLoans": "<a href=\"alert://In the app you can only consolidate some loans. If you wish to consolidate all of your obligations, please visit our branch. .\">Missing loans, credit cards or overdraft?</a>",
+            "rateOfInterest": "Interest Rate",
+            "invalidVariantTitle": "Our apologies, we cannot help you",
+            "invalidVariantMessage": "This combination is not possible, we have restored the application form to its original state.",
+            "invalidDialogTexts": [
+                {
+                    "key": "NO_SELECTED_OBLIGATION",
+                    "title": "Consolidate your loans of as little as CZK 30,000",
+                    "message": "Please choose loans of this amount or more."
+                },
+                {
+                    "key": "MIN_LIMIT",
+                    "title": "Consolidate your loans of as little as CZK 30,000",
+                    "message": "Please choose loans of this amount or more."
+                },
+                {
+                    "key": "MAX_LIMIT",
+                    "title": "Online, we can consolidate loans of up to CZK\u00a0700,000",
+                    "message": "If you wish to consolidate more, please visit our branch. Consolidations over CZK\u00a0700,000 require a co-signer."
+                },
+                {
+                    "key": "NOT_VALID_VARIANT",
+                    "title": "Our apologies, we cannot help you",
+                    "message": "This combination is not possible, we have restored the application form to its original state."
+                },
+                {
+                    "key": "INTERNAL_ONLY_NOT_SUPPORTED",
+                    "title": "Please also choose loans from other institutions",
+                    "message": "In order to consolidate your loans, you also need to choose other loans than those from MONETA Money Bank."
+                }
+            ],
+            "offer": {
+                "title": "Proposal of loan consolidation",
+                "repayment": "We will repay {0}",
+                "amount": "We will repay {0}",
+                "repaymentInfo": "The total sum which we will repay your loans with other institutions include principal sum, interest and eventual fees for early repayment (1% of early repaid principal sum). It is calculated as of the day of application of loan consolidation. The bank will return any overpayment to the applicant, any arrears need to be paid by the applicant.",
+                "interestRPSN": "Interest rate {0} p.a. with  APR of {1}",
+                "monthly": "monthly",
+                "term": "Duration",
+                "duration": "Duration",
+                "months": {
+                    "one": "{0} month",
+                    "few": "{0} months",
+                    "many": "{0} months"
+                },
+                "total": "Total sum",
+                "totalSavings": "Total savings",
+                "savingsInfo": "You can lower the monthly installment by increasing the repayment period"
+            },
+            "promo": {
+                "title": "In a few clicks, right in the app",
+                "bullets": [
+                    {
+                        "image": "consolidation_calculator_bullet1",
+                        "text": "Check your personal details in the application"
+                    },
+                    {
+                        "image": "consolidation_calculator_bullet2",
+                        "text": "We will assess your application"
+                    },
+                    {
+                        "image": "consolidation_calculator_bullet3",
+                        "text": "Provide your current loan documentation and confirm the request for early repayment"
+                    },
+                    {
+                        "image": "consolidation_calculator_bullet4",
+                        "text": "Confirm the Loan Consolidation Agreement"
+                    },
+                    {
+                        "image": "consolidation_calculator_bullet5",
+                        "text": "We will arrange a new loan which Will be repaid automatically from your current account"
+                    },
+                    {
+                        "image": "consolidation_calculator_bullet6",
+                        "text": "<b>We will repay your loans with other banks</b>"
+                    },
+                    {
+                        "text": "<a href=\"https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek\">More information on our website</a>"
+                    }
+                ]
+            },
+            "primaryButton": "Continue",
+            "secondaryButton": "More options"
+        },
+        "consolidationPersonalDetail": {
+            "title": "Are these details correct?",
+            "detail": "<b>I hereby solemnly declare the following:</b>\n\n• that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution;\n• I have not been convicted of crimes related to my business, or of economic crime, or crime against property;\n• I also declare that:\na) I have not been declared bankrupt, and no insolvency or any such legal action has been taken against my person, nor have any steps been taken to initiate them.;\nb) the petition for bankruptcy of my assets or the insolvency petition for lack of my assets have not been rejected;\nc) None of my assets are being liquidated\nd) There are no arrears related to my assets in the Tax Register;\ne) There has been no disciplinary punishment against my person in the last three years in accordance with the special regulations governing the performance of professional activities;\nf) there are no outstanding arrears on insurance premiums and penalties for public health insurance or on insurance premiums and penalties for social security and contributions to the state employment policy.\n\n<b>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</b>",
+            "primaryButton": "Yes, continue",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "permanentAddress": "Permanent Residence",
+            "contactAddress": "Contact Address",
+            "employerAddress": "Employer address",
+            "employmentType": "Employment Type",
+            "inTrialPeriod": "Trial Period",
+            "onNotice": "Notice Period",
+            "employmentForPeriod": "Employed for a fixed peroiod",
+            "employmentTo": "Employed until",
+            "employer": "Employer",
+            "dependentPersonCount": "Dependants",
+            "dependentPersonCountInfo": "A dependant is any person who is even partly dependent on your income - e.g. children, spouse on parental leave, disabled persons in your care etc. How many of your loved ones would be impacted by the decrease in your income?",
+            "netMonthlyIncome": "Net monthly income",
+            "netMonthlyIncomeInfo": "If you income differs each month, please enter an average for the last three months. If you need a moment to calculate it, take your time. Your application is saved in  Balance Overview. ",
+            "netMonthlyHouseIncome": "Household net monthly income",
+            "netMonthlyHouseIncomeInfo": "If you income differs each month, please enter an average for the last three months. If you need a moment to calculate it, take your time. Your application is saved in Balance Overview. ",
+            "installmentsSum": "Repayments with other banks (leases, loans)",
+            "installmentsSumInfo": "Do you have any leases with other institutions? Enter the amount of your monthly repayment. :",
+            "housingExpenses": "Your household expenses",
+            "housingExpensesInfo": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
+            "regularExpenses": "Unusual regular expenses",
+            "regularExpensesInfo": "Do you have any unusual regular expenses (medication, medical equipment or other)?:",
+            "salaryReduction": "Garnished wages",
+            "salaryReductionInfo": "Are your wages currently being garnished? Enter the amount:",
+            "maritalStatus": "Marital status",
+            "education": "Education",
+            "secondDocumentType": "Second ID",
+            "nationality": "Nationality",
+            "housing": "Housing",
+            "taxResidence": "Tax Residence",
+            "taxResidenceInfoTitle": "Enter Tax Residence",
+            "taxResidenceInfoBody": "We would like to ask you for information in order to comply with the Common Standard for Due Diligence in the Field of Financial Account Information for the Exchange of Information Provided by Financial Institutions to Tax Administrations under the Multilateral Agreement of Competent Authorities on Automatic Exchange of Financial Account Information (usually in relation to current and savings accounts, and termed deposits.",
+            "vat": " TIN",
+            "anotherVat": "Add another tax residence",
+            "employmentTypeCodeTable": [
+                {
+                    "code": "EMPLOYEE",
+                    "text": "Employed"
+                },
+                {
+                    "code": "ENTREPRENEUR",
+                    "text": "Entrepreneur"
+                },
+                {
+                    "code": "PENSIONER",
+                    "text": "Pensioner"
+                },
+                {
+                    "code": "OTHER",
+                    "text": "Other"
+                },
+                {
+                    "code": "PENSIONER_OLD_AGE",
+                    "text": "Retirement pension"
+                },
+                {
+                    "code": "PENSIONER_DISABLED",
+                    "text": "Disability pension"
+                }
+            ],
+            "maritalStatusCodeTable": [
+                {
+                    "text": "Single",
+                    "code": "SINGLE"
+                },
+                {
+                    "text": "Married",
+                    "code": "MARRIED"
+                },
+                {
+                    "text": "Divorced",
+                    "code": "DIVORCED"
+                },
+                {
+                    "text": "Partnership",
+                    "code": "PARTNER"
+                },
+                {
+                    "text": "Widowed",
+                    "code": "WIDOWED"
+                },
+                {
+                    "text": "Other",
+                    "code": "OTHER"
+                },
+                {
+                    "text": "Blank",
+                    "code": "Neuvedeno"
+                }
+            ],
+            "educationCodeTable": [
+                {
+                    "text": "Elementary",
+                    "code": "BASIC"
+                },
+                {
+                    "text": "Secondary vocational",
+                    "code": "SECONDARY"
+                },
+                {
+                    "text": "Secondary",
+                    "code": "HIGH"
+                },
+                {
+                    "text": "Higher",
+                    "code": "HIGHER"
+                },
+                {
+                    "text": "Other",
+                    "code": "OTHER"
+                }
+            ],
+            "secondDocumentTypeCodeTable": [
+                {
+                    "text": "Driver's license",
+                    "code": "DRIVING_LICENCE"
+                },
+                {
+                    "text": "Passport",
+                    "code": "PASSPORT"
+                },
+                {
+                    "text": "Birth certificate",
+                    "code": "BIRTH_CERTIFICATE"
+                },
+                {
+                    "text": "Permanent residence permit",
+                    "code": "PERMANENT_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Long-term residence permit",
+                    "code": "LONGTERM_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Temporary residence permit",
+                    "code": "TEMPORARY_RESIDENCE_PERMIT"
+                },
+                {
+                    "text": "Confirmation of permanent residence",
+                    "code": "TEMPORARY_RESIDENCE_CONFIRMATION"
+                }
+            ],
+            "housingCodeTable": [
+                {
+                    "text": "Own",
+                    "code": "OWN"
+                },
+                {
+                    "text": "Rented",
+                    "code": "RENTED"
+                },
+                {
+                    "text": "Part of co-op",
+                    "code": "COOPERATIVE"
+                },
+                {
+                    "text": "With parents",
+                    "code": "PARENTS"
+                },
+                {
+                    "text": "Other",
+                    "code": "OTHER"
+                }
+            ]
+        },
+        "permanentAddress": {
+            "title": "Permanent address",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descriptive Number",
+            "orientationNumberTitle": "Orientation Number",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "primaryButton": "Continue"
+        },
+        "contactAddress": {
+            "title": "Contact address",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descriptive Number",
+            "orientationNumberTitle": "Orientation Number",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "primaryButton": "Continue"
+        },
+        "employerAddress": {
+            "title": "Employer Address",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Desc. No",
+            "orientationNumberTitle": "Or. No",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "primaryButton": "Continue"
+        },
+        "employer": {
+            "title": "Is this your current employer?",
+            "alternativeTitle": "Who is your current employer?",
+            "employerTitle": "Employer",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descriptive number",
+            "orientationNumberTitle": "Orientation number",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "idNumberTitle": "IN",
+            "primaryButton": "Continue"
+        },
+        "employerSearch": {
+            "title": "Search employer",
+            "hint": "Enter at least 3 characters",
+            "employerTitle": "Employer"
+        },
+        "consolidationGoToBranchNotSupported": {
+            "title": "Navštivte nás na pobočce",
+            "detail": "Je nám líto, ale pro Vás zatím neumíme konsolidaci spočítat přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+            "callUs": "Zavolejte nám na infolinku",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Ukončit žádost"
+        },
+        "scoring": {
+            "title": "Tom the cat needs to look it over",
+            "detail": "It only takes a minute"
+        },
+        "scoringNok": {
+            "title": "Unfortunately, after reviewing your application we cannot offer you loan consolidation at this moment.",
+            "detail": "<b>If you need help with how to proceed, do not hesitate to contact us </b>",
+            "callUs": "Call our Helpline",
+            "primaryButton": "Cancel Application"
+        },
+        "consolidationScoringNok": {
+            "title": "Unfortunately, after reviewing your application we cannot offer you loan consolidation at this moment.",
+            "detail": "<b>If you need help with how to proceed, do not hesitate to contact us </b>",
+            "callUs": "Call our Helpline",
+            "primaryButton": "Cancel Application"
+        },
+        "consolidationScoringOk": {
+            "title": "Everything seems correct, let's continue",
+            "primaryButton": "Continue",
+            "secondaryButton": "Other options",
+            "amount": "We will repay {0}",
+            "duration": "Duration",
+            "monthly": "monthly",
+            "months": {
+                "one": "{0} month",
+                "few": "{0} months",
+                "many": "{0} months"
+            },
+            "interestRPSN": "Interest rate of {0} p.a. with APR of {1}",
+            "total": "Total sum",
+            "account": "Repay from account",
+            "day": "Repay on",
+            "dayValue": "{0}. day of the month"
+        },
+        "consolidationScoringOkLess": {
+            "title": "We can offer you",
+            "primaryButton": "Continue",
+            "secondaryButton": "Other options",
+            "amount": "We will repay {0}",
+            "duration": "Duration",
+            "repayment": "We will repay {0}",
+            "term": "Duration",
+            "monthly": "monthly",
+            "months": {
+                "one": "{0} month",
+                "few": "{0} months",
+                "many": "{0} months"
+            },
+            "interestRPSN": "Interest rate of {0} p.a. with APR of {1}",
+            "total": "Total sum",
+            "account": "Repay from account",
+            "day": "Repay on",
+            "dayValue": "{0}. day of the month"
+        },
+        "consolidationScoringOkBut": {
+            "title": "We're going to need to meet in person",
+            "detail": "Our apologies, but we need to finish the application in person in our branch.</b>\n\n Please remember to bring with you:",
+            "primaryButton": "I understand, show nearest branches",
+            "bullets": [
+                "At least one document for each of your loans – Loan Agreement, Credit Account Statement or Loan Quantification (no older than 40 days)",
+                "ID card",
+                "Driver's license",
+                "Proof of income from your employer",
+                "Loans over CZK 700,000 require a cosigner"
+            ],
+            "amount": "We will repay {0}",
+            "duration": "Duration",
+            "repayment": "We will repay {0}",
+            "term": "Duration",
+            "monthly": "monthly",
+            "months": {
+                "one": "{0} month",
+                "few": "{0} months",
+                "many": "{0} months"
+            },
+            "interestRPSN": "Interest rate of {0} p.a. with APR of {1}",
+            "total": "Total amount"
+        },
+        "consolidationScoringDisagreement": {
+            "title": "Not what you had hoped for?",
+            "detail": "We've tailored the consolidation to your needs, and it is the best we can currently offer you. Maybe we could do better over the phone. Shall we talk over the phone? ",
+            "callUs": "Call our Helpline",
+            "branch": "Visit our branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel Application"
+        },
+        "manualCheck": {
+            "title": "We need to review the application, that might take a while",
+            "detail": "It should not take more than 2 business days. You will see the results here within that time. Thank you for understanding.",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "documentUpload": {
+            "uploadScenes": {
+                "firstUpload": {
+                    "title": "We do not have your ID documents. Please upload them.",
+                    "detail": "A clear and legible photo of it will suffice. You can do it within the app or visit one of our branches. The upload process is secure.",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I'd rather go to a branch"
+                },
+                "anotherUpload": {
+                    "title": "Thank you for your patience",
+                    "detail": "Our apologies for not letting you know sooner but we are going to need another ID document. A clear and legible photo of it will suffice. You can do it in the app or visit our branch.",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I'd rather go to a branch"
+                },
+                "poorUpload": {
+                    "title": "Some documents could not be read properly",
+                    "detail": "<b>Retake, clear and legible:</b>",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I'd rather go to a branch"
+                },
+                "branchNeeded": {
+                    "title": "We're going to need to meet in person",
+                    "detail": "Our apologies, but we need to finish the application in person in our branch.</b>\n\n Please remember to bring with you:",
+                    "primaryButton": "I understand, show nearest branches"
+                },
+                "uploadCheck": {
+                    "title": "We'll look it over and let you know",
+                    "detail": "We'll look over your documents <b>usually within 15 minutes</b>, by the following business day the latest. As soon as we do, we'll notify you via SMS and we can continue with the application. You application is saved and you can find it in Balance Overview.",
+                    "primaryButton": "Back to balance overview"
+                }
+            },
+            "uploadedDocuments": [
+                {
+                    "title": "Please take a photo of both sides of your ID.",
+                    "labels": [
+                        "Add the front of your <br>ID",
+                        "Add the back of your <br>ID"
+                    ],
+                    "categoryCode": "141"
+                },
+                {
+                    "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download Proof of Income/b></a> and have your employer fill it out and sign. Your application has been saved, you can come back to it anytime within the next 30 days with the signed Proof of income, take a photo of it and continue.",
+                    "labels": [
+                        "Upload a filled out <br>Proof of Income"
+                    ],
+                    "categoryCode": "13"
+                },
+                {
+                    "title": "<b>Please take a photo of the front side of your driver's license.</b>",
+                    "labels": [
+                        "Add the front side of your u<br>driver's license"
+                    ],
+                    "categoryCode": "143"
+                },
+                {
+                    "title": "Please take a photo of one of the following documents: ",
+                    "title2": ". Your application has been saved and you can come back to it anytime, take a photo of the document and continue.",
+                    "documents": [
+                        {
+                            "title": "Payment document from the Czech Post (payment slip), which is not older than 30 days",
+                            "labels": [
+                                "Add document"
+                            ],
+                            "documentCode": "112"
+                        },
+                        {
+                            "title": "Retirement assessment",
+                            "labels": [
+                                "Add document"
+                            ],
+                            "documentCode": "113"
+                        },
+                        {
+                            "labels": [
+                                "Add document"
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "uploadPicker": {
+                "title": "Choose upload method",
+                "camera": "Take a photo",
+                "photos": "Choose from Camera Roll",
+                "files": "Choose from Files"
+            }
+        },
+        "documentUploadReview": {
+            "title": "Did we get it right?",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "birthNumber": "Personal identification number",
+            "city": "City",
+            "descriptiveNumber": "Descriptive number",
+            "orientationNumber": "Orientation number",
+            "idCardNumber": "ID card number",
+            "idCardValidTo": "Valid to",
+            "citizenship": "Citizenship",
+            "street": "Street",
+            "zipCode": "ZIP",
+            "primaryButton": "Yes, continue",
+            "secondaryButton": "Try again"
+        },
+        "documentUploadRetry": {
+            "title": "Oops, something's wrong",
+            "detail": "We couldn't read your details. Please make sure the photo is well lit and the text are legible.",
+            "tryAgain": "Let's try again: ",
+            "primaryButton": "Try again"
+        },
+        "insurance": {
+            "title": "Payment protection insurance for CZK {0} a month in the case of:",
+            "bullets": [
+                "Incapacity for work",
+                "Loss of employment or business",
+                "2nd and 3rd degree disability",
+                "Taking care of a family member",
+                "Hospitalization",
+                "Death"
+            ],
+            "bulletsFooter": "Telehealth service available with a doctor on call 24/7",
+            "primaryButton": "Insure for CZK {0} a month",
+            "detail": "By clicking \"Insure\" you agree to the Framework Insurance Agreement and you arrange payment protection insurance.<br><a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\"><b>Read the terms and conditions>></b></a>",
+            "iddDetail": "You will receive the contractual information electronically, you can obtain the paper documentation in any of the branches of <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">MONETA Money Bank</a>.",
+            "secondaryButton": "I do not wish to insure the loan"
+        },
+        "consolidationTaskList": {
+            "title": "Done! Now, provide the loan documentation and add your signature to the application for their repayment",
+            "detail": "You can do it now, or later, but no later than within 14 days. You can find the link in Balance Overview of Smart Banka.",
+            "contractUpload": "Documentation for the loan in the amount of CZK{0}",
+            "repaymentSign": "Sign the request for early repayment",
+            "allInVerification": "We are working on it\nWe'll let you know",
+            "dashboardInfo": "Reprezentativní příklad půjčky: Výše úvěru 350 000 Kč, 120 splátek, měsíční splátka 4 099,97 Kč, roční úroková sazba 7,2 %, poplatek za poskytnutí úvěru při sjednání online 0 Kč, RPSN 7,42 %, celková částka splatná spotřebitelem 491 425,03 Kč. Tato nabídka není závazná. Banka si vyhrazuje právo žádosti o úvěr nevyhovět.",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "consolidationContractUpload": {
+            "title": "We need the documentation for your loan in the amount of CZK {0}",
+            "toolbarTitle": "Take a photo",
+            "bullets": [
+                "<b>Which document do we need?</b><br>- Loan agreement<br>- Draft and acceptance<br>- Loan quantification (no older than 40 days)<br>- Last month account statement of an account you use for installments<br>- Detail of your last installment payment (confirmation or full screenshot)",
+                "<b>Well lit, from above, clear and legible  –</b> images are processed by a computer, please make it easier for it",
+                "<b>The correct document in its entirety</b>We don't need the pre-contractual information</b> or other documents you may have received. If you've signed any amendments to the agreement, please take a photo of them as well."
+            ],
+            "primaryButton": "Take a photo",
+            "secondaryButton": "Upload PDF or picture"
+        },
+        "consolidationResult": {
+            "ok": {
+                "title": "Done. We will process it and you may continue.",
+                "primaryButton": "Continue"
+            },
+            "next": {
+                "title": "Done. Now, we will process it and let you know.",
+                "primaryButton": "Continue with the loan in the amount of CZK {0}",
+                "secondaryButton": "Continue later"
+            },
+            "again": {
+                "title": "Oops, this did not work.",
+                "detail": "Make sure you are taking a picture of the correct agreement. Please retake the picture in good lighting.",
+                "primaryButton": "Retake a photo",
+                "secondaryButton": "Continue later"
+            },
+            "branch": {
+                "title": "Let's find a solution at our branch.",
+                "detail": "It looks like we cannot finalize it online. Please stop by our branch where we will finalize your consolidation together. Remember to bring with you:",
+                "bullets": [
+                    "<b>At least one document for each of your loans. </b> – Loan Agreement, Credit Account Statement or Loan Quantification (no older than 40 days)",
+                    "<b>ID card</b> and another form of ID",
+                    "A filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of Income form your employer</a>",
+                    "<b>Loans over CZK 700,000 require a cosigner.</b>"
+                ],
+                "primaryButton": "Back to Balance Overview"
+            },
+            "verification": {
+                "title": "Done. We're working on it and we'll let you know.",
+                "primaryButton": "Back to Balance Overview"
+            }
+        },
+        "repaymentInfo": {
+            "title": "First, you will sign the agreement of repayment of your old loans. Then you will sign the new loan agreement.",
+            "bullets": [
+                "<b>Request for early repayment can be signed with your finger on the display of your phone - it does not need to be perfect.",
+                "<b>You signature is secure </b> –  it will only be used for the request for early repayment",
+                "<b>We will send the request for repayment of other loans only after you have signed the new loan agreement with MONETA Money Bank.</b><br><br><a href=\"#\">Do you not want to sign?<a>"
+            ],
+            "primaryButton": "I understand"
+        },
+        "repaymentContract": {
+            "title": "Now, sign the request for early repayment",
+            "titleMultiple": "Now, sign the request for early repayment",
+            "detail": "Download PDF",
+            "primaryButton": "Continue to signature"
+        },
+        "repaymentSign": {
+            "title": "Sign on this line",
+            "toolbarTitle": "Loan Consolidation",
+            "SecondaryButton": "Delete and start over",
+            "PrimaryButton": "Continue"
+        },
+        "repaymentContractDisagree": {
+            "title": "We need your agreement in order to continue",
+            "detail": "Other banks require them for early repayment.<b>If you have any questions, call our Helpline or visit the nearest branch. </b>",
+            "callUs": "Call our Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel Application",
+            "primaryButton": "Back"
+        },
+        "precontractInfo": {
+            "title": "First, read the Pre-contractual information",
+            "detail": "Download PDF",
+            "secondaryButton": "I do not agree",
+            "primaryButton": "I agree, continue"
+        },
+        "disagreement": {
+            "title": "We need your agreement",
+            "detail": "You are just a step away from consolidating your loans.k.<b>If you have any questions, call our Helpline or visit the nearest branch</b>",
+            "callUs": "Call our Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel Application",
+            "primaryButton": "Back"
+        },
+        "contract": {
+            "title": "Read the Loan Agreement",
+            "detail": "Stahněte si PDF",
+            "secondaryButton": "I do not agree",
+            "primaryButton": "Continue to signature"
+        },
+        "signByUs": {
+            "title": "Now it's our turn to sign, it will take a moment."
+        },
+        "waitingBeforeContract": {
+            "title": "Just a moment, we're preparing your contract"
+        },
+        "sign": {
+            "toolbarTitle": "Contract signature",
+            "title": "Sign the contract with your PIN"
+        },
+        "victory": {
+            "title": "Done! Now we will send the requests for early repayment to other banks and repay your loans. You will repay your new loan with us.",
+            "detail": "<b>The requests will be sent on the following business day. The appropriate banks might contact you in order to confirm the request. </b> All documents and other information can be found in Smart Banka and Internet Banka.",
+            "titleDelayed": "We will make one last check and then send the request for early repayment to other banks and repay your loans. You will repay your new loan with us.",
+            "detailDelayed": "<b>The requests will be sent within the 3 following business day. The appropriate banks might contact you in order to confirm the request. </b> All documents and other information can be found in Smart Banka and Internet Banka.",
+            "bullets": [
+                "{!}<b>If there is a repayment scheduled with one of your loans within the 10 following days, please send the repayment. Any overpayment will be returned to you..",
+                "{i}The total sum which we will repay your loans with other institutions include principal sum, interest and eventual fees for early repayment (1% of early repaid principal sum). It is calculated as of the day of application of loan consolidation.",
+                "{!}<b>The bank will return any overpayment to the applicant.",
+                "{i}<b>Any arrears </b> (e.g. interest incurred between submitting the application and repayment) shall be paid by the applicant."
+            ],
+            "footer": "The first repayment in the amount of CZK {0} will be deducted form your account {1}",
+            "primaryButton": "Back to Balance Overview"
+        }
+    }
+}

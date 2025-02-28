@@ -1,0 +1,89 @@
+{
+  "status":"OK",
+  "responseObject":{
+    "general":{
+      "toolbarTitle":"Arrange Insurance",
+      "statusBar":[
+        "Benefits",
+        "Insurance",
+        "Contract",
+        "Done"
+      ]
+    },
+    "screens":{
+      "intro":{
+        "title":"Electronic Payment Insurance",
+        "section":{
+          "title":"Select Sums Assured"
+        },
+        "totalPrice":"Price: {{amount}} {{currency}} a {{time}}",
+        "primaryButton":"Continue"
+      },
+      "insurance":{
+        "title":"Electronic Payments Insurance",
+        "account": "Use my account for payments",
+        "recapitulation": "Insurance Recapitulation",
+        "insurance":"Insurance",
+        "startDate": "Start of Insurance",
+        "endDate": "End of Insurance",
+        "frequency": "Monthly Premium",
+        "checkbox":"I hereby declare that I have read and understood the contents of <a href=\"https://www.moneta.cz/documents/cz/pojisteni/Pojistna_smlouva_MMBPIP_1-2018.pdf\">the Insurance Contract number MMPIP 1/2018</a> and <a href= \"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-osobnich-veci.pdf\">the Terms and Conditions.</a>",
+        "iddDetail":"The legal documentation for your insurance will be delivered to you electronically. The original paper documents can be acquired at any <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">MONETA Money Bank branch</a>.",
+        "footer":"Please, carefully read the information material for Personal Property Insurance, Payment Cards Insurance, and Internet Threat Insurance which states the exceptions and limits for coverage.",
+        "primaryButton":"Arrange insurance for {{amount}} {{currency}} a {{time}}"
+      },
+      "agreement":{
+        "title":"Please read the Insurance Agreement",
+        "detail":"Download the PDF",
+        "primaryButton":"I agree",
+        "secondaryButton":"I do not agree"
+      },
+      "victory":{
+        "title":"Congratulations!",
+        "detail":"The insurance has been arranged successfully. You can find all your insurance in the My Insurance section of our app.",
+        "primaryButton":"View My Insurance"
+      },
+      "cancelIntro":{
+        "title":"Do you want to terminate your insurance :",
+        "detail":"Electronic Payment Insurance",
+        "footer":"Your insurance will be terminated by {{date}}. Insurance premiums are charged per every month started.",
+        "primaryButton":"I understand and wish to terminate"
+      },
+      "sign":{
+        "title":"Sign the contract with your PIN number"
+      },
+      "cancelVictory":{
+        "title":"The insurance has been terminated",
+        "detail":"Your request to terminate insurance has been accepted for processing. Your insurance will be canceled by {{date}}. Thank you for using our services.You can always renew your insurance in Smart Banka.",
+        "primaryButton":"Back to Insurance List"
+      },
+      "cancelDocument": {
+        "title":"Insurance cancellation",
+        "detail":"Download the PDF",
+        "primaryButton":"I agree",
+        "secondaryButton":"I do not agree"
+      },
+      "cancelForOfferVictory":{
+        "title":"We have received the cancellation request",
+        "detail":"We have received the request to cancel the insurance. The insurance shall be canceled by {{date}}. You can now arrange new insurance.",
+        "primaryButton":"Continue"
+      },
+      "cancelDisagree": {
+        "title": "We can’t continue without your permission.",
+        "detail": "Should you have any questions regarding your contract, do not hesitate to contact us. We are happy to help. ",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit our\nbranch",
+        "secondaryButton": "Cancel application",
+        "primaryButton": "Continue"
+      },
+      "disagree": {
+        "title": "We can’t continue without your permission.",
+        "detail": "Should you have any questions regarding your contract, do not hesitate to contact us. We are happy to help. ",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit our\nbranch",
+        "secondaryButton": "Cancel application",
+        "primaryButton": "Continue insurance application"
+      }
+    }
+  }
+}

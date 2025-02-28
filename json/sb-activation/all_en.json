@@ -1,0 +1,139 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "branch": {
+                "title": "Please visit us at a branch",
+                "detail": "Have any questions? Call us or visit the nearest branch.",
+                "callUs": "Call us\non the info line",
+                "branch": "Visit us\nat a branch",
+                "primaryButton": "Find the nearest branch"
+            },
+            "updateApp": {
+                "title": "Update your application",
+                "detail": "In order for everything to work as it should, Smart Banka version 73.3 and later must be on both devices.\n\nOr stop by us at any of our branches, where we will pair your devices.",
+                "callUs": "Call us\non the info line",
+                "branch": "Visit us\nat a branch",
+                "primaryButton": "Update App",
+                "secondaryButton": "Back to Overview"
+            }
+        },
+        "scenes": {
+            "intro": {
+                "title": "We will now verify your identity in two steps",
+                "bullets": [
+                    {
+                        "title": "Take a photo of both sides of your ID card",
+                        "description": "A valid ID card from the Czech Republic will be needed.",
+                        "icon": "plain1"
+                    },
+                    {
+                        "title": "Identity verification",
+                        "description": "In the final step, we will verify that it is really you and that no one is impersonating you.",
+                        "icon": "plain2"
+                    }
+                ],
+                "primaryButton": "Take a photo of the ID card"
+            },
+            "documentScan": {
+                "info": {
+                    "idFrontTitle": "Now take a photo of the front side of your ID card",
+                    "idBackTitle": "Now take a photo of the back side of your ID card",
+                    "drivingLicenceTitle": "Now take a photo of the front side of your driver's license",
+                    "passportLicenceTitle": "Now take a photo of the front side of your passport",
+                    "detail": "Make sure you are photographing:",
+                    "bullets": [
+                        {
+                            "title": "A valid document from the correct side, in landscape orientation",
+                            "icon": "idCardFill"
+                        },
+                        {
+                            "title": "In good lighting, sharply, without blur or glare",
+                            "icon": "lightBulbOnFill"
+                        }
+                    ],
+                    "primaryButton": "Continue to photo"
+                },
+                "takePhoto": {
+                    "tooltip": "Sharp, glare-free, and readable",
+                    "idFrontTitle": "Front side of the ID card",
+                    "idBackTitle": "Back side of the ID card",
+                    "drivingLicenceTitle": "Front side of the driver's license",
+                    "passportLicenceTitle": "Front page of the passport",
+                    "takePhoto": "Take a photo",
+                    "reviewTitle": "Is everything clearly visible?",
+                    "yes": "Yes",
+                    "no": "No, retake"
+                },
+                "upload": {
+                    "title": "Processing the photographed document, it will be done shortly",
+                    "error": "We apologize, something went wrong",
+                    "takeAgainButton": "Retake photo",
+                    "cancelButton": "Try next time"
+                },
+                "wrongDocument": {
+                    "title": "Failed to read the data from your document. Please take the photo again",
+                    "detail": "Make sure you are photographing the correct document (Czech), that it is fully in the frame and the information is not blurry.",
+                    "primaryButton": "Retake photo"
+                },
+                "scanFailed": {
+                    "title": "We couldn’t read your data correctly",
+                    "detail": "Please check and complete it in the next step.",
+                    "primaryButton": "Retake photo"
+                },
+                "permissionErrorScreen": {
+                    "title": "The app requires permissions",
+                    "detail": "To take photos of your documents for identity verification, allow the Smart Bank to access the camera in <a>settings</a>.<br/><br/>Don’t want to photograph your documents? Bring them to a branch.",
+                    "primaryButton": "Allow camera access"
+                }
+            },
+            "liveness": {
+                "title": "In the last step, we will verify you using a short video",
+                "bullets": [
+                    {
+                        "title": "We will now record a short video of your face.",
+                        "detail": "So we can be sure that no one is impersonating you.",
+                        "icon": "cameraFill"
+                    },
+                    {
+                        "title": "Using simple gestures (turning your head left, right, and smiling), we will ensure maximum certainty.",
+                        "icon": "userFill"
+                    },
+                    {
+                        "title": "Your privacy and security are most important to us - the recording will only be used for identity verification.",
+                        "icon": "lockFill"
+                    }
+                ],
+                "error": {
+                    "title": "We apologize, an unexpected error occurred while sending the video",
+                    "detail": "Please try the action again.",
+                    "primaryButton": "Start again"
+                },
+                "demo": "Watch a demo to see what to expect",
+                "demoButton": "Play demo",
+                "skipButton": "Skip",
+                "faceInCenter": "Do you have good lighting and is your face centered?",
+                "turnCameraButton": "Turn camera",
+                "startButton": "Start",
+                "smile": "Let's begin. First, smile briefly:",
+                "againButton": "Try again",
+                "turnBack": "Great! Now turn your head to the side and back:",
+                "primaryButton": "Continue"
+            },
+            "livenessVerification": {
+                "title": "Oscar-worthy performance! Thank you.\nProcessing the video. Please don’t close the app",
+                "detail": "The recorded video will be compared with your documents to ensure it’s you.",
+                "primaryButton": "Continue"
+            },
+            "clientSigned": {
+                "title": "Welcome back to Moneta, everything is ready!",
+                "primaryButton": "Log in"
+            },
+            "victory": {
+                "title": "Welcome back to Moneta, everything is ready!",
+                "detail": "Log in to confirm the activation of Smart Bank.",
+                "primaryButton": "Log in"
+            }
+        }
+    }
+}

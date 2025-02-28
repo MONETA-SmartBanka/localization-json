@@ -1,0 +1,379 @@
+{
+    "errorScreens": {
+        "defaultError": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Zkuste to prosím za chvíli znovu.\nPokud by se to opakovalo, kontaktujte nás.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "overduePartial": {
+            "title": "Vaše hypotéka je po splatnosti",
+            "detail": "Nejdříve prosím uhraďte dlužnou částku a poté bude možné provést mimořádnou splátku nebo doplacení hypotéky.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "overdueFull": {
+            "title": "Vaše hypotéka je již po splatnosti.",
+            "detail": "Nejdříve prosím uhraďte dlužnou částku, až poté lze provést doplacení hypotéky.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "remedialPartial": {
+            "title": "Žádost o mimořádnou splátku nelze v tuto chvíli provést",
+            "detail": "Obraťte se prosím na remedialhypo@moneta.cz.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "remedialFull": {
+            "title": "Obraťte se prosím na remediahypo@moneta.cz.",
+            "detail": "Obraťte se prosím na remediahypo@moneta.cz.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        }
+    },
+    "scenes": {
+        "calculatorPartial": {
+            "title": "Mimořádná splátka hypotéky",
+            "message": "Nejdříve k {date} můžete zaplatit až {amount} bez dalších nákladů.",
+            "amount": "Výše mimořádné splátky",
+            "remains": "Zbývá doplatit",
+            "date": "Datum mimořádné splátky",
+            "dateInfo": "Na vyřízení žádosti o mimořádnou splátku potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
+            "repaymentType": "Jak chcete upravit zbývající splátky?",
+            "repaymentLower": "Snížení splátek",
+            "repaymentLowerInfo": "Snížíme vám měsíční splátku, doba splatnosti zůstane zachována.",
+            "repaymentShorter": "Zkrácení splatnosti",
+            "repaymentShorterInfo": "Zkrátíme dobu splatnosti vaší hypotéky, výše měsíční splátky zůstane zachována.",
+            "reason": "Důvod mimořádné splátky",
+            "reasonSelection": {
+                "title": "Jaký je důvod mimořádné splátky?",
+                "values": [
+                    {
+                        "value": "REFINANCING",
+                        "title": "Refinancování"
+                    },
+                    {
+                        "value": "OWN_FUNDS",
+                        "title": "Vlastní peněžní prostředky k dispozici"
+                    },
+                    {
+                        "value": "SALE",
+                        "title": "Prodej nemovitosti"
+                    },
+                    {
+                        "value": "SALE_BEFORE_24_MONTHS",
+                        "title": "Prodej nemovitosti do 24 měsíců trvání hypotéky"
+                    },
+                    {
+                        "value": "SALE_AFTER_24_MONTHS",
+                        "title": "Prodej nemovitosti po 24 měsících trvání hypotéky"
+                    },
+                    {
+                        "value": "COMMUNITY_PROPERTY_SETTLEMENT",
+                        "title": "Vypořádání SJ po 24 měsících trvání hypotéky"
+                    },
+                    {
+                        "value": "LONG_TERM_DISEASE",
+                        "title": "Dlouhodobá nemoc"
+                    },
+                    {
+                        "value": "DISABILITY",
+                        "title": "Invalidita"
+                    },
+                    {
+                        "value": "DEATH",
+                        "title": "Úmrtí"
+                    },
+                    {
+                        "value": "OTHER",
+                        "title": "Jiné"
+                    }
+                ]
+            },
+            "bank": "Refinancování do banky",
+            "origin": "Původ prostředků",
+            "originComment": "Doplňte informace o původu prostředků",
+            "originSelection": {
+                "title": "Odkud prostředky převážně pocházejí?",
+                "detail": "Pokud v nabídce není možnost, která odpovídá vaší situaci, zvolte možnost „jiné“ a doplňte ho do komentáře.",
+                "values": [
+                    {
+                        "value": "SALE_OF_PROPERTY",
+                        "title": "Prodej nemovitého majetku"
+                    },
+                    {
+                        "value": "WORK_INCOME",
+                        "title": "Příjmy ze zaměstnání"
+                    },
+                    {
+                        "value": "BUSINESS_INCOME",
+                        "title": "Příjmy z podnikání"
+                    },
+                    {
+                        "value": "GIFT",
+                        "title": "Dar"
+                    },
+                    {
+                        "value": "HERITAGE",
+                        "title": "Dědictví"
+                    },
+                    {
+                        "value": "RENTAL_INCOME",
+                        "title": "Příjmy z pronájmu"
+                    },
+                    {
+                        "value": "SALE_OF_VIRTUAL_ASSETS",
+                        "title": "Prodej virtuálních aktiv"
+                    },
+                    {
+                        "value": "SALE_OF_OTHER_PROPERTY",
+                        "title": "Prodej jiného majetku"
+                    },
+                    {
+                        "value": "OTHER",
+                        "title": "Jiný"
+                    }
+                ]
+            },
+            "account": "Odkud odejdou peníze?",
+            "accountSelection": {
+                "title": "Z jakého účtu chcete splátku uhradit?",
+                "detail": "Vyberte běžný účet, pokud mimořádnou splátku odešlete z účtu, ze kterého hypotéku běžné splácíte. Pokud splátku odešlete z jiného účtu, zvolte technický účet.",
+                "standard": "Běžný účet",
+                "technical": "Technický účet"
+            },
+            "totalAmount": "Celková částka",
+            "fee": "Náklady za předčasné splacení",
+            "feeInfo": "Jde o výši účelně vynaložených nákladů souvisejících s předčasným splacením.",
+            "referenceTypeInfo": "Zvolili jste mimořádnou splátku v jiném měsíci, než je ten současný? V tom případě je možné, že dojde ke změně nákladů. Pokud se to stane, zašleme Vám do Internet Banky nejpozději 10 dní před datem mimořádné splátky nový dokument s aktualizovanou výší nákladů.",
+            "maritalProperty": "Jsou-li použité finanční prostředky ze společného jmění, prohlašuji, že druhý z manželů či partnerů o splacení ví a souhlasí s ním.",
+            "fillBank": "Prosím vyberte Refinancování do banky",
+            "primaryButton": "Pokračovat"
+        },
+        "calculatorFinal": {
+            "title": "Doplacení hypotéky",
+            "message": "Nejdříve k {date} můžete doplatit hypotéku bez úhrady nákladů.",
+            "amount": "Jistina úvěru ke dni doplacení",
+            "date": "Datum doplacení hypotéky",
+            "dateInfo": "Na vyřízení žádosti o doplacení hypotéky potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
+            "lastPaymentDate": "proběhne poslední řádná splátka",
+            "repaymentDate": "proběhne doplacení Vaší hypotéky",
+            "refinancingDate": "doplatí Vaši hypotéku",
+            "reason": "Důvod doplacení hypotéky",
+            "reasonSelection": {
+                "title": "Jaký je důvod doplacení hypotéky?",
+                "values": [
+                    {
+                        "value": "REFINANCING",
+                        "title": "Refinancování"
+                    },
+                    {
+                        "value": "OWN_FUNDS",
+                        "title": "Vlastní peněžní prostředky k dispozici"
+                    },
+                    {
+                        "value": "SALE",
+                        "title": "Prodej nemovitosti"
+                    },
+                    {
+                        "value": "SALE_BEFORE_24_MONTHS",
+                        "title": "Prodej nemovitosti do 24 měsíců trvání hypotéky"
+                    },
+                    {
+                        "value": "SALE_AFTER_24_MONTHS",
+                        "title": "Prodej nemovitosti po 24 měsících trvání hypotéky"
+                    },
+                    {
+                        "value": "COMMUNITY_PROPERTY_SETTLEMENT",
+                        "title": "Vypořádání SJ po 24 měsících trvání hypotéky"
+                    },
+                    {
+                        "value": "LONG_TERM_DISEASE",
+                        "title": "Dlouhodobá nemoc"
+                    },
+                    {
+                        "value": "DISABILITY",
+                        "title": "Invalidita"
+                    },
+                    {
+                        "value": "DEATH",
+                        "title": "Úmrtí"
+                    },
+                    {
+                        "value": "OTHER",
+                        "title": "Jiné"
+                    }
+                ]
+            },
+            "bank": "Refinancování do banky",
+            "origin": "Původ prostředků",
+            "originComment": "Doplňte informace o původu prostředků",
+            "originSelection": {
+                "title": "Odkud prostředky převážně pocházejí?",
+                "detail": "Pokud v nabídce není možnost, která odpovídá vaší situaci, zvolte možnost „jiné“ a doplňte ho do komentáře.",
+                "values": [
+                    {
+                        "value": "SALE_OF_PROPERTY",
+                        "title": "Prodej nemovitého majetku"
+                    },
+                    {
+                        "value": "WORK_INCOME",
+                        "title": "Příjmy ze zaměstnání"
+                    },
+                    {
+                        "value": "BUSINESS_INCOME",
+                        "title": "Příjmy z podnikání"
+                    },
+                    {
+                        "value": "GIFT",
+                        "title": "Dar"
+                    },
+                    {
+                        "value": "HERITAGE",
+                        "title": "Dědictví"
+                    },
+                    {
+                        "value": "RENTAL_INCOME",
+                        "title": "Příjmy z pronájmu"
+                    },
+                    {
+                        "value": "SALE_OF_VIRTUAL_ASSETS",
+                        "title": "Prodej virtuálních aktiv"
+                    },
+                    {
+                        "value": "SALE_OF_OTHER_PROPERTY",
+                        "title": "Prodej jiného majetku"
+                    },
+                    {
+                        "value": "OTHER",
+                        "title": "Jiný"
+                    }
+                ]
+            },
+            "account": "Odkud odejdou peníze?",
+            "accountSelection": {
+                "title": "Z jakého účtu chcete splátku uhradit?",
+                "detail": "Vyberte běžný účet, pokud mimořádnou splátku odešlete z účtu, ze kterého hypotéku běžné splácíte. Pokud splátku odešlete z jiného účtu, zvolte technický účet.",
+                "standard": "Běžný účet",
+                "technical": "Technický účet"
+            },
+            "cadastreInfo": {
+                "title": "Souhlas pro katastr",
+                "detail": "Zvolte v případě, že chcete vystavit souhlas se zřízením zástavního práva v druhém pořadí a věcného práva zákazu zcizení a zatížení.\n\nBěžný účet můžete zrušit nejdříve 40 dní od podání žádosti o doplacení hypotéky."
+            },
+            "cadastreConsent": "Vystavit souhlas pro katastr",
+            "cadastreDetail": "Na Katastrálním úřadu nemusíte nic vyřizovat. Uhradíme za Vás správní poplatek 1 600 Kč, který Vám následně přeúčtujeme.",
+            "interestAmount": "Úrok ke dni doplacení",
+            "insuranceFeeAmount": "Pojištění",
+            "totalAmount": "Celkem k doplacení",
+            "fee": "Náklady za předčasné splacení",
+            "feeInfo": "Jde o výši účelně vynaložených nákladů souvisejících s předčasným splacením.",
+            "referenceTypeInfo": "Zvolili jste doplacení hypotéky v jiném měsíci, než je ten současný? V tom případě je možné, že dojde ke změně nákladů. Pokud se to stane, zašleme Vám do Internet Banky nejpozději 10 dní před datem doplacení hypotéky nový dokument s aktualizovanou výší nákladů.",
+            "maritalProperty": "Jsou-li použité finanční prostředky ze společného jmění, prohlašuji, že druhý z manželů či partnerů o splacení ví a souhlasí s ním.",
+            "fillBank": "Prosím vyberte Refinancování do banky",
+            "primaryButton": "Pokračovat"
+        },
+        "reviewPartial": {
+            "title": "Zkontrolujte nastavení mimořádné splátky",
+            "amount": "Mimořádná splátka",
+            "date": "Datum mimořádné splátky",
+            "fee": "Náklady za předčasné splacení",
+            "type": "Úprava zbývajících splátek",
+            "lower": "Snížení splátky",
+            "shorter": "Zkrácení splatnosti",
+            "reason": "Důvod mimořádné splátky",
+            "origin": "Původ prostředků",
+            "account": "Peníze odejdou z",
+            "totalAmount": "Celková částka",
+            "message": "Se změnou výše anuitní splátky se změní i výše měsíční úhrady za pojištění od BNP Paribas Cardif Pojišťovna, a. s., pokud jste ji měli sjednanou ve Smlouvě o hypotečním úvěru.",
+            "primaryButton": "Pokračovat"
+        },
+        "reviewFinal": {
+            "title": "Zkontrolujte nastavení doplacení hypotéky",
+            "amount": "Jistina úvěru ke dni doplacení",
+            "date": "Datum doplacení hypotéky",
+            "refinancingDate": "{0} doplatí Vaši hypotéku",
+            "dateInfo": "Poslední řádná splátka proběhne",
+            "fee": "Náklady za předčasné splacení",
+            "reason": "Důvod doplacení hypotéky",
+            "origin": "Původ prostředků",
+            "account": "Peníze odejdou z",
+            "interestAmount": "Úrok ke dni doplacení",
+            "insuranceFeeAmount": "Pojištění",
+            "totalAmount": "Celkem k doplacení",
+            "bank": "Refinancování do banky",
+            "cadastreConsent": "Vystavit souhlas pro katastr",
+            "primaryButton": "Pokračovat"
+        },
+        "victory": {
+            "title": "Váš požadavek jsme přijali ke zpracování",
+            "detail": "Následující pracovní den najdete dokumenty k požadavku ve Smart Bance a Internet Bance v sekci Dokumenty.",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "victoryParitalDocument": {
+            "title": "Zvolený důvod umožňuje mimořádnou splátku zdarma, stačí nahrát dokument",
+            "detail": "Následující pracovní den najdete vyčíslení s informací o tom, který dokument nahrát, v Internet Bance a Smart Bance v sekci Dokumenty.\n\nPotřebný dokument můžete poté doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "victoryFinalDocument": {
+            "title": "Zvolený důvod umožňuje předčasné splacení zdarma, stačí nahrát dokument",
+            "detail": "Následující pracovní den najdete vyčíslení s informací o tom, který dokument nahrát, v Internet Bance a Smart Bance v sekci Dokumenty.\n\nPotřebný dokument můžete poté doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
+            "primaryButton": "Zpět na Přehled hypotéky"
+        },
+        "detailPartial": {
+            "title": "Mimořádná splátka",
+            "message": "Zpracováváme vaši žádost o mimořádnou splátku. Pokud zde nevidíte aktuální informace (výše splátky, doplacení, náklady apod.), zkontrolujte je prosím během následujícího pracovního dne.",
+            "amount": "Mimořádná splátka",
+            "date": "Datum mimořádné splátky",
+            "fee": "Orientační výše nákladů",
+            "freeInfo": "Zvolený důvod umožňuje mimořádnou splátku zdarma, stačí nahrát dokument.\n\nPotřebný dokument můžete doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
+            "totalAmount": "Celková částka",
+            "type": "Úprava zbývajících splátek",
+            "lower": "Snížení splátky",
+            "shorter": "Zkrácení splatnosti",
+            "reason": "Důvod mimořádné splátky",
+            "origin": "Původ prostředků",
+            "account": "Peníze odejdou z",
+            "footer": "Se změnou výše anuitní splátky se změní i výše měsíční úhrady za pojištění od BNP Paribas Cardif Pojišťovna, a.s., pokud jste ji měli sjednánu ve Smlouvě o hypotečním úvěru.",
+            "primaryButton": "Stornovat žádost"
+        },
+        "detailFinal": {
+            "title": "Doplacení hypotéky",
+            "message": "Zpracováváme vaši žádost o doplacení. Pokud zde nevidíte aktuální informace (výše splátky, doplacení, náklady apod.), zkontrolujte je prosím během následujícího pracovního dne.",
+            "amount": "Jistina úvěru ke dni doplacení",
+            "interestAmount": "Úrok ke dni doplacení",
+            "insuranceFeeAmount": "Pojištění",
+            "totalAmount": "Celkem k doplacení",
+            "date": "Datum doplacení hypotéky",
+            "refinancingDate": "{0} doplatí Vaši hypotéku",
+            "fee": "Náklady za předčasné splacení",
+            "freeInfo": "<b>Zvolený důvod umožňuje předčasné splacení zdarma, stačí nahrát dokument.</b>\n\n Potřebný dokument můžete doložit v Internet Bance v sekci Doplacení hypotéky, Nahrát dokumenty.",
+            "reason": "Důvod doplacení hypotéky",
+            "origin": "Původ prostředků",
+            "account": "Způsob úhrady",
+            "cadasterConsent": "Vystavit souhlas pro katastr",
+            "primaryButton": "Stornovat žádost"
+        },
+        "cancelPartial": {
+            "title": "Chcete stornovat žádost o mimořádnou splátku?",
+            "detail": "Pokud ji stornujete, mimořádná splátka neproběhne a ve splácení budete pokračovat jako předtím.",
+            "victory": "Vaši žádost o mimořádnou splátku jsme stornovali",
+            "victoryBack": "Zpět na Přehled hypotéky",
+            "primaryButton": "Ano",
+            "secondaryButton": "Zrušit"
+        },
+        "cancelFinal": {
+            "title": "Chcete stornovat žádost o doplacení hypotéky?",
+            "detail": " Pokud ji stornujete, doplacení neproběhne a ve splácení budete pokračovat jako předtím.",
+            "victory": "Vaši žádost o doplacení hypotéky jsme stornovali.",
+            "victoryBack": "Zpět na Přehled hypotéky",
+            "primaryButton": "Ano",
+            "secondaryButton": "Zrušit"
+        }
+    }
+}

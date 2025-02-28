@@ -1,0 +1,888 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "tipsSectionsOverall": {
+                "title": "Let's see what you know.",
+                "toolbar": "Glossary",
+                "tipsSections": [
+                    {
+                        "text": "Just getting started",
+                        "icon": "😇",
+                        "detail": "Are you younger than 10 years old? We can help you make sense of your personal finances better than all of your classmates.",
+                        "code": "basic"
+                    },
+                    {
+                        "text": "Just the basics",
+                        "icon": "😎",
+                        "detail": "You are between 11 and 13 years old. Sometimes you go shopping alone, and you need to learn more about managing your finances.",
+                        "code": "standard"
+                    },
+                    {
+                        "text": "Advanced",
+                        "icon": "🤔",
+                        "detail": "14 to 16 years old. Time to get a little more serious, maybe even make your first money.",
+                        "code": "advanced"
+                    },
+                    {
+                        "text": "Experts only",
+                        "icon": "🤯",
+                        "detail": "You are over 17 years old. You need to learn more about money to make bank after you graduate.",
+                        "code": "expert"
+                    }
+                ]
+            },
+            "tipsBySections": [
+                {
+                    "section": "basic",
+                    "pageList": [
+                        {
+                            "title": "ATM",
+                            "image": "/cbl_images/family_tips/Bankomat.png",
+                            "text": "A device that allows you to withdraw cash from your account. You need a <a href=\"Platebni_karta\">payment card</a> or a smartphone.",
+                            "bullets": [
+                                "Make sure that no other person is watching over your shoulder when using an ATM so that nobody can see your <a href=\"PIN\">PIN</a>.",
+                                "ATM stands for 'automated teller machine' and in Czech it is called a 'bankomat'."
+                            ],
+                            "deeplink": "ATM",
+                            "actionTitle": "Show ATMs near me",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Current Account",
+                            "image": "/cbl_images/family_tips/Bezny_ucet.png",
+                            "text": "A bank account in which your money is kept.",
+                            "bullets": [
+                                "You can withdraw or deposit money from/into this account.",
+                                "Anyone can send or deposit money into your account.",
+                                "It can be done online, at a branch, or using an <a href=\"Bankomat\">ATM</a>."
+                            ],
+                            "deeplink": "Bezny_ucet",
+                            "actionTitle": "Show Current Account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Cash",
+                            "image": "/cbl_images/family_tips/Hotovost.png",
+                            "text": "Money in coins or notes which can be used as payment.",
+                            "bullets": [
+                                "Czech coins come in these denominations: 1\u00a0Kč, 2\u00a0Kč, 5\u00a0Kč, 10\u00a0Kč, 20\u00a0Kč and 50\u00a0Kč.",
+                                "Czech banknotes come in these denominations:  100\u00a0Kč, 200\u00a0Kč, 500\u00a0Kč, 1\u00a0000\u00a0Kč, 2\u00a0000\u00a0Kč and 5\u00a0000\u00a0Kč."
+                            ],
+                            "deeplink": "Cash"
+                        },
+                        {
+                            "title": "PIN",
+                            "image": "/cbl_images/family_tips/PIN.png",
+                            "text": "A PIN is a numeric passcode that you use to access Smart Banka. You also need a PIN to use a payment card. Make sure you remember it well and never disclose your PIN to anyone.",
+                            "bullets": [
+                                "PIN protects your Smart Banka from being accessed by anyone but you.",
+                                "Your <a href=\"Platebni_karta\">payment card</a> has also been issued a PIN which you can view anytime."
+                            ],
+                            "deeplink": "PIN",
+                            "actionTitle": "Show Card",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Payment Card",
+                            "image": "/cbl_images/family_tips/Platebni_karta.png",
+                            "text": "A payment card linked to your current account which you can use to make payments in stores, online or use in <a href=\"Bankomat\">ATMs</a>.",
+                            "bullets": [
+                                "Keep it on you and don't lend it to anyone. Never disclose the numbers on the card to anyone."
+                            ],
+                            "deeplink": "Platebni_karta",
+                            "actionTitle": "Show Card",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Savings Account",
+                            "image": "/cbl_images/family_tips/Sporici_ucet.png",
+                            "text": "All of your spare finances can be deposited into a savings account. Thanks to interest, your deposits appreciate (grow) over time. For example, if you deposit CZK100, in year your deposit will appreciate to CZK103.",
+                            "bullets": [
+                                "You can also set up saving 'envelopes' within your savings account, which help you save for individual items, such as a new bike or a video game.",
+                                "You can check the interest rate in the detail of your Savings account."
+                            ],
+                            "deeplink": "Sporici_ucet",
+                            "actionTitle": "Show savings account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_SAVINGSACCOUNT"
+                        },
+                        {
+                            "title": "Interest",
+                            "image": "/cbl_images/family_tips/Urok.png",
+                            "text": "When you borrow money from a bank, you pay back a little bit more than what you borrowed. For example, if you borrow CZK 100, you will pay back CZK 105. Interest is fee for using somebody else's money.",
+                            "bullets": [
+                                "Interest can work in your favor as well. If you put your money in a savings account, then the bank pays interest to you.",
+                                "You can check the interest rate in the detail of your Savings account."
+                            ],
+                            "deeplink": "Urok",
+                            "actionTitle": "Show Savings account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_SAVINGSACCOUNT"
+                        }
+                    ]
+                },
+                {
+                    "section": "standard",
+                    "pageList": [
+                        {
+                            "title": "Authorization (verification)",
+                            "image": "/cbl_images/family_tips/Autorizace.png",
+                            "text": "Maybe you know that some of your payments need to be authorized by your parents. We use authorizations for security reasons to double check if it is really you making the payment.",
+                            "bullets": [
+                                "Online card payments must be authorized as well."
+                            ],
+                            "deeplink": "Authorization",
+                            "actionTitle": "Show phone number for authorizations",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "Money transfer",
+                            "image": "/cbl_images/family_tips/Prevod_penez.png",
+                            "text": "A money transfer is a transfer (sending) of money from one account to another. The transaction is cashless (online) and is usually instant.",
+                            "bullets": [
+                                "If you make a transaction regularly, you can set up a 'standing order'. Which means, that for example on every 3rd of the month, a certain amount will be sent to an account (even one of your accounts, such as a savings account)."
+                            ],
+                            "deeplink": "Prevod_penez",
+                            "actionTitle": "Show money transfer",
+                            "actionType": "APPPAGE",
+                            "actionData": "PAYMENTORDER"
+                        },
+                        {
+                            "title": "Biometrics",
+                            "image": "/cbl_images/family_tips/Biometrika.png",
+                            "text": "It is a method of user authentication using a fingerprint or a face scan..",
+                            "bullets": [
+                                "In Smart Banka, you can use biometrics to log in or confirm payments.",
+                                "Biometrics can be enabled or changed in Settings."
+                            ],
+                            "deeplink": "Biometrics",
+                            "actionTitle": "Biometrics Settings",
+                            "actionType": "APPPAGE",
+                            "actionData": "MYSETTINGS"
+                        },
+                        {
+                            "title": "Payment card number and CVV code",
+                            "image": "/cbl_images/family_tips/Cislo_karty.png",
+                            "text": "Most often, you will need it to make payments online using your card. It consists of 16 digits which are most often on the front side of your <a href=\"Platebni_karta\">card</a>. CVV code consists of 3 digits on the back side of your card and is used for authentication.",
+                            "bullets": [
+                                "Sometimes, the bank will require the last 4 digits (of said 16), but never any other. In no case will the bank ever ask for the CVV code.",
+                                "Keep your card safe.",
+                                "You can view these numbers by tapping the eye icon in the overview of your card."
+                            ],
+                            "deeplink": "Cislo_karty",
+                            "actionTitle": "Show card",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Transaction",
+                            "image": "/cbl_images/family_tips/Transakce.png",
+                            "text": "It is a cashless payment or a cash withdrawal using a <a href=\"Platebni_karta\">payment card</a>.",
+                            "bullets": [
+                                "Each transaction is <a href=\"Autorizace\">verified</a>, then authorized by you, and confirmed."
+                            ],
+                            "deeplink": "Transaction",
+                            "actionTitle": "Show phone number for authorization",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "Internet banking",
+                            "image": "/cbl_images/family_tips/IB.png",
+                            "text": "Similarly to Smart Banka, you can view your account, make payments or savings.",
+                            "bullets": [
+                                "Use your ID and password to log in, and then authorize it by entering an SMS code or via Smart Banka."
+                            ],
+                            "deeplink": "IB"
+                        },
+                        {
+                            "title": "Limits",
+                            "image": "/cbl_images/family_tips/Limity.png",
+                            "text": "You may have noticed that some of your payments need to be authorized by your parents. One of the reasons for it are limits.",
+                            "bullets": [
+                                "Limits dictate what happens when you try to exceed them. For example, if you try to send a payment which is over the set limit, your parents will need to approve it or even reject it.",
+                                "Limits can be set for transactions, cash withdrawals or online payments.",
+                                "Your limits can be viewed in card detail and they are set by your parent."
+                            ],
+                            "deeplink": "Limity",
+                            "actionTitle": "Show limits",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Branch",
+                            "image": "/cbl_images/family_tips/Pobocka.png",
+                            "text": "It is a physical location where we will be happy to help you with all of your banking needs.",
+                            "bullets": [
+                                "For now, it is a place where your parents go but when you turn 18 we will be happy to see you in any of our branches.",
+                                "The need to visit a branch becomes less and less as more services are provided online or over the phone.."
+                            ],
+                            "deeplink": "Pobocka",
+                            "actionTitle": "Show branches near me",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Block | Unblock",
+                            "image": "/cbl_images/family_tips/Blokace.png",
+                            "text": "Your Svou <a href=\"Platebni_karta\">payment card</a> can be temporarily or permanently blocked. This comes in handy when you have misplaced your card or if it has been stolen.",
+                            "bullets": [
+                                "You can do it in the app under 'Cards' or by calling our free Helpline."
+                            ],
+                            "deeplink": "Blokace",
+                            "actionTitle": "Show Card",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDDETAIL"
+                        },
+                        {
+                            "title": "Account Statement",
+                            "image": "/cbl_images/family_tips/Vypis.png",
+                            "bullets": [
+                                "It is a document which the owner of an <a href=\"Bezny_ucet\">account</a>receives regularly.",
+                                "It is an itemized list of all transactions for a defined time period.",
+                                "It can be on paper or electronic. The paper version costs extra, the electronic version is free."
+                            ],
+                            "deeplink": "Vypis",
+                            "actionTitle": "Show Transaction History",
+                            "actionType": "APPPAGE",
+                            "actionData": "PAYMENTHISTORY"
+                        }
+                    ]
+                },
+                {
+                    "section": "advanced",
+                    "pageList": [
+                        {
+                            "title": "3D Secure",
+                            "image": "/cbl_images/family_tips/3D_Secure.png",
+                            "text": "It is a security feature you will encounter when making online payments using your <a href=\"Platebni_karta\">payment card</a>. It is in place to verify if the transaction is going accordingly, it verifies you, the merchant and even the system being used for the transaction.",
+                            "bullets": [
+                                "Your verification can be done via SMS or Smart Banka."
+                            ],
+                            "deeplink": "3D_Secure",
+                            "actionTitle": "Show number for authorization",
+                            "actionType": "APPPAGE",
+                            "actionData": "CARDSETTINGS"
+                        },
+                        {
+                            "title": "ATM",
+                            "image": "/cbl_images/family_tips/ATM.png",
+                            "text": "Did you know that it stands for Automated Teller Machine?.",
+                            "deeplink": "ATM",
+                            "actionTitle": "Show ATMs near me",
+                            "actionType": "APPPAGE",
+                            "actionData": "BRANCHESATMS"
+                        },
+                        {
+                            "title": "Security features",
+                            "image": "/cbl_images/family_tips/Bezpecnostni_prvky.png",
+                            "text": "Protect your payment card and cash from fraud.",
+                            "bullets": [
+                                "These features include hologram, UV print, watermark, or security ribbon."
+                            ],
+                            "deeplink": "Bezpecnostni_prvky"
+                        },
+                        {
+                            "title": "BIC and SWIFT",
+                            "image": "/cbl_images/family_tips/BIC.png",
+                            "text": "BIC is a code you enter when making a payment to a foreign bank. SWIFT is an organization which makes International transactions easier between banks all over the world.",
+                            "bullets": [
+                                "BIC/SWIFT code is the same. Moneta's is AGBACZPP.",
+                                "You can find yours in the detail of your account."
+                            ],
+                            "deeplink": "BIC",
+                            "actionTitle": "Show current account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Travel Insurance",
+                            "image": "/cbl_images/family_tips/Cestovni_pojisteni.png",
+                            "text": "Ensures the refund for medical expenses abroad and/or transfer to CR..",
+                            "bullets": [
+                                "It is useful when traveling abroad where Czech health insurance is not valid."
+                            ],
+                            "deeplink": "Cestovni_pojisteni"
+                        },
+                        {
+                            "title": "Debit Card",
+                            "image": "/cbl_images/family_tips/Debetni_karta.png",
+                            "text": "It is a standard <a href=\"Platebni_karta\">payment card</a> issued with your account. You can use it to pay in stores or use in ATMs.",
+                            "bullets": [
+                                "On it, you can find your name, validity, a 16-digit card number and a <a href=\"Cislo_karty\">CVV code</a>."
+                            ],
+                            "deeplink": "Debetni_karta"
+                        },
+                        {
+                            "title": "Credit Card",
+                            "image": "/cbl_images/family_tips/Kreditni_karta.png",
+                            "text": "It is a payment card which unlike a debit card is not linked to your money, but instead money of a bank or a different institution. You can use it to make payments but you have to repay the money you \"borrowed\". There is a period (usually a month) when you can repay the money and not pay any interest on it.",
+                            "bullets": [
+                                "It is useful for shopping online.",
+                                "Often, there are benefits linked to using a credit card such as <a href=\" Cestovni_pojisteni\">travel insurance</a> or discounts in stores."
+                            ],
+                            "deeplink": "Kreditni_karta"
+                        },
+                        {
+                            "title": "Cryptocurrency",
+                            "image": "/cbl_images/family_tips/Kryptomena.png",
+                            "text": "Virtual currency which exists only online. It is created and transferred using complex computing functions. It can be exchanged for standard currency such as Czech Crowns or US dollar.",
+                            "bullets": [
+                                "The most popular cryptocurrencies are <a href=\"Bitcoin\">Bitcoin</a> and <a href=\"Ethereum\">Ethereum</a>."
+                            ],
+                            "deeplink": "Kryptomena"
+                        },
+                        {
+                            "title": "Bitcoin",
+                            "image": "/cbl_images/family_tips/Bitcoin.png",
+                            "text": "It is a cryptocurrency which was launched on 3. 1. 2009. It has been designed to be impervious to outside influence, counterfeiting, and inflation. Bitcoin can be used to pay anyone in the world using a cryptocurrency wallet.",
+                            "bullets": [
+                                "Payment confirmation and mining (creation of new Bitcoin) is done using complex mathematical operations.",
+                                "All bitcoin transactions are written down into a database."
+                            ],
+                            "deeplink": "Bitcoin"
+                        },
+                        {
+                            "title": "Ethereum",
+                            "image": "/cbl_images/family_tips/Ethereum.png",
+                            "text": "It is a decentralized cryptocurrency which is impervious to outside influence, counterfeiting, and inflation similarly to <a href=\"Bitcoin\">Bitcoin</a>.",
+                            "bullets": [
+                                "Ethereum is not primarily used to confirm transactions but to launch the source code of decentralized applications.",
+                                "The time limit for confirmation is about 12 seconds for Ethereum, and about 10 minutes for Bitcoin."
+                            ],
+                            "deeplink": "Ethereum"
+                        },
+                        {
+                            "title": "Mortgage",
+                            "image": "/cbl_images/family_tips/Hypoteka.png",
+                            "text": "<a href=\"Pujcka_a_uver\">Loan</a> which you can apply for when buying land or realestate for which you lack the sufficient funds. It can also be used to finance a home remodel.",
+                            "bullets": [
+                                "When applying for a mortgage, it is usually required to have 5-20% of the desired amount saved up."
+                            ],
+                            "deeplink": "Hypoteka"
+                        },
+                        {
+                            "title": "IBAN",
+                            "image": "/cbl_images/family_tips/IBAN.png",
+                            "text": "Is your account number in an international format. It is used for international payments. If your account number was 123456789/0600 then your IBAN would be CZ3406000000000123456789.",
+                            "bullets": [
+                                "You can find your IBAN in the detail of your account."
+                            ],
+                            "deeplink": "IBAN",
+                            "actionTitle": "Show current account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Direct Debit",
+                            "image": "/cbl_images/family_tips/Inkaso.png",
+                            "text": "You can enable direct debits, which means that somebody (usually a company such as a power company) can withdraw a certain amount from your <a href=\"Bezny_ucet\">account</a>, usually on a regular basis.",
+                            "bullets": [
+                                "Most commonly used for payments of utilities or phone bill.",
+                                "Direct debits can be enabled similarly to bank transfer."
+                            ],
+                            "deeplink": "Inkaso"
+                        },
+                        {
+                            "title": "Overdraft",
+                            "image": "/cbl_images/family_tips/Kontokorent.png",
+                            "text": "If enabled, it allows you to overdraw your account (go into negative balance). The amount that can be overdrawn first needs to be approved.",
+                            "bullets": [
+                                "Similarly to a <a href=\"Pujcka_a_uver\">loan</a>, overdraft is subject to <a href=\"Urok_banky\">interest</a>."
+                            ],
+                            "deeplink": "Kontokorent"
+                        },
+                        {
+                            "title": "Loan / Line of credit",
+                            "image": "/cbl_images/family_tips/Pujcka_a_uver.png",
+                            "text": "It is an amount of money which you borrow and then pay back. It needs to be repaid within a certain time period and with <a href=\"Urok_banky\">interest</a>.",
+                            "bullets": [
+                                "A loan always means borrowing money.",
+                                "Loans (outside of a bank) can be non-monetary."
+                            ],
+                            "deeplink": "Pujcka_a_uver"
+                        },
+                        {
+                            "title": "Phishing",
+                            "image": "/cbl_images/family_tips/Phishing.png",
+                            "text": "It is the act of trying to obtain personal or private information via fraudulent emails, text messages or phone calls. This information can be misused by the attackers to steal money from your account or to take out a <a href=\"Pujcka_a_uver\">loan</a> in your name.",
+                            "bullets": [
+                                "Phishing comes from the word fishing."
+                            ],
+                            "deeplink": "Phishing"
+                        },
+                        {
+                            "title": "Interest",
+                            "image": "/cbl_images/family_tips/Urok_banky.png",
+                            "text": "When you borrow money from a bank, you pay back a little bit more than what you borrowed. For example, if you borrow CZK 100, you will pay back CZK 105. Interest is fee for using somebody else's money.",
+                            "bullets": [
+                                "Interest can work in your favor as well. If you put your money in a savings account, then the bank pays interest to you."
+                            ],
+                            "deeplink": "Urok_banky"
+                        },
+                        {
+                            "title": "Virtual payment card",
+                            "image": "/cbl_images/family_tips/Virtualni_karta.png",
+                            "text": "A payment card which does not have a physical (plastic) form. It exists only online or in your smartphone.",
+                            "bullets": [
+                                "It can be used for payments in the same way as any other  <a href=\"Platebni_karta\">payment card</a>",
+                                "It can be easily blocked immediately after use, making it harder to misuse it."
+                            ],
+                            "deeplink": "Virtualni_karta"
+                        }
+                    ]
+                },
+                {
+                    "section": "expert",
+                    "pageList": [
+                        {
+                            "title": "Shares",
+                            "image": "/cbl_images/family_tips/Akcie.png",
+                            "text": "It is a form of <a href=\"Cenny_papir\">securityr</a> issued by some companies. Owning shares of a company entitles you to participate in the company's decisions or they can be traded on the  <a href=\"Burza_cennych_papiru\">stock market</a>.",
+                            "bullets": [
+                                "Some shares include <a href=\"Dividenda\">dividends</a> which are paid out regularly .",
+                                "Some companies use shares as fringe benefits for their employees, but they can most commonly be acquired on the stock market."
+                            ],
+                            "deeplink": "Akcie"
+                        },
+                        {
+                            "title": "Stockbroker",
+                            "image": "/cbl_images/family_tips/Makler.png",
+                            "text": "A person who trades <a href=\"Cenny_papir\">securities</a> (<a href=\"Akcie\">shares</a> and bonds) on the <a href=\"Burza_cennych_papiru\">stock market</a>.",
+                            "bullets": [
+                                "Nowadays, most trades take place online."
+                            ],
+                            "deeplink": "Makler"
+                        },
+                        {
+                            "title": "Dividend",
+                            "image": "/cbl_images/family_tips/Dividenda.png",
+                            "text": "It is a share in a company's profit paid out for a certain time period.",
+                            "bullets": [
+                                "When buying <a href=\"Akcie\">shares</a>, you can check if the company pays <a href=\"Dividenda\">dividends</a> and at what rate."
+                            ],
+                            "deeplink": "Dividenda"
+                        },
+                        {
+                            "title": "Shareholder",
+                            "image": "/cbl_images/family_tips/Akcionar.png",
+                            "text": "It is an owner of Majitel <a href=\"Akcie\">shares</a>. Based on how many shares they own, they can be minority or majority owners.",
+                            "bullets": [
+                                "The more shares a person has, the more they can influence the company's decision."
+                            ],
+                            "deeplink": "Akcionar"
+                        },
+                        {
+                            "title": "Advance payment / down payment",
+                            "image": "/cbl_images/family_tips/Akontace.png",
+                            "text": "A sum used for the first repayment of a loan. It is usually higher than the remaining repayments.",
+                            "deeplink": "Akontace"
+                        },
+                        {
+                            "title": "Creditworthiness",
+                            "image": "/cbl_images/family_tips/Bonita.png",
+                            "text": "It is the person's ability to repay a loan. Banks inquire your creditworthiness before approving you for a loan. It consists of many factors, most of which are not public.",
+                            "bullets": [
+                                "Your creditworthiness is determined by your age, education, marital status, profession, payment behavoir or prior loan history. "
+                            ],
+                            "deeplink": "Bonita"
+                        },
+                        {
+                            "title": "Broker",
+                            "image": "/cbl_images/family_tips/Broker.png",
+                            "text": "It is a person that trades <a href=\"Akcie\">shares</a>, usually a <a href=\"Makler\">stockbroker</a>, which can make trades on the stock market on your behalf.",
+                            "deeplink": "Broker"
+                        },
+                        {
+                            "title": "Stock market",
+                            "image": "/cbl_images/family_tips/Burza_cennych_papiru.png",
+                            "text": "It is an institution that facilitates the trade of <a href=\"Cenny_papir\">securities</a>, helps determine their price and secures the trade.",
+                            "bullets": [
+                                "In the CR, the biggest stock market is Burza cenných papírů Praha (BCPP), globally it is the New York Stock Exchange, USA."
+                            ],
+                            "deeplink": "Burza_cennych_papiru"
+                        },
+                        {
+                            "title": "Securities",
+                            "image": "/cbl_images/family_tips/Cenny_papir.png",
+                            "text": "Securities include <a href=\"Akcie\">shares</a>, mutual fund shares, bonds, cheques, investment coupons and more.",
+                            "deeplink": "Cenny_papir"
+                        },
+                        {
+                            "title": "Available balance",
+                            "image": "/cbl_images/family_tips/Disponibilni_zustatek.png",
+                            "text": "The money available in your <a href=\"Bezny_ucet\">current account</a>. If href=\"Kontokorent\">overdraft</a>, is enabled, it is included in the available balance.",
+                            "bullets": [
+                                "You can check your available balance in your current account."
+                            ],
+                            "deeplink": "Disponibilni_zustatek",
+                            "actionTitle": "Show current account",
+                            "actionType": "APPPAGE",
+                            "actionData": "FA_CURRENTACCOUNT"
+                        },
+                        {
+                            "title": "Portfolio diversification",
+                            "image": "/cbl_images/family_tips/Diverzifikace_portfolia.png",
+                            "text": "It means investing into multiple <a href=\"Cenny_papir\">shares</a> to minimize investment risk.",
+                            "deeplink": "Diverzifikace_portfolia"
+                        },
+                        {
+                            "title": "Shares emission",
+                            "image": "/cbl_images/family_tips/Emise_akcii.png",
+                            "text": "It means to issue (emit) <a href=\"Akcie\">shares</a> by a company. After emission, the company can be enter the stock market.",
+                            "deeplink": "Diverzifikace_portfolia"
+                        },
+                        {
+                            "title": "Fixed-rate period",
+                            "image": "/cbl_images/family_tips/Fixacni_obdobi.png",
+                            "text": "A time period for which the interest rate remains the same. It is often used in <a href=\"Hypoteka\">mortgages</a>, where the fixed-term period is usually 1-7 years.",
+                            "deeplink": "Fixacni_obdobi"
+                        },
+                        {
+                            "title": "Inflation",
+                            "image": "/cbl_images/family_tips/Inflace.png",
+                            "text": "It means the depreciation of the value of money and therefore your assets. Inflation is natural and determined by many factors. Some years it may increase, other it can decrease.",
+                            "bullets": [
+                                "Average inflation is about 2-4 % a year."
+                            ],
+                            "deeplink": "Inflace"
+                        },
+                        {
+                            "title": "Investment",
+                            "image": "/cbl_images/family_tips/Investice_child.png",
+                            "body": "Money can be exchanged for something else, such as <a href=\"Cenny_papir\">securities</a> which can appreciate in value overtime. There is always a risk of depreciation.",
+                            "deeplink": "Investice"
+                        },
+                        {
+                            "title": "Investment risk",
+                            "image": "/cbl_images/family_tips/Investicni_riziko.png",
+                            "text": "Investments can depreciate in value. Investment risk predicts how big the depreciation might be.",
+                            "bullets": [
+                                "Conservative mutual funds have the lowest investment risk, the highest investment risk concerns <a href=\"Akcie\">shares</a>."
+                            ],
+                            "deeplink": "Investicni_riziko"
+                        },
+                        {
+                            "title": "Investor",
+                            "image": "/cbl_images/family_tips/Investor.png",
+                            "text": "A person or a company owning <a href=\"Cenny_papir\">securities</a>.",
+                            "deeplink": "Investor"
+                        },
+                        {
+                            "title": "Consolidation",
+                            "image": "/cbl_images/family_tips/Konsolidace.png",
+                            "text": "Consolidation of multiple loans into one.",
+                            "bullets": [
+                                "Consolidated <a href=\"Pujcka_a_uver\">loans</a>  are repaid as one loan, usually over a longer period of time.",
+                                "Almost all loans can be consolidated."
+                            ],
+                            "deeplink": "Konsolidace"
+                        },
+                        {
+                            "title": "Portfolio",
+                            "image": "/cbl_images/family_tips/Portfolio.png",
+                            "text": "It is the collection of all <a href=\"Cenny_papir\">securities</a> a person or a company owns.",
+                            "deeplink": "Portfolio"
+                        },
+                        {
+                            "title": "APR (Annual percentage rate)",
+                            "image": "/cbl_images/family_tips/RPSN.png",
+                            "text": "It is an amount paid extra when repaying a <a href=\"Pujcka_a_uver\">loan</a>. It is listed annually as a percentage of the borrowed amount.",
+                            "bullets": [
+                                "It is useful to compare APRs when choosing between multiple loans."
+                            ],
+                            "deeplink": "RPSN"
+                        },
+                        {
+                            "title": "Mixed funds",
+                            "image": "/cbl_images/family_tips/Smisene_fondy.png",
+                            "text": "They include <a href=\"Akcie\">share</a> and bond funds.",
+                            "bullets": [
+                                "They are flexible and bear medium to high investment risk.",
+                                "They are suitable for longer investment horizon."
+                            ],
+                            "deeplink": "Smisene_fondy"
+                        },
+                        {
+                            "title": "Collateral / pledge",
+                            "image": "/cbl_images/family_tips/Zastava.png",
+                            "text": "Property pledged by a borrower in order to secure the repayment of a <a href=\"Pujcka_a_uver\">loan</a>. If the loan is not repaid, the ownership of the pledged property is transferred to the lender.",
+                            "bullets": [
+                                "Collaterals are usually involved in <a href=\"Hypoteka\">mortgages</a>."
+                            ],
+                            "deeplink": "Zastava"
+                        }
+                    ]
+                }
+            ],
+            "tipsByAgeRangeList": [
+                {
+                    "title": "Children aged 8-10",
+                    "value": "EIGHTTOTEN",
+                    "pageList": [
+                        {
+                            "title": "What is most important?",
+                            "text": "Teach your children about the price of things, such as movie tickers, backpacks, snacks or a bike. Explain to them how savings works, and that sometimes it is worth waiting longer to have bigger/better things. <br><br> Their first bank account is a big responsibility for a child, but also a privilege. Talk to them about the importance of keeping their payment card and application safe, and to never disclose private information.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/important810.png"
+                        },
+                        {
+                            "title": "The principle of reward",
+                            "text": "You can reward your child for doing their chores.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/odmenovani.png",
+                            "bullets": [
+                                "This way, the child can understand the principle of reward for a performed task/job."
+                            ]
+                        },
+                        {
+                            "title": "Savings",
+                            "text": "The child receives a savings account with an interest rate of 3% with their current account. Teach them about interest accrued on deposited savings.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/sporeni.png",
+                            "bullets": [
+                                "You can motivate your child to save their money for more expensive purchases by matching their savings (if they save up CZK 2,000, you match it and give them CZK 2,000).",
+                                "Thanks to savings envelopes, your child can easily visualize how close they are to their savings goal."
+                            ]
+                        },
+                        {
+                            "title": "Money in the account and in cash",
+                            "text": "Teach your child about the difference between money in their account and in cash.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/penize_na_uctu.png",
+                            "bullets": [
+                                "If they deposit their money in their savings account instead of a piggybank, they will accrue interest monthly."
+                            ]
+                        },
+                        {
+                            "title": "The basics of financial responsibility",
+                            "text": "You can teach your child the basics of finance management. Explain to them how you manage your finances, teach them about the price of their hobbies etc.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/zaklady_financni_gramotnosti.png",
+                            "bullets": [
+                                "Your child knows that money does not grow on trees, but you can share with them how much you make in a day, week, or a month."
+                            ]
+                        },
+                        {
+                            "title": "Allowance",
+                            "text": "Children this age usually receive their first allowance. You can start with CZK 50 a week, which the child can spend on snacks or school supplies.",
+                            "ageRangeValue": "EIGHTTOTEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/kapesne.png",
+                            "bullets": [
+                                "Teach your child about savings and depositing unspent allowance into their savings account to appreciate it."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Children aged 11-13",
+                    "value": "ELEVENTOTHIRTEEN",
+                    "pageList": [
+                        {
+                            "title": "What is most important?",
+                            "text": "Children of this age start to feel like young adults. That is way they should be given more responsibilities and duties. Give them chores for a promised reward.<br><br> Have conversations with your child about your employment and how you are compensated. If circumstances allow it, take your child to work with you to show them in practice.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/important1113.png"
+                        },
+                        {
+                            "title": "Reason and value",
+                            "text": "Have discussions with your children about rational spending. If you tell them \"no\" about spending money on something, make sure to explain ton them why.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/rozum_hodnota.png",
+                            "bullets": [
+                                "What are your values and what do you deem important? Is it family, education, experience, or career?"
+                            ]
+                        },
+                        {
+                            "title": "Marketing and advertisments",
+                            "text": "Your child has become a target of many marketing and ad campaigns. Explain to them how ads and marketing can influence their decisions.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/marketing_reklama.png",
+                            "bullets": [
+                                "Make comparisons. If you child wants something they saw in an ad, find a similar object and discuss if the more expensive one is really better."
+                            ]
+                        },
+                        {
+                            "title": "Budget",
+                            "text": "Create a monthly budget for your child to give them a better idea of their spending. This is the time to slightly increase their allowance. CZK 200 a week should cover all of their expenses.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/rozpocet.png",
+                            "bullets": [
+                                "Show your child their budget in the banking app.",
+                                "Set out long-term savings goals and motivate your child to meet them."
+                            ]
+                        },
+                        {
+                            "title": "Reckless spending",
+                            "text": "Remind your child of their past spending and ask them if they would spend their money the same way again. Show them the importance of properly thinking purchases through.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/emo_nakupy.png",
+                            "bullets": [
+                                "Share with them some of your regrettable spending and explain to them the importance of learning from one's mistakes."
+                            ]
+                        },
+                        {
+                            "title": "Card payments",
+                            "text": "Your child will start using their payment card more often, even without your approval (if the limit allows it). Agree on a regular expenses check.",
+                            "ageRangeValue": "ELEVENTOTHIRTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/placeni_kartou.png",
+                            "bullets": [
+                                "Your child my earn your financial trust. If they have it, expenses do not need to be checked as often."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Children aged 14-16",
+                    "value": "FOURTEENTOSIXTEEN",
+                    "pageList": [
+                        {
+                            "title": "What is most important?",
+                            "text": "Your child is now a young adult. They probably have their first jobs and realize the value of money. Their allowance is an addition to the wages form their jobs.<br><br>Peer pressure is the strongest amongst children this age, and that is why most reckless spending happens during this time. Have conversations about their spending often. Sometimes, learning the hard way about recklessly spending one's savings is a valuable life lesson.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/importnant1416.png"
+                        },
+                        {
+                            "title": "Bigger expenses and allowance",
+                            "text": "Your child is self-sufficient in many ways. That is why their allowance should be increased to about CZK 500 a week, They can use it to buy lunch or school supplies.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/vyssi_naklady.png",
+                            "bullets": [
+                                "Send them their allowance to their bank account.",
+                                "Find out their necessary expenses and adjust their allowance accordingly."
+                            ]
+                        },
+                        {
+                            "title": "Expenses which you might not understand",
+                            "text": "If your child spends money on online games it might not be a bad thing. Even though they might often act like grown ups, they are still children. Let them explain to you what they receive for their money and why do they think it is worth it..",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/online_hry.png",
+                            "bullets": [
+                                "If it is not big sums of money, let your children decide if their spending is worth it or not."
+                            ]
+                        },
+                        {
+                            "title": "Long-term goals",
+                            "text": "Talk to your child about saving up for things in the future. It might be a summer camp, or a vacation. These are all goals to which your child can save up with your contribution.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dlouhodobe_cile.png",
+                            "bullets": [
+                                "Long-term savings requires discipline. You can motivate your child by matching their contribution and also with appreciation thanks to interest."
+                            ]
+                        },
+                        {
+                            "title": "Ran out of money? Think twice about bailing them out",
+                            "text": "In order for children to learn healthy financial habits, it is important that they understand that you will not be there to help them every time they run out of money. Go through their expenses together and figure out what went wrong.“.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dosly_penize.png",
+                            "bullets": [
+                                "If they overspent, maybe they can earn extra cash by doing more chores or finding a job."
+                            ]
+                        },
+                        {
+                            "title": "Safety and security of their bank account and payment card",
+                            "text": "Your child spends money without your knowledge more often. Remind them to never disclose personal information or lend their card or devices to anyone, even to their best friends.",
+                            "ageRangeValue": "FOURTEENTOSIXTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/bezpecnost.png",
+                            "bullets": [
+                                "It is important that your child understands the responsibility of handling finances."
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Children aged 17-18",
+                    "value": "SEVENTEENTOEIGHTEEN",
+                    "pageList": [
+                        {
+                            "title": "What is most important?",
+                            "text": "Your child is becoming a real adult and might have a leg up on you when it comes to financial knowledge. It is important to prepare your child for independence.<br><br>The must understand that you will not always be there to help them. Teach them about loans and situations when they might need one.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/importnant1718.png"
+                        },
+                        {
+                            "title": "Independent living",
+                            "text": "This might be the time when your child moves away to go to university or to find a job. Try making a budget together which accounts for all necessities such as food, rent etc.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/samostatne_bydleni.png",
+                            "bullets": [
+                                "Try including some room for savings into the budget. Ideally, your child should save over 10% of their budget each month.."
+                            ]
+                        },
+                        {
+                            "title": "Long-term savings",
+                            "text": "This is the time to talk to your child about their future. If they want buy a house or an apartment, it is best to talk about the ways to finance it.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/dlouhodobe_sporeni.png",
+                            "bullets": [
+                                "Your child can start saving for their mortgage down payment which is usually 5-20% of the principal amount."
+                            ]
+                        },
+                        {
+                            "title": "Investment",
+                            "text": "Investing a part of their income is a great way to achieve financial freedom. Talk to your child about investment opportunities, maybe even right in the app.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/investice.png",
+                            "bullets": [
+                                "Investments offer better appreciation than savings accounts."
+                            ]
+                        },
+                        {
+                            "title": "Loans",
+                            "text": "Your child will soon be independent. Which means they will be able to take out a loan in their name. Talk about when and for what it is best to get a loan and when it is unnecessary.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/pujcky.png"
+                        },
+                        {
+                            "title": "Their own account",
+                            "text": "On their 18th birthday your family account will be terminated. Visit a branch with your child and transform their account into a regular \"adult\" current account. You will have no control over the account, but thanks tom your care and wisdom your child has the best chance of independent financial success.",
+                            "ageRangeValue": "SEVENTEENTOEIGHTEEN",
+                            "listIcon": "savingsFill",
+                            "image": "/cbl_images/family_tips/vlastni_ucet.png"
+                        }
+                    ]
+                }
+            ],
+            "mainTips": {
+                "title": "Parental Guide",
+                "text": "How big should your child's allowance be and what should they know about finances at their age? We have prepared helpful guidelines to help you teach your child how to manage their finances.",
+                "others": "Other tips"
+            },
+            "oneYearOlder": {
+                "title": "New tips for better management of finances",
+                "text": "Your child is another year older and so we have updated the guidelines for your child's finances.",
+                "more": "and much more",
+                "primaryButton": "View guidelines and tips"
+            }
+        }
+    }
+}

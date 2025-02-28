@@ -1,0 +1,552 @@
+{
+    "errorScreens": {
+        "api": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Zpět na přehled zůstatků"
+        }
+    },
+    "title": "Reklamace platby",
+    "scenes": {
+        "transactionHistory": {
+            "title": "Chcete vybrat další transakce k reklamaci?",
+            "loadMoreButton": "Zobrazit další transakce",
+            "primaryButtonOne": "Pokračovat s %d transakcí",
+            "primaryButtonFew": "Pokračovat s %d transakcemi",
+            "primaryButtonMany": "Pokračovat s %d transakcemi"
+        },
+        "description": {
+            "transaction": {
+                "title": "Co se stalo?",
+                "titleMulti": "Co se s {0} transakcemi stalo?",
+                "sections": [
+                    {
+                        "complaintType": "TRANSACTION_NOT_MINE",
+                        "complaintTypePrompt": "Neprovedl jsem transakci",
+                        "detail": "Kartu vám trvale zablokujeme",
+                        "items": [
+                            {
+                                "complaintEventType": 1,
+                                "complaintEventTypePrompt": "Karta je ztracená nebo ukradená"
+                            },
+                            {
+                                "complaintEventType": 2,
+                                "complaintEventTypePrompt": "Kartu mám u sebe"
+                            }
+                        ]
+                    },
+                    {
+                        "complaintType": "TRANSACTION_MERCHANT_PROBLEM",
+                        "complaintTypePrompt": "Obchodník si strhl nesprávnou částku",
+                        "items": [
+                            {
+                                "complaintEventType": 3,
+                                "complaintEventTypePrompt": "Peníze se mi strhly víckrát"
+                            },
+                            {
+                                "complaintEventType": 4,
+                                "complaintEventTypePrompt": "Zaplatil*a jsem jinak"
+                            },
+                            {
+                                "complaintEventType": 5,
+                                "complaintEventTypePrompt": "Platba měla být zrušena"
+                            },
+                            {
+                                "complaintEventType": 6,
+                                "complaintEventTypePrompt": "Částka nesouhlasí"
+                            }
+                        ]
+                    },
+                    {
+                        "complaintType": "TRANSACTION_GOODS_PROBLEM",
+                        "complaintTypePrompt": "Nedaří se mi vyřešit reklamaci s obchodníkem",
+                        "detail": "Pokračujte zde v případě, že to s obchodníkem nevyšlo.",
+                        "items": [
+                            {
+                                "complaintEventType": 7,
+                                "complaintEventTypePrompt": "Nedoručeno nebo neposkytnuto"
+                            },
+                            {
+                                "complaintEventType": 8,
+                                "complaintEventTypePrompt": "Obchodník mi nevrátil přislíbené peníze"
+                            },
+                            {
+                                "complaintEventType": 9,
+                                "complaintEventTypePrompt": "Zboží neodpovídá popisu"
+                            }
+                        ]
+                    }
+                ],
+                "footnote": "Pokračováním potvrzujete, že situace skutečně proběhla tak, jak ji uvádíte."
+            },
+            "withdrawal": {
+                "title": "Co se stalo?",
+                "titleMulti": "Co se s {0} transakcemi stalo?",
+                "sections": [
+                    {
+                        "complaintType": "WITHDRAWAL_NOT_MINE",
+                        "complaintTypePrompt": "Neprovedl*a jsem transakci",
+                        "detail": "Kartu vám trvale zablokujeme",
+                        "items": [
+                            {
+                                "complaintEventType": 1,
+                                "complaintEventTypePrompt": "Karta je ztracená nebo ukradená"
+                            },
+                            {
+                                "complaintEventType": 2,
+                                "complaintEventTypePrompt": "Kartu mám u sebe"
+                            }
+                        ]
+                    },
+                    {
+                        "complaintType": "WITHDRAWAL_ATM_ERROR",
+                        "complaintTypePrompt": "Problémy s bankomatem",
+                        "items": [
+                            {
+                                "complaintEventType": 10,
+                                "complaintEventTypePrompt": "Bankomat mi nevydal hotovost"
+                            },
+                            {
+                                "complaintEventType": 11,
+                                "complaintEventTypePrompt": "Zapomněl*a jsem hotovost v bankomatu"
+                            },
+                            {
+                                "complaintEventType": 12,
+                                "complaintEventTypePrompt": "Vybraná částka nesouhlasí"
+                            },
+                            {
+                                "complaintEventType": 13,
+                                "complaintEventTypePrompt": "Vklad přes ATM se nezaúčtoval správně"
+                            }
+                        ]
+                    }
+                ],
+                "footnote": "Pokračováním potvrzujete, že situace skutečně proběhla tak, jak ji uvádíte."
+            }
+        },
+        "clarification": {
+            "title": "Doplňte prosím, jak situace proběhla",
+            "detail": "Detailní popis nebo doložená dokumentace zvyšují šanci na kladné vyřešení.",
+            "chooseOneCheckbox": "Vyberte prosím alespoň jednu možnost",
+            "fileMaxSizeAlert": "Maximální velikost souboru je 8 MB",
+            "items": [
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_NOT_MINE"
+                        ],
+                        "clarificationPrompt": "Nedávno jsem reagoval*a na výzvu k úhradě poštovného nebo cla",
+                        "clarificationId": "1.1",
+                        "kind": "checkbox"
+                    },
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_NOT_MINE"
+                        ],
+                        "clarificationPrompt": "Prodával*a jsem zboží přes internet",
+                        "clarificationId": "1.2",
+                        "kind": "checkbox"
+                    },
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_NOT_MINE"
+                        ],
+                        "clarificationPrompt": "Nic z uvedeného",
+                        "clarificationId": "1.3",
+                        "kind": "checkboxExclusive"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            3
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o duplicitní platbě",
+                        "clarificationPromptBase": "Doklad o duplicitní platbě",
+                        "clarificationId": "3.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            3
+                        ],
+                        "clarificationPrompt": "Přiložit komunikaci s obchodníkem",
+                        "clarificationPromptBase": "Komunikace s obchodníkem",
+                        "clarificationId": "3.2",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            4
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o zaplacení jiným způsobem",
+                        "clarificationPromptBase": "Doklad o zaplacení jiným způsobem",
+                        "clarificationPromptDetail": "Například hotovostní účtenku nebo výpis z účtu (pokud byla transakce hrazena jinou kartou nebo převodem)",
+                        "clarificationId": "4.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            5
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o stornu",
+                        "clarificationPromptBase": "Doklad o stornu",
+                        "clarificationPromptDetail": "Například účtenku z terminálu nebo komunikaci s obchodníkem",
+                        "clarificationId": "5.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            5
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o zamítnutí platby",
+                        "clarificationPromptBase": "Doklad o zamítnutí platby",
+                        "clarificationId": "5.2",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_MERCHANT_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            6
+                        ],
+                        "clarificationPrompt": "Přiložit doklad se správnou částkou",
+                        "clarificationPromptBase": "Doklad se správnou částkou",
+                        "clarificationPromptDetail": "Například účtenku, fakturu nebo komunikaci s obchodníkem",
+                        "clarificationId": "6.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            7
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o potvrzení objednávky/rezervace",
+                        "clarificationPromptBase": "Doklad o potvrzení objednávky/rezervace",
+                        "clarificationId": "7.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            7
+                        ],
+                        "clarificationPrompt": "Přiložit komunikaci s obchodníkem/půjčovnou/hotelem",
+                        "clarificationPromptBase": "Komunikace s obchodníkem/půjčovnou/hotelem",
+                        "clarificationId": "7.2",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            7
+                        ],
+                        "clarificationPrompt": "Název obchodu",
+                        "clarificationId": "7.3",
+                        "kind": "text"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            8
+                        ],
+                        "clarificationPrompt": "Přiložit datovaný doklad o vrácení",
+                        "clarificationPromptBase": "Datovaný doklad o vrácení",
+                        "clarificationId": "8.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            8
+                        ],
+                        "clarificationPrompt": "Přiložit komunikaci s obchodníkem",
+                        "clarificationPromptBase": "Komunikace s obchodníkem",
+                        "clarificationId": "8.2",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Přiložit doklad o potvrzení objednávky/rezervace",
+                        "clarificationPromptBase": "Doklad o potvrzení objednávky/rezervace",
+                        "clarificationId": "9.1",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Přiložit komunikaci s obchodníkem/půjčovnou/hotelem",
+                        "clarificationPromptBase": "Komunikace s obchodníkem/půjčovnou/hotelem",
+                        "clarificationId": "9.2",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Přiložit fotky doručeného zboží/poskytnuté služby",
+                        "clarificationPromptBase": "Fotky doručeného zboží/poskytnuté služby",
+                        "clarificationId": "9.3",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Datum doručení",
+                        "clarificationId": "9.4",
+                        "kind": "date"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Zboží jsem vrátil*a",
+                        "clarificationId": "9.5",
+                        "kind": "checkbox"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Datum vrácení zboží",
+                        "requiredCheckboxId": "9.5",
+                        "clarificationId": "9.6",
+                        "kind": "date"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Způsob vrácení zboží",
+                        "requiredCheckboxId": "9.5",
+                        "clarificationId": "9.7",
+                        "kind": "text"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "WITHDRAWAL_ATM_ERROR"
+                        ],
+                        "clarificationPrompt": "Přiložit potvrzení o výběru",
+                        "clarificationPromptBase": "Potvrzení o výběru",
+                        "clarificationId": "withdrawalConf",
+                        "kind": "file"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_NOT_MINE",
+                            "TRANSACTION_MERCHANT_PROBLEM",
+                            "TRANSACTION_GOODS_PROBLEM",
+                            "WITHDRAWAL_NOT_MINE",
+                            "WITHDRAWAL_ATM_ERROR"
+                        ],
+                        "disallowedComplaintEventTypes": [
+                            9
+                        ],
+                        "clarificationPrompt": "Upřesněte prosím, k čemu došlo",
+                        "clarificationId": "userDesc",
+                        "kind": "text"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            7
+                        ],
+                        "clarificationPrompt": "Plánované datum doručení",
+                        "clarificationId": "7.5",
+                        "kind": "date"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            7
+                        ],
+                        "clarificationPrompt": "Transakce můžete reklamovat až po 30 dnech od objednávky.",
+                        "kind": "warning"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_GOODS_PROBLEM"
+                        ],
+                        "allowedComplaintEventTypes": [
+                            8
+                        ],
+                        "clarificationPrompt": "Je nutné počkat alespoň 15 dnů od příslibu obchodníka o vrácení peněz",
+                        "kind": "warning"
+                    }
+                ],
+                [
+                    {
+                        "allowedComplaintTypes": [
+                            "TRANSACTION_NOT_MINE"
+                        ],
+                        "clarificationPrompt": "Po dokončení žádosti trvale zablokujeme kartu {0}",
+                        "kind": "errorWithCardNumber"
+                    }
+                ]
+            ],
+            "uploadPicker": {
+                "title": "Vyberte způsob nahrání dokumentu",
+                "camera": "Vyfotit",
+                "photos": "Vybrat z galerie",
+                "files": "Vybrat ze souborů"
+            },
+            "primaryButton": "Pokračovat"
+        },
+        "contact": {
+            "title": "Jak Vás máme kontaktovat?",
+            "optionIB": "Zprávou do Internet Banky",
+            "optionEmail": "E-mailem",
+            "optionLetter": "Dopisem",
+            "sheetEmail": {
+                "prompt": "Váš e-mail",
+                "info": "Změnu použijeme pouze pro tento proces.<br/>Pokud chcete změnit údaje pro celou Smart Banku, přejděte do sekce O mně v Nastavení.",
+                "infoIB": "Upravené kontaktní údaje použijeme jen pro tuto situaci. Pokud chcete kontaktní údaje změnit, přejděte do Nastavení, Osobní a kontaktní údaje.",
+                "primaryButton": "Uložit"
+            },
+            "sheetLetter": {
+                "title": "Úprava kontaktních údajů",
+                "street": "Ulice",
+                "descriptiveNumber": "Č. p.",
+                "orientationNumber": "Č. or.",
+                "city": "Město",
+                "zip": "PSČ",
+                "state": "Stát",
+                "info": "Změnu použijeme pouze pro tento proces.<br/>Pokud chcete změnit údaje pro celou Smart Banku, přejděte do sekce O mně v Nastavení.",
+                "infoIB": "Upravené kontaktní údaje použijeme jen pro tuto situaci. Pokud chcete kontaktní údaje změnit, přejděte do Nastavení, Osobní a kontaktní údaje.",
+                "primaryButton": "Uložit"
+            },
+            "primaryButton": "Pokračovat"
+        },
+        "document": {
+            "title": "Jsou všechny informace správně?",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "warning": "Prohlašuji, že mnou uvedené údaje jsou pravdivé a úplné. Souhlasím, že kopie formuláře může být předána policii, obchodníkům, jiným bankám nebo třetím osobám zapojeným do zpracovávání reklamované transakce.",
+            "primaryButton": "Souhlasím, pokračovat k podpisu",
+            "secondaryButton": "Zpět k úpravě"
+        },
+        "victory": {
+            "win1": {
+                "title": "Přijali jsme vaši reklamaci",
+                "subtitle": "Reklamace bude řešena v souladu s Reklamačním řádem do 35 pracovních dnů. O jejím vyřešení vás budeme informovat.<br/><br/>Potvrzení o přijetí reklamace najdete v sekci Dokumenty.",
+                "info": "Pro vystavení nové karty nám <a href=\"tel:+420224443636\">zavolejte</a> nebo navštivte kteroukoliv naši <a href=\"branch\">pobočku</a>.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "win2": {
+                "title": "Přijali jsme vaši reklamaci",
+                "subtitle": "Reklamace bude řešena v souladu s Reklamačním řádem do 35 pracovních dnů. O jejím vyřešení vás budeme informovat.<br/><br/>Potvrzení o přijetí reklamace najdete v sekci Dokumenty.",
+                "primaryButton": "Sjednat novou kartu",
+                "secondaryButton": "Zpět na Přehled"
+            },
+            "win3": {
+                "title": "Přijali jsme vaši reklamaci",
+                "subtitle": "Reklamace bude řešena v souladu s Reklamačním řádem do 35 pracovních dnů. O jejím vyřešení vás budeme informovat.<br/><br/>Potvrzení o přijetí reklamace najdete v sekci Dokumenty.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "win4": {
+                "title": "Přijali jsme váš požadavek",
+                "subtitle": "Možná bude třeba prověřit transakci u třetí strany, v tom případě je třeba počítat se lhůtami karetních společností. O vyřešení vás budeme informovat.<br/><br/>Potvrzení o přijetí požadavku najdete v sekci Dokumenty.",
+                "primaryButton": "Zpět na Přehled"
+            }
+        }
+    }
+}
+

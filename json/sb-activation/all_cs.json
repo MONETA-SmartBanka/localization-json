@@ -1,0 +1,139 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "branch": {
+                "title": "Navštivte nás prosím na pobočce",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Najít nejbližší pobočku"
+            },
+            "updateApp": {
+                "title": "Aktualizujte si aplikaci",
+                "detail": " Aby vše fungovalo jak má, je třeba aby na obou zařízeních byla Smart Banka verze 73.3 a novější.\n\nNebo se za námi zastavte na kterékoliv naší pobočce, kde vám zařízení spárujeme.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Aktualizovat aplikaci",
+                "secondaryButton": "Zpět na Přehled"
+            }
+        },
+        "scenes": {
+            "intro": {
+                "title": "Ve dvou krocích teď ověříme Vaši totožnost",
+                "bullets": [
+                    {
+                        "title": "Vyfocení občanského průkazu z obou stran",
+                        "description": "Bude k tomu potřeba platný občanský průkaz České republiky.",
+                        "icon": "plain1"
+                    },
+                    {
+                        "title": "Ověření totožnosti",
+                        "description": "V posledním kroku ověříme, že jste to opravdu Vy a nikdo se za Vás nevydává.",
+                        "icon": "plain2"
+                    }
+                ],
+                "primaryButton": "Vyfotit občanský průkaz"
+            },
+            "documentScan": {
+                "info": {
+                    "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
+                    "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
+                    "drivingLicenceTitle": "Nyní vyfotíte přední stranu řidičského průkazu",
+                    "passportLicenceTitle": "Nyní vyfotíte přední stranu cestovního pasu",
+                    "detail": "Ujistěte se, že fotíte:",
+                    "bullets": [
+                        {
+                            "title": "Platný doklad ze správné strany a na šířku",
+                            "icon": "idCardFill"
+                        },
+                        {
+                            "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků",
+                            "icon": "lightBulbOnFill"
+                        }
+                    ],
+                    "primaryButton": "Pokračovat k focení"
+                },
+                "takePhoto": {
+                    "tooltip": "Ostrá, bez odlesků a čitelná",
+                    "idFrontTitle": "Přední strana občanského průkazu",
+                    "idBackTitle": "Zadní strana občanského průkazu",
+                    "drivingLicenceTitle": "Přední strana řidičského průkazu",
+                    "passportLicenceTitle": "Úvodní strana cestovního pasu",
+                    "takePhoto": "Vyfotit",
+                    "reviewTitle": "Je vše dobře viditelné?",
+                    "yes": "Ano",
+                    "no": "Ne, znovu"
+                },
+                "upload": {
+                    "title": "Zpracováváme vyfocený doklad, hned to bude",
+                    "error": "Omlouváme se, něco se vymňouklo",
+                    "takeAgainButton": "Vyfotit znovu",
+                    "cancelButton": "Zkusit příště"
+                },
+                "wrongDocument": {
+                    "title": "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou",
+                    "detail": "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
+                    "primaryButton": "Vyfotit znovu"
+                },
+                "scanFailed": {
+                    "title": "Vaše údaje se nám nepodařilo správně načíst",
+                    "detail": "Zkontrolujte a doplňte je prosím v dalším kroku.",
+                    "primaryButton": "Vyfotit znovu"
+                },
+                "permissionErrorScreen": {
+                    "title": "Aplikace potřebuje oprávnění",
+                    "detail": "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
+                    "primaryButton": "Povolit fotoaparát"
+                }
+            },
+            "liveness": {
+                "title": "V posledním kroku Vás ověříme pomocí krátkého videa",
+                "bullets": [
+                    {
+                        "title": "Nyní nahrajeme krátké video Vašeho obličeje.",
+                        "detail": "Abychom poznali, že se za Vás nikdo nevydává.",
+                        "icon": "cameraFill"
+                    },
+                    {
+                        "title": "Pomocí jednoduchých gest (otočením hlavou doleva, doprava a úsměvu) získáme maximální jistotu.",
+                        "icon": "userFill"
+                    },
+                    {
+                        "title": "Vaše soukromí a bezpečnost jsou pro nás nejdůležitější - nahrávku použijeme pouze pro ověření Vaší totožnosti.",
+                        "icon": "lockFill"
+                    }
+                ],
+                "error": {
+                    "title": "Omlouváme se, ale nastala neočekávaná chyba při odesílání videa",
+                    "detail": "Prosím opakujte akci ještě jednou.",
+                    "primaryButton": "Začít znovu"
+                },
+                "demo": "Přehrajte si ukázku, abyste vědeli, co vás čeká",
+                "demoButton": "Přehrát ukázku",
+                "skipButton": "Přeskočit",
+                "faceInCenter": "Máte dobré světlo a obličej ve středu záběru?",
+                "turnCameraButton": "Otočit kameru",
+                "startButton": "Začít",
+                "smile": "Jdeme na to. Nejdřív se krátce usmějte:",
+                "againButton": "Zkusit znovu",
+                "turnBack": "Skvělé! Teď otočte hlavu do strany a zpět:",
+                "primaryButton": "Pokračovat"
+            },
+            "livenessVerification": {
+                "title": "Oskarový výkon! Děkujeme.\nZpracováváme video. Aplikaci prosím nevypínejte",
+                "detail": "Natočené video porovná automat s Vašimi doklady, abychom si byli jisti, že jste to vy.",
+                "primaryButton": "Pokračovat"
+            },
+            "clientSigned": {
+                "title": "Vítejte zpět v Monetě, vše je připraveno!",
+                "primaryButton": "Přihlásit se"
+            },
+            "victory": {
+                "title": "Vítejte zpět v Monetě, vše je připraveno!",
+                "detail": "Přihlaste se pro potvrzení aktivace Smart Banky.",
+                "primaryButton": "Přihlásit se"
+            }
+        }
+    }
+}

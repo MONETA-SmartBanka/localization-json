@@ -1,0 +1,668 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Oops, something went wrong.",
+                "detail": "An error has occurred. Please try again later.",
+                "callUs": "Call our helpline",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoring": {
+                "title": "Oops, something went wrong.",
+                "detail": "Unfortunately, we are unable to continue in the app. We will be happy to help you at one of our branches - please remember to bring a valid ID.",
+                "branch": "Visit our branch",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "precontractDisagree": {
+                "title": "We can't continue without your consent",
+                "detail": "You are just a step away from your new current account. In order to open it, we need your consent to pre-contractual information and contract signature. <b>Do you have any questions? Let's talk about them.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue the application"
+            },
+            "contractDisagree": {
+                "title": "We can't continue without your consent",
+                "detail": "You are just a step away from your new current account. In order to open it, we need your consent to pre-contractual information and contract signature. <b>Do you have any questions? Let's talk about them.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue the application"
+            },
+            "introDisagree": {
+                "title": "Ke Smart Bance neodmyslitelně patří Tom Plus účet",
+                "detail": "Ten je úplně zdarma a bez podmínek. Teprve s ním využijete aplikaci naplno - třeba výhodnou směnárnu, pojištění na pár kliků nebo jednoduché investování.",
+                "secondaryButton": "Odhlásit se",
+                "primaryButton": "Zpět k získání účtu zcela zdarma"
+            },
+            "disagreement": {
+                "title": "We can't continue without your consent",
+                "detail": "You are just a step away from your new current account. In order to open it, we need your consent to pre-contractual information and contract signature. <b>Do you have any questions? Let's talk about them.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue the application"
+            }
+        },
+        "general": {
+            "toolbarTitle": "The Tom Current Account",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Open a current account just like you would in our branch</b> – click here and our banker will assist you online."
+        },
+        "scenes": {
+            "intro": {
+                "toolbarTitle": "The Tom Current Account",
+                "title": "Open a current account in Smart Banka free of charge.",
+                "detail": "An account that is <b>free of charge</b> and <b>without complicated terms and conditions</b>",
+                "imageUrl": "/cbl_images/card_logos/800_14100.png",
+                "richBullets": [
+                    {
+                        "text": "To open and manage your account",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic incoming payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic outgoing payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic cash withdrawals",
+                        "price": 0
+                    },
+                    {
+                        "text": "Cash withdrawals abroad",
+                        "price": 0
+                    },
+                    {
+                        "text": "SEPA payments within the EU (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Payment card",
+                        "price": 0
+                    },
+                    {
+                        "text": "Mobile payments (Apple a Google Pay)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Instant payments",
+                        "price": 0,
+                        "info": "Instant payments are processed within seconds.\nIf the recipient supports the feature.\nWe are ready."
+                    },
+                    {
+                        "text": "Electronic Account Statements",
+                        "price": 0
+                    },
+                    {
+                        "text": "<a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-platebni-a-neplatebni-sluzby-fon.pdf\">Price list</a>"
+                    }
+                ],
+                "icons": [
+                    {
+                        "text": "Favorable\n<b>savings</b>",
+                        "image": "/cbl_images/current-account/sporeni",
+                        "imageName": "savings",
+                        "infoScreen": {
+                            "title": "Favorable savings",
+                            "detail": "Open a savings account in Smart Banka. Open and manage it free-of-charge, and access your finances anytime.\n\nIn your savings account, you can set up different envelopes and enjoy seeing yourself get closer to your dreams. Just name the envelope, set a savings goal, and start saving."
+                        }
+                    },
+                    {
+                        "text": "Simple\n<b>investments</b>",
+                        "image": "/cbl_images/current-account/investovani",
+                        "imageName": "investments",
+                        "infoScreen": {
+                            "title": "Simple investments",
+                            "detail": "Investments start as low as a couple hundred Crowns. Smart Banka makes it easy. We will walk you through the purchase and sale and tell you how to keep track of your investments.\n\nEven the most experienced investors will appreciate our new and improved profotilo management."
+                        }
+                    },
+                    {
+                        "text": "The great\n<b>exchange rates</b>",
+                        "image": "/cbl_images/current-account/kurzy",
+                        "imageName": "global",
+                        "infoScreen": {
+                            "title": "The great exchange rates",
+                            "detail": "Exchange Czech Crowns for Euros or US Dollars. Every business day from 8 am to 4 pm you can get one of the best exchange rates on the market. The exchange is instantaneous, free-of-charge and hassle-free.\n\n<b>How does it work?</b>\n\nWith your first exchange, we will open an account in the selected currency (EUR/USD) for you free-of-charge, and we will credit the exchanged amount into the account. Account management is free-of-charge and you can close the account at any time. For you comfort, you also receive a payment card free-of-charge."
+                        }
+                    },
+                    {
+                        "text": "<b>Loans and credit cards</b>\nonline",
+                        "image": "/cbl_images/current-account/express",
+                        "imageName": "loan",
+                        "infoScreen": {
+                            "title": "Apply for loans and credit cards online",
+                            "detail": "Apply for Express Loan and receive up to 500,000 CZK in Smart Banka. The process only takes a couple of minutes and you receive the amount within 5 minutes of approval.\n\nYou can also apply for a Smart Credit Card in Smart Banka. Receive 1% of you spending in your most-frequented stores, and receive up to 20% at Bene+ partners. You can start paying using your phone via Apple Pay or Google Pay as soon as the following day."
+                        }
+                    }
+                ],
+                "footnote": {
+                    "text": "<a href=\"https://www.moneta.cz/ucty-a-karty/bezny-ucet\">More about Tom Plus Account</a>",
+                    "title": "In order to proceed online you need:",
+                    "detail": [
+                        "to be 18 years of age or older,",
+                        "to be a resident as well as a tax resident solely of the Czech Republic,",
+                        "your ID card and another from of ID (driver’s license or passport),",
+                        "an account opened in your name in a Czech bank and",
+                        "to take a quick selfie during the application process."
+                    ]
+                },
+                "primaryButton": "Continue",
+                "secondaryButton": "Other options"
+            },
+            "introEtb": {
+                "toolbarTitle": "The Tom Current Account",
+                "title": "Open a Tom Plus Account free of charge.",
+                "detail": "An account that is <b>free of charge</b> and <b>without complicated terms and conditions</b>",
+                "imageUrl": "/cbl_images/card_logos/800_14100.png",
+                "richBullets": [
+                    {
+                        "text": "To open and manage your account",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic incoming payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic outgoing payments (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Domestic cash withdrawals",
+                        "price": 0
+                    },
+                    {
+                        "text": "Cash withdrawals abroad",
+                        "price": 0
+                    },
+                    {
+                        "text": "SEPA payments within the EU (online)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Payment card",
+                        "price": 0
+                    },
+                    {
+                        "text": "Mobile payments (Apple a Google Pay)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Instant payments",
+                        "price": 0,
+                        "info": "Instant payments are processed within seconds.\nIf the recipient supports the feature.\nWe are ready."
+                    },
+                    {
+                        "text": "Electronic Account Statements",
+                        "price": 0
+                    },
+                    {
+                        "text": "<a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-platebni-a-neplatebni-sluzby-fon.pdf\">Price list</a>"
+                    }
+                ],
+                "icons": [
+                    {
+                        "text": "Favorable\n<b>savings</b>",
+                        "image": "/cbl_images/current-account/sporeni",
+                        "imageName": "savings",
+                        "infoScreen": {
+                            "title": "Favorable savings",
+                            "detail": "Open a savings account in Smart Banka. Open and manage it free-of-charge, and access your finances anytime.\n\nIn your savings account, you can set up different envelopes and enjoy seeing yourself get closer to your dreams. Just name the envelope, set a savings goal, and start saving."
+                        }
+                    },
+                    {
+                        "text": "Simple\n<b>investments</b>",
+                        "image": "/cbl_images/current-account/investovani",
+                        "imageName": "investments",
+                        "infoScreen": {
+                            "title": "Simple investments",
+                            "detail": "Investments start as low as a couple hundred Crowns. Smart Banka makes it easy. We will walk you through the purchase and sale and tell you how to keep track of your investments.\n\nEven the most experienced investors will appreciate our new and improved profotilo management."
+                        }
+                    },
+                    {
+                        "text": "The great\n<b>exchange rates</b>",
+                        "image": "/cbl_images/current-account/kurzy",
+                        "imageName": "global",
+                        "infoScreen": {
+                            "title": "The great exchange rates",
+                            "detail": "Exchange Czech Crowns for Euros or US Dollars. Every business day from 8 am to 4 pm you can get one of the best exchange rates on the market. The exchange is instantaneous, free-of-charge and hassle-free.\n\n<b>How does it work?</b>\n\nWith your first exchange, we will open an account in the selected currency (EUR/USD) for you free-of-charge, and we will credit the exchanged amount into the account. Account management is free-of-charge and you can close the account at any time. For you comfort, you also receive a payment card free-of-charge."
+                        }
+                    },
+                    {
+                        "text": "<b>Loans and credit cards</b>\nonline",
+                        "image": "/cbl_images/current-account/express",
+                        "imageName": "loan",
+                        "infoScreen": {
+                            "title": "Apply for loans and credit cards online",
+                            "detail": "Apply for Express Loan and receive up to 500,000 CZK in Smart Banka. The process only takes a couple of minutes and you receive the amount within 5 minutes of approval.\n\nYou can also apply for a Smart Credit Card in Smart Banka. Receive 1% of you spending in your most-frequented stores, and receive up to 20% at Bene+ partners. You can start paying using your phone via Apple Pay or Google Pay as soon as the following day."
+                        }
+                    }
+                ],
+                "footnote": {
+                    "text": "<a href=\"https://www.moneta.cz/ucty-a-karty/bezny-ucet\">More about Tom Plus Account</a>"
+                },
+                "primaryButton": "Continue"
+            },
+            "helpPersonalDetail": {
+                "title": "Verify your personal details",
+                "toolbarTitle": "The Tom Current Account",
+                "detail": "Even though we know your personal details we need to verify. If there have been any changes you will need your ID to verify them. You can just take a photo of it right within the app. The process is secure. <b>Do you have any questions? Let's talk about them.</b>",
+                "primaryButton": "Continue with the application",
+                "secondaryButton": "Cancel the application",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch"
+            },
+            "helpUploadDocument": {
+                "title": "You need to have a valid ID to continue",
+                "toolbarTitle": "The Tom Current Account",
+                "detail": "Due to some changes in your personal details we need you to verify them with your ID. You can take a photo of it within the app. The process is secure and take just a while. <b>DO you have any questions? Let's talk about them.</b>",
+                "primaryButton": "Continue with the application",
+                "secondaryButton": "Cancel the application",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch"
+            },
+            "identification": {
+                "title": "Your details",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "citizenship": "Citizenship",
+                "taxResidence": "Tax residence",
+                "taxResidenceInfoTitle": "Specify your tax residence",
+                "taxResidenceInfoBody": "We kindly ask for information in order to meet a common standard for due diligence in the area of information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations under the Multilateral Agreement of the competent authorities on the automatic exchange of information on financial accounts (in this case current accounts and term deposits).",
+                "vat": "VAT ID",
+                "anotherVat": "Add another tax residence",
+                "phone": "Phone",
+                "primaryButton": "Confirm details"
+            },
+            "permanentAddress": {
+                "title": "Permanent address",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. No",
+                "orientationNumberTitle": "Or. No",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Confirm details"
+            },
+            "contactAddress": {
+                "title": "Do we have your contact address correct?",
+                "sectionCardTitle": "Which card do you prefer?",
+                "cardOptions": [
+                    {
+                        "technology": "VIRTUAL",
+                        "title": "Virtual card in mobile phone",
+                        "detail": "We issue a virtual card instead of a plastic card. For payments and withdrawals, you just need to add it to your mobile right after setting up an account.",
+                        "icon": "mobileFill"
+                    },
+                    {
+                        "technology": "PLASTIC",
+                        "title": "Plastic card",
+                        "detail": "The plastic card you know well. You can also add it to your mobile phone.",
+                        "icon": "cardFill"
+                    }
+                ],
+                "addressSection": {
+                    "title": "Contact address",
+                    "info": "We will send your debit card to the contact address.",
+                    "firstName": "First name",
+                    "lastName": "Last name",
+                    "street": "Street",
+                    "descriptiveNumber": "Desc. no.",
+                    "orientationNumber": "Or. no.",
+                    "city": "City",
+                    "country": "Country",
+                    "countryValue": "Czech Republic",
+                    "zip": "ZIP"
+                },
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. no.",
+                "orientationNumberTitle": "Or. no.",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Everything is ok",
+                "addressTitle": "Contact address",
+                "virtualCardHeader": "Don't need a plastic card??",
+                "virtualCardCheckbox": "<b>A mobile phone card is enough</b><br>Instead of a plastic card, we will issue you a virtual one. For payments and withdrawals from ATMs, you add it to your mobile right after opening an account. You will then find the data for paying on the Internet in your Smart Bank and Internet Bank."
+            },
+            "cardDesign": {
+                "title": "Choose the design of your new card",
+                "designs": [
+                    {
+                        "title": "Moneta Standard",
+                        "value": "CA141D0001"
+                    },
+                    {
+                        "value": "CA141D0020",
+                        "title": "MONETA - Swimming"
+                    },
+                    {
+                        "value": "CA141D0021",
+                        "title": "MONETA - Cycling"
+                    },
+                    {
+                        "value": "CA141D0022",
+                        "title": "MONETA - Tennis"
+                    },
+                    {
+                        "title": "MONETA - Beach-volLeyball",
+                        "value": "CA141D0023"
+                    },
+                    {
+                        "title": "Moneta Standard - Pride",
+                        "value": "CA141D0003"
+                    },
+                    {
+                        "title": "Moneta Standard - Prague",
+                        "value": "CA141D0005"
+                    },
+                    {
+                        "title": "Moneta Standard - Central Bohemian region",
+                        "value": "CA141D0006"
+                    },
+                    {
+                        "title": "Moneta Standard - South Bohemian region",
+                        "value": "CA141D0007"
+                    },
+                    {
+                        "title": "Moneta Standard - Pilsen region",
+                        "value": "CA141D0008"
+                    },
+                    {
+                        "title": "Moneta Standard - Karlovy Vary region",
+                        "value": "CA141D0009"
+                    },
+                    {
+                        "title": "Moneta Standard - Ústí region",
+                        "value": "CA141D0010"
+                    },
+                    {
+                        "title": "Moneta Standard - Liberec region",
+                        "value": "CA141D0011"
+                    },
+                    {
+                        "title": "Moneta Standard - Hradec Králové region",
+                        "value": "CA141D0012"
+                    },
+                    {
+                        "title": "Moneta Standard - Pardubice region",
+                        "value": "CA141D0013"
+                    },
+                    {
+                        "title": "Moneta Standard - Vysočina region",
+                        "value": "CA141D0014"
+                    },
+                    {
+                        "title": "Moneta Standard - South-Moravian region",
+                        "value": "CA141D0015"
+                    },
+                    {
+                        "title": "Moneta Standard - Zlín region",
+                        "value": "CA141D0016"
+                    },
+                    {
+                        "title": "Moneta Standard - Olomouc region",
+                        "value": "CA141D0017"
+                    },
+                    {
+                        "title": "Moneta Standard - Moravian-Silesian region",
+                        "value": "CA141D0018"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "amlQuestionnaire": {
+                "title": "Legally required information",
+                "detail": "We are legally obligated to ask for this information under Act No. 253/2008 Coll. on money laundering.",
+                "questions": {
+                    "depositOrigin": {
+                        "text": "Where will the money in the current account mostly come from?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "Income from employment"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Income from business"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Pension / Annuity"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Social benefits"
+                            },
+                            {
+                                "value": "5",
+                                "text": "From family and friends / Winnings / Presents "
+                            }
+                        ]
+                    },
+                    "prevailingTransactions": {
+                        "text": "What kind of transactions will most likely take place?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "Cash"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Domestic cashless"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Foreign cashless within the EU"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Foreign cashless outside of the EU"
+                            }
+                        ]
+                    },
+                    "rangeOfSalary": {
+                        "text": "What will be the amount of monthly income in the current account?",
+                        "options": [
+                            {
+                                "value": "AML2.1.DO_50",
+                                "text": "up to 50,000 CZK"
+                            },
+                            {
+                                "value": "AML2.2.DO_100",
+                                "text": "50,000 - 100,000 CZK"
+                            },
+                            {
+                                "value": "AML2.3.NAD_100",
+                                "text": "Over 100,000 CZK"
+                            }
+                        ]
+                    }
+                },
+                "citizenship": "Citizenship",
+                "taxResidence": "Tax residence",
+                "taxResidenceInfoTitle": "Specify your tax residence",
+                "taxResidenceInfoBody": "We kindly ask for information in order to meet a common standard for due diligence in the area of information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations under the Multilateral Agreement of the competent authorities on the automatic exchange of information on financial accounts (in this case current accounts and term deposits).",
+                "vat": "VAT ID",
+                "anotherVat": "Add another tax residence",
+                "primaryButton": "Confirm details"
+            },
+            "documentUpload": {
+                "title": "We need your current ID. Please upload it.",
+                "detail": "As some of your details may have changed, we need your ID to verify them. All we need a legible clear photo. You can upload it in the app or visit our branch. The photo upload process is secure.",
+                "primaryButton": "Continue",
+                "uploadedDocument": {
+                    "title": "Please take a photo of both sides of your ID.",
+                    "labels": [
+                        "Add the front of your <br>ID",
+                        "Add the back of your <br>ID"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Choose the upload method",
+                    "camera": "Camera",
+                    "photos": "Choose from gallery",
+                    "files": "Choose from files"
+                }
+            },
+            "documentUploadReview": {
+                "title": "Did we get it right?",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "birthNumber": "Personal identification number",
+                "city": "City",
+                "descriptiveNumber": "Desc. No",
+                "orientationNumber": "Or. No",
+                "idCardNumber": "ID card number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Try again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, something's wrong",
+                "detail": "We couldn't read your details. Please make sure the photo is well lit and the text are legible.",
+                "tryAgain": "Let's try again: ",
+                "primaryButton": "Try again"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat needs the look things over"
+            },
+            "staticDocuments": {
+                "title": "Read all the important contractual documents",
+                "subtitle": "All documents can be found in Smart Banka in the <b>My Documents</b> section.",
+                "primaryButton": "I have read all the documents"
+            },
+            "waitingBeforePrecontract": {
+                "title": "Just a minute, we're preparing the pre-contractual information."
+            },
+            "precontractInfo": {
+                "title": "Read the pre-contractual information",
+                "detail": "Download the PDF",
+                "primaryButton": "Agree",
+                "secondaryButton": "Decline"
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we're preparing the contract"
+            },
+            "contract": {
+                "title": "Please read the Current Account Contract",
+                "detail": "Download the PDF",
+                "primaryButton": "I understand and agree",
+                "secondaryButton": "Decline"
+            },
+            "disagreement": {
+                "title": "We can't continue without your consent",
+                "detail": "You are just a step away from your new current account. In order to open it, we need your consent to pre-contractual information and contract signature. <b>Do you have any questions? Let's talk about them.</b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Continue the application"
+            },
+            "sign": {
+                "title": "Sign the contract with your PIN"
+            },
+            "signByUs": {
+                "title": "Now it's our turn to sign... just a moment please."
+            },
+            "victory": {
+                "title": "Congratulations!",
+                "detail": "Your current account has been opened. If you have requested a physical card it will be delivered to you by mail within 5 business days.\n\nAll documents can be found in the My Documents sections in Internet Banka and Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "tomorrowVictory": {
+                "title": "Your current account will be ready the morning of the following business day.",
+                "detail": "All documents can be found in the My Documents sections in Internet Banka and Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "delayedVictory": {
+                "title": "We're almost done. It might take a while for us to sign the contract.",
+                "detail": "it might take some time for us to sign the contract - during business days it's usually a couple of hours, but during weekend it might take until Monday. Your account will be ready immediately after. All your documents are already in the My Documents section of Internet Banka and Smart Banka. We apologize for the inconvenience and thank you for your patience.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "simpleDocumentUpload": {
+                "title": "Oops, we need your current ID",
+                "detail": "It appears that the ID you provided us earlier is no longer current. Please upload a new one.",
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "ID",
+                        "detail": "Some information has changed since your last visit",
+                        "photoCapture": [
+                            {
+                                "title": "Take a photo of the front of your ID card",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take a photo"
+                            },
+                            {
+                                "title": "Take a photo of the back of your ID card",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take a photo"
+                            }
+                        ],
+                        "busyLoader": {
+                            "title": "Be patient for a moment, we have to check everything",
+                            "detail": "It will take a few seconds at most."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "We cannot open a foreign currency account for you right now",
+                            "detail": "We are really sorry",
+                            "secondaryButton": "End the application"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Oops, this didn't work",
+                            "detail": "Please take a photo of the document again, in good lighting, sharp and not blurry.",
+                            "primaryButton": "Scan again",
+                            "secondaryButton": "Continue later"
+                        },
+                        "review": {
+                            "title": "Great photo! Did we read everything correctly?",
+                            "documentDetails": {
+                                "title": "Data from the document",
+                                "firstName": "First name",
+                                "lastName": "Last name",
+                                "birthDate": "Date of birth",
+                                "birthPlace": "Place of birth",
+                                "birthNumber": "Birth number",
+                                "idCardNumber": {
+                                    "title": "ID number",
+                                    "secondaryTitle": "Passport number"
+                                },
+                                "idCardValidTo": "Valid to",
+                                "issueDate": "Valid from",
+                                "nationality": "Citizenship",
+                                "nationalityValue": "only Czech Republic",
+                                "sex": "Sex",
+                                "male": "male",
+                                "female": "female"
+                            },
+                            "documentAddress": {
+                                "title": "Permanent residence",
+                                "secondary": "(only Czech Republic)",
+                                "street": "Street",
+                                "descriptiveNumber": "Desc. no.",
+                                "orientationNumber": "Or. no.",
+                                "city": "City",
+                                "zip": "ZIP",
+                                "personalData": {
+                                    "title": "We will verify the data provided by you in the basic registers. More about their operation on the website <a href=\"https://www.szrcr.cz/cs/\">Administration of basic registers</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta Money Bank</a>\n\n By pressing Continue, you confirm that all information provided is true, complete, correct and up-to-date."
+                                }
+                            },
+                            "primaryButton": "Continue"
+                        }
+                    }
+                },
+                "secondaryButton": "I will provide the documents later"
+            }
+        }
+    }
+}

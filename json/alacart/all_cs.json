@@ -1,0 +1,335 @@
+{
+    "dashboard": {
+        "existingClient": {
+            "title": "Jste naším klientem, nebo eDisponentem?",
+            "qr": "Přihlaste se QR kódem",
+            "other": "Další způsoby přihlášení",
+            "help": "Kde najdu QR kód?"
+        },
+        "newClient": {
+            "title": "Ještě se neznáme?",
+            "banner": {
+                "title": "Aplikace Moneta má vše, co potřebujete. Účty, karty, spoření, investice, půjčky...",
+                "bullets": [
+                    "Součástí aplikace je běžný účet se vším zdarma"
+                ],
+                "primaryButton": "Vyzkoušet Moneta aplikaci",
+                "secondaryButton": "Naskenovat QR kód z webu"
+            }
+        }
+    },
+    "dashboard_v2": {
+        "title": "Vítejte ve Smart Bance",
+        "scanQR": "Skenovat QR kód",
+        "existingClient": {
+            "icon": "userVerifiedFill",
+            "title": "Jste naším klientem?",
+            "detail": "Nebo disponentem?",
+            "primaryButton": "Přihlásit se"
+        },
+        "newClient": {
+            "icon": "starsAltFill",
+            "title": "Ještě se neznáme?",
+            "detail": "Smart Banka má vše, co potřebujete. Její součástí je běžný účet se vším <b>zdarma</b>.",
+            "primaryButton": "Vyzkoušet Moneta aplikaci",
+            "secondaryButton": "Pokračovat QR kódem z webu"
+        },
+        "changeLanguage": "English",
+        "branches": "Pobočky",
+        "contacts": "Kontakty",
+        "about": "O aplikaci"
+    },
+    "exist": {
+        "whereQR": "Kde najdu QR kód?",
+        "title": "Přihlášení do vašeho účtu je snadné:",
+        "decoupling": {
+            "title": "Pomocí dokladů totožnosti",
+            "detail": "Když u sebe máte peněženku"
+        },
+        "sb": {
+            "title": "QR kódem z jiné Smart Banky",
+            "detail": "Když u sebe máte původní zařízení"
+        },
+        "ib": {
+            "title": "QR kódem z Internet Banky",
+            "detail": "Když jste poblíž počítače"
+        },
+        "elsewhere": "Účet v Monetě zatím nemám"
+    },
+    "products": {
+        "title": "Moneta aplikace se vám přizpůsobí. Nastavte si ji podle svých představ. Běžný účet se vším zdarma je samozřejmostí",
+        "primaryButton": "Pokračovat",
+        "ownSectionTitle": "Ve své Moneta aplikaci najdete",
+        "sections": [
+            {
+                "title": "Další produkty, které vám usnadní hospodaření",
+                "items": [
+                    {
+                        "id": "BUNDLE_CA_DC_CZK",
+                        "deeplink": "CAETB",
+                        "templateId": 1000381,
+                        "icon": "accountFill",
+                        "title": "Běžný účet se vším zdarma",
+                        "subtitle": "Nejoblíbenější účet bez poplatků, s výběry ze všech bankomatů zdarma doma i v zahraničí.",
+                        "pills": [
+                            {
+                                "text": "Zdarma",
+                                "style": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "RETAIL_LOAN",
+                        "deeplink": "EXPRESS",
+                        "templateId": 1000439,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Expres půjčka",
+                        "subtitle": "Půjčku vyřešíte kompletně online a peníze budete mít na účtu do 5 minut od schválení.",
+                        "pills": [
+                            {
+                                "text": "Bez poplatku",
+                                "style": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "TERM_DEPOSIT_SINGLE",
+                        "deeplink": "JTVETB",
+                        "templateId": 1000382,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Termínovaný vklad s extra úrokem až 3,1 % ročně",
+                        "subtitle": "Jisté zhodnocení vašich peněz s garantovaným úrokem. Na 3, 6 nebo 12 měsíců.",
+                        "pills": [
+                            {
+                                "text": "úrok až 3,1 %",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SAVING_ACCOUNT",
+                        "deeplink": "SAVINGSACCOUNT",
+                        "templateId": 1000383,
+                        "icon": "savingsFill",
+                        "title": "Spořicí účet s úrokem až 3,0 %",
+                        "subtitle": "S bonusovým úrokem, spořicími obálkami a okamžitými převody na váš účet.",
+                        "pills": [
+                            {
+                                "text": "Zdarma",
+                                "style": "green"
+                            },
+                            {
+                                "text": "úrok až 3,0 % p. a.",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "FX_MONEY",
+                        "deeplink": "FXACCOUNT",
+                        "templateId": 1000384,
+                        "icon": "walletEarthFill",
+                        "title": "Online směnárna",
+                        "subtitle": "Nejlepší kurzy na bankovním trhu. S platební kartou a výběry v zahraničí zdarma. Směnit můžete EUR i USD.",
+                        "pills": [
+                            {
+                                "text": "Zdarma",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Nejlepší kurzy",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "FA_BUNDLE_CA_DC_SA_CZK",
+                        "deeplink": "FAMILYACCOUNT",
+                        "templateId": 1000385,
+                        "icon": "usersFill",
+                        "title": "Dětský účet",
+                        "subtitle": "Pro vás a vaše děti od 8 do 17 let. Dítě získá vlastní aplikaci, nad kterou budete mít plný dohled.",
+                        "pills": [
+                            {
+                                "text": "Zdarma",
+                                "style": "green"
+                            },
+                            {
+                                "text": "až pro 4 děti",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "UDC_ONLINE",
+                        "deeplink": "UDCONLINE",
+                        "templateId": 1000448,
+                        "icon": "usersFill",
+                        "title": "Sloučení půjček",
+                        "subtitle": "Převeďte si půjčky k nám a ušetřete až 50 %. Kromě toho můžete ihned získat další peníze navíc.",
+                        "pills": [
+                            {
+                                "text": "od 6,33 %",
+                                "style": "green"
+                            },
+                            {
+                                "text": "peníze navíc",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "RETAIL_CREDIT_CARD",
+                        "deeplink": "CCARDETB",
+                        "templateId": 1000447,
+                        "icon": "usersFill",
+                        "title": "Kreditní karta Smart",
+                        "subtitle": "Získejte nyní 5 % zpět z nákupu potravin a 1 % z dalších nákupů.",
+                        "pills": [
+                            {
+                                "text": "0 % úrok až 50 dní",
+                                "style": "green"
+                            },
+                            {
+                                "text": "až 500 Kč měsíčně",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Peníze vám mohou vydělávat. Stačí jen pár stovek",
+                "items": [
+                    {
+                        "id": "INVESTMENTS",
+                        "deeplink": "INVESTMENTS",
+                        "templateId": 1000388,
+                        "icon": "investmentsFill",
+                        "title": "Investice do podílových fondů",
+                        "subtitle": "Přes 40 vybraných fondů z celého světa. Bez vstupního poplatku a s investičním specialistou na telefonu.",
+                        "pills": [
+                            {
+                                "text": "Bez poplatku",
+                                "style": "gold"
+                            },
+                            {
+                                "text": "Zelené fondy",
+                                "style": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BUILDING_SAVING_ACCOUNT",
+                        "deeplink": "BUILDING_SAVINGS",
+                        "templateId": 1000389,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Stavební spoření s výnosem až 6,44 % ročně",
+                        "subtitle": "S garantovaným úrokem a státní podporou.",
+                        "pills": [
+                            {
+                                "text": "Státní podpora",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_DPS",
+                        "deeplink": "DPS_NN",
+                        "templateId": 1000390,
+                        "icon": "faceOldFill",
+                        "title": "Doplňkové penzijní spoření",
+                        "subtitle": "Zhodnoťte své peníze efektivním způsobem. Důchodové spoření poskytujeme ve spolupráci s NN Penzijní společností.",
+                        "pills": [
+                            {
+                                "text": "Daňové výhody",
+                                "style": "gold"
+                            },
+                            {
+                                "text": "Státní podpora",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Pro všechny případy",
+                "items": [
+                    {
+                        "id": "INSURANCE_VALUABLES",
+                        "deeplink": "INSURANCEOFFERS",
+                        "templateId": 1000392,
+                        "icon": "smartBankaFill",
+                        "title": "Pojištění cenností, karet, elektroniky a telefonu",
+                        "subtitle": "Kompenzace v případě zneužití karet, elektronických plateb nebo rozbití telefonu. Včetně IT asistence.",
+                        "pills": [
+                            {
+                                "text": "139 Kč MĚSÍČNĚ",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Po celém světě",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_TRAVEL",
+                        "deeplink": "TRAVELINSURANCE",
+                        "templateId": 1000393,
+                        "icon": "suitcaseRollingFill",
+                        "title": "Cestovní pojištění",
+                        "subtitle": "Dovolená bez starostí, ať už míříte kamkoliv. S garancí kvality ošetření. Ve spolupráci s BNP Paribas Cardif Pojišťovnou, a.s.",
+                        "pills": [
+                            {
+                                "text": "OD 35 Kč/DEN",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Pro vás i rodinu",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_ACCIDENT",
+                        "deeplink": "ACCIDENT_INSURANCE",
+                        "templateId": 1000394,
+                        "icon": "medicalKitFill",
+                        "title": "Úrazové pojištění",
+                        "subtitle": "Komplexní pojištění pro děti, dospělé i celou rodinu platné po celém světě. U dětí s dvojnásobným plněním během prázdnin.",
+                        "pills": [
+                            {
+                                "text": "OD 129 Kč/MĚSÍC",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Dvojnásobné plnění",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_ELECTRONIC_CARDS",
+                        "deeplink": "DIGILIGHT",
+                        "templateId": 1000395,
+                        "icon": "userSecretCardFill",
+                        "title": "Pojištění elektronických plateb",
+                        "subtitle": "I v případě zneužití Smart Banky nebo Internet Banky.",
+                        "pills": [
+                            {
+                                "text": "29 Kč/MĚSÍC",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Nahlášení online",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

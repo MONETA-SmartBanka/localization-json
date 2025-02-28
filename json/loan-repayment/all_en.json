@@ -1,0 +1,80 @@
+{
+    "errorScreens": {
+        "defaultError": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Zkuste to prosím za chvíli znovu.\nPokud by se to opakovalo, kontaktujte nás.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "lowBalance": {
+            "title": "Nemáte na účtu dostatek prostředků",
+            "detail": "Nejprve si prosím převeďte dostatek prostředků pro doplacení úvěru na Váš účet {0}.",
+            "amount": "Částka",
+            "interestAmount": "Naběhlé úroky a úhrady",
+            "fees": "Náklady za předčasné splacení",
+            "totalAmount": "Celkem zaplatíte",
+            "primaryButton": "Zpět"
+        }
+    },
+    "scenes": {
+        "full": {
+            "title": "Doplacení",
+            "sourceAccount": "Odejde z účtu",
+            "sourceAccountInfo": "Ujistěte se, že budete mít na účtu nejméně {0}. V opačném případě doplacení neproběhne. Pokud chcete splatit jen část úvěru, využijte mimořádnou splátku.",
+            "amount": "Částka",
+            "interestAmount": "Naběhlé úroky a úhrady",
+            "fees": "Náklady za předčasné splacení",
+            "totalAmount": "Celkem zaplatíte",
+            "nextPaymentInfo": "Zajistěte si prosím na účtu dostatečný zůstatek také pro další pravidelnou splátku, která vychází na {0} a není zde započtená.",
+            "repaymentDate": "Datum splacení",
+            "processInfo": "Žádost o doplacení zpracujeme za 3 pracovní dny. Až bude vše hotovo, dáme vám vědět do Smart Banky a Internet Banky.",
+            "primaryButton": "Pokračovat k podpisu"
+        },
+        "extra": {
+            "title": "Mimořádná splátka",
+            "description": "Požadavek začneme zpracovávat ihned. Dále splácejte jak jste zvyklí, datum a výše měsíční splátky se nemění.",
+            "sourceAccount": "Odejde z účtu",
+            "amount": "Částka",
+            "amountDescription": "Zbývá z jistiny: {0}",
+            "amountErrorNotEnough": "Částka je vyšší než zůstatek na vašem účtu.",
+            "amountErrorFullRepayment": "Částka je vyšší než zbývající jistina. Chcete ji doplatit? Vyberte prosím doplacení půjčky.",
+            "fees": "Náklady za předčasné splacení",
+            "remainingRepayments": "Zbývající počet splátek",
+            "totalAmount": "Celkem zaplatíte",
+            "repaymentDate": "Datum splacení",
+            "primaryButton": "Pokračovat k podpisu"
+        },
+        "interestInfo": {
+            "title": "Naběhlé úroky a úhrady",
+            "detail": "Jedná se o úroky ke dni předčasného splacení, případné úroky a úhrady za pojištění odložené v rámci odkladu splátek a další případné poplatky."
+        },
+        "feesInfo": {
+            "title": "Náklady za předčasné splacení",
+            "detail": "Částka zahrnuje účelně vynaložené náklady související s předčasným splacením. A to v maximální výši 0,5% z předčasně splacené jistiny (pokud je doba mezi předčasným splacením a sjednanou dobou splatnosti kratší než jeden rok) nebo ve výši 1% pokud je tato doba delší."
+        },
+        "fullVictory": {
+            "title": "Hotovo!\nDoplacení proběhne za 3 pracovní dny",
+            "detail": "Pokud si to do té doby rozmyslíte, můžete ho zrušit v detailu úvěru.\n\nPotvrzení o doplacení vám následně pošleme do Smart Banky a Internet Banky.",
+            "balanceInfo": "Ujistěte se, že budete mít {0} na účtu nejméně {1}. V opačném případě doplacení neproběhne.",
+            "balanceNextPaymentInfo": "Zajistěte si prosím na účtu dostatečný zůstatek také pro další pravidelnou splátku, která vychází na {0} a není zde započtená.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "extraVictory": {
+            "title": "Hotovo!\nMimořádná splátka je odeslaná",
+            "detail": "Zbývající částku k doplacení najdete v detailu úvěru.\n\nDále splácejte jak jste zvyklí. Datum a výše měsíční splátky se nemění.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "storno": {
+            "title": "Chcete zrušit doplacení úvěru?",
+            "detail": "Pokud ho zrušíte, budete pokračovat ve splácení jako doposud.",
+            "primaryButton": "Zrušit doplacení",
+            "secondaryButton": "Zpět"
+        },
+        "stornoVictory": {
+            "title": "Žádost o doplacení jsme stornovali",
+            "detail": "Splácet budete stejně jako dříve.\nVaše příští splátka {0} Kč je plánovaná na {1}.",
+            "primaryButton": "Zpět na Přehled"
+        }
+    }
+}

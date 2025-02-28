@@ -1,0 +1,129 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "title": "Hypotéka",
+        "partial": "Mimořádná splátka",
+        "full": "Doplatit hypotéku",
+        "amount": "Částka",
+        "amountFull": "Žádost o doplacení hypotéky",
+        "amountPart": "Žádost o mimořádnou splátku",
+        "remains": "Zbývá doplatit",
+        "amountI": "Bez úhrady nákladů lze doplatit maximálně {{amount}}",
+        "date": "Datum splátky",
+        "dateI": "Nejbližší možné datum mimořádné splátky bez úhrady nákladů je {{date}}.\n\nNa vyřízení žádosti o mimořádnou splátku potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
+        "dateIFull": "Na vyřízení žádosti o doplacení potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
+        "fee": "Náklady",
+        "type": {
+            "title": "Úprava splácení",
+            "i": "Požadujete snížení splátky při zachování doby splatnosti anebo zachování stejné splátky při zkrácení doby splatnosti?",
+            "short": "Zkrácení splatnosti",
+            "shortI": "Úhradou mimořádné splátky dojde ke zkrácení doby splatnosti Vašeho hypotečního úvěru. Výše měsíční splátky zůstane zachována.",
+            "lower": "Snížení splátky",
+            "lowerI": "Úhradou mimořádné splátky dojde ke snížení měsíční splátky, doba splatnosti Vašeho úvěru zůstane zachována.",
+            "lowerInsurance": "Se změnou výše anuitní splátky se změní i výše měsíční úhrady za pojištění od BNP Paribas Cardif Pojišťovna, a.s., pokud jste ji měli sjednánu ve Smlouvě o hypotečním úvěru."
+        },
+        "next": "Pokračovat",
+        "repay": "Doplatit",
+        "payment": "{{date}} – řádná splátka",
+        "finalBank": "{{date}} – {{bank}} doplatí Vaši hypotéku.",
+        "final": "{{date}} – dojde k doplacení Vaší hypotéky. Mějte prosím na účtu dostatek finančních prostředků.",
+        "finalDate": "Datum doplacení",
+        "repaymentReasons": {
+            "refinancing": { "label": "Refinancování", "order": 1 },
+            "sale": { "label": "Prodej nemovitosti", "order": 3 },
+            "other": { "label": "Jiné", "order": 10 },
+            "ownFunds": { "label": "Vlastní peněžní prostředky k dispozici", "order": 2 },
+            "saleBefore24Months": { "label": "Prodej nemovitosti do 24 měsíců trvání hypotéky", "order": 4 },
+            "saleAfter24Months": { "label": "Prodej nemovitosti po 24 měsících trvání hypotéky", "order": 5 },
+            "communityPropertySettlement": { "label": "Vypořádání SJM po 24 měsících trvání hypotéky", "order": 6 },
+            "longTermDisease": { "label": "Dlouhodobá nemoc", "order": 7 },
+            "disability": { "label": "Invalidita", "order": 8 },
+            "death": { "label": "Úmrtí", "order": 9 }
+        },
+        "reason": {
+            "title": "Důvod",
+            "refinancing": "Refinancování",
+            "sale": "Prodej nemovitosti",
+            "other": "Jiný",
+            "i": "Pokud v nabídce není volba, která odpovídá Vaší situaci, zvolte možnost \"jiné\""
+        },
+        "bank": "Refinancování do banky",
+        "bankText": "Prosím vyberte Refinancování do banky",
+        "registry": "Vystavit souhlas pro katastr",
+        "registryI": "Zaškrtněte, pokud chcete vystavit souhlas se zřízením zástavního práva v druhém pořadí a věcného práva zákazu zcizení a zatížení.\n\nPokud jste měli v plánu rušit běžný účet, učiňte tak nejdříve 40 dní od podání žádosti.",
+        "marriage": "Pokud použité finanční prostředky tvoří společné jmění manželů, prohlašuji, že druhý z manželů o splacení ví a souhlasí s ním.",
+        "source": {
+            "title": "Původ prostředků",
+            "heritage": "Dědictví",
+            "workIncome": "Příjmy ze zaměstnání",
+            "businessIncome": "Příjmy z podnikání",
+            "rentalIncome": "Příjmy z pronájmu",
+            "gift": "Dar",
+            "saleOfVirtualAssets": "Prodej virtuálních aktiv",
+            "saleOfOtherProperty": "Prodej jiného majetku",
+            "other": "Jiný",
+            "i": "Uveďte prosím, jaký je zdroj peněžních prostředků použitých pro mimořádnou splátku / doplacení hypotéky.",
+            "text": "Prosím zadejte původ"
+        },
+        "originOfFunds": {
+            "workIncome": "Příjmy ze zaměstnání",
+            "businessIncome": "Příjmy z podnikání",
+            "gift": "Dar",
+            "heritage": "Dědictví",
+            "other": "Jiný",
+            "rentalIncome": "Příjmy z pronájmu",
+            "saleOfVirtualAssets": "Prodej virtuálních aktiv",
+            "saleOfOtherProperty": "Prodej jiného majetku",
+            "saleOfProperty": "Prodej nemovitého majetku"
+        },
+        "detailButton": {
+            "base": "Mimořádná splátka, předčasné doplacení nebo refinancování",
+            "progress": "Zpracováváme mimořádnou splátku",
+            "full": "Zpracováváme předčasné doplacení",
+            "all": "Zpracováváme mimořádnou splátku nebo předčasné doplacení"
+        },
+        "error": {
+            "title": "Předčasnou splátku nebo mimořádné splacení Vám ve Smart Bance neumíme nabídnout",
+            "description": "Problém bude asi v datu splacení. Pro více informací nás prosím kontaktujte."
+        },
+        "victory": "Vaši žádost zpracováváme. Následující pracovní den najdete potřebné dokumenty ve Smart Bance v sekci Moje dokumenty.",
+        "refresh": {
+            "button": "Přepočítat vyčíslení",
+            "title": "Chcete aktualizovat výši částky k doplacení?",
+            "subtitle": "Dojde k aktualizaci a novému vygenerování dokumentu včetně aktualizované částky k doplacení. Schváleno žádost měnit nelze. Pokud potřebujete provést změny přímo v žádosti, je potřeba ji nejdříve stornovat a poté žádat znovu.",
+            "ok": "Aktualizovat"
+        },
+        "documents": "Potvrzení Žádosti o mimořádnou splátku",
+        "documentsFinal": "Potvrzení Žádosti o doplacení úvěru",
+        "storno": {
+            "button": "Storno žádosti",
+            "fullTitle": "Chcete stornovat žádost o doplacení?",
+            "fullMessage": "Pokud ji stornujete, doplacení hypotéky neproběhne. Ve splácení budete pokračovat jako předtím.",
+            "partialTitle": "Chcete stornovat žádost o mimořádnou splátku?",
+            "partialMessage": "Pokud ji stornujete, neproběhne žádná mimořádná splátka. Ve splácení budete pokračovat jako předtím.",
+            "victory": "Na Vaši žádost jsme předčasné splacení hypotéky stornovali."
+        },
+        "mortgageId": "Číslo hypotečního úvěru",
+        "review": {
+            "full": "Zkontrolujte žádost o doplacení hypotéky",
+            "partial": "Zkontrolujte nastavení mimořádné splátky"
+        },
+        "accountType": {
+            "title": "Typ účtu",
+            "standard": "Běžný účet",
+            "tech": "Technický účet",
+            "i": "Vyberte, jestli mimořádnou splátku provedete z běžného účtu, který standardně využíváte pro splácení hypotéky. V ostatních případech zvolte technický účet."
+        },
+        "remedial": {
+            "title": "Žádost o mimořádnou splátku nebo doplacení hypotéky nelze v tuto chvíli provést",
+            "description": "Obraťte se prosím na <a href=\"mailto:remedialhypo@moneta.cz\">remedialhypo@moneta.cz</a>"
+        },
+        "overdue": {
+            "title": "Nejdříve prosím doplaťte dlužnou částku, až poté lze provést mimořádnou splátku nebo doplacení hypotéky",
+            "description": ""
+        },
+        "infoFees": "Informace o nákladech najdete pod info ikonami.",
+        "inProgress": "<b>Váš požadavek zpracováváme.</b> Pokud zde nevidíte aktuální informace (výše splátky/doplacení, náklady apod.), zkuste to prosím v průběhu následujícího pracovního dne.",
+        "feeNote": "Náhrada účelně vynaložených nákladů souvisejících s předčasným splacením."
+    }
+}

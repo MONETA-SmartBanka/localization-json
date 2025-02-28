@@ -1,0 +1,296 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "primaryButton": "Zpět"
+            },
+            "branch": {
+                "title": "Navštivte nás na pobočce",
+                "detail": "Je nám líto, ale pro Vás zatím neumíme účet založit přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Ukončit žádost"
+            },
+            "precontractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od aktivace Smart Banky Vás dělí jen krůček. Abychom mohli pokračovat, potřebujeme od Vás souhlas s produktovými podmínkami a podpis smlouvy. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od aktivace Smart Banky Vás dělí jen krůček. Abychom mohli pokračovat, potřebujeme od Vás souhlas s produktovými podmínkami a podpis smlouvy. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Vítejte ve Smart Bance",
+            "toolbarCreateTitle": "Aktivace Smart Banky",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
+        },
+        "scenes": {
+            "intro": {
+                "toolbarTitle": "Vytvoření účtu",
+                "title": "Se Smart Bankou Vám aktivujeme běžný účet za 0 Kč",
+                "detail": "Účet <b>zdarma</b> a <b>bez podmínek</b>",
+                "imageUrl": "/cbl_images/card_logos/800_14100.png",
+                "richBullets": [
+                    {
+                        "text": "Založení a vedení účtu",
+                        "price": 0
+                    },
+                    {
+                        "text": "Příchozí platby v ČR (elektronicky)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Odchozí platby v ČR (elektronicky)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Výběry ze všech bankomatů v ČR",
+                        "price": 0
+                    },
+                    {
+                        "text": "Výběry ze všech bankomatů v zahraniční",
+                        "price": 0
+                    },
+                    {
+                        "text": "SEPA platby v EU (elektronicky)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Debetní karta",
+                        "price": 0
+                    },
+                    {
+                        "text": "Placení mobilem (Apple a Google Pay)",
+                        "price": 0
+                    },
+                    {
+                        "text": "Okamžité platby",
+                        "price": 0,
+                        "info": "Okamžitá platba dorazí příjemci do pár vteřin.\nStačí, aby je konkrétní banka podporovala.\nMy jsme na ně připraveni."
+                    },
+                    {
+                        "text": "Elektronické výpisy",
+                        "price": 0
+                    },
+                    {
+                        "text": "<a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-platebni-a-neplatebni-sluzby-fon.pdf\">Celý Sazebník poplatků</a>"
+                    }
+                ],
+                "icons": [
+                    {
+                        "text": "Výhodné \n<b>spoření</b>",
+                        "image": "/cbl_images/current-account/sporeni",
+                        "infoScreen": {
+                            "title": "Výhodné spoření",
+                            "detail": "Založte si spořicí účet přímo ve Smart Bance. <b>Zřízení i vedení účtu je zdarma</b> a bez jakýchkoliv poplatků. Ke svým penězům se pak dostanete <b>kdykoliv</b> je budete potřebovat.\n\nU spořícího účtu si můžete nastavit vlastní obálky a sledovat, jak se plní Vaše sny. Stačí obálku pojmenovat, nastavit cílovou částku a můžete spořit."
+                        }
+                    },
+                    {
+                        "text": "Jednoduché \n<b>investování</b>",
+                        "image": "/cbl_images/current-account/investovani",
+                        "infoScreen": {
+                            "title": "Jednoduché investování",
+                            "detail": "Investujte už od několika stokorun. Se Smart Bankou je to snadné. <b>Provedeme Vás nákupem, prodejem a napovíme Vám</b>, jak své investice sledovat.\n\nNovou a přehlednější správu portfolia ocení i zkušení investoři."
+                        }
+                    },
+                    {
+                        "text": "Výhodné\n<b>kurzy</b>",
+                        "image": "/cbl_images/current-account/kurzy",
+                        "infoScreen": {
+                            "title": "Výhodné kurzy",
+                            "detail": "Směňte si v aplikaci české koruny za eura nebo americké dolary. Každý všední den od 8 do 16 hodin získáte <b>jeden z nejvýhodnějších kurzů na trhu</b>. Převod proběhne okamžitě. <b>Bez poplatků</b> a starostí na přepážce.\n\n<b>Jak to funguje?</b>\n\nPři první směně ve Směnárně Vám zdarma založíme účet v dané cizí měně (EUR/USD) a připíšeme na něj Vámi směněnou částku. Vedení účtu je bezplatné a můžete ho kdykoli zrušit. Pro větší pohodlí k němu získáte platební kartu bez jakýchkoliv poplatků."
+                        }
+                    },
+                    {
+                        "text": "<b>Půjčka i kreditka</b>\nonline",
+                        "image": "/cbl_images/current-account/express",
+                        "infoScreen": {
+                            "title": "Půjčka i kreditka online",
+                            "detail": "Sjednejte si Expres půjčku ve výši až 500 000 Kč ve Smart Bance. Celý proces trvá <b>jen pár minut</b> a peníze Vám v případě schválení dorazí do 5 minut na účet.\n\nVe Smart Bance si můžete sjednat také kreditní kartu Smart. Ta Vám vrátí 1 % z Vašich nákupů tam, kde nejčastěji nakupujete. Zároveň Vás odmění až 20 % u partnerů programu bene+. Už druhý den od sjednání s ní můžete platit telefonem pomocí <b>Apple Pay nebo Google Pay</b>."
+                        }
+                    }
+                ],
+                "footnote": {
+                    "text": "<a href=\"https://www.moneta.cz/ucty-a-karty/bezny-ucet\">Více o účtu Tom Plus</a>"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "acquisitionVerification": {
+                "toolbarTitle": "Ověření totožnosti",
+                "title": "Hotovo!\nTeď to musíme zkontrolovat my",
+                "detail": "V pracovní dny to zvládneme přibližně za 10 minut. <b>Aplikaci můžete nyní zavřít. Po kontrole můžete pokračovat.</b>",
+                "primaryButton": "Odhlásit se"
+            },
+            "acquisitionVerificationIntro": {
+                "toolbarTitle": "Ověření totožnosti",
+                "title": "Ověření totožnosti pomocí fotoaparátu",
+                "detail": [
+                    "Potřebujeme ověřit, že jste to opravdu Vy a nikdo se za Vás nevydává. Proto si nahrajeme krátké video Vašeho obličeje.",
+                    "Pomocí jednoduchých gest (otočením hlavou doleva a doprava, úsměv) získáme maximálně přesné ověření.",
+                    "Hned po ověření totožnosti všechny záznamy smažeme. Vaše soukromí a bezpečnost je pro nás nejdůležitější."
+                ],
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "acquisitionIntroduction": {
+                "title": "Před pokračováním doplňte své údaje",
+                "wueTitle": "Vítáme klienty Wüstenrot. Nyní propojíme Vaše produkty:",
+                "detail": "Pokračováním souhlasím s tím, že informace mohou být jednorázově zaslány nešifrovnaným způsobem na výše uvedenou e-mailovou adresu a telefonní číslo. Dále beru na vědomí <a href=\"personalData\">zásady zpracování osobní údajů</a> v koncernu MONETA.",
+                "primaryButton": "Pokračovat",
+                "checkboxMarketing": "<b>O všem budete vědět jako první</b><br>Souhlasím se zpracováním mých údajů pro zasílání nabídek koncernu MONETA. Zasílání mohu kdykoliv zrušit. <a href=\"marketingConsent\">Více</a>",
+                "checkboxUnsecured": "<b>Můžeme si volat a psát jednoduše</b><br>Chci, aby se mnou koncern MONETA komunikoval běžným, nešifrovaným způsobem na můj e-mail a telefon. <a href=\"unencryptedCommunication\">Více</a>",
+                "checkboxIM": "<b>Můžeme spolu chatovat</b><br>Souhlasím s komunikací s koncernem MONETA přes WhatsApp a jiné aplikace pro zasílání zpráv. <a href=\"instantMessaging\">Více</a>",
+                "instantMessaging": {
+                    "title": "Souhlas s komunikací běžným způsobem přes WhatsApp, případně pomocí jiné aplikace pro okamžité zasílání zpráv.",
+                    "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606, IČO: 607 51 606 a MONETA Stavební Spořitelna, a.s., IČO: 471 15 289) mohou komunikovat běžným způsobem prostřednictvím platformy WhatsApp, případně jiné aplikace pro okamžité zasílání zpráv, zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených s výše uvedenými společnostmi. Seznam aktuálně využívaných aplikací pro okamžité zasílání zpráv je dostupný na stránce <a href=\"https://moneta.cz/kontakt/souhlas-aplikace\">https://moneta.cz/kontakt/souhlas-aplikace</a>.<br><br>Koncern MONETA se mnou bude komunikovat prostřednictvím telefonních čísel +420 224 443 636 a +420 728 133 133."
+                },
+                "firstName": "Jméno*",
+                "lastName": "Příjmení*",
+                "birthNumber": "Rodné číslo*",
+                "email": "Email*",
+                "phone": "Telefon*",
+                "code": "Váš unikátní kód",
+                "codeInfo": "Váš unikátní kód naleznete ve svém emailu",
+                "errors": {
+                    "LOGIN_BLOCKED": {
+                        "title": "Něco se vymňouklo",
+                        "detail": "Důvodů může být víc, rádi Vám poradíme na infolince."
+                    },
+                    "OK": {
+                        "title": "Něco se vymňouklo",
+                        "detail": "Důvodů může být víc, rádi Vám poradíme na infolince."
+                    },
+                    "LOGIN_FAILED": {
+                        "title": "Něco tu nesedí",
+                        "detail": "Opravte zadané údaje a pokračujte v procesu."
+                    },
+                    "ACTIVATE_VIA_IB": {
+                        "title": "Aktivujte svou Smart Banku",
+                        "detail": "Abyste mohli pokračovat, aktivujte Smart Banku v Internet Bance."
+                    },
+                    "GO_TO_BRANCH": {
+                        "title": "Něco se vymňouklo",
+                        "detail": "Bohužel to tady nevyřešíme. Zastavte se prosím za námi na pobočku."
+                    }
+                },
+                "marketingConsent": {
+                    "title": "Souhlas se zasíláním marketingových sdělení",
+                    "detail": "Souhlasím se zpracováním svých osobních údajů, zejména identifikačních a kontaktních údajů, informací o bankovních obchodech a údajů vzniklých v průběhu využívání produktů a služeb a dalších osobních údajů, které jsem sdělil/a, v budoucnu sdělím, nebo které jiným oprávněným způsobem získají společnosti koncernu MONETA ( MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606, MONETA Stavební Spořitelna a.s., IČO: 471 15 289 a Wüstenrot hypoteční banka a.s., IČO: 267 47 154) pro přípravu nabídky na míru a oslovení s nabídkou produktů nebo služeb."
+                },
+                "unencryptedCommunication": {
+                    "title": "Souhlas se zasíláním nešifrované komunikace",
+                    "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a. s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606, MONETA Stavební Spořitelna a.s., IČO: 471 15 289 a Wüstenrot hypoteční banka a.s., IČO: 267 47 154) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
+                },
+                "personalData": {
+                    "title": "Informace o zpracovávání údajů",
+                    "detail": "Pro uzavření smlouvy je nezbytné zpracovávat Vaše osobní údaje, a to za účelem přípravy smluvní dokumentace, ověření Vaší důvěryhodnosti a platební morálky a pro ochranu oprávněných zájmů banky. Více informací o zpracování Vašich osobních údajů, dalších účelech, pro které mohou být zpracovávány, právních důvodech pro jejich zpracování a Vašich právech najdete v dokumentu Informace o zpracování osobních údajů dostupném na <a href=\"https://www.moneta.cz/ochrana-dat\">https://www.moneta.cz/ochrana-dat</a>."
+                }
+            },
+            "acquisitionPrecontract": {
+                "title": "Projděte si prosím Smlouvu o Smart Bance Mini",
+                "checkboxLabel": "Přečetl jsem si a souhlasím s produktovými podmínkami <a href=\"https://www.moneta.cz/documents/cz/smartbanka/produktove_podminky_smart_banka_mini.pdf\">Smart Banky Mini</a>.",
+                "primaryButton": "Rozumím a souhlasím"
+            },
+            "acquisitionSmsSent": {
+                "title": "Podepište SMS, kterou jsme Vám poslali na telefon",
+                "detail": "Kód z SMS",
+                "noSMS": "SMS mi nepřišla",
+                "primaryButton": "Pokračovat",
+                "noSMSPopup": {
+                    "title": "SMS Vám nepřišla?",
+                    "detail": "Nevadí, pošlete si ji znovu.",
+                    "primaryButton": "Znovu poslat",
+                    "secondaryButton": "Zrušit"
+                },
+                "errors": {
+                    "SMS_CANNOT_SEND": "SMS se nepodařilo odeslat, prosím zkuste to znovu.",
+                    "SMS_FAILED": "SMS se nepodařilo odeslat. Nechte si poslat novou.",
+                    "SMS_LIMIT_EXCEEDED": "Překročili jste maximální počet odeslaných SMS. Začněte prosím proces od začátku.",
+                    "BAD_MK": "Zadali jste špatný kód, opiště ho prosím ještě jednou.",
+                    "MK_EXPIRED": "SMS kód vypršel. Nechte si poslat nový.",
+                    "CANNOT_VERIFY": "Nepodařilo se nám ověřit SMS kód. Zastavte se prosím za námi na pobočku."
+                }
+            },
+            "acquisitionPinCreate": {
+                "title": "Zvolte svůj PIN pro přihlašování do aplikace"
+            },
+            "acquisitionDisagreement": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od Smart Banky Mini Vás dělí už jen krůček. Abychom Vám ji mohli poskytnout, potřebujeme od Vás souhlas s předsmluvními informacemi a podpis smlouvy.<br><br><b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit",
+                "primaryButton": "Pokračovat"
+            },
+            "acquisitionSign": {
+                "title": "Podepište smlouvu zvoleným PINem"
+            },
+            "documentUpload": {
+                "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
+                "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
+                "primaryButton": "Pokračovat",
+                "uploadedDocument": {
+                    "title": "<b>Vyfoťte prosím obě strany svého občanského průkazu.</b>",
+                    "labels": [
+                        "Přidejte přední stranu<br>občanského průkazu",
+                        "Přidejte zadní stranu<br>občanského průkazu"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Vyberte způsob nahrání dokumentu",
+                    "camera": "Vyfotit",
+                    "photos": "Vybrat z galerie",
+                    "files": "Vybrat ze souborů"
+                }
+            },
+            "documentUploadReview": {
+                "title": "Přečetli jsme vše správně?",
+                "firstName": "Jméno",
+                "lastName": "Příjmení",
+                "birthNumber": "Rodné číslo",
+                "city": "Město",
+                "descriptiveNumber": "Č. popisné",
+                "orientationNumber": "Č. orientační",
+                "idCardNumber": "Číslo dokladu",
+                "idCardValidTo": "Platnost do",
+                "citizenship": "Státní občanství",
+                "street": "Ulice",
+                "zipCode": "PSČ",
+                "primaryButton": "Ano, pokračovat",
+                "secondaryButton": "Vyfotit znovu"
+            },
+            "documentUploadRetry": {
+                "title": "Jejda, takhle to nepůjde",
+                "detail": "Nepodařilo se nám načíst Vaše údaje. Ujistěte se prosím, že fotíte za dobrého osvětlení a texty jsou ostré a čitelné.",
+                "tryAgain": "Zkusme to ještě jednou:",
+                "primaryButton": "Vyfotit znovu"
+            },
+            "helpUploadDocument": {
+                "title": "Bez aktuálního dokladu to bohužel nepůjde",
+                "toolbarTitle": "Ověření totožnosti",
+                "detail": "Ve Vašich osobních údajích nastala změna, kterou je třeba potvrdit fotografií Vašich aktuálních dokladů. Focení je u nás samozřejmě zabezpečené a zabere jen minutku. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "scoring": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+            }
+        }
+    }
+}

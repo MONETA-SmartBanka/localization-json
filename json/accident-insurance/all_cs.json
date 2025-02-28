@@ -1,0 +1,330 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Něco se vymňouklo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
+                "detail": "Omlouváme se, ale momentálně není možné pokračovat s úrazovým pojištěním ve Smart Bance.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "primaryButton": "Zpět na přehled zůstatků"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte ke smlouvě nějaké otázky? Kontaktujte nás, rádi Vám pomůžeme.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání žádosti"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Úrazové pojištění",
+            "toolbarCreateTitle": "Úrazové pojištění",
+            "phoneNumberSupport": "234 240 240",
+            "phoneNumberSale": "224 443 636",
+            "messengerUrl": "https://m.me/138479367229"
+        },
+        "codeTable": [
+            {
+                "code": "ACCIDENT_INSURANCE",
+                "text": "Úrazové pojištění"
+            },
+            {
+                "code": "INSURANCE_ACC_J_PARENT_CARDIF",
+                "text": "Junior"
+            },
+            {
+                "code": "INSURANCE_ACC_ADULT_CARDIF",
+                "text": "Single"
+            },
+            {
+                "code": "INSURANCE_ACC_FAMILY_CARDIF",
+                "text": "Rodina"
+            }
+        ],
+        "scenes": {
+            "accidentInsuranceIntro": {
+                "title": "Úrazové pojištění",
+                "image": "/cbl_images/accident-insurance/intro/image",
+                "bullets": [
+                    "<b>Úrazové pojištění</b> pro děti, dospělé i celou rodinu platné po celém světě.",
+                    "Dvojnásobné plnění v případě dopravní nehody.",
+                    "<b>U dětí je pojistné plnění dvojnásobné i během všech prázdnin</b>.",
+                    "Již od 129 Kč/měs. Dle zvoleného balíčku (Junior, Single, Rodina)."
+                ],
+                "detail": "Pojištění Vám pomůže zmírnit finanční dopady spojené s léčbou a následnou rekonvalescencí po úrazu.",
+                "note": "Úrazové pojištění poskytujeme ve spolupráci s BNP Paribas Cardif pojišťovna, a.s.",
+                "primaryButton": "Pokračovat"
+            },
+            "accidentInsuranceSubtype": {
+                "title": "Koho chcete pojistit?",
+                "options": [
+                    {
+                        "code": "INSURANCE_ACC_J_PARENT_CARDIF",
+                        "title": "Junior",
+                        "price": "129 CZK",
+                        "currency": "CZK",
+                        "unit": " / měsíc",
+                        "description": "Pro ochranu Vašeho dítěte a Vás v případě jeho ošetřování a doprovodu v nemocnici. S dvojnásobným plněním během všech prázdnin nebo v případě dopravní nehody.",
+                        "limits": {
+                            "title": "Junior: Vybrané pojistné částky",
+                            "values": [
+                                {
+                                    "title": "Trvalé následky úrazu",
+                                    "price": "až 400 000",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "až 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Chirurgický zákrok v důsledku úrazu",
+                                    "price": "až 30 000",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "až 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospitalizace v důsledku úrazu<br/>+ následná rekonvalescence",
+                                    "price": "1 800",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Ošetřování člena rodiny po úrazu",
+                                    "price": "600",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Doprovod dítěte v nemocnici",
+                                    "price": "600",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                }
+                            ],
+                            "detail": "Konkrétní částku, která Vám bude v případě úrazu vyplacena, stanovuje procento z pojistných částek podle závažnosti úrazu.",
+                            "terms": "Co je pojištěno a jaké jsou limity?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Parametry pojištění",
+                            "values": [
+                                {
+                                    "title": "Vstupní věk:",
+                                    "value": "Do 18 let"
+                                },
+                                {
+                                    "title": "Konec pojistné ochrany:",
+                                    "value": "Dosažením 27 let dítěte"
+                                },
+                                {
+                                    "title": "Začátek pojištění:",
+                                    "value": "Zítra, {{tomorrowDate}} od 0:00 hodin"
+                                },
+                                {
+                                    "title": "Konec pojištění:",
+                                    "value": "Poslední den kalendářního roku, ve kterém Vaše dítě dosáhlo 27 let."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": "INSURANCE_ACC_ADULT_CARDIF",
+                        "title": "Single",
+                        "price": "199 CZK",
+                        "currency": "CZK",
+                        "unit": " / měsíc",
+                        "description": "Pojištění pro Vás, majitele tohoto běžného účtu. S dvojnásobným plněním při dopravní nehodě.",
+                        "limits": {
+                            "title": "Single: Vybrané pojistné částky",
+                            "values": [
+                                {
+                                    "title": "Trvalé následky úrazu",
+                                    "price": "až 400 000",
+                                    "alternativeTitle": "V případě dopravní nehody",
+                                    "alternativePrice": "až 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Chirurgický zákrok v důsledku úrazu",
+                                    "price": "až 30 000",
+                                    "alternativeTitle": "V případě dopravní nehody",
+                                    "alternativePrice": "až 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospitalizace v důsledku úrazu<br/>+ následná rekonvalescence",
+                                    "price": "1 800",
+                                    "alternativeTitle": "V případě dopravní nehody",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Ošetřování člena rodiny po úrazu",
+                                    "price": "600",
+                                    "alternativeTitle": "V případě dopravní nehody",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Doprovod dítěte v nemocnici",
+                                    "price": "600",
+                                    "alternativeTitle": "V případě dopravní nehody",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                }
+                            ],
+                            "detail": "Konkrétní částku, která Vám bude v případě úrazu vyplacena, stanovuje procento z pojistných částek podle závažnosti úrazu.",
+                            "terms": "Co je pojištěno a jaké jsou limity?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Parametry pojištění",
+                            "values": [
+                                {
+                                    "title": "Vstupní věk:",
+                                    "value": "18–65 let"
+                                },
+                                {
+                                    "title": "Konec pojistné ochrany:",
+                                    "value": "70 let"
+                                },
+                                {
+                                    "title": "Začátek pojištění:",
+                                    "value": "Zítra, {{tomorrowDate}} od 0:00 hodin"
+                                },
+                                {
+                                    "title": "Konec pojištění:",
+                                    "value": "Poslední den roku, ve kterém dospělý dosáhl věku 70 let."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "code": "INSURANCE_ACC_FAMILY_CARDIF",
+                        "title": "Rodina",
+                        "price": "359 CZK",
+                        "currency": "CZK",
+                        "unit": " / měsíc",
+                        "description": "Pro Vás, Vašeho partnera a všechny děti. Pro ně navíc s dvojnásobným plněním během prázdnin nebo v případě dopravní nehody.",
+                        "limits": {
+                            "title": "Rodina: Vybrané pojistné částky",
+                            "values": [
+                                {
+                                    "title": "Trvalé následky úrazu",
+                                    "price": "až 400 000",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "až 800 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Chirurgický zákrok v důsledku úrazu",
+                                    "price": "až 30 000",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "až 60 000",
+                                    "unit": "CZK"
+                                },
+                                {
+                                    "title": "Hospitalizace v důsledku úrazu<br/>+ následná rekonvalescence",
+                                    "price": "1 800",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "3 600",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Ošetřování člena rodiny po úrazu",
+                                    "price": "600",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                },
+                                {
+                                    "title": "Doprovod dítěte v nemocnici",
+                                    "price": "600",
+                                    "alternativeTitle": "O prázdninách nebo při dopravní nehodě",
+                                    "alternativePrice": "1 200",
+                                    "unit": "CZK/den"
+                                }
+                            ],
+                            "detail": "Konkrétní částku, která Vám bude v případě úrazu vyplacena, stanovuje procento z pojistných částek podle závažnosti úrazu.",
+                            "terms": "Co je pojištěno a jaké jsou limity?",
+                            "termsLink": "https://www.moneta.cz/documents/20143/11819140/mmb-brozura-co-je-pojisteno-a-limity-pojistneho-plneni.pdf"
+                        },
+                        "parameters": {
+                            "title": "Parametry pojištění",
+                            "values": [
+                                {
+                                    "title": "Vstupní věk:",
+                                    "value": "18–65 let pro dospělé, 0–18 let pro děti."
+                                },
+                                {
+                                    "title": "Konec pojistné ochrany:",
+                                    "value": "70 let pro dospělé, 18 let pro děti."
+                                },
+                                {
+                                    "title": "Začátek pojištění:",
+                                    "value": "Zítra, {{tomorrowDate}} od 0:00 hodin"
+                                },
+                                {
+                                    "title": "Konec pojištění:",
+                                    "value": "Poslední den roku, ve kterém dospělý dosáhl věku 70 let nebo dítě věku 18 let."
+                                }
+                            ]
+                        }
+                    }
+                ],
+                "primaryButton": "Pokračovat"
+            },
+            "accidentInsuranceJunior": {
+                "title": "Úrazové pojištění: Junior",
+                "detail": "Základní údaje o dítěti",
+                "firstName": "Jméno",
+                "lastName": "Příjmení",
+                "personalNumber": "Rodné číslo",
+                "info": "Rodné číslo zadávejte včetně čísla za lomítkem",
+                "checkbox": "Prohlašuji, že sjednávám pojištění pro vlastní nebo osvojené dítě ve věku 0-18 let.",
+                "primaryButton": "Pokračovat"
+            },
+            "accidentInsuranceSummary": {
+                "title": "Zkontrolujte si správnost údajů",
+                "sourceAccountTitle": "Pojištění budu platit z účtu",
+                "summaryTitle": "Shrnutí pojištění",
+                "insurance": "Pojištění",
+                "variant": "Varianta",
+                "dateCreated": "Datum sjednání",
+                "dateStart": "Datum počátku pojištění",
+                "price": "Úhrada za pojištění",
+                "perMonth": " / měsíc",
+                "paymentDue": "Datum úhrady",
+                "paymentDueValue": "následující měsíc po založení si banka strhne poplatek nejpozději 5. pracovní den",
+                "checkbox": "Potvrzuji, že jsem se seznámil*a s <a href=\"https://www.moneta.cz/documents/20143/11819140/mmb-brozura-urazove-pojisteni.pdf\">Podmínkami pojištění</a>",
+                "checkboxNotDisabled": "Já, jako majitel běžného účtu prohlašuji, že nejsem invalidní I. - III. stupně.",
+                "info1": "Pečlivě si přečtěte informační materiál k Úrazovému pojištění, které stanovuje výluky a limity pojistného krytí.",
+                "info2": "Smluvní dokumentace k pojištění obdržíte v elektronické podobě. Fyzickou podobu dokumentace obdržíte na kterékoli <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">pobočce MONETA Money Bank</a>",
+                "primaryButton": "Sjednat pojištění {{type}} za {{fee}} {{currency}} / měsíc",
+                "currency": "CZK"
+            },
+            "waitingBeforeContract": {
+                "title": "Chvilku strpení, připravíme Vám smlouvu"
+            },
+            "accidentInsuranceContract": {
+                "title": "Přečtěte si Souhlas s pojištěním",
+                "detail": "Stahněte si PDF",
+                "primaryButton": "Souhlasím",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "sign": {
+                "title": "Zadejte prosím PIN kód"
+            },
+            "accidentInsuranceVictory": {
+                "title": "Hotovo!\nVaše úrazové pojištění je od zítřka aktivní",
+                "detail": "Všechna svá pojištění naleznete v sekci Pojištení.",
+                "primaryButton": "Zobrazit má pojištění",
+                "secondaryButton": "Zpět na Přehled"
+            }
+        }
+    }
+}

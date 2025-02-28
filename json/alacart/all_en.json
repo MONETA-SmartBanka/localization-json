@@ -1,0 +1,336 @@
+{
+    "dashboard": {
+        "existingClient": {
+            "title": "Are you already a client or eDisponent of MONETA?",
+            "qr": "Login via QR code",
+            "other": "More ways to log in",
+            "help": "Where can I find the QR code?"
+        },
+        "newClient": {
+            "title": "Don't we know each other yet?",
+            "banner": {
+                "title": "The MONETA App has got you covered. Accounts, cards, savings, investments...",
+                "bullets": [
+                    "A free of charge current account is included."
+                ],
+                "primaryButton": "Try the MONETA app",
+                "secondaryButton": "Scan QR code"
+            }
+        }
+    },
+    "dashboard_v2": {
+        "title": "Welcome to Smart Banka",
+        "scanQR": "Scan QR Code",
+        "existingClient": {
+            "icon": "userVerifiedFill",
+            "title": "Are you our client?",
+            "detail": "Or disponent?",
+            "primaryButton": "Login"
+        },
+        "newClient": {
+            "icon": "starsAltFill",
+            "title": "Don't we know each other yet?",
+            "detail": "Smart Bank has everything you need. It includes a current account with everything <b>for free</b>.",
+            "primaryButton": "Try the Moneta app",
+            "secondaryButton": "Continue with QR code from website"
+        },
+        "changeLanguage": "Czech",
+        "branches": "Branches",
+        "contacts": "Contacts",
+        "about": "About the application"
+    },
+    "exist": {
+        "whereQR": "Where can I find a QR code?",
+        "title": "Logging in to your account is easy:",
+        "decoupling": {
+            "title": "Using ID",
+            "detail": "When you have your wallet with you"
+        },
+        "sb": {
+            "title": "By QR code from another Smart Bank",
+            "detail": "When you have the original device with you"
+        },
+        "ib": {
+            "title": "By QR code from Internet Bank",
+            "detail": "When you are near a computer"
+        },
+        "elsewhere": "I don't have a Moneta account yet"
+    },
+    "products": {
+        "title": "Customize your MONETA app to your needs. Acurrent account free of charge is just the start.",
+        "primaryButton": "Continue",
+        "ownSectionTitle": "In your app you will find",
+        "sections": [
+            {
+                "title": "More products to help with your savings",
+                "items": [
+                    {
+                        "id": "BUNDLE_CA_DC_CZK",
+                        "deeplink": "CAETB",
+                        "templateId": 1000381,
+                        "icon": "accountFill",
+                        "title": "Current account free of charge",
+                        "subtitle": "Absolutely no fees. All ATM withdrawals free of charge from any AMTs domestically and abroad.",
+                        "pills": [
+                            {
+                                "text": "Free",
+                                "style": "green"
+                            }
+                        ]
+
+                    },
+                    {
+                        "id": "RETAIL_LOAN",
+                        "deeplink": "EXPRESS",
+                        "templateId": 1000439,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Expres loan",
+                        "subtitle": "You complete the loan completely online and you will have the money in your account within 5 minutes of approval.",
+                        "pills": [
+                            {
+                                "text": "No fee",
+                                "style": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "TERM_DEPOSIT_SINGLE",
+                        "deeplink": "JTVETB",
+                        "templateId": 1000382,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Term Deposit with an interest rate of up to 3.1 % p. a.",
+                        "subtitle": "A guaranteed appreciation of your deposit with a confirmed interest rate. For 3, 6 or 12 months.",
+                        "pills": [
+                            {
+                                "text": "Interest of up to 3.1 %",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "SAVING_ACCOUNT",
+                        "deeplink": "SAVINGSACCOUNT",
+                        "templateId": 1000383,
+                        "icon": "savingsFill",
+                        "title": "Savings Account with an interest rate of up to 3.0 % p. a.",
+                        "subtitle": "Great interest rates, savings envelopes, and instant transfers to your account.",
+                        "pills": [
+                            {
+                                "text": "Free",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Interest of up to 3.0 % p. a.",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "FX_MONEY",
+                        "deeplink": "FXACCOUNT",
+                        "templateId": 1000384,
+                        "icon": "walletEarthFill",
+                        "title": "Online Currency Exchange",
+                        "subtitle": "Best exchange rates on the market. With a payment card and cash withdrawals abroad free of charge. Exchange both EUR and USD.",
+                        "pills": [
+                            {
+                                "text": "Free",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Best Exchange Rates",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "FA_BUNDLE_CA_DC_SA_CZK",
+                        "deeplink": "FAMILYACCOUNT",
+                        "templateId": 1000385,
+                        "icon": "usersFill",
+                        "title": "Family Account",
+                        "subtitle": "For you and your children from 8 to 17 years of age. The children receive their own app, over which you will have full control and supervision. ",
+                        "pills": [
+                            {
+                                "text": "Free",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Up to 4 Children",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "UDC_ONLINE",
+                        "deeplink": "UDCONLINE",
+                        "templateId": 1000448,
+                        "icon": "usersFill",
+                        "title": "Loan consolidation",
+                        "subtitle": "Transfer your loans to us and save up to 50%. In addition, you can immediately get additional extra money.",
+                        "pills": [
+                            {
+                                "text": "from 6,33 %",
+                                "style": "green"
+                            },
+                            {
+                                "text": "extra money",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "RETAIL_CREDIT_CARD",
+                        "deeplink": "CCARDETB",
+                        "templateId": 1000447,
+                        "icon": "usersFill",
+                        "title": "Credit card Smart",
+                        "subtitle": "Now receive 5% from grocery purchases and 1% back from other purchases.",
+                        "pills": [
+                            {
+                                "text": "0% interest rate up to 50 days",
+                                "style": "green"
+                            },
+                            {
+                                "text": "extra money",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Let your money work for you. Even small amounts add up",
+                "items": [
+                    {
+                        "id": "INVESTMENTS",
+                        "deeplink": "INVESTMENTS",
+                        "templateId": 1000388,
+                        "icon": "investmentsFill",
+                        "title": "Investments into Mutual Funds",
+                        "subtitle": "More than 40 select funds from all over the world. With no initial charge and with an investment specialist on calll. ",
+                        "pills": [
+                            {
+                                "text": "No initial charge",
+                                "style": "gold"
+                            },
+                            {
+                                "text": "Green Funds",
+                                "style": "green"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "BUILDING_SAVING_ACCOUNT",
+                        "deeplink": "BUILDING_SAVINGS",
+                        "templateId": 1000389,
+                        "icon": "wallPiggyBankFill",
+                        "title": "Bulding Savings with an Interest Rate of up to 6,44 % p.a.",
+                        "subtitle": "With guaranteed insterest and state contribution.",
+                        "pills": [
+                            {
+                                "text": "State contributon",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_DPS",
+                        "deeplink": "DPS_NN",
+                        "templateId": 1000390,
+                        "icon": "faceOldFill",
+                        "title": "Supplementary Pension Savings",
+                        "subtitle": "Appreciate your savings effectively. SPS is offered in cooperation with NN Penzijní společnost.",
+                        "pills": [
+                            {
+                                "text": "Tax benefits",
+                                "style": "gold"
+                            },
+                            {
+                                "text": "State contribution",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Just in case",
+                "items": [
+                    {
+                        "id": "INSURANCE_VALUABLES",
+                        "deeplink": "INSURANCEOFFERS",
+                        "templateId": 1000392,
+                        "icon": "smartBankaFill",
+                        "title": "Insurance of Valuables, Payment Cards, Personal Electronics and Smartphones",
+                        "subtitle": "Receive compensation in case of payment card or payment fraud, or if your smartphone breaks. Including IT assitance.",
+                        "pills": [
+                            {
+                                "text": "CZK 139 PER MONTH",
+                                "style": "green"
+                            },
+                            {
+                                "text": "Global coverage",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_TRAVEL",
+                        "deeplink": "TRAVELINSURANCE",
+                        "templateId": 1000393,
+                        "icon": "suitcaseRollingFill",
+                        "title": "Travel Insurance",
+                        "subtitle": "Vacations should be stress-free. Wherever you go, you will have a guaranteed standard of care. Offered in coopeation with BNP Paribas Cardif Pojišťovna, a.s.",
+                        "pills": [
+                            {
+                                "text": "FROM CZK 35 /DAY",
+                                "style": "green"
+                            },
+                            {
+                                "text": "FOR YOU AND YOUR FAMILY",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_ACCIDENT",
+                        "deeplink": "ACCIDENT_INSURANCE",
+                        "templateId": 1000394,
+                        "icon": "medicalKitFill",
+                        "title": "Accident Insurance",
+                        "subtitle": "A complex insurance for children, adults and families with global coverage. Children receive double compensation during summer holidays. ",
+                        "pills": [
+                            {
+                                "text": "FROM CZK 129 /MONTH",
+                                "style": "green"
+                            },
+                            {
+                                "text": "DOUBLE BENEFITS",
+                                "style": "gold"
+                            }
+                        ]
+                    },
+                    {
+                        "id": "INSURANCE_ELECTRONIC_CARDS",
+                        "deeplink": "DIGILIGHT",
+                        "templateId": 1000395,
+                        "icon": "userSecretCardFill",
+                        "title": "Electronic Payment Cards Insurance",
+                        "subtitle": "Even in the case of fraud concering your Smart Banka and Internet Banka. ",
+                        "pills": [
+                            {
+                                "text": "CZK 29/MONTH",
+                                "style": "green"
+                            },
+                            {
+                                "text": "File claims online",
+                                "style": "gold"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

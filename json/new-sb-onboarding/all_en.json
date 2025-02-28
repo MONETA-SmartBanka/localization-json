@@ -1,0 +1,534 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Oops, something went wrong",
+                "detail": "An error has occurred. Please try again later.",
+                "callUs": "Call our helpline",
+                "primaryButton": "Back to Balance Overview",
+                "secondaryButton": "Try again"
+            },
+            "disagreement": {
+                "title": "We can't continue without your consent",
+                "detail": "Do you have any questions? Call us or visit us at the nearest branch.",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel the application",
+                "primaryButton": "Back"
+            },
+            "cantProceed": {
+                "title": "Unfortunately, we can’t continue in the app.",
+                "detail": "Please call us.",
+                "callUs": "Call us\nat our helpline",
+                "branch": "Visit one\nof our branches",
+                "secondaryButton": "Cancel Application"
+            },
+            "welcomeBack": {
+                "toolbarTitle": "Welcome back",
+                "title": "Welcome back to Moneta",
+                "detail": "<b>After checking out your documents, we found out that you are already our client.</b><br><br><b>You can easily activate Smart Banka in your Internet Banka.</b><br><br>Tom Plus Account is free of charge and without additional conditions. You can activate it by switching your current account or arranging a new one right after login.",
+                "primaryButton": "Activate via Internet Banka",
+                "secondaryButton": "I don't have credentials"
+            },
+            "welcomeBackForgotten": {
+                "toolbarTitle": "Welcome back",
+                "title": "Have you forgot your credentials?",
+                "detail": "Call our helpline and we will send them to you by email after a short identification.<br><br>Or you can visit us at one of our branches. Glad to see you.",
+                "callUs": "Call our helpline",
+                "branch": "Visit our branch",
+                "primaryButton": "Back",
+                "secondaryButton": "Close the application"
+            }
+        },
+        "validations": {
+            "firstName": {
+                "regexp": "^[a-zA-ZÀ-ɏ\\-\\s]+$",
+                "min": 2,
+                "type": "regexp",
+                "max": 20
+            },
+            "expiryDate": {
+                "type": "dateTime",
+                "format": "dd.MM.yyyy"
+            },
+            "dateOfBirth": {
+                "type": "dateTime",
+                "format": "dd.MM.yyyy",
+                "age": {
+                    "min": 18
+                }
+            },
+            "lastName": {
+                "regexp": "^[a-zA-ZÀ-ɏ\\-\\s]+$",
+                "min": 2,
+                "type": "regexp",
+                "max": 20
+            }
+        },
+        "errorMessages": {
+            "required": "Required",
+            "maxLengthX": "Maximal length is {{length}}.",
+            "noValidDate": "Use format type like 12.12.2012",
+            "noValidFirstName": "Is this really in calendar :)",
+            "noValidLastName": "we're not sure about it.. are you?",
+            "ocrConfidenceTooLow": "Check out please",
+            "notEmpty": "Required"
+        },
+        "general": {
+            "toolbarTitle": "Identity verification",
+            "toolbarCreateTitle": "Account opening",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
+        },
+        "scenes": {
+            "helpOffer": {
+                "title": "Current account free-of-charge",
+                "detail": "All information about the Tom Plus current account can be found at  <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\">our website.</a><br><br><b>Do you have any question? Call us or visit one of our branch.</b>",
+                "toolbarTitle": "Help",
+                "bullets": [
+                    "<b>0 CZK for ATM withdrawal</b> – cash withdrawals are free of charge in all ATMs, domestic and abroad.",
+                    "<b>No management fees</b> – our current account is free-of-charge and without hidden terms, even for self-employed persons.",
+                    "<b>Instant payments free-of-charge</b>"
+                ],
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue application",
+                "callUs": "Call us\nat our helpline",
+                "branch": "Visit one\nof our branches"
+            },
+            "documentScan": {
+                "title": "In the 3 following steps we will verify your identity",
+                "bullets": [
+                    "<b>Upload your ID card</b><br> Upload a photo of both sides of your ID card.",
+                    "<b>Upload your second form of ID</b><br>Upload a photo of your valid driver's license or passport. The front side will suffice.",
+                    "<b>Scan your face using your phone</b><br> We will automatically process the scan. Everything remains anonymous and secure."
+                ],
+                "primaryButton": "Start the scan"
+            },
+            "onboardingDocumentUpload": {
+                "detail": "Make sure that the photo is",
+                "bullets": [
+                    "of a current and valid document and that it's the right side up.",
+                    "well-lit and not blurry.",
+                    "horizontal and without any glare so it's fully legible."
+                ],
+                "tooltip": "Make sure the photo is clear, without any glare and legible.",
+                "inProgress": "We're processing your photo, <b>it will only take a minute</b>",
+                "visible": "Is everything clearly visible?",
+                "idFrontTitle": "Please take a photo of the <b> front side of your ID card</b>",
+                "idBackTitle": "Turn the ID card over and take a picture of the  <b> back side</b>",
+                "drivingLicenceTitle": "Take a photo of the front side of your <b>driver's license</b>",
+                "passportLicenceTitle": "Take a photo of the picture side of your <b>passport</b>",
+                "primaryButton": "Continue to Photo Upload",
+                "wrongDocument": {
+                    "title": "Some details on your document couldn't be read. Please retake the photo.",
+                    "detail": "Make sure you are taking a photo of the correct (Czech) document and that it is in the frame and the details are clear and legible.",
+                    "primaryButton": "Retake the photo"
+                },
+                "scanFailed": {
+                    "title": "The scan could not be completed.",
+                    "detail": "Please retake the photo. <br/>Make sure the entire document is in frame and well-lit.<br/>The clearer the photo the better we can read the details.",
+                    "primaryButton": "Retake the photo"
+                },
+                "permissionErrorScreen": {
+                    "title": "The app requires permission",
+                    "detail": "We need to verify your identity, please allow Smart Banka to access your camera in <a>settings</a> in order to take a photo of your ID documents.<br/><br/> If don't wish to scan your documents, you can visit our branch to verify your identity.",
+                    "primaryButton": "Allow Smart Banka access to Camera"
+                }
+            },
+            "onboardingDocumentReview": {
+                "title": "Did we get these right?",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "dateOfBirth": "Date of birth",
+                "birthNumber": "Personal Identification Number",
+                "city": "City",
+                "descriptiveNumber": "Descriptive no",
+                "orientationNumber": "Orientation no",
+                "idCardNumber": "ID card number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "citizenshipValue": "just Czech republic",
+                "placeOfBirth": "Place of birth",
+                "street": "Street",
+                "zipCode": "ZIP code",
+                "sectionScan": "<b>Details from your ID</b>",
+                "sectionAddress": "<b>Permanent address</b> (Czech residents only)",
+                "detail": "By clicking Continue you confirm that all details are true in their entirety, correct and up-to-date.",
+                "primaryButton": "Continue"
+            },
+            "secondDocumentTypeSelection": {
+                "title": "Please select a second form of ID to scan.",
+                "detail": "We have verified your ID card. Choose a second form of ID so we can really be sure it is you.",
+                "primaryButton": "Scan driver's license",
+                "secondaryButton": "Scan passport"
+            },
+            "liveness": {
+                "title": "Verify your identity using your camera.",
+                "bullets": [
+                    "We need to verify your identity. In order to do that we need to record a short video of you.",
+                    "Using simple gestures (turning your head, smile) we precisely verify your identity.",
+                    "Your safety, privacy, and security are our priority - we will use the record only for identity verification."
+                ],
+                "popup": {
+                    "title": "How to provide an identification video",
+                    "detail": "Record a video of your face for identity verification.",
+                    "bullets": [
+                        "1. Aim front camera at your face",
+                        "2. Keep your head in highlighted box",
+                        "3. App will automaticaly record a video. Just follow an instructions"
+                    ]
+                },
+                "turnRight": "Turn your head right",
+                "turnLeft": "Turn your head left",
+                "smile": "Give us a smile",
+                "primaryButton": "Continue",
+                "secondaryButton": "Disagree"
+            },
+            "livenessVerification": {
+                "title": "We're processing the recording",
+                "detail": "The video has been successfully uploaded for processing. It usually takes about 5 minutes. You can now continue with the application process.",
+                "primaryButton": "Continue"
+            },
+            "onboardingContactAddress": {
+                "title": "Do you want to send a physical card?\nThe application includes a current account and a card with everything for free without conditions",
+                "section": "Contact address",
+                "city": "City",
+                "street": "Street and Desc. No.",
+                "zipCode": "ZIP",
+                "country": {
+                    "title": "Country",
+                    "detail": "Czech republic"
+                },
+                "primaryButton": "Yes, continue",
+                "virtualCardHeader": "Don’t need a plastic card?",
+                "virtualCardCheckbox": "<b>I only need to have the card in my smartphone</b><br>Instead of a plastic card you will be issued a virtual card. To make payments or use ATMs, just add it to your smartphone immediately after you open the account. The details necessary to use the card for online payments can be found in Smart Banka and Internet Banka",
+                "sectionCardTitle": "Which card do you prefer?",
+                "cardOptions": [
+                    {
+                        "technology": "VIRTUAL",
+                        "title": "Virtual card in mobile phone",
+                        "detail": "We issue a virtual card instead of a plastic card. For payments and withdrawals, you just need to add it to your mobile right after setting up an account.",
+                        "icon": "mobileFill"
+                    },
+                    {
+                        "technology": "PLASTIC",
+                        "title": "Plastic card",
+                        "detail": "The plastic card you so know well. You can also add it to your mobile phone.",
+                        "icon": "cardFill"
+                    }
+                ],
+                "sectionContact": "Contact address",
+                "sectionContactInfo": "Contact information",
+                "sectionContactCard": "Contact address for sending the card",
+                "addressCardInfo": "We will send your debit card to the contact address."
+            },
+            "cardDesign": {
+                "title": "Select design of your new card",
+                "designs": [
+                    {
+                        "title": "Moneta Standard",
+                        "value": "CA141D0001"
+                    },
+                    {
+                        "value": "CA141D0020",
+                        "title": "MONETA - Swimming"
+                    },
+                    {
+                        "value": "CA141D0021",
+                        "title": "MONETA - Cycling"
+                    },
+                    {
+                        "value": "CA141D0022",
+                        "title": "MONETA - Tennis"
+                    },
+                    {
+                        "title": "MONETA - Beach-volLeyball",
+                        "value": "CA141D0023"
+                    },
+                    {
+                        "title": "Moneta Standard - Pride",
+                        "value": "CA141D0003"
+                    },
+                    {
+                        "title": "Moneta Standard - Prague",
+                        "value": "CA141D0005"
+                    },
+                    {
+                        "title": "Moneta Standard - Central Bohemian region",
+                        "value": "CA141D0006"
+                    },
+                    {
+                        "title": "Moneta Standard - South Bohemian region",
+                        "value": "CA141D0007"
+                    },
+                    {
+                        "title": "Moneta Standard - Pilsen region",
+                        "value": "CA141D0008"
+                    },
+                    {
+                        "title": "Moneta Standard - Karlovy Vary region",
+                        "value": "CA141D0009"
+                    },
+                    {
+                        "title": "Moneta Standard - Ústí region",
+                        "value": "CA141D0010"
+                    },
+                    {
+                        "title": "Moneta Standard - Liberec region",
+                        "value": "CA141D0011"
+                    },
+                    {
+                        "title": "Moneta Standard - Hradec Králové region",
+                        "value": "CA141D0012"
+                    },
+                    {
+                        "title": "Moneta Standard - Pardubice region",
+                        "value": "CA141D0013"
+                    },
+                    {
+                        "title": "Moneta Standard - Vysočina region",
+                        "value": "CA141D0014"
+                    },
+                    {
+                        "title": "Moneta Standard - South-Moravian region",
+                        "value": "CA141D0015"
+                    },
+                    {
+                        "title": "Moneta Standard - Zlín region",
+                        "value": "CA141D0016"
+                    },
+                    {
+                        "title": "Moneta Standard - Olomouc region",
+                        "value": "CA141D0017"
+                    },
+                    {
+                        "title": "Moneta Standard - Moravian-Silesian region",
+                        "value": "CA141D0018"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "onboardingMatchId": {
+                "title": "The details do not match.",
+                "detail": "Choose or enter the correct detail.",
+                "hintFirstName": "First Name",
+                "hintLastName": "Last name",
+                "hintBirthNumber": "Personal Identification Number (including the slash)",
+                "hintDateOfBirth": "Date of birth (dd.mm.rrrr)",
+                "primaryButton": "Continue"
+            },
+            "amlQuestionnaire": {
+                "title": "Legally required information",
+                "detail": "We are legally obligated to ask for this information under Act No. 253/2008 Coll. on money laundering.",
+                "wrongTaxResidenceDialogText": "We're sorry, but when your tax residence is not just in Czech republic we can't continue in the app. Visit us on a branch please.",
+                "questions": {
+                    "depositOrigin": {
+                        "text": "Where will the money in the current account mostly come from?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "Income from employment"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Income from business"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Pension / Annuity"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Social benefits"
+                            },
+                            {
+                                "value": "5",
+                                "text": "From family and friends / Winnings / Presents "
+                            }
+                        ]
+                    },
+                    "prevailingTransactions": {
+                        "text": "What kind of transactions will most likely take place?",
+                        "options": [
+                            {
+                                "value": "1",
+                                "text": "Cash"
+                            },
+                            {
+                                "value": "2",
+                                "text": "Domestic cashless"
+                            },
+                            {
+                                "value": "3",
+                                "text": "Foreign cashless within the EU"
+                            },
+                            {
+                                "value": "4",
+                                "text": "Foreign cashless outside of the EU"
+                            }
+                        ]
+                    },
+                    "rangeOfSalary": {
+                        "text": "What will be the amount of monthly income in the current account?",
+                        "options": [
+                            {
+                                "value": "AML2.1.DO_50",
+                                "text": "up to 50,000 CZK"
+                            },
+                            {
+                                "value": "AML2.2.DO_100",
+                                "text": "50,000 - 100,000 CZK"
+                            },
+                            {
+                                "value": "AML2.3.NAD_100",
+                                "text": "Over 100,000 CZK"
+                            }
+                        ]
+                    },
+                    "taxResidence": {
+                        "text": "Is your tax residence only Czech republic?",
+                        "options": [
+                            {
+                                "value": "YES",
+                                "text": "Yes"
+                            },
+                            {
+                                "value": "NO",
+                                "text": "No"
+                            }
+                        ]
+                    },
+                    "pep": {
+                        "text": "Are you a politically exposed person?",
+                        "info": "A natural person who is or has been in a significant public position in the Czech Republic or abroad, a member or representative of a member of the statutory body of a state-controlled business corporation. Furthermore, a natural person who is close to the above-mentioned natural person, or a partner or a beneficial owner of the same legal entity as the above-mentioned natural person, or the beneficial owner a legal entity created for the benefit of such person.",
+                        "options": [
+                            {
+                                "value": "YES",
+                                "text": "Yes"
+                            },
+                            {
+                                "value": "NO",
+                                "text": "No"
+                            }
+                        ]
+                    },
+                    "pepReason": {
+                        "text": "Reason of the political exposure",
+                        "info": "Enter your position or relationship to the politically exposed person. For example: \"I am a judge of the Constitutional Court\", or \"I am the wife of the mayor of Pilsen\"",
+                        "default": "Position or relationship"
+                    },
+                    "bankId": {
+                        "text": "Activate BankID",
+                        "info": "BankID allows you to easily access the services of the state and private companies. Its use is completely free."
+                    }
+                },
+                "citizenship": "Citizenship",
+                "taxResidenceInfoTitle": "Specify your tax residence",
+                "taxResidenceInfoBody": "We kindly ask for information in order to meet a common standard for due diligence in the area of information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations under the Multilateral Agreement of the competent authorities on the automatic exchange of information on financial accounts (in this case current accounts and term deposits).",
+                "primaryButton": "Continue"
+            },
+            "scoring": {
+                "title": "Just a moment please, the cat needs to look things over."
+            },
+            "staticDocuments": {
+                "title": "Read all the important contractual documents",
+                "subtitle": "All documents can be found in Smart Banka in the <b>My Documents</b> section.",
+                "primaryButton": "I have read all the documents"
+            },
+            "waitingBeforePrecontract": {
+                "title": "Just a minute, we're preparing the pre-contractual information."
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we're preparing the contract"
+            },
+            "precontractInfo": {
+                "title": "Read the pre-contractual information",
+                "detail": "Download the PDF",
+                "primaryButton": "Agree",
+                "secondaryButton": "Decline"
+            },
+            "contract": {
+                "title": "Please read the Current Account Contract",
+                "detail": "Download the PDF",
+                "primaryButton": "I understand and agree",
+                "secondaryButton": "Decline"
+            },
+            "sign": {
+                "title": "Sign contract with your PIN"
+            },
+            "victory": {
+                "title": "Congratulations!",
+                "detail": "It's almost done. We're preparing your account.",
+                "primaryButton": "Back"
+            },
+            "pennyAccount": {
+                "title": "We are almost done! Send us an activation payment of any amount (e.g. 1 CZK) to finish the activation.",
+                "detail": "<b>You can start using your current account after the activation payment.</b> Send any amount which we will then credit back to your account.",
+                "footer": "<b>Why do we need your account number? </b><br>The law requires this as another form of identity verification. By clicking continue you confirm that the account is in your name and that you opened it in person in another Czech bank.",
+                "account": "The account from which you will make the activation payment",
+                "image": "/cbl_images/investments/questionnaire/deposits.png",
+                "primaryButton": "Continue"
+            },
+            "pennySend": {
+                "title": "Send activation payment",
+                "titleManual": "Send activation payment with mandatory message for the recipient",
+                "detail": "Your new current account will be activated after the activation payment and verification have cleared. The activation payment has no set amount, it could be only 1 CZK. Any amount you send we will then credit back to your account. <b>If your bank allows it, send the payment as an Instant Payment. It speeds up the activation process. </b>",
+                "bullets": [
+                    "Your current account will be activated after crediting the activation payment of any amount (for instance 1 CZK) and a contact detail check.",
+                    "If you are unable to make the activation payment, please visit <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">any of our branches</a> where we will be happy to open the account for you.",
+                    "If you send it as an immediate payment, you will accelerate the product activation.",
+                    "Make sure that the payment is being send from your existing accont number {0}. Please do not edit the message to the recipient."
+                ],
+                "bulletsManual": [
+                    "Your current account will be activated after crediting the activation payment of any amount (for instance 1 CZK) and a contact detail check.",
+                    "If you are unable to make the activation payment, please visit <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">any of our branches</a> where we will be happy to open the account for you.",
+                    "If you send it as an immediate payment, you will accelerate the product activation.",
+                    "Make sure that the payment is being send from your existing accont number {0}, and you haven't forgotten the message for the recipient."
+                ],
+                "oldAccount": "From your existing account",
+                "newAccount": "To your new account",
+                "note": "<b>Message to the recipient</b><br>(for confirmation of your interest in acquiring the product)",
+                "amount": "Amount",
+                "tabQr": "QR Payment",
+                "tabPayment": "Show payment details",
+                "date": "Due",
+                "footer": "Make sure that you are sending the payment from your account {0}",
+                "primaryButton": "I confirm that I have sent the payment"
+            },
+            "etb": {
+                "unsuported": {
+                    "title": "Welcome back",
+                    "detail": "<b>We are glad that you want to use a Tom Plus account through the Smart Banka application. Technical issues do not currently allow us to fully set up your account online.</b><br><br>Please visit one of our branches, where we will solve everything. And do not forget to bring a proof of identity. Thank you.",
+                    "callUs": "Call us\nat our helpline",
+                    "branch": "Visit us\nat a branch",
+                    "primaryButton": "Close the application"
+                },
+                "withSB": {
+                    "title": "Welcome back to Moneta. We are currently activating your Smart Banka for you.",
+                    "detail": "It will not take longer than a few minutes. In exceptional cases it may take several hours.",
+                    "primaryButton": "Continue"
+                },
+                "waiting": {
+                    "title": "We are still working on it. You can now close the application and check on it later."
+                },
+                "noSB": {
+                    "title": "Welcome back to Moneta",
+                    "detail": "<b>Now we will arrange the Smart Banka application for you. It will not take longer than a few minutes and you will be able to use it straight after.</b><br><br>You can activate your Tom Plus account free-of-charge and without any hidden terms and conditions by switching over your existing account or creating a new account after logging into the Smart Banka application.",
+                    "primaryButton": "Activate Smart Banka"
+                },
+                "victory": {
+                    "title": "Welcome back, everything is ready!",
+                    "detail": "Sign in to confirm the Smart Banka activation.",
+                    "primaryButton": "Sign in"
+                },
+                "consent": {
+                    "title": "Please read the parameters of the Internet Bank negotiated via Smart Bank",
+                    "detail": "You can find all documents in Smart Bank and Internet Bank in the Documents section",
+                    "primaryButton": "I understand and agree",
+                    "secondaryButton": "Disagree"
+                }
+            }
+        }
+    }
+}

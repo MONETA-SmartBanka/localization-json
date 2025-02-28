@@ -1,0 +1,194 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "branch": {
+                "title": "Open a Savings Account at any of our branches",
+                "detail": "Our apologies, we are currently unable to open a Savings Account for you online.\n\n<b>Please visit any of our branches where we will be happy to assist you.</b>",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Arrange a meeting</a></b>",
+                "primaryButton": "Back to Overview"
+            },
+            "noProduct": {
+                "title": "No product",
+                "detail": "Our apologies, there are currently no products on offer for you.",
+                "primaryButton": "Back to Overview"
+            },
+            "identificationDisagree": {
+                "title": "Information discrepancy",
+                "detail": "Our apologies, the company’s information cannot be changed during the process of opening a Savings Account. <br/><br/>Please visit any of our branches where we will be happy to update the information, and then you will be able to continue.",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Arrange a meeting</a></b>",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Back to application"
+            },
+            "contractDisagree": {
+                "title": "Your agreement is required",
+                "detail": "Do you have any questions? Call us or visit a branch near you.",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Arrange a meeting</a></b>",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Back to Agreement"
+            },
+            "api": {
+                "title": "Oops, something went wrong",
+                "detail": "An unexpected error has occurred and you will not be able to continue with the application.\n\nThe Savings Account application has been cancelled. Please try again later. ",
+                "primaryButton": "Back to Overview"
+            },
+            "scoring": {
+                "title": "Something went wrong. Our apologies.",
+                "detail": "Unfortunately, you will not be able to proceed online. We will be happy to assist you at any of our branches – please remember to bring a valid form of ID with you.",
+                "primaryButton": "Back to Overview"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Savings Account"
+        },
+        "scenes": {
+            "help": {
+                "title": "Do you need assistance, or do you wish to finish the application process later?",
+                "bulletsHeadline": "Business savings account free of charge",
+                "iconBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>Open and manage</b> your savings account<b>free of charge</b> with electronic account statements."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Manage your savings account in<b> Internet Banka</b> and <b>Smart Banka</b>."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "You can transfer your savings to a current account at any time <b>free of charge</b>."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Your deposit is insured for up to <b>100 000 EUR</b>."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Interest is accrued monthly."
+                    }
+                ],
+                "primaryButton": "Back to application",
+                "secondaryButton": "Finish application later",
+                "tertiaryButton": "Cancel application",
+                "helpHeadline": "Do you need assistance?",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Arrange a meeting</a></b>",
+                "chatURL": "https://bcrw.apple.com/sms:open?service=iMessage&recipient=urn:biz:3f1d6b85-2f0d-4f0d-a2c6-51a766a2705b"
+            },
+            "savingsOffer": {
+                "description": "Select the type of savings account",
+                "title": "Business Savings Account free of charge and without any hidden conditions",
+                "bullets": [
+                    "<b>Open and manage</b> your savings account <b>free of charge</b> with electronic account statements.",
+                    "Manage your savings account in <b>Internet Banka</b> and <b>Smart Banka</b>.",
+                    "You can transfer your savings to a current account at any time <b>free of charge</b>.",
+                    "Your deposit is insured for up to <b>100 000 EUR</b>",
+                    "Interest is accrued monthly.",
+                    "More information about the <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucty-pro-podnikani\" target=\"_blank\">Business Savings Account</a>."
+                ],
+                "infoExpired": "Sorry, <b>the original product is no longer in our offer</b>. You can continue with the savings account <b>with new parameters</b>:",
+                "infoFillAgain": "We will ask you to fill in the basic data again.",
+                "primaryButton": "Open a savings account",
+                "secondaryButton": "More information"
+            },
+            "savingsOfferIndividual": {
+                "description": "Product name",
+                "title": "Business Savings Account free of charge, without any hidden conditions and with individual interest rate",
+                "bullets": [
+                    "<b>Open and manage</b> your savings account <b>free of charge</b> with electronic account statements.",
+                    "Manage your savings account in <b>Internet Banka</b> and <b>Smart Banka</b>.",
+                    "You can transfer your savings to a current account at any time <b>free of charge</b>.",
+                    "Your deposit is insured for up to <b>100 000 EUR</b>",
+                    "Interest is accrued monthly.",
+                    "More information about the <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucty-pro-podnikani\" target=\"_blank\">Business Savings Account</a>."
+                ],
+                "infoExpired": "Sorry, <b>the original product is no longer in our offer</b>. You can continue with the savings account <b>with new parameters</b>:",
+                "infoFillAgain": "We will ask you to fill in the basic data again.",
+                "primaryButton": "Open a savings account",
+                "secondaryButton": "More information"
+            },
+            "identification": {
+                "title": "Is this information correct?",
+                "companyName": "Company name",
+                "address": "Address",
+                "taxSection": {
+                    "titleHeader": "What is your tax residence?",
+                    "footer": "This information is required by Act no. 253/2008 Col. on money laundering.",
+                    "taxResidence": "Tax residence",
+                    "taxResidenceInfoTitle": "Tax residence information",
+                    "taxResidenceInfoBody": "We ask for this information in order to fulfill the Common Standard for due diligence in the area of information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations based on the Multilateral Agreement of the Competent Authorities on the Automatic Exchange of Information on Financial Accounts (in the case of a bank, it is namely current and savings account, and term deposits).",
+                    "vat": "TIN",
+                    "anotherVat": "Add another country",
+                    "text": "Czech Republic is my only tax residence."
+                },
+                "in": "IN",
+                "tinError": "Is the TIN correct?",
+                "primaryButton": "Continue",
+                "secondaryButton": "The information is not correct."
+            },
+            "invalidTin": {
+                "title": "The TIN entered is invalid. Do you wish to continue?",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "No, back"
+            },
+            "signatureInfo": {
+                "title": "Who is the person authorized to open a savings account on behalf of the company?",
+                "name": "First name",
+                "surname": "Last name",
+                "birthNumber": "Birth number",
+                "birthNumberError": "Birth number error.",
+                "function": "Position",
+                "statement": "I declare that I am authorized to perform this action on behalf of the company",
+                "primaryButton": "Continue",
+                "secondaryButton": "Back"
+            },
+            "busyLoaderScoring": {
+                "title": "Just a moment."
+            },
+            "waitingBeforeContract": {
+                "title": "The Agreement is being prepared, just a moment please."
+            },
+            "contract": {
+                "title": "Please carefully read the Business Savings Account Agreement",
+                "toolbarTitle": "Read the following documents",
+                "detail": "You can find all documents in Smart Banka and Internet Banka in the ‘Documents and Agreements’.",
+                "resend": "Download the PDF",
+                "warning1": "The entire document needs to be read before proceeding",
+                "warning2": "Before we continue, you need to confirm your consent",
+                "secondaryButton": "Decline",
+                "primaryButton": "Continue to signature"
+            },
+            "sign": {
+                "title": "Enter PIN to sign the Agreement"
+            },
+            "busyLoaderBankSigning": {
+                "title": "Now it is our turn to sign the Agreement. Just a moment please."
+            },
+            "victory": {
+                "approvalCenter": {
+                    "cosign": {
+                        "title": "Request signed and sent to other approvers",
+                        "detail": "You are done. In order for the request to be sent, it must be signed by other approvers according to the set signature rules.",
+                        "primaryButton": "Back to Overview"
+                    },
+                    "prepared": {
+                        "title": "We are almost done. Signing the Agreement may take some time on our end.",
+                        "detail": "During business days it should not take more than a couple of hours. On the weekends it will take until Monday. As soon as it is ready, you will be notified in Overview, the Agreement will be saved in ‘Documents’ and your Savings Account will be activated.<br/><br/>We apologize for the inconvenience and thank you for your patience.",
+                        "primaryButton": "Back to Overview"
+                    }
+                },
+                "waiting": {
+                    "title": "We are almost done. Signing the Agreement may take some time on our end.",
+                    "detail": "During business days it should not take more than a couple of hours. On the weekends it will take until Monday. As soon as it is ready, you will be notified in Overview, the Agreement will be saved in ‘Documents’ and your Savings Account will be activated.<br/><br/>We apologize for the inconvenience and thank you for your patience.",
+                    "primaryButton": "Back to Overview"
+                },
+                "title": "Done! You can start saving now.",
+                "detail": "The best way is to regularly transfer a portion of your business’s income to your Savings Account.",
+                "primaryButton": "Back to Overview"
+            }
+        }
+    }
+}

@@ -1,0 +1,817 @@
+{
+    "errorScreens": {
+        "needMore": {
+            "title": "Potřebujete vyšší částku?",
+            "detail": "Pro vyšší částku prosím navštivte některou z našich poboček, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i úvěr se zárukou Evropského investičního fondu.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Rozumím, přejít zpět",
+            "secondaryButton": "Přejít na přehled zůstatků"
+        },
+        "personalInfo": {
+            "title": "Údaje nesouhlasí",
+            "detail": "Je nám líto, ale během sjednávání produktu není možné tyto údaje změnit. Proces sjednání nyní ukončete a zastavte se prosím na naší nejbližší pobočce, kde Vám údaje rádi upravíme. Poté můžete opět pokračovat.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "idIncorrect": {
+            "title": "Bohužel nemáme aktuální data Vašeho občanského průkazu",
+            "detail": "Pro schválení Vaší žádosti je zapotřebí aktualizovat data z Vašeho občanského průkazu. Zastavte se prosím na naší nejbližší pobočce, kde Vám údaje rádi upravíme. Poté můžete opět pokračovat.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "inProgress": {
+            "cc": {
+                "title": "Již máte rozpracovanou žádost o {0}",
+                "detail": "Před sjednáním podnikatelské kreditní karty je potřeba dokončit předchozí rozpracovanou žádost. Poté budete moci na tomto místě podnikatelskou kreditní kartu sjednat.",
+                "primaryButton": "Přejít k rozpracované žádosti",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "expres": {
+                "title": "Již máte rozpracovanou žádost o {0}",
+                "detail": "Před sjednáním podnikatelského úvěru je potřeba dokončit předchozí rozpracovanou žádost. Poté budete moci na tomto místě podnikatelský úvěr sjednat.",
+                "primaryButton": "Přejít k rozpracované žádosti",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "flexi": {
+                "title": "Již máte rozpracovanou žádost o {0}",
+                "detail": "Před sjednáním kontokorentu pro podnikatele je potřeba dokončit předchozí rozpracovanou žádost. Poté budete moci na tomto místě podnikatelský kontokorent sjednat.",
+                "primaryButton": "Přejít k rozpracované žádosti",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "ccClip": {
+                "title": "Již máte rozpracovanou žádost o {0}",
+                "detail": "Před navýšením podnikatelské kreditní karty je potřeba dokončit předchozí rozpracovanou žádost. Poté budete moci na tomto místě podnikatelskou kreditní kartu sjednat.",
+                "primaryButton": "Přejít k rozpracované žádosti",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "flexiClip": {
+                "title": "Již máte rozpracovanou žádost o {0}",
+                "detail": "Před navýšením kontokorentu pro podnikatele je potřeba dokončit předchozí rozpracovanou žádost. Poté budete moci na tomto místě podnikatelský kontokorent navýšit.",
+                "primaryButton": "Přejít k rozpracované žádosti",
+                "secondaryButton": "Přejít na Přehled"
+            }
+        },
+        "processName": {
+            "cc": {
+                "title": "podnikatelskou kreditní kartu"
+            },
+            "expres": {
+                "title": "splátkový úvěr"
+            },
+            "flexi": {
+                "title": "kontokorent pro podnikatele"
+            },
+            "ccClip": {
+                "title": "navýšení podnikatelské kreditní karty"
+            },
+            "flexiClip": {
+                "title": "navýšení kontokorentu pro podnikatele"
+            }
+        },
+        "noAccount": {
+            "cc": {
+                "title": "Bez běžného podnikatelského účtu to online nepůjde",
+                "detail": "Podnikatelskou kreditní kartu online nelze založit bez běžného podnikatelského účtu v CZK. Sjednejte si prosím schůzku na pobočce, kde Vám kreditní kartu i bez běžného podnikatelského účtu založíme.",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "expres": {
+                "title": "Bez běžného podnikatelského účtu to online nepůjde",
+                "detail": "Pro načerpání a splácení podnikatelského úvěru je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru. Sjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "flexi": {
+                "title": "Bez běžného podnikatelského účtu to online nepůjde",
+                "detail": "Pro načerpání podnikatelského kontokorentu je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru.\nSjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            }
+        },
+        "disagree": {
+            "title": " Bez souhlasu to bohužel nepůjde...",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "defaultError": {
+            "title": "Omlouváme se, něco se vymňouklo",
+            "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.\n\nMáte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět"
+        },
+        "cancel": {
+            "title": "Zrušení žádosti",
+            "detail": "Opravdu si přejete ukončit sjednání a zrušit žádost? Vaše žádost bude stornována a nebude možné se k ní vrátit a dokončit ji.",
+            "secondaryButton": "Zrušit žádost",
+            "primaryButton": "Zpět k žádosti"
+        },
+        "branch": {
+            "cc": {
+                "title": "Podnikatelskou kreditku Vám nyní můžeme nabídnout pouze na pobočce",
+                "detail": "Pro schválení Vaší žádosti budeme potřebovat více informací. Sjednejte si prosím schůzku na pobočce.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "expres": {
+                "title": "Splátkový úvěr Vám nyní můžeme nabídnout pouze na pobočce",
+                "detail": "Pro schválení Vaší žádosti budeme potřebovat více informací. Sjednejte si prosím schůzku na pobočce, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i úvěr se státní zárukou.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "flexi": {
+                "title": "Kontokorent pro podnikatele Vám nyní můžeme nabídnout pouze na pobočce",
+                "detail": "Pro schválení Vaší žádosti budeme potřebovat více informací. Sjednejte si prosím schůzku na pobočce.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "flexiClip": {
+                "title": "Navýšení kontokorentu Vám nyní můžeme nabídnout pouze na pobočce",
+                "detail": "Pro schválení Vaší žádosti budeme potřebovat více informací. Sjednejte si prosím schůzku na pobočce.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "ccClip": {
+                "title": "Navýšení podnikatelské kreditní karty Vám nyní můžeme nabídnout pouze na pobočce",
+                "detail": "Pro schválení Vaší žádosti budeme potřebovat více informací. Sjednejte si prosím schůzku na pobočce.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Přejít na Přehled"
+            }
+        }
+    },
+    "scenes": {
+        "help": {
+            "cc": {
+                "title": "Od získání kreditní karty Vás dělí už jen pár kliknutí...",
+                "bulletsHeadline": "Proč kreditní kartu od Monety?",
+                "bullets": [
+                    "Z každé platby vracíme 1 % zpět",
+                    "Sjednání a vedení karty je zdarma",
+                    "Bezúročné období až 55 dní",
+                    "100 % platba inkasem zdarma",
+                    "Ihned po podepsání smlouvy lze platit přes GooglePay, ApplePay"
+                ],
+                "primaryButton": "Dokončit žádost",
+                "secondaryButton": "Přejít na Přehled",
+                "tertiaryButton": "Zrušit žádost",
+                "help": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce",
+                "promo": "Promo akce"
+            },
+            "expres": {
+                "title": "Od získání úvěru Vás dělí už jen pár kliknutí...",
+                "bulletsHeadline": "Proč úvěr od Monety?",
+                "bullets": [
+                    "Online během několika minut",
+                    "Bez poplatku za čerpání a správu úvěru",
+                    "Možnost odpočtu úroků úvěru z daňového základu",
+                    "Bez prokázání příjmů",
+                    "Získejte jistotu, že své závazky vždy splatíte díky <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-brozura-pojisteni-schopnosti-splacet-expres-business-nezajisteny.pdf\">pojištění schopnosti splácet</a>"
+                ],
+                "primaryButton": "Dokončit žádost",
+                "secondaryButton": "Přejít na Přehled",
+                "tertiaryButton": "Zrušit žádost",
+                "help": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "flexi": {
+                "title": "Od získání kontokorentu Vás dělí už jen pár kliknutí...",
+                "bulletsHeadline": "Proč kontokorent od Monety?",
+                "bullets": [
+                    "Peníze budete mít na svém účtu vždy po ruce",
+                    "Bez poplatku za čerpání a správu úvěru",
+                    "Úroky platíte jen z vyčerpané částky",
+                    "Kdykoliv ho můžete splatit nebo i zcela ukončit bez jakýchkoliv sankcí"
+                ],
+                "primaryButton": "Dokončit žádost",
+                "secondaryButton": "Přejít na Přehled",
+                "tertiaryButton": "Zrušit žádost",
+                "help": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "ccClip": {
+                "title": "Od navýšení kreditní karty Vás dělí už jen pár kliknutí...",
+                "bulletsHeadline": "Proč kreditní kartu od Monety?",
+                "bullets": [
+                    "Z každé platby vracíme 1 % zpět",
+                    "Sjednání a vedení karty je zdarma",
+                    "Bezúročné období až 55 dní",
+                    "100 % platba inkasem zdarma",
+                    "Ihned po podepsání smlouvy lze platit přes GooglePay, ApplePay"
+                ],
+                "primaryButton": "Dokončit žádost",
+                "secondaryButton": "Přejít na Přehled",
+                "tertiaryButton": "Zrušit žádost",
+                "help": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "flexiClip": {
+                "title": "Od navýšení kontokorentu Vás dělí už jen pár kliknutí...",
+                "bulletsHeadline": "Proč kontokorent od Monety?",
+                "bullets": [
+                    "Peníze budete mít na svém účtu vždy po ruce",
+                    "Bez poplatku za čerpání a správu úvěru",
+                    "Úroky platíte jen z vyčerpané částky",
+                    "Kdykoliv ho můžete splatit nebo i zcela ukončit bez jakýchkoliv sankcí"
+                ],
+                "primaryButton": "Dokončit žádost",
+                "secondaryButton": "Přejít na Přehled",
+                "tertiaryButton": "Zrušit žádost",
+                "help": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+                "branch": "Navštivte nás\nna pobočce"
+            }
+        },
+        "calculator": {
+            "cc": {
+                "title": "Podnikatelská kreditní karta",
+                "detail": "Pro sjednání kreditní karty do {maxLoanAmount} stačí pouze vyplnit pár doplňujících údajů a podepsat smlouvu, vše plně online bez návštěvy pobočky.",
+                "promoDetail": "Pro sjednání kreditní karty do {maxLoanAmount} stačí pouze vyplnit pár doplňujících údajů a podepsat smlouvu, vše plně online bez návštěvy pobočky.",
+                "info": "Více informací o kartě, <a href=\"help\">jak funguje kreditní karta</a>",
+                "loanAmount": "Výše úvěrového rámce",
+                "interestRate": "Roční úroková sazba z nesplacené částky",
+                "loanInfo": "Úvěrový rámec je částka, kterou budete mít ihned k dispozici na svojí nové kreditní kartě",
+                "directDebit": "Chcete zapnout službu “100% inkaso”?",
+                "directDebitInfo": "Co je to <a href=\"directDebit\">100% inkaso?</a>",
+                "account": "Účet, na který inkaso nastavíme",
+                "bullets": [
+                    "Z každé platby vracíme {benefitReward} zpět",
+                    "Sjednání a vedení karty je zdarma",
+                    "Bezúročné období až {interestFreePeriodDays} dní",
+                    "100 % platba inkasem zdarma",
+                    "Ihned po podepsání smlouvy lze platit přes GooglePay, ApplePay"
+                ],
+                "promo": "Promo akce",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Potřebujete vyšší částku?"
+            },
+            "expres": {
+                "title": "Splátkový úvěr",
+                "detail": "Sjednejte si ho plně online bez návštěvy pobočky a bez daňového přiznání.",
+                "loanAmount": "Půjčíme Vám",
+                "instalmentsCount": "na dobu",
+                "instalmentAmount": "s měsíční splátkou",
+                "campaign": {
+                    "notEligible": "Do získání <b>Apple iPhone SE 128 GB</b> Vám na žádosti chybí {loanAmount} Kč. <b><u>Jak to funguje?</u></b>",
+                    "eligible": "<b>Skvěle!</b> Při schválení žádosti v této výši získáte nejnovější <b>Apple iPhone SE 128 GB</b>. <b><u>Jak to funguje?</u></b>"
+                },
+                "account": "Peníze Vám pošleme na účet",
+                "bullets": [
+                    "Online během několika minut",
+                    "Bez poplatku za čerpání a správu úvěru",
+                    "Možnost odpočtu úroků úvěru z daňového základu",
+                    "Bez prokázání příjmů",
+                    "Získejte jistotu, že své závazky vždy splatíte díky <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-brozura-pojisteni-schopnosti-splacet-expres-business-nezajisteny.pdf\">pojištění schopnosti splácet</a>"
+                ],
+                "freeEarlyRepayment": "Předčasné splacení ZDARMA",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Do kalkulačky",
+                "tertiaryButton": "Potřebujete vyšší částku?"
+            },
+            "flexi": {
+                "title": "Kontokorent",
+                "detail": "Sjednejte si finanční rezervu pro běžné i nečekané výdaje. Pro žádost o kontokorent až {maxLoanAmount} stačí vyplnit pouze pár doplňujících údajů a podepsat smlouvu, vše plně online bez návštěvy pobočky.",
+                "info": "Kontokorent poskytujeme ve formě <a href=\"help\">Nezávazné úvěrové linky</a> dle Produktových podmínek komerčního bankovnictví.",
+                "loanAmount": "Výše kontokorentu",
+                "account": "Účet, na který kontokorent nastavíme",
+                "turnover": {
+                    "title": "Obratová podmínka",
+                    "detail": "Pokud se Vám za 3 ukončené kalendářní měsíce po sobě nepodaří dodržet výše uvedenou podmínku, snížíme Vám adekvátně limit pro čerpání kontokorentu."
+                },
+                "bullets": [
+                    "Peníze budete mít na svém účtu vždy po ruce",
+                    "Bez poplatku za čerpání a správu úvěru",
+                    "Úroky platíte jen z vyčerpané částky",
+                    "Kdykoliv ho můžete splatit nebo i zcela ukončit bez jakýchkoliv sankcí"
+                ],
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Potřebujete vyšší částku?"
+            },
+            "ccClip": {
+                "title": "Navýšení kreditní karty",
+                "detail": "Pro navýšení úvěrového rámce Vaší podnikatelské kreditní karty až na částku {maxLoanAmount} stačí pouze vyplnit pár doplňujících údajů a podepsat smlouvu, vše plně online bez návštěvy pobočky.",
+                "info": "Vaše kreditní karta Vám fyzicky zůstane. Navýšíme pouze úvěrový rámec formou <a href=\"help\">Nezávazné úvěrové linky</a> dle Produktových podmínek komerčního bankovnictví, který na kartě budete moci využívat.",
+                "loanAmount": "Nová výše úvěrového rámce",
+                "minAmount": "Stávající rámec",
+                "maxAmount": "Nový rámec až",
+                "interestRate": "Roční úroková sazba z nesplacené částky",
+                "bullets": [
+                    "Navýšení úvěrového rámce a vedení karty je zdarma",
+                    "Bezúročné období až {interestFreePeriodDays} dní nejen pro platby, ale i pro výběry z bankomatů"
+                ],
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Více informací o kartě"
+            },
+            "flexiClip": {
+                "title": "Navýšení kontokorentu",
+                "detail": "Pro navýšení úvěrového rámce Vašeho podnikatelského kontokorentu až na částku {maxLoanAmount} stačí pouze vyplnit pár doplňujících údajů a podepsat smlouvu, vše plně online bez návštěvy pobočky.",
+                "info": "Kontokorent poskytujeme ve formě <a href=\"help\">Nezávazné úvěrové linky</a> dle Produktových podmínek komerčního bankovnictví.",
+                "loanAmount": "Nová výše kontokorentu",
+                "minAmount": "Stávající rámec",
+                "maxAmount": "Nový rámec až",
+                "turnover": {
+                    "title": "Obratová podmínka",
+                    "detail": "Pokud se Vám za 3 ukončené kalendářní měsíce po sobě nepodaří dodržet výše uvedenou podmínku, snížíme Vám adekvátně limit pro čerpání kontokorentu."
+                },
+                "bullets": [
+                    "Navýšení limitu a vedení kontokorentu je zdarma",
+                    "Kontokorent budete mít vždy po ruce",
+                    "Kdykoliv ho můžete splatit nebo i zcela ukončit bez jakýchkoliv sankcí"
+                ],
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Potřebujete vyšší částku?"
+            }
+        },
+        "summary": {
+            "cc": {
+                "title": "Zkontrolujte si nastavení své kreditní karty",
+                "loanAmount": "Úvěrový rámec",
+                "interestRate": "Roční úroková sazba",
+                "repaymentType": "Typ splácení",
+                "directDebitMin": "Minimální inkaso / ZDARMA",
+                "directDebitMax": "100% inkaso",
+                "directDebitMaxFree": "100% inkaso / ZDARMA",
+                "account": "Účet pro inkaso splátek",
+                "monthlyFee": "Vedení úvěrového účtu",
+                "free": "ZDARMA",
+                "disclaimer": "Kreditní kartu poskytujeme ve formě <a href=\"\">Nezávazné úvěrové linky</a> dle Produktových podmínek komerčního bankovnictví.",
+                "primaryButton": "Pokračovat",
+                "promo": "Promo akce"
+            },
+            "expres": {
+                "title": "Zkontrolujte si nastavení svého splátkového úvěru",
+                "loanAmount": "Výše úvěru",
+                "installment": "Výše měsíční splátky",
+                "installmentsCount": "Počet měsíčních splátek",
+                "firstRepaymentDate": "Datum první splátky",
+                "interestRate": "Roční úroková sazba",
+                "monthlyFee": "Měsíční poplatek za správu úvěru",
+                "openingFee": "Poplatek za čerpání úvěru",
+                "repaymentFee": "Poplatek za mimořádnou splátku/předčasné splacení",
+                "repaymentFeePercent": "{0} z předčasně splacené jistiny",
+                "repaymentFeeAmountMin": "min. {0}",
+                "creditTurnover": "Obratová podmínka",
+                "disclaimer": "Po kompletním vyplnění žádosti bude nabídka úvěru znovu přepočítána, úroková sazba a některé další údaje se tak mohou ještě změnit. Po přepočtu se můžete rozhodnout, jestli máte o nabídku úvěru zájem.",
+                "primaryButton": "Pokračovat"
+            },
+            "flexi": {
+                "title": "Zkontrolujte si nastavení svého kontokorentu",
+                "loanAmount": "Požadovaná výše kontokorentu",
+                "interestRate": "Roční úroková sazba",
+                "monthlyFee": "Měsíční poplatek za správu úvěru",
+                "openingFee": "Poplatek za čerpání úvěru",
+                "creditTurnover": "Obratová podmínka",
+                "disclaimer": "Po kompletním vyplnění žádosti bude nabídka úvěru znovu přepočítána, úroková sazba a některé další údaje se tak mohou ještě změnit. Po přepočtu se můžete rozhodnout, jestli máte o nabídku úvěru zájem.",
+                "primaryButton": "Pokračovat"
+            },
+            "ccClip": {
+                "title": "Zkontrolujte si nastavení své kreditní karty",
+                "initialLoanAmount": "Původní výše úvěrového rámce",
+                "loanAmount": "Nová výše úvěrového rámce",
+                "clipFee": "Poplatek za navýšení",
+                "interestRate": "Roční úroková sazba",
+                "monthlyFee": "Vedení úvěrového účtu",
+                "free": "ZDARMA",
+                "primaryButton": "Pokračovat"
+            },
+            "flexiClip": {
+                "title": "Zkontrolujte si nastavení svého kontokorentu",
+                "initialLoanAmount": "Původní výše úvěrového rámce",
+                "loanAmount": "Nová výše úvěrového rámce",
+                "initialInterestRate": "Původní roční úroková sazba",
+                "interestRate": "Nová roční úroková sazba",
+                "clipFee": "Poplatek za navýšení",
+                "monthlyFee": "Měsíční poplatek za správu úvěru",
+                "creditTurnover": "Obratová podmínka",
+                "disclaimer": "Po kompletním vyplnění žádosti bude nabídka úvěru znovu přepočítána, úroková sazba a některé další údaje se tak mohou ještě změnit. Po přepočtu se můžete rozhodnout, jestli máte o nabídku úvěru zájem.",
+                "primaryButton": "Pokračovat"
+            }
+        },
+        "legalEntity": {
+            "title": "Ověřte prosím svoje údaje",
+            "name": "Obchodní jméno",
+            "address": "Adresa podnikání",
+            "identifier": "IČO",
+            "phone": "Telefonní číslo",
+            "disclaimer": "Pokračováním berete na vědomí, že Vaši úvěruschopnost ověříme v registrech klientských informací.",
+            "detail": "Pro vyřízení žádosti o produkt(y) je nezbytné zpracovávat osobní údaje, a to za účelem zjištění úvěruschopnosti, důvěryhodnosti a platební morálky, včetně ověření v Bankovním registru klientských informací (BRKI) a Nebankovním registru klientských informací (NRKI), a dalších kroků nezbytných k jednání o uzavření smlouvy.",
+            "primaryButton": "Údaje souhlasí",
+            "secondaryButton": "Údaje nesouhlasí"
+        },
+        "identity": {
+            "title": "Souhlasí údaje z Vašeho občanského průkazu?",
+            "documentNumber": "Číslo průkazu",
+            "documentValidTo": "Platnost",
+            "primaryButton": "Údaje souhlasí",
+            "secondaryButton": "Údaje nesouhlasí"
+        },
+        "financialData": {
+            "title": "Doplňte prosím svoje údaje",
+            "education": "Vzdělání",
+            "maritalStatus": "Rodinný stav",
+            "turnOverLastYear": "Váš přibližný obrat za minulý rok",
+            "turnOverLastYearDetail": "Jedná se o celkové příjmy (obrat) z Vašeho podnikání za minulý rok. Stačí, když uvedete Váš přibližný odhad.",
+            "profitLastYear": "Váš čistý příjem za minulý rok",
+            "profitLastYearDetail": "Jedná se o čistý příjem (obrat po odečtení nákladů a po zdanění) z Vašeho podnikání za minulý rok. Stačí, když uvedete Váš přibližný odhad.",
+            "houseHoldMonthlyIncome": "Čistý měsíční příjem domácnosti",
+            "houseHoldMonthlyIncomeDetail": "Jedná se o čistý měsíční příjem z Vašeho podnikání + další přijmy všech členů domácnosti. Stačí, když uvedete Váš přibližný odhad.",
+            "employeeCount": "Počet zaměstnanců",
+            "primaryButton": "Pokračovat"
+        },
+        "scoring": {
+            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+            "detail": "Potrvá to jen chviličku",
+            "detailLong": "Děkujeme za Vaši žádost! Právě ji zpracováváme a tento proces obvykle trvá přibližně 3 minuty."
+        },
+        "scoringLong": {
+            "title": "Dejte nám ještě chviličku ...",
+            "detail": "Vyhodnocení Vaší žádosti trvá o něco déle, než jsme očekávali. Můžete nyní pokračovat v čekání, nebo odejít a vrátit se později přímo z Vaší domovské stránky",
+            "primaryButton": "Počkat",
+            "secondaryButton": "Přejít na Přehled"
+        },
+        "scoringApproved": {
+            "expres": {
+                "title": "Připraveno!\nMáme pro Vás schváleno {0}",
+                "titleLess": "A je to!\nMáme pro Vás připraveno {0}",
+                "titleMultiple": "A je to!\nMáme pro Vás připravených několik nabídek",
+                "titleUpsell": "Připraveno!\nMůžeme Vám půjčit dokonce až {0}",
+                "titleCampaign": "A je to!\nMáme pro Vás schváleno {0}",
+                "commonValues": "Společné parametry pro všechny varianty",
+                "selectVariant": "Využijte nabídku na:",
+                "detail": "Vámi požadovanou výši úvěru {0} Vám nyní nemůžeme nabídnout. Můžeme Vám však poskytnout částku {1}.",
+                "detailLength": "Vámi požadovanou výši úvěru {0} Vám nyní můžeme nabídnout, ale museli jsme upravit délku splácení.",
+                "loanAmount": "Půjčíme Vám",
+                "instalmentsCount": "na dobu",
+                "instalmentAmount": "s měsíční splátkou",
+                "campaign": {
+                    "message": "<b>Skvěle!</b> Váš nejnovější <b>Apple iPhone SE 128 GB</b> může být již na cestě k Vám! <b><u>Jak to funguje?</u></b>",
+                    "messageUpsellSingleOffer": "K této nabídce získáte nejnovější <b>Apple iPhone SE 128 GB ZDARMA</b>",
+                    "messageUpsellAllOffers": "K těmto nabídkám získáte nejnovější <b>Apple iPhone SE 128 GB ZDARMA</b>",
+                    "toggleInput": "Mám zájem o Apple iPhone SE 128 GB",
+                    "email": "E-mail",
+                    "emailHint": "váš e-mail",
+                    "emailInfo": "E-mail na který obdržím kód pro vyzvednutí nového Apple iPhone SE 128 GB",
+                    "footer": "Volbou \"Mám zájem o Apple iPhone SE 128 GB\" souhlasím s tím, že společnost MONETA Money Bank, a.s. předá mé údaje v rozsahu: <i>e-mailová adresa, registrační číslo úvěru,</i> datum čerpání úvěru a výše jistiny úvěru společnosti iStyle CZ, s.r.o., která bude tyto údaje zpracovávat za účelem předání nového Apple iPhone SE 128 GB. Zároveň beru na vědomí, že se poplatek za mimořádnou splátku / předčasné splacení úvěru z podnětu Klienta navýší o 3 % z předčasně splacené jistiny úvěru. Plné znění podmínek pro získání <a href=\"https://www.moneta.cz/documents/20143/11819236/mmb-expres-business-nezajisteny-podminky-kampane-28032024.pdf\">Apple iPhone SE 128 GB</a>",
+                    "bottomSheet": {
+                        "title": "Zkontrolujte prosím svou emailovou adresu",
+                        "detail": "Na tento email Vám společnost iStyle pošle jedinečný kód pro objednání Vašeho nejnovějšího Apple iPhone SE 128 GB ZDARMA. <b>Tento email již nebude možné změnit.</b>",
+                        "primaryButton": "Pokračovat",
+                        "secondaryButton": "Zadat email znovu"
+                    }
+                },
+                "upsellOriginalVariant": "Původní nabídka",
+                "upsellAdditionalVariants": "Speciální nabídky",
+                "upsellUseOffer": "Využít nabídku na {0}",
+                "interestRate": "Roční úroková\nsazba",
+                "creditTurnover": "Obratová podmínka",
+                "totalAmount": "Celkem zaplatíte",
+                "openingFee": "Poplatek za čerpání úvěru",
+                "monthlyFee": "Měsíční poplatek za správu úvěru",
+                "repaymentFee": "Poplatek za mimořádnou splátku/předčasné splacení",
+                "repaymentFeePercent": "{0} z předčasně\nsplacené jistiny",
+                "repaymentFeeAmountMin": "min. {0}",
+                "firstRepaymentDate": "Datum první splátky",
+                "disclaimer": "Pro vyšší částku prosím navštivte některou z našich <a href=\"atms\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nemám zájem"
+            },
+            "flexi": {
+                "title": "A je to! Máme pro Vás připravených {0}",
+                "detail": "Vámi požadovaný kontokorent {0} Vám nyní nemůžeme nabídnout. Můžeme Vám však poskytnout částku {1}",
+                "loanAmount": "Výše kontokorentu",
+                "interestRate": "Roční úroková sazba",
+                "creditTurnover": "Obratová podmínka",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nemám zájem"
+            },
+            "cc": {
+                "title": "A je to! Máme pro Vás připravených {0}",
+                "detail": "Vámi požadovaný úvěrový rámec {0} Vám nyní nemůžeme nabídnout. Můžeme Vám však poskytnout částku {1}",
+                "loanAmount": "Výše úvěrového rámce",
+                "interestRate": "Roční úroková sazba z nesplacené částky",
+                "repaymentType": "Typ splácení",
+                "directDebitMin": "Minimální inkaso / ZDARMA",
+                "directDebitMax": "100% inkaso",
+                "directDebitMaxFree": "100% inkaso / ZDARMA",
+                "free": "ZDARMA",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nemám zájem",
+                "promo": "Promo akce"
+            },
+            "flexiClip": {
+                "title": "A je to! Máme pro Vás připravených {0}",
+                "detail": "Vámi požadovaný úvěrový rámec {0} Vám nyní nemůžeme nabídnout. Můžeme Vám však poskytnout částku {1}.",
+                "loanAmount": "Výše úvěrového rámce",
+                "interestRate": "Roční úroková sazba",
+                "creditTurnover": "Obratová podmínka",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nemám zájem"
+            },
+            "ccClip": {
+                "title": "A je to! Máme pro Vás připravených {0}",
+                "detail": "Vámi požadovaný úvěrový rámec {0} Vám nyní nemůžeme nabídnout. Můžeme Vám však poskytnout částku {1}.",
+                "loanAmount": "Výše úvěrového rámce",
+                "interestRate": "Roční úroková sazba z nesplacené částky",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Nemám zájem"
+            }
+        },
+        "insurance": {
+            "title": "Získejte jistotu v nejisté době",
+            "subtitle": "Jistota splácení závazků z podnikatelského úvěru.",
+            "detail": "Pojištění schopnosti splácet <b>za {0}</b> měsíčně",
+            "section": "Pojištění schopnosti splácet za {0}",
+            "sectionSubtitle": "Jistota splácení závazků z podnikatelského úvěru",
+            "bullets": [
+                "Pokrývá pracovní neschopnost, invaliditu i úmrtí",
+                "Cena pojištění je {rate} z měsíční splátky úvěru",
+                "Částka {amount} Vám bude připočítána k měsíční splátce úvěru a bude spolu s ní automaticky hrazena"
+            ],
+            "infoPaymentBullets": [
+                "Cena pojištění je {rate} z měsíční splátky úvěru",
+                "Částka {amount} Vám bude připočítána k měsíční splátce úvěru a bude spolu s ní automaticky hrazena"
+            ],
+            "infoYear": "Pokrývá až 12 splátek v případě, že:",
+            "infoYearBullets": [
+                "zrušíte nebo přerušíte svou živnost a pobíráte podporu od úřadu práce",
+                "budete v pracovní neschopnosti",
+                "ztratíte zaměstnání",
+                "ošetřujete člena své rodiny"
+            ],
+            "infoFull": "Doplatí úvěr v případě:",
+            "infoFullBullets": [
+                "přiznání invalidity 2. nebo 3. stupně, ZTP/P",
+                "úmrtí"
+            ],
+            "disclaimer": "Kliknutím na “Pojistit” potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">Pojistnými podmínkami a Rámcovou smlouvou o pojištění</a>.",
+            "primaryButton": "Pojistit za {0} měsíčně",
+            "secondaryButton": "Nemám zájem o pojištění"
+        },
+        "packages": {
+            "title": "Schválený Balíček PRO podnikání",
+            "detail": "Máme pro Vás schváleny další produkty, které se Vám budou v podnikání hodit. Přidejte si je jedním kliknutím.",
+            "packages": {
+                "flexi": {
+                    "title": "Kontokorent",
+                    "detail": "Flexibilní finanční rezerva pouze pro Vás!",
+                    "bullets": [
+                        "Rezervu formou kontokorentu můžete hned čerpat z Vašeho podnikatelského účtu",
+                        "Poskytnutí a vedení máte zcela zdarma",
+                        "Úrok {rate} p. a. platíte jen z vyčerpané částky",
+                        "Kontokorent budete mít vždy po ruce",
+                        "Kdykoliv ho můžete splatit nebo i zcela ukončit bez jakýchkoliv sankcí"
+                    ],
+                    "disclaimer": "Aktivováním souhlasíte se sjednáním kontokorentu <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-kontokorent\">MiniFlexi Business.</a>"
+                },
+                "cc": {
+                    "title": "Kreditní karta",
+                    "detail": "Získávejte benefity za platby Vaší podnikatelskou kreditní kartou!",
+                    "promo": "Promo akce",
+                    "bullets": [
+                        "Z každé platby vracíme 1 % zpět",
+                        "Sjednání a vedení karty je zdarma",
+                        "Bezúročné období až 55 dní nejen pro platby, ale i pro výběry z bankomatů",
+                        "Ihned po podepsání smlouvy lze platit přes GooglePay, ApplePay",
+                        "Minimální inkaso zdarma"
+                    ],
+                    "disclaimer": "Aktivováním souhlasíte se sjednáním kreditní karty <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-kreditni-karta\">MONETA Business Card</a>."
+                },
+                "expres": {
+                    "title": "Splátkový úvěr",
+                    "detail": "Bezúčelový splátkový úvěr pro Vaše podnikaní",
+                    "instalmentAmount": "Měsíční splátka",
+                    "instalmentCount": "Počet měsíčních splátek",
+                    "interestRate": "Roční úroková sazba",
+                    "account": "Účet pro načerpání a splácení úvěru",
+                    "bullets": [
+                        "Možnost odpočtu úroků úvěru z daňového základu",
+                        "Bez poplatku za čerpání a správu úvěru"
+                    ],
+                    "disclaimer": "Aktivováním souhlasíte se sjednáním podnikatelského úvěru <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver-nezajisteny\">Expres Business</a>."
+                }
+            },
+            "primaryButton": "Pokračovat"
+        },
+        "packagesSummary": {
+            "title": "Produkty ve Vašem Balíčku PRO podnikání",
+            "detail": "Váš Balíček PRO podnikání zahrnuje tyto produkty, které Vám v následujících krocích založíme:",
+            "packages": {
+                "expres": {
+                    "title": "Splátkový úvěr",
+                    "detail": "Úvěr pro podnikatele bez zajištění nemovitostí",
+                    "loanAmount": "Výše úvěru",
+                    "installment": "Měsíční splátka včetně pojištění",
+                    "installmentWoInsurance": "Měsíční splátka",
+                    "installmentCount": "Počet měsíčních splátek",
+                    "rate": "Roční úroková sazba",
+                    "turnover": "Obratová podmínka",
+                    "totalAmount": "Celkem zaplatíte",
+                    "campaign": {
+                        "title": "Apple iPhone SE 128 GB",
+                        "value": "ZDARMA"
+                    }
+                },
+                "cc": {
+                    "title": "Kreditní karta",
+                    "detail": "Kreditní karta pro podnikatele s řadou výhod",
+                    "amount": "Úvěrový rámec",
+                    "rate": "Roční úroková sazba",
+                    "repaymentType": "Typ splácení",
+                    "directDebitMin": "Minimální inkaso / ZDARMA",
+                    "directDebitMax": "100% inkaso",
+                    "directDebitMaxFree": "100% inkaso / ZDARMA",
+                    "free": "ZDARMA",
+                    "account": "Účet pro inkaso splátek",
+                    "monthlyFee": "Vedení úvěrového účtu",
+                    "promo": "Promo akce"
+                },
+                "flexi": {
+                    "title": "Kontokorent",
+                    "detail": "Finanční rezerva, kterou máte kdykoli k dispozici",
+                    "amount": "Úvěrový rámec",
+                    "rate": "Roční úroková sazba",
+                    "monthlyFee": "Měsíční poplatek za správu úvěru"
+                }
+            },
+            "primaryButton": "Pokračovat a potvrdit",
+            "secondaryButton": "Upravit balíček"
+        },
+        "precontract": {
+            "title": "Přečtěte si před podpisem tyto předsmluvní informace",
+            "detail": "Všechny dokumenty najdete ve <b>Smart Bance</b> v sekci <b>Moje dokumenty</b>.",
+            "agree": "Přečetl jsem a rozumím předsmluvním informacím",
+            "addressAgree": "Potvrzuji adresu pro doručení karty:",
+            "changeAddress": "Změnit adresu",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "address": {
+            "title": "Změna doručovací adresy",
+            "detail": "Uveďte Vaši doručovací adresu. Kartu doručíme přímo do Vaší schránky.",
+            "street": "Ulice",
+            "descriptiveNumber": "Č. p.",
+            "orientationNumber": "Č. or.",
+            "city": "Město",
+            "postCode": "PSČ",
+            "primaryButton": " Uložit adresu"
+        },
+        "contracting": {
+            "title": "Chvilku strpení, připravujeme Vám smlouvu"
+        },
+        "contract": {
+            "title": "Výborně! Vaše smlouvy jsou připravené",
+            "detail": "Všechny dokumenty najdete ve <b>Smart Bance</b> v sekci <b>Moje dokumenty</b>.",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "victory": {
+            "title": "Blahopřejeme! Sjednání produktů bylo úspěšné",
+            "detail": "Všechny dokumenty najdete ve <b>Smart Bance</b> v sekci <b>Moje dokumenty.</b>",
+            "packages": {
+                "expres": {
+                    "title": "Splátkový úvěr - Expres Business",
+                    "detail": "<b>{amount}</b> bude připsáno nejpozději během následujícího pracovního dne na Váš účet <b>{account}</b>.\n\nPrvní splátka ve výši <b>{installment}</b> včetně pojištění automaticky odejde <b>{date}</b>.",
+                    "detailWoInsurance": "<b>{amount}</b> bude připsáno nejpozději během následujícího pracovního dne na Váš účet <b>{account}</b>.\n\nPrvní splátka ve výši <b>{installment}</b> automaticky odejde <b>{date}</b>."
+                },
+                "campaign": {
+                    "title": "Apple iPhone SE 128 GB",
+                    "detail": "Společnost iStyle Vám pošle nejpozději do <b>5 pracovních dní</b> na Váš e-mail jedinečný kód pro objednání vašeho nejnovějšího <b>Apple iPhone SE 128 GB</b>.\n\nKód uplatníte pro nákup telefonu <b>ZDARMA</b> v eshopu <b>iStyle.cz</b> nejpozději do {codeValidity}."
+                },
+                "flexi": {
+                    "title": "Kontokorent - MiniFlexi Business",
+                    "detail": "Váš disponibilní zůstatek na účtu <b>{account}</b> bude navýšen o <b>{amount}</b> nejpozději během následujícího pracovního dne."
+                },
+                "cc": {
+                    "title": "Kreditní karta - MONETA Business Card",
+                    "detail": "Kreditní kartu s limitem <b>{amount}</b> Vám doručíme <b>do 5 pracovních dnů</b> na adresu <b>{address}</b>.\n\nKartou již nyní můžete platit přes <b>GooglePay</b>, <b>ApplePay</b>.\n\nPro začátek jsme Vám na kartě nastavili základní limity pro platby, po obdržení a aktivaci karty si je můžete změnit v detailu karty."
+                },
+                "flexiClip": {
+                    "title": "Kontokorent - MiniFlexi Business",
+                    "detail": "Váš disponibilní zůstatek na účtu <b>{account}</b> bude navýšen o <b>{amount}</b> nejpozději během následujícího pracovního dne."
+                },
+                "ccClip": {
+                    "title": "Kreditní karta - MONETA Business Card",
+                    "detailDirectDebit": "Rámec Vaší kreditní karty bude navýšen na <b>{amount}</b> nejpozději během následujícího pracovního dne.\n\nVaše inkaso navýšíme o částku <b>{directDebit}</b>, aby Vaše splátky odcházely v pořádku.",
+                    "detailOtherBank": "Rámec Vaší kreditní karty bude navýšen na <b>{amount}</b>, nejpozději během následujícího pracovního dne.\n\nNezapomeňte si u svého účtu číslo <b>{account}</b> navýšit inkaso o částku <b>{directDebit}</b>, aby Vaše splátky odcházely v pořádku.",
+                    "detail": "Rámec Vaší kreditní karty bude navýšen na <b>{amount}</b> nejpozději během následujícího pracovního dne."
+                }
+            },
+            "primaryButton": "Zpět na Přehled"
+        },
+        "vocabulary": {
+            "expres": {
+                "interestRate": {
+                    "title": "Roční úroková sazba",
+                    "detail": "Uvedená úroková sazba je pevná po celou dobu trvání úvěrové smlouvy."
+                },
+                "turnover": {
+                    "title": "Obratová podmínka",
+                    "detail": "Vaše příchozí měsíční platby na Vaše běžné podnikatelské účty u MONETA Money Bank musí činit minimálně 2,5 násobek z měsíční splátky, což je {0}."
+                },
+                "campaign": {
+                    "title": "Jak to funguje?",
+                    "detail": "Po podepsání smluvní dokumentace a načerpání úvěru předáme Vaši e-mailovou adresu společnosti iStyle.\n\nSpolečnost iStyle Vám pošle nejpozději do 5 pracovních dní na Váš e-mail jedinečný kód pro objednání vašeho nejnovějšího <b>Apple iPhone SE 128GB</b>. Kód uplatníte pro nákup telefonu <b>ZDARMA</b> v eshopu <b>iStyle.cz</b> nejpozději <b>do {codeValidity}</b>."
+                }
+            },
+            "flexi": {
+                "lineOfCredit": {
+                    "title": "Nezávazná úvěrová linka",
+                    "detail": "Nezávazná úvěrová linka je ujednání, na základě kterého je Banka připravena, nikoli však zavázána, poskytnout Klientovi peněžní prostředky do výše Flexi Limitu sjednaného ve smlouvě, maximálně do výše Rámce a že poskytnutí jakéhokoli čerpání úvěru závisí pouze na rozhodnutí Banky, bez ohledu na skutečnost, že Klient splnil všechny podmínky pro čerpání stanovené ve smlouvě, přičemž Banka je též oprávněna jednostranně a kdykoli snížit výši Flexi Limitu o dosud nevyčerpanou částku.\n\nO snížení Flexi Limitu o dosud nevyčerpanou částku bude Banka Klienta informovat písemným oznámením zaslaným prostřednictvím Internet Banky nebo dopisem."
+                },
+                "turnover": {
+                    "title": "Obratová podmínka",
+                    "detail": "Při kontokorentu nad 100 000 Kč je pro zachování výše čerpání nutné dodržet příchozí měsíční platby na Vaše běžné podnikatelské účty vedené u MONETA Money Bank v min. výši 33 % sjednaného kontokorentu."
+                }
+            },
+            "cc": {
+                "promo": {
+                    "title": "Promo akce 5 % za PHM",
+                    "detail": "Kompletní informace k této akci naleznete na webové stránce věnované produktu <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-kreditni-karta\">MONETA Business Card</a>."
+                },
+                "directDebitMin": {
+                    "title": "Minimální inkaso",
+                    "detail": "Pokud čerpanou částku nesplatíte v rámci bezúročného období 55 dní, poskytnuté finanční prostředky budou úročeny sazbou {interestRate} p. a. a každý měsíc automaticky provedeme inkaso minimální splátky ve výši 4 % z vyčerpané částky."
+                },
+                "directDebitMax": {
+                    "title": "100% inkaso",
+                    "detail": "je služba, která měsíčně automaticky provádí splátku vyčerpané částky v bezúročném období a vy máte čistou hlavu bez starostí."
+                },
+                "directDebit": {
+                    "title": "100% inkaso",
+                    "detail": "<b>Zapnuto</b><br>Pro vaše pohodlí nabízíme službu 100% inkaso ZDARMA, která měsíčně automaticky provádí splátku vyčerpané částky v bezúročném období a vy máte čistou hlavu bez starostí.<br><br><b>Vypnuto</b><br>Pokud čerpanou částku nesplatíte v rámci bezúročného období {interestFreePeriodDays} dní, poskytnuté finanční prostředky budou úročeny sazbou {interestRate} p. a. a každý měsíc automaticky provedeme inkaso minimální splátky ve výši 4 % z vyčerpané částky"
+                },
+                "lineOfCredit": {
+                    "title": "Nezávazná úvěrová linka",
+                    "detail": " Nezávazná úvěrová linka je ujednání, na základě kterého může banka klientovi poskytnout peněžní prostředky, a to dle sjednané smlouvy a maximálně do výše úvěrového rámce Moneta Business Card. Poskytnutí jakéhokoli čerpání úvěru závisí na rozhodnutí banky a není nárokovatelné. Banka také může kdykoliv jednostranně snížit výši rámce na kreditní kartě o dosud nevyčerpanou částku.\n\nO snížení limitu je klient informován oznámením zaslaným prostřednictvím Internet Banky nebo dopisem."
+                },
+                "general": {
+                    "title": "Jak funguje kreditní karta?",
+                    "detail": "S kreditní kartou máte k dispozici až {interestFreePeriodDays} dní bezúročného období, ve kterém zaplatíte buď celou útratu nebo jen část.",
+                    "bullets": [
+                        "Každý měsíc nakupujete až do výše Vašeho úvěrového rámce",
+                        "Nejpozději 25. dne dalšího měsíce buď zaplatíte celou útratu, nebo minimální splátku (a zbytek splácíte s úrokem)"
+                    ],
+                    "perks": {
+                        "title": "Výhody kreditní karty",
+                        "detail": "Sjednání a vedení karty je zcela zdarma. {benefitReward} zpět z každé transakce neomezeně.<br><br><b>bene+</b> je věrnostní program, ve kterém Vám vrátíme až 30 % za každou platbu kreditní kartou u našich partnerů bene+. Využijte pravidelné speciální akce s ještě výhodnějšími podmínkami. Více na stránkách <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a>.",
+                        "detailPromo": "Sjednání a vedení karty je zcela zdarma.<br><br><b>bene+</b> je věrnostní program, ve kterém Vám vrátíme až 30 % za každou platbu kreditní kartou u našich partnerů bene+. Využijte pravidelné speciální akce s ještě výhodnějšími podmínkami. Více na stránkách <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a>."
+                    },
+                    "dictionary": {
+                        "title": "Slovníček",
+                        "bullets": [
+                            "<b>Sjednáním kreditní karty</b> se rozumí sjednání revolvingového úvěru, který je možno čerpat kreditní kartou.",
+                            "<b>Bezúročné období</b> je doba od 1. dne měsíce do 25. dne následujícího měsíce, po kterou Vám banka poskytuje čerpání úvěru bez úroku, ale pouze za podmínky, že celou vyčerpanou částku splatíte do data splatnosti uvedeného na výpisu.",
+                            "<b>Zúčtovací období</b> je doba od 1. do posledního dne kalendářního měsíce.",
+                            "<b>Úroková sazba</b> je roční úroková sazba. Poskytnuté peněžní prostředky jsou Bankou úročeny denně, a to ode dne čerpání Úvěru metodou počet dní v příslušném kalendářním měsíci/365.",
+                            "<b>Splátka kreditní karty</b> je zaplacení části, nebo všech vyčerpaných peněžních prostředků. Výši celkové splátky najdete ve Vašem výpisu a zaplatíte ji jednoduše bankovním převodem nebo automaticky službou 100% inkaso.",
+                            "<b>Minimální splátka</b> je částka, kterou musíte uhradit do 25. dne každého měsíce. Tato splátka je ve výši 4 % z vyčerpaných peněžních prostředků. Automatické splácení minimální splátky inkasem z Vašeho účtu nastavíme za Vás. V případě, že budete chtít splatit vyčerpanou částku celou, můžete splatit pohodlně bankovním převodem, nebo rovněž inkasem, pokud si zvolíte automatické splácení viz 100% inkaso.",
+                            "<b>100% inkaso</b> je služba určená speciálně pro vaše pohodlí, která ZDARMA měsíčně automaticky provádí splátku čerpané částky v bezúročném období (25. den v měsíci) a vy máte čistou hlavu bez starostí. Pokud celou čerpanou částku nesplatíte v rámci bezúročného období do 25. dne v následujícím měsíci nebo provedete čerpání převodním příkazem, poskytnuté finanční prostředky budou úročeny sazbou  {interestRate} p. a.",
+                            "<b>Cash back</b> je možnost vybrat si hotovost u obchodníka při platbě kartou za zboží/službu. Platba kartou je navýšena o hotovost, kterou Vám obchodník vyplatí ze své pokladny + jednorázového poplatku 19 Kč.",
+                            "<b>Příkaz k úhradě z kreditní karty</b> je obdoba jednorázového platebního příkazu z běžného účtu. Získáváte tak možnost hradit z karty platby i když protistrana nenabízí platební bránu. Tato služba je zpoplatněna jednorázovým poplatkem 1 % z výše převáděné částky. <br>Na tuto službu, jako jedinou, se nevztahuje bezúročné období. Úročení vyčerpané částky tedy začíná již od následujícího dne od provedení příkazu.",
+                            "<b>Výběry v bankomatech Moneta</b> jsou zpoplatněny 1 % z vybírané částky.",
+                            "<b>Výběry v bankomatech ostatních bank a v zahraničí</b> jsou zpoplatněny 1 % z vybírané částky + 30 Kč."
+                        ]
+                    },
+                    "primaryButton": "Zpět",
+                    "secondaryButton": "Máte dotaz nebo chcete poradit?\nZavolejte nám na 224 444 555",
+                    "secondaryButtonPrivateBanker": "Máte dotaz nebo chcete poradit?\nZavolejte svému osobnímu bankéři"
+                }
+            }
+        }
+    }
+}

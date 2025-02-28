@@ -1,0 +1,285 @@
+{
+    "general": {
+        "toolbarTitle": "Travel Insurance",
+        "phoneNumber": "+420 224 443 636",
+        "phoneNumberAssist": "+420 234 240 244",
+        "shortTermOverlapError": "You already have valid travel insurance for the selected period. Please select another period."
+    },
+    "scenes": {
+        "help": {
+            "title": "How to file an insurance claim?",
+            "detail": "For any claim always contact the 24/7 assistance service in Czech at +420 234 240 244.",
+            "bulletsHeadline": "The insurance does not cover the following situations:",
+            "richBullets": [
+                {
+                    "image": "closeFill",
+                    "title": "The consequences of alcohol consumption or the use of addictive substances or products containing addictive substances by the insured person."
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Continuation or recurrence of an illness the insured person had before traveling abroad, except in cases of acute flare-ups of a stabilized chronic condition."
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Complications from infertility treatment, complications from voluntary termination of pregnancy, complications from pregnancy after the 24th week, complications from high-risk pregnancy, or complications from childbirth."
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Infection with sexually transmitted infections, HIV, AIDS, or hepatitis B and C."
+                }
+            ],
+            "footer": "A complete list and the wording of exclusions can be found in Article 12 of the General Section and in the Special Section of the General Terms and Conditions for Travel Insurance No. 1/2017 for individual insurance policies."
+        },
+        "setup": {
+            "title": "Travel Insurance",
+            "party": {
+                "title": "Who will be traveling?",
+                "alone": "Individual",
+                "family": "Family",
+                "help": {
+                    "title": "Who will be traveling?",
+                    "detail": "Travel insurance can be arranged for you and the whole family.\n\nFamily package covers:\n\n1.Your spouse, registered partner, or domestic partner living with you in the same household, as long as they have permanent residence in the same country as you and do not have permanent residence at the travel destination.\\n\\n2.All your children, including those from previous relationships, up to 18 years old (there is no limit on the number of children)..\\n\\n Each insured person has individual coverage limits within the \"Me and My Family\" package, and your family members are covered only when they travel with you."
+                }
+            },
+            "help": "Help",
+            "where": {
+                "title": "Where are you traveling to?",
+                "europe": "Europe",
+                "world": "The world",
+                "help": {
+                    "title": "Europe or the world?",
+                    "detail": "<b>Short-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands and the territory</b>:\n・Armenia\n・Azerbaijan\n・Egypt\n・Kazakhstan\n・Cyprus\n・Morocco\n・Georgia\n・Tunisia\n・Turkey\nThe insurance is not valid in the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions. \n\nThe <b>World variant is valid worldwide</b> outside the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions, Iran, North Korea, Syria, Cuba, Venezuela, Myanmar, Crimea and Afghanistan.\n\n<b>Long-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands</b>, the European part of Russia ( delimited by the Ural mountain range) and further to the territory of Egypt, Morocco, Tunisia and Turkey.\n\nThe territorial validity is not limited in the <b>World</b> variant."
+                }
+            },
+            "term": {
+                "title": "Which type of insurance fits your travel plans?",
+                "short": "Short-term",
+                "long": "Long-term",
+                "footer": "Long-term insurance is arranged for an indefinite period and is valid from midnight of the day following the date of the agreement",
+                "help": {
+                    "title": "For how long do you wish to be insured?",
+                    "detail": "<b>Short-term</b>  coverage can be arranged within an hour of completing the insurance agreement in Smart Banka for your desired length of stay.<br><br>If you travel abroad regularly, a <b>Long-term</b>  travel insurance with a low monthly payment might be more beneficial for you.\\nIn this case, remember that the total duration of a continuous stay abroad cannot exceed 90 days, and the insurance cannot be arranged while you are abroad.The insurance is set up for an indefinite period and becomes effective at midnight the day after the agreement is finalized."
+                }
+            },
+            "when": {
+                "title": "When will you be traveling?",
+                "start": "Start date",
+                "end": "End date"
+            },
+            "choose": "Select",
+            "primaryButton": "Confirm"
+        },
+        "agreement": {
+            "title": "Travel insurance summary",
+            "payment": "The insurance premiums will be paid from",
+            "account": "Current Account",
+            "summary": {
+                "title": "Insurance summary",
+                "type": "Insurance type",
+                "start": "Valid from",
+                "end": "Valid until",
+                "longterm": "Indefinite",
+                "price": "Insurance premium",
+                "month": "month",
+                "iddDetail": "The contractual documents will be sent to you via email. You can pick up a physical copy at any of <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">our branches.</a>.",
+                "footer": "Carefully read the informational material on travel insurance, which outlines exclusions and coverage limits."
+            },
+            "limitsTitle": "Coverage amounts",
+            "perPerson": "(per person)",
+            "limitsShortFooter": "* 15% deductible does not apply in the case of hospitalization or death\n**in case of multiple passengers in the Family package the maximum payout is  10 000 CZK.",
+            "limitsLongFooter": "",
+            "limits": [
+                {
+                    "param": "Medical expense and assistance services insurance",
+                    "valueEurope": "10 000 000 CZK",
+                    "valueWorld": "15 000 000 CZK"
+                },
+                {
+                    "param": "Emergency dental treatment",
+                    "valueEurope": "25 000 CZK",
+                    "valueWorld": "25 000 CZK"
+                },
+                {
+                    "param": "Companion insurance",
+                    "valueEurope": "50 000 CZK",
+                    "valueWorld": "100 000 CZK ",
+                    "subvalueEurope": "(3 000 CZK/day)",
+                    "subvalueWorld": "(6 000 CZK/day)"
+                },
+                {
+                    "param": "Legal asistence and bail in case of a car accident",
+                    "valueEurope": "100 000 CZK",
+                    "valueWorld": "100 000 CZK"
+                },
+                {
+                    "param": "Personal liability insurance",
+                    "valueEurope": "5 000 000 CZK",
+                    "valueWorld": "5 000 000 CZK"
+                },
+                {
+                    "param": "Trip cancellation insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Unused services insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Early return insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Missed departure insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Baggage delay insurance (minimum of 5 hours)**",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Baggage and personal items insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Flight delay or cancellation insurance",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Accidental death insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Permanent disability insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Rental car deductible insurance",
+                    "valueEurope": "20 000 CZK",
+                    "valueWorld": "20 000 CZK"
+                },
+                {
+                    "param": "Express document issuance insurance",
+                    "valueEurope": "10 000 CZK",
+                    "valueWorld": "10 000 CZK"
+                },
+                {
+                    "param": " Telehealth / virtual doctor's office",
+                    "valueEurope": "Yes",
+                    "valueWorld": "Yes"
+                }
+            ],
+            "limitsLong": [
+                {
+                    "param": "Medical expense and assistance services insurance",
+                    "valueEurope": "5 000 000 CZK",
+                    "valueWorld": "10 000 000 CZK"
+                },
+                {
+                    "param": "Emergency dental treatment",
+                    "valueEurope": "15 000 CZK",
+                    "valueWorld": "15 000 CZK"
+                },
+                {
+                    "param": "Phonecalls in case of hospitalization",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "10 000 CZK"
+                },
+                {
+                    "param": "Companion insurance",
+                    "valueEurope": "50 000 CZK",
+                    "valueWorld": "50 000 CZK",
+                    "subvalueEurope": "(3 000 CZK/day)",
+                    "subvalueWorld": "(6 000 CZK/day)"
+                },
+                {
+                    "param": "Accidental death insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Permanent disability insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Personal liability insurance",
+                    "valueEurope": "2 000 000 CZK",
+                    "valueWorld": "2 000 000 CZK"
+                },
+                {
+                    "param": "Baggage and personal items insurance",
+                    "valueEurope": "50 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Baggage delay insurance (for airtravel)",
+                    "valueEurope": "10 000 CZK",
+                    "valueWorld": "10 000 CZK",
+                    "subvalueEurope": "Time deductible 3 hours",
+                    "subvalueWorld": "Time deductible 3 hours"
+                },
+                {
+                    "param": "Trip cancellation insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK",
+                    "subvalueEurope": "20% deductible",
+                    "subvalueWorld": "20% deductible"
+                },
+                {
+                    "param": "Legal assistance and bail in case of a traffic accident",
+                    "valueEurope": "100 000 CZK",
+                    "valueWorld": "100 000 CZK"
+                }
+            ],
+            "agreement": "I confirm that I have read and understood the document",
+            "agreements": "I confirm that I have read and understood the documents",
+            "primaryButtonLongTerm": "Arrange for {0} a month",
+            "primaryButtonShortTerm": "Arrange for {0}"
+        },
+        "contract": {
+            "title": "Read the Insurance Agreement",
+            "detail": "All documents can be found in Smart Banka and Internet Banka under Documents.",
+            "primaryButton": "I understand and accept",
+            "secondaryButton": "Decline",
+            "loading": {
+                "title": "Almost done,\njust to sign the Agreement",
+                "detail": "Just a moment while we prepare it"
+            },
+            "signByUs": {
+                "title": "Now it's our turn to sign",
+                "detail": "It should only take a moment."
+            }
+        },
+        "disagree": {
+            "title": "Your agreement is required",
+            "detail": "Do you have any questions? Call us or visit one of our branches.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Back"
+        },
+        "victory": {
+            "title": "Done, you're ready for your trip.",
+            "detail": "Short-term insurance is effective immediately, while long-term insurance will be valid from midnight the following day.\n\n<a href=\"https://www.meddiapp.com/\">Sign up</a> for the virtual doctor's office using the code CESTA and consult a doctor online while abroad free of charge.\n",
+            "primaryButton": "Sign up for virtual doctor's office",
+            "secondaryButton": "Back to Overviews",
+            "virtualClinicUrl": "https://www.meddiapp.com/prihlasit",
+            "virtualClinicsEnabled": true
+        },
+        "victoryLong": {
+            "title": "Done, you can prepare for the trip",
+            "detail": "Insurance will be valid from midnight of the following day.",
+            "primaryButton": "Show my insurance",
+            "secondaryButton": "Back to Overview"
+        }
+    }
+}

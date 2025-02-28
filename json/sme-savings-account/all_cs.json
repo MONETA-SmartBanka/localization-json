@@ -1,0 +1,195 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "branch": {
+                "title": "Spořicí účet Vám sjednáme na pobočce",
+                "detail": "Je nám líto, ale momentálně Vám neumíme sjednat spořicí účet online.\n\n<b>Zastavte se prosím za námi na kterékoliv naší pobočce, kde vše vyřešíme.</b>",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Sjednat schůzku na pobočce</a></b>",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "noProduct": {
+                "title": "Žádný produkt",
+                "detail": "Je nám líto, ale aktuálně pro Vás nemáme žádný produkt v nabídce.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "identificationDisagree": {
+                "title": "Údaje nesouhlasí",
+                "detail": "Je nám líto, ale při sjednávání spořicícho účtu není možné měnit údaje o Vaší společnosti.<br/><br/>Zastavte se prosím za námi na kterékoliv pobočce, kde Vám údaje rádi upravíme. Poté můžete opět pokračovat.",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Sjednat schůzku na pobočce</a></b>",
+                "secondaryButton": "Ukončit sjednání",
+                "primaryButton": "Zpět na sjednání"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Sjednat schůzku na pobočce</a></b>",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Zpět na smlouvu"
+            },
+            "api": {
+                "title": "Jejda, něco se pokazilo",
+                "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.\n\nVaší žádost o spořicí účet jsme zrušili. Zkuste si ho prosím založit později.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "scoring": {
+                "title": "Omlouváme se, něco se pokazilo",
+                "detail": "Bohužel nemůžeme pokračovat ve sjednávání online, ale rádi Vám pomůžeme na pobočce - nezapomeňte si s sebou prosím vzít doklad totožnosti.",
+                "primaryButton": "Zpět na Přehled"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Spořicí účet"
+        },
+        "scenes": {
+            "help": {
+                "title": "Potřebujete poradit nebo chcete dokončit sjednání spořicího účtu později?",
+                "bulletsHeadline": "Komerční spořicí účet zdarma a bez podmínek",
+                "iconBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>Založení a vedení</b> spořicího účtu <b>zdarma</b> s elektronickými výpisy z účtu."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Správa spořicího účtu přímo v <b>Internet Bance</b> a <b>Smart Bance</b>."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Naspořené peníze můžete kdykoliv <b>zdarma</b> poslat na běžný účet."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Vklady jsou pojištěny až do výše <b>100 000 EUR</b>"
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Úroky se připisují měsíčně."
+                    }
+                ],
+                "primaryButton": "Zpět k žádosti",
+                "secondaryButton": "Dokončit žádost jindy",
+                "tertiaryButton": "Zrušit žádost",
+                "helpHeadline": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "<b>224 443 636</b>",
+                "branch": "<b><a href=\"https://www.moneta.cz/kontakt\" target=\"_blank\">Sjednat schůzku na pobočce</a></b>",
+                "chatURL": "https://bcrw.apple.com/sms:open?service=iMessage&recipient=urn:biz:3f1d6b85-2f0d-4f0d-a2c6-51a766a2705b"
+            },
+            "savingsOffer": {
+                "description": "Zvolte typ spořicího účtu",
+                "title": "Komerční spořicí účet zdarma a bez podmínek",
+                "bullets": [
+                    "<b>Založení a vedení</b> spořicího účtu <b>zdarma</b> s elektronickými výpisy z účtu.",
+                    "Správa spořicího účtu přímo v <b>Internet Bance</b> a <b>Smart Bance</b>.",
+                    "Naspořené peníze můžete kdykoliv <b>zdarma</b> poslat na běžný účet.",
+                    "Vklady jsou pojištěny až do výše <b>100 000 EUR</b>",
+                    "Úroky se připisují měsíčně.",
+                    "Více informací o <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucty-pro-podnikani\" target=\"_blank\">spořicím účtu</a>."
+                ],
+                "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
+                "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
+                "primaryButton": "Založit spořicí účet",
+                "secondaryButton": "Více informací"
+            },
+            "savingsOfferIndividual": {
+                "description": "Název produktu",
+                "title": "Komerční spořicí účet zdarma, bez podmínek a s individuální sazbou",
+                "bullets": [
+                    "<b>Nabídka individuální sazby je platná do {expirationDate}</b>",
+                    "<b>Založení a vedení</b> spořicího účtu <b>zdarma</b> s elektronickými výpisy z účtu.",
+                    "Správa spořicího účtu přímo v <b>Internet Bance</b> a <b>Smart Bance</b>.",
+                    "Naspořené peníze můžete kdykoliv <b>zdarma</b> poslat na běžný účet.",
+                    "Vklady jsou pojištěny až do výše <b>100 000 EUR</b>",
+                    "Úroky se připisují měsíčně.",
+                    "Více informací o <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucty-pro-podnikani\" target=\"_blank\">spořicím účtu</a>."
+                ],
+                "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
+                "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
+                "primaryButton": "Založit spořicí účet",
+                "secondaryButton": "Více informací"
+            },
+            "identification": {
+                "title": "Máme správně údaje o Vašem podnikání?",
+                "companyName": "Obchodní jméno",
+                "address": "Adresa podnikání",
+                "taxSection": {
+                    "titleHeader": "Kde platíte daně?",
+                    "footer": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
+                    "taxResidence": "Daňová rezidence",
+                    "taxResidenceInfoTitle": "Určení daňové rezidence",
+                    "taxResidenceInfoBody": "Dovolujeme si Vás požádat o informace za účelem plnění Společného standardu pro náležitou péči v oblasti informací o finančních účtech za účelem výměny informací poskytovaných finančními institucemi daňovým správám na základě Mnohostranné dohody příslušných orgánů o automatické výměně informací o finančních účtech (v případě banky se jedná o běžné, spořicí účty a termínované vklady).",
+                    "vat": "DIČ",
+                    "anotherVat": "Přidat zemi",
+                    "text": "Platím daně pouze v ČR"
+                },
+                "in": "IČO",
+                "tinError": "Je hodnota DIČ vyplněna správně?",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Údaje nesouhlasí"
+            },
+            "invalidTin": {
+                "title": "Zadané DIČ není validní. Chcete pokračovat?",
+                "primaryButton": "Ano, pokračovat",
+                "secondaryButton": "Ne, zpět"
+            },
+            "signatureInfo": {
+                "title": "Kdo za Vaši společnost podepisuje sjednání spořicího účtu?",
+                "name": "Jméno",
+                "surname": "Příjmení",
+                "birthNumber": "Rodné číslo",
+                "birthNumberError": "Kontrola zadaného rodného čísla neproběhla v pořádku.",
+                "function": "Funkce",
+                "statement": "Prohlašuji, že jsem oprávněn provést tento krok za právnickou osobu",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Zpět"
+            },
+            "busyLoaderScoring": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+            },
+            "waitingBeforeContract": {
+                "title": "Připravujeme Vám smlouvu, chvilku strpení prosím."
+            },
+            "contract": {
+                "title": "Přečtete si pečlivě smlouvu ke spořicímu účtu",
+                "toolbarTitle": "Prostudujte i tyto dokumenty",
+                "detail": "Všechny dokumenty najdete ve Smart Bance v sekci Dokumenty a smlouvy.",
+                "resend": "Stáhněte si PDF",
+                "warning1": "Než budeme pokračovat, je potřeba pročíst celý dokument",
+                "warning2": "Než budeme pokračovat, je potřeba potvrdit souhlas",
+                "secondaryButton": "Nesouhlasím",
+                "primaryButton": "Přejít k podpisu"
+            },
+            "sign": {
+                "title": "Podepište smlouvu PINem"
+            },
+            "busyLoaderBankSigning": {
+                "title": "Teď to musíme podepsat my, chvilku strpení prosím."
+            },
+            "victory": {
+                "approvalCenter": {
+                    "cosign": {
+                        "title": "Žádost podepsána a odeslána dalším schvalovatelům",
+                        "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel.",
+                        "primaryButton": "Zpět na Přehled"
+                    },
+                    "prepared": {
+                        "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                        "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a aktivujeme Vám účet.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                        "primaryButton": "Zpět na Přehled"
+                    }
+                },
+                "waiting": {
+                    "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                    "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a aktivujeme Vám účet.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "title": "Hotovo, můžete začít spořit",
+                "detail": "Nejlépe tak, že si na Váš nový spořicí účet budete pravidelně posílat část příjmu z Vašeho podnikání.",
+                "primaryButton": "Zpět na Přehled"
+            }
+        }
+    }
+}

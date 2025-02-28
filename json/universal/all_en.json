@@ -1,0 +1,1138 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "dateio": {
+                "title": "Enjoy Discounts and Rewards on Card Payments",
+                "bulletsSectionTitle": "How does it work?",
+                "bullets": [
+                    {
+                        "icon": "plain1",
+                        "title": "Browse the selection of rewards"
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Activate desired rewards and pay with your card",
+                        "description": "Both debit and credit cards apply"
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Enjoy your rewards",
+                        "description": "Such as cashback, vouchers or discounts on your purchases."
+                    }
+                ],
+                "error": "You must agree to the Terms in order to continue",
+                "consent": "I agree to the terms of the <a href=\"https://www.moneta.cz\">Loyalty Program</a> acknowledge the extent of <a href=\"https://www.moneta.cz\">sharing and processing of personal data</a>.",
+                "primaryButton": "Continue",
+                "secondaryButton": "Learn More About Rewards"
+            },
+            "dateioHelp": {
+                "title": "How do rewards work?",
+                "bullets": [
+                    {
+                        "icon": "plain1",
+                        "title": "Browse the rewards",
+                        "description": "Find the best offers. Search and filter according to your shopping preferences and learn more about individual rewards.",
+                        "bullets": [
+                            {
+                                "icon": "pocketMoneyFill",
+                                "title": "Cashback"
+                            },
+                            {
+                                "icon": "ticketFill",
+                                "title": "Discounts"
+                            },
+                            {
+                                "icon": "globeFill",
+                                "title": "Discount links for shopping online"
+                            }
+                        ]
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Activate the rewards and pay using your card",
+                        "description": "Select a reward, activate it, and pay with your Moneta card."
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Enjoy your rewards",
+                        "description": "Each month, cashback for the previous month will be credited directly to your Moneta account."
+                    }
+                ],
+                "primaryButton": "Back to Rewards"
+            },
+            "fraudPopup": {
+                "secureAccount": {
+                    "icon": "triangleExclamation",
+                    "title": "BEWARE OF FRAUD!\n\nNever transfer money to a so-called “secure” account",
+                    "detail": "Did you receive a call claiming to be from your banker, saying your account has been hacked?\nDo not transfer your money anywhere!\n\n<b>It is a scam!</b>",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Acknowledge",
+                        "salespointTrackingAction": "CLICK"
+                    },
+                    "secondaryButton": {
+                        "actionType": "WEB",
+                        "actionLabelText": "More Information",
+                        "actionData": "https://www.moneta.cz/blog/hovor-za-vsechny-penize-nepodlehnete-tlaku-falesnych-bankeru",
+                        "salespointTrackingAction": "CLICK"
+                    }
+                },
+                "bankMessage": {
+                    "icon": "triangleExclamation",
+                    "title": "Chystáte se investovat na základě videa s veřejně známou osobností?",
+                    "detail": "Kontaktoval vás „investiční specialista“ a láká vás na pohádkové výnosy nebo rovnou vyplacení zisku?\n\n<b>Dejte si pozor, můžete přijít o své peníze!</b>",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Beru na vědomí",
+                        "salespointTrackingAction": "CLICK"
+                    },
+                    "secondaryButton": {
+                        "actionType": "WEB",
+                        "actionLabelText": "Více informací",
+                        "actionData": "https://www.moneta.cz/blog/lakaji-vas-vyhodne-investice-zbystrete",
+                        "salespointTrackingAction": "CLICK"
+                    }
+                },
+                "activeAlert": {
+                    "icon": "triangleExclamation",
+                    "title": "POZOR NA PODVODY! ver.3\n\nNikdy nepřesunujte peníze na „bezpečný“ účet",
+                    "detail": "Volá vám bankéř, že byl váš účet napaden?\nNikam své peníze neposílejte!\n\n<b>Jedná se o podvod!</b>",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Beru na vědomí",
+                        "salespointTrackingAction": "CLICK"
+                    },
+                    "secondaryButton": {
+                        "actionType": "WEB",
+                        "actionLabelText": "Více informací",
+                        "actionData": "https://www.moneta.cz",
+                        "salespointTrackingAction": "CLICK"
+                    }
+                },
+                "NEWACC": {
+                    "victoryKind": "error",
+                    "title": "Takovou částku na tento účet běžně neposíláte.\n\nDejte si pozor na podvody",
+                    "detail": "Kontaktoval vás někdo s informací, že je váš účet napaden a máte své peníze přesunout na „bezpečný účet“? Nebo se chystáte investovat na základě video doporučení známé osobnosti?",
+                    "message": "Nedělejte to a platbu nepotvrzujte. Pravděpodobně se jedná o podvod.",
+                    "footer": "Pokud si nejste jistí, volejte <a href=\"tel:+420224442424\">224 442 424</a>.",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Zrušit platbu"
+                    },
+                    "secondaryButton": {
+                        "actionType": "CONTINUE",
+                        "icon": "triangleExclamationFill",
+                        "destructive": true,
+                        "actionLabelText": "Pokračovat k platbě"
+                    }
+                },
+                "priorityChanged": {
+                    "victoryKind": "wait",
+                    "title": "Platbu odešleme jako standardní",
+                    "detail": "Z technických důvodů odešleme vaši platbu jako standardní s dnešním datem splatnosti. Pokud potřebujete odeslat platbu okamžitě, zavolejte nám.\n\nV případě, že se nevyjádříte, platbu odešleme jako standardní.",
+                    "callUs": "Zavolejte nám na infolinku",
+                    "primaryButton": {
+                        "actionType": "CONTINUE",
+                        "actionLabelText": "Souhlasím, odeslat standardně"
+                    },
+                    "secondaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": " Nesouhlasím, zrušit platbu"
+                    }
+                }
+            },
+            "fx": {
+                "24_7": "You can now exchange money 24/7"
+            },
+            "landingPage": {
+                "title": "Welcome to the Smart Banka app",
+                "salesTitle": "With a free current account just in few steps",
+                "salesActionButton": "The Tom Plus account for new clients",
+                "wantAccountTitle": "I would like to open the new Tom Plus current account.",
+                "imageWelcomeUrl": "/cbl_images/universal/investments.png",
+                "pairInvestments": {
+                    "title": "I want to conveniently invest in mutual funds",
+                    "detail": "Over 20 mutual funds to increase the value of your finances - take the opportunity to increase the value of your money."
+                },
+                "salesButtonAction": {
+                    "actionType": "APP_PAGE",
+                    "actionLabelText": "Invest in app",
+                    "actionData": "INVESTMENTS_NTB"
+                }
+            },
+            "qrLogin": {
+                "detail": {
+                    "browserPrefix": "Browser",
+                    "platformPrefix": "Operating system",
+                    "title": "Do you want to log in to Internet Bank?",
+                    "subtitle": "Please confirm that you are logging in by pressing the Login button.",
+                    "federatedTitle": "Are you sure you want to log in?",
+                    "federatedSubtitle": "Please confirm that you are logging in by pressing the <b>Login</b> button.",
+                    "detail": "Information about the device requesting login:",
+                    "primaryButton": "Login",
+                    "secondaryButton": "Cancel"
+                },
+                "confirmation": {
+                    "title": "Are you sure you want to log in from this browser?",
+                    "subtitle": "We'd rather ask because you might be logging in for the first time or you've updated your browser.\n\nDon't confirm your login if someone else asks you to. For example, by phone or SMS.",
+                    "primaryButton": "Login",
+                    "secondaryButton": "Cancel"
+                },
+                "cancelled": {
+                    "title": "We have canceled your login",
+                    "detail": "When the time is right, you can use the QR code to log in later.\n\nIf you feel you have been a victim of fraud, please contact us as soon as possible.",
+                    "callUs": "Call our Helpline",
+                    "primaryButton": "Done"
+                },
+                "expired": {
+                    "title": "The validity of the QR code has expired. Try it in Internet Bank with a new code",
+                    "subtitle": "We haven't registered you yet.",
+                    "primaryButton": "Done"
+                },
+                "victory": {
+                    "title": "And that's it! We have registered you in the Internet Bank",
+                    "subtitle": "Thank you for logging in securely and protecting your finances.",
+                    "primaryButton": "Done",
+                    "secondaryButton": "Continue to Smart Banka"
+                },
+                "federatedVictory": {
+                    "title": "And that's it! You're done here. Please continue in your browser.",
+                    "subtitle": "Thank you for logging in securely and protecting your finances.",
+                    "primaryButton": "Done",
+                    "secondaryButton": "Continue to Smart Banka"
+                },
+                "channelBlocked": {
+                    "title": "In order to log in, please visit a branch",
+                    "subtitle": "As security is our top priority, you must verify your identity in person.",
+                    "branch": "Visit a branch",
+                    "primaryButton": "Close"
+                },
+                "channelPasswordBlocked": {
+                    "title": "Your access has been denied due to security reasons",
+                    "subtitle": "To regain accesss, log in to Smart Banka and under Settings, select <a href=\"passwordRecovery\">Recover Internet Banka Password</a>.",
+                    "callUs": "Call Helpline",
+                    "primaryButton": "Close"
+                },
+                "notAvailable": {
+                    "title": "To log in to Internet Banka, use your login ID and password",
+                    "subtitle": "Login via QR is currently unavailable",
+                    "primaryButton": "Continue to Smart Banka"
+                }
+            },
+            "appointment": {
+                "status": {
+                    "title": "Our banker is looking forward to the meeting. What’s your status?",
+                    "subtitle": "The scheduled meeting in Moneta starts."
+                },
+                "delay": {
+                    "title": "Delays can happen.\nWhen can we expect you?",
+                    "primaryButton": "Inform my banker",
+                    "secondaryButton": "Back",
+                    "responseError": "The reply could not be sent."
+                },
+                "cancel": {
+                    "title": "Do you wish to cancel the meeting?",
+                    "positiveButton": "Yes, cancel",
+                    "negativeButton": "No, I can make it"
+                },
+                "resultToast": {
+                    "primary": "Thank you! The banker will see you in a moment.",
+                    "secondary": "We informed the banker. They will contact you if needed.",
+                    "transparent": "The meeting has been canceled."
+                }
+            },
+                "travelInsuranceVirtualClinic": {
+                "info": {
+                    "title": "Virtuální ordinace",
+                    "detail": "S lékařem se můžete kdykoliv spojit přes virtuální ordinaci zdarma. Při registraci stačí zadat promo kód <b><theme>CESTA</theme></b>.",
+                    "link": "https://www.meddiapp.com/prihlasit",
+                    "promoCode": "CESTA",
+                    "primaryButton": "Pokračovat do ordinace",
+                    "secondaryButton": "Zkopírovat promo kód CESTA"
+                },
+                "detail": {
+                    "eligibleTypes": [
+                        "SHORT_TERM_TRAVEL_INSURANCE_WORLD_2024_FAMILY",
+                        "SHORT_TERM_TRAVEL_INSURANCE_EUROPE_2024_FAMILY",
+                        "SHORT_TERM_TRAVEL_INSURANCE_WORLD_2024_SINGLE",
+                        "SHORT_TERM_TRAVEL_INSURANCE_EUROPE_2024_SINGLE"
+                    ],
+                    "title": "Virtuální ordinace",
+                    "detail": "Spojte se zdarma s lékařem na dálku",
+                    "icon": "healthcareFill"
+                },
+                "claim": {
+                    "title": "Chcete nahlásit pojistnou událost?",
+                    "detail": "Pokud potřebujete, můžete se také spojit s lékařem přes virtuální ordinaci.",
+                    "callUs": "Zavolejte nám na {0}",
+                    "clinic": "Virtuální ordinace",
+                    "secondaryButton": "Zrušit"
+                }
+            },
+            "savingsInterestRate": [
+                {
+                    "codes": [
+                        "596",
+                        "597"
+                    ],
+                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "description": "Bonus je platný po celou dobu garance.",
+                    "standardRate": "Standardní úroková sazba",
+                    "bonusRate": "Garantovaný úrokový bonus",
+                    "guarantee": "Garance úrokového bonusu",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                    },
+                    "secondBonus": {
+                        "title": "Úrokový bonus za aktivitu",
+                        "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                    }
+                },
+                {
+                    "codes": [
+                        "569",
+                        "570"
+                    ],
+                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "description": "Bonus je platný po celou dobu garance.",
+                    "standardRate": "Standardní úroková sazba",
+                    "bonusRate": "Úrokový bonus",
+                    "guarantee": "Garance úrokového bonusu",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                    },
+                    "secondBonus": {
+                        "title": "Úrokový bonus za investice",
+                        "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                    }
+                },
+                {
+                    "codes": [
+                        "761"
+                    ],
+                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
+                    "standardRate": "Standardní úroková sazba",
+                    "bonusRate": "Úrokový bonus",
+                    "guarantee": "Garance úrokového bonusu",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b>",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                    },
+                    "secondBonus": {
+                        "title": "Druhý úrokový bonus"
+                    }
+                },
+                {
+                    "codes": [
+                        "default"
+                    ],
+                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "description": "Bonus je platný po celou dobu garance.",
+                    "standardRate": "Standardní úroková sazba",
+                    "bonusRate": "Úrokový bonus",
+                    "guarantee": "Garance úrokového bonusu",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                    },
+                    "secondBonus": {
+                        "title": "Druhý úrokový bonus"
+                    }
+                }
+            ],
+            "cifUpdate": {
+                "errorScreens": {
+                    "api": {
+                        "title": "We are sorry. Something went wrong.",
+                        "detail": "An error has occurred and it's not possible to change personal details in Smart Banka. Please try again later.",
+                        "callUs": "Call our helpline",
+                        "primaryButton": "Back to Balance Overview"
+                    }
+                },
+                "general": {
+                    "toolbarTitle": "Personal details",
+                    "toolbarCreateTitle": "Personal details",
+                    "phoneNumberSupport": "224 443 636",
+                    "phoneNumberSale": "800 102 040",
+                    "messengerUrl": "https://m.me/138479367229"
+                },
+                "reasons": {
+                    "OK": "All changes is your personal details have been saved. Thank you!",
+                    "FRAUD": "The recent changes in your details could not be saved. Please visit a branch to update your details, thank you for understanding.",
+                    "QUALITY": "Repeat the changes in your personal details as the recent changes could not be saved due to illegible photography of your ID.",
+                    "DATA": "Repeat the changes in your personal details as the recent changes could not be saved due discrepancies between the input data and data from your ID.",
+                    "ERROR": "Repeat the changes in your personal details  as the recent changes could not be saved due to a technical error. We apologize for the inconvenience.",
+                    "DAMAGED": "The recent changes in your details could not be saved as your ID is invalid. Please try again later with a new and valid form of ID.",
+                    "IN_VERIFICATION": "We are processing the changes. We will let you know once it is done."
+                },
+                "detailEdit": {
+                    "title": "About me",
+                    "phone": "Phone",
+                    "phoneStatic": "Landline",
+                    "email": "E-mail",
+                    "contact": "Contact details",
+                    "contactAddress": "Contact address",
+                    "sameAsPermanent": "Same as permanent address",
+                    "change": "Change",
+                    "permanent": "Personal details (permanent address)",
+                    "idCardNumber": "ID card number",
+                    "idCardValidTo": "Valid to",
+                    "sameAsPermanentLong": "Contact address same as permanent address",
+                    "scan": "To make changes, please take a picture of your ID.",
+                    "primaryButton": "Save changes",
+                    "primaryScanButton": "Proceed to ID upload"
+                },
+                "upload": {
+                    "title": "In order to change your identification details please upload your ID",
+                    "detail": "Chnage of name or permanent adress needs to be verified. A clear and legible photo of your ID will suffice. You can do it within the app or visit one of our branches. The upload process is secure.<br><br><b>Upload a photo of both sides of your ID card.</b>",
+                    "primaryButton": "Save",
+                    "uploadedDocument": {
+                        "title": "Please take a photo of both sides of your ID.",
+                        "labels": [
+                            "Add the front of your ID",
+                            "Add the back of your ID"
+                        ]
+                    },
+                    "uploadPicker": {
+                        "title": "Choose upload method",
+                        "camera": "Take a photo",
+                        "photos": "Choose from Camera Roll",
+                        "files": "Choose from Files"
+                    }
+                },
+                "uploadReview": {
+                    "title": "Did we get it right?",
+                    "firstName": "First Name",
+                    "lastName": "Last Name",
+                    "birthNumber": "Personal identification number",
+                    "city": "City",
+                    "descriptiveNumber": "Desc. no.",
+                    "orientationNumber": "Or. no.",
+                    "idCardNumber": "ID card number",
+                    "idCardValidTo": "Valid to",
+                    "citizenship": "Citizenship",
+                    "street": "Street",
+                    "zipCode": "ZIP",
+                    "primaryButton": "Yes, continue",
+                    "secondaryButton": "Try again"
+                },
+                "cameraPopup": {
+                    "detail": "Make sure that the photo is",
+                    "bullets": [
+                        "of a current and valid document and that it's the right side up.",
+                        "well-lit and not blurry.",
+                        "horizontal and without any glare so it's fully legible."
+                    ],
+                    "tooltip": "Make sure the photo is clear, without any glare and legible.",
+                    "inProgress": "We're processing your photo, <b>it will only take a minute</b>",
+                    "visible": "Is everything clearly visible?",
+                    "idFrontTitle": "Please take a photo of the <b> front side of your ID card</b>",
+                    "idBackTitle": "Turn the ID card over and take a picture of the  <b> back side</b>",
+                    "primaryButton": "Continue to Photo Upload"
+                },
+                "loading": {
+                    "title": "Just a moment please, the cat needs to looks things over."
+                },
+                "uploadRetry": {
+                    "title": "Oops, something's wrong",
+                    "detail": "We couldn't read your details. Please make sure the photo is well lit and the text are legible.",
+                    "tryAgain": "Let's try again:",
+                    "primaryButton": "Try again"
+                },
+                "documentUploadVictory": {
+                    "title": "We are processing...",
+                    "detail": "Thank you. Everything is successfully uploaded and we need to take a look at it now. We'll let you know in 5 days.",
+                    "primaryButton": "I understand"
+                }
+            },
+            "cifUpdateV2" : {
+                "documentScan" : {
+                    "info" : {
+                        "bullets" : [
+                            {
+                                "icon" : "idCardFill",
+                                "title" : "Platný doklad ze správné strany a na šířku"
+                            },
+                            {
+                                "icon" : "lightBulbOnFill",
+                                "title" : "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
+                            }
+                        ],
+                        "detail" : "Ujistěte se, že fotíte",
+                        "idBackTitle" : "Nyní vyfotíte zadní stranu občanského průkazu",
+                        "idFrontTitle" : "Nyní vyfotíte přední stranu občanského průkazu",
+                        "primaryButton" : "Pokračovat k focení"
+                    },
+                    "permissionErrorScreen" : {
+                        "detail" : "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
+                        "primaryButton" : "Povolit fotoaparát",
+                        "title" : "Aplikace potřebuje oprávnění"
+                    },
+                    "scanFailed" : {
+                        "detail" : "Zkontrolujte a doplňte je prosím v dalším kroku.",
+                        "primaryButton" : "Vyfotit znovu",
+                        "title" : "Vaše údaje se nám nepodařilo správně načíst"
+                    },
+                    "takePhoto" : {
+                        "drivingLicenceTitle" : "Přední strana řidičského průkazu",
+                        "idBackTitle" : "Zadní strana občanského průkazu",
+                        "idFrontTitle" : "Přední strana občanského průkazu",
+                        "no" : "Ne, znovu",
+                        "passportLicenceTitle" : "Úvodní strana cestovního pasu",
+                        "reviewTitle" : "Je vše dobře viditelné?",
+                        "takePhoto" : "Vyfotit",
+                        "tooltip" : "Ostrá, bez odlesků a čitelná",
+                        "yes" : "Ano"
+                    },
+                    "upload" : {
+                        "cancelButton" : "Zkusit příště",
+                        "error" : "Omlouváme se, něco se vymňouklo",
+                        "nok" : "Tohle ve Smart Bance neumíme.\nVyřešíme to spolu na pobočce",
+                        "takeAgainButton" : "Vyfotit znovu",
+                        "title" : "Zpracováváme vyfocený doklad, hned to bude"
+                    },
+                    "wrongDocument" : {
+                        "detail" : "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
+                        "primaryButton" : "Vyfotit znovu",
+                        "title" : "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou"
+                    }
+                },
+                "intro" : {
+                    "bullets" : [
+                        {
+                            "description" : "Vyfotíte svůj platný český občanský průkaz z obou stran.",
+                            "icon" : "idCardFill",
+                            "title" : "Focení občanského průkazu"
+                        }
+                    ],
+                    "primaryButton" : "Spustit focení",
+                    "title" : "Ve následujícím kroku teď ověříme Vaši totožnost"
+                },
+                "uploadReview" : {
+                    "birthNumber" : "Rodné číslo",
+                    "citizenship" : "Státní občanství",
+                    "citizenshipValue" : "pouze Česká republika",
+                    "city" : "Město",
+                    "dateOfBirth" : "Datum narození",
+                    "descriptiveNumber" : "Č. popisné",
+                    "detail" : "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
+                    "firstName" : "Jméno",
+                    "idCardNumber" : "Číslo dokladu",
+                    "idCardValidTo" : "Platnost do",
+                    "lastName" : "Příjmení",
+                    "orientationNumber" : "Č. orientační",
+                    "placeOfBirth" : "Místo narození",
+                    "primaryButton" : "Pokračovat",
+                    "sectionAddress" : "<b>Trvalý pobyt</b> (pouze Česká republika)",
+                    "sectionScan" : "<b>Údaje z dokladu</b>",
+                    "street" : "Ulice",
+                    "title" : "Načetli jsme Vaše údaje správně?",
+                    "zipCode" : "PSČ"
+                }
+            },
+            "overlay": {
+                "title": "Nový spořicí účet s úrokem až 3,8 % ročně založíte plně online",
+                "ximage": "/cbl_images/salespoints/overlay-investments.png",
+                "bullets": [
+                    "K úroku 3,5 % ročně můžete získat 1,6 % navíc - Stačí měsíčně zaplatit 5× kartou a mít příjem na běžném účtu alespoň 20 000 Kč",
+                    "Založení a vedení spořicího účtu je zdarma.",
+                    "Vaše vklady jsou pojištěny do 100 000 EUR"
+                ],
+                "primaryButton": {
+                    "actionType": "APPPAGE",
+                    "actionLabelText": "Více o spořicím účtu",
+                    "actionData": "SAVINGSACCOUNT"
+                }
+            },
+            "activationRemovedReason": {
+                "codes": [
+                    {
+                        "code": "DEFAULT",
+                        "title": "Váš profil je deaktivovaný",
+                        "body": "Chcete mít i nadále svou banku na dosah ruky? Aktivujte si Smart Banku, se kterou budete mít okamžitý přehled o svém účtu.",
+                        "hintTitle": "Aktivovat pomocí Internet Banky",
+                        "hintBody": "Pokud využíváte Internet Banku, přihlaste se, v horním menu zvolte Nastavení, Mobilní aplikace a následně Správa zařízení. Poté naskenujte zobrazený QR kód.",
+                        "primaryButton": "Odstranit profil",
+                        "secondaryButton": "Zpět"
+                    },
+                    {
+                        "code": "DIFFERENT_PERSONS",
+                        "title": "Deaktivace Smart Banky",
+                        "body": "Protože je na vašem zařízení připojeno více profilů různých osob, z bezpečnostních důvodů jsme všechny tyto profily deaktivovali.",
+                        "hintTitle": "Aktivovat pomocí Internet Banky",
+                        "hintBody": "Pokud využíváte Internet Banku, přihlaste se, v horním menu zvolte Nastavení, Mobilní aplikace a následně Správa zařízení. Poté naskenujte zobrazený QR kód.",
+                        "primaryButton": "Odstranit profil",
+                        "secondaryButton": "Zpět"
+                    },
+                    {
+                        "code": "ACTIVATIONS_MERGED",
+                        "title": "Sloučili jsme vaše profily",
+                        "body": "Nově je můžete přepínat po přihlášení přímo v aplikaci.",
+                        "primaryButton": "Odstranit profil",
+                        "secondaryButton": "Zpět"
+                    },
+                    {
+                        "code": "PO_CANCEL",
+                        "title": "Profil právnické osoby je deaktivovaný",
+                        "body": "Využijte prosím možnost nastavení eDisponenta a nastavte statutárním orgánům přístup do Smart Banky přes jejich vlastní profil. Přístupy může přidělit majitel účtu přímo v Internet Bance.",
+                        "hintTitle": "Aktivovat pomocí Internet Banky",
+                        "hintBody": "Pokud využíváte Internet Banku, přihlaste se, v horním menu zvolte Nastavení, Mobilní aplikace a následně Správa zařízení. Poté naskenujte zobrazený QR kód.",
+                        "primaryButton": "Odstranit profil",
+                        "secondaryButton": "Zpět"
+                    }
+                ]
+            },
+            "smallBusinessScenes": {
+                "banners": {
+                    "noProductName": "Výhodné nabídky pro Vás",
+                    "title": "{type} čeká zde",
+                    "productCreditCardName": "Kreditka",
+                    "productExpressName": "Půjčka",
+                    "productFlexiName": "Kontokorent",
+                    "productTopupName": "Navýšení",
+                    "inProgressText": "Máte rozpracovanou žádost o {type}",
+                    "productCreditCardInProgressName": "kreditní kartu",
+                    "productExpressInProgressName": "půjčku",
+                    "productFlexiInProgressName": "kontokorent",
+                    "productTopupInProgressName": "navýšení kontokorentu",
+                    "tabTitle": "Máme pro Vás připraveno",
+                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
+                    "productFlexiTopUpInfo": "<b>Navýšení kontokorentu Flexi Business až na {amount}</b> s úrokem od {rate}",
+                    "productExpressInfo": "<b>O 33 % nižší úrok na úvěr Expres Business.</b> Získejte až {amount} Kč online.",
+                    "productCreditCardInfo": "<b>Moneta Business Card s limitem až {amount}</b> Vám vrátí 5 % za každé tankování, po dobu půl roku až 1 000 Kč měsíčně."
+                },
+                "needMore": {
+                    "enabled": true,
+                    "dependentOnInfolimit": true,
+                    "tabLabel": "Potřebujete více?",
+                    "title": "Pokud potřebujete vyšší úvěr, stačí když:",
+                    "bullets": [
+                        {
+                            "iconName": "repeatFill",
+                            "body": "<b>Zvýšíte obrat na svém běžném účtu</b> a budete ho využívat naplno, tedy například odesílat více transakcí. Jako hlavní banka pro vaše podnikání vám pak můžeme nabídnout výhodnější sazby a další bonusy."
+                        },
+                        {
+                            "iconName": "bankFill",
+                            "body": "<b>Zastavíte se za námi na pobočce</b> a naši bankéři připraví nabídku na míru vašemu podnikání. Také s sebou prosím vezměte poslední daňové přiznání, s ním bude všechno snazší."
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "WEB",
+                        "actionLabelText": "Domluvit schůzku na pobočce",
+                        "actionData": "https://www.moneta.cz/kontakt/business-uver-nezajisteny?channel=SBA&utm_source=sb&utm_medium=banner&utm_campaign=needMoreSMB"
+                    }
+                }
+            },
+            "dps": {
+                "detail": {
+                    "title": "Doplňkové penzijní spoření",
+                    "savedSection": "Za {0} jste naspořili",
+                    "contributionClientAmount": "Vaše příspěvky",
+                    "yourContribution": "Vaše vklady",
+                    "earningsAndContribution": "Zhodnocení a příspěvky",
+                    "earningsAmount": "Zhodnocení",
+                    "contributionEmployerAmount": "Od zaměstnavatele",
+                    "contributionStateAmount": "Od státu",
+                    "totalAmount": "Celkem",
+                    "accountNumber": "Číslo účtu",
+                    "contractNumber": "Číslo smlouvy / v.s.",
+                    "contract": "Vaše smlouva",
+                    "fundInfo": "Informace o fondech",
+                    "faqTitle": "Často kladené otázky",
+                    "faqList": [
+                        {
+                            "title": "Kde najdu smlouvu o Doplňkovém penzijním spoření pro zaměstnavatele?",
+                            "detail": "Smlouvu o DPS najdete v sekci Dokumenty a také jsme Vám ji odeslali na e-mail."
+                        },
+                        {
+                            "title": "Kam má zaměstnavatel posílat příspěvky?",
+                            "detail": "Platební údaje jsou stejné jako pro Vás, liší se pouze konstantní symbol. Konkrétní detaily najdete ve smlouvě."
+                        },
+                        {
+                            "title": "Kdy se připíšou státní příspěvky?",
+                            "detail": "Státní příspěvky se připisují čtvrtletně s dvouměsíčním zpožděním. Tedy za první čtvrtletí (leden, únor, březen) se Vám příspěvek připíše v květnu."
+                        },
+                        {
+                            "title": "Co se stane, pokud na konci roku neuplatním daňové zvýhodnění i přes to, že mám sjednané daňové optimum?",
+                            "detail": "Penále Vám nehrozí, pouze v daném roce nedosáhnete maximálního daňového zvýhodnění."
+                        },
+                        {
+                            "title": "Co se stane, když si dočasně přestanu spořit, nebo budu spořit méně, než je sjednáno?",
+                            "detail": "Penále Vám nehrozí, pouze se mohou změnit státní výhody (daňové úlevy, státní příspěvek) a výpočet naspořených měsíců. Další informace Vám poskytne kontaktní centrum NN Penzijní Společnosti."
+                        },
+                        {
+                            "title": "Co se stane, pokud budu posílat více, než mám uvedeno ve smlouvě?",
+                            "detail": "Peníze nad domluvenou měsíční částku Vám automaticky přičteme na následující měsíc. Pokud máte zapnuté daňové optimum, peníze se na konci roku dorovnají tak, abyste měli maximální možnou daňovou úsporu. Přejete si domluvenou měsíční částku zvýšit? Kontaktujte prosím NN Penzijní Společnost."
+                        },
+                        {
+                            "title": "Co když budu chtít vybrat peníze předtím, než mi bude 60?",
+                            "detail": "V tom případě přijdete o veškerý státní příspěvek, budete muset vrátit případné daňové úlevy a zisk budete muset dále zdanit. Více informací najdete na webu NN Penzijní společnosti."
+                        },
+                        {
+                            "title": "Mohu v důchodu vybrat všechny peníze najednou?",
+                            "detail": "Samozřejmě, jen pak bude potřeba zdanit zisk z výnosů. Více informací najdete na webu NN Penzijní společnosti."
+                        }
+                    ],
+                    "monthlyContribution": "Monthly contribution",
+                    "employerContributes": "Employer contributing",
+                    "strategy": "Investment strategy",
+                    "ratio": "deposit ratio"
+                },
+                "bottomSheet": {
+                    "title": "Doplňkové penzijní spoření",
+                    "actions": [
+                        {
+                            "icon": "phoneFill",
+                            "actionTitle": "Zavolat 244 090 800",
+                            "actionType": "PHONECALL",
+                            "actionData": "244 090 800"
+                        },
+                        {
+                            "icon": "emailFill",
+                            "actionTitle": "E-mail dotazy@nn.cz",
+                            "actionType": "EMAIL",
+                            "actionData": "dotazy@nn.cz"
+                        },
+                        {
+                            "icon": "userHeadsetFill",
+                            "actionTitle": "Sjednat schůzku",
+                            "actionType": "OPENURL",
+                            "actionData": "https://www.nn.cz/kontakty/"
+                        }
+                    ]
+                },
+                "paymentCrossSell": {
+                    "title": "From a part of your deposit, you can get 19.7 % a year if you apply for a Pension Savings.",
+                    "button": "Apply for Pension Savings"
+                },
+                "paymentVictoryCrossSell": {
+                    "title": "Done. Payment is sent.",
+                    "detail": "From a part of your deposit, you can get 19.7 % a year if you apply for a Pension Savings.",
+                    "bullets": [
+                        "Apply for Pension Savings<br>in Smart Banka",
+                        "By depositing CZK 20,000 yearly, state contribution CZK 2,760 and a tax relief of CZK 1,199 yearly you can get a yield of 19,7 %.",
+                        "For a part of your deposit you get the best appreciation."
+                    ],
+                    "primaryButton": "Apply for Pension Savings",
+                    "secondaryButton": "Back to Dashboard"
+                }
+            },
+            "paymentOffers": [
+                {
+                    "salesProdType": "13027",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,2 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,2 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,2 % p. a.",
+                        "actionData": "SAVINGSACCOUNT",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13027",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,2 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,2 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,2 % p. a.",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13043",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,5 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,5 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,5 % p. a.",
+                        "actionData": "SAVINGSACCOUNT",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13043",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,5 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,5 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,5 % p. a.",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13044",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,7 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,7 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,7 % p. a.",
+                        "actionData": "SAVINGSACCOUNT",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13044",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,7 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,7 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,7 % p. a.",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13039",
+                    "title": "SUPER NABÍDKA!\nNOVÝ spořicí účet s úrokem 3,0 % p. a. BEZ PODMÍNEK. Proč tedy posílat peníze jinam?",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "3,0 % p. a. ročně do 1 000 000 Kč bez jakýchkoliv podmínek",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "GARANCE úroku 3,0 % p. a. do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online za pár minut",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,0 % p. a.",
+                        "actionData": "SAVINGSACCOUNT",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "14001",
+                    "title": "Své peníze můžete převést také na termínovaný vklad s úrokem až 3,1 % p. a. Proč je tedy posílat jinam?",
+                    "icon": "vacation",
+                    "bullets": [
+                        {
+                            "title": "Získáte až 3,1 % p. a. ročně bez podmínek a maximálního limitu",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Od 40 000 Kč bez maximálního limitu",
+                            "icon": "starFill"
+                        },
+                        {
+                            "title": "Na 3, 6 nebo 12 měsíců",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Sjednání z pohodlí domova jednoduše online",
+                            "icon": "smartBankaFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Sjednat termínovaný vklad",
+                        "actionData": "JTVETB",
+                        "ibRoute": "/application/savingsTermDeposit/offer",
+                        "ibAnalyticsCode": "Retention Savings Banner JTV"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "43005",
+                    "title": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření.",
+                    "icon": "vacation",
+                    "bullets": [
+                        {
+                            "title": "Otevřete si penzijní spoření<br>jednoduše online",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Ze spořicího účtu si na něj vložte 20 000 Kč ročně a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Pro část svého vkladu získáte nejvýhodnější zhodnocení.",
+                            "icon": "starFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Založit penzijní spoření",
+                        "actionData": "DPS_NN",
+                        "ibRoute": "/savings/dps/calculator",
+                        "ibAnalyticsCode": "DPS Cross-sell banner"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                }
+            ],
+            "retentionOffer": {
+                "savings": {
+                    "title": "SUPER NABÍDKA!\nNOVÝ spořicí účet s úrokem 3,2 % p. a. BEZ PODMÍNEK. Proč tedy posílat peníze jinam?",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "3,2 % p. a. ročně do {amount} bez jakýchkoliv podmínek",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "GARANCE úroku 3,2 % p. a. do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online za pár minut",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": "Spořit s úrokem 3,2 % p. a.",
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                "savingsActive": {
+                    "title": "SKVĚLÁ NABÍDKA PRO AKTIVNÍ KLIENTY\nSpořicí účet s úrokovou sazbou až 5,0 % p. a. bez omezení výše vkladu",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "Zhodnocení 5,0 % p. a. za aktivní využívání běžného účtu",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Pro získání sazby 5,0 % p. a. stačí, když Vám na běžný účet přijde alespoň 15 000 Kč měsíčně a 10x zaplatíte platební kartou.",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Základní sazbu 4,6 % p. a. Vám garantujeme do 2. 6. 2024",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Neomezená výše vkladu",
+                            "icon": "loanFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online za pár minut",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": "Začít spořit s úrokem 5,0 % p. a.",
+                    "secondaryButton": "Zpět na přehled"
+                },
+                "savingsVIP": {
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,2 % p. a.\n\nBEZ PODMÍNEK\n a NEOMEZENOU VÝŠÍ VKLADU",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "3,2 % ročně bez podmínek",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Neomezená výše vkladu",
+                            "icon": "starFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "faceSmileFill"
+                        },
+                        {
+                            "title": "Otevření účtu online za pár minut",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": "Otevřít spořicí účet 3,2 % p. a.",
+                    "secondaryButton": "Nemám zájem"
+                },
+                "termDeposit": {
+                    "title": "Své peníze můžete převést také na termínovaný vklad s úrokem až 3,1 % p. a. Proč je tedy posílat jinam?",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "Získáte až 3,3 % ročně bez podmínek a maximálního limitu",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Od 40 000 Kč bez maximálního limitu",
+                            "icon": "starFill"
+                        },
+                        {
+                            "title": "Na 3, 6 nebo 12 měsíců",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Sjednání z pohodlí domova přes Smart Banku",
+                            "icon": "smartBankaFill"
+                        }
+                    ],
+                    "primaryButton": "Sjednat termínovaný vklad",
+                    "secondaryButton": "Pokračovat v platbě"
+                }
+            }
+        }
+    }
+}

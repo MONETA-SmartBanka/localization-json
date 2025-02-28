@@ -1,0 +1,238 @@
+{
+  "status": "OK",
+  "responseObject": {
+    "general": {
+      "toolbarTitle": "Cestovní pojištění",
+      "phoneNumber": "+420 224 443 636",
+      "phoneNumberAssist": "+420 234 240 244"
+    },
+    "screens": {
+      "agreement": {
+        "checkBoxShortTerm": "Potvrzuji, že jsem se seznámil s obsahem <a>Pojistné smlouvy č. MMB – Travel 2/2017</a> a <a>Všeobecných pojistných podmínek č. 1/2017</a>.",
+        "checkBoxLongTerm": "Potvrzuji, že jsem se seznámil s obsahem <a>Pojistné smlouvy č. MMB – Travel 1/2019</a> a <a>Všeobecných pojistných podmínek č. 3/2019</a>.",
+        "checkBoxShortTermDynamic": "Potvrzuji, že jsem se seznámil s obsahem <a href=\"https://www.moneta.cz/documents/20143/11931932/mmb-cestovni-pojisteni-pojistna-smlouva-kratkodobe-c-2-2017.pdf\">Pojistné smlouvy č. MMB – Travel 2/2017</a> a <a href=\"https://www.moneta.cz/documents/20143/11931932/mmb-vseobecne-pojistne-podminky-pro-cestovni-pojisteni-c-2-2020.pdf\">Všeobecných pojistných podmínek č. 2/2020</a>.",
+        "checkBoxLongTermDynamic": "Potvrzuji, že jsem se seznámil s obsahem <a href=\"https://www.moneta.cz/documents/20143/11931935/mmb-cestovni-pojisteni-pojistna-smlouva-dlouhodobe-c-1-2019.pdf\">Pojistné smlouvy č. MMB – Travel 1/2019</a> a <a href=\"https://www.moneta.cz/documents/20143/11931932/mmb-vseobecne-pojistne-podminky-pro-cestovni-pojisteni-c-2-2020.pdf\">Všeobecných pojistných podmínek č. 2/2020</a>.",
+        "iddDetail": "Smluvní dokumentaci k pojištění obdržíte v elektronické podobě. Listinnou podobu dokumentace obdržíte na kterékoli <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">pobočce MONETA Money Bank</a>.",
+        "bullets": [
+          "Pečlivě si přečtěte informační materiál k cestovnímu pojištění, které stanovuje výluky a limity pojistného krytí."
+        ]
+      },
+      "edit": {
+        "insuranceTypeInfo": "Pokud pojedete samotný/samotná, zvolte variantu <b>Sám/Sama</b>.<br><br>S balíčkem <b>S rodinou</b> je pojištěn i Váš manžel/ka nebo registrovaný/á partner/ka, druh či družka žijící s Vámi ve společné domácnosti (pokud má trvalý pobyt na území téhož státu jako Vy a nemá trvalý pobyt v místě cesty) a zároveň všechny Vaše děti do 18 let věku (počet dětí tedy není omezen a ani to, zda se jedná o Vaše společné děti či děti z předchozích vztahů). Rodinní příslušníci jsou pojištěni pouze tehdy, cestují-li společně s klientem, který pojištění sjednal.",
+        "destinationInfo": "Územní rozsah <b>Evropa</b> se vztahuje na území kontinentální Evropy včetně přilehlých ostrovů a dále na území Egyptu, Maroka, Tuniska a Turecka.<br>Územní rozsah <b>Svět</b> se vztahuje na území celého světa.",
+        "lengthOfStayInfo": "<b>Krátkodobě</b> Vás pojistíme již za hodinu od sjednání smlouvy ve Smart Bance na tak dlouho, jak budete chtít.<br><br>Pokud cestujete do zahraničí pravidelně, může pro Vás být výhodnější <b>Trvalé</b> cestovní pojištění s nízkou měsíční splátkou. V tomto případě nezapomeňte, že celková doba nepřetržitého pobytu v zahraničí nesmí přesáhnout 90 dní, a že pojištění nelze sjednat ze zahraničí. Pojištění se sjednává na dobu neurčitou s ročním pojistným.",
+        "limits": [
+          {
+            "param": "Pojištění léčebných výloh a asistenčních služeb",
+            "valueEurope": "2 500 000 Kč",
+            "valueWorld": "10 000 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Akutní zubní ošetření",
+            "valueEurope": "10 000 Kč",
+            "valueWorld": "10 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Telefonní hovory v případě hospitalizace",
+            "valueEurope": "3 000 Kč",
+            "valueWorld": "3 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Pojištění zavazadel a věcí osobní potřeby",
+            "valueEurope": "30 000 Kč",
+            "valueWorld": "30 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění odpovědnosti za škodu",
+            "valueEurope": "2 000 000 Kč",
+            "valueWorld": "2 000 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění doprovodu/přivolané osoby",
+            "valueEurope": "50 000 Kč",
+            "valueWorld": "50 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Limit na 1 den",
+            "valueEurope": "2 000 Kč",
+            "valueWorld": "2 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Pojištění pro případ úmrtí následkem úrazu",
+            "valueEurope": "200 000 Kč",
+            "valueWorld": "200 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění pro případ vzniku trvalých následků úrazu",
+            "valueEurope": "200 000 Kč",
+            "valueWorld": "200 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění zpoždění zavazadel v průběhu letecké přepravy",
+            "valueEurope": "5 000 Kč",
+            "valueWorld": "5 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Časová spoluúčast",
+            "valueEurope": "3 hodiny",
+            "valueWorld": "3 hodiny",
+            "level": 1
+          },
+          {
+            "param": "Pojištění zrušení cesty",
+            "valueEurope": "30 000 Kč",
+            "valueWorld": "30 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Finanční spoluúčast",
+            "valueEurope": "20 %",
+            "valueWorld": "20 %",
+            "level": 1
+          }
+        ],
+        "limitsLong": [
+          {
+            "param": "Pojištění léčebných výloh a asistenčních služeb",
+            "valueEurope": "5 000 000 Kč",
+            "valueWorld": "10 000 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Akutní zubní ošetření",
+            "valueEurope": "15 000 Kč",
+            "valueWorld": "15 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Telefonní hovory v případě hospitalizace",
+            "valueEurope": "5 000 Kč",
+            "valueWorld": "10 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Pojištění zavazadel a věcí osobní potřeby",
+            "valueEurope": "50 000 Kč",
+            "valueWorld": "50 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění odpovědnosti za škodu",
+            "valueEurope": "2 000 000 Kč",
+            "valueWorld": "2 000 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění doprovodu/přivolané osoby",
+            "valueEurope": "50 000 Kč",
+            "valueWorld": "50 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Limit na 1 den",
+            "valueEurope": "3 000 Kč",
+            "valueWorld": "6 000 Kč",
+            "level": 1
+          },
+          {
+            "param": "Pojištění pro případ úmrtí následkem úrazu",
+            "valueEurope": "1 000 000 Kč",
+            "valueWorld": "1 500 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění pro případ vzniku trvalých následků úrazu",
+            "valueEurope": "1 000 000 Kč",
+            "valueWorld": "1 500 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Pojištění zpoždění zavazadel v průběhu letecké přepravy",
+            "valueEurope": "10 000 Kč",
+            "valueWorld": "10 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Časová spoluúčast",
+            "valueEurope": "3 hodiny",
+            "valueWorld": "3 hodiny",
+            "level": 1
+          },
+          {
+            "param": "Pojištění zrušení cesty",
+            "valueEurope": "30 000 Kč",
+            "valueWorld": "50 000 Kč",
+            "level": 0
+          },
+          {
+            "param": "Finanční spoluúčast",
+            "valueEurope": "20 %",
+            "valueWorld": "20 %",
+            "level": 1
+          },
+          {
+            "param": "Pojištění právní pomoci a kauce pro případ dopravní nehody",
+            "valueEurope": "100 000 Kč",
+            "valueWorld": "100 000 Kč",
+            "level": 0
+          }
+        ]
+      },
+      "help": {
+        "title": "Prohlédněte si informační brožuru ke <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-kratkodobe-cestovni-pojisteni-k-beznemu-uctu.pdf\">Krátkodobému</a> a <a href=\"https://www.moneta.cz/documents/20143/11931935/mmb-brozura-cestovni-pojisteni.pdf\">Dlouhodobému</a> cestovnímu pojištění",
+        "howItWorkTitle": "Jak funguje varianta S rodinou?",
+        "howItWorkDetail": "Díky balíčku S rodinou je pojištěn i Váš manžel/ka nebo registrovaný/á partner/ka, druh či družka žijící s Vámi ve společné domácnosti (pokud má trvalý pobyt na území téhož státu jako Vy a nemá trvalý pobyt v místě cesty) a zároveň všechny Vaše děti do 18 let věku (počet dětí tedy není omezen a ani to, zda se jedná o Vaše společné děti či děti z předchozích vztahů). Limity v rámci balíčků S rodinou jsou individuální pro každého pojištěného. Rodinní příslušníci jsou pojištěni pouze tehdy, cestují-li společně s klientem, který pojištění sjednal.",
+        "regionTitle": "Evropa nebo svět",
+        "regionDetail": "Územní rozsah pojištění v rozsahu „EVROPA“ se vztahuje na území kontinentální Evropy včetně přilehlých ostrovů a dále na území Egyptu, Maroka, Tuniska a Turecka. V případě varianty „SVĚT“ pak na území celého světa.",
+        "exclusionTitle": "Co do pojištění nepatří",
+        "exclusionDetail": "Výluky z pojištění, tedy případy, na které se pojištění nevztahuje, a nemáte tak nárok na pojistné plnění. Mezi nejčastější důvody patří:",
+        "exclusionBullets": [
+          "následky požití alkoholu nebo aplikace návykových látek nebo přípravků obsahujících návykové látky pojištěným,",
+          "pokračování nebo opakování nemoci, kterou pojištěný trpěl před odjezdem do zahraničí, vyjma případů, kdy se jedná o akutní zhoršení stabilizovaného chronického onemocnění,",
+          "komplikace léčby neplodnosti, komplikace dobrovolného přerušení těhotenství, komplikace těhotenství v době po ukončeném 24. týdnu těhotenství nebo komplikace rizikového těhotenství nebo komplikace porodu,",
+          "nakažení pohlavně přenosnými nemocemi, virem HIV, onemocnění AIDS nebo onemocnění hepatitidou B nebo C."
+        ],
+        "exclusionInfo": "Kompletní výčet a textaci výluk naleznete v článku 12 Obecné části a u jednotlivých pojištění ve Zvláštní části Všeobecných pojistných podmínek pro cestovní pojištění č. 1/2017.",
+        "ifSomethingHappenedTitle": "Když se na cestách něco přihodí",
+        "ifSomethingHappenedDetail": "Při jakékoli škodní události vždy zkontaktujte asistenční službu, která je Vám k dispozici nonstop v českém jazyce na telefonním čísle: +420 234 240 244",
+        "validityTitle": "Jaká je platnost pojištění",
+        "validityDetail": "V případě krátkodobého pojištění je maximální délka jedné cesty 30 kalendářních dnů. U varianty dlouhodobého cestovního pojištění jste pojištěni na 90 dnů nepřetržitého pobytu v zahraničí. Pojištěný je oprávněn odstoupit od dlouhodobého pojištění do 14 dnů od sjednání, přičemž mu bude vrácena nepoužitá částka zaplaceného pojistného."
+      },
+      "intro": {
+        "bullets": [
+          "<b>Výhodné cestovní pojištění</b> od BNP Paribas Cardif Pojišťovny",
+          "<b>Nic nevyplňujete</b> - sjednání za pár minut",
+          "<b>Krátkodobé pojištění</b> na dovolenou nebo <b>trvalé pojištění</b> pro pravidelné cesty do zahraničí",
+          "<b>Pro Vás<b/> nebo <b>pro Vaši rodinu</b>",
+          "<b>Kartička pojištění</b> a kontakt na <b>nonstop asistenční službu</b> pohodlně v mobilu"
+        ]
+      },
+      "cancelDisagree": {
+        "title": "Bez souhlasu to bohužel nepůjde",
+        "detail": "Máte otázky ke smlouvě, neváhejte se na nás obrátit. Rádi Vám pomůžeme.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Navštivte nás\na pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Pokračovat ve sjednání pojištění"
+      },
+      "disagree": {
+        "title": "Bez souhlasu to bohužel nepůjde",
+        "detail": "Máte otázky ke smlouvě, neváhejte se na nás obrátit. Rádi Vám pomůžeme.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Navštivte nás\na pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Pokračovat ve sjednání pojištění"
+      }
+    }
+  }
+}

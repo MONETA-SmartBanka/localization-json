@@ -1,0 +1,946 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong. Our apologies.",
+                "detail": "We are unable to proceed at this moment. Please try again later.",
+                "primaryButton": "OK"
+            },
+            "precontractDisagree": {
+                "title": "Your consent is required in order to proceed",
+                "detail": "If you have any questions, don't hesitate to call us or visit a branch near you.",
+                "callUs": "Call our Helpline",
+                "branch": "Visit a branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Back"
+            },
+            "contractDisagree": {
+                "title": "Your consent is required in order to proceed",
+                "detail": "You're just moments from activating your Smart Banka. Your agreement to the Product Terms and Conditions and Agreement signature is required. Do you have any questions? Let's talk about it.",
+                "callUs": "Call our Helpline",
+                "branch": "Visit a branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue Application"
+            },
+            "hard": {
+                "title": "We are unable to open a Family account for you",
+                "detail": "After reviewing the application, we cannot offer Family account to you.",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "branch": {
+                "title": "We are unable to open a Family account for you",
+                "detail": "After reviewing the application, we cannot offer Family account to you.",
+                "secondaryButton": "Cancel Application"
+            },
+            "insufficient": {
+                "title": "Please visit one of our branches as we are unable to help you here",
+                "detail": "We will be happy to assist you in person.",
+                "bulletsSectionTitle": "Please remember to bring with you:",
+                "bullets": [
+                    "your ID card",
+                    "your child´s Czech passport or ID card (ID card only for children over 15 years old)",
+                    "your child´s birth certificate"
+                ],
+                "callUs": "Call our Helpline",
+                "branch": "Visit a branch",
+                "primaryButton": "Cancel Application",
+                "secondaryButton": "Back to Overview"
+            },
+            "longTermProcess": {
+                "title": "We are almost finished.",
+                "detail": "We will review everything and notify you when everything is ready.",
+                "primaryButton": "Back to Overview"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Welcome to Smart Banka",
+            "toolbarCreateTitle": "Activate Smart Banka",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
+        },
+        "scenes": {
+            "help": {
+                "title": "Do you need help or do you wish to finish the application later?",
+                "bulletsHeadline": "Why open a Family account in MONETA?",
+                "iconBullets": [
+                    {
+                        "icon": "moneyFill",
+                        "text": "Free of charge"
+                    },
+                    {
+                        "icon": "savingsFill",
+                        "text": "Teach your children to manage personal finances"
+                    },
+                    {
+                        "icon": "cardTachometerFill",
+                        "text": "Set limits and make payments and savings easy"
+                    },
+                    {
+                        "icon": "lockFill",
+                        "text": "Everything under your control"
+                    }
+                ],
+                "primaryButton": "Back to Application",
+                "secondaryButton": "Finish Application another time",
+                "tertiaryButton": "Cancel Application",
+                "helpHeadline": "Do you need any help?",
+                "callUs": "Call our Helpline",
+                "branch": "Visit nearest branch"
+            },
+            "intro": {
+                "toolbarTitle": "Open a Family account",
+                "title": "An account in your mobile app for you and your children to teach them how to manage money",
+                "detail": "Allow your children to manage their personal finances. Teach them financial responsibility in a safe and controlled way, and in a familiar environment.",
+                "image": "familyAccountIntro",
+                "errors": {
+                    "missingId": {
+                        "title": "Oops, we can't open an account without a second ID.",
+                        "subtitle": "To open a child's account, we need to see the child's ID card or passport (from 15 years of age only)."
+                    },
+                    "birthCert": {
+                        "title": "Oops, you have to be listed on the child's birth certificate to open an account",
+                        "subtitle": "Unfortunately, if your child does not have you on their birth certificate, you cannot set up an account for them."
+                    }
+                },
+                "sections": [
+                    {
+                        "style": "attached",
+                        "title": "The child learns to know the value of money",
+                        "items": [
+                            {
+                                "icon": "savingsFill",
+                                "text": "Instant account visibility for you and your child on your phones"
+                            },
+                            {
+                                "icon": "cardTachometerFill",
+                                "text": "Set limits and make payments and savings easy"
+                            },
+                            {
+                                "icon": "lockFill",
+                                "text": "Everything under your control"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "You can see all transaction in your Smart Banka",
+                        "header": "In your Smart Banka, you can see all transactions and a balances in your child's account.",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Keep track of transactions"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Lock and block account anytime"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Set payment limits and approvals"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "A new way to look at allowance",
+                        "header": "Transfer money, give allowance or make it easier for grandparents to chip in at anytime.",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Suggested allowance based on child's age"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Drag & drop transactions between accounts"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Set regular allowance payments"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "Payment card, savings, and an account until adulthood.",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Payment card free of charge"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Mobile Payments"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Attractive interest rate for savings account"
+                            }
+                        ],
+                        "footer": "More information on <a href=\"https://moneta.cz\">MONETA website</a>"
+                    },
+                    {
+                        "style": "separate",
+                        "title": "To open a Family account, you will need",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Czech passport or ID card of the child",
+                                "info": "<a href=\"pep\">Does the child have no passport or ID, or only foreign citizenship?</a>",
+                                "redirect": "MISSING_ID"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Be the child's parent",
+                                "info": "<a href=\"pep\">Not listed on the child's birth certificate?</a>",
+                                "redirect": "BIRTH_CERT"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Birth certificate of the child"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Contact information of the child"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Child must be over 8 years old"
+                            }
+                        ]
+                    }
+                ],
+                "primaryButton": "Open a Family account free of charge"
+            },
+            "uploadBirthCertificateIntro": {
+                "title": "Now, we will verify the child's identity",
+                "primaryButton": "Take a picture of the birth certificate",
+                "items": [
+                    {
+                        "icon": "documentsFill",
+                        "text": "<b>Photo of birth certificate</b><br/>Take a picture of the Czech birth certificate of the child."
+                    },
+                    {
+                        "icon": "idCardFill",
+                        "text": "<b>Photo of other form of ID</b><br/>Take a photo of the child's passport or ID card (ID cards are mandatory for minors over 15 years of age)."
+                    }
+                ]
+            },
+            "uploadBirthCertificateScanner": {
+                "title": "Take a photo of the birth certificate",
+                "detail": "It must be valid, well-lit and legible.",
+                "primaryButton": "Take a photo"
+            },
+            "basicInfo": {
+                "title": "Let's start with the basics",
+                "accountName": {
+                    "title": "Name of the account",
+                    "placeholder": "E.g., Annie"
+                },
+                "childInputSection": {
+                    "title": "Child's information",
+                    "email": {
+                        "title": "E-mail",
+                        "placeholder": "dite@moneta.cz"
+                    },
+                    "phone": {
+                        "title": "Phone number",
+                        "placeholder": "Our helpline 224 443 636"
+                    },
+                    "info": "Phone number is used to confirm internet payments (3-D Secure). If you do not want your child to use internet payments, you can block it in the following steps."
+                },
+                "parentInputSection": {
+                    "title": "Your information",
+                    "email": {
+                        "title": "E-mail"
+                    },
+                    "phone": {
+                        "title": "Phone number"
+                    },
+                    "info": "To receive important information about your child's account"
+                },
+                "consentSection": {
+                    "title": "In order to communicate without delay",
+                    "unencryptedCommunication": {
+                        "title": "We can call and email you",
+                        "secondary": "I consent to MONETA communicating with my child in a regular, unencrypted manner via e-mail and phone."
+                    },
+                    "instantMessaging": {
+                        "title": "We can use chatt",
+                        "secondary": "I consent to unencrypted communication with Moneta via WhatsApp and other instant messaging applications."
+                    },
+                    "marketingConsent": {
+                        "title": "Keep you up-to-date.",
+                        "secondary": "I consent to my child's information being processed in order to receive tailored offers from Moneta. You can cancel anytime."
+                    },
+                    "personalData": {
+                        "title": "By continuing, I consent to the information regarding the opening of a current account being sent in an unencrypted manner to the above-mentioned email address and phone number. I also agree to the <a href=\"https://moneta.cz/ochrana-dat\">Personal Data Processing </a> of MONETA Group."
+                    }
+                },
+                "primaryButton": "Continue"
+            },
+            "confirmedChildSelection": {
+                "title": "For which child are we creating an account?",
+                "detail": "You can open accounts for other children after this one is established",
+                "info": "We have this data from documents you have previously provided to us",
+                "prepareDocument": "Prepare",
+                "documents": {
+                    "ID": "ID",
+                    "PASSPORT": "child's passport"
+                },
+                "secondaryButton": "Another child"
+            },
+            "uploadBirthCertificateBusyLoader": {
+                "title": "Just a moment",
+                "detail": "It should not take more than a couple of seconds"
+            },
+            "uploadBirthCertificateReview": {
+                "title": "Is the photo clear enough?",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Take the photo again"
+            },
+            "birthNumber": {
+                "title": "Enter the chid's information",
+                "birthCertficateNumber": {
+                    "title": "Birth Certificate Number",
+                    "placeholder": "E.g.,51 2000 500 50",
+                    "info": "It is 4 sets of numbers – Volume, Year, Page, Serial Number (all can be found in the top half of the birth certificate)."
+                },
+                "birthNumber": {
+                    "title": "Birth Number",
+                    "placeholder": "10 digits, no slash"
+                },
+                "primaryButton": "Continue",
+                "victoryError": {
+                    "title": "We cannot open an account for your child at the moment"
+                }
+            },
+            "wrongBirthNumberVictory": {
+                "title": "Unable to proceed with this birth number",
+                "secondaryButton": "Cancel Application"
+            },
+            "uploadDocumentSimpleLoader": {
+                "title": "Processing, just a moment.",
+                "detail": "This should only take a second."
+            },
+            "uploadDocumentIntroChoice": {
+                "title": "Take a photo of the second ID document of the <span style=\"color: #246BFD\">child</span>",
+                "detail": "Two forms of ID help us verify the identity of the child.",
+                "primaryButton": "ID card",
+                "secondaryButton": "Passport",
+                "tertiaryButton": "Child does not have either passport or ID card."
+            },
+            "uploadDocumentIntroID": {
+                "title": "Take a photo of the ID card of the <span style=\"color: #246BFD\">child</span>",
+                "detail": "ID card helps us verify the identity of the child.",
+                "primaryButton": "ID card",
+                "tertiaryButton": "Child does not have an ID card"
+            },
+            "uploadDocumentNoDocuments": {
+                "title": "We need two forms of ID",
+                "detail": "A Family account can only be open using 2 forms of ID."
+            },
+            "uploadDocumentScannerID1": {
+                "title": "Take a photo of the front side of the ID card",
+                "detail": "The ID card must be valid and the photo well-lit and legible.",
+                "primaryButton": "Take a photo"
+            },
+            "uploadDocumentScannerID2": {
+                "title": "Take a photo of the back side of the ID card",
+                "detail": "The ID card must be valid and the photo well-lit and legible",
+                "primaryButton": "Take a photo"
+            },
+            "uploadDocumentScannerPassport": {
+                "title": "Take a photo of the child's passport",
+                "detail": "The passport must be valid and the photo well-lit and legible.",
+                "primaryButton": "Take a photo"
+            },
+            "uploadDocumentResultNok": {
+                "title": "Family Account cannot be opened right now",
+                "detail": "Our sincere apologies."
+            },
+            "uploadDocumentResultUploadAgain": {
+                "title": "Oops, this did not work out.",
+                "detail": "Try taking the photo again, and make sure it's well-lit, clear and legible.",
+                "primaryButton": "Take again",
+                "secondaryButton": "Try later"
+            },
+            "uploadDocumentBusyLoader": {
+                "title": "Processing, just a moment.",
+                "detail": "This should only take a couple of seconds."
+            },
+            "uploadDocumentReview": {
+                "title": "Is this information correct?",
+                "documentDetails": {
+                    "title": "Information from the ID document of the child",
+                    "firstName": "First Name",
+                    "lastName": "Last Name",
+                    "birthDate": "Date of Birth",
+                    "birthPlace": "Place of Birth",
+                    "birthNumber": "Birth Number",
+                    "idCardNumber": {
+                        "title": "ID card number",
+                        "secondaryTitle": "Passport number"
+                    },
+                    "idCardValidTo": "Valid until",
+                    "issueDate": "Issued",
+                    "nationality": "Nationality",
+                    "nationalityValue": "Czech Republic only",
+                    "sex": "Sex",
+                    "male": "Male",
+                    "female": "Female"
+                },
+                "documentAddress": {
+                    "title": "Permanent Residence",
+                    "secondary": "(Czech Republic Only)",
+                    "street": "Street",
+                    "descriptiveNumber": "Descriptive number",
+                    "orientationNumber": "Orientation number",
+                    "city": "City",
+                    "zip": "ZIP",
+                    "personalData": {
+                        "title": "Your information will be verified in the basic registers. You can find out more about register on the website of <a href=\"https://www.szrcr.cz/cs/\">Basic Registers Management</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta</a>\n\n. By clicking Continue, you confirm that all provided information is factual, complete, correct, and up-to-date."
+                    }
+                },
+                "primaryButton": "Continue"
+            },
+            "uploadDocumentReviewCorrection": {
+                "title": "Some information seems to be incorrect",
+                "detail": "Some provided information does not match the found information. Please double check it and correct it.",
+                "inputPlaceHolder": "Enter",
+                "primaryButton": "Confirm",
+                "secondaryButton": "Continue later"
+            },
+            "uploadParentIDInVerificationVictory": {
+                "title": "Processing the uploaded ID card of the parent"
+            },
+            "contactAddress": {
+                "title": "Where to send the payment card of the child?",
+                "virtualCard": {
+                    "title": "A virtual card in smartphone will be enough.",
+                    "detail": "Instead of a physical plastic card, a virtual card will be issued. Information for use in ATMs and for internet payments can be found in Internet Banka and Smart Banka."
+                },
+                "addressSection": {
+                    "title": "Contact address",
+                    "info": "We recommend your address be listed as contact address",
+                    "firstName": "First Name",
+                    "lastName": "Last Name",
+                    "street": "Street",
+                    "descriptiveNumber": "Descriptive number",
+                    "orientationNumber": "Orientation number",
+                    "city": "City",
+                    "country": "Country",
+                    "countryValue": "Czech Republic",
+                    "zip": "ZIP"
+                },
+                "primaryButton": "Continue"
+            },
+            "amlQuestionnaire": {
+                "title": "Information required by law",
+                "questions": {
+                    "secondaryTitle": "We are legally obligated to ask for this information under Act No. 253/2008 Coll. on money laundering.",
+                    "select": "Select",
+                    "depositOrigin": {
+                        "title": "Where will the money in the child's account come from?",
+                        "options": [
+                            {
+                                "value": "POCKET_MONEY",
+                                "text": "Pocket money / Allowance"
+                            },
+                            {
+                                "value": "STUDENT_WORK_INCOME",
+                                "text": "Work income"
+                            },
+                            {
+                                "value": "GIFT",
+                                "text": "Gift"
+                            },
+                            {
+                                "value": "HERITAGE",
+                                "text": "Inheritance"
+                            },
+                            {
+                                "value": "COURT_DECISION_BASED_REVENUE",
+                                "text": "Court mandated income",
+                                "infoText": "Child maintenance etc."
+                            },
+                            {
+                                "value": "SOCIAL_SUPPORT",
+                                "text": "State Social Support benefits",
+                                "infoText": "Benefits from health insurance, pension insurance, social security benefits, orphan's pension,..."
+                            },
+                            {
+                                "value": "OTHER",
+                                "text": "Other"
+                            }
+                        ],
+                        "primaryButton": "Continue"
+                    },
+                    "prevailingTransactions": {
+                        "title": "What will the most common type of transaction be in the account?",
+                        "options": [
+                            {
+                                "value": "CASHLESS_DOMESTIC",
+                                "text": "Cashless, domestic"
+                            },
+                            {
+                                "value": "CASHLESS_FOREIGN_WITHIN_EU",
+                                "text": "Cashless, foreign within the EU"
+                            },
+                            {
+                                "value": "CASHLESS_FOREIGN_OUTSIDE_EU",
+                                "text": "Cashless, foreign outside the EU"
+                            }
+                        ],
+                        "primaryButton": "Continue"
+                    },
+                    "rangeOfIncome": {
+                        "title": "What will be the average monthly amount received into the child's account?",
+                        "options": [
+                            {
+                                "value": "BELOW_5K",
+                                "text": "Under CZK 5,000"
+                            },
+                            {
+                                "value": "BELOW_10K",
+                                "text": "CZK 5,000 to CZK 10,000"
+                            },
+                            {
+                                "value": "BELOW_25K",
+                                "text": "CZK 10,000 to CZK 25,000"
+                            },
+                            {
+                                "value": "ABOVE_25K",
+                                "text": "Over CZK 25,00"
+                            }
+                        ],
+                        "primaryButton": "Continue"
+                    }
+                },
+                "taxResidence": "Is the child a tax resident of any other country?",
+                "pep": {
+                    "text": "Is the child a politically exposed person?",
+                    "info": {
+                        "title": "What is a <a href=\"pep\">politically exposed person?</a>"
+                    },
+                    "detail": {
+                        "title": "Politically exposed person",
+                        "subtitleOne": "A politically exposed person is an individual who holds a prominent public position or role in a government body or international organization, either in the Czech Republic or abroad.",
+                        "subtitleTwo": "e.g., Prime Minister, Member of Parliament, prominent head of local government, judge of the Supreme or Constitutional Court, member of the central bank's bank board, senior officer of the armed forces, ...",
+                        "section": {
+                            "title": "A politically exposed person is also any",
+                            "textRows": [
+                                "Member of immediate family of said person (e.g., parent, child, sibling, spouse...)",
+                                "Partner or the beneficial owner of the same legal person or trust fund as said person or a person who has any other close business relationship with said person",
+                                "Beneficiary ohner of a legal person or a trust fund created on belhal or for benefit for said person"
+                            ]
+                        }
+                    }
+                },
+                "pepDescription": "Why is your child a politically exposed person?",
+                "nationality": "Nationality",
+                "nationalityValue": "Czech Republic ",
+                "primaryButton": "Confirm information"
+            },
+            "cardLimits": {
+                "title": "Child's card settings",
+                "subtitle": "A payment card gives you better control over your child's spending, and your child will keep up with their peers.",
+                "limitsSection": {
+                    "title": "Set limits and authorizations",
+                    "cash": {
+                        "enabled": "ATM withdrawals",
+                        "limit": "Monthly limit",
+                        "info": "Maximum monthly limit is CZK5,000"
+                    },
+                    "internet": {
+                        "enabled": "Internet payments",
+                        "limit": "Monthly limit",
+                        "info": "Maximum monthly limit is CZK3,000"
+                    },
+                    "payment": {
+                        "enabled": "Payments in store",
+                        "limit": "Monthly limit",
+                        "info": "Maximum monthly limit is CZK7,000"
+                    }
+                },
+                "primaryButton": "Continue"
+            },
+            "otherLimits": {
+                "title": "Bank transfer",
+                "subtitle": "You can allow your child to make bank transfers. You can also set a limit above which the transaction will require your approval. The limit does not include transfers between current and savings accounts of the child.",
+                "paymentApprovalEnabled": "Allow bank transfer",
+                "paymentSection": {
+                    "title": "Limit for transfers",
+                    "secondaryTitle": "The monthly limit is an amount which the child can transfer monthly. Including payments approved by you.",
+                    "limit": "Monthly limit",
+                    "info": "Maximum monthly limit is CZK10,000"
+                },
+                "inOtherAccountsSection": {
+                    "title": "Parent approval for transfers",
+                    "secondaryTitle": "Transfers greater than the amount you enter below will require parent approval. Smaller amounts can be transferred without parent's approval.",
+                    "enabled": "Require parent approval",
+                    "limit": "from",
+                    "info": "If you wish to approve all transfers, enter CZK0."
+                },
+                "primaryButton": "Continue"
+            },
+            "cifChecks": {
+                "busyLoader": {
+                    "title": "Just a second, processing.",
+                    "detail": "It will only take a couple of seconds."
+                },
+                "victory": {
+                    "inManualVerification": {
+                        "title": "We are almost finished",
+                        "detail": "We need to review everything, and will notify you when it is ready."
+                    },
+                    "genericError": {
+                        "title": "We cannot currently open a Family account for you"
+                    }
+                }
+            },
+            "precontractBusyLoader": {
+                "title": "We are almost finished! Now just sign the agreements. ",
+                "detail": "Just give us a moment to prepare them."
+            },
+            "precontract": {
+                "title": "Please read the pre-contractual information",
+                "section": {
+                    "title": "Read through these documents",
+                    "footer": "All documents can be found in My Documents in Smart Banka"
+                },
+                "primaryButton": "Agree, continue",
+                "secondaryButton": "Decline"
+            },
+            "contract": {
+                "title": "Read the Agreement",
+                "primaryButton": "Agree, continue",
+                "secondaryButton": "Decline"
+            },
+            "sign": {
+                "title": "Enter PIN to sign the Agreement"
+            },
+            "checkVictoryBusyLoader": {
+                "title": "Now it is our turn to sign",
+                "detail": "This should only take a moment."
+            },
+            "checkVictory": {
+                "done": {
+                    "title": "You have successfully opened a Family account",
+                    "detail": "Use it to the fullest and connect it to your phone or tablet.",
+                    "primaryButton": "Pair to your child's device ",
+                    "secondaryButton": "Back to Overview"
+                },
+                "waiting": {
+                    "title": "We're almost finished.",
+                    "detail": "We will review everything and let you know when it is ready."
+                },
+                "insufficient": {
+                    "title": "We were unable to open Family account for you",
+                    "detail": "Our sincere apologies"
+                }
+            },
+            "connectDevice": {
+                "title": "Add your child's device",
+                "sections": [
+                    {
+                        "title": "On their phone or tablet:",
+                        "textRows": [
+                            "Install Smart Banka application",
+                            "On its home screen, select <b>Link with QR Code</b>",
+                            "Scan or write the activation code you see above into your child's device",
+                            "Your child will choose their PIN that they will use to log in and confirm transaction."
+                        ]
+                    },
+                    {
+                        "title": "On this device:",
+                        "textRows": [
+                            "Enter PIN to confirm the entire process"
+                        ]
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Guide to Parents' Account",
+                "pages": [
+                    {
+                        "title": "Savings",
+                        "detail": "Learning to save is a crucial part of financial education of your child. A child of this age should save about 20% of their allowance to save up for what they want to buy.",
+                        "image": "savingsFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Basic guidelines",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Send allowance regularly"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Monitor transfers from current account to savings account"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivate your child to save"
+                                    }
+                                ],
+                                "footer": "You can enable automatic allowance in Settings, Allowance."
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Allowance",
+                        "detail": "Learning to save You can enable automatic allowance in Settings, Allowance",
+                        "image": "pocketMoneyFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Basic guidelines",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Send allowance regularly"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Monitor transfers from current account to savings account"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivate your child to save"
+                                    }
+                                ],
+                                "footer": "You can enable automatic allowance in Settings, Allowance"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Monitor your child's activity",
+                        "detail": "Monitoring of your child's financial activity is a crucial part of financial education of your child. A child of this age should save about 20% of their allowance to save up for what they want to buy. // TODO",
+                        "image": "userVerifiedFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Basic guidelines",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Send allowance regularly"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Monitor transfers from current account to savings account"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivate your child to save"
+                                    }
+                                ],
+                                "footer": "You can enable automatic allowance in Settings, Allowance"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Financial education of your child",
+                        "detail": "Financial education of your child is a crucial part of financial education of your child. A child of this age should save about 20% of their allowance to save up for what they want to buy. // TODO",
+                        "image": "studyFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Basic guidelines",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Send allowance regularly"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Monitor transfers from current account to savings account"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivate your child to save"
+                                    }
+                                ],
+                                "footer": "You can enable automatic allowance in Settings, Allowance"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "connectVictory": {
+                "title": "Done. Do you wish to send your child their first virtual allowance?",
+                "subtitle": "Children learn to manage finances when they have access to them. Send them their allowance now and teach them how to manage it.",
+                "tip": "When enabling automatic allowance, we offer guidelines on the optimal amount.",
+                "primaryButton": "Set up automatic allowance",
+                "secondaryButton": "One-time transfer",
+                "tertiaryButton": "Don't send"
+            },
+            "allowanceForm": {
+                "sourceAccount": {
+                    "title": "From",
+                    "value": "Select"
+                },
+                "dueDate": {
+                    "title": "Due date",
+                    "value": "Now"
+                },
+                "frequency": {
+                    "title": "Payment frequency",
+                    "options": [
+                        {
+                            "value": "WEEK",
+                            "text": "Weekly"
+                        },
+                        {
+                            "value": "FORTNIGHT",
+                            "text": "Every two weeks"
+                        },
+                        {
+                            "value": "MONTH",
+                            "text": "Monthly"
+                        }
+                    ]
+                },
+                "amount": "Amount",
+                "info": {
+                    "text": "Children in the age of {0} receive on average between CZK {1} and {2} {3}",
+                    "week": "weekly",
+                    "fortnight": "every two weeks",
+                    "month": "monthly"
+                },
+                "startDate": {
+                    "title": "First payment",
+                    "value": "Now"
+                },
+                "endDate": {
+                    "title": "Last payment",
+                    "value": "Indefinitely"
+                },
+                "addNote": {
+                    "title": "Message for your child and more ",
+                    "button": "Message for your child"
+                },
+                "primaryButton": "Continue"
+            },
+            "allowanceSummary": {
+                "title": "Check the information",
+                "sourceAccount": "From ",
+                "destinationAccount": "To",
+                "amount": "Amount",
+                "startDateRecurring": "First payment",
+                "startDateOneTime": "Due date",
+                "endDate": "Last payment",
+                "frequency": {
+                    "title": "Payment frequency",
+                    "options": [
+                        {
+                            "value": "WEEK",
+                            "text": "Weekly"
+                        },
+                        {
+                            "value": "FORTNIGHT",
+                            "text": "Every two weeks"
+                        },
+                        {
+                            "value": "MONTH",
+                            "text": "Monthly"
+                        }
+                    ]
+                },
+                "note": "Note for recipient",
+                "primaryButtonRecurring": "Set up regular allowance",
+                "primaryButtonOneTime": "Send once"
+            },
+            "allowanceVictory": {
+                "title": "Done. You child will get their allowance.",
+                "primarySubtitle": "Now you can all enjoy the benefits of Family Account.",
+                "secondarySubtitle": "If you are interested, we can show you tips on how to teach your child to manage their finances.",
+                "primaryButton": "Show tips"
+            },
+            "oneTimeAllowance": {
+                "sourceAccount": {
+                    "title": "From ",
+                    "value": "Select"
+                },
+                "amount": "Amount",
+                "primaryButton": "Transfer"
+            },
+            "uploadParentID": {
+                "title": "Oops, we need your current ID card.",
+                "detail": "It seems that the ID card you have provided is no longer valid. Please upload your new and valid ID card.",
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "ID  card",
+                        "detail": "Since your last visit, some information seems to have changed.",
+                        "photoCapture": [
+                            {
+                                "title": "Take a photo of the front side of your ID card",
+                                "detail": "It must be valid, well-lit and legible.",
+                                "primaryButton": "Take a photo"
+                            },
+                            {
+                                "title": "Vyfoťte zadní stranu občanského průkazu",
+                                "detail": "It must be valid, well-lit and legible.",
+                                "primaryButton": "Take a photo"
+                            }
+                        ],
+                        "busyLoader": {
+                            "title": "Reviewing the information, just a second.",
+                            "detail": "This should only take a moment."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "We are unable to open Family account for your at this moment",
+                            "detail": "Our apologies"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Oops, this did not work out.",
+                            "detail": "Try taking the photo again, and make sure it's well-lit, clear and legible.",
+                            "primaryButton": "Take again",
+                            "secondaryButton": "Try later"
+                        },
+                        "review": {
+                            "title": "Great photo! Is this information correct?",
+                            "documentDetails": {
+                                "title": "Information from the ID card",
+                                "firstName": "First Name",
+                                "lastName": "Last Name",
+                                "birthDate": "Date of Birth",
+                                "birthPlace": "Place of Birth",
+                                "birthNumber": "Birth Number",
+                                "idCardNumber": {
+                                    "title": "ID card Number",
+                                    "secondaryTitle": "Passport Number"
+                                },
+                                "idCardValidTo": "Valid until",
+                                "issueDate": "Issued on",
+                                "nationality": "Nationality",
+                                "nationalityValue": "Czech Republic only",
+                                "sex": "Sex",
+                                "male": "male",
+                                "female": "female"
+                            },
+                            "documentAddress": {
+                                "title": "Permanent Residence",
+                                "secondary": "(Czech Republic Only)",
+                                "street": "Street",
+                                "descriptiveNumber": "Descriptive number",
+                                "orientationNumber": "Orientation number",
+                                "city": "City",
+                                "zip": "ZIP",
+                                "personalData": {
+                                    "title": "Your information will be verified in the basic registers. You can find out more about register on the website of <a href=\"https://www.szrcr.cz/cs/\">Basic Registers Management</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta</a>\n\n. By clicking Continue, you confirm that all provided information is factual, complete, correct, and up-to-date."
+                                }
+                            },
+                            "primaryButton": "Continue"
+                        }
+                    }
+                },
+                "secondaryButton": "Upload ID documents later"
+            }
+        }
+    }
+}

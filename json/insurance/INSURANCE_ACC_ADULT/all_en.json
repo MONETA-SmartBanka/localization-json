@@ -1,0 +1,40 @@
+{
+  "status": "OK",
+  "responseObject": {
+    "screens": {
+      "cancelIntro": {
+        "title": "Do you want to terminate your insurance:",
+        "detail": "Accident insurance",
+        "footer": "Your insurance will be terminated by {{date}}. Insurance premiums are charged per every month started.",
+        "primaryButton": "I understand and wish to terminate"
+      },
+      "cancelVictory": {
+        "title": "The insurance has been terminated",
+        "detail": "Your request to terminate insurance has been accepted for processing. Your insurance will be canceled by {{date}}. Thank you for using our services. You can always renew your insurance in Smart Banka.",
+        "primaryButton": "Back to Insurance List"
+      },
+      "cancelDocument": {
+        "title": "Insurance cancellation",
+        "detail": "Download the PDF",
+        "primaryButton": "I agree",
+        "secondaryButton": "I do not agree"
+      },
+      "cancelForOfferVictory": {
+        "title": "We have received the cancellation request",
+        "detail": "We have received the request to cancel the insurance. The insurance shall be canceled by {{date}}. You can now arrange new insurance.",
+        "primaryButton": "Continue"
+      },
+      "cancelDisagree": {
+        "title": "We can’t continue without your permission.",
+        "detail": "Should you have any questions regarding your contract, do not hesitate to contact us. We are happy to help. ",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit our\nbranch",
+        "secondaryButton": "Cancel application",
+        "primaryButton": "Continue"
+      },
+      "sign": {
+        "title": "Sign the application"
+        }
+    }
+  }
+}

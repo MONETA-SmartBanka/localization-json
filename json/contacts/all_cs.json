@@ -1,0 +1,101 @@
+{
+    "status": "OK",
+    "responseObject": {
+      "title": "Kontaktujte nás",
+      "dashboard": {
+        "actionType": "PHONECALL",
+        "actionData": "224 443 636",
+        "actionLabelText": "Zákaznický servis"
+      },
+      "messengerUrl": "https://m.me/138479367229",
+      "sections": [
+        {
+          "title": "Kontakty",
+          "type": "COLLAPSABLE",
+          "rows": [
+            {
+              "actionType": "PHONE_CALL",
+              "actionLabelText": "Klientské centrum",
+              "actionData": "224443636"
+            },
+            {
+              "actionType": "PHONE_CALL",
+              "actionLabelText": "Blokace produktů",
+              "actionData": "224442424"
+            },
+            {
+              "actionType": "PHONE_CALL",
+              "actionLabelText": "Zájem o nový produkt",
+              "actionData": "224444222"
+            }
+          ]
+        },
+        {
+          "title": "Sídlo banky",
+          "type": "COLLAPSABLE",
+          "rows": [
+            {
+              "actionLabelText": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle\nIČ: 25672720"
+            }
+          ]
+        },
+        {
+          "title": "Další kontakty",
+          "rows": [
+            {
+              "actionType": "APP_PAGE",
+              "actionLabelText": "Pobočky a bankomaty",
+              "actionData": "BRANCHESATMS"
+            }
+          ]
+        },
+        {
+          "rows": [
+            {
+              "actionType": "WEB",
+              "actionLabelText": "Web",
+              "actionData": "https://moneta.cz"
+            },
+            {
+              "actionLabelText": "Datová schránka",
+              "actionData": "3kpd8nk"
+            },
+            {
+              "actionLabelText": "BIC kód (SWIFT)",
+              "actionData": "AGBACZPP"
+            }
+          ]
+        },
+        {
+          "title": "Sociální sítě",
+          "type": "ONE_ROW",
+          "rows": [
+            {
+              "socialNetworkType": "facebook",
+              "actionType": "WEB",
+              "actionLabelText": "Sledujte nás na Facebooku",
+              "actionData": "https://www.facebook.com/monetamoneybank/"
+            },
+            {
+              "socialNetworkType": "twitter",
+              "actionType": "WEB",
+              "actionLabelText": "Buďte s námi na Twitteru",
+              "actionData": "https://twitter.com/monetamoney"
+            },
+            {
+              "socialNetworkType": "youtube",
+              "actionType": "WEB",
+              "actionLabelText": "Sledujte nás na YouTube",
+              "actionData": "https://www.youtube.com/user/SNGEMB"
+            },
+            {
+              "socialNetworkType": "instagram",
+              "actionType": "WEB",
+              "actionLabelText": "Sledujte nás na Instagramu",
+              "actionData": "https://www.instagram.com/moneta_money_bank/"
+            }
+          ]
+        }
+      ]
+    }
+  }

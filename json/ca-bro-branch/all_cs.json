@@ -1,0 +1,394 @@
+{
+  "app": {
+    "title": "Založte si účet TOM"
+  },
+  "info": {
+    "phone": "+420 224 888 999"
+  },
+  "label": {
+    "login": "Kód brokera ČP Distribuce",
+    "password": "Heslo",
+    "firstName": "Křestní jméno",
+    "firstNameAlt": "Jméno",
+    "lastName": "Příjmení",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "birthDate": "Datum narození",
+    "birthNumber": "Rodné číslo",
+    "street": "Ulice a číslo popisné/orientační trvalého bydliště",
+    "streetCorrespondent": "Ulice a číslo popisné/orientační",
+    "city": "Město",
+    "cityCorrespondent": "Obec (město)",
+    "zip": "PSČ",
+    "idCardNumber": "Číslo občanského průkazu",
+    "idCardValidTo": "Platnost občanského průkazu",
+    "nationality": "Státní občanství",
+    "birthPlace": "Místo narození",
+    "smsKeyCode": "Číslo mobilního klíče:"
+  },
+  "button": {
+    "login": "Přihlásit",
+    "continue": "Pokračovat",
+    "back": "Zpět",
+    "capture": "Spustit fotoaparát",
+    "captureAgain": "Vyfotit znovu",
+    "retry": "Znovu",
+    "use": "Použít",
+    "tryAgain": "Zkusit znovu",
+    "startOver": "Začít znovu",
+    "ok": "OK"
+  },
+  "gdpr": {
+    "marketingConsent": {
+      "title": "Klient/ka se chce dozvědět o <a href=\"#/gdpr/marketing\">speciálních marketingových nabídkách<\/a>, a proto souhlasí s jejich zasíláním.",
+      "header": "Souhlas se zasíláním marketingových sdělení",
+      "content": "Souhlasím, aby členové finanční skupiny MONETA zpracovávali informace o bankovních obchodech a další osobní údaje, které jsem jim sdělil/⁠a, v budoucnu sdělím, nebo které jiným způsobem oprávněně získají, pro přípravu nabídky produktu nebo služby a s využitím mých údajů k nabízení produktů či služeb členy finanční skupiny MONETA."
+    },
+    "unencryptedCommunication": {
+      "title": "Klient/ka souhlasí, aby <a href=\"#/gdpr/unsecured-communication\">informace podléhající bankovnímu tajemství<\/a> byly zasílány nešifrovanými kanály.",
+      "header": "Souhlas s nešifrovanou komunikací",
+      "content": "Souhlasím, aby mi členové finanční skupiny MONETA zasílali nešifrované zprávy o mé osobě a o obsahu a průběhu smluvních vztahů se členy finanční skupiny MONETA elektronickými zprávami."
+    },
+    "personalData": {
+      "title": "Klient/ka souhlasí se <a href=\"#/gdpr/personal-data\">způsobem zpracování osobních údajů<\/a>",
+      "header": "Informace o zpracovávání údajů",
+      "content": "Pro uzavření smlouvy je nezbytné zpracovávat Vaše osobní údaje, a to za účelem přípravy smluvní dokumentace, ověření Vaší důvěryhodnosti a platební morálky a pro ochranu oprávněných zájmů banky. Více informací o zpracování Vašich osobních údajů, dalších účelech, pro které mohou být zpracovávány, právních důvodech pro jejich zpracování a Vašich právech najdete v dokumentu Informace o zpracování osobních údajů dostupném na <a href=\"https://www.moneta.cz/ochrana-dat\">https://www.moneta.cz/ochrana-dat<\/a>."
+    }
+  },
+  "preContractInfo": {
+    "pdfUrl": "https://www.moneta.cz/documents/cz/bezne-ucty/mmb-predsmluvni-informace-tom-cp.pdf",
+    "informations": {
+      "bullets": [
+        "MONETA Money Bank",
+        "způsobu, jak spolu budeme komunikovat",
+        "sjednávaném účtu",
+        "smlouvě samotné",
+        "pojištění vkladů"
+      ]
+    },
+    "title": "Předsmluvní informace - plné znění",
+    "detail": "Vážíme si Vašeho zájmu o běžný účet - Tom účet! Ještě před jeho založením bychom Vám rádi poskytli pár základních informací o MONETA Money Bank a také o samotném účtu.",
+    "bankInfo": {
+      "header": "Základní informace o bance",
+      "content": "<strong>MONETA Money Bank, a. s.<\/strong> má sídlo v ulici <strong>Vyskočilova 1422/⁠1a, v Praze 4 – Michle<\/strong>, PSČ: 140 28, IČO 256 72 720 a je zapsaná v obchodním rejstříku vedeném Městským soudem v Praze v oddíle B, vložce 5403. Působí na základě licence udělené Českou národní bankou (se sídlem v Praze 1 Na Příkopě 28, 115 03 Praha 1, IČO 48136450). Česká národní banka je pro MONETA Money Bank dohledovým orgánem."
+    },
+    "communicationInfo": {
+      "content": "Jak s námi můžete komunikovat? Můžete s námi komunikovat písemně, telefonicky nebo prostřednictvím našich poboček. Komunikovat spolu budeme v českém jazyce. V případě písemné komunikace prosím využijte poštovní adresu totožnou se sídlem MONETA Money Bank nebo poštovní adresou příslušné pobočky; další naše poštovní adresy, stejně jako elektronický a telefonický kontakt najdete na naší webové stránce"
+    },
+    "feesInfo": {
+      "header": "Sdělení informací o poplatcích"
+    }
+  },
+  "errorMessages": {
+    "required": "Doplňte prosím",
+    "noValidDate": "Neumíme zpracovat tenhle format data. Prosíme použijte format typu 12.12.2012",
+    "noValidPhoneNumber": "Tak tohle telefonní číslo nebude… :)",
+    "noValidPostcode": "PSČ by mělo vypadat jinak :-)",
+    "noValidFirstName": "Tohle snad ani není v kalendáři :)",
+    "noValidEmail": "Ou! Tohle tedy jako e-mail nevypadá… :)",
+    "noValidLastName": "No moc se nám to nezdá… víte to jistě?",
+    "ocrConfidenceTooLow": "Zkontrolujte prosím"
+  },
+  "error": {
+    "invalid_street": "Neplatná ulice",
+    "invalid_city": "Neplatné město",
+    "required_radio": "Prosím vyberte",
+    "min_length": "Minimální povolená délka je {min} znaků.",
+    "max_length": "Maximální povolená délka je {max} znaků.",
+    "invalid_birth_number": "Neplatné rodné číslo",
+    "invalid_date": "Nevalidní datum",
+    "sms_code": "SMS kód může obsahovat pouze číslice"
+  },
+  "validations": {
+    "phone": {
+      "regexp": "^[0-9\\-\\+]{9}$",
+      "min": 9,
+      "type": "regexp",
+      "max": 9
+    },
+    "firstName": {
+      "regexp": "^[a-zA-ZÀ-ɏ\\-\\s]+$",
+      "min": 2,
+      "type": "regexp",
+      "max": 20
+    },
+    "expiryDate": {
+      "type": "dateTime",
+      "format": "dd.MM.yyyy"
+    },
+    "stateOfBirth": {
+      "type": "regexp",
+      "regexp": "ČESKÁ REPUBLIKA"
+    },
+    "dateOfBirth": {
+      "type": "dateTime",
+      "format": "dd.MM.yyyy",
+      "age": {
+        "min": 18
+      }
+    },
+    "cvv": {
+      "type": "regexp",
+      "regexp": "^[0-9]{3}$"
+    },
+    "email": {
+      "type": "regexp",
+      "regexp": "^[A-Z0-9a-z\\._%+-]+@[A-Za-z0-9\\.-]+\\.[A-Za-z]{2,6}$"
+    },
+    "moneyTransferAmount": {
+      "type": "number",
+      "min": 3,
+      "max": 100
+    },
+    "lastName": {
+      "regexp": "^[a-zA-ZÀ-ɏ\\-\\s]+$",
+      "min": 2,
+      "type": "regexp",
+      "max": 20
+    },
+    "sms": {
+      "type": "regexp",
+      "regexp": "^[0-9]+$",
+      "min": 4,
+      "max": 8
+    }
+  },
+  "AppError": {
+    "title": "Jejda",
+    "subtitle": "Něco se porouchalo 😞",
+    "button": "Začít znovu"
+  },
+  "ErrorCannotContinue": {
+    "title": "Je nám líto",
+    "subtitle": "Je nám líto, ale účet Tom nemůžeme na pobočce České pojišťovny založit. Ať se prosím klient/ka dostaví na naši pobočku nebo zavolá zdarma na naši infolinku.",
+    "button": "Sjednat další produkty"
+  },
+  "ErrorNoPreContractConsent": {
+    "title": "Předsmluvní informace jsme zaslali na email klienta.<br>Po prostudování se k nám brzy vraťte.",
+    "button": "Sjednat další produkty"
+  },
+  "Login": {
+    "title": "Přihlášení",
+    "error": {
+      "title": "Přihlášení se nezdařilo",
+      "subtitle": "Přihlášovací údaje nejsou správně, nebo máte zablokovaný účet.<br>Pokud potíže s přihlášením přetrvávají kontaktujte nás.",
+      "button": "Zavřít"
+    }
+  },
+  "ClientCheck": {
+    "title": "Rodné číslo",
+    "subtitle": "Rodné číslo potřebujeme pro ověření, zda klient/ka již má u MONETA Money Bank aktivní produkty nebo služby."
+  },
+  "ProductInfo": {
+    "title": "K založení učtu Tom je potřeba mít",
+    "requirements": {
+      "bullets": [
+        "Věk nad 18 let",
+        "Občanský průkaz",
+        "Daňovou rezidenci v ČR",
+        "Mobilní telefon s českým číslem",
+        "České občanství",
+        "E-mail"
+      ]
+    },
+    "account": {
+      "title": "Běžný účet Tom",
+      "bullets": [
+        {
+          "caption": "Vedení účtu bez jakýchkoli podmínek",
+          "value": "ZDARMA"
+        },
+        {
+          "caption": "Všechny výběry v hotovosti v naší síti bankomatů, jedné z největších v ČR",
+          "value": "ZDARMA"
+        },
+        {
+          "caption": "Výběry hotovosti ze všech bankomatů v zahraničí",
+          "value": "ZDARMA"
+        },
+        {
+          "caption": "Výběry hotovosti z bankomatů jiných bank v ČR",
+          "value": "20 Kč / výběr"
+        },
+        {
+          "caption": "Služba Neomezené výběry hotovosti ze všech bankomatů v ČR",
+          "value": "50 Kč / měsíc"
+        },
+        {
+          "caption": "Tuzemské odchozí úhrady včetně trvalých příkazů nebo inkas (včetně SIPO) zadaných elektronicky",
+          "value": "ZDARMA"
+        },
+        {
+          "caption": "Jedna debetní bezkontaktní karta Standard",
+          "value": "ZDARMA"
+        },
+        {
+          "caption": "Odměny za platby kartou v partnerské síti bene+",
+          "value": "až 30%"
+        }
+      ]
+    }
+  },
+  "Intro": {
+    "title": "Jdeme na to. Začneme s osobními údaji"
+  },
+  "IDUploadFront": {
+    "title": "Vyfoťte prosím občanský průkaz",
+    "photo": {
+      "permission": "Klient/ka souhlasí s pořízením a uložením fotografie občanského průkazu"
+    }
+  },
+  "IDUploadBack": {
+    "title": "Otočte občanku a vyfoťte druhou stranu"
+  },
+  "IDMinedDataCheck": {
+    "title": "Máme vše správně?",
+    "subtitle": "Zkontrolujte prosím, zda jsou vyplněné údaje shodné s údaji na občanském průkazu. Něco nesedí? Jednoduše údaje přepište tak, jak mají být správně."
+  },
+  "CardDeliveryAddress": {
+    "title": "Kam pošleme platební kartu?",
+    "subtitle": "Kartu pošleme jako obyčejné psaní do schránky. Tuto adresu si uložíme také jako korespondenční adresu.",
+    "changeAddress": {
+      "same": "Jiná korespondenční adresa",
+      "notSame": "Zpět"
+    }
+  },
+  "AmlQuestions": {
+    "title": "Informace požadované zákonem",
+    "subtitle": "Není to kvůli naší zvědavosti. Zeptat se na tyto informace nám úkládá zákon.",
+    "button": "Potvrdit",
+    "headers": {
+      "taxResidency": "Daňová rezidence v ČR",
+      "financialTransactions": "Jaké transakce budou na účtu převažovat?",
+      "moneyOrigin": "Odkud budou peníze na účtu?",
+      "averageMonthlyIncome": "Jaká bude výše měsíčních příjmů na účtu?"
+    },
+    "taxResidency": {
+      "isResident": "ano",
+      "isNotResident": "ne"
+    }
+  },
+  "PreContractInfo": {
+    "title": "Projděte si prosím předsmluvní informace",
+    "subtitle": "Naleznete v nich zejména informace o",
+    "pdf": {
+      "loading": "Načítám předsmluvní informace",
+      "document": {
+        "error": "Nepodařilo se zobrazit předsmluvní informace"
+      }
+    },
+    "buttonAgree": "Klient/ka potvrzuje, že si přečetl/a, rozumí a souhlasí",
+    "buttonDisagree": "Nesouhlasí"
+  },
+  "Contract": {
+    "title": "Přečtěte si smlouvu",
+    "spinner": "Připravujeme Vaši smlouvu",
+    "buttonConfirm": "Klient/ka potvrzuje, že si přečetl/a, rozumí a souhlasí",
+    "permission": {
+      "error": {
+        "title": "Chyba, nelze pokračovat v založení účtu"
+      }
+    },
+    "contracting": {
+      "error": {
+        "title": "Chyba, nelze pokračovat v založení účtu"
+      }
+    },
+    "document": {
+      "error": {
+        "title": "Kontrakt se nepovedlo zobrazit"
+      }
+    },
+    "pdf": {
+      "loading": "Načítám smlouvu...",
+      "document": {
+        "error": "Nepodařilo se zobrazit smlouvu"
+      }
+    },
+    "sign": {
+      "title": "Podepište SMS kódem",
+      "subtitle": "<strong>SMS kód jsme odeslali na telefonní číslo {phone}<\/strong>",
+      "legend": "Vyplní klient/ka",
+      "sent": "SMS byla odeslána",
+      "resend": "Pošlete mi SMS znovu",
+      "button": "Klient/ka podepisuje"
+    }
+  },
+  "Victory": {
+    "title": "A je to! Účet Tom je založen",
+    "bullets": [
+      "Na Váš e-mail pošleme dokumentaci a přihlašovací ID do internetového bankovnictví.",
+      "Heslo do internetového bankovnictví odešleme SMS zprávou na Vaše telefonní číslo.",
+      "Debetní kartu odesíláme na Vaši korespondenční adresu."
+    ],
+    "account": {
+      "header": "Číslo nového účtu"
+    },
+    "button": "Aktivovat Smart Banku"
+  },
+  "SmartBankIntro": {
+    "title": "Stáhněte si aplikaci SmartBanka",
+    "bullets": [
+      "Otevřete Apple Store nebo Google Play store na mobilním telefonu",
+      "Vyhledejte aplikaci: SmartBanka",
+      "Nainstalujte a spuste aplikaci",
+      "Skenování QR kodu klient/ka nalezne v aplikaci Smart Banka po spuštění, kliknutím na “Jsem   klientem. Aktivovat Smart Banku”, pak pokračuje dál na telefonu. Aplikace se tímto spáruje s jeho/jejím účtem Tom."
+    ],
+    "qr": {
+      "header": "V mobilní aplikaci SmartBanka naskenujte tento QR kód",
+      "manualCode": "Nebo zadejte kód ručně: {code}"
+    },
+    "SmartBankSign": {
+      "title": "A je skoro hotovo! Už jen zadejte mobilní klíč, který jsme právě zaslali na telefon klienta/ky"
+    },
+    "SmartBankVictory": {
+      "title": "Skvělé! Účet Tom je založen a Smart Banka je aktivní.<br>Jsme rádi, že jste se stali našimi klienty.",
+      "bullets": [
+        "Na váš e-mail jsme vám poslali předsmluvní informace a přihlašovací ID do internetového bankovnictví",
+        "Smlouvu najdete v sekci Moje dokumenty v Internet bance nebo ve Smart bance.",
+        "Heslo do internetového bankovnictví odešleme SMS zprávou na Vaše telefonní číslo. ",
+        "Debetní kartu odesíláme na Vaši korespondenční adresu."
+      ],
+      "account": {
+        "header": "Vaše číslo účtu:"
+      }
+    }
+  },
+  "ErrorNoData": {
+    "title": "Váš doklad se nepovedlo vyfotit",
+    "detail": "Zkuste to prosím ještě jednou.<br/>Ujistěte se, že máte v záběru celý průkaz a že fotíte na dobrém světle.<br/>Čím ostřejší fotka bude, tím přesněji Vaše údaje přečteme.",
+    "button": "VYFOTIT ZNOVU"
+  },
+  "ErrorInvalidDocument": {
+    "title": "Vypadá to, že fotíte nesprávný doklad.",
+    "detail": "Prosím vyfoťte správný doklad. Pokud se to nedaří, zavolejte nám.",
+    "button": "VYFOTIT ZNOVU"
+  },
+  "PDF": {
+    "loading": "Načítám ...",
+    "page": {
+      "prev": "Předchozí strana",
+      "next": "Další strana",
+      "error": "Nepodařilo se zobrazit stránku"
+    },
+    "document": {
+      "error": "Nepodařilo se zobrazit dokument"
+    }
+  },
+  "ContractWrongKeyModal": {
+    "title": "Byl zadán nesprávný SMS kód"
+  },
+  "ContractKeyTimedOutModal": {
+    "title": "Platnost SMS kódu již vypršela",
+    "button": "Poslat SMS znovu"
+  },
+  "UnauthorizedModal": {
+    "title": "Chyba autorizace",
+    "button": "Začít znovu"
+  },
+  "ContractKeyLockedModal": {
+    "title": "SMS kód byl 3krát špatně zadán",
+    "subtitle": "Z bezpečnostních důvodů již není možné pokračovat. Kontaktujte prosím podporu.",
+    "button": "Odhlásit"
+  }
+}

@@ -1,0 +1,1155 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "scoring": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Tohle online zatím neumíme. Ale zvládneme to spolu na pobočce.",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte nějaké otázky?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Zpět"
+            },
+            "longTermScreens": {
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "Toto bude trvat celou noc...",
+                    "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+                    "primaryButton": "Zpět na přehled zůstatků"
+                }
+            }
+        },
+        "scenes": {
+            "cardType": {
+                "title": "Jakou kartu zvolíte?",
+                "priceFree": "ZDARMA",
+                "price": "za {0} měsíčně",
+                "variants": [
+                    {
+                        "type": "14100",
+                        "title": "Debetní karta Standard",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "S kartou můžete ihned platit",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Blokace karty i nastavení online",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Standard {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "15100",
+                        "title": "Debetní karta Gold",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "S kartou můžete ihned platit",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Blokace karty i nastavení online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění karty a osobních věcí</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Program Priority Pass",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Gold {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "16100",
+                        "title": "Debetní karta Business",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "S kartou můžete ihned platit",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Blokace karty i nastavení online",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Business {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "17100",
+                        "title": "Debetní karta Business Premium",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "S kartou můžete ihned platit",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Blokace karty i nastavení online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\">Pojištění karty a osobních věcí</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Program Priority Pass",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Business Premium {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "99300",
+                        "title": "Debetní karta EUR",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu EUR {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "99400",
+                        "title": "Debetní karta Business EUR",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Business EUR {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88300",
+                        "title": "Debetní karta USD",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu USD {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88400",
+                        "title": "Debetní karta Business USD",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Business USD {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "43000",
+                        "title": "Debetní Moneta Business Card",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci Moneta Business Card {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47000",
+                        "title": "Debetní karta MoneyCard Smart",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu MoneyCard Smart {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47006",
+                        "title": "Kreditní účet",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci Kreditní účet {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "40100",
+                        "title": "Debetní karta MoneyCard Gold",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Moneycard Gold {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47009",
+                        "title": "Debetní karta Visa Classic",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu Visa Classic {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47003",
+                        "title": "Debetní karta MoneyCard Gratis",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu MoneyCard Gratis {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47004",
+                        "title": "Debetní karta MoneyCard Plus",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu MoneyCard Plus {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "47002",
+                        "title": "Debetní karta MoneyCard Fix",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci kartu MoneyCard Fix {0}",
+                            "color": "primary"
+                        }
+                    }
+                ],
+                "newVariants": [
+                    {
+                        "type": "14100",
+                        "title": "Debetní karta Standard",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta s výběrem designu",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta s výběrem designu",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "15100",
+                        "title": "Debetní karta Gold",
+                        "bullets": [
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Program Priority Pass</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "gold"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "16100",
+                        "title": "Debetní karta Business",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "17100",
+                        "title": "Debetní karta Business Premium",
+                        "bullets": [
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Program Priority Pass</a>",
+                                "color": "gold",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "gold"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "99300",
+                        "title": "Debetní karta EUR",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "99400",
+                        "title": "Debetní karta Business EUR",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88300",
+                        "title": "Debetní karta USD",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88400",
+                        "title": "Debetní karta Business USD",
+                        "bullets": [
+                            {
+                                "title": "Můžete platit kartou ihned po sjednání",
+                                "color": "primary",
+                                "ifAvailable": "GENERAL",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "VIRTUAL",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "PLASTIC",
+                                "infoBubbleCard": false
+                            },
+                            {
+                                "title": "Virtuální karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": true
+                            },
+                            {
+                                "title": "Klasická plastová karta",
+                                "color": "primary",
+                                "ifAvailable": "BOTH",
+                                "infoBubbleCard": false
+                            }
+                        ],
+                        "button": {
+                            "title": "Chci plastovou {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Chci virtuální {0}",
+                            "color": "primary"
+                        }
+                    }
+                ],
+                "footer": {
+                    "title": "Více informací o poplatcích za plastové karty najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\" target=\"_blank\">našem sazebníku</a>."
+                },
+                "bottomSheet": {
+                    "title": "Varianty platebních karet",
+                    "avatarIcon": "card",
+                    "items": [
+                        {
+                            "icon": "mobileFill",
+                            "title": "Virtuální karta",
+                            "subtitle": "Pro placení a výběry si ji můžete přidat do mobilu hned po sjednání. Více informací o virtuálních kartách najdete na <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\" target=\"_blank\">webu Monety</a>."
+                        },
+                        {
+                            "icon": "cardFill",
+                            "title": "Plastová karta",
+                            "subtitle": "Fyzická karta, kterou dobře znáte. Do mobilu si ji můžete přidat také."
+                        }
+                    ]
+                }
+            },
+            "cardTypeNib": {
+                "title": "Jaká by měla být Vaše debetní karta?",
+                "priceFree": "{cardType} – ZDARMA",
+                "price": "{cardType} za {amount} {currency} / měsíčně",
+                "variants": [
+                    {
+                        "type": "14100",
+                        "title": "Debetní karta Standard",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "15100",
+                        "title": "Debetní karta Gold",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "gold"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "16100",
+                        "title": "Debetní karta Business",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "17100",
+                        "title": "Debetní karta Business Premium",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Výběry z bankomatů zdarma",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "gold"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "gold"
+                        }
+                    },
+                    {
+                        "type": "99300",
+                        "title": "Debetní karta EUR",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "99400",
+                        "title": "Debetní karta Business EUR",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88300",
+                        "title": "Debetní karta USD",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    },
+                    {
+                        "type": "88400",
+                        "title": "Debetní karta Business USD",
+                        "bullets": [
+                            {
+                                "title": "Sjednání plně online",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Plastová nebo virtuální karta",
+                                "color": "primary"
+                            },
+                            {
+                                "title": "Možnost platit kartou Ihned po sjednání",
+                                "color": "primary"
+                            }
+                        ],
+                        "button": {
+                            "title": "Plastová {0}",
+                            "color": "primary"
+                        },
+                        "buttonVirtual": {
+                            "title": "Virtuální {0}",
+                            "color": "primary"
+                        }
+                    }
+                ]
+            },
+            "cardTech": {
+                "title": "Teď už jen drobnosti",
+                "tech": {
+                    "title": "Jaká karta Vám bude vyhovovat?",
+                    "options": [
+                        {
+                            "technology": "VIRTUAL",
+                            "image": "mobileFill",
+                            "title": "Virtuální karta do mobilu",
+                            "description": "Místo plastové karty vydáme virtuální kartu. Pro placení a výběry si ji stačí přidat ihned do mobilu.",
+                            "addressRequired": false
+                        },
+                        {
+                            "technology": "PLASTIC",
+                            "image": "cardFill",
+                            "title": "Fyzická plastová karta",
+                            "description": "Plastová karta, kterou dobře znáte. Do mobilu si ji můžete přidat také.",
+                            "addressRequired": true
+                        }
+                    ]
+                },
+                "contactAddress": {
+                    "title": "Kontaktní adresa",
+                    "subtitle": "Na tuto adresu Vám zašleme fyzickou kartu do 5 pracovních dnů.",
+                    "changeAddressButton": "Změnit adresu",
+                    "image": "idCardFill"
+                },
+                "contact": {
+                    "title": "Vaše kontaktní údaje",
+                    "phonePrefix": "Předvolba",
+                    "phoneNumber": "Telefon",
+                    "email": "E-mail"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "cardDesign": {
+                "title": "Vyberte vzhled své nové karty",
+                "primaryButton": "Pokračovat",
+                "designs": [
+                    {
+                        "value": "CA141D0001",
+                        "title": "MONETA - Standard"
+                    },
+                    {
+                        "value": "CA141D0020",
+                        "title": "MONETA - Plavání"
+                    },
+                    {
+                        "value": "CA141D0021",
+                        "title": "MONETA - Cyklistika"
+                    },
+                    {
+                        "value": "CA141D0022",
+                        "title": "MONETA - Tenis"
+                    },
+                    {
+                        "title": "MONETA - Beach volejbal",
+                        "value": "CA141D0023"
+                    },
+                    {
+                        "value": "CA141D0003",
+                        "title": "MONETA - Pride"
+                    },
+                    {
+                        "value": "CA141D0005",
+                        "title": "MONETA - Praha"
+                    },
+                    {
+                        "title": "MONETA - Středočeský kraj",
+                        "value": "CA141D0006"
+                    },
+                    {
+                        "title": "MONETA - Jihočeský kraj",
+                        "value": "CA141D0007"
+                    },
+                    {
+                        "title": "MONETA - Plzeňský kraj",
+                        "value": "CA141D0008"
+                    },
+                    {
+                        "title": "MONETA - Karlovarský kraj",
+                        "value": "CA141D0009"
+                    },
+                    {
+                        "title": "MONETA - Ústecký kraj",
+                        "value": "CA141D0010"
+                    },
+                    {
+                        "title": "MONETA - Liberecký kraj",
+                        "value": "CA141D0011"
+                    },
+                    {
+                        "title": "MONETA - Královéhradecký kraj",
+                        "value": "CA141D0012"
+                    },
+                    {
+                        "title": "MONETA - Pardubický kraj",
+                        "value": "CA141D0013"
+                    },
+                    {
+                        "title": "MONETA - Kraj Vysočina",
+                        "value": "CA141D0014"
+                    },
+                    {
+                        "title": "MONETA - Jihomoravský kraj",
+                        "value": "CA141D0015"
+                    },
+                    {
+                        "title": "MONETA - Zlínský kraj",
+                        "value": "CA141D0016"
+                    },
+                    {
+                        "title": "MONETA - Olomoucký kraj",
+                        "value": "CA141D0017"
+                    },
+                    {
+                        "title": "MONETA - Moravskoslezský kraj",
+                        "value": "CA141D0018"
+                    }
+                ]
+            },
+            "scoring": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+            },
+            "staticDocuments": {
+                "title": "Před podpisem smlouvy si přečtěte tyto dokumenty",
+                "subtitle": "Všechny dokumenty Vám následně pošleme e-mailem a uložíme do sekce Dokumenty ve <b>Smart Bance</b> a <b>Internet Bance</b>.",
+                "primaryButton": "Rozumím a souhlasím",
+                "secondaryButton": "Mám dotaz"
+            },
+            "contractBusyLoader": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+            },
+            "contract": {
+                "title": "Pro zaslání karty potřebujeme Váš souhlas",
+                "subtitle": "Všechny dokumenty najdete ve <b>Smart Bance</b> nebo <b>Internet Bance</b> v sekci <b>Moje dokumenty</b> a na Vašem <b>e-mailu</b>.",
+                "toolbarTitle": "Podepisovatel",
+                "primaryButton": "Rozumím a souhlasím",
+                "secondaryButton": "Mám dotaz"
+            },
+            "sign": {
+                "title": "Podepište smlouvu PINem"
+            },
+            "signByUs": {
+                "title": "Chvilku strpení, teď to musíme podepsat my."
+            },
+            "victory": {
+                "approvalCenter": {
+                    "cosign": {
+                        "title": "Žádost podepsána a odeslána dalším schvalovatelům",
+                        "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel.",
+                        "primaryButton": "Zpět na Přehled"
+                    },
+                    "prepared": {
+                        "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                        "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                        "primaryButton": "Zpět na Přehled"
+                    }
+                },
+                "waiting": {
+                    "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                    "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "title": "Hotovo! Plastová karta už je na cestě k Vám.",
+                "detail": "Obvykle dorazí do 5 dní a <b>už teď si ji můžete přidat do peněženky ve Vašem mobilu</b> a okamžitě s ní platit. Nový PIN ke kartě najdete v detailu karty ve Vaší Internet Bance a Smart Bance.",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "victoryVirtual": {
+                "title": "Hotovo! S virtuální kartou můžete okamžitě platit",
+                "detail": "Stačí si ji přidat do peněženky ve Vašem mobilu. Nový PIN ke kartě najdete v detailu karty ve Vaší Internet Bance a Smart Bance. ",
+                "primaryButton": "Přejít na Přehled"
+            },
+            "help": {
+                "title": "Nápověda",
+                "detail": "Potřebujete poradit nebo chcete dokončit sjednání debetní karty později?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Zrušit žádost"
+            }
+        }
+    }
+}

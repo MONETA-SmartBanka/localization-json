@@ -1,0 +1,232 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Něco se vymňouklo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
+                "detail": "Omlouváme se, ale momentálně není možné pokračovat s refinancováním ve Smart Bance.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "primaryButton": "Zpět na přehled zůstatků"
+            }
+        },
+        "general": {
+            "toolbarTitle": "Refinancování hypotéky",
+            "toolbarCreateTitle": "Refinancování hypotéky",
+            "phoneNumberSupport": "246 034 777",
+            "phoneNumberSale": "246 034 777",
+            "messengerUrl": "https://m.me/138479367229"
+        },
+        "scenes": {
+            "refinansoIntro": {
+                "title": "Refinancujte hypotéku u nás a získejte zvýhodněný úrok při sjednání online",
+                "bullets": [
+                    "<b>Výhodná sazba při sjednání online</b><br>navíc refinancování zvládnete kompletně online z Vašeho domova",
+                    "<b>Garance úroku na 30 dní</b><br>úrok, který si spočítáte online, opravdu dostanete",
+                    "<b>Půjčit si můžete i něco navíc</b>"
+                ],
+                "image": "/cbl_images/refinanso/intro/image",
+                "primaryButton": "Do kalkulačky",
+                "actionType": "OPENURL",
+                "actionValue": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
+            },
+            "refinansoCalculator": {
+                "toolbarTitle": "Refinancování hypotéky",
+                "title": "Spočítejte si novou výši měsíční splátky",
+                "amount": "Zbývá doplatit",
+                "topUpAmount": "Peníze navíc",
+                "maturity": "Doba splácení",
+                "fixationInterest": "Fixace a úrok",
+                "years_1": "{1} rok",
+                "years_2_4": "{1} roky",
+                "years_5": "{1} let",
+                "installment": "Nová měsíční splátka",
+                "insurance": {
+                    "title": "<b>Chci pojištění schopnosti splácet</b><br>za {1}/měs. pro případ:",
+                    "alternativeTitle": "<b>Chci pojištění schopnosti splácet</b><br>pro případ:",
+                    "titleWithoutCase": "<b>Chci pojištění schopnosti splácet</b><br>za {1}/měs.",
+                    "alternativeTitleWithoutCase": "<b>Chci pojištění schopnosti splácet</b>",
+                    "bullets": [
+                        "Ztráty zaměstnání nebo hospitalizace",
+                        "Ošetřování člena rodiny",
+                        "Pracovní neschopnosti",
+                        "Invalidity III. stupně",
+                        "Úmrtí"
+                    ],
+                    "tip": "Tip",
+                    "tipContent": "Pojištění sníží úrok a změní RPSN.",
+                    "terms": "Přečtěte si přehledné a srozumitelné podmínky",
+                    "termsLink": "https://refinanso.cz",
+                    "recalculationInfo": "Přepočítali jsme Vám měsíční splátku, roční úrokovou sazbu a roční procentní sazbu nákladů."
+                },
+                "interest": "Roční úroková sazba",
+                "rpsn": "Roční procentní sazba nákladů",
+                "total": "Celkem zaplatíte",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Zrušit žádost"
+            },
+            "refinansoCalculatorBonitaCheckTopUp": {
+                "title": "Můžete si zažádat i o peníze navíc",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Upravit parametry refinancování"
+            },
+            "refinansoCalculatorBonitaCheckChangeParams": {
+                "title": "Upravte si parametry refinancování",
+                "primaryButton": "Potvrdit změnu a pokračovat",
+                "secondaryButton": "Zpět, neukládat změnu"
+            },
+            "refinansoBonitaCheckOkLess": {
+                "title": "Podle uvedených parametrů refinancování, příjmů a výdajů si můžete zažádat o:",
+                "maxAmount": "Maximální částku",
+                "maxInstalment": "s maximální měsíční splátkou",
+                "loanAmount": "Refinancujete",
+                "fixation": "Fixace",
+                "maturity": "Doba splácení",
+                "years_1": "{1} rok",
+                "years_2_4": "{1} roky",
+                "years_5": "{1} let",
+                "primaryButton": "Upravit parametry refinancování",
+                "secondaryButton": "Zpět na přehled zůstatků"
+            },
+            "refinansoCoapplicant": {
+                "title": "Spolužadatelé?",
+                "detail": "Pokud nemáte předmanželskou smlouvu, musíte zahrnout manžela/manželku jako spolužadatele.",
+                "yes": {
+                    "title": "Ano,",
+                    "subtitle": "mám spolužadatele"
+                },
+                "no": {
+                    "title": "Ne,",
+                    "subtitle": "žádám sám/sama"
+                },
+                "primaryButton": "Pokračovat",
+                "coapplicant": {
+                    "title": "O spolužadateli",
+                    "firstName": "Jméno",
+                    "lastName": "Příjmení",
+                    "personalNumber": "Rodné číslo",
+                    "allowedCheck": "Jsem zmocněn k vyplnění těchto údajů za spolužadatele"
+                }
+            },
+            "refinansoSharedProperty": {
+                "title": "Nemáte společné jmění manželů (SJM)?",
+                "detail": "V případě společného jmění manželů (SJM) musíte uvést manžela/manželku jako spolužadatele.",
+                "primaryButton": "Pokračovat, nemám SJM",
+                "secondaryButton": "Zpět na výběr spolužadatele"
+            },
+            "refinansoIncome": {
+                "title": "Doplňte svůj měsíční příjem",
+                "income": "Čístý měsíční příjem",
+                "info": "Do pole vyplňte průměrný čístý měsíční příjem za poslední 3 měsíce.<br/>Potřebujete si to spočítat? Svou žádost najdete uloženou na Přehledu zůstatků ve Smart Bance.",
+                "primaryButton": "Pokračovat"
+            },
+            "refinansoCoappIncome": {
+                "title": "Měsíční příjem spolužadatele",
+                "income": "Čístý měsíční příjem",
+                "info": "Do pole vyplňte průměrný čístý měsíční příjem spolužadatele za poslední 3 měsíce.</br>Potřebujete si to spočítat? Svou žádost najdete uloženou na Přehledu zůstatků ve Smart Bance.",
+                "primaryButton": "Pokračovat"
+            },
+            "refinansoInstallment": {
+                "title": "Doplňte své měsíční splátky",
+                "mortgage": "Splátka stávající hypotéky",
+                "other": "Další měsíční splátky",
+                "info": "Vyplňte součet svých dalších pravidelných splátek. Do nich počítáme například:<br/>- spotřebitelské úvěry,<br/>- leasing,<br/>- další hypotéku,<br/>- splátku kreditní karty (minimální)<br/>nebo jakoukoli jinou splátku,<br/>- závazky z SJM (společného jmění manželů)<br/>- apod.",
+                "primaryButton": "Pokračovat"
+            },
+            "refinansoCoappInstallment": {
+                "title": "Měsíční splátky spolužadatele",
+                "other": "Měsíční splátky",
+                "info": "Vyplňte součet pravidelných splátek spolužadatele. Bez této hypotéky. Do splátek počítáme například:<br/>- spotřebitelské úvěry,<br/>- leasing,<br/>- další hypotéku,<br/>- splátku kreditní karty (minimální)<br/>nebo jakoukoli jinou splátku,<br/>- apod.",
+                "primaryButton": "Pokračovat"
+            },
+            "refinansoAgreement": {
+                "title": "Vaše údaje prověříme v registrech",
+                "detail": "Zajistěte si od nás garantovanou nabídku platnou po dobu 30 dní.Nabídka je pro Vás nezávazná.",
+                "terms": "Pro vyřízení Vaší žádosti o produkt je nezbytné zpracovávat Vaše osobní údaje, a to za účelem zjištění Vaší úvěruschopnosti, důvěryhodnosti a platební morálky, včetně ověření v Bankovním registru klientských informací a Nebankovním registru klientských informací, a dalších kroků nezbytných k jednání o uzavření smlouvy.<br/><br/>Více o zpracování osobních údajů ve finanční skupině MONETA na <a href=\"https://www.moneta.cz/ochrana-dat\">www.moneta.cz/ochrana-dat</a>. Kliknutím na tlačítko souhlasím potvrzuji, že jsem se s těmito informacemi seznámil.<br/><br/>Prohlašuji, že všechny mnou uvedené informace jsou pravdivé, úplné, aktuální a jsem si vědom, že mnou nepravdivě uvedené informace můžou mít za následek vznik mé právní odpovědnosti za takové jednání,a to včetně odpovědnosti trestněprávní. Souhlasím s tím,že banka je oprávněna informace ověřit a provádět další zjištění, která bude v souvislosti s touto žádostí považovat za nezbytná.<br/><br/>Beru na vědomí, že mi je poskytováno doporučení nikoliv rada podle zákona o spotřebitelském úvěru.<br/>V průběhu vyřizování Vaší žádosti o produkt můžete být průběžně informováni formou SMS zprávy na zadané telefonní číslo.",
+                "primaryButton": "Souhlasím a pokračovat"
+            },
+            "refinansoBonitaNok": {
+                "title": "Možná jste udělali překlep? Zkontrolujte parametry refinancování ještě jednou",
+                "detail": "Při těchto parametrech Vám totiž refinancování nemůžeme nabídnout.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "primaryButton": "Upravit parametry refinancování",
+                "secondaryButton": "Zpět na přehled zůstatků"
+            },
+            "scoring": {
+                "title": "Chvilku strpení, kocour to musí zkontrolovat. Obvykle to netrvá déle než 15 vteřin"
+            },
+            "refinansoPrescoringOk": {
+                "title": "Refinancování máte předschválené",
+                "detail": "Předschválení je platné <b>30 dní</b> od dnešního dne.<br>Potvrzení jsme Vám <b>odeslali na e-mail</b>.",
+                "amount": "Zbývá doplatit",
+                "topUpAmount": "Peníze navíc",
+                "maturity": "Doba splácení",
+                "fixationInterest": "Fixace a úrok",
+                "years_1": "{1} rok",
+                "years_2_4": "{1} roky",
+                "years_5": "{1} let",
+                "installment": "Měsíční splátka",
+                "interest": "Roční úroková sazba",
+                "rpsn": "Roční procentní sazba nákladů",
+                "insurance": "<b>Chci pojištění schopnosti splácet</b><br>za {1}/měs.",
+                "insuranceWithoutPrice": "<b>Chci pojištění schopnosti splácet</b>",
+                "totalWithInsurance": "Celkem zaplatíte<br>(včetně pojištění)",
+                "totalWithoutInsurance": "Celkem zaplatíte",
+                "primaryButton": "Pokračovat",
+                "secondaryButton": "Zpět na přehled zůstatků"
+            },
+            "refinansoPrescoringNok": {
+                "title": "Radši to zkontrolujeme ještě jednou, brzy Vám zavoláme a vše dořešíme.",
+                "detail": "Teď se můžete vrátit na přehled zůstatků.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "secondaryButton": "Zpět na přehled zůstatků"
+            },
+            "refinansoHelp": {
+                "toolbarTitle": "Nápověda",
+                "title": "Chcete poradit nebo si žádost uložit na později?",
+                "confusedHeadline": "Nevíte si s něčím rady?",
+                "finishLaterHeadline": "Chcete dokončit žádost později?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Dokončit žádost později",
+                "secondaryButton": "Zrušit žádost"
+            },
+            "refinansoVictory": {
+                "title": "Na e-mail jsme Vám poslali odkaz pro pokračování na webu",
+                "primaryButton": "Zpět na přehled zůstatků",
+                "howSection": {
+                    "title": "Jak to bude na webu probíhat?",
+                    "bullets": [
+                        {
+                            "icon": "/cbl_images/refinanso/victory/house",
+                            "text": "Upřesníte údaje o své nemovitosti"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/document",
+                            "text": "Nahrajete potřebné dokumenty"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/checkmark",
+                            "text": "My dokumenty ověříme"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/contract",
+                            "text": "Zašleme Vám návrh úvěrové smlouvy"
+                        },
+                        {
+                            "icon": "/cbl_images/refinanso/victory/signature",
+                            "text": "Podepíšete smlouvu a načerpáte úvěr"
+                        }
+                    ]
+                },
+                "documentsSection": {
+                    "title": "Jaké dokumenty budete potřebovat?",
+                    "bullets": [
+                        "Fotografie nemovitosti (exteriér, interiér, příslušenství)",
+                        "Úvěrovou smlouvu stávající hypotéky včetně všech dodatků",
+                        "Dokument obsahující podlahovou plochu jednotlivých pokojů (např. kupní smlouva, vyúčtování tepla, prohlášení vlastníka)"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "reasons": {
+        "title": "Mrzí nás, že chcete odejít",
+        "primaryButton": "Zrušit účet",
+        "secondaryButton": "Účet zruším později",
+        "reasonHint": "Abychom Vám do budoucna mohli poskytovat lepší služby, pomůže nám znát důvod zrušení účtu",
+        "reasonTitle": "Důvod zrušení",
+        "voteHint": "Budeme rádi, když také ohodnotíte Vaši zkušenost s používáním produktu",
+        "reasonsTitle": "Proč rušíte účet?",
+        "reasons": [
+            {
+                "title": "Účet již nepoužívám",
+                "value": "NOT_USING"
+            },
+            {
+                "title": "Nejsem spokojen s úrokovou sazbou",
+                "value": "INTEREST_RATE"
+            },
+            {
+                "title": "Nejsem spokojen se službami",
+                "value": "SERVICES"
+            },
+            {
+                "title": "Chci peníze investovat",
+                "value": "INVESTMENT"
+            },
+            {
+                "title": "Jiný",
+                "value": "OTHER"
+            }
+        ],
+        "reasonsCurrentAccount": [
+            {
+                "title": "Mám nový běžný účet u jiné banky",
+                "value": "OTHER_BANK_NEW_ACCOUNT"
+            },
+            {
+                "title": "K hypotéce u jiné banky je třeba využívat jejich účet",
+                "value": "OTHER_BANK_MORTGAGE"
+            },
+            {
+                "title": "Nespokojenost s MONETA Money bank",
+                "value": "OTHER"
+            }
+        ]
+    },
+    "balanceTransfer": {
+        "title": "Zrušení účtu {0}",
+        "balanceSectionTitle": "Kam máme poslat zůstatek?",
+        "otherProductsTerminationSectionTitle": "Spolu s účtem dojde také ke zrušení",
+        "primaryButton": "Zrušit účet"
+    },
+    "balanceTransferConfirmation": {
+        "title": "Tato akce je nevratná",
+        "detail": "<b>Pokud  tento účet zrušíte nebude možné jej v budoucnu obnovit. V případě potřeby bude tedy třeba založit úplně nový účet.</b>\n Ještě si to můžete rozmyslet a účet zrušit kdykoli v budoucnu.",
+        "primaryButton": "Jsem si toho vědom, pokračovat",
+        "secondaryButton": "Zrušit později"
+    },
+    "contract": {
+        "title": "Přečtěte si prosím dohodu o zrušení účtu",
+        "primaryButton": "Souhlasím, pokračovat",
+        "secondaryButton": "Nesouhlasím"
+    },
+    "success": {
+        "title": "Hotovo! Děkujeme, že jste využívali náš produkt.",
+        "detail": "Na rušení budeme ještě chvíli pracovat. Kdyby nastal nějaký problém, ozveme se vám."
+    },
+    "contractDisagree": {
+        "title": "Bez souhlasu to bohužel nepůjde",
+        "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "primaryButton": "Zpět",
+        "secondaryButton": "Ukončit zrušení"
+    },
+    "error": {
+        "title": "Účet teď bohužel zrušit nemůžeme",
+        "statusErrors": [
+            {
+                "status": "RESERVATION",
+                "text": "Požádejte prosím o zrušení na pobočce banky. Účet tímto způsobem nyní nelze zrušit."
+            },
+            {
+                "status": "NONPROCESED_TRANSACTION",
+                "text": "Účet nyní nemůžete zrušit, kvůli vámi zadané platbě. Zkuste to později."
+            },
+            {
+                "status": "PRODUCT",
+                "text": "Požádejte prosím o zrušení na pobočce banky. Účet tímto způsobem nelze zrušit pro navázané produkty:"
+            },
+            {
+                "status": "BALANCE",
+                "text": "Váš účet je v debetu, nebo se v důsledku zrušení do debetu může dostat. A nelze tedy tímto způsobem zrušit. Požádejte prosím o zrušení na pobočce banky."
+            }
+        ]
+    }
+}

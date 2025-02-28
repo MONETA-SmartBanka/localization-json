@@ -1,0 +1,379 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Omlouváme se, něco se vymňouklo.\nZaložte si prosím nový termínovaný vklad později",
+                "detail": "Výhodná sazba na vás počká minimálně do dnešní půlnoci.",
+                "primaryButton": "Zpět na přehled"
+            },
+            "branch": {
+                "title": "Jejda, v aplikaci to nepůjde.\nPojďme to vyřešit na pobočce",
+                "branch": "Najít nejbližší pobočku",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte nějaké otázky?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Zpět"
+            }
+        },
+        "scenes": {
+            "rtvModal": {
+                "primaryButton": "Rozumním",
+                "title": "Zapnuli jsme Vám revolvingový vklad s výhodnějším úrokem",
+                "content": {
+                    "title": "Jak funguje revolvingový vklad?",
+                    "bullets": [
+                        {
+                            "icon": "tick",
+                            "text": "Vklad Vám po uplynutí sjednané doby automaticky obnovíme."
+                        },
+                        {
+                            "icon": "tick",
+                            "text": "Úroková sazba se při obnově vkladu může změnit podle aktuální výše úroků ke dni obnovy."
+                        },
+                        {
+                            "icon": "tick",
+                            "text": "Ke dni obnovy vkladu můžete vklad zdarma vybrat nebo vložit další peníze."
+                        }
+                    ]
+                }
+            },
+            "jtvModal": {
+                "primaryButton": "Rozumím",
+                "title": "Zapnuli jsme Vám jednorázový vklad s výhodnějším úrokem",
+                "content": {
+                    "title": "Jak funguje jednorázový vklad?",
+                    "bullets": [
+                        {
+                            "icon": "tick",
+                            "text": "Po uplynutí smlouvy vám vklad i s úroky automaticky převedeme na účet."
+                        },
+                        {
+                            "icon": "tick",
+                            "text": "Úroková sazba při sjednání vkladu bude platná po celou dobu trvání vkladu."
+                        }
+                    ]
+                }
+            },
+            "offer": {
+                "title": "Termínovaný vklad"
+            },
+            "form": {
+                "sourceAccountTitle": "Jednorázový termínovaný vklad z",
+                "sourceAccountTitleRevolving": "Revolvingový termínovaný vklad z",
+                "title": "Termínovaný vklad z",
+                "currencyChangeTitle": "Se změnou účtu došlo ke změně měny na {currency}",
+                "currencyChangeButton": "Rozumím",
+                "commonInfoSection": {
+                    "bullets": [
+                        {
+                            "icon": "investmentsFill",
+                            "text": "Zhodnocení peněz atraktivním úrokem bez omezení maximální výše vkladu."
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "text": "Úročí se celá částka po dobu vkladu."
+                        },
+                        {
+                            "icon": "mobileFill",
+                            "text": "Rychlé sjednání a vedení zdarma."
+                        },
+                        {
+                            "icon": "repeatFill",
+                            "text": "Možnost automatického prodloužení."
+                        },
+                        {
+                            "icon": "euroSignFill",
+                            "text": "Termínovaný vklad si můžete založit i v EUR nebo USD s cizoměnovým účtem."
+                        }
+                    ]
+                },
+                "infoSection": {
+                    "bullets": [
+                        {
+                            "icon": "euroSignFill",
+                            "text": "Úrok 2,7 % ročně na eurový termínovaný vklad při minimálním vkladu 1 500 EUR"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "text": "Úroková sazba platí na celou částku a po celou dobu vkladu."
+                        },
+                        {
+                            "icon": "walletArrowInFill",
+                            "text": "Po uplynutí Vám automaticky vyplatíme částku včetně úroku"
+                        },
+                        {
+                            "icon": "mobileFill",
+                            "text": "Vedení je zdarma a sjednání zvládnete na pár dotyků během chvilky."
+                        }
+                    ]
+                },
+                "infoSectionRevolving": {
+                    "bullets": [
+                        {
+                            "icon": "repeatFill",
+                            "text": "Délka vkladu se bude <b>automaticky opakovat</b>, dokud vklad nezrušíte"
+                        },
+                        {
+                            "icon": "pocketMoneyFill",
+                            "text": "Jednou za období ke dni obnovy můžete peníze <b>zdarma vybrat</b>, anebo <b>vložit</b>"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "text": "Úroková sazba platí na <b>celou částku</b> k dalšímu dni obnovy"
+                        },
+                        {
+                            "icon": "mobileFill",
+                            "text": "<b>Vedení je zdarma</b> a sjednání zvládnete na pár dotyků během chvilky"
+                        },
+                        {
+                            "icon": "payFill",
+                            "text": "Po zrušení vkladu <b>odešleme částku zpět na účet</b>, ze kterého jste vkládali"
+                        }
+                    ]
+                },
+                "depositSection": {
+                    "titleHeader": "Váš vklad",
+                    "text": "Vklad",
+                    "footer": "Minimální vklad je",
+                    "errorDescription": "Nedostatek prostředků"
+                },
+                "interestRateSection": {
+                    "headerTitle": "Délka vkladu a úrok",
+                    "showAll": "Zobrazit vše",
+                    "hide": "Skrýt",
+                    "options": [
+                        {
+                            "period": 7,
+                            "text": "1 týden"
+                        },
+                        {
+                            "period": 14,
+                            "text": "2 týdny"
+                        },
+                        {
+                            "period": 28,
+                            "text": "1 měsíc"
+                        },
+                        {
+                            "period": 59,
+                            "text": "2 měsíce"
+                        },
+                        {
+                            "period": 89,
+                            "text": "3 měsíce"
+                        },
+                        {
+                            "period": 120,
+                            "text": "4 měsíce"
+                        },
+                        {
+                            "period": 150,
+                            "text": "5 měsíců"
+                        },
+                        {
+                            "period": 181,
+                            "text": "6 měsíců"
+                        },
+                        {
+                            "period": 273,
+                            "text": "9 měsíců"
+                        },
+                        {
+                            "period": 365,
+                            "text": "12 měsíců"
+                        },
+                        {
+                            "period": 730,
+                            "text": "2 roky"
+                        },
+                        {
+                            "period": 1095,
+                            "text": "3 roky"
+                        },
+                        {
+                            "period": 1460,
+                            "text": "4 roky"
+                        },
+                        {
+                            "period": 1825,
+                            "text": "5 let"
+                        }
+                    ],
+                    "footer": "Úrok se může pro další období změnit."
+                },
+                "depositAccountSection": {
+                    "titleHeader": "Po uplynutí doby",
+                    "text": "Vklad převést na účet"
+                },
+                "interestAccountSection": {
+                    "titleHeader": "Úroky",
+                    "onTdsAccount": "Připsat ke vkladu",
+                    "onTdsAccountFooter": "Po uplynutí délky vkladu Vám peníze spolu s úroky převedeme zpět na účet.",
+                    "interests": "Úroky převést na účet"
+                },
+                "depositInterestSection": {
+                    "titleHeader": "Úroky ke dni obnovy připisovat na účet číslo",
+                    "textAdd": "Připsat ke vkladu",
+                    "textSend": "Převést na účet ze kterého byl proveden vklad"
+                },
+                "typeSection": {
+                    "gold": "Výhodnější úrok",
+                    "title": "Automatické prodlužování vkladu",
+                    "button": "Jak to funguje?",
+                    "revolving": {
+                        "title": "Prodlužovat po uplynutí délky vkladu (revolvingový vklad)",
+                        "detail": "Délka vkladu se bude automaticky prodlužovat, dokud vklad nezrušíte. \n\nKe dni obnovy vkladu můžete vklad zdarma vybrat nebo vložit další peníze."
+                    },
+                    "oneTime": {
+                        "title": "Vložit jednorázově, neprodlužovat (jednorázový vklad)",
+                        "detail": "Po uplynutí doby vám vklad včetně úroku automaticky převedeme na účet."
+                    }
+                },
+                "taxSection": {
+                    "titleHeader": "Kde všude platíte daně?",
+                    "text": "Platím daně pouze v ČR",
+                    "footer": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
+                    "taxResidence": "Daňová rezidence",
+                    "taxResidenceInfoBody": "Zadejte Vaše daňové identifikační číslo v dané zemi. Někdy bývá označováno jako TIN (Taxpayer Identification Number)",
+                    "vat": "DIČ",
+                    "anotherVat": "Přidat zemi"
+                },
+                "primaryButton": "Pokračovat",
+                "primaryButtonJtv": "Pokračovat s jednoráz. vkladem",
+                "primaryButtonRtv": "Pokračovat s revolv. vkladem",
+                "switchToGold": "Získat výhodnější úrok",
+                "secondaryButton": "Více informací",
+                "secondaryButtonURL": "https://www.moneta.cz/sporeni-a-investice/terminovane-vklady",
+                "secondaryButtonURLFOP": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
+                "secondaryButtonURLPO": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
+                "switchModal": {
+                    "title": "Zapnuli jsme Vám revolvingový vklad s výhodnějším úrokem",
+                    "detail": "Jak funguje revolvingový vklad?",
+                    "bullets": [
+                        "Vklad vám po uplynutí sjednané doby automaticky obnovíme.",
+                        "Úroková sazba se při obnově vkladu může změnit podle aktuální výše úroků ke dni obnovy.",
+                        "Ke dni obnovy vkladu můžete vklad zdarma vybrat nebo vložit další peníze."
+                    ],
+                    "primaryButton": "Rozumím"
+                },
+                "switchModalJtv": {
+                    "title": "Zapnuli jsme Vám jednorázový vklad s výhodnějším úrokem",
+                    "detail": "Jak funguje jednorázový vklad?",
+                    "bullets": [
+                        "Po uplynutí smlouvy vám vklad i s úroky automaticky převedeme na účet.",
+                        "Úroková sazba při sjednání vkladu bude platná po celou dobu trvání vkladu."
+                    ],
+                    "primaryButton": "Rozumím"
+                },
+                "infoModal": {
+                    "title": "Jak to funguje?",
+                    "sectionRtv": {
+                        "title": "Automaticky prodlužovat",
+                        "bullets": [
+                            "Vklad vám po uplynutí sjednané doby automaticky obnovíme.",
+                            "Úroková sazba se při obnově vkladu může změnit podle aktuální výše úroků ke dni obnovy.",
+                            "K tomuto dni můžete také vklad zdarma vybrat nebo vložit další peníze."
+                        ]
+                    },
+                    "sectionJtv": {
+                        "title": "Vložit jednorázově",
+                        "bullets": [
+                            "Po uplynutí smlouvy vám vklad i s úroky automaticky převedeme na účet.",
+                            "Úroková sazba při sjednání vkladu bude platná po celou dobu trvání vkladu."
+                        ]
+                    }
+                }
+            },
+            "invalidTin": {
+                "title": "Zadané DIČ není validní. Chcete pokračovat?",
+                "primaryButton": "Ano, pokračovat",
+                "secondaryButton": "Ne, zpět"
+            },
+            "additionalInfo": {
+                "title": "Kdo za vaši společnost podepisuje finanční operace?",
+                "primaryButton": "Pokračovat",
+                "sectionInfo": "Vaše údaje",
+                "firstName": "Jméno",
+                "lastName": "Příjmení",
+                "role": "Funkce",
+                "confirmation": "Prohlašuji, že jsem oprávněn provést za právnickou osobu tuto operaci"
+            },
+            "contract": {
+                "title": "Přečtěte si Žádost o jednorázový termínovaný vklad a dodatečné dokumenty",
+                "titleRevolving": "Přečtěte si Žádost o revolvingový termínovaný vklad a dodatečné dokumenty",
+                "detail": "Všechny dokumenty najdete ve Smart Bance v sekci Dokumenty a smlouvy.",
+                "toolbarTitle": "Prostudujte i tyto dokumenty",
+                "primaryButton": "Souhlasím, pokračovat k podpisu",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "sign": {
+                "title": "Podepište smlouvu PINem"
+            },
+            "victory": {
+                "approvalCenter": {
+                    "cosign": {
+                        "title": "Žádost podepsána a odeslána dalším schvalovatelům",
+                        "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel. Poté vám vklad  založíme obratem, nejpozději následující pracovní den ráno.<br/><br/>Ujistěte se prosím, že máte na účtu {0} dostatečné prostředky k převodu. Peníze vám po založení převedeme automaticky.<br/><br/>Žádost, související dokumenty a parametry produktu najdete ve Smart Bance a Internet Bance v sekci Dokumenty a smlouvy."
+                    },
+                    "prepared": {
+                        "title": "Žádost odeslána dalším schvalovatelům",
+                        "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel. Poté vám vklad  založíme obratem, nejpozději následující pracovní den ráno.<br/><br/>Ujistěte se prosím, že máte na účtu {0} dostatečné prostředky k převodu. Peníze vám po založení převedeme automaticky.<br/><br/>Žádost, související dokumenty a parametry produktu najdete ve Smart Bance a Internet Bance v sekci Dokumenty a smlouvy."
+                    }
+                },
+                "title": "Hotovo! Vaši žádost jsme odeslali ke zpracování",
+                "detail": "Termínovaný vklad vám založíme obratem, nejpozději následující pracovní den ráno.<br/><br/>Ujistěte se prosím, že máte na účtu {0} dostatečné prostředky k převodu. Peníze Vám pak převedeme po založení automaticky.<br/><br/>Žádost, související dokumenty a po založení i parametry produktu najdete ve Smart Bance i Internet Bance v sekci Dokumenty a smlouvy.",
+                "primaryButton": "Hotovo"
+            },
+            "nib": {
+                "infoSection": {
+                    "bullets": [
+                        {
+                            "icon": "investmentsFill",
+                            "text": "Zhodnocení peněz atraktivním úrokem bez omezení maximální výše vkladu."
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "text": "Úroková sazba platí na celou částku po celou dobu vkladu."
+                        },
+                        {
+                            "icon": "smartBankaDuotone",
+                            "text": "Rychlé sjednání a vedení zdarma."
+                        },
+                        {
+                            "icon": "walletArrowInFill",
+                            "text": "Možnost automatického prodloužení vkladu."
+                        },
+                        {
+                            "icon": "euroSignFill",
+                            "text": "Termínovaný vklad si můžete založit i v EUR nebo USD s cizoměnovým účtem."
+                        }
+                    ]
+                },
+                "betterInterest": "Výhodnější úrok",
+                "betterInterestButton": "Získat výhodnější úrok",
+                "taxResidencyDescription": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
+                "termDepositType": {
+                    "label": "Chcete vklad prodloužit?",
+                    "jtv": {
+                        "label": "Vložit jednorázově, neprodlužovat (jednorázový vklad)",
+                        "description": "Po uplynutí zvolené doby Vám vklad včetně úroku automaticky převedeme na účet.",
+                        "tooltip": "U jednorázového vkladu Vám po uplynutí smlouvy vklad i s úroky automaticky převedeme na účet.<br><br>Úroková sazba při sjednání vkladu bude platná po celou dobu trvání vkladu.",
+                        "primaryButton": "Pokračovat s jednorázovým vkladem"
+                    },
+                    "rtv": {
+                        "label": "Prodloužit po uplynutí délky vkladu (revolvingový vklad)",
+                        "description": "Délka vkladu se bude automaticky prodlužovat, dokud vklad nezrušíte.<br>Ke dni obnovy vkladu můžete vklad zdarma vybrat nebo vložit další peníze.",
+                        "tooltip": "Revolvingový vklad Vám po uplynutí sjednané doby automaticky obnovíme.<br><br>Úroková sazba se při obnově vkladu může změnit podle aktuální výše úroků ke dni obnovy.<br><br>K tomuto dni můžete také vklad zdarma vybrat nebo vložit další peníze.",
+                        "primaryButton": "Pokračovat s revolvingovým vkladem"
+                    }
+                }
+            }
+        }
+    }
+}

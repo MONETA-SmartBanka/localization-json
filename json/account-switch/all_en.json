@@ -1,0 +1,179 @@
+{
+    "errorScreens": {
+        "contractDisagree": {
+            "title": "We can't proceed without you agreement",
+            "detail": "Do you have questions? Call us or visit us at a branch.",
+            "callUs": "Contact\nus",
+            "branch": "Find nearest \nbranch",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Back to agreement"
+        }
+    },
+
+    "scenes": {
+        "help": {
+            "title": "Do you need help?",
+
+            "bulletsHeadline": "We can do more at a branch",
+            "iconBullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Transfer balance without account termination"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Choose standing orders and direct debits to transfer"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Inform other institutions about the change",
+                    "detail": "Employer, state organizations, energy supplier, mobile carrier, ..."
+                }
+            ],
+
+            "buttonsHeadline": "Do you need more information?",
+            "callUs": "Call us<br>on call center",
+            "branch": "Visit us<br>at a branch",
+
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        },
+
+        "intro": {
+            "title": "How do we proceed?",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Choose what to arrange",
+                    "detail": "We can do transferring standing orders, direct debits and old account termination"
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Choose date of change"
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Enter old account number"
+                }
+            ],
+            "detail": "We will let you know when we are done with the changes",
+            "primaryButton": "Transfer account for free"
+        },
+
+        "settings": {
+            "title": "What do you want to arrange?",
+            "transferStandingOrders": "Transfer standing orders and direct debits",
+            "dropSourceAccount": "Terminate old account and transfer balance",
+            "destinationAccount": "Transfer to",
+            "detail": "Do you need to transfer funds without terminating old account, choose which standing orders and direct debits to transfer, or announce change to third parties? <a href=\"branch\">Visit us at a branch</a>.",
+            "primaryButton": "Continue"
+        },
+
+        "timing": {
+            "title": "Transfer from which date?",
+            "date": "Date",
+            "dateChoose": "choose",
+            "dateFooter": "We recommend choosing a day on which there are no incoming or outgoing standing orders.",
+            "dateError": "Date has to be a workday",
+            "originalBank": {
+                "title": "This day at your old bank",
+                "conditionalBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Termination period starts (commonly 30 days)",
+                        "detail": "Money is available until day of termination. After that day they are transferred to your account at us.",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": false
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Old bank card stops working probably",
+                        "detail": "Check with your previous bank.",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": false
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "Standing orders and direct debits stop working",
+                        "onlyDropSourceAccount": true,
+                        "onlyTransferStandingOrders": true
+                    }
+                ]
+            },
+            "monetaBank": {
+                "title": "and at Moneta",
+                "conditionalBullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Standing orders and direct debits will be active on the accout at us",
+                        "detail": "With the same settings as you are used to",
+                        "onlyDropSourceAccount": false,
+                        "onlyTransferStandingOrders": true
+                    }
+                ]
+            },
+            "primaryButton": "Continue"
+        },
+
+        "oldAccount": {
+            "title": "Enter the old account number at your current bank",
+            "invalidAccountError": "Invalid account number",
+            "primaryButton": "Continue"
+        },
+
+        "loader": {
+            "title": "Just a moment",
+            "detail": "We need to check your data."
+        },
+
+        "agreement": {
+            "title": "Please read application documents",
+            "primaryButton": "I agree",
+            "secondaryButton": "I disagree"
+        },
+
+        "summary": {
+            "title": "Summary",
+            "consentTitle": "I agree that Moneta will communicate <b>unencrypted</b> via e-mail and phone",
+            "consentDetail": "This guarantees simple notification about the process completion",
+            "willMakeHappen": "We arrange",
+            "transferStandingOrders": "Transfer of standing orders and direct debits",
+            "willDo": "We do",
+            "dropSourceAccount": "Terminate the old account and transfer remaining balance",
+            "date": "At date",
+            "sourceAccount": "From old account",
+            "ourAccount": "To your accout at Moneta",
+            "primaryButton": "Transfer to Moneta"
+        },
+
+        "victory": {
+            "title": "Done!",
+            "detail": "We are sending your request to the old bank. You can find it in the documents section of Smart Banka and in your e-mail inbox. We'll let you know when it's processed.",
+            "sectionTitle": "Good not to forget",
+            "transferStandingOrdersBullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Transfer money to new account for upcoming payments"
+                }
+            ],
+            "bullets": [
+                {
+                    "icon": "tickFill",
+                    "text": "Inform institutions about account change",
+                    "detail": "Employer, state payers, energy providers, cellular carrier, ..."
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "Use the new card",
+                    "detail": "On the chosen day, your old card stops working"
+                },
+                {
+                    "icon": "tickFill",
+                    "text": "If you have liabilities at the old bank, arrange a new payment method",
+                    "detail": "Credit cards, loans, etc."
+                }
+            ],
+            "primaryButton": "Back to Dashboard"
+        }
+    }
+}

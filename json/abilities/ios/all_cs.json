@@ -1,0 +1,1102 @@
+{
+    "categories": [
+        {
+            "id": "security",
+            "image": "lockFill",
+            "title": "Bezpečnost"
+        },
+        {
+            "id": "payments",
+            "image": "payFill",
+            "title": "Placení"
+        },
+        {
+            "id": "cards",
+            "image": "cardFill",
+            "title": "Karty a limity"
+        },
+        {
+            "id": "products",
+            "image": "starsAltFill",
+            "title": "Zakládání a rušení produktů"
+        },
+        {
+            "id": "appearance",
+            "image": "mobilePaletteFill",
+            "title": "Vzhled a přispůsobení"
+        }
+    ],
+    "items": [
+        {
+            "id": "Design_1_CZ",
+            "title": "Přehled si můžete uspořádat podle svého",
+            "detail": "Zobrazení účtů, spoření nebo karet si můžete <b>Uspořádat</b> podle sebe. A co nepotřebujete, jednoduše skryjete.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_1_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Uspořádání Přehledu",
+            "abilitySortOrder": 100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Design_2_CZ",
+            "title": "Nechte si zůstatky na účtech pro sebe",
+            "detail": "Jediným kliknutím je můžete skrýt a zase zobrazit. Jak právě potřebujete.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_2_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Skrytí zůstatků",
+            "abilitySortOrder": 200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Design_3_CZ",
+            "title": "Světlý, tmavý, barevný... Vzhled si zvolíte sami",
+            "detail": "V <b>Nastavení</b> najdete barevná témata, mezi kterými můžete libovolně přepínat. Ve světlém i tmavém režimu.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_3_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Barevné motivy",
+            "abilitySortOrder": 300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CHANGETHEME",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Design_4_CZ",
+            "title": "Kompaktní zobrazení pro více účtů",
+            "detail": "Pokud máte více účtů, můžete u nich skrýt transakce a u spoření i zobrazené obálky. Hledejte volbu <b>Kompaktní zobrazení</b>.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_4_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Kompaktní zobrazení",
+            "abilitySortOrder": 400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Design_5_CZ",
+            "title": "Velikost písma, kterou potřebujete",
+            "detail": "Máte v telefonu nastavené větší písmo? Smart Banka se mu může přizpůsobit. Zapněte si je v Nastavení, <b>Systémová velikost písma</b>.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_5_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Velikost písma",
+            "abilitySortOrder": 500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYSETTINGS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Design_6_CZ",
+            "title": "Co Smart Banka umí?",
+            "detail": "V nové sekci vám postupně představíme novinky a vychytávky, kterými vám Smart Banka ulehčí bankování.",
+            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_6_CZ.png",
+            "newsDate": "2024-01-08",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Novinky",
+            "abilitySortOrder": 600
+        },
+        {
+            "id": "Bezpecnost_1_CZ",
+            "title": "Používejte Smart Banku s biometrikou",
+            "detail": "Zapněte si přihlášení a potvrzování ve Smart Bance pomocí biometriky. Telefon vám bude chránit otisk prstu nebo sken obličeje.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_1_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Nejvyšší zabezpečení",
+            "abilitySortOrder": 100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYSETTINGS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Bezpecnost_2_CZ",
+            "title": "Kontrolujte příchozí zprávy, mohou být od podvodníků",
+            "detail": "Podvodníci zasílají phishingové SMS či e-maily, ve kterých se vydávají za někoho, koho dobře znáte, například banku.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_2_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Pozor na podvody",
+            "abilitySortOrder": 200
+        },
+        {
+            "id": "Bezpecnost_3_CZ",
+            "title": "Jak probíhají investiční podvody?",
+            "detail": "Nejprve nabízí výhodné investice, poté vás požádají o nainstalování aplikace do Vašeho telefonu (AnyDesk, TeamViewer). S ní dokáží sledovat a ovládat váš telefon.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_3_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Investiční podvody",
+            "abilitySortOrder": 300
+        },
+        {
+            "id": "Bezpecnost_4_CZ",
+            "title": "Nejrychleji nám zavoláte ze Smart Banky",
+            "detail": "Zavolejte nám přes Smart Banku, abyste se nemuseli ověřovat, že jste to opravdu vy.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_4_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Nejrychlejší spojení",
+            "abilitySortOrder": 400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CONTACTUS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Bezpecnost_5_CZ",
+            "title": "Máte nový telefon? Spárujte si Smart Banku pomocí QR",
+            "detail": "V nastavení Smart Banky ve vašem původním telefonu zvolte <b>Připojit nové zařízení</b>. Stáhněte si Smart Banku do nového telefonu a vyberte možnost Propojit pomocí QR kódu. A je to.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_5_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Spárování telefonu",
+            "abilitySortOrder": 500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DEVICE_MANAGEMENT",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Bezpecnost_6_CZ",
+            "title": "Zapomenuté heslo do Internet Banky?",
+            "detail": "Nové heslo získáte během chvilky díky Smart Bance.",
+            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "minAppVersion": "62.0.0",
+            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_6_CZ.png",
+            "newsDate": "2024-01-22",
+            "abilityCategory": "security",
+            "abilityTitle": "Zapomenuté heslo",
+            "abilitySortOrder": 600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "RESETIB",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_1_CZ",
+            "title": "Ulehčete si převod mezi účty s funkcí drag & drop",
+            "detail": "<b>Stačí přidržet prst na účtu</b>, ze kterého chcete peníze převést, a tahem je přesunout na jiný, třeba spořicí. A pustit. Poté jen zvolíte částku, kterou chcete převést a potvrdíte. Drag & drop můžete využít i u spořicích obálek.",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "Drag & drop",
+            "abilitySortOrder": 100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_2_CZ",
+            "title": "Limity, jaké právě dnes potřebujete",
+            "detail": "Nastavení limitů pro platby i výběry peněz vám zabere <b>pár vteřin</b>. A můžete je měnit podle toho, jak zrovna potřebujete.",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_2_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "Nastavení limitů",
+            "abilitySortOrder": 200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_3_CZ",
+            "title": "Šetřete čas díky chytrým QR platbám",
+            "detail": "Stačí naskenovat QR kód a potvrdit platbu. Snadné, že?",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_3_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "QR platby",
+            "abilitySortOrder": 300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "PAYMENTORDER",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_4_CZ",
+            "title": "Založení a zrušení trvalého příkazu a inkasa",
+            "detail": "Pravidelné platby si nemusíte psát do kalendáře. Nastavte si trvalý příkaz nebo inkaso. Najdete je v menu <b>Více</b> pod položkou <b>Placení a karty</b>.",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_4_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "Pravidelné platby",
+            "abilitySortOrder": 400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "STANDING_ORDERS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_5_CZ",
+            "title": "Zahraniční platby",
+            "detail": "Nezáleží na tom, jestli posíláte peníze na český účet, nebo do světa. Jednoduše zmáčkněte ikonku <b>Zaplatit</b> a vyberte <b>Zahraniční platbu</b>.",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_5_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "Zahraniční platby",
+            "abilitySortOrder": 500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "FOREIGNPAYMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_6_CZ",
+            "title": "Upozornění na zamítnuté platby kartou",
+            "detail": "Pokud vaše platba náhodou neprojde, <b>dáme vám vědět, proč</b> se to stalo. A také, jak to můžete vyřešit.",
+            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_6_CZ.png",
+            "newsDate": "2024-02-05",
+            "abilityCategory": "payments",
+            "abilityTitle": "Zamítnuté platby",
+            "abilitySortOrder": 600
+        },
+        {
+            "id": "Karty_1_CZ",
+            "title": "Karty jsou teď přehlednější",
+            "detail": "Přepracovali jsme <b>sekci karet</b>, ve které najdete všechny důležité informace o vašich kartách.",
+            "imageURL": "/cbl_images/abilities/ios/4_sada/Karty_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/4_sada/Karty_NewsImage_1_CZ.png",
+            "newsDate": "2024-02-19",
+            "abilityCategory": "cards",
+            "abilityTitle": "Sekce karty",
+            "abilitySortOrder": 100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Karty_2_CZ",
+            "title": "Kartu si teď aktivujete ve Smart Bance",
+            "detail": "Pro aktivaci nové karty už nemusíte k bankomatu nebo do Internet Banky. ",
+            "imageURL": "/cbl_images/abilities/ios/4_sada/Karty_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/4_sada/Karty_NewsImage_2_CZ.png",
+            "newsDate": "2024-02-19",
+            "abilityCategory": "cards",
+            "abilityTitle": "Aktivace karty",
+            "abilitySortOrder": 200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Karty_3_CZ",
+            "title": "Kartu nehledejte, její údaje si zobrazíte ve Smart Bance",
+            "detail": "Číslo karty včetně CVC kódu si snadno zobrazíte přímo v aplikaci.",
+            "imageURL": "/cbl_images/abilities/ios/4_sada/Karty_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/4_sada/Karty_NewsImage_3_CZ.png",
+            "newsDate": "2024-02-19",
+            "abilityCategory": "cards",
+            "abilityTitle": "Číslo karty",
+            "abilitySortOrder": 300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Karty_4_CZ",
+            "title": "Potřebujete hotovost? Ukážeme vám cestu",
+            "detail": "S mapou bankomatů a poboček neuděláte ani krok navíc.",
+            "imageURL": "/cbl_images/abilities/ios/4_sada/Karty_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/4_sada/Karty_NewsImage_4_CZ.png",
+            "newsDate": "2024-02-19",
+            "abilityCategory": "cards",
+            "abilityTitle": "Pobočky a bankomaty",
+            "abilitySortOrder": 400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BRANCHESATMS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Zalozeni_1_CZ",
+            "title": "Sny nepatří do šuplíku. Spořte si na ně v obálkách",
+            "detail": "Spořicí obálky Vám usnadní spoření na vše, co si přejete. Přehledně a bez papíru. Využít můžete funkci drag and drop, kterou už znáte",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_1.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Spořicí obálky",
+            "abilityCategory": "products",
+            "abilityTitle": "Spořicí obálky",
+            "abilitySortOrder": 100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "SAVINGS_ENVELOPES",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Zalozeni_2_CZ",
+            "title": "Historie transakcí s logy obchodníků",
+            "detail": "Každá druhá transakce ve Smart Bance už své logo má. Teď pracujeme na tom, abychom přidali i ta zbylá.",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_2.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Loga obchodníků",
+            "abilityCategory": "products",
+            "abilityTitle": "Loga obchodníků",
+            "abilitySortOrder": 200
+        },
+        {
+            "id": "Zalozeni_3_CZ",
+            "title": "Váš účet kdekoliv, třeba na zápěstí",
+            "detail": "Mějte dokonalý přehled o Vašich financích. Díky widgetům i v chytrých hodinkách.",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_3.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Hodinky a widgety",
+            "abilityCategory": "products",
+            "abilityTitle": "Widgety",
+            "abilitySortOrder": 300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYSETTINGS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Zalozeni_4_CZ",
+            "title": "Zrušení spořicího účtu online",
+            "detail": "Pokud už nechcete využívat starší spořicí účty, můžete je snadno a rychle zrušit přímo v jejich detailu. Stačí vybrat možnost <b>Další</b> a následně <b>Zrušit tento účet</b>.",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_4.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Zrušení spořicího účtu",
+            "abilityCategory": "products",
+            "abilityTitle": "Zrušení spořicího účtu",
+            "abilitySortOrder": 400
+        },
+        {
+            "id": "Zalozeni_5_CZ",
+            "title": "Zrušení stavebního spoření online",
+            "detail": "Máte naspořeno? Stavební spoření můžete online ukončit a peníze převést, kam potřebujete. Stačí si otevřít <b>detail Stavebního spoření</b> a vybrat možnost zrušení.",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_5.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Zrušení staveb. spoření",
+            "abilityCategory": "products",
+            "abilityTitle": "Zrušení stavebního spoření",
+            "abilitySortOrder": 500
+        },
+        {
+            "id": "Zalozeni_6_CZ",
+            "title": "Zrušení platební karty",
+            "detail": "Ztratili jste kartu, nebo vám ji odcizili? Ve Smart Bance ji rychle zablokujete nebo rovnou zrušíte. Hned poté si můžete si požádat o novou.",
+            "imageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/5_sada/Zalozeni_NewsImage_6.png",
+            "newsDate": "2024-03-04",
+            "avatarTitle": "Zrušení platební karty",
+            "abilityCategory": "products",
+            "abilityTitle": "Zrušení karty",
+            "abilitySortOrder": 600
+        },
+
+
+        {
+            "id": "Ucet_Velikonoce_0_CZ",
+            "title": "Velikonoční vzhled",
+            "detail": "Přepněte si Smart Banku do velikonočních barev. V <b>Nastavení</b> najdete i další barevné motivy, mezi kterými můžete libovolně přepínat.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Velikonoce_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Velikonoce_NewsImage_0.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Velikonoční vzhled",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Velikonoční vzhled",
+            "abilitySortOrder": 1000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CHANGETHEME",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_1_CZ",
+            "title": "Kopírování čísla účtu",
+            "detail": "Klikněte ve Smart Bance na <b>tři tečky vedle názvu účtu</b> a v detailu pak na <b>ikonku kopírovat</b>. Kliknutím ho pak můžete vložit kam potřebujete.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_1.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Kopírování čísla účtu",
+            "abilityCategory": "payments",
+            "abilityTitle": "Kopírování čísla účtu",
+            "abilitySortOrder": 1100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_2_CZ",
+            "title": "Založení spořicího účtu",
+            "detail": "Šetříte nebo přemýšlíte, jak jednoduše zhodnotit své peníze? Založte si spořicí účet. <b>Najdete ho na Přehledu i v sekci Spoření.</b> A založíte ho už za pár minut kompletně online.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_2.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Založení spořicího účtu",
+            "abilityCategory": "products",
+            "abilityTitle": "Založeni spořicího účtu",
+            "abilitySortOrder": 1200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "SAVINGSACCOUNT",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_3_CZ",
+            "title": "Přejmenování účtu",
+            "detail": "1. Klikněte na tři tečky vedle názvu účtu<br/>2. Šipkou nahoru zvětšete nabídku<br/>3. Klikněte na ikonu tužky vedle názvu účtu a přejmenujte si účet podle sebe.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_3.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Přejmenování účtu",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Přejmenování účtu",
+            "abilitySortOrder": 1300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_4_CZ",
+            "title": "Funkce Zaplať mi",
+            "detail": "Číslo účtu nebo rovnou QR kód i s částkou můžete rychle sdílet pomocí funkce Zaplať mi. <b>Najdete ji v detailu účtu</b> a platební údaje ze Smart Banky pošlete během chvilky komu je potřeba.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_4.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Fukce Zaplať mi",
+            "abilityCategory": "payments",
+            "abilityTitle": "Zaplať mi",
+            "abilitySortOrder": 1400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_5_CZ",
+            "title": "Sjednání půjčky",
+            "detail": "Kompletně online si ve Smart Bance sjednáte také půjčku. <b>Stačí kliknout na částku v levém horním rohu Přehledu nebo přejděte do menu Více.</b> Najdete tu půjčku, kontokorent nebo třeba kreditku.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_5.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Expres půjčka",
+            "abilityCategory": "products",
+            "abilityTitle": "Sjednání půjčky",
+            "abilitySortOrder": 1500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "EXPRESS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Ucet_6_CZ",
+            "title": "Mimořádná splátka nebo doplacení půjčky",
+            "detail": "Chcete celou půjčku nebo její část splatit dříve? Otevřete si její detail a vyberte mimořádnou splátku. Je to snadné.",
+            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_6.png",
+            "newsDate": "2024-03-18",
+            "avatarTitle": "Mimořádná splátka půjčky",
+            "abilityCategory": "products",
+            "abilityTitle": "Mimořádná splátka půjčky",
+            "abilitySortOrder": 1600
+        },
+
+
+        {
+            "id": "Zmena_1_CZ",
+            "title": "Zprávy a dokumenty z banky",
+            "detail": "Pod <b>ikonkou zpráv</b> najdete všechny důležité zprávy z banky, oznámení a dokumenty k vašim produktům.",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_1.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Zprávy z banky",
+            "abilityCategory": "security",
+            "abilityTitle": "Zprávy a dokumenty",
+            "abilitySortOrder": 2100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYDOCUMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Zmena_2_CZ",
+            "title": "Změna osobních údajů",
+            "detail": "Máte nový občanský průkaz, přestěhovali jste se na novou adresu nebo třeba změnili číslo? Své osobní údaje můžete aktualizovat pohodlně přímo v aplikaci, přes <b>Nastavení a profil, O mně</b>.",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_2.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Změna osobních údajů",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Změna údajů",
+            "abilitySortOrder": 2200
+        },
+        {
+            "id": "Zmena_3_CZ",
+            "title": "Přístupná s hlasovým asistentem a zvětšení písma",
+            "detail": "Smart Banku můžete plně ovládat pomocí hlasového asistenta ve vašem telefonu.",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_3.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Ovládání pomocí hlasu",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Přístupnost",
+            "abilitySortOrder": 2300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYSETTINGS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Zmena_4_CZ",
+            "title": "Bezpečné přihlašování do Internet Banky",
+            "detail": "Potřebujete větší obrazovku? Potvrďte přihlášení do Internet Banky Smart Bankou.",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_4.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Přihlašování do IB přes SB",
+            "abilityCategory": "security",
+            "abilityTitle": "Bezpečné přihlašování",
+            "abilitySortOrder": 2400
+        },
+        {
+            "id": "Zmena_5_CZ",
+            "title": "Proč je důležité Smart Banku pravidelně aktualizovat?",
+            "detail": "Jednoduše proto, že útočníci jsou vynalézaví a co nedokázali dříve, se brzy naučí. Proto naši Smart Banku neustále vylepšujeme, abychom před nimi měli náskok. Nezůstávejte pozadu a <b>zapněte si automatické aktualizace Smart Banky</b> v nastavení vašeho telefonu.",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_5.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Pravidelné aktualizace",
+            "abilityCategory": "security",
+            "abilityTitle": "Automatické aktualizace",
+            "abilitySortOrder": 2500
+        },
+        {
+            "id": "Zmena_6_CZ",
+            "title": "Zákonná kontrola údajů",
+            "detail": "Čas od času se vás zeptáme na několik informací o používání vašeho účtu. Nařizuje nám to totiž zákon č 253/2008 Sb. o prevenci praní špinavých peněz. <b>Vyplnění těchto informací Vám nezabere více než pár minut.</b>",
+            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_6.png",
+            "newsDate": "2024-04-01",
+            "avatarTitle": "Zákonná kontrola údajů",
+            "abilityCategory": "security",
+            "abilityTitle": "Kontrola údajů",
+            "abilitySortOrder": 2600
+        },
+
+
+        {
+            "id": "Business_1_CZ",
+            "title": "Přidejte si kartu do telefonu a tu plastovou nechte doma",
+            "detail": "Kartu do telefonu si můžete přidat už při sjednání nebo kdykoliv později v <b>detailu karty</b>. Stačí kliknout na ikonku a následovat instrukce. Karta v telefonu je díky biometrice lépe chráněná a tak i bezpečnější, než ta klasická.",
+            "imageURL": "/cbl_images/abilities/ios/8_Business/Business_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/8_Business/Business_NewsImage_1.png",
+            "newsDate": "2024-04-15",
+            "avatarTitle": "Přidání karty do telefonu",
+            "abilityCategory": "payments",
+            "abilityTitle": "Karta v mobilu",
+            "abilitySortOrder": 3100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Business_2_CZ",
+            "title": "Virtuální karta",
+            "detail": "Virtuální karta nemá fyzickou podobu a existuje jen ve vašem telefonu nebo hodinkách. Přesto s ní můžete platit stejně jako klasickou. <b>Aktivujte si ji v sekci Karty</b> a vyberte si z mnoha designů.",
+            "imageURL": "/cbl_images/abilities/ios/8_Business/Business_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/8_Business/Business_NewsImage_2.png",
+            "newsDate": "2024-04-15",
+            "avatarTitle": "Virtuální karta",
+            "abilityCategory": "payments",
+            "abilityTitle": "Virtuální karta",
+            "abilitySortOrder": 3200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Business_3_CZ",
+            "title": "Půjčka pro podnikatele Expres Business",
+            "detail": "Úvěr pro podnikatele a živnostníky, ke kterému nepotřebujete daňové přiznání, ani ručit nemovitostí. Sjednáte si ho kompletně online.",
+            "imageURL": "/cbl_images/abilities/ios/8_Business/Business_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/8_Business/Business_NewsImage_3.png",
+            "newsDate": "2024-04-15",
+            "avatarTitle": "Podnikatelský úvěr",
+            "abilityCategory": "products",
+            "abilityTitle": "Podnikatelský úvěr",
+            "abilitySortOrder": 3300
+        },
+        {
+            "id": "Business_4_CZ",
+            "title": "Splátka hypotéky",
+            "detail": "Mimořádnou splátku, doplatit hypotéku nebo vyřešit její refinancování zvládnete v aplikaci. Stačí si otevřít <b>detail hypotéky</b>.",
+            "imageURL": "/cbl_images/abilities/ios/8_Business/Business_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/8_Business/Business_NewsImage_4.png",
+            "newsDate": "2024-04-15",
+            "avatarTitle": "Splátka hypotéky",
+            "abilityCategory": "products",
+            "abilityTitle": "Splátka hypotéky",
+            "abilitySortOrder": 3400
+        },
+
+
+        {
+            "id": "Platby_Deti_1_CZ",
+            "title": "Upozornění na duplicitní platbu",
+            "detail": "Pokud během chvilky posíláte opakujete platbu na stejný účet, Smart Banka vás na to upozorní. Platbu samozřejmě poslat můžete, je to jen malé upozornění, ať neplatíte dvakrát.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_1.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Upozornění na duplicitní platbu",
+            "abilityCategory": "payments",
+            "abilityTitle": "Upozornění na duplicity",
+            "abilitySortOrder": 4100
+        },
+        {
+            "id": "Platby_Deti_2_CZ",
+            "title": "Načtení čísla účtu z faktury",
+            "detail": "Ušetřete si čas opisováním čísla účtu a vyhněte se překlepům. Stačí vybrat možnost <b>Vyfotit číslo účtu.</b>",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_2.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Načtení čísla účtu z faktury",
+            "abilityCategory": "payments",
+            "abilityTitle": "Načtení čísla účtu",
+            "abilitySortOrder": 4200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "PAYMENTORDER",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Platby_Deti_3_CZ",
+            "title": "Co je 3D secure?",
+            "detail": "Jde o službu, která zabezpečuje platby kartou na internetu a funguje na principu propojení konkrétní karty s bankou. Tedy například tak, že <b>na e-shopu zadáte číslo karty a ve Smart Bance tuto konkrétní platbu potvrdíte</b>.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_3.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "3D secure platby",
+            "abilityCategory": "security",
+            "abilityTitle": "3D secure",
+            "abilitySortOrder": 4300
+        },
+        {
+            "id": "Platby_Deti_4_CZ",
+            "title": "Založení dětského účtu",
+            "detail": "Už <b>od 8 let</b> můžete dětem založit dětský účet se vším zdarma. Dítě získá svou vlastní Smart Banku a účet, se kterým může platit i šetřit. Ve vaší Smart Bance pak <b>uvidíte všechny pohyby na dětském účtu</b> a zároveň můžete nastavit limity a další pravidla.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_4.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Založení dětského účtu",
+            "abilityCategory": "products",
+            "abilityTitle": "Založení dětského účtu",
+            "abilitySortOrder": 4400
+        },
+        {
+            "id": "Platby_Deti_5_CZ",
+            "title": "Spárování dětského účtu",
+            "detail": "Po založení dětského účtu stačí telefonem dítěte <b>načíst QR kód, který Vám ve Smart Bance zobrazíme</b>. Dítě si stáhne vlastní Smart Banku, vy mu nastavíte limity a můžete poslat první kapesné.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_5.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Spárování dětského účtu",
+            "abilityCategory": "products",
+            "abilityTitle": "Spárování dětského účtu",
+            "abilitySortOrder": 4500
+        },
+        {
+            "id": "Platby_Deti_6_CZ",
+            "title": "Slovníček pojmů k dětskému účtu",
+            "detail": "Jak vybrat z bankomatu, zaplatit kartou v telefonu nebo zjistit, co je úrok a spoření? O všem se děti dozví díky slovníčku, který najdou přímo v aplikaci.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_6.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Učí děti hospodařit",
+            "abilityCategory": "products",
+            "abilityTitle": "Slovníček pojmů",
+            "abilitySortOrder": 4600
+        },
+        {
+            "id": "Platby_Deti_7_CZ",
+            "title": "Platby na kontakt",
+            "detail": "Posílejte peníze konkrétním lidem přímo na telefonní číslo, které máte uložené v kontaktech.",
+            "imageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_Image_7_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/9_Platby_a_deti/Platby_Deti_NewsImage_7.png",
+            "newsDate": "2024-04-29",
+            "avatarTitle": "Platby na kontakt",
+            "abilityCategory": "payments",
+            "abilityTitle": "Platby na kontakt",
+            "abilitySortOrder": 4700
+        },
+        {
+            "id": "Hledej_2_CZ",
+            "title": "Vyhledávání v historii plateb",
+            "detail": "Ať už hledáte konkrétní platbu podle čísla účtu, jména příjemce nebo třeba variabilního symbolu, stačí si otevřít detail účtu a do pole s lupou napsat, co přesně potřebujete.",
+            "imageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_NewsImage_2.png",
+            "newsDate": "2024-05-27",
+            "avatarTitle": "Vyhledávání v historii",
+            "abilityCategory": "payments",
+            "abilityTitle": "Vyhledávání v historii",
+            "abilitySortOrder": 5200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Hledej_3_CZ",
+            "title": "Filtrování plateb",
+            "detail": "Potřebujete zkontrolovat měsíční útratu, příchozí platby na účet nebo jen částky v přesném rozmezí? Otevřete si filtr plateb. Najdete ho vedle vyhledávacího pole v detailu účtu.",
+            "imageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_NewsImage_3.png",
+            "newsDate": "2024-05-27",
+            "avatarTitle": "Filtrování plateb",
+            "abilityCategory": "payments",
+            "abilityTitle": "Filtrování plateb",
+            "abilitySortOrder": 5300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Hledej_4_CZ",
+            "title": "Jak najdete IBAN pro zahraniční platby",
+            "detail": "Platíte nebo přijímáte zahraniční platby? IBAN, tedy vaše číslo účtu v mezinárodním formátu a BIC (SWIFT) kód najdete v detailu konkrétního účtu, odkud ho můžete snadno zkopírovat.",
+            "imageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_NewsImage_4.png",
+            "newsDate": "2024-05-27",
+            "avatarTitle": "IBAN",
+            "abilityCategory": "payments",
+            "abilityTitle": "IBAN",
+            "abilitySortOrder": 5400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Hledej_5_CZ",
+            "title": "Smart Banka s účty z jiných bank",
+            "detail": "Máte účty i jinde? Přidejte si je do Smart Banky a okamžitě uvidíte jejich zůstatky i s historií plateb.",
+            "imageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_NewsImage_5.png",
+            "newsDate": "2024-05-27",
+            "avatarTitle": "Účty jiných bank",
+            "abilityCategory": "products",
+            "abilityTitle": "Účty jiných bank",
+            "abilitySortOrder": 5500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Hledej_6_CZ",
+            "title": "Dobití kreditu",
+            "detail": "Kredit si snadno dobijete přímo ze svého účtu. Stačí kliknout na tři tečky vedle názvu účtu a z nabídky vybrat Dobít kredit.",
+            "imageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_Image_6_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/10_Hledej/Hledej_NewsImage_6.png",
+            "newsDate": "2024-05-27",
+            "avatarTitle": "Dobití kreditu",
+            "abilityCategory": "payments",
+            "abilityTitle": "Dobití kreditu",
+            "abilitySortOrder": 5600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CREDITTOPUP",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Doplnky_1_CZ",
+            "title": "Pomáhejte se Smart Bankou",
+            "detail": "Vybraným organizacím můžete snadno přispět přímo přes Smart Banku. Stačí si rozkliknout menu <b>Více</b> a v sekci <b>Užitečné informace</b> vybrat možnost <b>Pomáhejte se Smart Bankou</b>.",
+            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_1.png",
+            "newsDate": "2024-06-24",
+            "avatarTitle": "Pomáhejte se Smart Bankou",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Pomáhejte se Smart Bankou",
+            "abilitySortOrder": 6100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CHARITY",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Doplnky_2_CZ",
+            "title": "Kocour Tom v iMessage",
+            "detail": "Oblíbili jste si našeho kocoura Toma? V <b>App Store najdete jeho nálepky</b>, které můžete rozesílat v rámci zpráv. Třeba jako připomínku ke QR kódu z funkce zaplatit.",
+            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_2.png",
+            "newsDate": "2024-06-24",
+            "avatarTitle": "Kocour Tom v iMessage",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Kocour Tom v iMessage",
+            "abilitySortOrder": 6200,
+            "primaryButton": {
+                "actionType": "OPENURL",
+                "actionData": "https://apps.apple.com/cz/app/moneta-tom-samolepky/id1444209610",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Doplnky_3_CZ",
+            "title": "Párování Smart Banky",
+            "detail": "I když Smart Banku právě používáte, rádi bychom vám připomněli, jak si ji v budoucnu znovu spárovat. Například když budete mít nový telefon. Stačí se přihlásit do vaší <b>Internet Banky</b>, otevřít si <b>nastavení</b>, vybrat možnost <b>Smart Banka</b> a pak už jen postupovat podle instrukcí.",
+            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_3.png",
+            "newsDate": "2024-06-24",
+            "avatarTitle": "Párování Smart Banky",
+            "abilityCategory": "security",
+            "abilityTitle": "Párování Smart Banky",
+            "abilitySortOrder": 6300
+        },
+        {
+            "id": "Doplnky_4_CZ",
+            "title": "Seznam aktivních zařízení",
+            "detail": "Telefony se mění, ale Smart Banka zůstává? Zkontrolujte si přes <b>Nastavení</b> a profil sekci <b>Správa zařízení</b>, jestli jste všechna předchozí odpárovali.",
+            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_4.png",
+            "newsDate": "2024-06-24",
+            "avatarTitle": "Aktivní zařízení",
+            "abilityCategory": "security",
+            "abilityTitle": "Aktivní zařízení",
+            "abilitySortOrder": 6400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DEVICE_MANAGEMENT",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Mismas_1_CZ",
+            "title": "Úvěrové produkty šité vám na míru",
+            "detail": "<b>Půjčku, kontokorent, kreditní kartu</b> nebo třeba <b>hypotéku</b> a další úvěrové produkty najdete na jednom místě přímo na Přehledu. A po zvolení částky můžete rovnou do procesu sjednání.",
+            "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_1_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_NewsImage_1.png",
+            "newsDate": "2024-07-22",
+            "avatarTitle": "Půjčka na dosah ruky",
+            "abilityCategory": "products",
+            "abilityTitle": "Půjčka na dosah ruky",
+            "abilitySortOrder": 7100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Mismas_2_CZ",
+            "title": "Oddělte si podnikání od osobních financí",
+            "detail": "Ať jste živnostník nebo firma, připravili jsme pro vás <b>účet na míru vašemu podnikání</b>. Jeho sjednání zabere jen pár minut a hned poté ho můžete začít používat.",
+            "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_2_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_NewsImage_2.png",
+            "newsDate": "2024-07-22",
+            "avatarTitle": "Podnikatelský účet",
+            "abilityCategory": "appearance",
+            "abilityTitle": "Podnikatelský účet",
+            "abilitySortOrder": 7200,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "MYSETTINGS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Mismas_3_CZ",
+            "title": "Přepínání profilů pro podnikatele a disponenty",
+            "detail": "Podnikáte a máte ve Smart Bance další profil? V <b>Nastavení</b> můžete mezi nimi snadno a rychle přepínat bez nutnosti odhlásit se z aplikace.",
+            "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_3_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_NewsImage_3.png",
+            "newsDate": "2024-07-22",
+            "avatarTitle": "Přepínání profilů",
+            "abilityCategory": "products",
+            "abilityTitle": "Přepínání profilů",
+            "abilitySortOrder": 7300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "BALANCEOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Mismas_4_CZ",
+            "title": "Na dovolenou bez starostí s cestovním pojištěním",
+            "detail": "Cestovní pojištění pro celou rodinu si můžete během <b>pár minut</b> sjednat přímo ve Smart Bance. Třeba cestou na letiště",
+            "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_4_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_NewsImage_4.png",
+            "newsDate": "2024-07-22",
+            "avatarTitle": "Cestovní pojištění",
+            "abilityCategory": "products",
+            "abilityTitle": "Cestovní pojištění",
+            "abilitySortOrder": 7400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INSURANCELIST",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Mismas_5_CZ",
+            "title": "Když dojde k nečekanému, pojistnou událost nahlásíte přímo ze Smart Banky",
+            "detail": "Nečekaným událostem zabránit nedokážeme, ale děláme vše proto, abychom vám pomohli s jejich řešením. <b>Pojistné události</b> tak můžete <b>nahlásit online</b>, přímo z vašeho telefonu.",
+            "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_5_CZ.png",
+            "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_NewsImage_5.png",
+            "newsDate": "2024-07-22",
+            "avatarTitle": "Pojistná událost",
+            "abilityCategory": "products",
+            "abilityTitle": "Hlášení pojistné události",
+            "abilitySortOrder": 7500
+        }
+    ]
+}
