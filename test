@@ -1,0 +1,23 @@
+#!/bin/bash
+
+# Získání posledního tagu
+LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null)
+
+# Kontrola, zda existuje nějaký tag
+if [ -z "$LAST_TAG" ]; then
+    echo "Žádný tag nenalezen. Kontroluji všechny soubory."
+    FILES=$(git ls-files)
+else
+    echo "Kontroluji změny od posledního tagu: $LAST_TAG"
+    FILES=$(git ls-files)
+fi
+
+# Procházení souborů a kontrola změn
+for FILE in $FILES; do
+    if git diff --quiet "$LAST_TAG" HEAD -- "$FILE" 2>/dev/null; then
+        echo "$FILE - beze změny, stahuji novou verzi..."
+        curl -s -o "$FILE" "https://teibs.internetbanka.cz/$FILE"
+    else
+        echo "$FILE - změněn"
+    fi
+done
