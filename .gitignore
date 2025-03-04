@@ -1,0 +1,35 @@
+## Build generated
+./build/
+./export/
+ignore/
+DerivedData
+fastlane/report.xml
+
+## Various settings
+*.pbxuser
+## Archive
+./archive.xcarchive/
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+.DS_Store
+**/.swiftpm
+
+fastlane/report.xml
+fastlane/README.md
