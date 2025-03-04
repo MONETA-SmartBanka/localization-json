@@ -112,33 +112,32 @@
                 },
                 "NEWACC": {
                     "victoryKind": "error",
-                    "title": "Takovou částku na tento účet běžně neposíláte.\n\nDejte si pozor na podvody",
-                    "detail": "Kontaktoval vás někdo s informací, že je váš účet napaden a máte své peníze přesunout na „bezpečný účet“? Nebo se chystáte investovat na základě video doporučení známé osobnosti?",
-                    "message": "Nedělejte to a platbu nepotvrzujte. Pravděpodobně se jedná o podvod.",
-                    "footer": "Pokud si nejste jistí, volejte <a href=\"tel:+420224442424\">224 442 424</a>.",
+                    "title": "You don’t typically send this amount to this account.\n\nBeware of fraud",
+                    "detail": "Has someone told you that your account has been hacked and advised you to transfer your money to a \"safe account\"? Or are you thinking about investing based on a video recommendation from a famous person?",
+                    "message": "Do NOT confirm the payment—it's most likely a scam.",
+                    "footer": "When in doubt, call <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CLOSE",
-                        "actionLabelText": "Zrušit platbu"
+                        "actionLabelText": "Cancel payment"
                     },
                     "secondaryButton": {
                         "actionType": "CONTINUE",
                         "icon": "triangleExclamationFill",
                         "destructive": true,
-                        "actionLabelText": "Pokračovat k platbě"
+                        "actionLabelText": "Continue to payment"
                     }
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
-                    "title": "Platbu odešleme jako standardní",
-                    "detail": "Z technických důvodů odešleme vaši platbu jako standardní s dnešním datem splatnosti. Pokud potřebujete odeslat platbu okamžitě, zavolejte nám.\n\nV případě, že se nevyjádříte, platbu odešleme jako standardní.",
-                    "callUs": "Zavolejte nám na infolinku",
+                    "title": "The payment will be sent as a standard payment",
+                    "detail": "Due to technical reasons, we have changed the due date of your payment to standard. If you need to send the payment instantly, please call us.\n\nIf you do not contact us, the payment will be sent as standard.\n\nFor more information call <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CONTINUE",
-                        "actionLabelText": "Souhlasím, odeslat standardně"
+                        "actionLabelText": "Confirm, send as standard"
                     },
                     "secondaryButton": {
                         "actionType": "CLOSE",
-                        "actionLabelText": " Nesouhlasím, zrušit platbu"
+                        "actionLabelText": "Decline, cancel payment"
                     }
                 }
             },
@@ -193,6 +192,7 @@
                 "victory": {
                     "title": "And that's it! We have registered you in the Internet Bank",
                     "subtitle": "Thank you for logging in securely and protecting your finances.",
+                    "subtitleMobile": "You can now return to your browser.\n\nThank you for logging in securely and protecting your finances.",
                     "primaryButton": "Done",
                     "secondaryButton": "Continue to Smart Banka"
                 },
