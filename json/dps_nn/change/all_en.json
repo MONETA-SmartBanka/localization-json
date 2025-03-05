@@ -16,6 +16,10 @@
         "branch": "Naštivte nás\nna pobočce",
         "secondaryButton": "Ukončit žádost",
         "primaryButton": "Zpět"
+      },
+      "changeNotAvailable": {
+        "title": "Strategii můžete změnit zase od {0}",
+        "primaryButton": "Zpět"
       }
     },
     "scenes": {
@@ -23,7 +27,7 @@
         "title": "Nastavení spoření",
         "deposits": {
           "title": "Příspěvky a vklady",
-          "detail": "Ke svému vkladu můžete získat dalších až {0} měsíčně od státu. Nastavit tu můžete také příspěvky od zaměstnavatele."
+          "detail": "Ke svému vkladu můžete získat dalších až 340 Kč měsíčně od státu. Nastavit tu můžete také příspěvky od zaměstnavatele."
         },
         "strategy": {
           "title": "Strategie",
@@ -38,8 +42,10 @@
         "contribution": {
           "title": "Státní příspěvek",
           "term": "ročně",
-          "description": "Pro minimální státní příspěvek vkládejte alespoň <a href=\"500\">500 Kč</a> měsíčně.\n\nPro maximální příspěvek vkládejte <a href=\"1700\">1 700 Kč</a> nebo více.",
-          "message": "Aby vám mohl být připsán odpovídající státní příspěvek, je třeba upravit výši vkladu ve smlouvě."
+          "description": "Pro minimální státní příspěvek vkládejte alespoň <a href=\"min\">500 Kč</a> měsíčně.\n\nPro maximální příspěvek vkládejte <a href=\"max\">1 700 Kč</a> nebo více.",
+          "message": "Aby vám mohl být připsán odpovídající státní příspěvek, je třeba upravit výši vkladu ve smlouvě.",
+          "min": 500,
+          "max": 1700
         },
         "employerContribution": "Bude mi přispívat i zaměstnavatel",
         "primaryButton": "Pokračovat"
@@ -286,7 +292,7 @@
         "taxResidence": "Platím daně pouze v ČR",
         "pep": "Jsem politicky exponovaná osoba",
         "pepInfo": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí (např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil). Za politicky exponovanou osobu se považuje také: 1) osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka), 2) společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu, 3) skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby.",
-        "greenCard": "Nejsem držitelem Zelené karty, mým investičním poradcem nebo zástupcem není americká osoba",
+        "greenCard": "Jsem držitelem Zelené karty, mým investičním poradcem nebo zástupcem je americká osoba",
         "amlValues": {
           "sourceOfIncome": [
             {
@@ -366,7 +372,7 @@
       },
       "strategyInfo": {
         "title": "Strategie",
-        "detail": "Změna bude platná od prvního dne následujícího měsíce.\nPokud bude třeba převést stávající vklady do nových fondů, zabere to 3 pracovní dny navíc.",
+        "detail": "Změna bude platná nejpozději následující pracovní den.\nPokud bude třeba převést stávající vklady do nových fondů, zabere to 3 pracovní dny navíc.",
         "current": "Aktuální strategie spoření",
         "primaryButton": "Pokračovat ke změně strategie"
       },
@@ -495,7 +501,7 @@
         },
         "change": {
           "title": "Do nového fondu chci převést",
-          "detail": "Změna bude platná od prvního dne následujícího měsíce",
+          "detail": "Změna bude platná nejpozději následující pracovní den.",
           "everything": {
             "title": "Všechny stávající i nové prostředky",
             "detail": "Zpracování nám zabere 3 pracovní dny navíc"
@@ -517,7 +523,7 @@
       },
       "contract": {
         "title": "Přečtěte si smlouvu o změně parametrů Doplňkového penzijního spoření",
-        "detal": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
+        "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
         "primaryButton": "Rozumím a souhlasím",
         "secondaryButton": "Nesouhlasím"
       },
@@ -561,7 +567,7 @@
         ],
         "firstPayment": "První platba odejde {0}",
         "primaryButton": "Nastavit trvalý příkaz",
-        "promaryButtonWoStandingOrder": "Zpět na Přehled",
+        "primaryButtonWoStandingOrder": "Zpět na Přehled",
         "secondaryButton": "Příkaz nastavím později",
         "destinationAccountNumber": {
           "bankCode": 800,
@@ -570,8 +576,7 @@
         "standingOrderName": "Penzijní spoření"
       },
       "strategyVictory": {
-        "title": "Hotovo! Změna strategie Doplňkového penzijního spoření je platná od {0}",
-        "detail": "Pokud bude Váš zaměstnavatel přispívat na Vaše doplňkové penzijní spoření, přepošlete mu prosím smlouvu, kterou jsme vám poslali e-mailem.",
+        "title": "Hotovo!\nPotvrzení o změně strategie Doplňkového penzijního spoření vám přijde e-mailem",
         "primaryButton": "Zpět na Přehled"
       },
       "standingOrderVictory": {
