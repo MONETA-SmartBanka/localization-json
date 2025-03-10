@@ -1,4 +1,4 @@
-x{
+{
     "title": "Více",
     "showAll": "Zobrazit vše",
     "sections": [
@@ -619,21 +619,6 @@ x{
                     "actionType": "APPPAGE",
                     "actionValue": "MORTGAGE",
                     "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
-                },
-                {
-                    "title": "Refinancování hypotéky",
-                    "listIcon": "homeRepeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "maxVersion": "76.3.0",
-                    "shouldCheckEligibility": true,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky",
-                    "fallback": "https://www.refinanso.cz/"
                 },
                 {
                     "title": "Refinancování hypotéky",
