@@ -1,0 +1,182 @@
+{
+    "errorScreens": {
+        "notToday": {
+            "title": "You can adjust the form of repayment again tomorrow.",
+            "detail": "You can only make changes once a day",
+            "primaryButton": "Back to Overview"
+        },
+        "waitingForSignature": {
+            "title": "The request to change the credit card repayment method is pending your approval ",
+            "primaryButton": "Continue",
+            "secondaryButton": "Back"
+        },
+        "signaturesMissing": {
+            "title": "All that's left to finalize the change in form of repayment are signatures",
+            "detail": "The authorized persons have been informed, and once the signatures are finalized and the form of repayment has been changed to {repaymentType}, you will be notified in Messages.",
+            "primaryButton": "Back",
+            "secondaryButton": "View Approval Progress"
+        },
+        "noSigningPossibility": {
+            "title": "The current rules do not allow you to change the form of repayment",
+            "detail": "To make the change, a sufficient number of authorized representatives of profile {profileName} must have access to Internet Banka.\n\nIf this condition is met and you are still experiencing issues with confirmation, please call our Helpline or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back"
+        },
+        "contractDisagree": {
+            "title": "Your consent is required",
+            "detail": "Do you have any questions? Call our Helpline or visit one of our branches.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        },
+        "cantGoBackNow": {
+            "title": "Je nám líto, ale teď není možné vrátit se zpět",
+            "detail": "Pokud chcete, můžete proces ukončit nebo v něm pokračovat.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        }
+    },
+    "scenes": {
+        "repaymentMethodPicker": {
+            "title": "How would you like to repay your credit card?",
+            "repaymentMethods": {
+                "directDebit100": "100% direct debit",
+                "minimumPaymentByDirectDebit": "Minimum payment by direct debit",
+                "moneyTransfer": "Money transfer"
+            },
+            "repaymentMethodFee": {
+                "free": "free",
+                "monthlyFee": "{fee} / month"
+            },
+            "repaymentStartDateMessage": "The selected form of repayment will be active from {repaymentStartDate}.",
+            "primaryButton": "Continue",
+            "help": {
+                "title": "How would you like to repay your credit card?",
+                "sectionHeaderDirectDebit100": "100% Direct Debit",
+                "descriptionDirectDebit100": "Each month, the entire amount spent during the interest-free period is automatically paid.",
+                "sectionHeaderMinimumPaymentByDirectDebit": "Minimum Direct Debit",
+                "descriptionMinimumPaymentByDirectDebit": "Each month, an automatic payment of {minRepaymentPercent} of the outstanding balance from your statement will be made as the minimum payment. You can settle the remaining balance separately, such as via bank transfer.\nIf the full amount is not repaid within the {interestFreePeriod}-day interest-free period, the remaining balance will incur interest at an annual rate of {interestRate} p.a.",
+                "descriptionMinimumPaymentByDirectDebitShort": "Each month, a minimum repayment of {minRepaymentPercent} of the outstanding balance will be made automatically via direct debit.",
+                "sectionHeaderMoneyTransfer": "Money Transfer",
+                "descriptionMoneyTransfer": "The repayment amount is outlined in your credit card statement, and it’s essential to pay at least the minimum required amount.  \nEven if you have direct debit set up, you can still make additional repayments via money transfer."
+            },
+            "repaymentMethodNotChanged": {
+                "titleDirectDebit100": "Your credit card is already set to be repaid 100% via direct debit",
+                "titleMinimumRepaymentByDirectDebit": "Your credit card is already set to be repaid via minimum direct debit",
+                "titleMoneyTransfer": "Your credit card is already set to be repaid via money transfer",
+                "detail": "Would you like to change the form of repayment?",
+                "primaryButton": "Back",
+                "secondaryButton": "Repay via {repaymentMethod}"
+            }
+        },
+        "accountPicker": {
+            "title": "For which account would you like to set up a direct debit?",
+            "detail100directDebit": "Each month, the full outstanding amount is automatically repaid within the interest-free period.",
+            "detailMinimumPaymentByDirectDebit": "Each month, an automatic payment of {minRepaymentPercent} of the outstanding balance from your statement will be made as the minimum payment. You can settle the remaining balance separately, such as via bank transfer.  ",
+            "chooseAccount": "Select an account",
+            "directDebitAmountChangeMessage": "Your credit card is already set to be repaid via direct debit from this account. If necessary, we will simply adjust the repayment amount.",
+            "primaryButton": "Continue",
+            "chooseAccountBottomSheet": {
+                "title": "Select an account",
+                "searchHint": "Search",
+                "currentAccounts": "Current Accounts",
+                "businessAccounts": "Business Accounts",
+                "secondaryButton": "Repay via an account with another bank"
+            },
+            "help": {
+                "minimumPaymentByDirectDebit": {
+                    "title": "Minimum Direct Debit",
+                    "detail": "Each month, an automatic payment of {minRepaymentPercent} of the outstanding balance from your statement will be made as the minimum payment. You can settle the remaining balance separately, such as via bank transfer.\nIf the full amount is not repaid within the {interestFreePeriod}-day interest-free period, the remaining balance will incur interest at an annual rate of {interestRate} p.a.",
+                    "detailShort": "Each month, a minimum repayment of {minRepaymentPercent} of the outstanding balance will be made automatically via direct debit. "
+                },
+                "directDebit100": {
+                    "title": "100% Direct Debit",
+                    "detail": "Each month, the entire amount spent during the interest-free period is automatically paid."
+                }
+            },
+            "differentAccountBottomSheet": {
+                "title": "From which account do you want to make the repayments?",
+                "primaryButton": "Continue",
+                "error": {
+                    "wrongAccount": "Please check the account number"
+                }
+            },
+            "error": {
+                "title": "Select an account first before proceeding."
+            }
+        },
+        "contract": {
+            "title": "Read the Agreement on Changing the Form of Repayment ",
+            "detail": "All documents can be found in Smart Banka, Internet Banka.",
+            "primaryButton": "Confirm and accept",
+            "primaryButtonSendForSignature": "Submit for signature",
+            "secondaryButton": "Decline"
+        },
+        "victoryMoneyTransfer": {
+            "title": "Done!\nYour credit card will be repaid via money transfer",
+            "detail": "You can also find the payment details in your credit card statement and in the Agreement details.",
+            "recipientAccount": "Account number",
+            "variableSymbol": "Variable symbol",
+            "infoMessage": "You can find the repayment amount and due date in your credit card statement and in the Agreement.",
+            "primaryButton": "Create a template",
+            "secondaryButton": "Back to Overview"
+        },
+        "victoryMoneyTransferSignaturesMissing": {
+            "title": "Almost done, signatures are the last step",
+            "detail": "The authorized persons have been informed, once the signatures have been finalized, you’ll be notified in Messages.",
+            "recipientAccount": "Recipient account no.",
+            "variableSymbol": "Variable symbol",
+            "infoMessage": "You can find the repayment amount and due date in your credit card statement and in the Agreement.",
+            "primaryButton": "Back to Overview",
+            "secondaryButton": "View Approval Progress"
+        },
+        "victoryDirectDebit": {
+            "title100directDebit": "Done!\nStarting from {repaymentStartDate}, your credit card will be repaid via 100% direct debit.",
+            "titleMinimumRepaymentByDirectDebit": "Done!\nYour credit card will be repaid via minimum direct debit.",
+            "detail": "You can also find the payment details in your credit card statement and in the Agreement details.",
+            "yourAccount": "From account no.",
+            "recipientAccount": "Recipient account",
+            "infoMessage": "If your next payment is due before {repaymentStartDate}, please complete it using your current payment method.",
+            "primaryButton": "Back to Overview"
+        },
+        "victoryDirectDebitDifferentBank": {
+            "title": "We're all set here. Now, please set up your direct debit authorization.",
+            "detail": "You can also find the payment details in your credit card statement and in the Agreement details.",
+            "yourAccount": "From account no.",
+            "recipientAccount": "Recipient account",
+            "recommendedLimit": "Suggested direct debit limit",
+            "infoMessage": "Your repayments will switch to {repaymentType} starting with the next payment due on 23.12. 2024.\nTo ensure a smooth transition, please authorize the direct debit at least 5 business days in advance.",
+            "primaryButton": "Back to Overview"
+        },
+        "victoryDirectDebitSignaturesMissing": {
+            "title": "Almost done, signatures are the last step",
+            "detail": "The authorized persons have been informed, once the signatures have been finalized, you’ll be notified in Messages.\n\nYou can also find the payment details in your credit card statement and in the Agreement details.",
+            "yourAccount": "From account no.",
+            "recipientAccount": "Recipient account",
+            "infoMessage": "Repayments via {repaymentType} will begin with the next payment due on {repaymentStartDate}, provided the change is confirmed by the authorized persons by the end of today.",
+            "primaryButton": "Back to Overview",
+            "secondaryButton": "View Approval Progress"
+        },
+        "victoryDirectDebitSignaturesMissingDifferentBank": {
+            "title": "We’re nearly finished—just the signatures and setting up the direct debit authorization remain.",
+            "detail": "The authorized persons have been informed, once the signatures have been finalized, you’ll be notified in Messages.\n\nYou can also find the payment details in your credit card statement and in the Agreement details.",
+            "yourAccount": "From account no.",
+            "recipientAccount": "Recipient account",
+            "recommendedLimit": "Suggested direct debit limit",
+            "infoMessage": "Repayments via {repaymentType} will begin with the next payment due on {repaymentStartDate}, provided the change is confirmed by the authorized persons by the end of today.\nTo ensure a smooth transition, please authorize the direct debit at least 5 business days in advance.",
+            "primaryButton": "Back to Overview",
+            "secondaryButton": "View Approval Progress"
+        }
+    },
+    "vocabulary": {
+        "repaymentMethods": {
+            "directDebit100": "100% direct debit",
+            "minimumPaymentByDirectDebit": "minimum direct debit",
+            "moneyTransfer": "money transfer"
+        }
+    }
+}
