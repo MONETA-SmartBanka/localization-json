@@ -15,6 +15,10 @@
             "fees": "Náklady za předčasné splacení",
             "totalAmount": "Celkem zaplatíte",
             "primaryButton": "Zpět"
+        },
+        "noDiscount": {
+            "title": "Vydržte prosím, právě vám snižujeme úrok",
+            "detail": "Do dalšího pracovního dne bude hotovo a pak můžete pokračovat tak, jak jste zvyklí.",
         }
     },
     "scenes": {
@@ -74,6 +78,39 @@
         "stornoVictory": {
             "title": "Žádost o doplacení jsme stornovali",
             "detail": "Splácet budete stejně jako dříve.\nVaše příští splátka {0} Kč je plánovaná na {1}.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "retentionDiscountOffer": {
+            "avatar": "gift",
+            "title": "Splácejte výhodněji.\nS úrokem {newInterestRate} p.a. můžete na splátkách ušetřit",
+            "bullets": [
+                {
+                    "icon": "starsAltFill",
+                    "title": "Připravili jsme pro vás roční úrokovou sazbu <b>{newInterestRate}</b> bez dalších podmínek"
+                },
+                {
+                    "icon": "calendarPayFill",
+                    "title": "Se sníženým úrokem budete pokračovat ve splácení jak jste zvyklí",
+                },
+                {
+                    "icon": "tickFill",
+                    "title": "Změna je zdarma, bez dalších poplatků"
+                }
+            ],
+            "rateOfInterest": "Roční úroková sazba",
+            "installment": "Nová měsíční splátka",
+            "insurance": "Pojištění",
+            "primaryButton": "Pokračovat v úvěru s nižším úrokem",
+            "secondaryButton": "Nechci nižší úrok, pokračovat"
+        },
+        "retentionDiscountVictory": {
+            "title": "Hotovo!\nNově budete splácet s roční úrokovou sazbou {newInterestRate}",
+            "detail": "Vaše další splátky budou ve výši {newMonthlyInstalment} měsíčně. Datum a doba splácení se nemění.\n\nPotvrzení o snížení úrokové sazby najdete ve vaší Smart Bance a Internet Bance.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "retentionDiscountDelayedVictory": {
+            "title": "Hotovo!\nOd {changeDate} budete splácet s roční úrokovou sazbou {newInterestRate}",
+            "detail": "Všechno proběhlo v pořádku a od nejbližšího pracovního dne nastavíme vaše další splátky na {newMonthlyInstalment} měsíčně. Datum a doba splácení se nemění.\n\nPotvrzení o snížení úrokové sazby najdete ve vaší Smart Bance a Internet Bance. ",
             "primaryButton": "Zpět na Přehled"
         }
     }
