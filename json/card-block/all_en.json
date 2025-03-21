@@ -1,8 +1,10 @@
 {
     "scenes": {
-        "temporaryBlock": {
+        "cardDetail": {
             "navigationTitle": "Block Card",
             "blockType": "Type",
+        },
+        "temporaryBlock": {
             "subscriptions": {
                 "title": "Is this card used for subscriptions?",
                 "detail": "Please check in advance which merchants will be affected by blocking this card."
@@ -24,8 +26,6 @@
                 "footer": "You are not required to provide any proof."
             },
             "cardDetail": {
-                "navigationTitle": "Block Card",
-                "blockType": "Type",
                 "reason": "Reason",
                 "subscriptions": {
                     "title": "Is this card used for subscriptions?",
@@ -53,13 +53,11 @@
             }
         },
         "blockAndCancel": {
-            "navigationTitle": "Block Card",
-            "blockType": "Type",
             "subscriptions": {
                 "title": "Is this card used for subscriptions?",
                 "detail": "Please check in advance which merchants will be affected by blocking this card."
             },
-            "primaryButton": "Continue"
+            "secondaryButton": "Continue"
         }
     },
     "victory": {
@@ -114,6 +112,7 @@
     "blockTypes": {
         "temporary": {
             "title": "Temporary block",
+            "description": "for {blockInterval} days",
             "detail": "The card will be blocked for 30 days. You can unblock it or permanently block it anytime during this period."
         },
         "blockAndGetNew": {

@@ -1,10 +1,12 @@
 {
     "scenes": {
-        "temporaryBlock": {
+        "cardDetail": {
             "navigationTitle": "Blokace karty",
             "blockType": "Typ blokace",
+        },
+        "temporaryBlock": {
             "subscriptions": {
-                "title": "Využívá se karta na předplatná? ",
+                "title": "Využívá se karta na předplatné?",
                 "detail": "Raději si předem ověřte, kterých obchodníků se blokace dotkne."
             },
             "smsUnblock": {
@@ -24,11 +26,9 @@
                 "footer": "Událost nám nemusíte nijak dokazovat."
             },
             "cardDetail": {
-                "navigationTitle": "Blokace karty",
-                "blockType": "Typ blokace",
                 "reason": "Důvod",
                 "subscriptions": {
-                    "title": "Využívá se karta na předplatná? ",
+                    "title": "Využívá se karta na předplatné?",
                     "detail": "Raději si zkontrolujte historii plateb"
                 },
                 "newCardOldConfig": {
@@ -47,19 +47,17 @@
                         "contactAddressTitle": "Kontaktní adresa"
                     },
                     "additionalCardInfo": "Zkontrolujte prosím, že je adresa pro zaslání karty správná. Pokud ji chcete změnit, může to udělat pouze držitel karty ve Smart Bance a Internet Bance v sekci Nastavení, na kterékoliv naší pobočce nebo na infolince 224 443 636.",
-                    "info": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
+                    "info": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
                 },
                 "secondaryButton": "Pokračovat"
             }
         },
         "blockAndCancel": {
-            "navigationTitle": "Blokace karty",
-            "blockType": "Typ blokace",
             "subscriptions": {
-                "title": "Využívá se karta na předplatná? ",
+                "title": "Využívá se karta na předplatné?",
                 "detail": "Raději si zkontrolujte historii plateb"
             },
-            "primaryButton": "Pokračovat"
+            "secondaryButton": "Pokračovat"
         }
     },
     "victory": {
@@ -83,7 +81,6 @@
                 "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
             },
             "primaryButton": "Zpět na Kartu"
-
         },
         "blockAndGetNewSignedVirtual": {
             "title": "Kartu jsme zablokovali a zrušili. Novou najdete zítra v seznamu karet a můžete s ní začít okamžitě platit",
@@ -114,6 +111,7 @@
     "blockTypes": {
         "temporary": {
             "title": "Dočasná blokace",
+            "description": "na {blockInterval} dní",
             "detail": "Kartu vám zablokujeme na 30 dní. Během této doby ji můžete kdykoliv odblokovat, nebo trvale zablokovat."
         },
         "blockAndGetNew": {
