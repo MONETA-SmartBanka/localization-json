@@ -64,6 +64,10 @@
         "primaryButton": "Pokračovat",
         "secondaryButton": "Přeskočit dotazník"
       },
+      "esg": {
+        "primaryButton": "Pokračovat",
+        "message": "Mrzí nás to, ale tyto fondy momentálně nemáme v nabídce. Vyberte si prosím některou z dalších možností."
+      },
       "questionnaire": {
         "title": "První kroky ke zjištění, jaký způsob penzijního spoření je pro vás ten nejlepší",
         "detail": "Vyplnění dotazníku od vás potřebujeme proto, abychom zjistili vaše očekávání, znalosti a zkušenosti v oblasti financí a mohli vám navrhnout nejlepší typ strategie doplňkového penzijního spoření. Zabere to jen pár minut.",
@@ -284,6 +288,7 @@
         "assets": "Zdroj vlastního majetku",
         "assetsMultiple": "Více zdrojů",
         "assetsDescription": "Případně dluhu",
+        "assetsPlaceholder": "Vyberte",
         "assetsOther": "Uveďte jiný zdroj majetku nebo dluhu",
         "assetsSelectorTitle": "Jaký je zdroj Vašeho vlastního majetku, případně dluhu?",
         "assetsSelectorDescription": "Zvolte alespoň jednu možnost:",
@@ -527,7 +532,15 @@
         "title": "Přečtěte si smlouvu o změně parametrů Doplňkového penzijního spoření",
         "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
         "primaryButton": "Rozumím a souhlasím",
-        "secondaryButton": "Nesouhlasím"
+        "secondaryButton": "Nesouhlasím",
+        "loading": {
+          "title": "Už máme skoro hotovo,\nstačí jen podepsat smlouvu",
+          "detail": "Dejte nám chvilku, než ji připravíme"
+        },
+        "signByUs": {
+          "title": "Teď to musíme podepsat my",
+          "detail": "Bude to trvat jen chviličku."
+        }
       },
       "depositVictory": {
         "title": "Hotovo! Změna Doplňkového penzijního spoření je platná od {0}",
