@@ -58,6 +58,10 @@
         "employerContribution": "Employer contribution",
         "primaryButton": "Continue"
       },
+      "esg": {
+        "primaryButton": "Continue",
+        "message": "We're sorry, but these funds are not currently available. Please choose one of the other options."
+      },
       "questionnaireIntro": {
         "title": "Investment questionnaire.\nWill you save boldly or cautiously?",
         "detail": "Answer the following questions to determine your investment profile and find the best strategy for your savings.",
@@ -284,6 +288,7 @@
         "assets": "Source of personal assets",
         "assetsMultiple": "Multiple sources",
         "assetsDescription": "Or, if applicable, source of debt",
+        "assetsPlaceholder": "Choose",
         "assetsOther": "Enter your other source of personal assets or debt",
         "assetsSelectorTitle": "Enter your other source of personal assets or debt",
         "assetsSelectorDescription": "Select at least one option",
@@ -527,7 +532,15 @@
         "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
         "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email. ",
         "primaryButton": "Agree and accept",
-        "secondaryButton": "Decline"
+        "secondaryButton": "Decline",
+        "loading": {
+          "title": "We're almost done,\njust need to sign the contract",
+          "detail": "Give us a minute to get it ready"
+        },
+        "signByUs": {
+          "title": "Now we have to sign it",
+          "detail": "It'll just take a minute."
+        }
       },
       "depositVictory": {
         "title": "Hotovo! Změna Doplňkového penzijního spoření je platná od {0}",
