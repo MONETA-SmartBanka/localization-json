@@ -61,6 +61,58 @@
                 ],
                 "primaryButton": "Zpět"
             },
+            "panic": {
+                "buttonDashboard": {
+                    "title": "Při podezření na zneužití účtu",
+                    "detail": "Zablokovat bankovnictví"
+                },
+                "buttonCommon": {
+                    "title": "Zablokovat bankovnictví",
+                    "detail": "Při podezření na zneužití účtu.\nOkamžitě a bez čekání na telefonní lince."
+                },
+                "buttonSheet": {
+                    "title": "Zablokovat bankovnictví a karty",
+                    "detail": "Při podezření na zneužití účtu.\nOkamžitě a bez čekání na telefonní lince."
+                },
+                "scenes": {
+                    "detail": {
+                        "title": "Okamžitá blokace bankovnictví",
+                        "detail": "Pokud máte podezření na neoprávněný přístup ke svému bankovnictví, zablokujte ho. Po zablokování bankovnictví se <b>nebude možné přihlásit do Internet Banky a Smart Banky</b> k žádnému z Vašich profilů.",
+                        "profilesSection": {
+                            "title": "Zablokujeme přístup do těchto profilů",
+                            "completeAccessTo": "Kompletní přístup k:",
+                            "eDispAccessTo": "Váš eDisponentský přístup k:"
+                        },
+                        "cardsSection": {
+                            "title": "Zablokovat také moje karty"
+                        },
+                        "help": {
+                            "sectionTitle": "Jak na odblokování?",
+                            "title": "Pro odblokování bude nezbytné <a href=\"tel:+420224446666\">kontaktovat naši bezpečnostní linku.</a>."
+                        },
+                        "secondaryButton": "Zablokovat bankovnictví",
+                        "transparentButton": "Zatím nic neblokovat"
+                    },
+                    "victory": {
+                        "title": "Přístupy k bankovnictví jsou zablokovány",
+                        "detail": "Od této chvíle není možné se přihlásit do Internet Banky a Smart Banky.\n<br>Pro odblokování bude nezbytné kontaktovat naši bezpečnostní linku 224 446 666.\n<br>Za {blockInterval}s budete automaticky odhlášeni ze všech zařízení."
+                    }
+                },
+                "errors": {
+                    "poCall": {
+                        "title": "Blokaci nebylo možné provést",
+                        "detail": "Kontaktujte prosím naši bezpečnosti linku 224 446 666.",
+                        "primaryButton": "Volat bezpečnostní linku",
+                        "secondaryButton": "Ukončit aplikaci"
+                    },
+                    "api": {
+                        "title": "Blokaci nebylo možné dokončit.",
+                        "detail": "Co nejdříve kontaktujte naši bezpečnosti linku 224 446 666.",
+                        "primaryButton": "Volat bezpečnostní linku",
+                        "secondaryButton": "Ukončit aplikaci"
+                    }
+                }
+            },
             "fraudPopup": {
                 "secureAccount": {
                     "icon": "triangleExclamation",
