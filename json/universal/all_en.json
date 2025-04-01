@@ -61,6 +61,58 @@
                 ],
                 "primaryButton": "Back to Rewards"
             },
+            "panic": {
+                "buttonDashboard": {
+                    "title": "In case of suspected account misuse",
+                    "detail": "Block access to online banking"
+                },
+                "buttonCommon": {
+                    "title": "Block access to online banking",
+                    "detail": "Immediately without waiting on hold. "
+                },
+                "buttonSheet": {
+                    "title": "Block your online banking",
+                    "detail": "You can instantly block all your cards and accounts—no phone calls, no waiting."
+                },
+                "scenes": {
+                    "detail": {
+                        "title": "Immediate Block of Online Banking",
+                        "detail": "If you suspect unauthorized access to your online banking, block it immediately. Once blocked, <b>Internet Banka and Smart Banka</b> cannot be accessed on any of your profiles.",
+                        "profilesSection": {
+                            "title": "Access will be blocked for these profiles",
+                            "completeAccessTo": "Full access to:",
+                            "eDispAccessTo": "eDisponent access to:"
+                        },
+                        "cardsSection": {
+                            "title": "Block payment cards as well"
+                        },
+                        "help": {
+                            "sectionTitle": "How to regain access?",
+                            "title": "To unblock your online banking, <a href=\"tel:+420224446666\">please contact our Security line.</a>."
+                        },
+                        "secondaryButton": "Block online banking",
+                        "transparentButton": "Not now"
+                    },
+                    "victory": {
+                        "title": "Your access to online banking has been blocked",
+                        "detail": "You can no longer log in to Internet Banka or Smart Banka.\n<br> You’ll be automatically logged out on all devices in {blockInterval} seconds."
+                    }
+                },
+                "errors": {
+                    "poCall": {
+                        "title": "The block could not be completed.",
+                        "detail": "Please contact our Security line at 224 446 666.",
+                        "primaryButton": "Call Security line",
+                        "secondaryButton": "Cancel application"
+                    },
+                    "api": {
+                        "title": "The block could not be completed.",
+                        "detail": "Please contact our Security line as soon as possible at 224 446 666.",
+                        "primaryButton": "Call Security line",
+                        "secondaryButton": "Cancel application"
+                    }
+                }
+            },
             "fraudPopup": {
                 "secureAccount": {
                     "icon": "triangleExclamation",
