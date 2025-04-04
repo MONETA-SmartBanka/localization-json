@@ -74,6 +74,19 @@
         {
             "kind": "ROWS",
             "items": [
+              {
+                "actionType": "APPAGE",
+                "actionData": "PANICBUTTON",
+                "actionImageName": "personAgentFill",
+                "actionLabelText": "Zablokovat bankovnictví",
+                "actionLabelSubtext": "Při podezření na zneužití účtu. Okamžitě a bez čekání na telefonní lince.",
+                "actionColor": "warning"
+              }
+            ]
+        },
+        {
+            "kind": "ROWS",
+            "items": [
                 {
                     "actionLabelText": "Sídlo banky",
                     "actionData": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle"
