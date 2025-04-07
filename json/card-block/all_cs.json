@@ -2,6 +2,7 @@
     "scenes": {
         "cardDetail": {
             "navigationTitle": "Blokace karty",
+            "navigationTitleIssueNewCard": "Vydání nové karty",
             "blockType": "Typ blokace"
         },
         "temporaryBlock": {
@@ -38,13 +39,11 @@
                 "addressChange": {
                     "header": "Doručovací adresa",
                     "title": "Stejná jako u předchozí karty",
-                    "retail": {
-                        "primaryAddressTitle": "Trvalá adresa",
-                        "contactAddressTitle": "Kontaktní adresa"
-                    },
-                    "commercial": {
-                        "primaryAddressTitle": "Sídlo podnikání",
-                        "contactAddressTitle": "Kontaktní adresa"
+                    "addressTitles": {
+                        "contact": "Kontaktní adresa",
+                        "permanent": "Trvalá adresa",
+                        "business": "Sídlo podnikání",
+                        "company": "Sídlo firmy"
                     },
                     "additionalCardInfo": "Zkontrolujte prosím, že je adresa pro zaslání karty správná. Pokud ji chcete změnit, může to udělat pouze držitel karty ve Smart Bance a Internet Bance v sekci Nastavení, na kterékoliv naší pobočce nebo na infolince 224 443 636.",
                     "info": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
@@ -58,14 +57,23 @@
                 "detail": "Raději si zkontrolujte historii plateb"
             },
             "secondaryButton": "Pokračovat"
+        },
+        "signByUs": {
+            "title": "Chvilku strpení"
         }
     },
     "victory": {
         "blockAndCancelSigned": {
             "title": "Kartu Standard jsme zablokovali a zrušili",
             "detail": "Od této chvíle je nefunkční a od zítra ji neuvidíte v seznamu vašich karet.",
-            "newCardDetail": "O novou kartu můžete kdykoli požádat v sekci Karty.",
-            "canceledCardDetail": "Zrušenou kartu můžete skartovat nebo vrátit na kterékoliv naší pobočce.",
+            "newCardDetail": {
+                "icon": "plusFill",
+                "title": "O novou kartu můžete kdykoli požádat v sekci Karty."
+            },
+            "canceledCardDetail": {
+                "icon": "binFill",
+                "title": "Zrušenou kartu můžete skartovat nebo vrátit na kterékoliv naší pobočce."
+            },
             "primaryButton": "Zpět na Kartu"
         },
         "blockAndGetNewSignedPlastic": {
@@ -73,10 +81,12 @@
             "detail": "Obvykle dorazí do pěti pracovních dní. Už zítra si ji ale můžete přidat do telefonu pro placení mobilem.",
             "sectionTitle": "S novou kartou získáte",
             "newPin": {
+                "icon": "dialHandFill",
                 "title": "Nový PIN",
                 "detail": "Ten si můžete kdykoliv změnit v bankomatu."
             },
             "cardDetail": {
+                "icon": "cardFill",
                 "title": "Údaje karty",
                 "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
             },
@@ -86,10 +96,12 @@
             "title": "Kartu jsme zablokovali a zrušili. Novou najdete zítra v seznamu karet a můžete s ní začít okamžitě platit",
             "sectionTitle": "S novou kartou získáte",
             "newPin": {
+                "icon": "dialHandFill",
                 "title": "Nový PIN",
                 "detail": "Ten si můžete kdykoliv změnit v bankomatu."
             },
             "cardDetail": {
+                "icon": "cardFill",
                 "title": "Údaje karty",
                 "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
             },
