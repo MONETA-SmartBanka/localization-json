@@ -1,0 +1,109 @@
+{
+    "scenes": {
+        "main": {
+            "title": "Nejlevnější hypotéka na trhu s garancí úroku na 60 dní",
+            "propertyPrice": "Cena nemovitosti",
+            "loanAmountTitle": "Chci si půjčit",
+            "propertyPricePercent": "{0} ceny nemovitosti",
+            "maturityTitle": "Doba splácení",
+            "fixationInterest": "Fixace a úrok",
+            "insuranceTitle": "Pojištění schopnosti splácet za <b>{0} měsíčně</b> měsíčně ke splátce",
+            "insuranceTitleDisabled": "Pojištění schopnosti splácet pokryje rizika a sníží úrok",
+            "insuranceDescription": "<a href=\"link\">Více o pojištění zde</a>",
+            "monthlyAmount": "Měsíční splátka",
+            "interestRate": "Roční úroková sazba",
+            "interestInfo": "Garance úroku na 60 dní",
+            "rpsn": "RPSN",
+            "totalAmount": "Celkem zaplatíte",
+            "totalAmountWithInsurance": "včetně pojištění",
+            "footer": "Výpočet je pouze orientační. Přesný výpočet a parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
+            "primaryButton": "Sjednat hypotéku online",
+            "recalculating": "Přepočítáváme...",
+            "refinansing": {
+                "sectionTitle": "Hypotéku už máte? Snižte si splátky",
+                "title": "Refinancování hypotéky",
+                "description": "Garance úroku na 60 dní",
+                "icon": "homeRepeatFill"
+            },
+            "insurance": {
+                "title": "Pojištění za vás zaplatí",
+                "coverage": [
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>Až 12 splátek</b> při ztrátě zaměstnání nebo zrušení živnosti, pracovní neschopnosti a&nbsp;ošetřování člena rodiny."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>Zbývající část úvěru</b> v&nbsp;případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>1 splátku</b> při hospitalizaci."
+                    }
+                ],
+                "doctor": [
+                    {
+                        "icon": "medicalKitFill",
+                        "text": "<b>S pojištěním máte k&nbsp;dispozici Virtuální ordinaci 24/7 s&nbsp;lékařem online</b>, který vám může poslat například e-recept nebo žádanku na vyšetření."
+                    }
+                ],
+                "termsAndConditions": "Pokračováním potvrzujete, že nejste invalidní a&nbsp;že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami&nbsp;pojištění</a>.\n\nV případě invalidity nedojde k&nbsp;plnění při pojistné události.",
+                "primaryButton": "Chci se pojistit",
+                "secondaryButton": "Nechci pojištění"
+            },
+            "propertyPriceSheet": {
+                "title": "Jaká je odhadní cena nemovitosti?",
+                "propertyPrice": "Cena nemovitosti",
+                "primaryButton": "Potvrdit"
+            },
+            "loanAmount": {
+                "title": "Zabydlete se s úrokem od 3,99 %",
+                "info": "Nejvýhodnější úrokovou sazbu můžete získat, pokud si půjčíte do 60 % odhadní ceny nemovitosti.",
+                "infoYoung": "Hypotéku na více než 80 % odhadní ceny nemovitosti poskytujeme především klientům mladším 36 let.",
+                "infoOverLtv": "Protože poskytujeme hypotéku maximálně na 90 % z ceny nemovitosti, upravíme celkovou hodnotu nemovitosti.",
+                "loanAmountTitle": "Chci si půjčit",
+                "propertyPricePercent": "{0} ceny nemovitosti",
+                "primaryButton": "Potvrdit"
+            },
+            "maturity": {
+                "title": "Jak dlouho chcete hypotéku splácet?",
+                "sliderTitle": "Chci splácet",
+                "primaryButton": "Potvrdit"
+            },
+            "interestInfoSheet": {
+                "title": "Jak získám nejlepší úrok?",
+                "detail": "Nejvýhodnější úrokovou sazbu můžete získat, pokud si půjčíte do 60 % odhadní ceny nemovitosti.\n\nStandardně půjčujeme do 80 % odhadní ceny nemovitosti. Klientům mladším 36 let můžeme půjčit víc, ale maximálně 90 % odhadní ceny."
+            },
+            "exampleInfo": {
+                "title": "Reprezentativní příklad",
+                "detail": "Výše úvěru 2 500 000 Kč, doba splatnosti 30 let, počet splátek 360, fixace 5 let.",
+                "content": [
+                    {
+                        "title": "S pojištěním schopnosti splácet u BNP Paribas Cardif Pojišťovny, a.s.:",
+                        "text": "・měsíční splátka úvěru: 12 504 Kč\n・měsíční platba za pojištění: 1 125 Kč\n・úroková sazba: 4,39 % ročně\n・RPSN: 5,27 % \n・celková splatná částka: 4 923 552 Kč"
+                    },
+                    {
+                        "title": "Bez pojištění schopnosti splácet:",
+                        "text": "・měsíční splátka úvěru: 12 801 Kč\n・úroková sazba: 4,59 % ročně\n・RPSN: 4,71 %\n・celková splatná částka: 4 625 036 Kč"
+                    },
+                    {
+                        "title": "Co v souvislosti s úvěrem neplatíte:",
+                        "text": "・zpracování úvěru\n・vedení úvěrového účtu\n・vedení běžného účtu"
+                    },
+                    {
+                        "title": "Co je naopak zpoplatněno:",
+                        "text": "・poplatek za posouzení vhodnosti zástavy 3 000 Kč\n・poplatek za podání návrhu na vklad zástavního práva 2 000 Kč za každý návrh\n・poplatek za podání návrhu na výmaz zástavního práva 2 000 Kč za každý návrh\n・poplatek za ověření podpisu na Zástavní smlouvě k nemovitým věcem 50 Kč"
+                    },
+                    {
+                        "title": "Jaké jsou další podmínky:",
+                        "text": "・Úvěr musí být zajištěn zástavním právem k nemovitosti. Zajištění nesmí být ve zcela zjevném nepoměru k hodnotě zajišťované pohledávky.\n・Sjednání a udržování pojištění nemovitosti (zajištění), a to po celou dobu trvání smluvního vztahu. Náklady tohoto pojištění nebyly zahrnuty do RPSN, neboť jejich výše není známa v době výpočtu."
+                    }
+                ],
+                "footers": [
+                    "Zmíněná úroková sazba je podmíněna dodržením měsíčního kreditního příjmu 15 000 Kč na účtu určeném pro splácení hypotéky. RPSN a celková částka splatná spotřebitelem vychází z předpokladu jednoho klienta, zástavce a předmětu zajištění. Dále vychází z předpokladu výše úvěru odpovídající 80 % (včetně) z hodnoty nemovitosti. Hodnota úvěru i měsíční částky, která bude splácena v cizí měně, než v jaké byl úvěr poskytnut, by se mohla změnit s ohledem na pokles hodnoty cizí měny v poměru k CZK.",
+                    "Upozornění: Zobrazené výpočty a údaje jsou orientační. Na sjednání úvěru není právní nárok, nabídka není závazná."
+                ]
+            }
+        }
+    }
+}
