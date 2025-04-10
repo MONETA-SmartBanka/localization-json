@@ -136,6 +136,7 @@
         },
         "victoryDirectDebit": {
             "title100directDebit": "Done!\nStarting from {repaymentStartDate}, your credit card will be repaid via 100% direct debit.",
+            "title100directDebitWithoutDate": "Done!\nYour credit card will be repaid via 100% direct debit.",
             "titleMinimumRepaymentByDirectDebit": "Done!\nYour credit card will be repaid via minimum direct debit.",
             "detail": "You can also find the payment details in your credit card statement and in the Agreement details.",
             "yourAccount": "From account no.",
@@ -170,6 +171,14 @@
             "infoMessage": "Repayments via {repaymentType} will begin with the next payment due on {repaymentStartDate}, provided the change is confirmed by the authorized persons by the end of today.\nTo ensure a smooth transition, please authorize the direct debit at least 5 business days in advance.",
             "primaryButton": "Back to Overview",
             "secondaryButton": "View Approval Progress"
+        },
+        "victoryDirectDebitError": {
+            "title": "An error occurred while creating the direct debit",
+            "detail": "Please check its settings and the transfer limits you’ve set.",
+            "yourAccount": "From account no.",
+            "recipientAccount": "Recipient account",
+            "recommendedLimit": "Suggested direct debit limit",
+            "primaryButton": "Back to Overview"
         },
         "signByUs": {
             "title": "Now it's our turn to sign...",
