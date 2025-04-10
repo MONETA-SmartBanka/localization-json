@@ -136,6 +136,7 @@
         },
         "victoryDirectDebit": {
             "title100directDebit": "Hotovo!\nKreditní kartu budete od\n{repaymentStartDate} splácet 100% inkasem",
+            "title100directDebitWithoutDate": "Hotovo!\nKreditní kartu budete splácet 100% inkasem",
             "titleMinimumRepaymentByDirectDebit": "Hotovo!\nKreditní kartu budete splácet minimálním inkasem",
             "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
             "yourAccount": "Z vašeho účtu",
@@ -170,6 +171,14 @@
             "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate} v případě, že změna bude potvrzena oprávněnými osobami k dnešnímu dni.\nAby vše proběhlo jak má, povolte inkaso alespoň 5 pracovních dnů před tímto datem.",
             "primaryButton": "Zpět na Přehled",
             "secondaryButton": "Zobrazit průběh schvalování"
+        },
+        "victoryDirectDebitError": {
+            "title": "Při vytváření inkasa došlo k chybě",
+            "detail": "Zkontrolujte prosím jeho nastavení a také vámi nastavené limity pro převody.",
+            "yourAccount": "Z vašeho účtu",
+            "recipientAccount": "Účet příjemce",
+            "recommendedLimit": "Doporučený limit inkasa",
+            "primaryButton": "Zpět na Přehled"
         },
         "signByUs": {
             "title": "Teď to musíme podepsat my",
