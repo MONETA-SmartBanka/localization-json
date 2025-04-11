@@ -14,6 +14,15 @@
             "primaryButton": "Rozumím, přejít zpět",
             "secondaryButton": "Přejít na přehled zůstatků"
         },
+        "needMoreExpres": {
+            "title": "Potřebujete vyšší částku?",
+            "detail": "V Internet Bance nyní můžete požádat o vyšší částku na základě údajů z vašeho daňového přiznání, nebo můžete využít náš <a href=\"smartbanka://open?ACTION=APPPAGE&URL=SME_COMMERCIAL_CREDIT_OPPORTUNITY\">úvěr zajištěný nemovitostí</a>.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Rozumím, přejít zpět",
+            "secondaryButton": "Přejít na Přehled zůstatků"
+        },
         "personalInfo": {
             "title": "Údaje nesouhlasí",
             "detail": "Je nám líto, ale během sjednávání produktu není možné tyto údaje změnit. Proces sjednání nyní ukončete a zastavte se prosím na naší nejbližší pobočce, kde Vám údaje rádi upravíme. Poté můžete opět pokračovat.",
@@ -84,21 +93,21 @@
         "noAccount": {
             "cc": {
                 "title": "Bez běžného podnikatelského účtu to online nepůjde",
-                "detail": "Podnikatelskou kreditní kartu online nelze založit bez běžného podnikatelského účtu v CZK. Sjednejte si prosím schůzku na pobočce, kde Vám kreditní kartu i bez běžného podnikatelského účtu založíme.",
+                "detail": "Podnikatelskou kreditní kartu online nelze založit bez běžného podnikatelského účtu v CZK. Sjednejte si prosím schůzku na pobočce, kde Vám kreditní kartu i bez běžného podnikatelského účtu založíme.",
                 "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
                 "branch": "Navštivte nás\nna pobočce",
                 "secondaryButton": "Přejít na Přehled"
             },
             "expres": {
                 "title": "Bez běžného podnikatelského účtu to online nepůjde",
-                "detail": "Pro načerpání a splácení podnikatelského úvěru je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru. Sjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
+                "detail": "Pro načerpání a splácení podnikatelského úvěru je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru. Sjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
                 "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
                 "branch": "Navštivte nás\nna pobočce",
                 "secondaryButton": "Přejít na Přehled"
             },
             "flexi": {
                 "title": "Bez běžného podnikatelského účtu to online nepůjde",
-                "detail": "Pro načerpání podnikatelského kontokorentu je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru.\nSjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
+                "detail": "Pro načerpání podnikatelského kontokorentu je nutné mít založený běžný podnikatelský účet v CZK. Váš stávající běžný účet nelze využít pro sjednání úvěru.\nSjednejte si prosím schůzku na pobočce, kde Vám běžný podnikatelský účet založíme.",
                 "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
                 "branch": "Navštivte nás\nna pobočce",
                 "secondaryButton": "Přejít na Přehled"
@@ -168,6 +177,23 @@
                 "branch": "Navštivte nás\nna pobočce",
                 "secondaryButton": "Přejít na Přehled"
             }
+        },
+        "scoringDeniedExpres": {
+            "title": "Pro schválení Vaší žádosti budeme potřebovat více informací",
+            "detail": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"smartbanka://open?ACTION=APPPAGE&URL=SME_COMMERCIAL_CREDIT_OPPORTUNITY\">úvěr zajištěný nemovitostí</a>.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "secondaryButton": "Zpět na Přehled"
+        },
+        "internetBank": {
+            "title": "Prosím nejdříve dokončete svou žádost v Internet Bance",
+            "detail": "Nebo ji zrušte a založte si novou ve Smart Bance.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "callPrivateBanker": "Zavolejte svému osobnímu bankéři",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Rozumím, přejít zpět",
+            "secondaryButton": "Zrušit žádost"
         }
     },
     "scenes": {
@@ -512,6 +538,7 @@
                 "repaymentFeeAmountMin": "min. {0}",
                 "firstRepaymentDate": "Datum první splátky",
                 "disclaimer": "Pro vyšší částku prosím navštivte některou z našich <a href=\"atms\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
+                "disclaimerEbz": "Pokud potřebujete vyšší částku, můžete využít náš <a href=\"smartbanka://open?ACTION=APPPAGE&URL=SME_COMMERCIAL_CREDIT_OPPORTUNITY\">úvěr zajištěný nemovitostí</a>.",
                 "primaryButton": "Pokračovat",
                 "secondaryButton": "Nemám zájem"
             },
