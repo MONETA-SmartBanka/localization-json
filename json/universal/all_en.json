@@ -1081,6 +1081,33 @@
                         "ibAnalyticsCode": "DPS Cross-sell banner"
                     },
                     "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "43007",
+                    "title": "A special offer just for you:\nEarn 3.3% interest with our term deposit",
+                    "icon": "moneta",
+                    "bullets": [
+                        {
+                            "title": "No maximum limit on deposit",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "This offer is available for the next 24 hours only",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "It only takes a couple of minutes to arrange online",
+                            "icon": "smartBankaFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Term deposit with an interest rate of 3,3 %",
+                        "actionData": "JTVETB",
+                        "ibRoute": "/application/savingsTermDeposit/offer",
+                        "ibAnalyticsCode": "Retention Savings Banner JTV"
+                    },
+                    "secondaryButton": "Continue payment"
                 }
             ],
             "retentionOffer": {

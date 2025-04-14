@@ -1082,6 +1082,33 @@
                         "ibAnalyticsCode": "DPS Cross-sell banner"
                     },
                     "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "43007",
+                    "title": "Mimořádná nabídka pro vás.\nTermínovaný vklad s úrokem 3,3 %",
+                    "icon": "moneta",
+                    "bullets": [
+                        {
+                            "title": "Bez omezení maximální výše vkladu",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Na sjednání máte pouze 24 hodin",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Sjednáte si ho během pár minut online",
+                            "icon": "smartBankaFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Termínovaný vklad s úrokem 3,3 %",
+                        "actionData": "JTVETB",
+                        "ibRoute": "/application/savingsTermDeposit/offer",
+                        "ibAnalyticsCode": "Retention Savings Banner JTV"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
                 }
             ],
             "retentionOffer": {
