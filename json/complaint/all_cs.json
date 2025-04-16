@@ -476,7 +476,8 @@
                 [
                     {
                         "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
+                            "TRANSACTION_NOT_MINE",
+                            "WITHDRAWAL_NOT_MINE"
                         ],
                         "clarificationPrompt": "Po dokončení žádosti trvale zablokujeme kartu {0}",
                         "kind": "errorWithCardNumber"
