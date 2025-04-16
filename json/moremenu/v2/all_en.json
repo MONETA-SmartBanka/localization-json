@@ -22,6 +22,41 @@
                 ]
         },
         {
+            "title": "Mortgages",
+            "value": "MORTGAGES",
+            "items": [
+                {
+                    "title": "Mortgages",
+                    "listIcon": "homeSackFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "PO",
+                        "ZAM",
+                        "ZDRAV"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "MORTGAGE",
+                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
+                },
+                {
+                    "title": "Mortgage Refinancing",
+                    "listIcon": "homeRepeatFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "PO",
+                        "ZAM",
+                        "ZDRAV"
+                    ],
+                    "minVersion": "77.0.0",
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "REFINANSO_INTRO",
+                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
+                }
+            ]
+        },
+        {
             "title": "Savings and Investments",
             "value": "SAVINGS",
             "items": [
@@ -599,41 +634,6 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                }
-            ]
-        },
-        {
-            "title": "Mortgages",
-            "value": "MORTGAGES",
-            "items": [
-                {
-                    "title": "Mortgages",
-                    "listIcon": "homeSackFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "MORTGAGE",
-                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
-                },
-                {
-                    "title": "Mortgage Refinancing",
-                    "listIcon": "homeRepeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "minVersion": "77.0.0",
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "REFINANSO_INTRO",
-                    "fallback": "https://www.refinanso.cz/"
                 }
             ]
         },
