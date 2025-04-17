@@ -951,7 +951,9 @@
                 }
             },
             "scoringOk": {
+                "navigationTitle": "Exkluzivně pro vás",
                 "title": "Vaše přání můžeme splnit následovně",
+                "titleSale": "Ušetřete s výhodným úrokem {0} % p.a.",
                 "detail": "S jistotou vím, že tuto částku zvládnu měsíčně splácet",
                 "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
                 "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
@@ -971,23 +973,27 @@
             },
             "scoringMore": {
                 "navigationTitle": "Exkluzivně pro vás",
-                "title": "Připraveno! Můžeme Vám půjčit dokonce až {0}",
+                "title": "Nabídka, která se neopakuje",
                 "titleSale": "Nabídka, která se neopakuje",
                 "detail": "S jistotou vím, že tuto částku zvládnu měsíčně splácet",
-                "headlineOriginal": "Úrok <em>{0}</em>&nbsp;ročně<br>pro vaši volbu",
-                "headlineMore": "Speciální nabídka<br>s&nbsp;úrokem <em>{0}</em>&nbsp;p.&nbsp;a.",
-                "headlineMoreMore": "Ještě více s nižším<br>úrokem <em>{0}</em>&nbsp;ročně",
+                "headlineOriginal": "Úrok {0} ročně<br>pro vaši volbu",
+                "subtitleBefore": "Dříve {0}&nbsp;p.&nbsp;a.",
+                "headlineMore": "Ještě více s nižším úrokem {0} ročně",
+                "headlineMoreMore": "O něco víc<br>s&nbsp;úrokem <em>{0}</em>&nbsp;p.&nbsp;a.",
                 "headlineSale": "Dříve {0} p. a.",
+                "detailMoreTitle": "Vaše volba s výhodným úrokem {0} ročně",
+                "detailMoreMoreTitle": "Ještě více s nižším úrokem {0} ročně",
                 "amount": "Půjčíme Vám",
                 "amountFormat": "<strong>{0}</strong> <small>CZK</small>",
                 "duration": "na dobu",
                 "durationFormat": "<strong>{0}</strong> <small>měsíců</small>",
                 "installment": "s měsíční splátkou",
                 "rateOfInterest": "Roční úroková sazba",
-                "rpsn": "RPSN od <b>{0}</b>",
-                "rpsnSale": "RPSN po slevě od <b>{0}</b>",
+                "rpsn": "RPSN <b>{0}</b>",
+                "rpsnSale": "RPSN po slevě <b>{0}</b>",
                 "percentageRate": "Roční procentní sazba nákladů",
                 "total": "Celkem zaplatíte za úvěr",
+                "unusedFinances": "Finance, které nevyužijete můžete vrátit v mimořádné splátce",
                 "purpose": {
                     "reconstruction": {
                         "title": "Při rekonstrukci naši klienti obvykle počítají i s výdaji na:",
@@ -1079,7 +1085,7 @@
                         ]
                     }
                 },
-                "tip": "<b>Tip</b>: Přebytečné finance můžete kdykoli vrátit v mimořádné splátce za sjednaných podmínek.",
+                "tip": "Finance, které nevyužijete můžete vrátit v mimořádné splátce",
                 "explore": "<small>Prozkoumejte nabídku na</small>\n<b>{0}</b>",
                 "calculator": "Anebo použijte kalkulačku do {0}",
                 "insurance": "Pojištění schopnosti splácet za <b>{0} měsíčně</b> ke splátce",
@@ -1091,7 +1097,12 @@
                 "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
                 "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
                 "primaryButton": "Pokračovat",
-                "secondaryButton": "Nechci tuto nabídku"
+                "secondaryButton": "Nechci tuto nabídku",
+                "sheetIcon": "triangleExclamation",
+                "sheetTitle": "Exkluzivní nabídka se může změnit. Chcete i tak pokračovat?",
+                "sheetDetail": "Vše znovu spočítáme a je možné, že na tak výhodnou nabídku už nedosáhnete.",
+                "sheetPrimaryButton": "Pokračovat",
+                "sheetSecondaryButton": "Zpět"
             },
             "scoringLess": {
                 "title": "Vaše přání můžeme splnit následovně",
