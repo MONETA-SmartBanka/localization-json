@@ -476,7 +476,8 @@
                 [
                     {
                         "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
+                            "TRANSACTION_NOT_MINE",
+                            "WITHDRAWAL_NOT_MINE"
                         ],
                         "clarificationPrompt": "After completing this process, the card {0} will be permanently blocked",
                         "kind": "errorWithCardNumber"
