@@ -1,0 +1,138 @@
+{
+    "title": "Contacts",
+    "dashboard": {
+        "actionType": "PHONECALL",
+        "actionData": "224 443 636",
+        "actionLabelText": "Customer Service"
+    },
+    "sections": [
+        {
+            "title": "Contact us in your applications",
+            "kind": "LARGE_BUTTONS",
+            "items": [
+                {
+                    "actionType": "OPENURL",
+                    "actionData": "https://m.me/138479367229",
+                    "actionLabelText": "Messenger",
+                    "actionImageName": "contactsMessenger"
+                },
+                {
+                    "actionType": "OPENURL",
+                    "actionData": "https://bcrw.apple.com/sms:open?service=iMessage&recipient=urn:biz:3f1d6b85-2f0d-4f0d-a2c6-51a766a2705b",
+                    "actionLabelText": "Messages",
+                    "actionImageName": "contactsMessages",
+                    "platform": "ios"
+                },
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 443 636",
+                    "privateBankerPossible": true,
+                    "actionLabelText": "Call",
+                    "actionImageName": "contactsPhone"
+                }
+            ],
+            "footer": "When you call us from Smart Banka, you don't need to authenticate"
+        },
+        {
+            "title": "Contact details",
+            "kind": "ROWS",
+            "items": [
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 443 636",
+                    "privateBankerPossible": true,
+                    "actionLabelText": "Customer Service"
+                }
+            ]
+        },
+        {
+            "kind": "ROWS",
+            "items": [
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 445 959",
+                    "actionLabelText": "Difficulty with repayment"
+                }
+            ]
+        },
+        {
+            "kind": "ROWS",
+            "items": [
+                {
+                    "actionType": "PHONECALL",
+                    "actionData": "224 442 424",
+                    "actionLabelText": "Product block"
+                },
+                {
+                    "actionType": "APPPAGE",
+                    "actionData": "CARDSOVERVIEW",
+                    "actionImageName": "cardBanFill",
+                    "actionLabelText": "Block card online"
+                }
+            ]
+        },
+        {
+            "kind": "ROWS",
+            "items": [
+              {
+                "actionType": "APPPAGE",
+                "actionData": "PANICBUTTON",
+                "actionImageName": "personAgentFill",
+                "actionLabelText": "Block access to online banking",
+                "actionLabelSubtext": "Immediately without waiting on hold.",
+                "actionColor": "warning"
+              }
+            ]
+        },
+        {
+            "kind": "ROWS",
+            "items": [
+                {
+                    "actionLabelText": "Headquarters",
+                    "actionData": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle"
+                },
+                {
+                    "actionLabelText": "Data Mailbox",
+                    "actionData": "3kpd8nk"
+                },
+                {
+                    "actionLabelText": "Company ID",
+                    "actionData": "25672720"
+                },
+                {
+                    "actionLabelText": "Company VAT ID",
+                    "actionData": "CZ699003117"
+                },
+                {
+                    "actionLabelText": "SWIFT (BIC)",
+                    "actionData": "AGBACZPP"
+                }
+            ]
+        },
+        {
+            "kind": "SMALL_TINTED_BUTTONS",
+            "items": [
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.facebook.com/monetamoneybank/",
+                    "actionImageName": "facebookFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://twitter.com/monetamoney",
+                    "actionImageName": "twitterFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.youtube.com/user/SNGEMB",
+                    "actionImageName": "youtubeFill"
+                },
+                {
+                    "actionType": "WEB",
+                    "actionData": "https://www.instagram.com/moneta_money_bank/",
+                    "actionImageName": "instagramFill"
+                }
+            ]
+        }
+    ]
+}
