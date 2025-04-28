@@ -67,21 +67,22 @@
                     "actionType": "APPPAGE",
                     "actionData": "CARDSOVERVIEW",
                     "actionImageName": "cardBanFill",
-                    "actionLabelText": "Block card online"
+                    "actionLabelText": "Block card online",
+                    "actionColor": "WARNING"
                 }
             ]
         },
         {
             "kind": "ROWS",
             "items": [
-              {
-                "actionType": "APPPAGE",
-                "actionData": "PANICBUTTON",
-                "actionImageName": "personAgentFill",
-                "actionLabelText": "Block access to online banking",
-                "actionLabelSubtext": "Immediately without waiting on hold.",
-                "actionColor": "warning"
-              }
+                {
+                    "actionType": "APPAGE",
+                    "actionData": "PANICBUTTON",
+                    "actionImageName": "personAgentFill",
+                    "actionLabelText": "Block access to online banking",
+                    "actionLabelSubtext": "Immediately without waiting on hold.",
+                    "actionColor": "WARNING"
+                }
             ]
         },
         {

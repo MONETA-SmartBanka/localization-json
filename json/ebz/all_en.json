@@ -1,95 +1,96 @@
 {
     "errorScreens": {
         "defaultError": {
-            "title": "Jejda, něco se pokazilo",
-            "detail": "Mrzí nás to, ale z technických důvodů teď není možné proces dokončit. Zkuste to prosím znovu, popřípadě se můžete k žádosti vrátit později.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zkusit znovu",
-            "secondaryButton": "Zpět na přehled"
+            "title": "Oops, something went wrong",
+            "detail": "Due to a technical error, you cannot finalize the process at this moment. Please try again, or save the application for later.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Try again",
+            "secondaryButton": "Back to Overview"
         }
     },
     "scenes": {
         "productSummary": {
-            "title": "Úvěr zajištěný nemovitostí",
-            "description": "Nyní se splatností až 30 let a zvýšenou maximální částkou.",
+            "title": "Real estate-secured loan",
+            "description": "Now available with a term of up to 30 years and a higher maximum loan amount.",
             "bullets": [
                 {
                     "icon": "tickFill",
-                    "text": "Úvěr do 30 milionů Kč",
-                    "description": "Peníze po schválení převedeme najednou na Váš běžný podnikatelský účet."
+                    "text": "A loan of up to 30 million CZK",
+                    "description": "Once approved, the money will be transferred to your business account."
                 },
                 {
                     "icon": "tickFill",
-                    "text": "Bez dokládání účelu",
-                    "description": "Úvěrem financujete Vaši podnikatelskou činnost. Schvalování je rychlé a jednoduché."
+                    "text": "No need to specify purpose",
+                    "description": "Use this loan to finance your business activities. Approval is fast and easy."
                 },
                 {
                     "icon": "tickFill",
-                    "text": "Splatnost až 30 let",
-                    "description": "Díky zajištění nabízíme delší dobu splácení a nižší splátku."
+                    "text": "Repayment term of up to 30 years",
+                    "description": "Thanks to the collateral, we offer a longer repayment period and lower monthly repayments."
                 },
                 {
                     "icon": "tickFill",
-                    "text": "Zajištění nemovitostí",
-                    "description": "Jako zástavu lze využít rezidenční i nerezidenční nemovitosti včetně pozemků na území ČR."
+                    "text": "Secured by real estate",
+                    "description": "Both residential and non-residential properties, including land in the Czech Republic, can be used as collateral."
                 }
             ],
-            "arrangementSectionHeaderTitle": "Jak probíhá sjednání",
+            "arrangementSectionHeaderTitle": "What the expect during the loan application",
             "arrangementBullets": [
                 {
-                    "text": "Telefonická konzultace",
-                    "description": "Zavolejte svému bankéři pro podrobnější informace"
+                    "text": "Consultation by phone",
+                    "description": "Call your banker for more information"
                 },
                 {
-                    "text": "Jaké dokumenty si připravit",
-                    "description": " \u2022 dva identifikační doklady\n \u2022 doklad opravňující k podnikání\n \u2022 dvě daňová přiznání v plném rozsahu\n \u2022 identifikace nemovitosti + aktuální fotografie interiéru a exteriéru"
+                    "text": "What documents should you prepare",
+                    "description": " \u2022 Two forms of ID\n \u2022 A document authorizing business activity.\n \u2022 Two full tax returns.\n \u2022 Property details + current photos of the interior and exterior."
                 },
                 {
-                    "text": "Sjednání úvěru",
-                    "description": "Nemusíte dokládat účel úvěru. Úvěrem financujete svou podnikatelskou činnost. Schvalování je rychlé a jednoduché"
+                    "text": "Loan application",
+                    "description": "No need to specify purpose of the loan.  Use this loan to finance your business activities. Approval is fast and easy."
                 }
             ],
-            "primaryButton": "Zavolat bankéři",
-            "secondaryButton": "Zavolejte mi",
+            "primaryButton": "Call your banker",
+            "secondaryButton": "Call me",
             "bottomSheet": {
-                "title": "Zavolat bankéři",
-                "description": "Kontaktujte svého osobního bankéře",
+                "title": "Call my banker",
+                "description": "Contact your personal banker",
                 "primaryButton": "{privateBankerName} \u2022 {privateBankerPhoneNumber}"
             }
         },
         "calculator": {
-            "title": "Komu budeme volat?",
-            "firstName": "Jméno",
-            "lastName": "Příjmení",
-            "phone": "Telefon",
+            "title": "Who are we contacting?",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "phone": "Phone number",
             "email": "Email",
-            "dateSectionHeader": "Kdy Vás můžeme kontaktovat?",
+            "dateSectionHeader": "When is the best time to contact you?",
             "date": {
-                "title": "Datum",
-                "hint": "Vyberte datum"
+                "title": "Date",
+                "hint": "Select a date"
             },
             "time": {
-                "title": "Čas",
-                "hint": "Vyberte čas"
+                "title": "Time",
+                "hint": "Select time",
+                "info": "Schedule the call anytime between 9 am to 5 pm."
             },
-            "calculatorSectionHeader": "Kolik potřebujete peněz?",
-            "loanAmount": "Výše úvěru",
-            "collateralType": "Jakou nemovitostí úvěr zajistíte?",
-            "primaryButton": "Pokračovat",
+            "calculatorSectionHeader": "What amount are you interested in?",
+            "loanAmount": "Loan amount",
+            "collateralType": "What property are you using as collateral?",
+            "primaryButton": "Continue",
             "collateralTypes": {
-                "HOUSE": "Rodinný dům",
-                "FLAT": "Byt",
-                "COMMERCIAL_SPACE": "Komerční prostory",
-                "LAND": "Pozemek",
-                "UNKNOWN": "Jiné"
+                "HOUSE": "House",
+                "FLAT": "Apartment",
+                "COMMERCIAL_SPACE": "Commercial real estate",
+                "LAND": "Land",
+                "UNKNOWN": "Other"
             }
         },
         "victory": {
-            "title": "Hotovo! Náš bankéř se Vám ozve.",
-            "detail": "Na Váš email {email} jsme odeslali potvrzení žádosti o telefonický kontakt.\n\nBrzy vás budeme kontaktovat, abychom se dohodli na podrobnostech.\nV případě změny z Vaší strany nebo dotazů nás můžete kontaktovat na naší infolince.",
-            "primaryButton": "Zpět na Přehled",
-            "secondaryButton": "Infolinka {phoneNumber}"
+            "title": "Done! Our banker will get in touch with you soon.",
+            "detail": "We've sent a summary of your request to your email {email}.\n\nWe will contact you soon to discuss the details.\nIf you need to make any changes or have any questions, feel free to contact our Helpline..",
+            "primaryButton": "Back to Overview",
+            "secondaryButton": "Helpline {phoneNumber}"
         }
     }
 }

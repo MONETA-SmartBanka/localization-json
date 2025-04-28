@@ -3,8 +3,8 @@
   "responseObject": {
     "errorScreens": {
       "api": {
-        "title": "We're sorry, something went wrong",
-        "detail": "We can't continue right now. Please try again in a moment.",
+        "title": "Our apologies, an error has ouccurred",
+        "detail": "Please try again later..",
         "callUs": "Call Helpline",
         "branch": "Visit a branch",
         "primaryButton": "Back"
@@ -151,9 +151,9 @@
           },
           {
             "code": "WANTS_UPDATE_ID",
-            "title": "Osobní údaje si jednoduše změníte ve Smart Bance",
-            "detail": "Stačí vyfotit aktuální platný občanský průkaz.<br><br>Jakmile nahraný doklad zpracujeme, dáme Vám vědět. Poté nůžete založit novou žádost o Doplňkové penzijní spoření.",
-            "primaryButton": "Ukončit žádost a změnit osobní údaje",
+            "title": "You can update your personal information easily in Smart Banka",
+            "detail": "Simply take a photo of your valid ID card.<br><br>Once we’ve reviewed and processed the uploaded document, we’ll notify you. You can then proceed to submit a new application for Supplementary Pension Savings.",
+            "primaryButton": "Cancel application and update personal information",
             "secondaryButton": "Back"
           },
           {
@@ -303,74 +303,74 @@
         "amlValues": {
           "sourceOfIncome": [
             {
-              "name": "Příjem ze zaměstnání",
+              "name": "Employment",
               "value": "Příjem ze zaměstnání"
             },
             {
-              "name": "Příjem z podnikání",
+              "name": "Entrepreneur",
               "value": "Příjem z podnikání"
             },
             {
-              "name": "Důchod / Renta",
+              "name": "Pension / Annuity",
               "value": "Důchod / Renta"
             },
             {
-              "name": "Sociální dávky",
+              "name": "Social benefits",
               "value": "Sociální dávky"
             },
             {
-              "name": "Příjem od rodinných příslušníků / Výhra / Dary",
+              "name": "Income from family members / Winnings / Gifts",
               "value": "Příjem od rodinných příslušníků / Výhra / Dary"
             }
           ],
           "sourceOfAssets": [
             {
-              "name": "Dědictví",
+              "name": "Inheritance",
               "value": "Dědictví"
             },
             {
-              "name": "Kapitálový majetek",
+              "name": "Capital assets",
               "value": "Kapitálový majetek"
             },
             {
-              "name": "Podnikání",
+              "name": "Business",
               "value": "Podníkání"
             },
             {
-              "name": "Příjem z licenčních poplatků",
+              "name": "Royalties",
               "value": "Příjem z licenčních poplatků"
             },
             {
-              "name": "Vlastnictví nebo prodej obchodní společnosti",
-              "description": "Nebo jejího podílu",
+              "name": "Shareholding / Ownership in a business company",
+              "description": "Or its share",
               "value": "Vlastnictví nebo prodej obchodní společnosti"
             },
             {
-              "name": "Vlastnictví nemovitosti",
-              "description": "Např. nájem nebo hypoteční úvěr",
+              "name": "Realestate",
+              "description": "E.g., rent or mortgage ",
               "value": "Vlastnictví nemovitosti"
             },
             {
-              "name": "Závislá činnost",
-              "description": "Např. zaměstnání",
+              "name": "Gainful employment ",
+              "description": "E.g., employment",
               "value": "Závislá činnost"
             },
             {
-              "name": "Jiné",
+              "name": "Other",
               "value": "Jiné"
             }
           ],
           "income": [
             {
-              "name": "Do 50000 Kč",
+              "name": "less than 50,000 CZK a month",
               "value": "Do 50000 Kč"
             },
             {
-              "name": "Od 50000 Kč do 100000 Kč",
+              "name": "from 50,000 CZK to 100,000 CZK",
               "value": "Od 50000 Kč do 100000 Kč"
             },
             {
-              "name": "Nad 100000 Kč",
+              "name": "more than 100,000 CZK",
               "value": "Nad 100000 Kč"
             }
           ]
@@ -395,19 +395,19 @@
             "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure.",
             "documents": [
               {
-                "title": "Podrobnější přehled účastnických fondů",
+                "title": "Detailed Overview of Participant Funds",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               },
               {
-                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
               },
               {
-                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
               },
               {
-                "title": "Portfolia účastnických fondů",
+                "title": "Participant Funds Portfolios",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               }
             ]
@@ -418,19 +418,19 @@
             "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  ",
             "documents": [
               {
-                "title": "Podrobnější přehled účastnických fondů",
+                "title": "Detailed Overview of Participant Funds",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               },
               {
-                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
               },
               {
-                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
               },
               {
-                "title": "Portfolia účastnických fondů",
+                "title": "Participant Funds Portfolios",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               }
             ]
@@ -441,19 +441,19 @@
             "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds.",
             "documents": [
               {
-                "title": "Podrobnější přehled účastnických fondů",
+                "title": "Detailed Overview of Participant Funds",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               },
               {
-                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
               },
               {
-                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
               },
               {
-                "title": "Portfolia účastnických fondů",
+                "title": "Participant Funds Portfolios",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               }
             ]
@@ -464,19 +464,19 @@
             "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy.",
             "documents": [
               {
-                "title": "Podrobnější přehled účastnických fondů",
+                "title": "Detailed Overview of Participant Funds",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               },
               {
-                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
+                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
               },
               {
-                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
+                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
                 "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
               },
               {
-                "title": "Portfolia účastnických fondů",
+                "title": "Participant Funds Portfolios",
                 "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
               }
             ]
@@ -517,7 +517,7 @@
           "new": {
             "title": "Only new funds"
           },
-          "validation": "Pro pokračování musíte vybrat, jaké prostředky chcete převést do nového fondu."
+          "validation": "Confirm the acknowledgment in order to continue."
         },
         "validationSum": "The sum of the distribution of the funds must be equal to 100 %",
         "alreadySelected": {
@@ -528,8 +528,8 @@
         }
       },
       "scoring": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-        "detail": "Potrvá to jen chviličku"
+        "title": "Just a moment while we review the details",
+        "detail": "It should only take a moment"
       },
       "contract": {
         "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
@@ -546,13 +546,13 @@
         }
       },
       "depositVictory": {
-        "title": "Hotovo! Změna Doplňkového penzijního spoření je platná od {0}",
-        "detail": "Pokud vám bude na spoření přispívat zaměstnavatel, přepošlete mu prosím smlouvu od NN pojišťovny. Najdete ji ve svém e-mailu.",
-        "tooltip": "Nezapomeňte si nastavit výši vašeho trvalého příkazu na {0}.",
-        "section": "Nastavte si trvalý příkaz {0} z účtu:",
-        "dateTitle": "Posílat vždy",
-        "dateValue": "{0}. den v měsíci",
-        "from": "Odesíláte z účtu",
+        "title": "Done! The change will become effective from {0}",
+        "detail": "If your employer is going to contribute to your savings, please share your NN Penzijní Společnost agreement with them. You can find it in your email.",
+        "tooltip": "Don't forget to set up a standing order amount for {0}.",
+        "section": "Set up a standing order for {0} from:",
+        "dateTitle": "Execute on the",
+        "dateValue": "{0}. of the month",
+        "from": "From",
         "defaultValue": 25,
         "dateValues": [
           1,
@@ -584,15 +584,15 @@
           27,
           28
         ],
-        "firstPayment": "První platba odejde {0}",
-        "primaryButton": "Nastavit trvalý příkaz",
+        "firstPayment": "First Payment {0}",
+        "primaryButton": "Set up the standing order",
         "primaryButtonWoStandingOrder": "Back to Overview",
-        "secondaryButton": "Příkaz nastavím později",
+        "secondaryButton": "Set up later",
         "destinationAccountNumber": {
           "bankCode": 800,
           "number": 5005004433
         },
-        "standingOrderName": "Penzijní spoření"
+        "standingOrderName": "Pension savings"
       },
       "strategyVictory": {
         "title": "Done!\nYou will receive a confirmation of the change in your Supplementary Pension Savings strategy by email.",
