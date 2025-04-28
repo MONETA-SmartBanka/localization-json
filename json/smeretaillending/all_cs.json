@@ -169,13 +169,6 @@
             "primaryButton": "Zkusit to znovu",
             "secondaryButton": "Zpět na Přehled"
         },
-        "scoringDeniedExpres": {
-            "title": "Pro schválení Vaší žádosti budeme potřebovat více informací",
-            "detail": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled"
-        },
         "precontractDisagree": {
             "title": "Bez toho to bohužel nepůjde...",
             "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
@@ -215,10 +208,6 @@
                     {
                         "icon": "tickFill",
                         "text": "Elektronické výpisy přímo v Internet Bance a Smart Bance"
-                    },
-                    {
-                        "icon": "tickFill",
-                        "text": "Až {benefitReward} % zpět za platby kartou u partnerů <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a> v ČR"
                     },
                     {
                         "icon": "tickFill",
@@ -428,7 +417,6 @@
                     "{freeTransactions} odchozích a příchozích elektronických transakcí, okamžité platby a SEPA platby",
                     "Vklady přes bankomaty MONETA Money Bank",
                     "Elektronické výpisy přímo v Internet Bance a Smart Bance",
-                    "Až {benefitReward} % zpět za platby kartou u partnerů <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a> v ČR",
                     "Služby vlastního bankéře, na kterého se můžete kdykoliv obrátit"
                 ],
                 "campaignBullets": [
@@ -585,7 +573,6 @@
                 "identificationNumber": "Jsem podnikatel a mám aktivní IČO",
                 "disclaimer": "Než budeme pokračovat je potřeba zaškrtnout, že jste podnikatel a máte aktivní IČO.",
                 "message": "Potřebujete vyšší částku? Rádi Vás obsloužíme na <b>pobočce</b>, kde Vám můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\"><b>úvěr se zárukou Evropského investičního fondu.</b></a>",
-                "messageEbz": "Potřebujete vyšší částku?\nZastavte se prosím za námi na některé z našich <a href=\"https://www.moneta.cz/kontakt/schuzka-na-pobocce\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
                 "primaryButton": "Pokračovat",
                 "secondaryButton": "Zpět"
             },
@@ -917,8 +904,7 @@
                     "subValue": "min. {0}"
                 },
                 "firstInstallmentDate": "Datum první splátky",
-                "message": "Pro vyšší částku prosím navštivte některou z našich <a href=\"smartbanka://open?ACTION=APPPAGE&URL=BRANCHESATMS\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
-                "messageEbz": "Pro vyšší částku prosím navštivte některou z našich <a href=\"https://www.moneta.cz/kontakt/schuzka-na-pobocce\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
+                "message": "Pro vyšší částku prosím navštivte některou z našich <a href=\"branches\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
                 "upsellOriginalVariant": "Původní nabídka",
                 "upsellAdditionalVariants": "Speciální nabídky",
                 "upsellCommonValues": "Společné parametry pro všechny varianty",
@@ -1276,7 +1262,6 @@
                     "{freeTransactions} odchozích a příchozích elektronických transakcí, okamžité platby a SEPA platby",
                     "Vklady přes bankomaty MONETA Money Bank",
                     "Elektronické výpisy přímo v Internet Bance a Smart Bance",
-                    "Až {benefitReward} % zpět za platby kartou u partnerů <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a> v ČR",
                     "Služby vlastního bankéře, na kterého se můžete kdykoliv obrátit."
                 ],
                 "campaignBullets": [
@@ -1317,8 +1302,8 @@
                 ],
                 "perks": {
                     "title": "Výhody kreditní karty",
-                    "detail": "Sjednání a vedení karty je zcela zdarma. {benefitReward} zpět z každé transakce neomezeně.\n\n<b>bene+</b> je věrnostní program, ve kterém Vám vrátíme až {benefitRewardBenePlus} za každou platbu kreditní kartou u našich partnerů bene+. Využijte pravidelné speciální akce s ještě výhodnějšími podmínkami. Více na stránkách <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a>.",
-                    "detailPromo": "Sjednání a vedení karty je zcela zdarma.<br><br><b>bene+</b> je věrnostní program, ve kterém Vám vrátíme až 30 % za každou platbu kreditní kartou u našich partnerů bene+. Využijte pravidelné speciální akce s ještě výhodnějšími podmínkami. Více na stránkách <a href=\"https://www.moneta.cz/ucty-a-karty/vernostni-program-beneplus\">bene+</a>."
+                    "detail": "Sjednání a vedení karty je zcela zdarma. {benefitReward} zpět z každé transakce neomezeně.",
+                    "detailPromo": "Sjednání a vedení karty je zcela zdarma."
                 },
                 "dictionary": {
                     "title": "Slovníček",
