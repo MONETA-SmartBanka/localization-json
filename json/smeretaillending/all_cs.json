@@ -169,6 +169,13 @@
             "primaryButton": "Zkusit to znovu",
             "secondaryButton": "Zpět na Přehled"
         },
+        "scoringDeniedExpres": {
+            "title": "Pro schválení Vaší žádosti budeme potřebovat více informací",
+            "detail": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na Přehled"
+        },
         "precontractDisagree": {
             "title": "Bez toho to bohužel nepůjde...",
             "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
@@ -573,6 +580,7 @@
                 "identificationNumber": "Jsem podnikatel a mám aktivní IČO",
                 "disclaimer": "Než budeme pokračovat je potřeba zaškrtnout, že jste podnikatel a máte aktivní IČO.",
                 "message": "Potřebujete vyšší částku? Rádi Vás obsloužíme na <b>pobočce</b>, kde Vám můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\"><b>úvěr se zárukou Evropského investičního fondu.</b></a>",
+                "messageEbz": "Potřebujete vyšší částku?\nZastavte se prosím za námi na některé z našich <a href=\"https://www.moneta.cz/kontakt/schuzka-na-pobocce\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
                 "primaryButton": "Pokračovat",
                 "secondaryButton": "Zpět"
             },
@@ -904,7 +912,8 @@
                     "subValue": "min. {0}"
                 },
                 "firstInstallmentDate": "Datum první splátky",
-                "message": "Pro vyšší částku prosím navštivte některou z našich <a href=\"branches\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
+                "message": "Pro vyšší částku prosím navštivte některou z našich <a href=\"smartbanka://open?ACTION=APPPAGE&URL=BRANCHESATMS\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\">úvěr se zárukou Evropského investičního fondu</a>.",
+                "messageEbz": "Pro vyšší částku prosím navštivte některou z našich <a href=\"https://www.moneta.cz/kontakt/schuzka-na-pobocce\">poboček</a>, kde Vám kromě klasického splátkového úvěru můžeme nabídnout i <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">úvěr zajištěný nemovitostí</a>.",
                 "upsellOriginalVariant": "Původní nabídka",
                 "upsellAdditionalVariants": "Speciální nabídky",
                 "upsellCommonValues": "Společné parametry pro všechny varianty",
