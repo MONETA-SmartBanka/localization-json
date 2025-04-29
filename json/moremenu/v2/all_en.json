@@ -19,41 +19,6 @@
                     "actionType": "APPPAGE",
                     "actionValue": "DATEIO"
                 }
-                ]
-        },
-        {
-            "title": "Mortgages",
-            "value": "MORTGAGES",
-            "items": [
-                {
-                    "title": "Mortgages",
-                    "listIcon": "homeSackFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "MORTGAGE",
-                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
-                },
-                {
-                    "title": "Mortgage Refinancing",
-                    "listIcon": "homeRepeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "minVersion": "77.0.0",
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "REFINANSO_INTRO",
-                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
-                }
             ]
         },
         {
@@ -188,14 +153,22 @@
                     "listIcon": "userFill",
                     "userClientTypeList": [
                         "FO",
-                        "FOP",
-                        "PO",
                         "ZAM",
                         "ZDRAV"
                     ],
                     "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                    "actionType": "APPPAGE",
+                    "actionValue": "SME_NTC_CURRENT_ACCOUNT"
+                },
+                {
+                    "title": "Account for entrepreneurs",
+                    "listIcon": "userFill",
+                    "userClientTypeList": [
+                        "FOP"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "SME_SECOND_ACCOUNT"
                 },
                 {
                     "title": "Payment Cards",
@@ -417,7 +390,7 @@
                     "title": "Credit account",
                     "listIcon": "cardFill",
                     "userClientTypeList": [
-
+                        
                     ],
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
@@ -634,6 +607,41 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                }
+            ]
+        },
+        {
+            "title": "Mortgages",
+            "value": "MORTGAGES",
+            "items": [
+                {
+                    "title": "Mortgages",
+                    "listIcon": "homeSackFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "PO",
+                        "ZAM",
+                        "ZDRAV"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "MORTGAGE",
+                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
+                },
+                {
+                    "title": "Mortgage Refinancing",
+                    "listIcon": "homeRepeatFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "PO",
+                        "ZAM",
+                        "ZDRAV"
+                    ],
+                    "minVersion": "77.0.0",
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "REFINANSO_INTRO",
+                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
                 }
             ]
         },
