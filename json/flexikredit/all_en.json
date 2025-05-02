@@ -110,6 +110,8 @@
         "amount": "Overdraft amount",
         "arrangementFee": "Opening and management fee",
         "drawdownFee": "Drawdown fee",
+        "interestRate": "Annual interest rate",
+        "rpsn": "Annual percentage rate",
         "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
         "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}}\u00a0CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}}\u00a0%, drawdown fee {{drawdownFee}}\u00a0CZK, APR {{rpsn}}\u00a0% and the total due amount {{totalDueAmount}}\u00a0CZK.",
         "needOtherTimeTitle": "Do you need to finish the application later?",
@@ -371,17 +373,26 @@
           "EMPLOYMENT_INCOME": {
             "title": "Jaký je váš současný zaměstnavatel?",
             "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Zaměstnavatel"
+            "employerTitle": "Zaměstnavatel",
+            "czechEmployer": "Český zaměstnavatel",
+            "foreignEmployer": "Zahraniční zaměstnavatel",
+            "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
           },
           "BUSINESS_INCOME": {
             "title": "Subjekt",
             "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-            "employerTitle": "Subjekt"
+            "employerTitle": "Subjekt",
+            "czechEmployer": "Česká společnost",
+            "foreignEmployer": "Zahraniční společnost",
+            "switchToForeignEmployer": "Podnikám v zahraničí"
           },
           "RENT": {
             "title": "Kdo vám rentu vyplácí?",
             "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Subjekt vyplácející rentu"
+            "employerTitle": "Subjekt vyplácející rentu",
+            "czechEmployer": "Česká společnost",
+            "foreignEmployer": "Zahraniční společnost",
+            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
           }
         },
         "solvency": {

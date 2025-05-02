@@ -28,7 +28,7 @@
       "title": "Bez souhlasu to bohužel nepůjde",
       "detail": "Od Vaší nové kreditky Vás dělí už jen krůček. Abychom Vám ji mohli poskytnout, potřebujeme od Vás souhlas s předsmluvními informacemi. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
       "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
+      "branch": "Navštivte nás\nna pobočce",
       "secondaryButton": "Ukončit žádost",
       "primaryButton": "Pokračovat ve sjednání kreditky"
     },
@@ -36,7 +36,7 @@
       "title": "Bez souhlasu to bohužel nepůjde",
       "detail": "Od Vaší nové kreditky Vás dělí už jen krůček. Abychom Vám ji mohli poskytnout, potřebujeme od Vás podpis smlouvy. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
       "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
+      "branch": "Navštivte nás\nna pobočce",
       "secondaryButton": "Ukončit žádost",
       "primaryButton": "Pokračovat ve sjednání kreditky"
     },
@@ -44,7 +44,7 @@
       "title": "Potřebujete více?",
       "detail": "O kreditní kartu s vyšším limitem si můžete jednoduše zažádat v Internet Bance. Pokud to chcete raději probrat osobně, zavolejte nám nebo nás navštivte na pobočce.",
       "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
+      "branch": "Navštivte nás\nna pobočce",
       "primaryButton": "Zpět",
       "secondaryButton": "Přejít na Přehled"
     }
@@ -67,7 +67,7 @@
       "primaryButton": "Dokončit žádost jindy",
       "confusedHeadline": "Nevíte si s něčím rady a potřebujete poradit?",
       "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
+      "branch": "Navštivte nás\nna pobočce",
       "buttonWhatIsCreditCard": "Jak funguje kreditní karta?"
     },
     "howItWorks": {
@@ -89,7 +89,7 @@
       ],
       "confusedHeadline": "Nevíte si s něčím rady a potřebujete poradit?",
       "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
+      "branch": "Navštivte nás\nna pobočce",
       "primaryButton": "Zpět"
     },
     "intro": {
@@ -107,7 +107,7 @@
       "secondaryButton": "Jak to funguje?"
     },
     "reward": {
-      "title": "Nejdříve si vyberte balíček, ze které získáte 1 % zpět",
+      "title": "Nejdříve si vyberte balíček, ze kterého získáte 1 % zpět",
       "discounts": [
         {
           "title": "Dům, hobby a zahrada",
@@ -379,17 +379,26 @@
         "EMPLOYMENT_INCOME": {
           "title": "Jaký je váš současný zaměstnavatel?",
           "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Zaměstnavatel"
+          "employerTitle": "Zaměstnavatel",
+          "czechEmployer": "Český zaměstnavatel",
+          "foreignEmployer": "Zahraniční zaměstnavatel",
+          "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
         },
         "BUSINESS_INCOME": {
           "title": "Subjekt",
           "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-          "employerTitle": "Subjekt"
+          "employerTitle": "Subjekt",
+          "czechEmployer": "Česká společnost",
+          "foreignEmployer": "Zahraniční společnost",
+          "switchToForeignEmployer": "Podnikám v zahraničí"
         },
         "RENT": {
           "title": "Kdo vám rentu vyplácí?",
           "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Subjekt vyplácející rentu"
+          "employerTitle": "Subjekt vyplácející rentu",
+          "czechEmployer": "Česká společnost",
+          "foreignEmployer": "Zahraniční společnost",
+          "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
         }
       },
       "solvency": {

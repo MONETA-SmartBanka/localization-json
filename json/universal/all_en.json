@@ -22,7 +22,7 @@
                     }
                 ],
                 "error": "You must agree to the Terms in order to continue",
-                "consent": "I agree to the terms of the <a href=\"https://www.moneta.cz/documents/20143/11740692/mmb-podminky-programu-odmeny.pdf\">Loyalty Program</a> acknowledge the extent of <a href=\"https://www.moneta.cz/documents/20143/11740692/mmb-souhlas-s-programem-odmeny-a-zpracovanim-osobnich-udaju.pdf\">sharing and processing of personal data</a>.",
+                "consent": "I agree to the terms of the <a href=\"https://www.moneta.cz/documents/20143/11740692/mmb-podminky-programu-odmeny.pdf\">Loyalty Program</a> acknowledge the extent of sharing and <a href=\"https://www.moneta.cz/documents/20143/11740692/mmb-souhlas-s-programem-odmeny-a-zpracovanim-osobnich-udaju.pdf\">processing of personal data</a>.",
                 "primaryButton": "Continue",
                 "secondaryButton": "Learn More About Rewards"
             },
@@ -655,9 +655,9 @@
                     },
                     {
                         "code": "PO_CONTEXT_REMOVAL",
-                        "title": "Tento přístup k firemnímu profilu byl z bezpečnostních důvodů zrušen",
-                        "body": "<b>Od teď je možné používat jen přístupy vedené na vaše osobní údaje – tzv. eDisponent.</b>\n\nPokud používáte Smart Banku (pro osobní nebo podnikatelské účely), může být váš přístup k firemnímu účtu již aktivní.\n\n<b>Nevidíte po spuštění Smart Banky svůj eDisponentský firemní profil?</b>\nKontaktujte svého bankéře a spárujte eDisponentský přístup znovu, nebo se identifikujte jako nový eDisponent.\n\nPro více informací nás můžete kontaktovat 224 444 544.",
-                        "primaryButton": "Rozumím"
+                        "title": "This profile of a legal entity has been cancelled due to security reasons",
+                        "body": "<b>From now on, please use the login and access in your name as an eDisponent.</b>\n\nIf you use Smart Banka for perosnal or business accounts, your access may already be active. If you do not see your business eDisponent profile after you log in to Smart Banka, please contact your banker and pair your eDisponent access again or create a new eDisponent profile. For more information, contact us at 224 444 544.",
+                        "primaryButton": "Confirm"
                     }
                 ]
             },
@@ -718,9 +718,9 @@
                     "contract": "Vaše smlouva",
                     "owner": "Majitel",
                     "fundInfo": "Informace o fondech",
+                    "faqTitle": "Často kladené otázky",
                     "settingsTitle": "Nastavení spoření",
                     "settingsDetail": "Vhodná strategie a pravidelné vklady vám pomohou se spořením na penzi.",
-                    "faqTitle": "Často kladené otázky",
                     "faqList": [
                         {
                             "title": "Kde najdu smlouvu o Doplňkovém penzijním spoření pro zaměstnavatele?",
@@ -818,7 +818,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -849,7 +849,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -880,7 +880,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -911,7 +911,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -942,7 +942,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -973,7 +973,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1004,7 +1004,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 3,0 % p. a. do 31. 3. 2025",
+                            "title": "GARANCE úroku 3,0 % p. a. do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1089,8 +1089,8 @@
                     "secondaryButton": "Pokračovat v platbě"
                 },
                 {
-                    "salesProdType": "43007",
-                    "title": "A special offer just for you:\nEarn 3.3% interest with our term deposit",
+                    "salesProdType": "14007",
+                    "title": "A special offer just for you:\nEarn 3.3 % annual interest with our term deposit",
                     "icon": "moneta",
                     "bullets": [
                         {
@@ -1108,7 +1108,34 @@
                     ],
                     "primaryButton": {
                         "actionType": "APPPAGE",
-                        "actionLabelText": "Term deposit with an interest rate of 3,3 %",
+                        "actionLabelText": "Term deposit with an interest rate of 3,3 %",
+                        "actionData": "JTVETB",
+                        "ibRoute": "/application/savingsTermDeposit/offer",
+                        "ibAnalyticsCode": "Retention Savings Banner JTV"
+                    },
+                    "secondaryButton": "Continue payment"
+                },
+                {
+                    "salesProdType": "14008",
+                    "title": "A special offer just for you:\nEarn 3.3 % annual interest with our term deposit",
+                    "icon": "moneta",
+                    "bullets": [
+                        {
+                            "title": "No maximum limit on deposit",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "This offer is available for the next 24 hours only",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "It only takes a couple of minutes to arrange online",
+                            "icon": "smartBankaFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Term deposit with an interest rate of 3,3 %",
                         "actionData": "JTVETB",
                         "ibRoute": "/application/savingsTermDeposit/offer",
                         "ibAnalyticsCode": "Retention Savings Banner JTV"
@@ -1126,7 +1153,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 3,2 % p. a. do 31. 3. 2025",
+                            "title": "GARANCE úroku 3,2 % p. a. do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1182,7 +1209,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 1. 6. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
