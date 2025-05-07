@@ -1,0 +1,21 @@
+#!/bin/bash
+
+# Získání posledního tagu
+LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null)
+
+# Kontrola, zda existuje nějaký tag
+if [ -z "$LAST_TAG" ]; then
+    echo "Žádný tag nenalezen. Kontroluji všechny soubory."
+    FILES=$(git ls-files)
+else
+    echo "Kontroluji změny od posledního tagu: $LAST_TAG"
+    FILES=$(git ls-files)
+fi
+
+# Procházení souborů a stažení změn
+for FILE in $FILES; do
+    echo "Stahuji změny: $FILE"
+    curl -s -o "$FILE" "https://tembs.internetbanka.cz/$FILE"
+done
+
+echo "Hotovo"
