@@ -17,11 +17,11 @@
         },
         "description": {
             "fee": {
-              "icon": "handshake",
-              "title": "Claim via Moneta",
-              "detail": "If you have contacted the merchant and your claim has not been resolved to your satisfaction, we will be happy to assist you for a fee of 300 CZK",
-              "primaryButton": "Agree, continue",
-              "secondaryButton": "I'm not interested"
+                "icon": "handshake",
+                "title": "Claim via Moneta",
+                "detail": "If you have contacted the merchant and your claim has not been resolved to your satisfaction, we will be happy to assist you for a fee of 300 CZK",
+                "primaryButton": "Agree, continue",
+                "secondaryButton": "I'm not interested"
             },
             "transaction": {
                 "title": "What happened?",
@@ -71,8 +71,7 @@
                         "items": [
                             {
                                 "complaintEventType": 7,
-                                "complaintEventTypePrompt": "Undelivered or not provided",
-                                "feeAgreementRequired": true
+                                "complaintEventTypePrompt": "Undelivered or not provided"
                             },
                             {
                                 "complaintEventType": 8,
@@ -80,8 +79,7 @@
                             },
                             {
                                 "complaintEventType": 9,
-                                "complaintEventTypePrompt": "The goods do not match the description",
-                                "feeAgreementRequired": true
+                                "complaintEventTypePrompt": "The goods do not match the description"
                             }
                         ]
                     }

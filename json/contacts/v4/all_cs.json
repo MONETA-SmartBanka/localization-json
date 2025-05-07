@@ -67,21 +67,22 @@
                     "actionType": "APPPAGE",
                     "actionData": "CARDSOVERVIEW",
                     "actionImageName": "cardBanFill",
-                    "actionLabelText": "Zablokovat kartu online"
+                    "actionLabelText": "Zablokovat kartu online",
+                    "actionColor": "warning"
                 }
             ]
         },
         {
             "kind": "ROWS",
             "items": [
-              {
-                "actionType": "APPPAGE",
-                "actionData": "PANICBUTTON",
-                "actionImageName": "personAgentFill",
-                "actionLabelText": "Zablokovat bankovnictví",
-                "actionLabelSubtext": "Při podezření na zneužití účtu. Okamžitě a bez čekání na telefonní lince.",
-                "actionColor": "warning"
-              }
+                {
+                    "actionType": "APPPAGE",
+                    "actionData": "PANICBUTTON",
+                    "actionImageName": "personAgentFill",
+                    "actionLabelText": "Zablokovat bankovnictví",
+                    "actionLabelSubtext": "Při podezření na zneužití účtu. Okamžitě a bez čekání na telefonní lince.",
+                    "actionColor": "warning"
+                }
             ]
         },
         {

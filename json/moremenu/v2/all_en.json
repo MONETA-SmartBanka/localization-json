@@ -102,6 +102,132 @@
             ]
         },
         {
+            "title": "Insurance",
+            "value": "INSURANCES",
+            "items": [
+                {
+                    "title": "My Insurance",
+                    "listIcon": "userFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCELIST"
+                },
+                {
+                    "title": "Travel Insurance",
+                    "listIcon": "suitcaseRollingFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "TRAVELINSURANCE"
+                },
+                {
+                    "title": "Accident Insurance",
+                    "listIcon": "medicalKitFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "ACCIDENT_INSURANCE"
+                },
+                {
+                    "title": "Phone and Cards Insurance",
+                    "listIcon": "smartBankaFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCEOFFERS"
+                },
+                {
+                    "title": "Online Payment Insurance",
+                    "listIcon": "userSecretCardFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCEOFFERS"
+                },
+                {
+                    "title": "Mortgage repayment insurance",
+                    "listIcon": "shieldBlankFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Legal protection insurance",
+                    "listIcon": "scaleBalancedFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Property insurance",
+                    "listIcon": "homeCouchFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Life Insurance",
+                    "listIcon": "healthcareFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Credit repayment insurance",
+                    "listIcon": "loanFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                }
+            ]
+        },
+        {
             "title": "Payments and Cards",
             "value": "PAYMENTS",
             "items": [
@@ -390,7 +516,7 @@
                     "title": "Credit account",
                     "listIcon": "cardFill",
                     "userClientTypeList": [
-                        
+
                     ],
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
@@ -493,120 +619,6 @@
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
                     "actionValue": "SME_NTC_CURRENT_ACCOUNT"
-                }
-            ]
-        },
-        {
-            "title": "Insurance",
-            "value": "INSURANCES",
-            "items": [
-                {
-                    "title": "Travel Insurance",
-                    "listIcon": "suitcaseRollingFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "TRAVELINSURANCE"
-                },
-                {
-                    "title": "Accident Insurance",
-                    "listIcon": "medicalKitFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "ACCIDENT_INSURANCE"
-                },
-                {
-                    "title": "Mortgage repayment insurance",
-                    "listIcon": "shieldBlankFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Legal protection insurance",
-                    "listIcon": "scaleBalancedFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Property insurance",
-                    "listIcon": "homeCouchFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Life Insurance",
-                    "listIcon": "healthcareFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Phone and Cards Insurance",
-                    "listIcon": "smartBankaFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Online Payment Insurance",
-                    "listIcon": "userSecretCardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Credit repayment insurance",
-                    "listIcon": "loanFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
                 }
             ]
         },
