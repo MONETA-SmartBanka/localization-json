@@ -102,6 +102,132 @@
             ]
         },
         {
+            "title": "Pojištění",
+            "value": "INSURANCES",
+            "items": [
+                {
+                    "title": "Moje pojištění",
+                    "listIcon": "userFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCELIST"
+                },
+                {
+                    "title": "Cestovní pojištění",
+                    "listIcon": "suitcaseRollingFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "TRAVELINSURANCE"
+                },
+                {
+                    "title": "Úrazové pojištění",
+                    "listIcon": "medicalKitFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "ACCIDENT_INSURANCE"
+                },
+                {
+                    "title": "Pojištění telefonu a karet",
+                    "listIcon": "smartBankaFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCEOFFERS"
+                },
+                {
+                    "title": "Pojištění elektronických plateb",
+                    "listIcon": "userSecretCardFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "INSURANCEOFFERS"
+                },
+                {
+                    "title": "Pojištění splácení hypotéky",
+                    "listIcon": "shieldBlankFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Pojištění právní ochrany",
+                    "listIcon": "scaleBalancedFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Pojištění majetku",
+                    "listIcon": "homeCouchFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Životní pojištění",
+                    "listIcon": "healthcareFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                },
+                {
+                    "title": "Pojištění splácení úvěrů",
+                    "listIcon": "loanFill",
+                    "userClientTypeList": [
+                        "FO",
+                        "FOP",
+                        "ZAM"
+                    ],
+                    "shouldCheckEligibility": false,
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                }
+            ]
+        },
+        {
             "title": "Placení a karty",
             "value": "PAYMENTS",
             "items": [
@@ -493,120 +619,6 @@
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
                     "actionValue": "SME_NTC_CURRENT_ACCOUNT"
-                }
-            ]
-        },
-        {
-            "title": "Pojištění",
-            "value": "INSURANCES",
-            "items": [
-                {
-                    "title": "Cestovní pojištění",
-                    "listIcon": "suitcaseRollingFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "TRAVELINSURANCE"
-                },
-                {
-                    "title": "Úrazové pojištění",
-                    "listIcon": "medicalKitFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "ACCIDENT_INSURANCE"
-                },
-                {
-                    "title": "Pojištění splácení hypotéky",
-                    "listIcon": "shieldBlankFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Pojištění právní ochrany",
-                    "listIcon": "scaleBalancedFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Pojištění majetku",
-                    "listIcon": "homeCouchFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Životní pojištění",
-                    "listIcon": "healthcareFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Pojištění telefonu a karet",
-                    "listIcon": "smartBankaFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Pojištění elektronických plateb",
-                    "listIcon": "userSecretCardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Pojištění splácení úvěrů",
-                    "listIcon": "loanFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
                 }
             ]
         },
