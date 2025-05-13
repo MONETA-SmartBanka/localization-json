@@ -1,756 +1,756 @@
 {
-    "title": "More",
-    "showAll": "View All",
-    "sections": [
+  "title": "More",
+  "showAll": "View All",
+  "sections": [
+    {
+      "value": "DATEIO",
+      "items": [
         {
-            "value": "DATEIO",
-            "items": [
-                {
-                    "title": "Rewards",
-                    "listIcon": "giftFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "DATEIO"
-                }
-            ]
-        },
-        {
-            "title": "Savings and Investments",
-            "value": "SAVINGS",
-            "items": [
-                {
-                    "title": "Savings",
-                    "listIcon": "savingsFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SAVINGS"
-                },
-                {
-                    "title": "Investments and Mutual Funds",
-                    "listIcon": "investmentsFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INVESTMENTS"
-                },
-                {
-                    "title": "Building Savings",
-                    "listIcon": "walletPiggyBankFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BUILDING_SAVINGS"
-                },
-                {
-                    "title": "Term Deposit",
-                    "listIcon": "calendarPiggyBankFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "RTVETB"
-                },
-                {
-                    "title": "Building savings loan",
-                    "listIcon": "wallSackFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Supplementary pension savings",
-                    "listIcon": "faceOldtFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "DPS_NN"
-                }
-            ]
-        },
-        {
-            "title": "Insurance",
-            "value": "INSURANCES",
-            "items": [
-                {
-                    "title": "My Insurance",
-                    "listIcon": "userFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCELIST"
-                },
-                {
-                    "title": "Travel Insurance",
-                    "listIcon": "suitcaseRollingFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "TRAVELINSURANCE"
-                },
-                {
-                    "title": "Accident Insurance",
-                    "listIcon": "medicalKitFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "ACCIDENT_INSURANCE"
-                },
-                {
-                    "title": "Phone and Cards Insurance",
-                    "listIcon": "smartBankaFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Online Payment Insurance",
-                    "listIcon": "userSecretCardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "INSURANCEOFFERS"
-                },
-                {
-                    "title": "Mortgage repayment insurance",
-                    "listIcon": "shieldBlankFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Legal protection insurance",
-                    "listIcon": "scaleBalancedFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Property insurance",
-                    "listIcon": "homeCouchFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Life Insurance",
-                    "listIcon": "healthcareFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Credit repayment insurance",
-                    "listIcon": "loanFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                }
-            ]
-        },
-        {
-            "title": "Payments and Cards",
-            "value": "PAYMENTS",
-            "items": [
-                {
-                    "title": "Current Accounts",
-                    "listIcon": "accountFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CURRENTACCOUNTS"
-                },
-                {
-                    "title": "Family Account",
-                    "listIcon": "catTomPlusFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "FAMILYACCOUNT"
-                },
-                {
-                    "title": "Currency Exchange",
-                    "listIcon": "repeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "FXMONEY",
-                    "dispoModel": {
-                        "type": "Account",
-                        "right": "FOREIGN_EXCHANGE_ONLINE"
-                    }
-                },
-                {
-                    "title": "Account for entrepreneurs",
-                    "listIcon": "userFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_CURRENT_ACCOUNT"
-                },
-                {
-                    "title": "Account for entrepreneurs",
-                    "listIcon": "userFill",
-                    "userClientTypeList": [
-                        "FOP"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_SECOND_ACCOUNT"
-                },
-                {
-                    "title": "Payment Cards",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CARDSOVERVIEW"
-                },
-                {
-                    "title": "Credit Top Up",
-                    "listIcon": "mobilePlusFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CREDITTOPUP",
-                    "dispoModel": {
-                        "type": "Account",
-                        "right": "MOBILE_TOPUP"
-                    }
-                },
-                {
-                    "title": "Payment Templates",
-                    "listIcon": "copyFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "MYTEMPLATES",
-                    "dispoModel": {
-                        "type": "Context",
-                        "right": "TEMPLATES_VIEW"
-                    }
-                },
-                {
-                    "title": "Standing Orders",
-                    "listIcon": "bulkPaymentFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "STANDING_ORDERS"
-                },
-                {
-                    "title": "Direct Debit",
-                    "listIcon": "calendarClockFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "DIRECT_DEBIT",
-                    "dispoModel": {
-                        "type": "Account",
-                        "right": "PRODUCT_DETAIL"
-                    }
-                },
-                {
-                    "title": "Transfer Account to Moneta",
-                    "listIcon": "monetaArrowInFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BANK_SWITCH",
-                    "dispoModel": {
-                        "type": "Account",
-                        "right": "PRODUCT_DETAIL"
-                    }
-                },
-                {
-                    "title": "Manage Categories",
-                    "listIcon": "graphFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CATEGORIES"
-                }
-            ]
-        },
-        {
-            "title": "Loans",
-            "value": "LOANS",
-            "items": [
-                {
-                    "title": "Loans",
-                    "listIcon": "moneyBillFastFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "LOANSOVERVIEW"
-                },
-                {
-                    "title": "Loan Consolidation",
-                    "listIcon": "moneyBillRepeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "UDCONLINE",
-                    "fallback": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Overdraft",
-                    "listIcon": "flexicreditFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "FLEXIKREDIT"
-                },
-                {
-                    "title": "Business flexi",
-                    "listIcon": "flexicreditFill",
-                    "userClientTypeList": [
-                        "PO",
-                        "FOP",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SMBFLEXI"
-                },
-                {
-                    "title": "Business flexi",
-                    "listIcon": "flexicreditFill",
-                    "userClientTypeList": [
-                        "PO",
-                        "FOP",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SMB_MULTI_FLEXI"
-                },
-                {
-                    "title": "Credit Card",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CREDITCARD"
-                },
-                {
-                    "title": "Business credit card",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-                        "FOP",
-                        "PO",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SMBCCARD"
-                },
-                {
-                    "title": "Business credit card",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-                        "FOP",
-                        "PO",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SMB_MULTI_CCARD"
-                },
-                {
-                    "title": "Credit account",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/kreditni-ucet?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Bridging loan",
-                    "listIcon": "homeFadingFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/pujcka-pro-bydleni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                },
-                {
-                    "title": "Building savings loan",
-                    "listIcon": "wallSackFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "ZAM"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
-                }
-            ]
-        },
-        {
-            "title": "Pro podnikání",
-            "value": "SME",
-            "items": [
-                {
-                    "title": "Podnikatelský úvěr",
-                    "listIcon": "moneyBillFastFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_EXPRES"
-                },
-                {
-                    "title": "Podnikatelská kreditní karta",
-                    "listIcon": "cardFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_MBC"
-                },
-                {
-                    "title": "Kontokorent pro podnikatele",
-                    "listIcon": "flexicreditFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_FLEXI"
-                },
-                {
-                    "title": "Spoření PRO podnikání",
-                    "listIcon": "savingsFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_SAVINGS_ACCOUNT"
-                },
-                {
-                    "title": "Konto PRO podnikání",
-                    "listIcon": "businessFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_CURRENT_ACCOUNT"
-                }
-            ]
-        },
-        {
-            "title": "Mortgages",
-            "value": "MORTGAGES",
-            "items": [
-                {
-                    "title": "Mortgages",
-                    "listIcon": "homeSackFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "MORTGAGE",
-                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
-                },
-                {
-                    "title": "Mortgage Refinancing",
-                    "listIcon": "homeRepeatFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "minVersion": "77.0.0",
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "REFINANSO_INTRO",
-                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
-                }
-            ]
-        },
-        {
-            "title": "Helpful Information",
-            "value": "INFORMATIONS",
-            "items": [
-                {
-                    "title": "Branches and ATMs",
-                    "listIcon": "atmFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BRANCHESATMS"
-                },
-                {
-                    "title": "Exchange Rates",
-                    "listIcon": "listFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "EXCHANGERATES"
-                },
-                {
-                    "title": "Contact Us",
-                    "listIcon": "phoneFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CONTACTUS"
-                },
-                {
-                    "title": "Help with Smart Banka",
-                    "listIcon": "handHoldingHeartFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CHARITY"
-                },
-                {
-                    "title": "What can your SB do?",
-                    "listIcon": "starsAltFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "ABILITIES"
-                },
-                {
-                    "title": "Smartwatch and Widgets",
-                    "listIcon": "rocketLaunchFill",
-                    "userClientTypeList": [
-                        "FO",
-                        "FOP",
-                        "PO",
-                        "ZAM",
-                        "ZDRAV"
-                    ],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "ADVANCED_SETTINGS"
-                }
-            ]
+          "title": "Rewards",
+          "listIcon": "giftFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "DATEIO"
         }
-    ],
-    "settings": "Settings and Profile",
-    "productCatalog": "The best of Moneta in one place",
-    "productCatalogClientTypeList": [],
-    "documents": "Documents and Contracts",
-    "collections": "Arrears"
+      ]
+    },
+    {
+      "title": "Savings and Investments",
+      "value": "SAVINGS",
+      "items": [
+        {
+          "title": "Savings",
+          "listIcon": "savingsFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "SAVINGS"
+        },
+        {
+          "title": "Investments and Mutual Funds",
+          "listIcon": "investmentsFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INVESTMENTS"
+        },
+        {
+          "title": "Building Savings",
+          "listIcon": "walletPiggyBankFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "BUILDING_SAVINGS"
+        },
+        {
+          "title": "Term Deposit",
+          "listIcon": "calendarPiggyBankFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "RTVETB"
+        },
+        {
+          "title": "Building savings loan",
+          "listIcon": "wallSackFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Supplementary pension savings",
+          "listIcon": "faceOldtFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "DPS_NN"
+        }
+      ]
+    },
+    {
+      "title": "Insurance",
+      "value": "INSURANCES",
+      "items": [
+        {
+          "title": "My Insurance",
+          "listIcon": "userFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCELIST"
+        },
+        {
+          "title": "Travel Insurance",
+          "listIcon": "suitcaseRollingFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "TRAVELINSURANCE"
+        },
+        {
+          "title": "Accident Insurance",
+          "listIcon": "medicalKitFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "ACCIDENT_INSURANCE"
+        },
+        {
+          "title": "Phone and Cards Insurance",
+          "listIcon": "smartBankaFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCEOFFERS"
+        },
+        {
+          "title": "Online Payment Insurance",
+          "listIcon": "userSecretCardFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCEOFFERS"
+        },
+        {
+          "title": "Mortgage repayment insurance",
+          "listIcon": "shieldBlankFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Legal protection insurance",
+          "listIcon": "scaleBalancedFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Property insurance",
+          "listIcon": "homeCouchFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Life Insurance",
+          "listIcon": "healthcareFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Credit repayment insurance",
+          "listIcon": "loanFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        }
+      ]
+    },
+    {
+      "title": "Payments and Cards",
+      "value": "PAYMENTS",
+      "items": [
+        {
+          "title": "Current Accounts",
+          "listIcon": "accountFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CURRENTACCOUNTS"
+        },
+        {
+          "title": "Family Account",
+          "listIcon": "catTomPlusFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "FAMILYACCOUNT"
+        },
+        {
+          "title": "Currency Exchange",
+          "listIcon": "repeatFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "FXMONEY",
+          "dispoModel": {
+            "type": "Account",
+            "right": "FOREIGN_EXCHANGE_ONLINE"
+          }
+        },
+        {
+          "title": "Account for entrepreneurs",
+          "listIcon": "userFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_CURRENT_ACCOUNT"
+        },
+        {
+          "title": "Account for entrepreneurs",
+          "listIcon": "userFill",
+          "userClientTypeList": [
+            "FOP"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_SECOND_ACCOUNT"
+        },
+        {
+          "title": "Payment Cards",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CARDSOVERVIEW"
+        },
+        {
+          "title": "Credit Top Up",
+          "listIcon": "mobilePlusFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CREDITTOPUP",
+          "dispoModel": {
+            "type": "Account",
+            "right": "MOBILE_TOPUP"
+          }
+        },
+        {
+          "title": "Payment Templates",
+          "listIcon": "copyFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "MYTEMPLATES",
+          "dispoModel": {
+            "type": "Context",
+            "right": "TEMPLATES_VIEW"
+          }
+        },
+        {
+          "title": "Standing Orders",
+          "listIcon": "bulkPaymentFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "STANDING_ORDERS"
+        },
+        {
+          "title": "Direct Debit",
+          "listIcon": "calendarClockFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "DIRECT_DEBIT",
+          "dispoModel": {
+            "type": "Account",
+            "right": "PRODUCT_DETAIL"
+          }
+        },
+        {
+          "title": "Transfer Account to Moneta",
+          "listIcon": "monetaArrowInFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "BANK_SWITCH",
+          "dispoModel": {
+            "type": "Account",
+            "right": "PRODUCT_DETAIL"
+          }
+        },
+        {
+          "title": "Manage Categories",
+          "listIcon": "graphFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CATEGORIES"
+        }
+      ]
+    },
+    {
+      "title": "Loans",
+      "value": "LOANS",
+      "items": [
+        {
+          "title": "Loans",
+          "listIcon": "moneyBillFastFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "LOANSOVERVIEW"
+        },
+        {
+          "title": "Loan Consolidation",
+          "listIcon": "moneyBillRepeatFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "UDCONLINE",
+          "fallback": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Overdraft",
+          "listIcon": "flexicreditFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "FLEXIKREDIT"
+        },
+        {
+          "title": "Business flexi",
+          "listIcon": "flexicreditFill",
+          "userClientTypeList": [
+            "PO",
+            "FOP",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SMBFLEXI"
+        },
+        {
+          "title": "Business flexi",
+          "listIcon": "flexicreditFill",
+          "userClientTypeList": [
+            "PO",
+            "FOP",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SMB_MULTI_FLEXI"
+        },
+        {
+          "title": "Credit Card",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "CREDITCARD"
+        },
+        {
+          "title": "Business credit card",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+            "FOP",
+            "PO",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SMBCCARD"
+        },
+        {
+          "title": "Business credit card",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+            "FOP",
+            "PO",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SMB_MULTI_CCARD"
+        },
+        {
+          "title": "Credit account",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pujcky-a-uvery/kreditni-ucet?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Bridging loan",
+          "listIcon": "homeFadingFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pujcky-a-uvery/pujcka-pro-bydleni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        },
+        {
+          "title": "Building savings loan",
+          "listIcon": "wallSackFill",
+          "userClientTypeList": [
+            "FO",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+        }
+      ]
+    },
+    {
+      "title": "Pro podnikání",
+      "value": "SME",
+      "items": [
+        {
+          "title": "Podnikatelský úvěr",
+          "listIcon": "moneyBillFastFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_EXPRES"
+        },
+        {
+          "title": "Podnikatelská kreditní karta",
+          "listIcon": "cardFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_MBC"
+        },
+        {
+          "title": "Kontokorent pro podnikatele",
+          "listIcon": "flexicreditFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_FLEXI"
+        },
+        {
+          "title": "Spoření PRO podnikání",
+          "listIcon": "savingsFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_SAVINGS_ACCOUNT"
+        },
+        {
+          "title": "Konto PRO podnikání",
+          "listIcon": "businessFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "SME_NTC_CURRENT_ACCOUNT"
+        }
+      ]
+    },
+    {
+      "title": "Mortgages",
+      "value": "MORTGAGES",
+      "items": [
+        {
+          "title": "Mortgages",
+          "listIcon": "homeSackFill",
+          "userClientTypeList": [
+            "FO",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "MORTGAGE",
+          "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
+        },
+        {
+          "title": "Mortgage Refinancing",
+          "listIcon": "homeRepeatFill",
+          "userClientTypeList": [
+            "FO",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "minVersion": "77.0.0",
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "REFINANSO_INTRO",
+          "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
+        }
+      ]
+    },
+    {
+      "title": "Helpful Information",
+      "value": "INFORMATIONS",
+      "items": [
+        {
+          "title": "Branches and ATMs",
+          "listIcon": "atmFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "BRANCHESATMS"
+        },
+        {
+          "title": "Exchange Rates",
+          "listIcon": "listFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "EXCHANGERATES"
+        },
+        {
+          "title": "Contact Us",
+          "listIcon": "phoneFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CONTACTUS"
+        },
+        {
+          "title": "Help with Smart Banka",
+          "listIcon": "handHoldingHeartFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "CHARITY"
+        },
+        {
+          "title": "What can your SB do?",
+          "listIcon": "starsAltFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "ABILITIES"
+        },
+        {
+          "title": "Smartwatch and Widgets",
+          "listIcon": "rocketLaunchFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "PO",
+            "ZAM",
+            "ZDRAV"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "ADVANCED_SETTINGS"
+        }
+      ]
+    }
+  ],
+  "settings": "Settings and Profile",
+  "productCatalog": "The best of Moneta in one place",
+  "productCatalogClientTypeList": [],
+  "documents": "Documents and Contracts",
+  "collections": "Arrears"
 }

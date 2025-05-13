@@ -1,151 +1,151 @@
 {
-    "errorScreens": {
-        "error": {
-            "title": "Omlouváme se, něco se vymňouklo",
-            "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-            "primaryButton": "Přejít na Přehled"
-        }
-    },
-    "scenes": {
-        "cardDetail": {
-            "navigationTitle": "Blokace karty",
-            "navigationTitleIssueNewCard": "Vydání nové karty",
-            "blockType": "Typ blokace"
-        },
-        "temporaryBlock": {
-            "subscriptions": {
-                "title": "Využívá se karta na předplatné?",
-                "detail": "Raději si předem ověřte, kterých obchodníků se blokace dotkne."
-            },
-            "smsUnblock": {
-                "title": "Zaslat SMS o odblokování"
-            },
-            "phone": {
-                "title": "Telefon",
-                "error": "Vyplňte platné číslo"
-            },
-            "secondaryButton": "Zablokovat"
-        },
-        "blockAndGetNew": {
-            "blockReasonSheet": {
-                "title": "Důvod blokace",
-                "stolenOrMisusedTitle": "Krádež nebo zneužití",
-                "lost": "Ztráta",
-                "footer": "Událost nám nemusíte nijak dokazovat."
-            },
-            "cardDetail": {
-                "reason": "Důvod",
-                "subscriptions": {
-                    "title": "Využívá se karta na předplatné?",
-                    "detail": "Raději si zkontrolujte historii plateb"
-                },
-                "newCardOldConfig": {
-                    "title": "Nová karta, ale původní nastavení",
-                    "detail": "Kvůli bezpečnosti bude mít karta nové číslo, datum platnosti, CVV kód a samozřejmě PIN. Ostatní vaše nastavení zachováme."
-                },
-                "addressChange": {
-                    "header": "Doručovací adresa",
-                    "title": "Stejná jako u předchozí karty",
-                    "addressTitles": {
-                        "contact": "Kontaktní adresa",
-                        "permanent": "Trvalá adresa",
-                        "business": "Sídlo podnikání",
-                        "company": "Sídlo firmy"
-                    },
-                    "additionalCardInfo": "Zkontrolujte prosím, že je adresa pro zaslání karty správná. Pokud ji chcete změnit, může to udělat pouze držitel karty ve Smart Bance a Internet Bance v sekci Nastavení, na kterékoliv naší pobočce nebo na infolince 224 443 636.",
-                    "info": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
-                },
-                "secondaryButton": "Pokračovat"
-            }
-        },
-        "blockAndCancel": {
-            "subscriptions": {
-                "title": "Využívá se karta na předplatné?",
-                "detail": "Raději si zkontrolujte historii plateb"
-            },
-            "secondaryButton": "Pokračovat"
-        },
-        "signByUs": {
-            "title": "Chvilku strpení, vše pro vás připravujeme"
-        }
-    },
-    "victory": {
-        "blockAndCancelSigned": {
-            "title": "Kartu Standard jsme zablokovali a zrušili",
-            "detail": "Od této chvíle je nefunkční a od zítra ji neuvidíte v seznamu vašich karet.",
-            "newCardDetail": {
-                "icon": "plusFill",
-                "title": "O novou kartu můžete kdykoli požádat v sekci Karty."
-            },
-            "canceledCardDetail": {
-                "icon": "binFill",
-                "title": "Zrušenou kartu můžete skartovat nebo vrátit na kterékoliv naší pobočce."
-            },
-            "primaryButton": "Zpět na Kartu"
-        },
-        "blockAndGetNewSignedPlastic": {
-            "title": "Kartu jsme zablokovali a zrušili. Novou vám doručíme brzy",
-            "detail": "Obvykle dorazí do pěti pracovních dní. Už zítra si ji ale můžete přidat do telefonu pro placení mobilem.",
-            "sectionTitle": "S novou kartou získáte",
-            "newPin": {
-                "icon": "dialHandFill",
-                "title": "Nový PIN",
-                "detail": "Ten si můžete kdykoliv změnit v bankomatu."
-            },
-            "cardDetail": {
-                "icon": "cardFill",
-                "title": "Údaje karty",
-                "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
-            },
-            "primaryButton": "Zpět na Kartu"
-        },
-        "blockAndGetNewSignedVirtual": {
-            "title": "Kartu jsme zablokovali a zrušili. Novou najdete zítra v seznamu karet a můžete s ní začít okamžitě platit",
-            "sectionTitle": "S novou kartou získáte",
-            "newPin": {
-                "icon": "dialHandFill",
-                "title": "Nový PIN",
-                "detail": "Ten si můžete kdykoliv změnit v bankomatu."
-            },
-            "cardDetail": {
-                "icon": "cardFill",
-                "title": "Údaje karty",
-                "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
-            },
-            "primaryButton": "Zpět na Kartu"
-        },
-        "temporaryBlockSigned": {
-            "title": "Karta bude blokována do {blockDate}",
-            "detail": "Do té doby ji můžete kdykoli odblokovat, nebo trvale zablokovat.",
-            "detailText": "Po tomto datu ji opět odblokujeme a vás informujeme SMS na číslo {phoneNumber}.",
-            "message": "Ztratili jste kartu?\nKontaktujte jejího majitele, aby provedl trvalou blokaci s vystavením nové.",
-            "primaryButton": "Zpět na Kartu"
-        },
-        "unblockSigned": {
-            "title": "Hotovo! Karta je znovu aktivní",
-            "detail": "Nic víc řešit nemusíte, s kartou můžete okamžitě platit.",
-            "primaryButton": "Zpět na Kartu"
-        }
-    },
-    "blockTypes": {
-        "temporary": {
-            "title": "Dočasná blokace",
-            "description": "na {blockInterval} dní",
-            "detail": "Kartu vám zablokujeme na {blockInterval} dní. Během této doby ji můžete kdykoliv odblokovat, nebo trvale zablokovat."
-        },
-        "blockAndGetNew": {
-            "title": "Zablokovat a vydat novou",
-            "detail": "Kartu zrušíme a vydáme vám novou."
-        },
-        "blockAndCancel": {
-            "title": "Zablokovat a zrušit",
-            "detail": "Vaši kartu zrušíme. Když budete chtít, můžete v budoucnu požádat o novou."
-        },
-        "unblock": {
-            "title": "Odblokovat",
-            "detail": "Karta bude okamžitě připravena k použití."
-        },
-        "header": "Vyberte typ blokace",
-        "message": "Karta bude zablokována až po schválení podle nastavených Podpisových pravidel."
+  "errorScreens": {
+    "error": {
+      "title": "Omlouváme se, něco se vymňouklo",
+      "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+      "primaryButton": "Přejít na Přehled"
     }
+  },
+  "scenes": {
+    "cardDetail": {
+      "navigationTitle": "Blokace karty",
+      "navigationTitleIssueNewCard": "Vydání nové karty",
+      "blockType": "Typ blokace"
+    },
+    "temporaryBlock": {
+      "subscriptions": {
+        "title": "Využívá se karta na předplatné?",
+        "detail": "Raději si předem ověřte, kterých obchodníků se blokace dotkne."
+      },
+      "smsUnblock": {
+        "title": "Zaslat SMS o odblokování"
+      },
+      "phone": {
+        "title": "Telefon",
+        "error": "Vyplňte platné číslo"
+      },
+      "secondaryButton": "Zablokovat"
+    },
+    "blockAndGetNew": {
+      "blockReasonSheet": {
+        "title": "Důvod blokace",
+        "stolenOrMisusedTitle": "Krádež nebo zneužití",
+        "lost": "Ztráta",
+        "footer": "Událost nám nemusíte nijak dokazovat."
+      },
+      "cardDetail": {
+        "reason": "Důvod",
+        "subscriptions": {
+          "title": "Využívá se karta na předplatné?",
+          "detail": "Raději si zkontrolujte historii plateb"
+        },
+        "newCardOldConfig": {
+          "title": "Nová karta, ale původní nastavení",
+          "detail": "Kvůli bezpečnosti bude mít karta nové číslo, datum platnosti, CVV kód a samozřejmě PIN. Ostatní vaše nastavení zachováme."
+        },
+        "addressChange": {
+          "header": "Doručovací adresa",
+          "title": "Stejná jako u předchozí karty",
+          "addressTitles": {
+            "contact": "Kontaktní adresa",
+            "permanent": "Trvalá adresa",
+            "business": "Sídlo podnikání",
+            "company": "Sídlo firmy"
+          },
+          "additionalCardInfo": "Zkontrolujte prosím, že je adresa pro zaslání karty správná. Pokud ji chcete změnit, může to udělat pouze držitel karty ve Smart Bance a Internet Bance v sekci Nastavení, na kterékoliv naší pobočce nebo na infolince 224 443 636.",
+          "info": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
+        },
+        "secondaryButton": "Pokračovat"
+      }
+    },
+    "blockAndCancel": {
+      "subscriptions": {
+        "title": "Využívá se karta na předplatné?",
+        "detail": "Raději si zkontrolujte historii plateb"
+      },
+      "secondaryButton": "Pokračovat"
+    },
+    "signByUs": {
+      "title": "Chvilku strpení, vše pro vás připravujeme"
+    }
+  },
+  "victory": {
+    "blockAndCancelSigned": {
+      "title": "Kartu Standard jsme zablokovali a zrušili",
+      "detail": "Od této chvíle je nefunkční a od zítra ji neuvidíte v seznamu vašich karet.",
+      "newCardDetail": {
+        "icon": "plusFill",
+        "title": "O novou kartu můžete kdykoli požádat v sekci Karty."
+      },
+      "canceledCardDetail": {
+        "icon": "binFill",
+        "title": "Zrušenou kartu můžete skartovat nebo vrátit na kterékoliv naší pobočce."
+      },
+      "primaryButton": "Zpět na Kartu"
+    },
+    "blockAndGetNewSignedPlastic": {
+      "title": "Kartu jsme zablokovali a zrušili. Novou vám doručíme brzy",
+      "detail": "Obvykle dorazí do pěti pracovních dní. Už zítra si ji ale můžete přidat do telefonu pro placení mobilem.",
+      "sectionTitle": "S novou kartou získáte",
+      "newPin": {
+        "icon": "dialHandFill",
+        "title": "Nový PIN",
+        "detail": "Ten si můžete kdykoliv změnit v bankomatu."
+      },
+      "cardDetail": {
+        "icon": "cardFill",
+        "title": "Údaje karty",
+        "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
+      },
+      "primaryButton": "Zpět na Kartu"
+    },
+    "blockAndGetNewSignedVirtual": {
+      "title": "Kartu jsme zablokovali a zrušili. Novou najdete zítra v seznamu karet a můžete s ní začít okamžitě platit",
+      "sectionTitle": "S novou kartou získáte",
+      "newPin": {
+        "icon": "dialHandFill",
+        "title": "Nový PIN",
+        "detail": "Ten si můžete kdykoliv změnit v bankomatu."
+      },
+      "cardDetail": {
+        "icon": "cardFill",
+        "title": "Údaje karty",
+        "detail": "Karta bude mít nové číslo, datum platnosti a CVV kód."
+      },
+      "primaryButton": "Zpět na Kartu"
+    },
+    "temporaryBlockSigned": {
+      "title": "Karta bude blokována do {blockDate}",
+      "detail": "Do té doby ji můžete kdykoli odblokovat, nebo trvale zablokovat.",
+      "detailText": "Po tomto datu ji opět odblokujeme a vás informujeme SMS na číslo {phoneNumber}.",
+      "message": "Ztratili jste kartu?\nKontaktujte jejího majitele, aby provedl trvalou blokaci s vystavením nové.",
+      "primaryButton": "Zpět na Kartu"
+    },
+    "unblockSigned": {
+      "title": "Hotovo! Karta je znovu aktivní",
+      "detail": "Nic víc řešit nemusíte, s kartou můžete okamžitě platit.",
+      "primaryButton": "Zpět na Kartu"
+    }
+  },
+  "blockTypes": {
+    "temporary": {
+      "title": "Dočasná blokace",
+      "description": "na {blockInterval} dní",
+      "detail": "Kartu vám zablokujeme na {blockInterval} dní. Během této doby ji můžete kdykoliv odblokovat, nebo trvale zablokovat."
+    },
+    "blockAndGetNew": {
+      "title": "Zablokovat a vydat novou",
+      "detail": "Kartu zrušíme a vydáme vám novou."
+    },
+    "blockAndCancel": {
+      "title": "Zablokovat a zrušit",
+      "detail": "Vaši kartu zrušíme. Když budete chtít, můžete v budoucnu požádat o novou."
+    },
+    "unblock": {
+      "title": "Odblokovat",
+      "detail": "Karta bude okamžitě připravena k použití."
+    },
+    "header": "Vyberte typ blokace",
+    "message": "Karta bude zablokována až po schválení podle nastavených Podpisových pravidel."
+  }
 }
