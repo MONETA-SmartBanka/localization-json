@@ -1,151 +1,151 @@
 {
-    "errorScreens": {
-        "error": {
-            "title": "Our apologies, something went wrong.",
-            "detail": "Please try again later.",
-            "primaryButton": "Go to Overview"
-        }
-    },
-    "scenes": {
-        "cardDetail": {
-            "navigationTitle": "Block Card",
-            "navigationTitleIssueNewCard": "Issue a new card",
-            "blockType": "Type"
-        },
-        "temporaryBlock": {
-            "subscriptions": {
-                "title": "Is this card used for subscriptions?",
-                "detail": "Please check in advance which merchants will be affected by blocking this card."
-            },
-            "smsUnblock": {
-                "title": "Inform about unblocking via text"
-            },
-            "phone": {
-                "title": "Phone number",
-                "error": "Enter a valid phone number."
-            },
-            "secondaryButton": "Continue"
-        },
-        "blockAndGetNew": {
-            "blockReasonSheet": {
-                "title": "Reason for blocking",
-                "stolenOrMisusedTitle": "Theft or misuse",
-                "lost": "Loss",
-                "footer": "You are not required to provide any proof."
-            },
-            "cardDetail": {
-                "reason": "Reason",
-                "subscriptions": {
-                    "title": "Is this card used for subscriptions?",
-                    "detail": "Please check in advance which merchants will be affected by blocking this card."
-                },
-                "newCardOldConfig": {
-                    "title": "New card with original settings",
-                    "detail": "For security reasons, the new card will have a new number, validity, CVV code, and of course PIN. Other settings will remain unchanged."
-                },
-                "addressChange": {
-                    "header": "Delivery address",
-                    "title": "Use previously used",
-                    "addressTitles": {
-                        "contact": "Contact address",
-                        "permanent": "Permanent address",
-                        "business": "Registered seat",
-                        "company": "Registered seat"
-                    },
-                    "additionalCardInfo": "Make sure that the address for card delivery is correct. Changes can be made only by the cardholder in Smart Banka and Internet Banka in Settings, at a branch or via Helpline at 224 443 636. ",
-                    "info": "Do you want the card to be delivered to a different address? Update your contact address in Settings, under ‘About Me’."
-                },
-                "secondaryButton": "Continue"
-            }
-        },
-        "blockAndCancel": {
-            "subscriptions": {
-                "title": "Is this card used for subscriptions?",
-                "detail": "Please check in advance which merchants will be affected by blocking this card."
-            },
-            "secondaryButton": "Continue"
-        },
-        "signByUs": {
-            "title": "Just a moment while we get everything ready for you"
-        }
-    },
-    "victory": {
-        "blockAndCancelSigned": {
-            "title": "The card Standard has been blocked and cancelled.",
-            "detail": "It is now inactive and will disappear from your card list tomorrow.",
-            "newCardDetail": {
-                "icon": "plusFill",
-                "title": "You can request a new card anytime in the Cards section."
-            },
-            "canceledCardDetail": {
-                "icon": "binFill",
-                "title": "You can shred the old card or return it at any of our branches."
-            },
-            "primaryButton": "Back to Card"
-        },
-        "blockAndGetNewSignedPlastic": {
-            "title": "The card has been blocked and cancelled. The new one will be delivered soon.",
-            "detail": "It usually arrives within 5 business days. Tomorrow you can add it to your smartphone wallet and use it for mobile payments.  ",
-            "sectionTitle": "With your new card you will receive",
-            "newPin": {
-                "icon": "dialHandFill",
-                "title": "A new PIN",
-                "detail": "PIN can be changed at any ATM."
-            },
-            "cardDetail": {
-                "icon": "cardFill",
-                "title": "Card information",
-                "detail": "The card will have a new number, validity and CVV Code."
-            },
-            "primaryButton": "Back to Card"
-        },
-        "blockAndGetNewSignedVirtual": {
-            "title": "The card has been blocked and cancelled. Tomorrow, you can find the new card in your card list and use it right away.",
-            "sectionTitle": "With your new card you will receive",
-            "newPin": {
-                "icon": "dialHandFill",
-                "title": "PIN",
-                "detail": "PIN can be changed at any ATM."
-            },
-            "cardDetail": {
-                "icon": "cardFill",
-                "title": "Card information",
-                "detail": "The card will have a new number, validity and CVV Code."
-            },
-            "primaryButton": "Back to Card"
-        },
-        "temporaryBlockSigned": {
-            "title": "The card will be blocked until {blockDate}.",
-            "detail": "Until then you can unblock it or permanently block it anytime.",
-            "detailText": "After this date, the card will be unblocked and you will be informed by text to {phoneNumber}.",
-            "message": "Have you lost your card?\nContact its owner to block it permanently and request a new card.",
-            "primaryButton": "Back to Card"
-        },
-        "unblockSigned": {
-            "title": "The card is active again",
-            "detail": "You can use it right away.",
-            "primaryButton": "Back to Card"
-        }
-    },
-    "blockTypes": {
-        "temporary": {
-            "title": "Temporary block",
-            "description": "for {blockInterval} days",
-            "detail": "The card will be blocked for {blockInterval} days. You can unblock it or permanently block it anytime during this period."
-        },
-        "blockAndGetNew": {
-            "title": "Block card and issue a new one",
-            "detail": "The card will be cancelled and you will be issued a new card. "
-        },
-        "blockAndCancel": {
-            "title": "Block and cancel",
-            "detail": "Your card will be cancelled. You can request a new card in the future."
-        },
-        "unblock": {
-            "title": "Unblock",
-            "detail": "The card will be ready for use immediately."
-        },
-        "header": "Choose how to block your card",
-        "message": "The card will be blocked only after approval according to the set Signature Rules."
+  "errorScreens": {
+    "error": {
+      "title": "Our apologies, something went wrong.",
+      "detail": "Please try again later.",
+      "primaryButton": "Go to Overview"
     }
+  },
+  "scenes": {
+    "cardDetail": {
+      "navigationTitle": "Block Card",
+      "navigationTitleIssueNewCard": "Issue a new card",
+      "blockType": "Type"
+    },
+    "temporaryBlock": {
+      "subscriptions": {
+        "title": "Is this card used for subscriptions?",
+        "detail": "Please check in advance which merchants will be affected by blocking this card."
+      },
+      "smsUnblock": {
+        "title": "Inform about unblocking via text"
+      },
+      "phone": {
+        "title": "Phone number",
+        "error": "Enter a valid phone number."
+      },
+      "secondaryButton": "Continue"
+    },
+    "blockAndGetNew": {
+      "blockReasonSheet": {
+        "title": "Reason for blocking",
+        "stolenOrMisusedTitle": "Theft or misuse",
+        "lost": "Loss",
+        "footer": "You are not required to provide any proof."
+      },
+      "cardDetail": {
+        "reason": "Reason",
+        "subscriptions": {
+          "title": "Is this card used for subscriptions?",
+          "detail": "Please check in advance which merchants will be affected by blocking this card."
+        },
+        "newCardOldConfig": {
+          "title": "New card with original settings",
+          "detail": "For security reasons, the new card will have a new number, validity, CVV code, and of course PIN. Other settings will remain unchanged."
+        },
+        "addressChange": {
+          "header": "Delivery address",
+          "title": "Use previously used",
+          "addressTitles": {
+            "contact": "Contact address",
+            "permanent": "Permanent address",
+            "business": "Registered seat",
+            "company": "Registered seat"
+          },
+          "additionalCardInfo": "Make sure that the address for card delivery is correct. Changes can be made only by the cardholder in Smart Banka and Internet Banka in Settings, at a branch or via Helpline at 224 443 636. ",
+          "info": "Do you want the card to be delivered to a different address? Update your contact address in Settings, under ‘About Me’."
+        },
+        "secondaryButton": "Continue"
+      }
+    },
+    "blockAndCancel": {
+      "subscriptions": {
+        "title": "Is this card used for subscriptions?",
+        "detail": "Please check in advance which merchants will be affected by blocking this card."
+      },
+      "secondaryButton": "Continue"
+    },
+    "signByUs": {
+      "title": "Just a moment while we get everything ready for you"
+    }
+  },
+  "victory": {
+    "blockAndCancelSigned": {
+      "title": "The card Standard has been blocked and cancelled.",
+      "detail": "It is now inactive and will disappear from your card list tomorrow.",
+      "newCardDetail": {
+        "icon": "plusFill",
+        "title": "You can request a new card anytime in the Cards section."
+      },
+      "canceledCardDetail": {
+        "icon": "binFill",
+        "title": "You can shred the old card or return it at any of our branches."
+      },
+      "primaryButton": "Back to Card"
+    },
+    "blockAndGetNewSignedPlastic": {
+      "title": "The card has been blocked and cancelled. The new one will be delivered soon.",
+      "detail": "It usually arrives within 5 business days. Tomorrow you can add it to your smartphone wallet and use it for mobile payments.  ",
+      "sectionTitle": "With your new card you will receive",
+      "newPin": {
+        "icon": "dialHandFill",
+        "title": "A new PIN",
+        "detail": "PIN can be changed at any ATM."
+      },
+      "cardDetail": {
+        "icon": "cardFill",
+        "title": "Card information",
+        "detail": "The card will have a new number, validity and CVV Code."
+      },
+      "primaryButton": "Back to Card"
+    },
+    "blockAndGetNewSignedVirtual": {
+      "title": "The card has been blocked and cancelled. Tomorrow, you can find the new card in your card list and use it right away.",
+      "sectionTitle": "With your new card you will receive",
+      "newPin": {
+        "icon": "dialHandFill",
+        "title": "PIN",
+        "detail": "PIN can be changed at any ATM."
+      },
+      "cardDetail": {
+        "icon": "cardFill",
+        "title": "Card information",
+        "detail": "The card will have a new number, validity and CVV Code."
+      },
+      "primaryButton": "Back to Card"
+    },
+    "temporaryBlockSigned": {
+      "title": "The card will be blocked until {blockDate}.",
+      "detail": "Until then you can unblock it or permanently block it anytime.",
+      "detailText": "After this date, the card will be unblocked and you will be informed by text to {phoneNumber}.",
+      "message": "Have you lost your card?\nContact its owner to block it permanently and request a new card.",
+      "primaryButton": "Back to Card"
+    },
+    "unblockSigned": {
+      "title": "The card is active again",
+      "detail": "You can use it right away.",
+      "primaryButton": "Back to Card"
+    }
+  },
+  "blockTypes": {
+    "temporary": {
+      "title": "Temporary block",
+      "description": "for {blockInterval} days",
+      "detail": "The card will be blocked for {blockInterval} days. You can unblock it or permanently block it anytime during this period."
+    },
+    "blockAndGetNew": {
+      "title": "Block card and issue a new one",
+      "detail": "The card will be cancelled and you will be issued a new card. "
+    },
+    "blockAndCancel": {
+      "title": "Block and cancel",
+      "detail": "Your card will be cancelled. You can request a new card in the future."
+    },
+    "unblock": {
+      "title": "Unblock",
+      "detail": "The card will be ready for use immediately."
+    },
+    "header": "Choose how to block your card",
+    "message": "The card will be blocked only after approval according to the set Signature Rules."
+  }
 }

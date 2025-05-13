@@ -1,198 +1,198 @@
 {
-    "errorScreens": {
-        "notToday": {
-            "title": "Způsob splácení můžete změnit zase zítra",
-            "detail": "Změny jsou možné pouze jednou denně.",
-            "primaryButton": "Zpět"
-        },
-        "waitingForSignature": {
-            "title": "Žádost o změnu způsobu splácení kreditní karty čeká na váš podpis",
-            "primaryButton": "Pokračovat",
-            "secondaryButton": "Zpět"
-        },
-        "signaturesMissing": {
-            "title": "Ke změně způsobu splácení zbývají už jen podpisy",
-            "detail": "Oprávněné osoby jsme informovali, o jejich podpisech a změně splácení na {repaymentType} vám dáme vědět do sekce Zprávy.",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Zobrazit průběh schvalování"
-        },
-        "noSigningPossibility": {
-            "title": "Nastavená pravidla vám neumožňují změnit způsob splácení",
-            "detail": "Pro změnu je třeba, aby měl dostatečný počet statutárních zástupců přístup do Internet Banky.\n\nPokud je tato podmínka splněna a stále máte potíže s potvrzením, zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět"
-        },
-        "contractDisagree": {
-            "title": "Bez souhlasu to bohužel nepůjde",
-            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
-        },
-        "cantGoBackNow": {
-            "title": "Je nám líto, ale teď není možné vrátit se zpět",
-            "detail": "Pokud chcete, můžete proces ukončit nebo v něm pokračovat.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Pokračovat",
-            "secondaryButton": "Ukončit proces"
-        }
+  "errorScreens": {
+    "notToday": {
+      "title": "Způsob splácení můžete změnit zase zítra",
+      "detail": "Změny jsou možné pouze jednou denně.",
+      "primaryButton": "Zpět"
     },
-    "scenes": {
-        "repaymentMethodPicker": {
-            "title": "Jak chcete kartu splácet?",
-            "repaymentMethods": {
-                "directDebit100": "100% inkasem",
-                "minimumPaymentByDirectDebit": "Minimálním inkasem",
-                "moneyTransfer": "Převodem z účtu"
-            },
-            "repaymentMethodFee": {
-                "free": "zdarma",
-                "monthlyFee": "{fee} mesíčně"
-            },
-            "repaymentStartDateMessage": "Zvolený způsob splácení bude aktivní od {repaymentStartDate}.",
-            "primaryButton": "Pokračovat",
-            "help": {
-                "title": "Jak chcete kartu splácet?",
-                "sectionHeaderDirectDebit100": "100% inkasem",
-                "descriptionDirectDebit100": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období.",
-                "sectionHeaderMinimumPaymentByDirectDebit": "Minimálním inkasem",
-                "descriptionMinimumPaymentByDirectDebit": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.\nPokud celou vyčerpanou částku nesplatíte v rámci bezúročného období {interestFreePeriod} dní, bude tato částka úročena sazbou {interestRate} p. a.",
-                "descriptionMinimumPaymentByDirectDebitShort": "Každý měsíc automaticky provedeme inkaso minimální splátky ve výši {minRepaymentPercent} z vyčerpané částky.",
-                "sectionHeaderMoneyTransfer": "Převodem z účtu",
-                "descriptionMoneyTransfer": "Výši splátky najdete ve výpisu z kreditní karty. Důležité je vždy uhradit alespoň její minimální splátku.\nPřevodem můžete splácet také v případě, že už máte nastaveno splácení inkasem."
-            },
-            "repaymentMethodNotChanged": {
-                "titleDirectDebit100": "100% inkasem už kreditní kartu splácíte",
-                "titleMinimumRepaymentByDirectDebit": "Minimálním inkasem už kreditní kartu splácíte",
-                "titleMoneyTransfer": "Převodem z účtu už kreditní kartu splácíte",
-                "detail": "Chcete způsob splácení změnit?",
-                "primaryButton": "Zpět",
-                "secondaryButton": "Splácet {repaymentMethod}"
-            }
-        },
-        "accountPicker": {
-            "title": "Pro který účet chcete nastavit inkaso?",
-            "detail100directDebit": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období.",
-            "detailMinimumPaymentByDirectDebit": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.",
-            "chooseAccount": "Vyberte účet",
-            "directDebitAmountChangeMessage": "Kreditní kartu už splácíte inkasem z tohoto účtu. Pokud bude potřeba, upravíme jen jeho výši.",
-            "primaryButton": "Pokračovat",
-            "chooseAccountBottomSheet": {
-                "title": "Vyberte účet",
-                "searchHint": "Hledat",
-                "currentAccounts": "Běžné účty",
-                "businessAccounts": "Podnikatelské účty",
-                "secondaryButton": "Chci splácet z jiného účtu"
-            },
-            "differentAccountBottomSheet": {
-                "title": "Z jakého účtu chcete kartu splácet?",
-                "primaryButton": "Pokračovat",
-                "error": {
-                    "wrongAccount": "Zkontrolujte vámi zadané číslo účtu"
-                }
-            },
-            "help": {
-                "minimumPaymentByDirectDebit": {
-                    "title": "Minimální inkaso",
-                    "detail": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.\nPokud celou vyčerpanou částku nesplatíte v rámci bezúročného období {interestFreePeriod} dní, bude tato částka úročena sazbou {interestRate} p. a.",
-                    "detailShort": "Každý měsíc automaticky provedeme inkaso minimální splátky ve výši {minRepaymentPercent} z vyčerpané částky."
-                },
-                "directDebit100": {
-                    "title": "100% inkaso",
-                    "detail": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období."
-                }
-            },
-            "error": {
-                "title": "Před pokračováním nejdřív vyberte účet."
-            }
-        },
-        "contract": {
-            "title": "Přečtěte si Dohodu o změně způsobu splácení",
-            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
-            "primaryButton": "Rozumím a souhlasím",
-            "primaryButtonSendForSignature": "Odeslat k podpisu",
-            "secondaryButton": "Nesouhlasím"
-        },
-        "victoryMoneyTransfer": {
-            "title": "Hotovo!\nKreditní kartu budete splácet převodem z účtu",
-            "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
-            "recipientAccount": "Účet příjemce",
-            "variableSymbol": "Variabilní symbol",
-            "infoMessage": "Výši splátky a datum splatnosti najdete ve výpisu z kreditní karty a ve smlouvě.",
-            "primaryButton": "Vytvořit šablonu",
-            "secondaryButton": "Zpět na Přehled"
-        },
-        "victoryMoneyTransferSignaturesMissing": {
-            "title": "Máme skoro hotovo, zbývají už jen podpisy",
-            "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.",
-            "recipientAccount": "Účet příjemce",
-            "variableSymbol": "Variabilní symbol",
-            "infoMessage": "Platební údaje, výši splátky a datum splatnosti najdete ve výpisu z kreditní karty a ve smlouvě.",
-            "primaryButton": "Zpět na Přehled",
-            "secondaryButton": "Zobrazit průběh schvalování"
-        },
-        "victoryDirectDebit": {
-            "title100directDebit": "Hotovo!\nKreditní kartu budete od\n{repaymentStartDate} splácet 100% inkasem",
-            "title100directDebitWithoutDate": "Hotovo!\nKreditní kartu budete splácet 100% inkasem",
-            "titleMinimumRepaymentByDirectDebit": "Hotovo!\nKreditní kartu budete splácet minimálním inkasem",
-            "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
-            "yourAccount": "Z vašeho účtu",
-            "recipientAccount": "Účet příjemce",
-            "infoMessage": "Pokud je datum příští splátky před {repaymentStartDate}, uhraďte ji prosím stejně jako doposud.",
-            "primaryButton": "Zpět na Přehled"
-        },
-        "victoryDirectDebitDifferentBank": {
-            "title": "Tady máme hotovo.\nTeď si prosím nastavte souhlas s inkasem",
-            "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
-            "yourAccount": "Z vašeho účtu",
-            "recipientAccount": "Účet příjemce",
-            "recommendedLimit": "Doporučený limit inkasa",
-            "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate}.\nAby vše proběhlo jak má, povolte inkaso  alespoň 5 pracovních dnů před tímto datem.",
-            "primaryButton": "Zpět na Přehled"
-        },
-        "victoryDirectDebitSignaturesMissing": {
-            "title": "Máme skoro hotovo, zbývají už jen podpisy",
-            "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.\n\nPlatební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
-            "yourAccount": "Z vašeho účtu",
-            "recipientAccount": "Účet příjemce",
-            "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate} v případě, že změna bude potvrzena oprávněnými osobami k dnešnímu dni.",
-            "primaryButton": "Zpět na Přehled",
-            "secondaryButton": "Zobrazit průběh schvalování"
-        },
-        "victoryDirectDebitSignaturesMissingDifferentBank": {
-            "title": "Máme skoro hotovo.\nZbývají podpisy a nastavení souhlasu s inkasem",
-            "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.\n\nPlatební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
-            "yourAccount": "Z vašeho účtu",
-            "recipientAccount": "Účet příjemce",
-            "recommendedLimit": "Doporučený limit inkasa",
-            "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate} v případě, že změna bude potvrzena oprávněnými osobami k dnešnímu dni.\nAby vše proběhlo jak má, povolte inkaso alespoň 5 pracovních dnů před tímto datem.",
-            "primaryButton": "Zpět na Přehled",
-            "secondaryButton": "Zobrazit průběh schvalování"
-        },
-        "victoryDirectDebitError": {
-            "title": "Při vytváření inkasa došlo k chybě",
-            "detail": "Zkontrolujte prosím jeho nastavení a také vámi nastavené limity pro převody.",
-            "yourAccount": "Z vašeho účtu",
-            "recipientAccount": "Účet příjemce",
-            "recommendedLimit": "Doporučený limit inkasa",
-            "primaryButton": "Zpět na Přehled"
-        },
-        "signByUs": {
-            "title": "Teď to musíme podepsat my",
-            "detail": "Chvilku strpení prosím"
-        },
-        "waitingBeforeContract": {
-            "title": "Chvilku strpení, připravujeme Vám smlouvu"
-        }
+    "waitingForSignature": {
+      "title": "Žádost o změnu způsobu splácení kreditní karty čeká na váš podpis",
+      "primaryButton": "Pokračovat",
+      "secondaryButton": "Zpět"
     },
-    "vocabulary": {
-        "repaymentMethods": {
-            "directDebit100": "100% inkasem",
-            "minimumPaymentByDirectDebit": "minimálním inkasem",
-            "moneyTransfer": "převodem z účtu"
-        }
+    "signaturesMissing": {
+      "title": "Ke změně způsobu splácení zbývají už jen podpisy",
+      "detail": "Oprávněné osoby jsme informovali, o jejich podpisech a změně splácení na {repaymentType} vám dáme vědět do sekce Zprávy.",
+      "primaryButton": "Zpět",
+      "secondaryButton": "Zobrazit průběh schvalování"
+    },
+    "noSigningPossibility": {
+      "title": "Nastavená pravidla vám neumožňují změnit způsob splácení",
+      "detail": "Pro změnu je třeba, aby měl dostatečný počet statutárních zástupců přístup do Internet Banky.\n\nPokud je tato podmínka splněna a stále máte potíže s potvrzením, zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+      "callUs": "Zavolejte nám\nna infolinku",
+      "branch": "Navštivte nás\nna pobočce",
+      "primaryButton": "Zpět"
+    },
+    "contractDisagree": {
+      "title": "Bez souhlasu to bohužel nepůjde",
+      "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+      "callUs": "Zavolejte nám\nna infolinku",
+      "branch": "Navštivte nás\nna pobočce",
+      "primaryButton": "Zpět",
+      "secondaryButton": "Ukončit žádost"
+    },
+    "cantGoBackNow": {
+      "title": "Je nám líto, ale teď není možné vrátit se zpět",
+      "detail": "Pokud chcete, můžete proces ukončit nebo v něm pokračovat.",
+      "callUs": "Zavolejte nám\nna infolinku",
+      "branch": "Navštivte nás\nna pobočce",
+      "primaryButton": "Pokračovat",
+      "secondaryButton": "Ukončit proces"
     }
+  },
+  "scenes": {
+    "repaymentMethodPicker": {
+      "title": "Jak chcete kartu splácet?",
+      "repaymentMethods": {
+        "directDebit100": "100% inkasem",
+        "minimumPaymentByDirectDebit": "Minimálním inkasem",
+        "moneyTransfer": "Převodem z účtu"
+      },
+      "repaymentMethodFee": {
+        "free": "zdarma",
+        "monthlyFee": "{fee} mesíčně"
+      },
+      "repaymentStartDateMessage": "Zvolený způsob splácení bude aktivní od {repaymentStartDate}.",
+      "primaryButton": "Pokračovat",
+      "help": {
+        "title": "Jak chcete kartu splácet?",
+        "sectionHeaderDirectDebit100": "100% inkasem",
+        "descriptionDirectDebit100": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období.",
+        "sectionHeaderMinimumPaymentByDirectDebit": "Minimálním inkasem",
+        "descriptionMinimumPaymentByDirectDebit": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.\nPokud celou vyčerpanou částku nesplatíte v rámci bezúročného období {interestFreePeriod} dní, bude tato částka úročena sazbou {interestRate} p. a.",
+        "descriptionMinimumPaymentByDirectDebitShort": "Každý měsíc automaticky provedeme inkaso minimální splátky ve výši {minRepaymentPercent} z vyčerpané částky.",
+        "sectionHeaderMoneyTransfer": "Převodem z účtu",
+        "descriptionMoneyTransfer": "Výši splátky najdete ve výpisu z kreditní karty. Důležité je vždy uhradit alespoň její minimální splátku.\nPřevodem můžete splácet také v případě, že už máte nastaveno splácení inkasem."
+      },
+      "repaymentMethodNotChanged": {
+        "titleDirectDebit100": "100% inkasem už kreditní kartu splácíte",
+        "titleMinimumRepaymentByDirectDebit": "Minimálním inkasem už kreditní kartu splácíte",
+        "titleMoneyTransfer": "Převodem z účtu už kreditní kartu splácíte",
+        "detail": "Chcete způsob splácení změnit?",
+        "primaryButton": "Zpět",
+        "secondaryButton": "Splácet {repaymentMethod}"
+      }
+    },
+    "accountPicker": {
+      "title": "Pro který účet chcete nastavit inkaso?",
+      "detail100directDebit": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období.",
+      "detailMinimumPaymentByDirectDebit": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.",
+      "chooseAccount": "Vyberte účet",
+      "directDebitAmountChangeMessage": "Kreditní kartu už splácíte inkasem z tohoto účtu. Pokud bude potřeba, upravíme jen jeho výši.",
+      "primaryButton": "Pokračovat",
+      "chooseAccountBottomSheet": {
+        "title": "Vyberte účet",
+        "searchHint": "Hledat",
+        "currentAccounts": "Běžné účty",
+        "businessAccounts": "Podnikatelské účty",
+        "secondaryButton": "Chci splácet z jiného účtu"
+      },
+      "differentAccountBottomSheet": {
+        "title": "Z jakého účtu chcete kartu splácet?",
+        "primaryButton": "Pokračovat",
+        "error": {
+          "wrongAccount": "Zkontrolujte vámi zadané číslo účtu"
+        }
+      },
+      "help": {
+        "minimumPaymentByDirectDebit": {
+          "title": "Minimální inkaso",
+          "detail": "Každý měsíc se automaticky uhradí inkasem z účtu minimální splátka {minRepaymentPercent} z vyčerpané částky uvedené na výpisu. Zbytek můžete doplatit třeba převodem z účtu.\nPokud celou vyčerpanou částku nesplatíte v rámci bezúročného období {interestFreePeriod} dní, bude tato částka úročena sazbou {interestRate} p. a.",
+          "detailShort": "Každý měsíc automaticky provedeme inkaso minimální splátky ve výši {minRepaymentPercent} z vyčerpané částky."
+        },
+        "directDebit100": {
+          "title": "100% inkaso",
+          "detail": "Každý měsíc se automaticky uhradí celá vyčerpaná částka v bezúročném období."
+        }
+      },
+      "error": {
+        "title": "Před pokračováním nejdřív vyberte účet."
+      }
+    },
+    "contract": {
+      "title": "Přečtěte si Dohodu o změně způsobu splácení",
+      "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+      "primaryButton": "Rozumím a souhlasím",
+      "primaryButtonSendForSignature": "Odeslat k podpisu",
+      "secondaryButton": "Nesouhlasím"
+    },
+    "victoryMoneyTransfer": {
+      "title": "Hotovo!\nKreditní kartu budete splácet převodem z účtu",
+      "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
+      "recipientAccount": "Účet příjemce",
+      "variableSymbol": "Variabilní symbol",
+      "infoMessage": "Výši splátky a datum splatnosti najdete ve výpisu z kreditní karty a ve smlouvě.",
+      "primaryButton": "Vytvořit šablonu",
+      "secondaryButton": "Zpět na Přehled"
+    },
+    "victoryMoneyTransferSignaturesMissing": {
+      "title": "Máme skoro hotovo, zbývají už jen podpisy",
+      "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.",
+      "recipientAccount": "Účet příjemce",
+      "variableSymbol": "Variabilní symbol",
+      "infoMessage": "Platební údaje, výši splátky a datum splatnosti najdete ve výpisu z kreditní karty a ve smlouvě.",
+      "primaryButton": "Zpět na Přehled",
+      "secondaryButton": "Zobrazit průběh schvalování"
+    },
+    "victoryDirectDebit": {
+      "title100directDebit": "Hotovo!\nKreditní kartu budete od\n{repaymentStartDate} splácet 100% inkasem",
+      "title100directDebitWithoutDate": "Hotovo!\nKreditní kartu budete splácet 100% inkasem",
+      "titleMinimumRepaymentByDirectDebit": "Hotovo!\nKreditní kartu budete splácet minimálním inkasem",
+      "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
+      "yourAccount": "Z vašeho účtu",
+      "recipientAccount": "Účet příjemce",
+      "infoMessage": "Pokud je datum příští splátky před {repaymentStartDate}, uhraďte ji prosím stejně jako doposud.",
+      "primaryButton": "Zpět na Přehled"
+    },
+    "victoryDirectDebitDifferentBank": {
+      "title": "Tady máme hotovo.\nTeď si prosím nastavte souhlas s inkasem",
+      "detail": "Platební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
+      "yourAccount": "Z vašeho účtu",
+      "recipientAccount": "Účet příjemce",
+      "recommendedLimit": "Doporučený limit inkasa",
+      "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate}.\nAby vše proběhlo jak má, povolte inkaso  alespoň 5 pracovních dnů před tímto datem.",
+      "primaryButton": "Zpět na Přehled"
+    },
+    "victoryDirectDebitSignaturesMissing": {
+      "title": "Máme skoro hotovo, zbývají už jen podpisy",
+      "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.\n\nPlatební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
+      "yourAccount": "Z vašeho účtu",
+      "recipientAccount": "Účet příjemce",
+      "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate} v případě, že změna bude potvrzena oprávněnými osobami k dnešnímu dni.",
+      "primaryButton": "Zpět na Přehled",
+      "secondaryButton": "Zobrazit průběh schvalování"
+    },
+    "victoryDirectDebitSignaturesMissingDifferentBank": {
+      "title": "Máme skoro hotovo.\nZbývají podpisy a nastavení souhlasu s inkasem",
+      "detail": "Oprávněné osoby jsme informovali, o jejich podpisech vám dáme vědět do sekce Zprávy.\n\nPlatební údaje najdete také ve výpisu z kreditní karty a v detailu smlouvy.",
+      "yourAccount": "Z vašeho účtu",
+      "recipientAccount": "Účet příjemce",
+      "recommendedLimit": "Doporučený limit inkasa",
+      "infoMessage": "{repaymentType} budete splácet od příští splátky s datem {repaymentStartDate} v případě, že změna bude potvrzena oprávněnými osobami k dnešnímu dni.\nAby vše proběhlo jak má, povolte inkaso alespoň 5 pracovních dnů před tímto datem.",
+      "primaryButton": "Zpět na Přehled",
+      "secondaryButton": "Zobrazit průběh schvalování"
+    },
+    "victoryDirectDebitError": {
+      "title": "Při vytváření inkasa došlo k chybě",
+      "detail": "Zkontrolujte prosím jeho nastavení a také vámi nastavené limity pro převody.",
+      "yourAccount": "Z vašeho účtu",
+      "recipientAccount": "Účet příjemce",
+      "recommendedLimit": "Doporučený limit inkasa",
+      "primaryButton": "Zpět na Přehled"
+    },
+    "signByUs": {
+      "title": "Teď to musíme podepsat my",
+      "detail": "Chvilku strpení prosím"
+    },
+    "waitingBeforeContract": {
+      "title": "Chvilku strpení, připravujeme Vám smlouvu"
+    }
+  },
+  "vocabulary": {
+    "repaymentMethods": {
+      "directDebit100": "100% inkasem",
+      "minimumPaymentByDirectDebit": "minimálním inkasem",
+      "moneyTransfer": "převodem z účtu"
+    }
+  }
 }
