@@ -407,11 +407,8 @@
                         "title": "Jaký je Váš současný zaměstnavatel?",
                         "employerTitle": "Zaměstnavatel",
                         "employerPlaceholder": "vyberte",
-                        "streetTitle": "Ulice",
-                        "descriptiveNumberTitle": "Č. p.",
-                        "orientationNumberTitle": "Č. or.",
-                        "cityTitle": "Město",
-                        "zipTitle": "PSČ",
+                        "czechEmployer": "Český zaměstnavatel",
+                        "foreignEmployer": "Zahraniční zaměstnavatel",
                         "countryTitle": "Země",
                         "idNumberTitle": "IČ",
                         "primaryButton": "Pokračovat"
@@ -420,11 +417,8 @@
                         "title": "Doplňte údaje o Vašem podnikání",
                         "employerTitle": "Název",
                         "employerPlaceholder": "Vyberte název subjektu",
-                        "streetTitle": "Ulice",
-                        "descriptiveNumberTitle": "Č. p.",
-                        "orientationNumberTitle": "Č. or.",
-                        "cityTitle": "Město",
-                        "zipTitle": "PSČ",
+                        "czechEmployer": "Český subjekt",
+                        "foreignEmployer": "Zahraniční subjekt",
                         "countryTitle": "Země",
                         "idNumberTitle": "IČ",
                         "primaryButton": "Pokračovat"
@@ -432,18 +426,41 @@
                     "RENT": {
                         "title": "Kdo vám rentu vyplácí?",
                         "employerTitle": "Subjekt vyplácející rentu",
+                        "czechEmployer": "Český subjekt",
+                        "foreignEmployer": "Zahraniční subjekt",
                         "employerPlaceholder": "vyberte",
-                        "streetTitle": "Ulice",
-                        "descriptiveNumberTitle": "Č. p.",
-                        "orientationNumberTitle": "Č. or.",
-                        "cityTitle": "Město",
-                        "zipTitle": "PSČ",
                         "countryTitle": "Země",
                         "idNumberTitle": "IČ",
                         "primaryButton": "Pokračovat"
                     }
                 },
                 "employerSearch": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš současný zaměstnavatel?",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "employerTitle": "Zaměstnavatel",
+                        "czechEmployer": "Český zaměstnavatel",
+                        "foreignEmployer": "Zahraniční zaměstnavatel",
+                        "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Subjekt",
+                        "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                        "employerTitle": "Subjekt",
+                        "czechEmployer": "Česká společnost",
+                        "foreignEmployer": "Zahraniční společnost",
+                        "switchToForeignEmployer": "Podnikám v zahraničí"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "employerTitle": "Subjekt vyplácející rentu",
+                        "czechEmployer": "Česká společnost",
+                        "foreignEmployer": "Zahraniční společnost",
+                        "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+                    }
+                },
+                "employerSearchId": {
                     "EMPLOYMENT_INCOME": {
                         "title": "Jaký je váš současný zaměstnavatel?",
                         "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
