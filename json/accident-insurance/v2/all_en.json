@@ -1,5 +1,21 @@
 {
     "scenes": {
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong. Call our Helpline and we will figure it out together.",
+                "detail": "We're sorry, currently we cannot continue to arrange accident insurance in Smart Banka.",
+                "callUs": "Call our Helpline. ",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "contractDisagree": {
+                "title": "Your Agreement is Required",
+                "detail": "If you have any questions, do not hesitate to call our Helpline or visit your nearest branch.",
+                "callUs": "Call our Helpline ",
+                "branch": "Visit our branch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Back"
+            }
+        },
         "disagree": {
             "title": "Your Agreement is Required",
             "detail": "If you have any questions, do not hesitate to call our Helpline or visit your nearest branch.",
