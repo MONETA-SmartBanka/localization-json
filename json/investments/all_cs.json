@@ -1564,13 +1564,16 @@
         {
           "typeCode": "GUARANTEED_CERTIFICATE",
           "type": "Garantovaný certifikát"
-        },{
+        },
+        {
           "typeCode": "BONUS_CERTIFICATE",
           "type": "Bonus certifikát"
-        },{
+        },
+        {
           "typeCode": "EXPRESS_CERTIFICATE",
           "type": "Express certifikát"
-        },{
+        },
+        {
           "typeCode": "DISCONT_CERTIFICATE",
           "type": "Diskontní certifikát"
         }
@@ -1814,8 +1817,8 @@
               "url": "https://www.moneta.cz/documents/20143/12604272/mmb-uniqa-ceed-pololetni-zprava.pdf"
             },
             {
-              "title":"Měsíční zpravodaj",
-              "url":"https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
+              "title": "Měsíční zpravodaj",
+              "url": "https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
             }
           ],
           "targetMarkets": {
@@ -3609,8 +3612,8 @@
               "url": "https://www.moneta.cz/documents/20143/12604278/mmb-uniqa-so-pololetni-zprava.pdf"
             },
             {
-              "title":"Měsíční zpravodaj",
-              "url":"https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
+              "title": "Měsíční zpravodaj",
+              "url": "https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
             }
           ],
           "targetMarkets": {
@@ -3845,8 +3848,8 @@
               "url": "https://www.moneta.cz/documents/20143/12604275/mmb-uniqa-sge-pololetni-zprava.pdf"
             },
             {
-              "title":"Měsíční zpravodaj",
-              "url":"https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
+              "title": "Měsíční zpravodaj",
+              "url": "https://www.moneta.cz/documents/20143/12604269/mmb-uniqa-zpravodaj.pdf"
             }
           ],
           "targetMarkets": {
@@ -5944,230 +5947,268 @@
         }
       ]
     },
-    "root": {
-        "investmentProfile": "Investiční profil",
-        "periods": [
-            {
-                "interval": "YEAR",
-                "name": "1 rok",
-                "longName": "Poslední rok",
-                "performance": "Výkon za poslední rok"
-            },
-            {
-                "interval": "THREE_YEARS",
-                "name": "3 roky",
-                "longName": "Poslední 3 roky",
-                "performance": "Výkon za poslední 3 roky"
-            },
-            {
-                "interval": "FIVE_YEARS",
-                "name": "5 let",
-                "longName": "Posledních 5 let",
-                "performance": "Výkon za posledních 5 let"
-            },
-            {
-                "interval": "WHOLE",
-                "name": "Od začátku",
-                "longName": "Od začátku",
-                "performance": "Výkon od začátku"
-            }
-        ],
-        "riskInfo": [
-            "Nízké výnosy, nízké kolísání hodnoty investice.",
-            "Nízké výnosy, nízké kolísání hodnoty investice.",
-            "Středně nízké výnosy, středně nízké kolísání hodnoty investice.",
-            "Střední výnosy, střední kolísání hodnoty investice.",
-            "Středně vysoké výnosy, výrazné kolísání hodnoty investice.",
-            "Vysoké výnosy, velmi výrazné kolísání hodnoty investice."
-        ],
-        "types": [
-          {
-            "typeCode": "MIX",
-            "type": "Smíšený"
-          },
-          {
-            "typeCode": "BOND",
-            "type": "Dluhopisový"
-          },
-          {
-            "typeCode": "STOCKS",
-            "type": "Akciový"
-          },
-          {
-            "typeCode": "SHORT_TERM_BOND",
-            "type": "Krátkodobý dluhopisový"
-          },
-          {
-            "typeCode": "REAL_ESTATE",
-            "type": "Realitní"
-          },
-          {
-            "typeCode": "GUARANTEED_CERTIFICATE",
-            "type": "Garantovaný certifikát"
-          },{
-            "typeCode": "BONUS_CERTIFICATE",
-            "type": "Bonus certifikát"
-          },{
-            "typeCode": "EXPRESS_CERTIFICATE",
-            "type": "Express certifikát"
-          },{
-            "typeCode": "DISCONT_CERTIFICATE",
-            "type": "Diskontní certifikát"
+    "selection2": {
+      "title": "Investice",
+      "options": [
+        {
+          "type": "DIP",
+          "icon": "longtermFundsFill",
+          "title": "Dlouhodobý investiční produkt (DIP)",
+          "detail": "Výhody pravidelného investování\na daňové úspory v jednom produktu.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "DIPINVESTMENT"
           }
-        ],
-        "profiles": [
-          "velmi konzervativní",
-          "konzervativní",
-          "dynamický",
-          "velmi dynamický"
-        ],
-        "valuationFrequencies": [
-            {
-                "frequency": "DAY",
-                "name": "Denně"
-            },
-            {
-                "frequency": "WEEK",
-                "name": "Týdně"
-            },
-            {
-                "frequency": "MONTH",
-                "name": "Měsíčně"
-            }
-        ]
+        },
+        {
+          "type": "FUNDS",
+          "icon": "investmentsFill",
+          "title": "Podílové fondy",
+          "detail": "Investice do více než 44 podílových fondů.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "INVESTMENT"
+          }
+        },
+        {
+          "type": "ADVICE",
+          "icon": "starsAltFill",
+          "title": "Fondy sjednané přes investiční poradenství",
+          "detail": "Vhodné řešení přímo pro vás.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "ADVISEINVESTMENT"
+          }
+        }
+      ]
+    },
+    "root": {
+      "investmentProfile": "Investiční profil",
+      "periods": [
+        {
+          "interval": "YEAR",
+          "name": "1 rok",
+          "longName": "Poslední rok",
+          "performance": "Výkon za poslední rok"
+        },
+        {
+          "interval": "THREE_YEARS",
+          "name": "3 roky",
+          "longName": "Poslední 3 roky",
+          "performance": "Výkon za poslední 3 roky"
+        },
+        {
+          "interval": "FIVE_YEARS",
+          "name": "5 let",
+          "longName": "Posledních 5 let",
+          "performance": "Výkon za posledních 5 let"
+        },
+        {
+          "interval": "WHOLE",
+          "name": "Od začátku",
+          "longName": "Od začátku",
+          "performance": "Výkon od začátku"
+        }
+      ],
+      "riskInfo": [
+        "Nízké výnosy, nízké kolísání hodnoty investice.",
+        "Nízké výnosy, nízké kolísání hodnoty investice.",
+        "Středně nízké výnosy, středně nízké kolísání hodnoty investice.",
+        "Střední výnosy, střední kolísání hodnoty investice.",
+        "Středně vysoké výnosy, výrazné kolísání hodnoty investice.",
+        "Vysoké výnosy, velmi výrazné kolísání hodnoty investice."
+      ],
+      "types": [
+        {
+          "typeCode": "MIX",
+          "type": "Smíšený"
+        },
+        {
+          "typeCode": "BOND",
+          "type": "Dluhopisový"
+        },
+        {
+          "typeCode": "STOCKS",
+          "type": "Akciový"
+        },
+        {
+          "typeCode": "SHORT_TERM_BOND",
+          "type": "Krátkodobý dluhopisový"
+        },
+        {
+          "typeCode": "REAL_ESTATE",
+          "type": "Realitní"
+        },
+        {
+          "typeCode": "GUARANTEED_CERTIFICATE",
+          "type": "Garantovaný certifikát"
+        },
+        {
+          "typeCode": "BONUS_CERTIFICATE",
+          "type": "Bonus certifikát"
+        },
+        {
+          "typeCode": "EXPRESS_CERTIFICATE",
+          "type": "Express certifikát"
+        },
+        {
+          "typeCode": "DISCONT_CERTIFICATE",
+          "type": "Diskontní certifikát"
+        }
+      ],
+      "profiles": [
+        "velmi konzervativní",
+        "konzervativní",
+        "dynamický",
+        "velmi dynamický"
+      ],
+      "valuationFrequencies": [
+        {
+          "frequency": "DAY",
+          "name": "Denně"
+        },
+        {
+          "frequency": "WEEK",
+          "name": "Týdně"
+        },
+        {
+          "frequency": "MONTH",
+          "name": "Měsíčně"
+        }
+      ]
     },
     "list": {
-        "investmentTitle": "Investice {0}",
-        "dipTitle": "Dlouhodobý invest. produkt {0}",
-        "dipActionButtonAccessibility": "Vložit peníze",
-        "tabMyPortfolio": "Moje portfolio",
-        "tabInvestmentOpportunities": "Investiční příležitosti",
-        "emptyPortfolio": {
-            "noInvestments": "Nezainvestováno",
-            "showFunds": "Zobrazit produkty",
-            "dipInfo": "Investujte a využijte potenciál DIP naplno. Zhodnocení Vašich peněz může být s investicemi vyšší.",
-            "bullets": [
-                {
-                    "icon": "tickFill",
-                    "title": "<b>Jednorázové i pravidelné investice</b><br/>Na výběr máte více než 40 renomovaných podílových fondů z celého světa."
-                },
-                {
-                    "icon": "tickFill",
-                    "title": "<b>Začít můžete i s malými částkami</b><br/>Pro investici do fondů Vám stačí už 500 Kč."
-                }
-            ]
-        },
-        "portfolio": {
-            "portfolioValue": "Hodnota portfolia",
-            "investedTotal": "Investováno celkem",
-            "yield": "Výnos",
-            "fundsTitle": "Investováno v investičních produktech",
-            "unprocessedTitle": "Zpracovávané",
-            "buyFundLoading": "Zpracováváme nákup. Vaši investici aktualizujeme pravděpodobně {date}.",
-            "sellFundLoading": "Zpracováváme prodej. Vaši investici aktualizujeme pravděpodobně {date}."
-        },
-        "funds": {
-            "profiles": [
-                "Krátkodobější investice, stabilnější produkty",
-                "Střednědobé investice, vyvážené produkty",
-                "Dlouhodobé investice, kolísavější produkty",
-                "Dlouhodobé investice, kolísavé produkty"
-            ],
-            "footer": "Zobrazte si i fondy v EUR. Stačí, když si u nás na pár kliků založíte <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">eurový účet zdarma</a>, a můžete investovat.",
-            "footerButton": "Jak fungují investice?"
-        }
+      "investmentTitle": "Investice {0}",
+      "dipTitle": "Dlouhodobý invest. produkt {0}",
+      "dipActionButtonAccessibility": "Vložit peníze",
+      "tabMyPortfolio": "Moje portfolio",
+      "tabInvestmentOpportunities": "Investiční příležitosti",
+      "emptyPortfolio": {
+        "noInvestments": "Nezainvestováno",
+        "showFunds": "Zobrazit produkty",
+        "dipInfo": "Investujte a využijte potenciál DIP naplno. Zhodnocení Vašich peněz může být s investicemi vyšší.",
+        "bullets": [
+          {
+            "icon": "tickFill",
+            "title": "<b>Jednorázové i pravidelné investice</b><br/>Na výběr máte více než 40 renomovaných podílových fondů z celého světa."
+          },
+          {
+            "icon": "tickFill",
+            "title": "<b>Začít můžete i s malými částkami</b><br/>Pro investici do fondů Vám stačí už 500 Kč."
+          }
+        ]
+      },
+      "portfolio": {
+        "portfolioValue": "Hodnota portfolia",
+        "investedTotal": "Investováno celkem",
+        "yield": "Výnos",
+        "fundsTitle": "Investováno v investičních produktech",
+        "unprocessedTitle": "Zpracovávané",
+        "buyFundLoading": "Zpracováváme nákup. Vaši investici aktualizujeme pravděpodobně {date}.",
+        "sellFundLoading": "Zpracováváme prodej. Vaši investici aktualizujeme pravděpodobně {date}."
+      },
+      "funds": {
+        "profiles": [
+          "Krátkodobější investice, stabilnější produkty",
+          "Střednědobé investice, vyvážené produkty",
+          "Dlouhodobé investice, kolísavější produkty",
+          "Dlouhodobé investice, kolísavé produkty"
+        ],
+        "footer": "Zobrazte si i fondy v EUR. Stačí, když si u nás na pár kliků založíte <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">eurový účet zdarma</a>, a můžete investovat.",
+        "footerButton": "Jak fungují investice?"
+      }
     },
     "detail": {
-        "detail": "{type}, {profile} pro investice na {term} a více let.",
-        "tabMyInvestment": "Moje investice",
-        "tabInvestmentDetail": "Detail produktu",
-        "report": "Složení",
-        "more": "Více",
-        "myInvestment": {
-            "history": "Historie transakcí",
-            "historyFull": "Celá historie",
-            "bought": "Nákup",
-            "sold": "Prodej",
-            "totalInvested": "Celkem investováno",
-            "monthlyInvested": "Měsíčně investuji",
-            "performance": "Zhodnocení od {date}",
-            "profit": "Výnos",
-            "currentValue": "Aktuální hodnota"
-        },
-        "investmentDetail": {
-            "standingOrders": "Trvalé příkazy",
-            "watch": "Sledovat produk",
-            "titleInformation": "Informace",
-            "minInvestment": "Minimální investice",
-            "currency": "Měna",
-            "nav": "Kurz (čistá hodnota aktiv)",
-            "currentRateDate": "Aktuální kurz ke dni",
-            "valuationFrequency": "Frekvence oceňování",
-            "isin": "ISIN (ozn. investičních produktů)",
-            "accountNumber": "Číslo účtu",
-            "creationDate": "Datum vzniku",
-            "buyFee": "Poplatek při nákupu",
-            "sellFee": "Poplatek při prodeji",
-            "titleDocuments": "Dokumenty ke stažení"
-        }
+      "detail": "{type}, {profile} pro investice na {term} a více let.",
+      "tabMyInvestment": "Moje investice",
+      "tabInvestmentDetail": "Detail produktu",
+      "report": "Složení",
+      "more": "Více",
+      "myInvestment": {
+        "history": "Historie transakcí",
+        "historyFull": "Celá historie",
+        "bought": "Nákup",
+        "sold": "Prodej",
+        "totalInvested": "Celkem investováno",
+        "monthlyInvested": "Měsíčně investuji",
+        "performance": "Zhodnocení od {date}",
+        "profit": "Výnos",
+        "currentValue": "Aktuální hodnota"
+      },
+      "investmentDetail": {
+        "standingOrders": "Trvalé příkazy",
+        "watch": "Sledovat produk",
+        "titleInformation": "Informace",
+        "minInvestment": "Minimální investice",
+        "currency": "Měna",
+        "nav": "Kurz (čistá hodnota aktiv)",
+        "currentRateDate": "Aktuální kurz ke dni",
+        "valuationFrequency": "Frekvence oceňování",
+        "isin": "ISIN (ozn. investičních produktů)",
+        "accountNumber": "Číslo účtu",
+        "creationDate": "Datum vzniku",
+        "buyFee": "Poplatek při nákupu",
+        "sellFee": "Poplatek při prodeji",
+        "titleDocuments": "Dokumenty ke stažení"
+      }
     },
     "detailSheet": {
-        "actionPurchase": "Investovat",
-        "actionSell": "Prodat",
-        "actionDetail": "Detail",
-        "actionTransactions": "Historie transakcí",
-        "actionStatements": "Výpisy",
-        "actionReport": "Složení",
-        "investedAmount": "Investovaná částka",
-        "currentValue": "Aktuální hodnota",
-        "yieldFrom": "Zhodnocení od {date}",
-        "profitFrom": "Výnos od {date}",
-        "fundDescription": "Popis produktu",
-        "detail": "{type}, {profile} pro investice na {term} a více let.",
-        "statementDIP": "dlouhodobého investičního produktu",
-        "statementInvestment": "investičních produktů"
+      "actionPurchase": "Investovat",
+      "actionSell": "Prodat",
+      "actionDetail": "Detail",
+      "actionTransactions": "Historie transakcí",
+      "actionStatements": "Výpisy",
+      "actionReport": "Složení",
+      "investedAmount": "Investovaná částka",
+      "currentValue": "Aktuální hodnota",
+      "yieldFrom": "Zhodnocení od {date}",
+      "profitFrom": "Výnos od {date}",
+      "fundDescription": "Popis produktu",
+      "detail": "{type}, {profile} pro investice na {term} a více let.",
+      "statementDIP": "dlouhodobého investičního produktu",
+      "statementInvestment": "investičních produktů"
     },
     "dipPromo": {
-        "title": "Lepší penze s Dlouhodobým investičním produktem",
-        "detail": "S novinkou na trhu si můžete sami zvolit, kde\nse budou Vaše peníze na stáří zhodnocovat.",
-        "bulletsTitle": "Daňová úspora až 7 200 Kč ročně a možnost příspěvku od zaměstnavatele až 50 000 Kč",
-        "bullets": [
-            {
-                "icon": "investmentsFill",
-                "title": "Spoření s atraktivní úrokovou sazbou",
-                "detail": "Součástí produktu je Spořicí účet DIP. Peníze tam můžete nechat úročit nebo je investovat do podílových fondů pro možné vyšší zhodnocení."
-            },
-            {
-                "icon": "moneyBillRepeatFill",
-                "title": "Jednorázové i pravidelné investice",
-                "detail": "Na výběr máte více než 40 renomovaných investičních produktů z naší nabídky. Když investici prodáte, peníze Vám připíšeme zpět na Spořicí účet DIP."
-            },
-            {
-                "icon": "interestFill",
-                "title": "Ušetříte na daních",
-                "detail": "Pokud uložíte peníze na DIP nejméně na 10 let a zároveň do 60 let věku, můžete na daních ušetřit až 7 200 Kč ročně."
-            }
-        ],
-        "moreInfo": {
-            "actionLabelText": "Více informací",
-            "actionType": "WEB",
-            "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
+      "title": "Lepší penze s Dlouhodobým investičním produktem",
+      "detail": "S novinkou na trhu si můžete sami zvolit, kde\nse budou Vaše peníze na stáří zhodnocovat.",
+      "bulletsTitle": "Daňová úspora až 7 200 Kč ročně a možnost příspěvku od zaměstnavatele až 50 000 Kč",
+      "bullets": [
+        {
+          "icon": "investmentsFill",
+          "title": "Spoření s atraktivní úrokovou sazbou",
+          "detail": "Součástí produktu je Spořicí účet DIP. Peníze tam můžete nechat úročit nebo je investovat do podílových fondů pro možné vyšší zhodnocení."
         },
-        "primaryButton": {
-            "actionLabelText": "Sjednat DIP na pobočce",
-            "actionType": "APPPAGE",
-            "actionData": "BRANCHESATMS"
+        {
+          "icon": "moneyBillRepeatFill",
+          "title": "Jednorázové i pravidelné investice",
+          "detail": "Na výběr máte více než 40 renomovaných investičních produktů z naší nabídky. Když investici prodáte, peníze Vám připíšeme zpět na Spořicí účet DIP."
+        },
+        {
+          "icon": "interestFill",
+          "title": "Ušetříte na daních",
+          "detail": "Pokud uložíte peníze na DIP nejméně na 10 let a zároveň do 60 let věku, můžete na daních ušetřit až 7 200 Kč ročně."
         }
+      ],
+      "moreInfo": {
+        "actionLabelText": "Více informací",
+        "actionType": "WEB",
+        "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
+      },
+      "primaryButton": {
+        "actionLabelText": "Sjednat DIP na pobočce",
+        "actionType": "APPPAGE",
+        "actionData": "BRANCHESATMS"
+      }
     },
     "notImplemented": {
-        "title": "Toto Smart Banka zatím neumí.<br/>Než ji to naučíme, rádi vám pomůžeme na pobočce",
-        "primaryButton": "Najít nejbližší pobočku",
-        "secondaryButton": "Zavřít"
+      "title": "Toto Smart Banka zatím neumí.<br/>Než ji to naučíme, rádi vám pomůžeme na pobočce",
+      "primaryButton": "Najít nejbližší pobočku",
+      "secondaryButton": "Zavřít"
     },
     "noCurrentAccount": {
-        "title": "Peníze na DIP můžete vložit odkudkoliv",
-        "detail": "Bohužel jsme nenašli žádný běžný účet u Monety, ze kterého byste mohli vložit peníze na DIP.<br/>Pokud chcete, můžete peníze poslat i odjinud. Nepotřebujete žádný variabilní symbol, stačí jen zaslat platbu Váš spořicí účet DIP.",
-        "primaryButton": "Rozumím"
+      "title": "Peníze na DIP můžete vložit odkudkoliv",
+      "detail": "Bohužel jsme nenašli žádný běžný účet u Monety, ze kterého byste mohli vložit peníze na DIP.<br/>Pokud chcete, můžete peníze poslat i odjinud. Nepotřebujete žádný variabilní symbol, stačí jen zaslat platbu Váš spořicí účet DIP.",
+      "primaryButton": "Rozumím"
     }
   }
 }
