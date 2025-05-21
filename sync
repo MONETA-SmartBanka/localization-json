@@ -6,10 +6,10 @@ LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null)
 # Kontrola, zda existuje nějaký tag
 if [ -z "$LAST_TAG" ]; then
     echo "Žádný tag nenalezen. Kontroluji všechny soubory."
-    FILES=$(git ls-files)
+    FILES=$(git ls-files '*.json')
 else
     echo "Kontroluji změny od posledního tagu: $LAST_TAG"
-    FILES=$(git ls-files)
+    FILES=$(git ls-files '*.json')
 fi
 
 # Procházení souborů a stažení změn
