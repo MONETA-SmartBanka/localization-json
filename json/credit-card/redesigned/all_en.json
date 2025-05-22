@@ -173,13 +173,13 @@
       "primaryButton": "Yes, continue"
     },
     "click2Pay": {
-        "title": "Click to Pay has been enabled for your card",
-        "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
-        "emailPrompt": "E-mail for payments",
-        "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
-        "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
-        "primaryButton": "Continue with Click to Pay",
-        "secondaryButton": "Not interested"
+      "title": "Click to Pay has been enabled for your card",
+      "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
+      "emailPrompt": "E-mail for payments",
+      "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
+      "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
+      "primaryButton": "Continue with Click to Pay",
+      "secondaryButton": "Not interested"
     },
     "permanentAddress": {
       "title": "Is this your permanent residence?",
@@ -336,48 +336,65 @@
       ],
       "employer": {
         "EMPLOYMENT_INCOME": {
-          "title": "Who is your current employer?",
-          "employerTitle": "Employer",
+          "title": "Jaký je Váš současný zaměstnavatel?",
+          "employerTitle": "Zaměstnavatel",
           "employerPlaceholder": "vyberte",
-          "streetTitle": "Street",
-          "descriptiveNumberTitle": "Descr. no.",
-          "orientationNumberTitle": "Orient. no.",
-          "cityTitle": "City",
-          "zipTitle": "ZIP",
-          "countryTitle": "Country",
-          "idNumberTitle": "IN",
-          "primaryButton": "Continue"
+          "czechEmployer": "Český zaměstnavatel",
+          "foreignEmployer": "Zahraniční zaměstnavatel",
+          "countryTitle": "Země",
+          "idNumberTitle": "IČ",
+          "primaryButton": "Pokračovat"
         },
         "BUSINESS_INCOME": {
           "title": "Doplňte údaje o Vašem podnikání",
           "employerTitle": "Název",
           "employerPlaceholder": "Vyberte název subjektu",
-          "streetTitle": "Street",
-          "descriptiveNumberTitle": "Descr. no.",
-          "orientationNumberTitle": "Orient. no.",
-          "cityTitle": "City",
-          "zipTitle": "ZIP",
-          "countryTitle": "Country",
-          "idNumberTitle": "IN",
-          "primaryButton": "Continue"
+          "czechEmployer": "Český subjekt",
+          "foreignEmployer": "Zahraniční subjekt",
+          "countryTitle": "Země",
+          "idNumberTitle": "IČ",
+          "primaryButton": "Pokračovat"
         },
         "RENT": {
           "title": "Kdo vám rentu vyplácí?",
           "employerTitle": "Subjekt vyplácející rentu",
+          "czechEmployer": "Český subjekt",
+          "foreignEmployer": "Zahraniční subjekt",
           "employerPlaceholder": "vyberte",
-          "streetTitle": "Street",
-          "descriptiveNumberTitle": "Descr. no.",
-          "orientationNumberTitle": "Orient. no.",
-          "cityTitle": "City",
-          "zipTitle": "ZIP",
-          "countryTitle": "Country",
-          "idNumberTitle": "IN",
-          "primaryButton": "Continue"
+          "countryTitle": "Země",
+          "idNumberTitle": "IČ",
+          "primaryButton": "Pokračovat"
         }
       },
       "employerSearch": {
         "EMPLOYMENT_INCOME": {
-          "title": "Jaký je váš současný Employer?",
+          "title": "Jaký je váš současný zaměstnavatel?",
+          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+          "employerTitle": "Zaměstnavatel",
+          "czechEmployer": "Český zaměstnavatel",
+          "foreignEmployer": "Zahraniční zaměstnavatel",
+          "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
+        },
+        "BUSINESS_INCOME": {
+          "title": "Subjekt",
+          "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+          "employerTitle": "Subjekt",
+          "czechEmployer": "Česká společnost",
+          "foreignEmployer": "Zahraniční společnost",
+          "switchToForeignEmployer": "Podnikám v zahraničí"
+        },
+        "RENT": {
+          "title": "Kdo vám rentu vyplácí?",
+          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+          "employerTitle": "Subjekt vyplácející rentu",
+          "czechEmployer": "Česká společnost",
+          "foreignEmployer": "Zahraniční společnost",
+          "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+        }
+      },
+      "employerSearchId": {
+        "EMPLOYMENT_INCOME": {
+          "title": "Jaký je váš současný zaměstnavatel?",
           "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
           "employerTitle": "Zaměstnavatel",
           "czechEmployer": "Český zaměstnavatel",
