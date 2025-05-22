@@ -176,6 +176,14 @@
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět na Přehled"
         },
+        "needsAnalysisDisagree": {
+            "title": "Bez souhlasu Vám nemůžeme pojištění sjednat",
+            "detail": "Pro poskytnutí <b>Pojištění schopnosti splácet</b> potřebujeme Váš souhlas, že jste se s podmínkami seznámil a že jim rozumíte. Pokud si úvěr nepřejete pojistit, pokračujte ve sjednání bez pojištění.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět k souhlasu",
+            "secondaryButton": "Pokračovat bez pojištění"
+        },
         "precontractDisagree": {
             "title": "Bez toho to bohužel nepůjde...",
             "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
@@ -984,6 +992,23 @@
             "disclaimer": "Kliknutím na “Pojistit” potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">Pojistnými podmínkami a Rámcovou smlouvou o pojištění</a>.",
             "primaryButton": "Pojistit za {0} měsíčně",
             "secondaryButton": "Nemám zájem o pojištění"
+        },
+        "insuranceDisabled": {
+            "title": "Byl Vám přiznán invalidní důchod?",
+            "detail": "Potřebujeme vědět, zda Vás můžeme pojistit.",
+            "no": "Ne",
+            "yes": "Ano, mám invalidní důchod (I., II., nebo III. stupně)",
+            "message": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Pokračujte prosím ve sjednání bez pojištění.",
+            "primaryButton": "Pokračovat",
+            "primaryButtonWithoutInsurance": "Pokračovat bez pojištění",
+            "secondaryButton": "Zpět"
+        },
+        "needsAnalysis": {
+            "title": "Přečtěte si prosím analýzu potřeb s doporučením pro pojištění",
+            "detail": "Pozorně si ji prosím přečtěte. Později se na ni můžete opět podívat ve svém novém podnikatelském internetovém bankovnictví v sekci Dokumenty.",
+            "agree": "Potvrzuji, že jsem se s Analýzou potřeb a doporučení seznámil/a",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
         },
         "packages": {
             "title": "Schválený Balíček PRO podnikání",
