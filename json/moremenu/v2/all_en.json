@@ -107,6 +107,18 @@
           "actionValue": "INSURANCELIST"
         },
         {
+          "title": "Insurance Offers",
+          "listIcon": "smartBankaFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCEOFFERS"
+        },
+        {
           "title": "Travel Insurance",
           "listIcon": "suitcaseRollingFill",
           "userClientTypeList": [
@@ -129,30 +141,6 @@
           "shouldCheckEligibility": true,
           "actionType": "APPPAGE",
           "actionValue": "ACCIDENT_INSURANCE"
-        },
-        {
-          "title": "Phone and Cards Insurance",
-          "listIcon": "smartBankaFill",
-          "userClientTypeList": [
-            "FO",
-            "FOP",
-            "ZAM"
-          ],
-          "shouldCheckEligibility": false,
-          "actionType": "APPPAGE",
-          "actionValue": "INSURANCEOFFERS"
-        },
-        {
-          "title": "Online Payment Insurance",
-          "listIcon": "userSecretCardFill",
-          "userClientTypeList": [
-            "FO",
-            "FOP",
-            "ZAM"
-          ],
-          "shouldCheckEligibility": false,
-          "actionType": "APPPAGE",
-          "actionValue": "INSURANCEOFFERS"
         },
         {
           "title": "Mortgage repayment insurance",
