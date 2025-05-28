@@ -142,6 +142,18 @@
           "actionValue": "INSURANCELIST"
         },
         {
+          "title": "Sjednat pojištění Online",
+          "listIcon": "smartBankaFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCEOFFERS"
+        },
+        {
           "title": "Cestovní pojištění",
           "listIcon": "suitcaseRollingFill",
           "userClientTypeList": [
@@ -149,7 +161,7 @@
             "FOP",
             "ZAM"
           ],
-          "shouldCheckEligibility": true,
+          "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
           "actionValue": "TRAVELINSURANCE"
         },
@@ -164,30 +176,6 @@
           "shouldCheckEligibility": true,
           "actionType": "APPPAGE",
           "actionValue": "ACCIDENT_INSURANCE"
-        },
-        {
-          "title": "Pojištění telefonu a karet",
-          "listIcon": "smartBankaFill",
-          "userClientTypeList": [
-            "FO",
-            "FOP",
-            "ZAM"
-          ],
-          "shouldCheckEligibility": false,
-          "actionType": "APPPAGE",
-          "actionValue": "INSURANCEOFFERS"
-        },
-        {
-          "title": "Pojištění elektronických plateb",
-          "listIcon": "userSecretCardFill",
-          "userClientTypeList": [
-            "FO",
-            "FOP",
-            "ZAM"
-          ],
-          "shouldCheckEligibility": false,
-          "actionType": "APPPAGE",
-          "actionValue": "INSURANCEOFFERS"
         },
         {
           "title": "Pojištění splácení hypotéky",
