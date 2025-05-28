@@ -2,8 +2,10 @@
   "scenes": {
     "main": {
       "title": "Nejlevnější hypotéka na trhu s garancí úroku na 60 dní",
+      "titlePreApproved": "Připravili jsme vám až {0} od {1} ročně",
       "propertyPrice": "Cena nemovitosti",
       "loanAmountTitle": "Chci si půjčit",
+      "loanAmountTitlePreApproved": "Půjčím si",
       "propertyPricePercent": "{0} ceny nemovitosti",
       "maturityTitle": "Doba splácení",
       "fixationInterest": "Fixace a úrok",
@@ -19,6 +21,21 @@
       "footer": "Výpočet je pouze orientační. Přesný výpočet a parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
       "primaryButton": "Sjednat hypotéku online",
       "recalculating": "Přepočítáváme...",
+      "bonuses": [
+        {
+          "icon": "giftFill",
+          "title": "K tomu <b><green>7 000 Kč</green></b> za sjednání"
+        },
+        {
+          "icon": "coupleFill",
+          "title": "Ve dvou můžete získat více",
+          "info": {
+            "icon": "couple",
+            "title": "Ve dvou můžete získat více",
+            "detail": "Jednoznačnou výhodou žádání o úvěru v páru je bonita, kterou dokládáte bance dohromady, tedy jako bonitu celé domácnosti. Jako pár tak můžete dosáhnout na mnohem výhodnější podmínky hypotečního úvěru."
+          }
+        }
+      ],
       "refinansing": {
         "sectionTitle": "Hypotéku už máte? Získejte lepší úrok",
         "title": "Refinancování hypotéky",

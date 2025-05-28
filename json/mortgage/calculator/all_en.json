@@ -2,8 +2,10 @@
   "scenes":{
     "main":{
       "title":"The lowest mortgage rate on the market – with a 60-day interest rate ",
+      "titlePreApproved": "Up to {0} for you from {1} p.a",
       "propertyPrice":"Property value",
       "loanAmountTitle":"Desired amount",
+      "loanAmountTitlePreApproved": "I want to borrow",
       "propertyPricePercent":"{0} of the property value",
       "maturityTitle":"Repayment period",
       "fixationInterest":"Fixed-rate period and interest rate",
@@ -19,6 +21,21 @@
       "footer":" This is only an estimate. You’ll get an exact calculation and loan terms during the online application.  See the <a href=\"link\">representative example</a>.",
       "primaryButton":"Arrange mortgage online",
       "recalculating":"Recalculating...",
+      "bonuses": [
+        {
+          "icon": "giftFill",
+          "title": "Receive a sign-up bonus of <b><green>7,000 CZK</green></b>"
+        },
+        {
+          "icon": "coupleFill",
+          "title": "Couples are eligible for more",
+          "info": {
+            "icon": "couple",
+            "title": "Couples are eligible for more",
+            "detail": "A clear advantage of applying for a mortgage as a couple is that the bank assesses your combined creditworthiness as that of the entire household. This can help you qualify for much better loan conditions."
+          }
+        }
+      ],
       "refinansing":{
         "sectionTitle":"Do you already have a mortgage? Get a better interest rate",
         "title":"Mortgage refinancing ",

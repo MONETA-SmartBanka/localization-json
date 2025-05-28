@@ -1,6 +1,7 @@
 {
   "mortgagePage": {
     "tabLabel": "Hypotéka",
+    "tabLabelPreApproved": "Připravená hypotéka",
     "title": "Připravili jsme Vám až {{AMOUNT}} CZK s úrokem od {{RATE}} % ročně",
     "bullets": [
       {
@@ -41,18 +42,23 @@
     "primaryButton": "Do kalkulačky"
   },
   "upsell": {
+    "displayUpsellPercent": true,
     "mortgageOfferPercent": 3.99,
     "refinansoOfferPercent": 3.99,
     "valueFrom": "<b>od {0}</b>",
     "subValue": "ročně",
     "dashboardWidgetTitle": "Hypotéku od {0} máte na dosah",
+    "dashboardWidgetTitlePreApproved": "Připravili jsme vám hypotéku",
+    "dashboardWidgetDescriptionPreApproved": "od {0} ročně",
     "sliderTitleButton": "Zadejte výši hypotéky",
+    "sliderTitleButtonPreApproved": "Připravili jsme vám",
     "sliderTitleClosable": "Chci si půjčit",
     "sliderTitle": "Zadejte výši hypotéky",
     "sliderDefaultValue": 2400000,
     "sliderMinValue": 300000,
     "sliderMaxValue": 30000000,
     "sliderButtonTitle": "Chci bydlet ve vlastním od {0}",
+    "bonus": "s odměnou 7 000 Kč",
     "closeSheet": {
       "icon": "home",
       "title": "Nezavírejte si dveře před nejlepší hypotékou na trhu",
