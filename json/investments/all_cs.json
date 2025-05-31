@@ -5951,13 +5951,13 @@
       "title": "Investice",
       "options": [
         {
-          "type": "DIP",
-          "icon": "longtermFundsFill",
-          "title": "Dlouhodobý investiční produkt (DIP)",
-          "detail": "Výhody pravidelného investování\na daňové úspory v jednom produktu.",
+          "type": "ADVICE",
+          "icon": "starsAltFill",
+          "title": "Fondy sjednané přes investiční poradenství",
+          "detail": "Vhodné řešení přímo pro vás.",
           "action": {
             "actionType": "APPPAGE",
-            "actionData": "DIPINVESTMENT"
+            "actionData": "INVESTMENTADVISORY"
           }
         },
         {
@@ -5971,13 +5971,13 @@
           }
         },
         {
-          "type": "ADVICE",
-          "icon": "starsAltFill",
-          "title": "Fondy sjednané přes investiční poradenství",
-          "detail": "Vhodné řešení přímo pro vás.",
+          "type": "DIP",
+          "icon": "longtermFundsFill",
+          "title": "Dlouhodobý investiční produkt (DIP)",
+          "detail": "Výhody pravidelného investování\na daňové úspory v jednom produktu.",
           "action": {
             "actionType": "APPPAGE",
-            "actionData": "INVESTMENTADVISORY"
+            "actionData": "DIPINVESTMENT"
           }
         }
       ]

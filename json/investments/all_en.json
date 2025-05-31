@@ -5912,12 +5912,13 @@
       "title": "What kind of investments are you interested in?",
       "options": [
         {
-          "icon": "longtermFundsFill",
-          "title": "Long-Term Investment Product (LTIP)",
-          "detail": "The benefits of regular investing and tax savings in one product.",
+          "type": "ADVICE",
+          "icon": "starsAltFill",
+          "title": "Funds acquired through an investment advisor",
+          "detail": "A solution that tailored to your needs.",
           "action": {
             "actionType": "APPPAGE",
-            "actionData": "DIPINVESTMENT"
+            "actionData": "INVESTMENTADVISORY"
           }
         },
         {
@@ -5927,6 +5928,15 @@
           "action": {
             "actionType": "APPPAGE",
             "actionData": "INVESTMENT"
+          }
+        },
+        {
+          "icon": "longtermFundsFill",
+          "title": "Long-Term Investment Product (LTIP)",
+          "detail": "The benefits of regular investing and tax savings in one product.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "DIPINVESTMENT"
           }
         }
       ]
