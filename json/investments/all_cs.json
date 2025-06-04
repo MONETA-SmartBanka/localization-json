@@ -1757,6 +1757,256 @@
               ]
             }
           ]
+        },
+        {
+          "title": "Investiční průvodce:\nzávěrečné otázky",
+          "questions": [
+            {
+              "title": "Když mi banka poskytne doporučení, do čeho mám investovat, jak se nazývá služba, kterou banka provede?",
+              "id": 18,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Banka mi bude poskytovat investiční poradenství, přičemž na základě sdělených informací mi banka vybere nejvhodnější produkt. Já se poté rozhodnu, zda doporučení přijmu či nikoli.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka bude sama průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka mi prodá podílové listy ze svého účtu a určí si svévolně cenu, za kterou je od ní koupím.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Zjistil*a jsem, že hodnota mojí investice poklesla o 10 %. Co udělám?",
+              "id": 19,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Začnu zjišťovat, jak peníze vybrat. ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nebudu dělat nic.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Využiji poklesu a zainvestuji více. ",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jakou část svého finančního majetku (včetně úspor, vkladů, investic, cenných papírů) hodlám ročně prostřednictvím banky investovat?",
+              "id": 20,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Do 20 %",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Do 50 %",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Více než 50 %",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Výše mého finančního majetku (včetně úspor, vkladů, investic, cenných papírů) je.",
+              "id": 21,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Do 300 tisíc Kč včetně. ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Mezi 300 000 Kč a 1 000 000 Kč.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nad 1 000 000 Kč.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Moje pravidelné splátky dluhů a jiných finančních závazků:",
+              "id": 22,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Tvoří více než 80 % mých pravidelných příjmů.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Tvoří 50 až 80 % mých pravidelných příjmů.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Tvoří méně než 50 % mých pravidelných příjmů.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaká je čistá výše Vašich pravidelných měsíčních příjmů?",
+              "id": 23,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Do 20 000 Kč",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Mezi 20 000 Kč a 50 000 Kč.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nad 50 000 Kč.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaký je hlavní zdroj vašich pravidelných příjmů?",
+              "id": 24,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Zaměstnanec na dobu neurčitou",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Zaměstnanec na dobu určitou",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Podnikatel",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Dohoda o pracovní činnosti",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Dohoda o provedení práce",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Starobní důchod",
+                  "value": 6,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Invalidní důchod",
+                  "value": 7,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Brigáda",
+                  "value": 8,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Rodičovský příspěvěk",
+                  "value": 9,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Studuji",
+                  "value": 10,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nezaměstnaný*á",
+                  "value": 11,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Která z následujících situací by při ukončení investice snížila naplňování Vašich základních životních potřeb (např. nákup jídla či oblečení)?",
+              "id": 25,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Pokles hodnoty investované částky o méně než 5 %.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Pokles hodnoty investované částky o od 5 % do 15 %.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Ani pokles hodnoty investované částky o 15 % a více by neohrozil mou schopnost hradit základní životní potřeby.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },

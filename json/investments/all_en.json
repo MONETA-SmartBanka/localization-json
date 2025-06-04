@@ -1757,6 +1757,256 @@
               ]
             }
           ]
+        },
+        {
+          "title": "Investment Guide:\nFinal Questions",
+          "questions": [
+            {
+              "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
+              "id": 18,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "The bank will provide me with investment advice, and based on the information provided, the bank will select the most suitable product for me. I will then decide whether to accept the recommendation or not.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "The bank will continuously invest my money so that the content of my portfolio corresponds to the investment strategy we have agreed upon.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "The bank will sell me the shares from its account and arbitrarily determine the price at which I will buy them from it.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don't know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "I found out that the value of my investment has decreased by 10%. What will I do?",
+              "id": 19,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "I will try to withdraw my funds.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I won't do anything.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I will take advantage of the dip and buy more.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What percentage of my financial assets (including savings, deposits, investments, securities) do I intend to invest through the bank annually?",
+              "id": 20,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Up to 20%.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Up to 50%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than 50%.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
+              "id": 21,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Up to CZK 300 000",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Between CZK 300,000 and CZK 1,000,000.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than CZK 1 000 000.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "My regular debt payments and other financial obligations.",
+              "id": 22,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Make up more than  80% of my income.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Make up  between 50% and 80% of my income.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Make up less than 50% of my income.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What is the net amount of your regular monthly income?",
+              "id": 23,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Less than CZK 20,000 ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Between CZK 20,000 and CZK 50,000.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than CZK 50,000.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What is the main source of your regular income?",
+              "id": 24,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Permanent employee",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Fixed-term employee",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Entrepreneur",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Agreement to perform work",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Contract for work",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Retirement pension",
+                  "value": 6,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Disability pension",
+                  "value": 7,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Part-time work",
+                  "value": 8,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Parental allowance",
+                  "value": 9,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I am a student",
+                  "value": 10,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I am unemployed",
+                  "value": 11,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Which of the following situations would reduce your ability to meet your basic living needs (e.g., buying food or clothing) upon the sale of your investment?",
+              "id": 22,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "A decrease in the value of the invested amount by less than 5%.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "A decrease in the value of the invested amount by 5% to 15%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Even a decrease in the value of the invested amount by 15% or more would not affect my ability to cover basic living needs.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
         }
       ]
     },
