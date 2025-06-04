@@ -1136,6 +1136,630 @@
         }
       ]
     },
+    "questionnaire_v3": {
+      "title": "Investiční dotazník. Budete investovat odvážně, nebo opatrně?",
+      "alternativeTitle": "Je to pro Vás to pravé?",
+      "detail": "Odpovězte na následující otázky, díky kterým zjistíte svůj investiční profil a jaké produkty jsou vhodné pro vaše investice.",
+      "alternativeDetail": "Odpovězte na následující otázky, díky kterým zjistíte svůj investiční profil a jaké produkty jsou vhodné pro vaše investice.",
+      "footer": "Otázky vychází z evropské směrnice o trzích finančních nástrojů (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), tento měsíc ho můžete aktualizovat ještě {0}x.",
+      "primaryButton": "Pokračovat",
+      "firstCategoryPrimaryButton": "Pokračovat",
+      "middleCategoryPrimaryButton": "Už jen {0}",
+      "lastCategoryPrimaryButton": "Hotovo, pojďme to vyhodnotit",
+      "notEligibleMifid": {
+        "title": "Zadržte, prosím",
+        "detail": "Jako ochranu před investicí do neodpovídajících finančních nástrojů Vám bohužel nyní neumožníme aktualizovat investiční profil.\n\nDěkujeme za pochopení.",
+        "primaryButton": "Zpět na přehled fondů"
+      },
+      "category": [
+        {
+          "title": "Vyznáte se v investování?",
+          "detail": "Nechceme vás zkoušet, ale je důležité zjistit vaši orientace v oblasti financí a investování.\n\nChcete investovat pouze do podílových fondů? U otázek týkajících se investičních certifikátů vyberte možnost Nevím.",
+          "vocabularyTitle": "Slovníček pojmů",
+          "vocabularyBullets": [
+            {
+              "title": "Podílový fond",
+              "body": "Jde o nástroj kolektivního investování tvořený majetkem, který spravuje investiční společnost. Podílový fond shromažďuje peníze od více investorů a tyto peníze hromadně investuje. Základní jednotkou podílového fondu je podílový list vlastníka."
+            },
+            {
+              "title": "Akciový podílový fond",
+              "body": "Investuje většinu majetku do akcií. Akcie představují podíl v akciové společnosti, prostřednictvím kterých se majitel akcií podílí na zisku a řízení společnosti. Akcie jsou nejvíce rizikové a jejich hodnota může výrazně kolísat."
+            },
+            {
+              "title": "Dluhopisový podílový fond",
+              "body": "Investuje většinu majetku do dluhopisů. Dluhopis je nástroj, pomocí kterého se podniku či státu půjčují peníze."
+            },
+            {
+              "title": "Smíšený podílový fond",
+              "body": "Nejčastěji obsahují kombinaci akcií podniků a dluhopisů podniků nebo států. "
+            },
+            {
+              "title": "Investiční certifikát",
+              "body": "Je investiční produkt, který má své specifické podmínky, které určují práva a povinnosti investora. Mezi takové podmínky patří doba trvání, způsob stanovení výnosu, omezení na maximální výši výnosu nebo podmínky předčasného splacení."
+            },
+            {
+              "title": "Investiční služba přijímání a předávání pokynů",
+              "body": "Banka od klienta přijme pokyn k požadovanému obchodu a ten následně předá dané investiční společnosti k provedení; při této službě není poskytováno investiční poradenství."
+            },
+            {
+              "title": "Výnos není garantován ani pojištěn",
+              "body": "Investice vždy představuje riziko; není zaručeno, že klient neutrpí ztrátu; na rozdíl od bankovních vkladů Vaše investice není ze zákona pojištěna. "
+            }
+          ],
+          "questions": [
+            {
+              "title": "Pokud bance zadám pokyn k nákupu podílových listů za určitou částku, jak se nazývá služba, kterou banka provede?",
+              "id": 1,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Jde o službu Přijímání a předávání pokynů, protože banka předá můj pokyn investičnímu fondu, aby pro mě vydal nové podílové listy. ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka mi prodá podílové listy ze svého účtu a určí vlastní cenu, za kterou je od ní koupím. ",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka najde několik prodávajících, ze kterých si vyberu toho, kdo mi bude nejvíc vyhovovat, a od něj si podílové listy napřímo odkoupím.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jak fungují podílové a investiční fondy?",
+              "id": 2,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Podílové i jiné investiční fondy pečují o můj majetek odděleně od ostatních klientů podle mé investiční strategie. ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Podílové a další investiční fondy shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu fondu. ",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Podílové a investiční fondy nabízí pevně úročený vklad. Úrok je garantovaný, nehrozí tak žádná ztráta.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaké jsou druhy podílových fondů?",
+              "id": 3,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Pevné a plovoucí. U pevných podílových fondů je garantovaný přesný procentuální výnos. U plovoucích fondů se může výnos v budoucnu měnit. Konkrétní výnos podílových fondů stanovuje banka ve svých obchodních podmínkách.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Akciové a smíšené. Akciové fondy umožňují podílení se na fungování jednotlivých podniků a hlasování na jejich valných hromadách. Smíšené fondy oproti tomu zaručují, že v žádném případě neskončí investovaná částka ve ztrátě.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Akciové, dluhopisové a smíšené. Akciové fondy jsou nejvíce kolísavé a je u nich možnost nejvyššího zisku i ztráty. Dluhopisové fondy, které jsou nejméně kolísavé a obvykle slibují nejnižší výnos.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Co jsou investiční certifikáty?",
+              "id": 4,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Investiční certifikáty vydávají investiční fondy. Jedná se o podílové listy, ke kterým byl certifikační autoritou vystaven certifikát pravosti.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Investiční certifikáty jsou cenné papíry, které mohou mít různé vlastnosti. Každý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi nejdůležitější podmínky patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Investiční certifikáty jsou totéž co dluhopisy. Termín investiční certifikáty se používá až v poslední době, a to pouze k ozvláštnění marketingových zpráv.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaké jsou výhody a rizika investičních certifikátů?",
+              "id": 5,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Výhodou investičních certifikátů je jejich rychlé a flexibilní vydání. U garantovaných certifikátů je výhodou také výrazně omezená možnost ztráty. Riziko certifikátů spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce, tzv. riziko protistrany.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Výhodou investičních certifikátů je, že jsou založeny na blockchainové technologii, a mohou být proto převáděny podobně jako kryptoměny. Riziko certifikátů spočívá v nejasné regulaci, tj. velké právní riziko.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Výhodou investičních certifikátů je, že jsou vždy vydávány státem. Riziko investičních certifikátů spočívá zejména ve státním bankrotu.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jaké máte zkušenosti s investováním?",
+          "detail": "Ať už jste úplný nováček, nebo investujete jako profík, určitě najdeme vhodné řešení.",
+          "questions": [
+            {
+              "title": "Jaké máte zkušenosti s podílovými fondy?",
+              "id": 6,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "answers": [
+                {
+                  "title": "V posledních 3 letech jsem investoval*a",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Držím investice více než 3 roky.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Investuji čtvrtletně nebo častěji.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Žádná odpověď mi nevyhovuje.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaké máte zkušenosti s investičními certifikáty?",
+              "id": 7,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "answers": [
+                {
+                  "title": "V posledních 3 letech jsem investoval*a",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Držím investice více než 3 roky.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Investuji čtvrtletně nebo častěji.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Žádná odpověď mi nevyhovuje.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jak jste investoval*a v posledních 5 letech? ",
+              "id": 8,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "answers": [
+                {
+                  "title": "Investoval*a jsem jednorázově více než 50 000 Kč",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Investoval*a jsem jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Pravidelně investuji minimálně 500 Kč měsíčně",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "Žádná odpověď mi nevyhovuje.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Máte vzdělání nebo odborné znalosti v oblasti kapitálových trhů?",
+              "id": 9,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Ano, mám vzdělání v oboru finančních trhů a investičních nástrojů.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Ne",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Máte relevantní pracovní zkušenosti v oblasti kapitálových trhů?",
+              "id": 10,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Ano, za posledních 5 let mám relevantní pracovní zkušenost z kapitálových trhů",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Ne",
+                  "value": 2,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jaké máte cíle a potřeby",
+          "detail": "Tato část vám pomůže s výběrem fondů, jejichž kolísání, případná ztráta nebo nutnost delšího držení pro vás nebude představovat významnější problém.",
+          "vocabularyTitle": "Slovníček pojmů",
+          "vocabularyBullets": [
+            {
+              "title": "SRI",
+              "body": "Znamená rizikovost investičního produktu v rozmezí od 1 (nejmenší riziko) do 7 (největší riziko)."
+            },
+            {
+              "title": "Investiční horizont",
+              "body": "Doba, na kterou je investice plánována; nedodržení investičního horizontu fondu výrazně zvyšuje riziko spojené s investicí"
+            }
+          ],
+          "questions": [
+            {
+              "title": "Které tvrzení nejlépe popisuje vaše chování během investování?",
+              "id": 11,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Očekávám minimálně návrat investice, nejsem schopen unést žádnou ztrátu.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Akceptuji menší kolísání, jsem schopen unést případnou ztrátu do 5 %.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Akceptuji kolísání, jsem schopen unést případnou ztrátu do 15 %.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Akceptuji vyšší kolísání, jsem schopen unést případnou ztrátu přes 15 %.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jaká rizika na škále od 1 (nízké riziko) do 7 (vysoké riziko) dokážete akceptovat?",
+              "id": 12,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Nižší riziko: 1 až 2 ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Střední/vyšší riziko: 1 až 4",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Vyšší riziko: 1 až 5",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Vysoké riziko: 1 až 7",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jak dlouho plánujete investici držet?",
+              "id": 13,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Do 1 roku včetně.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "1 až 3 roky včetně",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "3 až 5 roky včetně",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "5 až 8 let včetně",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Více než 8 let",
+                  "value": 5,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Budete potřebovat peníze dříve než v plánované době? ",
+              "id": 14,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Je určitá pravděpodobnost, že budu peníze potřebovat dříve.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Může se stát, že budu peníze potřebovat dříve, ale je to málo pravděpodobné.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Není pravděpodobné, že budu potřebovat peníze vybrat před uplynutím plánované doby.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jaké máte požadavky na udržitelnost?",
+          "detail": "Pokud je pro Vás důležité investovat udržitelně, tato část dotazníku Vám pomůže vybrat fondy, které berou udržitelnost v potaz.",
+          "vocabularyTitle": "Slovníček pojmů",
+          "vocabularyBullets": [
+            {
+              "title": "Environmentálně udržitelné investice",
+              "body": "Jde o investice, které podle evropských právních předpisů (tzv. EU taxonomie) významně přispívají k naplňování alespoň jednoho z environmentálních cílů a zároveň významně nepoškozují cíle ostatní.\nMezi takové cíle patří např. zmírňování změn klimatu nebo prevence a omezování znečištění. Jedná se o jediné investice, u kterých EU stanovila přesná kritéria s cílem chránit životní prostředí. Více o EU taxonomii a všech cílech se můžete dočíst na <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">našich stránkách.</a>"
+            },
+            {
+              "title": "Udržitelné investice",
+              "body": "Tyto investice přispívají k environmentálním a sociálním cílům a přitom žádný environmentální nebo sociální cíl významně nepoškozují. Jde např. o obnovitelná energie, snížení produkce odpadu, přírodní rozmanitost, boj s nerovností, zlepšení pracovních podmínek a další."
+            },
+            {
+              "title": "Investice s nepříznivými dopady na udržitelnost",
+              "body": "Jde o produkty, u kterých je sledován nepříznivý dopad na udržitelnost v určitých oblastech. Zajímá nás, jestli se chcete některým negativním dopadům v investování výslovně vyhýbat."
+            }
+          ],
+          "questions": [
+            {
+              "title": "Preferujete environmentálně udržitelné investice? ",
+              "id": 15,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "NE, nepreferuji",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji 100% environmentálně udržitelné investice",
+                  "value": 6,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Preferujete udržitelné investice? ",
+              "id": 16,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "NE, nepreferuji",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, preferuji 100% udržitelné investice",
+                  "value": 6,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Chcete ve svých investicích zohlednit některé nepříznivé dopady na udržitelnost?",
+              "id": 17,
+              "maxAnswers": 5,
+              "maxAnswersErrMessage": "Vybrat můžete více odpověďí",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "answers": [
+                {
+                  "title": "NE, nemám takové preference.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "ANO, chci zohledňovat dopad na emise skleníkových plynů.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "ANO, chci zohledňovat dopad na biologickou rozmanitost.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "ANO, chci zohledňovat dopad na znečištění vod.",
+                  "value": 4,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "ANO, chci zohledňovat dopad na odpad.",
+                  "value": 5,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "ANO, chci zohledňovat dopad na sociální a zaměstnanecké otázky.",
+                  "value": 6,
+                  "uncheckOthers": false
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "questionnaireResult": {
       "primaryButton": "Zobrazit produkty",
       "alternativePrimaryButton": "Pokračovat",
