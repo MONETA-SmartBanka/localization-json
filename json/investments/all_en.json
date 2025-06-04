@@ -1153,55 +1153,55 @@
       },
       "category": [
         {
-          "title": "How familiar are you with investing?",
-          "detail": "We don't want to test you, but it's important to determine your understanding of finance and investing.\n\nDo you want to invest only in mutual funds? For questions about investment certificates, select Don't Know.",
-          "vocabularyTitle": "Vocabulary",
+          "title": "Are you familiar with investing?",
+          "detail": "We’re not here to test you. We just need to understand your level of knowledge in finance and investing.\nWould you like to invest only in mutual funds? For any questions related to investment certificates, feel free to select “I don’t know.”",
+          "vocabularyTitle": "Glossary",
           "vocabularyBullets": [
             {
-              "title": "Mutual fund",
-              "body": "It is a collective investment tool made up of assets managed by an investment company. A mutual fund pools money from multiple investors and invests this money collectively. The basic unit of a mutual fund is the ownership unit, known as a mutual fund unit."
+              "title": "Mutual Fund",
+              "body": "It’s a collective investment tool made up of assets managed by an investment company. A mutual fund pools money from multiple investors and invests it collectively. The basic unit of a mutual fund is a unit certificate held by the investor."
             },
             {
-              "title": "Equity mutual fund",
-              "body": "It invests most of its assets in stocks. Stocks represent a share in a joint-stock company, through which the shareholder participates in the company's profit and management. Stocks are the most risky, and their value can fluctuate significantly."
+              "title": "Equity Mutual Fund",
+              "body": "It invests the majority of its assets in stocks. Stocks represent ownership in a company, giving shareholders a share in the company’s profits and a say in its management. Stocks carry the highest level of risk, and their value can fluctuate significantly."
             },
             {
-              "title": "Bond mutual fund",
-              "body": "It invests most of its assets in bonds. A bond is an instrument through which money is lent to a company or the state."
+              "title": "Bond Mutual Fund",
+              "body": "It invests the majority of its assets in bonds. A bond is a financial instrument used to lend money to a company or government."
             },
             {
-              "title": "Mixed mutual fund",
-              "body": "They most commonly contain a combination of company stocks and corporate or government bonds."
+              "title": "Mixed Mutual Fund",
+              "body": "They typically contain a mix of corporate stocks and bonds issued by companies or governments."
             },
             {
-              "title": "Investment certificate",
-              "body": "It is an investment product with specific terms that define the rights and obligations of the investor. Such terms include the duration, method of determining the return, limitations on the maximum return, or conditions for early repayment."
+              "title": "Investment Certificate",
+              "body": "It is an investment product with specific terms and conditions that define the rights and obligations of the investor. These may include the investment duration, how returns are calculated, limits on maximum returns, or conditions for early repayment."
             },
             {
-              "title": "Investment service of receiving and transferring orders ",
-              "body": "The bank receives an order from the client for the desired transaction and then forwards it to the relevant investment company for execution; no investment advice is provided with this service."
+              "title": "Investment Service: Order Execution",
+              "body": "The bank receives a trade order from the client and forwards it to the relevant investment company for execution. No investment advice is provided as part of this service."
             },
             {
-              "title": "Returns are not guaranteed or insured ",
-              "body": "Investing always involves risk; there is no guarantee that the client will not incur a loss; unlike bank deposits, your investment is not insured by law."
+              "title": "Returns Are Not Guaranteed or Insured",
+              "body": "Every investment carries risk, and there is no guarantee that you will not incur a loss. Unlike bank deposits, your investment is not legally insured."
             }
           ],
           "questions": [
             {
-              "title": "If I instruct the bank to purchase mutual fund units for a certain amount, what is the name of the service the bank provides?",
+              "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
               "id": 1,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
-              "minAnswersErrMessage": "Select one answer",
+              "minAnswersErrMessage": "Select 1 answer",
               "answers": [
                 {
-                  "title": "It is a service of Receiving and Transferring Orders because the bank will forward my order to the investment fund to issue new mutual fund units for me.",
+                  "title": "This is the Order Execution service, as the bank forwards my order to the investment fund to issue new mutual fund units on my behalf.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "The bank sells me mutual fund units from its own account and sets its own price at which I will buy them.",
+                  "title": "The bank sells me mutual fund units from its own account and sets its own price at which I buy them.",
                   "value": 2,
                   "uncheckOthers": true
                 },
@@ -1211,7 +1211,7 @@
                   "uncheckOthers": true
                 },
                 {
-                  "title": "I don´t know.",
+                  "title": "I don’t know.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1226,12 +1226,12 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "Mutual funds and other investment funds manage my assets separately from other clients according to my investment strategy.",
+                  "title": "Mutual and other investment funds manage my assets separately from those of other clients, in line with my investment strategy.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Mutual funds and other investment funds pool money from multiple investors, which they then invest collectively. The investor owns mutual fund units, which provide a share in the fund's returns.",
+                  "title": "Mutual and other investment funds pool money from multiple investors and invest it collectively. The investor holds mutual fund units, which entitle them to a share of the fund’s returns.",
                   "value": 2,
                   "uncheckOthers": true
                 },
@@ -1241,14 +1241,14 @@
                   "uncheckOthers": true
                 },
                 {
-                  "title": "I don´t know.",
+                  "title": "I don’t know.",
                   "value": 4,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "What are the types of mutual funds?",
+              "title": "What types of mutual funds are there?",
               "id": 3,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
@@ -1256,22 +1256,22 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "Fixed and floating. With fixed mutual funds, the exact percentage return is guaranteed. With floating funds, the return may vary in the future. The specific return of mutual funds is determined by the bank in its terms and conditions.",
+                  "title": "There are fixed-rate and floating-rate funds. Fixed-rate mutual funds offer a guaranteed, specific percentage return. Floating-rate funds may have returns that fluctuate over time. The exact return of a mutual fund is determined by the bank in its terms and conditions.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Equity and mixed. Equity funds allow participation in the operation of individual companies and voting at their general meetings. Mixed funds, on the other hand, guarantee that the invested amount will not end up in a loss under any circumstances.",
+                  "title": "There are equity and mixed funds. Equity funds allow investors to take part in the operations of individual companies and vote at their general meetings. Mixed funds, on the other hand, guarantee that the invested amount will never result in a loss.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Equity, bond, and mixed. Equity funds are the most volatile and offer the potential for the highest gains as well as losses. Bond funds are the least volatile and usually promise the lowest returns.",
+                  "title": "There are equity, bond, and mixed funds. Equity funds are the most volatile and offer the potential for the highest gains as well as losses.\nBond funds are the least volatile and typically offer the lowest returns.",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "I don´t know.",
+                  "title": "I don’t know.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1286,22 +1286,22 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "Investment certificates are issued by investment funds. These are mutual fund units for which a certificate of authenticity has been issued by a certification authority.",
+                  "title": "Investment certificates are issued by investment funds. They are mutual fund units accompanied by a certificate of authenticity issued by a certifying authority.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Investment certificates are securities that can have various features. Each investment certificate has specific terms that precisely define the rights and obligations. Among the most important conditions are the method of determining the certificate's return and the terms of its repayment.",
+                  "title": "Investment certificates are securities that can have various features. Each investment certificate comes with specific terms and conditions that define the investor’s rights and obligations. Among the most important are the method of calculating returns and the conditions for the repayment of the certificate.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Investment certificates are the same as bonds. The term \"investment certificates\" has only been used recently, mainly to add some flair to marketing messages.",
+                  "title": "Investment certificates are the same as bonds. The term “investment certificates” has only recently started being used, mainly to add variety to marketing messages",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "I don´t know.",
+                  "title": "I don’t know.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1316,22 +1316,22 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "The advantage of investment certificates is their quick and flexible issuance. For guaranteed certificates, the significantly limited possibility of loss is also a benefit. The risk associated with certificates lies in the need to rely on the issuer, usually an international financial institution, to fulfill its obligations, known as counterparty risk.",
+                  "title": "An advantage of investment certificates is their quick and flexible issuance. In the case of guaranteed certificates, a major benefit is the significantly limited risk of loss. The main risk lies in the need to rely on the issuer to fulfill their obligations, typically an international financial institution, which is known as counterparty risk.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "The advantage of investment certificates is that they are based on blockchain technology and can therefore be transferred similarly to cryptocurrencies. The risk associated with certificates lies in unclear regulation, which presents a significant legal risk.",
+                  "title": "An advantage of investment certificates is that they are based on blockchain technology, allowing them to be transferred similarly to cryptocurrencies. The main risk lies in unclear regulation, which presents a significant legal risk.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "The advantage of investment certificates is that they are always issued by the state. The main risk associated with investment certificates lies in the possibility of a state bankruptcy.",
+                  "title": "An advantage of investment certificates is that they are always issued by the state. The main risk of investment certificates lies in the possibility of state bankruptcy.",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "I don´t know.",
+                  "title": "I don’t know.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1341,7 +1341,7 @@
         },
         {
           "title": "What is your experience with investing?",
-          "detail": "Whether you're a complete beginner or an experienced investor, we'll definitely find the right solution for you.",
+          "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
           "questions": [
             {
               "title": "What is your experience with mutual funds?",
@@ -1352,29 +1352,29 @@
               "minAnswersErrMessage": "Select at least 1 answer",
               "answers": [
                 {
-                  "title": "I have invested in the last 3 years",
+                  "title": "I have invested in them in the last 3 years.",
                   "value": 1,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "I have been investing for over 3 years",
+                  "title": "I have been holding my investment for over 3 years.",
                   "value": 2,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "I invest quarterly or more ",
+                  "title": "I invest quarterly or more frequently.",
                   "value": 3,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "None of the above",
+                  "title": "None of the above.",
                   "value": 4,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "What is your experience with investment certificates? ",
+              "title": "What is your experience with investment certificates?",
               "id": 7,
               "maxAnswers": 3,
               "maxAnswersErrMessage": "Select up to 3 answers",
@@ -1382,29 +1382,29 @@
               "minAnswersErrMessage": "Select at least 1 answer",
               "answers": [
                 {
-                  "title": "I have invested in the last 3 years",
+                  "title": "I have invested in them in the last 3 years.",
                   "value": 1,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "I have been investing for over 3 years",
+                  "title": "I have been holding my investment for over 3 years.",
                   "value": 2,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "I invest quarterly or more ",
+                  "title": "I invest quarterly or more frequently.",
                   "value": 3,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "None of the above",
+                  "title": "None of the above.",
                   "value": 4,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "How have you invested in the last 5 years?",
+              "title": "How have you invested over the past 5 years?",
               "id": 8,
               "maxAnswers": 3,
               "maxAnswersErrMessage": "Select up to 3 answers",
@@ -1412,22 +1412,22 @@
               "minAnswersErrMessage": "Select at least 1 answer",
               "answers": [
                 {
-                  "title": "I have made an one-time investment of over 50 000 CZK",
+                  "title": "I made a one-time investment of over  CZK 50,000.",
                   "value": 1,
                   "uncheckOthers": false
                 },
                 {
-                  "title": " have made an one-time investment of over 50 000 CZK and I invest occasionally based on market opportunities ",
+                  "title": "I made a one-time investment of over CZK 50,000 and occasionally invest based on market opportunities.",
                   "value": 2,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "I regularly invest at least 500 CZK a month ",
+                  "title": "I invest regularly a minimum of CZK 500 each month.",
                   "value": 3,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "None of the above",
+                  "title": "None of the above.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1442,12 +1442,12 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "Yes, I have a professional certification focused on trading financial instruments.",
+                  "title": "Yes, I have a professional certification focused on trading investment instruments.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Yes, I have an education in financial markets and investment instruments.",
+                  "title": "Yes, I have an educational background in financial markets and investment instruments.",
                   "value": 2,
                   "uncheckOthers": true
                 },
@@ -1467,7 +1467,7 @@
               "minAnswersErrMessage": "Select one answer",
               "answers": [
                 {
-                  "title": "Yes, I have relevant work experience in capital markets from the past 5 years.",
+                  "title": "Yes, in the last 5 years I have relevant work experience in the field of capital markets.",
                   "value": 1,
                   "uncheckOthers": true
                 },
