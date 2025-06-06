@@ -139,7 +139,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
-          "actionValue": "INSURANCELIST"
+          "actionValue": "INSURANCELIST",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Sjednat pojištění Online",
@@ -151,7 +152,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
-          "actionValue": "INSURANCEOFFERS"
+          "actionValue": "INSURANCEOFFERS",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Cestovní pojištění",
@@ -163,7 +165,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
-          "actionValue": "TRAVELINSURANCE"
+          "actionValue": "TRAVELINSURANCE",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Úrazové pojištění",
@@ -175,7 +178,8 @@
           ],
           "shouldCheckEligibility": true,
           "actionType": "APPPAGE",
-          "actionValue": "ACCIDENT_INSURANCE"
+          "actionValue": "ACCIDENT_INSURANCE",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Pojištění splácení hypotéky",
@@ -187,7 +191,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "OPENURL",
-          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Pojištění právní ochrany",
@@ -199,7 +204,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "OPENURL",
-          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Pojištění majetku",
@@ -211,7 +217,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "OPENURL",
-          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Životní pojištění",
@@ -223,7 +230,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "OPENURL",
-          "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Pojištění splácení úvěrů",
@@ -235,7 +243,131 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "OPENURL",
-          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
+        }
+      ]
+    },
+    {
+      "title": "Pojištění – pro sjednání si aktualizujte aplikaci",
+      "value": "INSURANCES",
+      "items": [
+        {
+          "title": "Moje pojištění",
+          "listIcon": "userFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCELIST",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Sjednat pojištění Online",
+          "listIcon": "smartBankaFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "APPPAGE",
+          "actionValue": "INSURANCEOFFERS",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Cestovní pojištění",
+          "listIcon": "suitcaseRollingFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "TRAVELINSURANCE",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Úrazové pojištění",
+          "listIcon": "medicalKitFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": true,
+          "actionType": "APPPAGE",
+          "actionValue": "ACCIDENT_INSURANCE",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Pojištění splácení hypotéky",
+          "listIcon": "shieldBlankFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Pojištění právní ochrany",
+          "listIcon": "scaleBalancedFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Pojištění majetku",
+          "listIcon": "homeCouchFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Životní pojištění",
+          "listIcon": "healthcareFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "maxVersion": "79.2.0"
+        },
+        {
+          "title": "Pojištění splácení úvěrů",
+          "listIcon": "loanFill",
+          "userClientTypeList": [
+            "FO",
+            "FOP",
+            "ZAM"
+          ],
+          "shouldCheckEligibility": false,
+          "actionType": "OPENURL",
+          "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "maxVersion": "79.2.0"
         }
       ]
     },
