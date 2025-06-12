@@ -127,7 +127,7 @@
     },
     {
       "title": "Pojištění",
-      "value": "INSURANCES",
+      "value": "INSURANCES_NEW",
       "items": [
         {
           "title": "Moje pojištění",
@@ -250,7 +250,7 @@
     },
     {
       "title": "Pojištění – pro sjednání si aktualizujte aplikaci",
-      "value": "INSURANCES2",
+      "value": "INSURANCES",
       "items": [
         {
           "title": "Moje pojištění",
@@ -582,7 +582,8 @@
           ],
           "shouldCheckEligibility": true,
           "actionType": "APPPAGE",
-          "actionValue": "FLEXIKREDIT"
+          "actionValue": "FLEXIKREDIT",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Business flexi",

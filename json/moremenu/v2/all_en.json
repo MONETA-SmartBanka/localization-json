@@ -92,7 +92,7 @@
     },
     {
       "title": "Insurance",
-      "value": "INSURANCES",
+      "value": "INSURANCES_NEW",
       "items": [
         {
           "title": "My Insurance",
@@ -214,7 +214,7 @@
       ]
     },
     {
-      "title": "Pojištění – pro sjednání si aktualizujte aplikaci",
+      "title": "Insurance - update the app to proceed",
       "value": "INSURANCES",
       "items": [
         {
@@ -241,19 +241,6 @@
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
           "actionValue": "INSURANCEOFFERS",
-          "maxVersion": "79.2.0"
-        },
-        {
-          "title": "Travel Insurance",
-          "listIcon": "suitcaseRollingFill",
-          "userClientTypeList": [
-            "FO",
-            "FOP",
-            "ZAM"
-          ],
-          "shouldCheckEligibility": true,
-          "actionType": "APPPAGE",
-          "actionValue": "TRAVELINSURANCE",
           "maxVersion": "79.2.0"
         },
         {
@@ -560,7 +547,8 @@
           ],
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
-          "actionValue": "FLEXIKREDIT"
+          "actionValue": "FLEXIKREDIT",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Business flexi",
