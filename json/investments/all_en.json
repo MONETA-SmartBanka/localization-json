@@ -1616,6 +1616,16 @@
     ],
     "warnings": [
       {
+        "type": "DISPONENT_NO_RIGHTS",
+        "title": "Oops, this is not going to work",
+        "detail": "You are not aurhorized to view this section. If you are an eDisponent, you can obtain the necessary authorization from the account owner.",
+        "primaryButton": {
+          "actionType": "APPPAGE",
+          "actionData": "BALANCEOVERVIEW",
+          "actionLabelText": "I understand"
+        }
+      },
+      {
         "type": "NO_CIF_STREET",
         "title": "Please visit one of our branches",
         "detail": "There are some details missing in your profile which are essential to make investments via the app. You can only add the street to your profile in person at the branch. Thank you for understanding.",
@@ -6026,6 +6036,7 @@
     "list": {
         "investmentTitle": "Investments {0}",
         "dipTitle": "Long-Term Investment Product {0}",
+        "dipActionButtonAccessibility": "Deposit funds",
         "tabMyPortfolio": "My portfolio",
         "tabInvestmentOpportunities": "Investment opportunities",
         "emptyPortfolio": {
@@ -6061,12 +6072,6 @@
             ],
             "footer": "See also funds in EUR. All you have to do is open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">EUR account for free</a>, and you can invest.",
             "footerButton": "How do investments work?"
-        },
-        "accessibility": {
-          "showFundsButton": "Show invested amount",
-          "hideFundsButton": "Hide invested amount",
-          "helpButton": "Open help",
-          "dipActionButton": "Deposit funds"
         }
     },
     "accessibility": {
