@@ -7,7 +7,7 @@
   "screens": {
     "disclaimer": {
       "title": "",
-      "detail": "Zobrazení investičních příležitostí má pouze informativní charakter a nejedná se o nabídku na uzavření smlouvy s bankou ani nabídku k investování nebo investiční doporučení. Historická výkonnost není ukazatelem budoucí výkonnosti. Hodnota investice může klesat i stoupat. Návratnost investice není zaručena.\n\nPodmínkou pro investování je především Investiční dotazník, seznámení se se Statutem fondu a\u00a0Sdělením klíčových informací.",
+      "detail": "Zobrazení investičních příležitostí má pouze informativní charakter a nejedná se o nabídku na uzavření smlouvy s bankou ani nabídku k investování nebo investiční doporučení. Historická výkonnost není ukazatelem budoucí výkonnosti. Hodnota investice může klesat i stoupat. Návratnost investice není zaručena.\n\nPodmínkou pro investování je především Investiční dotazník, seznámení se se Statutem fondu a\u00a0Sdělením klíčových informací.",
       "primaryButton": "Rozumím"
     },
     "wizzard": {
@@ -1617,6 +1617,16 @@
       }
     ],
     "warnings": [
+      {
+        "type": "DISPONENT_NO_RIGHTS",
+        "title": "Jejda, bez práv to bohužel nepůjde",
+        "detail": "Pro zobrazení této sekce nemáte dostatečná oprávnění. Pokud jste eDisponent, můžete je získat od majitele účtu.",
+        "primaryButton": {
+          "actionType": "APPPAGE",
+          "actionData": "BALANCEOVERVIEW",
+          "actionLabelText": "Rozumím"
+        }
+      },
       {
         "type": "NO_CIF_STREET",
         "title": "Stavte se prosím na pobočce",
@@ -6039,6 +6049,7 @@
     "list": {
         "investmentTitle": "Investice {0}",
         "dipTitle": "Dlouhodobý invest. produkt {0}",
+        "dipActionButtonAccessibility": "Vložit peníze",
         "tabMyPortfolio": "Moje portfolio",
         "tabInvestmentOpportunities": "Investiční příležitosti",
         "emptyPortfolio": {
