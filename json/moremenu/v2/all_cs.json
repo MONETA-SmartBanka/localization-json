@@ -249,7 +249,7 @@
       ]
     },
     {
-      "title": "Pojištění – pro sjednání si aktualizujte aplikaci",
+      "title": "Pojištění",
       "value": "INSURANCES",
       "items": [
         {
@@ -571,7 +571,8 @@
           "shouldCheckEligibility": false,
           "actionType": "APPPAGE",
           "actionValue": "UDCONLINE",
-          "fallback": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+          "fallback": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+          "minVersion": "80.0.0"
         },
         {
           "title": "Flexikredit",
@@ -582,8 +583,7 @@
           ],
           "shouldCheckEligibility": true,
           "actionType": "APPPAGE",
-          "actionValue": "FLEXIKREDIT",
-          "minVersion": "80.0.0"
+          "actionValue": "FLEXIKREDIT"
         },
         {
           "title": "Business flexi",
