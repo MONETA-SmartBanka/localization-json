@@ -179,6 +179,7 @@
 		8F553E822DCB8C24002E735E /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F553E842DCB8C24002E735E /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 		8F553E852DCB8C24002E735E /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
+		8FC4965F2E05774900A517C9 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -291,6 +292,7 @@
 		8F553D9B2DCB8C24002E735E /* b-savings */ = {
 			isa = PBXGroup;
 			children = (
+				8FC4965E2E05773A00A517C9 /* redesigned */,
 				8F553D992DCB8C24002E735E /* all_cs.json */,
 				8F553D9A2DCB8C24002E735E /* all_en.json */,
 			);
@@ -1142,6 +1144,14 @@
 				8F553E862DCB8C24002E735E /* wustenrot-sb-onboarding */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		8FC4965E2E05773A00A517C9 /* redesigned */ = {
+			isa = PBXGroup;
+			children = (
+				8FC4965F2E05774900A517C9 /* all_cs.json */,
+			);
+			path = redesigned;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
