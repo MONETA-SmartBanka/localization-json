@@ -1,0 +1,66 @@
+{
+    "errorScreens": {
+        "generalError": {
+            "title": "Sorry, this didn’t work out",
+            "detail": "Unfortunately, we can't continue right now. Please try again in a moment.",
+            "primaryButton": "Back"
+        },
+        "branch": {
+            "title": "Let’s solve this at a branch",
+            "detail": "Do you have any questions? Call us or visit your nearest branch.",
+            "callUs": "Call our\nhelpline",
+            "primaryButton": "Find nearest branch",
+            "secondaryButton": "Back to Overview"
+        }
+    },
+    "scenes": {
+        "additionIntro": {
+            "title": "Card-to-card payments via Visa",
+            "detail":
+                "Link your phone number to your payment card and start receiving payments to your account from anywhere in the world.",
+            "primaryButton": "Activate"
+        },
+        "additionForm": {
+            "title": "Link your phone number for card-to-card payments",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "footer":
+                "By pressing the button, you agree to the <a href=\"document\">Terms of Service and Privacy Policy</a>",
+            "documentTitle": "Terms of Service and Privacy Policy",
+            "primaryButton": "Continue"
+        },
+        "additionPin": {
+            "title": "Confirm card registration to the Visa service"
+        },
+        "additionVictory": {
+            "title": "Done!\nYour card is registered",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "primaryButton": "Go to Overview"
+        },
+        "removalIntro": {
+            "title": "You have card-to-card payments registered for:",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "primaryButton": "Visa Alias is active",
+            "secondaryButton": "Deactivate",
+            "confirm": {
+                "title": "Are you sure you want to deactivate the Visa Alias for this card?",
+                "detail": "Are you sure you want to unlink this card?",
+                "secondaryButton": "Deactivate",
+                "primaryButton": "Back"
+            }
+        },
+        "additionPin": {
+            "title": "Confirm cancellation of card registration in Visa Alias"
+        },
+        "removalVictory": {
+            "title": "Done!\nYour card registration in Visa Alias has been cancelled",
+            "detail": "From now on, you can enjoy the benefits of this product",
+            "primaryButton": "Back to Overview"
+        }
+    }
+}

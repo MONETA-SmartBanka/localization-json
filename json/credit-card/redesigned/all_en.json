@@ -634,6 +634,187 @@
       "detail": "In order to process your application, it is essential to handle your personal data to assess your creditworthiness, reliability, and payment behavior. This includes verifying your information in the Banking Client Information Register, the Non-Banking Client Information Register, and taking other necessary steps to facilitate agreement conclusion.\n\nFor more details about how your personal data is processed within the MONETA financial group, please visit www.moneta.cz/ochrana-dat. By clicking 'Agree,' I confirm that I have read and understood this information.\n\nI declare that all the information I have provided is accurate, complete, and up-to-date. I understand that providing false information may result in legal consequences, including criminal liability. I also consent to the bank verifying the information and conducting any further checks it deems necessary regarding this application.\n\nI acknowledge that the information provided is a recommendation, not financial advice, as per the Consumer Credit Act. \n\nYou may receive updates on the status of your application via SMS to the phone number provided.",
       "primaryButton": "Continue"
     },
+    "documentUpload": {
+        "uploadScenes": {
+            "firstUpload": {
+                "title": "Let’s deal with it. Please provide us with your current identification documents.",
+                "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                "primaryButton": "Continue",
+                "secondaryButton": "I want to visit a branch"
+            },
+            "anotherUpload": {
+                "title": "Thank you for your patience",
+                "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                "primaryButton": "Continue",
+                "secondaryButton": "I want to visit a branch"
+            },
+            "poorUpload": {
+                "title": "Some documents could not be processed",
+                "detail": "<b>Reupload a clear and sharp picture:</b>",
+                "primaryButton": "Continue",
+                "secondaryButton": "I want to visit a branch"
+            },
+            "branchNeeded": {
+                "title": "We have to meet",
+                "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
+                "primaryButton": "I understand; show me the nearest branch"
+            },
+            "uploadCheck": {
+                "title": "We’re going to check legibility and get back to you",
+                "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
+                "primaryButton": "Back to Balance Overview"
+            }
+        },
+        "documents": {
+            "141": {
+                "icon": "idCardFill",
+                "title": "Občanský průkaz",
+                "photoCapture": [
+                    {
+                        "title": "Vyfoťte přední stranu občanského průkazu",
+                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                        "primaryButton": "Vyfotit"
+                    },
+                    {
+                        "title": "Vyfoťte zadní stranu občanského průkazu",
+                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                        "primaryButton": "Vyfotit"
+                    }
+                ],
+                "review": {
+                    "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                    "documentDetails": {
+                        "title": "Údaje z dokladu",
+                        "firstName": "Jméno",
+                        "lastName": "Příjmení",
+                        "birthDate": "Datum narození",
+                        "birthPlace": "Místo narození",
+                        "birthNumber": "Rodné číslo",
+                        "idCardNumber": {
+                            "title": "Číslo občanského průkazu",
+                            "secondaryTitle": "Číslo pasu"
+                        },
+                        "idCardValidTo": "Platnost do",
+                        "issueDate": "Platnost od",
+                        "nationality": "Státní občanství",
+                        "nationalityValue": "pouze Česká republika",
+                        "sex": "Pohlaví",
+                        "male": "muž",
+                        "female": "žena"
+                    },
+                    "documentAddress": {
+                        "title": "Trvalý pobyt",
+                        "secondary": "(Pouze Česká republika)",
+                        "street": "Ulice",
+                        "descriptiveNumber": "Číslo popisné",
+                        "orientationNumber": "Číslo orientační",
+                        "city": "Obec nebo město",
+                        "zip": "PSČ",
+                        "personalData": {
+                            "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                        }
+                    },
+                    "primaryButton": "Pokračovat"
+                },
+                "busyLoader": {
+                    "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+                    "detail": "Zabere to maximálně pár vteřin."
+                },
+                "uploadDocumentResultNok": {
+                    "title": "Půjčku vám teď nemůžeme nabídnout",
+                    "detail": "Moc se omlouváme",
+                    "secondaryButton": "Ukončit žádost"
+                },
+                "uploadDocumentResultUploadAgain": {
+                    "title": "Jejda, tohle se nepovedlo",
+                    "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                    "primaryButton": "Vyfotit znovu",
+                    "secondaryButton": "Pokračovat později"
+                }
+            },
+            "143": {
+                "icon": "idCardFill",
+                "title": "Řidičský průkaz",
+                "photoCapture": [
+                    {
+                        "title": "Vyfoťte přední stranu řidičského průkazu",
+                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                        "primaryButton": "Vyfotit"
+                    }
+                ]
+            },
+            "13": {
+                "icon": "documentsFill",
+                "title": "Podepsané Potvrzení o výši příjmu",
+                "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+            },
+            "112": {
+                "icon": "documentsFill",
+                "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+            },
+            "113": {
+                "icon": "documentsFill",
+                "title": "Důchodový výměr"
+            }
+        },
+        "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
+        "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
+        "uploadedDocuments": [
+            {
+                "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
+                "labels": [
+                    "Attach the front page of your ID",
+                    "Attach the back page of your ID"
+                ],
+                "categoryCode": "141"
+            },
+            {
+                "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
+                "labels": [
+                    "Attach a signed proof of income"
+                ],
+                "categoryCode": "13"
+            },
+            {
+                "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
+                "labels": [
+                    "Attach the front page of your driving licence"
+                ],
+                "categoryCode": "143"
+            },
+            {
+                "title": "Please take a picture of the following: ",
+                "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
+                "documents": [
+                    {
+                        "title": "Payment receipt from the Czech Post that is not older than 30 days",
+                        "labels": [
+                            "Attach a document"
+                        ],
+                        "documentCode": "112"
+                    },
+                    {
+                        "title": "Pension assessment",
+                        "labels": [
+                            "Attach a document"
+                        ],
+                        "documentCode": "113"
+                    },
+                    {
+                        "labels": [
+                            "Attach a document"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "uploadPicker": {
+            "title": "Choose a way to upload a document",
+            "camera": "Take a picture",
+            "photos": "Choose from gallery",
+            "files": "Choose from files"
+        }
+    },
     "scoring": {
       "title": "Just a minute. We must review everything"
     },
