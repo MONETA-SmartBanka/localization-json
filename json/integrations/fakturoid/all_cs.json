@@ -11,18 +11,18 @@
     "scenes": {
         "promo": {
             "titleTop": "Fakturoid",
-            "title": "Sleva až 50 % z ceny placeného tarifu",
-            "detail": "Pro <b>začínající podnikatele</b> jsme připravili <b>slevu 50 % na první rok všech tarifů Fakturoidu</b>. Pokud podnikáte déle, získáte trvalou slevu 15 %. Tarif se základními funkcemi je ZDARMA.",
+            "title": "Fakturujte z banky. Jednoduše, rychle a se slevou až 50 %",
+            "detail": "<b>Začínající podnikatelé</b> od nás získají <b>slevu 50 %</b> na všechny tarify Fakturoidu na celý rok.\n\nPodnikáte déle? <b>Získáte trvalou slevu 15 %.</b> Sleva se vztahuje i na stávající uživatele.\n\n<b>Základní tarif je navíc úplně zdarma.</b>",
             "bulletsSectionTitle": "Co vám propojení přinese?",
             "bullets": [
                 {
                     "icon": "tickFill",
-                    "text": "Rychlé a snadné vystavení faktury"
+                    "text": "Rychlé a snadné vystavení faktur"
                 },
                 {
                     "icon": "tickFill",
                     "text": "Automatické párování plateb s vystavenými fakturami",
-                    "description": "V rámci tarifu “Na každý den”"
+                    "description": "V rámci tarifu „Na každý den“"
                 },
                 {
                     "icon": "tickFill",
@@ -33,23 +33,23 @@
                     "text": "Notifikace o přijatých platbách"
                 }
             ],
-            "userActionRequiredSectionTitle": "Co je potřeba zajistit z Vaší strany?",
-            "userActionRequired": "Stačí jen Vaše potvrzení, že můžeme předat údaje Fakturoidu pro nastavení propojení. O vše ostatní se postaráme. Pokud u Fakturoidu účet nemáte, přesměrujeme Vás na jeho založení.",
+            "userActionRequiredSectionTitle": "Získejte slevu a propojte účet s Fakturoidem",
+            "userActionRequired": "Potvrďte, že můžeme předat níže uvedené údaje Fakturoidu pro nastavení propojení a o vše ostatní se postaráme my.\nPokud u Fakturoidu účet nemáte, přesměrujeme vás na jeho založení.",
             "dataTransferSectionTitle": "Předání údajů Fakturoidu",
             "account": {
                 "title": "Účet k propojení",
                 "error": "Před pokračováním nejdřív vyberte účet."
             },
             "agreement": {
-                "title": "Souhlasím s předáním údajů (email, IČO, DIČ, adresa sídla, číslo účtu) Fakturoidu",
-                "error": "Pro pokračování je nutné souhlasit s odesláním firemních údajů firmě Fakturoid."
+                "title": "Souhlasím s předáním těchto údajů: e-mail, IČO, DIČ, adresa sídla a číslo účtu společnosti Fakturoid.",
+                "error": "Pro pokračování je nutné souhlasit s předáním firemních údajů společnosti Fakturoid."
             },
             "primaryButton": "Propojit fakturaci"
         },
         "victory": {
-            "title": "Integrace proběhla úspěšně",
-            "detail": "Propojení se službou Fakturoid bylo úspěšně dokončeno. Nyní jej můžete využívat naplno.",
-            "primaryButton": "Přejít na detail integrace",
+            "title": "Hotovo!\nPropojení je úspěšně dokončeno",
+            "detail": "Od této chvíle můžete fakturovat přes Smart Banku.",
+            "primaryButton": "Přehled faktur",
             "secondaryButton": "Zpět na Přehled"
         },
         "invoicesOverview": {
@@ -59,7 +59,7 @@
                 "open": "Vystavené",
                 "overdue": "Po splatnosti"
             },
-            "infoMessage": "Údaje o zaplacení faktur se aktualizují do 30 minut od zjištění platby na straně Monety",
+            "infoMessage": "Údaje aktualizujeme do 30 minut od přijetí platby.",
             "dueDate": "Splatná {0}",
             "overdue": "{0} po splatnosti",
             "status": {
@@ -70,8 +70,8 @@
                 "cancelled": "Stornovaná",
                 "uncollectible": "Nedobytná"
             },
-            "secondaryButton": "Kompletní informace ve Fakturoidu",
-            "empty": "Zatím jste nevystavili\nžádnou fakturu."
+            "secondaryButton": "Kompletní přehled ve Fakturoidu",
+            "empty": "Zatím tu nic není"
         }
     }
 }
