@@ -37,12 +37,12 @@
             "userActionRequired": "Stačí jen Vaše potvrzení, že můžeme předat údaje Fakturoidu pro nastavení propojení. O vše ostatní se postaráme. Pokud u Fakturoidu účet nemáte, přesměrujeme Vás na jeho založení.",
             "dataTransferSectionTitle": "Předání údajů Fakturoidu",
             "account": {
-              "title": "Účet k propojení",
-              "error": "Před pokračováním nejdřív vyberte účet."
+                "title": "Účet k propojení",
+                "error": "Před pokračováním nejdřív vyberte účet."
             },
             "agreement": {
-              "title": "Souhlasím s předáním údajů (email, IČO, DIČ, adresa sídla, číslo účtu) Fakturoidu",
-              "error": "Pro pokračování je nutné souhlasit s odesláním firemních údajů firmě Fakturoid."
+                "title": "Souhlasím s předáním údajů (email, IČO, DIČ, adresa sídla, číslo účtu) Fakturoidu",
+                "error": "Pro pokračování je nutné souhlasit s odesláním firemních údajů firmě Fakturoid."
             },
             "primaryButton": "Propojit fakturaci"
         },
@@ -53,22 +53,25 @@
             "secondaryButton": "Zpět na Přehled"
         },
         "invoicesOverview": {
-          "issueInvoice": "Vystavit fakturu",
-          "title": "Přehled faktur",
-          "pills": {
-            "issued": "Vystavené",
-            "overdue": "Po splatnosti"
-          },
-          "infoMessage": "Údaje o zaplacení faktur se aktualizují do 30 minut od zjištění platby na straně Monety",
-          "details": {
-            "dueDateToday": "Splatná dnes",
-            "dueDate": "Splatná za {0}",
+            "issueInvoice": "Vystavit fakturu",
+            "title": "Přehled faktur",
+            "pills": {
+                "open": "Vystavené",
+                "overdue": "Po splatnosti"
+            },
+            "infoMessage": "Údaje o zaplacení faktur se aktualizují do 30 minut od zjištění platby na straně Monety",
+            "dueDate": "Splatná {0}",
             "overdue": "{0} po splatnosti",
-            "reminded": "Upomínkováno",
-            "notPaid": "Nezaplaceno"
-          },
-          "secondaryButton": "Kompletní informace ve Fakturoidu",
-          "empty": "Zatím jste nevystavili\nžádnou fakturu."
+            "status": {
+                "open": "Vystavená",
+                "sent": "Odeslaná",
+                "paid": "Zaplacená",
+                "overdue": "Po splatnosti",
+                "cancelled": "Stornovaná",
+                "uncollectible": "Nedobytná"
+            },
+            "secondaryButton": "Kompletní informace ve Fakturoidu",
+            "empty": "Zatím jste nevystavili\nžádnou fakturu."
         }
     }
 }
