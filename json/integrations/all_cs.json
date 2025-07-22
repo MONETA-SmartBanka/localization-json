@@ -1,0 +1,41 @@
+{
+    "integrations": {
+        "title": "Chytré služby a slevy",
+        "availableServicesTitle": "Dostupné",
+        "availableServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "text": "Fakturujte z banky. Jednoduše, rychle a se slevou až <green>50 %</green>."
+                    }
+                ],
+                "primaryButton": {
+                  "text": "Více informací"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
+            }
+        ],
+        "activatedServicesTitle": "Aktivované",
+        "activatedServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Vaše faktury s vaším účtem u Monety."
+                    }
+                ],
+                "primaryButton": {
+                  "text": "Přehled faktur"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+            }
+        ],
+        "apiPartnersTitle": "API partneři"
+    }
+}
