@@ -1136,6 +1136,881 @@
         }
       ]
     },
+    "questionnaire_v3": {
+      "title": "Investment questionnaire.\nWill you invest boldly or with care?",
+      "detail": "Answer the following questions to help you discover your investment profile and which investment products are right for you.",
+      "footer": "The questions are based on the European Directive on Markets in Financial Instruments (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), and after completing them, you can update them {0}x this month.",
+      "primaryButton": "Continue",
+      "firstCategoryPrimaryButton": "Continue",
+      "middleCategoryPrimaryButton": "{0} to go",
+      "lastCategoryPrimaryButton": "Done, proceed to results",
+      "notEligibleMifid": {
+        "title": "Hold, please",
+        "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile now.\n\nThank you for your understanding.",
+        "primaryButton": "Back to fund overview"
+      },
+      "investmentCertificatesTitle": "Would you like to invest in investment certificates as well?",
+      "investmentCertificatesDetail": "If so, you will need to answer a few additional questions.",
+      "investmentCertificatesDisabled": "TODO: You already have investment certificates.",
+      "category": [
+        {
+          "title": "Are you familiar with investing?",
+          "detail": "We’re not here to test you. We just need to understand your level of knowledge in finance and investing.\nWould you like to invest only in mutual funds? For any questions related to investment certificates, feel free to select “I don’t know.”",
+          "vocabularyTitle": "Glossary",
+          "vocabularyBullets": [
+            {
+              "title": "Mutual Fund",
+              "body": "It’s a collective investment tool made up of assets managed by an investment company. A mutual fund pools money from multiple investors and invests it collectively. The basic unit of a mutual fund is a unit certificate held by the investor."
+            },
+            {
+              "title": "Equity Mutual Fund",
+              "body": "It invests the majority of its assets in stocks. Stocks represent ownership in a company, giving shareholders a share in the company’s profits and a say in its management. Stocks carry the highest level of risk, and their value can fluctuate significantly."
+            },
+            {
+              "title": "Bond Mutual Fund",
+              "body": "It invests the majority of its assets in bonds. A bond is a financial instrument used to lend money to a company or government."
+            },
+            {
+              "title": "Mixed Mutual Fund",
+              "body": "They typically contain a mix of corporate stocks and bonds issued by companies or governments."
+            },
+            {
+              "title": "Investment Certificate",
+              "body": "It is an investment product with specific terms and conditions that define the rights and obligations of the investor. These may include the investment duration, how returns are calculated, limits on maximum returns, or conditions for early repayment."
+            },
+            {
+              "title": "Investment Service: Order Execution",
+              "body": "The bank receives a trade order from the client and forwards it to the relevant investment company for execution. No investment advice is provided as part of this service."
+            },
+            {
+              "title": "Returns Are Not Guaranteed or Insured",
+              "body": "Every investment carries risk, and there is no guarantee that you will not incur a loss. Unlike bank deposits, your investment is not legally insured."
+            }
+          ],
+          "questions": [
+            {
+              "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
+              "id": 1,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select 1 answer",
+              "answers": [
+                {
+                  "title": "This is the Order Execution service, as the bank forwards my order to the investment fund to issue new mutual fund units on my behalf.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "The bank sells me mutual fund units from its own account and sets its own price at which I buy them.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "It is a Marketplace service. The bank finds several sellers from whom I can choose the one that suits me best, and I buy the mutual fund units directly from them.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don’t know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "How do mutual and investment funds work?",
+              "id": 2,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Mutual and other investment funds manage my assets separately from those of other clients, in line with my investment strategy.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Mutual and other investment funds pool money from multiple investors and invest it collectively. The investor holds mutual fund units, which entitle them to a share of the fund’s returns.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Mutual and investment funds offer a fixed-interest deposit. The interest is guaranteed, so there is no risk of loss.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don’t know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What types of mutual funds are there?",
+              "id": 3,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "There are fixed-rate and floating-rate funds. Fixed-rate mutual funds offer a guaranteed, specific percentage return. Floating-rate funds may have returns that fluctuate over time. The exact return of a mutual fund is determined by the bank in its terms and conditions.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "There are equity and mixed funds. Equity funds allow investors to take part in the operations of individual companies and vote at their general meetings. Mixed funds, on the other hand, guarantee that the invested amount will never result in a loss.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "There are equity, bond, and mixed funds. Equity funds are the most volatile and offer the potential for the highest gains as well as losses.\nBond funds are the least volatile and typically offer the lowest returns.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don’t know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What are investment certificates?",
+              "id": 4,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Investment certificates are issued by investment funds. They are mutual fund units accompanied by a certificate of authenticity issued by a certifying authority.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Investment certificates are securities that can have various features. Each investment certificate comes with specific terms and conditions that define the investor’s rights and obligations. Among the most important are the method of calculating returns and the conditions for the repayment of the certificate.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Investment certificates are the same as bonds. The term “investment certificates” has only recently started being used, mainly to add variety to marketing messages",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don’t know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What are the risks and benefits of investment certificates?",
+              "id": 5,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "An advantage of investment certificates is their quick and flexible issuance. In the case of guaranteed certificates, a major benefit is the significantly limited risk of loss. The main risk lies in the need to rely on the issuer to fulfill their obligations, typically an international financial institution, which is known as counterparty risk.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "An advantage of investment certificates is that they are based on blockchain technology, allowing them to be transferred similarly to cryptocurrencies. The main risk lies in unclear regulation, which presents a significant legal risk.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "An advantage of investment certificates is that they are always issued by the state. The main risk of investment certificates lies in the possibility of state bankruptcy.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don’t know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What is your experience with investing?",
+          "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
+          "questions": [
+            {
+              "title": "What is your experience with mutual funds?",
+              "id": 6,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Select up to 3 answers",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select at least 1 answer",
+              "answers": [
+                {
+                  "title": "I have invested in them in the last 3 years.",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I have been holding my investment for over 3 years.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I invest quarterly or more frequently.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "None of the above.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What is your experience with investment certificates?",
+              "id": 7,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Select up to 3 answers",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select at least 1 answer",
+              "answers": [
+                {
+                  "title": "I have invested in them in the last 3 years.",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I have been holding my investment for over 3 years.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I invest quarterly or more frequently.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "None of the above.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "How have you invested over the past 5 years?",
+              "id": 8,
+              "maxAnswers": 3,
+              "maxAnswersErrMessage": "Select up to 3 answers",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select at least 1 answer",
+              "answers": [
+                {
+                  "title": "I made a one-time investment of over  CZK 50,000.",
+                  "value": 1,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I made a one-time investment of over CZK 50,000 and occasionally invest based on market opportunities.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "I invest regularly a minimum of CZK 500 each month.",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "None of the above.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Do you have education or professional knowledge in the field of capital markets?",
+              "id": 9,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Yes, I have a professional certification focused on trading investment instruments.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Yes, I have an educational background in financial markets and investment instruments.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "No",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Do you have relevant work experience in the field of capital markets?",
+              "id": 10,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Yes, in the last 5 years I have relevant work experience in the field of capital markets.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "No",
+                  "value": 2,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What are your goals and needs?",
+          "detail": "This section will help you select funds whose fluctuations, potential losses, or the need for longer holding periods will not pose a significant problem for you.",
+          "vocabularyTitle": "Vocabulary",
+          "vocabularyBullets": [
+            {
+              "title": "SRI",
+              "body": "It indicates the risk level of an investment product on a scale from 1 (lowest risk) to 7 (highest risk)."
+            },
+            {
+              "title": "Investment horizon",
+              "body": "The period for which the investment is planned. Failing to adhere to the product’s investment horizon significantly increases the risk associated with the investment."
+            }
+          ],
+          "questions": [
+            {
+              "title": "Which statement best describes your behavior during investing?",
+              "id": 11,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "I expect at least to recover my initial investment and cannot tolerate any loss.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I accept minor fluctuations and can tolerate a potential loss of up to 5%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I accept fluctuations and can tolerate a potential loss of up to 15%.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I accept higher fluctuations and can tolerate a potential loss of more than 15%.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What level of risk, on a scale from 1 (low risk) to 7 (high risk), are you able to accept?",
+              "id": 12,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Low risk: 1 to 2",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Medium/higher: 1 to 4",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Higher: 1 to 5",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "High: 1 to 7",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "How long do you plan to hold the investment?",
+              "id": 13,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Up to 1 year, including",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "1 to 3 years, including",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "3 to 5 years, including",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "5 to 8 years, including",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than 8 years",
+                  "value": 5,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Will you need the money sooner than the planned period?",
+              "id": 14,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "There is a possibility that I might need the money sooner.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "It’s possible that I might need the money sooner, but it’s unlikely.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "It’s unlikely that I will need to withdraw the money before the planned period ends.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What are your requirements for sustainability?",
+          "detail": "If investing sustainably is important to you, this section of the questionnaire will help you choose funds that consider sustainability.",
+          "vocabularyTitle": "Vocabulary",
+          "vocabularyBullets": [
+            {
+              "title": "Environmentally sustainable investments",
+              "body": "These are investments that, according to European regulations (known as the EU Taxonomy), significantly contribute to achieving at least one environmental objective while not significantly harming other objectives. Such goals include, for example, climate change mitigation or pollution prevention and reduction. These are the only investments for which the EU has established precise criteria aimed at protecting the environment. You can learn more about the EU Taxonomy and all its objectives on our <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">website.</a>"
+            },
+            {
+              "title": "Sustainable investments",
+              "body": "These investments contribute to environmental and social goals without significantly harming any environmental or social objectives. Examples include renewable energy, waste reduction, biodiversity, combating inequality, improving working conditions, and more."
+            },
+            {
+              "title": "Investments with adverse impacts on sustainability",
+              "body": "These are products where adverse impacts on sustainability are monitored in certain areas. We want to know if you would like to explicitly avoid some of these negative impacts in your investments."
+            }
+          ],
+          "questions": [
+            {
+              "title": "Do you prefer environmentally sustainable investments?",
+              "id": 15,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "NO, I do not",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 20%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 40%.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 60%.",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 80%.",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer 100% environmentally sustainable investments.",
+                  "value": 6,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Do you prefer sustainable investments?",
+              "id": 16,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "NO, I do not",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 20%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 80%.",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I prefer 100% sustainable investments.",
+                  "value": 6,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Would you like to consider any adverse impacts on sustainability in your investments? ",
+              "id": 17,
+              "maxAnswers": 5,
+              "maxAnswersErrMessage": "You can select more than one answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select at least one answer",
+              "answers": [
+                {
+                  "title": "Do not consider.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "YES, I’d like to consider the impact on greenhouse gas emissions.",
+                  "value": 2,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "YES, I’d like to consider the impact on biodiversity",
+                  "value": 3,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "YES, I’d like to consider the impact on water pollution.",
+                  "value": 4,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "YES, I’d like to consider the impact on waste.",
+                  "value": 5,
+                  "uncheckOthers": false
+                },
+                {
+                  "title": "YES, I’d like to consider the impact on socioeconomic factors.",
+                  "value": 6,
+                  "uncheckOthers": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Investment Guide:\nFinal Questions",
+          "questions": [
+            {
+              "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
+              "id": 18,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "The bank will provide me with investment advice, and based on the information provided, the bank will select the most suitable product for me. I will then decide whether to accept the recommendation or not.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "The bank will continuously invest my money so that the content of my portfolio corresponds to the investment strategy we have agreed upon.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "The bank will sell me the shares from its account and arbitrarily determine the price at which I will buy them from it.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I don't know.",
+                  "value": 4,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "I found out that the value of my investment has decreased by 10%. What will I do?",
+              "id": 19,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "I will try to withdraw my funds.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I won't do anything.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I will take advantage of the dip and buy more.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What percentage of my financial assets (including savings, deposits, investments, securities) do I intend to invest through the bank annually?",
+              "id": 20,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Up to 20%.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Up to 50%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than 50%.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
+              "id": 21,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Up to CZK 300 000",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Between CZK 300,000 and CZK 1,000,000.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than CZK 1 000 000.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "My regular debt payments and other financial obligations.",
+              "id": 22,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Make up more than  80% of my income.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Make up  between 50% and 80% of my income.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Make up less than 50% of my income.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What is the net amount of your regular monthly income?",
+              "id": 23,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Less than CZK 20,000 ",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Between CZK 20,000 and CZK 50,000.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "More than CZK 50,000.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "What is the main source of your regular income?",
+              "id": 24,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "Permanent employee",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Fixed-term employee",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Entrepreneur",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Agreement to perform work",
+                  "value": 4,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Contract for work",
+                  "value": 5,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Retirement pension",
+                  "value": 6,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Disability pension",
+                  "value": 7,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Part-time work",
+                  "value": 8,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Parental allowance",
+                  "value": 9,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I am a student",
+                  "value": 10,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "I am unemployed",
+                  "value": 11,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Which of the following situations would reduce your ability to meet your basic living needs (e.g., buying food or clothing) upon the sale of your investment?",
+              "id": 22,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Select 1 answer",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Select one answer",
+              "answers": [
+                {
+                  "title": "A decrease in the value of the invested amount by less than 5%.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "A decrease in the value of the invested amount by 5% to 15%.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Even a decrease in the value of the invested amount by 15% or more would not affect my ability to cover basic living needs.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
     "questionnaireResult": {
       "primaryButton": "View products",
       "alternativePrimaryButton": "Continue",
@@ -1562,13 +2437,16 @@
         {
           "typeCode": "GUARANTEED_CERTIFICATE",
           "type": "Guaranteed certificate"
-        },{
+        },
+        {
           "typeCode": "BONUS_CERTIFICATE",
           "type": "Bonus certificate"
-        },{
+        },
+        {
           "typeCode": "EXPRESS_CERTIFICATE",
           "type": "Express certificate"
-        },{
+        },
+        {
           "typeCode": "DISCONT_CERTIFICATE",
           "type": "Discont certificate"
         }
@@ -5033,7 +5911,7 @@
         },
         {
           "isin": "CZ0008475928",
-          "featuredName":"Generali Real Estate Fund",
+          "featuredName": "Generali Real Estate Fund",
           "detail": "Generali Real Estate Fund invests primarily in real estate in the Czech Republic and the European Union. In the Czech Republic, it makes investments in the form of acquisitions of participations in real estate companies in Prague and major regional cities. The fund focuses on investments in apartment buildings, shopping centers, office buildings and other real estate. Investing in the fund should not form a substantial part of the investor's portfolio, but is suitable for investors who want to enrich their core investment portfolio with investments in real estate assets through investments in the fund. The recommended minimum horizon is 5 years.",
           "sellFeeValue": "0",
           "info": "The fund is not suited for clients who could suffer considerable financial distress in case of loss, plan to invest for less than 3 years and for clients who have basic knowledge and experience.",
@@ -5922,12 +6800,13 @@
       "title": "What kind of investments are you interested in?",
       "options": [
         {
-          "icon": "longtermFundsFill",
-          "title": "Long-Term Investment Product (LTIP)",
-          "detail": "The benefits of regular investing and tax savings in one product.",
+          "type": "ADVICE",
+          "icon": "starsAltFill",
+          "title": "Funds acquired through an investment advisor",
+          "detail": "A solution that tailored to your needs.",
           "action": {
             "actionType": "APPPAGE",
-            "actionData": "DIPINVESTMENT"
+            "actionData": "INVESTMENTADVISORY"
           }
         },
         {
@@ -5938,141 +6817,153 @@
             "actionType": "APPPAGE",
             "actionData": "INVESTMENT"
           }
+        },
+        {
+          "icon": "longtermFundsFill",
+          "title": "Long-Term Investment Product (LTIP)",
+          "detail": "The benefits of regular investing and tax savings in one product.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "DIPINVESTMENT"
+          }
         }
       ]
     },
     "root": {
-        "investmentProfile": "My investment Profile ",
-        "periods": [
-            {
-                "interval": "YEAR",
-                "name": "1 year",
-                "longName": "Last Year",
-                "performance": "Performance in last year"
-            },
-            {
-                "interval": "THREE_YEARS",
-                "name": "3 years",
-                "longName": "Last 3 years",
-                "performance": "Performance in last 3 years"
-            },
-            {
-                "interval": "FIVE_YEARS",
-                "name": "5 years",
-                "longName": "Last 5 years",
-                "performance": "Performance in last 5 years"
-            },
-            {
-                "interval": "WHOLE",
-                "name": "From the beginning",
-                "longName": "From the beginning",
-                "performance": "Performance from the beginning"
-            }
-        ],
-        "riskInfo": [
-            "Low returns, low fluctuations in investment value.",
-            "Low returns, low volatility of investment value",
-            "Moderately low returns, moderately low volatility in investment value.",
-            "Mean returns, mean volatility of investment value.",
-            "Moderately high returns, significant fluctuations in investment value.",
-            "High returns, very significant fluctuations in the value of the investment."
-        ],
-        "types": [
-          {
-            "typeCode": "MIX",
-            "type": "Mixed"
-          },
-          {
-            "typeCode": "BOND",
-            "type": "Bond"
-          },
-          {
-            "typeCode": "STOCKS",
-            "type": "Stock"
-          },
-          {
-            "typeCode": "SHORT_TERM_BOND",
-            "type": "Short-Term Bond"
-          },
-          {
-            "typeCode": "REAL_ESTATE",
-            "type": "Real Estate"
-          },
-          {
-            "typeCode": "GUARANTEED_CERTIFICATE",
-            "type": "Guaranteed certificate"
-          },{
-            "typeCode": "BONUS_CERTIFICATE",
-            "type": "Bonus certificate"
-          },{
-            "typeCode": "EXPRESS_CERTIFICATE",
-            "type": "Express certificate"
-          },{
-            "typeCode": "DISCONT_CERTIFICATE",
-            "type": "Discont certificate"
-          }
-        ],
-        "profiles": [
-          "very conservative",
-          "conservative",
-          "dynamic",
-          "very dynamic"
-        ],
-        "valuationFrequencies": [
-            {
-                "frequency": "DAY",
-                "name": "Daily"
-            },
-            {
-                "frequency": "WEEK",
-                "name": "Weekly"
-            },
-            {
-                "frequency": "MONTH",
-                "name": "Monthly"
-            }
-        ]
+      "investmentProfile": "My investment Profile ",
+      "periods": [
+        {
+          "interval": "YEAR",
+          "name": "1 year",
+          "longName": "Last Year",
+          "performance": "Performance in last year"
+        },
+        {
+          "interval": "THREE_YEARS",
+          "name": "3 years",
+          "longName": "Last 3 years",
+          "performance": "Performance in last 3 years"
+        },
+        {
+          "interval": "FIVE_YEARS",
+          "name": "5 years",
+          "longName": "Last 5 years",
+          "performance": "Performance in last 5 years"
+        },
+        {
+          "interval": "WHOLE",
+          "name": "From the beginning",
+          "longName": "From the beginning",
+          "performance": "Performance from the beginning"
+        }
+      ],
+      "riskInfo": [
+        "Low returns, low fluctuations in investment value.",
+        "Low returns, low volatility of investment value",
+        "Moderately low returns, moderately low volatility in investment value.",
+        "Mean returns, mean volatility of investment value.",
+        "Moderately high returns, significant fluctuations in investment value.",
+        "High returns, very significant fluctuations in the value of the investment."
+      ],
+      "types": [
+        {
+          "typeCode": "MIX",
+          "type": "Mixed"
+        },
+        {
+          "typeCode": "BOND",
+          "type": "Bond"
+        },
+        {
+          "typeCode": "STOCKS",
+          "type": "Stock"
+        },
+        {
+          "typeCode": "SHORT_TERM_BOND",
+          "type": "Short-Term Bond"
+        },
+        {
+          "typeCode": "REAL_ESTATE",
+          "type": "Real Estate"
+        },
+        {
+          "typeCode": "GUARANTEED_CERTIFICATE",
+          "type": "Guaranteed certificate"
+        },
+        {
+          "typeCode": "BONUS_CERTIFICATE",
+          "type": "Bonus certificate"
+        },
+        {
+          "typeCode": "EXPRESS_CERTIFICATE",
+          "type": "Express certificate"
+        },
+        {
+          "typeCode": "DISCONT_CERTIFICATE",
+          "type": "Discont certificate"
+        }
+      ],
+      "profiles": [
+        "very conservative",
+        "conservative",
+        "dynamic",
+        "very dynamic"
+      ],
+      "valuationFrequencies": [
+        {
+          "frequency": "DAY",
+          "name": "Daily"
+        },
+        {
+          "frequency": "WEEK",
+          "name": "Weekly"
+        },
+        {
+          "frequency": "MONTH",
+          "name": "Monthly"
+        }
+      ]
     },
     "list": {
-        "investmentTitle": "Investments {0}",
-        "dipTitle": "Long-Term Investment Product {0}",
-        "dipActionButtonAccessibility": "Deposit funds",
-        "tabMyPortfolio": "My portfolio",
-        "tabInvestmentOpportunities": "Investment opportunities",
-        "emptyPortfolio": {
-            "noInvestments": "Not invested",
-            "showFunds": "Show funds",
-            "dipInfo": "Invest and get the most out of your LTIP. Investments may increase the total appreciation.",
-            "bullets": [
-                {
-                    "icon": "tickFill",
-                    "title": "<b>One-time and regular investments</b><br/>Choose from 40 reputable mutual funds from all over the world."
-                },
-                {
-                    "icon": "tickFill",
-                    "title": "<b>You can start with small amounts</b><br/>Investments starts at CZK 500."
-                }
-            ]
-        },
-        "portfolio": {
-            "portfolioValue": "Current Value",
-            "investedTotal": "Total amount invested",
-            "yield": "Profit",
-            "fundsTitle": "Invested in funds",
-            "unprocessedTitle": "Processed",
-            "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
-            "sellFundLoading": "We are processing the sale. We will probably update your investment {date}."
-        },
-        "funds": {
-            "profiles": [
-                "Shorter-term investments, more stable funds",
-                "Medium-term investments, balanced funds",
-                "Long-term investments, more volatile funds",
-                "Long-term investments, volatile funds"
-            ],
-            "footer": "See also funds in EUR. All you have to do is open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">EUR account for free</a>, and you can invest.",
-            "footerButton": "How do investments work?"
-        }
+      "investmentTitle": "Investments {0}",
+      "dipTitle": "Long-Term Investment Product {0}",
+      "dipActionButtonAccessibility": "Deposit funds",
+      "tabMyPortfolio": "My portfolio",
+      "tabInvestmentOpportunities": "Investment opportunities",
+      "emptyPortfolio": {
+        "noInvestments": "Not invested",
+        "showFunds": "Show funds",
+        "dipInfo": "Invest and get the most out of your LTIP. Investments may increase the total appreciation.",
+        "bullets": [
+          {
+            "icon": "tickFill",
+            "title": "<b>One-time and regular investments</b><br/>Choose from 40 reputable mutual funds from all over the world."
+          },
+          {
+            "icon": "tickFill",
+            "title": "<b>You can start with small amounts</b><br/>Investments starts at CZK 500."
+          }
+        ]
+      },
+      "portfolio": {
+        "portfolioValue": "Current Value",
+        "investedTotal": "Total amount invested",
+        "yield": "Profit",
+        "fundsTitle": "Invested in funds",
+        "unprocessedTitle": "Processed",
+        "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
+        "sellFundLoading": "We are processing the sale. We will probably update your investment {date}."
+      },
+      "funds": {
+        "profiles": [
+          "Shorter-term investments, more stable funds",
+          "Medium-term investments, balanced funds",
+          "Long-term investments, more volatile funds",
+          "Long-term investments, volatile funds"
+        ],
+        "footer": "See also funds in EUR. All you have to do is open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">EUR account for free</a>, and you can invest.",
+        "footerButton": "How do investments work?"
+      }
     },
     "accessibility": {
       "showFundsButton": "Show invested amount",
@@ -6081,96 +6972,98 @@
       "dipActionButton": "Deposit funds"
     },
     "detail": {
-        "detail": "{type}, {profile} for investments for {term} and more years.",
-        "tabMyInvestment": "My investments",
-        "tabInvestmentDetail": "Fund detail",
-        "report": "Composition",
-        "more": "More",
-        "myInvestment": {
-            "history": "History",
-            "historyFull": "Complete History",
-            "bought": "Purchase",
-            "sold": "Sale",
-            "totalInvested": "Total amount invested",
-            "monthlyInvested": "Monthly investment",
-            "performance": "Appretiation since {date}",
-            "profit": "Profit",
-            "currentValue": "Current Value"
-        },
-        "investmentDetail": {
-            "standingOrders": "Standing Orders",
-            "watch": "Watch fund",
-            "titleInformation": "Information",
-            "minInvestment": "Minimal investment",
-            "currency": "Currency",
-            "nav": "NAV (net asset value)",
-            "currentRateDate": "Current exchange rate for the day",
-            "valuationFrequency": "Valuation frequency",
-            "isin": "ISIN",
-            "accountNumber": "Account no.",
-            "creationDate": "Creation Date",
-            "buyFee": "Purchase fee",
-            "sellFee": "Sale fee",
-            "titleDocuments": "Documents"
-        }
+      "detail": "{type}, {profile} for investments for {term} and more years.",
+      "tabMyInvestment": "My investments",
+      "tabInvestmentDetail": "Fund detail",
+      "report": "Composition",
+      "more": "More",
+      "myInvestment": {
+        "history": "History",
+        "historyFull": "Complete History",
+        "bought": "Purchase",
+        "sold": "Sale",
+        "totalInvested": "Total amount invested",
+        "monthlyInvested": "Monthly investment",
+        "performance": "Appretiation since {date}",
+        "profit": "Profit",
+        "currentValue": "Current Value",
+        "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
+        "sellFundLoading": "We are processing the sale. We will probably update your investment {date}."
+      },
+      "investmentDetail": {
+        "standingOrders": "Standing Orders",
+        "watch": "Watch fund",
+        "titleInformation": "Information",
+        "minInvestment": "Minimal investment",
+        "currency": "Currency",
+        "nav": "NAV (net asset value)",
+        "currentRateDate": "Current exchange rate for the day",
+        "valuationFrequency": "Valuation frequency",
+        "isin": "ISIN",
+        "accountNumber": "Account no.",
+        "creationDate": "Creation Date",
+        "buyFee": "Purchase fee",
+        "sellFee": "Sale fee",
+        "titleDocuments": "Documents"
+      }
     },
     "detailSheet": {
-        "actionPurchase": "Invest",
-        "actionSell": "Sell",
-        "actionDetail": "Detail",
-        "actionTransactions": "History",
-        "actionStatements": "Statements",
-        "actionReport": "Composition",
-        "investedAmount": "Total amount invested",
-        "currentValue": "Current Value",
-        "yieldFrom": "Appreciation since {date}",
-        "profitFrom": "Profit since {date}",
-        "fundDescription": "Fund description",
-        "detail": "{type}, {profile} for investments for {term} and more years.",
-        "statementDIP": "long-term investment fund",
-        "statementInvestment": "mutual funds"
+      "actionPurchase": "Invest",
+      "actionSell": "Sell",
+      "actionDetail": "Detail",
+      "actionTransactions": "History",
+      "actionStatements": "Statements",
+      "actionReport": "Composition",
+      "investedAmount": "Total amount invested",
+      "currentValue": "Current Value",
+      "yieldFrom": "Appreciation since {date}",
+      "profitFrom": "Profit since {date}",
+      "fundDescription": "Fund description",
+      "detail": "{type}, {profile} for investments for {term} and more years.",
+      "statementDIP": "long-term investment fund",
+      "statementInvestment": "mutual funds"
     },
     "dipPromo": {
-        "title": "Better Retirement with Long-Term Investment Product",
-        "detail": "This new product allows you to choose where your retirement savings will appreciate.",
-        "bulletsTitle": "Tax credit of up to 7,200 CZK per year and the possibility of an employer contribution of up to 50,000 CZK.",
-        "bullets": [
-            {
-                "icon": "investmentsFill",
-                "title": "Savings with an attractive interest rate",
-                "detail": "The product includes a LTIP Savings Account. You can either let your money accrue interest there or invest it in mutual funds for the possibility of higher returns."
-            },
-            {
-                "icon": "moneyBillRepeatFill",
-                "title": "One-time and regular investments",
-                "detail": "You have access to over 40 reputable mutual funds. When you decide to sell your investment, the money will be credited back to your LTIP Savings Account."
-            },
-            {
-                "icon": "interestFill",
-                "title": "Tax savings",
-                "detail": "If you deposit money into LTIP for at least 10 years and simultaneously until the age of 60, you can save up to 7,200 CZK per year on taxes."
-            }
-        ],
-        "moreInfo": {
-            "actionLabelText": "More Information",
-            "actionType": "WEB",
-            "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
+      "title": "Better Retirement with Long-Term Investment Product",
+      "detail": "This new product allows you to choose where your retirement savings will appreciate.",
+      "bulletsTitle": "Tax credit of up to 7,200 CZK per year and the possibility of an employer contribution of up to 50,000 CZK.",
+      "bullets": [
+        {
+          "icon": "investmentsFill",
+          "title": "Savings with an attractive interest rate",
+          "detail": "The product includes a LTIP Savings Account. You can either let your money accrue interest there or invest it in mutual funds for the possibility of higher returns."
         },
-        "primaryButton": {
-            "actionLabelText": "Arrange LTIP in branch",
-            "actionType": "APPPAGE",
-            "actionData": "BRANCHESATMS"
+        {
+          "icon": "moneyBillRepeatFill",
+          "title": "One-time and regular investments",
+          "detail": "You have access to over 40 reputable mutual funds. When you decide to sell your investment, the money will be credited back to your LTIP Savings Account."
+        },
+        {
+          "icon": "interestFill",
+          "title": "Tax savings",
+          "detail": "If you deposit money into LTIP for at least 10 years and simultaneously until the age of 60, you can save up to 7,200 CZK per year on taxes."
         }
+      ],
+      "moreInfo": {
+        "actionLabelText": "More Information",
+        "actionType": "WEB",
+        "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
+      },
+      "primaryButton": {
+        "actionLabelText": "Arrange LTIP in branch",
+        "actionType": "APPPAGE",
+        "actionData": "BRANCHESATMS"
+      }
     },
     "notImplemented": {
-        "title": "Smart Bank can't do this yet.<br/>Before we teach it, we'll be happy to help you at the branch.",
-        "primaryButton": "Find nearest branch",
-        "secondaryButton": "Close"
+      "title": "Smart Bank can't do this yet.<br/>Before we teach it, we'll be happy to help you at the branch.",
+      "primaryButton": "Find nearest branch",
+      "secondaryButton": "Close"
     },
     "noCurrentAccount": {
-        "title": "You can transfer funds into LTIP from any account",
-        "detail": "Unfortunately, we have not found any current account with Moneta from which you can deposit money do DIP.<br/>If you want, you can also send money from elsewhere. No variable symbol is needed, just send the payment to your LTIP savings account.",
-        "primaryButton": "Understand"
+      "title": "You can transfer funds into LTIP from any account",
+      "detail": "Unfortunately, we have not found any current account with Moneta from which you can deposit money do DIP.<br/>If you want, you can also send money from elsewhere. No variable symbol is needed, just send the payment to your LTIP savings account.",
+      "primaryButton": "Understand"
     }
   }
 }
