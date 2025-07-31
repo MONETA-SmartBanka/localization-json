@@ -6790,6 +6790,29 @@
       "title": "What kind of investments are you interested in?",
       "options": [
         {
+          "icon": "investmentsFill",
+          "title": "Mutual funds",
+          "detail": "Investments in more than 44 mutual funds.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "INVESTMENT"
+          }
+        },
+        {
+          "icon": "longtermFundsFill",
+          "title": "Long-Term Investment Product (LTIP)",
+          "detail": "The benefits of regular investing and tax savings in one product.",
+          "action": {
+            "actionType": "APPPAGE",
+            "actionData": "DIPINVESTMENT"
+          }
+        }
+      ]
+    },
+    "selection2": {
+      "title": "What kind of investments are you interested in?",
+      "options": [
+        {
           "type": "ADVICE",
           "icon": "starsAltFill",
           "title": "Funds acquired through an investment advisor",
