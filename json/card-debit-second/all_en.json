@@ -1153,13 +1153,13 @@
                     "primaryButton": "Zpět na Přehled"
                 },
                 "title": "Hotovo! Plastová karta už je na cestě k Vám.",
-                "detail": "Obvykle dorazí do 5 dní a <b>už teď si ji můžete přidat do peněženky ve Vašem mobilu</b> a okamžitě s ní platit. Nový PIN ke kartě najdete v detailu karty ve Vaší Internet Bance a Smart Bance.",
-                "primaryButton": "Přejít na Přehled"
+                "detail": "The card usually arrives within 14 days, but you can <b>add it to your smartphone now</b> and use it right away. The new PIN can be found in 'Card Detail' in Smart Banka and Internet Banka.",
+                "primaryButton": "Back to Overview"
             },
             "victoryVirtual": {
-                "title": "Hotovo! S virtuální kartou můžete okamžitě platit",
-                "detail": "Stačí si ji přidat do peněženky ve Vašem mobilu. Nový PIN ke kartě najdete v detailu karty ve Vaší Internet Bance a Smart Bance. ",
-                "primaryButton": "Přejít na Přehled"
+                "title": "Done! The virtual card is ready to be used right away ",
+                "detail": "Add your card to your smartphone. Your PIN can be found in 'Card Detail' in Smart Banka and Internet Banka.",
+                "primaryButton": "Back to Overview"
             },
             "help": {
                 "title": "Nápověda",
@@ -1168,6 +1168,30 @@
                 "branch": "Naštivte nás\nna pobočce",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Zrušit žádost"
+            },
+            "xSell": {
+                "primaryButton": "Proceed to Insurance",
+                "plastic": {
+                    "title": "Stay protected while keeping your card and other valuables on you. ",
+                    "detail": "It’s covered until delivery.\nAfter that, it’s up to you."
+                },
+                "virtual": {
+                    "title": "Sometimes big problems are caused by the smallest slip-ups. Are you sure you've thought of everything?"
+                },
+                "items": [
+                    {
+                        "title": "The insurance covers card loss as well as online payment fraud.",
+                        "icon": "electronicsFill"
+                    },
+                    {
+                        "title": "It will help cover the cost of your broken phone or tablet with Smart Banka.",
+                        "icon": "mobileFill"
+                    },
+                    {
+                        "title": "In case of loss of valuables, it will help cover the cost of replacing them. ",
+                        "icon": "shoppingBagFill"
+                    }
+                ]
             }
         }
     }
