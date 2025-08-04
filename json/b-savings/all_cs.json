@@ -15,13 +15,13 @@
                 "callUs": "Zavolejte nám\nna infolinku",
                 "branch": "Naštivte nás\nna pobočce",
                 "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Zpět na přehled zůstatků"
+                "primaryButton": "Zpět na Přehled"
             },
             "scoring": {
                 "title": "Omlouváme se, něco se vymňouklo",
                 "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
                 "branch": "Navštivte nás\nna pobočce",
-                "primaryButton": "Zpět na přehled zůstatků"
+                "primaryButton": "Zpět na Přehled"
             },
             "cantProceed": {
                 "title": "Stavební spoření pro Vás zatím v aplikaci neumíme.",
@@ -29,7 +29,7 @@
                 "callUs": "Zavolejte nám\nna infolinku",
                 "branch": "Naštivte nás\nna pobočce",
                 "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Zpět na přehled zůstatků"
+                "primaryButton": "Zpět na Přehled"
             },
             "disagreement": {
                 "title": "Bez souhlasu to bohužel nepůjde",
@@ -43,7 +43,7 @@
                 "CONTRACT_WAITING_FOR_OPEN_HOURS": {
                     "title": "Toto bude trvat celou noc...",
                     "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
-                    "primaryButton": "Zpět na přehled zůstatků"
+                    "primaryButton": "Zpět na Přehled"
                 }
             }
         },
@@ -69,23 +69,25 @@
             },
             "secondaryOfferNib": {
                 "title": "Stavební spoření",
-                "detail": "<b>Nyní zdvojnásobení státní podpory a bonus za vysoký vklad.</b>"
+                "detail": "<b>Nyní zdvojnásobení státní podpory a bonus 500 Kč za sjednání online.</b>"
             },
             "promoOfferNib": {
-                "title": "Atraktivní zhodnocení 4,9 % s dvojnásobnou státní podporou",
+                "title": "Zdvojnásobení státní podpory a navíc bonus 500 Kč za sjednání online",
                 "detail": "Založte si stavební spoření plně online bez poplatku za sjednání a se státní podporou až 1 000 Kč ročně.",
                 "bullets": [
                     "<b>Zdvojnásobení státní podpory s bonusem až 6 000 Kč</b>. Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
+                    "<b>Bonus 500 Kč za sjednání smlouvy v Internet Bance.</b> Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
                     "<b>Bonus 3 000 Kč za vysoký vklad</b>. Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
                     "<b>Bezpečně uložené peníze</b> – Vaše vklady jsou v bezpečí a pojištěny do 100 000 EUR.",
                     "<b>Peníze na cokoliv</b> – už po 6 letech spoření můžete využít naspořené peníze úplně na cokoliv."
                 ]
             },
             "promoOfferNibChild": {
-                "title": "Atraktivní zhodnocení 4,9 % s dvojnásobnou státní podporou",
+                "title": "Zdvojnásobení státní podpory a navíc bonus 500 Kč za sjednání online",
                 "detail": "Založte si stavební spoření plně online bez poplatku za sjednání a se státní podporou až {stateSupportMaxAmount} Kč ročně.",
                 "bullets": [
                     "<b>Zdvojnásobení státní podpory s bonusem až 6 000 Kč.</b> Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
+                    "<b>Bonus 500 Kč za sjednání smlouvy v Internet Bance.</b> Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
                     "<b>Bonus 3 000 Kč za vysoký vklad</b>. Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a>",
                     "<b>Bezpečně uložené peníze</b> – Vaše vklady jsou v bezpečí a pojištěny do 100 000 EUR.",
                     "<b>Peníze na cokoliv</b> – už po 6 letech spoření můžete využít naspořené peníze úplně na cokoliv."
@@ -109,12 +111,12 @@
             },
             "buildingSavingsCalculator": {
                 "title": "Nastavte si své stavební spoření",
-                "amount": "Předpokládáný měsíční vklad",
-                "amountTip": "Měsíční vklad je částka, kterou chcete na stavební spoření pravidelně ukládat. V\u00a0průběhu spoření můžete ukládat měsíčně více nebo peníze na účet vložit například jednou ročně.",
+                "amount": "Předpokládaný měsíční vklad",
+                "amountTip": "Zdvojnáobení státní podpory s bonusem až 6 000 Kč a navíc 500 Kč za sjednání smlouvy online. Měsíční vklad je částka, kterou chcete na stavební spoření pravidelně ukládat. V\u00a0průběhu spoření můžete ukládat měsíčně více nebo peníze na účet vložit například jednou ročně.",
                 "duration": "Doba spoření",
                 "total": "Celkem naspoříte",
                 "targetAmount": "Cílová částka",
-                "totalTip": "<b>Tip:</b> Vkládejte alespoň 1\u00a0700\u00a0Kč měsíčně pro zisk maximální státní podpory 1\u00a0000\u00a0Kč ročně",
+                "totalTip": "<b>Tip:</b> Zdvojnásobení státní podpory s bonusem až 6 000 Kč a navíc 500 Kč za sjednání smlouvy online. Vkládejte alespoň 1\u00a0700\u00a0Kč měsíčně pro zisk maximální státní podpory 1\u00a0000\u00a0Kč ročně.",
                 "stateContributionCheckbox": "Požaduji státní podporu",
                 "ownDeposit": "Vlastní vklad",
                 "stateContribution": "Státní podpora",

@@ -2494,16 +2494,6 @@
     ],
     "warnings": [
       {
-        "type": "DISPONENT_NO_RIGHTS",
-        "title": "Oops, this is not going to work",
-        "detail": "You are not aurhorized to view this section. If you are an eDisponent, you can obtain the necessary authorization from the account owner.",
-        "primaryButton": {
-          "actionType": "APPPAGE",
-          "actionData": "BALANCEOVERVIEW",
-          "actionLabelText": "I understand"
-        }
-      },
-      {
         "type": "NO_CIF_STREET",
         "title": "Please visit one of our branches",
         "detail": "There are some details missing in your profile which are essential to make investments via the app. You can only add the street to your profile in person at the branch. Thank you for understanding.",
@@ -4039,6 +4029,83 @@
             {
               "title": "Emission conditions",
               "url": "https://www.moneta.cz/documents/20143/29410013/mmb-gclmge-emisni-podminky.pdf"
+            }
+          ],
+          "targetMarkets": {
+            "title": "Cílové trhy",
+            "values": [
+              {
+                "title": "Investiční horizont",
+                "detail": "5 let a více"
+              },
+              {
+                "title": "Investiční preference",
+                "detail": "Růst"
+              },
+              {
+                "title": "Schopnost nést ztráty",
+                "detail": "Ano"
+              },
+              {
+                "title": "Tolerance rizika",
+                "detail": "Rizikový stupeň 4",
+                "info": {
+                  "title": "Střední výnosy, střední kolísání hodnoty investice."
+                }
+              },
+              {
+                "title": "Kategorie zákazníka",
+                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+              },
+              {
+                "title": "Znalosti a zkušenosti",
+                "detail": "Střední, pokročilý",
+                "info": {
+                  "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                }
+              },
+              {
+                "title": "Negativní cílový trh",
+                "detail": "Garance bez ztrát",
+                "info": {
+                  "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                  "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                }
+              }
+            ]
+          }
+        },
+        {
+          "isin": "DE000GV8KW67",
+          "featuredName": "Guaranteed Certificate Multi-Asset Autocall 7%",
+          "detail": "Investiční certifikát s 100% ochranou kapitálu při splatnosti a atraktivním potenciálem výnosu až 7 % ročně díky možnosti předčasného splacení.\n\nCertifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International (rating A1 od Moody's / A+ od Standard & Poor's / A+ od Fitch). Certifikát umožňuje jednou za rok možnost předčasného splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a 7% procent za každý rok. Scénáře vývoje najdete v brožuře.\n\nKlient se podílí na vývoji indexu Goldman Sachs Momentum Builder Focus.\n\nIndex Goldman Sachs Momentum Builder Focus je smíšené portfolio indexů nabízející potencionální expozici v následujících třídách aktiv – americké akcie, akcie rozvinutých trhů, dluhopisy rozvinutých trhů, akcie rozvíjejících se trhů a komodity.\n\nPři předčasném odkupu není garantována 100% ochrana vlastního kapitálu, ta platí jen při autocallu, či ukončení produktu v pátém roce.\n\nMěnové riziko je zajištěno.",
+          "sellFeeValue": "0",
+          "fundReportUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf",
+          "kiidUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf",
+          "documents":[
+            {
+              "title": "Brožura",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf"
+            },
+            {
+              "title": "Emisní podmínky",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-emisni-podminky.pdf"
+            },
+            {
+              "title": "KID",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf"
+            },
+            {
+              "title": "Slovníček pojmů",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+            },
+            {
+              "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+            },
+            {
+              "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
             }
           ],
           "targetMarkets": {
@@ -5838,7 +5905,7 @@
         },
         {
           "isin": "LU2111945700",
-          "featuredName": "Fidelity Climate Transition Bond Fund \uD83C\uDF33",
+          "featuredName": "Fidelity Sustainable Climate Bond \uD83C\uDF33",
           "detail": "Fund is a bond fund suitable for dynamic clients, who can invest their available financial reserves for at least 3 years. The fund primarily invests in corporate bonds from around the world. The fund uses a sustainability strategy and actively selects securities from issuers seeking to reduce carbon emissions. At least 70% will be invested into securities, which have sustainable properties. Sustainable properties are ones that are effective and more efficient solutions to environmental and social issues, the so-called ESG strategy. The fund will aim to achieve lower levels of carbon dioxide emissions compared to the wider market. Furthermore, the fund can invest into bond of issuers that exhibit improving sustainability. The fund invests worldwide and may therefore invest in countries that can be considered as emerging markets. The currency risk is hedged.",
           "sellFeeValue": "0",
           "fundReportUrl": "https://www.moneta.cz/documents/20143/16241048/mmb-ff-srcbf-report.pdf",
@@ -6988,12 +7055,6 @@
         "footer": "See also funds in EUR. All you have to do is open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">EUR account for free</a>, and you can invest.",
         "footerButton": "How do investments work?"
       }
-    },
-    "accessibility": {
-      "showFundsButton": "Show invested amount",
-      "hideFundsButton": "Hide invested amount",
-      "helpButton": "Open help",
-      "dipActionButton": "Deposit funds"
     },
     "detail": {
       "detail": "{type}, {profile} for investments for {term} and more years.",

@@ -1,0 +1,346 @@
+{
+  "status": "OK",
+  "responseObject": {
+    "errorScreens": {
+      "api": {
+        "title": "Sorry, something went wrong",
+        "detail": "We can't continue right now. Please try again later.",
+        "callUs": "Call our\nhelpline",
+        "primaryButton": "Back",
+        "secondaryButton": "Try Again"
+      },
+      "child": {
+        "title": "We don't support building savings for children yet in the app",
+        "detail": "Please visit any branch. Don't forget to bring the child's birth certificate and your ID.",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch",
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Back to Overview"
+      },
+      "scoring": {
+        "title": "Sorry, something went wrong",
+        "detail": "Unfortunately, we can't continue in the app, but we're happy to help you at a branch – please remember to bring your ID.",
+        "branch": "Visit us\nat a branch",
+        "primaryButton": "Back to Balance Overview"
+      },
+      "cantProceed": {
+        "title": "Building savings for you is not yet supported in the app.",
+        "detail": "<b>Please visit any branch. Don't forget to ideally bring two IDs.</b>",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch",
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Back to Balance Overview"
+      },
+      "disagreement": {
+        "title": "Unfortunately, it can't be done without your consent",
+        "detail": "You're just one step away from building savings. <br><b>Do you have any questions? Call us or visit the nearest branch.</b>",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch",
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Continue"
+      },
+      "longTermScreens": {
+        "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+          "title": "This will take all night...",
+          "detail": "We perform system maintenance every night, so some may not be available. Unfortunately, we can't prepare your documents right now – <b>we'll have them ready for you in the morning around eight.</b> Thank you for your patience.",
+          "primaryButton": "Back to Balance Overview"
+        }
+      }
+    },
+    "general": {
+      "toolbarTitle": "Building Savings",
+      "phoneNumberSupport": "224 443 636",
+      "phoneNumberSale": "800 102 040"
+    },
+    "scenes": {
+      "helpOffer": {
+        "title": "The best building savings can be found in the app",
+        "detail": "You can find all information about building savings on <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">our website.</a><br><br><b>Do you have any questions? Call us or visit your nearest branch.</b>",
+        "toolbarTitle": "Help",
+        "bullets": [
+          "<b>Interest and state contribution</b> – grow your deposits with a special interest rate of 4.9% guaranteed until the end of 2025",
+          "<b>Safely stored money</b> – your deposits are safe and insured up to 100,000 EUR.",
+          "<b>Money for anything</b> – after 6 years of saving you can use your saved funds for anything."
+        ],
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Continue Setting Up",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch"
+      },
+      "helpPersonalDetail": {
+        "title": "Checking Your Information",
+        "detail": "We need to check together if there has been any change in your information. If so, you'll confirm it by providing your national ID in the next step. Simply take a picture of it directly in our app and we'll be able to continue right away. Photo capture is, of course, secure with us. <b>Any questions? Let's go through it together.</b>",
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Continue Account Setup",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch"
+      },
+      "helpUploadDocument": {
+        "title": "Unfortunately, you can't continue without a current ID",
+        "detail": "There has been a change in your personal information, which must be confirmed with a photo of your current documents. Photo capture is secure with us and takes just a minute. <b>Any questions? Let's go through it together.</b>",
+        "secondaryButton": "Cancel Application",
+        "primaryButton": "Continue Account Setup",
+        "callUs": "Call our\nhelpline",
+        "branch": "Visit us\nat a branch"
+      },
+      "buildingSavingsCalculator": {
+        "title": "Building Savings",
+        "subtitle": "Set up your building savings",
+        "amount": "Planned monthly deposit",
+        "amountTip": {
+          "title": "What is a monthly deposit?",
+          "detail": "A monthly deposit is the amount you want to regularly put into your building savings account. You can increase your deposits over time or even make deposits just once per year."
+        },
+        "duration": "Saving period",
+        "total": "Total saved",
+        "targetAmount": "Target amount",
+        "totalTip": "With a <a>monthly deposit</a> of at least 1,700 CZK you get the maximum state support of 1,000 CZK per year.",
+        "stateContributionCheckbox": "I require state support",
+        "ownDeposit": "Your contribution",
+        "stateContribution": "State contribution",
+        "entryFee": "Account opening fee",
+        "managementFee": "Monthly account maintenance fee",
+        "primaryButton": "Continue",
+        "secondaryButton": "I want to save for a child"
+      },
+      "permanentAddress": {
+        "title": "What is your permanent address?",
+        "streetTitle": "Street",
+        "descriptiveNumberTitle": "House No.",
+        "orientationNumberTitle": "Orientation No.",
+        "cityTitle": "City",
+        "zipTitle": "ZIP code",
+        "countryTitle": "Country",
+        "primaryButton": "Save"
+      },
+      "contactAddress": {
+        "title": "Is your contact address correct?",
+        "streetTitle": "Street",
+        "descriptiveNumberTitle": "House No.",
+        "orientationNumberTitle": "Orientation No.",
+        "cityTitle": "City",
+        "zipTitle": "ZIP code",
+        "countryTitle": "Country",
+        "primaryButton": "Save"
+      },
+      "identification": {
+        "title": "Are your personal details correct?",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "permanentAddress": "Permanent address",
+        "contactAddress": "Contact address",
+        "phone": "Phone",
+        "email": "Email",
+        "stateOfBirth": "Country of birth",
+        "citizenship": "Citizenship",
+        "primaryButton": "Yes, continue",
+        "information": {
+          "text": "By continuing you consent to MONETA Money Bank, a.s. sharing your personal data with MONETA Stavební Spořitelna, a.s. for the purpose of your identification. <a href=\"https://www.moneta.cz/ochrana-dat\" target=\"_blank\">More information here.</a>",
+          "infoScreen": {
+            "title": "Identification Transfer",
+            "detail": "By continuing, you consent to the transfer of your personal data by MONETA Money Bank, a.s. to MONETA Stavební Spořitelna, a.s. for your identification as required by Act No. 253/2008 Coll. on certain measures against money laundering and terrorist financing in the following scope:<br><br>First and last name, personal identification number; place of birth; gender; address of permanent residence – or other residence address; citizenship; type, number, and date of validity of the identity document, the country which issued the document, and upon request of MONETA Stavební Spořitelna, a.s., a copy of the identity document.",
+            "primaryButton": "Back"
+          }
+        }
+      },
+      "amlQuestionnaire": {
+        "title": "Legally required information",
+        "detail": "We are required by law to ask for this information (Act No. 253/2008 Coll. on anti-money laundering).",
+        "wrongTaxResidenceDialog": {
+          "title": "We will open a building savings for you if you pay taxes only in the Czech Republic",
+          "detail": "Do you really pay taxes outside the Czech Republic? In that case, please visit a branch where we will complete the process.",
+          "primaryButton": "I pay taxes only in the Czech Republic",
+          "secondaryButton": "I pay taxes outside the Czech Republic"
+        },
+        "questions": {
+          "depositOrigin": {
+            "text": "What is the main source of funds you will send or deposit to the building savings account?",
+            "options": [
+              {
+                "value": "1",
+                "text": "Income from employment"
+              },
+              {
+                "value": "2",
+                "text": "Income from business"
+              },
+              {
+                "value": "3",
+                "text": "Pension / Annuity"
+              },
+              {
+                "value": "4",
+                "text": "State support",
+                "description": "Sickness and pension insurance benefits, social care benefits, state social support benefits, orphan's pension, etc."
+              },
+              {
+                "value": "5",
+                "text": "Income from family members / Winnings / Gifts"
+              }
+            ]
+          },
+          "wayOfSaving": {
+            "text": "How will you save?",
+            "options": [
+              {
+                "value": "1",
+                "text": "I will deposit cash"
+              },
+              {
+                "value": "2",
+                "text": "Bank transfers from my own account"
+              },
+              {
+                "value": "3",
+                "text": "A third person will deposit cash"
+              },
+              {
+                "value": "4",
+                "text": "Non-cash transfers will be sent by a third person"
+              }
+            ]
+          },
+          "rangeOfIncome": {
+            "text": "What is your approximate regular monthly income?",
+            "options": [
+              {
+                "value": "AML2.1.DO_50",
+                "text": "Up to 50,000 CZK"
+              },
+              {
+                "value": "AML2.2.DO_100",
+                "text": "50,000 - 100,000 CZK"
+              },
+              {
+                "value": "AML2.3.NAD_100",
+                "text": "Over 100,000 CZK"
+              }
+            ]
+          },
+          "taxResidence": {
+            "text": "Do you pay taxes only in the Czech Republic?",
+            "options": [
+              {
+                "value": "YES",
+                "text": "Yes"
+              },
+              {
+                "value": "NO",
+                "text": "No"
+              }
+            ]
+          }
+        },
+        "primaryButton": "Continue"
+      },
+      "simpleDocumentUpload": {
+        "title": "Oops, we need your current ID card",
+        "detail": "It looks like the ID card you provided earlier is no longer valid. Please upload a new one.",
+        "documents": {
+          "141": {
+            "icon": "idCardFill",
+            "title": "ID Card",
+            "detail": "Some data has changed since your last visit",
+            "photoCapture": [
+              {
+                "title": "Take a photo of the front side of the ID card",
+                "detail": "Valid document, in good lighting, sharp and clear.",
+                "primaryButton": "Take Photo"
+              },
+              {
+                "title": "Take a photo of the back side of the ID card",
+                "detail": "Valid document, in good lighting, sharp and clear.",
+                "primaryButton": "Take Photo"
+              }
+            ],
+            "busyLoader": {
+              "title": "Please wait a moment, our cat needs to check everything",
+              "detail": "This will take just a few seconds."
+            },
+            "uploadDocumentResultNok": {
+              "title": "We can't open a foreign currency account for you now",
+              "detail": "We are very sorry",
+              "secondaryButton": "Cancel Application"
+            },
+            "uploadDocumentResultUploadAgain": {
+              "title": "Oops, this didn't work out",
+              "detail": "Please take the document photo again, in good lighting, sharp and clear.",
+              "primaryButton": "Take Again",
+              "secondaryButton": "Continue Later"
+            },
+            "review": {
+              "title": "Great photo! Did we read everything correctly?",
+              "documentDetails": {
+                "title": "Document Data",
+                "firstName": "First Name",
+                "lastName": "Last Name",
+                "birthDate": "Date of Birth",
+                "birthPlace": "Place of Birth",
+                "birthNumber": "Personal Number",
+                "idCardNumber": {
+                  "title": "ID Card Number",
+                  "secondaryTitle": "Passport Number"
+                },
+                "idCardValidTo": "Valid Until",
+                "issueDate": "Valid From",
+                "nationality": "Citizenship",
+                "nationalityValue": "only Czech Republic",
+                "sex": "Gender",
+                "male": "male",
+                "female": "female"
+              },
+              "documentAddress": {
+                "title": "Permanent Address",
+                "secondary": "(Only Czech Republic)",
+                "street": "Street",
+                "descriptiveNumber": "Descriptive Number",
+                "orientationNumber": "Orientation Number",
+                "city": "Town or City",
+                "zip": "ZIP code",
+                "personalData": {
+                  "title": "We will verify the data you provided also in central registers. Read more about the registers on the website of the <a href=\"https://www.szrcr.cz/cs/\">Administration of Basic Registers</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta</a>. By clicking Continue, you confirm that all information provided is true, accurate and up to date."
+                }
+              },
+              "primaryButton": "Continue"
+            }
+          }
+        },
+        "secondaryButton": "I'll provide documents later"
+      },
+      "precontractInfo": {
+        "title": "Please read the pre-contract information",
+        "subtitle": "All documents are available in Smart Bank and Internet Bank under Documents and in your email",
+        "secondaryButton": "I disagree",
+        "primaryButton": "I understand and agree"
+      },
+      "contract": {
+        "title": "Please read the contract with product terms",
+        "subtitle": "All documents are available in Smart Bank and Internet Bank under Documents and in your email",
+        "checkbox": "<b>I declare I have read these documents</b>, including documents received by email in the previous step - <a href=\"https://www.moneta.cz/documents/20143/15583017/mss-sazebnik-uhrad-za-poskytovane-sluzby.pdf\" target=\"_blank\">List of Fees for Provided Services</a>, <a href=\"https://www.moneta.cz/documents/20143/11819249/mss-vop-ss-04072020.pdf\" target=\"_blank\">General Business Terms for Building Savings</a>, <a href=\"https://www.moneta.cz/documents/20143/11819244/mss-informacni-prehled-o-systemu-pojisteni-vkladu.pdf\" target=\"_blank\">Information Overview of the Deposit Insurance System for Client Deposits</a> and <a href=\"https://www.moneta.cz/documents/20143/11819153/mss-pokyny-k-poukazovani-plateb.pdf\" target=\"_blank\">Payment Instructions.</a>",
+        "secondaryButton": "I disagree",
+        "primaryButton": "Proceed to Sign"
+      },
+      "scoring": {
+        "title": "Please wait a moment,\nwe have to check everything",
+        "subtitle": "We will continue soon."
+      },
+      "waitingBeforeContract": {
+        "title": "One moment, we're preparing your documents for signing",
+        "detail": "We'll proceed soon."
+      },
+      "signByUs": {
+        "title": "Now we need to sign it, please wait a moment",
+        "detail": "We'll proceed soon."
+      },
+      "buildingSavingsVictory": {
+        "title": "Done! You can start saving",
+        "detail": "You can now set up a standing order to make sure you don't miss out on the state support. You'll find the building savings documentation in Smart Bank and a confirmation of activation will be sent to you in the coming days.",
+        "checkbox": "<b>Start saving now</b> - we will send the first payment of {0} from the selected account and set up a monthly standing order.",
+        "fromAccount": "Save from account",
+        "fromDate": "Save from",
+        "secondaryButton": "Set up a standing order",
+        "primaryButton": "Back to Overview"
+      }
+    }
+  }
+}

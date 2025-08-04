@@ -7,7 +7,7 @@
   "screens": {
     "disclaimer": {
       "title": "",
-      "detail": "Zobrazení investičních příležitostí má pouze informativní charakter a nejedná se o nabídku na uzavření smlouvy s bankou ani nabídku k investování nebo investiční doporučení. Historická výkonnost není ukazatelem budoucí výkonnosti. Hodnota investice může klesat i stoupat. Návratnost investice není zaručena.\n\nPodmínkou pro investování je především Investiční dotazník, seznámení se se Statutem fondu a\u00a0Sdělením klíčových informací.",
+      "detail": "Zobrazení investičních příležitostí má pouze informativní charakter a nejedná se o nabídku na uzavření smlouvy s bankou ani nabídku k investování nebo investiční doporučení. Historická výkonnost není ukazatelem budoucí výkonnosti. Hodnota investice může klesat i stoupat. Návratnost investice není zaručena.\n\nPodmínkou pro investování je především Investiční dotazník, seznámení se se Statutem fondu a\u00a0Sdělením klíčových informací.",
       "primaryButton": "Rozumím"
     },
     "wizzard": {
@@ -2495,16 +2495,6 @@
     ],
     "warnings": [
       {
-        "type": "DISPONENT_NO_RIGHTS",
-        "title": "Jejda, bez práv to bohužel nepůjde",
-        "detail": "Pro zobrazení této sekce nemáte dostatečná oprávnění. Pokud jste eDisponent, můžete je získat od majitele účtu.",
-        "primaryButton": {
-          "actionType": "APPPAGE",
-          "actionData": "BALANCEOVERVIEW",
-          "actionLabelText": "Rozumím"
-        }
-      },
-      {
         "type": "NO_CIF_STREET",
         "title": "Stavte se prosím na pobočce",
         "detail": "Ve Vašem profilu chybí informace, bez které Vám nemůžeme investice v aplikaci zprovoznit. Doplnit Váš profil o ulici můžete pouze osobně na pobočce. Děkujeme za pochopení.",
@@ -4472,6 +4462,83 @@
           }
         },
         {
+          "isin": "DE000GV8KW67",
+          "featuredName": "Garantovaný Certifikát Multi-Asset Autocall 7%",
+          "detail": "Investiční certifikát s 100% ochranou kapitálu při splatnosti a atraktivním potenciálem výnosu až 7 % ročně díky možnosti předčasného splacení.\n\nCertifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International (rating A1 od Moody's / A+ od Standard & Poor's / A+ od Fitch). Certifikát umožňuje jednou za rok možnost předčasného splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a 7% procent za každý rok. Scénáře vývoje najdete v brožuře.\n\nKlient se podílí na vývoji indexu Goldman Sachs Momentum Builder Focus.\n\nIndex Goldman Sachs Momentum Builder Focus je smíšené portfolio indexů nabízející potencionální expozici v následujících třídách aktiv – americké akcie, akcie rozvinutých trhů, dluhopisy rozvinutých trhů, akcie rozvíjejících se trhů a komodity.\n\nPři předčasném odkupu není garantována 100% ochrana vlastního kapitálu, ta platí jen při autocallu, či ukončení produktu v pátém roce.\n\nMěnové riziko je zajištěno.",
+          "sellFeeValue": "0",
+          "fundReportUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf",
+          "kiidUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf",
+          "documents":[
+            {
+              "title": "Brožura",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf"
+            },
+            {
+              "title": "Emisní podmínky",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-emisni-podminky.pdf"
+            },
+            {
+              "title": "KID",
+              "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf"
+            },
+            {
+              "title": "Slovníček pojmů",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+            },
+            {
+              "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+            },
+            {
+              "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+              "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+            }
+          ],
+          "targetMarkets": {
+            "title": "Cílové trhy",
+            "values": [
+              {
+                "title": "Investiční horizont",
+                "detail": "5 let a více"
+              },
+              {
+                "title": "Investiční preference",
+                "detail": "Růst"
+              },
+              {
+                "title": "Schopnost nést ztráty",
+                "detail": "Ano"
+              },
+              {
+                "title": "Tolerance rizika",
+                "detail": "Rizikový stupeň 4",
+                "info": {
+                  "title": "Střední výnosy, střední kolísání hodnoty investice."
+                }
+              },
+              {
+                "title": "Kategorie zákazníka",
+                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+              },
+              {
+                "title": "Znalosti a zkušenosti",
+                "detail": "Střední, pokročilý",
+                "info": {
+                  "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                }
+              },
+              {
+                "title": "Negativní cílový trh",
+                "detail": "Garance bez ztrát",
+                "info": {
+                  "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                  "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                }
+              }
+            ]
+          }
+        },
+        {
           "isin": "LU2807456855",
           "featuredName": "Fidelity Global Technology Fund",
           "detail": "Fond se zaměřuje na společnosti, které vyvíjejí nebo plánují vyvíjet produkty, procesy či služby, jež využívají nebo těží z technologických inovací. Většina portfolia je investována do předních amerických společností, mezi nimiž najdete taková jména jako Microsoft, Apple nebo Samsung. Fond také začleňuje ESG faktory do svých investičních rozhodnutí, čímž usiluje o udržitelné a odpovědné investování. Měnové riziko je v rámci fondu zajištěno.",
@@ -6229,7 +6296,7 @@
         },
         {
           "isin": "LU2111945700",
-          "featuredName": "Fidelity Climate Transition Bond Fund \uD83C\uDF33",
+          "featuredName": "Fidelity Sustainable Climate Bond \uD83C\uDF33",
           "detail": "Dluhopisový fond vhodný pro dynamické klienty, kteří mohou své volné finanční prostředky investovat na dobu alespoň 3 let. Fond investuje primárně do firemních dluhopisů z celého světa s investičním ratingem. Fond využívá strategii tématické udržitelnosti a aktivně vybírá cenné papíry emitentů, kteří se snaží snižovat emise uhlíku. Nejméně 70 % bude investováno do cenných papírů, které mají udržitelné vlastnosti. Za udržitelné vlastnosti se považují mj. efektivní a účinnější řešení environmentálních a sociálních otázek, tzv. ESG strategie. Cílem fondu bude dosáhnout nižší úrovně emisí oxidu uhlíku v porovnání s širším trhem. Fond může také investovat do dluhopisů emitentů, kteří vykazují zlepšující se udržitelné vlastnosti. Fond investuje celosvětově, a může proto investovat i do zemí považovaných za rozvíjející se trhy. Měnové riziko je zajištěno.",
           "sellFeeValue": "0",
           "fundReportUrl": "https://www.moneta.cz/documents/20143/16241048/mmb-ff-srcbf-report.pdf",
@@ -7387,12 +7454,6 @@
         "footer": "Zobrazte si i fondy v EUR. Stačí, když si u nás na pár kliků založíte <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">eurový účet zdarma</a>, a můžete investovat.",
         "footerButton": "Jak fungují investice?"
       }
-    },
-    "accessibility": {
-      "showFundsButton": "Zobrazit investovanou částku",
-      "hideFundsButton": "Skrýt investovanou částku",
-      "helpButton": "Otevřít nápovědu",
-      "dipActionButton": "Vložit peníze"
     },
     "detail": {
       "detail": "{type}, {profile} pro investice na {term} a více let.",

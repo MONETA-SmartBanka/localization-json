@@ -174,7 +174,7 @@
     },
     "click2Pay": {
       "title": "Ke kartě vám zapínáme zrychlené platby na e-shopu",
-      "detail": "Kdykoliv při nákupu uvidíte logo Click to Pay {0} můžete snadno zaplatit zadáním svého e-mailu. Údaje o vaší kartě jsou bezpečně uloženy v systému Click to Pay, ke kterým obchodník nemá přístup.\n\nPokračováním vyjadřujete svůj souhlas s <a href=\"ctp\">podmínkami služby</a>, které Vám zároveň uložíme do Dokumentů. Tuto službu můžete kdykoliv deaktivovat ve Smart Bance.",
+      "detail": "Kdykoliv při nákupu uvidíte logo Click to Pay {0} můžete snadno zaplatit zadáním svého e-mailu. Údaje o vaší kartě jsou bezpečně uloženy v systému Click to Pay, ke kterým obchodník nemá přístup.\n\nPokračováním vyjadřujete svůj souhlas s <a href=\"ctp\">podmínkami služby</a>, které Vám zároveň uložíme do Dokumentů. Tuto službu můžete kdykoliv deaktivovat ve Smart Bance.",
       "emailPrompt": "E-mail pro platby",
       "emailInfo": "Pokud máte více karet spojených s jedním e-mailem, můžete si vždy vybrat, kterou z nich budete platit.",
       "emailError": "Chybí nám váš e-mail v kontaktních údajích. Zadejte jej v sekci Nastavení.",
@@ -542,7 +542,7 @@
       "primaryButton": "Pokračovat"
     },
     "householdExpensesNecessary": {
-      "title": "Jaké jsou další měsíční výdaje Vaší domácnosti?",
+      "title": "Jaké další měsíční výdaje se týkají přímo Vás?",
       "necessaryExpensesSection": "Jaké nezbytné náklady jako žadatel*ka o úvěr hradíte?",
       "necessaryExpensesInfo": "Započítejte pouze náklady nebo jejich část, kterou hradíte Vy. Nezbytné náklady jsou ty, bez kterých se neobejdete.",
       "necessaryExpenses": "Výše měsíčních nákladů",
@@ -635,185 +635,185 @@
       "primaryButton": "Souhlasím, pokračovat"
     },
     "documentUpload": {
-        "uploadScenes": {
-            "firstUpload": {
-                "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
-                "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
-                "primaryButton": "Pokračovat",
-                "secondaryButton": "Chci zajít na pobočku"
-            },
-            "anotherUpload": {
-                "title": "Děkujeme, že s námi máte trpělivost",
-                "detail": "Mrzí nás, že jsme to nemohli říct dříve, ale potřebujeme ještě jeden doklad. Stačí nám čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku.",
-                "primaryButton": "Pokračovat",
-                "secondaryButton": "Chci zajít na pobočku"
-            },
-            "poorUpload": {
-                "title": "Některé doklady se bohužel nepodařilo zpracovat",
-                "detail": "<b>Znovu, čitelně a ostře:</b>",
-                "primaryButton": "Pokračovat",
-                "secondaryButton": "Chci zajít na pobočku"
-            },
-            "branchNeeded": {
-                "title": "Musíme se potkat",
-                "detail": "Mrzí nás, že to jinak nejde, ale rádi bychom se s Vámi potkali osobně na pobočce.<br><b>Půjčku spolu na místě dokončíme</b> a peníze Vám po podpisu okamžitě pošleme. Přineste prosím s sebou:",
-                "primaryButton": "Rozumím, zobrazit nejbližší pobočky"
-            },
-            "uploadCheck": {
-                "title": "Zkontrolujeme to a dáme Vám vědět",
-                "detail": "Vaše doklady prohlédneme <b>obvykle do 15 minut</b>, nejpozději do druhého pracovního dne. Jakmile budete moci pokračovat, <b>pošleme Vám upozornění v SMS</b>.<br>Půjčku jsme Vám uložili, najdete ji na Přehledu zůstatků.",
-                "primaryButton": "Zpět na Přehled zůstatků"
-            }
+      "uploadScenes": {
+        "firstUpload": {
+          "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
+          "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
+          "primaryButton": "Pokračovat",
+          "secondaryButton": "Chci zajít na pobočku"
         },
-        "documents": {
-            "13": {
-                "icon": "documentsFill",
-                "title": "Podepsané Potvrzení o výši příjmu",
-                "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
-            },
-            "112": {
-                "icon": "documentsFill",
-                "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
-            },
-            "113": {
-                "icon": "documentsFill",
-                "title": "Důchodový výměr"
-            },
-            "141": {
-                "icon": "idCardFill",
-                "title": "Občanský průkaz",
-                "photoCapture": [
-                    {
-                        "title": "Vyfoťte přední stranu občanského průkazu",
-                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                        "primaryButton": "Vyfotit"
-                    },
-                    {
-                        "title": "Vyfoťte zadní stranu občanského průkazu",
-                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                        "primaryButton": "Vyfotit"
-                    }
-                ],
-                "review": {
-                    "title": "Skvělá fotka! Přečetli jsme vše správně?",
-                    "documentDetails": {
-                        "title": "Údaje z dokladu",
-                        "firstName": "Jméno",
-                        "lastName": "Příjmení",
-                        "birthDate": "Datum narození",
-                        "birthPlace": "Místo narození",
-                        "birthNumber": "Rodné číslo",
-                        "idCardNumber": {
-                            "title": "Číslo občanského průkazu",
-                            "secondaryTitle": "Číslo pasu"
-                        },
-                        "idCardValidTo": "Platnost do",
-                        "issueDate": "Platnost od",
-                        "nationality": "Státní občanství",
-                        "nationalityValue": "Česká republika",
-                        "sex": "Pohlaví",
-                        "male": "muž",
-                        "female": "žena"
-                    },
-                    "documentAddress": {
-                        "title": "Trvalý pobyt",
-                        "secondary": "Česká republika",
-                        "street": "Ulice",
-                        "descriptiveNumber": "Číslo popisné",
-                        "orientationNumber": "Číslo orientační",
-                        "city": "Obec nebo město",
-                        "zip": "PSČ",
-                        "personalData": {
-                            "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
-                        }
-                    },
-                    "primaryButton": "Pokračovat"
-                },
-                "busyLoader": {
-                    "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-                    "detail": "Zabere to maximálně pár vteřin."
-                },
-                "uploadDocumentResultNok": {
-                    "title": "Půjčku vám teď nemůžeme nabídnout",
-                    "detail": "Moc se omlouváme",
-                    "secondaryButton": "Ukončit žádost"
-                },
-                "uploadDocumentResultUploadAgain": {
-                    "title": "Jejda, tohle se nepovedlo",
-                    "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-                    "primaryButton": "Vyfotit znovu",
-                    "secondaryButton": "Pokračovat později"
-                }
-            },
-            "143": {
-                "icon": "idCardFill",
-                "title": "Řidičský průkaz",
-                "photoCapture": [
-                    {
-                        "title": "Vyfoťte přední stranu řidičského průkazu",
-                        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                        "primaryButton": "Vyfotit"
-                    }
-                ]
-            }
+        "anotherUpload": {
+          "title": "Děkujeme, že s námi máte trpělivost",
+          "detail": "Mrzí nás, že jsme to nemohli říct dříve, ale potřebujeme ještě jeden doklad. Stačí nám čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku.",
+          "primaryButton": "Pokračovat",
+          "secondaryButton": "Chci zajít na pobočku"
         },
-        "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
-        "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
-        "uploadedDocuments": [
-            {
-                "title": "<b>Vyfoťte prosím obě strany svého občanského průkazu.</b>",
-                "labels": [
-                    "Přidejte přední stranu<br>občanského průkazu",
-                    "Přidejte zadní stranu<br>občanského průkazu"
-                ],
-                "categoryCode": "141"
-            },
-            {
-                "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat.",
-                "labels": [
-                    "Přidejte podepsané<br>Potvrzení o výši příjmu"
-                ],
-                "categoryCode": "13"
-            },
-            {
-                "title": "<b>Vyfoťte prosím přední stranu svého řidičského průkazu.</b>",
-                "labels": [
-                    "Přidejte přední stranu<br>řidičského průkazu"
-                ],
-                "categoryCode": "143"
-            },
-            {
-                "title": "Vyfoťte prosím jeden z následujících dokladů: ",
-                "title2": ". Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat.",
-                "documents": [
-                    {
-                        "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů",
-                        "labels": [
-                            "Přidejte doklad"
-                        ],
-                        "documentCode": "112"
-                    },
-                    {
-                        "title": "Důchodový výměr",
-                        "labels": [
-                            "Přidejte doklad"
-                        ],
-                        "documentCode": "113"
-                    },
-                    {
-                        "labels": [
-                            "Přidejte doklad"
-                        ]
-                    }
-                ]
-            }
-        ],
-        "uploadPicker": {
-            "title": "Vyberte způsob nahrání dokumentu",
-            "camera": "Vyfotit",
-            "photos": "Vybrat z galerie",
-            "files": "Vybrat ze souborů"
+        "poorUpload": {
+          "title": "Některé doklady se bohužel nepodařilo zpracovat",
+          "detail": "<b>Znovu, čitelně a ostře:</b>",
+          "primaryButton": "Pokračovat",
+          "secondaryButton": "Chci zajít na pobočku"
+        },
+        "branchNeeded": {
+          "title": "Musíme se potkat",
+          "detail": "Mrzí nás, že to jinak nejde, ale rádi bychom se s Vámi potkali osobně na pobočce.<br><b>Půjčku spolu na místě dokončíme</b> a peníze Vám po podpisu okamžitě pošleme. Přineste prosím s sebou:",
+          "primaryButton": "Rozumím, zobrazit nejbližší pobočky"
+        },
+        "uploadCheck": {
+          "title": "Zkontrolujeme to a dáme Vám vědět",
+          "detail": "Vaše doklady prohlédneme <b>obvykle do 15 minut</b>, nejpozději do druhého pracovního dne. Jakmile budete moci pokračovat, <b>pošleme Vám upozornění v SMS</b>.<br>Půjčku jsme Vám uložili, najdete ji na Přehledu zůstatků.",
+          "primaryButton": "Zpět na Přehled zůstatků"
         }
+      },
+      "documents": {
+        "13": {
+          "icon": "documentsFill",
+          "title": "Podepsané Potvrzení o výši příjmu",
+          "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+        },
+        "112": {
+          "icon": "documentsFill",
+          "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+        },
+        "113": {
+          "icon": "documentsFill",
+          "title": "Důchodový výměr"
+        },
+        "141": {
+          "icon": "idCardFill",
+          "title": "Občanský průkaz",
+          "photoCapture": [
+            {
+              "title": "Vyfoťte přední stranu občanského průkazu",
+              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+              "primaryButton": "Vyfotit"
+            },
+            {
+              "title": "Vyfoťte zadní stranu občanského průkazu",
+              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+              "primaryButton": "Vyfotit"
+            }
+          ],
+          "review": {
+            "title": "Skvělá fotka! Přečetli jsme vše správně?",
+            "documentDetails": {
+              "title": "Údaje z dokladu",
+              "firstName": "Jméno",
+              "lastName": "Příjmení",
+              "birthDate": "Datum narození",
+              "birthPlace": "Místo narození",
+              "birthNumber": "Rodné číslo",
+              "idCardNumber": {
+                "title": "Číslo občanského průkazu",
+                "secondaryTitle": "Číslo pasu"
+              },
+              "idCardValidTo": "Platnost do",
+              "issueDate": "Platnost od",
+              "nationality": "Státní občanství",
+              "nationalityValue": "Česká republika",
+              "sex": "Pohlaví",
+              "male": "muž",
+              "female": "žena"
+            },
+            "documentAddress": {
+              "title": "Trvalý pobyt",
+              "secondary": "Česká republika",
+              "street": "Ulice",
+              "descriptiveNumber": "Číslo popisné",
+              "orientationNumber": "Číslo orientační",
+              "city": "Obec nebo město",
+              "zip": "PSČ",
+              "personalData": {
+                "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+              }
+            },
+            "primaryButton": "Pokračovat"
+          },
+          "busyLoader": {
+            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+            "detail": "Zabere to maximálně pár vteřin."
+          },
+          "uploadDocumentResultNok": {
+            "title": "Půjčku vám teď nemůžeme nabídnout",
+            "detail": "Moc se omlouváme",
+            "secondaryButton": "Ukončit žádost"
+          },
+          "uploadDocumentResultUploadAgain": {
+            "title": "Jejda, tohle se nepovedlo",
+            "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+            "primaryButton": "Vyfotit znovu",
+            "secondaryButton": "Pokračovat později"
+          }
+        },
+        "143": {
+          "icon": "idCardFill",
+          "title": "Řidičský průkaz",
+          "photoCapture": [
+            {
+              "title": "Vyfoťte přední stranu řidičského průkazu",
+              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+              "primaryButton": "Vyfotit"
+            }
+          ]
+        }
+      },
+      "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
+      "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
+      "uploadedDocuments": [
+        {
+          "title": "<b>Vyfoťte prosím obě strany svého občanského průkazu.</b>",
+          "labels": [
+            "Přidejte přední stranu<br>občanského průkazu",
+            "Přidejte zadní stranu<br>občanského průkazu"
+          ],
+          "categoryCode": "141"
+        },
+        {
+          "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat.",
+          "labels": [
+            "Přidejte podepsané<br>Potvrzení o výši příjmu"
+          ],
+          "categoryCode": "13"
+        },
+        {
+          "title": "<b>Vyfoťte prosím přední stranu svého řidičského průkazu.</b>",
+          "labels": [
+            "Přidejte přední stranu<br>řidičského průkazu"
+          ],
+          "categoryCode": "143"
+        },
+        {
+          "title": "Vyfoťte prosím jeden z následujících dokladů: ",
+          "title2": ". Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat.",
+          "documents": [
+            {
+              "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů",
+              "labels": [
+                "Přidejte doklad"
+              ],
+              "documentCode": "112"
+            },
+            {
+              "title": "Důchodový výměr",
+              "labels": [
+                "Přidejte doklad"
+              ],
+              "documentCode": "113"
+            },
+            {
+              "labels": [
+                "Přidejte doklad"
+              ]
+            }
+          ]
+        }
+      ],
+      "uploadPicker": {
+        "title": "Vyberte způsob nahrání dokumentu",
+        "camera": "Vyfotit",
+        "photos": "Vybrat z galerie",
+        "files": "Vybrat ze souborů"
+      }
     },
     "scoring": {
       "title": "Chvilku strpení, kocour to musí všechno zkontrolovat"

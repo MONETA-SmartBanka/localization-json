@@ -1,63 +1,63 @@
 {
-    "errorScreens": {
-        "generalError": {
-            "title": "Omlouváme se, tohle nevyšlo",
-            "detail": "Teď bohužel nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-            "primaryButton": "Zpět"
-        },
-        "branch": {
-            "title": "Pojďme to vyřešit na pobočce",
-            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "primaryButton": "Najít nejbližší pobočku",
-            "secondaryButton": "Zpět na Přehled"
-        }
+  "errorScreens": {
+    "generalError": {
+      "title": "Omlouváme se, tohle nevyšlo",
+      "detail": "Teď bohužel nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+      "primaryButton": "Zpět"
     },
-    "scenes": {
-        "additionIntro": {
-            "title": "Platby z karty na kartu přes Visa",
-            "detail":
-                "Propojte své telefonní číslo s platební kartou a začněte přes něj přijímat platby na svůj účet odkudkoli na světě.",
-            "primaryButton": "Aktivovat"
-        },
-        "additionForm": {
-            "title": "Propojení telefonního čísla  pro platby z karty na kartu",
-            "name": "Jméno",
-            "phone": "Telefon",
-            "card": "Karta",
-            "footer":
-                "Stisknutím tlačítka souhlasíte s <a href=\"document\">Podmínkami používání služby a ochranou osobních údajů</a>",
-            "documentTitle": "Podmínky používání služby a ochrana osobních údajů",
-            "primaryButton": "Pokračovat"
-        },
-        "additionPin": {
-            "title": "Potvrďte zrušení registrace karty ve Visa alias"
-        },
-        "additionVictory": {
-            "title": "Hotovo!\nVaše karta je registrovaná",
-            "name": "Jméno",
-            "phone": "Telefon",
-            "card": "Karta",
-            "primaryButton": "Přejít na Přehled"
-        },
-        "removalIntro": {
-            "title": "Platby z karty na kartu máte registrované pro:",
-            "name": "Jméno",
-            "phone": "Telefon",
-            "card": "Karta",
-            "primaryButton": "Visa Alias máte aktivní",
-            "secondaryButton": "Deaktivovat",
-            "confirm": {
-                "title": "Opravdu chcete deaktivovat Visa Alias pro tuto kartu?",
-                "detail": "Opravdu chcete kartu odpárovat?",
-                "secondaryButton": "Deaktivovat",
-                "primaryButton": "Zpět"
-            }
-        },
-        "removalVictory": {
-            "title": "Hotovo!\nRegistrace vaší karty ve Visa alias byla zrušena",
-            "detail": "Odteď si můžete užívat výhody tohoto produktu",
-            "primaryButton": "Zpět na Přehled"
-        }
+    "branch": {
+      "title": "Pojďme to vyřešit na pobočce",
+      "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+      "callUs": "Zavolejte nám\nna infolinku",
+      "primaryButton": "Najít nejbližší pobočku",
+      "secondaryButton": "Zpět na Přehled"
     }
+  },
+  "scenes": {
+    "additionIntro": {
+      "title": "Platby z karty na kartu přes Visa",
+      "detail":
+      "Propojte své telefonní číslo s platební kartou a začněte přes něj přijímat platby na svůj účet odkudkoli na světě.",
+      "primaryButton": "Aktivovat"
+    },
+    "additionForm": {
+      "title": "Propojení telefonního čísla  pro platby z karty na kartu",
+      "name": "Jméno",
+      "phone": "Telefon",
+      "card": "Karta",
+      "footer":
+      "Stisknutím tlačítka souhlasíte s <a href=\"document\">Podmínkami používání služby a ochranou osobních údajů</a>",
+      "documentTitle": "Podmínky používání služby a ochrana osobních údajů",
+      "primaryButton": "Pokračovat"
+    },
+    "additionPin": {
+      "title": "Potvrďte zrušení registrace karty ve Visa+"
+    },
+    "additionVictory": {
+      "title": "Hotovo!\nVaše karta je registrovaná",
+      "name": "Jméno",
+      "phone": "Telefon",
+      "card": "Karta",
+      "primaryButton": "Přejít na Přehled"
+    },
+    "removalIntro": {
+      "title": "Platby z karty na kartu máte registrované pro:",
+      "name": "Jméno",
+      "phone": "Telefon",
+      "card": "Karta",
+      "primaryButton": "Visa+ máte aktivní",
+      "secondaryButton": "Deaktivovat",
+      "confirm": {
+        "title": "Opravdu chcete deaktivovat Visa+ pro tuto kartu?",
+        "detail": "Opravdu chcete kartu odpárovat?",
+        "secondaryButton": "Deaktivovat",
+        "primaryButton": "Zpět"
+      }
+    },
+    "removalVictory": {
+      "title": "Hotovo!\nRegistrace vaší karty ve Visa+ byla zrušena",
+      "detail": "Odteď si můžete užívat výhody tohoto produktu",
+      "primaryButton": "Zpět na Přehled"
+    }
+  }
 }
