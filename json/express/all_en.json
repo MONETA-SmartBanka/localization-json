@@ -103,7 +103,7 @@
             },
             "primaryOfferNib": {
                 "title": "Expres loan",
-                "detail": "with low interest rate"
+                "detail": "With a bonus of up to CZK 5,000"
             },
             "secondaryOfferNib": {
                 "title": "Expres loan",
@@ -115,9 +115,10 @@
             },
             "promoOfferNib": {
                 "title": "Expres loan",
-                "detail": "Need money fast and for anything? Take advantage of our advantageous Expres Loan with a low interest rate from {expres_loan_interest_rate} per year with an APR from {expres_loan_rpsn}.</b> You can arrange a loan in a <b>few minutes fully online.</b>",
+                "detail": "Need money fast and for anything? Take advantage of our advantageous Expres Loan with a low interest rate from {expres_loan_interest_rate} per year with an APR from {expres_loan_rpsn}. <b>Now, with an extra bonus of CZK 5,000 for new loan agreements</b>. <b>You can arrange a loan in a <b>few minutes fully online.</b>",
                 "bulletsTitle": "Other benefits that you will appreciate as a client",
                 "bullets": [
+                    "<b>An extra bonus of up to CZK 5,000 for new loan agreements.</b> Learn more <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">on our website</a>.",
                     "Repayment at rest even in the event of a loss of income with the selection of ability to repay insurance",
                     "<b>Online from application to a signing</b> of the contract. We invite you to the branch only when you can't do otherwise.",
                     "Low interest rate<b>from {expres_loan_interest_rate}</b> per year with APR from {expres_loan_rpsn}",
@@ -150,7 +151,7 @@
                 "total": "You will pay a total of"
             },
             "detail": {
-                "subtitle": "Plně online, bez poplatku a peníze do pěti minut na účtu. S jistotou, že své závazky vždy splatíte díky pojištění schopnosti splácet.",
+                "subtitle": "Fully online, zero fees, and funds in your account in five minutes. Repay with confidence thanks to payment protection insurance. Now with an extra bonus of up to CZK 5,000 for new loan agreements.",
                 "title": "Your loan:",
                 "amount": "Do you need a",
                 "duration": "for a period of",
@@ -180,6 +181,7 @@
                 },
                 "insuranceBullet": "<b>Pay with confidence, even if you lose your income</b> thanks to payment protection insurance.",
                 "bullets": [
+                    "<b>An extra bonus of up to CZK 5,000 for new loan agreements.</b> Learn more <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">on our website</a>.",
                     "<b>Fully online - from application to agreement conclusion</b> Only visit a branch if absolutely necessary.",
                     "<b>Money in your account within 5 minutes</b> of agreement conclusion.",
                     "<b>There is no rush</b> You can save your process for later and consult one of our bankers."
@@ -649,7 +651,7 @@
                 "primaryButton": "Continue"
             },
             "householdExpenses": {
-                "title": "What are some of the expenses of your household?",
+                "title": "What other personal expenses do you have?",
                 "installmentsSum": "<b>Do you have any loans outside of Moneta Money Bank?</b> Enter the total amount of monthly installments:",
                 "housingExpenses": "What is your housing expenses?",
                 "housingExpensesInfo": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
@@ -658,7 +660,7 @@
                 "primaryButton": "Continue"
             },
             "pensionerHouseholdExpenses": {
-                "title": "What are some of the expenses of your household?",
+                "title": "What other personal expenses do you have?",
                 "installmentsSum": "<b>Do you have any loans outside of Moneta Money Bank?</b> Enter the total amount of monthly installments:",
                 "housingExpenses": "What are your housing costs?",
                 "housingExpensesInfo": "Include all <b>regular monthly housing costs.</b> For example, rent, utility payments, water and other services. <b>If you share expenses, please only state a pro rata portion.</b> These expenses do not include mortgage payments, internet payments, food, clothing or home insurance.",
@@ -1145,12 +1147,12 @@
                 "rateOfInterest": "interest rate",
                 "percentageRate": "annual percentage rate",
                 "total": "You will pay a total of",
-                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
-                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
-                "insuranceRow": "a měsíční splátkou pojištění",
-                "insuranceDetail": "a měsíční splátkou pojištění",
-                "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "insurance": "Repayability insurance for <b>{0} per month</b> to repay",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "insuranceRow": "and a monthly insurance payment",
+                "insuranceDetail": "and a monthly insurance payment",
+                "totalWithInsurance": "including insurance",
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a><br><br>If you are disabled, there will be no payment in the event of an insurance claim.</a>",
                 "primaryButton": "Arrange Loan",
                 "secondaryButton": "Decline"
             },
@@ -1185,12 +1187,12 @@
                 "rateOfInterest": "interest rate",
                 "percentageRate": "annual percentage rate",
                 "total": "You will pay a total of",
-                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
-                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
-                "insuranceRow": "a měsíční splátkou pojištění",
-                "insuranceDetail": "a měsíční splátkou pojištění",
-                "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "insurance": "Repayability insurance for <b>{0} per month</b> to repay",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "insuranceRow": "and a monthly insurance payment",
+                "insuranceDetail": "and a monthly insurance payment",
+                "totalWithInsurance": "including insurance",
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a><br><br>If you are disabled, there will be no payment in the event of an insurance claim.</a>",
                 "primaryButton": "I understand; show me the nearest branch"
             },
             "documentUpload": {
@@ -1410,20 +1412,20 @@
             "docScoringSame": {
                 "title": "Everything is OK. Let’s continue",
                 "detail": "I am certain that I will be able to repay this amount each month",
-                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
-                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "detailInsurance": "I confirm that I can repay the amount <b>{0}</b> for the loan and insurance monthly",
+                "detailWoInsurance": "I confirm that I can repay the amount <b>{0}</b> for the loan and insurance monthly",
                 "amount": "We will loan you",
                 "duration": "for a period of",
                 "installment": "with installments of",
                 "rateOfInterest": "Interest rate",
                 "percentageRate": "Annual percentage rate",
                 "total": "You will pay a total of",
-                "insurance": "Pojištění schopnosti splácet za <b>{0}</b> měsíčně ke splátce",
-                "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
-                "insuranceRow": "a měsíční splátkou pojištění",
-                "insuranceDetail": "a měsíční splátkou pojištění",
-                "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "insurance": "Repayability insurance for <b>{0} per month</b> to repay",
+                "insuranceInfo": "<a href=\"innsuranceInfo\">More about insurance here.</a>",
+                "insuranceRow": "and a monthly insurance payment",
+                "insuranceDetail": "and a monthly insurance payment",
+                "totalWithInsurance": "including insurance",
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a><br><br>If you are disabled, there will be no payment in the event of an insurance claim.</a>",
                 "primaryButton": "Continue"
             },
             "docScoringChange": {
@@ -1443,15 +1445,15 @@
                 "insuranceRow": "and a monthly insurance payment",
                 "insuranceDetail": "and a monthly insurance payment",
                 "totalWithInsurance": "including insurance",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a><br><br>If you are disabled, there will be no payment in the event of an insurance claim.</a>",
                 "primaryButton": "I agree, continue",
                 "secondaryButton": "Decline"
             },
             "docScoringBranch": {
                 "title": "We will have to meet at our branch",
                 "detail": "We are sorry but there is no other way. We are looking forward to seeing you at our branch.<br><br><b>Please bring with you:</b>",
-                "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
-                "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
+                "detailInsurance": "I confirm that I can repay the amount <b>{0}</b> for the loan and insurance monthly",
+                "detailWoInsurance": "I confirm that I can repay the amount <b>{0}</b> for the loan and insurance monthly",
                 "branchDocumentTypes": [
                     {
                         "title": "Filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> from your employer",
@@ -1589,7 +1591,7 @@
                 }
             },
             "creditCard": {
-                "title": "We understand you don’t need more money at this moment. But since you’re already approved, why not have a credit card on hand, just in case you ever need it?",
+                "title": "We understand you don’t need more money at this moment. But since you’re already approved, why not have a credit card on hand just in case you ever need it?",
                 "detail": "All documents can be found in Smart Banka and Internet Banka under ‘My Documents’.",
                 "primaryButton": "Continue to Credit Card",
                 "secondaryButton": "Back to Overview"

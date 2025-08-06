@@ -1,346 +1,351 @@
 {
-    "status": "OK",
-    "responseObject": {
-        "errorScreens": {
-            "api": {
-                "title": "Omlouváme se, něco se vymňouklo",
-                "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "primaryButton": "Zpět",
-                "secondaryButton": "Zkusit znovu"
-            },
-            "child": {
-                "title": "Stavební spoření pro děti zatím v aplikaci neumíme",
-                "detail": "Zastavte se prosím na libovolné pobočce. Nezapomeňte s sebou vzít rodný list dítěte a svůj doklad totožnosti.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Zpět na Přehled"
-            },
-            "scoring": {
-                "title": "Omlouváme se, něco se vymňouklo",
-                "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
-                "branch": "Navštivte nás\nna pobočce",
-                "primaryButton": "Zpět na Přehled"
-            },
-            "cantProceed": {
-                "title": "Stavební spoření pro Vás zatím v aplikaci neumíme.",
-                "detail": "Zastavte se prosím na libovolné pobočce. Nezapomeňte s sebou vzít nejlépe dva doklady totožnosti.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Zpět na Přehled"
-            },
-            "disagreement": {
-                "title": "Bez souhlasu to bohužel nepůjde",
-                "detail": "Od stavebního spoření Vás dělí už jen krůček. <br><b>Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.</b>",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Pokračovat"
-            },
-            "longTermScreens": {
-                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
-                    "title": "Toto bude trvat celou noc...",
-                    "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
-                    "primaryButton": "Zpět na Přehled"
-                }
-            }
+  "status": "OK",
+  "responseObject": {
+    "errorScreens": {
+      "api": {
+        "title": "Omlouváme se, něco se vymňouklo",
+        "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "primaryButton": "Zpět",
+        "secondaryButton": "Zkusit znovu"
+      },
+      "child": {
+        "title": "Stavební spoření pro děti zatím v aplikaci neumíme",
+        "detail": "Zastavte se prosím na libovolné pobočce. Nezapomeňte s sebou vzít rodný list dítěte a svůj doklad totožnosti.",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Zpět na Přehled"
+      },
+      "scoring": {
+        "title": "Omlouváme se, něco se vymňouklo",
+        "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
+        "branch": "Navštivte nás\nna pobočce",
+        "primaryButton": "Zpět na přehled zůstatků"
+      },
+      "cantProceed": {
+        "title": "Stavební spoření pro Vás zatím v aplikaci neumíme.",
+        "detail": "<b>Zastavte se prosím na libovolné pobočce. Nezapomeňte s sebou vzít nejlépe dva doklady totožnosti.</b>",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Zpět na přehled zůstatků"
+      },
+      "disagreement": {
+        "title": "Bez souhlasu to bohužel nepůjde",
+        "detail": "Od stavebního spoření Vás dělí už jen krůček. <br><b>Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.</b>",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Naštivte nás\nna pobočce",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Pokračovat"
+      },
+      "longTermScreens": {
+        "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+          "title": "Toto bude trvat celou noc...",
+          "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+          "primaryButton": "Zpět na přehled zůstatků"
+        }
+      }
+    },
+    "general": {
+      "toolbarTitle": "Stavební spoření",
+      "phoneNumberSupport": "224 443 636",
+      "phoneNumberSale": "800 102 040"
+    },
+    "scenes": {
+      "helpOffer": {
+        "title": "Nejvýhodnější stavební spoření najdete v aplikaci",
+        "detail": "Všechny informace o stavebním spoření najdete na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a><br><br><b>Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.</b>",
+        "toolbarTitle": "Nápověda",
+        "bullets": [
+          "<b>Úrok a státní podpora</b> – zhodnoťte své vklady s\u00a0akčním úrokem 4,9\u00a0% garantovaným do konce roku 2025",
+          "<b>Bezpečně uložené peníze</b> – Vaše vklady jsou v\u00a0bezpečí a\u00a0pojištěny do 100\u00a0000\u00a0EUR.",
+          "<b>Peníze na cokoliv</b> – už po 6 letech spoření můžete využít naspořené peníze úplně na cokoliv."
+        ],
+        "secondaryButton": "Zrušit žádost",
+        "primaryButton": "Pokračovat ve sjednání",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Navštivte nás\nna pobočce"
+      },
+      "helpPersonalDetail": {
+        "title": "Kontrola Vašich informací",
+        "detail": "Musíme spolu zkontrolovat, jestli ve Vašich informacích nenastala nějaká změna. Pokud ano, doložíte ji v\u00a0dalším kroku pomocí občanského průkazu. Jednoduše ho vyfotíte přímo v\u00a0naší aplikaci a\u00a0budeme moci hned pokračovat. Focení je u\u00a0nás samozřejmě zabezpečené. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Pokračovat ve sjednání účtu",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Navštivte nás\nna pobočce"
+      },
+      "helpUploadDocument": {
+        "title": "Bez aktuálního dokladu to bohužel nepůjde",
+        "detail": "Ve Vašich osobních údajích nastala změna, kterou je třeba potvrdit fotografií Vašich aktuálních dokladů. Focení je u\u00a0nás samozřejmě zabezpečené a\u00a0zabere jen minutku. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+        "secondaryButton": "Ukončit žádost",
+        "primaryButton": "Pokračovat ve sjednání účtu",
+        "callUs": "Zavolejte nám\nna infolinku",
+        "branch": "Navštivte nás\nna pobočce"
+      },
+      "buildingSavingsCalculator": {
+        "title": "Stavební spoření",
+        "subtitle": "Nastavte si své stavební spoření",
+        "bullets": [
+            "<b>Zdvojnásobení státní podpory s bonusem až 6 000 Kč.</b> Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\">našem webu.</a>",
+            "<b>Bonus 500 Kč za sjednání smlouvy v Smart Bance.</b> Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\">našem webu.</a>",
+            "<b>Bonus 3 000 Kč za vysoký vklad</b>. Více v podmínkách akce na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\">našem webu.</a>"
+        ],
+        "amount": "Předpokládáný měsíční vklad",
+        "amountTip": {
+          "title": "Co je to měsíční vklad?",
+          "detail": "Měsíční vklad je částka, kterou chcete na stavební spoření pravidelně ukládat. V průběhu spoření můžete ukládat měsíčně více nebo peníze na účet vložit například jednou ročně."
         },
-        "general": {
-            "toolbarTitle": "Stavební spoření",
-            "phoneNumberSupport": "224 443 636",
-            "phoneNumberSale": "800 102 040"
+        "duration": "Doba spoření",
+        "total": "Celkem naspoříte",
+        "targetAmount": "Cílová částka",
+        "totalTip": "S <a>měsíčním vkladem</a> alespoň 1 700 Kč získáte maximální státní podporu 1 000 Kč ročně.",
+        "stateContributionCheckbox": "Požaduji státní podporu",
+        "ownDeposit": "Vlastní vklad",
+        "stateContribution": "Státní podpora",
+        "entryFee": "Poplatek za uzavření",
+        "managementFee": "Vedení účtu stavebního spoření měsíčně",
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Chci spořit pro dítě"
+      },
+      "permanentAddress": {
+        "title": "Jaké je Vaše trvalé bydliště?",
+        "streetTitle": "Ulice",
+        "descriptiveNumberTitle": "Č. p.",
+        "orientationNumberTitle": "Č. or.",
+        "cityTitle": "Město",
+        "zipTitle": "PSČ",
+        "countryTitle": "Země",
+        "primaryButton": "Uložit"
+      },
+      "contactAddress": {
+        "title": "Máme správně Vaši kontaktní adresu?",
+        "streetTitle": "Ulice",
+        "descriptiveNumberTitle": "Č. p.",
+        "orientationNumberTitle": "Č. or.",
+        "cityTitle": "Město",
+        "zipTitle": "PSČ",
+        "countryTitle": "Země",
+        "primaryButton": "Uložit"
+      },
+      "identification": {
+        "title": "Jsou Vaše osobní údaje správně?",
+        "firstName": "Jméno",
+        "lastName": "Příjmení",
+        "permanentAddress": "Trvalý pobyt",
+        "contactAddress": "Kontaktní adresa",
+        "phone": "Telefon",
+        "email": "Email",
+        "stateOfBirth": "Stát narození",
+        "citizenship": "Státní občanství",
+        "primaryButton": "Ano, pokračovat",
+        "information":{
+          "text": "Pokračováním souhlasíte s předáním Vašich osobních údajů ze strany společnosti MONETA Money Bank, a.s. společnosti MONETA Stavební Spořitelna, a.s. za účelem Vaší identifikace. <a href=\"https://www.moneta.cz/ochrana-dat\" target=\"_blank\">Více zde.</a>",
+          "infoScreen":{
+            "title": "Převzetí identifikace",
+            "detail": "Pokračováním souhlasíte s předáním Vašich osobních údajů ze strany společnosti MONETA Money Bank, a.s. společnosti MONETA Stavební Spořitelna, a.s. za účelem Vaší identifikace v souladu se zákonem č. 253/2008 Sb., o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu v následujícím rozsahu:<br><br>Jméno a příjmení, rodné číslo; místo narození; pohlaví; adresa trvalého pobytu – případně jiná adresa pobytu; státní občanství; druh, číslo a datum platnosti dokladu totožnosti, stát, který tento doklad vydal a na vyžádání společnosti MONETA Stavební Spořitelna, a.s. i kopii dokladu totožnosti.",
+            "primaryButton":"Zpět"
+          }
+        }
+      },
+      "amlQuestionnaire": {
+        "title": "Údaje vyžadované zákonem",
+        "detail": "Zeptat se na tyto informace musíme, ukládá nám to zákon č.\u00a0253/2008\u00a0Sb. o\u00a0praní špinavých peněz.",
+        "wrongTaxResidenceDialog": {
+          "title": "Stavební spoření Vám založíme pokud odvádíte daně pouze v\u00a0ČR",
+          "detail": "Opravdu odvádíte daně mimo ČR? V tom případě se za námi zastavte na pobočku, kde celý proces dokončíme.",
+          "primaryButton": "Odvádím daně pouze v ČR",
+          "secondaryButton": "Odvádím daně mimo ČR"
         },
-        "scenes": {
-            "helpOffer": {
-                "title": "Nejvýhodnější stavební spoření najdete v aplikaci",
-                "detail": "Všechny informace o stavebním spoření najdete na <a href=\"https://www.moneta.cz/sporeni-a-investice/stavebni-sporeni\" target=\"_blank\">našem webu.</a><br><br><b>Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.</b>",
-                "toolbarTitle": "Nápověda",
-                "bullets": [
-                    "<b>Úrok a státní podpora</b> – zhodnoťte své vklady s\u00a0akčním úrokem 4,9\u00a0% garantovaným do konce roku 2025",
-                    "<b>Bezpečně uložené peníze</b> – Vaše vklady jsou v\u00a0bezpečí a\u00a0pojištěny do 100\u00a0000\u00a0EUR.",
-                    "<b>Peníze na cokoliv</b> – už po 6 letech spoření můžete využít naspořené peníze úplně na cokoliv."
-                ],
-                "secondaryButton": "Zrušit žádost",
-                "primaryButton": "Pokračovat ve sjednání",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Navštivte nás\nna pobočce"
+        "questions": {
+          "depositOrigin": {
+            "text": "Jaký je hlavní zdroj prostředků, které budete zasílat nebo vkládat na účet stavebního spoření?",
+            "options": [
+              {
+                "value": "1",
+                "text": "Příjem ze zaměstnání"
+              },
+              {
+                "value": "2",
+                "text": "Příjem z podnikání"
+              },
+              {
+                "value": "3",
+                "text": "Důchod / Renta"
+              },
+              {
+                "value": "4",
+                "text": "Státní podpora",
+                "description": "Dávky nemocenského pojištění a důchodového pojištění, dávky sociální péče a dávky státní sociální podpory, sirotčí důchod, apod."
+              },
+              {
+                "value": "5",
+                "text": "Příjem od rodinných příslušníků / Výhra / Dary"
+              }
+            ]
+          },
+          "wayOfSaving": {
+            "text": "Jakým způsobem budete spořit?",
+            "options": [
+              {
+                "value": "1",
+                "text": "Budu vkládat hotovost"
+              },
+              {
+                "value": "2",
+                "text": "Bezhotovostními převody ze svého bankovního účtu"
+              },
+              {
+                "value": "3",
+                "text": "Hotovost bude vkládat třetí osoba"
+              },
+              {
+                "value": "4",
+                "text": "Bezhotovostní platby bude zasílat třetí osoba"
+              }
+            ]
+          },
+          "rangeOfIncome": {
+            "text": "Jaká je přibližná výše Vašeho pravidelného měsíčního příjmu?",
+            "options": [
+              {
+                "value": "AML2.1.DO_50",
+                "text": "Do 50 000 Kč"
+              },
+              {
+                "value": "AML2.2.DO_100",
+                "text": "50 000 - 100 000 Kč"
+              },
+              {
+                "value": "AML2.3.NAD_100",
+                "text": "Nad 100 000 Kč"
+              }
+            ]
+          },
+          "taxResidence": {
+            "text": "Odvádíte daně pouze v ČR?",
+            "options": [
+              {
+                "value": "YES",
+                "text": "Ano"
+              },
+              {
+                "value": "NO",
+                "text": "Ne"
+              }
+            ]
+          }
+        },
+        "primaryButton": "Pokračovat"
+      },
+      "simpleDocumentUpload": {
+        "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
+        "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
+        "documents": {
+          "141": {
+            "icon": "idCardFill",
+            "title": "Občanský průkaz",
+            "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
+            "photoCapture": [
+              {
+                "title": "Vyfoťte přední stranu občanského průkazu",
+                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit"
+              },
+              {
+                "title": "Vyfoťte zadní stranu občanského průkazu",
+                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit"
+              }
+            ],
+            "busyLoader": {
+              "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+              "detail": "Zabere to maximálně pár vteřin."
             },
-            "helpPersonalDetail": {
-                "title": "Kontrola Vašich informací",
-                "detail": "Musíme spolu zkontrolovat, jestli ve Vašich informacích nenastala nějaká změna. Pokud ano, doložíte ji v\u00a0dalším kroku pomocí občanského průkazu. Jednoduše ho vyfotíte přímo v\u00a0naší aplikaci a\u00a0budeme moci hned pokračovat. Focení je u\u00a0nás samozřejmě zabezpečené. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Pokračovat ve sjednání účtu",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Navštivte nás\nna pobočce"
+            "uploadDocumentResultNok": {
+              "title": "Cizoměnový účet vám teď nemůžeme založit",
+              "detail": "Moc se omlouváme",
+              "secondaryButton": "Ukončit žádost"
             },
-            "helpUploadDocument": {
-                "title": "Bez aktuálního dokladu to bohužel nepůjde",
-                "detail": "Ve Vašich osobních údajích nastala změna, kterou je třeba potvrdit fotografií Vašich aktuálních dokladů. Focení je u\u00a0nás samozřejmě zabezpečené a\u00a0zabere jen minutku. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Pokračovat ve sjednání účtu",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Navštivte nás\nna pobočce"
+            "uploadDocumentResultUploadAgain": {
+              "title": "Jejda, tohle se nepovedlo",
+              "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+              "primaryButton": "Vyfotit znovu",
+              "secondaryButton": "Pokračovat později"
             },
-            "buildingSavingsCalculator": {
-                "title": "Stavební spoření",
-                "subtitle": "Nastavte si své stavební spoření",
-                "amount": "Předpokládáný měsíční vklad",
-                "amountTip": {
-                    "title": "Co je to měsíční vklad?",
-                    "detail": "Měsíční vklad je částka, kterou chcete na stavební spoření pravidelně ukládat. V průběhu spoření můžete ukládat měsíčně více nebo peníze na účet vložit například jednou ročně."
-                },
-                "duration": "Doba spoření",
-                "total": "Celkem naspoříte",
-                "targetAmount": "Cílová částka",
-                "totalTip": "S <a>měsíčním vkladem</a> alespoň 1 700 Kč získáte maximální státní podporu 1 000 Kč ročně.",
-                "stateContributionCheckbox": "Požaduji státní podporu",
-                "ownDeposit": "Vlastní vklad",
-                "stateContribution": "Státní podpora",
-                "entryFee": "Poplatek za uzavření",
-                "managementFee": "Vedení účtu stavebního spoření měsíčně",
-                "primaryButton": "Pokračovat",
-                "secondaryButton": "Chci spořit pro dítě"
-            },
-            "permanentAddress": {
-                "title": "Jaké je Vaše trvalé bydliště?",
-                "streetTitle": "Ulice",
-                "descriptiveNumberTitle": "Č. p.",
-                "orientationNumberTitle": "Č. or.",
-                "cityTitle": "Město",
-                "zipTitle": "PSČ",
-                "countryTitle": "Země",
-                "primaryButton": "Uložit"
-            },
-            "contactAddress": {
-                "title": "Máme správně Vaši kontaktní adresu?",
-                "streetTitle": "Ulice",
-                "descriptiveNumberTitle": "Č. p.",
-                "orientationNumberTitle": "Č. or.",
-                "cityTitle": "Město",
-                "zipTitle": "PSČ",
-                "countryTitle": "Země",
-                "primaryButton": "Uložit"
-            },
-            "identification": {
-                "title": "Jsou Vaše osobní údaje správně?",
+            "review": {
+              "title": "Skvělá fotka! Přečetli jsme vše správně?",
+              "documentDetails": {
+                "title": "Údaje z dokladu",
                 "firstName": "Jméno",
                 "lastName": "Příjmení",
-                "permanentAddress": "Trvalý pobyt",
-                "contactAddress": "Kontaktní adresa",
-                "phone": "Telefon",
-                "email": "Email",
-                "stateOfBirth": "Stát narození",
-                "citizenship": "Státní občanství",
-                "primaryButton": "Ano, pokračovat",
-                "information":{
-                    "text": "Pokračováním souhlasíte s předáním Vašich osobních údajů ze strany společnosti MONETA Money Bank, a.s. společnosti MONETA Stavební Spořitelna, a.s. za účelem Vaší identifikace. <a href=\"https://www.moneta.cz/ochrana-dat\" target=\"_blank\">Více zde.</a>",
-                    "infoScreen":{
-                        "title": "Převzetí identifikace",
-                        "detail": "Pokračováním souhlasíte s předáním Vašich osobních údajů ze strany společnosti MONETA Money Bank, a.s. společnosti MONETA Stavební Spořitelna, a.s. za účelem Vaší identifikace v souladu se zákonem č. 253/2008 Sb., o některých opatřeních proti legalizaci výnosů z trestné činnosti a financování terorismu v následujícím rozsahu:<br><br>Jméno a příjmení, rodné číslo; místo narození; pohlaví; adresa trvalého pobytu – případně jiná adresa pobytu; státní občanství; druh, číslo a datum platnosti dokladu totožnosti, stát, který tento doklad vydal a na vyžádání společnosti MONETA Stavební Spořitelna, a.s. i kopii dokladu totožnosti.",
-                        "primaryButton":"Zpět"
-                    }
-                }
-            },
-            "amlQuestionnaire": {
-                "title": "Údaje vyžadované zákonem",
-                "detail": "Zeptat se na tyto informace musíme, ukládá nám to zákon č.\u00a0253/2008\u00a0Sb. o\u00a0praní špinavých peněz.",
-                "wrongTaxResidenceDialog": {
-                    "title": "Stavební spoření Vám založíme pokud odvádíte daně pouze v\u00a0ČR",
-                    "detail": "Opravdu odvádíte daně mimo ČR? V tom případě se za námi zastavte na pobočku, kde celý proces dokončíme.",
-                    "primaryButton": "Odvádím daně pouze v ČR",
-                    "secondaryButton": "Odvádím daně mimo ČR"
+                "birthDate": "Datum narození",
+                "birthPlace": "Místo narození",
+                "birthNumber": "Rodné číslo",
+                "idCardNumber": {
+                  "title": "Číslo občanského průkazu",
+                  "secondaryTitle": "Číslo pasu"
                 },
-                "questions": {
-                    "depositOrigin": {
-                        "text": "Jaký je hlavní zdroj prostředků, které budete zasílat nebo vkládat na účet stavebního spoření?",
-                        "options": [
-                            {
-                                "value": "1",
-                                "text": "Příjem ze zaměstnání"
-                            },
-                            {
-                                "value": "2",
-                                "text": "Příjem z podnikání"
-                            },
-                            {
-                                "value": "3",
-                                "text": "Důchod / Renta"
-                            },
-                            {
-                                "value": "4",
-                                "text": "Státní podpora",
-                                "description": "Dávky nemocenského pojištění a důchodového pojištění, dávky sociální péče a dávky státní sociální podpory, sirotčí důchod, apod."
-                            },
-                            {
-                                "value": "5",
-                                "text": "Příjem od rodinných příslušníků / Výhra / Dary"
-                            }
-                        ]
-                    },
-                    "wayOfSaving": {
-                        "text": "Jakým způsobem budete spořit?",
-                        "options": [
-                            {
-                                "value": "1",
-                                "text": "Budu vkládat hotovost"
-                            },
-                            {
-                                "value": "2",
-                                "text": "Bezhotovostními převody ze svého bankovního účtu"
-                            },
-                            {
-                                "value": "3",
-                                "text": "Hotovost bude vkládat třetí osoba"
-                            },
-                            {
-                                "value": "4",
-                                "text": "Bezhotovostní platby bude zasílat třetí osoba"
-                            }
-                        ]
-                    },
-                    "rangeOfIncome": {
-                        "text": "Jaká je přibližná výše Vašeho pravidelného měsíčního příjmu?",
-                        "options": [
-                            {
-                                "value": "AML2.1.DO_50",
-                                "text": "Do 50 000 Kč"
-                            },
-                            {
-                                "value": "AML2.2.DO_100",
-                                "text": "50 000 - 100 000 Kč"
-                            },
-                            {
-                                "value": "AML2.3.NAD_100",
-                                "text": "Nad 100 000 Kč"
-                            }
-                        ]
-                    },
-                    "taxResidence": {
-                        "text": "Odvádíte daně pouze v ČR?",
-                        "options": [
-                            {
-                                "value": "YES",
-                                "text": "Ano"
-                            },
-                            {
-                                "value": "NO",
-                                "text": "Ne"
-                            }
-                        ]
-                    }
-                },
-                "primaryButton": "Pokračovat"
-            },
-            "simpleDocumentUpload": {
-              "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
-              "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
-              "documents": {
-                "141": {
-                  "icon": "idCardFill",
-                  "title": "Občanský průkaz",
-                  "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
-                  "photoCapture": [
-                    {
-                      "title": "Vyfoťte přední stranu občanského průkazu",
-                      "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                      "primaryButton": "Vyfotit"
-                    },
-                    {
-                      "title": "Vyfoťte zadní stranu občanského průkazu",
-                      "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                      "primaryButton": "Vyfotit"
-                    }
-                  ],
-                  "busyLoader": {
-                    "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-                    "detail": "Zabere to maximálně pár vteřin."
-                  },
-                  "uploadDocumentResultNok": {
-                    "title": "Cizoměnový účet vám teď nemůžeme založit",
-                    "detail": "Moc se omlouváme",
-                    "secondaryButton": "Ukončit žádost"
-                  },
-                  "uploadDocumentResultUploadAgain": {
-                    "title": "Jejda, tohle se nepovedlo",
-                    "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-                    "primaryButton": "Vyfotit znovu",
-                    "secondaryButton": "Pokračovat později"
-                  },
-                  "review": {
-                    "title": "Skvělá fotka! Přečetli jsme vše správně?",
-                    "documentDetails": {
-                      "title": "Údaje z dokladu",
-                      "firstName": "Jméno",
-                      "lastName": "Příjmení",
-                      "birthDate": "Datum narození",
-                      "birthPlace": "Místo narození",
-                      "birthNumber": "Rodné číslo",
-                      "idCardNumber": {
-                        "title": "Číslo občanského průkazu",
-                        "secondaryTitle": "Číslo pasu"
-                      },
-                      "idCardValidTo": "Platnost do",
-                      "issueDate": "Platnost od",
-                      "nationality": "Státní občanství",
-                      "nationalityValue": "pouze Česká republika",
-                      "sex": "Pohlaví",
-                      "male": "muž",
-                      "female": "žena"
-                    },
-                    "documentAddress": {
-                      "title": "Trvalý pobyt",
-                      "secondary": "(Pouze Česká republika)",
-                      "street": "Ulice",
-                      "descriptiveNumber": "Číslo popisné",
-                      "orientationNumber": "Číslo orientační",
-                      "city": "Obec nebo město",
-                      "zip": "PSČ",
-                      "personalData": {
-                        "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
-                      }
-                    },
-                    "primaryButton": "Pokračovat"
-                  }
+                "idCardValidTo": "Platnost do",
+                "issueDate": "Platnost od",
+                "nationality": "Státní občanství",
+                "nationalityValue": "pouze Česká republika",
+                "sex": "Pohlaví",
+                "male": "muž",
+                "female": "žena"
+              },
+              "documentAddress": {
+                "title": "Trvalý pobyt",
+                "secondary": "(Pouze Česká republika)",
+                "street": "Ulice",
+                "descriptiveNumber": "Číslo popisné",
+                "orientationNumber": "Číslo orientační",
+                "city": "Obec nebo město",
+                "zip": "PSČ",
+                "personalData": {
+                  "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
                 }
               },
-              "secondaryButton": "Doložím doklady později"
-            },
-            "precontractInfo": {
-                "title": "Přečtěte si předsmluvní informace",
-                "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
-                "secondaryButton": "Nesouhlasím",
-                "primaryButton": "Rozumím a souhlasím"
-            },
-            "contract": {
-                "title": "Přečtěte si smlouvu s parametry produktu",
-                "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
-                "checkbox": "<b>Prohlašuji, že jsem se seznámil s těmito dokumenty</b>, včetně dokumentů, které jsem obdržel emailem v\u00a0předchozím kroku - <a href=\"https://www.moneta.cz/documents/20143/15583017/mss-sazebnik-uhrad-za-poskytovane-sluzby.pdf\" target=\"_blank\">Sazebník úhrad za poskytované služby</a>, <a href=\"https://www.moneta.cz/documents/20143/11819249/mss-vop-ss-04072020.pdf\" target=\"_blank\">Všeobecné obchodní podmínky stavebního spoření</a>, <a href=\"https://www.moneta.cz/documents/20143/11819244/mss-informacni-prehled-o-systemu-pojisteni-vkladu.pdf\" target=\"_blank\">Informační přehled o\u00a0systému pojištění pohledávek z\u00a0vkladů pro klienta</a> a\u00a0<a href=\"https://www.moneta.cz/documents/20143/11819153/mss-pokyny-k-poukazovani-plateb.pdf\" target=\"_blank\">Pokyny k\u00a0poukazování plateb.</a>",
-                "secondaryButton": "Nesouhlasím",
-                "primaryButton": "Přejít k podpisu"
-            },
-            "scoring": {
-                "title": "Chvilku strpení,\nvšechno to musíme zkontrolovat",
-                "subtitle": "Brzy budeme pokračovat."
-            },
-            "waitingBeforeContract": {
-                "title": "Minutku, připravíme Vám dokumenty k podpisu",
-                "detail": "Brzy budeme pokračovat."
-            },
-            "signByUs": {
-                "title": "Teď to musíme podepsat my, chvilku strpení prosím",
-                "detail": "Brzy budeme pokračovat."
-            },
-            "buildingSavingsVictory": {
-                "title": "Hotovo! Můžete začít spořit",
-                "detail": "Už teď si můžete nastavit trvalý příkaz, aby Vám neutekla státní podpora. Dokumenty ke stavebnímu spoření najdete ve Smart Bance a potvrzení o jeho aktivaci Vám zašleme v nejbližších dnech.",
-                "checkbox": "<b>Začít spořit ihned</b> - ze zvoleného účtu odešleme první platbu ve výši {0} a nastavíme trvalý příkaz s měsíční periodicitou.",
-                "fromAccount": "Spořit z účtu",
-                "fromDate": "Spořit od",
-                "secondaryButton": "Nastavit trvalý příkaz",
-                "primaryButton": "Zpět na Přehled"
+              "primaryButton": "Pokračovat"
             }
-        }
+          }
+        },
+        "secondaryButton": "Doložím doklady později"
+      },
+      "precontractInfo": {
+        "title": "Přečtěte si předsmluvní informace",
+        "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
+        "secondaryButton": "Nesouhlasím",
+        "primaryButton": "Rozumím a souhlasím"
+      },
+      "contract": {
+        "title": "Přečtěte si smlouvu s parametry produktu",
+        "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
+        "checkbox": "<b>Prohlašuji, že jsem se seznámil s těmito dokumenty</b>, včetně dokumentů, které jsem obdržel emailem v\u00a0předchozím kroku - <a href=\"https://www.moneta.cz/documents/20143/15583017/mss-sazebnik-uhrad-za-poskytovane-sluzby.pdf\" target=\"_blank\">Sazebník úhrad za poskytované služby</a>, <a href=\"https://www.moneta.cz/documents/20143/11819249/mss-vop-ss-04072020.pdf\" target=\"_blank\">Všeobecné obchodní podmínky stavebního spoření</a>, <a href=\"https://www.moneta.cz/documents/20143/11819244/mss-informacni-prehled-o-systemu-pojisteni-vkladu.pdf\" target=\"_blank\">Informační přehled o\u00a0systému pojištění pohledávek z\u00a0vkladů pro klienta</a> a\u00a0<a href=\"https://www.moneta.cz/documents/20143/11819153/mss-pokyny-k-poukazovani-plateb.pdf\" target=\"_blank\">Pokyny k\u00a0poukazování plateb.</a>",
+        "secondaryButton": "Nesouhlasím",
+        "primaryButton": "Přejít k podpisu"
+      },
+      "scoring": {
+        "title": "Chvilku strpení,\nvšechno to musíme zkontrolovat",
+        "subtitle": "Brzy budeme pokračovat."
+      },
+      "waitingBeforeContract": {
+        "title": "Minutku, připravíme Vám dokumenty k podpisu",
+        "detail": "Brzy budeme pokračovat."
+      },
+      "signByUs": {
+        "title": "Teď to musíme podepsat my, chvilku strpení prosím",
+        "detail": "Brzy budeme pokračovat."
+      },
+      "buildingSavingsVictory": {
+        "title": "Hotovo! Můžete začít spořit",
+        "detail": "Už teď si můžete nastavit trvalý příkaz, aby Vám neutekla státní podpora. Dokumenty ke stavebnímu spoření najdete ve Smart Bance a potvrzení o jeho aktivaci Vám zašleme v nejbližších dnech.",
+        "checkbox": "<b>Začít spořit ihned</b> - ze zvoleného účtu odešleme první platbu ve výši {0} a nastavíme trvalý příkaz s měsíční periodicitou.",
+        "fromAccount": "Spořit z účtu",
+        "fromDate": "Spořit od",
+        "secondaryButton": "Nastavit trvalý příkaz",
+        "primaryButton": "Zpět na Přehled"
+      }
     }
+  }
 }
