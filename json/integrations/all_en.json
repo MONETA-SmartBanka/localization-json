@@ -1,0 +1,41 @@
+{
+  "integrations": {
+    "title": "Smart Services and Disounts",
+    "availableServicesTitle": "Available",
+    "availableServices": [
+      {
+        "id": "FAKTUROID",
+        "title": "Fakturoid",
+        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+        "bullets": [
+          {
+            "text": "Invoice directly from your bank. Quick, easy and with discounts up to <green>50 %</green>."
+          }
+        ],
+        "primaryButton": {
+          "text": "Learn more"
+        },
+        "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
+      }
+    ],
+    "activatedServicesTitle": "Active",
+    "activatedServices": [
+      {
+        "id": "FAKTUROID",
+        "title": "Fakturoid",
+        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+        "bullets": [
+          {
+            "icon": "tickFill",
+            "text": "Your invoices in your Moneta account"
+          }
+        ],
+        "primaryButton": {
+          "text": "Invoice Overview"
+        },
+        "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+      }
+    ],
+    "apiPartnersTitle": "API partners"
+  }
+}

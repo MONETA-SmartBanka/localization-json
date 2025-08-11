@@ -1,0 +1,77 @@
+{
+  "errorScreens": {
+    "defaultError": {
+      "title": "Something went wrong, our apologies. ",
+      "detail": "Please try again later.",
+      "callUs": "Call Helpline",
+      "branch": "Visit a branch",
+      "primaryButton": "Back"
+    }
+  },
+  "scenes": {
+    "promo": {
+      "titleTop": "Fakturoid",
+      "title": "Invoice directly from your bank. Quick, easy, and with discounts up to 50 %",
+      "detail": "<b>New businesses</b> receive a <b>50 % discount</b> on all Fakturoid plans for an entire year.\n\nAre you an established business? <b>Get a 15 % permanent discount.</b> The discount applies to existing users as well.\n\n<b>The basic plan is free.</b>",
+      "bulletsSectionTitle": "What benefits will you receive?",
+      "bullets": [
+        {
+          "icon": "tickFill",
+          "text": "Fast and simple invoicing"
+        },
+        {
+          "icon": "tickFill",
+          "text": "Seamless payment and invoice matching",
+          "description": "Included in the “Everyday“ plan"
+        },
+        {
+          "icon": "tickFill",
+          "text": "Overview of both paid and unpaid invoices"
+        },
+        {
+          "icon": "tickFill",
+          "text": "Incoming payments notifications"
+        }
+      ],
+      "userActionRequiredSectionTitle": "Pair your account to Fakturoid and receive the discount",
+      "userActionRequired": "Confirm that the information below can be shared with Fakturoid in order to pair your account. We will handle the rest.\nIf you don’t have a Fakturoid account, you will be redirected to create one.",
+      "dataTransferSectionTitle": "Share information with Fakturoid",
+      "account": {
+        "title": "Účet k propojení",
+        "error": "Před pokračováním nejdřív vyberte účet."
+      },
+      "agreement": {
+        "title": "I consent to sharing my Identification Number with Fakturoid.",
+        "error": "To continue, you need to agree to share your company details with Fakturoid."
+      },
+      "primaryButton": "Pair your invoices"
+    },
+    "victory": {
+      "title": "Done!\nYour account has been paired",
+      "detail": "From now on you can manage invoices in Smart Banka.",
+      "primaryButton": "Invoice Overview",
+      "secondaryButton": "Back to Overview"
+    },
+    "invoicesOverview": {
+      "issueInvoice": "New Invoice",
+      "title": "Invoice Overview",
+      "pills": {
+        "open": "Issued",
+        "overdue": "Overdue"
+      },
+      "infoMessage": "Information is updated within 30 minutes after payment is processed.",
+      "dueDate": "Due in {0}",
+      "overdue": "{0} overdue",
+      "status": {
+        "open": "Open",
+        "sent": "Sent",
+        "paid": "Paid",
+        "overdue": "Overdue",
+        "cancelled": "Cancelled",
+        "uncollectible": "Uncollectible"
+      },
+      "secondaryButton": "Detailed overview in Fakturoid",
+      "empty": "No invoices found"
+    }
+  }
+}
