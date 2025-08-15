@@ -75,6 +75,26 @@
                     "detail": "Při podezření na zneužití účtu.\nOkamžitě a bez čekání na telefonní lince."
                 },
                 "scenes": {
+                    "intro": {
+                        "title": "Okamžitá nouzová blokace bankovnictví",
+                        "detail": "Pokud máte <b>podezření na neoprávněný přístup</b> ke svému bankovnictví, zablokujte ho. ",
+                        "bullets": [
+                            {
+                                "icon": "triangleExclamationFill",
+                                "title": "Použijte pouze pokud máte podezření na neoprávněný přístup ke svému bankovnictví."
+                            },
+                            {
+                                "icon": "lockFill",
+                                "title": "Po blokaci nebude možné přihlásit se do Internet Banky a Smart Banky k žádnému z vašich profilů a platit vašimi kartami"
+                            },
+                            {
+                                "icon": "closeFill",
+                                "title": "Nedojde ke zrušení účtu u Monety, pouze k blokaci přístupů."
+                            }
+                        ],
+                        "primaryButton": "Zablokovat bankovnictví",
+                        "secondaryButton": "Zatím nic neblokovat"
+                    },
                     "detail": {
                         "title": "Okamžitá blokace bankovnictví",
                         "detail": "Pokud máte podezření na neoprávněný přístup ke svému bankovnictví, zablokujte ho. Po zablokování bankovnictví se <b>nebude možné přihlásit do Internet Banky a Smart Banky</b> k žádnému z Vašich profilů.",

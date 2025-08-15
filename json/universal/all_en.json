@@ -75,6 +75,26 @@
                     "detail": "You can instantly block all your cards and accounts—no phone calls, no waiting."
                 },
                 "scenes": {
+                    "intro": {
+                        "title": "Immediate Block of Online Banking",
+                        "detail": "If you suspect unauthorized access to your online banking, block it immediately.",
+                        "bullets": [
+                            {
+                                "icon": "triangleExclamationFill",
+                                "title": "Use it only if you <b>suspect unauthorized access</b> to your banking."
+                            },
+                            {
+                                "icon": "lockFill",
+                                "title": "Once the access has be blocked, you will not be able to log in to any of your profiles in Internet Banka or Smart Banka, and you will not be able to use your payment cards."
+                            },
+                            {
+                                "icon": "closeFill",
+                                "title": "The account with Moneta will not be cancelled, only the accesses will be blocked."
+                            }
+                        ],
+                        "primaryButton": "Block online banking",
+                        "secondaryButton": "Not now"
+                    },
                     "detail": {
                         "title": "Immediate Block of Online Banking",
                         "detail": "If you suspect unauthorized access to your online banking, block it immediately. Once blocked, <b>Internet Banka and Smart Banka</b> cannot be accessed on any of your profiles.",
