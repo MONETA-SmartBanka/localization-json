@@ -160,11 +160,11 @@
             "primaryButton": "Jdeme na to"
         },
         "agreement": {
-            "title": "Kolik vám zbývá splatit u jiných společností?",
-            "commitments": "Přibližná výše půjček jinde",
+            "title": "Kolik vám přibližně zbývá splatit?",
+            "commitments": "Ke splacení",
             "inputInfo": "Zaokrouhlete na tisíce",
             "info": "Pro sloučení kreditek, kontokorentů, apod. nás prosím navštivte <a href=\"map\">na pobočce.</a>",
-            "footer": "Po kliknutí na tlačítko \"Pokračovat\" Vám založíme žádost o Konsolidaci půjček v uvedené výši a nahlédneme do registrů na Vaše závazky. Pro vyřízení Vaší žádosti je nezbytné zpracovávat Vaše osobní údaje, a to za účelem zjištění Vaší úvěruschopnosti, důvěryhodnosti a platební morálky, včetně ověření v Bankovním registru klientských informací a Nebankovním registru klientských informací, a dalších kroků nezbytných k jednání o uzavření smlouvy. Dále berete na vědomí zásady <a href=\"https://www.moneta.cz/ochrana-dat\">zpracování osobních údajů</a> v koncernu MONETA.",
+            "footer": "Po kliknutí na tlačítko \"Pokračovat\" vám založíme žádost o konsolidaci půjček v uvedené výši. Pro její vyřízení potřebujeme zpracovat vaše osobní údaje, posoudit vaši úvěruschopnost, důvěryhodnost a platební morálku. To zahrnuje ověření informací v Bankovním registru klientských informací, Nebankovním registru klientských informací a případně i v dalších databázích nezbytných pro posouzení vaší bonity. Tímto nám udělujete souhlas s vyžádáním a zpracováním těchto informací nezbytných k jednání o uzavření smlouvy.",
             "primaryButton": "Pokračovat"
         },
         "prescoring": {
@@ -450,7 +450,6 @@
                     "BUSINESS_INCOME": "Název subjektu",
                     "RENT": "Subjekt vyplácející rentu"
                 },
-                "idNumberTitle": "IČ: {0}",
                 "netIncome": "Čistý měsíční příjem",
                 "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
                 "fillMissing": "Doplňte chybějící údaje",
@@ -469,7 +468,7 @@
                     "title": "Opravdu chcete odstranit tento příjem?"
                 },
                 "trialPeriod": "ve zkušební lhůtě",
-                "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
+                "onNoticePeriod": "ve výpovědní lhůtě",
                 "employmentForPeriod": "na dobu určitou do {0}",
                 "primaryButton": "Pokračovat"
             },
@@ -558,7 +557,7 @@
                 },
                 {
                     "id": "RENTAL_OFF_TAX_RETURN",
-                    "title": "Pronájem nemovitosti"
+                    "title": "Pronájem"
                 },
                 {
                     "id": "MAINTENANCE_ALLOWANCE",
@@ -567,7 +566,7 @@
                 {
                     "id": "OTHER_INCOME",
                     "title": "Jiný",
-                    "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
+                    "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
                 }
             ],
             "employer": {
