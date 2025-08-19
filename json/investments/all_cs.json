@@ -2159,6 +2159,95 @@
         "primaryButton": "Zpět na přehled fondů"
       }
     },
+    "questionnairePreexisting": {
+      "title": "Investiční dotazník jste už dříve vyplnili.\nChcete ho aktualizovat?",
+      "detail": "Součástí dotazníku jsou nové otázky na další investiční příležitosti.\n\nDotazník vychází z evropské směrnice o trzích finančních nástrojů (MiFID) a jeho vyplnění vám zabere <b>maximálně 10 minut</b>. Hned poté vám doporučíme podílový fond vhodný pro vaše potřeby.",
+      "profileTitle": "Současný investiční profil: {investmentProfile}",
+      "profiles": [
+        {
+          "numero": 2,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Odpovídající produkty",
+              "description": "Konzervativní produkty založené na peněžním trhu a krátkodobých dluhopisech"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Kolísání hodnoty",
+              "description": "Nízké (0,5 - 2 %)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investiční horizont",
+              "description": "1 - 3 roky"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Odpovídající produkty",
+              "description": "Konzervativní produkty s dluhopisy a smíšenými produkty s velkým podílem dluhopisů"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Kolísání hodnoty",
+              "description": "Střední (0,5 - 5 %)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investiční horizont",
+              "description": "3 - 5 let"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Odpovídající produkty",
+              "description": "Dynamické, smíšené produkty s větší částí akcií"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Kolísání hodnoty",
+              "description": "Vyšší (5 - 10 %)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investiční horizont",
+              "description": "5 let"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Odpovídající produkty",
+              "description": "Dynamické produkty s čistě akciovými investicemi"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Kolísání hodnoty",
+              "description": "Vysoké (15 a více %)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investiční horizont",
+              "description": "5 a více let"
+            }
+          ]
+        }
+      ],
+      "primaryButton": "Pokračovat bez aktualizace",
+      "secondaryButton": "Aktualizovat dotazník"
+    },
     "fundOverview": {
       "alternativeTitle": "Investice",
       "title": "Přemýšlejte nad zhodnocením svých financí",

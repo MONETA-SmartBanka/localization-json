@@ -2160,6 +2160,95 @@
         "primaryButton": "Zpět na přehled fondů"
       }
     },
+    "questionnairePreexisting": {
+      "title": "You have already filled in the investment questionnaire before.\nDo you want to update it?",
+      "detail": "The questionnaire now includes new questions about additional investment opportunities.\n\nThe questionnaire is based on the European directive on markets in financial instruments (MiFID) and filling it in will take you <b>no more than 10 minutes</b>. Right after, we will recommend a mutual fund suitable for your needs.",
+      "profileTitle": "Current investment profile: {investmentProfile}",
+      "profiles": [
+        {
+          "numero": 2,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Conservative products based on the money market and short-term bonds"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Low (0.5 - 2%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "1 - 3 years"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Conservative products with bonds and mixed products with a large share of bonds"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Medium (0.5 - 5%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "3 - 5 years"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Dynamic mixed products with a larger portion of stocks"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Higher (5 - 10%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "5 years"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Dynamic products with purely stock investments"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "High (15% and more)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "5 years or more"
+            }
+          ]
+        }
+      ],
+      "primaryButton": "Continue without update",
+      "secondaryButton": "Update questionnaire"
+    },
     "fundOverview": {
       "alternativeTitle": "Investments",
       "title": "Let your money work for you",
