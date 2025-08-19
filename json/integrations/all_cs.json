@@ -13,9 +13,37 @@
           }
         ],
         "primaryButton": {
-          "text": "Více informací"
+          "text": "Více informací",
+          "actionType": "APPPAGE",
+          "actionValue": "INTEGRATIONS_FAKTUROID_PROMO"
         },
         "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
+      },
+      {
+        "id": "DHL_PPL",
+        "title": "DHL a PPL",
+        "subtitle": "Posílejte zásilky se slevou:",
+        "imageUrl": "/cbl_images/salespoints/nsb/4000002-dhl-ppl.png",
+        "bullets": [
+          {
+            "icon": "tickFill",
+            "text": "od 60 % do světa"
+          },
+          {
+            "icon": "tickFill",
+            "text": "od 30 % po ČR"
+          }
+        ],
+        "primaryButton": {
+          "icon": "linkExternalFill",
+          "text": "Získat slevu",
+          "actionType": "OPENURL",
+          "actionValue": "https://www.dhlservicepoint.cz/moneta/"
+        },
+        "message": {
+          "icon": "circleInfo",
+          "text": "Už slevy využíváte? Pak nabídku ignorujte.\u2028Údaje brzy aktualizujeme."
+        }
       }
     ],
     "activatedServicesTitle": "Aktivované",
@@ -31,7 +59,9 @@
           }
         ],
         "primaryButton": {
-          "text": "Přehled faktur"
+          "text": "Přehled faktur",
+          "actionType": "APPPAGE",
+          "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
         },
         "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
       }
