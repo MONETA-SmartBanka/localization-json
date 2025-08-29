@@ -1155,6 +1155,7 @@
       "category": [
         {
           "title": "Are you familiar with investing?",
+          "summaryTitle": "Knowlegde about investing",
           "detail": "We’re not here to test you. We just need to understand your level of knowledge in finance and investing.\nWould you like to invest only in mutual funds? For any questions related to investment certificates, feel free to select “I don’t know.”",
           "vocabularyTitle": "Glossary",
           "vocabularyBullets": [
@@ -1342,6 +1343,7 @@
         },
         {
           "title": "What is your experience with investing?",
+          "summaryTitle": "Experience with investing",
           "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
           "questions": [
             {
@@ -1483,6 +1485,7 @@
         },
         {
           "title": "What are your goals and needs?",
+          "summaryTitle": "Investment goals and needs",
           "detail": "This section will help you select funds whose fluctuations, potential losses, or the need for longer holding periods will not pose a significant problem for you.",
           "vocabularyTitle": "Vocabulary",
           "vocabularyBullets": [
@@ -1620,6 +1623,7 @@
         },
         {
           "title": "What are your requirements for sustainability?",
+          "summaryTitle": "Sustainability requirements",
           "detail": "If investing sustainably is important to you, this section of the questionnaire will help you choose funds that consider sustainability.",
           "vocabularyTitle": "Vocabulary",
           "vocabularyBullets": [
@@ -1761,6 +1765,7 @@
         },
         {
           "title": "Investment Guide:\nFinal Questions",
+          "summaryTitle": "Financial situation and expectations",
           "questions": [
             {
               "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
@@ -2159,6 +2164,95 @@
         "detail": "According to the investment questionnaire, you currently lack the experience and knowledge required for investing. Therefore, it is our legal duty to protect you from potential risks.\n\nWhen you are ready, you can complete the questionnaire again, {0}x again this month.",
         "primaryButton": "Zpět na přehled fondů"
       }
+    },
+    "questionnairePreexisting": {
+      "title": "You have already filled in the investment questionnaire before.\nDo you want to update it?",
+      "detail": "The questionnaire now includes new questions about additional investment opportunities.\n\nThe questionnaire is based on the European directive on markets in financial instruments (MiFID) and filling it in will take you <b>no more than 10 minutes</b>. Right after, we will recommend a mutual fund suitable for your needs.",
+      "profileTitle": "Current investment profile: {investmentProfile}",
+      "profiles": [
+        {
+          "numero": 2,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Conservative products based on the money market and short-term bonds"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Low (0.5 - 2%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "1 - 3 years"
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Conservative products with bonds and mixed products with a large share of bonds"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Medium (0.5 - 5%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "3 - 5 years"
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Dynamic mixed products with a larger portion of stocks"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "Higher (5 - 10%)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "5 years"
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "bullets": [
+            {
+              "icon": "circleInfoFill",
+              "title": "Suitable products",
+              "description": "Dynamic products with purely stock investments"
+            },
+            {
+              "icon": "investmentsFill",
+              "title": "Value fluctuation",
+              "description": "High (15% and more)"
+            },
+            {
+              "icon": "calendarFill",
+              "title": "Investment horizon",
+              "description": "5 years or more"
+            }
+          ]
+        }
+      ],
+      "primaryButton": "Continue without update",
+      "secondaryButton": "Update questionnaire"
     },
     "fundOverview": {
       "alternativeTitle": "Investments",
@@ -7014,6 +7108,18 @@
         }
       ]
     },
+    "intro": {
+      "clientProfile": "Investment Profile",
+      "introTitle": "Do you want to investbut\ndon't know in what?",
+      "introDescription": "Together we'll find suitable investments and show you how to get started.",
+      "introAdvisoryButton": "Which fund is the right one for me?",
+      "introOr": "I already know what",
+      "introInvestments": "Mutual Funds",
+      "introDIP": "LTIP",
+      "listTitle": "What type of investment are you interested in?",
+      "tabInvestments": "Mutual Funds",
+      "tabDIP": "Long-Term Investment Product"
+    },
     "list": {
       "investmentTitle": "Investments {0}",
       "dipTitle": "Long-Term Investment Product {0}",
@@ -7139,6 +7245,29 @@
         "actionType": "APPPAGE",
         "actionData": "BRANCHESATMS"
       }
+    },
+    "advisoryPromo": {
+      "title": "Investiční průvodce",
+      "detail": "Srozumitelně i pro ty, kteří nemají zkušenost s investováním.",
+      "bullets": [
+        {
+          "icon": "investmentsFill",
+          "title": "Vhodné investice najdeme společně."
+        },
+        {
+          "icon": "businessFill",
+          "title": "Spravovat je budou zkušení odborníci, kteří sledují trhy za vás."
+        },
+        {
+          "icon": "tickFill",
+          "title": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+        },
+        {
+          "icon": "infoFill",
+          "title": "Investiční příležitosti tvoří pečlivě vybrané fondy označené jako\nMONETA fondy."
+        }
+      ],
+      "primaryButton": "Pokračovat"
     },
     "notImplemented": {
       "title": "Smart Bank can't do this yet.<br/>Before we teach it, we'll be happy to help you at the branch.",
