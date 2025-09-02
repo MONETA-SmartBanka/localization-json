@@ -1141,6 +1141,7 @@
       "detail": "Answer the following questions to help you discover your investment profile and which investment products are right for you.",
       "footer": "The questions are based on the European Directive on Markets in Financial Instruments (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), and after completing them, you can update them {0}x this month.",
       "primaryButton": "Continue",
+      "secondaryButton": "Help",
       "firstCategoryPrimaryButton": "Continue",
       "middleCategoryPrimaryButton": "{0} to go",
       "lastCategoryPrimaryButton": "Done, proceed to results",
@@ -1154,6 +1155,13 @@
       "remainingTitle1": "{0} question remaining",
       "remainingTitle2": "{0} questions remaining",
       "remainingTitle5": "{0} questions remaining",
+      "chooseKnowledge1": "Choose {0} correct answer",
+      "chooseKnowledge2": "Choose up to {0} correct answers",
+      "chooseKnowledge5": "Choose up to {0} correct answers",
+      "hintKnowledge": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+      "choose1": "Choose {0} answer",
+      "choose2": "Choose up to {0} answers",
+      "choose5": "Choose up to {0} answers",
       "category": [
         {
           "title": "Are you familiar with investing?",
@@ -1194,6 +1202,7 @@
             {
               "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
               "id": 1,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1224,6 +1233,7 @@
             {
               "title": "How do mutual and investment funds work?",
               "id": 2,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1254,6 +1264,7 @@
             {
               "title": "What types of mutual funds are there?",
               "id": 3,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1284,6 +1295,7 @@
             {
               "title": "What are investment certificates?",
               "id": 4,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1314,6 +1326,7 @@
             {
               "title": "What are the risks and benefits of investment certificates?",
               "id": 5,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,

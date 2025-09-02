@@ -1141,6 +1141,7 @@
       "detail": "Odpovězte na následující otázky, díky kterým zjistíte svůj investiční profil a jaké produkty jsou vhodné pro vaše investice.",
       "footer": "Otázky vychází z evropské směrnice o trzích finančních nástrojů (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), tento měsíc ho můžete aktualizovat ještě {0}x.",
       "primaryButton": "Pokračovat",
+      "secondaryButton": "Nápověda",
       "firstCategoryPrimaryButton": "Pokračovat",
       "middleCategoryPrimaryButton": "Už jen {0}",
       "lastCategoryPrimaryButton": "Hotovo, pojďme to vyhodnotit",
@@ -1154,6 +1155,13 @@
       "remainingTitle1": "Zbývá {0} otázka",
       "remainingTitle2": "Zbývají {0} otázky",
       "remainingTitle5": "Zbývá {0} otázek",
+      "chooseKnowledge1": "Vyberte {0} správnou odpověď",
+      "chooseKnowledge2": "Vyberte až {0} správné odpovědi",
+      "chooseKnowledge5": "Vyberte až {0} správných odpovědí",
+      "hintKnowledge": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+      "choose1": "Vyberte {0} odpověď",
+      "choose2": "Vyberte až {0} odpovědi",
+      "choose5": "Vyberte až {0} odpovědí",
       "category": [
         {
           "title": "Vyznáte se v investování?",
@@ -1194,6 +1202,7 @@
             {
               "title": "Pokud zadám bance pokyn k nákupu podílových listů za určitou částku, jakou službu banka provede?",
               "id": 1,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1224,6 +1233,7 @@
             {
               "title": "Jak fungují podílové a investiční fondy?",
               "id": 2,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1254,6 +1264,7 @@
             {
               "title": "Jaké jsou druhy podílových fondů?",
               "id": 3,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1284,6 +1295,7 @@
             {
               "title": "Co jsou investiční certifikáty?",
               "id": 4,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1314,6 +1326,7 @@
             {
               "title": "Jaké jsou výhody a rizika investičních certifikátů?",
               "id": 5,
+              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
