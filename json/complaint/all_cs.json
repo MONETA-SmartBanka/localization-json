@@ -8,6 +8,15 @@
     },
     "title": "Reklamace platby",
     "scenes": {
+        "blacklist": {
+            "title": "Tuto transakci není možné reklamovat",
+            "reason": {
+              "1": "Protože platba souvisí s předplatným nebo členstvím u obchodníka, obraťte se prosím přímo na jeho zákaznickou podporu.",
+              "2": "Banka obchodníka potvrdila, že došlo k chybě při zpracování platby, a už na jejím vyřešení pracuje. Počkejte prosím, peníze vám budou brzy automaticky vráceny.",
+              "3": "U tohoto obchodníka došlo k rozsáhlému zneužití platebních karet. Pokud se potvrdí, že byla zneužita i Vaše karta, vrátí se Vám všechny peníze zpět v plné výši."
+            },
+            "primaryButton": "Rozumím"
+        },
         "transactionHistory": {
             "title": "Chcete vybrat další transakce k reklamaci?",
             "loadMoreButton": "Zobrazit další transakce",

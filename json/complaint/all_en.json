@@ -8,6 +8,15 @@
     },
     "title": "Payment dispute",
     "scenes": {
+        "blacklist": {
+            "title": "It is not possible to claim a refund for this payment",
+            "reason": {
+              "1": "As this payment is a subscription or a membership with a merchant, you will need to contact their customer service directly.",
+              "2": "The merchant's bank confirmed that there was an error while processing your payment and they are working on resloving the issue. Please wait, the money will be refunded to you automatically.",
+              "3": "There was a large-scale payment card fraud with this merchant. If it is confirmed that your card was affected, your money will be refunded to you."
+            },
+            "primaryButton": "I understand"
+        },
         "transactionHistory": {
             "title": "Do you wish to dispute more transactions?",
             "loadMoreButton": "Show more transactions",
