@@ -1150,19 +1150,19 @@
         "detail": "Jako ochranu před investicí do neodpovídajících finančních nástrojů Vám bohužel nyní neumožníme aktualizovat investiční profil.\n\nDěkujeme za pochopení.",
         "primaryButton": "Zpět na přehled fondů"
       },
+      "disqualificationReasons": {
+        "insufficientKnowledge": {
+          "title": "Pokud neznáte odpověď, investice vám nemůžeme nabídnout",
+          "detail": "Zkuste mrknout do nápovědy",
+          "primaryButton": "Nápověda",
+          "secondaryButton": "Zpět na jinou odpověď"
+        }
+      },
       "investmentCertificatesTitle": "Chcete investovat i do investičních certifikátů?",
       "investmentCertificatesDetail": "Pokud ano, budeme od vás potřebovat zodpovědět další otázky.",
       "remainingTitle1": "Zbývá {0} otázka",
       "remainingTitle2": "Zbývají {0} otázky",
       "remainingTitle5": "Zbývá {0} otázek",
-      "chooseKnowledge1": "Vyberte {0} správnou odpověď",
-      "chooseKnowledge2": "Vyberte až {0} správné odpovědi",
-      "chooseKnowledge5": "Vyberte až {0} správných odpovědí",
-      "hintKnowledge": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
-      "choose1": "Vyberte {0} odpověď",
-      "choose2": "Vyberte až {0} odpovědi",
-      "choose5": "Vyberte až {0} odpovědí",
-      "dontKnow": "Nevím.",
       "category": [
         {
           "title": "Vyznáte se v investování?",
@@ -1202,8 +1202,9 @@
           "questions": [
             {
               "title": "Pokud zadám bance pokyn k nákupu podílových listů za určitou částku, jakou službu banka provede?",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+              "showHelpSecondaryButton": true,
               "id": 1,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1227,14 +1228,17 @@
                 {
                   "title": "Nevím.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "Jak fungují podílové a investiční fondy?",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+              "showHelpSecondaryButton": true,
               "id": 2,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1258,14 +1262,17 @@
                 {
                   "title": "Nevím.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "Jaké jsou druhy podílových fondů?",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+              "showHelpSecondaryButton": true,
               "id": 3,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1289,14 +1296,17 @@
                 {
                   "title": "Nevím.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "Co jsou investiční certifikáty?",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+              "showHelpSecondaryButton": true,
               "id": 4,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1320,14 +1330,17 @@
                 {
                   "title": "Nevím.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "Jaké jsou výhody a rizika investičních certifikátů?",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
+              "showHelpSecondaryButton": true,
               "id": 5,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
               "minAnswers": 1,
@@ -1351,7 +1364,9 @@
                 {
                   "title": "Nevím.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             }
@@ -2269,12 +2284,6 @@
       ],
       "primaryButton": "Pokračovat bez aktualizace",
       "secondaryButton": "Aktualizovat dotazník"
-    },
-    "questionnaireDontKnow": {
-      "title": "Pokud neznáte odpověď, investice vám nemůžeme nabídnout",
-      "detail": "Zkuste mrknout do nápovědy",
-      "primaryButton": "Nápověda",
-      "secondaryButton": "Zpět na jinou odpověď"
     },
     "fundOverview": {
       "alternativeTitle": "Investice",

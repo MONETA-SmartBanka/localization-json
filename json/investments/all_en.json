@@ -1150,19 +1150,19 @@
         "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile now.\n\nThank you for your understanding.",
         "primaryButton": "Back to fund overview"
       },
+      "disqualificationReasons": {
+        "insufficientKnowledge": {
+          "title": "We can't offer you investments if you don't know the answer",
+          "detail": "Try looking into help",
+          "primaryButton": "Help",
+          "secondaryButton": "Back to another answer"
+        }
+      },
       "investmentCertificatesTitle": "Would you like to invest in investment certificates as well?",
       "investmentCertificatesDetail": "If so, you will need to answer a few additional questions.",
       "remainingTitle1": "{0} question remaining",
       "remainingTitle2": "{0} questions remaining",
       "remainingTitle5": "{0} questions remaining",
-      "chooseKnowledge1": "Choose {0} correct answer",
-      "chooseKnowledge2": "Choose up to {0} correct answers",
-      "chooseKnowledge5": "Choose up to {0} correct answers",
-      "hintKnowledge": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
-      "choose1": "Choose {0} answer",
-      "choose2": "Choose up to {0} answers",
-      "choose5": "Choose up to {0} answers",
-      "dontKnow": "I don't know.",
       "category": [
         {
           "title": "Are you familiar with investing?",
@@ -1202,8 +1202,9 @@
           "questions": [
             {
               "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
+              "hint": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+              "showHelpSecondaryButton": true,
               "id": 1,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1227,14 +1228,17 @@
                 {
                   "title": "I don’t know.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "How do mutual and investment funds work?",
+              "hint": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+              "showHelpSecondaryButton": true,
               "id": 2,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1258,14 +1262,17 @@
                 {
                   "title": "I don’t know.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "What types of mutual funds are there?",
+              "hint": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+              "showHelpSecondaryButton": true,
               "id": 3,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1289,14 +1296,17 @@
                 {
                   "title": "I don’t know.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "What are investment certificates?",
+              "hint": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+              "showHelpSecondaryButton": true,
               "id": 4,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1320,14 +1330,17 @@
                 {
                   "title": "I don’t know.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             },
             {
               "title": "What are the risks and benefits of investment certificates?",
+              "hint": "If you don't know the correct answer, we cannot offer you investments. Would you like to <a href=\"hint\">view help</a>?",
+              "showHelpSecondaryButton": true,
               "id": 5,
-              "dontKnowId": 4,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Select 1 answer",
               "minAnswers": 1,
@@ -1351,7 +1364,9 @@
                 {
                   "title": "I don’t know.",
                   "value": 4,
-                  "uncheckOthers": true
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
                 }
               ]
             }
@@ -2269,12 +2284,6 @@
       ],
       "primaryButton": "Continue without update",
       "secondaryButton": "Update questionnaire"
-    },
-    "questionnaireDontKnow": {
-      "title": "We can't offer you investments if you don't know the answer",
-      "detail": "Try looking into help",
-      "primaryButton": "Help",
-      "secondaryButton": "Back to another answer"
     },
     "fundOverview": {
       "alternativeTitle": "Investments",
