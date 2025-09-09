@@ -9,11 +9,15 @@
     "title": "Reklamace platby",
     "scenes": {
         "blacklist": {
-            "title": "Tuto transakci není možné reklamovat",
+            "title": {
+                "1": "Tuto transakci není možné reklamovat v Internet Bance",
+                "2": "Tuto transakci teď není možné reklamovat v Internet Bance",
+                "3": "Tuto transakci teď není možné reklamovat v Internet Bance "
+            },
             "reason": {
-              "1": "Protože platba souvisí s předplatným nebo členstvím u obchodníka, obraťte se prosím přímo na jeho zákaznickou podporu.",
-              "2": "Banka obchodníka potvrdila, že došlo k chybě při zpracování platby, a už na jejím vyřešení pracuje. Počkejte prosím, peníze vám budou brzy automaticky vráceny.",
-              "3": "U tohoto obchodníka došlo k rozsáhlému zneužití platebních karet. Pokud se potvrdí, že byla zneužita i Vaše karta, vrátí se Vám všechny peníze zpět v plné výši."
+                "1": "Protože platba souvisí s předplatným nebo členstvím u obchodníka, obraťte se prosím přímo na jeho zákaznickou podporu.<br /><br />Pokud jste se u obchodníka nikdy neregistroval*a nebo transakce proběhla až po zrušení předplatného, zavolejte nám.",
+                "2": "Tuto transakci obchodník právě prověřuje. Pokud zjistí, že byla provedena chybně, do 7 dnů vám automaticky vrátíme peníze.",
+                "3": "Tuto transakci právě prověřujeme. Pokud zjistíme, že byla provedena chybně, do 7 dnů vám automaticky vrátíme peníze."
             },
             "primaryButton": "Rozumím"
         },
