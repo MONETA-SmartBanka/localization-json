@@ -1562,6 +1562,7 @@
             },
             {
               "title": "Jaké investiční riziko je pro vás přijatelné?",
+              "hint": "Vyšší riziko znamená větší možnost zisku, ale také ztráty.",
               "id": 12,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1674,7 +1675,7 @@
           ],
           "questions": [
             {
-              "title": "Preferujete environmentálně udržitelné investice?",
+              "title": "Jak moc musí být vaše investice environmentálně udržitelné?",
               "id": 15,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1682,39 +1683,39 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "NE, nepreferuji.",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                  "title": "Minimálně z 20 %",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                  "title": "Minimálně ze 40 %",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                  "title": "Minimálně z 60 %",
                   "value": 4,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                  "title": "Minimálně z 80 %",
                   "value": 5,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji 100% environmentálně udržitelné investice",
+                  "title": "100%",
                   "value": 6,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Chci nabídku všech investic.",
+                  "value": 1,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "Preferujete udržitelné investice? ",
+              "title": "Jak moc musí být vaše investice udržitelné?",
               "id": 16,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1722,74 +1723,78 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "NE, nepreferuji",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                  "title": "Minimálně z 20 %",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                  "title": "Minimálně ze 40 %",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                  "title": "Minimálně z 60 %",
                   "value": 4,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                  "title": "Minimálně z 80 %",
                   "value": 5,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "ANO, preferuji 100% udržitelné investice",
+                  "title": "100%",
                   "value": 6,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Chci nabídku všech investic.",
+                  "value": 1,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "Chcete ve svých investicích zohlednit některé nepříznivé dopady na udržitelnost?",
+              "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
               "id": 17,
               "maxAnswers": 5,
-              "maxAnswersErrMessage": "Vybrat můžete více odpověďí",
+              "maxAnswersErrMessage": "Vyberte až 5 možností",
               "minAnswers": 1,
               "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "requiredAnswer": {
+                "title": "Ano",
+                "details": "Nabídka může být výrazně omezená."
+              },
               "answers": [
                 {
-                  "title": "NE, nemám takové preference.",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "ANO, chci zohledňovat dopad na emise skleníkových plynů.",
+                  "title": "Dopad na emise skleníkových plynů.",
                   "value": 2,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "ANO, chci zohledňovat dopad na biologickou rozmanitost.",
+                  "title": "Dopad na biologickou rozmanitost.",
                   "value": 3,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "ANO, chci zohledňovat dopad na znečištění vod.",
+                  "title": "Dopad na znečištění vod.",
                   "value": 4,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "ANO, chci zohledňovat dopad na odpad.",
+                  "title": "Dopad na odpad.",
                   "value": 5,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "ANO, chci zohledňovat dopad na sociální a zaměstnanecké otázky.",
+                  "title": "Dopad na sociální a zaměstnanecké otázky.",
                   "value": 6,
                   "uncheckOthers": false
+                },
+                {
+                  "title": "Chci nabídu všech investic.",
+                  "value": 1,
+                  "uncheckOthers": true
                 }
               ]
             }
