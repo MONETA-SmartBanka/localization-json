@@ -1201,7 +1201,7 @@
           ],
           "questions": [
             {
-              "title": "Pokud zadám bance pokyn k nákupu podílových listů za určitou částku, jakou službu banka provede?",
+              "title": "Služba, při které předáte pokyn k nákupu podílových listů za určitou částku, se nazývá:",
               "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
               "showHelpSecondaryButton": true,
               "id": 1,
@@ -1211,17 +1211,17 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Jde o službu Přijímání a předávání pokynů, protože banka předá můj pokyn investičnímu fondu, aby pro mě vydal nové podílové listy.",
+                  "title": "Přijímání a předávání pokynů",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Banka mi prodá podílové listy ze svého účtu a určí vlastní cenu, za kterou je od ní koupím.",
+                  "title": "Prodej z vlastního",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Banka najde několik prodávajících, že kterých si vyberu toho, kdo mi bude nejvíc vyhovovat, a od něj si podílové listy přímo odkoupím.",
+                  "title": "Tržiště",
                   "value": 3,
                   "uncheckOthers": true
                 },
@@ -1235,7 +1235,7 @@
               ]
             },
             {
-              "title": "Jak fungují podílové a investiční fondy?",
+              "title": "Podílové a investiční fondy:",
               "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
               "showHelpSecondaryButton": true,
               "id": 2,
@@ -1245,17 +1245,17 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Podílové i jiné investiční fondy pečují o můj majetek odděleně od ostatních klientů podle mé investiční strategie.",
+                  "title": "Pečují o mé finance odděleně od ostatních klientů podle mé unikátní investiční strategie.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Podílové a další investiční fondy shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu fondu.",
+                  "title": "Shromažďují peníze od více investorů, které poté hromadně investují.\n\nInvestor vlastní podílové listy, díky kterým má podíl na výnosu. ",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Podílové a investiční fondy nabízí pevně úročený vklad. Úrok je garantovaný, nehrozí tak žádná ztráta.",
+                  "title": "Nabízí garantovaný úrok a nehrozí tak žádná ztráta.",
                   "value": 3,
                   "uncheckOthers": true
                 },
@@ -1269,7 +1269,7 @@
               ]
             },
             {
-              "title": "Jaké jsou druhy podílových fondů?",
+              "title": "Podílové fondy se dělí na:",
               "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
               "showHelpSecondaryButton": true,
               "id": 3,
@@ -1279,18 +1279,18 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Pevné a plovoucí. U pevných podílových fondů je garantovaný přesný procentuální  výnos. U plovoucích fondů se může výnos v budoucnu měnit. Konkrétní výnos podílových fondů stanovuje banka ve svých obchodních podmínkách.",
+                  "title": "Pevné a plovoucí",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Akciové a smíšené. Akciové fondy umožňují podílení se na fungování jednotlivých podniků a hlasování na jejich valných hromadách. Smíšené fondy oproti tomu zaručují, že v žádném případě neskončí investovaná částka ve ztrátě.",
-                  "value": 2,
+                  "title": "Akciové, dluhopisové a smíšené",
+                  "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Akciové, dluhopisové a smíšené. Akciové fondy jsou nejvíce kolísavé a je u nich možnost nejvyššího zisku i ztráty. Dluhopisové fondy, které jsou nejméně kolísavé a obvykle slibují nejnižší výnos.",
-                  "value": 3,
+                  "title": "Smíšené a akciové",
+                  "value": 2,
                   "uncheckOthers": true
                 },
                 {
@@ -1303,7 +1303,7 @@
               ]
             },
             {
-              "title": "Co jsou investiční certifikáty?",
+              "title": "Investiční certifikáty:",
               "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
               "showHelpSecondaryButton": true,
               "id": 4,
@@ -1313,17 +1313,17 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Investiční certifikáty vydávají investičními fondy. Jedná se o podílové listy, ke kterým byl certifikační autoritou vystaven certifikát pravosti.",
+                  "title": "Vydávají investičními fondy. Jsou to podílové listy s vystaveným certifikátem pravosti certifikační autoritou (např. prezident nebo premiér).",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Investiční certifikáty jsou cenné papíry, které mohou mít různé vlastnosti. Každý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi nejdůležitější podmínky patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
+                  "title": "Jsou to cenné papíry, které mohou mít různé vlastnosti.\n\nKaždý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi ty nejdůležitější patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Investiční certifikáty jsou totéž co dluhopisy. Termín investiční certifikáty se používá až v poslední době, a to pouze k ozvláštnění marketingových zpráv.",
+                  "title": "Nahrazují dluhopisy. Termín investiční certifikáty se používá až v poslední době, k ozvláštnění marketingových zpráv.",
                   "value": 3,
                   "uncheckOthers": true
                 },
@@ -1337,7 +1337,7 @@
               ]
             },
             {
-              "title": "Jaké jsou výhody a rizika investičních certifikátů?",
+              "title": "Výhody a rizika investičních certifikátů jsou:",
               "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
               "showHelpSecondaryButton": true,
               "id": 5,
@@ -1347,17 +1347,17 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Výhodou investičních certifikátů je jejich rychlé a flexibilní vydání. U garantovaných certifikátů je výhodou také výrazně omezená možnost ztráty. Riziko certifikátů spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce, tzv. riziko protistrany.",
+                  "title": "Výhodou je rychlé a flexibilní vydání. U garantovaných certifikátů také výrazně omezená možnost ztráty.\n\nRiziko spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce – tzv. riziko protistrany.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Výhodou investičních certifikátů je, že jsou založeny na blockchainové technologii a mohou být proto převáděny podobně jako kryptoměny. Riziko certifikátů spočívá v nejasné regulaci, tj. velké právní riziko.",
+                  "title": "Protože jsou založeny na blockchainové technologii, jejich výhodou je, že mohou být převáděny podobně jako kryptoměny.\n\nRiziko spočívá v nejasné regulaci, která s sebou nese značnou právní nejistotu.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Výhodou investičních certifikátů je, že jsou vždy vydávány státem. Riziko investičních certifikátů spočívá zejména ve státním bankrotu.",
+                  "title": "Vydává je stát, což je výhoda, ale zároveň hrozí velké riziko, že stát zbankrotuje.",
                   "value": 3,
                   "uncheckOthers": true
                 },
@@ -1378,7 +1378,7 @@
           "detail": "Ať už jste úplný nováček, nebo investujete jako profík, určitě najdeme vhodné řešení.",
           "questions": [
             {
-              "title": "Jaké máte zkušenosti s podílovými fondy?",
+              "title": "Máte zkušenosti s podílovými fondy?",
               "id": 6,
               "maxAnswers": 3,
               "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1386,7 +1386,7 @@
               "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
               "answers": [
                 {
-                  "title": "V posledních 3 letech jsem investoval*a.",
+                  "title": "Investoval*a jsem během posledních 3 let.",
                   "value": 1,
                   "uncheckOthers": false
                 },
@@ -1408,7 +1408,7 @@
               ]
             },
             {
-              "title": "Jaké máte zkušenosti s investičními certifikáty?",
+              "title": "Máte zkušenosti s investičními certifikáty?",
               "id": 7,
               "maxAnswers": 3,
               "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1416,7 +1416,7 @@
               "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
               "answers": [
                 {
-                  "title": "V posledních 3 letech jsem investoval*a.",
+                  "title": "Investoval*a jsem během posledních 3 let.",
                   "value": 1,
                   "uncheckOthers": false
                 },
@@ -1438,7 +1438,7 @@
               ]
             },
             {
-              "title": "Jak jste investoval*a v posledních 5 letech?",
+              "title": "V posledních 5 letech jste investoval*a:",
               "id": 8,
               "maxAnswers": 3,
               "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1446,17 +1446,17 @@
               "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
               "answers": [
                 {
-                  "title": "Investoval*a jsem jednorázově více než 50 000 Kč.",
+                  "title": "Jednorázově více než 50 000 Kč.",
                   "value": 1,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "Investoval*a jsem jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
+                  "title": "Jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
                   "value": 2,
                   "uncheckOthers": false
                 },
                 {
-                  "title": "Pravidelně investuji minimálně 500 Kč měsíčně",
+                  "title": "Pravidelně aspoň 500 Kč měsíčně.",
                   "value": 3,
                   "uncheckOthers": false
                 },
@@ -1501,7 +1501,7 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Ano, za posledních 5 let mám relevantní pracovní zkušenost z kapitálových trhů.",
+                  "title": "Ano, za posledních 5 let.",
                   "value": 1,
                   "uncheckOthers": true
                 },
@@ -1531,7 +1531,7 @@
           ],
           "questions": [
             {
-              "title": "Které tvrzení nejlépe popisuje vaše chování během investování?",
+              "title": "Které tvrzení nejlépe vystihuje vaše chování během investování?",
               "id": 11,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1539,52 +1539,53 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Očekávám minimálně návrat investice, nejsem schopen unést žádnou ztrátu.",
+                  "title": "Nechci přijít ani o korunu. Investici prodám při prvním náznaku poklesu.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Akceptuji menší kolísání, jsem schopen unést případnou ztrátu do 5 %.",
+                  "title": "Akceptuji menší pokles a možnou budoucí ztrátu do 5 %.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Akceptuji kolísání, jsem schopen unést případnou ztrátu do 15 %.",
+                  "title": "Akceptuji pokles a možnou budoucí ztrátu do 15 %.",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Akceptuji vyšší kolísání, jsem schopen unést případnou ztrátu přes 15 %.",
+                  "title": "Akceptuji pokles a možnou budoucí ztrátu více než 15 %.",
                   "value": 4,
                   "uncheckOthers": true
                 }
               ]
             },
             {
-              "title": "Jaká rizika na škále od 1 (nízké riziko) do 7 (vysoké riziko) dokážete akceptovat?",
+              "title": "Jaké investiční riziko je pro vás přijatelné?",
               "id": 12,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
               "minAnswers": 1,
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "detail": "Vyšší riziko znamená větší možnost zisku, ale také ztráty.",
               "answers": [
                 {
-                  "title": "Nižší riziko: 1 až 2",
+                  "title": "Chci mít své peníze co nejvíce v bezpečí, stačí mi malý zisk.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Střední/vyšší riziko: 1 až 4",
+                  "title": "Nevadí mi menší kolísání, ale nechci přijít o větší část peněz.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Vyšší riziko: 1 až 5",
+                  "title": "Vydržím i větší výkyvy, protože chci mít možnost vyššího zisku.",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Vysoké riziko: 1 až 7",
+                  "title": "Nevadí mi, když hodnota investice hodně kolísá, klidně i výrazně klesne, pokud zároveň můžu hodně vydělat.",
                   "value": 4,
                   "uncheckOthers": true
                 }
@@ -1599,22 +1600,22 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Do 1 roku včetně",
+                  "title": "Do 1 roku.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "1 až 3 roky včetně",
+                  "title": "1 až 3 roky.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "3 až 5 roky včetně",
+                  "title": "3 až 5 let.",
                   "value": 3,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "5 až 8 let včetně",
+                  "title": "5 až 8 let.",
                   "value": 4,
                   "uncheckOthers": true
                 },
@@ -1626,7 +1627,7 @@
               ]
             },
             {
-              "title": "Budete potřebovat peníze dříve než v plánované době?",
+              "title": "Budete potřebovat investované peníze dříve než v plánované době?",
               "id": 14,
               "maxAnswers": 1,
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1634,17 +1635,17 @@
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
               "answers": [
                 {
-                  "title": "Je určitá pravděpodobnost, že budu peníze potřebovat dříve.",
+                  "title": "Spíše ano.",
                   "value": 1,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Může se stát, že budu peníze potřebovat dříve, ale je to málo pravděpodobné.",
+                  "title": "Nevím.",
                   "value": 2,
                   "uncheckOthers": true
                 },
                 {
-                  "title": "Není pravděpodobné, že budu potřebovat peníze vybrat před uplynutím plánované doby.",
+                  "title": "Spíše ne.",
                   "value": 3,
                   "uncheckOthers": true
                 }
