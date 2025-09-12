@@ -1681,6 +1681,24 @@
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
               "minAnswers": 1,
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "requiredQuestion": {
+                "title": "Musí být vaše investice environmentálně udržitelné?",
+                "maxAnswers": 1,
+                "minAnswers": 1,
+                "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                "answers": [
+                  {
+                    "title": "Ne",
+                    "value": 0
+                  },
+                  {
+                    "title": "Ano",
+                    "detail": "Nabídka investic může být omezená.",
+                    "value": 1
+                  }
+                ]
+              },
               "answers": [
                 {
                   "title": "Minimálně z 20 %",
@@ -1721,6 +1739,24 @@
               "maxAnswersErrMessage": "Vyberte 1 odpověď",
               "minAnswers": 1,
               "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "requiredQuestion": {
+                "title": "Musí být vaše investice udržitelné?",
+                "maxAnswers": 1,
+                "minAnswers": 1,
+                "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                "answers": [
+                  {
+                    "title": "Ne",
+                    "value": 0
+                  },
+                  {
+                    "title": "Ano",
+                    "detail": "Tyto investice momentálně nejsou v nabídce.",
+                    "value": 1
+                  }
+                ]
+              },
               "answers": [
                 {
                   "title": "Minimálně z 20 %",
@@ -1761,6 +1797,24 @@
               "maxAnswersErrMessage": "Vyberte až 5 možností",
               "minAnswers": 1,
               "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+              "requiredQuestion": {
+                "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
+                "maxAnswers": 1,
+                "minAnswers": 1,
+                "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                "answers": [
+                  {
+                    "title": "Ne",
+                    "value": 0
+                  },
+                  {
+                    "title": "Ano",
+                    "detail": "Nabídka může být výrazně omezená.",
+                    "value": 1
+                  }
+                ]
+              },
               "requiredAnswer": {
                 "title": "Ano",
                 "details": "Nabídka může být výrazně omezená."
@@ -1792,7 +1846,7 @@
                   "uncheckOthers": false
                 },
                 {
-                  "title": "Chci nabídu všech investic.",
+                  "title": "Chci nabídku všech investic.",
                   "value": 1,
                   "uncheckOthers": true
                 }
@@ -4607,7 +4661,7 @@
           "sellFeeValue": "0",
           "fundReportUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf",
           "kiidUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf",
-          "documents":[
+          "documents": [
             {
               "title": "Brožura",
               "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf"
