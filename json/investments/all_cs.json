@@ -1152,10 +1152,23 @@
       },
       "disqualificationReasons": {
         "insufficientKnowledge": {
+          "victoryKind": "hold",
           "title": "Pokud neznáte odpověď, investice vám nemůžeme nabídnout",
           "detail": "Zkuste mrknout do nápovědy",
           "primaryButton": "Nápověda",
-          "secondaryButton": "Zpět na jinou odpověď"
+          "primaryAction": "help",
+          "secondaryButton": "Zpět na jinou odpověď",
+          "secondaryAction": "back"
+        },
+        "noSuitableOffers": {
+          "victoryKind": "failure",
+          "title": "Mrzí nás to, ale tento typ investic momentálně není v nabídce",
+          "detail": "Pokud chcete, můžete se vrátit zpět a svou odpověď upravit.",
+          "primaryButton": "Zpět",
+          "primaryAction": "back",
+          "secondaryButton": "Ukončit dotazník",
+          "secondaryAction": "finish",
+          "showContacts": true
         }
       },
       "investmentCertificatesTitle": "Chcete investovat i do investičních certifikátů?",
