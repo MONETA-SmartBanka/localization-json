@@ -1152,10 +1152,23 @@
       },
       "disqualificationReasons": {
         "insufficientKnowledge": {
+          "victoryKind": "hold",
           "title": "We can't offer you investments if you don't know the answer",
           "detail": "Try looking into help",
           "primaryButton": "Help",
-          "secondaryButton": "Back to another answer"
+          "primaryAction": "help",
+          "secondaryButton": "Back to another answer",
+          "secondaryAction": "back"
+        },
+        "noSuitableOffers": {
+          "victoryKind": "failure",
+          "title": "We can't offer you investments of this type",
+          "detail": "If you want, you can go back and change your answer.",
+          "primaryButton": "Back",
+          "primaryAction": "back",
+          "secondaryButton": "End questionnaire",
+          "secondaryAction": "finish",
+          "showContacts": true
         }
       },
       "investmentCertificatesTitle": "Would you like to invest in investment certificates as well?",
@@ -1163,6 +1176,7 @@
       "remainingTitle1": "{0} question remaining",
       "remainingTitle2": "{0} questions remaining",
       "remainingTitle5": "{0} questions remaining",
+      "previouslySelected": "Previously selected",
       "category": [
         {
           "title": "Vyznáte se v investování?",
