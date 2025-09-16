@@ -1881,6 +1881,90 @@
           "summaryTitle": "Finanční zázemí a očekávání",
           "questions": [
             {
+              "title": "Pro službu investičního poradenství je typické:",
+              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"help\">zobrazit nápovědu</a>?",
+              "id": 18,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Na základě sdělených informací mi banka poradí nejvhodnější produkt.\n\nJá se poté rozhodnu, zda toto poradenství přijmu či nikoli.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka bude sama podle vlastního uvážení průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Banka mi prodá podílové listy ze svého účtu za cenu, kterou si sama určila.",
+                  "value": 3,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nevím.",
+                  "value": 4,
+                  "uncheckOthers": true,
+                  "startNewSection": true,
+                  "disqualificationReason": "insufficientKnowledge"
+                }
+              ]
+            },
+            {
+              "title": "Zjistil*a jste, že hodnota vaší investice momentálně poklesla o 10 %. Co uděláte?",
+              "id": 19,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Začnu zjišťovat, jak peníze vybrat.",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Nebudu dělat nic, kolísání je přirozené.",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Využiji poklesu a zainvestuji více.",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
+              "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat?",
+              "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
+              "id": 20,
+              "maxAnswers": 1,
+              "maxAnswersErrMessage": "Vyberte 1 odpověď",
+              "minAnswers": 1,
+              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+              "answers": [
+                {
+                  "title": "Do 20 %",
+                  "value": 1,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Do 50 %",
+                  "value": 2,
+                  "uncheckOthers": true
+                },
+                {
+                  "title": "Více než 50 %",
+                  "value": 3,
+                  "uncheckOthers": true
+                }
+              ]
+            },
+            {
               "title": "Jaká je přibližná hodnota vašeho finančního majetku?",
               "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
               "id": 21,
@@ -2024,64 +2108,6 @@
               ]
             },
             {
-              "title": "Pro službu investičního poradenství je typické:",
-              "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"help\">zobrazit nápovědu</a>?",
-              "id": 18,
-              "maxAnswers": 1,
-              "maxAnswersErrMessage": "Vyberte 1 odpověď",
-              "minAnswers": 1,
-              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
-              "answers": [
-                {
-                  "title": "Na základě sdělených informací mi banka poradí nejvhodnější produkt.\n\nJá se poté rozhodnu, zda toto poradenství přijmu či nikoli.",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Banka bude sama podle vlastního uvážení průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
-                  "value": 2,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Banka mi prodá podílové listy ze svého účtu za cenu, kterou si sama určila.",
-                  "value": 3,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Nevím.",
-                  "value": 4,
-                  "uncheckOthers": true,
-                  "startNewSection": true,
-                  "disqualificationReason": "insufficientKnowledge"
-                }
-              ]
-            },
-            {
-              "title": "Zjistil*a jste, že hodnota vaší investice momentálně poklesla o 10 %. Co uděláte?",
-              "id": 19,
-              "maxAnswers": 1,
-              "maxAnswersErrMessage": "Vyberte 1 odpověď",
-              "minAnswers": 1,
-              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
-              "answers": [
-                {
-                  "title": "Začnu zjišťovat, jak peníze vybrat.",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Nebudu dělat nic, kolísání je přirozené.",
-                  "value": 2,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Využiji poklesu a zainvestuji více.",
-                  "value": 3,
-                  "uncheckOthers": true
-                }
-              ]
-            },
-            {
               "title": "Pokud byste prodali investici v některé z uvedených situací, snížila by se vaše životní úroveň?",
               "detail": " Například při nákupu jídla či oblečení.",
               "id": 25,
@@ -2102,32 +2128,6 @@
                 },
                 {
                   "title": "Ani pokles hodnoty investované částky o 15 % a více % by neohrozil mou schopnost hradit základní životní potřeby.",
-                  "value": 3,
-                  "uncheckOthers": true
-                }
-              ]
-            },
-            {
-              "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat?",
-              "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
-              "id": 20,
-              "maxAnswers": 1,
-              "maxAnswersErrMessage": "Vyberte 1 odpověď",
-              "minAnswers": 1,
-              "minAnswersErrMessage": "Vyberte prosím jednu možnost",
-              "answers": [
-                {
-                  "title": "Do 20 %",
-                  "value": 1,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Do 50 %",
-                  "value": 2,
-                  "uncheckOthers": true
-                },
-                {
-                  "title": "Více než 50 %",
                   "value": 3,
                   "uncheckOthers": true
                 }
