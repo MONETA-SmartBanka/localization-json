@@ -1,638 +1,612 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "api": {
-        "title": "Our apologies, an error has ouccurred",
-        "detail": "Please try again later..",
-        "callUs": "Call Helpline",
-        "branch": "Visit a branch",
-        "primaryButton": "Back"
-      },
-      "contractDisagree": {
-        "title": "Unfortunately, that is required in order to proceed...",
-        "detail": "If you have any questions, call our Helpline or visit one of our branches.",
-        "callUs": "Call Helpline",
-        "branch": "Visit a branch",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Back"
-      },
-      "changeNotAvailable": {
-        "title": "You can change strategy again after {0}",
-        "titleNoDate": "We're currently updating your strategy. We usually complete this within 3 business days",
-        "primaryButton": "Back"
-      }
-    },
-    "scenes": {
-      "changeType": {
-        "title": "Savings Settings",
-        "deposits": {
-          "title": "Contributions and Deposits",
-          "detail": "You can receive up to an additional 340 CZK per month from the state on top of your contribution. You can also set up employer contributions here."
-        },
-        "strategy": {
-          "title": "Strategy",
-          "detail": "A bolder strategy can offer higher returns but also comes with risks."
-        },
-        "secondaryButton": "Back"
-      },
-      "depositsCalculator": {
-        "title": "Contributions and Deposits",
-        "detail": "The changes will take effect on the first day of the following month.",
-        "deposit": "Your monthly deposit",
-        "contribution": {
-          "title": "State contribution",
-          "term": "annually",
-          "description": "To receive the minimum state contribution, deposit at least <a href=\"min\">500 CZK</a> per month.\n\nFor the maximum contribution, deposit <a href=\"max\">1 700 CZK</a> or more.",
-          "message": "To receive the appropriate state contribution, you need to adjust the deposit amount in the Agreement",
-          "min": 500,
-          "max": 1700
-        },
-        "employerContribution": "My employer will make contributions",
-        "primaryButton": "Continue"
-      },
-      "depositsReview": {
-        "title": "Review",
-        "deposit": "Your monthly deposit",
-        "current": "Previous",
-        "new": "New",
-        "employerContribution": "Employer contribution",
-        "primaryButton": "Continue"
-      },
-      "esg": {
-        "primaryButton": "Continue",
-        "message": "We're sorry, but these funds are not currently available. Please choose one of the other options."
-      },
-      "questionnaireIntro": {
-        "title": "Investment questionnaire.\nWill you save boldly or cautiously?",
-        "detail": "Answer the following questions to determine your investment profile and find the best strategy for your savings.",
-        "primaryButton": "Continue",
-        "secondaryButton": "Skip the questionnaire"
-      },
-      "questionnaire": {
-        "title": "First steps to finding the best pension savings plan for you",
-        "detail": "Please take a moment to complete this questionnaire—it helps us understand your financial expectations, knowledge, and experience. With this information, we can recommend the best Supplementary Pension Savings strategy for you. It only takes a few minutes.",
-        "primaryButton": "Continue",
-        "secondaryButton": "Skip the questionnaire",
-        "skip": {
-          "title": "Do you really wish to skip the questionnaire?",
-          "subtitle": "If you don’t complete the questionnaire, we won’t be able to assess which investment strategy suits you best, and you will automatically be assigned the Conservative Strategy.",
-          "checkbox": "I choose not to complete the questionnaire and acknowledge that I may be assigned an unsuitable pension savings strategy.",
-          "primaryButton": "Skip the questionnaire",
-          "secondaryButton": "Back"
-        },
-        "notFilled": "Some questions were not filled correctly"
-      },
-      "nok": {
-        "results": [
-          {
-            "code": "CLIENT_TYPE",
-            "title": "Unfortunately, we’re unable to offer you Supplementary Pension Savings.",
-            "detail": "We’re sorry, but only natural persons are eligible to open a savings plan.\n\nHave any questions? Give us a call.",
-            "callUs": "Call Helpline",
-            "primaryButton": "Visit a branch"
-          },
-          {
-            "code": "NATIONALITY",
-            "title": "Don’t have Czech citizenship or have permanent residence outside the Czech Republic? Please visit us at one of our branches.",
-            "detail": "We can help you open Supplementary Pension Savings in person.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "TAX",
-            "title": "Do you pay taxes outside the Czech Republic? Please visit one of our branches.",
-            "detail": "We’ll be happy to set up Supplementary Pension Savings with you at one of our branches.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application",
-            "secondaryButton": "CR is my only tax residence"
-          },
-          {
-            "code": "PEP",
-            "title": "Are you a politically exposed person?",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "AML_TAX",
-            "title": "Do you pay taxes outside the Czech Republic? Please visit one of our branches.",
-            "detail": "We’ll be happy to set up Supplementary Pension Savings with you at one of our branches.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application",
-            "secondaryButton": "Back"
-          },
-          {
-            "code": "AML_GREEN_CARD",
-            "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
-            "detail": "We’re sorry, but only natural persons are eligible to open a savings plan.",
-            "primaryButton": "Cancel application",
-            "secondaryButton": "Back"
-          },
-          {
-            "code": "AML_PEP",
-            "title": "Are you a politically exposed person?",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "ID_UNVALID",
-            "title": "Update your ID documents",
-            "detail": "It looks like your ID documents are no longer valid. Please upload new ones through the Smart Banka app or visit any of our branches with your updated documents.",
-            "visitus": "Visit a branch",
-            "primaryButton": "Update documents",
-            "secondaryButton": "Cancel application"
-          },
-          {
-            "code": "WANTS_UPDATE_ID",
-            "title": "You can update your personal information easily in Smart Banka",
-            "detail": "Simply take a photo of your valid ID card.<br><br>Once we’ve reviewed and processed the uploaded document, we’ll notify you. You can then proceed to submit a new application for Supplementary Pension Savings.",
-            "primaryButton": "Cancel application and update personal information",
-            "secondaryButton": "Back"
-          },
-          {
-            "code": "PRODUCT_EXISTS",
-            "title": "You already have savings with NN",
-            "detail": "You can only have one supplementary pension savings agreement at a time. If you have a pension insurance plan, it can be transferred to a new contract — we’ll be happy to help you with that at one of our branches.",
-            "callUs": "Call Helpline",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "CZECH_PERMANENT_ADDRESS",
-            "title": "Don’t have Czech citizenship or have permanent residence outside the Czech Republic? Please visit us at one of our branches.",
-            "detail": "We can help you open Supplementary Pension Savings in person.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "AML_IDENTIFICATION",
-            "title": "An in-person meeting is requited.",
-            "detail": "We’ll be glad to set up your Supplementary Pension Savings in person at one of our branches. Just stop by—we’re here to help.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "AML_SUSPICION",
-            "title": "Please try again tomorrow.",
-            "detail": "Have any questions? Give us a call.",
-            "callUs": "Call Helpline",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "AML_NOK",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "CRR",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "INCAPACITATE",
-            "title": "Visit us at a branch together with your legal guardian.",
-            "detail": "We’ll be happy to set up supplementary pension savings for you.\n\nHave any questions? Give us a call.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "BL_ID_REJECTED",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "BL_RC_REJECTED",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "EXECUTION",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "INSOLVENCY",
-            "title": "We cannot assist you online.",
-            "detail": "Please stop by one of our branches where we will be happy to help you.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "BINF",
-            "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
-            "detail": "Unfortunately, we’re unable to assist you even at one of our branches.",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "MVCR",
-            "title": "Update your ID documents",
-            "detail": "It looks like your ID documents are no longer valid. Please upload new ones through the Smart Banka app or visit any of our branches with your updated documents.",
-            "visitus": "Visit a branch",
-            "primaryButton": "Update documents",
-            "secondaryButton": "Cancel application"
-          },
-          {
-            "code": "ADULT",
-            "title": "Visit us at a branch together with your legal guardian.",
-            "detail": "We’ll be happy to set up supplementary pension savings for you.\n\nHave any questions? Give us a call.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application"
-          },
-          {
-            "code": "SUSTAINABILITY",
-            "title": "Our apologies,\u2028no NN Fund currently meets your desired criteria ",
-            "detail": "We cannot proceed any further.",
-            "callUs": "Call Helpline",
-            "visitus": "Visit a branch",
-            "primaryButton": "Cancel application",
-            "secondaryButton": "Back to Overview"
-          }
-        ],
-        "generic": {
-          "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
-          "detail": "Unfortunately, we’re unable to assist you even at one of our branches."
-        },
-        "callus": "Call Helpline",
-        "visitus": "Visit a branch",
-        "primaryButton": "Cancel application"
-      },
-      "amlSection": {
-        "title": "Information required by law",
-        "detail": "This information is required under Act No. 253/2008 Coll., on Anti-Money Laundering",
-        "source": "Source of income",
-        "assets": "Source of personal assets",
-        "assetsMultiple": "Multiple sources",
-        "assetsDescription": "Or, if applicable, source of debt",
-        "assetsPlaceholder": "Choose",
-        "assetsOther": "Enter your other source of personal assets or debt",
-        "assetsSelectorTitle": "Enter your other source of personal assets or debt",
-        "assetsSelectorDescription": "Select at least one option:",
-        "assetsSelectorDescriptionSingle": "Select one option:",
-        "income": "Income",
-        "taxNumber": "IN",
-        "taxResidence": "CR is my only tax residence",
-        "pep": "I am not a politically exposed person",
-        "pepInfo": "A politically exposed person is an individual who holds a prominent public position or role in a government body or international organization, either in the Czech Republic or abroad (e.g., Prime Minister, Member of Parliament, prominent head of local government, judge of the Supreme or Constitutional Court, member of the Central Bank's bank board, senior officer of the armed forces). A politically exposed person is also any: 1) member of immediate family of said person (e.g., parent, child, sibling, spouse), 2) Partner or the beneficial owner of the same legal person or trust fund as said person or a person who has any other close business relationship with said person, 3) Beneficiary owner of a legal person or a trust fund created on behalf or for the benefit of said person.",
-        "greenCard": "I am not a Green Card holder, and my investment advisor or representative is not a U.S. national.",
-        "amlValues": {
-          "sourceOfIncome": [
-            {
-              "name": "Employment",
-              "value": "Příjem ze zaměstnání"
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Our apologies, an error has ouccurred",
+                "detail": "Please try again later..",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "primaryButton": "Back"
             },
-            {
-              "name": "Entrepreneur",
-              "value": "Příjem z podnikání"
+            "contractDisagree": {
+                "title": "Unfortunately, that is required in order to proceed...",
+                "detail": "If you have any questions, call our Helpline or visit one of our branches.",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Back"
             },
-            {
-              "name": "Pension / Annuity",
-              "value": "Důchod / Renta"
-            },
-            {
-              "name": "Social benefits",
-              "value": "Sociální dávky"
-            },
-            {
-              "name": "Income from family members / Winnings / Gifts",
-              "value": "Příjem od rodinných příslušníků / Výhra / Dary"
+            "changeNotAvailable": {
+                "title": "You can change strategy again after {0}",
+                "titleNoDate": "We're currently updating your strategy. We usually complete this within 3 business days",
+                "primaryButton": "Back"
             }
-          ],
-          "sourceOfAssets": [
-            {
-              "name": "Inheritance",
-              "value": "Dědictví"
+        },
+        "scenes": {
+            "changeType": {
+                "title": "Savings Settings",
+                "deposits": {
+                    "title": "Contributions and Deposits",
+                    "detail": "You can receive up to an additional 340 CZK per month from the state on top of your contribution. You can also set up employer contributions here."
+                },
+                "strategy": {
+                    "title": "Strategy",
+                    "detail": "A bolder strategy can offer higher returns but also comes with risks."
+                },
+                "secondaryButton": "Back"
             },
-            {
-              "name": "Capital assets",
-              "value": "Kapitálový majetek"
+            "depositsCalculator": {
+                "title": "Contributions and Deposits",
+                "detail": "The changes will take effect on the first day of the following month.",
+                "deposit": "Your monthly deposit",
+                "contribution": {
+                    "title": "State contribution",
+                    "term": "annually",
+                    "description": "To receive the minimum state contribution, deposit at least <a href=\"min\">500 CZK</a> per month.\n\nFor the maximum contribution, deposit <a href=\"max\">1 700 CZK</a> or more.",
+                    "message": "To receive the appropriate state contribution, you need to adjust the deposit amount in the Agreement",
+                    "min": 500,
+                    "max": 1700
+                },
+                "employerContribution": "My employer will make contributions",
+                "primaryButton": "Continue"
             },
-            {
-              "name": "Business",
-              "value": "Podníkání"
+            "depositsReview": {
+                "title": "Review",
+                "deposit": "Your monthly deposit",
+                "current": "Previous",
+                "new": "New",
+                "employerContribution": "Employer contribution",
+                "primaryButton": "Continue"
             },
-            {
-              "name": "Royalties",
-              "value": "Příjem z licenčních poplatků"
+            "esg": {
+                "primaryButton": "Continue",
+                "message": "We're sorry, but these funds are not currently available. Please choose one of the other options."
             },
-            {
-              "name": "Shareholding / Ownership in a business company",
-              "description": "Or its share",
-              "value": "Vlastnictví nebo prodej obchodní společnosti"
+            "questionnaireIntro": {
+                "title": "Investment questionnaire.\nWill you save boldly or cautiously?",
+                "detail": "Answer the following questions to determine your investment profile and find the best strategy for your savings.",
+                "primaryButton": "Continue",
+                "secondaryButton": "Skip the questionnaire"
             },
-            {
-              "name": "Realestate",
-              "description": "E.g., rent or mortgage ",
-              "value": "Vlastnictví nemovitosti"
+            "questionnaire": {
+                "title": "First steps to finding the best pension savings plan for you",
+                "detail": "Please take a moment to complete this questionnaire—it helps us understand your financial expectations, knowledge, and experience. With this information, we can recommend the best Supplementary Pension Savings strategy for you. It only takes a few minutes.",
+                "primaryButton": "Continue",
+                "secondaryButton": "Skip the questionnaire",
+                "skip": {
+                    "title": "Do you really wish to skip the questionnaire?",
+                    "subtitle": "If you don’t complete the questionnaire, we won’t be able to assess which investment strategy suits you best, and you will automatically be assigned the Conservative Strategy.",
+                    "checkbox": "I choose not to complete the questionnaire and acknowledge that I may be assigned an unsuitable pension savings strategy.",
+                    "primaryButton": "Skip the questionnaire",
+                    "secondaryButton": "Back"
+                },
+                "notFilled": "Some questions were not filled correctly"
             },
-            {
-              "name": "Gainful employment ",
-              "description": "E.g., employment",
-              "value": "Závislá činnost"
+            "nok": {
+                "results": [
+                    {
+                        "code": "CLIENT_TYPE",
+                        "title": "Unfortunately, we’re unable to offer you Supplementary Pension Savings.",
+                        "detail": "We’re sorry, but only natural persons are eligible to open a savings plan.\n\nHave any questions? Give us a call.",
+                        "callUs": "Call Helpline",
+                        "primaryButton": "Visit a branch"
+                    },
+                    {
+                        "code": "NATIONALITY",
+                        "title": "Don’t have Czech citizenship or have permanent residence outside the Czech Republic? Please visit us at one of our branches.",
+                        "detail": "We can help you open Supplementary Pension Savings in person.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "TAX",
+                        "title": "Do you pay taxes outside the Czech Republic? Please visit one of our branches.",
+                        "detail": "We’ll be happy to set up Supplementary Pension Savings with you at one of our branches.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application",
+                        "secondaryButton": "CR is my only tax residence"
+                    },
+                    {
+                        "code": "PEP",
+                        "title": "Are you a politically exposed person?",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "AML_TAX",
+                        "title": "Do you pay taxes outside the Czech Republic? Please visit one of our branches.",
+                        "detail": "We’ll be happy to set up Supplementary Pension Savings with you at one of our branches.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application",
+                        "secondaryButton": "Back"
+                    },
+                    {
+                        "code": "AML_GREEN_CARD",
+                        "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
+                        "detail": "We’re sorry, but only natural persons are eligible to open a savings plan.",
+                        "primaryButton": "Cancel application",
+                        "secondaryButton": "Back"
+                    },
+                    {
+                        "code": "AML_PEP",
+                        "title": "Are you a politically exposed person?",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "ID_UNVALID",
+                        "title": "Update your ID documents",
+                        "detail": "It looks like your ID documents are no longer valid. Please upload new ones through the Smart Banka app or visit any of our branches with your updated documents.",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Update documents",
+                        "secondaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "WANTS_UPDATE_ID",
+                        "title": "You can update your personal information easily in Smart Banka",
+                        "detail": "Simply take a photo of your valid ID card.<br><br>Once we’ve reviewed and processed the uploaded document, we’ll notify you. You can then proceed to submit a new application for Supplementary Pension Savings.",
+                        "primaryButton": "Cancel application and update personal information",
+                        "secondaryButton": "Back"
+                    },
+                    {
+                        "code": "PRODUCT_EXISTS",
+                        "title": "You already have savings with NN",
+                        "detail": "You can only have one supplementary pension savings agreement at a time. If you have a pension insurance plan, it can be transferred to a new contract — we’ll be happy to help you with that at one of our branches.",
+                        "callUs": "Call Helpline",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "CZECH_PERMANENT_ADDRESS",
+                        "title": "Don’t have Czech citizenship or have permanent residence outside the Czech Republic? Please visit us at one of our branches.",
+                        "detail": "We can help you open Supplementary Pension Savings in person.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "AML_IDENTIFICATION",
+                        "title": "An in-person meeting is requited.",
+                        "detail": "We’ll be glad to set up your Supplementary Pension Savings in person at one of our branches. Just stop by—we’re here to help.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "AML_SUSPICION",
+                        "title": "Please try again tomorrow.",
+                        "detail": "Have any questions? Give us a call.",
+                        "callUs": "Call Helpline",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "AML_NOK",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "CRR",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "INCAPACITATE",
+                        "title": "Visit us at a branch together with your legal guardian.",
+                        "detail": "We’ll be happy to set up supplementary pension savings for you.\n\nHave any questions? Give us a call.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "BL_ID_REJECTED",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "BL_RC_REJECTED",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "EXECUTION",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "INSOLVENCY",
+                        "title": "We cannot assist you online.",
+                        "detail": "Please stop by one of our branches where we will be happy to help you.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "BINF",
+                        "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
+                        "detail": "Unfortunately, we’re unable to assist you even at one of our branches.",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "MVCR",
+                        "title": "Update your ID documents",
+                        "detail": "It looks like your ID documents are no longer valid. Please upload new ones through the Smart Banka app or visit any of our branches with your updated documents.",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Update documents",
+                        "secondaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "ADULT",
+                        "title": "Visit us at a branch together with your legal guardian.",
+                        "detail": "We’ll be happy to set up supplementary pension savings for you.\n\nHave any questions? Give us a call.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application"
+                    },
+                    {
+                        "code": "SUSTAINABILITY",
+                        "title": "Our apologies,\u2028no NN Fund currently meets your desired criteria ",
+                        "detail": "We cannot proceed any further.",
+                        "callUs": "Call Helpline",
+                        "visitus": "Visit a branch",
+                        "primaryButton": "Cancel application",
+                        "secondaryButton": "Back to Overview"
+                    }
+                ],
+                "generic": {
+                    "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
+                    "detail": "Unfortunately, we’re unable to assist you even at one of our branches."
+                },
+                "callus": "Call Helpline",
+                "visitus": "Visit a branch",
+                "primaryButton": "Cancel application"
             },
-            {
-              "name": "Other",
-              "value": "Jiné"
+            "amlSection": {
+                "title": "Information required by law",
+                "detail": "This information is required under Act No. 253/2008 Coll., on Anti-Money Laundering",
+                "source": "Source of income",
+                "assets": "Source of personal assets",
+                "assetsMultiple": "Multiple sources",
+                "assetsDescription": "Or, if applicable, source of debt",
+                "assetsPlaceholder": "Choose",
+                "assetsOther": "Enter your other source of personal assets or debt",
+                "assetsSelectorTitle": "Enter your other source of personal assets or debt",
+                "assetsSelectorDescription": "Select at least one option:",
+                "assetsSelectorDescriptionSingle": "Select one option:",
+                "income": "Income",
+                "taxNumber": "IN",
+                "taxResidence": "CR is my only tax residence",
+                "pep": "I am not a politically exposed person",
+                "pepInfo": "A politically exposed person is an individual who holds a prominent public position or role in a government body or international organization, either in the Czech Republic or abroad (e.g., Prime Minister, Member of Parliament, prominent head of local government, judge of the Supreme or Constitutional Court, member of the Central Bank's bank board, senior officer of the armed forces). A politically exposed person is also any: 1) member of immediate family of said person (e.g., parent, child, sibling, spouse), 2) Partner or the beneficial owner of the same legal person or trust fund as said person or a person who has any other close business relationship with said person, 3) Beneficiary owner of a legal person or a trust fund created on behalf or for the benefit of said person.",
+                "greenCard": "I am not a Green Card holder, and my investment advisor or representative is not a U.S. national.",
+                "amlValues": {
+                    "sourceOfIncome": [
+                        {
+                            "name": "Employment",
+                            "value": "Příjem ze zaměstnání"
+                        },
+                        {
+                            "name": "Entrepreneur",
+                            "value": "Příjem z podnikání"
+                        },
+                        {
+                            "name": "Pension / Annuity",
+                            "value": "Důchod / Renta"
+                        },
+                        {
+                            "name": "Social benefits",
+                            "value": "Sociální dávky"
+                        },
+                        {
+                            "name": "Income from family members / Winnings / Gifts",
+                            "value": "Příjem od rodinných příslušníků / Výhra / Dary"
+                        }
+                    ],
+                    "sourceOfAssets": [
+                        {
+                            "name": "Inheritance",
+                            "value": "Dědictví"
+                        },
+                        {
+                            "name": "Capital assets",
+                            "value": "Kapitálový majetek"
+                        },
+                        {
+                            "name": "Business",
+                            "value": "Podníkání"
+                        },
+                        {
+                            "name": "Royalties",
+                            "value": "Příjem z licenčních poplatků"
+                        },
+                        {
+                            "name": "Shareholding / Ownership in a business company",
+                            "description": "Or its share",
+                            "value": "Vlastnictví nebo prodej obchodní společnosti"
+                        },
+                        {
+                            "name": "Realestate",
+                            "description": "E.g., rent or mortgage ",
+                            "value": "Vlastnictví nemovitosti"
+                        },
+                        {
+                            "name": "Gainful employment ",
+                            "description": "E.g., employment",
+                            "value": "Závislá činnost"
+                        },
+                        {
+                            "name": "Other",
+                            "value": "Jiné"
+                        }
+                    ],
+                    "income": [
+                        {
+                            "name": "less than 50,000 CZK a month",
+                            "value": "Do 50000 Kč"
+                        },
+                        {
+                            "name": "from 50,000 CZK to 100,000 CZK",
+                            "value": "Od 50000 Kč do 100000 Kč"
+                        },
+                        {
+                            "name": "more than 100,000 CZK",
+                            "value": "Nad 100000 Kč"
+                        }
+                    ]
+                },
+                "primaryButton": "Continue"
+            },
+            "strategyInfo": {
+                "title": "Strategy",
+                "detail": "The change will take effect no later than the next business day.\u2028If existing deposits need to be transferred to new funds, it will take an additional 3 business days.",
+                "current": "Current",
+                "info": "Information about funds",
+                "primaryButton": "Proceed to Strategy changes"
+            },
+            "strategy": {
+                "primaryButton": "Continue",
+                "selectionHeader": "Selected strategy",
+                "recommended": "Recommended",
+                "strategies": {
+                    "conservative": {
+                        "title": "Your investment profile is Cautious, and the recommended strategy is Conservative",
+                        "name": "Conservative",
+                        "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure.",
+                        "documents": [
+                            {
+                                "title": "Detailed Overview of Participant Funds",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            },
+                            {
+                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
+                            },
+                            {
+                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
+                            },
+                            {
+                                "title": "Participant Funds Portfolios",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            }
+                        ]
+                    },
+                    "balanced": {
+                        "title": "Your investment profile is Balanced, and the recommended strategy is Balanced",
+                        "name": "Balanced",
+                        "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  ",
+                        "documents": [
+                            {
+                                "title": "Detailed Overview of Participant Funds",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            },
+                            {
+                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
+                            },
+                            {
+                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
+                            },
+                            {
+                                "title": "Participant Funds Portfolios",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            }
+                        ]
+                    },
+                    "dynamic": {
+                        "title": "Your investment profile is Bold, and the recommended strategy is Dynamic",
+                        "name": "Dynamic",
+                        "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds.",
+                        "documents": [
+                            {
+                                "title": "Detailed Overview of Participant Funds",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            },
+                            {
+                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
+                            },
+                            {
+                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
+                            },
+                            {
+                                "title": "Participant Funds Portfolios",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            }
+                        ]
+                    },
+                    "custom": {
+                        "title": "You have selected a Custom profile. The recommended strategy is Conservative",
+                        "name": "Custom",
+                        "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy.",
+                        "documents": [
+                            {
+                                "title": "Detailed Overview of Participant Funds",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            },
+                            {
+                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
+                            },
+                            {
+                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
+                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
+                            },
+                            {
+                                "title": "Participant Funds Portfolios",
+                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
+                            }
+                        ]
+                    }
+                },
+                "funds": {
+                    "conservative": "Conservative fund",
+                    "balanced": "Balanced fund",
+                    "growth": "Dynamic fund"
+                },
+                "fundsLocalizations": {
+                    "CON": {
+                        "title": "Conservative fund",
+                        "color": "accent2"
+                    },
+                    "BAL": {
+                        "title": "Balanced fund",
+                        "color": "accent3"
+                    },
+                    "GROW": {
+                        "title": "Dynamic fund",
+                        "color": "accent7"
+                    }
+                },
+                "disclaimer": "I understand that the strategy I’ve chosen differs from the recommended one based on the investment questionnaire.",
+                "disclaimerValidation": "Confirm the acknowledgment in order to continue.",
+                "fundsInfo": {
+                    "title": "Fund information",
+                    "detail": "<a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf\">Povinný konzervativní fond NN Penzijní společnosti, a. s.</a><br>Konzervativní fond pro ty, kteří chtějí bezpečně uložit peníze i za cenu nízkého výnosu.<br>Investované peníze jsou uloženy na běžných účtech bank, termínovaných vkladech a ve státních dluhopisech.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf\">Vyvážený účastnický fond NN Penzijní společnosti, a. s.</a><br>Vyvážený fond zaměřený na dlouhodobý růst akciových trhů a snížení rizika investicemi do dluhopisů.<br><br>Investice je rozdělena v poměru 60:40 na dluhopisy a akci.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf\">Růstový účastnický fond NN Penzijní společnosti, a. s.</a><br>Růstový fond pro dlouhodobé investice s důrazem na maximální zhodnocení i přes možné kolísání trhů.<br><br>Investice je téměř 100% zaměřena na akcie a podobné instrumenty."
+                },
+                "change": {
+                    "title": "To the new fund I wish to transfer",
+                    "detail": "The change will take effect on the first day of the following month.  ",
+                    "everything": {
+                        "title": "All existing and new funds",
+                        "detail": "Processing will take extra 3 business days"
+                    },
+                    "new": {
+                        "title": "Only new funds"
+                    },
+                    "validation": "Confirm the acknowledgment in order to continue."
+                },
+                "validationSum": "The sum of the distribution of the funds must be equal to 100 %",
+                "alreadySelected": {
+                    "title": "This strategy has already been set",
+                    "detail": "Do you wish to change it?",
+                    "primaryButton": "Change strategy",
+                    "secondaryButton": "Cancel settings"
+                }
+            },
+            "scoring": {
+                "title": "Just a moment while we review the details",
+                "detail": "It should only take a moment"
+            },
+            "contract": {
+                "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
+                "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email. ",
+                "primaryButton": "Agree and accept",
+                "secondaryButton": "Decline",
+                "loading": {
+                    "title": "We're almost done,\njust need to sign the contract",
+                    "detail": "Give us a minute to get it ready"
+                },
+                "signByUs": {
+                    "title": "Now we have to sign it",
+                    "detail": "It'll just take a minute."
+                }
+            },
+            "depositVictory": {
+                "title": "Done! The change will become effective from {0}",
+                "detail": "If your employer is going to contribute to your savings, please share your NN Penzijní Společnost agreement with them. You can find it in your email.",
+                "tooltip": "Don't forget to set up a standing order amount for {0}.",
+                "section": "Set up a standing order for {0} from:",
+                "dateTitle": "Execute on the",
+                "dateValue": "{0}. of the month",
+                "from": "From",
+                "defaultValue": 25,
+                "dateValues": [
+                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+                    18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
+                ],
+                "firstPayment": "First Payment {0}",
+                "primaryButton": "Set up the standing order",
+                "primaryButtonWoStandingOrder": "Back to Overview",
+                "secondaryButton": "Set up later",
+                "destinationAccountNumber": {
+                    "bankCode": 800,
+                    "number": 5005004433
+                },
+                "standingOrderName": "Pension savings"
+            },
+            "strategyVictory": {
+                "title": "Done!\nYou will receive a confirmation of the change in your Supplementary Pension Savings strategy by email.",
+                "primaryButton": "Back to Overview"
+            },
+            "standingOrderVictory": {
+                "title": "Trvalý příkaz byl přijat ke zpracování",
+                "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
+                "primaryButton": "Back to Overview"
+            },
+            "help": {
+                "title": "Help",
+                "detail": "With a state contribution of up to CZK 2,760 per year, saving for retirement is easier. You can also take advantage of a tax credit of up to CZK 3,600 per year.",
+                "iconBullets": [
+                    {
+                        "icon": "starsAltFill",
+                        "text": "No setup or maintenance fees"
+                    },
+                    {
+                        "icon": "starsAltFill",
+                        "text": "Arrange right in the app"
+                    },
+                    {
+                        "icon": "starsAltFill",
+                        "text": "Up to 6,360 CZK a year in state contribution and tax credit"
+                    },
+                    {
+                        "icon": "starsAltFill",
+                        "text": "This offer has been realized in collaboration with NN Penzijní společnost"
+                    }
+                ],
+                "footerText": "More information",
+                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
+                "helpHeadline": "Would you like to learn more?",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "primaryButton": "Continue application",
+                "secondaryButton": "Save and continue later",
+                "tertiaryButton": "Cancel application"
             }
-          ],
-          "income": [
-            {
-              "name": "less than 50,000 CZK a month",
-              "value": "Do 50000 Kč"
-            },
-            {
-              "name": "from 50,000 CZK to 100,000 CZK",
-              "value": "Od 50000 Kč do 100000 Kč"
-            },
-            {
-              "name": "more than 100,000 CZK",
-              "value": "Nad 100000 Kč"
-            }
-          ]
-        },
-        "primaryButton": "Continue"
-      },
-      "strategyInfo": {
-        "title": "Strategy",
-        "detail": "The change will take effect no later than the next business day.\u2028If existing deposits need to be transferred to new funds, it will take an additional 3 business days.",
-        "current": "Current",
-        "info": "Information about funds",
-        "primaryButton": "Proceed to Strategy changes"
-      },
-      "strategy": {
-        "primaryButton": "Continue",
-        "selectionHeader": "Selected strategy",
-        "recommended": "Recommended",
-        "strategies": {
-          "conservative": {
-            "title": "Your investment profile is Cautious, and the recommended strategy is Conservative",
-            "name": "Conservative",
-            "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure.",
-            "documents": [
-              {
-                "title": "Detailed Overview of Participant Funds",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              },
-              {
-                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
-              },
-              {
-                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
-              },
-              {
-                "title": "Participant Funds Portfolios",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              }
-            ]
-          },
-          "balanced": {
-            "title": "Your investment profile is Balanced, and the recommended strategy is Balanced",
-            "name": "Balanced",
-            "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  ",
-            "documents": [
-              {
-                "title": "Detailed Overview of Participant Funds",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              },
-              {
-                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
-              },
-              {
-                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
-              },
-              {
-                "title": "Participant Funds Portfolios",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              }
-            ]
-          },
-          "dynamic": {
-            "title": "Your investment profile is Bold, and the recommended strategy is Dynamic",
-            "name": "Dynamic",
-            "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds.",
-            "documents": [
-              {
-                "title": "Detailed Overview of Participant Funds",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              },
-              {
-                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
-              },
-              {
-                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
-              },
-              {
-                "title": "Participant Funds Portfolios",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              }
-            ]
-          },
-          "custom": {
-            "title": "You have selected a Custom profile. The recommended strategy is Conservative",
-            "name": "Custom",
-            "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy.",
-            "documents": [
-              {
-                "title": "Detailed Overview of Participant Funds",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              },
-              {
-                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-              },
-              {
-                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-              },
-              {
-                "title": "Participant Funds Portfolios",
-                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-              }
-            ]
-          }
-        },
-        "funds": {
-          "conservative": "Conservative fund",
-          "balanced": "Balanced fund",
-          "growth": "Dynamic fund"
-        },
-        "fundsLocalizations": {
-          "CON": {
-            "title": "Conservative fund",
-            "color": "accent2"
-          },
-          "BAL": {
-            "title": "Balanced fund",
-            "color": "accent3"
-          },
-          "GROW": {
-            "title": "Dynamic fund",
-            "color": "accent7"
-          }
-        },
-        "disclaimer": "I understand that the strategy I’ve chosen differs from the recommended one based on the investment questionnaire.",
-        "disclaimerValidation": "Confirm the acknowledgment in order to continue.",
-        "fundsInfo": {
-          "title": "Fund information",
-          "detail": "<a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf\">Povinný konzervativní fond NN Penzijní společnosti, a. s.</a><br>Konzervativní fond pro ty, kteří chtějí bezpečně uložit peníze i za cenu nízkého výnosu.<br>Investované peníze jsou uloženy na běžných účtech bank, termínovaných vkladech a ve státních dluhopisech.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf\">Vyvážený účastnický fond NN Penzijní společnosti, a. s.</a><br>Vyvážený fond zaměřený na dlouhodobý růst akciových trhů a snížení rizika investicemi do dluhopisů.<br><br>Investice je rozdělena v poměru 60:40 na dluhopisy a akci.<br><br><a href=\"https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf\">Růstový účastnický fond NN Penzijní společnosti, a. s.</a><br>Růstový fond pro dlouhodobé investice s důrazem na maximální zhodnocení i přes možné kolísání trhů.<br><br>Investice je téměř 100% zaměřena na akcie a podobné instrumenty."
-        },
-        "change": {
-          "title": "To the new fund I wish to transfer",
-          "detail": "The change will take effect on the first day of the following month.  ",
-          "everything": {
-            "title": "All existing and new funds",
-            "detail": "Processing will take extra 3 business days"
-          },
-          "new": {
-            "title": "Only new funds"
-          },
-          "validation": "Confirm the acknowledgment in order to continue."
-        },
-        "validationSum": "The sum of the distribution of the funds must be equal to 100 %",
-        "alreadySelected": {
-          "title": "This strategy has already been set",
-          "detail": "Do you wish to change it?",
-          "primaryButton": "Change strategy",
-          "secondaryButton": "Cancel settings"
         }
-      },
-      "scoring": {
-        "title": "Just a moment while we review the details",
-        "detail": "It should only take a moment"
-      },
-      "contract": {
-        "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
-        "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email. ",
-        "primaryButton": "Agree and accept",
-        "secondaryButton": "Decline",
-        "loading": {
-          "title": "We're almost done,\njust need to sign the contract",
-          "detail": "Give us a minute to get it ready"
-        },
-        "signByUs": {
-          "title": "Now we have to sign it",
-          "detail": "It'll just take a minute."
-        }
-      },
-      "depositVictory": {
-        "title": "Done! The change will become effective from {0}",
-        "detail": "If your employer is going to contribute to your savings, please share your NN Penzijní Společnost agreement with them. You can find it in your email.",
-        "tooltip": "Don't forget to set up a standing order amount for {0}.",
-        "section": "Set up a standing order for {0} from:",
-        "dateTitle": "Execute on the",
-        "dateValue": "{0}. of the month",
-        "from": "From",
-        "defaultValue": 25,
-        "dateValues": [
-          1,
-          2,
-          3,
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28
-        ],
-        "firstPayment": "First Payment {0}",
-        "primaryButton": "Set up the standing order",
-        "primaryButtonWoStandingOrder": "Back to Overview",
-        "secondaryButton": "Set up later",
-        "destinationAccountNumber": {
-          "bankCode": 800,
-          "number": 5005004433
-        },
-        "standingOrderName": "Pension savings"
-      },
-      "strategyVictory": {
-        "title": "Done!\nYou will receive a confirmation of the change in your Supplementary Pension Savings strategy by email.",
-        "primaryButton": "Back to Overview"
-      },
-      "standingOrderVictory": {
-        "title": "Trvalý příkaz byl přijat ke zpracování",
-        "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
-        "primaryButton": "Back to Overview"
-      },
-      "help": {
-        "title": "Help",
-        "detail": "With a state contribution of up to CZK 2,760 per year, saving for retirement is easier. You can also take advantage of a tax credit of up to CZK 3,600 per year.",
-        "iconBullets": [
-          {
-            "icon": "starsAltFill",
-            "text": "No setup or maintenance fees"
-          },
-          {
-            "icon": "starsAltFill",
-            "text": "Arrange right in the app"
-          },
-          {
-            "icon": "starsAltFill",
-            "text": "Up to 6,360 CZK a year in state contribution and tax credit"
-          },
-          {
-            "icon": "starsAltFill",
-            "text": "This offer has been realized in collaboration with NN Penzijní společnost"
-          }
-        ],
-        "footerText": "More information",
-        "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-        "helpHeadline": "Would you like to learn more?",
-        "callUs": "Call Helpline",
-        "branch": "Visit a branch",
-        "primaryButton": "Continue application",
-        "secondaryButton": "Save and continue later",
-        "tertiaryButton": "Cancel application"
-      }
     }
-  }
 }

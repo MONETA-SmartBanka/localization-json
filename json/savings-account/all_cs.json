@@ -1,622 +1,622 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "precontractDisagree": {
-        "title": "Bez souhlasu to bohužel nepůjde",
-        "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli poskytnout, potřebujeme od Vás souhlas s předsmluvními informacemi a podpis dispozic a zvláštních ujednání. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání"
-      },
-      "branch": {
-        "title": "Potřebujeme od vás více informací, zastavte se prosím za námi na pobočce",
-        "callUs": "Zavolejte nám na infolinku",
-        "branch": "Navštivte nás na pobočce",
-        "primaryButton": "Najít nejbližší pobočku",
-        "secondaryButton": "Zpět na Přehled"
-      },
-      "contractDisagree": {
-        "title": "Bez souhlasu to bohužel nepůjde",
-        "detail": "Od účtu Vás dělí už jen krůček. Abychom ho mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání účtu"
-      },
-      "scoring": {
-        "title": "Omlouváme se, něco se vymňouklo",
-        "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
-        "branch": "Navštivte nás\nna pobočce",
-        "primaryButton": "Zpět na přehled zůstatků"
-      },
-      "api": {
-        "title": "Omlouváme se, něco se vymňouklo",
-        "detail": "Teď nemůžeme pokračovat, zkuste to prosím za chvíli.",
-        "callUs": "Na infolince\nzavolejte nám",
-        "primaryButton": "Zpět na Přehled zůstatků"
-      },
-      "longTermScreens": {
-        "SCORING_UNAVAILABLE": {
-          "title": "Chrrr...chrrr...chrrr...",
-          "detail": "V noci provádíme údržbu systémů, proto některé nemusí být dostupné.<br><br><b>Vraťte se prosím za jednu až dvě hodiny, to už budeme zase vzhůru.</b>",
-          "primaryButton": "Zpět na přehled zůstatků"
-        },
-        "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "Toto bude trvat celou noc...",
-          "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
-          "primaryButton": "Zpět na přehled zůstatků"
-        },
-        "CONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "Toto bude trvat celou noc...",
-          "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
-          "primaryButton": "Zpět na přehled zůstatků"
-        }
-      }
-    },
-    "general": {
-      "toolbarTitle": "Spořicí účet",
-      "phoneNumberSale": "800 102 040",
-      "phoneNumberSupport": "224 443 636",
-      "messengerUrl": "https://m.me/138479367229",
-      "supportChat": "<b>Jako na pobočce</b> – klikněte, a náš bankéř Vám se sjednáním rád pomůže v online chatu"
-    },
-    "scenes": {
-      "helpPersonalDetail": {
-        "title": "Kontrola Vašich informací",
-        "toolbarTitle": "Spořicí účet",
-        "detail": "Musíme spolu zkontrolovat, jestli ve Vašich informacích nenastala nějaká změna. Pokud ano, doložíte ji v dalším kroku pomocí občanského průkazu. Jednoduše ho vyfotíte přímo v naší aplikaci a budeme moci hned pokračovat. Focení je u nás samozřejmě zabezpečené. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání účtu",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce"
-      },
-      "helpUploadDocument": {
-        "title": "Bez aktuálního dokladu to bohužel nepůjde",
-        "toolbarTitle": "Spořicí účet",
-        "detail": "Ve Vašich osobních údajích nastala změna, kterou je třeba potvrdit fotografií Vašich aktuálních dokladů. Focení je u nás samozřejmě zabezpečené a zabere jen minutku. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání účtu",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce"
-      },
-      "helpOffer": {
-        "title": "Co je dobré vědět",
-        "toolbarTitle": "Spořicí účet",
-        "bullets": [
-          "<b>S novým spořicím účtem můžete získat až 2,6 % ročně do 1 000 000 Kč</b>",
-          "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-          "<b>Vedení účtu a domácí elektronické transakce</b> máte samozřejmě zdarma",
-          "Peníze máte k dispozici ihned bez <b>výpovědní lhůty</b>",
-          "Přehled máte v Internet Bance a v aplikaci Smart Banka, nejlépe hodnocené aplikaci na trhu",
-          "Vaše vklady jsou ze zákona pojištěny až do výše 100 000 EUR",
-          "Úroky se připisují měsíčně"
-        ],
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání účtu",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce"
-      },
-      "helpOfferEUR": {
-        "title": "Co je dobré vědět",
-        "toolbarTitle": "Spořicí účet",
-        "bullets": [
-          "Založení a vedení spořicího účtu v EUR zdarma.",
-          "Kompletní přístup k&nbsp;účtu přímo z vaší Internet Banky a Smart Banky.",
-          "Převody mezi eurovými účty v rámci EU a&nbsp;EHP zdarma.",
-          "Elektronické výpisy zcela zdarma.",
-          "Pojištění vašich vkladů až do 100 000 EUR.",
-          "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet\">najdete na našem webu</a>."
-        ],
-        "primaryButton": "Pokračovat ve sjednání účtu",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce"
-      },
-      "redirectToCurrentAccount": {
-        "title": "Abyste mohli začít spořit, založte si nejdříve cizoměnový účet v {currency}",
-        "detail": "S ním si budete moct snadno převádět peníze na spořicí účet v {currency}.",
-        "primaryButton": "Založit {currency} účet"
-      },
-      "documentUploadReview": {
-        "title": "Přečetli jsme vše správně?",
-        "firstName": "Jméno",
-        "lastName": "Příjmení",
-        "birthNumber": "Rodné číslo",
-        "city": "Město",
-        "descriptiveNumber": "Č. popisné",
-        "orientationNumber": "Č. orientační",
-        "idCardNumber": "Číslo dokladu",
-        "idCardValidTo": "Platnost do",
-        "citizenship": "Státní občanství",
-        "street": "Ulice",
-        "zipCode": "PSČ",
-        "primaryButton": "Ano, pokračovat",
-        "secondaryButton": "Vyfotit znovu"
-      },
-      "documentUploadRetry": {
-        "title": "Jejda, takhle to nepůjde",
-        "detail": "Nepodařilo se nám načíst Vaše údaje. Ujistěte se prosím, že fotíte za dobrého osvětlení a texty jsou ostré a čitelné.",
-        "tryAgain": "Zkusme to ještě jednou:",
-        "primaryButton": "Vyfotit znovu"
-      },
-      "manualCheck": {
-        "title": "Vaši žádost musíme prověřit, a to může chvíli trvat",
-        "detail": "Nejpozději za dva pracovní dny zde najdete výsledek. Děkujeme za pochopení.",
-        "primaryButton": "Zpět na Přehled zůstatků"
-      },
-      "scoringNok": {
-        "title": "Po prověření Vaší žádosti Vám bohužel účet nemůžeme nabídnout",
-        "detail": "<b>Pokud máte dotaz, jak dál postupovat, kontaktujte nás.</b>",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "primaryButton": "Ukončit žádost"
-      },
-      "documentUpload": {
-        "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
-        "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
-        "primaryButton": "Pokračovat",
-        "uploadedDocument": {
-          "title": "<b>Vyfoťte prosím obě strany svého občanského průkazu.</b>",
-          "labels": [
-            "Přidejte přední stranu<br>občanského průkazu",
-            "Přidejte zadní stranu<br>občanského průkazu"
-          ]
-        },
-        "uploadPicker": {
-          "title": "Vyberte způsob nahrání dokumentu",
-          "camera": "Vyfotit",
-          "photos": "Vybrat z galerie",
-          "files": "Vybrat ze souborů"
-        }
-      },
-      "savingsOffer": {
-        "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
-        "bullets": [
-          "<b>S novým spořicím účtem můžete získat až {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
-          "Úroky jsou připisované měsíčně",
-          "Vedení účtu a domácí transakce <b>zdarma</b>",
-          "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-          "Pojištění Vašich vkladů až do výše 100 000 EUR"
-        ],
-        "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
-        "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
-        "primaryButton": "Založit si spořicí účet"
-      },
-      "savingsOfferEUR": {
-        "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % ročně až do {MAXIMAL_TIER1} EUR",
-        "bullets": [
-          "Založení a vedení spořicího účtu v EUR zdarma.",
-          "Kompletní přístup k&nbsp;účtu přímo z vaší Internet Banky a Smart Banky.",
-          "Převody mezi eurovými účty v rámci EU a EHP zdarma.",
-          "Elektronické výpisy zcela zdarma.",
-          "Pojištění vašich vkladů až do 100 000 EUR.",
-          "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet\">najdete na našem webu</a>."
-        ],
-        "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
-        "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
-        "primaryButton": "Založit spořicí účet"
-      },
-      "savingsOfferDpsCrossSell": {
-        "title": "Spořte s úrokem 2,6 % p. a.",
-        "bullets": [
-          "<b>Úrok pro částku do 1 000 000 Kč Vám garantujeme do 30. 9. 2025.</b>"
-        ],
-        "caption": "Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-        "crossSellSection": {
-          "title": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření",
-          "bullets": [
-            "Nezapomeňte si ho založit ve Smart Bance po sjednání spořicího účtu.",
-            "Vložte si na něj <b>20 000 Kč ročně</b> a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
-            "Stačí si na něj převést část peněz ze spořicího účtu."
-          ]
-        },
-        "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
-        "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
-        "primaryButton": "Založit si spořicí účet zdarma"
-      },
-      "savingsOfferTiersVIP": [
-        {
-          "title": "MIMOŘÁDNÝ spořicí účet s úrokem 2,8 % p. a.",
-          "bullets": [
-            "<b>2,8 % ročně bez podmínek</b>",
-            "Úrokovou sazku Vám garantujeme do 30. 9. 2025",
-            "<b>Neomezená výše vkladu</b>",
-            "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
-            "Otevření účtu v Internet Bance během chvilky"
-          ]
-        }
-      ],
-      "savingsOfferTiersBySalesProdType": [
-        {
-          "salesProdType": "13038",
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
-          "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1} a bez podmínek",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad {MAXIMAL_TIER1} jsou úročeny sazbou {INTEREST_RATE_TIER2} % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad {MAXIMAL_TIER1} jsou úročeny sazbou {INTEREST_RATE_TIER2} % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>"
-          ]
-        },
-        {
-          "salesProdType": "13048",
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a. s neomezenou výší vkladu",
-          "body": "Spořicí účet je bez podmínek a poplatků",
-          "footer": "Abyste mohli začít spořit, založte si nejdříve cizoměnový účet v {currency}",
-          "bullets": [
-            "Založení a vedení spořicího účtu v EUR zdarma.",
-            "Kompletní přístup k účtu přímo z vaší Internet Banky a Smart Banky.",
-            "Peníze máte kdykoliv k dispozici",
-            "Elektronické výpisy zcela zdarma.",
-            "Pojištění vašich vkladů až do 100 000 EUR.",
-            "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">najdete na našem webu</a>."
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně s neomezenou výší vkladu",
-            "<b>Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">najdete na našem webu</a>."
-          ]
-        },
-        {
-          "salesProdType": "13039",
-          "title": "Spořte s úrokem 2,6 % p. a.",
-          "body": "Zhodnocení 2,6 % ročně do 1 000 000 Kč a bez podmínek",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat 2,6 % ročně do 1 000 000 Kč</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\" target=\"_blank\">www.moneta.cz</a>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat 2,6 % ročně do 1 000 000 Kč</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\" target=\"_blank\">www.moneta.cz</a>"
-          ]
-        },
-        {
-          "salesProdType": "13001",
-          "title": "Spořte s úrokem 2,8 % p. a.",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat 2,8 % ročně bez omezení výše vkladu",
-            "Tuto sazbu Vám garantujeme až do 30. 9. 2025",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat 2,8 % ročně bez omezení výše vkladu",
-            "Tuto sazbu Vám garantujeme až do 30. 9. 2025"
-          ]
-        },
-        {
-          "salesProdType": "13045",
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
-          "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu a dalších podmínek",
-            "Limitovaná a časově omezená nabídka",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu a dalších podmínek",
-            "Limitovaná a časově omezená nabídka"
-          ]
-        },
-        {
-          "salesProdType": "default",
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
-          "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ],
-          "crossSellBullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>"
-          ]
-        },
-        {
-          "salesProdType": null,
-          "title": "Tento spořicí účet už máte",
-          "bullets": [
-            "Prohlédněte si naše další <a href=\"https://www.moneta.cz/sporeni-a-investice\" target=\"_blank\">spořicí produkty nebo vyzkoušejte investice</a>"
-          ]
-        },
-        {
-          "salesProdType": "13027",
-          "title": "MIMOŘÁDNÝ spořicí účet s úrokem 2,8 % p. a.",
-          "body": "Zhodnocení 2,8 % ročně s neomezenou výší vkladu",
-          "bullets": [
-            "<b>2,8 % ročně bez podmínek</b>",
-            "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
-            "<b>Neomezená výše vkladu</b>",
-            "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
-            "Otevření účtu online během chvilky"
-          ],
-          "crossSellBullets": [
-            "<b>2,8 % ročně bez podmínek</b>",
-            "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
-          ]
-        },
-        {
-          "salesProdType": "13043",
-          "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,1 % p. a.",
-          "body": "Zhodnocení 3,1 % ročně s neomezenou výší vkladu",
-          "bullets": [
-            "<b>3,1 % ročně bez podmínek</b>",
-            "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
-            "<b>Neomezená výše vkladu</b>",
-            "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
-            "Otevření účtu online během chvilky"
-          ],
-          "crossSellBullets": [
-            "<b>3,1 % ročně bez podmínek</b>",
-            "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
-          ]
-        },
-        {
-          "salesProdType": "13044",
-          "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,3 % p. a.",
-          "body": "Zhodnocení 3,3 % ročně s neomezenou výší vkladu",
-          "bullets": [
-            "<b>3,3 % ročně bez podmínek</b>",
-            "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
-            "<b>Neomezená výše vkladu</b>",
-            "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
-            "Otevření účtu online během chvilky"
-          ],
-          "crossSellBullets": [
-            "<b>3,3 % ročně bez podmínek</b>",
-            "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
-          ]
-        },
-        {
-          "salesProdType": "13041",
-          "title": "SKVĚLÁ NABÍDKA PRO AKTIVNÍ KLIENTY\nSpořicí účet s úrokovou sazbou až 5,0 % p. a. bez omezení výše vkladu",
-          "body": "Zhodnocení až 5,0 % ročně za aktivní využívání běžného účtu a bez omezení výše vkladu",
-          "bullets": [
-            "<b>Zhodnocení 5,0 % ročně za aktivní využívání běžného účtu. Základní sazbu 4,6 % ročně Vám garantujeme do 2. 6. 2024.</b>",
-            "Pro získání sazby 5,0 % p. a. stačí, když Vám na běžný účet přijde alespoň 15 000 Kč měsíčně a 10x zaplatíte platební kartou.",
-            "Neomezená výše vkladu",
-            "Žádné poplatky. Jak jste u nás zvyklí",
-            "Otevření učtu online během chvilky"
-          ],
-          "crossSellBullets": [
-            "<b>Zhodnocení 5,0 % ročně za aktivní využívání běžného účtu. Základní sazbu 5,0 % ročně Vám garantujeme do 2. 6. 2024.</b>",
-            "Pro získání sazby 5,0 % p. a. stačí, když Vám na běžný účet přijde alespoň 15 000 Kč měsíčně a 10x zaplatíte platební kartou."
-          ]
-        }
-      ],
-      "savingsOfferTiers": [
-        {
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ]
-        },
-        {
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ]
-        },
-        {
-          "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
-          "bullets": [
-            "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
-            "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
-            "Úroky jsou připisované měsíčně",
-            "Vedení účtu a domácí transakce <b>zdarma</b>",
-            "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
-            "Pojištění Vašich vkladů až do výše 100 000 EUR"
-          ]
-        }
-      ],
-      "identification": {
-        "title": "Platí Vaše osobní údaje?",
-        "firstName": "Jméno",
-        "lastName": "Příjmení",
-        "citizenship": "Státní občanství",
-        "taxResidence": "Daňová rezidence",
-        "taxResidenceInfoTitle": "Určení daňové rezidence",
-        "taxResidenceInfoBody": "Dovolujeme si Vás požádat o informace za účelem plnění Společného standardu pro náležitou péči v oblasti informací o finančních účtech za účelem výměny informací poskytovaných finančními institucemi daňovým správám na základě Mnohostranné dohody příslušných orgánů o automatické výměně informací o finančních účtech (v případě banky se jedná o běžné, spořicí účty a termínované vklady).",
-        "vat": "DIČ",
-        "phone": "Telefon",
-        "anotherVat": "Přidat další daňovou rezidenci",
-        "primaryButton": "Ano, pokračovat"
-      },
-      "contactAddress": {
-        "title": "Máme správně Vaši kontaktní adresu?",
-        "streetTitle": "Ulice",
-        "descriptiveNumberTitle": "Č. p.",
-        "orientationNumberTitle": "Č. or.",
-        "cityTitle": "Město",
-        "zipTitle": "PSČ",
-        "countryTitle": "Země",
-        "primaryButton": "Ano, pokračovat"
-      },
-      "permanentAddress": {
-        "title": "Máme správně Váš trvalý pobyt?",
-        "streetTitle": "Ulice",
-        "descriptiveNumberTitle": "Č. p.",
-        "orientationNumberTitle": "Č. or.",
-        "cityTitle": "Město",
-        "zipTitle": "PSČ",
-        "countryTitle": "Země",
-        "primaryButton": "Ano, pokračovat"
-      },
-      "staticDocuments": {
-        "title": "Seznamte se s důležitými smluvními dokumenty",
-        "subtitle": "Všechny dokumenty najdete ve své Smart Bance v sekci <b>Moje dokumenty</b>.",
-        "primaryButton": "S dokumenty jsem se seznámil/a",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "precontractInfo": {
-        "title": "Přečtěte si pečlivě předsmluvní informace",
-        "resend": "Stáhněte si PDF",
-        "secondaryButton": "Nesouhlasím",
-        "primaryButton": "Souhlasím, pokračovat"
-      },
-      "contract": {
-        "title": "Přečtete si pečlivě smlouvu s parametry produktu",
-        "resend": "Stáhněte si PDF",
-        "secondaryButton": "Nesouhlasím",
-        "primaryButton": "Přejít k podpisu"
-      },
-      "victory": {
-        "title": "Můžete začít spořit",
-        "detail": "Spořicí účet jsme Vám úspěšně založili. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
-        "primaryButton": "Zpět na přehled zůstatků"
-      },
-      "victoryEUR": {
-        "title": "Hotovo, můžete začít spořit",
-        "detail": "Peníze z korunového účtu si na eura vyměníte v naší online Směnárně. A hned poté je můžete přesunout na spoření.",
-        "primaryButton": "Směnárna",
-        "secondaryButton": "Zpět na Přehled"
-      },
-      "victoryWithDPS": {
-        "title": "Hotovo, teď můžete začít spořit",
-        "detail": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření",
-        "bullets": [
-          {
-            "icon": "plain1",
-            "title": "Spořicí účet už máte.  ✅"
-          },
-          {
-            "icon": "plain2",
-            "title": "Otevřete si penzijní spoření ve Smart Bance."
-          },
-          {
-            "icon": "plain3",
-            "title": "Ze spořicího účtu si na něj vložte <b>20 000 Kč ročně</b> a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %."
-          },
-          {
-            "icon": "plain4",
-            "title": "Pro část svého vkladu získáte nejvýhodnější zhodnocení."
-          }
-        ],
-        "footer": "Více informací na <a href=\"https://www.moneta.cz\">https://www.moneta.cz</a>",
-        "primaryButton": "Založit penzijní spoření",
-        "secondaryButton": "Zpět na Přehled"
-      },
-      "tomorrowVictory": {
-        "title": "Váše spořicí konto bude k dispozici následující pracovní den ráno.",
-        "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
-        "primaryButton": "Zpět na Přehled zůstatků"
-      },
-      "delayedVictory": {
-        "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat.",
-        "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám účet aktivujeme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Moje dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
-        "primaryButton": "Zpět na Přehled zůstatků"
-      },
-      "scoring": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
-      },
-      "waitingBeforeContract": {
-        "title": "Minutku, připravíme Vám dokumenty k podpisu"
-      },
-      "signByUs": {
-        "title": "Teď to musíme podepsat my, chvilku strpení prosím"
-      },
-      "sign": {
-        "title": "Podepište smlouvu PINem:"
-      },
-      "simpleDocumentUpload": {
-        "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
-        "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
-        "documents": {
-          "141": {
-            "icon": "idCardFill",
-            "title": "Občanský průkaz",
-            "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
-            "photoCapture": [
-              {
-                "title": "Vyfoťte přední stranu občanského průkazu",
-                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                "primaryButton": "Vyfotit"
-              },
-              {
-                "title": "Vyfoťte zadní stranu občanského průkazu",
-                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-                "primaryButton": "Vyfotit"
-              }
-            ],
-            "busyLoader": {
-              "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-              "detail": "Zabere to maximálně pár vteřin."
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "precontractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli poskytnout, potřebujeme od Vás souhlas s předsmluvními informacemi a podpis dispozic a zvláštních ujednání. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání"
             },
-            "uploadDocumentResultNok": {
-              "title": "Spořicí účet vám teď nemůžeme založit",
-              "detail": "Moc se omlouváme",
-              "secondaryButton": "Ukončit žádost"
+            "branch": {
+                "title": "Potřebujeme od vás více informací, zastavte se prosím za námi na pobočce",
+                "callUs": "Zavolejte nám na infolinku",
+                "branch": "Navštivte nás na pobočce",
+                "primaryButton": "Najít nejbližší pobočku",
+                "secondaryButton": "Zpět na Přehled"
             },
-            "uploadDocumentResultUploadAgain": {
-              "title": "Jejda, tohle se nepovedlo",
-              "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-              "primaryButton": "Vyfotit znovu",
-              "secondaryButton": "Pokračovat později"
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od účtu Vás dělí už jen krůček. Abychom ho mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání účtu"
             },
-            "review": {
-              "title": "Skvělá fotka! Přečetli jsme vše správně?",
-              "documentDetails": {
-                "title": "Údaje z dokladu",
+            "scoring": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Zpět na přehled zůstatků"
+            },
+            "api": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Teď nemůžeme pokračovat, zkuste to prosím za chvíli.",
+                "callUs": "Na infolince\nzavolejte nám",
+                "primaryButton": "Zpět na Přehled zůstatků"
+            },
+            "longTermScreens": {
+                "SCORING_UNAVAILABLE": {
+                    "title": "Chrrr...chrrr...chrrr...",
+                    "detail": "V noci provádíme údržbu systémů, proto některé nemusí být dostupné.<br><br><b>Vraťte se prosím za jednu až dvě hodiny, to už budeme zase vzhůru.</b>",
+                    "primaryButton": "Zpět na přehled zůstatků"
+                },
+                "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "Toto bude trvat celou noc...",
+                    "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+                    "primaryButton": "Zpět na přehled zůstatků"
+                },
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "Toto bude trvat celou noc...",
+                    "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné. Bohužel teď nejsme schopni připravit Vaše dokumenty – <b>budeme je pro Vás mít ráno kolem osmé.</b> Děkujeme za strpení.",
+                    "primaryButton": "Zpět na přehled zůstatků"
+                }
+            }
+        },
+        "general": {
+            "toolbarTitle": "Spořicí účet",
+            "phoneNumberSale": "800 102 040",
+            "phoneNumberSupport": "224 443 636",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Jako na pobočce</b> – klikněte, a náš bankéř Vám se sjednáním rád pomůže v online chatu"
+        },
+        "scenes": {
+            "helpPersonalDetail": {
+                "title": "Kontrola Vašich informací",
+                "toolbarTitle": "Spořicí účet",
+                "detail": "Musíme spolu zkontrolovat, jestli ve Vašich informacích nenastala nějaká změna. Pokud ano, doložíte ji v dalším kroku pomocí občanského průkazu. Jednoduše ho vyfotíte přímo v naší aplikaci a budeme moci hned pokračovat. Focení je u nás samozřejmě zabezpečené. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání účtu",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "helpUploadDocument": {
+                "title": "Bez aktuálního dokladu to bohužel nepůjde",
+                "toolbarTitle": "Spořicí účet",
+                "detail": "Ve Vašich osobních údajích nastala změna, kterou je třeba potvrdit fotografií Vašich aktuálních dokladů. Focení je u nás samozřejmě zabezpečené a zabere jen minutku. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání účtu",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "helpOffer": {
+                "title": "Co je dobré vědět",
+                "toolbarTitle": "Spořicí účet",
+                "bullets": [
+                    "<b>S novým spořicím účtem můžete získat až 2,6 % ročně do 1 000 000 Kč</b>",
+                    "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                    "<b>Vedení účtu a domácí elektronické transakce</b> máte samozřejmě zdarma",
+                    "Peníze máte k dispozici ihned bez <b>výpovědní lhůty</b>",
+                    "Přehled máte v Internet Bance a v aplikaci Smart Banka, nejlépe hodnocené aplikaci na trhu",
+                    "Vaše vklady jsou ze zákona pojištěny až do výše 100 000 EUR",
+                    "Úroky se připisují měsíčně"
+                ],
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání účtu",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "helpOfferEUR": {
+                "title": "Co je dobré vědět",
+                "toolbarTitle": "Spořicí účet",
+                "bullets": [
+                    "Založení a vedení spořicího účtu v EUR zdarma.",
+                    "Kompletní přístup k&nbsp;účtu přímo z vaší Internet Banky a Smart Banky.",
+                    "Převody mezi eurovými účty v rámci EU a&nbsp;EHP zdarma.",
+                    "Elektronické výpisy zcela zdarma.",
+                    "Pojištění vašich vkladů až do 100 000 EUR.",
+                    "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet\">najdete na našem webu</a>."
+                ],
+                "primaryButton": "Pokračovat ve sjednání účtu",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "redirectToCurrentAccount": {
+                "title": "Abyste mohli začít spořit, založte si nejdříve cizoměnový účet v {currency}",
+                "detail": "S ním si budete moct snadno převádět peníze na spořicí účet v {currency}.",
+                "primaryButton": "Založit {currency} účet"
+            },
+            "documentUploadReview": {
+                "title": "Přečetli jsme vše správně?",
                 "firstName": "Jméno",
                 "lastName": "Příjmení",
-                "birthDate": "Datum narození",
-                "birthPlace": "Místo narození",
                 "birthNumber": "Rodné číslo",
-                "idCardNumber": {
-                  "title": "Číslo občanského průkazu",
-                  "secondaryTitle": "Číslo pasu"
-                },
+                "city": "Město",
+                "descriptiveNumber": "Č. popisné",
+                "orientationNumber": "Č. orientační",
+                "idCardNumber": "Číslo dokladu",
                 "idCardValidTo": "Platnost do",
-                "issueDate": "Platnost od",
-                "nationality": "Státní občanství",
-                "nationalityValue": "pouze Česká republika",
-                "sex": "Pohlaví",
-                "male": "muž",
-                "female": "žena"
-              },
-              "documentAddress": {
-                "title": "Trvalý pobyt",
-                "secondary": "(Pouze Česká republika)",
+                "citizenship": "Státní občanství",
                 "street": "Ulice",
-                "descriptiveNumber": "Číslo popisné",
-                "orientationNumber": "Číslo orientační",
-                "city": "Obec nebo město",
-                "zip": "PSČ",
-                "personalData": {
-                  "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                "zipCode": "PSČ",
+                "primaryButton": "Ano, pokračovat",
+                "secondaryButton": "Vyfotit znovu"
+            },
+            "documentUploadRetry": {
+                "title": "Jejda, takhle to nepůjde",
+                "detail": "Nepodařilo se nám načíst Vaše údaje. Ujistěte se prosím, že fotíte za dobrého osvětlení a texty jsou ostré a čitelné.",
+                "tryAgain": "Zkusme to ještě jednou:",
+                "primaryButton": "Vyfotit znovu"
+            },
+            "manualCheck": {
+                "title": "Vaši žádost musíme prověřit, a to může chvíli trvat",
+                "detail": "Nejpozději za dva pracovní dny zde najdete výsledek. Děkujeme za pochopení.",
+                "primaryButton": "Zpět na Přehled zůstatků"
+            },
+            "scoringNok": {
+                "title": "Po prověření Vaší žádosti Vám bohužel účet nemůžeme nabídnout",
+                "detail": "<b>Pokud máte dotaz, jak dál postupovat, kontaktujte nás.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "primaryButton": "Ukončit žádost"
+            },
+            "documentUpload": {
+                "title": "Neznáme Vaše aktuální doklady. Přidejte je prosím",
+                "detail": "Stačí nám jejich čitelná, nerozmazaná fotografie. Můžete to udělat tady v aplikaci, nebo navštívit pobočku. Focení je u nás samozřejmě zabezpečené.",
+                "primaryButton": "Pokračovat",
+                "uploadedDocument": {
+                    "title": "<b>Vyfoťte prosím obě strany svého občanského průkazu.</b>",
+                    "labels": [
+                        "Přidejte přední stranu<br>občanského průkazu",
+                        "Přidejte zadní stranu<br>občanského průkazu"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Vyberte způsob nahrání dokumentu",
+                    "camera": "Vyfotit",
+                    "photos": "Vybrat z galerie",
+                    "files": "Vybrat ze souborů"
                 }
-              },
-              "primaryButton": "Pokračovat"
+            },
+            "savingsOffer": {
+                "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
+                "bullets": [
+                    "<b>S novým spořicím účtem můžete získat až {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
+                    "Úroky jsou připisované měsíčně",
+                    "Vedení účtu a domácí transakce <b>zdarma</b>",
+                    "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                    "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                ],
+                "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
+                "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
+                "primaryButton": "Založit si spořicí účet"
+            },
+            "savingsOfferEUR": {
+                "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % ročně až do {MAXIMAL_TIER1} EUR",
+                "bullets": [
+                    "Založení a vedení spořicího účtu v EUR zdarma.",
+                    "Kompletní přístup k&nbsp;účtu přímo z vaší Internet Banky a Smart Banky.",
+                    "Převody mezi eurovými účty v rámci EU a EHP zdarma.",
+                    "Elektronické výpisy zcela zdarma.",
+                    "Pojištění vašich vkladů až do 100 000 EUR.",
+                    "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet\">najdete na našem webu</a>."
+                ],
+                "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
+                "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
+                "primaryButton": "Založit spořicí účet"
+            },
+            "savingsOfferDpsCrossSell": {
+                "title": "Spořte s úrokem 2,6 % p. a.",
+                "bullets": [
+                    "<b>Úrok pro částku do 1 000 000 Kč Vám garantujeme do 30. 9. 2025.</b>"
+                ],
+                "caption": "Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                "crossSellSection": {
+                    "title": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření",
+                    "bullets": [
+                        "Nezapomeňte si ho založit ve Smart Bance po sjednání spořicího účtu.",
+                        "Vložte si na něj <b>20 000 Kč ročně</b> a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
+                        "Stačí si na něj převést část peněz ze spořicího účtu."
+                    ]
+                },
+                "infoExpired": "Omlouváme se, <b>původní produkt už není v naší nabídce</b>. Můžete pokračovat se spořicím účtem <b>s novými parametry</b>:",
+                "infoFillAgain": "Požádáme Vás o znovuvyplnění základních údajů.",
+                "primaryButton": "Založit si spořicí účet zdarma"
+            },
+            "savingsOfferTiersVIP": [
+                {
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 2,8 % p. a.",
+                    "bullets": [
+                        "<b>2,8 % ročně bez podmínek</b>",
+                        "Úrokovou sazku Vám garantujeme do 30. 9. 2025",
+                        "<b>Neomezená výše vkladu</b>",
+                        "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                        "Otevření účtu v Internet Bance během chvilky"
+                    ]
+                }
+            ],
+            "savingsOfferTiersBySalesProdType": [
+                {
+                    "salesProdType": "13038",
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
+                    "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1} a bez podmínek",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad {MAXIMAL_TIER1} jsou úročeny sazbou {INTEREST_RATE_TIER2} % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad {MAXIMAL_TIER1} jsou úročeny sazbou {INTEREST_RATE_TIER2} % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>"
+                    ]
+                },
+                {
+                    "salesProdType": "13048",
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a. s neomezenou výší vkladu",
+                    "body": "Spořicí účet je bez podmínek a poplatků",
+                    "footer": "Abyste mohli začít spořit, založte si nejdříve cizoměnový účet v {currency}",
+                    "bullets": [
+                        "Založení a vedení spořicího účtu v EUR zdarma.",
+                        "Kompletní přístup k účtu přímo z vaší Internet Banky a Smart Banky.",
+                        "Peníze máte kdykoliv k dispozici",
+                        "Elektronické výpisy zcela zdarma.",
+                        "Pojištění vašich vkladů až do 100 000 EUR.",
+                        "Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">najdete na našem webu</a>."
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně s neomezenou výší vkladu",
+                        "<b>Více informací o spořicím účtu v EUR <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">najdete na našem webu</a>."
+                    ]
+                },
+                {
+                    "salesProdType": "13039",
+                    "title": "Spořte s úrokem 2,6 % p. a.",
+                    "body": "Zhodnocení 2,6 % ročně do 1 000 000 Kč a bez podmínek",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat 2,6 % ročně do 1 000 000 Kč</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\" target=\"_blank\">www.moneta.cz</a>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat 2,6 % ročně do 1 000 000 Kč</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 30. 9. 2025.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\" target=\"_blank\">www.moneta.cz</a>"
+                    ]
+                },
+                {
+                    "salesProdType": "13001",
+                    "title": "Spořte s úrokem 2,8 % p. a.",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat 2,8 % ročně bez omezení výše vkladu",
+                        "Tuto sazbu Vám garantujeme až do 30. 9. 2025",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat 2,8 % ročně bez omezení výše vkladu",
+                        "Tuto sazbu Vám garantujeme až do 30. 9. 2025"
+                    ]
+                },
+                {
+                    "salesProdType": "13045",
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
+                    "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu a dalších podmínek",
+                        "Limitovaná a časově omezená nabídka",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně bez omezení výše vkladu a dalších podmínek",
+                        "Limitovaná a časově omezená nabídka"
+                    ]
+                },
+                {
+                    "salesProdType": "default",
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1} % p. a.",
+                    "body": "Zhodnocení {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ],
+                    "crossSellBullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do {MAXIMAL_TIER1}</b>"
+                    ]
+                },
+                {
+                    "salesProdType": null,
+                    "title": "Tento spořicí účet už máte",
+                    "bullets": [
+                        "Prohlédněte si naše další <a href=\"https://www.moneta.cz/sporeni-a-investice\" target=\"_blank\">spořicí produkty nebo vyzkoušejte investice</a>"
+                    ]
+                },
+                {
+                    "salesProdType": "13027",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 2,8 % p. a.",
+                    "body": "Zhodnocení 2,8 % ročně s neomezenou výší vkladu",
+                    "bullets": [
+                        "<b>2,8 % ročně bez podmínek</b>",
+                        "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
+                        "<b>Neomezená výše vkladu</b>",
+                        "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                        "Otevření účtu online během chvilky"
+                    ],
+                    "crossSellBullets": [
+                        "<b>2,8 % ročně bez podmínek</b>",
+                        "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
+                    ]
+                },
+                {
+                    "salesProdType": "13043",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,1 % p. a.",
+                    "body": "Zhodnocení 3,1 % ročně s neomezenou výší vkladu",
+                    "bullets": [
+                        "<b>3,1 % ročně bez podmínek</b>",
+                        "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
+                        "<b>Neomezená výše vkladu</b>",
+                        "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                        "Otevření účtu online během chvilky"
+                    ],
+                    "crossSellBullets": [
+                        "<b>3,1 % ročně bez podmínek</b>",
+                        "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
+                    ]
+                },
+                {
+                    "salesProdType": "13044",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,3 % p. a.",
+                    "body": "Zhodnocení 3,3 % ročně s neomezenou výší vkladu",
+                    "bullets": [
+                        "<b>3,3 % ročně bez podmínek</b>",
+                        "Úrokovou sazbu Vám garantujeme 30. 9. 2025",
+                        "<b>Neomezená výše vkladu</b>",
+                        "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                        "Otevření účtu online během chvilky"
+                    ],
+                    "crossSellBullets": [
+                        "<b>3,3 % ročně bez podmínek</b>",
+                        "Úrokovou sazku Vám garantujeme do 30. 9. 2025"
+                    ]
+                },
+                {
+                    "salesProdType": "13041",
+                    "title": "SKVĚLÁ NABÍDKA PRO AKTIVNÍ KLIENTY\nSpořicí účet s úrokovou sazbou až 5,0 % p. a. bez omezení výše vkladu",
+                    "body": "Zhodnocení až 5,0 % ročně za aktivní využívání běžného účtu a bez omezení výše vkladu",
+                    "bullets": [
+                        "<b>Zhodnocení 5,0 % ročně za aktivní využívání běžného účtu. Základní sazbu 4,6 % ročně Vám garantujeme do 2. 6. 2024.</b>",
+                        "Pro získání sazby 5,0 % p. a. stačí, když Vám na běžný účet přijde alespoň 15 000 Kč měsíčně a 10x zaplatíte platební kartou.",
+                        "Neomezená výše vkladu",
+                        "Žádné poplatky. Jak jste u nás zvyklí",
+                        "Otevření učtu online během chvilky"
+                    ],
+                    "crossSellBullets": [
+                        "<b>Zhodnocení 5,0 % ročně za aktivní využívání běžného účtu. Základní sazbu 5,0 % ročně Vám garantujeme do 2. 6. 2024.</b>",
+                        "Pro získání sazby 5,0 % p. a. stačí, když Vám na běžný účet přijde alespoň 15 000 Kč měsíčně a 10x zaplatíte platební kartou."
+                    ]
+                }
+            ],
+            "savingsOfferTiers": [
+                {
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ]
+                },
+                {
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ]
+                },
+                {
+                    "title": "Spořte s úrokem {INTEREST_RATE_TIER1}\u00a0% p.a.",
+                    "bullets": [
+                        "<b>S novým spořicím účtem můžete získat {INTEREST_RATE_TIER1} % ročně do 1 000 000 Kč</b>",
+                        "<b>Tuto sazbu Vám garantujeme až do 14. 8. 2024.</b> Zůstatky nad 1 000 000 Kč jsou úročeny sazbou 0,5 % ročně. Více informací na <a href=\"https://www.moneta.cz/sporeni-a-investice/sporici-ucet\">www.moneta.cz</a>",
+                        "Úroky jsou připisované měsíčně",
+                        "Vedení účtu a domácí transakce <b>zdarma</b>",
+                        "Peníze k <b>dispozici ihned</b>, bez <b>výpovědní lhůty</b>",
+                        "Pojištění Vašich vkladů až do výše 100 000 EUR"
+                    ]
+                }
+            ],
+            "identification": {
+                "title": "Platí Vaše osobní údaje?",
+                "firstName": "Jméno",
+                "lastName": "Příjmení",
+                "citizenship": "Státní občanství",
+                "taxResidence": "Daňová rezidence",
+                "taxResidenceInfoTitle": "Určení daňové rezidence",
+                "taxResidenceInfoBody": "Dovolujeme si Vás požádat o informace za účelem plnění Společného standardu pro náležitou péči v oblasti informací o finančních účtech za účelem výměny informací poskytovaných finančními institucemi daňovým správám na základě Mnohostranné dohody příslušných orgánů o automatické výměně informací o finančních účtech (v případě banky se jedná o běžné, spořicí účty a termínované vklady).",
+                "vat": "DIČ",
+                "phone": "Telefon",
+                "anotherVat": "Přidat další daňovou rezidenci",
+                "primaryButton": "Ano, pokračovat"
+            },
+            "contactAddress": {
+                "title": "Máme správně Vaši kontaktní adresu?",
+                "streetTitle": "Ulice",
+                "descriptiveNumberTitle": "Č. p.",
+                "orientationNumberTitle": "Č. or.",
+                "cityTitle": "Město",
+                "zipTitle": "PSČ",
+                "countryTitle": "Země",
+                "primaryButton": "Ano, pokračovat"
+            },
+            "permanentAddress": {
+                "title": "Máme správně Váš trvalý pobyt?",
+                "streetTitle": "Ulice",
+                "descriptiveNumberTitle": "Č. p.",
+                "orientationNumberTitle": "Č. or.",
+                "cityTitle": "Město",
+                "zipTitle": "PSČ",
+                "countryTitle": "Země",
+                "primaryButton": "Ano, pokračovat"
+            },
+            "staticDocuments": {
+                "title": "Seznamte se s důležitými smluvními dokumenty",
+                "subtitle": "Všechny dokumenty najdete ve své Smart Bance v sekci <b>Moje dokumenty</b>.",
+                "primaryButton": "S dokumenty jsem se seznámil/a",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "precontractInfo": {
+                "title": "Přečtěte si pečlivě předsmluvní informace",
+                "resend": "Stáhněte si PDF",
+                "secondaryButton": "Nesouhlasím",
+                "primaryButton": "Souhlasím, pokračovat"
+            },
+            "contract": {
+                "title": "Přečtete si pečlivě smlouvu s parametry produktu",
+                "resend": "Stáhněte si PDF",
+                "secondaryButton": "Nesouhlasím",
+                "primaryButton": "Přejít k podpisu"
+            },
+            "victory": {
+                "title": "Můžete začít spořit",
+                "detail": "Spořicí účet jsme Vám úspěšně založili. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
+                "primaryButton": "Zpět na přehled zůstatků"
+            },
+            "victoryEUR": {
+                "title": "Hotovo, můžete začít spořit",
+                "detail": "Peníze z korunového účtu si na eura vyměníte v naší online Směnárně. A hned poté je můžete přesunout na spoření.",
+                "primaryButton": "Směnárna",
+                "secondaryButton": "Zpět na Přehled"
+            },
+            "victoryWithDPS": {
+                "title": "Hotovo, teď můžete začít spořit",
+                "detail": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření",
+                "bullets": [
+                    {
+                        "icon": "plain1",
+                        "title": "Spořicí účet už máte.  ✅"
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Otevřete si penzijní spoření ve Smart Bance."
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Ze spořicího účtu si na něj vložte <b>20 000 Kč ročně</b> a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %."
+                    },
+                    {
+                        "icon": "plain4",
+                        "title": "Pro část svého vkladu získáte nejvýhodnější zhodnocení."
+                    }
+                ],
+                "footer": "Více informací na <a href=\"https://www.moneta.cz\">https://www.moneta.cz</a>",
+                "primaryButton": "Založit penzijní spoření",
+                "secondaryButton": "Zpět na Přehled"
+            },
+            "tomorrowVictory": {
+                "title": "Váše spořicí konto bude k dispozici následující pracovní den ráno.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "primaryButton": "Zpět na Přehled zůstatků"
+            },
+            "delayedVictory": {
+                "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat.",
+                "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám účet aktivujeme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Moje dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
+                "primaryButton": "Zpět na Přehled zůstatků"
+            },
+            "scoring": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+            },
+            "waitingBeforeContract": {
+                "title": "Minutku, připravíme Vám dokumenty k podpisu"
+            },
+            "signByUs": {
+                "title": "Teď to musíme podepsat my, chvilku strpení prosím"
+            },
+            "sign": {
+                "title": "Podepište smlouvu PINem:"
+            },
+            "simpleDocumentUpload": {
+                "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
+                "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "Občanský průkaz",
+                        "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
+                        "photoCapture": [
+                            {
+                                "title": "Vyfoťte přední stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            },
+                            {
+                                "title": "Vyfoťte zadní stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            }
+                        ],
+                        "busyLoader": {
+                            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+                            "detail": "Zabere to maximálně pár vteřin."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "Spořicí účet vám teď nemůžeme založit",
+                            "detail": "Moc se omlouváme",
+                            "secondaryButton": "Ukončit žádost"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Jejda, tohle se nepovedlo",
+                            "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit znovu",
+                            "secondaryButton": "Pokračovat později"
+                        },
+                        "review": {
+                            "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                            "documentDetails": {
+                                "title": "Údaje z dokladu",
+                                "firstName": "Jméno",
+                                "lastName": "Příjmení",
+                                "birthDate": "Datum narození",
+                                "birthPlace": "Místo narození",
+                                "birthNumber": "Rodné číslo",
+                                "idCardNumber": {
+                                    "title": "Číslo občanského průkazu",
+                                    "secondaryTitle": "Číslo pasu"
+                                },
+                                "idCardValidTo": "Platnost do",
+                                "issueDate": "Platnost od",
+                                "nationality": "Státní občanství",
+                                "nationalityValue": "pouze Česká republika",
+                                "sex": "Pohlaví",
+                                "male": "muž",
+                                "female": "žena"
+                            },
+                            "documentAddress": {
+                                "title": "Trvalý pobyt",
+                                "secondary": "(Pouze Česká republika)",
+                                "street": "Ulice",
+                                "descriptiveNumber": "Číslo popisné",
+                                "orientationNumber": "Číslo orientační",
+                                "city": "Obec nebo město",
+                                "zip": "PSČ",
+                                "personalData": {
+                                    "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                                }
+                            },
+                            "primaryButton": "Pokračovat"
+                        }
+                    }
+                },
+                "secondaryButton": "Doložím doklady později"
             }
-          }
-        },
-        "secondaryButton": "Doložím doklady později"
-      }
+        }
     }
-  }
 }

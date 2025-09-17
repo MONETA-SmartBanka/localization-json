@@ -1,31 +1,31 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "scenes": {
-      "instalment_postpone": {
-        "general": {
-          "title": "Mortgage – Repayment Deferral Application"
-        },
-        "request": {
-          "title": "Defer your repayments by 2 months",
-          "texts": [
-            "You will not need to make any repayments during the deferral period. However, your mortgage will continue to accrue interest, which will be added to your repayments after the deferral ends. To keep your final repayment manageable, we will extend the length of your loan.",
-            "If you submit your deferral request less than 10 days before the upcoming repayment due date, please make that repayment as usual. The deferral will apply to the following repayments.",
-            "We will notify you of the outcome in the Documents section once your request has been reviewed."
-          ],
-          "info": "If your mortgage is insured, your insurance will remain valid during the deferral period.",
-          "confirmation": "I confirm that I am not currently experiencing financial hardship and I understand that deferring repayments may affect my ability to obtain another loan. Information related to the deferral <strong>will be shared with the relevant credit information registers</strong>.",
-          "primaryButton": "Apply for deferral",
-          "secondaryButton": "Back to Service Menu"
-        },
-        "victory": {
-          "title": "You have submitted the request to defer 2 repayments",
-          "texts": [
-            "We will process it within 5 business days and then send you a confirmation with the result in the Documents section."
-          ],
-          "primaryButton": "Back to Mortgage Overview"
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "instalment_postpone": {
+                "general": {
+                    "title": "Mortgage – Repayment Deferral Application"
+                },
+                "request": {
+                    "title": "Defer your repayments by 2 months",
+                    "texts": [
+                        "You will not need to make any repayments during the deferral period. However, your mortgage will continue to accrue interest, which will be added to your repayments after the deferral ends. To keep your final repayment manageable, we will extend the length of your loan.",
+                        "If you submit your deferral request less than 10 days before the upcoming repayment due date, please make that repayment as usual. The deferral will apply to the following repayments.",
+                        "We will notify you of the outcome in the Documents section once your request has been reviewed."
+                    ],
+                    "info": "If your mortgage is insured, your insurance will remain valid during the deferral period.",
+                    "confirmation": "I confirm that I am not currently experiencing financial hardship and I understand that deferring repayments may affect my ability to obtain another loan. Information related to the deferral <strong>will be shared with the relevant credit information registers</strong>.",
+                    "primaryButton": "Apply for deferral",
+                    "secondaryButton": "Back to Service Menu"
+                },
+                "victory": {
+                    "title": "You have submitted the request to defer 2 repayments",
+                    "texts": [
+                        "We will process it within 5 business days and then send you a confirmation with the result in the Documents section."
+                    ],
+                    "primaryButton": "Back to Mortgage Overview"
+                }
+            }
         }
-      }
     }
-  }
 }

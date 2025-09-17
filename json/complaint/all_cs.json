@@ -159,25 +159,19 @@
             "items": [
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "Nedávno jsem reagoval*a na výzvu k úhradě poštovného nebo cla",
                         "clarificationId": "1.1",
                         "kind": "checkbox"
                     },
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "Prodával*a jsem zboží přes internet",
                         "clarificationId": "1.2",
                         "kind": "checkbox"
                     },
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "Nic z uvedeného",
                         "clarificationId": "1.3",
                         "kind": "checkboxExclusive"
@@ -188,9 +182,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            3
-                        ],
+                        "allowedComplaintEventTypes": [3],
                         "clarificationPrompt": "Přiložit doklad o duplicitní platbě",
                         "clarificationPromptBase": "Doklad o duplicitní platbě",
                         "clarificationId": "3.1",
@@ -202,9 +194,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            3
-                        ],
+                        "allowedComplaintEventTypes": [3],
                         "clarificationPrompt": "Přiložit komunikaci s obchodníkem",
                         "clarificationPromptBase": "Komunikace s obchodníkem",
                         "clarificationId": "3.2",
@@ -216,9 +206,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            4
-                        ],
+                        "allowedComplaintEventTypes": [4],
                         "clarificationPrompt": "Přiložit doklad o zaplacení jiným způsobem",
                         "clarificationPromptBase": "Doklad o zaplacení jiným způsobem",
                         "clarificationPromptDetail": "Například hotovostní účtenku nebo výpis z účtu (pokud byla transakce hrazena jinou kartou nebo převodem)",
@@ -231,9 +219,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            5
-                        ],
+                        "allowedComplaintEventTypes": [5],
                         "clarificationPrompt": "Přiložit doklad o stornu",
                         "clarificationPromptBase": "Doklad o stornu",
                         "clarificationPromptDetail": "Například účtenku z terminálu nebo komunikaci s obchodníkem",
@@ -246,9 +232,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            5
-                        ],
+                        "allowedComplaintEventTypes": [5],
                         "clarificationPrompt": "Přiložit doklad o zamítnutí platby",
                         "clarificationPromptBase": "Doklad o zamítnutí platby",
                         "clarificationId": "5.2",
@@ -260,9 +244,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            6
-                        ],
+                        "allowedComplaintEventTypes": [6],
                         "clarificationPrompt": "Přiložit doklad se správnou částkou",
                         "clarificationPromptBase": "Doklad se správnou částkou",
                         "clarificationPromptDetail": "Například účtenku, fakturu nebo komunikaci s obchodníkem",
@@ -272,12 +254,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Přiložit doklad o potvrzení objednávky/rezervace",
                         "clarificationPromptBase": "Doklad o potvrzení objednávky/rezervace",
                         "clarificationId": "7.1",
@@ -286,12 +264,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Přiložit komunikaci s obchodníkem/půjčovnou/hotelem",
                         "clarificationPromptBase": "Komunikace s obchodníkem/půjčovnou/hotelem",
                         "clarificationId": "7.2",
@@ -300,12 +274,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Název obchodu",
                         "clarificationId": "7.3",
                         "kind": "text"
@@ -313,12 +283,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Přiložit datovaný doklad o vrácení",
                         "clarificationPromptBase": "Datovaný doklad o vrácení",
                         "clarificationId": "8.1",
@@ -327,12 +293,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Přiložit komunikaci s obchodníkem",
                         "clarificationPromptBase": "Komunikace s obchodníkem",
                         "clarificationId": "8.2",
@@ -341,12 +303,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Přiložit doklad o potvrzení objednávky/rezervace",
                         "clarificationPromptBase": "Doklad o potvrzení objednávky/rezervace",
                         "clarificationId": "9.1",
@@ -355,12 +313,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Přiložit komunikaci s obchodníkem/půjčovnou/hotelem",
                         "clarificationPromptBase": "Komunikace s obchodníkem/půjčovnou/hotelem",
                         "clarificationId": "9.2",
@@ -369,12 +323,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Přiložit fotky doručeného zboží/poskytnuté služby",
                         "clarificationPromptBase": "Fotky doručeného zboží/poskytnuté služby",
                         "clarificationId": "9.3",
@@ -383,12 +333,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Datum doručení",
                         "clarificationId": "9.4",
                         "kind": "date"
@@ -396,12 +342,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Zboží jsem vrátil*a",
                         "clarificationId": "9.5",
                         "kind": "checkbox"
@@ -409,12 +351,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Datum vrácení zboží",
                         "requiredCheckboxId": "9.5",
                         "clarificationId": "9.6",
@@ -423,12 +361,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Způsob vrácení zboží",
                         "requiredCheckboxId": "9.5",
                         "clarificationId": "9.7",
@@ -437,9 +371,7 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "WITHDRAWAL_ATM_ERROR"
-                        ],
+                        "allowedComplaintTypes": ["WITHDRAWAL_ATM_ERROR"],
                         "clarificationPrompt": "Přiložit potvrzení o výběru",
                         "clarificationPromptBase": "Potvrzení o výběru",
                         "clarificationId": "withdrawalConf",
@@ -455,9 +387,7 @@
                             "WITHDRAWAL_NOT_MINE",
                             "WITHDRAWAL_ATM_ERROR"
                         ],
-                        "disallowedComplaintEventTypes": [
-                            9
-                        ],
+                        "disallowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Upřesněte prosím, k čemu došlo",
                         "clarificationId": "userDesc",
                         "kind": "text"
@@ -465,12 +395,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Plánované datum doručení",
                         "clarificationId": "7.5",
                         "kind": "date"
@@ -478,24 +404,16 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Transakce můžete reklamovat až po 30 dnech od objednávky.",
                         "kind": "warning"
                     }
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Je nutné počkat alespoň 15 dnů od příslibu obchodníka o vrácení peněz",
                         "kind": "warning"
                     }
