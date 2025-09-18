@@ -7353,6 +7353,39 @@
           }
         ],
         "dipNotInvestedNote": "Nezainvestováno"
+      },
+      "advisory": {
+        "title": "Fondy z investičního poradenství",
+        "noProductNote": "Jaký fond je pro mě ten pravý?",
+        "noProductBullets": [
+          {
+            "title": "Fondy pro vás na míru",
+            "detail": "Vhodné investice vybereme na základě vašich potřeb"
+          },
+          {
+            "title": "Diverzifikaci vyřešíme za vás",
+            "detail": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+          }
+        ],
+        "noProductActionBullet": {
+          "icon": "starsAltFill",
+          "title": "Poraďte mi s investicí",
+          "action": "INVESTMENTADVISORY"
+        },
+        "investedAdditionalBullets": [
+          {
+            "icon": "starsAltFill",
+            "title": "Poraďte mi s investicí",
+            "action": "INVESTMENTADVISORY"
+          }
+        ]
+      },
+      "sellSheet": {
+        "portfolioTitle": "Z jakého portfolia chcete prodávat?",
+        "productTitle": "Jaký investiční produkt chcete prodat?",
+        "funds": "Investice",
+        "advisory": "Fondy z investičnoho poradenství",
+        "dip": "Dlouhodobý investiční produkt"
       }
     },
     "list": {
@@ -7362,7 +7395,7 @@
       "dipActionButtonAccessibility": "Deposit funds",
       "tabMyPortfolio": "My portfolio",
       "tabInvestmentOpportunities": "Investment opportunities",
-      "tabAdvisoryPromo" : "Invest",
+      "tabAdvisoryPromo": "Invest",
       "emptyPortfolio": {
         "noInvestments": "Not invested",
         "showFunds": "Show funds",
