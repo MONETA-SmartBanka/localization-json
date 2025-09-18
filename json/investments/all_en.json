@@ -7262,6 +7262,99 @@
       "advisoryCardButton": "Which fund is the right one for me?",
       "advisoryCardDescription": "Try investment advisory"
     },
+    "aggregationInvestedDashboard": {
+      "totalTitle": "Celková hodnota investic",
+      "investButton": "Investovat",
+      "sellButton": "Prodat",
+      "moreButton": "Další",
+      "funds": {
+        "title": "Podílové fondy",
+        "noProductNote": "Ať peníze pracují za vás",
+        "noProductBullets": [
+          {
+            "title": "Jednorázové i pravidelné investice",
+            "detail": "Na výběr máte více než 40 renomovaných investičních produktů z celého světa."
+          },
+          {
+            "title": "Začít můžete i s malými částkami",
+            "detail": "Investovat můžete už od 500 Kč."
+          }
+        ],
+        "noProductActionBullet": {
+          "icon": "chartLineUpFill",
+          "title": "Chci zhodnotit mé peníze",
+          "action": "INVESTMENT"
+        },
+        "notInvestedBullets": [
+          {
+            "icon": "piggyBank",
+            "title": "Spořicí účet DIP",
+            "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+            "value": "{dipAccountAmount}",
+            "action": "INVESTMENT"
+          },
+          {
+            "icon": "coinsStackAdd",
+            "title": "<b>Investujte a využijte DIP na maximum</b>",
+            "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa.",
+            "action": "INVESTMENT"
+          }
+        ]
+      },
+      "dip": {
+        "title": "Dlouhodobý inv. produkt (DIP)",
+        "noProductNote": "Co si v mládí ušetříte,\nve stáří jako když najdete",
+        "noProductBullets": [
+          {
+            "title": "Uložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
+            "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spoření v rámci DIP."
+          },
+          {
+            "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou 3,5 % ročně",
+            "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+          }
+        ],
+        "noProductActionBullet": {
+          "icon": "chartLineUpFill",
+          "title": "Chci zhodnotit své peníze",
+          "action": "DIPINVESTMENT"
+        },
+        "notInvestedBullets": [
+          {
+            "icon": "piggyBank",
+            "title": "Spořicí účet DIP",
+            "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+            "value": "{dipAccountAmount}",
+            "action": "DIPINVESTMENT"
+          },
+          {
+            "icon": "coinsStackAdd",
+            "title": "<b>Investujte a využijte DIP na maximum</b>",
+            "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa.",
+            "action": "DIPINVESTMENT"
+          }
+        ],
+        "investedAdditionalBullets": [
+          {
+            "icon": "piggyBank",
+            "title": "Spořicí účet DIP",
+            "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+            "value": "{dipAccountAmount}",
+            "action": "DIPINVESTMENT"
+          }
+        ],
+        "dipEmptyAccountNote": "Zatím jste nevložili žádné peníze.",
+        "dipEmptyAccountBullets": [
+          {
+            "icon": "walletArrowInFill",
+            "title": "<b>Vložte peníze na Spořicí účet DIP</b>",
+            "detail": "Investovat do fondů můžete už od 500 Kč.",
+            "action": "DIPINVESTMENT"
+          }
+        ],
+        "dipNotInvestedNote": "Nezainvestováno"
+      }
+    },
     "list": {
       "investmentTitle": "Investments {0}",
       "dipTitle": "Long-Term Investment Product {0}",
