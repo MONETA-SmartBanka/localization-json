@@ -1,400 +1,400 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "stepper": {
-      "offer": "Nabídka",
-      "request": "Žádost",
-      "contract": "Smlouva",
-      "account": "Účet"
-    },
-    "scenes": {
-      "productOffer": {
-        "title": "Podnikatelský účet",
-        "accountTitle": "Běžný účet pro Vaše podnikání",
-        "accountDescription": "Založte si další podnikatelský účet v CZK, EUR nebo USD",
-        "sections": [
-          {
-            "title": "Hlavní výhody podnikatelského účtu",
-            "bullets": [
-              "<b>Elektronické výpisy</b> jednou měsíčně z účtu",
-              "Podle typu Vašeho účtu získáte <b>zdarma:</b><br><br><ul><li>elektronické odchozí a příchozí transakce,</li><li>okamžité platby,</li><li>SEPA platby,</li><li>výběry z bankomatů Moneta MONEY Bank v ČR i v zahraničí,</li><li>vklady přes 186 vkladomatů MONETA Money Bank,</li></ul>",
-              "Vedení debetní karty v CZK"
-            ]
-          },
-          {
-            "title": "Podnikatelské účty v EUR nebo USD",
-            "bullets": [
-              "<b>Založení</b> a <b>vedení cizoměnového účtu</b> s elektronickými výpisy <b>zdarma</b>",
-              "<b>Debetní karta v měně účtu zdarma</b>"
-            ]
-          }
-        ],
-        "button": "Založit účet"
-      },
-      "typeOffer": {
-        "title": "Další účty pro Vaše podnikání",
-        "pills": [
-          {
-            "title": "Vše"
-          },
-          {
-            "title": "Podnikatelské účty v CZK",
-            "currencies": ["CZK"]
-          },
-          {
-            "title": "Podnikatelské účty v EUR/USD",
-            "currencies": ["EUR", "USD"]
-          }
-        ],
-        "products": [
-          {
-            "useForFeePlan": ["470", "471", "472"],
-            "title": "Konto PRO podnikání (CZK)",
-            "bullets": [
-              {
-                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
-                "color": "primaryDark"
-              },
-              {
-                "title": "Neomezené výběry z bankomatů v ČR i v zahraničí a možnost vkladů jak v našich, tak i ve <a href=\"https://www.moneta.cz/kontakt/sdilene-bankomaty\">sdílených bankomatech</a>",
-                "color": "primaryDark"
-              },
-              {
-                "title": "Dvě debetní karty a elektronické výpisy přímo v online bankovnictví zdarma",
-                "color": "primaryDark"
-              },
-              {
-                "title": "Chytré služby a slevy u našich partnerů přímo ve Smart Bance a Internet Bance",
-                "color": "primaryDark"
-              },
-              {
-                "title": "Výhodné kurzy na směnu měn v Online směnárně",
-                "color": "primaryDark"
-              }
-            ],
-            "button": {
-              "title": "Sjednat ZDARMA",
-              "color": "primary"
-            },
-            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
-          },
-          {
-            "useForFeePlan": ["390", "391", "392"],
-            "title": "Genius Business Complete (CZK)",
-            "bullets": [
-              {
-                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
-                "color": "gold"
-              },
-              {
-                "title": "Výběr hotovosti <a href=\"https://www.moneta.cz/kontakt/sdilene-bankomaty\" target=\"_blank\">v síti sdílených bankomatů</a> zdarma",
-                "color": "gold"
-              }
-            ],
-            "button": {
-              "title": "Sjednat za 149 Kč / měsíc",
-              "color": "gold"
-            },
-            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
-          },
-          {
-            "useForFeePlan": ["434", "435", "436"],
-            "title": "Obchodní konto Komfort (CZK)",
-            "bullets": [
-              {
-                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
-                "color": "gold"
-              },
-              {
-                "title": "Neomezené výběry z bankomatů v ČR i v zahraničí a možnost vkladů jak v našich, tak i ve <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">sdílených bankomatech</a>",
-                "color": "gold"
-              },
-              {
-                "title": "V ceně účtu karta Business Premium s doplňkovými službami <a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\">Cestovní pojištění Komfort</a> a <a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\">Pojištění osobních věcí a platební karty</a> včetně členství v programu <a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\">Priority pass</a>. Navíc další dvě karty <a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy/debetni-karty\">Business</a>.",
-                "color": "gold"
-              },
-              {
-                "title": "Chytré služby a slevy u našich partnerů přímo ve Smart Bance a Internet Bance.",
-                "color": "gold"
-              },
-              {
-                "title": "Sleva 50 % na zahraniční platby, které nejsou v rámci konta zdarma",
-                "detail": "Nižší poplatky budete platit za odchozí úhrady v EUR mimo země EHP a úhrady v ostatních měnách a za příchozí úhrady v EUR ze zemí mimo EHP a úhrady v ostatních měnách.",
-                "color": "gold"
-              },
-              {
-                "title": "Online Směnárna s exkluzivními kurzy",
-                "color": "gold"
-              }
-            ],
-            "button": {
-              "title": "Sjednat za 350 Kč / měsíc",
-              "color": "gold"
-            },
-            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
-          },
-          {
-            "useForFeePlan": ["465"],
-            "title": "Běžný účet v EUR",
-            "bullets": [
-              {
-                "title": "Založení a vedení podnikatelského účtu v EUR zdarma",
-                "color": "primaryDark"
-              },
-              {
-                "title": "K účtu získáte platební kartu s vedením úplně zdarma",
-                "color": "primaryDark"
-              }
-            ],
-            "button": {
-              "title": "Sjednat ZDARMA",
-              "color": "primary"
-            },
-            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">Více informací</a>"
-          },
-          {
-            "useForFeePlan": ["467"],
-            "title": "Běžný účet v USD",
-            "bullets": [
-              {
-                "title": "Založení a vedení podnikatelského účtu v USD zdarma",
-                "color": "primaryDark"
-              },
-              {
-                "title": "K účtu získáte platební kartu s vedením úplně zdarma",
-                "color": "primaryDark"
-              }
-            ],
-            "button": {
-              "title": "Sjednat ZDARMA",
-              "color": "primary"
-            },
-            "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">Více informací</a>"
-          }
-        ]
-      },
-      "statementOffer": {
-        "title": "Jak často chcete zasílat výpisy z účtu?",
-        "daily": "Denně – pokud je na účtu pohyb",
-        "weekly": "Týdně – pokud je na účtu pohyb",
-        "monthly": "Měsíčně",
-        "buttonBack": "Zpět",
-        "buttonContinue": "Pokračovat"
-      },
-      "userDataCheck": {
-        "title": "Máme správně údaje o Vašem podnikání?",
-        "businessName": "Obchodní jméno",
-        "address": "Adresa podnikání",
-        "ico": "IČO",
-        "agree": "Údaje souhlasí",
-        "disagree": "Údaje nesouhlasí",
-        "back": "Zpět",
-        "modalText": "Zastavte se prosím za námi na kterékoliv naší pobočce, abychom Vaše údaje změnili.",
-        "branchMeeting": "Sjednat schůzku na pobočce",
-        "endRequest": "Ukončit žádost",
-        "branch":  "<link href=\"https://www.moneta.cz/kontakt#mapa-pobocek-section\" target=\"_blank\">Sjednat schůzku na pobočce</link>"
-      },
-      "cardTypeOffer": {
-        "title": "Jakou si přejete kartu?",
-        "virtual": {
-          "title": "Virtuální karta do mobilu",
-          "description": "Místo plastové karty Vám vydáme virtuální kartu. Pro placení a výběry si ji můžete přidat do mobilu hned po zřízení účtu.",
-          "addressRequired": false
+    "status": "OK",
+    "responseObject": {
+        "stepper": {
+            "offer": "Nabídka",
+            "request": "Žádost",
+            "contract": "Smlouva",
+            "account": "Účet"
         },
-        "plastic": {
-          "title": "Fyzická + virtuální karta",
-          "description": "Plastová karta, kterou dobře znáte. Do mobilu si ji můžete přidat také.",
-          "addressRequired": true
-        },
-        "contact": {
-          "contactTitle": "Kontaktní údaje",
-          "adressTitle": "Adresa pro zaslání karty",
+        "scenes": {
+            "productOffer": {
+                "title": "Podnikatelský účet",
+                "accountTitle": "Běžný účet pro Vaše podnikání",
+                "accountDescription": "Založte si další podnikatelský účet v CZK, EUR nebo USD",
+                "sections": [
+                    {
+                        "title": "Hlavní výhody podnikatelského účtu",
+                        "bullets": [
+                            "<b>Elektronické výpisy</b> jednou měsíčně z účtu",
+                            "Podle typu Vašeho účtu získáte <b>zdarma:</b><br><br><ul><li>elektronické odchozí a příchozí transakce,</li><li>okamžité platby,</li><li>SEPA platby,</li><li>výběry z bankomatů Moneta MONEY Bank v ČR i v zahraničí,</li><li>vklady přes 186 vkladomatů MONETA Money Bank,</li></ul>",
+                            "Vedení debetní karty v CZK"
+                        ]
+                    },
+                    {
+                        "title": "Podnikatelské účty v EUR nebo USD",
+                        "bullets": [
+                            "<b>Založení</b> a <b>vedení cizoměnového účtu</b> s elektronickými výpisy <b>zdarma</b>",
+                            "<b>Debetní karta v měně účtu zdarma</b>"
+                        ]
+                    }
+                ],
+                "button": "Založit účet"
+            },
+            "typeOffer": {
+                "title": "Další účty pro Vaše podnikání",
+                "pills": [
+                    {
+                        "title": "Vše"
+                    },
+                    {
+                        "title": "Podnikatelské účty v CZK",
+                        "currencies": ["CZK"]
+                    },
+                    {
+                        "title": "Podnikatelské účty v EUR/USD",
+                        "currencies": ["EUR", "USD"]
+                    }
+                ],
+                "products": [
+                    {
+                        "useForFeePlan": ["470", "471", "472"],
+                        "title": "Konto PRO podnikání (CZK)",
+                        "bullets": [
+                            {
+                                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "Neomezené výběry z bankomatů v ČR i v zahraničí a možnost vkladů jak v našich, tak i ve <a href=\"https://www.moneta.cz/kontakt/sdilene-bankomaty\">sdílených bankomatech</a>",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "Dvě debetní karty a elektronické výpisy přímo v online bankovnictví zdarma",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "Chytré služby a slevy u našich partnerů přímo ve Smart Bance a Internet Bance",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "Výhodné kurzy na směnu měn v Online směnárně",
+                                "color": "primaryDark"
+                            }
+                        ],
+                        "button": {
+                            "title": "Sjednat ZDARMA",
+                            "color": "primary"
+                        },
+                        "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
+                    },
+                    {
+                        "useForFeePlan": ["390", "391", "392"],
+                        "title": "Genius Business Complete (CZK)",
+                        "bullets": [
+                            {
+                                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Výběr hotovosti <a href=\"https://www.moneta.cz/kontakt/sdilene-bankomaty\" target=\"_blank\">v síti sdílených bankomatů</a> zdarma",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Sjednat za 149 Kč / měsíc",
+                            "color": "gold"
+                        },
+                        "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
+                    },
+                    {
+                        "useForFeePlan": ["434", "435", "436"],
+                        "title": "Obchodní konto Komfort (CZK)",
+                        "bullets": [
+                            {
+                                "title": "Veškeré elektronické transakce zdarma (odchozí a příchozí transakce, okamžité platby a SEPA platby)",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Neomezené výběry z bankomatů v ČR i v zahraničí a možnost vkladů jak v našich, tak i ve <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">sdílených bankomatech</a>",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "V ceně účtu karta Business Premium s doplňkovými službami <a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\">Cestovní pojištění Komfort</a> a <a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\">Pojištění osobních věcí a platební karty</a> včetně členství v programu <a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\">Priority pass</a>. Navíc další dvě karty <a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy/debetni-karty\">Business</a>.",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Chytré služby a slevy u našich partnerů přímo ve Smart Bance a Internet Bance.",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Sleva 50 % na zahraniční platby, které nejsou v rámci konta zdarma",
+                                "detail": "Nižší poplatky budete platit za odchozí úhrady v EUR mimo země EHP a úhrady v ostatních měnách a za příchozí úhrady v EUR ze zemí mimo EHP a úhrady v ostatních měnách.",
+                                "color": "gold"
+                            },
+                            {
+                                "title": "Online Směnárna s exkluzivními kurzy",
+                                "color": "gold"
+                            }
+                        ],
+                        "button": {
+                            "title": "Sjednat za 350 Kč / měsíc",
+                            "color": "gold"
+                        },
+                        "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/zivnostnici-a-firmy\" target=\"_blank\">Více informací</a>"
+                    },
+                    {
+                        "useForFeePlan": ["465"],
+                        "title": "Běžný účet v EUR",
+                        "bullets": [
+                            {
+                                "title": "Založení a vedení podnikatelského účtu v EUR zdarma",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "K účtu získáte platební kartu s vedením úplně zdarma",
+                                "color": "primaryDark"
+                            }
+                        ],
+                        "button": {
+                            "title": "Sjednat ZDARMA",
+                            "color": "primary"
+                        },
+                        "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">Více informací</a>"
+                    },
+                    {
+                        "useForFeePlan": ["467"],
+                        "title": "Běžný účet v USD",
+                        "bullets": [
+                            {
+                                "title": "Založení a vedení podnikatelského účtu v USD zdarma",
+                                "color": "primaryDark"
+                            },
+                            {
+                                "title": "K účtu získáte platební kartu s vedením úplně zdarma",
+                                "color": "primaryDark"
+                            }
+                        ],
+                        "button": {
+                            "title": "Sjednat ZDARMA",
+                            "color": "primary"
+                        },
+                        "moreInfo": "<a href=\"https://www.moneta.cz/ucty-a-karty/cizomenovy-ucet-pro-podnikani\" target=\"_blank\">Více informací</a>"
+                    }
+                ]
+            },
+            "statementOffer": {
+                "title": "Jak často chcete zasílat výpisy z účtu?",
+                "daily": "Denně – pokud je na účtu pohyb",
+                "weekly": "Týdně – pokud je na účtu pohyb",
+                "monthly": "Měsíčně",
+                "buttonBack": "Zpět",
+                "buttonContinue": "Pokračovat"
+            },
+            "userDataCheck": {
+                "title": "Máme správně údaje o Vašem podnikání?",
+                "businessName": "Obchodní jméno",
+                "address": "Adresa podnikání",
+                "ico": "IČO",
+                "agree": "Údaje souhlasí",
+                "disagree": "Údaje nesouhlasí",
+                "back": "Zpět",
+                "modalText": "Zastavte se prosím za námi na kterékoliv naší pobočce, abychom Vaše údaje změnili.",
+                "branchMeeting": "Sjednat schůzku na pobočce",
+                "endRequest": "Ukončit žádost",
+                "branch": "<link href=\"https://www.moneta.cz/kontakt#mapa-pobocek-section\" target=\"_blank\">Sjednat schůzku na pobočce</link>"
+            },
+            "cardTypeOffer": {
+                "title": "Jakou si přejete kartu?",
+                "virtual": {
+                    "title": "Virtuální karta do mobilu",
+                    "description": "Místo plastové karty Vám vydáme virtuální kartu. Pro placení a výběry si ji můžete přidat do mobilu hned po zřízení účtu.",
+                    "addressRequired": false
+                },
+                "plastic": {
+                    "title": "Fyzická + virtuální karta",
+                    "description": "Plastová karta, kterou dobře znáte. Do mobilu si ji můžete přidat také.",
+                    "addressRequired": true
+                },
+                "contact": {
+                    "contactTitle": "Kontaktní údaje",
+                    "adressTitle": "Adresa pro zaslání karty",
 
-          "companyName": "Název firmy",
-          "street": "Ulice",
-          "descriptiveNumber": "Č. popisné",
-          "orientationNumber": "Č. orientační",
-          "city": "Město",
-          "postCode": "PSČ",
-          "country": "Země",
-          "phoneMobile": "Telefon",
-          "email": "E-mail"
-        },
-        "cards": {
-          "14100": "Debetní karta Standard",
-          "15100": "Debetní karta Gold",
-          "16100": "Debetní karta Business",
-          "17100": "Debetní karta Business Premium",
-          "99300": "Debetní karta EUR",
-          "99400": "Debetní karta Business EUR",
-          "88300": "Debetní karta USD",
-          "88400": "Debetní karta Business USD",
-          "43000": "Debetní Moneta Business Card",
-          "47000": "Debetní karta MoneyCard Smart",
-          "47006": "Kreditní účet",
-          "40100": "Debetní karta MoneyCard Gold",
-          "47009": "Debetní karta Visa Classic",
-          "47003": "Debetní karta MoneyCard Gratis",
-          "47004": "Debetní karta MoneyCard Plus",
-          "47002": "Debetní karta MoneyCard Fix"
-        },
-        "alert": "Změnili jste adresu pro zaslání? Kartu Vám na ni co nejdříve odešleme. Pokud chcete změnit svou kontaktní adresu, můžete to udělat v Nastavení.",
-        "buttonBack": "Zpět",
-        "buttonContinue": "Pokračovat"
-      },
-      "cardDesignOffer": {
-        "title": "Vyberte vzhled Vaší nové karty",
-        "primaryButton": "Pokračovat se vzhledem {card}",
-        "designs": [
-          {
-            "value": "CA141D0001",
-            "title": "MONETA - Standard",
-            "button": "Pokračovat"
-          },
-          {
-            "value": "CA141D0003",
-            "title": "MONETA - Pride",
-            "button": "Pokračovat"
-          },
-          {
-            "title": "MONETA - Praha",
-            "value": "CA141D0005"
-          },
-          {
-            "title": "MONETA - Středočeský kraj",
-            "value": "CA141D0006"
-          },
-          {
-            "title": "MONETA - Jihočeský kraj",
-            "value": "CA141D0007"
-          },
-          {
-            "title": "MONETA - Plzeňský kraj",
-            "value": "CA141D0008"
-          },
-          {
-            "title": "MONETA - Karlovarský kraj",
-            "value": "CA141D0009"
-          },
-          {
-            "title": "MONETA - Ústecký kraj",
-            "value": "CA141D0010"
-          },
-          {
-            "title": "MONETA - Liberecký kraj",
-            "value": "CA141D0011"
-          },
-          {
-            "title": "MONETA - Královéhradecký kraj",
-            "value": "CA141D0012"
-          },
-          {
-            "title": "MONETA - Pardubický kraj",
-            "value": "CA141D0013"
-          },
-          {
-            "title": "MONETA - Kraj Vysočina",
-            "value": "CA141D0014"
-          },
-          {
-            "title": "MONETA - Jihomoravský kraj",
-            "value": "CA141D0015"
-          },
-          {
-            "title": "MONETA - Zlínský kraj",
-            "value": "CA141D0016"
-          },
-          {
-            "title": "MONETA - Olomoucký kraj",
-            "value": "CA141D0017"
-          },
-          {
-            "title": "MONETA - Moravskoslezský kraj",
-            "value": "CA141D0018"
-          }
-        ]
-      },
-      "amlQuestionnaire": {
-        "continue": "Pokračovat",
-        "saveAndClose": "Uložit a zavřít"
-      },
-      "riskQuestionnaire": {
-        "title": "Teď už jen drobnosti",
-        "taxResidency": {
-          "customLabel": "V jakých zemích máte daňovou rezidenci?",
-          "labelTooltip": "Pokud Vaše příjmy ze všech zdrojů na území ČR i ze zahraničí podléhají zdanění v ČR, máte daňovou rezidenci v ČR."
-        },
-        "additionalData": {
-          "maritalStatus": "Rodinný stav",
-          "education": "Vzdělání",
-          "companyTurnover": "Váš přibližný obrat za minulý rok",
-          "companyTurnoverTooltip": "Jedná se o celkové příjmy (obrat) z Vašeho podnikání za minulý rok. Stačí, když uvedete Váš přibližný odhad.",
-          "profitLastYear": "Váš čistý příjem za minulý rok",
-          "profitLastYearTooltip": "Jedná se o čistý příjem (obrat po odečtení nákladů a po zdanění) z Vašeho podnikání za minulý rok.\nStačí, když uvedete Váš přibližný odhad.",
-          "houseHoldMonthlyIncome": "Čistý měsíční příjem domácnosti",
-          "houseHoldMonthlyIncomeTooltip": "Jedná se o čistý měsíční příjem z Vašeho podnikání + další příjmy všech členů domácnosti.\nStačí, když uvedete Váš přibližný odhad.",
-          "employeeCount": "Počet zaměstnanců",
-          "unit": "Kč"
-        },
-        "invalidDic": {
-          "title": "Je Vaše DIČ/TIN zadáno správně?",
-          "content": "Zkontrolujte ho prosím.",
-          "alert": "Daňové identifikační číslo začíná vždy dvoupísmenným kódem státu, ve kterém je subjekt registrován.<br><br>TIN = Daňové identifikační číslo používané pro daňové účely ve <strong>Spojených státech</strong>. Pevný formát TIN : XXX-XX-XXXX",
-          "buttonCancel": "Zadat DIČ/TIN znovu",
-          "buttonContinue": "Ano, pokračovat"
-        },
-        "continue": "Pokračovat"
-      },
-      "goToBranch": {
-        "title": "Potřebujeme od Vás více informací, zastavte se prosím za námi na pobočce",
-        "content": "Na schůzce s Vámi bankéř žádost dokončí.",
-        "button": "Sjednat schůzku na pobočce"
-      },
-      "busyLoader": "Chviličku prosím,<br>právě vše kontrolujeme",
-      "staticDocuments": {
-        "title": "Přečtěte si předsmluvní informace a další dokumenty",
-        "buttonCancel": "Nesouhlasím",
-        "buttonContinue": "Souhlasím, pokračovat",
-        "alert": "Dokumenty Vám uložíme do Internet Banky a Smart Banky do sekce Dokumenty a smlouvy."
-      },
-      "goToBranchModal": {
-        "title": "Bez Vašeho souhlasu to bohužel nepůjde",
-        "content": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočce.",
-        "branch": "Sjednat schůzku na pobočce",
-        "phone": "224 443 636",
-        "buttonTerminate": "Ukončit sjednání",
-        "buttonCancel": "Zpět"
-      },
-      "agreement": {
-        "title": "Přečtěte si dokumenty k podpisu"
-      },
-      "victory": {
-        "button": "Přejít na Přehled",
-        "sectionTitle": "Běžný účet",
-        "plastic": {
-          "icon": "tick",
-          "title": "Hotovo! Účet číslo {accountNumber} je založený",
-          "content": "Aktivujeme ho nejpozději následující pracovní den.<br><br>Debetní kartu k účtu Vám zašleme poštou na adresu: {address} a obvykle dorazí do pěti pracovních dní. Ale už teď si ji můžete přidat jako virtuální kartu do mobilu a okamžitě ji začít používat.<br><br>Všechny důležité dokumenty k účtu najdete v Internet Bance a Smart Bance v sekci Dokumenty.",
-          "alert": "Chcete si založit další účet? Aby vše proběhlo, jak má, odhlaste se a znovu přihlaste."
-        },
-        "virtual": {
-          "icon": "tick",
-          "title": "Hotovo! Účet číslo {accountNumber} je založený",
-          "content": "Aktivujeme ho nejpozději následující pracovní den.<br><br>Svou kartu si už teď můžete přidat do mobilu a okamžitě ji začít používat.<br><br>Všechny důležité dokumenty k účtu najdete v Internet Bance a Smart Bance v sekci Dokumenty.",
-          "alert": "Pro založení dalších účtů je potřeba se odhlásit a znovu přihlásit do Internet Banky"
-        },
-        "nextBusinessDay": {
-          "icon": "pending",
-          "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
-          "content": "V pracovních dnech to obvykle zvládneme za pár hodin, o víkendu nebo ve svátek to bude následující pracovní den.<br><br>Hned poté Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a aktivujeme Vám účet.<br><br>Omlouváme se Vám a děkujeme za trpělivost."
-        },
-        "error": {
-          "icon": "close",
-          "title": "Omlouváme se, ale něco se pokazilo",
-          "content": "Zastavte se prosím za námi na pobočce s dokladem totožnosti, abychom mohli pokračovat.",
-          "branchMeeting": "Sjednat schůzku na pobočce"
+                    "companyName": "Název firmy",
+                    "street": "Ulice",
+                    "descriptiveNumber": "Č. popisné",
+                    "orientationNumber": "Č. orientační",
+                    "city": "Město",
+                    "postCode": "PSČ",
+                    "country": "Země",
+                    "phoneMobile": "Telefon",
+                    "email": "E-mail"
+                },
+                "cards": {
+                    "14100": "Debetní karta Standard",
+                    "15100": "Debetní karta Gold",
+                    "16100": "Debetní karta Business",
+                    "17100": "Debetní karta Business Premium",
+                    "99300": "Debetní karta EUR",
+                    "99400": "Debetní karta Business EUR",
+                    "88300": "Debetní karta USD",
+                    "88400": "Debetní karta Business USD",
+                    "43000": "Debetní Moneta Business Card",
+                    "47000": "Debetní karta MoneyCard Smart",
+                    "47006": "Kreditní účet",
+                    "40100": "Debetní karta MoneyCard Gold",
+                    "47009": "Debetní karta Visa Classic",
+                    "47003": "Debetní karta MoneyCard Gratis",
+                    "47004": "Debetní karta MoneyCard Plus",
+                    "47002": "Debetní karta MoneyCard Fix"
+                },
+                "alert": "Změnili jste adresu pro zaslání? Kartu Vám na ni co nejdříve odešleme. Pokud chcete změnit svou kontaktní adresu, můžete to udělat v Nastavení.",
+                "buttonBack": "Zpět",
+                "buttonContinue": "Pokračovat"
+            },
+            "cardDesignOffer": {
+                "title": "Vyberte vzhled Vaší nové karty",
+                "primaryButton": "Pokračovat se vzhledem {card}",
+                "designs": [
+                    {
+                        "value": "CA141D0001",
+                        "title": "MONETA - Standard",
+                        "button": "Pokračovat"
+                    },
+                    {
+                        "value": "CA141D0003",
+                        "title": "MONETA - Pride",
+                        "button": "Pokračovat"
+                    },
+                    {
+                        "title": "MONETA - Praha",
+                        "value": "CA141D0005"
+                    },
+                    {
+                        "title": "MONETA - Středočeský kraj",
+                        "value": "CA141D0006"
+                    },
+                    {
+                        "title": "MONETA - Jihočeský kraj",
+                        "value": "CA141D0007"
+                    },
+                    {
+                        "title": "MONETA - Plzeňský kraj",
+                        "value": "CA141D0008"
+                    },
+                    {
+                        "title": "MONETA - Karlovarský kraj",
+                        "value": "CA141D0009"
+                    },
+                    {
+                        "title": "MONETA - Ústecký kraj",
+                        "value": "CA141D0010"
+                    },
+                    {
+                        "title": "MONETA - Liberecký kraj",
+                        "value": "CA141D0011"
+                    },
+                    {
+                        "title": "MONETA - Královéhradecký kraj",
+                        "value": "CA141D0012"
+                    },
+                    {
+                        "title": "MONETA - Pardubický kraj",
+                        "value": "CA141D0013"
+                    },
+                    {
+                        "title": "MONETA - Kraj Vysočina",
+                        "value": "CA141D0014"
+                    },
+                    {
+                        "title": "MONETA - Jihomoravský kraj",
+                        "value": "CA141D0015"
+                    },
+                    {
+                        "title": "MONETA - Zlínský kraj",
+                        "value": "CA141D0016"
+                    },
+                    {
+                        "title": "MONETA - Olomoucký kraj",
+                        "value": "CA141D0017"
+                    },
+                    {
+                        "title": "MONETA - Moravskoslezský kraj",
+                        "value": "CA141D0018"
+                    }
+                ]
+            },
+            "amlQuestionnaire": {
+                "continue": "Pokračovat",
+                "saveAndClose": "Uložit a zavřít"
+            },
+            "riskQuestionnaire": {
+                "title": "Teď už jen drobnosti",
+                "taxResidency": {
+                    "customLabel": "V jakých zemích máte daňovou rezidenci?",
+                    "labelTooltip": "Pokud Vaše příjmy ze všech zdrojů na území ČR i ze zahraničí podléhají zdanění v ČR, máte daňovou rezidenci v ČR."
+                },
+                "additionalData": {
+                    "maritalStatus": "Rodinný stav",
+                    "education": "Vzdělání",
+                    "companyTurnover": "Váš přibližný obrat za minulý rok",
+                    "companyTurnoverTooltip": "Jedná se o celkové příjmy (obrat) z Vašeho podnikání za minulý rok. Stačí, když uvedete Váš přibližný odhad.",
+                    "profitLastYear": "Váš čistý příjem za minulý rok",
+                    "profitLastYearTooltip": "Jedná se o čistý příjem (obrat po odečtení nákladů a po zdanění) z Vašeho podnikání za minulý rok.\nStačí, když uvedete Váš přibližný odhad.",
+                    "houseHoldMonthlyIncome": "Čistý měsíční příjem domácnosti",
+                    "houseHoldMonthlyIncomeTooltip": "Jedná se o čistý měsíční příjem z Vašeho podnikání + další příjmy všech členů domácnosti.\nStačí, když uvedete Váš přibližný odhad.",
+                    "employeeCount": "Počet zaměstnanců",
+                    "unit": "Kč"
+                },
+                "invalidDic": {
+                    "title": "Je Vaše DIČ/TIN zadáno správně?",
+                    "content": "Zkontrolujte ho prosím.",
+                    "alert": "Daňové identifikační číslo začíná vždy dvoupísmenným kódem státu, ve kterém je subjekt registrován.<br><br>TIN = Daňové identifikační číslo používané pro daňové účely ve <strong>Spojených státech</strong>. Pevný formát TIN : XXX-XX-XXXX",
+                    "buttonCancel": "Zadat DIČ/TIN znovu",
+                    "buttonContinue": "Ano, pokračovat"
+                },
+                "continue": "Pokračovat"
+            },
+            "goToBranch": {
+                "title": "Potřebujeme od Vás více informací, zastavte se prosím za námi na pobočce",
+                "content": "Na schůzce s Vámi bankéř žádost dokončí.",
+                "button": "Sjednat schůzku na pobočce"
+            },
+            "busyLoader": "Chviličku prosím,<br>právě vše kontrolujeme",
+            "staticDocuments": {
+                "title": "Přečtěte si předsmluvní informace a další dokumenty",
+                "buttonCancel": "Nesouhlasím",
+                "buttonContinue": "Souhlasím, pokračovat",
+                "alert": "Dokumenty Vám uložíme do Internet Banky a Smart Banky do sekce Dokumenty a smlouvy."
+            },
+            "goToBranchModal": {
+                "title": "Bez Vašeho souhlasu to bohužel nepůjde",
+                "content": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočce.",
+                "branch": "Sjednat schůzku na pobočce",
+                "phone": "224 443 636",
+                "buttonTerminate": "Ukončit sjednání",
+                "buttonCancel": "Zpět"
+            },
+            "agreement": {
+                "title": "Přečtěte si dokumenty k podpisu"
+            },
+            "victory": {
+                "button": "Přejít na Přehled",
+                "sectionTitle": "Běžný účet",
+                "plastic": {
+                    "icon": "tick",
+                    "title": "Hotovo! Účet číslo {accountNumber} je založený",
+                    "content": "Aktivujeme ho nejpozději následující pracovní den.<br><br>Debetní kartu k účtu Vám zašleme poštou na adresu: {address} a obvykle dorazí do pěti pracovních dní. Ale už teď si ji můžete přidat jako virtuální kartu do mobilu a okamžitě ji začít používat.<br><br>Všechny důležité dokumenty k účtu najdete v Internet Bance a Smart Bance v sekci Dokumenty.",
+                    "alert": "Chcete si založit další účet? Aby vše proběhlo, jak má, odhlaste se a znovu přihlaste."
+                },
+                "virtual": {
+                    "icon": "tick",
+                    "title": "Hotovo! Účet číslo {accountNumber} je založený",
+                    "content": "Aktivujeme ho nejpozději následující pracovní den.<br><br>Svou kartu si už teď můžete přidat do mobilu a okamžitě ji začít používat.<br><br>Všechny důležité dokumenty k účtu najdete v Internet Bance a Smart Bance v sekci Dokumenty.",
+                    "alert": "Pro založení dalších účtů je potřeba se odhlásit a znovu přihlásit do Internet Banky"
+                },
+                "nextBusinessDay": {
+                    "icon": "pending",
+                    "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                    "content": "V pracovních dnech to obvykle zvládneme za pár hodin, o víkendu nebo ve svátek to bude následující pracovní den.<br><br>Hned poté Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a aktivujeme Vám účet.<br><br>Omlouváme se Vám a děkujeme za trpělivost."
+                },
+                "error": {
+                    "icon": "close",
+                    "title": "Omlouváme se, ale něco se pokazilo",
+                    "content": "Zastavte se prosím za námi na pobočce s dokladem totožnosti, abychom mohli pokračovat.",
+                    "branchMeeting": "Sjednat schůzku na pobočce"
+                }
+            }
         }
-      }
     }
-  }
 }

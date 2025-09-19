@@ -1,485 +1,485 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "notAgreed": {
-        "title": "We cannot continue without your agreement",
-        "detail": "You are only a step away from your new credit card. In order to provide you with it we need you to sign the contract and your agreement to pre-contractual information.<b>Do you have any questions? Let's discuss them together.</b>",
-        "callUs": "<b>Infoline</b><br/>call us",
-        "branch": "<b>Branch</b><br/>find the closest",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue with credit card application"
-      },
-      "cantMoreMoney": {
-        "title": "At this moment we cannot offer you more",
-        "detail": "We currently cannot offer you a credit card with a higher limit <b>If you change your mind and accept a lower limit, we would be very happy.</b>",
-        "callUs": "<b>Call us</b><br/>if you have any questions",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue with credit card application"
-      },
-      "generalError": {
-        "title": "Something went wrong",
-        "detail": "Something went wrong and we cannot assist you within the app. <b>We suggest you visit one of our branches and we will look at the issue together.</b>",
-        "callUs": "<b>Call us</b><br/>if you have any questions",
-        "branch": "<b>Visit us</b><br/>at one of our branches",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "needMoreMoney": {
-        "title": "Do you need more money?",
-        "detail": "Please stop by our branch, where we will solve everything, or call us for more information.",
-        "branch": "<b>At our branch</b><br/>find the closest",
-        "callUs": "<b>Call us</b><br/>for more information",
-        "primaryButton": "Back to application"
-      },
-      "visitUs": {
-        "title": "Visit us at one of our branches",
-        "detail": "We are sorry, we currently cannot calculate your credit card within Smart Banka. <b> Stop by at one of our branches where we will take care of everything, or call us for more information.</b>",
-        "callUs": "<b>Call us</b><br/>for more information",
-        "branch": "<b>At our branch</b><br/>find the closest",
-        "primaryButton": "Cancel application"
-      },
-      "weCallYou": {
-        "title": "We will call you",
-        "detail": "Our phone banker will try to contact you by the next business day. </b>If they are not able to reach you they will try again later.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "cantOrderCreditCard": {
-        "title": "We are sorry but cannot offer you a credit card",
-        "detail": "In the cases of other than standard incomes we cannot accurately calculate it for you. Thank you for understanding.",
-        "primaryButton": "Cancel application"
-      },
-      "sentLink": {
-        "title": "Up to CZK\u00A0300\u00A0000 in Internet Banka",
-        "detail": "<b>You can apply for a credit card with a limit of up to CZK\u00A0300\u00A0000 anytime in Internet Banka in the Cards section.</b> ",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "manualCheck": {
-        "title": "We have to review your request, and that can take a moment.",
-        "detail": "You can find out the result here within 2 days.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "scoringNok": {
-        "title": "After reviewing your application we cannot offer you a credit card.",
-        "detail": "<b>For information about next possible steps please do not hesitate to contact us.</b>",
-        "callUs": "<b>At our infoline</b><br/>call us",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "formalControlFailed": {
-        "title": "Something went wrong",
-        "detail": "Something went wrong and we cannot assist you within the app. <b>It would be best to look at this together.</b>",
-        "branch": "<b>Visit us</b><br/>at one of our branches",
-        "primaryButton": "Cancel application"
-      },
-      "uncommittedChanges": {
-        "title": "Changes in the form will not be saved when going onto a previous page. Do you wish to continue?",
-        "secondaryButton": "No, remain on page",
-        "primaryButton": "Yes, continue"
-      },
-      "criteriaFailed": {
-        "title": "We are sorry but we cannot currently offer you a credit card.",
-        "detail": "Unfortunately, we cannot help you within the app. Thank you for understanding",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "scoringTechnicalError": {
-        "title": "Sorry, something went wrong",
-        "detail": "Something went wrong and we cannot assist you within the app. <b>It would be best to look at this together</b>. Do not forget to take identification papers.",
-        "branch": "<b>Visit us</b><br/>at one of our branches",
-        "primaryButton": "Back to Balance Overview"
-      }
-    },
-    "general": {
-      "toolbarTitle": "MoneyCard Smart",
-      "phoneNumberSupport": "800 102 040",
-      "cardUrl": "/cbl_images/card_logos/1000_M670_clear.png",
-      "messengerUrl": "https://m.me/138479367229",
-      "supportChat": "<b>Loan process just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat."
-    },
-    "scenes": {
-      "help": {
-        "needHelpTitle": "Do you need help?",
-        "needHelpDetail": "All information about the MoneyCard Smart card can be found at <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta</a>.",
-        "buttonWhatIsCreditCard": "How does a credit card work?",
-        "aboutCreditCard": "Information about your credit card:",
-        "needOtherTimeTitle": "Do you not need your credit card right now?",
-        "buttonSave": "Save and continue later",
-        "buttonCancel": "Cancel",
-        "needContactUsTitle": "Do you have any questions?",
-        "branch": "<b>Visit us</b><br/>at one of our branches",
-        "callUs": "<b>Call our</b><br/>helpline"
-      },
-      "intro": {
-        "title": "Our credit card pays off",
-        "keyImage": "/cbl_images/credit_card/ccKeyImg.png",
-        "bullets": [
-          "<b>Get 5 % back on all grocery purchases worldwide</b> and an additional 1 % on other purchases in the selected package. <b>You can earn up to CZK 6,000</b> for half a year.",
-          "Use it now and pay later with the <b>50 day grace period</b>",
-          "Apply in your Smart Banka</b> and we will deliver it to your home within a week</b>"
-        ],
-        "secondaryButton": "How does it work?",
-        "primaryButton": "Let's do it"
-      },
-      "upsell": {
-        "title": "You shop and our credit card gives you money back",
-        "keyImage": "/cbl_images/credit_card/ccKeyImg.png",
-        "bullets": [
-          "<b>Get 5 % back on all grocery purchases worldwide</b> and an additional 1 % on other purchases in the selected package. <b>You can earn up to CZK 6,000</b> for half a year.",
-          "Apply for yours in Smart Banka and <b>you can immediately pay with it via Google Pay and Apple Pay.</b>",
-          "It’s perfect for for travelling and shopping abroad",
-          "Shop now and pay later with a grace period of up to 50 days",
-          "You can repay your credit card easily via Smart Banka"
-        ],
-        "bulletsImage": [
-          "/cbl_images/credit_card/ccIconCashback.png",
-          "/cbl_images/credit_card/ccIconSend.png",
-          "/cbl_images/credit_card/ccIconTravel.png",
-          "/cbl_images/credit_card/ccIconCalendar.png",
-          "/cbl_images/credit_card/ccIconCcPay.png"
-        ],
-        "secondaryButton": "How does it work?",
-        "primaryButton": "Let's do it"
-      },
-      "secondaryOfferNib": {
-        "title": "Smart Credit Card",
-        "detail": "Enjoy the number of benefits using a credit card brings"
-      },
-      "promoOfferNib": {
-        "title": "Get a monthly cashback of CZK 500",
-        "detail": "Choose your benefits package and get 1 % back from every purchase in the selected category. You can change your package in Internet Banka every quarter, allowing you to earn cashback where you need it most.",
-        "bulletsTitle": "The main benefits of Smart Credit Card",
-        "bullets": [
-          "Now you can get <b>5 % back</b> on every grocery purchase worldwide. Cashback is valid <b>for 6 months</b> up to CZK 500 per month. Choose your benefits package and earn <b>up to CZK 6,000 over six months.</b>",
-          "<b>Product and service packages</b> to suit everyone (Electronics,Travel and Sports, Dining and Entertainment, Home and Garden, Pets).",
-          "Enjoy up to <b>50 days of interest-free period.</b> Shop now, pay later.",
-          "Enjoy <b>no card fees</b> with a monthly spend CZK 3,000.",
-          "<b>Shop abroad</b> even where regular debit cards aren't accepted.",
-          "Make monthly <b>repayments according to your budget</b> - with a minimum of 2 % of the balance.",
-          "Apply online and receive your card <b>within a week.</b> Or use it <b>immediately to shop thanks to Google Pay or Apple Pay.</b>"
-        ],
-        "howCashbackWorks": {
-          "title": "How to get a 1 % cashback",
-          "firstBoxTitle": "Select a benefit package",
-          "firstBoxBody": "Choose a package of goods and services for which you want to apply the benefit. You can change it once per calendar quarter.",
-          "secondBoxTitle": "Buy goods from the selected package",
-          "secondBoxBody": "The benefit applies to every purchase made with the Smart Credit Card at all merchants in the selected package.",
-          "thirdBoxTitle": "Get 1 % back",
-          "thirdBoxBody": "Based on your selected package, you'll get 1 % back, up to CZK 500 per month. You can see how much you've earned in your Internet Banka and Smart Banka."
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "notAgreed": {
+                "title": "We cannot continue without your agreement",
+                "detail": "You are only a step away from your new credit card. In order to provide you with it we need you to sign the contract and your agreement to pre-contractual information.<b>Do you have any questions? Let's discuss them together.</b>",
+                "callUs": "<b>Infoline</b><br/>call us",
+                "branch": "<b>Branch</b><br/>find the closest",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue with credit card application"
+            },
+            "cantMoreMoney": {
+                "title": "At this moment we cannot offer you more",
+                "detail": "We currently cannot offer you a credit card with a higher limit <b>If you change your mind and accept a lower limit, we would be very happy.</b>",
+                "callUs": "<b>Call us</b><br/>if you have any questions",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue with credit card application"
+            },
+            "generalError": {
+                "title": "Something went wrong",
+                "detail": "Something went wrong and we cannot assist you within the app. <b>We suggest you visit one of our branches and we will look at the issue together.</b>",
+                "callUs": "<b>Call us</b><br/>if you have any questions",
+                "branch": "<b>Visit us</b><br/>at one of our branches",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "needMoreMoney": {
+                "title": "Do you need more money?",
+                "detail": "Please stop by our branch, where we will solve everything, or call us for more information.",
+                "branch": "<b>At our branch</b><br/>find the closest",
+                "callUs": "<b>Call us</b><br/>for more information",
+                "primaryButton": "Back to application"
+            },
+            "visitUs": {
+                "title": "Visit us at one of our branches",
+                "detail": "We are sorry, we currently cannot calculate your credit card within Smart Banka. <b> Stop by at one of our branches where we will take care of everything, or call us for more information.</b>",
+                "callUs": "<b>Call us</b><br/>for more information",
+                "branch": "<b>At our branch</b><br/>find the closest",
+                "primaryButton": "Cancel application"
+            },
+            "weCallYou": {
+                "title": "We will call you",
+                "detail": "Our phone banker will try to contact you by the next business day. </b>If they are not able to reach you they will try again later.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "cantOrderCreditCard": {
+                "title": "We are sorry but cannot offer you a credit card",
+                "detail": "In the cases of other than standard incomes we cannot accurately calculate it for you. Thank you for understanding.",
+                "primaryButton": "Cancel application"
+            },
+            "sentLink": {
+                "title": "Up to CZK\u00A0300\u00A0000 in Internet Banka",
+                "detail": "<b>You can apply for a credit card with a limit of up to CZK\u00A0300\u00A0000 anytime in Internet Banka in the Cards section.</b> ",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "manualCheck": {
+                "title": "We have to review your request, and that can take a moment.",
+                "detail": "You can find out the result here within 2 days.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoringNok": {
+                "title": "After reviewing your application we cannot offer you a credit card.",
+                "detail": "<b>For information about next possible steps please do not hesitate to contact us.</b>",
+                "callUs": "<b>At our infoline</b><br/>call us",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "formalControlFailed": {
+                "title": "Something went wrong",
+                "detail": "Something went wrong and we cannot assist you within the app. <b>It would be best to look at this together.</b>",
+                "branch": "<b>Visit us</b><br/>at one of our branches",
+                "primaryButton": "Cancel application"
+            },
+            "uncommittedChanges": {
+                "title": "Changes in the form will not be saved when going onto a previous page. Do you wish to continue?",
+                "secondaryButton": "No, remain on page",
+                "primaryButton": "Yes, continue"
+            },
+            "criteriaFailed": {
+                "title": "We are sorry but we cannot currently offer you a credit card.",
+                "detail": "Unfortunately, we cannot help you within the app. Thank you for understanding",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoringTechnicalError": {
+                "title": "Sorry, something went wrong",
+                "detail": "Something went wrong and we cannot assist you within the app. <b>It would be best to look at this together</b>. Do not forget to take identification papers.",
+                "branch": "<b>Visit us</b><br/>at one of our branches",
+                "primaryButton": "Back to Balance Overview"
+            }
         },
-        "howCcWorks": {
-          "bulletsTitle": "How does a credit card work?",
-          "bullets": [
-            "Each month, use your credit card for in-store and online purchases or ATM withdrawals. <b>The money is deducted from the bank's account, not yours.</b> When you apply, we'll set a monthly spending limit.",
-            "By <b>your chosen day of the following month,</b> you can either pay off your entire balance from the previous month or just make the minimum payment. Interest is only charged on the remaining balance."
-          ]
+        "general": {
+            "toolbarTitle": "MoneyCard Smart",
+            "phoneNumberSupport": "800 102 040",
+            "cardUrl": "/cbl_images/card_logos/1000_M670_clear.png",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Loan process just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat."
+        },
+        "scenes": {
+            "help": {
+                "needHelpTitle": "Do you need help?",
+                "needHelpDetail": "All information about the MoneyCard Smart card can be found at <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta</a>.",
+                "buttonWhatIsCreditCard": "How does a credit card work?",
+                "aboutCreditCard": "Information about your credit card:",
+                "needOtherTimeTitle": "Do you not need your credit card right now?",
+                "buttonSave": "Save and continue later",
+                "buttonCancel": "Cancel",
+                "needContactUsTitle": "Do you have any questions?",
+                "branch": "<b>Visit us</b><br/>at one of our branches",
+                "callUs": "<b>Call our</b><br/>helpline"
+            },
+            "intro": {
+                "title": "Our credit card pays off",
+                "keyImage": "/cbl_images/credit_card/ccKeyImg.png",
+                "bullets": [
+                    "<b>Get 5 % back on all grocery purchases worldwide</b> and an additional 1 % on other purchases in the selected package. <b>You can earn up to CZK 6,000</b> for half a year.",
+                    "Use it now and pay later with the <b>50 day grace period</b>",
+                    "Apply in your Smart Banka</b> and we will deliver it to your home within a week</b>"
+                ],
+                "secondaryButton": "How does it work?",
+                "primaryButton": "Let's do it"
+            },
+            "upsell": {
+                "title": "You shop and our credit card gives you money back",
+                "keyImage": "/cbl_images/credit_card/ccKeyImg.png",
+                "bullets": [
+                    "<b>Get 5 % back on all grocery purchases worldwide</b> and an additional 1 % on other purchases in the selected package. <b>You can earn up to CZK 6,000</b> for half a year.",
+                    "Apply for yours in Smart Banka and <b>you can immediately pay with it via Google Pay and Apple Pay.</b>",
+                    "It’s perfect for for travelling and shopping abroad",
+                    "Shop now and pay later with a grace period of up to 50 days",
+                    "You can repay your credit card easily via Smart Banka"
+                ],
+                "bulletsImage": [
+                    "/cbl_images/credit_card/ccIconCashback.png",
+                    "/cbl_images/credit_card/ccIconSend.png",
+                    "/cbl_images/credit_card/ccIconTravel.png",
+                    "/cbl_images/credit_card/ccIconCalendar.png",
+                    "/cbl_images/credit_card/ccIconCcPay.png"
+                ],
+                "secondaryButton": "How does it work?",
+                "primaryButton": "Let's do it"
+            },
+            "secondaryOfferNib": {
+                "title": "Smart Credit Card",
+                "detail": "Enjoy the number of benefits using a credit card brings"
+            },
+            "promoOfferNib": {
+                "title": "Get a monthly cashback of CZK 500",
+                "detail": "Choose your benefits package and get 1 % back from every purchase in the selected category. You can change your package in Internet Banka every quarter, allowing you to earn cashback where you need it most.",
+                "bulletsTitle": "The main benefits of Smart Credit Card",
+                "bullets": [
+                    "Now you can get <b>5 % back</b> on every grocery purchase worldwide. Cashback is valid <b>for 6 months</b> up to CZK 500 per month. Choose your benefits package and earn <b>up to CZK 6,000 over six months.</b>",
+                    "<b>Product and service packages</b> to suit everyone (Electronics,Travel and Sports, Dining and Entertainment, Home and Garden, Pets).",
+                    "Enjoy up to <b>50 days of interest-free period.</b> Shop now, pay later.",
+                    "Enjoy <b>no card fees</b> with a monthly spend CZK 3,000.",
+                    "<b>Shop abroad</b> even where regular debit cards aren't accepted.",
+                    "Make monthly <b>repayments according to your budget</b> - with a minimum of 2 % of the balance.",
+                    "Apply online and receive your card <b>within a week.</b> Or use it <b>immediately to shop thanks to Google Pay or Apple Pay.</b>"
+                ],
+                "howCashbackWorks": {
+                    "title": "How to get a 1 % cashback",
+                    "firstBoxTitle": "Select a benefit package",
+                    "firstBoxBody": "Choose a package of goods and services for which you want to apply the benefit. You can change it once per calendar quarter.",
+                    "secondBoxTitle": "Buy goods from the selected package",
+                    "secondBoxBody": "The benefit applies to every purchase made with the Smart Credit Card at all merchants in the selected package.",
+                    "thirdBoxTitle": "Get 1 % back",
+                    "thirdBoxBody": "Based on your selected package, you'll get 1 % back, up to CZK 500 per month. You can see how much you've earned in your Internet Banka and Smart Banka."
+                },
+                "howCcWorks": {
+                    "bulletsTitle": "How does a credit card work?",
+                    "bullets": [
+                        "Each month, use your credit card for in-store and online purchases or ATM withdrawals. <b>The money is deducted from the bank's account, not yours.</b> When you apply, we'll set a monthly spending limit.",
+                        "By <b>your chosen day of the following month,</b> you can either pay off your entire balance from the previous month or just make the minimum payment. Interest is only charged on the remaining balance."
+                    ]
+                }
+            },
+            "howItWorks": {
+                "title": "How does a credit card work?",
+                "firstPoint": "Shop within your monthly limit",
+                "secondPoint": "No later than on the 20th day of the following month you either pay your entire spending or a set minimum payment (the rest is repaid with interest)",
+                "titleDictionary": "Dictionary",
+                "detail": "Via a credit card Moneta Money Bank lends you money up to the limit which you have applied for - eg. CZK\u00A030\u00A0000. By paying with a credit card you use the money of Moneta Money Bank. The money you spend or the set minimum payment need to be paid off within the 50 day grace period. Put in law terms - a credit card is an indefinite revolving credit. <br/><br/><b>The difference between a credit and a debit card is:</b>You receive your debit card with your checking account in MONETA Money Bank. You can pay in shops or online, withdraw from an ATM within your current balance. In other words - you use your own resources.<br/><br/> With credit cards arranged in Smart Banka, the grace period starts on the first day of the month and end on the 20th day of the following month. If you pay off all that you have spent you do not pay any interest.<br/><br/><b>Credit card payments:</b>Every month you need to pay off at least the set minimum amount which you can find in your statement. You can pay your whole spending as well. You choose the way of payment when applying for your credit card - either by a payment order or we automatically deduct the set minimum amount from your checking account.",
+                "titleQuestion": "Do you have any questions?",
+                "callUs": "<b>Call us</b><br/>we are happy to help"
+            },
+            "discountSelection": {
+                "title": "First, choose your reward in your favorite store:",
+                "callButton": "WANT TO KNOW MORE? CALL US",
+                "bullets": [
+                    "Rewards apply in stores and online</b> at all merchants in the chosen category (<b>over 12\u00A0000 merchants</b>)",
+                    "Rewards of up to CZK\u00A0500 are refunded in full for the whole month.</b>"
+                ]
+            },
+            "limit": {
+                "title": "Choose your limit.",
+                "detail": "<font color=\"#9996a8\">Showcase example of the MoneyCard Smart card revolving credit is based on the presumption that the line of credit of CZK\u00A030\u00A0000 be drawn immediately and in full, via cashless transfer and repaid in 12 identical monthly payments in the amount of CZK\u00A02\u00A0871,14. Credit card allows repayments in different monthly payments in the minimum amount of 2\u00A0% of the drawn credit. Credit period: indefinite. Annual interest rate is  22,99\u00A0%. Fees connected to the credit: monthly credit card maintenance fee of CZK\u00A049, electronic statement distribution fee CZK\u00A00. APR 29,79\u00A0%, total amount paid by consumer CZK\u00A034\u00A0453,68. Data shown in the showcase example can differ in the case more frequent payments or cashless transfers with the use of the grace period.</font>",
+                "firstColumnTitle": "With monthly spending from CZK\u00A03\u00A0000",
+                "secondColumnTitle": "With lower<br/>spending",
+                "interestFreePeriodTitle": "Grace period",
+                "cardManagementTitle": "Card management",
+                "paymentOrderTitle": "Payment order",
+                "selectionsInMMBTitle": "Withdrawals in Moneta",
+                "selectionsElseWhereTitle": "Other withdrawals",
+                "selectionsAbroadTitle": "Withdrawals abroad",
+                "interestRateTitle": "interest rate p.a.",
+                "selectionsAbroadMorePlaceholder": "{1} % + {2} CZK",
+                "selectionsAbroadLessPlaceholder": "{1} % + {2} CZK",
+                "interestRateMorePlaceholder": "{1} %",
+                "interestRateLessPlaceholder": "{1} %",
+                "interestFreePeriodMorePlaceholder": "up to {1} days",
+                "interestFreePeriodLessPlaceholder": "up to {1} days",
+                "cardManagementMorePlaceholder": "{1} CZK",
+                "cardManagementLessPlaceholder": "{1} CZK",
+                "paymentOrderMorePlaceholder": "{1} CZK",
+                "paymentOrderLessPlaceholder": "{1} CZK",
+                "selectionsInMMBMorePlaceholder": "{1} CZK",
+                "selectionsInMMBLessPlaceholder": "{1} CZK",
+                "selectionsElseWhereMorePlaceholder": "{1} CZK",
+                "selectionsElseWhereLessPlaceholder": "{1} CZK",
+                "free": "free",
+                "secondaryButton": "Higher limit",
+                "primaryButton": "Continue"
+            },
+            "name": {
+                "title": "Did we get your first and last name correctly?",
+                "firstNameHint": "First name",
+                "lastNameHint": "Last name",
+                "citizenship": "Citizenship",
+                "detail": "The card will be in your name",
+                "primaryButton": "Save"
+            },
+            "permanentAddress": {
+                "title": "Did we get your permanent address correctly?",
+                "streetTitle": "Street name",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP code",
+                "countryTitle": "Country",
+                "detail": "You can enter your contact address in the next step",
+                "primaryButton": "All is correct"
+            },
+            "contactAddress": {
+                "title": "Did we get your contact address correctly?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP code",
+                "countryTitle": "Country",
+                "detail": "To this address we will deliver your card, and if you wish, even your monthly statement",
+                "primaryButton": "All is correct"
+            },
+            "incomeType": {
+                "title": "What is the source of your income?",
+                "employedTitle": "I am employed",
+                "trialPeriodTitle": "and within a trial period",
+                "noticePeriodTitle": "and within a notice period",
+                "fixPeriodTitle": "within a fixed period",
+                "fixPeriodCheckedTitle": "within a fixed period from <b>to</b>:",
+                "fixPeriodDateHint": "Select date",
+                "businessTitle": "Business",
+                "pensionTitle": "Pension",
+                "otherTitle": "Other",
+                "primaryButton": "Continue"
+            },
+            "employer": {
+                "title": "Is this your current employer?",
+                "alternativeTitle": "What is your current employer?",
+                "employerTitle": "Employer",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP code",
+                "countryTitle": "Country",
+                "idNumberTitle": "ID number",
+                "primaryButton": "Continue",
+                "secondaryButton": "Other"
+            },
+            "employerSearch": {
+                "title": "Who is your current employer?",
+                "hint": "Enter minimum of 3 characters",
+                "employerTitle": "Employer"
+            },
+            "income": {
+                "title": "Did we get your monthly income correctly?",
+                "alternativeTitle": "What is your net monthly income?",
+                "detail": "If your monthly income varies, please enter a mean of the last 3 months. Take your time if you need to - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "dependents": {
+                "title": "How many dependents?",
+                "detail": "A dependent is any person who is even partly dependent on your income. How many people in your life would be impacted by a cut in your income?",
+                "primaryButton": "Continue"
+            },
+            "householdIncome": {
+                "title": "What is your net household income?",
+                "detail": "Enter the net income of your household - if the monthly income varies, please enter a mean of the last 3 months. Take your time if you need to - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "housingExpenses": {
+                "title": "What is your household expenses?",
+                "inputTitle": "Monthly expenses",
+                "detail": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
+                "primaryButton": "Continue"
+            },
+            "householdExpensesNecessary": {
+                "title": "What other personal expenses do you have?",
+                "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
+                "installmentsSum": "Amount of monthly installments",
+                "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
+                "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
+                "necessaryExpenses": "Amount of monthly expenses",
+                "necessaryExpensesError": {
+                    "title": "Your necessary monthly expenses are higher than your income",
+                    "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
+                    "secondaryButton": "Edit Expenses",
+                    "primaryButton": "Everything is correct, continue"
+                },
+                "richBullets": [
+                    {
+                        "image": "tickFill",
+                        "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Transport (tram, fuel costs)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Health care (medicines, rehabilitation, medical devices)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Nutrition"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Wage garnishment"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Other regular monthly expenses"
+                    },
+                    {
+                        "image": "closeFill",
+                        "title": "Please do not include loan repayments including mortgages"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "anotherDocument": {
+                "title": "Where do you live and what other type of ID do you have available?",
+                "detail": "Enter the type of your current living space (not your permanent residence) and the type of ID which may be used for further verification of your identity at our branch.",
+                "primaryButton": "Continue",
+                "documents": [
+                    {
+                        "title": "Driving license",
+                        "id": "drivingLicence"
+                    },
+                    {
+                        "title": "Passport",
+                        "id": "passport"
+                    },
+                    {
+                        "title": "Birth certificate",
+                        "id": "birthCertificate"
+                    }
+                ],
+                "secondDocuments": [
+                    {
+                        "title": "Driving license",
+                        "id": "DRIVING_LICENCE"
+                    },
+                    {
+                        "title": "Passport",
+                        "id": "PASSPORT"
+                    },
+                    {
+                        "title": "Birth certificate",
+                        "id": "BIRTH_CERTIFICATE"
+                    }
+                ],
+                "housingDetail": "Where do you live?",
+                "housing": [
+                    {
+                        "title": "Own house / flat",
+                        "id": "OWN"
+                    },
+                    {
+                        "title": "Rented house / flat",
+                        "id": "RENTED"
+                    },
+                    {
+                        "title": "Cooperative flat",
+                        "id": "COOPERATIVE"
+                    },
+                    {
+                        "title": "At parents",
+                        "id": "PARENTS"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ]
+            },
+            "agreement": {
+                "title": "The last step - agreement.",
+                "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Banking Client Information Register, the Non-Banking Client Information Register, and other steps necessary to contract conclusion.</p><p>To find out more about personal data processing in the MONETA Group, go to <a href=\"https://www.moneta.cz/ochrana-dat\">www.moneta.cz/ochrana-dat</a>. I hereby confirm that I have read and fully understood the information above.</p><p>I also confirm that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution. I give consent to Moneta Money Bank to verify all necessary information.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
+                "checkboxText": "I confirm the entered details.",
+                "primaryButton": "I agree."
+            },
+            "scoringOk": {
+                "title": "Everything seems OK, we can continue",
+                "detail": "I hereby declare that should the credit be drawn in full I will be able to pay at least the set minimum monthly payment in the amount of CZK\u00A0{1} .",
+                "primaryButton": "Continue"
+            },
+            "scoringOkBranch": {
+                "title": "We will have to continue at one of our branches",
+                "detail": "Before signing we need to verify your ID and other document you have chosen to provide in your application. Please, stop by at one of our branches.<br/><br/><b>If you have adjusted your net monthly income, please bring along with you a\u00A0<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"> proof of income from your employer.</a>.",
+                "primaryButton": "Back to Balance Overview",
+                "secondaryButton": "Find the closest branch"
+            },
+            "scoringOkLess": {
+                "title": "You credit card is ready - but with a lower limit. Is that alright?",
+                "detail": "I hereby declare that should the credit be drawn in full I will be able to pay at least the set minimum monthly payment in the amount of CZK {1} .",
+                "primaryButton": "Yes, I agree",
+                "secondaryButton": "Disagree"
+            },
+            "setPassword": {
+                "title": "Enter a six-digit password to activate your card.",
+                "detail": "<b>Please remember your password, you are going to need it when your card arrives.</b> More information is disclosed in the envelope with your card.",
+                "primaryButton": "Continue"
+            },
+            "configuration": {
+                "title": "Everything about spending and paying off your credit card.",
+                "sendingStatementsTitle": "What is your preferred method of receiving your monthly statement?",
+                "sendingStatementsTitleDropdown": "What is your preferred method of receiving your monthly statement?",
+                "howToRepayTitle": "<b>Credit card payments should be done by the 20th of the following month</b>:",
+                "howToRepayTitleDropdown": "Credit card payments should be done",
+                "accountTitle": "<b>From account</b>",
+                "accountTitleDropdown": "From account",
+                "detail": "You can repay your credit card by bank transfer from any account into the account which you will find in your bank statement. Use the contract number as the variable symbol.",
+                "directDebitDetail": "If you choose \"direct debit\" each month on the payment date we will deduct the set minimum monthly payment from the account of your choice. Should the payment date fall on a weekend or a bank holiday the payment will be deducted on the previous business day.",
+                "primaryButton": "Continue"
+            },
+            "preContract": {
+                "title": "Read the pre-contractual information",
+                "resend": "Resend",
+                "secondaryButton": "Disagree",
+                "primaryButton": "I agree, continue to contract"
+            },
+            "contract": {
+                "title": "Read the credit card contract",
+                "resend": "Resend",
+                "secondaryButton": "Disagree",
+                "primaryButton": "I agree, continue to signature"
+            },
+            "victory": {
+                "title": "All done. Add your card to Google Pay or Apple Pay and enjoy all the benefits immediately!",
+                "detail": "Although you can already use the card fully on your mobile phone, we also send you a plastic card, which will arrive within a week directly to your mailbox.<br/><br/> All documents can be found in Smart Banka in My Documents section.",
+                "primaryButton": "Done"
+            },
+            "victoryPilot": {
+                "title": "Approved! Now you can sign the contract at a branch office.",
+                "detail": "Next time you will be able to sign the contract in Smart Banka. For now we have to continue at one of our branches.</b></br></br>There everything will be ready for you to sign and your credit card will be delivered to your home by mail.",
+                "secondaryButton": "Back to Balance Overview",
+                "primaryButton": "Find the closest branch"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat has to review everything"
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we are preparing the contract"
+            },
+            "waitingAfterSign": {
+                "title": "Just a moment, we have to sign the contract."
+            }
         }
-      },
-      "howItWorks": {
-        "title": "How does a credit card work?",
-        "firstPoint": "Shop within your monthly limit",
-        "secondPoint": "No later than on the 20th day of the following month you either pay your entire spending or a set minimum payment (the rest is repaid with interest)",
-        "titleDictionary": "Dictionary",
-        "detail": "Via a credit card Moneta Money Bank lends you money up to the limit which you have applied for - eg. CZK\u00A030\u00A0000. By paying with a credit card you use the money of Moneta Money Bank. The money you spend or the set minimum payment need to be paid off within the 50 day grace period. Put in law terms - a credit card is an indefinite revolving credit. <br/><br/><b>The difference between a credit and a debit card is:</b>You receive your debit card with your checking account in MONETA Money Bank. You can pay in shops or online, withdraw from an ATM within your current balance. In other words - you use your own resources.<br/><br/> With credit cards arranged in Smart Banka, the grace period starts on the first day of the month and end on the 20th day of the following month. If you pay off all that you have spent you do not pay any interest.<br/><br/><b>Credit card payments:</b>Every month you need to pay off at least the set minimum amount which you can find in your statement. You can pay your whole spending as well. You choose the way of payment when applying for your credit card - either by a payment order or we automatically deduct the set minimum amount from your checking account.",
-        "titleQuestion": "Do you have any questions?",
-        "callUs": "<b>Call us</b><br/>we are happy to help"
-      },
-      "discountSelection": {
-        "title": "First, choose your reward in your favorite store:",
-        "callButton": "WANT TO KNOW MORE? CALL US",
-        "bullets": [
-          "Rewards apply in stores and online</b> at all merchants in the chosen category (<b>over 12\u00A0000 merchants</b>)",
-          "Rewards of up to CZK\u00A0500 are refunded in full for the whole month.</b>"
-        ]
-      },
-      "limit": {
-        "title": "Choose your limit.",
-        "detail": "<font color=\"#9996a8\">Showcase example of the MoneyCard Smart card revolving credit is based on the presumption that the line of credit of CZK\u00A030\u00A0000 be drawn immediately and in full, via cashless transfer and repaid in 12 identical monthly payments in the amount of CZK\u00A02\u00A0871,14. Credit card allows repayments in different monthly payments in the minimum amount of 2\u00A0% of the drawn credit. Credit period: indefinite. Annual interest rate is  22,99\u00A0%. Fees connected to the credit: monthly credit card maintenance fee of CZK\u00A049, electronic statement distribution fee CZK\u00A00. APR 29,79\u00A0%, total amount paid by consumer CZK\u00A034\u00A0453,68. Data shown in the showcase example can differ in the case more frequent payments or cashless transfers with the use of the grace period.</font>",
-        "firstColumnTitle": "With monthly spending from CZK\u00A03\u00A0000",
-        "secondColumnTitle": "With lower<br/>spending",
-        "interestFreePeriodTitle": "Grace period",
-        "cardManagementTitle": "Card management",
-        "paymentOrderTitle": "Payment order",
-        "selectionsInMMBTitle": "Withdrawals in Moneta",
-        "selectionsElseWhereTitle": "Other withdrawals",
-        "selectionsAbroadTitle": "Withdrawals abroad",
-        "interestRateTitle": "interest rate p.a.",
-        "selectionsAbroadMorePlaceholder": "{1} % + {2} CZK",
-        "selectionsAbroadLessPlaceholder": "{1} % + {2} CZK",
-        "interestRateMorePlaceholder": "{1} %",
-        "interestRateLessPlaceholder": "{1} %",
-        "interestFreePeriodMorePlaceholder": "up to {1} days",
-        "interestFreePeriodLessPlaceholder": "up to {1} days",
-        "cardManagementMorePlaceholder": "{1} CZK",
-        "cardManagementLessPlaceholder": "{1} CZK",
-        "paymentOrderMorePlaceholder": "{1} CZK",
-        "paymentOrderLessPlaceholder": "{1} CZK",
-        "selectionsInMMBMorePlaceholder": "{1} CZK",
-        "selectionsInMMBLessPlaceholder": "{1} CZK",
-        "selectionsElseWhereMorePlaceholder": "{1} CZK",
-        "selectionsElseWhereLessPlaceholder": "{1} CZK",
-        "free": "free",
-        "secondaryButton": "Higher limit",
-        "primaryButton": "Continue"
-      },
-      "name": {
-        "title": "Did we get your first and last name correctly?",
-        "firstNameHint": "First name",
-        "lastNameHint": "Last name",
-        "citizenship": "Citizenship",
-        "detail": "The card will be in your name",
-        "primaryButton": "Save"
-      },
-      "permanentAddress": {
-        "title": "Did we get your permanent address correctly?",
-        "streetTitle": "Street name",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP code",
-        "countryTitle": "Country",
-        "detail": "You can enter your contact address in the next step",
-        "primaryButton": "All is correct"
-      },
-      "contactAddress": {
-        "title": "Did we get your contact address correctly?",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP code",
-        "countryTitle": "Country",
-        "detail": "To this address we will deliver your card, and if you wish, even your monthly statement",
-        "primaryButton": "All is correct"
-      },
-      "incomeType": {
-        "title": "What is the source of your income?",
-        "employedTitle": "I am employed",
-        "trialPeriodTitle": "and within a trial period",
-        "noticePeriodTitle": "and within a notice period",
-        "fixPeriodTitle": "within a fixed period",
-        "fixPeriodCheckedTitle": "within a fixed period from <b>to</b>:",
-        "fixPeriodDateHint": "Select date",
-        "businessTitle": "Business",
-        "pensionTitle": "Pension",
-        "otherTitle": "Other",
-        "primaryButton": "Continue"
-      },
-      "employer": {
-        "title": "Is this your current employer?",
-        "alternativeTitle": "What is your current employer?",
-        "employerTitle": "Employer",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP code",
-        "countryTitle": "Country",
-        "idNumberTitle": "ID number",
-        "primaryButton": "Continue",
-        "secondaryButton": "Other"
-      },
-      "employerSearch": {
-        "title": "Who is your current employer?",
-        "hint": "Enter minimum of 3 characters",
-        "employerTitle": "Employer"
-      },
-      "income": {
-        "title": "Did we get your monthly income correctly?",
-        "alternativeTitle": "What is your net monthly income?",
-        "detail": "If your monthly income varies, please enter a mean of the last 3 months. Take your time if you need to - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "dependents": {
-        "title": "How many dependents?",
-        "detail": "A dependent is any person who is even partly dependent on your income. How many people in your life would be impacted by a cut in your income?",
-        "primaryButton": "Continue"
-      },
-      "householdIncome": {
-        "title": "What is your net household income?",
-        "detail": "Enter the net income of your household - if the monthly income varies, please enter a mean of the last 3 months. Take your time if you need to - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "housingExpenses": {
-        "title": "What is your household expenses?",
-        "inputTitle": "Monthly expenses",
-        "detail": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
-        "primaryButton": "Continue"
-      },
-      "householdExpensesNecessary": {
-        "title": "What other personal expenses do you have?",
-        "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
-        "installmentsSum": "Amount of monthly installments",
-        "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
-        "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
-        "necessaryExpenses": "Amount of monthly expenses",
-        "necessaryExpensesError": {
-          "title": "Your necessary monthly expenses are higher than your income",
-          "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
-          "secondaryButton": "Edit Expenses",
-          "primaryButton": "Everything is correct, continue"
-        },
-        "richBullets": [
-          {
-            "image": "tickFill",
-            "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Transport (tram, fuel costs)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Health care (medicines, rehabilitation, medical devices)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Nutrition"
-          },
-          {
-            "image": "tickFill",
-            "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Wage garnishment"
-          },
-          {
-            "image": "tickFill",
-            "title": "Other regular monthly expenses"
-          },
-          {
-            "image": "closeFill",
-            "title": "Please do not include loan repayments including mortgages"
-          }
-        ],
-        "primaryButton": "Continue"
-      },
-      "anotherDocument": {
-        "title": "Where do you live and what other type of ID do you have available?",
-        "detail": "Enter the type of your current living space (not your permanent residence) and the type of ID which may be used for further verification of your identity at our branch.",
-        "primaryButton": "Continue",
-        "documents": [
-          {
-            "title": "Driving license",
-            "id": "drivingLicence"
-          },
-          {
-            "title": "Passport",
-            "id": "passport"
-          },
-          {
-            "title": "Birth certificate",
-            "id": "birthCertificate"
-          }
-        ],
-        "secondDocuments": [
-          {
-            "title": "Driving license",
-            "id": "DRIVING_LICENCE"
-          },
-          {
-            "title": "Passport",
-            "id": "PASSPORT"
-          },
-          {
-            "title": "Birth certificate",
-            "id": "BIRTH_CERTIFICATE"
-          }
-        ],
-        "housingDetail": "Where do you live?",
-        "housing": [
-          {
-            "title": "Own house / flat",
-            "id": "OWN"
-          },
-          {
-            "title": "Rented house / flat",
-            "id": "RENTED"
-          },
-          {
-            "title": "Cooperative flat",
-            "id": "COOPERATIVE"
-          },
-          {
-            "title": "At parents",
-            "id": "PARENTS"
-          },
-          {
-            "title": "Other",
-            "id": "OTHER"
-          }
-        ]
-      },
-      "agreement": {
-        "title": "The last step - agreement.",
-        "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Banking Client Information Register, the Non-Banking Client Information Register, and other steps necessary to contract conclusion.</p><p>To find out more about personal data processing in the MONETA Group, go to <a href=\"https://www.moneta.cz/ochrana-dat\">www.moneta.cz/ochrana-dat</a>. I hereby confirm that I have read and fully understood the information above.</p><p>I also confirm that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution. I give consent to Moneta Money Bank to verify all necessary information.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
-        "checkboxText": "I confirm the entered details.",
-        "primaryButton": "I agree."
-      },
-      "scoringOk": {
-        "title": "Everything seems OK, we can continue",
-        "detail": "I hereby declare that should the credit be drawn in full I will be able to pay at least the set minimum monthly payment in the amount of CZK\u00A0{1} .",
-        "primaryButton": "Continue"
-      },
-      "scoringOkBranch": {
-        "title": "We will have to continue at one of our branches",
-        "detail": "Before signing we need to verify your ID and other document you have chosen to provide in your application. Please, stop by at one of our branches.<br/><br/><b>If you have adjusted your net monthly income, please bring along with you a\u00A0<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"> proof of income from your employer.</a>.",
-        "primaryButton": "Back to Balance Overview",
-        "secondaryButton": "Find the closest branch"
-      },
-      "scoringOkLess": {
-        "title": "You credit card is ready - but with a lower limit. Is that alright?",
-        "detail": "I hereby declare that should the credit be drawn in full I will be able to pay at least the set minimum monthly payment in the amount of CZK {1} .",
-        "primaryButton": "Yes, I agree",
-        "secondaryButton": "Disagree"
-      },
-      "setPassword": {
-        "title": "Enter a six-digit password to activate your card.",
-        "detail": "<b>Please remember your password, you are going to need it when your card arrives.</b> More information is disclosed in the envelope with your card.",
-        "primaryButton": "Continue"
-      },
-      "configuration": {
-        "title": "Everything about spending and paying off your credit card.",
-        "sendingStatementsTitle": "What is your preferred method of receiving your monthly statement?",
-        "sendingStatementsTitleDropdown": "What is your preferred method of receiving your monthly statement?",
-        "howToRepayTitle": "<b>Credit card payments should be done by the 20th of the following month</b>:",
-        "howToRepayTitleDropdown": "Credit card payments should be done",
-        "accountTitle": "<b>From account</b>",
-        "accountTitleDropdown": "From account",
-        "detail": "You can repay your credit card by bank transfer from any account into the account which you will find in your bank statement. Use the contract number as the variable symbol.",
-        "directDebitDetail": "If you choose \"direct debit\" each month on the payment date we will deduct the set minimum monthly payment from the account of your choice. Should the payment date fall on a weekend or a bank holiday the payment will be deducted on the previous business day.",
-        "primaryButton": "Continue"
-      },
-      "preContract": {
-        "title": "Read the pre-contractual information",
-        "resend": "Resend",
-        "secondaryButton": "Disagree",
-        "primaryButton": "I agree, continue to contract"
-      },
-      "contract": {
-        "title": "Read the credit card contract",
-        "resend": "Resend",
-        "secondaryButton": "Disagree",
-        "primaryButton": "I agree, continue to signature"
-      },
-      "victory": {
-        "title": "All done. Add your card to Google Pay or Apple Pay and enjoy all the benefits immediately!",
-        "detail": "Although you can already use the card fully on your mobile phone, we also send you a plastic card, which will arrive within a week directly to your mailbox.<br/><br/> All documents can be found in Smart Banka in My Documents section.",
-        "primaryButton": "Done"
-      },
-      "victoryPilot": {
-        "title": "Approved! Now you can sign the contract at a branch office.",
-        "detail": "Next time you will be able to sign the contract in Smart Banka. For now we have to continue at one of our branches.</b></br></br>There everything will be ready for you to sign and your credit card will be delivered to your home by mail.",
-        "secondaryButton": "Back to Balance Overview",
-        "primaryButton": "Find the closest branch"
-      },
-      "scoring": {
-        "title": "Just a moment, the cat has to review everything"
-      },
-      "waitingBeforeContract": {
-        "title": "Just a moment, we are preparing the contract"
-      },
-      "waitingAfterSign": {
-        "title": "Just a moment, we have to sign the contract."
-      }
     }
-  }
 }
