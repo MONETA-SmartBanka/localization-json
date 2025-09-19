@@ -1,101 +1,101 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "title": "Contact us",
-    "dashboard": {
-      "actionType": "PHONECALL",
-      "actionData": "224 443 636",
-      "actionLabelText": "Customer service"
-    },
-    "messengerUrl": "https://m.me/138479367229",
-    "sections": [
-      {
-        "title": "Contacts",
-        "type": "COLLAPSABLE",
-        "rows": [
-          {
-            "actionType": "PHONE_CALL",
-            "actionLabelText": "Client Center",
-            "actionData": "224443636"
-          },
-          {
-            "actionType": "PHONE_CALL",
-            "actionLabelText": "Product block",
-            "actionData": "224442424"
-          },
-          {
-            "actionType": "PHONE_CALL",
-            "actionLabelText": "Interest in a new product",
-            "actionData": "224444222"
-          }
+    "status": "OK",
+    "responseObject": {
+        "title": "Contact us",
+        "dashboard": {
+            "actionType": "PHONECALL",
+            "actionData": "224 443 636",
+            "actionLabelText": "Customer service"
+        },
+        "messengerUrl": "https://m.me/138479367229",
+        "sections": [
+            {
+                "title": "Contacts",
+                "type": "COLLAPSABLE",
+                "rows": [
+                    {
+                        "actionType": "PHONE_CALL",
+                        "actionLabelText": "Client Center",
+                        "actionData": "224443636"
+                    },
+                    {
+                        "actionType": "PHONE_CALL",
+                        "actionLabelText": "Product block",
+                        "actionData": "224442424"
+                    },
+                    {
+                        "actionType": "PHONE_CALL",
+                        "actionLabelText": "Interest in a new product",
+                        "actionData": "224444222"
+                    }
+                ]
+            },
+            {
+                "title": "Registered office",
+                "type": "COLLAPSABLE",
+                "rows": [
+                    {
+                        "actionLabelText": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle\nIČ: 25672720"
+                    }
+                ]
+            },
+            {
+                "title": "Other contacts",
+                "rows": [
+                    {
+                        "actionType": "APP_PAGE",
+                        "actionLabelText": "Branches and ATMs",
+                        "actionData": "BRANCHESATMS"
+                    }
+                ]
+            },
+            {
+                "rows": [
+                    {
+                        "actionType": "WEB",
+                        "actionLabelText": "Web",
+                        "actionData": "https://moneta.cz"
+                    },
+                    {
+                        "actionLabelText": "Data box",
+                        "actionData": "3kpd8nk"
+                    },
+                    {
+                        "actionLabelText": "BIC code (SWIFT)",
+                        "actionData": "AGBACZPP"
+                    }
+                ]
+            },
+            {
+                "title": "Social networks",
+                "type": "ONE_ROW",
+                "rows": [
+                    {
+                        "socialNetworkType": "facebook",
+                        "actionType": "WEB",
+                        "actionLabelText": "Like us on Facebook",
+                        "actionData": "https://www.facebook.com/monetamoneybank/"
+                    },
+                    {
+                        "socialNetworkType": "twitter",
+                        "actionType": "WEB",
+                        "actionLabelText": "Follow us on Twitter",
+                        "actionData": "https://twitter.com/monetamoney"
+                    },
+                    {
+                        "socialNetworkType": "youtube",
+                        "actionType": "WEB",
+                        "actionLabelText": "Watch us on YouTube",
+                        "actionData": "https://www.youtube.com/user/SNGEMB"
+                    },
+                    {
+                        "socialNetworkType": "instagram",
+                        "actionType": "WEB",
+                        "actionLabelText": "Follow us on Instagram",
+                        "actionData": "https://www.instagram.com/moneta_money_bank/"
+                    }
+                ]
+            }
         ]
-      },
-      {
-        "title": "Registered office",
-        "type": "COLLAPSABLE",
-        "rows": [
-          {
-            "actionLabelText": "MONETA Money Bank, a.s.\nVyskočilova 1442/1b\n140 28 Praha 4 - Michle\nIČ: 25672720"
-          }
-        ]
-      },
-      {
-        "title": "Other contacts",
-        "rows": [
-          {
-            "actionType": "APP_PAGE",
-            "actionLabelText": "Branches and ATMs",
-            "actionData": "BRANCHESATMS"
-          }
-        ]
-      },
-      {
-        "rows": [
-          {
-            "actionType": "WEB",
-            "actionLabelText": "Web",
-            "actionData": "https://moneta.cz"
-          },
-          {
-            "actionLabelText": "Data box",
-            "actionData": "3kpd8nk"
-          },
-          {
-            "actionLabelText": "BIC code (SWIFT)",
-            "actionData": "AGBACZPP"
-          }
-        ]
-      },
-      {
-        "title": "Social networks",
-        "type": "ONE_ROW",
-        "rows": [
-          {
-            "socialNetworkType": "facebook",
-            "actionType": "WEB",
-            "actionLabelText": "Like us on Facebook",
-            "actionData": "https://www.facebook.com/monetamoneybank/"
-          },
-          {
-            "socialNetworkType": "twitter",
-            "actionType": "WEB",
-            "actionLabelText": "Follow us on Twitter",
-            "actionData": "https://twitter.com/monetamoney"
-          },
-          {
-            "socialNetworkType": "youtube",
-            "actionType": "WEB",
-            "actionLabelText": "Watch us on YouTube",
-            "actionData": "https://www.youtube.com/user/SNGEMB"
-          },
-          {
-            "socialNetworkType": "instagram",
-            "actionType": "WEB",
-            "actionLabelText": "Follow us on Instagram",
-            "actionData": "https://www.instagram.com/moneta_money_bank/"
-          }
-        ]
-      }
-    ]
-  }
+    }
 }

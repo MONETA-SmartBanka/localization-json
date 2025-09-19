@@ -1,113 +1,113 @@
 {
-  "scenes": {
-    "intro": {
-      "title": "Help with Smart Banka",
-      "imageUrl": "/cbl_images/charity/INTRO.png",
-      "toolbarTitle": "Let’s help others together",
-      "detail": "We have carefully selected charitable organizations to which you can now easily make a donation. It is up to you whether the donation be monthly or one-time.",
-      "mail": "Your email",
-      "footer": "Selected organizations send gift certificates to the specified email, usually once a year",
-      "primaryButton": "Have a look"
+    "scenes": {
+        "intro": {
+            "title": "Help with Smart Banka",
+            "imageUrl": "/cbl_images/charity/INTRO.png",
+            "toolbarTitle": "Let’s help others together",
+            "detail": "We have carefully selected charitable organizations to which you can now easily make a donation. It is up to you whether the donation be monthly or one-time.",
+            "mail": "Your email",
+            "footer": "Selected organizations send gift certificates to the specified email, usually once a year",
+            "primaryButton": "Have a look"
+        },
+        "pin": {
+            "title": "{{amount}} for {{organization}}",
+            "detail": "Enter your PIN"
+        },
+        "victory": {
+            "title": "You have donated {{amount}}, Thank you!",
+            "titleRegular": "You donate {{amount}} each month, thank you!",
+            "detail": "Thanks to you and other charitable souls like you, we have managed to raise {{totalAmount}}.<br><br>Your total donation is {{amount}}.",
+            "footer": "Selected organizations send gift certificates to the specified email, usually once a year.",
+            "footerRegular": "Selected organizations send gift certificates to the specified email, usually once a year. You can find your donation in standing orders section.",
+            "share": "Share the warm feeling of a good deed with your friends.",
+            "primaryButton": "Done",
+            "secondaryButton": "Donate again"
+        }
     },
-    "pin": {
-      "title": "{{amount}} for {{organization}}",
-      "detail": "Enter your PIN"
-    },
-    "victory": {
-      "title": "You have donated {{amount}}, Thank you!",
-      "titleRegular": "You donate {{amount}} each month, thank you!",
-      "detail": "Thanks to you and other charitable souls like you, we have managed to raise {{totalAmount}}.<br><br>Your total donation is {{amount}}.",
-      "footer": "Selected organizations send gift certificates to the specified email, usually once a year.",
-      "footerRegular": "Selected organizations send gift certificates to the specified email, usually once a year. You can find your donation in standing orders section.",
-      "share": "Share the warm feeling of a good deed with your friends.",
-      "primaryButton": "Done",
-      "secondaryButton": "Donate again"
+    "donations": {
+        "donateButton": "Donate",
+        "totalDonation": "We have raised {{amount}}. Join us!",
+        "fromAccount": "From account",
+        "oneTime": "One-time",
+        "regularly": "Monthly",
+        "messageForRecipient": "Donation by {{email}} via Smart Banka",
+        "standingOrderAlert": {
+            "title": "You donate each month",
+            "detail": "When you want to edit your monthly donation, you will find it in Standing orders section."
+        },
+        "organizations": [
+            {
+                "identifier": "UKRAINIAN_EMBASSY",
+                "title": "Ukrainian Embassy in Prague",
+                "imageUrl": "/cbl_images/charity/UKRAINIAN_EMBASSY.png",
+                "detail": "Collection to help the defense of Ukraine organized by the Embassy of Ukraine in the Czech Republic.",
+                "url": "https://czechia.mfa.gov.ua/cs",
+                "shortTitle": "Ukrainian Embassy"
+            },
+            {
+                "identifier": "KNIHOVNA_VACLAVA_HAVLA",
+                "title": "Knihovna Václava Havla",
+                "imageUrl": "/cbl_images/charity/KNIHOVNA_VACLAVA_HAVLA.png",
+                "detail": "Helps spread the ideological, literary and political legacy of Vaclav Havel.",
+                "url": "https://www.vaclavhavel.cz",
+                "shortTitle": "Knihovna V. Havla"
+            },
+            {
+                "identifier": "CLOVEK_V_TISNI",
+                "title": "Člověk v tísni",
+                "imageUrl": "/cbl_images/charity/CLOVEK_V_TISNI.png",
+                "detail": "Collection to help Ukraine, created by the non-profit organization Clovek v tisni",
+                "url": "https://www.clovekvtisni.cz/",
+                "shortTitle": "Člověk v tísni"
+            },
+            {
+                "identifier": "POMOZTE_DETEM",
+                "title": "Pomozte dětem",
+                "imageUrl": "/cbl_images/charity/POMOZTE_DETEM.png",
+                "detail": "Provides help to disadvantaged and disenfranchised children.",
+                "url": "https://www.pomoztedetem.cz",
+                "shortTitle": "Pomozte dětem"
+            },
+            {
+                "identifier": "S_BARVOU_VEN",
+                "title": "S barvou ven",
+                "imageUrl": "/cbl_images/charity/S_BARVOU_VEN.png",
+                "detail": "A group of mentors who help LGBTQ+ youth through the coming out process.",
+                "url": "https://www.sbarvouven.cz",
+                "shortTitle": "S barvou ven"
+            },
+            {
+                "identifier": "CSOP",
+                "title": "Český svaz ochránců přírody",
+                "imageUrl": "/cbl_images/charity/CSOP.png",
+                "detail": "Actively protects the environment and natural heritage of the Czech Republic.",
+                "url": "http://www.csop.cz/index.php",
+                "shortTitle": "Český svaz ochránců přírody"
+            },
+            {
+                "identifier": "DOBRY_ANDEL",
+                "title": "DOBRÝ ANDĚL",
+                "imageUrl": "/cbl_images/charity/DOBRY_ANDEL.png",
+                "detail": "Help families dealing with serious illness.",
+                "url": "https://www.dobryandel.cz/?utm_source=moneta&utm_medium=app&utm_campaign=moneta",
+                "shortTitle": "Dobrý Anděl"
+            },
+            {
+                "identifier": "DETSKE_KRIZOVE_CENTRUM",
+                "title": "Dětské krizové centrum",
+                "imageUrl": "/cbl_images/charity/DETSKE_KRIZ_CENTRUM.png",
+                "detail": "Help us help endangered children.",
+                "url": "https://www.ditekrize.cz/",
+                "shortTitle": "Dětské Krizové Centrum"
+            },
+            {
+                "identifier": "POSTBELLUM",
+                "title": "Post Bellum, z. ú.",
+                "imageUrl": "/cbl_images/charity/POSTBELLUM.png",
+                "detail": "Documents the stories of veterans of the 20th century to preserve and retell them.",
+                "url": "https://www.postbellum.cz/",
+                "shortTitle": "Post Bellum"
+            }
+        ]
     }
-  },
-  "donations": {
-    "donateButton": "Donate",
-    "totalDonation": "We have raised {{amount}}. Join us!",
-    "fromAccount": "From account",
-    "oneTime": "One-time",
-    "regularly": "Monthly",
-    "messageForRecipient": "Donation by {{email}} via Smart Banka",
-    "standingOrderAlert": {
-      "title": "You donate each month",
-      "detail": "When you want to edit your monthly donation, you will find it in Standing orders section."
-    },
-    "organizations": [
-      {
-        "identifier": "UKRAINIAN_EMBASSY",
-        "title": "Ukrainian Embassy in Prague",
-        "imageUrl": "/cbl_images/charity/UKRAINIAN_EMBASSY.png",
-        "detail": "Collection to help the defense of Ukraine organized by the Embassy of Ukraine in the Czech Republic.",
-        "url": "https://czechia.mfa.gov.ua/cs",
-        "shortTitle": "Ukrainian Embassy"
-      },
-      {
-        "identifier": "KNIHOVNA_VACLAVA_HAVLA",
-        "title": "Knihovna Václava Havla",
-        "imageUrl": "/cbl_images/charity/KNIHOVNA_VACLAVA_HAVLA.png",
-        "detail": "Helps spread the ideological, literary and political legacy of Vaclav Havel.",
-        "url": "https://www.vaclavhavel.cz",
-        "shortTitle": "Knihovna V. Havla"
-      },
-      {
-        "identifier": "CLOVEK_V_TISNI",
-        "title": "Člověk v tísni",
-        "imageUrl": "/cbl_images/charity/CLOVEK_V_TISNI.png",
-        "detail": "Collection to help Ukraine, created by the non-profit organization Clovek v tisni",
-        "url": "https://www.clovekvtisni.cz/",
-        "shortTitle": "Člověk v tísni"
-      },
-      {
-        "identifier": "POMOZTE_DETEM",
-        "title": "Pomozte dětem",
-        "imageUrl": "/cbl_images/charity/POMOZTE_DETEM.png",
-        "detail": "Provides help to disadvantaged and disenfranchised children.",
-        "url": "https://www.pomoztedetem.cz",
-        "shortTitle": "Pomozte dětem"
-      },
-      {
-        "identifier": "S_BARVOU_VEN",
-        "title": "S barvou ven",
-        "imageUrl": "/cbl_images/charity/S_BARVOU_VEN.png",
-        "detail": "A group of mentors who help LGBTQ+ youth through the coming out process.",
-        "url": "https://www.sbarvouven.cz",
-        "shortTitle": "S barvou ven"
-      },
-      {
-        "identifier": "CSOP",
-        "title": "Český svaz ochránců přírody",
-        "imageUrl": "/cbl_images/charity/CSOP.png",
-        "detail": "Actively protects the environment and natural heritage of the Czech Republic.",
-        "url": "http://www.csop.cz/index.php",
-        "shortTitle": "Český svaz ochránců přírody"
-      },
-      {
-        "identifier": "DOBRY_ANDEL",
-        "title": "DOBRÝ ANDĚL",
-        "imageUrl": "/cbl_images/charity/DOBRY_ANDEL.png",
-        "detail": "Help families dealing with serious illness.",
-        "url": "https://www.dobryandel.cz/?utm_source=moneta&utm_medium=app&utm_campaign=moneta",
-        "shortTitle": "Dobrý Anděl"
-      },
-      {
-        "identifier": "DETSKE_KRIZOVE_CENTRUM",
-        "title": "Dětské krizové centrum",
-        "imageUrl": "/cbl_images/charity/DETSKE_KRIZ_CENTRUM.png",
-        "detail": "Help us help endangered children.",
-        "url": "https://www.ditekrize.cz/",
-        "shortTitle": "Dětské Krizové Centrum"
-      },
-      {
-        "identifier": "POSTBELLUM",
-        "title": "Post Bellum, z. ú.",
-        "imageUrl": "/cbl_images/charity/POSTBELLUM.png",
-        "detail": "Documents the stories of veterans of the 20th century to preserve and retell them.",
-        "url": "https://www.postbellum.cz/",
-        "shortTitle": "Post Bellum"
-      }
-    ]
-  }
 }
