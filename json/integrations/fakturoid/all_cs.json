@@ -1,52 +1,52 @@
 {
   "errorScreens": {
-      "defaultError": {
-        "title": "Omlouváme se, něco se pokazilo",
-        "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-        "callUs": "Zavolejte nám na infolinku",
-        "branch": "Navštivte nás na pobočce",
-        "primaryButton": "Zpět"
-      },
-      "alreadyExists": {
-        "title": "Tento účet je již propojen!",
-        "primaryButton": "Zpět"
-      }
+    "defaultError": {
+      "title": "Omlouváme se, něco se pokazilo",
+      "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+      "callUs": "Zavolejte nám na infolinku",
+      "branch": "Navštivte nás na pobočce",
+      "primaryButton": "Zpět"
+    },
+    "alreadyExists": {
+      "title": "Tento účet je již propojen!",
+      "primaryButton": "Zpět"
+    }
   },
   "scenes": {
     "promo": {
       "titleTop": "Fakturoid",
-      "title": "Fakturujte z banky. Jednoduše, rychle a se slevou až 50 %",
-      "detail": "<b>Začínající podnikatelé</b> od nás získají <b>slevu 50 %</b> na všechny tarify Fakturoidu na celý rok.\n\nPodnikáte déle? <b>Získáte trvalou slevu 15 %.</b> Sleva se vztahuje i na stávající uživatele.\n\n<b>Základní tarif je navíc úplně zdarma.</b>",
+      "title": "Fakturujte z banky. Jednoduše, rychle a se slevou až 50 %",
+      "detail": "<b>Začínající podnikatelé</b> od nás získají <b>slevu 50 %</b> na všechny tarify Fakturoidu na celý rok.\n\nPodnikáte déle? <b>Získáte trvalou slevu 15 %.</b> Sleva se vztahuje i na stávající uživatele.\n\n<b>Základní tarif je navíc úplně zdarma.</b>",
       "bulletsSectionTitle": "Co vám propojení přinese?",
       "bullets": [
         {
           "icon": "tickFill",
-          "text": "Rychlé a snadné vystavení faktur"
+          "text": "Rychlé a snadné vystavení faktur"
         },
         {
           "icon": "tickFill",
-          "text": "Automatické párování plateb s vystavenými fakturami",
-          "description": "V rámci tarifu „Na každý den“"
+          "text": "Automatické párování plateb s vystavenými fakturami",
+          "description": "V rámci tarifu „Na každý den“"
         },
         {
           "icon": "tickFill",
-          "text": "Přehled o zaplacených i nezaplacených fakturách"
+          "text": "Přehled o zaplacených i nezaplacených fakturách"
         },
         {
           "icon": "tickFill",
-          "text": "Notifikace o přijatých platbách"
+          "text": "Notifikace o přijatých platbách"
         }
       ],
-      "userActionRequiredSectionTitle": "Získejte slevu a propojte účet s Fakturoidem",
-      "userActionRequired": "Potvrďte, že můžeme předat níže uvedené údaje Fakturoidu pro nastavení propojení a o vše ostatní se postaráme my.\nPokud u Fakturoidu účet nemáte, přesměrujeme vás na jeho založení.",
+      "userActionRequiredSectionTitle": "Získejte slevu a propojte účet s Fakturoidem",
+      "userActionRequired": "Potvrďte, že můžeme předat níže uvedené údaje Fakturoidu pro nastavení propojení a o vše ostatní se postaráme my.\nPokud u Fakturoidu účet nemáte, přesměrujeme vás na jeho založení.",
       "dataTransferSectionTitle": "Předání údajů Fakturoidu",
       "account": {
-        "title": "Účet k propojení",
+        "title": "Účet k propojení",
         "error": "Před pokračováním nejdřív vyberte účet."
       },
       "agreement": {
-        "title": "Souhlasím s předáním těchto údajů: e-mail, IČO, DIČ, adresa sídla a číslo účtu společnosti Fakturoid.",
-        "error": "Pro pokračování je nutné souhlasit s předáním firemních údajů společnosti Fakturoid."
+        "title": "Souhlasím s předáním čísla IČO společnosti Fakturoid.",
+        "error": "Pro pokračování je nutné souhlasit s předáním firemních údajů společnosti Fakturoid."
       },
       "primaryButton": "Propojit fakturaci"
     },
@@ -63,7 +63,7 @@
         "open": "Vystavené",
         "overdue": "Po splatnosti"
       },
-      "infoMessage": "Údaje aktualizujeme do 30 minut od přijetí platby.",
+      "infoMessage": "Údaje aktualizujeme do 30 minut od přijetí platby.",
       "dueDate": "Splatná {0}",
       "overdue": "{0} po splatnosti",
       "status": {
