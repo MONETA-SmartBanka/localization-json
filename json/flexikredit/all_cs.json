@@ -234,7 +234,7 @@
             "title": "Opravdu chcete odstranit tento příjem?"
           },
           "trialPeriod": "ve zkušební lhůtě",
-          "onNoticePeriod": "ve výpovědní lhůtě",
+          "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
           "employmentForPeriod": "na dobu určitou do {0}",
           "primaryButton": "Pokračovat"
         },
@@ -263,7 +263,7 @@
                 "Bez poplatku za vedení úvěru",
                 "Bez prokazování příjmu",
                 "Možnost odpočtu úroků úvěru z daňového základu",
-                "Pohodové splácení s pojištěním schopnosti splácet"
+                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
               ],
               "primaryButton": {
                 "actionType": "APP_PAGE",
@@ -278,7 +278,7 @@
           }
         },
         "entrepreneur": {
-          "title": "Detaily o vašem podnikání",
+          "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
           "entrepreneurFrom": "Podnikám od",
           "taxBase": "Výše rozdílu (základ daně za minulý rok)",
           "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
@@ -332,7 +332,7 @@
           {
             "id": "OTHER_INCOME",
             "title": "Jiný",
-            "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
+            "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
           }
         ],
         "employer": {
@@ -381,7 +381,8 @@
             "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
             "employerTitle": "Subjekt",
             "employerPlaceholder": "Vyberte název subjektu",
-            "switchToForeignEmployer": "Podnikám v zahraničí"
+            "switchToForeignEmployer": "Podnikám v zahraničí",
+            "noMatchItem": "Pokračovat s {0}"
           },
           "RENT": {
             "title": "Kdo vám rentu vyplácí?",
@@ -389,7 +390,8 @@
             "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
             "employerTitle": "Subjekt vyplácející rentu",
             "employerPlaceholder": "vyberte",
-            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+            "noMatchItem": "Pokračovat s {0}"
           }
         },
         "employerSearchId": {
@@ -397,6 +399,7 @@
             "title": "Jaký je váš současný zaměstnavatel?",
             "sectionTitle": "Vyberte ze seznamu",
             "hint": "Zadejte celé IČO subjektu.",
+            "employerTitle": "Subjekt vyplácející rentu",
             "idNumberTitle": "IČ",
             "idNumberPlaceholder": "IČ",
             "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
@@ -406,9 +409,11 @@
             "title": "Doplňte údaje o Vašem podnikání",
             "sectionTitle": "Vyberte ze seznamu",
             "hint": "Zadejte celé IČO subjektu.",
+            "employerTitle": "Subjekt vyplácející rentu",
             "idNumberTitle": "IČ",
             "idNumberPlaceholder": "IČ",
-            "switchToForeignEmployer": "Podnikám v zahraničí"
+            "switchToForeignEmployer": "Podnikám v zahraničí",
+            "noMatchItem": "Pokračovat s {0}"
           },
           "RENT": {
             "title": "Kdo vám rentu vyplácí?",
@@ -416,13 +421,15 @@
             "hint": "Zadejte celé IČO subjektu.",
             "idNumberTitle": "IČ",
             "idNumberPlaceholder": "IČ",
-            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+            "noMatchItem": "Pokračovat s {0}"
           }
         },
         "solvency": {
           "EMPLOYMENT_INCOME": {
             "title": "Jaký je váš příjem ze zaměstnání?",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
             "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
             "primaryButton": "Pokračovat"
@@ -430,41 +437,49 @@
           "RENT": {
             "title": "Jaká je výše vaší renty",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "PARENTAL_ALLOWANCE": {
             "title": "Jaká je výše vašeho rodičovského příspěvku",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "MATERNITY_ALLOWANCE": {
             "title": "Jaká je výše vaší peněžité pomoci v mateřství",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "OLDAGE_PENSION": {
             "title": "Jaká je výše vašeho starobního důchodu?",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "DISABILITY_PENSION": {
             "title": "Jaká je výše vašeho invalidního důchodu",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "RENTAL_OFF_TAX_RETURN": {
             "title": "Jaká je výše vašeho příjmu z pronájmu",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "MAINTENANCE_ALLOWANCE": {
             "title": "Jaká je výše vašeho příjmu z výživného",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           },
           "OTHER_INCOME": {
             "title": "Jaká je výše vašeho příjmu",
             "inputTitle": "Čistý měsíční příjem",
+            "inputPlaceholder": "0",
             "primaryButton": "Pokračovat"
           }
         },
