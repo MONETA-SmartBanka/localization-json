@@ -17,6 +17,8 @@
       "name": "Name",
       "phone": "Phone",
       "card": "Card",
+      "preferred": "Set as a preferred card for Visa+",
+      "preferredDescription": "It will be possible to receive payments to the card via Visa+.",
       "footer": "By pressing the button, you agree to the <a href=\"document\">Terms of Service and Privacy Policy</a>",
       "documentTitle": "Terms of Service and Privacy Policy",
       "primaryButton": "Continue"
@@ -37,7 +39,8 @@
       "card": "Card",
       "secondaryButton": "Remove card from Visa+",
       "preferred": "Set as preferred card for Visa+",
-      "preferredSubtitle": "The card is set as preferred",
+      "preferredSubtitle": "It is possible to receive payments to the card via Visa+.",
+      "preferredSubtitleInactive": "It will be possible to receive payments to the card via Visa+.",
       "confirm": {
         "title": "Do you really want to remove this card from Visa+?",
         "secondaryButton": "Remove",
@@ -45,8 +48,8 @@
       }
     },
     "preferred": {
-      "title": "Do you want to set this card as the preferred card for Visa+?",
-      "detail": "You currently have another card set as your preferred one.\nWould you like to make this card the preferred card for receiving payments instead?",
+      "title": "Do you wish to set this card as preferred for Visa+?",
+      "detail": "Currently, another card is set as preferred.\n\nWould you like to make this card preferred for receiving payments instead? ",
       "card": "Card",
       "primaryButton": "Set",
       "secondaryButton": "Back"
