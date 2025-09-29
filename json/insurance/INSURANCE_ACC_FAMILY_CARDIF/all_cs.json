@@ -1,61 +1,61 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "screens": {
-      "cancelIntro": {
-        "title": "Opravdu chcete zrušit úrazové pojištění – varianta Rodina?",
-        "detail": "Pokud pojištění zrušíte, nebudete mít nárok na pojistné plnění v případě, že se stane úraz.",
-        "expirationTitle": "Do kdy pojištění trvá?",
-        "sections": [
-          {
-            "title": "Do kdy pojištění trvá?",
-            "bullets": [
-              "Rušíte pojištění do 30 dnů od založení? Pak skončí dnešní půlnocí. V případě, že máte pojištění déle, bude platné do konce tohoto kalendářního měsíce."
-            ]
-          },
-          {
-            "title": "Jak je to s platbou za pojištění?",
-            "bullets": [
-              "Pojištění je účtováno vždy začátkem měsíce zpětně za předchozí období.",
-              "Pokud pojištění zrušíte do 30 dnů od založení, vrátíme Vám pojistné v dalším měsíci. V případě, že pojištění zrušíte v průběhu měsíce, v dalším měsíci se Vám naposledy zaúčtuje."
-            ]
-          }
-        ],
-        "footer": "Pojištění bude platné do konce tohoto kalendářního měsíce. Pokud pojištění zrušíte k dnešnímu dni, strhne se následující měsíc automaticky poslední úhrada za tento měsíc.",
-        "primaryButton": "Zrušit pojištění"
-      },
-      "cancelVictory": {
-        "title": "Hotovo! Úrazové pojištění bude zrušeno na konci měsíce",
-        "detail": "Kartička s možností nahlásit pojistnou událost Vám zůstává aktivní až do konce měsíce. V následujícím měsíci už bude pojištění zrušené.",
-        "primaryButton": "Zpět na Přehled"
-      },
-      "cancelVictoryDay": {
-        "title": "Hotovo! Úrazové pojištění bude zrušeno dnes",
-        "detail": "Kartička s možností nahlásit pojistnou událost Vám zůstává aktivní až do dnešního večera. Zítra už bude pojištění zrušené.",
-        "primaryButton": "Zpět na Přehled"
-      },
-      "cancelDocument": {
-        "title": "Zrušení pojištění",
-        "detail": "Stáhněte si PDF",
-        "primaryButton": "Souhlasím",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "cancelForOfferVictory": {
-        "title": "Požadavek na zrušení jsme přijali",
-        "detail": "Váš požadavek na zrušení pojištení byl přijat ke zpracování. Pojištění bude zrušeno ke dni {{date}}. Nyní můžete pokračovat ve sjednání nového pojištění.",
-        "primaryButton": "Pokračovat"
-      },
-      "cancelDisagree": {
-        "title": "Bez souhlasu to bohužel nepůjde",
-        "detail": "Máte otázky ke smlouvě, neváhejte se na nás obrátit. Rádi Vám pomůžeme.",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\na pobočce",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat"
-      },
-      "sign": {
-        "title": "Podepište žádost o zrušení"
+    "status": "OK",
+    "responseObject": {
+        "screens": {
+            "cancelIntro": {
+                "title": "Opravdu chcete zrušit úrazové pojištění – varianta Rodina?",
+                "detail": "Pokud pojištění zrušíte, nebudete mít nárok na pojistné plnění v případě, že se stane úraz.",
+                "expirationTitle": "Do kdy pojištění trvá?",
+                "sections": [
+                    {
+                        "title": "Do kdy pojištění trvá?",
+                        "bullets": [
+                            "Rušíte pojištění do 30 dnů od založení? Pak skončí dnešní půlnocí. V případě, že máte pojištění déle, bude platné do konce tohoto kalendářního měsíce."
+                        ]
+                    },
+                    {
+                        "title": "Jak je to s platbou za pojištění?",
+                        "bullets": [
+                            "Pojištění je účtováno vždy začátkem měsíce zpětně za předchozí období.",
+                            "Pokud pojištění zrušíte do 30 dnů od založení, vrátíme Vám pojistné v dalším měsíci. V případě, že pojištění zrušíte v průběhu měsíce, v dalším měsíci se Vám naposledy zaúčtuje."
+                        ]
+                    }
+                ],
+                "footer": "Pojištění bude platné do konce tohoto kalendářního měsíce. Pokud pojištění zrušíte k dnešnímu dni, strhne se následující měsíc automaticky poslední úhrada za tento měsíc.",
+                "primaryButton": "Zrušit pojištění"
+            },
+            "cancelVictory": {
+                "title": "Hotovo! Úrazové pojištění bude zrušeno na konci měsíce",
+                "detail": "Kartička s možností nahlásit pojistnou událost Vám zůstává aktivní až do konce měsíce. V následujícím měsíci už bude pojištění zrušené.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "cancelVictoryDay": {
+                "title": "Hotovo! Úrazové pojištění bude zrušeno dnes",
+                "detail": "Kartička s možností nahlásit pojistnou událost Vám zůstává aktivní až do dnešního večera. Zítra už bude pojištění zrušené.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "cancelDocument": {
+                "title": "Zrušení pojištění",
+                "detail": "Stáhněte si PDF",
+                "primaryButton": "Souhlasím",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "cancelForOfferVictory": {
+                "title": "Požadavek na zrušení jsme přijali",
+                "detail": "Váš požadavek na zrušení pojištení byl přijat ke zpracování. Pojištění bude zrušeno ke dni {{date}}. Nyní můžete pokračovat ve sjednání nového pojištění.",
+                "primaryButton": "Pokračovat"
+            },
+            "cancelDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte otázky ke smlouvě, neváhejte se na nás obrátit. Rádi Vám pomůžeme.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\na pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat"
+            },
+            "sign": {
+                "title": "Podepište žádost o zrušení"
+            }
         }
     }
-  }
 }

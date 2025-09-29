@@ -1,72 +1,72 @@
 {
-  "integrations": {
-    "title": "Chytré služby a slevy",
-    "availableServicesTitle": "Dostupné",
-    "availableServices": [
-      {
-        "id": "FAKTUROID",
-        "title": "Fakturoid",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
-        "bullets": [
-          {
-            "text": "Fakturujte z banky. Jednoduše, rychle a se slevou až <green>50 %</green>."
-          }
+    "integrations": {
+        "title": "Chytré služby a slevy",
+        "availableServicesTitle": "Dostupné",
+        "availableServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "text": "Fakturujte z banky. Jednoduše, rychle a se slevou až <green>50 %</green>."
+                    }
+                ],
+                "primaryButton": {
+                    "text": "Více informací",
+                    "actionType": "APPPAGE",
+                    "actionValue": "INTEGRATIONS_FAKTUROID_PROMO"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
+            },
+            {
+                "id": "DHL_PPL",
+                "title": "DHL a PPL",
+                "subtitle": "Posílejte zásilky se slevou:",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-dhl-ppl.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "od 60 % do světa"
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "od 30 % po ČR"
+                    }
+                ],
+                "primaryButton": {
+                    "icon": "linkExternalFill",
+                    "text": "Získat slevu",
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.dhlservicepoint.cz/moneta/"
+                },
+                "message": {
+                    "icon": "circleInfo",
+                    "text": "Už slevy využíváte? Pak nabídku ignorujte.\u2028Údaje brzy aktualizujeme."
+                },
+                "deepLink": ""
+            }
         ],
-        "primaryButton": {
-          "text": "Více informací",
-          "actionType": "APPPAGE",
-          "actionValue": "INTEGRATIONS_FAKTUROID_PROMO"
-        },
-        "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
-      },
-      {
-        "id": "DHL_PPL",
-        "title": "DHL a PPL",
-        "subtitle": "Posílejte zásilky se slevou:",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-dhl-ppl.png",
-        "bullets": [
-          {
-            "icon": "tickFill",
-            "text": "od 60 % do světa"
-          },
-          {
-            "icon": "tickFill",
-            "text": "od 30 % po ČR"
-          }
+        "activatedServicesTitle": "Aktivované",
+        "activatedServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Vaše faktury s vaším účtem u Monety."
+                    }
+                ],
+                "primaryButton": {
+                    "text": "Přehled faktur",
+                    "actionType": "APPPAGE",
+                    "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+            }
         ],
-        "primaryButton": {
-          "icon": "linkExternalFill",
-          "text": "Získat slevu",
-          "actionType": "OPENURL",
-          "actionValue": "https://www.dhlservicepoint.cz/moneta/"
-        },
-        "message": {
-          "icon": "circleInfo",
-          "text": "Už slevy využíváte? Pak nabídku ignorujte.\u2028Údaje brzy aktualizujeme."
-        },
-        "deepLink": ""
-      }
-    ],
-    "activatedServicesTitle": "Aktivované",
-    "activatedServices": [
-      {
-        "id": "FAKTUROID",
-        "title": "Fakturoid",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
-        "bullets": [
-          {
-            "icon": "tickFill",
-            "text": "Vaše faktury s vaším účtem u Monety."
-          }
-        ],
-        "primaryButton": {
-          "text": "Přehled faktur",
-          "actionType": "APPPAGE",
-          "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-        },
-        "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-      }
-    ],
-    "apiPartnersTitle": "API partneři"
-  }
+        "apiPartnersTitle": "API partneři"
+    }
 }

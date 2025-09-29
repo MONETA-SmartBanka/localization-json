@@ -1,498 +1,498 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "api": {
-        "title": "We are sorry, something went wrong",
-        "detail": "We can’t continue at this moment. Please try again later.",
-        "callUs": "Call our\nhelpline",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "scoring": {
-        "title": "We are sorry, something went wrong",
-        "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
-        "branch": "Visit our\nbranch",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "precontractDisagree": {
-        "title": "We need your agreement to continue",
-        "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b>Do you have any questions? Let's discuss it together.</b>",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch",
-        "secondaryButton": "Cancel Application",
-        "primaryButton": "Continue opening account"
-      },
-      "contractDisagree": {
-        "title": "We need your agreement to continue",
-        "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b>Do you have any questions? Let's discuss it together.</b>",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch",
-        "secondaryButton": "Cancel Application",
-        "primaryButton": "Continue opening account"
-      },
-      "longTermScreens": {
-        "SCORING_UNAVAILABLE": {
-          "title": "ZZZzzzz...",
-          "detail": "At night we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
-          "primaryButton": "Back to Balance Overview"
-        },
-        "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "This will take all night...",
-          "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
-          "primaryButton": "Back to Balance Overview"
-        },
-        "CONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "This will take all night...",
-          "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
-          "primaryButton": "Back to Balance Overview"
-        }
-      }
-    },
-    "general": {
-      "toolbarTitle": "Currency exchange",
-      "phoneNumberSupport": "224 443 636",
-      "phoneNumberSale": "800 102 040",
-      "messengerUrl": "https://m.me/138479367229",
-      "supportChat": "<b>Open account just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat"
-    },
-    "scenes": {
-      "offer": {
-        "title": "Currency exchange",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Get the favourable exchange rates with your foreign currency account. Add it in 3 clicks.",
-        "sections": [
-          {
-            "title": "What can a foreign currency account do?",
-            "bullets": [
-              "The favourable exchange rate in Smart Banka",
-              "Management free of charge",
-              "The payment card and Apple Pay & Google Pay payments are free of charge"
-            ]
-          },
-          {
-            "title": "That means",
-            "bullets": [
-              "Easy payments abroad",
-              "Currency exchange always available",
-              "Fair conditions, no hidden tricks"
-            ],
-            "bulletsIcons": [
-              "/cbl_images/fcy-account/fcyIconUmbrella.png",
-              "/cbl_images/fcy-account/fcyIconPhone.png",
-              "/cbl_images/fcy-account/fcyIconPurse.png"
-            ]
-          }
-        ],
-        "exchangeRates": {
-          "title": "Discounted exchange rate {{currency}}",
-          "rows": [
-            {
-              "title": "Regular exchange rate MONETA",
-              "value": "{{commonRate}}"
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "We are sorry, something went wrong",
+                "detail": "We can’t continue at this moment. Please try again later.",
+                "callUs": "Call our\nhelpline",
+                "primaryButton": "Back to Balance Overview"
             },
-            {
-              "title": "Better exchange rates in Smart Banka",
-              "value": "{{betterRate}}"
+            "scoring": {
+                "title": "We are sorry, something went wrong",
+                "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
+                "branch": "Visit our\nbranch",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "precontractDisagree": {
+                "title": "We need your agreement to continue",
+                "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b>Do you have any questions? Let's discuss it together.</b>",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue opening account"
+            },
+            "contractDisagree": {
+                "title": "We need your agreement to continue",
+                "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b>Do you have any questions? Let's discuss it together.</b>",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue opening account"
+            },
+            "longTermScreens": {
+                "SCORING_UNAVAILABLE": {
+                    "title": "ZZZzzzz...",
+                    "detail": "At night we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
+                    "primaryButton": "Back to Balance Overview"
+                },
+                "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night...",
+                    "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
+                },
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night...",
+                    "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
+                }
             }
-          ]
         },
-        "primaryButton": "Add a {{currency}} account"
-      },
-      "helpPersonalDetail": {
-        "title": "Check your details",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Even though you are our client, we need to verify some information. In case of changes in personal details or permanent residence address, you will need your ID card to verify these changes. In the next step, just take a picture of it within the app. All data and photos are secure. <b>Do you have any questions? Let’s talk about them together.</b>",
-        "secondaryButton": "Cancel Application",
-        "primaryButton": "Continue opening account",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch"
-      },
-      "documentUpload": {
-        "title": "Let’s deal with it. Please provide us with your current identification documents.",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Some of your details seem to have changed and we need your documents to double check. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
-        "primaryButton": "Continue",
-        "uploadedDocument": {
-          "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
-          "labels": [
-            "Attach the front page of your ID",
-            "Attach the back page of your ID"
-          ]
+        "general": {
+            "toolbarTitle": "Currency exchange",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Open account just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat"
         },
-        "uploadPicker": {
-          "title": "Choose a way to upload a document",
-          "camera": "Take a picture",
-          "photos": "Choose from gallery",
-          "files": "Choose from files"
-        }
-      },
-      "helpUploadDocument": {
-        "title": "Unfortunately, we cannot continue without a current form of ID",
-        "toolbarTitle": "Currency exchange",
-        "detail": "In order to verify some changes in your details we need a photo of a current form of ID. <b>Do you have any questions? Let’s talk about them together.</b>",
-        "secondaryButton": "Cancel Application",
-        "primaryButton": "Continue opening account",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch"
-      },
-      "documentUploadReview": {
-        "title": "Is this correct?",
-        "firstName": "First name",
-        "lastName": "Last name",
-        "birthNumber": "Birth number",
-        "city": "City",
-        "descriptiveNumber": "Dsc. no",
-        "orientationNumber": "Or. no",
-        "idCardNumber": "ID number",
-        "idCardValidTo": "Valid to",
-        "citizenship": "Citizenship",
-        "street": "Street",
-        "zipCode": "ZIP",
-        "primaryButton": "Yes, continue",
-        "secondaryButton": "Scan again"
-      },
-      "documentUploadRetry": {
-        "title": "Oops, this is not going to work",
-        "detail": "We were not able to read all the data. Please make sure that the lighting is good and texts are clear and well-readable. ",
-        "tryAgain": "Let's try again:",
-        "primaryButton": "Scan again"
-      },
-      "personalDetail": {
-        "title": "Your details",
-        "toolbarTitle": "Currency exchange",
-        "detail": "We will send your new card to your foreign currency account to your contact address.",
-        "primaryButton": "Confirm your details",
-        "personalDetail": {
-          "title": "Account owner",
-          "firstName": "Name",
-          "lastName": "Surname",
-          "citizenship": "Citizenship",
-          "taxResidence": "Tax residence",
-          "taxResidenceInfoTitle": "Tax residence specification",
-          "taxResidenceInfoBody": "We kindly ask you for information in order to meet Global standards for the exchange of information provided by financial institutions for tax authorities under the Multilateral Agreement by competent authorities for the automatic exchange of information about financial accounts (including current and saving bank account or term deposit).",
-          "vat": "VAT ID",
-          "anotherVat": "Add another tax residence",
-          "phone": "Phone no.",
-          "email": "E-mail"
-        },
-        "permanentAddress": {
-          "title": "Permanent Address",
-          "toolbarTitle": "Currency exchange",
-          "streetTitle": "Street",
-          "descriptiveNumberTitle": "Dsc. no",
-          "orientationNumberTitle": "Or. no",
-          "cityTitle": "City",
-          "zipTitle": "ZIP",
-          "countryTitle": "Country"
-        },
-        "contactAddress": {
-          "title": "Contact Adress",
-          "toolbarTitle": "Currency exchange",
-          "streetTitle": "Street",
-          "descriptiveNumberTitle": "Dsc. no",
-          "orientationNumberTitle": "Or. no",
-          "cityTitle": "City",
-          "zipTitle": "ZIP",
-          "countryTitle": "Country"
-        }
-      },
-      "identification": {
-        "title": "Is this correct?",
-        "firstName": "First name",
-        "lastName": "Last name",
-        "citizenship": "Citizenship",
-        "taxResidence": "Tax residence",
-        "taxResidenceInfoTitle": "Tax residence specification",
-        "taxResidenceInfoBody": "We kindly ask you for information in order to meet Global standards for the exchange of information provided by financial institutions for tax authorities under the Multilateral Agreement by competent authorities for the automatic exchange of information about financial accounts (including current and saving bank account or term deposit).",
-        "vat": "VAT ID",
-        "anotherVat": "Add another tax residence",
-        "phone": "Phone",
-        "primaryButton": "Continue"
-      },
-      "permanentAddress": {
-        "title": "Is this your permanent address?",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Desc. no.",
-        "orientationNumberTitle": "Or. no.",
-        "cityTitle": "City",
-        "zipTitle": "ZIP",
-        "countryTitle": "Country",
-        "primaryButton": "Continue"
-      },
-      "contactAddress": {
-        "title": "Do we have your contact address correct?",
-        "sectionCardTitle": "Which card do you prefer?",
-        "cardOptions": [
-          {
-            "technology": "VIRTUAL",
-            "title": "Virtual card in mobile phone",
-            "detail": "We issue a virtual card instead of a plastic card. For payments and withdrawals, you just need to add it to your mobile right after setting up an account.",
-            "icon": "mobileFill"
-          },
-          {
-            "technology": "PLASTIC",
-            "title": "Plastic card",
-            "detail": "The plastic card you know well. You can also add it to your mobile phone.",
-            "icon": "cardFill"
-          }
-        ],
-        "addressSection": {
-          "title": "Contact address",
-          "info": "We will send your debit card to the contact address.",
-          "firstName": "First name",
-          "lastName": "Last name",
-          "street": "Street",
-          "descriptiveNumber": "Desc. no.",
-          "orientationNumber": "Or. no.",
-          "city": "City",
-          "country": "Country",
-          "countryValue": "Czech Republic",
-          "zip": "ZIP"
-        },
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Desc. no.",
-        "orientationNumberTitle": "Or. no.",
-        "cityTitle": "City",
-        "zipTitle": "ZIP",
-        "countryTitle": "Country",
-        "primaryButton": "Everything is ok",
-        "addressTitle": "Contact address",
-        "virtualCardHeader": "Don't need a plastic card??",
-        "virtualCardCheckbox": "<b>A mobile phone card is enough</b><br>Instead of a plastic card, we will issue you a virtual one. For payments and withdrawals from ATMs, you add it to your mobile right after opening an account. You will then find the data for paying on the Internet in your Smart Bank and Internet Bank."
-      },
-      "cardDesign": {
-        "title": "Choose the design of your new card",
-        "designs": [
-          {
-            "title": "Moneta Standard - FREE",
-            "value": "CA141D0001"
-          },
-          {
-            "title": "Moneta Standard - Pride",
-            "value": "CA141D0003"
-          },
-          {
-            "title": "Moneta Standard - Prague",
-            "value": "CA141D0005"
-          },
-          {
-            "title": "Moneta Standard - Central Bohemian region",
-            "value": "CA141D0006"
-          },
-          {
-            "title": "Moneta Standard - South Bohemian region",
-            "value": "CA141D0007"
-          },
-          {
-            "title": "Moneta Standard - Pilsen region",
-            "value": "CA141D0008"
-          },
-          {
-            "title": "Moneta Standard - Karlovy Vary region",
-            "value": "CA141D0009"
-          },
-          {
-            "title": "Moneta Standard - Ústí region",
-            "value": "CA141D0010"
-          },
-          {
-            "title": "Moneta Standard - Liberec region",
-            "value": "CA141D0011"
-          },
-          {
-            "title": "Moneta Standard - Hradec Králové region",
-            "value": "CA141D0012"
-          },
-          {
-            "title": "Moneta Standard - Pardubice region",
-            "value": "CA141D0013"
-          },
-          {
-            "title": "Moneta Standard - Vysočina region",
-            "value": "CA141D0014"
-          },
-          {
-            "title": "Moneta Standard - South-Moravian region",
-            "value": "CA141D0015"
-          },
-          {
-            "title": "Moneta Standard - Zlín region",
-            "value": "CA141D0016"
-          },
-          {
-            "title": "Moneta Standard - Olomouc region",
-            "value": "CA141D0017"
-          },
-          {
-            "title": "Moneta Standard - Moravian-Silesian region",
-            "value": "CA141D0018"
-          }
-        ],
-        "primaryButton": "Continue"
-      },
-      "click2Pay": {
-        "title": "Click to Pay has been enabled for your card on the e-shop",
-        "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
-        "emailPrompt": "E-mail for payments",
-        "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
-        "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
-        "primaryButton": "Continue with Click to Pay",
-        "secondaryButton": "Not interested"
-      },
-      "activationPassword": {
-        "title": "Enter a six-digit password to activate your card.",
-        "toolbarTitle": "Currency exchange",
-        "detail": "<b>Please remember your password, you are going to need it when your card arrives.</b> More information is disclosed in the envelope with your card.",
-        "password": "Password",
-        "primaryButton": "Continue"
-      },
-      "scoring": {
-        "title": "Just a moment, the cat needs to look it over."
-      },
-      "staticDocuments": {
-        "title": "Read the important contractual documentation",
-        "subtitle": "All your documents can be found in My Documents section of Smart Banka and Internet Banka.",
-        "primaryButton": "I agree"
-      },
-      "precontractInfo": {
-        "title": "Read the Foreign Currency Account pre‑contractual information",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Download the PDF",
-        "secondaryButton": "Decline",
-        "primaryButton": "I agree"
-      },
-      "disagreement": {
-        "title": "We need your agreement to continue",
-        "toolbarTitle": "Currency exchange",
-        "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b> Any questions? Let's discuss it together.</b>",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch",
-        "secondaryButton": "Cancel Application",
-        "primaryButton": "Continue opening account"
-      },
-      "contract": {
-        "title": "Read the Foreign Currency Account Contract",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Download the PDF",
-        "secondaryButton": "Decline",
-        "primaryButton": "I agree"
-      },
-      "signByUs": {
-        "title": "Now it’s our turn to sign, please wait a moment."
-      },
-      "waitingBeforeContract": {
-        "title": "Just a moment, we are preparing the contract"
-      },
-      "victory": {
-        "title": "Congratulation!",
-        "toolbarTitle": "Currency exchange",
-        "detail": "You have successfully opened an {{currency}} foreign currency account. If you have requested a physical card it will be delivered to you by mail within 5 business days. There is no need to wait for it to arrive as you can add the card to Apple Pay or Google Pay and then make payments right away.",
-        "primaryButton": "Back to Currency Exchange"
-      },
-      "victoryEUR": {
-        "title": "Congratulation",
-        "toolbarTitle": "Currency exchange",
-        "detail": "You have successfully opened an {{currency}} foreign currency account. If you have requested a physical card it will be delivered to you by mail within 5 business days. There is no need to wait for it to arrive as you can add the card to Apple Pay or Google Pay and then make payments right away.",
-        "infoEUR": "Evaluate your finances in euros, thanks to the EUR savings account with interest of up to {{interest}} %",
-        "primaryButton": "Back to Currency Exchange",
-        "secondaryButton": "Open EUR current account"
-      },
-      "scoringNok": {
-        "title": "We are sorry, something went wrong",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
-        "branch": "Visit our\nbranch",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "tomorrowVictory": {
-        "title": "Your account will be available in the morning of the following business day.",
-        "toolbarTitle": "Currency exchange",
-        "detail": "All your documents can be found in My Documents section of Smart Banka and Internet Banka.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "delayedVictory": {
-        "title": "We are almost done, the signing might take a while",
-        "toolbarTitle": "Currency exchange",
-        "detail": "Sometimes the signing process takes a bit longer - a couple hours during business days, during weekends it takes until Monday. Your account will be opened thereafter. All your documents are already available in My Documents section of Smart Banka and Internet Banka. \n\n We apologize and thank you for your patience.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "sign": {
-        "title": "Sign the contract with your PIN number"
-      },
-      "simpleDocumentUpload": {
-        "title": "Oops, we need your current ID",
-        "detail": "It appears that the ID you provided us earlier is no longer current. Please upload a new one.",
-        "documents": {
-          "141": {
-            "icon": "idCardFill",
-            "title": "ID",
-            "detail": "Some information has changed since your last visit",
-            "photoCapture": [
-              {
-                "title": "Take a photo of the front of your ID card",
-                "detail": "Valid document, in good lighting, sharp and not blurred.",
-                "primaryButton": "Take a photo"
-              },
-              {
-                "title": "Take a photo of the back of your ID card",
-                "detail": "Valid document, in good lighting, sharp and not blurred.",
-                "primaryButton": "Take a photo"
-              }
-            ],
-            "busyLoader": {
-              "title": "Be patient for a moment, we have to check everything",
-              "detail": "It will take a few seconds at most."
+        "scenes": {
+            "offer": {
+                "title": "Currency exchange",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Get the favourable exchange rates with your foreign currency account. Add it in 3 clicks.",
+                "sections": [
+                    {
+                        "title": "What can a foreign currency account do?",
+                        "bullets": [
+                            "The favourable exchange rate in Smart Banka",
+                            "Management free of charge",
+                            "The payment card and Apple Pay & Google Pay payments are free of charge"
+                        ]
+                    },
+                    {
+                        "title": "That means",
+                        "bullets": [
+                            "Easy payments abroad",
+                            "Currency exchange always available",
+                            "Fair conditions, no hidden tricks"
+                        ],
+                        "bulletsIcons": [
+                            "/cbl_images/fcy-account/fcyIconUmbrella.png",
+                            "/cbl_images/fcy-account/fcyIconPhone.png",
+                            "/cbl_images/fcy-account/fcyIconPurse.png"
+                        ]
+                    }
+                ],
+                "exchangeRates": {
+                    "title": "Discounted exchange rate {{currency}}",
+                    "rows": [
+                        {
+                            "title": "Regular exchange rate MONETA",
+                            "value": "{{commonRate}}"
+                        },
+                        {
+                            "title": "Better exchange rates in Smart Banka",
+                            "value": "{{betterRate}}"
+                        }
+                    ]
+                },
+                "primaryButton": "Add a {{currency}} account"
             },
-            "uploadDocumentResultNok": {
-              "title": "We cannot open a foreign currency account for you right now",
-              "detail": "We are really sorry",
-              "secondaryButton": "End the application"
+            "helpPersonalDetail": {
+                "title": "Check your details",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Even though you are our client, we need to verify some information. In case of changes in personal details or permanent residence address, you will need your ID card to verify these changes. In the next step, just take a picture of it within the app. All data and photos are secure. <b>Do you have any questions? Let’s talk about them together.</b>",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue opening account",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch"
             },
-            "uploadDocumentResultUploadAgain": {
-              "title": "Oops, this didn't work",
-              "detail": "Please take a photo of the document again, in good lighting, sharp and not blurry.",
-              "primaryButton": "Scan again",
-              "secondaryButton": "Continue later"
+            "documentUpload": {
+                "title": "Let’s deal with it. Please provide us with your current identification documents.",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Some of your details seem to have changed and we need your documents to double check. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                "primaryButton": "Continue",
+                "uploadedDocument": {
+                    "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
+                    "labels": [
+                        "Attach the front page of your ID",
+                        "Attach the back page of your ID"
+                    ]
+                },
+                "uploadPicker": {
+                    "title": "Choose a way to upload a document",
+                    "camera": "Take a picture",
+                    "photos": "Choose from gallery",
+                    "files": "Choose from files"
+                }
             },
-            "review": {
-              "title": "Great photo! Did we read everything correctly?",
-              "documentDetails": {
-                "title": "Data from the document",
+            "helpUploadDocument": {
+                "title": "Unfortunately, we cannot continue without a current form of ID",
+                "toolbarTitle": "Currency exchange",
+                "detail": "In order to verify some changes in your details we need a photo of a current form of ID. <b>Do you have any questions? Let’s talk about them together.</b>",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue opening account",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch"
+            },
+            "documentUploadReview": {
+                "title": "Is this correct?",
                 "firstName": "First name",
                 "lastName": "Last name",
-                "birthDate": "Date of birth",
-                "birthPlace": "Place of birth",
                 "birthNumber": "Birth number",
-                "idCardNumber": {
-                  "title": "ID number",
-                  "secondaryTitle": "Passport number"
-                },
-                "idCardValidTo": "Valid to",
-                "issueDate": "Valid from",
-                "nationality": "Citizenship",
-                "nationalityValue": "only Czech Republic",
-                "sex": "Sex",
-                "male": "male",
-                "female": "female"
-              },
-              "documentAddress": {
-                "title": "Permanent residence",
-                "secondary": "(only Czech Republic)",
-                "street": "Street",
-                "descriptiveNumber": "Desc. no.",
-                "orientationNumber": "Or. no.",
                 "city": "City",
-                "zip": "ZIP",
-                "personalData": {
-                  "title": "We will verify the data provided by you in the basic registers. More about their operation on the website <a href=\"https://www.szrcr.cz/cs/\">Administration of basic registers</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta Money Bank</a>\n\n By pressing Continue, you confirm that all information provided is true, complete, correct and up-to-date."
+                "descriptiveNumber": "Dsc. no",
+                "orientationNumber": "Or. no",
+                "idCardNumber": "ID number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Scan again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, this is not going to work",
+                "detail": "We were not able to read all the data. Please make sure that the lighting is good and texts are clear and well-readable. ",
+                "tryAgain": "Let's try again:",
+                "primaryButton": "Scan again"
+            },
+            "personalDetail": {
+                "title": "Your details",
+                "toolbarTitle": "Currency exchange",
+                "detail": "We will send your new card to your foreign currency account to your contact address.",
+                "primaryButton": "Confirm your details",
+                "personalDetail": {
+                    "title": "Account owner",
+                    "firstName": "Name",
+                    "lastName": "Surname",
+                    "citizenship": "Citizenship",
+                    "taxResidence": "Tax residence",
+                    "taxResidenceInfoTitle": "Tax residence specification",
+                    "taxResidenceInfoBody": "We kindly ask you for information in order to meet Global standards for the exchange of information provided by financial institutions for tax authorities under the Multilateral Agreement by competent authorities for the automatic exchange of information about financial accounts (including current and saving bank account or term deposit).",
+                    "vat": "VAT ID",
+                    "anotherVat": "Add another tax residence",
+                    "phone": "Phone no.",
+                    "email": "E-mail"
+                },
+                "permanentAddress": {
+                    "title": "Permanent Address",
+                    "toolbarTitle": "Currency exchange",
+                    "streetTitle": "Street",
+                    "descriptiveNumberTitle": "Dsc. no",
+                    "orientationNumberTitle": "Or. no",
+                    "cityTitle": "City",
+                    "zipTitle": "ZIP",
+                    "countryTitle": "Country"
+                },
+                "contactAddress": {
+                    "title": "Contact Adress",
+                    "toolbarTitle": "Currency exchange",
+                    "streetTitle": "Street",
+                    "descriptiveNumberTitle": "Dsc. no",
+                    "orientationNumberTitle": "Or. no",
+                    "cityTitle": "City",
+                    "zipTitle": "ZIP",
+                    "countryTitle": "Country"
                 }
-              },
-              "primaryButton": "Continue"
+            },
+            "identification": {
+                "title": "Is this correct?",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "citizenship": "Citizenship",
+                "taxResidence": "Tax residence",
+                "taxResidenceInfoTitle": "Tax residence specification",
+                "taxResidenceInfoBody": "We kindly ask you for information in order to meet Global standards for the exchange of information provided by financial institutions for tax authorities under the Multilateral Agreement by competent authorities for the automatic exchange of information about financial accounts (including current and saving bank account or term deposit).",
+                "vat": "VAT ID",
+                "anotherVat": "Add another tax residence",
+                "phone": "Phone",
+                "primaryButton": "Continue"
+            },
+            "permanentAddress": {
+                "title": "Is this your permanent address?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. no.",
+                "orientationNumberTitle": "Or. no.",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Continue"
+            },
+            "contactAddress": {
+                "title": "Do we have your contact address correct?",
+                "sectionCardTitle": "Which card do you prefer?",
+                "cardOptions": [
+                    {
+                        "technology": "VIRTUAL",
+                        "title": "Virtual card in mobile phone",
+                        "detail": "We issue a virtual card instead of a plastic card. For payments and withdrawals, you just need to add it to your mobile right after setting up an account.",
+                        "icon": "mobileFill"
+                    },
+                    {
+                        "technology": "PLASTIC",
+                        "title": "Plastic card",
+                        "detail": "The plastic card you know well. You can also add it to your mobile phone.",
+                        "icon": "cardFill"
+                    }
+                ],
+                "addressSection": {
+                    "title": "Contact address",
+                    "info": "We will send your debit card to the contact address.",
+                    "firstName": "First name",
+                    "lastName": "Last name",
+                    "street": "Street",
+                    "descriptiveNumber": "Desc. no.",
+                    "orientationNumber": "Or. no.",
+                    "city": "City",
+                    "country": "Country",
+                    "countryValue": "Czech Republic",
+                    "zip": "ZIP"
+                },
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Desc. no.",
+                "orientationNumberTitle": "Or. no.",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "Everything is ok",
+                "addressTitle": "Contact address",
+                "virtualCardHeader": "Don't need a plastic card??",
+                "virtualCardCheckbox": "<b>A mobile phone card is enough</b><br>Instead of a plastic card, we will issue you a virtual one. For payments and withdrawals from ATMs, you add it to your mobile right after opening an account. You will then find the data for paying on the Internet in your Smart Bank and Internet Bank."
+            },
+            "cardDesign": {
+                "title": "Choose the design of your new card",
+                "designs": [
+                    {
+                        "title": "Moneta Standard - FREE",
+                        "value": "CA141D0001"
+                    },
+                    {
+                        "title": "Moneta Standard - Pride",
+                        "value": "CA141D0003"
+                    },
+                    {
+                        "title": "Moneta Standard - Prague",
+                        "value": "CA141D0005"
+                    },
+                    {
+                        "title": "Moneta Standard - Central Bohemian region",
+                        "value": "CA141D0006"
+                    },
+                    {
+                        "title": "Moneta Standard - South Bohemian region",
+                        "value": "CA141D0007"
+                    },
+                    {
+                        "title": "Moneta Standard - Pilsen region",
+                        "value": "CA141D0008"
+                    },
+                    {
+                        "title": "Moneta Standard - Karlovy Vary region",
+                        "value": "CA141D0009"
+                    },
+                    {
+                        "title": "Moneta Standard - Ústí region",
+                        "value": "CA141D0010"
+                    },
+                    {
+                        "title": "Moneta Standard - Liberec region",
+                        "value": "CA141D0011"
+                    },
+                    {
+                        "title": "Moneta Standard - Hradec Králové region",
+                        "value": "CA141D0012"
+                    },
+                    {
+                        "title": "Moneta Standard - Pardubice region",
+                        "value": "CA141D0013"
+                    },
+                    {
+                        "title": "Moneta Standard - Vysočina region",
+                        "value": "CA141D0014"
+                    },
+                    {
+                        "title": "Moneta Standard - South-Moravian region",
+                        "value": "CA141D0015"
+                    },
+                    {
+                        "title": "Moneta Standard - Zlín region",
+                        "value": "CA141D0016"
+                    },
+                    {
+                        "title": "Moneta Standard - Olomouc region",
+                        "value": "CA141D0017"
+                    },
+                    {
+                        "title": "Moneta Standard - Moravian-Silesian region",
+                        "value": "CA141D0018"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "click2Pay": {
+                "title": "Click to Pay has been enabled for your card on the e-shop",
+                "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
+                "emailPrompt": "E-mail for payments",
+                "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
+                "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
+                "primaryButton": "Continue with Click to Pay",
+                "secondaryButton": "Not interested"
+            },
+            "activationPassword": {
+                "title": "Enter a six-digit password to activate your card.",
+                "toolbarTitle": "Currency exchange",
+                "detail": "<b>Please remember your password, you are going to need it when your card arrives.</b> More information is disclosed in the envelope with your card.",
+                "password": "Password",
+                "primaryButton": "Continue"
+            },
+            "scoring": {
+                "title": "Just a moment, the cat needs to look it over."
+            },
+            "staticDocuments": {
+                "title": "Read the important contractual documentation",
+                "subtitle": "All your documents can be found in My Documents section of Smart Banka and Internet Banka.",
+                "primaryButton": "I agree"
+            },
+            "precontractInfo": {
+                "title": "Read the Foreign Currency Account pre‑contractual information",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Download the PDF",
+                "secondaryButton": "Decline",
+                "primaryButton": "I agree"
+            },
+            "disagreement": {
+                "title": "We need your agreement to continue",
+                "toolbarTitle": "Currency exchange",
+                "detail": "You’re just a step away from your foreign currency account. To set it up, we need you to agree to pre-contractual information and sign the contract. <b> Any questions? Let's discuss it together.</b>",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch",
+                "secondaryButton": "Cancel Application",
+                "primaryButton": "Continue opening account"
+            },
+            "contract": {
+                "title": "Read the Foreign Currency Account Contract",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Download the PDF",
+                "secondaryButton": "Decline",
+                "primaryButton": "I agree"
+            },
+            "signByUs": {
+                "title": "Now it’s our turn to sign, please wait a moment."
+            },
+            "waitingBeforeContract": {
+                "title": "Just a moment, we are preparing the contract"
+            },
+            "victory": {
+                "title": "Congratulation!",
+                "toolbarTitle": "Currency exchange",
+                "detail": "You have successfully opened an {{currency}} foreign currency account. If you have requested a physical card it will be delivered to you by mail within 5 business days. There is no need to wait for it to arrive as you can add the card to Apple Pay or Google Pay and then make payments right away.",
+                "primaryButton": "Back to Currency Exchange"
+            },
+            "victoryEUR": {
+                "title": "Congratulation",
+                "toolbarTitle": "Currency exchange",
+                "detail": "You have successfully opened an {{currency}} foreign currency account. If you have requested a physical card it will be delivered to you by mail within 5 business days. There is no need to wait for it to arrive as you can add the card to Apple Pay or Google Pay and then make payments right away.",
+                "infoEUR": "Evaluate your finances in euros, thanks to the EUR savings account with interest of up to {{interest}} %",
+                "primaryButton": "Back to Currency Exchange",
+                "secondaryButton": "Open EUR current account"
+            },
+            "scoringNok": {
+                "title": "We are sorry, something went wrong",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Unfortunately, we can’t continue in the app; but we are happy to help you at one of our branches - please remember to bring your ID with you.",
+                "branch": "Visit our\nbranch",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "tomorrowVictory": {
+                "title": "Your account will be available in the morning of the following business day.",
+                "toolbarTitle": "Currency exchange",
+                "detail": "All your documents can be found in My Documents section of Smart Banka and Internet Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "delayedVictory": {
+                "title": "We are almost done, the signing might take a while",
+                "toolbarTitle": "Currency exchange",
+                "detail": "Sometimes the signing process takes a bit longer - a couple hours during business days, during weekends it takes until Monday. Your account will be opened thereafter. All your documents are already available in My Documents section of Smart Banka and Internet Banka. \n\n We apologize and thank you for your patience.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "sign": {
+                "title": "Sign the contract with your PIN number"
+            },
+            "simpleDocumentUpload": {
+                "title": "Oops, we need your current ID",
+                "detail": "It appears that the ID you provided us earlier is no longer current. Please upload a new one.",
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "ID",
+                        "detail": "Some information has changed since your last visit",
+                        "photoCapture": [
+                            {
+                                "title": "Take a photo of the front of your ID card",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take a photo"
+                            },
+                            {
+                                "title": "Take a photo of the back of your ID card",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take a photo"
+                            }
+                        ],
+                        "busyLoader": {
+                            "title": "Be patient for a moment, we have to check everything",
+                            "detail": "It will take a few seconds at most."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "We cannot open a foreign currency account for you right now",
+                            "detail": "We are really sorry",
+                            "secondaryButton": "End the application"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Oops, this didn't work",
+                            "detail": "Please take a photo of the document again, in good lighting, sharp and not blurry.",
+                            "primaryButton": "Scan again",
+                            "secondaryButton": "Continue later"
+                        },
+                        "review": {
+                            "title": "Great photo! Did we read everything correctly?",
+                            "documentDetails": {
+                                "title": "Data from the document",
+                                "firstName": "First name",
+                                "lastName": "Last name",
+                                "birthDate": "Date of birth",
+                                "birthPlace": "Place of birth",
+                                "birthNumber": "Birth number",
+                                "idCardNumber": {
+                                    "title": "ID number",
+                                    "secondaryTitle": "Passport number"
+                                },
+                                "idCardValidTo": "Valid to",
+                                "issueDate": "Valid from",
+                                "nationality": "Citizenship",
+                                "nationalityValue": "only Czech Republic",
+                                "sex": "Sex",
+                                "male": "male",
+                                "female": "female"
+                            },
+                            "documentAddress": {
+                                "title": "Permanent residence",
+                                "secondary": "(only Czech Republic)",
+                                "street": "Street",
+                                "descriptiveNumber": "Desc. no.",
+                                "orientationNumber": "Or. no.",
+                                "city": "City",
+                                "zip": "ZIP",
+                                "personalData": {
+                                    "title": "We will verify the data provided by you in the basic registers. More about their operation on the website <a href=\"https://www.szrcr.cz/cs/\">Administration of basic registers</a> and <a href=\"https://moneta.cz/ochrana-dat\">Moneta Money Bank</a>\n\n By pressing Continue, you confirm that all information provided is true, complete, correct and up-to-date."
+                                }
+                            },
+                            "primaryButton": "Continue"
+                        }
+                    }
+                },
+                "secondaryButton": "I will provide the documents later"
             }
-          }
-        },
-        "secondaryButton": "I will provide the documents later"
-      }
+        }
     }
-  }
 }

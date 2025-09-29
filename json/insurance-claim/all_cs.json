@@ -1,346 +1,344 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "api": {
-        "title": "Omlouváme se, něco se vymňouklo",
-        "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.",
-        "callUs": "Na infolince\nzavolejte nám",
-        "primaryButton": "Zpět na Přehled zůstatků"
-      }
-    },
-    "scenes": {
-      "unavailable": {
-        "title": "V aplikaci Moneta toto zatím neumíme. Nahlašte událost přímo na webu Cardif Pojišťovny",
-        "detail": "BNP Paribas Cardif je naše partnerská pojišťovna, u které máte pojištění sjednané. Pojistnou událost s Vámi vyřeší cobydup, jen to nepůjde v Moneta aplikaci.",
-        "primaryButton": "Nahlásit na webu Cardif Online",
-        "secondaryButton": "Zpět",
-        "claimUrl": "https://online.cardif.cz"
-      },
-      "selection": {
-        "title": "Kterého pojištění se událost týká?",
-        "active": {
-          "title": "Pojistná událost - Aktivní pojištění",
-          "detail": "Volejte přímo PO-PÁ 8-18 asistenční linku v českém jazyce <a>{0}</a> nebo vyplňte formulář <a href=\"https://cardifcz.eclaims.europ-assistance.com/login\">na webu</a>.",
-          "types": {
-            "CONSUMER_LOAN_REPAYMENT": {
-              "title": "Pojištění schopnosti splácet",
-              "detail": "Péče o osobu blízkou, pracovní neschopnost, hospitalizace v ČR, ztráta zaměstnání, invalidita..."
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Omlouváme se, něco se vymňouklo",
+                "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.",
+                "callUs": "Na infolince\nzavolejte nám",
+                "primaryButton": "Zpět na Přehled zůstatků"
             }
-          }
         },
-        "ended": {
-          "title": "Pojistná událost - Ukončená pojištění",
-          "types": {
-            "CONSUMER_LOAN_REPAYMENT": {
-              "title": "Pojištění schopnosti splácet",
-              "detail": "Zde můžete nahlásit až 4 roky zpětně pojistnou událost, která nastala v době pojištění."
+        "scenes": {
+            "unavailable": {
+                "title": "V aplikaci Moneta toto zatím neumíme. Nahlašte událost přímo na webu Cardif Pojišťovny",
+                "detail": "BNP Paribas Cardif je naše partnerská pojišťovna, u které máte pojištění sjednané. Pojistnou událost s Vámi vyřeší cobydup, jen to nepůjde v Moneta aplikaci.",
+                "primaryButton": "Nahlásit na webu Cardif Online",
+                "secondaryButton": "Zpět",
+                "claimUrl": "https://online.cardif.cz"
+            },
+            "selection": {
+                "title": "Kterého pojištění se událost týká?",
+                "active": {
+                    "title": "Pojistná událost - Aktivní pojištění",
+                    "detail": "Volejte přímo PO-PÁ 8-18 asistenční linku v českém jazyce <a>{0}</a> nebo vyplňte formulář <a href=\"https://cardifcz.eclaims.europ-assistance.com/login\">na webu</a>.",
+                    "types": {
+                        "CONSUMER_LOAN_REPAYMENT": {
+                            "title": "Pojištění schopnosti splácet",
+                            "detail": "Péče o osobu blízkou, pracovní neschopnost, hospitalizace v ČR, ztráta zaměstnání, invalidita..."
+                        }
+                    }
+                },
+                "ended": {
+                    "title": "Pojistná událost - Ukončená pojištění",
+                    "types": {
+                        "CONSUMER_LOAN_REPAYMENT": {
+                            "title": "Pojištění schopnosti splácet",
+                            "detail": "Zde můžete nahlásit až 4 roky zpětně pojistnou událost, která nastala v době pojištění."
+                        }
+                    }
+                }
+            },
+            "ineligible": {
+                "title": "Zjistili jsme, že máte smlouvy i u dalších partnerů, než jen u MONETA Money Bank.",
+                "detail": "Proto se prosím přihlaste do Cardif Online Portalu (COP) a nahlaste Vaši událost tam. V portálu budete mít vše na jednom místě a správa událostí pro Vás bude jednodušší.",
+                "primaryButton": "Nahlásit na webu Cardif Online",
+                "secondaryButton": "Zpět",
+                "claimUrl": "https://online.cardif.cz"
+            },
+            "finished": {
+                "pending": {
+                    "title": "Událost je nahlášená.\nBrzy se vám ozveme.",
+                    "detail": "Máte další důležitý dokument, který chcete nahrát?\nStačí čitelná, nerozmazaná fotografie nebo nahraný soubor. Můžete to udělat tady v aplikaci, v Internet Bance, nebo navštívit pobočku. Focení je samozřejmě zabezpečené.",
+                    "primaryButton": "Přidat další dokument",
+                    "secondaryButton": "Více informací o události",
+                    "tertiaryButton": "Pokračovat na Přehled"
+                },
+                "ok": {
+                    "title": "Událost byla úspěšně vyřešena. Vyjádření naleznete ve Zprávách z banky",
+                    "primaryButton": "Přidat další dokument",
+                    "secondaryButton": "Více informací o události",
+                    "tertiaryButton": "Přejít na Přehled"
+                },
+                "ko": {
+                    "title": "Událost byla vyřešena. Vyjádření naleznete ve Zprávách z banky",
+                    "primaryButton": "Přejít na Přehled",
+                    "secondaryButton": "Více informací o události"
+                },
+                "error": {
+                    "title": "Omlouváme se, něco se vymňouklo",
+                    "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.",
+                    "primaryButton": "Pokračovat po telefonu",
+                    "secondaryButton": "Více informací o události",
+                    "tertiaryButton": "Pokračovat na Přehled"
+                }
+            },
+            "riskGroups": {
+                "title": "Událost – Pojištění schopnosti splácet",
+                "detail": "Popište prosím, co přesně se Vám stalo. Poté budete moct nahrát dokumety pro pojišťovnu, aby mohla posoudit nárok na vyplacení pojistného plnění.",
+                "sectionTitle": "Co přesně se vám stalo?",
+                "types": [
+                    {
+                        "code": "HOSPITALIZATION",
+                        "text": "Byl jsem hospitalizován",
+                        "icon": "medicalKitFill"
+                    },
+                    {
+                        "code": "INVOLUNTARY_UNEMPLOYMENT",
+                        "text": "Jsem nezaměstnaný",
+                        "icon": "servicesFill"
+                    },
+                    {
+                        "code": "TOTAL_PERMANENT_DISABILITY",
+                        "text": "Jsem invalidní - III. stupeň",
+                        "icon": "healthcareFill"
+                    },
+                    {
+                        "code": "PARTIAL_PERMANENT_DISABILITY",
+                        "text": "Jsem invalidní - II. stupeň",
+                        "icon": "healthcareFill"
+                    },
+                    {
+                        "code": "TEMPORARY_DISABILITY",
+                        "text": "Jsem v pracovní neschopnosti",
+                        "icon": "bedFill"
+                    },
+                    {
+                        "code": "TAKING_CARE",
+                        "text": "Pečuji o blízkou osobu",
+                        "icon": "handHoldingHeartFill"
+                    }
+                ],
+                "other": "Chci nahlásit jinou událost"
+            },
+            "callMe": {
+                "title": "Zavoláme Vám co nejdříve a všechno vyřešíme",
+                "detail": "Máme správně Vaše telefonní číslo?",
+                "number": "Telefonní číslo",
+                "primaryButton": "Zavolejte mi",
+                "victory": "Na zadané telefonní číslo se pojišťovna ozve cobydup. Děkujeme."
+            },
+            "hospitalization": {
+                "title": "Hospitalizace",
+                "detail": "Doba trvání",
+                "start": "Začátek hospitalizace",
+                "addEnd": "Přidat datum ukončení",
+                "end": "Ukončení hospitalizace",
+                "primaryButton": "Pokračovat"
+            },
+            "unemployment": {
+                "title": "Ztráta zaměstnání",
+                "duration": "Doba trvání",
+                "date": "Datum rozvázání pracovního poměru",
+                "ended": "Skončila vaše evidence na úřadu práce?",
+                "end": "Datum ukončení evidence na úřadu práce",
+                "employerSection": "Informace o posledním zaměstnavateli",
+                "health": "Došlo k rozvázání pracovního poměru ze zdravotních důvodů?",
+                "name": "Název zaměstnavatele",
+                "street": "Ulice a č. p.",
+                "city": "Město",
+                "zip": "PSČ",
+                "state": "Stát",
+                "primaryButton": "Pokračovat"
+            },
+            "disability": {
+                "title": "Invalidita",
+                "duration": "Doba trvání",
+                "start": "Začátek invalidity",
+                "addEnd": "Přidat datum ukončení",
+                "end": "Ukončení invalidity",
+                "pensionSection": "Invalidní důchod",
+                "pastPension": "Byl vám v minulosti přiznán invalidní důchod?",
+                "level": "Stupeň invalidity",
+                "pensionStart": "Začátek invalidního důchodu",
+                "moreSection": "Další informace",
+                "police": "Šetřila událost Policie ČR?",
+                "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
+                "levels": {
+                    "PARTIAL": "Částečná",
+                    "FULL": "Plná",
+                    "LEVEL1": "I. stupeň",
+                    "LEVEL2": "II. stupeň",
+                    "LEVEL3": "III. stupeň"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "temporaryDisability": {
+                "title": "Pracovní neschopnost",
+                "duration": "Doba trvání",
+                "start": "Začátek pracovní neschopnosti",
+                "addEnd": "Přidat datum ukončení",
+                "end": "Ukončení pracovní neschopnosti",
+                "detail": "Popište onemocnění nebo úraz",
+                "pensionSection": "Invalidní důchod",
+                "pastPension": "Byl vám v minulosti přiznán invalidní důchod?",
+                "level": "Stupeň invalidity",
+                "from": "Od kdy?",
+                "pensionEnd": "Datum ukončení invalidního důchodu",
+                "pension": "Starobní důchod",
+                "pensionStart": "Jste ve starobním důchodu?",
+                "moreSection": "Další informace",
+                "police": "Šetřila událost Policie ČR?",
+                "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
+                "levels": {
+                    "PARTIAL": "Částečná",
+                    "FULL": "Plná",
+                    "LEVEL1": "I. stupeň",
+                    "LEVEL2": "II. stupeň",
+                    "LEVEL3": "III. stupeň"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "takingCare": {
+                "title": "Ošetřování blízké osoby",
+                "nurse": {
+                    "title": "Informace o ošetřovateli",
+                    "type": "Ošetřovatel je",
+                    "firstname": "Jméno ošetřovatele",
+                    "lastname": "Příjmení ošetřovatele",
+                    "idNumber": "Rodné číslo ošetřovatele"
+                },
+                "patient": {
+                    "title": "Informace o ošetřované osobě",
+                    "type": "Ošetřovaná osoba je",
+                    "firstname": "Jméno ošetřovaného",
+                    "lastname": "Příjmení ošetřovaného",
+                    "idNumber": "Rodné číslo ošetřovaného"
+                },
+                "duration": "Doba trvání",
+                "start": "Datum začátku ošetřování",
+                "addEnd": "Přidat datum ukončení",
+                "end": "Datum ukončení ošetřování",
+                "invalidity": "Invalidita",
+                "isPatientInvalid": "Je nebo byla ošetřovaná osoba uznána jako invalidní?",
+                "invalidityStart": "Datum začátku invalidity",
+                "level": "Stupeň invalidity",
+                "moreSection": "Další informace",
+                "police": "Šetřila událost Policie ČR?",
+                "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
+                "nurseRole": {
+                    "INSURED": "Pojištěný",
+                    "HUSBAND_WIFE": "Manžel/manželka",
+                    "CIVIL_PARTNER": "Partner",
+                    "COHABITATION": "Soužití"
+                },
+                "patientRole": {
+                    "HUSBAND": "Manžel/manželka",
+                    "CHILD": "Potomek",
+                    "PARENT": "Rodič",
+                    "CIVIL_PARTNER": "Partner",
+                    "OTHER": "Jiný"
+                },
+                "levels": {
+                    "PARTIAL": "Částečná",
+                    "FULL": "Plná",
+                    "LEVEL1": "I. stupeň",
+                    "LEVEL2": "II. stupeň",
+                    "LEVEL3": "III. stupeň"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "account": {
+                "title": "Uveďte prosím číslo účtu, na který Vám uhradíme případné náklady, pokud Vám nějaké vznikly při získání potřebných dokumentů.",
+                "toolbarTitle": "Např. zdravotní dokumentace.",
+                "detail": "Účet pro úhradu nákladů",
+                "account": "Váš účet",
+                "other": "Jiný",
+                "otherInfo": "Účet u jiné banky",
+                "owner": "Jsem majitel tohoto účtu",
+                "infoSection": "Údaje vyžadované zákonem",
+                "infoDetail": "Dle vnitřních norem nesmíme vyplácet jakékoliv peněžní prostředky bez prověření majitele účtu.",
+                "firstname": "Jméno",
+                "lastname": "Příjmení",
+                "birthDate": "Datum narození",
+                "nationality": "Státní občanství",
+                "contactAddress": "Kontaktní adresa",
+                "street": "Ulice a č. p.",
+                "city": "Město",
+                "zip": "PSČ",
+                "state": "Stát",
+                "primaryButton": "Pokračovat"
+            },
+            "insurances": {
+                "types": {
+                    "CONSUMER_LOAN_REPAYMENT": "Pojištění schopnosti splácet spotřebitelský úvěr"
+                },
+                "claimType": {
+                    "HOSPITALIZATION": "Hospitalizace",
+                    "INVOLUNTARY_UNEMPLOYMENT": "Ztráta zaměstnání",
+                    "TOTAL_PERMANENT_DISABILITY": "Invalidita III. stupně",
+                    "PARTIAL_PERMANENT_DISABILITY": "Invalidita II. stupně",
+                    "TEMPORARY_DISABILITY": "Pracovní neschopnost",
+                    "TAKING_CARE": "Péče o osobu blízkou"
+                },
+                "title": "Událost je nahlášena pro tyto pojistné smlouvy:",
+                "company": "Pojišťovna",
+                "number": "Číslo smlouvy",
+                "event": "Nahlášená událost",
+                "primaryButton": "Pokračovat"
+            },
+            "requirements": {
+                "title": "Událost je nahlášena.\n\nTeď prosím nahrajte dokumenty pro její vyřízení. ",
+                "detail": "Postačí čitelná, nerozmazaná fotografie nebo nahraný soubor. Můžete to udělat tady v aplikaci, v Internet Bance nebo navštívit pobočku. Focení je samozřejmě zabezpečené.",
+                "primaryButton": "Přidat další dokument",
+                "secondaryButton": "Doklady doložím později",
+                "tertiaryButton": "Více informací o události",
+                "additionalInfo": {
+                    "137": "Dokument získáte na místě, kde jste byli hospitalizování"
+                }
+            },
+            "requirementsScanner": {
+                "title": "Nahrajte prosím dokument:",
+                "detail": "Můžete to udělat také v Internet Bance",
+                "titleUniversal": "Nahrajte svůj libovolný dokument.",
+                "upload": "Nahrát fotku nebo PDF",
+                "example": "Stáhnout vzor",
+                "success": "Dokumenty byly úspěšně nahrány.",
+                "primaryButton": "Nahrát",
+                "document": "Vyfocený dokument",
+                "largeFile": "Soubor je větší než 10MB, prosím vyberte menší.",
+                "downloadExample": "Stáhnout vzor",
+                "exampleUrl": {}
+            },
+            "detail": {
+                "title": "Detaily o škodní události",
+                "client": "Osobní údaje klienta",
+                "name": "Jméno",
+                "email": "Email",
+                "number": "Telefonní číslo",
+                "date": "Datum narození",
+                "nationality": "Občanství",
+                "address": "Trvalá adresa",
+                "detail": "Podrobnosti o události",
+                "state": "Stav události",
+                "insuranceState": "Stav",
+                "risk": "Hlášené riziko",
+                "from": "Datum vzniku události",
+                "reported": "Nahlášeno dne",
+                "contract": "Související smlouva:",
+                "contractNumber": "Číslo smlouvy",
+                "account": "Účet pro výplatu",
+                "reportNumber": "Číslo události",
+                "types": {
+                    "CONSUMER_LOAN_REPAYMENT": "Pojištění schopnosti splácet spotřebitelský úvěr"
+                },
+                "status": {
+                    "NEW": "Zpracováváme",
+                    "PENDING": "Vyřizujeme",
+                    "ACCEPTED": "Vyřešeno",
+                    "REJECTED": "Zamítnuto",
+                    "DELETED": "Odstraněno"
+                },
+                "claimType": {
+                    "HOSPITALIZATION": "Hospitalizace",
+                    "INVOLUNTARY_UNEMPLOYMENT": "Ztráta zaměstnání",
+                    "TOTAL_PERMANENT_DISABILITY": "Invalidita III. stupně",
+                    "PARTIAL_PERMANENT_DISABILITY": "Invalidita II. stupně",
+                    "TEMPORARY_DISABILITY": "Pracovní neschopnost",
+                    "TAKING_CARE": "Péče o osobu blízkou"
+                },
+                "primaryButton": "Přidat další dokument"
             }
-          }
         }
-      },
-      "ineligible": {
-        "title": "Zjistili jsme, že máte smlouvy i u dalších partnerů, než jen u MONETA Money Bank.",
-        "detail": "Proto se prosím přihlaste do Cardif Online Portalu (COP) a nahlaste Vaši událost tam. V portálu budete mít vše na jednom místě a správa událostí pro Vás bude jednodušší.",
-        "primaryButton": "Nahlásit na webu Cardif Online",
-        "secondaryButton": "Zpět",
-        "claimUrl": "https://online.cardif.cz"
-      },
-      "finished": {
-        "pending": {
-          "title": "Událost je nahlášená.\nBrzy se vám ozveme.",
-          "detail": "Máte další důležitý dokument, který chcete nahrát?\nStačí čitelná, nerozmazaná fotografie nebo nahraný soubor. Můžete to udělat tady v aplikaci, v Internet Bance, nebo navštívit pobočku. Focení je samozřejmě zabezpečené.",
-          "primaryButton": "Přidat další dokument",
-          "secondaryButton": "Více informací o události",
-          "tertiaryButton": "Pokračovat na Přehled"
-        },
-        "ok": {
-          "title": "Událost byla úspěšně vyřešena. Vyjádření naleznete ve Zprávách z banky",
-          "primaryButton": "Přidat další dokument",
-          "secondaryButton": "Více informací o události",
-          "tertiaryButton": "Přejít na Přehled"
-        },
-        "ko": {
-          "title": "Událost byla vyřešena. Vyjádření naleznete ve Zprávách z banky",
-          "primaryButton": "Přejít na Přehled",
-          "secondaryButton": "Více informací o události"
-        },
-        "error": {
-          "title": "Omlouváme se, něco se vymňouklo",
-          "detail": "Bohužel nastala nečekaná chyba a není možné pokračovat.",
-          "primaryButton": "Pokračovat po telefonu",
-          "secondaryButton": "Více informací o události",
-          "tertiaryButton": "Pokračovat na Přehled"
-        }
-      },
-      "riskGroups": {
-        "title": "Událost – Pojištění schopnosti splácet",
-        "detail": "Popište prosím, co přesně se Vám stalo. Poté budete moct nahrát dokumety pro pojišťovnu, aby mohla posoudit nárok na vyplacení pojistného plnění.",
-        "sectionTitle": "Co přesně se vám stalo?",
-        "types": [
-          {
-            "code": "HOSPITALIZATION",
-            "text": "Byl jsem hospitalizován",
-            "icon": "medicalKitFill"
-          },
-          {
-            "code": "INVOLUNTARY_UNEMPLOYMENT",
-            "text": "Jsem nezaměstnaný",
-            "icon": "servicesFill"
-          },
-          {
-            "code": "TOTAL_PERMANENT_DISABILITY",
-            "text": "Jsem invalidní - III. stupeň",
-            "icon": "healthcareFill"
-          },
-          {
-            "code": "PARTIAL_PERMANENT_DISABILITY",
-            "text": "Jsem invalidní - II. stupeň",
-            "icon": "healthcareFill"
-          },
-          {
-            "code": "TEMPORARY_DISABILITY",
-            "text": "Jsem v pracovní neschopnosti",
-            "icon": "bedFill"
-          },
-          {
-            "code": "TAKING_CARE",
-            "text": "Pečuji o blízkou osobu",
-            "icon": "handHoldingHeartFill"
-          }
-        ],
-        "other": "Chci nahlásit jinou událost"
-      },
-      "callMe": {
-        "title": "Zavoláme Vám co nejdříve a všechno vyřešíme",
-        "detail": "Máme správně Vaše telefonní číslo?",
-        "number": "Telefonní číslo",
-        "primaryButton": "Zavolejte mi",
-        "victory": "Na zadané telefonní číslo se pojišťovna ozve cobydup. Děkujeme."
-      },
-      "hospitalization": {
-        "title": "Hospitalizace",
-        "detail": "Doba trvání",
-        "start": "Začátek hospitalizace",
-        "addEnd": "Přidat datum ukončení",
-        "end": "Ukončení hospitalizace",
-        "primaryButton": "Pokračovat"
-      },
-      "unemployment": {
-        "title": "Ztráta zaměstnání",
-        "duration": "Doba trvání",
-        "date": "Datum rozvázání pracovního poměru",
-        "ended": "Skončila vaše evidence na úřadu práce?",
-        "end": "Datum ukončení evidence na úřadu práce",
-        "employerSection": "Informace o posledním zaměstnavateli",
-        "health": "Došlo k rozvázání pracovního poměru ze zdravotních důvodů?",
-        "name": "Název zaměstnavatele",
-        "street": "Ulice a č. p.",
-        "city": "Město",
-        "zip": "PSČ",
-        "state": "Stát",
-        "primaryButton": "Pokračovat"
-      },
-      "disability": {
-        "title": "Invalidita",
-        "duration": "Doba trvání",
-        "start": "Začátek invalidity",
-        "addEnd": "Přidat datum ukončení",
-        "end": "Ukončení invalidity",
-        "pensionSection": "Invalidní důchod",
-        "pastPension": "Byl vám v minulosti přiznán invalidní důchod?",
-        "level": "Stupeň invalidity",
-        "pensionStart": "Začátek invalidního důchodu",
-        "moreSection": "Další informace",
-        "police": "Šetřila událost Policie ČR?",
-        "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
-        "levels": {
-          "PARTIAL": "Částečná",
-          "FULL": "Plná",
-          "LEVEL1": "I. stupeň",
-          "LEVEL2": "II. stupeň",
-          "LEVEL3": "III. stupeň"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "temporaryDisability": {
-        "title": "Pracovní neschopnost",
-        "duration": "Doba trvání",
-        "start": "Začátek pracovní neschopnosti",
-        "addEnd": "Přidat datum ukončení",
-        "end": "Ukončení pracovní neschopnosti",
-        "detail": "Popište onemocnění nebo úraz",
-        "pensionSection": "Invalidní důchod",
-        "pastPension": "Byl vám v minulosti přiznán invalidní důchod?",
-        "level": "Stupeň invalidity",
-        "from": "Od kdy?",
-        "pensionEnd": "Datum ukončení invalidního důchodu",
-        "pension": "Starobní důchod",
-        "pensionStart": "Jste ve starobním důchodu?",
-        "moreSection": "Další informace",
-        "police": "Šetřila událost Policie ČR?",
-        "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
-        "levels": {
-          "PARTIAL": "Částečná",
-          "FULL": "Plná",
-          "LEVEL1": "I. stupeň",
-          "LEVEL2": "II. stupeň",
-          "LEVEL3": "III. stupeň"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "takingCare": {
-        "title": "Ošetřování blízké osoby",
-        "nurse": {
-          "title": "Informace o ošetřovateli",
-          "type": "Ošetřovatel je",
-          "firstname": "Jméno ošetřovatele",
-          "lastname": "Příjmení ošetřovatele",
-          "idNumber": "Rodné číslo ošetřovatele"
-        },
-        "patient": {
-          "title": "Informace o ošetřované osobě",
-          "type": "Ošetřovaná osoba je",
-          "firstname": "Jméno ošetřovaného",
-          "lastname": "Příjmení ošetřovaného",
-          "idNumber": "Rodné číslo ošetřovaného"
-        },
-        "duration": "Doba trvání",
-        "start": "Datum začátku ošetřování",
-        "addEnd": "Přidat datum ukončení",
-        "end": "Datum ukončení ošetřování",
-        "invalidity": "Invalidita",
-        "isPatientInvalid": "Je nebo byla ošetřovaná osoba uznána jako invalidní?",
-        "invalidityStart": "Datum začátku invalidity",
-        "level": "Stupeň invalidity",
-        "moreSection": "Další informace",
-        "police": "Šetřila událost Policie ČR?",
-        "policeAddress": "Uveďte prosím adresu útvaru, který událost šetřil",
-        "nurseRole": {
-          "INSURED": "Pojištěný",
-          "HUSBAND_WIFE": "Manžel/manželka",
-          "CIVIL_PARTNER": "Partner",
-          "COHABITATION": "Soužití"
-        },
-        "patientRole": {
-          "HUSBAND": "Manžel/manželka",
-          "CHILD": "Potomek",
-          "PARENT": "Rodič",
-          "CIVIL_PARTNER": "Partner",
-          "OTHER": "Jiný"
-        },
-        "levels": {
-          "PARTIAL": "Částečná",
-          "FULL": "Plná",
-          "LEVEL1": "I. stupeň",
-          "LEVEL2": "II. stupeň",
-          "LEVEL3": "III. stupeň"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "account": {
-        "title": "Uveďte prosím číslo účtu, na který Vám uhradíme případné náklady, pokud Vám nějaké vznikly při získání potřebných dokumentů.",
-        "toolbarTitle": "Např. zdravotní dokumentace.",
-        "detail": "Účet pro úhradu nákladů",
-        "account": "Váš účet",
-        "other": "Jiný",
-        "otherInfo": "Účet u jiné banky",
-        "owner": "Jsem majitel tohoto účtu",
-        "infoSection": "Údaje vyžadované zákonem",
-        "infoDetail": "Dle vnitřních norem nesmíme vyplácet jakékoliv peněžní prostředky bez prověření majitele účtu.",
-        "firstname": "Jméno",
-        "lastname": "Příjmení",
-        "birthDate": "Datum narození",
-        "nationality": "Státní občanství",
-        "contactAddress": "Kontaktní adresa",
-        "street": "Ulice a č. p.",
-        "city": "Město",
-        "zip": "PSČ",
-        "state": "Stát",
-        "primaryButton": "Pokračovat"
-      },
-      "insurances": {
-        "types": {
-          "CONSUMER_LOAN_REPAYMENT": "Pojištění schopnosti splácet spotřebitelský úvěr"
-        },
-        "claimType": {
-          "HOSPITALIZATION": "Hospitalizace",
-          "INVOLUNTARY_UNEMPLOYMENT": "Ztráta zaměstnání",
-          "TOTAL_PERMANENT_DISABILITY": "Invalidita III. stupně",
-          "PARTIAL_PERMANENT_DISABILITY": "Invalidita II. stupně",
-          "TEMPORARY_DISABILITY": "Pracovní neschopnost",
-          "TAKING_CARE": "Péče o osobu blízkou"
-        },
-        "title": "Událost je nahlášena pro tyto pojistné smlouvy:",
-        "company": "Pojišťovna",
-        "number": "Číslo smlouvy",
-        "event": "Nahlášená událost",
-        "primaryButton": "Pokračovat"
-      },
-      "requirements": {
-        "title": "Událost je nahlášena.\n\nTeď prosím nahrajte dokumenty pro její vyřízení. ",
-        "detail": "Postačí čitelná, nerozmazaná fotografie nebo nahraný soubor. Můžete to udělat tady v aplikaci, v Internet Bance nebo navštívit pobočku. Focení je samozřejmě zabezpečené.",
-        "primaryButton": "Přidat další dokument",
-        "secondaryButton": "Doklady doložím později",
-        "tertiaryButton": "Více informací o události",
-        "additionalInfo": {
-          "137": "Dokument získáte na místě, kde jste byli hospitalizování"
-        }
-      },
-      "requirementsScanner": {
-        "title": "Nahrajte prosím dokument:",
-        "detail": "Můžete to udělat také v Internet Bance",
-        "titleUniversal": "Nahrajte svůj libovolný dokument.",
-        "upload": "Nahrát fotku nebo PDF",
-        "example": "Stáhnout vzor",
-        "success": "Dokumenty byly úspěšně nahrány.",
-        "primaryButton": "Nahrát",
-        "document": "Vyfocený dokument",
-        "largeFile": "Soubor je větší než 10MB, prosím vyberte menší.",
-        "downloadExample": "Stáhnout vzor",
-        "exampleUrl": {
-
-        }
-      },
-      "detail": {
-        "title": "Detaily o škodní události",
-        "client": "Osobní údaje klienta",
-        "name": "Jméno",
-        "email": "Email",
-        "number": "Telefonní číslo",
-        "date": "Datum narození",
-        "nationality": "Občanství",
-        "address": "Trvalá adresa",
-        "detail": "Podrobnosti o události",
-        "state": "Stav události",
-        "insuranceState": "Stav",
-        "risk": "Hlášené riziko",
-        "from": "Datum vzniku události",
-        "reported": "Nahlášeno dne",
-        "contract": "Související smlouva:",
-        "contractNumber": "Číslo smlouvy",
-        "account": "Účet pro výplatu",
-        "reportNumber": "Číslo události",
-        "types": {
-          "CONSUMER_LOAN_REPAYMENT": "Pojištění schopnosti splácet spotřebitelský úvěr"
-        },
-        "status": {
-          "NEW": "Zpracováváme",
-          "PENDING": "Vyřizujeme",
-          "ACCEPTED": "Vyřešeno",
-          "REJECTED": "Zamítnuto",
-          "DELETED": "Odstraněno"
-        },
-        "claimType": {
-          "HOSPITALIZATION": "Hospitalizace",
-          "INVOLUNTARY_UNEMPLOYMENT": "Ztráta zaměstnání",
-          "TOTAL_PERMANENT_DISABILITY": "Invalidita III. stupně",
-          "PARTIAL_PERMANENT_DISABILITY": "Invalidita II. stupně",
-          "TEMPORARY_DISABILITY": "Pracovní neschopnost",
-          "TAKING_CARE": "Péče o osobu blízkou"
-        },
-        "primaryButton": "Přidat další dokument"
-      }
     }
-  }
 }
