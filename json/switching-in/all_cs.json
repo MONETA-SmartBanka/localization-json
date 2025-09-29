@@ -1,171 +1,171 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "general": {
-      "screenTitle": "Změna banky",
-      "progress": {
-        "request": "Žádost",
-        "overview": "Shrnutí",
-        "tips": "Tipy"
-      }
-    },
-    "scenes": {
-      "help": {
-        "title": "Potřebujete poradit?",
-        "detail": "Dobrá rada je někdy nad zlato – zavolejte nám nebo se zastavte na pobočce :-)",
-        "detailBranch": "Vyhledejte pobočku",
-        "detailCall": "Zavolejte nám",
-        "primaryButton": "ZPĚT"
-      },
-      "switchingNotAllowed": {
-        "title": "Navštivte nás na pobočce",
-        "detail": "Je nám líto, ale pro Vás zatím neumíme změnit banku přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
-        "detailBranch": "Najděte nejbližší pobočku",
-        "detailCall": "Zavolejte nám pro více informací"
-      },
-      "landing": {
-        "title": "Jak to celé proběhne",
-        "bullets": [
-          "Vyberete si, co všechno chcete mít u nás. Budou to trvalé příkazy a inkasa nebo máme rovnou zařídit i zrušení účtu u původní banky?",
-          "Zadáte číslo svého starého běžného účtu v Kč a zvolíte si den, ke kterému chcete změnu provést",
-          "Až bude všechno hotové, dáme Vám vědět",
-          "Samozřejmě to vše zdarma"
-        ],
-        "missSomething": "<b>Umíme to i na pobočce ></b>",
-        "primaryButton": "POKRAČOVAT"
-      },
-      "branch": {
-        "title": "Na pobočce pro Vás můžeme také",
-        "bullets": [
-          "Převést zůstatek bez zrušení účtu",
-          "Vybrat, které trvalé příkazy a inkasa chcete převést",
-          "Informovat Vašeho zaměstnavatele nebo dodavatele energií o změně čísla účtu"
-        ],
-        "banktitle": "<b>Více o změně banky</b>",
-        "branchtitle": "<b>Vyhledejte pobočku</b>",
-        "primaryButton": "ZPĚT"
-      },
-      "option": {
-        "title": "Vyberte, co pro Vás máme zařídit",
-        "checkTransferTitle": "<b>Převod trvalých plateb</b>",
-        "checkTransferDetail": "Převedení všech trvalých příkazů a inkas z Vašeho starého účtu na Váš účet u MONETA Money Bank",
-        "checkDeleteTitle": "<b>Zrušení účtu v původní bance</b>",
-        "checkDeleteDetail": "Zůstatek bude automaticky převeden na Váš účet u nás, jakmile skončí výpovědní doba",
-        "primaryButton": "POKRAČOVAT"
-      },
-      "switchingNotAllowed": {
-        "title": "Navštivte nás na pobočce",
-        "detail": "Je nám líto, ale pro Vás zatím neumíme změnit banku přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
-        "detailBranch": "Najděte nejbližší pobočku",
-        "detailCall": "Zavolejte nám pro více informací"
-      },
-      "date": {
-        "title": "Kdy to máme celé udělat?",
-        "detail": "Doporučujeme vybrat den, ve kterém na Váš starý účet žádné pravidelné platby nepřicházejí ani z něj neodcházejí.",
-        "placeholder": "dd.mm.rrrr",
-        "subtitle": "<b>K tomuto dni:</b>",
-        "titlePreviousBank": "<b>U Vaší původní banky</b>",
-        "previousBankBulletTso": [
-          "Přestanou odcházet trvalé příkazy a inkasa"
-        ],
-        "previousBankBulletDsa": [
-          "Obvykle přestane fungovat stará debetní karta k účtu (informujte se u své původní banky)",
-          "Začíná běžet výpovědní doba starého účtu (obvykle 30 dní)",
-          "Nebojte, peníze máte do konce výpovědní doby na starém účtu stále k dispozici. Po uplynutí výpovědní doby bude zbytek automaticky převeden k nám"
-        ],
-        "titleMoneta": "<b>U MONETA Money Bank</b>",
-        "monetaBulletsTso": [
-          "Začnou trvalé příkazy a inkasa odcházet z Vašeho účtu u nás se stejným nastavením, na které jste byli zvyklí"
-        ],
-        "primaryButton": "POKRAČOVAT"
-      },
-      "sourceAccount": {
-        "title": "Zadejte číslo účtu v původní bance",
-        "detail": "Napište nebo zkopírujte celé číslo účtu včetně  kódu banky.",
-        "primaryButton": "POKRAČOVAT"
-      },
-      "targetAccount": {
-        "title": "Vyberte svůj účet u nás, na který vše převedeme",
-        "primaryButton": "POKRAČOVAT"
-      },
-      "summary": {
-        "title": "Shrnutí",
-        "placeholder": "Požádáme o zrušení starého účtu",
-        "placeholderDetail": "(bude zrušen do 30 dnů ode dne {{ date('d. M. yyyy') }})",
-        "placeholderDate": "Platby z něj převedeme ke dni",
-        "placeholderMoneta": "na tento účet u nás",
-        "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
-        "primaryButton": "Souhlasím",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "summaryTso": {
-        "title": "Shrnutí",
-        "placeholder": "Z Vašeho starého účtu",
-        "placeholderDate": "převedeme trvalé příkazy a inkasa ke dni",
-        "placeholderMoneta": "na tento účet u nás",
-        "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
-        "primaryButton": "Souhlasím",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "summaryDso": {
-        "title": "Shrnutí",
-        "placeholder": "Požádáme o zrušení starého účtu",
-        "placeholderDetail": "(bude zrušen do 30 dnů ode dne {{ date('d. M. yyyy') }})",
-        "placeholderMoneta": "Zůstatek Vám přijde na tento účet u nás",
-        "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
-        "primaryButton": "Souhlasím",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "loader": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat"
-      },
-      "preview": {
-        "title": "Žádost",
-        "shareButton": "Přeposlat",
-        "primaryButton": "Zpět na shrnutí"
-      },
-      "didNotAcceptPreview": {
-        "title": "Bez souhlasu Vám banku změnit nemůžeme",
-        "detail": "Potřebujete něco opravit? Vraťte se zpět. Pokud máte dotaz, kontaktujte nás.",
-        "detailBranch": "Vyhledejte pobočku",
-        "detailCall": "Zavolejte nám",
-        "primaryButton": "Pokračovat v žádosti",
-        "secondaryButton": "ukončit žádost"
-      },
-      "consent": {
-        "title": "Ještě potřebujeme jeden souhlas",
-        "checkTitle": "Souhlasím, aby mi členové finanční skupiny MONETA zasílali nešifrované zprávy o mé osobě a také o obsahu a průběhu smluvních vztahů elektronickými zprávami.",
-        "checkDetail": "Tento souhlas potřebujeme, abychom Vás mohli informovat e&#8209;mailem o stavu podané žádosti.",
-        "pinTitle": "Žádost podepíšete zadáním Vašeho PINu",
-        "primaryButton": "POKRAČOVAT"
-      },
-      "dontForget": {
-        "title": "Na co je dobré nezapomenout",
-        "bullets": [
-          "Převést si včas na účet v MONETA Money Bank peníze na provádění trvalých příkazů a inkas",
-          "Informovat o změně účtu svého zaměstnavatele nebo plátce důchodu",
-          "Informovat o změně účtu všechny, jimž platíte inkasem, např. dodavatele energií nebo operátora",
-          "Využívat debetní kartu MONETA Money Bank. Ve Vámi vybraný den přestane fungovat stará debetní karta k účtu",
-          "V případě závazků u původní banky (např. kreditní karta, půjčka nebo hypotéka) si prosím nezapomeňte případně dořešit jejich splácení jiným způsobem"
-        ],
-        "primaryButton": "POKRAČOVAT"
-      },
-      "dontForgetTso": {
-        "title": "Na co je dobré nezapomenout",
-        "bullets": [
-          "Převést si včas na účet v MONETA Money Bank peníze na provádění trvalých příkazů a inkas",
-          "Informovat o změně účtu svého zaměstnavatele nebo plátce důchodu",
-          "Informovat o změně účtu všechny, jimž platíte inkasem, např. dodavatele energií nebo operátora"
-        ],
-        "primaryButton": "POKRAČOVAT"
-      },
-      "victory": {
-        "title": "A je to!",
-        "detail": "Žádost teď posíláme do Vaší původní banky. Pro všechny případy jsme Vám její kopii uložili do dokumentů ve Smart Bance a také ji poslali na {{ user.email }}.",
-        "detailSecond": "Žádost teď posíláme do Vaší původní banky. Pro všechny případy jsme Vám její kopii uložili do dokumentů ve Smart Bance.",
-        "detailFooter": "Až bude vše vyřízeno, dáme Vám vědět.",
-        "primaryButton": "Přejít na přehled"
-      }
+    "status": "OK",
+    "responseObject": {
+        "general": {
+            "screenTitle": "Změna banky",
+            "progress": {
+                "request": "Žádost",
+                "overview": "Shrnutí",
+                "tips": "Tipy"
+            }
+        },
+        "scenes": {
+            "help": {
+                "title": "Potřebujete poradit?",
+                "detail": "Dobrá rada je někdy nad zlato – zavolejte nám nebo se zastavte na pobočce :-)",
+                "detailBranch": "Vyhledejte pobočku",
+                "detailCall": "Zavolejte nám",
+                "primaryButton": "ZPĚT"
+            },
+            "switchingNotAllowed": {
+                "title": "Navštivte nás na pobočce",
+                "detail": "Je nám líto, ale pro Vás zatím neumíme změnit banku přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+                "detailBranch": "Najděte nejbližší pobočku",
+                "detailCall": "Zavolejte nám pro více informací"
+            },
+            "landing": {
+                "title": "Jak to celé proběhne",
+                "bullets": [
+                    "Vyberete si, co všechno chcete mít u nás. Budou to trvalé příkazy a inkasa nebo máme rovnou zařídit i zrušení účtu u původní banky?",
+                    "Zadáte číslo svého starého běžného účtu v Kč a zvolíte si den, ke kterému chcete změnu provést",
+                    "Až bude všechno hotové, dáme Vám vědět",
+                    "Samozřejmě to vše zdarma"
+                ],
+                "missSomething": "<b>Umíme to i na pobočce ></b>",
+                "primaryButton": "POKRAČOVAT"
+            },
+            "branch": {
+                "title": "Na pobočce pro Vás můžeme také",
+                "bullets": [
+                    "Převést zůstatek bez zrušení účtu",
+                    "Vybrat, které trvalé příkazy a inkasa chcete převést",
+                    "Informovat Vašeho zaměstnavatele nebo dodavatele energií o změně čísla účtu"
+                ],
+                "banktitle": "<b>Více o změně banky</b>",
+                "branchtitle": "<b>Vyhledejte pobočku</b>",
+                "primaryButton": "ZPĚT"
+            },
+            "option": {
+                "title": "Vyberte, co pro Vás máme zařídit",
+                "checkTransferTitle": "<b>Převod trvalých plateb</b>",
+                "checkTransferDetail": "Převedení všech trvalých příkazů a inkas z Vašeho starého účtu na Váš účet u MONETA Money Bank",
+                "checkDeleteTitle": "<b>Zrušení účtu v původní bance</b>",
+                "checkDeleteDetail": "Zůstatek bude automaticky převeden na Váš účet u nás, jakmile skončí výpovědní doba",
+                "primaryButton": "POKRAČOVAT"
+            },
+            "switchingNotAllowed": {
+                "title": "Navštivte nás na pobočce",
+                "detail": "Je nám líto, ale pro Vás zatím neumíme změnit banku přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+                "detailBranch": "Najděte nejbližší pobočku",
+                "detailCall": "Zavolejte nám pro více informací"
+            },
+            "date": {
+                "title": "Kdy to máme celé udělat?",
+                "detail": "Doporučujeme vybrat den, ve kterém na Váš starý účet žádné pravidelné platby nepřicházejí ani z něj neodcházejí.",
+                "placeholder": "dd.mm.rrrr",
+                "subtitle": "<b>K tomuto dni:</b>",
+                "titlePreviousBank": "<b>U Vaší původní banky</b>",
+                "previousBankBulletTso": [
+                    "Přestanou odcházet trvalé příkazy a inkasa"
+                ],
+                "previousBankBulletDsa": [
+                    "Obvykle přestane fungovat stará debetní karta k účtu (informujte se u své původní banky)",
+                    "Začíná běžet výpovědní doba starého účtu (obvykle 30 dní)",
+                    "Nebojte, peníze máte do konce výpovědní doby na starém účtu stále k dispozici. Po uplynutí výpovědní doby bude zbytek automaticky převeden k nám"
+                ],
+                "titleMoneta": "<b>U MONETA Money Bank</b>",
+                "monetaBulletsTso": [
+                    "Začnou trvalé příkazy a inkasa odcházet z Vašeho účtu u nás se stejným nastavením, na které jste byli zvyklí"
+                ],
+                "primaryButton": "POKRAČOVAT"
+            },
+            "sourceAccount": {
+                "title": "Zadejte číslo účtu v původní bance",
+                "detail": "Napište nebo zkopírujte celé číslo účtu včetně  kódu banky.",
+                "primaryButton": "POKRAČOVAT"
+            },
+            "targetAccount": {
+                "title": "Vyberte svůj účet u nás, na který vše převedeme",
+                "primaryButton": "POKRAČOVAT"
+            },
+            "summary": {
+                "title": "Shrnutí",
+                "placeholder": "Požádáme o zrušení starého účtu",
+                "placeholderDetail": "(bude zrušen do 30 dnů ode dne {{ date('d. M. yyyy') }})",
+                "placeholderDate": "Platby z něj převedeme ke dni",
+                "placeholderMoneta": "na tento účet u nás",
+                "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
+                "primaryButton": "Souhlasím",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "summaryTso": {
+                "title": "Shrnutí",
+                "placeholder": "Z Vašeho starého účtu",
+                "placeholderDate": "převedeme trvalé příkazy a inkasa ke dni",
+                "placeholderMoneta": "na tento účet u nás",
+                "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
+                "primaryButton": "Souhlasím",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "summaryDso": {
+                "title": "Shrnutí",
+                "placeholder": "Požádáme o zrušení starého účtu",
+                "placeholderDetail": "(bude zrušen do 30 dnů ode dne {{ date('d. M. yyyy') }})",
+                "placeholderMoneta": "Zůstatek Vám přijde na tento účet u nás",
+                "placeholderRequest": "<b><u>Žádost, kterou zašleme původní bance</u></b>",
+                "primaryButton": "Souhlasím",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "loader": {
+                "title": "Chvilku strpení, kocour to musí všechno zkontrolovat"
+            },
+            "preview": {
+                "title": "Žádost",
+                "shareButton": "Přeposlat",
+                "primaryButton": "Zpět na shrnutí"
+            },
+            "didNotAcceptPreview": {
+                "title": "Bez souhlasu Vám banku změnit nemůžeme",
+                "detail": "Potřebujete něco opravit? Vraťte se zpět. Pokud máte dotaz, kontaktujte nás.",
+                "detailBranch": "Vyhledejte pobočku",
+                "detailCall": "Zavolejte nám",
+                "primaryButton": "Pokračovat v žádosti",
+                "secondaryButton": "ukončit žádost"
+            },
+            "consent": {
+                "title": "Ještě potřebujeme jeden souhlas",
+                "checkTitle": "Souhlasím, aby mi členové finanční skupiny MONETA zasílali nešifrované zprávy o mé osobě a také o obsahu a průběhu smluvních vztahů elektronickými zprávami.",
+                "checkDetail": "Tento souhlas potřebujeme, abychom Vás mohli informovat e&#8209;mailem o stavu podané žádosti.",
+                "pinTitle": "Žádost podepíšete zadáním Vašeho PINu",
+                "primaryButton": "POKRAČOVAT"
+            },
+            "dontForget": {
+                "title": "Na co je dobré nezapomenout",
+                "bullets": [
+                    "Převést si včas na účet v MONETA Money Bank peníze na provádění trvalých příkazů a inkas",
+                    "Informovat o změně účtu svého zaměstnavatele nebo plátce důchodu",
+                    "Informovat o změně účtu všechny, jimž platíte inkasem, např. dodavatele energií nebo operátora",
+                    "Využívat debetní kartu MONETA Money Bank. Ve Vámi vybraný den přestane fungovat stará debetní karta k účtu",
+                    "V případě závazků u původní banky (např. kreditní karta, půjčka nebo hypotéka) si prosím nezapomeňte případně dořešit jejich splácení jiným způsobem"
+                ],
+                "primaryButton": "POKRAČOVAT"
+            },
+            "dontForgetTso": {
+                "title": "Na co je dobré nezapomenout",
+                "bullets": [
+                    "Převést si včas na účet v MONETA Money Bank peníze na provádění trvalých příkazů a inkas",
+                    "Informovat o změně účtu svého zaměstnavatele nebo plátce důchodu",
+                    "Informovat o změně účtu všechny, jimž platíte inkasem, např. dodavatele energií nebo operátora"
+                ],
+                "primaryButton": "POKRAČOVAT"
+            },
+            "victory": {
+                "title": "A je to!",
+                "detail": "Žádost teď posíláme do Vaší původní banky. Pro všechny případy jsme Vám její kopii uložili do dokumentů ve Smart Bance a také ji poslali na {{ user.email }}.",
+                "detailSecond": "Žádost teď posíláme do Vaší původní banky. Pro všechny případy jsme Vám její kopii uložili do dokumentů ve Smart Bance.",
+                "detailFooter": "Až bude vše vyřízeno, dáme Vám vědět.",
+                "primaryButton": "Přejít na přehled"
+            }
+        }
     }
-  }
 }
