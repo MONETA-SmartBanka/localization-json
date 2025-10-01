@@ -19,7 +19,7 @@
             "card": "Card",
             "preferred": "Set as a preferred card for Visa+",
             "preferredDescription": "It will be possible to receive payments to the card via Visa+.",
-            "footer": "By pressing the button, you agree to the <a href=\"document\">Terms of Service and Privacy Policy</a>",
+            "footer": "Moneta will use your shortened name ({0}) and payment information to receive money via Visa+.\n\nBy clicking the button you agree to the <a href=\"document\">Terms and Conditions of the Service and the Privacy Policy </a>",
             "documentTitle": "Terms of Service and Privacy Policy",
             "primaryButton": "Continue"
         },
@@ -49,7 +49,8 @@
         },
         "preferred": {
             "title": "Do you wish to set this card as preferred for Visa+?",
-            "detail": "Currently, another card is set as preferred.\n\nWould you like to make this card preferred for receiving payments instead? ",
+            "detail": "Another card is currently set as preferred.\nWould you like to make this card preferred for receiving payments? ",
+            "info": "You can only set one card as preferred across all banks. If you set this card as preferred, it will not be possible to receive Visa+ payments on any other cards you may have at other banks.",
             "card": "Card",
             "primaryButton": "Set",
             "secondaryButton": "Back"
