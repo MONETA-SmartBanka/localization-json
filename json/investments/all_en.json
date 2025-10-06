@@ -2619,6 +2619,36 @@
       "alertPrimaryButton": "Yes, continue anyway",
       "alertSecondaryButton": "Choose another fund"
     },
+    "advisoryInvest": {
+      "title": "How will you invest?",
+      "oneTime": "One-time investment",
+      "regularInvestment": "Regular investment",
+      "fromAccount": "Invest from",
+      "amount": "Amount",
+      "remainingBalance": "Remaining balance: {0}",
+      "term": "How long do you plan to keep this investment?",
+      "termMinYears": 2,
+      "termMaxYears": 99,
+      "term2": "{0} years",
+      "term5": "{0} years",
+      "frequency": "Investment frequency",
+      "frequencyOptionsTitle": "How often would you like to invest?",
+      "frequencyOptions": [
+        {
+          "title": "Weekly",
+          "value": "WEEKLY"
+        },
+        {
+          "title": "Every 14 days",
+          "value": "TWO_WEEKS"
+        },
+        {
+          "title" : "Monthly",
+          "value": "MONTHLY"
+        }
+      ],
+      "primaryButton": "Continue"
+    },
     "contract": {
       "title": "Read the framework contract",
       "taxResidence": "Tax residence",
