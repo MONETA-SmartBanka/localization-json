@@ -1181,206 +1181,206 @@
             "previouslySelected": "Previously selected",
             "category": [
                 {
-                    "title": "Vyznáte se v investování?",
-                    "summaryTitle": "Znalosti o investování",
-                    "detail": "Nechceme vás zkoušet, ale důležité je zjistit, vaši orientace v oblasti financí a investování.\n\nChcete investovat pouze do podílových fondů? U otázek týkajících se investičních certifikátů vyberte možnost „nevím“.",
-                    "vocabularyTitle": "Slovníček pojmů",
+                    "title": "Are you familiar with investing?",
+                    "summaryTitle": "Investments Knowledge",
+                    "detail": "We’re not here to test you. We just need to understand your level of knowledge in finance and investing.\nWould you like to invest only in mutual funds? For any questions related to investment certificates, feel free to select “I don’t know.”",
+                    "vocabularyTitle": "Glossary",
                     "vocabularyBullets": [
                         {
-                            "title": "Podílový fond",
-                            "body": "Jde o nástroj kolektivního investování tvořený majetkem, který spravuje investiční společnost. Podílový fond shromažďuje peníze od více investorů a tyto peníze hromadně investuje. Základní jednotkou podílového fondu je podílový list vlastníka."
+                            "title": "Mutual Fund",
+                            "body": "It’s a collective investment tool made up of assets managed by an investment company. A mutual fund pools money from multiple investors and invests it collectively. The basic unit of a mutual fund is a unit certificate held by the investor."
                         },
                         {
-                            "title": "Akciový podílový fond",
-                            "body": "Investuje většinu majetku do akcií. Akcie představují podíl v akciové společnosti prostřednictvím kterých se majitel akcií podílí na zisku a řízení společnosti. Akcie jsou nejvíce rizikové a jejich hodnota může výrazně kolísat."
+                            "title": "Equity Mutual Fund",
+                            "body": "It invests the majority of its assets in stocks. Stocks represent ownership in a company, giving shareholders a share in the company’s profits and a say in its management. Stocks carry the highest level of risk, and their value can fluctuate significantly."
                         },
                         {
-                            "title": "Dluhopisový podílový fond",
-                            "body": "Investuje většinu majetku do dluhopisů. Dluhopis je nástroj, pomocí kterého se podniku či státu půjčují peníze."
+                            "title": "Bond Mutual Fund",
+                            "body": "It invests the majority of its assets in bonds. A bond is a financial instrument used to lend money to a company or government."
                         },
                         {
-                            "title": "Smíšený podílový fond",
-                            "body": "Nejčastěji obsahují kombinaci akcií podniků a dluhopisů podniků nebo států."
+                            "title": "Mixed Mutual Fund",
+                            "body": "They typically contain a mix of corporate stocks and bonds issued by companies or governments."
                         },
                         {
-                            "title": "Investiční certifikát",
-                            "body": "Je investiční produkt, který má své specifické podmínky, které určují práva a povinnosti investora. Mezi takové podmínky patří doba trvání, způsob stanovení výnosu, omezení na maximální výši výnosu nebo podmínky předčasného splacení."
+                            "title": "Investment Certificate",
+                            "body": "It is an investment product with specific terms and conditions that define the rights and obligations of the investor. These may include the investment duration, how returns are calculated, limits on maximum returns, or conditions for early repayment."
                         },
                         {
-                            "title": "Investiční služba přijímání a předávání pokynů",
-                            "body": "Banka od klienta přijme pokyn k požadovanému obchodu a ten následně předá dané investiční společnosti k provedení; při této službě není poskytováno investiční poradenství."
+                            "title": "Investment Service: Order Execution",
+                            "body": "The bank receives a trade order from the client and forwards it to the relevant investment company for execution. No investment advice is provided as part of this service."
                         },
                         {
-                            "title": "Výnos není garantován ani pojištěn",
-                            "body": "Investice vždy představuje riziko; není zaručeno, že klient neutrpí ztrátu; na rozdíl od bankovních vkladů Vaše investice není ze zákona pojištěna."
+                            "title": "Returns Are Not Guaranteed or Insured",
+                            "body": "Every investment carries risk, and there is no guarantee that you will not incur a loss. Unlike bank deposits, your investment is not legally insured."
                         }
                     ],
                     "questions": [
                         {
-                            "title": "Služba, při které předáte pokyn k nákupu podílových listů za určitou částku, se nazývá:",
+                            "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 1,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select 1 answer",
                             "answers": [
                                 {
-                                    "title": "Přijímání a předávání pokynů",
+                                    "title": "This is the Order Execution service, as the bank forwards my order to the investment fund to issue new mutual fund units on my behalf.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Prodej z vlastního",
+                                    "title": "The bank sells me mutual fund units from its own account and sets its own price at which I buy them.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Tržiště",
+                                    "title": "It is a Marketplace service. The bank finds several sellers from whom I can choose the one that suits me best, and I buy the mutual fund units directly from them.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true,
+                                    "uncheckOthers": true
                                     "startNewSection": true,
                                     "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
-                            "title": "Podílové a investiční fondy:",
+                            "title": "How do mutual and investment funds work?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 2,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Pečují o mé finance odděleně od ostatních klientů podle mé unikátní investiční strategie.",
+                                    "title": "Mutual and other investment funds manage my assets separately from those of other clients, in line with my investment strategy.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Shromažďují peníze od více investorů, které poté hromadně investují.\n\nInvestor vlastní podílové listy, díky kterým má podíl na výnosu. ",
+                                    "title": "Mutual and other investment funds pool money from multiple investors and invest it collectively. The investor holds mutual fund units, which entitle them to a share of the fund’s returns.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nabízí garantovaný úrok a nehrozí tak žádná ztráta.",
+                                    "title": "Mutual and investment funds offer a fixed-interest deposit. The interest is guaranteed, so there is no risk of loss.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true,
+                                    "uncheckOthers": true
                                     "startNewSection": true,
                                     "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
-                            "title": "Podílové fondy se dělí na:",
+                            "title": "What types of mutual funds are there?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 3,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Pevné a plovoucí",
+                                    "title": "There are fixed-rate and floating-rate funds. Fixed-rate mutual funds offer a guaranteed, specific percentage return. Floating-rate funds may have returns that fluctuate over time. The exact return of a mutual fund is determined by the bank in its terms and conditions.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akciové, dluhopisové a smíšené",
-                                    "value": 3,
-                                    "uncheckOthers": true
-                                },
-                                {
-                                    "title": "Smíšené a akciové",
+                                    "title": "There are equity and mixed funds. Equity funds allow investors to take part in the operations of individual companies and vote at their general meetings. Mixed funds, on the other hand, guarantee that the invested amount will never result in a loss.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "There are equity, bond, and mixed funds. Equity funds are the most volatile and offer the potential for the highest gains as well as losses.\nBond funds are the least volatile and typically offer the lowest returns.",
+                                    "value": 3,
+                                    "uncheckOthers": true
+                                },
+                                {
+                                    "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true,
+                                    "uncheckOthers": true
                                     "startNewSection": true,
                                     "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
-                            "title": "Investiční certifikáty:",
+                            "title": "What are investment certificates?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 4,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Vydávají investičními fondy. Jsou to podílové listy s vystaveným certifikátem pravosti certifikační autoritou (např. prezident nebo premiér).",
+                                    "title": "Investment certificates are issued by investment funds. They are mutual fund units accompanied by a certificate of authenticity issued by a certifying authority.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Jsou to cenné papíry, které mohou mít různé vlastnosti.\n\nKaždý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi ty nejdůležitější patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
+                                    "title": "Investment certificates are securities that can have various features. Each investment certificate comes with specific terms and conditions that define the investor’s rights and obligations. Among the most important are the method of calculating returns and the conditions for the repayment of the certificate.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nahrazují dluhopisy. Termín investiční certifikáty se používá až v poslední době, k ozvláštnění marketingových zpráv.",
+                                    "title": "Investment certificates are the same as bonds. The term “investment certificates” has only recently started being used, mainly to add variety to marketing messages",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true,
+                                    "uncheckOthers": true
                                     "startNewSection": true,
                                     "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
-                            "title": "Výhody a rizika investičních certifikátů jsou:",
+                            "title": "What are the risks and benefits of investment certificates?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 5,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Výhodou je rychlé a flexibilní vydání. U garantovaných certifikátů také výrazně omezená možnost ztráty.\n\nRiziko spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce – tzv. riziko protistrany.",
+                                    "title": "An advantage of investment certificates is their quick and flexible issuance. In the case of guaranteed certificates, a major benefit is the significantly limited risk of loss. The main risk lies in the need to rely on the issuer to fulfill their obligations, typically an international financial institution, which is known as counterparty risk.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Protože jsou založeny na blockchainové technologii, jejich výhodou je, že mohou být převáděny podobně jako kryptoměny.\n\nRiziko spočívá v nejasné regulaci, která s sebou nese značnou právní nejistotu.",
+                                    "title": "An advantage of investment certificates is that they are based on blockchain technology, allowing them to be transferred similarly to cryptocurrencies. The main risk lies in unclear regulation, which presents a significant legal risk.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Vydává je stát, což je výhoda, ale zároveň hrozí velké riziko, že stát zbankrotuje.",
+                                    "title": "An advantage of investment certificates is that they are always issued by the state. The main risk of investment certificates lies in the possibility of state bankruptcy.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true,
+                                    "uncheckOthers": true
                                     "startNewSection": true,
                                     "disqualificationReason": "insufficientKnowledge"
                                 }
@@ -1389,140 +1389,140 @@
                     ]
                 },
                 {
-                    "title": "Jaké máte zkušenosti\ns investováním?",
-                    "summaryTitle": "Zkušenosti s investováním",
-                    "detail": "Ať už jste úplný nováček, nebo investujete jako profík, určitě najdeme vhodné řešení.",
+                    "title": "What is your experience with investing?",
+                    "summaryTitle": "Investment Experience",
+                    "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
                     "questions": [
                         {
-                            "title": "Máte zkušenosti s podílovými fondy?",
+                            "title": "What is your experience with mutual funds?",
                             "id": 6,
                             "maxAnswers": 3,
-                            "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+                            "maxAnswersErrMessage": "Select up to 3 answers",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+                            "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "Investoval*a jsem během posledních 3 let.",
+                                    "title": "I have invested in them in the last 3 years.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Držím investice více než 3 roky.",
+                                    "title": "I have been holding my investment for over 3 years.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Investuji čtvrtletně nebo častěji.",
+                                    "title": "I invest quarterly or more frequently.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Žádná odpověď mi nevyhovuje.",
+                                    "title": "None of the above.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Máte zkušenosti s investičními certifikáty?",
+                            "title": "What is your experience with investment certificates?",
                             "id": 7,
                             "maxAnswers": 3,
-                            "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+                            "maxAnswersErrMessage": "Select up to 3 answers",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+                            "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "Investoval*a jsem během posledních 3 let.",
+                                    "title": "I have invested in them in the last 3 years.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Držím investice více než 3 roky.",
+                                    "title": "I have been holding my investment for over 3 years.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Investuji čtvrtletně nebo častěji.",
+                                    "title": "I invest quarterly or more frequently.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Žádná odpověď mi nevyhovuje.",
+                                    "title": "None of the above.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "V posledních 5 letech jste investoval*a:",
+                            "title": "How have you invested over the past 5 years?",
                             "id": 8,
                             "maxAnswers": 3,
-                            "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
+                            "maxAnswersErrMessage": "Select up to 3 answers",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+                            "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "Jednorázově více než 50 000 Kč.",
+                                    "title": "I made a one-time investment of over  CZK 50,000.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
+                                    "title": "I made a one-time investment of over CZK 50,000 and occasionally invest based on market opportunities.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Pravidelně aspoň 500 Kč měsíčně.",
+                                    "title": "I invest regularly a minimum of CZK 500 each month.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Žádná odpověď mi nevyhovuje.",
+                                    "title": "None of the above.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Máte vzdělání nebo odborné znalosti v oblasti kapitálových trhů?",
+                            "title": "Do you have education or professional knowledge in the field of capital markets?",
                             "id": 9,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji.",
+                                    "title": "Yes, I have a professional certification focused on trading investment instruments.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Ano, mám vzdělání v oboru finančních trhů a investičních nástrojů.",
+                                    "title": "Yes, I have an educational background in financial markets and investment instruments.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Ne",
+                                    "title": "No",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Máte relevantní pracovní zkušenosti v oblasti kapitálových trhů?",
+                            "title": "Do you have relevant work experience in the field of capital markets?",
                             "id": 10,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Ano, za posledních 5 let.",
+                                    "title": "Yes, in the last 5 years I have relevant work experience in the field of capital markets.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Ne",
+                                    "title": "No",
                                     "value": 2,
                                     "uncheckOthers": true
                                 }
@@ -1531,142 +1531,142 @@
                     ]
                 },
                 {
-                    "title": "Jaké máte cíle a potřeby?",
-                    "summaryTitle": "Vaše investiční cíle a potřeby",
-                    "detail": "Tato část vám pomůže s výběrem fondů, jejichž kolísání, případná ztráta nebo nutnost delšího držení pro vás nebude představovat významnější problém.",
-                    "vocabularyTitle": "Slovníček pojmů",
+                    "title": "What are your goals and needs?",
+                    "summaryTitle": "Your investment goals and needs",
+                    "detail": "This section will help you select funds whose fluctuations, potential losses, or the need for longer holding periods will not pose a significant problem for you.",
+                    "vocabularyTitle": "Vocabulary",
                     "vocabularyBullets": [
                         {
                             "title": "SRI",
-                            "body": "Znamená rizikovost investičního produktu v rozmezí od 1 (nejmenší riziko) do 7 (největší riziko)."
+                            "body": "It indicates the risk level of an investment product on a scale from 1 (lowest risk) to 7 (highest risk)."
                         },
                         {
-                            "title": "Investiční horizont",
-                            "body": "Doba, na kterou je investice plánována. Nedodržení investičního horizontu produktu výrazně zvyšuje riziko spojené s investicí."
+                            "title": "Investment horizon",
+                            "body": "The period for which the investment is planned. Failing to adhere to the product’s investment horizon significantly increases the risk associated with the investment."
                         }
                     ],
                     "questions": [
                         {
-                            "title": "Které tvrzení nejlépe vystihuje vaše chování během investování?",
+                            "title": "Which statement best describes your behavior during investing?",
                             "id": 11,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Nechci přijít ani o korunu. Investici prodám při prvním náznaku poklesu.",
+                                    "title": "I expect at least to recover my initial investment and cannot tolerate any loss.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji menší pokles a možnou budoucí ztrátu do 5 %.",
+                                    "title": "I accept minor fluctuations and can tolerate a potential loss of up to 5%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji pokles a možnou budoucí ztrátu do 15 %.",
+                                    "title": "I accept fluctuations and can tolerate a potential loss of up to 15%.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji pokles a možnou budoucí ztrátu více než 15 %.",
+                                    "title": "I accept higher fluctuations and can tolerate a potential loss of more than 15%.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaké investiční riziko je pro vás přijatelné?",
+                            "title": "What level of risk, on a scale from 1 (low risk) to 7 (high risk), are you able to accept?",
                             "hint": "Vyšší riziko znamená větší možnost zisku, ale také ztráty.",
                             "id": 12,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "detail": "Vyšší riziko znamená větší možnost zisku, ale také ztráty.",
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Chci mít své peníze co nejvíce v bezpečí, stačí mi malý zisk.",
+                                    "title": "Low risk: 1 to 2",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevadí mi menší kolísání, ale nechci přijít o větší část peněz.",
+                                    "title": "Medium/higher: 1 to 4",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Vydržím i větší výkyvy, protože chci mít možnost vyššího zisku.",
+                                    "title": "Higher: 1 to 5",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevadí mi, když hodnota investice hodně kolísá, klidně i výrazně klesne, pokud zároveň můžu hodně vydělat.",
+                                    "title": "High: 1 to 7",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jak dlouho plánujete investici držet?",
+                            "title": "How long do you plan to hold the investment?",
                             "id": 13,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Do 1 roku.",
+                                    "title": "Up to 1 year, including",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "1 až 3 roky.",
+                                    "title": "1 to 3 years, including",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "3 až 5 let.",
+                                    "title": "3 to 5 years, including",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "5 až 8 let.",
+                                    "title": "5 to 8 years, including",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Více než 8 let",
+                                    "title": "More than 8 years",
                                     "value": 5,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Budete potřebovat investované peníze dříve než v plánované době?",
+                            "title": "Will you need the money sooner than the planned period?",
                             "id": 14,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Spíše ano.",
+                                    "title": "There is a possibility that I might need the money sooner.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "It’s possible that I might need the money sooner, but it’s unlikely.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Spíše ne.",
+                                    "title": "It’s unlikely that I will need to withdraw the money before the planned period ends.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
@@ -1675,237 +1675,237 @@
                     ]
                 },
                 {
-                    "title": "Jaké máte požadavky na udržitelnost?",
-                    "summaryTitle": "Požadavky na udržitelnost",
-                    "detail": "Pokud je pro Vás důležité investovat urdžitelně, tato část dotazníku Vám pomůže vybrat fondy, které berou udržitelnost v potaz.",
-                    "vocabularyTitle": "Slovníček pojmů",
+                    "title": "What are your requirements for sustainability?",
+                    "summaryTitle": "Sustainability requirements",
+                    "detail": "If investing sustainably is important to you, this section of the questionnaire will help you choose funds that consider sustainability.",
+                    "vocabularyTitle": "Vocabulary",
                     "vocabularyBullets": [
                         {
-                            "title": "Enviromentálně udržitelné investice",
-                            "body": "Jde o investice, které podle evropských právních předpisů (tzv. EU taxonomie) významně přispívají k naplňování alespoň jednoho z environmentálních cílů a zároveň významně nepoškozují cíle ostatní.\nMezi takové cíle patří např. zmírňování změn klimatu nebo prevence a omezování znečištění. Jedná se o jediné investice, u kterých EU stanovila přesná kritéria s cílem chránit životní prostředí. Více o EU taxonomii a všech cílech se můžete dočíst na <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">našich stránkách.</a>"
+                            "title": "Environmentally sustainable investments",
+                            "body": "These are investments that, according to European regulations (known as the EU Taxonomy), significantly contribute to achieving at least one environmental objective while not significantly harming other objectives. Such goals include, for example, climate change mitigation or pollution prevention and reduction. These are the only investments for which the EU has established precise criteria aimed at protecting the environment. You can learn more about the EU Taxonomy and all its objectives on our <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">website.</a>"
                         },
                         {
-                            "title": "Udržitelné investice",
-                            "body": "Tyto investice přispívají k environmentálním a sociálním cílům a přitom žádný environmentální nebo sociální cíl významně nepoškozují. Jde např. o obnovitelná energie, snížení produkce odpadu, přírodní rozmanitost, boj s nerovností, zlepšení pracovních podmínek a další."
+                            "title": "Sustainable investments",
+                            "body": "These investments contribute to environmental and social goals without significantly harming any environmental or social objectives. Examples include renewable energy, waste reduction, biodiversity, combating inequality, improving working conditions, and more."
                         },
                         {
-                            "title": "Investice s nepříznívými dopady na udržitelnost",
-                            "body": "Jde o produkty, u kterých je sledován nepříznivý dopad na udržitelnost v určitých oblastech. Zajímá nás, jestli se chcete některým negativním dopadům v investování výslovně vyhýbat."
+                            "title": "Investments with adverse impacts on sustainability",
+                            "body": "These are products where adverse impacts on sustainability are monitored in certain areas. We want to know if you would like to explicitly avoid some of these negative impacts in your investments."
                         }
                     ],
                     "questions": [
                         {
-                            "title": "Jak moc musí být vaše investice environmentálně udržitelné?",
+                            "title": "Do you prefer environmentally sustainable investments?",
                             "id": 15,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "requiredQuestion": {
-                                "title": "Musí být vaše investice environmentálně udržitelné?",
+                                "title": "Do your investments need to be environmentally sustainable?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
-                                "maxAnswersErrMessage": "Vyberte 1 odpověď",
-                                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
                                 "answers": [
                                     {
-                                        "title": "Ne",
+                                        "title": "No",
                                         "value": 1
                                     },
                                     {
-                                        "title": "Ano",
-                                        "detail": "Nabídka investic může být omezená."
+                                        "title": "Yes",
+                                        "detail": "Investments offering may be limited."
                                     }
                                 ]
                             },
                             "answers": [
                                 {
-                                    "title": "Minimálně z 20 %",
+                                    "title": "NO, I do not",
+                                    "value": 1,
+                                    "uncheckOthers": true
+                                },
+                                {
+                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 20%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Minimálně ze 40 %",
+                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 40%.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Minimálně z 60 %",
+                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 60%.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Minimálně z 80 %",
+                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 80%.",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "100%",
+                                    "title": "YES, I prefer 100% environmentally sustainable investments.",
                                     "value": 6,
-                                    "uncheckOthers": true
-                                },
-                                {
-                                    "title": "Chci nabídku všech investic.",
-                                    "value": 1,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jak moc musí být vaše investice udržitelné?",
+                            "title": "Do you prefer sustainable investments?",
                             "id": 16,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "requiredQuestion": {
-                                "title": "Musí být vaše investice udržitelné?",
+                                "title": "Do your investments need to be sustainable?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
-                                "maxAnswersErrMessage": "Vyberte 1 odpověď",
-                                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
                                 "answers": [
                                     {
-                                        "title": "Ne",
+                                        "title": "No",
                                         "value": 1
                                     },
                                     {
-                                        "title": "Ano",
-                                        "detail": "Tyto investice momentálně nejsou v nabídce."
+                                        "title": "Yes",
+                                        "detail": "We do not have this type of investments."
                                     }
                                 ]
                             },
                             "answers": [
                                 {
-                                    "title": "Minimálně z 20 %",
+                                    "title": "NO, I do not",
+                                    "value": 1,
+                                    "uncheckOthers": true
+                                },
+                                {
+                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 20%.",
                                     "value": 2,
                                     "uncheckOthers": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "Minimálně ze 40 %",
+                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
                                     "value": 3,
                                     "uncheckOthers": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "Minimálně z 60 %",
+                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "Minimálně z 80 %",
+                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 80%.",
                                     "value": 5,
                                     "uncheckOthers": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "100%",
+                                    "title": "YES, I prefer 100% sustainable investments.",
                                     "value": 6,
                                     "uncheckOthers": true,
                                     "disqualificationReason": "noSuitableOffers"
-                                },
-                                {
-                                    "title": "Chci nabídku všech investic.",
-                                    "value": 1,
-                                    "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
+                            "title": "Would you like to consider any adverse impacts on sustainability in your investments?",
                             "id": 17,
                             "maxAnswers": 5,
-                            "maxAnswersErrMessage": "Vyberte až 5 možností",
+                            "maxAnswersErrMessage": "You can select more than one answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
+                            "minAnswersErrMessage": "Select at least one answer",
                             "requiredQuestion": {
-                                "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
+                                "title": "Would you like to consider any adverse impacts on sustainability in your investments?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
-                                "maxAnswersErrMessage": "Vyberte 1 odpověď",
-                                "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
                                 "answers": [
                                     {
-                                        "title": "Ne",
+                                        "title": "No",
                                         "value": 1
                                     },
                                     {
-                                        "title": "Ano",
-                                        "detail": "Nabídka může být výrazně omezená."
+                                        "title": "Yes",
+                                        "detail": "Options can be very limited."
                                     }
                                 ]
                             },
                             "requiredAnswer": {
-                                "title": "Ano",
-                                "detail": "Nabídka může být výrazně omezená.\nVyberte až 5 možností."
+                                "title": "Yes",
+                                "detail": "Options can be very limited.\nChoose up to 5 options."
                             },
                             "answers": [
                                 {
-                                    "title": "Dopad na emise skleníkových plynů.",
+                                    "title": "Do not consider.",
+                                    "value": 1,
+                                    "uncheckOthers": true
+                                },
+                                {
+                                    "title": "YES, I’d like to consider the impact on greenhouse gas emissions.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Dopad na biologickou rozmanitost.",
+                                    "title": "YES, I’d like to consider the impact on biodiversity",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Dopad na znečištění vod.",
+                                    "title": "YES, I’d like to consider the impact on water pollution.",
                                     "value": 4,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Dopad na odpad.",
+                                    "title": "YES, I’d like to consider the impact on waste.",
                                     "value": 5,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Dopad na sociální a zaměstnanecké otázky.",
+                                    "title": "YES, I’d like to consider the impact on socioeconomic factors.",
                                     "value": 6,
                                     "uncheckOthers": false
-                                },
-                                {
-                                    "title": "Chci nabídku všech investic.",
-                                    "value": 1,
-                                    "uncheckOthers": true
                                 }
                             ]
                         }
                     ]
                 },
                 {
-                    "title": "Investiční průvodce:\nzávěrečné otázky",
-                    "summaryTitle": "Finanční zázemí a očekávání",
+                    "title": "Investment Guide:\nFinal Questions",
+                    "summaryTitle": "Financial situation and expectations",
                     "questions": [
                         {
-                            "title": "Pro službu investičního poradenství je typické:",
+                            "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"help\">zobrazit nápovědu</a>?",
                             "id": 18,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Na základě sdělených informací mi banka poradí nejvhodnější produkt.\n\nJá se poté rozhodnu, zda toto poradenství přijmu či nikoli.",
+                                    "title": "The bank will provide me with investment advice, and based on the information provided, the bank will select the most suitable product for me. I will then decide whether to accept the recommendation or not.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka bude sama podle vlastního uvážení průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
+                                    "title": "The bank will continuously invest my money so that the content of my portfolio corresponds to the investment strategy we have agreed upon.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka mi prodá podílové listy ze svého účtu za cenu, kterou si sama určila.",
+                                    "title": "The bank will sell me the shares from its account and arbitrarily determine the price at which I will buy them from it.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "I don't know.",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1914,220 +1914,220 @@
                             ]
                         },
                         {
-                            "title": "Zjistil*a jste, že hodnota vaší investice momentálně poklesla o 10 %. Co uděláte?",
+                            "title": "I found out that the value of my investment has decreased by 10%. What will I do?",
                             "id": 19,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Začnu zjišťovat, jak peníze vybrat.",
+                                    "title": "I will try to withdraw my funds.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nebudu dělat nic, kolísání je přirozené.",
+                                    "title": "I won't do anything.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Využiji poklesu a zainvestuji více.",
+                                    "title": "I will take advantage of the dip and buy more.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat?",
-                            "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
+                            "title": "What percentage of my financial assets (including savings, deposits, investments, securities) do I intend to invest through the bank annually?",
+                            "detail": "Including savings, deposits, investments, securities.",
                             "id": 20,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Do 20 %",
+                                    "title": "Up to 20%.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Do 50 %",
+                                    "title": "Up to 50%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Více než 50 %",
+                                    "title": "More than 50%.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaká je přibližná hodnota vašeho finančního majetku?",
+                            "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
                             "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "id": 21,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Do 300 tisíc Kč",
+                                    "title": "Up to CZK 300 000",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "300 tisíc Kč až 1 milion Kč",
+                                    "title": "Between CZK 300,000 and CZK 1,000,000.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nad 1 milion Kč ",
+                                    "title": "More than CZK 1 000 000.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků?",
-                            "detail": "Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.",
+                            "title": "My regular debt payments and other financial obligations.",
+                            "detail": "By liabilities, we mean things like a mortgage, regular housing expenses, or loans. Do not include payments for basic living necessities such as food and clothing.",
                             "hint": "Závazky tvoří:",
                             "id": 22,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Více než 80 % mých pravidelných příjmů.",
+                                    "title": "Make up more than  80% of my income.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "50 až 80 % mých pravidelných příjmů.",
+                                    "title": "Make up  between 50% and 80% of my income.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Méně než 50 % mých pravidelných příjmů.",
+                                    "title": "Make up less than 50% of my income.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaké jsou vaše osobní čisté pravidelné měsíční příjmy?",
+                            "title": "What is the net amount of your regular monthly income?",
                             "id": 23,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Do 20 000 Kč",
+                                    "title": "Less than CZK 20,000 ",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "20 000 Kč až 40 000 Kč",
+                                    "title": "Between CZK 20,000 and CZK 50,000.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nad 40 000 Kč",
+                                    "title": "More than CZK 50,000.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaký je hlavní zdroj vašich pravidelných příjmů?",
+                            "title": "What is the main source of your regular income?",
                             "id": 24,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Zaměstnanec na dobu neurčitou",
+                                    "title": "Permanent employee",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Zaměstnanec na dobu určitou",
+                                    "title": "Fixed-term employee",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podnikání",
+                                    "title": "Entrepreneur",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Dohoda o pracovní činnosti",
+                                    "title": "Agreement to perform work",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Dohoda o provedení práce",
+                                    "title": "Contract for work",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Starobní důchod",
+                                    "title": "Retirement pension",
                                     "value": 6,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Invalidní důchod",
+                                    "title": "Disability pension",
                                     "value": 7,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Brigáda",
+                                    "title": "Part-time work",
                                     "value": 8,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Rodičovský příspěvěk",
+                                    "title": "Parental allowance",
                                     "value": 9,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Studuji",
+                                    "title": "I am a student",
                                     "value": 10,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Jsem nezaměstnaný*á",
+                                    "title": "I am unemployed",
                                     "value": 11,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Pokud byste prodali investici v některé z uvedených situací, snížila by se vaše životní úroveň?",
-                            "detail": " Například při nákupu jídla či oblečení.",
+                            "title": "Which of the following situations would reduce your ability to meet your basic living needs (e.g., buying food or clothing) upon the sale of your investment?",
+                            "detail": "For example, when buying food or clothing.",
                             "id": 25,
                             "maxAnswers": 1,
-                            "maxAnswersErrMessage": "Vyberte 1 odpověď",
+                            "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
-                            "minAnswersErrMessage": "Vyberte prosím jednu možnost",
+                            "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Hodnota investované částky by poklesla o méně než 5 %. ",
+                                    "title": "A decrease in the value of the invested amount by less than 5%.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Hodnota investované částky by poklesla o 5 % až 15 %.",
+                                    "title": "A decrease in the value of the invested amount by 5% to 15%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Ani pokles hodnoty investované částky o 15 % a více % by neohrozil mou schopnost hradit základní životní potřeby.",
+                                    "title": "Even a decrease in the value of the invested amount by 15% or more would not affect my ability to cover basic living needs.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }

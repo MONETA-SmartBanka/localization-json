@@ -1,59 +1,63 @@
 {
-  "errorScreens": {
-    "generalError": {
-      "title": "Omlouváme se, tohle nevyšlo",
-      "detail": "Teď bohužel nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-      "primaryButton": "Zpět"
+    "errorScreens": {
+        "generalError": {
+            "title": "Omlouváme se, tohle nevyšlo",
+            "detail": "Teď bohužel nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Zpět"
+        }
+    },
+    "scenes": {
+        "additionIntro": {
+            "title": "Visa+ protože dostat zaplaceno má být snadné",
+            "detail": "Propojte své telefonní číslo s platební kartou a začněte přes něj přijímat platby na svůj účet odkudkoli na světě.",
+            "primaryButton": "Aktivovat"
+        },
+        "additionForm": {
+            "title": "Visa+ protože dostat zaplaceno má být snadné",
+            "name": "Jméno",
+            "phone": "Telefon",
+            "card": "Karta",
+            "preferred": "Preferovat kartu pro Visa+",
+            "preferredDescription": "Na kartu bude možné přijímat platby přes Visa+.",
+            "footer": "Moneta bude používat vaše zkrácené jméno ({0}) a platební údaje pro přijímání peněz pomocí karty Visa+.\n\nStisknutím tlačítka souhlasíte s <a href=\"document\">Podmínkami používání služby a ochranou osobních údajů</a>",
+            "documentTitle": "Podmínky používání služby a ochrana osobních údajů",
+            "primaryButton": "Pokračovat"
+        },
+        "additionVictory": {
+            "title": "Hotovo!\nVisa+ je aktivní",
+            "detail": "Na tuto kartu teď můžete přijímat platby",
+            "subtitle": "Preferovaná pro Visa+",
+            "name": "Jméno",
+            "phone": "Telefon",
+            "card": "Karta",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "removalIntro": {
+            "detail": "Preferovaná pro Visa+",
+            "name": "Jméno",
+            "phone": "Telefon",
+            "card": "Karta",
+            "secondaryButton": "Odebrat kartu z Visa+",
+            "preferred": "Preferovat kartu pro Visa+",
+            "preferredSubtitle": "Na kartu je možné přijímat platby přes Visa+.",
+            "preferredSubtitleInactive": "Na kartu bude možné přijímat platby přes Visa+.",
+            "confirm": {
+                "title": "Opravdu chcete tuto kartu z Visa+ odebrat?",
+                "secondaryButton": "Odebrat",
+                "primaryButton": "Zpět"
+            }
+        },
+        "preferred": {
+            "title": "Chcete nastavit tuto kartu jako preferovanou pro Visa+?",
+            "detail": "Vaše preferovaná karta je nyní jiná. Chcete místo ní preferovat pro příjem plateb tuto kartu?",
+            "info": "Preferovanou kartu můžete mít pouze jednu napříč všemi bankami. Pokud vyberete tuto kartu, nebude možné přijímat platby Visa+ na případné jiné karty v dalších bankách.",
+            "card": "Karta",
+            "primaryButton": "Nastavit",
+            "secondaryButton": "Zpět"
+        },
+        "removalVictory": {
+            "title": "Hotovo!\nOdebrali jste kartu z Visa+",
+            "primaryButton": "Zpět na Přehled"
+        }
     }
-  },
-  "scenes": {
-    "additionIntro": {
-      "title": "Visa+ protože dostat zaplaceno má být snadné",
-      "detail": "Propojte své telefonní číslo s platební kartou a začněte přes něj přijímat platby na svůj účet odkudkoli na světě.",
-      "primaryButton": "Aktivovat"
-    },
-    "additionForm": {
-      "title": "Visa+ protože dostat zaplaceno má být snadné",
-      "name": "Jméno",
-      "phone": "Telefon",
-      "card": "Karta",
-      "footer": "Stisknutím tlačítka souhlasíte s <a href=\"document\">Podmínkami používání služby a ochranou osobních údajů</a>",
-      "documentTitle": "Podmínky používání služby a ochrana osobních údajů",
-      "primaryButton": "Pokračovat"
-    },
-    "additionVictory": {
-      "title": "Hotovo!\nVisa+ je aktivní",
-      "detail": "Na tuto kartu teď můžete přijímat platby",
-      "subtitle": "Preferovaná pro Visa+",
-      "name": "Jméno",
-      "phone": "Telefon",
-      "card": "Karta",
-      "primaryButton": "Přejít na Přehled"
-    },
-    "removalIntro": {
-      "detail": "Preferovaná pro Visa+",
-      "name": "Jméno",
-      "phone": "Telefon",
-      "card": "Karta",
-      "secondaryButton": "Odebrat kartu z Visa+",
-      "preferred": "Nastavit jako preferovanou kartu pro Visa+",
-      "preferredSubtitle": "Karta je nastavena jako preferovaná",
-      "confirm": {
-        "title": "Opravdu chcete tuto kartu z Visa+ odebrat?",
-        "secondaryButton": "Odebrat",
-        "primaryButton": "Zpět"
-      }
-    },
-    "preferred": {
-      "title": "Chcete nastavit tuto kartu jako preferovanou pro Visa+",
-      "detail": "Jako preferovanou kartu máte nastavenou jinou kartu.\nChcete místo toho preferovat tuto kartu pro příjem plateb?",
-      "card": "Karta",
-      "primaryButton": "Nastavit",
-      "secondaryButton": "Zpět"
-    },
-    "removalVictory": {
-      "title": "Hotovo!\nOdebrali jste kartu z Visa+",
-      "primaryButton": "Zpět na Přehled"
-    }
-  }
 }

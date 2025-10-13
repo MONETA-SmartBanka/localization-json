@@ -1,59 +1,63 @@
 {
-  "errorScreens": {
-    "generalError": {
-      "title": "Sorry, this didn’t work",
-      "detail": "Unfortunately, we can’t continue right now. Please try again in a moment.",
-      "primaryButton": "Back"
+    "errorScreens": {
+        "generalError": {
+            "title": "Sorry, this didn’t work",
+            "detail": "Unfortunately, we can’t continue right now. Please try again in a moment.",
+            "primaryButton": "Back"
+        }
+    },
+    "scenes": {
+        "additionIntro": {
+            "title": "Visa+ because getting paid should be easy",
+            "detail": "Link your phone number to your payment card and start receiving payments to your account from anywhere in the world.",
+            "primaryButton": "Activate"
+        },
+        "additionForm": {
+            "title": "Visa+ because getting paid should be easy",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "preferred": "Set as a preferred card for Visa+",
+            "preferredDescription": "It will be possible to receive payments to the card via Visa+.",
+            "footer": "Moneta will use your shortened name ({0}) and payment information to receive money via Visa+.\n\nBy clicking the button you agree to the <a href=\"document\">Terms and Conditions of the Service and the Privacy Policy </a>",
+            "documentTitle": "Terms of Service and Privacy Policy",
+            "primaryButton": "Continue"
+        },
+        "additionVictory": {
+            "title": "Done!\nVisa+ is active",
+            "detail": "You can now receive payments to this card",
+            "subtitle": "Preferred for Visa+",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "primaryButton": "Go to Overview"
+        },
+        "removalIntro": {
+            "detail": "Preferred for Visa+",
+            "name": "Name",
+            "phone": "Phone",
+            "card": "Card",
+            "secondaryButton": "Remove card from Visa+",
+            "preferred": "Set as preferred card for Visa+",
+            "preferredSubtitle": "It is possible to receive payments to the card via Visa+.",
+            "preferredSubtitleInactive": "It will be possible to receive payments to the card via Visa+.",
+            "confirm": {
+                "title": "Do you really want to remove this card from Visa+?",
+                "secondaryButton": "Remove",
+                "primaryButton": "Back"
+            }
+        },
+        "preferred": {
+            "title": "Do you wish to set this card as preferred for Visa+?",
+            "detail": "Another card is currently set as preferred.\nWould you like to make this card preferred for receiving payments? ",
+            "info": "You can only set one card as preferred across all banks. If you set this card as preferred, it will not be possible to receive Visa+ payments on any other cards you may have at other banks.",
+            "card": "Card",
+            "primaryButton": "Set",
+            "secondaryButton": "Back"
+        },
+        "removalVictory": {
+            "title": "Done!\nYou have removed the card from Visa+",
+            "primaryButton": "Back to Overview"
+        }
     }
-  },
-  "scenes": {
-    "additionIntro": {
-      "title": "Visa+ because getting paid should be easy",
-      "detail": "Link your phone number to your payment card and start receiving payments to your account from anywhere in the world.",
-      "primaryButton": "Activate"
-    },
-    "additionForm": {
-      "title": "Visa+ because getting paid should be easy",
-      "name": "Name",
-      "phone": "Phone",
-      "card": "Card",
-      "footer": "By pressing the button, you agree to the <a href=\"document\">Terms of Service and Privacy Policy</a>",
-      "documentTitle": "Terms of Service and Privacy Policy",
-      "primaryButton": "Continue"
-    },
-    "additionVictory": {
-      "title": "Done!\nVisa+ is active",
-      "detail": "You can now receive payments to this card",
-      "subtitle": "Preferred for Visa+",
-      "name": "Name",
-      "phone": "Phone",
-      "card": "Card",
-      "primaryButton": "Go to Overview"
-    },
-    "removalIntro": {
-      "detail": "Preferred for Visa+",
-      "name": "Name",
-      "phone": "Phone",
-      "card": "Card",
-      "secondaryButton": "Remove card from Visa+",
-      "preferred": "Set as preferred card for Visa+",
-      "preferredSubtitle": "The card is set as preferred",
-      "confirm": {
-        "title": "Do you really want to remove this card from Visa+?",
-        "secondaryButton": "Remove",
-        "primaryButton": "Back"
-      }
-    },
-    "preferred": {
-      "title": "Do you want to set this card as the preferred card for Visa+?",
-      "detail": "You currently have another card set as your preferred one.\nWould you like to make this card the preferred card for receiving payments instead?",
-      "card": "Card",
-      "primaryButton": "Set",
-      "secondaryButton": "Back"
-    },
-    "removalVictory": {
-      "title": "Done!\nYou have removed the card from Visa+",
-      "primaryButton": "Back to Overview"
-    }
-  }
 }

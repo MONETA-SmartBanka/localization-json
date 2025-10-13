@@ -1,161 +1,161 @@
 {
-  "errorScreens": {
-    "precontractDisagree": {
-      "title": "Bez souhlasu to bohužel nepůjde",
-      "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-      "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Navštivte nás\nna pobočce",
-      "secondaryButton": "Ukončit žádost",
-      "primaryButton": "Pokračovat ve sjednání"
+    "errorScreens": {
+        "precontractDisagree": {
+            "title": "Bez souhlasu to bohužel nepůjde",
+            "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "secondaryButton": "Ukončit žádost",
+            "primaryButton": "Pokračovat ve sjednání"
+        },
+        "contractDisagree": {
+            "title": "Bez souhlasu to bohužel nepůjde",
+            "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "secondaryButton": "Ukončit žádost",
+            "primaryButton": "Pokračovat ve sjednání"
+        },
+        "scoring": {
+            "title": "Omlouváme se, tak tohle nevyšlo",
+            "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na infolince.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "primaryButton": "Zpět na přehled zůstatků"
+        },
+        "api": {
+            "title": "Omlouváme se, tak tohle nevyšlo",
+            "detail": "Teď nemůžeme pokračovat, zkuste to prosím za chvíli.",
+            "callUs": "Na infolince\nzavolejte nám",
+            "primaryButton": "Zpět na Přehled zůstatků"
+        }
     },
-    "contractDisagree": {
-      "title": "Bez souhlasu to bohužel nepůjde",
-      "detail": "Od spořicího účtu Vás dělí už jen krůček. Abychom Vám jej mohli založit, potřebujeme Váš souhlas s předsmluvními informacemi a podpis smlouvy s parametry produktu. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-      "callUs": "Zavolejte nám\nna infolinku",
-      "secondaryButton": "Ukončit žádost",
-      "primaryButton": "Pokračovat ve sjednání"
-    },
-    "scoring": {
-      "title": "Omlouváme se, něco se vymňouklo",
-      "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na infolince.",
-      "callUs": "Zavolejte nám\nna infolinku",
-      "primaryButton": "Zpět na přehled zůstatků"
-    },
-    "api": {
-      "title": "Omlouváme se, něco se vymňouklo",
-      "detail": "Teď nemůžeme pokračovat, zkuste to prosím za chvíli.",
-      "callUs": "Na infolince\nzavolejte nám",
-      "primaryButton": "Zpět na Přehled zůstatků"
+    "scenes": {
+        "help": {
+            "title": "Nápověda",
+            "detail": "Potřebujete poradit nebo chcete dokončit konverzi spořícího účtu později?",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Naštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Zrušit žádost"
+        },
+        "promo": {
+            "title": "Spořte s úrokem {interest} p.a.",
+            "bullets": [
+                {
+                    "icon": "savingsFill",
+                    "title": "Název i číslo účtu zůstanou stejné"
+                },
+                {
+                    "icon": "envelopeFill",
+                    "title": "Zachováme i vaše spořicí obálky"
+                },
+                {
+                    "icon": "usersFill",
+                    "title": "Pokud máte disponenty, jejich práva se nezmění"
+                }
+            ],
+            "sectionAccountSelection": {
+                "title": "U kterého účtu máme provést změnu?",
+                "selector": "Účet",
+                "currentInterest": "aktuální úrok: {interest}"
+            },
+            "sectionInterestComposition": {
+                "title": "Z čeho se bude skládat nový úrok?",
+                "baseInterest": "Standardní úrok",
+                "bonusInterest": "Bonusový úrok",
+                "bonusInterestDuration": "Garance bonusového úroku",
+                "currentInterestDuration": "Současná garance do {date}",
+                "until": "do {date}"
+            },
+            "primaryButton": "Aktivovat"
+        },
+        "retention": {
+            "title": "Získejte úrok {interest} p. a.<br><br>POUZE 24 HODIN NA SJEDNÁNÍ",
+            "bullets": [
+                {
+                    "icon": "savingsFill",
+                    "title": "Název i číslo účtu zůstanou stejné"
+                },
+                {
+                    "icon": "envelopeFill",
+                    "title": "Zachováme i vaše spořicí obálky"
+                },
+                {
+                    "icon": "usersFill",
+                    "title": "Pokud máte disponenty, jejich práva se nezmění"
+                }
+            ],
+            "sectionAccountSelection": {
+                "title": "U kterého účtu máme provést změnu?",
+                "selector": "Účet",
+                "currentInterest": "aktuální úrok: {interest}"
+            },
+            "sectionInterestComposition": {
+                "title": "Z čeho se bude skládat nový úrok?",
+                "baseInterest": "Standardní úrok",
+                "bonusInterest": "Bonusový úrok",
+                "bonusInterestDuration": "Garance bonusového úroku",
+                "currentInterestDuration": "Současná garance do {date}",
+                "until": "do {date}",
+                "info": "I po skončení garance získáte výhodnější úrok, než běžně nabízíme."
+            },
+            "primaryButton": "Začít spořit s úrokem {interest} p.a.",
+            "secondaryButton": "Stačí mi to, co mám"
+        },
+        "staticDocuments": {
+            "title": "Seznamte se s důležitými smluvními dokumenty",
+            "subtitle": "Všechny dokumenty najdete ve <b>Smart Bance</b> nebo <b>Internet Bance</b> v sekci <b>Moje dokumenty</b> a na Vašem <b>e-mailu</b>.",
+            "primaryButton": "S dokumenty jsem se seznámil/a"
+        },
+        "precontractBusyLoader": {
+            "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+            "detail": "Zabere to maximálně pár vteřin."
+        },
+        "precontractInfo": {
+            "title": "Přečtěte si pečlivě předsmluvní informace",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "contractBusyLoader": {
+            "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+            "detail": "Zabere to maximálně pár vteřin."
+        },
+        "contract": {
+            "title": "Přečtěte si pečlivě smlouvu s parametry produktu",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "signByUs": {
+            "title": "Chvilku strpení, teď to musíme podepsat my.",
+            "detail": "Zabere to maximálně pár vteřin."
+        },
+        "victory": {
+            "approvalCenter": {
+                "cosign": {
+                    "title": "Žádost podepsána a odeslána dalším schvalovatelům",
+                    "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "prepared": {
+                    "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                    "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                    "primaryButton": "Zpět na Přehled"
+                }
+            },
+            "waiting": {
+                "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "title": "Hotovo! Od teď spoříte s vyšším úrokem",
+            "detail": "Spořicí účet jsme Vám úspěšně založili. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "delayedVictory": {
+            "title": "Hotovo! Vaši žádost jsme odeslali ke zpracování.",
+            "detail": "Žádost o spořicí účet jsme odeslali ke zpracování. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
+            "primaryButton": "Přejít na Přehled"
+        }
     }
-  },
-  "scenes": {
-    "help": {
-      "title": "Nápověda",
-      "detail": "Potřebujete poradit nebo chcete dokončit konverzi spořícího účtu později?",
-      "callUs": "Zavolejte nám\nna infolinku",
-      "branch": "Naštivte nás\nna pobočce",
-      "primaryButton": "Zpět",
-      "secondaryButton": "Zrušit žádost"
-    },
-    "promo": {
-      "title": "Spořte s úrokem {interest} p.a.",
-      "bullets": [
-        {
-          "icon": "savingsFill",
-          "title": "Název i číslo účtu zůstanou stejné"
-        },
-        {
-          "icon": "envelopeFill",
-          "title": "Zachováme i vaše spořicí obálky"
-        },
-        {
-          "icon": "usersFill",
-          "title": "Pokud máte disponenty, jejich práva se nezmění"
-        }
-      ],
-      "sectionAccountSelection": {
-        "title": "U kterého účtu máme provést změnu?",
-        "selector": "Účet",
-        "currentInterest": "aktuální úrok: {interest}"
-      },
-      "sectionInterestComposition": {
-        "title": "Z čeho se bude skládat nový úrok?",
-        "baseInterest": "Standardní úrok",
-        "bonusInterest": "Bonusový úrok",
-        "bonusInterestDuration": "Garance bonusového úroku",
-        "currentInterestDuration": "Současná garance do {date}",
-        "until": "do {date}"
-      },
-      "primaryButton": "Aktivovat"
-    },
-    "retention": {
-      "title": "Získejte úrok {interest} p. a.<br><br>POUZE 24 HODIN NA SJEDNÁNÍ",
-      "bullets": [
-        {
-          "icon": "savingsFill",
-          "title": "Název i číslo účtu zůstanou stejné"
-        },
-        {
-          "icon": "envelopeFill",
-          "title": "Zachováme i vaše spořicí obálky"
-        },
-        {
-          "icon": "usersFill",
-          "title": "Pokud máte disponenty, jejich práva se nezmění"
-        }
-      ],
-      "sectionAccountSelection": {
-        "title": "U kterého účtu máme provést změnu?",
-        "selector": "Účet",
-        "currentInterest": "aktuální úrok: {interest}"
-      },
-      "sectionInterestComposition": {
-        "title": "Z čeho se bude skládat nový úrok?",
-        "baseInterest": "Standardní úrok",
-        "bonusInterest": "Bonusový úrok",
-        "bonusInterestDuration": "Garance bonusového úroku",
-        "currentInterestDuration": "Současná garance do {date}",
-        "until": "do {date}",
-        "info": "I po skončení garance získáte výhodnější úrok, než běžně nabízíme."
-      },
-      "primaryButton": "Začít spořit s úrokem {interest} p.a.",
-      "secondaryButton": "Stačí mi to, co mám"
-    },
-    "staticDocuments": {
-      "title": "Seznamte se s důležitými smluvními dokumenty",
-      "subtitle": "Všechny dokumenty najdete ve <b>Smart Bance</b> nebo <b>Internet Bance</b> v sekci <b>Moje dokumenty</b> a na Vašem <b>e-mailu</b>.",
-      "primaryButton": "S dokumenty jsem se seznámil/a"
-    },
-    "precontractBusyLoader": {
-      "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-      "detail": "Zabere to maximálně pár vteřin."
-    },
-    "precontractInfo": {
-      "title": "Přečtěte si pečlivě předsmluvní informace",
-      "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
-      "primaryButton": "Rozumím a souhlasím",
-      "secondaryButton": "Nesouhlasím"
-    },
-    "contractBusyLoader": {
-      "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-      "detail": "Zabere to maximálně pár vteřin."
-    },
-    "contract": {
-      "title": "Přečtěte si pečlivě smlouvu s parametry produktu",
-      "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
-      "primaryButton": "Rozumím a souhlasím",
-      "secondaryButton": "Nesouhlasím"
-    },
-    "signByUs": {
-      "title": "Chvilku strpení, teď to musíme podepsat my.",
-      "detail": "Zabere to maximálně pár vteřin."
-    },
-    "victory": {
-      "approvalCenter": {
-        "cosign": {
-          "title": "Žádost podepsána a odeslána dalším schvalovatelům",
-          "detail": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel.",
-          "primaryButton": "Zpět na Přehled"
-        },
-        "prepared": {
-          "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
-          "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
-          "primaryButton": "Zpět na Přehled"
-        }
-      },
-      "waiting": {
-        "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
-        "detail": "V pracovních dnech pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám dáme vědět na Přehledu, smlouvu uložíme do Dokumentů a budete moci začít používat svou novou kartu.<br/><br/>Omlouváme se Vám a děkujeme za trpělivost.",
-        "primaryButton": "Zpět na Přehled"
-      },
-      "title": "Hotovo! Od teď spoříte s vyšším úrokem",
-      "detail": "Spořicí účet jsme Vám úspěšně založili. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
-      "primaryButton": "Zpět na Přehled"
-    },
-    "delayedVictory": {
-      "title": "Hotovo! Vaši žádost jsme odeslali ke zpracování.",
-      "detail": "Žádost o spořicí účet jsme odeslali ke zpracování. Všechny dokumenty k němu najdete ve své Smart Bance v sekci Moje dokumenty.",
-      "primaryButton": "Přejít na Přehled"
-    }
-  }
 }

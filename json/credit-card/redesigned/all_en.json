@@ -1,903 +1,906 @@
 {
-  "errorScreens": {
-    "criteriaFailed": {
-      "title": "Our apologies, but we cannot offer you a credit card at this moment",
-      "detail": "This is all we can do for you in the app for now, thank you for undestanding.",
-      "primaryButton": "Back to Balance Overview"
-    },
-    "branch": {
-      "title": "Business income can be processed in Internet Banka",
-      "detail": "<b>For other types of income visit our branch, where we will be happy to assist you. Alternatively, call our Helpline.",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "primaryButton": "Cancel application"
-    },
-    "scoring": {
-      "title": "An error has occurred, our apologies.",
-      "detail": "We cannot continue in the app, but we will be happy to assist you at one of our branches - please remember to bring with you a valid form of ID.",
-      "branch": "Visit a branch",
-      "primaryButton": "Back to Balance Overview"
-    },
-    "scoringLessDisagree": {
-      "title": "This is the maximum credit limit we can offer to you right now",
-      "detail": "At the moment, weďż˝re unable to offer you a higher credit limit.  \nIf you change your mind and decide to accept the lower amount, weďż˝ll be happy to proceed.",
-      "secondaryButton": "Cancel application",
-      "primaryButton": "Proceed with {0}"
-    },
-    "precontractDisagree": {
-      "title": "Your consent is required",
-      "detail": "You are just one step away from getting your new credit card. In order to provide a credit card for you, your agreement to the Pre-contractual Information is required. <b>Do you have any questions? Do not hesitate to contact us.</b>",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "secondaryButton": "Cancel application",
-      "primaryButton": "Continue with the credit card application"
-    },
-    "contractDisagree": {
-      "title": "Your consent is required",
-      "detail": "You are just one step away from getting your new credit card - we now need your signature on the Credit Card Agreement. Do you have any questions? Do not hesitate to contact us.</b>",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "secondaryButton": "Cancel application",
-      "primaryButton": "Continue in application"
-    },
-    "moreMoney": {
-      "title": "Do you need a bigger limit?",
-      "detail": "You can easily apply for a higher credit limit in Internet Banka.  If you prefer to talk it through in person, give us a call or stop by one of our branches.",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "primaryButton": "Back",
-      "secondaryButton": "Back to Overview "
-    }
-  },
-  "general": {
-    "toolbarTitle": "MoneyCard Smart",
-    "phoneNumberSupport": "800 102 040",
-    "cardUrl": "/cbl_images/card_logos/1000_M670_clear.png",
-    "messengerUrl": "https://m.me/138479367229",
-    "supportChat": "<b>Just like at a branch. Click here and our banker will be happy to assist you via videochat."
-  },
-  "scenes": {
-    "help": {
-      "title": "Do you need assistance or do you wish to save the application for later?",
-      "toolbarTitle": "Help",
-      "detail": "You can learn more about MoneyCard Smart Credit Card at <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta\">www.moneta.cz/ucty-a-karty/kreditni-karta</a>.",
-      "summaryHeadline": "More information about your Credit Cards:",
-      "finishLaterHeadline": "Do you want to come back to the application later?",
-      "secondaryButton": "Cancel application",
-      "primaryButton": "Come back later",
-      "confusedHeadline": "Do you need assitance?",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "buttonWhatIsCreditCard": "How does a credit card work?"
-    },
-    "howItWorks": {
-      "title": "How does a credit card work?",
-      "subtitle": "You get up to 55 days interest-free to either pay off the full balance or just part of it.",
-      "bullets": [
-        "Each month, you can shop up to the limit of your credit card.",
-        "If you pay off the full balance by the 25th of the following month, you won’t pay any interest. If you only make the minimum repayment, the remaining balance will start to accrue interest."
-      ],
-      "texts": [
-        {
-          "title": "Benefits",
-          "detail": "SThere are no opening and management fees as long as you spend at least CZK 3,000 per month. You’ll also earn 1% back on purchases in a category of your choice."
+    "errorScreens": {
+        "criteriaFailed": {
+            "title": "Our apologies, but we cannot offer you a credit card at this moment",
+            "detail": "This is all we can do for you in the app for now, thank you for undestanding.",
+            "primaryButton": "Back to Balance Overview"
         },
-        {
-          "title": "Glossary",
-          "detail": "<b>By applying for a credit card</b>, you’re entering into a revolving credit agreement, which means you’ll have access to a credit limit that you can use through your credit card.\n\n<b>The interest-free period</b> is, for example, the time from the 1st of one month to the 20th of the following month. During this period, you can use the credit without paying interest, provided you repay the full amount by the due date stated on your statement.\u2028Note: The interest-free period does not apply to bank transfers made from the credit card\n\n<b>Billing period</b> refers to the time from the 1st to the last day of the calendar month\n\n<b>Interest rate</b> is an annual interest rate. The borrowed amount is charged interest daily, starting from the day you use the credit, based on the number of days in the given calendar month / 365.\n\n<b>Credit card repayment</b> means paying back part or all of the borrowed amount. The total amount due is shown on your monthly statement and can be paid by regular bank transfer or automatically via direct debit.\n\n<b>Minimum repayment</b> is the amount you need to pay by the 20th of each month. It is set at 2% of your outstanding balance. We’ll automatically set up a direct debit for this minimum payment.\u2028If you prefer to repay the full balance, you can do so by bank transfer or automatically by setting up full direct debit.\n\n<b>100% direct debit</b> is a convenient option that automatically repays your full balance each month (on the 20th), as long as you're within the interest-free period.\u2028If you don’t repay the full amount by the 20th of the following month — or if you use the card for a bank transfer — interest will be charged on the remaining balance at a rate of 22.99% p.a\n\n<b>Payment order from the credit card</b> is similar to a one-time transfer from a current account. This is the only service not covered by the interest-free period — interest starts accruing from the next day after the transfer is made."
+        "branch": {
+            "title": "Business income can be processed in Internet Banka",
+            "detail": "<b>For other types of income visit our branch, where we will be happy to assist you. Alternatively, call our Helpline.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Cancel application"
+        },
+        "scoring": {
+            "title": "An error has occurred, our apologies.",
+            "detail": "We cannot continue in the app, but we will be happy to assist you at one of our branches - please remember to bring with you a valid form of ID.",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Balance Overview"
+        },
+        "scoringLessDisagree": {
+            "title": "This is the maximum credit limit we can offer to you right now",
+            "detail": "At the moment, weďż˝re unable to offer you a higher credit limit.  \nIf you change your mind and decide to accept the lower amount, weďż˝ll be happy to proceed.",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Proceed with {0}"
+        },
+        "precontractDisagree": {
+            "title": "Your consent is required",
+            "detail": "You are just one step away from getting your new credit card. In order to provide a credit card for you, your agreement to the Pre-contractual Information is required. <b>Do you have any questions? Do not hesitate to contact us.</b>",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Continue with the credit card application"
+        },
+        "contractDisagree": {
+            "title": "Your consent is required",
+            "detail": "You are just one step away from getting your new credit card - we now need your signature on the Credit Card Agreement. Do you have any questions? Do not hesitate to contact us.</b>",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Continue in application"
+        },
+        "moreMoney": {
+            "title": "Do you need a bigger limit?",
+            "detail": "You can easily apply for a higher credit limit in Internet Banka.  If you prefer to talk it through in person, give us a call or stop by one of our branches.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Back to Overview "
         }
-      ],
-      "confusedHeadline": "Do you need assistance or have any questions?",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "primaryButton": "Back"
     },
-    "intro": {
-      "title": "Shop with our card and get money back",
-      "headerUrl": null,
-      "bullets": [
-        "You’ll get 5% back on every grocery purchase.",
-        "Plus, get 1% back on purchases in a category of your choice.",
-        "It’s perfect for travel and shopping abroad.",
-        "Apply for it online in Smart Banka and start using it right away with Google Pay or Apple Pay.",
-        "Shop now, pay later – enjoy up to 50 days interest-free.",
-        "You can easily manage your card re payments in Smart Banka"
-      ],
-      "primaryButton": "Continue",
-      "secondaryButton": "How does it work?"
+    "general": {
+        "toolbarTitle": "MoneyCard Smart",
+        "phoneNumberSupport": "800 102 040",
+        "cardUrl": "/cbl_images/card_logos/1000_M670_clear.png",
+        "messengerUrl": "https://m.me/138479367229",
+        "supportChat": "<b>Just like at a branch. Click here and our banker will be happy to assist you via videochat."
     },
-    "reward": {
-      "title": "First, choose a category where you’ll earn 1% back.",
-      "discounts": [
-        {
-          "title": "Home & garden",
-          "icon": "householdFill",
-          "discountId": "HOUSE"
+    "scenes": {
+        "help": {
+            "title": "Do you need assistance or do you wish to save the application for later?",
+            "toolbarTitle": "Help",
+            "detail": "You can learn more about MoneyCard Smart Credit Card at <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta\">www.moneta.cz/ucty-a-karty/kreditni-karta</a>.",
+            "summaryHeadline": "More information about your Credit Cards:",
+            "finishLaterHeadline": "Do you want to come back to the application later?",
+            "secondaryButton": "Cancel application",
+            "primaryButton": "Come back later",
+            "confusedHeadline": "Do you need assitance?",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "buttonWhatIsCreditCard": "How does a credit card work?"
         },
-        {
-          "title": "Electronics",
-          "icon": "electronicsFill",
-          "discountId": "ELECTRONICS"
-        },
-        {
-          "title": "Travel and sport",
-          "icon": "vacationFill",
-          "discountId": "SPORT"
-        },
-        {
-          "title": "Restaurants and culture",
-          "icon": "foodFill",
-          "discountId": "RESTAURANT"
-        },
-        {
-          "title": "Pets",
-          "icon": "catTomPlusFill",
-          "discountId": "PET"
-        }
-      ],
-      "bullets": [
-        "The reward applies both in-store and online at all merchants in your chosen category — over 12,000 shops in total.",
-        "We’ll credit the amount to your account retroactively each month — up to CZK 500."
-      ],
-      "footers": [
-        "You can change the category once per calendar quarter — in the Smart Banka app, Internet Banka, at a branch, or by calling 224 443 636."
-      ],
-      "primaryButton": "Continue"
-    },
-    "limits": {
-      "title": "What’s Your Credit Limit with the MoneyCard Smart?",
-      "amount": "Amount",
-      "help": "How does a credit card work?",
-      "section": "Your credit card information:",
-      "lessTitle": "If you spend up to 3,000 CZK a month",
-      "moreTitle": "If you spend at least 3,000 CZK a month",
-      "interestFreePeriodTitle": "Interest-free period",
-      "interestFreePeriodValue": "up to {0} days",
-      "cardManagementTitle": "Card management",
-      "cardManagementValue": "{0} CZK",
-      "paymentOrderTitle": "Payment orders",
-      "withdrawalsInMMBTitle": "Withdrawals via Moneta ATMs",
-      "withdrawalsElseWhereTitle": "Withdrawals via other ATMs",
-      "withdrawalsAbroadTitle": "Withdrawals abroad",
-      "interestRateTitle": "Annual interest rate",
-      "detail": " Representative example of a revolving credit and credit card is based on the assumption that a credit limit of CZK 37,800 is fully used immediately through cashless transactions and repaid in 12 equal monthly repayments of CZK 3,604.90.\nThe credit card allows repayment in varying monthly amounts, but at least 2% of the drawn credit limit.\nLoan term: indefinite.\u2028Annual interest rate: 22.99%.\u2028Fees related to the credit: monthly card maintenance fee CZK 49, cost of electronic statement delivery CZK 0, APR 28.91%, total amount payable by the consumer CZK 43,258.\nIf you make higher or more frequent repayments, or use the card within the interest-free period for cashless purchases, the figures in this representative example may vary.",
-      "primaryButton": "Continue",
-      "secondaryButton": "Do you need a bigger limit?"
-    },
-    "name": {
-      "title": "Is this your contact address?",
-      "firstName": "First Name",
-      "lastName": "Last Name",
-      "citizenship": "Citizenship",
-      "detail": "Card will be issued on your name",
-      "primaryButton": "Yes, continue"
-    },
-    "click2Pay": {
-      "title": "Click to Pay has been enabled for your card on the e-shop",
-      "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
-      "emailPrompt": "E-mail for payments",
-      "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
-      "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
-      "primaryButton": "Continue with Click to Pay",
-      "secondaryButton": "Not interested"
-    },
-    "permanentAddress": {
-      "title": "Is this your permanent residence?",
-      "streetTitle": "Street",
-      "descriptiveNumberTitle": "Descr. no.",
-      "orientationNumberTitle": "Orient. no.",
-      "cityTitle": "City",
-      "zipTitle": "ZIP",
-      "countryTitle": "Country",
-      "detail": "We will need your contact address in the next step",
-      "primaryButton": "Yes, continue"
-    },
-    "contactAddress": {
-      "title": "Is this your contact address?",
-      "streetTitle": "Street",
-      "descriptiveNumberTitle": "Descr. no.",
-      "orientationNumberTitle": "Orient. no.",
-      "cityTitle": "City",
-      "zipTitle": "ZIP",
-      "countryTitle": "Country",
-      "footer": "Your credit card will be sent to this address, along with monthly statements if requested.",
-      "primaryButton": "Yes, Continue"
-    },
-    "incomesPim": {
-      "list": {
-        "title": "Pokud máte více příjmů, můžete je nyní doplnit",
-        "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
-        "incomes": [
-          "Income",
-          "Second income",
-          "Third income"
-        ],
-        "remove": "Remove income source",
-        "incomeSource": "Income source",
-        "fillIn": "Doplňte",
-        "employer": {
-          "EMPLOYMENT_INCOME": "Employer",
-          "BUSINESS_INCOME": "Název subjektu",
-          "RENT": "Subjekt vyplácející rentu"
-        },
-        "netIncome": "Čistý měsíční příjem",
-        "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
-        "fillMissing": "Doplňte chybějící údaje",
-        "moreIncomes": "Další příjmy",
-        "entrepreneurFrom": "Podnikám od",
-        "taxBase": "Výše rozdílu (základ daně za minulý rok)",
-        "taxationPeriodYear": "Zdaňovací období",
-        "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
-        "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
-        "tax": "Daň (ř. 74)",
-        "addMoreIncomes": {
-          "title": "Přidat další příjem",
-          "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
-        },
-        "removeAlert": {
-          "title": "Opravdu chcete odstranit tento příjem?"
-        },
-        "trialPeriod": "ve zkušební lhůtě",
-        "onNoticePeriod": "ve výpovědní lhůtě",
-        "employmentForPeriod": "na dobu určitou do {0}",
-        "primaryButton": "Continue"
-      },
-      "incomeSource": {
-        "title": "What is the source of your income?",
-        "detail": "Income",
-        "footer": "If you have additional income sources, you can add it in the following steps",
-        "indefinitePeriodTitle": "indefinitely",
-        "trialPeriodTitle": "in trial period",
-        "noticePeriodTitle": "in notice period",
-        "fixPeriodTitle": "for a definite period",
-        "fixPeriodDateTitle": "to",
-        "fixPeriodDateHint": "Choose date",
-        "primaryButton": "Continue",
-        "titleConfirm": "Zaměstnání u {0}",
-        "detailConfirm": "Vyberte všechny platné varianty",
-        "offers": {
-          "TO_SME": {
-            "icon": "bussiness",
-            "title": "Hledáte úvěr pro podnikání?",
-            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-            "bulletsTitle": "Výhody podnikatelského úvěru",
+        "howItWorks": {
+            "title": "How does a credit card work?",
+            "subtitle": "You get up to 55 days interest-free to either pay off the full balance or just part of it.",
             "bullets": [
-              "Úrok už od {interestRate} ročně",
-              "Sjednání kompletně online",
-              "Bez poplatku za vedení úvěru",
-              "Bez prokazování příjmu",
-              "Možnost odpočtu úroků úvěru z daňového základu",
-              "Pohodové splácení s pojištěním schopnosti splácet"
+                "Each month, you can shop up to the limit of your credit card.",
+                "If you pay off the full balance by the 25th of the following month, you won’t pay any interest. If you only make the minimum repayment, the remaining balance will start to accrue interest."
             ],
-            "primaryButton": {
-              "actionType": "APP_PAGE",
-              "actionData": "SME_NTC_EXPRES",
-              "actionLabelText": "Více o podnikatelském úvěru"
+            "texts": [
+                {
+                    "title": "Benefits",
+                    "detail": "SThere are no opening and management fees as long as you spend at least CZK 3,000 per month. You’ll also earn 1% back on purchases in a category of your choice."
+                },
+                {
+                    "title": "Glossary",
+                    "detail": "<b>By applying for a credit card</b>, you’re entering into a revolving credit agreement, which means you’ll have access to a credit limit that you can use through your credit card.\n\n<b>The interest-free period</b> is, for example, the time from the 1st of one month to the 20th of the following month. During this period, you can use the credit without paying interest, provided you repay the full amount by the due date stated on your statement.\u2028Note: The interest-free period does not apply to bank transfers made from the credit card\n\n<b>Billing period</b> refers to the time from the 1st to the last day of the calendar month\n\n<b>Interest rate</b> is an annual interest rate. The borrowed amount is charged interest daily, starting from the day you use the credit, based on the number of days in the given calendar month / 365.\n\n<b>Credit card repayment</b> means paying back part or all of the borrowed amount. The total amount due is shown on your monthly statement and can be paid by regular bank transfer or automatically via direct debit.\n\n<b>Minimum repayment</b> is the amount you need to pay by the 20th of each month. It is set at 2% of your outstanding balance. We’ll automatically set up a direct debit for this minimum payment.\u2028If you prefer to repay the full balance, you can do so by bank transfer or automatically by setting up full direct debit.\n\n<b>100% direct debit</b> is a convenient option that automatically repays your full balance each month (on the 20th), as long as you're within the interest-free period.\u2028If you don’t repay the full amount by the 20th of the following month — or if you use the card for a bank transfer — interest will be charged on the remaining balance at a rate of 22.99% p.a\n\n<b>Payment order from the credit card</b> is similar to a one-time transfer from a current account. This is the only service not covered by the interest-free period — interest starts accruing from the next day after the transfer is made."
+                }
+            ],
+            "confusedHeadline": "Do you need assistance or have any questions?",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back"
+        },
+        "intro": {
+            "title": "Shop with our card and get money back",
+            "headerUrl": null,
+            "bullets": [
+                "You’ll get 5% back on every grocery purchase.",
+                "Plus, get 1% back on purchases in a category of your choice.",
+                "It’s perfect for travel and shopping abroad.",
+                "Apply for it online in Smart Banka and start using it right away with Google Pay or Apple Pay.",
+                "Shop now, pay later – enjoy up to 50 days interest-free.",
+                "You can easily manage your card re payments in Smart Banka"
+            ],
+            "primaryButton": "Continue",
+            "secondaryButton": "How does it work?"
+        },
+        "reward": {
+            "title": "First, choose a category where you’ll earn 1% back.",
+            "discounts": [
+                {
+                    "title": "Home & garden",
+                    "icon": "householdFill",
+                    "discountId": "HOUSE"
+                },
+                {
+                    "title": "Electronics",
+                    "icon": "electronicsFill",
+                    "discountId": "ELECTRONICS"
+                },
+                {
+                    "title": "Travel and sport",
+                    "icon": "vacationFill",
+                    "discountId": "SPORT"
+                },
+                {
+                    "title": "Restaurants and culture",
+                    "icon": "foodFill",
+                    "discountId": "RESTAURANT"
+                },
+                {
+                    "title": "Pets",
+                    "icon": "catTomPlusFill",
+                    "discountId": "PET"
+                }
+            ],
+            "bullets": [
+                "The reward applies both in-store and online at all merchants in your chosen category — over 12,000 shops in total.",
+                "We’ll credit the amount to your account retroactively each month — up to CZK 500."
+            ],
+            "footers": [
+                "You can change the category once per calendar quarter — in the Smart Banka app, Internet Banka, at a branch, or by calling 224 443 636."
+            ],
+            "primaryButton": "Continue"
+        },
+        "limits": {
+            "title": "What’s Your Credit Limit with the MoneyCard Smart?",
+            "amount": "Amount",
+            "help": "How does a credit card work?",
+            "section": "Your credit card information:",
+            "lessTitle": "If you spend up to 3,000 CZK a month",
+            "moreTitle": "If you spend at least 3,000 CZK a month",
+            "interestFreePeriodTitle": "Interest-free period",
+            "interestFreePeriodValue": "up to {0} days",
+            "cardManagementTitle": "Card management",
+            "cardManagementValue": "{0} CZK",
+            "paymentOrderTitle": "Payment orders",
+            "withdrawalsInMMBTitle": "Withdrawals via Moneta ATMs",
+            "withdrawalsElseWhereTitle": "Withdrawals via other ATMs",
+            "withdrawalsAbroadTitle": "Withdrawals abroad",
+            "interestRateTitle": "Annual interest rate",
+            "detail": " Representative example of a revolving credit and credit card is based on the assumption that a credit limit of CZK 37,800 is fully used immediately through cashless transactions and repaid in 12 equal monthly repayments of CZK 3,604.90.\nThe credit card allows repayment in varying monthly amounts, but at least 2% of the drawn credit limit.\nLoan term: indefinite.\u2028Annual interest rate: 22.99%.\u2028Fees related to the credit: monthly card maintenance fee CZK 49, cost of electronic statement delivery CZK 0, APR 28.91%, total amount payable by the consumer CZK 43,258.\nIf you make higher or more frequent repayments, or use the card within the interest-free period for cashless purchases, the figures in this representative example may vary.",
+            "primaryButton": "Continue",
+            "secondaryButton": "Do you need a bigger limit?"
+        },
+        "name": {
+            "title": "Is this your contact address?",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "citizenship": "Citizenship",
+            "detail": "Card will be issued on your name",
+            "primaryButton": "Yes, continue"
+        },
+        "click2Pay": {
+            "title": "Click to Pay has been enabled for your card on the e-shop",
+            "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
+            "emailPrompt": "E-mail for payments",
+            "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
+            "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
+            "primaryButton": "Continue with Click to Pay",
+            "secondaryButton": "Not interested"
+        },
+        "permanentAddress": {
+            "title": "Is this your permanent residence?",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descr. no.",
+            "orientationNumberTitle": "Orient. no.",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "detail": "We will need your contact address in the next step",
+            "primaryButton": "Yes, continue"
+        },
+        "contactAddress": {
+            "title": "Is this your contact address?",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descr. no.",
+            "orientationNumberTitle": "Orient. no.",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "footer": "Your credit card will be sent to this address, along with monthly statements if requested.",
+            "primaryButton": "Yes, Continue"
+        },
+        "incomesPim": {
+            "list": {
+                "title": "Pokud máte více příjmů, můžete je nyní doplnit",
+                "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
+                "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
+                "remove": "Odstranit příjem",
+                "incomeSource": "Zdroj příjmu",
+                "fillIn": "Doplňte",
+                "employer": {
+                    "EMPLOYMENT_INCOME": "Zaměstnavatel",
+                    "BUSINESS_INCOME": "Název subjektu",
+                    "RENT": "Subjekt vyplácející rentu"
+                },
+                "idNumberTitle": "IČ: {0}",
+                "netIncome": "Čistý měsíční příjem",
+                "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
+                "fillMissing": "Doplňte chybějící údaje",
+                "moreIncomes": "Další příjmy",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "tax": "Daň (ř. 74)",
+                "addMoreIncomes": {
+                    "title": "Přidat další příjem",
+                    "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
+                },
+                "removeAlert": {
+                    "title": "Opravdu chcete odstranit tento příjem?"
+                },
+                "trialPeriod": "ve zkušební lhůtě",
+                "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
+                "employmentForPeriod": "na dobu určitou do {0}",
+                "primaryButton": "Pokračovat"
             },
-            "secondaryButton": {
-              "actionType": "CLOSE",
-              "actionLabelText": "Zpět"
+            "incomeSource": {
+                "title": "Jaký je váš zdroj příjmů?",
+                "detail": "Příjem",
+                "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
+                "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
+                "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "fixPeriodTitle": "a zároveň na dobu určitou",
+                "fixPeriodDateTitle": "do",
+                "fixPeriodDateHint": "Vyberte datum",
+                "primaryButton": "Pokračovat",
+                "titleConfirm": "Zaměstnání u {0}",
+                "detailConfirm": "Vyberte všechny platné varianty",
+                "offers": {
+                    "TO_SME": {
+                        "icon": "business",
+                        "title": "Hledáte úvěr pro podnikání?",
+                        "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
+                        "bulletsTitle": "Výhody podnikatelského úvěru",
+                        "bullets": [
+                            "Úrok už od {interestRate} ročně",
+                            "Sjednání kompletně online",
+                            "Bez poplatku za vedení úvěru",
+                            "Bez prokazování příjmu",
+                            "Možnost odpočtu úroků úvěru z daňového základu",
+                            "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                        ],
+                        "primaryButton": {
+                            "actionType": "APP_PAGE",
+                            "actionData": "SME_NTC_EXPRES",
+                            "actionLabelText": "Více o podnikatelském úvěru"
+                        },
+                        "secondaryButton": {
+                            "actionType": "CLOSE",
+                            "actionLabelText": "Zpět na Expres půjčku"
+                        }
+                    }
+                }
+            },
+            "entrepreneur": {
+                "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "line101LastTaxationPeriodIncomeInfoMessage": "Zadejte částku z řádku 101 z daňového přiznání z minulého roku. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "unpaidTaxForLastYearInfoMessage": "Zadejte skutečnou daň z příjmu z řádku 91 z daňového přiznání z minulého roku.",
+                "tax": "Daň (ř. 74)",
+                "taxInfoMessage": "Po uplatnění slevy podle paragrafu 35c zákona ř. 71 - ř. 73",
+                "primaryButton": "Pokračovat"
+            },
+            "incomeSources": [
+                {
+                    "id": "EMPLOYMENT_INCOME",
+                    "title": "Zaměstnanec",
+                    "detail": "Vyberte všechny platné varianty"
+                },
+                {
+                    "id": "BUSINESS_INCOME",
+                    "title": "Podnikatel"
+                },
+                {
+                    "id": "RENT",
+                    "title": "Renta"
+                },
+                {
+                    "id": "PARENTAL_ALLOWANCE",
+                    "title": "Rodičovský příspěvek"
+                },
+                {
+                    "id": "MATERNITY_ALLOWANCE",
+                    "title": "Mateřská"
+                },
+                {
+                    "id": "OLDAGE_PENSION",
+                    "title": "Důchodce - starobní"
+                },
+                {
+                    "id": "DISABILITY_PENSION",
+                    "title": "Důchodce - invalidní"
+                },
+                {
+                    "id": "RENTAL_OFF_TAX_RETURN",
+                    "title": "Pronájem"
+                },
+                {
+                    "id": "MAINTENANCE_ALLOWANCE",
+                    "title": "Výživné"
+                },
+                {
+                    "id": "OTHER_INCOME",
+                    "title": "Jiný",
+                    "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
+                }
+            ],
+            "employer": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je Váš současný zaměstnavatel?",
+                    "employerTitle": "Zaměstnavatel",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "countryTitle": "Země",
+                    "countryPlaceholder": "vyberte",
+                    "czechEmployer": "Český zaměstnavatel",
+                    "foreignEmployer": "Zahraniční zaměstnavatel",
+                    "primaryButton": "Pokračovat"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "employerTitle": "Název",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "employerTitle": "Subjekt vyplácející rentu",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "employerSearch": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš současný zaměstnavatel?",
+                    "employerTitle": "Zaměstnavatel",
+                    "employerPlaceholder": "vyberte",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                    "employerTitle": "Subjekt",
+                    "employerPlaceholder": "Vyberte název subjektu",
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "employerTitle": "Subjekt vyplácející rentu",
+                    "employerPlaceholder": "vyberte",
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                }
+            },
+            "employerSearchId": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš současný zaměstnavatel?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                }
+            },
+            "solvency": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš příjem ze zaměstnání?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                    "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Jaká je výše vaší renty",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "PARENTAL_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho rodičovského příspěvku",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "MATERNITY_ALLOWANCE": {
+                    "title": "Jaká je výše vaší peněžité pomoci v mateřství",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "OLDAGE_PENSION": {
+                    "title": "Jaká je výše vašeho starobního důchodu?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "DISABILITY_PENSION": {
+                    "title": "Jaká je výše vašeho invalidního důchodu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENTAL_OFF_TAX_RETURN": {
+                    "title": "Jaká je výše vašeho příjmu z pronájmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "MAINTENANCE_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho příjmu z výživného",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "OTHER_INCOME": {
+                    "title": "Jaká je výše vašeho příjmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "invalidIncomeCombination": {
+                "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
+                "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Dokončit později",
+                "tertiaryButton": "Ukončit žádost"
             }
-          }
-        }
-      },
-      "entrepreneur": {
-        "title": "Detaily o vašem podnikání",
-        "entrepreneurFrom": "Podnikám od",
-        "taxBase": "Výše rozdílu (základ daně za minulý rok)",
-        "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
-        "taxationPeriodYear": "Zdaňovací období",
-        "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
-        "line101LastTaxationPeriodIncomeInfoMessage": "Zadejte částku z řádku 101 z daňového přiznání z minulého roku. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
-        "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
-        "unpaidTaxForLastYearInfoMessage": "Zadejte skutečnou daň z příjmu z řádku 91 z daňového přiznání z minulého roku.",
-        "tax": "Daň (ř. 74)",
-        "taxInfoMessage": "Po uplatnění slevy podle paragrafu 35c zákona ř. 71 - ř. 73",
-        "primaryButton": "Pokračovat"
-      },
-      "incomeSources": [
-        {
-          "id": "EMPLOYMENT_INCOME",
-          "title": "Zaměstnanec",
-          "detail": "Vyberte všechny platné varianty"
         },
-        {
-          "id": "BUSINESS_INCOME",
-          "title": "Podnikatel"
+        "incomeSource": {
+            "title": "What is the source of your income?",
+            "employedTitle": "Employment",
+            "indefinitePeriodTitle": "indefinitely",
+            "trialPeriodTitle": "in trial period",
+            "noticePeriodTitle": "in notice period",
+            "employedInfo": "Select 1-4 answers",
+            "fixPeriodTitle": "for a definite period",
+            "fixPeriodDateTitle": "to",
+            "fixPeriodDateHint": "Select date",
+            "businessTitle": "Entrepreneurship",
+            "pensionTitle": "Pension",
+            "disabilityPensionTitle": "Disability benefits",
+            "otherTitle": "Other",
+            "primaryButton": "Continue"
         },
-        {
-          "id": "RENT",
-          "title": "Renta"
+        "otherSource": {
+            "title": "Visit a branch",
+            "detail": "Je nám líto, ale pro Vás zatím neumíme kreditní kartu spočítat přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Cancel application"
         },
-        {
-          "id": "PARENTAL_ALLOWANCE",
-          "title": "Rodičovský příspěvek"
+        "employer": {
+            "title": "Is this your current employer?",
+            "alternativeTitle": "Who is your current employer?",
+            "employerTitle": "Employer",
+            "streetTitle": "Street",
+            "descriptiveNumberTitle": "Descr. no.",
+            "orientationNumberTitle": "Orient. no.",
+            "cityTitle": "City",
+            "zipTitle": "ZIP",
+            "countryTitle": "Country",
+            "idNumberTitle": "IN",
+            "primaryButton": "Yes, Continue"
         },
-        {
-          "id": "MATERNITY_ALLOWANCE",
-          "title": "Mateřská"
+        "employerSearch": {
+            "title": "Jaký je váš současný zaměstnavatel?",
+            "employerTitle": "Zaměstnavatel",
+            "employerPlaceholder": "vyberte",
+            "sectionTitle": "Vyberte ze seznamu",
+            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+            "noMatchItem": "Pokračovat s {0}"
         },
-        {
-          "id": "OLDAGE_PENSION",
-          "title": "Důchodce - starobní"
+        "personalSolvency": {
+            "title": "Is this your net monthly income?",
+            "alternativeTitle": "What is your net monthly income?",
+            "inputTitle": "Net monthly income",
+            "detail": "If your income varies each month, enter the average from the last three months.",
+            "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
+            "primaryButton": "Yes, Continue"
         },
-        {
-          "id": "DISABILITY_PENSION",
-          "title": "Důchodce - invalidní"
+        "householdSolvency": {
+            "title": "What is the net monthly income of your household?",
+            "inputTitle": "Net monthly income",
+            "detail": "Enter the net monthly income of all members of your household. If your income varies from month to month, provide the average from the last three months.",
+            "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
+            "primaryButton": "Continue"
         },
-        {
-          "id": "RENTAL_OFF_TAX_RETURN",
-          "title": "Pronájem"
+        "dependents": {
+            "title": "How many dependents do you have?",
+            "me": "Me",
+            "count": "Number of dependents",
+            "detail": "A dependent is anyone who relies on your income — even partially — such as children, a partner on parental leave, or a person with a disability you care for.  How many people close to you would be affected by a reduction in your income?",
+            "primaryButton": "Continue"
         },
-        {
-          "id": "MAINTENANCE_ALLOWANCE",
-          "title": "Výživné"
-        },
-        {
-          "id": "OTHER_INCOME",
-          "title": "Jiný",
-          "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
-        }
-      ],
-      "employer": {
-        "EMPLOYMENT_INCOME": {
-          "title": "Jaký je Váš současný zaměstnavatel?",
-          "employerTitle": "Zaměstnavatel",
-          "employerPlaceholder": "vyberte",
-          "czechEmployer": "Český zaměstnavatel",
-          "foreignEmployer": "Zahraniční zaměstnavatel",
-          "countryTitle": "Země",
-          "idNumberTitle": "IČ",
-          "primaryButton": "Pokračovat"
-        },
-        "BUSINESS_INCOME": {
-          "title": "Doplňte údaje o Vašem podnikání",
-          "employerTitle": "Název",
-          "employerPlaceholder": "Vyberte název subjektu",
-          "czechEmployer": "Český subjekt",
-          "foreignEmployer": "Zahraniční subjekt",
-          "countryTitle": "Země",
-          "idNumberTitle": "IČ",
-          "primaryButton": "Pokračovat"
-        },
-        "RENT": {
-          "title": "Kdo vám rentu vyplácí?",
-          "employerTitle": "Subjekt vyplácející rentu",
-          "czechEmployer": "Český subjekt",
-          "foreignEmployer": "Zahraniční subjekt",
-          "employerPlaceholder": "vyberte",
-          "countryTitle": "Země",
-          "idNumberTitle": "IČ",
-          "primaryButton": "Pokračovat"
-        }
-      },
-      "employerSearch": {
-        "EMPLOYMENT_INCOME": {
-          "title": "Jaký je váš současný zaměstnavatel?",
-          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Zaměstnavatel",
-          "czechEmployer": "Český zaměstnavatel",
-          "foreignEmployer": "Zahraniční zaměstnavatel",
-          "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
-        },
-        "BUSINESS_INCOME": {
-          "title": "Subjekt",
-          "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-          "employerTitle": "Subjekt",
-          "czechEmployer": "Česká společnost",
-          "foreignEmployer": "Zahraniční společnost",
-          "switchToForeignEmployer": "Podnikám v zahraničí"
-        },
-        "RENT": {
-          "title": "Kdo vám rentu vyplácí?",
-          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Subjekt vyplácející rentu",
-          "czechEmployer": "Česká společnost",
-          "foreignEmployer": "Zahraniční společnost",
-          "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
-        }
-      },
-      "employerSearchId": {
-        "EMPLOYMENT_INCOME": {
-          "title": "Jaký je váš současný zaměstnavatel?",
-          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Zaměstnavatel",
-          "czechEmployer": "Český zaměstnavatel",
-          "foreignEmployer": "Zahraniční zaměstnavatel",
-          "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
-        },
-        "BUSINESS_INCOME": {
-          "title": "Subjekt",
-          "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-          "employerTitle": "Subjekt",
-          "czechEmployer": "Česká společnost",
-          "foreignEmployer": "Zahraniční společnost",
-          "switchToForeignEmployer": "Podnikám v zahraničí"
-        },
-        "RENT": {
-          "title": "Kdo vám rentu vyplácí?",
-          "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-          "employerTitle": "Subjekt vyplácející rentu",
-          "czechEmployer": "Česká společnost",
-          "foreignEmployer": "Zahraniční společnost",
-          "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
-        }
-      },
-      "solvency": {
-        "EMPLOYMENT_INCOME": {
-          "title": "Jaký je váš příjem ze zaměstnání?",
-          "inputTitle": "Čistý měsíční příjem",
-          "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
-          "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
-          "primaryButton": "Continue"
-        },
-        "RENT": {
-          "title": "Jaká je výše vaší renty",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "PARENTAL_ALLOWANCE": {
-          "title": "Jaká je výše vašeho rodičovského příspěvku",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "MATERNITY_ALLOWANCE": {
-          "title": "Jaká je výše vaší peněžité pomoci v mateřství",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "OLDAGE_PENSION": {
-          "title": "Jaká je výše vašeho starobního důchodu?",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "DISABILITY_PENSION": {
-          "title": "Jaká je výše vašeho invalidního důchodu",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "RENTAL_OFF_TAX_RETURN": {
-          "title": "Jaká je výše vašeho příjmu z pronájmu",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "MAINTENANCE_ALLOWANCE": {
-          "title": "Jaká je výše vašeho příjmu z výživného",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        },
-        "OTHER_INCOME": {
-          "title": "Jaká je výše vašeho příjmu",
-          "inputTitle": "Čistý měsíční příjem",
-          "primaryButton": "Continue"
-        }
-      },
-      "invalidIncomeCombination": {
-        "title": "We’re sorry, unfortunately we’re unable to offer you a credit card.",
-        "detail": "If you wish, you can go back and review your income once again.",
-        "callUs": "Call Helpline",
-        "branch": "Visit a branch",
-        "primaryButton": "Back",
-        "secondaryButton": "Finish later",
-        "tertiaryButton": "Cancel application"
-      }
-    },
-    "incomeSource": {
-      "title": "What is the source of your income?",
-      "employedTitle": "Employment",
-      "indefinitePeriodTitle": "indefinitely",
-      "trialPeriodTitle": "in trial period",
-      "noticePeriodTitle": "in notice period",
-      "employedInfo": "Select 1-4 answers",
-      "fixPeriodTitle": "for a definite period",
-      "fixPeriodDateTitle": "to",
-      "fixPeriodDateHint": "Select date",
-      "businessTitle": "Entrepreneurship",
-      "pensionTitle": "Pension",
-      "disabilityPensionTitle": "Disability benefits",
-      "otherTitle": "Other",
-      "primaryButton": "Continue"
-    },
-    "otherSource": {
-      "title": "Visit a branch",
-      "detail": "Je nám líto, ale pro Vás zatím neumíme kreditní kartu spočítat přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "primaryButton": "Cancel application"
-    },
-    "employer": {
-      "title": "Is this your current employer?",
-      "alternativeTitle": "Who is your current employer?",
-      "employerTitle": "Employer",
-      "streetTitle": "Street",
-      "descriptiveNumberTitle": "Descr. no.",
-      "orientationNumberTitle": "Orient. no.",
-      "cityTitle": "City",
-      "zipTitle": "ZIP",
-      "countryTitle": "Country",
-      "idNumberTitle": "IN",
-      "primaryButton": "Yes, Continue"
-    },
-    "employerSearch": {
-      "title": "Who is your current employer?",
-      "hint": "Please enter at least 3 letters of your employer’s name, including any special Czech characters (diacritics).",
-      "employerTitle": "Employer"
-    },
-    "personalSolvency": {
-      "title": "Is this your net monthly income?",
-      "alternativeTitle": "What is your net monthly income?",
-      "inputTitle": "Net monthly income",
-      "detail": "If your income varies each month, enter the average from the last three months.",
-      "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
-      "primaryButton": "Yes, Continue"
-    },
-    "householdSolvency": {
-      "title": "What is the net monthly income of your household?",
-      "inputTitle": "Net monthly income",
-      "detail": "Enter the net monthly income of all members of your household. If your income varies from month to month, provide the average from the last three months.",
-      "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
-      "primaryButton": "Continue"
-    },
-    "dependents": {
-      "title": "How many dependents do you have?",
-      "me": "Me",
-      "count": "Number of dependents",
-      "detail": "A dependent is anyone who relies on your income — even partially — such as children, a partner on parental leave, or a person with a disability you care for.  How many people close to you would be affected by a reduction in your income?",
-      "primaryButton": "Continue"
-    },
-    "householdExpensesNecessary": {
-      "title": "What other personal expenses do you have?",
-      "necessaryExpensesSection": "What essential expenses do you cover as a loan applicant?",
-      "necessaryExpensesInfo": "Only include the expenses — or the portion of them — that you personally cover. Essential expenses are those that are necessary and unavoidable.",
-      "necessaryExpenses": "Monthly expenses amount",
-      "installmentsSumSection": "Are you currently repaying a lease or loan with a provider other than MONETA Money Bank?",
-      "installmentsSum": "Monthly repayment amount",
-      "necessaryExpensesError": {
-        "title": "Your essential monthly expenses are higher than your income.",
-        "detail": "You may have included rent or mortgage payments. We're mainly interested in your essential monthly living expenses.",
-        "secondaryButton": "Edit expenses",
-        "primaryButton": "Continue"
-      },
-      "richBullets": [
-        {
-          "image": "tickFill",
-          "title": "Food, clothing, internet bills, insurance, and housing costs (such as rent, utilities, water, and other services)"
-        },
-        {
-          "image": "tickFill",
-          "title": "Transportation (public transit pass, fuel costs)"
-        },
-        {
-          "image": "tickFill",
-          "title": "Healthcare (medications, physical therapy, medical supplies)"
-        },
-        {
-          "image": "tickFill",
-          "title": "Alimony or child support"
-        },
-        {
-          "image": "tickFill",
-          "title": "Children’s education (nurseries, kindergartens, schools, lunches, after-school programs, extracurricular activities)"
-        },
-        {
-          "image": "tickFill",
-          "title": "Other regular monthly expenses"
-        },
-        {
-          "image": "closeFill",
-          "title": "Please do not include loan repayments, mortgages, or wage garnishments."
-        }
-      ],
-      "primaryButton": "Continue"
-    },
-    "otherInfo": {
-      "title": "Just final details:",
-      "detail": "Please select the document you could bring with you to a branch, if needed.",
-      "primaryButton": "Continue",
-      "idDetail": "Other form of ID",
-      "secondDocuments": [
-        {
-          "title": "Driving licence",
-          "id": "DRIVING_LICENCE"
-        },
-        {
-          "title": "Passport",
-          "id": "PASSPORT"
-        },
-        {
-          "title": "Birth certificate",
-          "id": "BIRTH_CERTIFICATE"
-        }
-      ],
-      "housingDetail": "Where do you live?",
-      "housing": [
-        {
-          "title": "Own house / apartment",
-          "id": "OWN"
-        },
-        {
-          "title": "Rent",
-          "id": "RENTED"
-        },
-        {
-          "title": "Cooperative living",
-          "id": "COOPERATIVE"
-        },
-        {
-          "title": "With parents",
-          "id": "PARENTS"
-        },
-        {
-          "title": "Other",
-          "id": "OTHER"
-        }
-      ]
-    },
-    "agreement": {
-      "title": "Final step – just one last consent needed",
-      "detail": "In order to process your application, it is essential to handle your personal data to assess your creditworthiness, reliability, and payment behavior. This includes verifying your information in the Banking Client Information Register, the Non-Banking Client Information Register, and taking other necessary steps to facilitate agreement conclusion.\n\nFor more details about how your personal data is processed within the MONETA financial group, please visit www.moneta.cz/ochrana-dat. By clicking 'Agree,' I confirm that I have read and understood this information.\n\nI declare that all the information I have provided is accurate, complete, and up-to-date. I understand that providing false information may result in legal consequences, including criminal liability. I also consent to the bank verifying the information and conducting any further checks it deems necessary regarding this application.\n\nI acknowledge that the information provided is a recommendation, not financial advice, as per the Consumer Credit Act. \n\nYou may receive updates on the status of your application via SMS to the phone number provided.",
-      "primaryButton": "Continue"
-    },
-    "scoring": {
-      "title": "Just a minute. We must review everything"
-    },
-    "documentUpload": {
-      "uploadScenes": {
-        "firstUpload": {
-          "title": "Let’s deal with it. Please provide us with your current identification documents.",
-          "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
-          "primaryButton": "Continue",
-          "secondaryButton": "I want to visit a branch"
-        },
-        "anotherUpload": {
-          "title": "Thank you for your patience",
-          "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
-          "primaryButton": "Continue",
-          "secondaryButton": "I want to visit a branch"
-        },
-        "poorUpload": {
-          "title": "Some documents could not be processed",
-          "detail": "<b>Reupload a clear and sharp picture:</b>",
-          "primaryButton": "Continue",
-          "secondaryButton": "I want to visit a branch"
-        },
-        "branchNeeded": {
-          "title": "We have to meet",
-          "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
-          "primaryButton": "I understand; show me the nearest branch"
-        },
-        "uploadCheck": {
-          "title": "We’re going to check legibility and get back to you",
-          "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
-          "primaryButton": "Back to Balance Overview"
-        }
-      },
-      "documents": {
-        "141": {
-          "icon": "idCardFill",
-          "title": "Občanský průkaz",
-          "photoCapture": [
-            {
-              "title": "Vyfoťte přední stranu občanského průkazu",
-              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-              "primaryButton": "Vyfotit"
+        "householdExpensesNecessary": {
+            "title": "What other personal expenses do you have?",
+            "necessaryExpensesSection": "What essential expenses do you cover as a loan applicant?",
+            "necessaryExpensesInfo": "Only include the expenses — or the portion of them — that you personally cover. Essential expenses are those that are necessary and unavoidable.",
+            "necessaryExpenses": "Monthly expenses amount",
+            "installmentsSumSection": "Are you currently repaying a lease or loan with a provider other than MONETA Money Bank?",
+            "installmentsSum": "Monthly repayment amount",
+            "necessaryExpensesError": {
+                "title": "Your essential monthly expenses are higher than your income.",
+                "detail": "You may have included rent or mortgage payments. We're mainly interested in your essential monthly living expenses.",
+                "secondaryButton": "Edit expenses",
+                "primaryButton": "Continue"
             },
-            {
-              "title": "Vyfoťte zadní stranu občanského průkazu",
-              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-              "primaryButton": "Vyfotit"
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "Food, clothing, internet bills, insurance, and housing costs (such as rent, utilities, water, and other services)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Transportation (public transit pass, fuel costs)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Healthcare (medications, physical therapy, medical supplies)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Alimony or child support"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Children’s education (nurseries, kindergartens, schools, lunches, after-school programs, extracurricular activities)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Other regular monthly expenses"
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Please do not include loan repayments, mortgages, or wage garnishments."
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "otherInfo": {
+            "title": "Just final details:",
+            "detail": "Please select the document you could bring with you to a branch, if needed.",
+            "primaryButton": "Continue",
+            "idDetail": "Other form of ID",
+            "secondDocuments": [
+                {
+                    "title": "Driving licence",
+                    "id": "DRIVING_LICENCE"
+                },
+                {
+                    "title": "Passport",
+                    "id": "PASSPORT"
+                },
+                {
+                    "title": "Birth certificate",
+                    "id": "BIRTH_CERTIFICATE"
+                }
+            ],
+            "housingDetail": "Where do you live?",
+            "housing": [
+                {
+                    "title": "Own house / apartment",
+                    "id": "OWN"
+                },
+                {
+                    "title": "Rent",
+                    "id": "RENTED"
+                },
+                {
+                    "title": "Cooperative living",
+                    "id": "COOPERATIVE"
+                },
+                {
+                    "title": "With parents",
+                    "id": "PARENTS"
+                },
+                {
+                    "title": "Other",
+                    "id": "OTHER"
+                }
+            ]
+        },
+        "agreement": {
+            "title": "Final step – just one last consent needed",
+            "detail": "In order to process your application, it is essential to handle your personal data to assess your creditworthiness, reliability, and payment behavior. This includes verifying your information in the Banking Client Information Register, the Non-Banking Client Information Register, and taking other necessary steps to facilitate agreement conclusion.\n\nFor more details about how your personal data is processed within the MONETA financial group, please visit www.moneta.cz/ochrana-dat. By clicking 'Agree,' I confirm that I have read and understood this information.\n\nI declare that all the information I have provided is accurate, complete, and up-to-date. I understand that providing false information may result in legal consequences, including criminal liability. I also consent to the bank verifying the information and conducting any further checks it deems necessary regarding this application.\n\nI acknowledge that the information provided is a recommendation, not financial advice, as per the Consumer Credit Act. \n\nYou may receive updates on the status of your application via SMS to the phone number provided.",
+            "primaryButton": "Continue"
+        },
+        "scoring": {
+            "title": "Just a minute. We must review everything"
+        },
+        "documentUpload": {
+            "uploadScenes": {
+                "firstUpload": {
+                    "title": "Let’s deal with it. Please provide us with your current identification documents.",
+                    "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I want to visit a branch"
+                },
+                "anotherUpload": {
+                    "title": "Thank you for your patience",
+                    "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I want to visit a branch"
+                },
+                "poorUpload": {
+                    "title": "Some documents could not be processed",
+                    "detail": "<b>Reupload a clear and sharp picture:</b>",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "I want to visit a branch"
+                },
+                "branchNeeded": {
+                    "title": "We have to meet",
+                    "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
+                    "primaryButton": "I understand; show me the nearest branch"
+                },
+                "uploadCheck": {
+                    "title": "We’re going to check legibility and get back to you",
+                    "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
+                    "primaryButton": "Back to Balance Overview"
+                }
+            },
+            "documents": {
+                "141": {
+                    "icon": "idCardFill",
+                    "title": "Občanský průkaz",
+                    "photoCapture": [
+                        {
+                            "title": "Vyfoťte přední stranu občanského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        },
+                        {
+                            "title": "Vyfoťte zadní stranu občanského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        }
+                    ],
+                    "review": {
+                        "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                        "documentDetails": {
+                            "title": "Údaje z dokladu",
+                            "firstName": "Jméno",
+                            "lastName": "Příjmení",
+                            "birthDate": "Datum narození",
+                            "birthPlace": "Místo narození",
+                            "birthNumber": "Rodné číslo",
+                            "idCardNumber": {
+                                "title": "Číslo občanského průkazu",
+                                "secondaryTitle": "Číslo pasu"
+                            },
+                            "idCardValidTo": "Platnost do",
+                            "issueDate": "Platnost od",
+                            "nationality": "Státní občanství",
+                            "nationalityValue": "pouze Česká republika",
+                            "sex": "Pohlaví",
+                            "male": "muž",
+                            "female": "žena"
+                        },
+                        "documentAddress": {
+                            "title": "Trvalý pobyt",
+                            "secondary": "(Pouze Česká republika)",
+                            "street": "Ulice",
+                            "descriptiveNumber": "Číslo popisné",
+                            "orientationNumber": "Číslo orientační",
+                            "city": "Obec nebo město",
+                            "zip": "PSČ",
+                            "personalData": {
+                                "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                            }
+                        },
+                        "primaryButton": "Pokračovat"
+                    },
+                    "busyLoader": {
+                        "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                        "detail": "Zabere to maximálně pár vteřin."
+                    },
+                    "uploadDocumentResultNok": {
+                        "title": "Půjčku vám teď nemůžeme nabídnout",
+                        "detail": "Moc se omlouváme",
+                        "secondaryButton": "Ukončit žádost"
+                    },
+                    "uploadDocumentResultUploadAgain": {
+                        "title": "Jejda, tohle se nepovedlo",
+                        "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                        "primaryButton": "Vyfotit znovu",
+                        "secondaryButton": "Pokračovat později"
+                    }
+                },
+                "143": {
+                    "icon": "idCardFill",
+                    "title": "Řidičský průkaz",
+                    "photoCapture": [
+                        {
+                            "title": "Vyfoťte přední stranu řidičského průkazu",
+                            "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit"
+                        }
+                    ]
+                },
+                "13": {
+                    "icon": "documentsFill",
+                    "title": "Podepsané Potvrzení o výši příjmu",
+                    "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+                },
+                "112": {
+                    "icon": "documentsFill",
+                    "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+                },
+                "113": {
+                    "icon": "documentsFill",
+                    "title": "Důchodový výměr"
+                }
+            },
+            "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
+            "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
+            "uploadedDocuments": [
+                {
+                    "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
+                    "labels": [
+                        "Attach the front page of your ID",
+                        "Attach the back page of your ID"
+                    ],
+                    "categoryCode": "141"
+                },
+                {
+                    "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
+                    "labels": ["Attach a signed proof of income"],
+                    "categoryCode": "13"
+                },
+                {
+                    "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
+                    "labels": ["Attach the front page of your driving licence"],
+                    "categoryCode": "143"
+                },
+                {
+                    "title": "Please take a picture of the following: ",
+                    "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
+                    "documents": [
+                        {
+                            "title": "Payment receipt from the Czech Post that is not older than 30 days",
+                            "labels": ["Attach a document"],
+                            "documentCode": "112"
+                        },
+                        {
+                            "title": "Pension assessment",
+                            "labels": ["Attach a document"],
+                            "documentCode": "113"
+                        },
+                        {
+                            "labels": ["Attach a document"]
+                        }
+                    ]
+                }
+            ],
+            "uploadPicker": {
+                "title": "Choose a way to upload a document",
+                "camera": "Take a picture",
+                "photos": "Choose from gallery",
+                "files": "Choose from files"
             }
-          ],
-          "review": {
-            "title": "Skvělá fotka! Přečetli jsme vše správně?",
-            "documentDetails": {
-              "title": "Údaje z dokladu",
-              "firstName": "Jméno",
-              "lastName": "Příjmení",
-              "birthDate": "Datum narození",
-              "birthPlace": "Místo narození",
-              "birthNumber": "Rodné číslo",
-              "idCardNumber": {
-                "title": "Číslo občanského průkazu",
-                "secondaryTitle": "Číslo pasu"
-              },
-              "idCardValidTo": "Platnost do",
-              "issueDate": "Platnost od",
-              "nationality": "Státní občanství",
-              "nationalityValue": "pouze Česká republika",
-              "sex": "Pohlaví",
-              "male": "muž",
-              "female": "žena"
+        },
+        "manualCheck": {
+            "title": "Now we need to review everything",
+            "detail": "Since this might take a moment, you can return to Overview.\nWe’ll send you a text as soon as everything’s ready.",
+            "primaryButton": "Back to Overview"
+        },
+        "scoringNok": {
+            "title": "After reviewing your application, we are unable to offer you a credit card.",
+            "detail": "<b>If you have any questions about how to proceed, please contact us.</b>",
+            "callUs": "Call Helpline",
+            "primaryButton": "Cancel application"
+        },
+        "scoringOk": {
+            "title": "All seems to be in order, let’s continue",
+            "amount": "Amount",
+            "detail": "I confirm that if the full credit amount is used, I will make the minimum required monthly repayment of {0} CZK.",
+            "primaryButton": "Continue"
+        },
+        "scoringOkLess": {
+            "title": "We can offer you a lower credit amount. Do you accept?",
+            "amount": "Amount",
+            "detail": "I confirm that if the full credit amount is used, I will make the minimum required monthly repayment of {0} CZK.",
+            "primaryButton": "Continue",
+            "secondaryButton": "Decline"
+        },
+        "scoringOkBranch": {
+            "title": "We will be able to assist you better at a branch",
+            "detail": "Before signing the Agreement, we’ll need to verify your ID — so please visit one of our branches.\n\nIf you’ve updated your net monthly income, make sure to bring a Confirmation of Income from your employer as well.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Find branches near me",
+            "secondaryButton": "Back to Overview"
+        },
+        "setPassword": {
+            "title": "Set up a six-digit passcode to activate your card",
+            "detail": "Be sure to remember your passcode— you’ll need it when your card arrives.\nYou’ll find full activation instructions inside the envelope with your card.",
+            "password": "New passcode",
+            "primaryButton": "Continue"
+        },
+        "configuration": {
+            "help": {
+                "title": "How would you like to repay?",
+                "detail": "<b>100% Direct Debit</b>\n\nEach month, the full outstanding amount is automatically repaid within the interest-free period.\n\n<b>Minimum Direct Debit</b>\n\nEach month, an automatic payment of 2% of the outstanding balance from your statement will be made as the minimum payment. You can settle the remaining balance separately, such as via bank transfer.  \nIf the full amount is not repaid within the 55-day interest-free period, the remaining balance will incur interest at an annual rate of 22.99% p.a.\n\n<b>Payment Order</b>\n\nYou can repay your credit card by transferring funds from any account to the one listed on your statement — where you’ll also find the amount due. Make sure to use your contract number as the variable symbol. It is important that you always repay at least the minimum required amount."
             },
-            "documentAddress": {
-              "title": "Trvalý pobyt",
-              "secondary": "(Pouze Česká republika)",
-              "street": "Ulice",
-              "descriptiveNumber": "Číslo popisné",
-              "orientationNumber": "Číslo orientační",
-              "city": "Obec nebo město",
-              "zip": "PSČ",
-              "personalData": {
-                "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
-              }
-            },
-            "primaryButton": "Pokračovat"
-          },
-          "busyLoader": {
-            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-            "detail": "Zabere to maximálně pár vteřin."
-          },
-          "uploadDocumentResultNok": {
-            "title": "Půjčku vám teď nemůžeme nabídnout",
-            "detail": "Moc se omlouváme",
-            "secondaryButton": "Ukončit žádost"
-          },
-          "uploadDocumentResultUploadAgain": {
-            "title": "Jejda, tohle se nepovedlo",
-            "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-            "primaryButton": "Vyfotit znovu",
-            "secondaryButton": "Pokračovat později"
-          }
+            "title": "Final details",
+            "statements": "How would you like to receive your statements?",
+            "repayment": "On the 20th of each month, you’d like to repay via:",
+            "accountTitle": "Repay from",
+            "repaymentDetail": "More about <a href=\"help\">forms of repayment</a>",
+            "primaryButton": "Continue"
         },
-        "143": {
-          "icon": "idCardFill",
-          "title": "Řidičský průkaz",
-          "photoCapture": [
-            {
-              "title": "Vyfoťte přední stranu řidičského průkazu",
-              "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-              "primaryButton": "Vyfotit"
-            }
-          ]
+        "waitingBeforeContract": {
+            "title": "Preparing the Agreement",
+            "detail": "It should only take a moment"
         },
-        "13": {
-          "icon": "documentsFill",
-          "title": "Podepsané Potvrzení o výši příjmu",
-          "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+        "signByUs": {
+            "title": "Now it’s our turn to sign the Agreement, just a moment please"
         },
-        "112": {
-          "icon": "documentsFill",
-          "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
+        "precontractInfo": {
+            "title": "Read the Pre-contractual Information",
+            "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email.",
+            "secondaryButton": "Decline",
+            "primaryButton": "Accept and confirm"
         },
-        "113": {
-          "icon": "documentsFill",
-          "title": "Důchodový výměr"
+        "contract": {
+            "title": "Read the Credit Card Agreement",
+            "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email.",
+            "secondaryButton": "Decline",
+            "primaryButton": "Accept and confirm"
+        },
+        "waitingAfterSign": {
+            "title": "Now it’s our turn to sign the Agreement, just a moment please"
+        },
+        "victory": {
+            "title": "Done, the card should arrive within a week",
+            "detail": "In the envelope with your card, you’ll find simple instructions on how to activate it and get your PIN.  \nYou can also add the card to your phone and start using it right away.\n\nAll your documents are available in the “Documents” section of both Smart Banka and Internet Banka.",
+            "primaryButton": "Done, go to Overview"
         }
-      },
-      "chooseDocTitle": "Vyfoťte prosím jeden z následujících dokladů",
-      "chooseDocDetail": "Půjčku jsme Vám uložili. Do 30 dnů se můžete kdykoli vrátit, doklad vyfotit a pokračovat",
-      "uploadedDocuments": [
-        {
-          "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
-          "labels": [
-            "Attach the front page of your ID",
-            "Attach the back page of your ID"
-          ],
-          "categoryCode": "141"
-        },
-        {
-          "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
-          "labels": [
-            "Attach a signed proof of income"
-          ],
-          "categoryCode": "13"
-        },
-        {
-          "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
-          "labels": [
-            "Attach the front page of your driving licence"
-          ],
-          "categoryCode": "143"
-        },
-        {
-          "title": "Please take a picture of the following: ",
-          "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
-          "documents": [
-            {
-              "title": "Payment receipt from the Czech Post that is not older than 30 days",
-              "labels": [
-                "Attach a document"
-              ],
-              "documentCode": "112"
-            },
-            {
-              "title": "Pension assessment",
-              "labels": [
-                "Attach a document"
-              ],
-              "documentCode": "113"
-            },
-            {
-              "labels": [
-                "Attach a document"
-              ]
-            }
-          ]
-        }
-      ],
-      "uploadPicker": {
-        "title": "Choose a way to upload a document",
-        "camera": "Take a picture",
-        "photos": "Choose from gallery",
-        "files": "Choose from files"
-      }
-    },
-    "manualCheck": {
-      "title": "Now we need to review everything",
-      "detail": "Since this might take a moment, you can return to Overview.\nWe’ll send you a text as soon as everything’s ready.",
-      "primaryButton": "Back to Overview"
-    },
-    "scoringNok": {
-      "title": "After reviewing your application, we are unable to offer you a credit card.",
-      "detail": "<b>If you have any questions about how to proceed, please contact us.</b>",
-      "callUs": "Call Helpline",
-      "primaryButton": "Cancel application"
-    },
-    "scoringOk": {
-      "title": "All seems to be in order, let’s continue",
-      "amount": "Amount",
-      "detail": "I confirm that if the full credit amount is used, I will make the minimum required monthly repayment of {0} CZK.",
-      "primaryButton": "Continue"
-    },
-    "scoringOkLess": {
-      "title": "We can offer you a lower credit amount. Do you accept?",
-      "amount": "Amount",
-      "detail": "I confirm that if the full credit amount is used, I will make the minimum required monthly repayment of {0} CZK.",
-      "primaryButton": "Continue",
-      "secondaryButton": "Decline"
-    },
-    "scoringOkBranch": {
-      "title": "We will be able to assist you better at a branch",
-      "detail": "Before signing the Agreement, we’ll need to verify your ID — so please visit one of our branches.\n\nIf you’ve updated your net monthly income, make sure to bring a Confirmation of Income from your employer as well.",
-      "callUs": "Call Helpline",
-      "branch": "Visit a branch",
-      "primaryButton": "Find branches near me",
-      "secondaryButton": "Back to Overview"
-    },
-    "setPassword": {
-      "title": "Set up a six-digit passcode to activate your card",
-      "detail": "Be sure to remember your passcode— you’ll need it when your card arrives.\nYou’ll find full activation instructions inside the envelope with your card.",
-      "password": "New passcode",
-      "primaryButton": "Continue"
-    },
-    "configuration": {
-      "help": {
-        "title": "How would you like to repay?",
-        "detail": "<b>100% Direct Debit</b>\n\nEach month, the full outstanding amount is automatically repaid within the interest-free period.\n\n<b>Minimum Direct Debit</b>\n\nEach month, an automatic payment of 2% of the outstanding balance from your statement will be made as the minimum payment. You can settle the remaining balance separately, such as via bank transfer.  \nIf the full amount is not repaid within the 55-day interest-free period, the remaining balance will incur interest at an annual rate of 22.99% p.a.\n\n<b>Payment Order</b>\n\nYou can repay your credit card by transferring funds from any account to the one listed on your statement — where you’ll also find the amount due. Make sure to use your contract number as the variable symbol. It is important that you always repay at least the minimum required amount."
-      },
-      "title": "Final details",
-      "statements": "How would you like to receive your statements?",
-      "repayment": "On the 20th of each month, you’d like to repay via:",
-      "accountTitle": "Repay from",
-      "repaymentDetail": "More about <a href=\"help\">forms of repayment</a>",
-      "primaryButton": "Continue"
-    },
-    "waitingBeforeContract": {
-      "title": "Preparing the Agreement",
-      "detail": "It should only take a moment"
-    },
-    "signByUs": {
-      "title": "Now it’s our turn to sign the Agreement, just a moment please"
-    },
-    "precontractInfo": {
-      "title": "Read the Pre-contractual Information",
-      "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email.",
-      "secondaryButton": "Decline",
-      "primaryButton": "Accept and confirm"
-    },
-    "contract": {
-      "title": "Read the Credit Card Agreement",
-      "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email.",
-      "secondaryButton": "Decline",
-      "primaryButton": "Accept and confirm"
-    },
-    "waitingAfterSign": {
-      "title": "Now it’s our turn to sign the Agreement, just a moment please"
-    },
-    "victory": {
-      "title": "Done, the card should arrive within a week",
-      "detail": "In the envelope with your card, you’ll find simple instructions on how to activate it and get your PIN.  \nYou can also add the card to your phone and start using it right away.\n\nAll your documents are available in the “Documents” section of both Smart Banka and Internet Banka.",
-      "primaryButton": "Done, go to Overview"
     }
-  }
 }

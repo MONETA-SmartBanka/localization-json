@@ -8,6 +8,24 @@
     },
     "title": "Payment dispute",
     "scenes": {
+        "blacklist": {
+            "title": {
+                "1": "It is not possible to claim a refund for this payment in Smart Banka",
+                "2": "It is not possible to claim a refund for this payment in Smart Banka at this moment",
+                "3": "It is not possible to claim a refund for this payment in Smart Banka at this moment"
+            },
+            "title_ib": {
+                "1": "It is not possible to claim a refund for this payment in Internet Banka",
+                "2": "It is not possible to claim a refund for this payment in Internet Banka at this moment",
+                "3": "It is not possible to claim a refund for this payment in Internet Banka at this moment"
+            },
+            "reason": {
+                "1": "As this payment is a subscription or a membership with a merchant, you will need to contact their customer service directly.<br /><br />If you have never made an account with the merchant or you were charged after the subscription/membership has been canceled, please contact us.",
+                "2": "This transaction is being reviewed by the merchant. If they determine that the transaction has been made in error, the money will be refunded automatically within 7 days.",
+                "3": "This transaction is being reviewed. If we determine that the transaction has been made in error, the money will be refunded automatically within 7 days."
+            },
+            "primaryButton": "Confirm"
+        },
         "transactionHistory": {
             "title": "Do you wish to dispute more transactions?",
             "loadMoreButton": "Show more transactions",
@@ -141,25 +159,19 @@
             "items": [
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "I’ve received and invitation for payment of shipping fees or duties",
                         "clarificationId": "1.1",
                         "kind": "checkbox"
                     },
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "Purchase of goods over the internet over the last few months  ",
                         "clarificationId": "1.2",
                         "kind": "checkbox"
                     },
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_NOT_MINE"
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_NOT_MINE"],
                         "clarificationPrompt": "None of the above",
                         "clarificationId": "1.3",
                         "kind": "checkboxExclusive"
@@ -170,9 +182,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            3
-                        ],
+                        "allowedComplaintEventTypes": [3],
                         "clarificationPrompt": "Attach proof of duplicate payment",
                         "clarificationPromptBase": "Proof of duplicate payment",
                         "clarificationId": "3.1",
@@ -184,9 +194,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            3
-                        ],
+                        "allowedComplaintEventTypes": [3],
                         "clarificationPrompt": "Attach proof of communication with the seller",
                         "clarificationPromptBase": "Communication with the seller",
                         "clarificationId": "3.2",
@@ -198,9 +206,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            4
-                        ],
+                        "allowedComplaintEventTypes": [4],
                         "clarificationPrompt": "Attach proof of alternative payment",
                         "clarificationPromptBase": "Proof of alternative payment",
                         "clarificationPromptDetail": "E.g., a receipt or a bank statement (if the payment has been made with a card or via bank transfer)",
@@ -213,9 +219,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            5
-                        ],
+                        "allowedComplaintEventTypes": [5],
                         "clarificationPrompt": "Attach proof of cancellation",
                         "clarificationPromptBase": "Proof of cancellation",
                         "clarificationPromptDetail": "E.g., card terminal slip or communication with the seller",
@@ -228,9 +232,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            5
-                        ],
+                        "allowedComplaintEventTypes": [5],
                         "clarificationPrompt": "Attach proof of payment rejection",
                         "clarificationPromptBase": "Proof payment rejection",
                         "clarificationId": "5.2",
@@ -242,9 +244,7 @@
                         "allowedComplaintTypes": [
                             "TRANSACTION_MERCHANT_PROBLEM"
                         ],
-                        "allowedComplaintEventTypes": [
-                            6
-                        ],
+                        "allowedComplaintEventTypes": [6],
                         "clarificationPrompt": "Attach proof of the correct amount",
                         "clarificationPromptBase": "Proof of the correct amount",
                         "clarificationPromptDetail": "E.g., a receipt, invoice or communication with the seller",
@@ -254,12 +254,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Attach proof of order/reservation confirmation",
                         "clarificationPromptBase": "Order/reservation confirmation",
                         "clarificationId": "7.1",
@@ -268,12 +264,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Attach communication with the seller/rental company/hotel",
                         "clarificationPromptBase": "Communication with the seller/rental company/hotel",
                         "clarificationId": "7.2",
@@ -282,12 +274,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Name of seller",
                         "clarificationId": "7.3",
                         "kind": "text"
@@ -295,12 +283,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Attach a dated return receipt",
                         "clarificationPromptBase": "Dated return receipt",
                         "clarificationId": "8.1",
@@ -309,12 +293,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Attach communication with the seller",
                         "clarificationPromptBase": "Communication with the seller",
                         "clarificationId": "8.2",
@@ -323,12 +303,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Attach proof of order/reservation confirmation",
                         "clarificationPromptBase": "Proof of order/reservation confirmation",
                         "clarificationId": "9.1",
@@ -337,12 +313,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Attach communication with the seller/rental company/hotel",
                         "clarificationPromptBase": "Communication with the seller/rental company/hotel",
                         "clarificationId": "9.2",
@@ -351,12 +323,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Attach photos of delivered goods/services provided",
                         "clarificationPromptBase": "Photos of delivered goods/services provided",
                         "clarificationId": "9.3",
@@ -365,12 +333,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Original date of delivery",
                         "clarificationId": "9.4",
                         "kind": "date"
@@ -378,12 +342,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "I have returned the goods",
                         "clarificationId": "9.5",
                         "kind": "checkbox"
@@ -391,12 +351,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Returned on",
                         "requiredCheckboxId": "9.5",
                         "clarificationId": "9.6",
@@ -405,12 +361,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            9
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Return method ",
                         "requiredCheckboxId": "9.5",
                         "clarificationId": "9.7",
@@ -419,9 +371,7 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "WITHDRAWAL_ATM_ERROR"
-                        ],
+                        "allowedComplaintTypes": ["WITHDRAWAL_ATM_ERROR"],
                         "clarificationPrompt": "Attach the ATM slip confirming the withdrawal",
                         "clarificationPromptBase": "ATM slip confirming the withdrawal",
                         "clarificationId": "withdrawalConf",
@@ -437,9 +387,7 @@
                             "WITHDRAWAL_NOT_MINE",
                             "WITHDRAWAL_ATM_ERROR"
                         ],
-                        "disallowedComplaintEventTypes": [
-                            9
-                        ],
+                        "disallowedComplaintEventTypes": [9],
                         "clarificationPrompt": "Please give a description of what happened",
                         "clarificationId": "userDesc",
                         "kind": "text"
@@ -447,12 +395,8 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Original date of delivery",
                         "clarificationId": "7.5",
                         "kind": "date"
@@ -460,24 +404,16 @@
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            7
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [7],
                         "clarificationPrompt": "Transactions may be disputed 30 days after original delivery date.",
                         "kind": "warning"
                     }
                 ],
                 [
                     {
-                        "allowedComplaintTypes": [
-                            "TRANSACTION_GOODS_PROBLEM"
-                        ],
-                        "allowedComplaintEventTypes": [
-                            8
-                        ],
+                        "allowedComplaintTypes": ["TRANSACTION_GOODS_PROBLEM"],
+                        "allowedComplaintEventTypes": [8],
                         "clarificationPrompt": "Please wait at least 15 days after the seller’s promise of a refund",
                         "kind": "warning"
                     }

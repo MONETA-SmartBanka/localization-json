@@ -1,61 +1,61 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "screens": {
-      "cancelIntro": {
-        "title": "Do you wish to cancel your Accident Insurance – Single?",
-        "detail": "If you cancel the insurance, you will not be able to claim any benefits in case of accident.",
-        "expirationTitle": "How long will I remain covered?",
-        "sections": [
-          {
-            "title": "For how long is the insurance valid?",
-            "bullets": [
-              "If canceled within 30 days of arranging, then it is only valid until midnight tonight. Otherwise, it is valid until the end of this month."
-            ]
-          },
-          {
-            "title": "What about the premiums?",
-            "bullets": [
-              "It is usually billed at the beginning of the month retrospectively for the previous period.",
-              "If cancelled within 30 days of arranging, the premium will be refunded the following month. Otherwise, the last premium will be billed the following month."
-            ]
-          }
-        ],
-        "footer": "The insurance will be valid until the end of this calendar month. If you cancel your insurance by today, the last payment for this month will be deducted automatically the following month.",
-        "primaryButton": "Cancel Insurance"
-      },
-      "cancelVictory": {
-        "title": "Done! Your Accident Insurance will be cancelled by the end of the month.",
-        "detail": "The card with the option to file an insurance claim remains active until the end of the month. In the following month, the insurance will be cancelled.",
-        "primaryButton": "Back to Insurance List"
-      },
-      "cancelVictoryDay": {
-        "title": "Done! Your Accident Insurance will be cancelled today.",
-        "detail": "The card with the option to file an insurance claim remains active until the end of today. Tomorrow, the insurance will be cancelled.",
-        "primaryButton": "Back to Insurance List"
-      },
-      "cancelDocument": {
-        "title": "Insurance cancellation",
-        "detail": "Download the PDF",
-        "primaryButton": "I agree",
-        "secondaryButton": "I do not agree"
-      },
-      "cancelForOfferVictory": {
-        "title": "We have received the cancellation request",
-        "detail": "We have received the request to cancel the insurance. The insurance shall be canceled by {{date}}. You can now arrange new insurance.",
-        "primaryButton": "Continue"
-      },
-      "cancelDisagree": {
-        "title": "We can’t continue without your permission.",
-        "detail": "Should you have any questions regarding your contract, do not hesitate to contact us. We are happy to help. ",
-        "callUs": "Call our\nhelpline",
-        "branch": "Visit our\nbranch",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue"
-      },
-      "sign": {
-        "title": "Sign the application"
+    "status": "OK",
+    "responseObject": {
+        "screens": {
+            "cancelIntro": {
+                "title": "Do you wish to cancel your Accident Insurance – Single?",
+                "detail": "If you cancel the insurance, you will not be able to claim any benefits in case of accident.",
+                "expirationTitle": "How long will I remain covered?",
+                "sections": [
+                    {
+                        "title": "For how long is the insurance valid?",
+                        "bullets": [
+                            "If canceled within 30 days of arranging, then it is only valid until midnight tonight. Otherwise, it is valid until the end of this month."
+                        ]
+                    },
+                    {
+                        "title": "What about the premiums?",
+                        "bullets": [
+                            "It is usually billed at the beginning of the month retrospectively for the previous period.",
+                            "If cancelled within 30 days of arranging, the premium will be refunded the following month. Otherwise, the last premium will be billed the following month."
+                        ]
+                    }
+                ],
+                "footer": "The insurance will be valid until the end of this calendar month. If you cancel your insurance by today, the last payment for this month will be deducted automatically the following month.",
+                "primaryButton": "Cancel Insurance"
+            },
+            "cancelVictory": {
+                "title": "Done! Your Accident Insurance will be cancelled by the end of the month.",
+                "detail": "The card with the option to file an insurance claim remains active until the end of the month. In the following month, the insurance will be cancelled.",
+                "primaryButton": "Back to Insurance List"
+            },
+            "cancelVictoryDay": {
+                "title": "Done! Your Accident Insurance will be cancelled today.",
+                "detail": "The card with the option to file an insurance claim remains active until the end of today. Tomorrow, the insurance will be cancelled.",
+                "primaryButton": "Back to Insurance List"
+            },
+            "cancelDocument": {
+                "title": "Insurance cancellation",
+                "detail": "Download the PDF",
+                "primaryButton": "I agree",
+                "secondaryButton": "I do not agree"
+            },
+            "cancelForOfferVictory": {
+                "title": "We have received the cancellation request",
+                "detail": "We have received the request to cancel the insurance. The insurance shall be canceled by {{date}}. You can now arrange new insurance.",
+                "primaryButton": "Continue"
+            },
+            "cancelDisagree": {
+                "title": "We can’t continue without your permission.",
+                "detail": "Should you have any questions regarding your contract, do not hesitate to contact us. We are happy to help. ",
+                "callUs": "Call our\nhelpline",
+                "branch": "Visit our\nbranch",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue"
+            },
+            "sign": {
+                "title": "Sign the application"
+            }
         }
     }
-  }
 }

@@ -23,13 +23,13 @@
             "primaryButton": "Zpět na přehled zůstatků"
         },
         "scoring": {
-            "title": "Omlouváme se, něco se vymňouklo",
+            "title": "Omlouváme se, tak tohle nevyšlo",
             "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět na přehled zůstatků"
         },
         "api": {
-            "title": "Omlouváme se, něco se vymňouklo",
+            "title": "Omlouváme se, tak tohle nevyšlo",
             "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
             "callUs": "Zavolejte nám\nna infolinku",
             "primaryButton": "Zpět na přehled zůstatků"
@@ -101,7 +101,7 @@
             "primaryButton": "Pokračovat"
         },
         "prescoring": {
-            "title": "Minutku prosím, kocour právě počítá, kolik ušetříte",
+            "title": "Chvilku strpení. Právě počítáme, kolik můžete ušetřit",
             "detail": "Tohle potrvá jen minutku"
         },
         "prescoringNok": {
@@ -430,7 +430,7 @@
             "primaryButton": "Ukončit žádost"
         },
         "scoring": {
-            "title": "Kocour to teď všechno musí zkontrolovat",
+            "title": "Chvilku strpení. Právě počítáme, kolik můžete ušetřit",
             "detail": "Tohle potrvá jen minutku"
         },
         "scoringNok": {
@@ -556,16 +556,12 @@
                 },
                 {
                     "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Žádost jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat.",
-                    "labels": [
-                        "Přidejte podepsané<br>Potvrzení o výši příjmu"
-                    ],
+                    "labels": ["Přidejte podepsané<br>Potvrzení o výši příjmu"],
                     "categoryCode": "13"
                 },
                 {
                     "title": "<b>Vyfoťte prosím přední stranu svého řidičského průkazu.</b>",
-                    "labels": [
-                        "Přidejte přední stranu<br>řidičského průkazu"
-                    ],
+                    "labels": ["Přidejte přední stranu<br>řidičského průkazu"],
                     "categoryCode": "143"
                 },
                 {
@@ -574,22 +570,16 @@
                     "documents": [
                         {
                             "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů",
-                            "labels": [
-                                "Přidejte doklad"
-                            ],
+                            "labels": ["Přidejte doklad"],
                             "documentCode": "112"
                         },
                         {
                             "title": "Důchodový výměr",
-                            "labels": [
-                                "Přidejte doklad"
-                            ],
+                            "labels": ["Přidejte doklad"],
                             "documentCode": "113"
                         },
                         {
-                            "labels": [
-                                "Přidejte doklad"
-                            ]
+                            "labels": ["Přidejte doklad"]
                         }
                     ]
                 }

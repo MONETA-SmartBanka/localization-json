@@ -1,1036 +1,1041 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "precontractDisagree": {
-        "title": "We need your agreement",
-        "detail": "You are just a step away from receiving overdraft. To continue, we need your agreement to pre-contractual information and a contract signature. <b>Do you have any questions? Let's talk about it. </b>",
-        "callUs": "Call our helpline",
-        "branch": "Visit  a branch/find the closest branch",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue application"
-      },
-      "contractDisagree": {
-        "title": "We need your agreement",
-        "detail": "You are just a step away from receiving overdraft. To continue, we need your agreement to pre-contractual information and a contract signature. <b>Do you have any questions? Let's talk about it. </b>",
-        "callUs": "Call our helpline",
-        "branch": "Visit  a branch/find the closest branch",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue application"
-      },
-      "scoringLessDisagree": {
-        "title": "That is the best we can offer you at this moment",
-        "detail": "This is the amount of overdraft you could receive, should you reconsider and accept our offer.",
-        "callUs": "Call our helpline",
-        "secondaryButton": "Cancel application",
-        "primaryButton": "Continue application"
-      },
-      "api": {
-        "title": "We are sorry, something went wrong",
-        "detail": "Please try again later.",
-        "callUs": "Call us",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "moreMoney": {
-        "title": "Need a higher Overdraft?",
-        "detail": "That should not be a problem. We can set it to up to 100,000 CZK in Internet Banka or in our branch. You can do it yourself in Online Banking or visit one of out branches and we will be happy to assist you. ",
-        "branch": "Visit one of our branches",
-        "primaryButton": "Back",
-        "secondaryButton": "Back to Balance Overview"
-      },
-      "branch": {
-        "title": "We can't do that within the app just yet",
-        "detail": "<p>We are sorry, we aren't able to calculate your Overdraft in Smart Banka.</p><p><b>You can apply for Overdraft in Internet Banka, at our branch or call us for more information.</b></p>",
-        "callUs": "Call our helpline ",
-        "branch": "Visit one of our branches",
-        "primaryButton": "Cancel application"
-      },
-      "weCallYou": {
-        "title": "We will call you",
-        "detail": "One of out phone operators will try to reach you <b> by the end of the following business day.</b> If he is not able to reach you he will try later.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "uncommittedChanges": {
-        "title": "We will not save the changes made in this form if you leave this page. Is that ok? ",
-        "secondaryButton": "No, stay on page",
-        "primaryButton": "Yes, continue."
-      },
-      "criteriaFailed": {
-        "title": "Unfortunately, we are unable to offer you Overdraft at this time.",
-        "detail": "This is all we can help you with in the app, thank you for understanding.",
-        "primaryButton": "Back to Balance Overview "
-      },
-      "scoring": {
-        "title": "We are sorry, something went wrong",
-        "detail": "<b>An unexpected error has occurred while processing your request. Please, try again later - we recommend cancelling the application and filling it out again.</b>",
-        "primaryButton": "Cancel application and try again. "
-      },
-      "noticePeriod": {
-        "title": "Unfortunately, we have some bad news :(",
-        "detail": "We cannot offer you Overdraft during the trial or notice period. If you are currently within the trial period stop by one of our branches, we will try to work something out.",
-        "branch": "Visit one of our branches"
-      },
-      "longTermScreens": {
-        "SCORING_UNAVAILABLE": {
-          "title": "ZZZzzzz….",
-          "detail": "At night, we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
-          "primaryButton": "Back to Balance Overview "
-        },
-        "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "This will take all night…",
-          "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
-          "primaryButton": "Back to Balance Overview"
-        },
-        "CONTRACT_WAITING_FOR_OPEN_HOURS": {
-          "title": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
-          "primaryButton": "Back to Balance Overview"
-        }
-      }
-    },
-    "general": {
-      "toolbarTitle": "Flexikredit",
-      "phoneNumberSale": "800 102 040",
-      "phoneNumberSupport": "224 443 636",
-      "messengerUrl": "https://m.me/138479367229",
-      "supportChat": "<b>Loan process just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat."
-    },
-    "scenes": {
-      "flexikreditHelp": {
-        "title": "Do you need assistance or wish to save the application for later??",
-        "bullets": [
-          "<b>Fully online - and active moments after arranging</b> immediately during business hours ; you will only have to visit us if it is absolutely necessary.",
-          "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
-          "<b>You pay interest only for the days you use Overdraft.</b>",
-          "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
-          "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it.",
-          "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve. "
-        ],
-        "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
-        "summaryHeadline": "All about Flexikredit:",
-        "amount": "Overdraft amount",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "interestRate": "Annual interest rate",
-        "rpsn": "Annual percentage rate",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "needOtherTimeTitle": "Do you need to finish the application later?",
-        "primaryButton": "Finish later",
-        "secondaryButton": "Cancel application",
-        "needContactUsTitle": "Do you need help?",
-        "branch": "Visit one of our branches",
-        "callUs": "Call our helpline"
-      },
-      "flexikreditSetup": {
-        "title": "The Flexikredit Overdraft for the account:",
-        "subtitle": "Don't worry that you won't run out of standing orders before you are paid. The Flexikredit reserve, available at any time, will be your security.",
-        "accountTitle": "Account to which we will set the overdraft",
-        "amount": "Overdraft amount",
-        "rateOfInterest": "Annual interest rate",
-        "rpsn": "Annual Percentage Rate of Cost",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "tip": "<b>Tip:</b> Unsure of the Overdraft amount to choose? Our clients choose on average 15 000 CZK.",
-        "bullets": [
-          "<b>Fully online - and active moments after arranging</b> immediately during business hours ; you will only have to visit us if it is absolutely necessary.",
-          "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
-          "<b>You pay interest only for the days you use Overdraft.</b>",
-          "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
-          "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it..",
-          "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve."
-        ],
-        "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
-        "secondaryButton": "I need a higher Overdraft",
-        "primaryButton": "Continue"
-      },
-      "clipFlexikreditSetup": {
-        "title": "Increase your overdraft for {{0}}",
-        "amount": "New overdraft amount",
-        "arrangementFee": "Negotiation and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo-missing": "You can arrange an overdraft without a drawdown fee only in Smart Banka or Internet Banka",
-        "example": "<b>How much do you pay for drawing an overdraft?</b>For example, if you run out of credit {{loanAmount}} CZK in fukll for {{totalDueMonths}} months, the annual interest rate will be {{interestRate}} %, the drawdown fee {{drawdownFee}} CZK, RPSN {{rpsn}} % and the total amount due {{totalDueAmount}} CZK.",
-        "tip-missing": "<b>Tip:</b> Don't know what amount of overdraft to choose? Our clients choose on average 15 000 CZK.",
-        "bullets": [
-          "<b> You will increase the overdraft online and after the agreement it will be active shortly – </b> you will visit us, only when necessary.",
-          "<b> You will repay as usual – </b> automatically by incoming payments. It will suffice if  {{minCreditMonthlyAmount}} CZK arrives at your account monthly,  this amount does not include transfers from any of your accounts with us, including savings and business, transfers from internal accounts and interest income from funds in your accounts.",
-          "<b>To help protect you from unauthorized overdrafts, </b>we will keep the last 500 CZK as a reserve."
-        ],
-        "detail": "You can also find information <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">on the web</a>.",
-        "secondaryButton-missing": "I need more than 30 000 CZK",
-        "primaryButton": "Continue"
-      },
-      "permanentAddress": {
-        "title": "Is this your resident address?",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP",
-        "countryTitle": "Country",
-        "detail": "You will enter your contact address in the next step",
-        "primaryButton": "OK"
-      },
-      "contactAddress": {
-        "title": "Is this your contact address?",
-        "alternativeTitle": "What is your contact address?",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP",
-        "countryTitle": "Country",
-        "primaryButton": "OK"
-      },
-      "identification": {
-        "title": "Is this your name and surname?",
-        "firstName": "Name",
-        "lastName": "Surname",
-        "citizenship": "Citizenship",
-        "taxResidence": "Tax Residence",
-        "taxResidenceInfoTitle": "Determination of tax residence",
-        "taxResidenceInfoBody": "We request information from you in order to fulfill the Common Standard for due diligence in the area of ​​information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations on the basis of the Multilateral Agreement of Competent Authorities on the Automatic Exchange of Information on Financial Accounts (in case banks, these are current, savings accounts and time deposits).",
-        "vat": "TIN",
-        "anotherVat": "Add another tax residence",
-        "phone": "Phone",
-        "primaryButton": "Continue"
-      },
-      "incomesPim": {
-        "list": {
-          "title": "Pokud máte více příjmů, můžete je nyní doplnit",
-          "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
-          "incomes": [
-            "Příjem",
-            "Druhý příjem",
-            "Třetí příjem"
-          ],
-          "remove": "Odstranit příjem",
-          "incomeSource": "Zdroj příjmu",
-          "fillIn": "Doplňte",
-          "employer": {
-            "EMPLOYMENT_INCOME": "Zaměstnavatel",
-            "BUSINESS_INCOME": "Název subjektu",
-            "RENT": "Subjekt vyplácející rentu"
-          },
-          "netIncome": "Čistý měsíční příjem",
-          "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
-          "fillMissing": "Doplňte chybějící údaje",
-          "moreIncomes": "Další příjmy",
-          "entrepreneurFrom": "Podnikám od",
-          "taxBase": "Výše rozdílu (základ daně za minulý rok)",
-          "taxationPeriodYear": "Zdaňovací období",
-          "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
-          "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
-          "tax": "Daň (ř. 74)",
-          "addMoreIncomes": {
-            "title": "Přidat další příjem",
-            "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
-          },
-          "removeAlert": {
-            "title": "Opravdu chcete odstranit tento příjem?"
-          },
-          "trialPeriod": "ve zkušební lhůtě",
-          "onNoticePeriod": "ve výpovědní lhůtě",
-          "employmentForPeriod": "na dobu určitou do {0}",
-          "primaryButton": "Pokračovat"
-        },
-        "incomeSource": {
-          "title": "Jaký je váš zdroj příjmů?",
-          "detail": "Příjem",
-          "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
-          "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
-          "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-          "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
-          "fixPeriodTitle": "a zároveň na dobu určitou",
-          "fixPeriodDateTitle": "do",
-          "fixPeriodDateHint": "Vyberte datum",
-          "primaryButton": "Pokračovat",
-          "titleConfirm": "Zaměstnání u {0}",
-          "detailConfirm": "Vyberte všechny platné varianty",
-          "offers": {
-            "TO_SME": {
-              "icon": "bussiness",
-              "title": "Hledáte úvěr pro podnikání?",
-              "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-              "bulletsTitle": "Výhody podnikatelského úvěru",
-              "bullets": [
-                "Úrok už od {interestRate} ročně",
-                "Sjednání kompletně online",
-                "Bez poplatku za vedení úvěru",
-                "Bez prokazování příjmu",
-                "Možnost odpočtu úroků úvěru z daňového základu",
-                "Pohodové splácení s pojištěním schopnosti splácet"
-              ],
-              "primaryButton": {
-                "actionType": "APP_PAGE",
-                "actionData": "SME_NTC_EXPRES",
-                "actionLabelText": "Více o podnikatelském úvěru"
-              },
-              "secondaryButton": {
-                "actionType": "CLOSE",
-                "actionLabelText": "Zpět na Expres půjčku"
-              }
-            }
-          }
-        },
-        "entrepreneur": {
-          "title": "Detaily o vašem podnikání",
-          "entrepreneurFrom": "Podnikám od",
-          "taxBase": "Výše rozdílu (základ daně za minulý rok)",
-          "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
-          "taxationPeriodYear": "Zdaňovací období",
-          "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
-          "line101LastTaxationPeriodIncomeInfoMessage": "Zadejte částku z řádku 101 z daňového přiznání z minulého roku. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
-          "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
-          "unpaidTaxForLastYearInfoMessage": "Zadejte skutečnou daň z příjmu z řádku 91 z daňového přiznání z minulého roku.",
-          "tax": "Daň (ř. 74)",
-          "taxInfoMessage": "Po uplatnění slevy podle paragrafu 35c zákona ř. 71 - ř. 73",
-          "primaryButton": "Pokračovat"
-        },
-        "incomeSources": [
-          {
-            "id": "EMPLOYMENT_INCOME",
-            "title": "Zaměstnanec",
-            "detail": "Vyberte všechny platné varianty"
-          },
-          {
-            "id": "BUSINESS_INCOME",
-            "title": "Podnikatel"
-          },
-          {
-            "id": "RENT",
-            "title": "Renta"
-          },
-          {
-            "id": "PARENTAL_ALLOWANCE",
-            "title": "Rodičovský příspěvek"
-          },
-          {
-            "id": "MATERNITY_ALLOWANCE",
-            "title": "Mateřská"
-          },
-          {
-            "id": "OLDAGE_PENSION",
-            "title": "Důchodce - starobní"
-          },
-          {
-            "id": "DISABILITY_PENSION",
-            "title": "Důchodce - invalidní"
-          },
-          {
-            "id": "RENTAL_OFF_TAX_RETURN",
-            "title": "Pronájem"
-          },
-          {
-            "id": "MAINTENANCE_ALLOWANCE",
-            "title": "Výživné"
-          },
-          {
-            "id": "OTHER_INCOME",
-            "title": "Jiný",
-            "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
-          }
-        ],
-        "employer": {
-          "EMPLOYMENT_INCOME": {
-            "title": "Jaký je Váš současný zaměstnavatel?",
-            "employerTitle": "Zaměstnavatel",
-            "employerPlaceholder": "vyberte",
-            "czechEmployer": "Český zaměstnavatel",
-            "foreignEmployer": "Zahraniční zaměstnavatel",
-            "countryTitle": "Země",
-            "idNumberTitle": "IČ",
-            "primaryButton": "Pokračovat"
-          },
-          "BUSINESS_INCOME": {
-            "title": "Doplňte údaje o Vašem podnikání",
-            "employerTitle": "Název",
-            "employerPlaceholder": "Vyberte název subjektu",
-            "czechEmployer": "Český subjekt",
-            "foreignEmployer": "Zahraniční subjekt",
-            "countryTitle": "Země",
-            "idNumberTitle": "IČ",
-            "primaryButton": "Pokračovat"
-          },
-          "RENT": {
-            "title": "Kdo vám rentu vyplácí?",
-            "employerTitle": "Subjekt vyplácející rentu",
-            "czechEmployer": "Český subjekt",
-            "foreignEmployer": "Zahraniční subjekt",
-            "employerPlaceholder": "vyberte",
-            "countryTitle": "Země",
-            "idNumberTitle": "IČ",
-            "primaryButton": "Pokračovat"
-          }
-        },
-        "employerSearch": {
-          "EMPLOYMENT_INCOME": {
-            "title": "Jaký je váš současný zaměstnavatel?",
-            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Zaměstnavatel",
-            "czechEmployer": "Český zaměstnavatel",
-            "foreignEmployer": "Zahraniční zaměstnavatel",
-            "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
-          },
-          "BUSINESS_INCOME": {
-            "title": "Subjekt",
-            "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-            "employerTitle": "Subjekt",
-            "czechEmployer": "Česká společnost",
-            "foreignEmployer": "Zahraniční společnost",
-            "switchToForeignEmployer": "Podnikám v zahraničí"
-          },
-          "RENT": {
-            "title": "Kdo vám rentu vyplácí?",
-            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Subjekt vyplácející rentu",
-            "czechEmployer": "Česká společnost",
-            "foreignEmployer": "Zahraniční společnost",
-            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
-          }
-        },
-        "employerSearchId": {
-          "EMPLOYMENT_INCOME": {
-            "title": "Jaký je váš současný zaměstnavatel?",
-            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Zaměstnavatel",
-            "czechEmployer": "Český zaměstnavatel",
-            "foreignEmployer": "Zahraniční zaměstnavatel",
-            "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
-          },
-          "BUSINESS_INCOME": {
-            "title": "Subjekt",
-            "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
-            "employerTitle": "Subjekt",
-            "czechEmployer": "Česká společnost",
-            "foreignEmployer": "Zahraniční společnost",
-            "switchToForeignEmployer": "Podnikám v zahraničí"
-          },
-          "RENT": {
-            "title": "Kdo vám rentu vyplácí?",
-            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-            "employerTitle": "Subjekt vyplácející rentu",
-            "czechEmployer": "Česká společnost",
-            "foreignEmployer": "Zahraniční společnost",
-            "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
-          }
-        },
-        "solvency": {
-          "EMPLOYMENT_INCOME": {
-            "title": "Jaký je váš příjem ze zaměstnání?",
-            "inputTitle": "Čistý měsíční příjem",
-            "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
-            "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
-            "primaryButton": "Pokračovat"
-          },
-          "RENT": {
-            "title": "Jaká je výše vaší renty",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "PARENTAL_ALLOWANCE": {
-            "title": "Jaká je výše vašeho rodičovského příspěvku",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "MATERNITY_ALLOWANCE": {
-            "title": "Jaká je výše vaší peněžité pomoci v mateřství",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "OLDAGE_PENSION": {
-            "title": "Jaká je výše vašeho starobního důchodu?",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "DISABILITY_PENSION": {
-            "title": "Jaká je výše vašeho invalidního důchodu",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "RENTAL_OFF_TAX_RETURN": {
-            "title": "Jaká je výše vašeho příjmu z pronájmu",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "MAINTENANCE_ALLOWANCE": {
-            "title": "Jaká je výše vašeho příjmu z výživného",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          },
-          "OTHER_INCOME": {
-            "title": "Jaká je výše vašeho příjmu",
-            "inputTitle": "Čistý měsíční příjem",
-            "primaryButton": "Pokračovat"
-          }
-        },
-        "invalidIncomeCombination": {
-          "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-          "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-          "callUs": "Zavolejte nám\nna infolinku",
-          "branch": "Navštivte nás\nna pobočce",
-          "primaryButton": "Zpět",
-          "secondaryButton": "Dokončit později",
-          "tertiaryButton": "Ukončit žádost"
-        }
-      },
-      "incomeSource": {
-        "title": "What is the source of your income?",
-        "employedTitle": "I am employed",
-        "indefinitePeriodTitle": "and at the same time for an indefinite period",
-        "trialPeriodTitle": "and on a trial period",
-        "noticePeriodTitle": "and on a notice period",
-        "employedInfo": "You can choose 1-3 answers:",
-        "fixPeriodTitle": "for a fixed period",
-        "fixPeriodDateTitle": "until",
-        "fixPeriodDateHint": "select a date",
-        "businessTitle": "Business",
-        "pensionTitle": "Pension",
-        "disabilityPensionTitle": "Disability Pension",
-        "otherTitle": "Other",
-        "primaryButton": "Continue"
-      },
-      "otherSource": {
-        "title": "Visit us at a branch",
-        "detail": "We're sorry, but we can't calculate the loan for you directly in Smart Bank. <b>Please stop by our branch, where we'll sort everything out, or call us for more information.</b>",
-        "callUs": "Call\nUs",
-        "branch": "Visit\nBranch",
-        "primaryButton": "End application"
-      },
-      "employer": {
-        "title": "Is this your current employer?",
-        "alternativeTitle": "Who is your current employer?",
-        "employerTitle": "Employer",
-        "streetTitle": "Street",
-        "descriptiveNumberTitle": "Dsc. no",
-        "orientationNumberTitle": "Or. no",
-        "cityTitle": "City",
-        "zipTitle": "ZIP",
-        "countryTitle": "Country",
-        "idNumberTitle": "IN",
-        "primaryButton": "Continue",
-        "secondaryButton": "Other"
-      },
-      "employerSearch": {
-        "title": "Employer auto-fill",
-        "hint": "Please enter at least the first 3 letters (with diacritics) of your employer",
-        "employerTitle": "Employer"
-      },
-      "personalSolvency": {
-        "inputTitle": "Monthly income",
-        "title": "Is this your net monthly income?",
-        "alternativeTitle": "What is your net monthly income?",
-        "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "pensionerPersonalSolvency": {
-        "title": "Is this your monthly pension?",
-        "alternativeTitle": "What is your monthly pension?",
-        "inputTitle": "Monthly pension",
-        "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "dependents": {
-        "title": "How many dependents?",
-        "me": "Me",
-        "count": "Number of people",
-        "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your income?",
-        "primaryButton": "Continue"
-      },
-      "pensionerDependents": {
-        "title": "How many dependents?",
-        "me": "Me",
-        "count": "Number of people",
-        "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your pension?",
-        "primaryButton": "Continue"
-      },
-      "householdSolvency": {
-        "title": "What is the net monthly income of your household?",
-        "inputTitle": "Monthly income",
-        "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "pensionerHouseholdSolvency": {
-        "title": "What is the net monthly income of your household?",
-        "inputTitle": "Monthly income",
-        "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
-        "primaryButton": "Continue"
-      },
-      "housingExpenses": {
-        "title": "What is your household expenses?",
-        "inputTitle": "Monthly expenses",
-        "detail": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
-        "primaryButton": "Continue"
-      },
-      "householdExpensesNecessary": {
-        "title": "What are the other monthly expenses of your household?",
-        "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
-        "installmentsSum": "Amount of monthly installments",
-        "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
-        "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
-        "necessaryExpenses": "Amount of monthly expenses",
-        "necessaryExpensesError": {
-          "title": "Your necessary monthly expenses are higher than your income",
-          "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
-          "secondaryButton": "Edit Expenses",
-          "primaryButton": "Everything is correct, continue"
-        },
-        "richBullets": [
-          {
-            "image": "tickFill",
-            "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Transport (tram, fuel costs)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Health care (medicines, rehabilitation, medical devices)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Nutrition"
-          },
-          {
-            "image": "tickFill",
-            "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
-          },
-          {
-            "image": "tickFill",
-            "title": "Wage garnishment"
-          },
-          {
-            "image": "tickFill",
-            "title": "Other regular monthly expenses"
-          },
-          {
-            "image": "closeFill",
-            "title": "Please do not include loan repayments including mortgages"
-          }
-        ],
-        "primaryButton": "Continue"
-      },
-      "otherInfo": {
-        "title": "Now the small details:",
-        "detail": "Please choose a form of ID with which you could present at one of our branches.",
-        "primaryButton": "Continue",
-        "idDetail": "Other ID",
-        "secondDocuments": [
-          {
-            "title": "Driving license",
-            "id": "DRIVING_LICENCE"
-          },
-          {
-            "title": "Passport",
-            "id": "PASSPORT"
-          },
-          {
-            "title": "Birth certificate",
-            "id": "BIRTH_CERTIFICATE"
-          }
-        ],
-        "housingDetail": "What is your housing situation?",
-        "housing": [
-          {
-            "title": "I own a flat/house",
-            "id": "OWN"
-          },
-          {
-            "title": "I rent a flat/house",
-            "id": "RENTED"
-          },
-          {
-            "title": "I live in cooperative flat",
-            "id": "COOPERATIVE"
-          },
-          {
-            "title": "I live with my parents",
-            "id": "PARENTS"
-          },
-          {
-            "title": "Other",
-            "id": "OTHER"
-          }
-        ]
-      },
-      "scoringAgreement": {
-        "title": "One last step - the agreement",
-        "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Czech Banking Credit Bureau and the Czech Non-Banking Credit Bureau, and other steps necessary to contract conclusion.</p><p>I acknowledge <a href=\"https://www.moneta.cz/ochrana-dat\">personal data processing</a> of the MONETA Group and I solemnly declare the following:</p><p><ul><li>that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution;</li><li>I have not been convicted of crimes related to my business, or of economic crime, or crime against property;</li><li>I also declare that:<br><ul><li>I have not been declared bankrupt, and no insolvency or any such legal action has been taken against my person, nor have any steps been taken to initiate them;</li><li>the petition for bankruptcy of my assets or the insolvency petition for lack of my assets have not been rejected;</li><li>none of my assets are being liquidated</li><li>there are no arrears related to my assets in the Tax Register;</li><li>there has been no disciplinary punishment against my person in the last three years in accordance with the special regulations governing the performance of professional activities;</li><li>there are no outstanding arrears on insurance premiums and penalties for public health insurance or on insurance premiums and penalties for social security and contributions to the state employment policy.</li></ul></li></ul></p><p>I give consent to Moneta Money Bank to verify all necessary information and take any further steps which Moneta Money Bank will deem necessary to the approval of my application.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
-        "checkboxText": "I confirm these details are correct.",
-        "primaryButton": "I agree, continue"
-      },
-      "flexikreditScoringOk": {
-        "title": "Everything is OK, we can continue",
-        "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
-        "amount": "Overdraft amount",
-        "selectedAccount": "Account",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "rateOfInterest": "Annual interest rate",
-        "rpsn": "Annual Percentage Rate of Cost",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "primaryButton": "Continue"
-      },
-      "flexikreditScoringBut": {
-        "title": "We have approved the Overdraft as follows. You will need to continue at one of our branches.",
-        "amount": "Overdraft amount",
-        "selectedAccount": "Account",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "detail": "We are missing some of your documentation, please bring them with you to one of out branches and we will finalize your application together.</b>",
-        "branchDocumentTypes": [
-          {
-            "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> <b>filled out</b> by your employer",
-            "id": "1"
-          },
-          {
-            "title": "<b>ID</b>",
-            "id": "88"
-          },
-          {
-            "title": "<b>Driving license</b>",
-            "id": "91"
-          }
-        ],
-        "primaryButton": "I understand, find the nearest branch"
-      },
-      "documentUpload": {
-        "uploadScenes": {
-          "firstUpload": {
-            "title": "Let’s deal with it. Please provide us with your current identification documents.",
-            "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
-            "primaryButton": "Continue",
-            "secondaryButton": "I want to visit a branch"
-          },
-          "anotherUpload": {
-            "title": "Thank you for your patience",
-            "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
-            "primaryButton": "Continue",
-            "secondaryButton": "I want to visit a branch"
-          },
-          "poorUpload": {
-            "title": "Some documents could not be processed",
-            "detail": "<b>Reupload a clear and sharp picture:</b>",
-            "primaryButton": "Continue",
-            "secondaryButton": "I want to visit a branch"
-          },
-          "branchNeeded": {
-            "title": "We have to meet",
-            "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
-            "primaryButton": "I understand; show me the nearest branch"
-          },
-          "uploadCheck": {
-            "title": "We’re going to check legibility and get back to you",
-            "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
-            "primaryButton": "Back to Balance Overview"
-          }
-        },
-        "uploadedDocuments": [
-          {
-            "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
-            "labels": [
-              "Attach the front page of your ID",
-              "Attach the back page of your ID"
-            ],
-            "categoryCode": "141"
-          },
-          {
-            "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
-            "labels": [
-              "Attach a signed proof of income"
-            ],
-            "categoryCode": "13"
-          },
-          {
-            "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
-            "labels": [
-              "Attach the front page of your driving licence"
-            ],
-            "categoryCode": "143"
-          },
-          {
-            "title": "Please take a picture of the following: ",
-            "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
-            "documents": [
-              {
-                "title": "Payment receipt from the Czech Post that is not older than 30 days",
-                "labels": [
-                  "Attach a document"
-                ],
-                "documentCode": "112"
-              },
-              {
-                "title": "Pension assessment",
-                "labels": [
-                  "Attach a document"
-                ],
-                "documentCode": "113"
-              },
-              {
-                "labels": [
-                  "Attach a document"
-                ]
-              }
-            ]
-          }
-        ],
-        "documents": {
-          "13": {
-            "icon": "documentsFill",
-            "title": "Signed Certificate of Income",
-            "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
-          },
-          "112": {
-            "icon": "documentsFill",
-            "title": "Payment document from the Czech Post, which is not older than 30 days"
-          },
-          "113": {
-            "icon": "documentsFill",
-            "title": "Pension amount"
-          },
-          "141": {
-            "icon": "idCardFill",
-            "title": "ID",
-            "photoCapture": [
-              {
-                "title": "Take a photo of the front of your ID card",
-                "detail": "Valid document, in good lighting, sharp and not blurred.",
-                "primaryButton": "Take Photo"
-              },
-              {
-                "title": "Take a photo of the back of your ID card",
-                "detail": "alid document, in good lighting, sharp and not blurred.",
-                "primaryButton": "Take Photo"
-              }
-            ],
-            "review": {
-              "title": "reat photo! Did we read everything correctly?",
-              "documentDetails": {
-                "title": "Data from the document",
-                "firstName": "First Name",
-                "lastName": "Last Name",
-                "birthDate": "Date of birth",
-                "birthPlace": "Birth Place",
-                "birthNumber": "Birth Number",
-                "idCardNumber": {
-                  "title": "ID Number",
-                  "secondaryTitle": "Passport Number"
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "precontractDisagree": {
+                "title": "We need your agreement",
+                "detail": "You are just a step away from receiving overdraft. To continue, we need your agreement to pre-contractual information and a contract signature. <b>Do you have any questions? Let's talk about it. </b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit  a branch/find the closest branch",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue application"
+            },
+            "contractDisagree": {
+                "title": "We need your agreement",
+                "detail": "You are just a step away from receiving overdraft. To continue, we need your agreement to pre-contractual information and a contract signature. <b>Do you have any questions? Let's talk about it. </b>",
+                "callUs": "Call our helpline",
+                "branch": "Visit  a branch/find the closest branch",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue application"
+            },
+            "scoringLessDisagree": {
+                "title": "That is the best we can offer you at this moment",
+                "detail": "This is the amount of overdraft you could receive, should you reconsider and accept our offer.",
+                "callUs": "Call our helpline",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue application"
+            },
+            "api": {
+                "title": "We are sorry, something went wrong",
+                "detail": "Please try again later.",
+                "callUs": "Call us",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "moreMoney": {
+                "title": "Need a higher Overdraft?",
+                "detail": "That should not be a problem. We can set it to up to 100,000 CZK in Internet Banka or in our branch. You can do it yourself in Online Banking or visit one of out branches and we will be happy to assist you. ",
+                "branch": "Visit one of our branches",
+                "primaryButton": "Back",
+                "secondaryButton": "Back to Balance Overview"
+            },
+            "branch": {
+                "title": "We can't do that within the app just yet",
+                "detail": "<p>We are sorry, we aren't able to calculate your Overdraft in Smart Banka.</p><p><b>You can apply for Overdraft in Internet Banka, at our branch or call us for more information.</b></p>",
+                "callUs": "Call our helpline ",
+                "branch": "Visit one of our branches",
+                "primaryButton": "Cancel application"
+            },
+            "weCallYou": {
+                "title": "We will call you",
+                "detail": "One of out phone operators will try to reach you <b> by the end of the following business day.</b> If he is not able to reach you he will try later.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "uncommittedChanges": {
+                "title": "We will not save the changes made in this form if you leave this page. Is that ok? ",
+                "secondaryButton": "No, stay on page",
+                "primaryButton": "Yes, continue."
+            },
+            "criteriaFailed": {
+                "title": "Unfortunately, we are unable to offer you Overdraft at this time.",
+                "detail": "This is all we can help you with in the app, thank you for understanding.",
+                "primaryButton": "Back to Balance Overview "
+            },
+            "scoring": {
+                "title": "We are sorry, something went wrong",
+                "detail": "<b>An unexpected error has occurred while processing your request. Please, try again later - we recommend cancelling the application and filling it out again.</b>",
+                "primaryButton": "Cancel application and try again. "
+            },
+            "noticePeriod": {
+                "title": "Unfortunately, we have some bad news :(",
+                "detail": "We cannot offer you Overdraft during the trial or notice period. If you are currently within the trial period stop by one of our branches, we will try to work something out.",
+                "branch": "Visit one of our branches"
+            },
+            "longTermScreens": {
+                "SCORING_UNAVAILABLE": {
+                    "title": "ZZZzzzz….",
+                    "detail": "At night, we update some of our systems; therefore some systems might be unavailable.<br><br><b> Please come back in a couple of hours when we are up.</b>",
+                    "primaryButton": "Back to Balance Overview "
                 },
-                "idCardValidTo": "Valid To",
-                "issueDate": "Valid From",
-                "nationality": "Nationality",
-                "nationalityValue": "Czech Republic",
-                "sex": "Gender",
-                "male": "male",
-                "female": "female"
-              },
-              "documentAddress": {
-                "title": "Permanent residence",
-                "secondary": "Czech Republic",
-                "street": "Street",
-                "descriptiveNumber": "Desc. No.",
-                "orientationNumber": "Or. No.",
-                "city": "City",
-                "zip": "ZIP",
-                "personalData": {
-                  "title": "We will verify the data provided by you at the same time in the basic registers. More about their operation on the website <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> and <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n By pressing the Continue button, you confirm that all the information provided is true, complete, correct and up-to-date."
+                "PRECONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "This will take all night…",
+                    "detail": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
+                },
+                "CONTRACT_WAITING_FOR_OPEN_HOURS": {
+                    "title": "Every night we update our systems; therefore some systems might be unavailable. Unfortunately, we are currently unable to prepare your documents - <b> we will have them ready for you by the morning at about 8 am.</b> Thank you for understanding.",
+                    "primaryButton": "Back to Balance Overview"
                 }
-              },
-              "primaryButton": "Continue"
-            },
-            "busyLoader": {
-              "title": "Patience for a moment, the cat has to check everything",
-              "detail": "t will take a few seconds at most."
-            },
-            "uploadDocumentResultNok": {
-              "title": "We cannot offer you a loan now",
-              "detail": "We are very sorry",
-              "secondaryButton": "End application"
-            },
-            "uploadDocumentResultUploadAgain": {
-              "title": "Oops, this failed",
-              "detail": "Please take a photo of the document again, in good lighting, sharp and not blurry.",
-              "primaryButton": "Take photo again",
-              "secondaryButton": "Continue later"
             }
-          },
-          "143": {
-            "icon": "idCardFill",
-            "title": "Driver's license",
-            "photoCapture": [
-              {
-                "title": "Take a photo of the front of your driver's license",
-                "detail": "Valid document, in good lighting, sharp and not blurred.",
-                "primaryButton": "Take Photo"
-              }
-            ]
-          }
         },
-        "chooseDocTitle": "Please take a photo of one of the following documents",
-        "chooseDocDetail": "We have saved the loan for you. You can return at any time within 30 days, take a photo of the document and continue",
-        "uploadPicker": {
-          "title": "Choose a way to upload a document",
-          "camera": "Take a picture",
-          "photos": "Choose from gallery",
-          "files": "Choose from files"
+        "general": {
+            "toolbarTitle": "Flexikredit",
+            "phoneNumberSale": "800 102 040",
+            "phoneNumberSupport": "224 443 636",
+            "messengerUrl": "https://m.me/138479367229",
+            "supportChat": "<b>Loan process just like in our branch</b> - click here and our banker will be happy to assist you with the application via online chat."
+        },
+        "scenes": {
+            "flexikreditHelp": {
+                "title": "Do you need assistance or wish to save the application for later??",
+                "bullets": [
+                    "<b>Fully online - and active moments after arranging</b> immediately during business hours ; you will only have to visit us if it is absolutely necessary.",
+                    "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
+                    "<b>You pay interest only for the days you use Overdraft.</b>",
+                    "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
+                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it.",
+                    "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve. "
+                ],
+                "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
+                "summaryHeadline": "All about Flexikredit:",
+                "amount": "Overdraft amount",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "interestRate": "Annual interest rate",
+                "rpsn": "Annual percentage rate",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "needOtherTimeTitle": "Do you need to finish the application later?",
+                "primaryButton": "Finish later",
+                "secondaryButton": "Cancel application",
+                "needContactUsTitle": "Do you need help?",
+                "branch": "Visit one of our branches",
+                "callUs": "Call our helpline"
+            },
+            "flexikreditSetup": {
+                "title": "The Flexikredit Overdraft for the account:",
+                "subtitle": "Don't worry that you won't run out of standing orders before you are paid. The Flexikredit reserve, available at any time, will be your security.",
+                "accountTitle": "Account to which we will set the overdraft",
+                "amount": "Overdraft amount",
+                "rateOfInterest": "Annual interest rate",
+                "rpsn": "Annual Percentage Rate of Cost",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "tip": "<b>Tip:</b> Unsure of the Overdraft amount to choose? Our clients choose on average 15 000 CZK.",
+                "bullets": [
+                    "<b>Fully online - and active moments after arranging</b> immediately during business hours ; you will only have to visit us if it is absolutely necessary.",
+                    "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
+                    "<b>You pay interest only for the days you use Overdraft.</b>",
+                    "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
+                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it..",
+                    "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve."
+                ],
+                "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
+                "secondaryButton": "I need a higher Overdraft",
+                "primaryButton": "Continue"
+            },
+            "clipFlexikreditSetup": {
+                "title": "Increase your overdraft for {{0}}",
+                "amount": "New overdraft amount",
+                "arrangementFee": "Negotiation and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo-missing": "You can arrange an overdraft without a drawdown fee only in Smart Banka or Internet Banka",
+                "example": "<b>How much do you pay for drawing an overdraft?</b>For example, if you run out of credit {{loanAmount}} CZK in fukll for {{totalDueMonths}} months, the annual interest rate will be {{interestRate}} %, the drawdown fee {{drawdownFee}} CZK, RPSN {{rpsn}} % and the total amount due {{totalDueAmount}} CZK.",
+                "tip-missing": "<b>Tip:</b> Don't know what amount of overdraft to choose? Our clients choose on average 15 000 CZK.",
+                "bullets": [
+                    "<b> You will increase the overdraft online and after the agreement it will be active shortly – </b> you will visit us, only when necessary.",
+                    "<b> You will repay as usual – </b> automatically by incoming payments. It will suffice if  {{minCreditMonthlyAmount}} CZK arrives at your account monthly,  this amount does not include transfers from any of your accounts with us, including savings and business, transfers from internal accounts and interest income from funds in your accounts.",
+                    "<b>To help protect you from unauthorized overdrafts, </b>we will keep the last 500 CZK as a reserve."
+                ],
+                "detail": "You can also find information <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">on the web</a>.",
+                "secondaryButton-missing": "I need more than 30 000 CZK",
+                "primaryButton": "Continue"
+            },
+            "permanentAddress": {
+                "title": "Is this your resident address?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "detail": "You will enter your contact address in the next step",
+                "primaryButton": "OK"
+            },
+            "contactAddress": {
+                "title": "Is this your contact address?",
+                "alternativeTitle": "What is your contact address?",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "primaryButton": "OK"
+            },
+            "identification": {
+                "title": "Is this your name and surname?",
+                "firstName": "Name",
+                "lastName": "Surname",
+                "citizenship": "Citizenship",
+                "taxResidence": "Tax Residence",
+                "taxResidenceInfoTitle": "Determination of tax residence",
+                "taxResidenceInfoBody": "We request information from you in order to fulfill the Common Standard for due diligence in the area of ​​information on financial accounts for the purpose of exchanging information provided by financial institutions to tax administrations on the basis of the Multilateral Agreement of Competent Authorities on the Automatic Exchange of Information on Financial Accounts (in case banks, these are current, savings accounts and time deposits).",
+                "vat": "TIN",
+                "anotherVat": "Add another tax residence",
+                "phone": "Phone",
+                "primaryButton": "Continue"
+            },
+            "incomesPim": {
+                "list": {
+                    "title": "Pokud máte více příjmů, můžete je nyní doplnit",
+                    "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
+                    "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
+                    "remove": "Odstranit příjem",
+                    "incomeSource": "Zdroj příjmu",
+                    "fillIn": "Doplňte",
+                    "employer": {
+                        "EMPLOYMENT_INCOME": "Zaměstnavatel",
+                        "BUSINESS_INCOME": "Název subjektu",
+                        "RENT": "Subjekt vyplácející rentu"
+                    },
+                    "idNumberTitle": "IČ: {0}",
+                    "netIncome": "Čistý měsíční příjem",
+                    "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
+                    "fillMissing": "Doplňte chybějící údaje",
+                    "moreIncomes": "Další příjmy",
+                    "entrepreneurFrom": "Podnikám od",
+                    "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                    "taxationPeriodYear": "Zdaňovací období",
+                    "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                    "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                    "tax": "Daň (ř. 74)",
+                    "addMoreIncomes": {
+                        "title": "Přidat další příjem",
+                        "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
+                    },
+                    "removeAlert": {
+                        "title": "Opravdu chcete odstranit tento příjem?"
+                    },
+                    "trialPeriod": "ve zkušební lhůtě",
+                    "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
+                    "employmentForPeriod": "na dobu určitou do {0}",
+                    "primaryButton": "Pokračovat"
+                },
+                "incomeSource": {
+                    "title": "Jaký je váš zdroj příjmů?",
+                    "detail": "Příjem",
+                    "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
+                    "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
+                    "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "fixPeriodTitle": "a zároveň na dobu určitou",
+                    "fixPeriodDateTitle": "do",
+                    "fixPeriodDateHint": "Vyberte datum",
+                    "primaryButton": "Pokračovat",
+                    "titleConfirm": "Zaměstnání u {0}",
+                    "detailConfirm": "Vyberte všechny platné varianty",
+                    "offers": {
+                        "TO_SME": {
+                            "icon": "business",
+                            "title": "Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
+                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "bullets": [
+                                "Úrok už od {interestRate} ročně",
+                                "Sjednání kompletně online",
+                                "Bez poplatku za vedení úvěru",
+                                "Bez prokazování příjmu",
+                                "Možnost odpočtu úroků úvěru z daňového základu",
+                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                            ],
+                            "primaryButton": {
+                                "actionType": "APP_PAGE",
+                                "actionData": "SME_NTC_EXPRES",
+                                "actionLabelText": "Více o podnikatelském úvěru"
+                            },
+                            "secondaryButton": {
+                                "actionType": "CLOSE",
+                                "actionLabelText": "Zpět na Expres půjčku"
+                            }
+                        }
+                    }
+                },
+                "entrepreneur": {
+                    "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
+                    "entrepreneurFrom": "Podnikám od",
+                    "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                    "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                    "taxationPeriodYear": "Zdaňovací období",
+                    "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                    "line101LastTaxationPeriodIncomeInfoMessage": "Zadejte částku z řádku 101 z daňového přiznání z minulého roku. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                    "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                    "unpaidTaxForLastYearInfoMessage": "Zadejte skutečnou daň z příjmu z řádku 91 z daňového přiznání z minulého roku.",
+                    "tax": "Daň (ř. 74)",
+                    "taxInfoMessage": "Po uplatnění slevy podle paragrafu 35c zákona ř. 71 - ř. 73",
+                    "primaryButton": "Pokračovat"
+                },
+                "incomeSources": [
+                    {
+                        "id": "EMPLOYMENT_INCOME",
+                        "title": "Zaměstnanec",
+                        "detail": "Vyberte všechny platné varianty"
+                    },
+                    {
+                        "id": "BUSINESS_INCOME",
+                        "title": "Podnikatel"
+                    },
+                    {
+                        "id": "RENT",
+                        "title": "Renta"
+                    },
+                    {
+                        "id": "PARENTAL_ALLOWANCE",
+                        "title": "Rodičovský příspěvek"
+                    },
+                    {
+                        "id": "MATERNITY_ALLOWANCE",
+                        "title": "Mateřská"
+                    },
+                    {
+                        "id": "OLDAGE_PENSION",
+                        "title": "Důchodce - starobní"
+                    },
+                    {
+                        "id": "DISABILITY_PENSION",
+                        "title": "Důchodce - invalidní"
+                    },
+                    {
+                        "id": "RENTAL_OFF_TAX_RETURN",
+                        "title": "Pronájem"
+                    },
+                    {
+                        "id": "MAINTENANCE_ALLOWANCE",
+                        "title": "Výživné"
+                    },
+                    {
+                        "id": "OTHER_INCOME",
+                        "title": "Jiný",
+                        "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
+                    }
+                ],
+                "employer": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je Váš současný zaměstnavatel?",
+                        "employerTitle": "Zaměstnavatel",
+                        "employerPlaceholder": "vyberte",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "vyberte",
+                        "countryTitle": "Země",
+                        "countryPlaceholder": "vyberte",
+                        "czechEmployer": "Český zaměstnavatel",
+                        "foreignEmployer": "Zahraniční zaměstnavatel",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Doplňte údaje o Vašem podnikání",
+                        "employerTitle": "Název",
+                        "employerPlaceholder": "vyberte",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "vyberte",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "employerTitle": "Subjekt vyplácející rentu",
+                        "employerPlaceholder": "vyberte",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "vyberte",
+                        "primaryButton": "Pokračovat"
+                    }
+                },
+                "employerSearch": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš současný zaměstnavatel?",
+                        "employerTitle": "Zaměstnavatel",
+                        "employerPlaceholder": "vyberte",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                        "noMatchItem": "Pokračovat s {0}"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Doplňte údaje o Vašem podnikání",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                        "employerTitle": "Subjekt",
+                        "employerPlaceholder": "Vyberte název subjektu",
+                        "switchToForeignEmployer": "Podnikám v zahraničí",
+                        "noMatchItem": "Pokračovat s {0}"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                        "employerTitle": "Subjekt vyplácející rentu",
+                        "employerPlaceholder": "vyberte",
+                        "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                        "noMatchItem": "Pokračovat s {0}"
+                    }
+                },
+                "employerSearchId": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš současný zaměstnavatel?",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Zadejte celé IČO subjektu.",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "IČ",
+                        "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                        "noMatchItem": "Pokračovat s {0}"
+                    },
+                    "BUSINESS_INCOME": {
+                        "title": "Doplňte údaje o Vašem podnikání",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Zadejte celé IČO subjektu.",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "IČ",
+                        "switchToForeignEmployer": "Podnikám v zahraničí",
+                        "noMatchItem": "Pokračovat s {0}"
+                    },
+                    "RENT": {
+                        "title": "Kdo vám rentu vyplácí?",
+                        "sectionTitle": "Vyberte ze seznamu",
+                        "hint": "Zadejte celé IČO subjektu.",
+                        "idNumberTitle": "IČ",
+                        "idNumberPlaceholder": "IČ",
+                        "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                        "noMatchItem": "Pokračovat s {0}"
+                    }
+                },
+                "solvency": {
+                    "EMPLOYMENT_INCOME": {
+                        "title": "Jaký je váš příjem ze zaměstnání?",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                        "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENT": {
+                        "title": "Jaká je výše vaší renty",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "PARENTAL_ALLOWANCE": {
+                        "title": "Jaká je výše vašeho rodičovského příspěvku",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "MATERNITY_ALLOWANCE": {
+                        "title": "Jaká je výše vaší peněžité pomoci v mateřství",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "OLDAGE_PENSION": {
+                        "title": "Jaká je výše vašeho starobního důchodu?",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "DISABILITY_PENSION": {
+                        "title": "Jaká je výše vašeho invalidního důchodu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "RENTAL_OFF_TAX_RETURN": {
+                        "title": "Jaká je výše vašeho příjmu z pronájmu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "MAINTENANCE_ALLOWANCE": {
+                        "title": "Jaká je výše vašeho příjmu z výživného",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    },
+                    "OTHER_INCOME": {
+                        "title": "Jaká je výše vašeho příjmu",
+                        "inputTitle": "Čistý měsíční příjem",
+                        "inputPlaceholder": "0",
+                        "primaryButton": "Pokračovat"
+                    }
+                },
+                "invalidIncomeCombination": {
+                    "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
+                    "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
+                    "callUs": "Zavolejte nám\nna infolinku",
+                    "branch": "Navštivte nás\nna pobočce",
+                    "primaryButton": "Zpět",
+                    "secondaryButton": "Dokončit později",
+                    "tertiaryButton": "Ukončit žádost"
+                }
+            },
+            "incomeSource": {
+                "title": "What is the source of your income?",
+                "employedTitle": "I am employed",
+                "indefinitePeriodTitle": "and at the same time for an indefinite period",
+                "trialPeriodTitle": "and on a trial period",
+                "noticePeriodTitle": "and on a notice period",
+                "employedInfo": "You can choose 1-3 answers:",
+                "fixPeriodTitle": "for a fixed period",
+                "fixPeriodDateTitle": "until",
+                "fixPeriodDateHint": "select a date",
+                "businessTitle": "Business",
+                "pensionTitle": "Pension",
+                "disabilityPensionTitle": "Disability Pension",
+                "otherTitle": "Other",
+                "primaryButton": "Continue"
+            },
+            "otherSource": {
+                "title": "Visit us at a branch",
+                "detail": "We're sorry, but we can't calculate the loan for you directly in Smart Bank. <b>Please stop by our branch, where we'll sort everything out, or call us for more information.</b>",
+                "callUs": "Call\nUs",
+                "branch": "Visit\nBranch",
+                "primaryButton": "End application"
+            },
+            "employer": {
+                "title": "Is this your current employer?",
+                "alternativeTitle": "Who is your current employer?",
+                "employerTitle": "Employer",
+                "streetTitle": "Street",
+                "descriptiveNumberTitle": "Dsc. no",
+                "orientationNumberTitle": "Or. no",
+                "cityTitle": "City",
+                "zipTitle": "ZIP",
+                "countryTitle": "Country",
+                "idNumberTitle": "IN",
+                "primaryButton": "Continue",
+                "secondaryButton": "Other"
+            },
+            "employerSearch": {
+                "title": "Jaký je váš současný zaměstnavatel?",
+                "employerTitle": "Zaměstnavatel",
+                "employerPlaceholder": "vyberte",
+                "sectionTitle": "Vyberte ze seznamu",
+                "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                "noMatchItem": "Pokračovat s {0}"
+            },
+            "personalSolvency": {
+                "inputTitle": "Monthly income",
+                "title": "Is this your net monthly income?",
+                "alternativeTitle": "What is your net monthly income?",
+                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "pensionerPersonalSolvency": {
+                "title": "Is this your monthly pension?",
+                "alternativeTitle": "What is your monthly pension?",
+                "inputTitle": "Monthly pension",
+                "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "dependents": {
+                "title": "How many dependents?",
+                "me": "Me",
+                "count": "Number of people",
+                "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your income?",
+                "primaryButton": "Continue"
+            },
+            "pensionerDependents": {
+                "title": "How many dependents?",
+                "me": "Me",
+                "count": "Number of people",
+                "detail": "A dependent is any person who at least partly relies on your income for financial support. How many of those close to you would be affected by a decrease in your pension?",
+                "primaryButton": "Continue"
+            },
+            "householdSolvency": {
+                "title": "What is the net monthly income of your household?",
+                "inputTitle": "Monthly income",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "pensionerHouseholdSolvency": {
+                "title": "What is the net monthly income of your household?",
+                "inputTitle": "Monthly income",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "primaryButton": "Continue"
+            },
+            "housingExpenses": {
+                "title": "What is your household expenses?",
+                "inputTitle": "Monthly expenses",
+                "detail": "Please enter all <b>your monthly regular housing expenses.</b> For instance rent, electric bills, water bills or other services. <b>If you're sharing your housing expenses, please enter your share.</b> Do not include mortgage payments, internet bills, food, clothing or household insurance.",
+                "primaryButton": "Continue"
+            },
+            "householdExpensesNecessary": {
+                "title": "What are the other monthly expenses of your household?",
+                "installmentsSumSection": "Do you pay off the lease or loan elsewhere than at MONETA Money Bank?",
+                "installmentsSum": "Amount of monthly installments",
+                "necessaryExpensesSection": "What are the necessary expenses of you and your dependents?",
+                "necessaryExpensesInfo": "These are regular living expenses that you can't live without. If you share them, only include their pro rata.",
+                "necessaryExpenses": "Amount of monthly expenses",
+                "necessaryExpensesError": {
+                    "title": "Your necessary monthly expenses are higher than your income",
+                    "detail": "You may have included rent or a mortgage payment. We are mainly interested in the necessary monthly expenses",
+                    "secondaryButton": "Edit Expenses",
+                    "primaryButton": "Everything is correct, continue"
+                },
+                "richBullets": [
+                    {
+                        "image": "tickFill",
+                        "title": "Food, clothing, internet payments, insurance, housing costs (such as rent, utility bills, water and other services)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Transport (tram, fuel costs)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Health care (medicines, rehabilitation, medical devices)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Nutrition"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Education for children (nurseries, kindergartens, schools, lunches, clubs, groups)"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Wage garnishment"
+                    },
+                    {
+                        "image": "tickFill",
+                        "title": "Other regular monthly expenses"
+                    },
+                    {
+                        "image": "closeFill",
+                        "title": "Please do not include loan repayments including mortgages"
+                    }
+                ],
+                "primaryButton": "Continue"
+            },
+            "otherInfo": {
+                "title": "Now the small details:",
+                "detail": "Please choose a form of ID with which you could present at one of our branches.",
+                "primaryButton": "Continue",
+                "idDetail": "Other ID",
+                "secondDocuments": [
+                    {
+                        "title": "Driving license",
+                        "id": "DRIVING_LICENCE"
+                    },
+                    {
+                        "title": "Passport",
+                        "id": "PASSPORT"
+                    },
+                    {
+                        "title": "Birth certificate",
+                        "id": "BIRTH_CERTIFICATE"
+                    }
+                ],
+                "housingDetail": "What is your housing situation?",
+                "housing": [
+                    {
+                        "title": "I own a flat/house",
+                        "id": "OWN"
+                    },
+                    {
+                        "title": "I rent a flat/house",
+                        "id": "RENTED"
+                    },
+                    {
+                        "title": "I live in cooperative flat",
+                        "id": "COOPERATIVE"
+                    },
+                    {
+                        "title": "I live with my parents",
+                        "id": "PARENTS"
+                    },
+                    {
+                        "title": "Other",
+                        "id": "OTHER"
+                    }
+                ]
+            },
+            "scoringAgreement": {
+                "title": "One last step - the agreement",
+                "detail": "<p>In order to review your application, we need to process your personal data to inquire your solvency, credibility and payment behavior. This process includes verification in the Czech Banking Credit Bureau and the Czech Non-Banking Credit Bureau, and other steps necessary to contract conclusion.</p><p>I acknowledge <a href=\"https://www.moneta.cz/ochrana-dat\">personal data processing</a> of the MONETA Group and I solemnly declare the following:</p><p><ul><li>that all personal data provided are true and up-to-date and that I am aware that providing false or misleading information may result in legal action or prosecution;</li><li>I have not been convicted of crimes related to my business, or of economic crime, or crime against property;</li><li>I also declare that:<br><ul><li>I have not been declared bankrupt, and no insolvency or any such legal action has been taken against my person, nor have any steps been taken to initiate them;</li><li>the petition for bankruptcy of my assets or the insolvency petition for lack of my assets have not been rejected;</li><li>none of my assets are being liquidated</li><li>there are no arrears related to my assets in the Tax Register;</li><li>there has been no disciplinary punishment against my person in the last three years in accordance with the special regulations governing the performance of professional activities;</li><li>there are no outstanding arrears on insurance premiums and penalties for public health insurance or on insurance premiums and penalties for social security and contributions to the state employment policy.</li></ul></li></ul></p><p>I give consent to Moneta Money Bank to verify all necessary information and take any further steps which Moneta Money Bank will deem necessary to the approval of my application.</p><p>I acknowledge that according to the Consumer Credit Act, the information that I have been provided is considered a recommendation not advice.</p><p>You can be updated on the process of reviewing your application by SMS at the entered phone number.</p>",
+                "checkboxText": "I confirm these details are correct.",
+                "primaryButton": "I agree, continue"
+            },
+            "flexikreditScoringOk": {
+                "title": "Everything is OK, we can continue",
+                "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
+                "amount": "Overdraft amount",
+                "selectedAccount": "Account",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "rateOfInterest": "Annual interest rate",
+                "rpsn": "Annual Percentage Rate of Cost",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "primaryButton": "Continue"
+            },
+            "flexikreditScoringBut": {
+                "title": "We have approved the Overdraft as follows. You will need to continue at one of our branches.",
+                "amount": "Overdraft amount",
+                "selectedAccount": "Account",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "detail": "We are missing some of your documentation, please bring them with you to one of out branches and we will finalize your application together.</b>",
+                "branchDocumentTypes": [
+                    {
+                        "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> <b>filled out</b> by your employer",
+                        "id": "1"
+                    },
+                    {
+                        "title": "<b>ID</b>",
+                        "id": "88"
+                    },
+                    {
+                        "title": "<b>Driving license</b>",
+                        "id": "91"
+                    }
+                ],
+                "primaryButton": "I understand, find the nearest branch"
+            },
+            "documentUpload": {
+                "uploadScenes": {
+                    "firstUpload": {
+                        "title": "Let’s deal with it. Please provide us with your current identification documents.",
+                        "detail": "A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "anotherUpload": {
+                        "title": "Thank you for your patience",
+                        "detail": "We are sorry that we could not tell you sooner, but we are going to need another document. A clear and legible photograph should suffice. You can do it within the app or visit our branch.",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "poorUpload": {
+                        "title": "Some documents could not be processed",
+                        "detail": "<b>Reupload a clear and sharp picture:</b>",
+                        "primaryButton": "Continue",
+                        "secondaryButton": "I want to visit a branch"
+                    },
+                    "branchNeeded": {
+                        "title": "We have to meet",
+                        "detail": "We are sorry that there is no other way, but we would like to see you at our branch.<br>We can finish the application together and we will send you the money as soon as it is signed. Please bring with you\n:",
+                        "primaryButton": "I understand; show me the nearest branch"
+                    },
+                    "uploadCheck": {
+                        "title": "We’re going to check legibility and get back to you",
+                        "detail": "Your documents should be checked within 15 minutes or by the following business day. As soon as we are ready to continue, we will let you know via SMS. The application has been saved and can be found under Balance Overview.",
+                        "primaryButton": "Back to Balance Overview"
+                    }
+                },
+                "uploadedDocuments": [
+                    {
+                        "title": "<b>Please take a picture of both sides of your ID.</b> The process is secure.",
+                        "labels": [
+                            "Attach the front page of your ID",
+                            "Attach the back page of your ID"
+                        ],
+                        "categoryCode": "141"
+                    },
+                    {
+                        "title": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download this form</b></a> and have your employer fill it out and sign it. The application has been saved. You can come back any time in 30 days, upload the signed form, and continue.",
+                        "labels": ["Attach a signed proof of income"],
+                        "categoryCode": "13"
+                    },
+                    {
+                        "title": "<b>Please take a picture of front side of your diving licence.</b> The process is secure.",
+                        "labels": [
+                            "Attach the front page of your driving licence"
+                        ],
+                        "categoryCode": "143"
+                    },
+                    {
+                        "title": "Please take a picture of the following: ",
+                        "title2": ". The application has been saved, you come back any time in 30 days, and continue.",
+                        "documents": [
+                            {
+                                "title": "Payment receipt from the Czech Post that is not older than 30 days",
+                                "labels": ["Attach a document"],
+                                "documentCode": "112"
+                            },
+                            {
+                                "title": "Pension assessment",
+                                "labels": ["Attach a document"],
+                                "documentCode": "113"
+                            },
+                            {
+                                "labels": ["Attach a document"]
+                            }
+                        ]
+                    }
+                ],
+                "documents": {
+                    "13": {
+                        "icon": "documentsFill",
+                        "title": "Signed Certificate of Income",
+                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
+                    },
+                    "112": {
+                        "icon": "documentsFill",
+                        "title": "Payment document from the Czech Post, which is not older than 30 days"
+                    },
+                    "113": {
+                        "icon": "documentsFill",
+                        "title": "Pension amount"
+                    },
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "ID",
+                        "photoCapture": [
+                            {
+                                "title": "Take a photo of the front of your ID card",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take Photo"
+                            },
+                            {
+                                "title": "Take a photo of the back of your ID card",
+                                "detail": "alid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take Photo"
+                            }
+                        ],
+                        "review": {
+                            "title": "reat photo! Did we read everything correctly?",
+                            "documentDetails": {
+                                "title": "Data from the document",
+                                "firstName": "First Name",
+                                "lastName": "Last Name",
+                                "birthDate": "Date of birth",
+                                "birthPlace": "Birth Place",
+                                "birthNumber": "Birth Number",
+                                "idCardNumber": {
+                                    "title": "ID Number",
+                                    "secondaryTitle": "Passport Number"
+                                },
+                                "idCardValidTo": "Valid To",
+                                "issueDate": "Valid From",
+                                "nationality": "Nationality",
+                                "nationalityValue": "Czech Republic",
+                                "sex": "Gender",
+                                "male": "male",
+                                "female": "female"
+                            },
+                            "documentAddress": {
+                                "title": "Permanent residence",
+                                "secondary": "Czech Republic",
+                                "street": "Street",
+                                "descriptiveNumber": "Desc. No.",
+                                "orientationNumber": "Or. No.",
+                                "city": "City",
+                                "zip": "ZIP",
+                                "personalData": {
+                                    "title": "We will verify the data provided by you at the same time in the basic registers. More about their operation on the website <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> and <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n By pressing the Continue button, you confirm that all the information provided is true, complete, correct and up-to-date."
+                                }
+                            },
+                            "primaryButton": "Continue"
+                        },
+                        "busyLoader": {
+                            "title": "Just a moment, processing",
+                            "detail": "t will take a few seconds at most."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "We cannot offer you a loan now",
+                            "detail": "We are very sorry",
+                            "secondaryButton": "End application"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Oops, this failed",
+                            "detail": "Please take a photo of the document again, in good lighting, sharp and not blurry.",
+                            "primaryButton": "Take photo again",
+                            "secondaryButton": "Continue later"
+                        }
+                    },
+                    "143": {
+                        "icon": "idCardFill",
+                        "title": "Driver's license",
+                        "photoCapture": [
+                            {
+                                "title": "Take a photo of the front of your driver's license",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
+                                "primaryButton": "Take Photo"
+                            }
+                        ]
+                    }
+                },
+                "chooseDocTitle": "Please take a photo of one of the following documents",
+                "chooseDocDetail": "We have saved the loan for you. You can return at any time within 30 days, take a photo of the document and continue",
+                "uploadPicker": {
+                    "title": "Choose a way to upload a document",
+                    "camera": "Take a picture",
+                    "photos": "Choose from gallery",
+                    "files": "Choose from files"
+                }
+            },
+            "flexikreditScoringLess": {
+                "title": "We have approved the Overdraft as follows. Is it OK?",
+                "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
+                "amount": "Overdraft amount",
+                "selectedAccount": "Account",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "primaryButton": "Continue",
+                "secondaryButton": "Decline"
+            },
+            "scoringNok": {
+                "title": "After reviewing your application we unfortunately can not offer you Overdraft.",
+                "detail": "<b>For further steps, don't hesitate to contact us.</b>",
+                "callUs": "Call our helpline",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "clipScoringNok": {
+                "title": "After reviewing your application, we unfortunately cannot increase your overdraft",
+                "detail": "<b>If you have a query on how to proceed, contact us.</b>",
+                "callUs": "Call us on the customer service line",
+                "primaryButton": "End the request"
+            },
+            "flexikreditDocScoringSame": {
+                "title": "Everything is OK. Let’s continue",
+                "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
+                "amount": "Overdraft amount",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "primaryButton": "Continue"
+            },
+            "flexikreditDocScoringChange": {
+                "title": "We did not have the correct details",
+                "subtitle": "Your details have changed and with them so has our offer. We can now offer you:",
+                "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
+                "amount": "Overdraft amount",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "primaryButton": "I agree, continue",
+                "secondaryButton": "Decline"
+            },
+            "flexikreditDocScoringBranch": {
+                "title": "We will have to meet at our branch",
+                "detail": "We are sorry but there is no other way. We are looking forward to seeing you at our branch.<br><br><b>Please bring with you:</b>",
+                "branchDocumentTypes": [
+                    {
+                        "title": "Filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> from your employer",
+                        "id": "1"
+                    },
+                    {
+                        "title": "Identity card",
+                        "id": "88"
+                    },
+                    {
+                        "title": "Driving licence",
+                        "id": "91"
+                    },
+                    {
+                        "title": "Payment receipt from the Czech Post (postal order) not older than 30 days.",
+                        "id": "112"
+                    },
+                    {
+                        "title": "Pension assessment",
+                        "id": "113"
+                    }
+                ],
+                "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
+                "amount": "Overdraft amount",
+                "arrangementFee": "Opening and management fee",
+                "drawdownFee": "Drawdown fee",
+                "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
+                "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
+                "primaryButton": "I understand; show me the nearest branch"
+            },
+            "documentUploadReview": {
+                "title": "Is this correct?",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "birthNumber": "Birth number",
+                "city": "City",
+                "descriptiveNumber": "Dsc. no",
+                "orientationNumber": "Or. no",
+                "idCardNumber": "ID number",
+                "idCardValidTo": "Valid to",
+                "citizenship": "Citizenship",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "primaryButton": "Yes, continue",
+                "secondaryButton": "Scan again"
+            },
+            "documentUploadRetry": {
+                "title": "Oops, this is not going to work",
+                "detail": "We were not able to read all the data. Please make sure that the lighting is good and texts are clear and well-readable. ",
+                "tryAgain": "Let's try again:",
+                "primaryButton": "Scan again"
+            },
+            "manualCheck": {
+                "title": "We have to review your application. It may take some time.",
+                "detail": "You will find the result here within 2 business days. Thank you for understanding.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "precontractInfo": {
+                "title": "Carefully read the pre-contractual information",
+                "resend": "Download the PDF",
+                "secondaryButton": "Decline / I have a question",
+                "primaryButton": "Agree"
+            },
+            "contract": {
+                "title": "Carefully read the dispositions and special provisions.",
+                "resend": "Download the PDF",
+                "secondaryButton": "Decline / I have a question",
+                "primaryButton": "Go to signature"
+            },
+            "victory": {
+                "title": "It is done. Your Overdraft is ready. The world is a bit simpler again :) ",
+                "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "clipVictory": {
+                "title": "We increase your overdraft. The world is a little easier once again",
+                "detail": "You can find all the documents in Smart Banka and Internet Banka in the My documents sections",
+                "primaryButton": "Back to Balance overview"
+            },
+            "tomorrowVictory": {
+                "title": "Your Overdraft will be ready next business day in the morning.",
+                "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "delayedVictory": {
+                "title": "We are almost done. The signing may take a while.",
+                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your My Documents section and activate your Overdraft. We apologize for the inconvenience and appreciate your patience.",
+                "primaryButton": "Back to Balance Overview"
+            },
+            "scoring": {
+                "title": "Just a moment, processing."
+            },
+            "waitingBeforeContract": {
+                "title": "Just a minute while we prepare your documents"
+            },
+            "signByUs": {
+                "title": "Just a moment, we need to sign the contract"
+            },
+            "sign": {
+                "title": "Sign the dispositions and special provisions by your PIN:"
+            }
         }
-      },
-      "flexikreditScoringLess": {
-        "title": "We have approved the Overdraft as follows. Is it OK?",
-        "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
-        "amount": "Overdraft amount",
-        "selectedAccount": "Account",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "primaryButton": "Continue",
-        "secondaryButton": "Decline"
-      },
-      "scoringNok": {
-        "title": "After reviewing your application we unfortunately can not offer you Overdraft.",
-        "detail": "<b>For further steps, don't hesitate to contact us.</b>",
-        "callUs": "Call our helpline",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "clipScoringNok": {
-        "title": "After reviewing your application, we unfortunately cannot increase your overdraft",
-        "detail": "<b>If you have a query on how to proceed, contact us.</b>",
-        "callUs": "Call us on the customer service line",
-        "primaryButton": "End the request"
-      },
-      "flexikreditDocScoringSame": {
-        "title": "Everything is OK. Let’s continue",
-        "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
-        "amount": "Overdraft amount",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "primaryButton": "Continue"
-      },
-      "flexikreditDocScoringChange": {
-        "title": "We did not have the correct details",
-        "subtitle": "Your details have changed and with them so has our offer. We can now offer you:",
-        "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
-        "amount": "Overdraft amount",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "primaryButton": "I agree, continue",
-        "secondaryButton": "Decline"
-      },
-      "flexikreditDocScoringBranch": {
-        "title": "We will have to meet at our branch",
-        "detail": "We are sorry but there is no other way. We are looking forward to seeing you at our branch.<br><br><b>Please bring with you:</b>",
-        "branchDocumentTypes": [
-          {
-            "title": "Filled out <a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\">Proof of income</a> from your employer",
-            "id": "1"
-          },
-          {
-            "title": "Identity card",
-            "id": "88"
-          },
-          {
-            "title": "Driving licence",
-            "id": "91"
-          },
-          {
-            "title": "Payment receipt from the Czech Post (postal order) not older than 30 days.",
-            "id": "112"
-          },
-          {
-            "title": "Pension assessment",
-            "id": "113"
-          }
-        ],
-        "checkboxText": "I will make sure that every month I receive the required minimum amount {{minCreditMonthlyAmount}} CZK",
-        "amount": "Overdraft amount",
-        "arrangementFee": "Opening and management fee",
-        "drawdownFee": "Drawdown fee",
-        "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
-        "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
-        "primaryButton": "I understand; show me the nearest branch"
-      },
-      "documentUploadReview": {
-        "title": "Is this correct?",
-        "firstName": "First name",
-        "lastName": "Last name",
-        "birthNumber": "Birth number",
-        "city": "City",
-        "descriptiveNumber": "Dsc. no",
-        "orientationNumber": "Or. no",
-        "idCardNumber": "ID number",
-        "idCardValidTo": "Valid to",
-        "citizenship": "Citizenship",
-        "street": "Street",
-        "zipCode": "ZIP",
-        "primaryButton": "Yes, continue",
-        "secondaryButton": "Scan again"
-      },
-      "documentUploadRetry": {
-        "title": "Oops, this is not going to work",
-        "detail": "We were not able to read all the data. Please make sure that the lighting is good and texts are clear and well-readable. ",
-        "tryAgain": "Let's try again:",
-        "primaryButton": "Scan again"
-      },
-      "manualCheck": {
-        "title": "We have to review your application. It may take some time.",
-        "detail": "You will find the result here within 2 business days. Thank you for understanding.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "precontractInfo": {
-        "title": "Carefully read the pre-contractual information",
-        "resend": "Download the PDF",
-        "secondaryButton": "Decline / I have a question",
-        "primaryButton": "Agree"
-      },
-      "contract": {
-        "title": "Carefully read the dispositions and special provisions.",
-        "resend": "Download the PDF",
-        "secondaryButton": "Decline / I have a question",
-        "primaryButton": "Go to signature"
-      },
-      "victory": {
-        "title": "It is done. Your Overdraft is ready. The world is a bit simpler again :) ",
-        "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "clipVictory": {
-        "title": "We increase your overdraft. The world is a little easier once again",
-        "detail": "You can find all the documents in Smart Banka and Internet Banka in the My documents sections",
-        "primaryButton": "Back to Balance overview"
-      },
-      "tomorrowVictory": {
-        "title": "Your Overdraft will be ready next business day in the morning.",
-        "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "delayedVictory": {
-        "title": "We are almost done. The signing may take a while.",
-        "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your My Documents section and activate your Overdraft. We apologize for the inconvenience and appreciate your patience.",
-        "primaryButton": "Back to Balance Overview"
-      },
-      "scoring": {
-        "title": "Just a moment. The cat needs to look it over."
-      },
-      "waitingBeforeContract": {
-        "title": "Just a minute while we prepare your documents"
-      },
-      "signByUs": {
-        "title": "Just a moment, we need to sign the contract"
-      },
-      "sign": {
-        "title": "Sign the dispositions and special provisions by your PIN:"
-      }
     }
-  }
 }

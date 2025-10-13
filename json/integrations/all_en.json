@@ -1,71 +1,72 @@
 {
-  "integrations": {
-    "title": "Smart Services and Disounts",
-    "availableServicesTitle": "Available",
-    "availableServices": [
-      {
-        "id": "FAKTUROID",
-        "title": "Fakturoid",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
-        "bullets": [
-          {
-            "text": "Invoice directly from your bank. Quick, easy and with discounts up to <green>50 %</green>."
-          }
+    "integrations": {
+        "title": "Smart Services and Disounts",
+        "availableServicesTitle": "Available",
+        "availableServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "text": "Invoice directly from your bank. Quick, easy and with discounts up to <green>50 %</green>."
+                    }
+                ],
+                "primaryButton": {
+                    "text": "Learn more",
+                    "actionType": "APPPAGE",
+                    "actionValue": "INTEGRATIONS_FAKTUROID_PROMO"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
+            },
+            {
+                "id": "DHL_PPL",
+                "title": "DHL and PPL",
+                "subtitle": "Save on shipping fees:",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-dhl-ppl.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "from 60 % worldwide"
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "from 30 % domestically"
+                    }
+                ],
+                "primaryButton": {
+                    "icon": "linkExternalFill",
+                    "text": "Get discount",
+                    "actionType": "OPENURL",
+                    "actionValue": "https://www.dhlservicepoint.cz/moneta/"
+                },
+                "message": {
+                    "icon": "circleInfo",
+                    "text": "If you are already using the discount, please disregard this offer.\u2028Information might take a moment to update."
+                },
+                "deepLink": ""
+            }
         ],
-        "primaryButton": {
-          "text": "Learn more",
-          "actionType": "APPPAGE",
-          "actionValue": "INTEGRATIONS_FAKTUROID_PROMO"
-        },
-        "deepLink": "INTEGRATIONS_FAKTUROID_PROMO"
-      },
-      {
-        "id": "DHL_PPL",
-        "title": "DHL and PPL",
-        "subtitle": "Save on shipping fees:",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-dhl-ppl.png",
-        "bullets": [
-          {
-            "icon": "tickFill",
-            "text": "from 60 % worldwide"
-          },
-          {
-            "icon": "tickFill",
-            "text": "from 30 % domestically"
-          }
+        "activatedServicesTitle": "Active",
+        "activatedServices": [
+            {
+                "id": "FAKTUROID",
+                "title": "Fakturoid",
+                "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "text": "Your invoices in your Moneta account"
+                    }
+                ],
+                "primaryButton": {
+                    "text": "Invoice Overview",
+                    "actionType": "APPPAGE",
+                    "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+                },
+                "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
+            }
         ],
-        "primaryButton": {
-          "icon": "linkExternalFill",
-          "text": "Get discount",
-          "actionType": "OPENURL",
-          "actionValue": "https://www.dhlservicepoint.cz/moneta/"
-        },
-        "message": {
-          "icon": "circleInfo",
-          "text": "If you are already using the discount, please disregard this offer.\u2028Information might take a moment to update."
-        }
-      }
-    ],
-    "activatedServicesTitle": "Active",
-    "activatedServices": [
-      {
-        "id": "FAKTUROID",
-        "title": "Fakturoid",
-        "imageUrl": "/cbl_images/salespoints/nsb/4000002-fakturoid.png",
-        "bullets": [
-          {
-            "icon": "tickFill",
-            "text": "Your invoices in your Moneta account"
-          }
-        ],
-        "primaryButton": {
-          "text": "Invoice Overview",
-          "actionType": "APPPAGE",
-          "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-        },
-        "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-      }
-    ],
-    "apiPartnersTitle": "API partners"
-  }
+        "apiPartnersTitle": "API partners"
+    }
 }

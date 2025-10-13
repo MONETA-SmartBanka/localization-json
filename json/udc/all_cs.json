@@ -45,13 +45,13 @@
             "secondaryButton": "Ukončit žádost"
         },
         "scoring": {
-            "title": "Omlouváme se, něco se vymňouklo",
+            "title": "Omlouváme se, tak tohle nevyšlo",
             "detail": "Bohužel nemůžeme pokračovat v aplikaci, ale rádi Vám pomůžeme na pobočce - nezapomeňte si prosím vzít doklad totožnosti.",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Přejít na Přehled"
         },
         "api": {
-            "title": "Omlouváme se, něco se vymňouklo",
+            "title": "Omlouváme se, tak tohle nevyšlo",
             "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
             "callUs": "Zavolejte nám\nna infolinku",
             "primaryButton": "Přejít na Přehled"
@@ -168,7 +168,7 @@
             "primaryButton": "Pokračovat"
         },
         "prescoring": {
-            "title": "Chvilku strpení, kocour počítá, kolik můžete ušetřit",
+            "title": "Chvilku strpení. Právě počítáme, kolik můžete ušetřit",
             "detail": "Potrvá to jen chviličku."
         },
         "prescoringNok": {
@@ -256,6 +256,13 @@
             "savingsInfo": "Celkovou částku snížíte zkrácením doby splácení v kalkulačce.",
             "primaryButton": "Pokračovat",
             "secondaryButton": "Chybí tu něco?"
+        },
+        "otherSource": {
+            "title": "Navštivte nás na pobočce",
+            "detail": "Je nám líto, ale pro Vás zatím neumíme konsolidaci půjček spočítat přímo ve Smart Bance. <b>Stavte se prosím na naší pobočce, kde vše vyřešíme, nebo nám zavolejte pro více informací.</b>",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Ukončit žádost"
         },
         "personalDetail": {
             "title": "Máme správně vaše údaje?",
@@ -437,11 +444,7 @@
             "list": {
                 "title": "Pokud máte více příjmů, můžete je nyní doplnit",
                 "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
-                "incomes": [
-                    "Příjem",
-                    "Druhý příjem",
-                    "Třetí příjem"
-                ],
+                "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
                 "remove": "Odstranit příjem",
                 "incomeSource": "Zdroj příjmu",
                 "fillIn": "Doplňte",
@@ -469,7 +472,7 @@
                     "title": "Opravdu chcete odstranit tento příjem?"
                 },
                 "trialPeriod": "ve zkušební lhůtě",
-                "onNoticePeriod": "ve výpovědní lhůtě",
+                "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                 "employmentForPeriod": "na dobu určitou do {0}",
                 "primaryButton": "Pokračovat"
             },
@@ -498,7 +501,7 @@
                             "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
-                            "Pohodové splácení s pojištěním schopnosti splácet"
+                            "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
                         ],
                         "primaryButton": {
                             "actionType": "APP_PAGE",
@@ -507,13 +510,13 @@
                         },
                         "secondaryButton": {
                             "actionType": "CLOSE",
-                            "actionLabelText": "Zpět"
+                            "actionLabelText": "Zpět na Expres půjčku"
                         }
                     }
                 }
             },
             "entrepreneur": {
-                "title": "Detaily o vašem podnikání",
+                "title": "Jaký je rozdíl mezi Vašimi příjmy a výdaji?",
                 "entrepreneurFrom": "Podnikám od",
                 "taxBase": "Výše rozdílu (základ daně za minulý rok)",
                 "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
@@ -567,7 +570,7 @@
                 {
                     "id": "OTHER_INCOME",
                     "title": "Jiný",
-                    "detail": "Např. DPP, DPČ, nájem, alimenty nebo renta"
+                    "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
                 }
             ],
             "employer": {
@@ -588,7 +591,7 @@
                     "employerTitle": "Název",
                     "employerPlaceholder": "vyberte",
                     "idNumberTitle": "IČ",
-                    "idNumberPlaceholder": "Vyberte název subjektu",
+                    "idNumberPlaceholder": "vyberte",
                     "primaryButton": "Pokračovat"
                 },
                 "RENT": {
@@ -596,7 +599,7 @@
                     "employerTitle": "Subjekt vyplácející rentu",
                     "employerPlaceholder": "vyberte",
                     "idNumberTitle": "IČ",
-                    "idNumberPlaceholder": "Vyberte název subjektu",
+                    "idNumberPlaceholder": "vyberte",
                     "primaryButton": "Pokračovat"
                 }
             },
@@ -607,7 +610,8 @@
                     "employerPlaceholder": "vyberte",
                     "sectionTitle": "Vyberte ze seznamu",
                     "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
-                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
                 },
                 "BUSINESS_INCOME": {
                     "title": "Doplňte údaje o Vašem podnikání",
@@ -615,7 +619,8 @@
                     "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
                     "employerTitle": "Subjekt",
                     "employerPlaceholder": "Vyberte název subjektu",
-                    "switchToForeignEmployer": "Podnikám v zahraničí"
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
                 },
                 "RENT": {
                     "title": "Kdo vám rentu vyplácí?",
@@ -623,7 +628,8 @@
                     "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
                     "employerTitle": "Subjekt vyplácející rentu",
                     "employerPlaceholder": "vyberte",
-                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
                 }
             },
             "employerSearchId": {
@@ -633,7 +639,8 @@
                     "hint": "Zadejte celé IČO subjektu.",
                     "idNumberTitle": "IČ",
                     "idNumberPlaceholder": "IČ",
-                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma"
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
                 },
                 "BUSINESS_INCOME": {
                     "title": "Doplňte údaje o Vašem podnikání",
@@ -641,7 +648,8 @@
                     "hint": "Zadejte celé IČO subjektu.",
                     "idNumberTitle": "IČ",
                     "idNumberPlaceholder": "IČ",
-                    "switchToForeignEmployer": "Podnikám v zahraničí"
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
                 },
                 "RENT": {
                     "title": "Kdo vám rentu vyplácí?",
@@ -649,13 +657,15 @@
                     "hint": "Zadejte celé IČO subjektu.",
                     "idNumberTitle": "IČ",
                     "idNumberPlaceholder": "IČ",
-                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma"
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
                 }
             },
             "solvency": {
                 "EMPLOYMENT_INCOME": {
                     "title": "Jaký je váš příjem ze zaměstnání?",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
                     "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                     "primaryButton": "Pokračovat"
@@ -663,41 +673,49 @@
                 "RENT": {
                     "title": "Jaká je výše vaší renty",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "PARENTAL_ALLOWANCE": {
                     "title": "Jaká je výše vašeho rodičovského příspěvku",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "MATERNITY_ALLOWANCE": {
                     "title": "Jaká je výše vaší peněžité pomoci v mateřství",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "OLDAGE_PENSION": {
                     "title": "Jaká je výše vašeho starobního důchodu?",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "DISABILITY_PENSION": {
                     "title": "Jaká je výše vašeho invalidního důchodu",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "RENTAL_OFF_TAX_RETURN": {
                     "title": "Jaká je výše vašeho příjmu z pronájmu",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "MAINTENANCE_ALLOWANCE": {
                     "title": "Jaká je výše vašeho příjmu z výživného",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 },
                 "OTHER_INCOME": {
                     "title": "Jaká je výše vašeho příjmu",
                     "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
                     "primaryButton": "Pokračovat"
                 }
             },
@@ -791,12 +809,15 @@
             "primaryButton": "Pokračovat"
         },
         "employerSearch": {
-            "title": "Našeptávač zaměstnavatele",
-            "hint": "Zadejte alespoň první tři písmena názvu zaměstnavatele s diakritikou",
-            "employerTitle": "Zaměstnavatel"
+            "title": "Jaký je váš současný zaměstnavatel?",
+            "employerTitle": "Zaměstnavatel",
+            "employerPlaceholder": "vyberte",
+            "sectionTitle": "Vyberte ze seznamu",
+            "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+            "noMatchItem": "Pokračovat s {0}"
         },
         "scoring": {
-            "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+            "title": "Chvilku strpení, všechno to musíme zkontrolovat",
             "detail": "Potrvá to jen chviličku."
         },
         "scoringNok": {
@@ -977,7 +998,7 @@
                         "primaryButton": "Pokračovat"
                     },
                     "busyLoader": {
-                        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
+                        "title": "Chvilku strpení, všechno to musíme zkontrolovat",
                         "detail": "Zabere to maximálně pár vteřin."
                     },
                     "uploadDocumentResultNok": {

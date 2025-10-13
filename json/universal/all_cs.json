@@ -64,7 +64,8 @@
             "panic": {
                 "buttonDashboard": {
                     "title": "Při podezření na zneužití účtu",
-                    "detail": "Zablokovat bankovnictví"
+                    "detail": "Zablokovat bankovnictví",
+                    "primary": "Mám podezření na zneužití účtu"
                 },
                 "buttonCommon": {
                     "title": "Zablokovat bankovnictví",
@@ -74,6 +75,7 @@
                     "title": "Zablokovat bankovnictví a karty",
                     "detail": "Při podezření na zneužití účtu.\nOkamžitě a bez čekání na telefonní lince."
                 },
+                "suspectButtonDashboard": "Mám podezření na zneužití účtu",
                 "scenes": {
                     "intro": {
                         "title": "Okamžitá nouzová blokace bankovnictví",
@@ -346,10 +348,7 @@
             },
             "savingsInterestRate": [
                 {
-                    "codes": [
-                        "596",
-                        "597"
-                    ],
+                    "codes": ["596", "597"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
@@ -369,10 +368,7 @@
                     }
                 },
                 {
-                    "codes": [
-                        "569",
-                        "570"
-                    ],
+                    "codes": ["569", "570"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
@@ -392,9 +388,7 @@
                     }
                 },
                 {
-                    "codes": [
-                        "761"
-                    ],
+                    "codes": ["761"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
                     "standardRate": "Standardní úroková sazba",
@@ -413,9 +407,7 @@
                     }
                 },
                 {
-                    "codes": [
-                        "default"
-                    ],
+                    "codes": ["default"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
@@ -437,7 +429,7 @@
             "cifUpdate": {
                 "errorScreens": {
                     "api": {
-                        "title": "Něco se vymňouklo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
+                        "title": "Jejda, něco se pokazilo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
                         "detail": "Omlouváme se, ale momentálně není možné pokračovat se změnou osobních údajů ve Smart Bance.",
                         "callUs": "Zavolejte nám\nna infolinku",
                         "primaryButton": "Zpět na přehled zůstatků"
@@ -525,7 +517,7 @@
                     "primaryButton": "Pokračovat k focení"
                 },
                 "loading": {
-                    "title": "Chvilku strpení, kocour to musí všechno zkontrolovat."
+                    "title": "Chvilku strpení, všechno to musíme zkontrolovat."
                 },
                 "uploadRetry": {
                     "title": "Jejda, takhle to nepůjde",
@@ -535,93 +527,93 @@
                 },
                 "documentUploadVictory": {
                     "title": "Zpracováváme",
-                    "detail": "Děkujeme. Vše se v pořádku nahrálo, ale kocour to ještě musí zkontrolovat. Do 5 dní Vám dáme vědět.",
+                    "detail": "Děkujeme. Teď to musíme zkontrolovat my. Do 5 dní Vám dáme vědět.",
                     "primaryButton": "Rozumím"
                 }
             },
-            "cifUpdateV2" : {
-                "documentScan" : {
-                    "info" : {
-                        "bullets" : [
+            "cifUpdateV2": {
+                "documentScan": {
+                    "info": {
+                        "bullets": [
                             {
-                                "icon" : "idCardFill",
-                                "title" : "Platný doklad ze správné strany a na šířku"
+                                "icon": "idCardFill",
+                                "title": "Platný doklad ze správné strany a na šířku"
                             },
                             {
-                                "icon" : "lightBulbOnFill",
-                                "title" : "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
+                                "icon": "lightBulbOnFill",
+                                "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
                             }
                         ],
-                        "detail" : "Ujistěte se, že fotíte",
-                        "idBackTitle" : "Nyní vyfotíte zadní stranu občanského průkazu",
-                        "idFrontTitle" : "Nyní vyfotíte přední stranu občanského průkazu",
-                        "primaryButton" : "Pokračovat k focení"
+                        "detail": "Ujistěte se, že fotíte",
+                        "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
+                        "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
+                        "primaryButton": "Pokračovat k focení"
                     },
-                    "permissionErrorScreen" : {
-                        "detail" : "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
-                        "primaryButton" : "Povolit fotoaparát",
-                        "title" : "Aplikace potřebuje oprávnění"
+                    "permissionErrorScreen": {
+                        "detail": "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
+                        "primaryButton": "Povolit fotoaparát",
+                        "title": "Aplikace potřebuje oprávnění"
                     },
-                    "scanFailed" : {
-                        "detail" : "Zkontrolujte a doplňte je prosím v dalším kroku.",
-                        "primaryButton" : "Vyfotit znovu",
-                        "title" : "Vaše údaje se nám nepodařilo správně načíst"
+                    "scanFailed": {
+                        "detail": "Zkontrolujte a doplňte je prosím v dalším kroku.",
+                        "primaryButton": "Vyfotit znovu",
+                        "title": "Vaše údaje se nám nepodařilo správně načíst"
                     },
-                    "takePhoto" : {
-                        "drivingLicenceTitle" : "Přední strana řidičského průkazu",
-                        "idBackTitle" : "Zadní strana občanského průkazu",
-                        "idFrontTitle" : "Přední strana občanského průkazu",
-                        "no" : "Ne, znovu",
-                        "passportLicenceTitle" : "Úvodní strana cestovního pasu",
-                        "reviewTitle" : "Je vše dobře viditelné?",
-                        "takePhoto" : "Vyfotit",
-                        "tooltip" : "Ostrá, bez odlesků a čitelná",
-                        "yes" : "Ano"
+                    "takePhoto": {
+                        "drivingLicenceTitle": "Přední strana řidičského průkazu",
+                        "idBackTitle": "Zadní strana občanského průkazu",
+                        "idFrontTitle": "Přední strana občanského průkazu",
+                        "no": "Ne, znovu",
+                        "passportLicenceTitle": "Úvodní strana cestovního pasu",
+                        "reviewTitle": "Je vše dobře viditelné?",
+                        "takePhoto": "Vyfotit",
+                        "tooltip": "Ostrá, bez odlesků a čitelná",
+                        "yes": "Ano"
                     },
-                    "upload" : {
-                        "cancelButton" : "Zkusit příště",
-                        "error" : "Omlouváme se, něco se vymňouklo",
-                        "nok" : "Tohle ve Smart Bance neumíme.\nVyřešíme to spolu na pobočce",
-                        "takeAgainButton" : "Vyfotit znovu",
-                        "title" : "Zpracováváme vyfocený doklad, hned to bude"
+                    "upload": {
+                        "cancelButton": "Zkusit příště",
+                        "error": "Omlouváme se, tak tohle nevyšlo",
+                        "nok": "Tohle ve Smart Bance neumíme.\nVyřešíme to spolu na pobočce",
+                        "takeAgainButton": "Vyfotit znovu",
+                        "title": "Zpracováváme vyfocený doklad, hned to bude"
                     },
-                    "wrongDocument" : {
-                        "detail" : "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
-                        "primaryButton" : "Vyfotit znovu",
-                        "title" : "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou"
+                    "wrongDocument": {
+                        "detail": "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
+                        "primaryButton": "Vyfotit znovu",
+                        "title": "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou"
                     }
                 },
-                "intro" : {
-                    "bullets" : [
+                "intro": {
+                    "bullets": [
                         {
-                            "description" : "Vyfotíte svůj platný český občanský průkaz z obou stran.",
-                            "icon" : "idCardFill",
-                            "title" : "Focení občanského průkazu"
+                            "description": "Vyfotíte svůj platný český občanský průkaz z obou stran.",
+                            "icon": "idCardFill",
+                            "title": "Focení občanského průkazu"
                         }
                     ],
-                    "primaryButton" : "Spustit focení",
-                    "title" : "Ve následujícím kroku teď ověříme Vaši totožnost"
+                    "primaryButton": "Spustit focení",
+                    "title": "Ve následujícím kroku teď ověříme Vaši totožnost"
                 },
-                "uploadReview" : {
-                    "birthNumber" : "Rodné číslo",
-                    "citizenship" : "Státní občanství",
-                    "citizenshipValue" : "pouze Česká republika",
-                    "city" : "Město",
-                    "dateOfBirth" : "Datum narození",
-                    "descriptiveNumber" : "Č. popisné",
-                    "detail" : "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
-                    "firstName" : "Jméno",
-                    "idCardNumber" : "Číslo dokladu",
-                    "idCardValidTo" : "Platnost do",
-                    "lastName" : "Příjmení",
-                    "orientationNumber" : "Č. orientační",
-                    "placeOfBirth" : "Místo narození",
-                    "primaryButton" : "Pokračovat",
-                    "sectionAddress" : "<b>Trvalý pobyt</b> (pouze Česká republika)",
-                    "sectionScan" : "<b>Údaje z dokladu</b>",
-                    "street" : "Ulice",
-                    "title" : "Načetli jsme Vaše údaje správně?",
-                    "zipCode" : "PSČ"
+                "uploadReview": {
+                    "birthNumber": "Rodné číslo",
+                    "citizenship": "Státní občanství",
+                    "citizenshipValue": "pouze Česká republika",
+                    "city": "Město",
+                    "dateOfBirth": "Datum narození",
+                    "descriptiveNumber": "Č. popisné",
+                    "detail": "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
+                    "firstName": "Jméno",
+                    "idCardNumber": "Číslo dokladu",
+                    "idCardValidTo": "Platnost do",
+                    "lastName": "Příjmení",
+                    "orientationNumber": "Č. orientační",
+                    "placeOfBirth": "Místo narození",
+                    "primaryButton": "Pokračovat",
+                    "sectionAddress": "<b>Trvalý pobyt</b> (pouze Česká republika)",
+                    "sectionScan": "<b>Údaje z dokladu</b>",
+                    "street": "Ulice",
+                    "title": "Načetli jsme Vaše údaje správně?",
+                    "zipCode": "PSČ"
                 }
             },
             "overlay": {

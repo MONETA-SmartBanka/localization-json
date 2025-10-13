@@ -1,946 +1,944 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "api": {
-        "title": "Něco se vymňouklo",
-        "detail": "Zkuste prosím založit dětský účet později. Kocour už pracuje na nápravě",
-        "primaryButton": "OK"
-      },
-      "precontractDisagree": {
-        "title": "Bez souhlasu to bohužel nepůjde",
-        "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Naštivte nás\nna pobočce",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Zpět"
-      },
-      "contractDisagree": {
-        "title": "Bez souhlasu to bohužel nepůjde",
-        "detail": "Od aktivace Smart Banky Vás dělí jen krůček. Abychom mohli pokračovat, potřebujeme od Vás souhlas s produktovými podmínkami a podpis smlouvy. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Naštivte nás\nna pobočce",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Pokračovat ve sjednání"
-      },
-      "hard": {
-        "title": "Dětský účet nemůžete založit",
-        "detail": "Mrzí nás to, ale po prověření žádosti vám bohužel nemůžeme dětský účet nabídnout.",
-        "secondaryButton": "Ukončit žádost",
-        "primaryButton": "Zpět na přehled zůstatků"
-      },
-      "branch": {
-        "title": "Dětský účet nemůžete založit",
-        "detail": "Mrzí nás to, ale po prověření žádosti vám bohužel nemůžeme dětský účet nabídnout.",
-        "secondaryButton": "Ukončit žádost"
-      },
-      "insufficient": {
-        "title": "Tady to nepůjde, ale zastavte se za námi na pobočce",
-        "detail": "Společně se na vše podíváme.",
-        "bulletsSectionTitle": "Přineste si prosím s sebou:",
-        "bullets": [
-          "Svůj občanský průkaz",
-          "Český pas nebo občanský průkaz dítěte (od 15 let pouze OP)",
-          "Rodný list dítěte"
-        ],
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Naštivte nás\nna pobočce",
-        "primaryButton": "Ukončit žádost",
-        "secondaryButton": "Zpět na Přehled"
-      },
-      "longTermProcess": {
-        "title": "Máme skoro hotovo",
-        "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět.",
-        "primaryButton": "Zpět na přehled"
-      }
-    },
-    "general": {
-      "toolbarTitle": "Vítejte ve Smart Bance",
-      "toolbarCreateTitle": "Aktivace Smart Banky",
-      "phoneNumberSupport": "224 443 636",
-      "phoneNumberSale": "800 102 040"
-    },
-    "scenes": {
-      "help": {
-        "title": "Potřebujete poradit nebo chcete dokončit sjednání dětského účtu později?",
-        "bulletsHeadline": "Proč dětský účet od Monety?",
-        "iconBullets": [
-          {
-            "icon": "moneyFill",
-            "text": "Zdarma"
-          },
-          {
-            "icon": "savingsFill",
-            "text": "Naučíme dítě hospodařit s penězi"
-          },
-          {
-            "icon": "cardTachometerFill",
-            "text": "Nastavíme limity a zjednodušíme placení i spoření"
-          },
-          {
-            "icon": "lockFill",
-            "text": "Vše budete mít pod kontrolou"
-          }
-        ],
-        "primaryButton": "Zpět k žádosti",
-        "secondaryButton": "Dokončit žádost jindy",
-        "tertiaryButton": "Zrušit žádost",
-        "helpHeadline": "Nevíte si s něčím rady a potřebujete pomoc?",
-        "callUs": "Zavolejte nám\nna infolinku",
-        "branch": "Navštivte nás\nna pobočce"
-      },
-      "intro": {
-        "toolbarTitle": "Vytvoření účtu",
-        "title": "Účet s aplikací pro vás a vaše děti, se kterou se naučí hospodařit s penězi",
-        "detail": "Svěřte dětem jejich vlastní finance a nechte je s nimi hospodařit. Naučte je zodpovědnosti pod vaším dohledem. To vše v prostředí, které dobře znáte.",
-        "image": "familyAccountIntro",
-        "errors": {
-          "missingId": {
-            "title": "Jejda, bez druhého dokladu nemůžeme účet založit",
-            "subtitle": "Pro založení dětského účtu potřebujeme vidět občanský průkaz nebo pas dítěte (od 15 let pouze OP)."
-          },
-          "birthCert": {
-            "title": "Jejda, pro založení účtu musíte být uvedeni v rodném listu dítěte",
-            "subtitle": "Pokud vás dítě nemá zapsáno v rodném listu, nemůžete bohužel jeho účet založit."
-          }
-        },
-        "sections": [
-          {
-            "style": "attached",
-            "title": "Dítě se naučí poznat hodnotu peněz",
-            "items": [
-              {
-                "icon": "savingsFill",
-                "text": "Okamžitý přehled o účtech pro vás i vaše dítě ve vašich telefonech"
-              },
-              {
-                "icon": "cardTachometerFill",
-                "text": "Nastavení limitů a zjednodušení placení i spoření"
-              },
-              {
-                "icon": "lockFill",
-                "text": "Vše pod vaší pod kontrolou"
-              }
-            ]
-          },
-          {
-            "style": "attached",
-            "title": "Pohyby na účtu vidíte ve své Smart Bance",
-            "header": "Ve své Smart Bance uvidíte zůstatek i všechny platby, které z dětského účtu proběhnou.",
-            "items": [
-              {
-                "icon": "tickFill",
-                "text": "Zobrazení transakcí na účtu"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Možnost zamknutí a blokace účtu"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Nastavení limitů pro platby a schvalování"
-              }
-            ]
-          },
-          {
-            "style": "attached",
-            "title": "Kapesné pro 21. století",
-            "header": "Kdykoliv snadno převedete peníze, odešlete kapesné nebo předáte číslo účtu babičce.",
-            "items": [
-              {
-                "icon": "tickFill",
-                "text": "Doporučené kapesné podle věku dítěte"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Jednoduché přesouvání peněz mezi účty přetažením částek"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Nastavení pravidelného kapesného"
-              }
-            ]
-          },
-          {
-            "style": "attached",
-            "title": "Karta, spoření i účet do dospělosti",
-            "items": [
-              {
-                "icon": "tickFill",
-                "text": "Platební karta k účtu"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Placení mobilem"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Atraktivní úrok na spořicím účtu"
-              }
-            ],
-            "footer": "Více informací najdete na <a href=\"https://moneta.cz\">webu Monety</a>"
-          },
-          {
-            "style": "separate",
-            "title": "Pro založení dětského účtu online postačí",
-            "items": [
-              {
-                "icon": "tickFill",
-                "text": "Český pas nebo občanský průkaz dítěte (od patnáctni let pouze OP)",
-                "info": "<a href=\"pep\">Dítě nemá pas ani občanku, nebo má pouze cizí občanství?</a>",
-                "redirect": "MISSING_ID"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Být zapsaný v rodném listu dítěte",
-                "info": "<a href=\"pep\">Nejste zapsáni v rodném listu dítěte?</a>",
-                "redirect": "BIRTH_CERT"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Rodný list dítěte"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Kontaktní údaje dítěte"
-              },
-              {
-                "icon": "tickFill",
-                "text": "Dítě musí být starší 8 let"
-              }
-            ]
-          }
-        ],
-        "primaryButton": "Založit dětský účet zdarma"
-      },
-      "uploadBirthCertificateIntro": {
-        "title": "Teď ověříme totožnost vašeho dítěte",
-        "primaryButton": "Vyfotit rodný list",
-        "items": [
-          {
-            "icon": "documentsFill",
-            "text": "<b>Focení rodného listu</b><br/>Vyfotíte český rodný list vašeho dítěte."
-          },
-          {
-            "icon": "idCardFill",
-            "text": "<b>Focení druhého dokladu</b><br/>Pro založení dětského účtu potřebujeme vidět občanský průkaz nebo pas dítěte (od 15 let pouze OP)."
-          }
-        ]
-      },
-      "uploadBirthCertificateScanner": {
-        "title": "Vyfoťte dokument",
-        "detail": "Platný rodný list dítěte, za dobrého osvětlení, ostře a nerozmazaně.",
-        "primaryButton": "Vyfotit"
-      },
-      "basicInfo": {
-        "title": "Začneme se základními údaji",
-        "accountName": {
-          "title": "Název účtu",
-          "placeholder": "Např. Anička"
-        },
-        "childInputSection": {
-          "title": "Údaje o dítěti",
-          "email": {
-            "title": "E-mail",
-            "placeholder": "dite@moneta.cz"
-          },
-          "phone": {
-            "title": "Telefon",
-            "placeholder": "Naše infolinka má 224 443 636"
-          },
-          "info": "Telefon slouží k potvrzování plateb na internetu (3-D Secure). Pokud nechcete, aby dítě kartou na internetu platilo, zablokujte tuto možnost v dalších krocích."
-        },
-        "parentInputSection": {
-          "title": "Vaše údaje",
-          "email": {
-            "title": "E-mail"
-          },
-          "phone": {
-            "title": "Telefon"
-          },
-          "info": "Pro zasílání důležitých informací o dětském účtu"
-        },
-        "consentSection": {
-          "title": "Abychom s vámi mohli rychle komunikovat",
-          "unencryptedCommunication": {
-            "title": "Můžeme si volat a psát jednoduše",
-            "secondary": "Chci, aby s mým dítětem Moneta komunikovala běžným, nešifrovaným způsobem přes e-mail a telefon."
-          },
-          "instantMessaging": {
-            "title": "Můžeme spolu chatovat",
-            "secondary": "Souhlasím s nešifrovanou komunikací s Monetou přes WhatsApp a jinými aplikacemi pro zasílání zpráv."
-          },
-          "marketingConsent": {
-            "title": "O všem budete vědět jako první",
-            "secondary": "Souhlasím se zpracováním údajů mého dítěte pro zasílání nabídek Monety. Zasílání lze kdykoliv zrušit."
-          },
-          "personalData": {
-            "title": "Pokračováním souhlasím s tím, že informace týkající se založení běžného účtu mohou být jednorázově zaslány nešifrovaným způsobem na výše uvedenou e-mailovou adresu a telefonní číslo. Dále beru na vědomí <a href=\"https://moneta.cz/ochrana-dat\">zásady zpracování</a> osobních údajů v koncernu MONETA."
-          }
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "confirmedChildSelection": {
-        "title": "Pro jaké dítě tvoříme účet?",
-        "detail": "Účty pro další děti můžete otevřít po založení tohoto",
-        "info": "Tato data čerpáme z dokumentů, které jste jste nám již dříve poskytli",
-        "prepareDocument": "Připravte si",
-        "documents": {
-          "ID": "občanský průkaz",
-          "PASSPORT": "pas dítěte"
-        },
-        "secondaryButton": "Jiné dítě"
-      },
-      "uploadBirthCertificateBusyLoader": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-        "detail": "Zabere to maximálně pár vteřin."
-      },
-      "uploadBirthCertificateReview": {
-        "title": "Je fotografie dostatečně ostrá?",
-        "primaryButton": "Ano, pokračovat",
-        "secondaryButton": "Vyfotit znovu"
-      },
-      "birthNumber": {
-        "title": "Doplňte údaje o dítěti",
-        "birthCertficateNumber": {
-          "title": "Číslo rodného listu",
-          "placeholder": "Např. 51 2000 500 50",
-          "info": "Jde o čtyři čísla – Svazek, Ročník, Strana, Pořadové číslo (všechny naleznete v horní polovině rodného listu)."
-        },
-        "birthNumber": {
-          "title": "Rodné číslo",
-          "placeholder": "10 čísel bez lomítka"
-        },
-        "primaryButton": "Pokračovat",
-        "victoryError": {
-          "title": "Vašemu dítěti teď účet nemůžeme nabídnout"
-        }
-      },
-      "wrongBirthNumberVictory": {
-        "title": "S tímto RČ dítěte nelze pokračovat",
-        "secondaryButton": "Ukončit žádost"
-      },
-      "uploadDocumentSimpleLoader": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-        "detail": "Zabere to vteřinu."
-      },
-      "uploadDocumentIntroChoice": {
-        "title": "Teď vyfotíme druhý doklad <span style=\"color: #246BFD\">dítěte</span>",
-        "detail": "Prosím pokračujte druhým dokladem dítěte, abychom si byli opravdu jisti jeho totožností.",
-        "primaryButton": "Občanský průkaz",
-        "secondaryButton": "Pas",
-        "tertiaryButton": "Dítě nemá ani jeden"
-      },
-      "uploadDocumentIntroID": {
-        "title": "Teď vyfotíme občanský průkaz <span style=\"color: #246BFD\">dítěte</span>",
-        "detail": "Prosím pokračujte focením občanského průkazu dítěte, abychom si byli opravdu jisti jeho totožností.",
-        "primaryButton": "Občanský průkaz",
-        "tertiaryButton": "Dítě nemá občanský průkaz"
-      },
-      "uploadDocumentNoDocuments": {
-        "title": "Bez druhého dokladu to nepůjde",
-        "detail": "Dětský účet vám bohužel bez druhého dokladu totožnosti nemůžeme založit."
-      },
-      "uploadDocumentScannerID1": {
-        "title": "Vyfoťte přední stranu občanského průkazu",
-        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-        "primaryButton": "Vyfotit"
-      },
-      "uploadDocumentScannerID2": {
-        "title": "Vyfoťte zadní stranu občanského průkazu",
-        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-        "primaryButton": "Vyfotit"
-      },
-      "uploadDocumentScannerPassport": {
-        "title": "Vyfoťte pas",
-        "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
-        "primaryButton": "Vyfotit"
-      },
-      "uploadDocumentResultNok": {
-        "title": "Dětský účet vám teď nemůžeme založit",
-        "detail": "Moc se omlouváme"
-      },
-      "uploadDocumentResultUploadAgain": {
-        "title": "Jejda, tohle se nepovedlo",
-        "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-        "primaryButton": "Vyfotit znovu",
-        "secondaryButton": "Pokračovat později"
-      },
-      "uploadDocumentBusyLoader": {
-        "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-        "detail": "Zabere to maximálně pár vteřin."
-      },
-      "uploadDocumentReview": {
-        "title": "Načetli jsme vše správně?",
-        "documentDetails": {
-          "title": "Údaje z dokladu dítěte",
-          "firstName": "Jméno",
-          "lastName": "Příjmení",
-          "birthDate": "Datum narození",
-          "birthPlace": "Místo narození",
-          "birthNumber": "Rodné číslo",
-          "idCardNumber": {
-            "title": "Číslo občanského průkazu",
-            "secondaryTitle": "Číslo pasu"
-          },
-          "idCardValidTo": "Platnost do",
-          "issueDate": "Platnost od",
-          "nationality": "Státní občanství",
-          "nationalityValue": "pouze Česká republika",
-          "sex": "Pohlaví",
-          "male": "muž",
-          "female": "žena"
-        },
-        "documentAddress": {
-          "title": "Trvalý pobyt",
-          "secondary": "(Pouze Česká republika)",
-          "street": "Ulice",
-          "descriptiveNumber": "Číslo popisné",
-          "orientationNumber": "Číslo orientační",
-          "city": "Obec nebo město",
-          "zip": "PSČ",
-          "personalData": {
-            "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
-          }
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "uploadDocumentReviewCorrection": {
-        "title": "Některé údaje nesouhlasí",
-        "detail": "Zdá se, že vyplněné údaje nesouhlasí s načtenými. Prosím zkontrolujte je a opravte.",
-        "inputPlaceHolder": "vyplňte",
-        "primaryButton": "Potvrdit",
-        "secondaryButton": "Pokračovat později"
-      },
-      "uploadParentIDInVerificationVictory": {
-        "title": "Probíhá posouzení uploadovaného OP rodiče"
-      },
-      "contactAddress": {
-        "title": "Kam pošleme kartu pro dítě?",
-        "virtualCard": {
-          "title": "Dítěti stačí karta do mobilu",
-          "detail": "Místo plastové karty vydáme virtuální kartu. Pro placení a výběry si ji dítě přidá do mobilu hned po zřízení účtu. Údaje pro placení na  internetu pak najde ve Smart Bance a Internet Bance."
-        },
-        "addressSection": {
-          "title": "Kontaktní adresa",
-          "info": "Doporučujeme nastavit vaši adresu jako kontaktní.",
-          "firstName": "Jméno",
-          "lastName": "Příjmení",
-          "street": "Ulice",
-          "descriptiveNumber": "Číslo popisné",
-          "orientationNumber": "Číslo orientační",
-          "city": "Obec nebo město",
-          "country": "Země",
-          "countryValue": "Česká republika",
-          "zip": "PSČ"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "amlQuestionnaire": {
-        "title": "Údaje vyžadované zákonem",
-        "questions": {
-          "secondaryTitle": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
-          "select": "Vybrat",
-          "depositOrigin": {
-            "title": "Odkud budou převážně pocházet peníze na běžném účtu dítěte?",
-            "options": [
-              {
-                "value": "POCKET_MONEY",
-                "text": "Kapesné"
-              },
-              {
-                "value": "STUDENT_WORK_INCOME",
-                "text": "Příjmy z brigády nebo zaměstnání"
-              },
-              {
-                "value": "GIFT",
-                "text": "Dary"
-              },
-              {
-                "value": "HERITAGE",
-                "text": "Dědictví"
-              },
-              {
-                "value": "COURT_DECISION_BASED_REVENUE",
-                "text": "Příjmy na základě rozhodnutí soudu",
-                "infoText": "Výživné a podobné příjmy"
-              },
-              {
-                "value": "SOCIAL_SUPPORT",
-                "text": "Státní podpora",
-                "infoText": "Dávky nemocenského pojištění a důchodového pojištění, dávky sociální péče a dávky státní sociální podpory, sirotčí důchod, apod."
-              },
-              {
-                "value": "OTHER",
-                "text": "Jiné"
-              }
-            ],
-            "primaryButton": "Pokračovat"
-          },
-          "prevailingTransactions": {
-            "title": "Jaké transakce budou na běžném účtu dítěte převažovat?",
-            "options": [
-              {
-                "value": "CASHLESS_DOMESTIC",
-                "text": "Bezhotovostní tuzemské"
-              },
-              {
-                "value": "CASHLESS_FOREIGN_WITHIN_EU",
-                "text": "Bezhotovostní zahraniční v rámci EU"
-              },
-              {
-                "value": "CASHLESS_FOREIGN_OUTSIDE_EU",
-                "text": "Bezhotovostní zahraniční mimo EU"
-              }
-            ],
-            "primaryButton": "Pokračovat"
-          },
-          "rangeOfIncome": {
-            "title": "Jaká bude výše měsíčních příjmů na běžném účtu dítěte?",
-            "options": [
-              {
-                "value": "BELOW_5K",
-                "text": "Do 5 000 Kč"
-              },
-              {
-                "value": "BELOW_10K",
-                "text": "5 000 až 10 000 Kč"
-              },
-              {
-                "value": "BELOW_25K",
-                "text": "10 000 až 25 000 Kč"
-              },
-              {
-                "value": "ABOVE_25K",
-                "text": "Nad 25 000 Kč"
-              }
-            ],
-            "primaryButton": "Pokračovat"
-          }
-        },
-        "taxResidence": "Je dítě zahraničním daňovým rezidentem?",
-        "pep": {
-          "text": "Je dítě politicky exponovaná osoba?",
-          "info": {
-            "title": "Kdo je <a href=\"pep\">politicky exponovaná osoba?</a>"
-          },
-          "detail": {
-            "title": "Politicky exponovaná osoba",
-            "subtitleOne": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí",
-            "subtitleTwo": "Např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil, apod.",
-            "section": {
-              "title": "Za politicky exponovanou osobu se považuje také",
-              "textRows": [
-                "Osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka)",
-                "Společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu",
-                "Skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby"
-              ]
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "api": {
+                "title": "Dětský účet vám teď nemůžeme založit",
+                "detail": "Moc se omlouváme",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "precontractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Zpět"
+            },
+            "contractDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde",
+                "detail": "Od aktivace Smart Banky Vás dělí jen krůček. Abychom mohli pokračovat, potřebujeme od Vás souhlas s produktovými podmínkami a podpis smlouvy. <b>Máte nějaké dotazy? Pojďme to probrat společně.</b>",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Pokračovat ve sjednání"
+            },
+            "hard": {
+                "title": "Dětský účet nemůžete založit",
+                "detail": "Mrzí nás to, ale po prověření žádosti vám bohužel nemůžeme dětský účet nabídnout.",
+                "secondaryButton": "Ukončit žádost",
+                "primaryButton": "Zpět na přehled zůstatků"
+            },
+            "branch": {
+                "title": "Dětský účet nemůžete založit",
+                "detail": "Mrzí nás to, ale po prověření žádosti vám bohužel nemůžeme dětský účet nabídnout.",
+                "secondaryButton": "Ukončit žádost"
+            },
+            "insufficient": {
+                "title": "Tady to nepůjde, ale zastavte se za námi na pobočce",
+                "detail": "Společně se na vše podíváme.",
+                "bulletsSectionTitle": "Přineste si prosím s sebou:",
+                "bullets": [
+                    "Svůj občanský průkaz",
+                    "Český pas nebo občanský průkaz dítěte (od 15 let pouze OP)",
+                    "Rodný list dítěte"
+                ],
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Ukončit žádost",
+                "secondaryButton": "Zpět na Přehled"
+            },
+            "longTermProcess": {
+                "title": "Máme skoro hotovo",
+                "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět.",
+                "primaryButton": "Zpět na přehled"
             }
-          }
         },
-        "pepDescription": "Proč je dítě politicky exponovaná osoba?",
-        "nationality": "Státní občanství",
-        "nationalityValue": "Česká republika",
-        "primaryButton": "Potvrdit informace"
-      },
-      "cardLimits": {
-        "title": "Nastavení karty dítěte",
-        "subtitle": "Karta vám oproti hotovosti umožňuje lepší kontrolu nad platbami. Dítě bude navíc držet krok se svými vrstevníky.",
-        "limitsSection": {
-          "title": "Nastavte prosím povolení a limity plateb",
-          "cash": {
-            "enabled": "Výběry z bankomatu",
-            "limit": "Měsíční limit",
-            "info": "Maximální měsíční limit je 5 000 Kč"
-          },
-          "internet": {
-            "enabled": "Internetové platby",
-            "limit": "Měsíční limit",
-            "info": "Maximální měsíční limit je 3 000 Kč"
-          },
-          "payment": {
-            "enabled": "Platby v kamenných ochodech",
-            "limit": "Měsíční limit",
-            "info": "Maximální měsíční limit je 7 000 Kč"
-          }
+        "general": {
+            "toolbarTitle": "Vítejte ve Smart Bance",
+            "toolbarCreateTitle": "Aktivace Smart Banky",
+            "phoneNumberSupport": "224 443 636",
+            "phoneNumberSale": "800 102 040"
         },
-        "primaryButton": "Pokračovat"
-      },
-      "otherLimits": {
-        "title": "Posílání peněz převodem",
-        "subtitle": "Dítěti můžete povolit odesílat peníze z jeho účtů příkazem k úhradě. Zároveň můžete nastavit, od jaké částky budete převody schvalovat. Převody mezi účty dítěte (běžný a spořicí účet) se do tohoto limitu nezapočítávají.",
-        "paymentApprovalEnabled": "Povolit dítěti převody na jiné účty",
-        "paymentSection": {
-          "title": "Limity převodů",
-          "secondaryTitle": "Měsíční limit je částka, kterou může dítě měsíčně odeslat. A to včetně plateb, které mu schválíte.",
-          "limit": "Měsíční limit",
-          "info": "Maximální měsíční limit je 10 000 Kč"
-        },
-        "inOtherAccountsSection": {
-          "title": "Schvalování převodů rodičem",
-          "secondaryTitle": "Převody vyšší než částka níže budete schvalovat ve své Smart Bance. Nižší částky může dítě převést samo.",
-          "enabled": "Schvalovat rodičem",
-          "limit": "Od částky",
-          "info": "Pokud chcete schvalovat všechny převody, nastavte 0 Kč"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "cifChecks": {
-        "busyLoader": {
-          "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-          "detail": "Zabere to maximálně pár vteřin."
-        },
-        "victory": {
-          "inManualVerification": {
-            "title": "Máme skoro hotovo",
-            "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět."
-          },
-          "genericError": {
-            "title": "Vašemu dítěti teď účet nemůžeme nabídnout"
-          }
-        }
-      },
-      "precontractBusyLoader": {
-        "title": "Už máme skoro hotovo!\nStačí jen podepsat smlouvy",
-        "detail": "Dejte nám chvilku, než je připravíme."
-      },
-      "precontract": {
-        "title": "Přečtěte si prosím předsmluvní informace",
-        "section": {
-          "title": "Prostudujte i tyto dokumenty",
-          "footer": "Všechny tyto dokumenty najdete ve Smart Bance v sekci Moje dokumenty"
-        },
-        "primaryButton": "Souhlasím, pokračovat",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "contract": {
-        "title": "Teď si přečtěte následující smlouvu",
-        "primaryButton": "Souhlasím, pokračovat",
-        "secondaryButton": "Nesouhlasím"
-      },
-      "sign": {
-        "title": "Podepište smlouvu PINem"
-      },
-      "checkVictoryBusyLoader": {
-        "title": "Teď to musíme podepsat my",
-        "detail": "Bude to trvat jen chviličku."
-      },
-      "checkVictory": {
-        "done": {
-          "title": "Založili jsme účet pro vaše dítě",
-          "detail": "Aby ho mohlo využívat naplno, propojte ho s jeho telefonem nebo tabletem.",
-          "primaryButton": "Propojit se zařízením dítěte ",
-          "secondaryButton": "Zpět na Přehled"
-        },
-        "waiting": {
-          "title": "Máme skoro hotovo",
-          "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět."
-        },
-        "insufficient": {
-          "title": "Dětský účet vám teď nemůžeme založit",
-          "detail": "Moc se omlouváme"
-        }
-      },
-      "connectDevice": {
-        "title": "Propojte dětské zařízení prostřednictvím QR kódu",
-        "sections": [
-          {
-            "title": "Na dětském zařízení:",
-            "textRows": [
-              "Naintalujte aplikaci Smart Bank",
-              "Na její úvodní obrazovce vyberte <b>Propojit pomocí QR kódu</b>",
-              "Naskenujte nebo opište do dětského zařízení aktivační kód, který vidíte výše",
-              "Nastavte si PIN pro přihlašování a ověřování"
-            ]
-          },
-          {
-            "title": "Na tomto zařízení:",
-            "textRows": [
-              "Potvrďte celý proces PINem"
-            ]
-          }
-        ]
-      },
-      "tips": {
-        "title": "Průvodce rodičovským účtem",
-        "pages": [
-          {
-            "title": "Spoření",
-            "detail": "Spoření je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit.",
-            "image": "savingsFill",
-            "sections": [
-              {
-                "style": "attached",
-                "title": "Základní doporučení",
-                "items": [
-                  {
-                    "icon": "1.circle.fill",
-                    "text": "Posílejte kapesné pravidelně"
-                  },
-                  {
-                    "icon": "2.circle.fill",
-                    "text": "Kontrolujte převody z běžného na spořící účet"
-                  },
-                  {
-                    "icon": "3.circle.fill",
-                    "text": "Motivujte dítě ke spoření"
-                  }
+        "scenes": {
+            "help": {
+                "title": "Potřebujete poradit nebo chcete dokončit sjednání dětského účtu později?",
+                "bulletsHeadline": "Proč dětský účet od Monety?",
+                "iconBullets": [
+                    {
+                        "icon": "moneyFill",
+                        "text": "Zdarma"
+                    },
+                    {
+                        "icon": "savingsFill",
+                        "text": "Naučíme dítě hospodařit s penězi"
+                    },
+                    {
+                        "icon": "cardTachometerFill",
+                        "text": "Nastavíme limity a zjednodušíme placení i spoření"
+                    },
+                    {
+                        "icon": "lockFill",
+                        "text": "Vše budete mít pod kontrolou"
+                    }
                 ],
-                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
-              }
-            ]
-          },
-          {
-            "title": "Kapesné",
-            "detail": "Kapesné je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
-            "image": "pocketMoneyFill",
-            "sections": [
-              {
-                "style": "attached",
-                "title": "Základní doporučení",
-                "items": [
-                  {
-                    "icon": "1.circle.fill",
-                    "text": "Posílejte kapesné pravidelně"
-                  },
-                  {
-                    "icon": "2.circle.fill",
-                    "text": "Kontrolujte převody z běžného na spořící účet"
-                  },
-                  {
-                    "icon": "3.circle.fill",
-                    "text": "Motivujte dítě ke spoření"
-                  }
+                "primaryButton": "Zpět k žádosti",
+                "secondaryButton": "Dokončit žádost jindy",
+                "tertiaryButton": "Zrušit žádost",
+                "helpHeadline": "Nevíte si s něčím rady a potřebujete pomoc?",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce"
+            },
+            "intro": {
+                "toolbarTitle": "Vytvoření účtu",
+                "title": "Účet s aplikací pro vás a vaše děti, se kterou se naučí hospodařit s penězi",
+                "detail": "Svěřte dětem jejich vlastní finance a nechte je s nimi hospodařit. Naučte je zodpovědnosti pod vaším dohledem. To vše v prostředí, které dobře znáte.",
+                "image": "familyAccountIntro",
+                "errors": {
+                    "missingId": {
+                        "title": "Jejda, bez druhého dokladu nemůžeme účet založit",
+                        "subtitle": "Pro založení dětského účtu potřebujeme vidět občanský průkaz nebo pas dítěte (od 15 let pouze OP)."
+                    },
+                    "birthCert": {
+                        "title": "Jejda, pro založení účtu musíte být uvedeni v rodném listu dítěte",
+                        "subtitle": "Pokud vás dítě nemá zapsáno v rodném listu, nemůžete bohužel jeho účet založit."
+                    }
+                },
+                "sections": [
+                    {
+                        "style": "attached",
+                        "title": "Dítě se naučí poznat hodnotu peněz",
+                        "items": [
+                            {
+                                "icon": "savingsFill",
+                                "text": "Okamžitý přehled o účtech pro vás i vaše dítě ve vašich telefonech"
+                            },
+                            {
+                                "icon": "cardTachometerFill",
+                                "text": "Nastavení limitů a zjednodušení placení i spoření"
+                            },
+                            {
+                                "icon": "lockFill",
+                                "text": "Vše pod vaší pod kontrolou"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "Pohyby na účtu vidíte ve své Smart Bance",
+                        "header": "Ve své Smart Bance uvidíte zůstatek i všechny platby, které z dětského účtu proběhnou.",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Zobrazení transakcí na účtu"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Možnost zamknutí a blokace účtu"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Nastavení limitů pro platby a schvalování"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "Kapesné pro 21. století",
+                        "header": "Kdykoliv snadno převedete peníze, odešlete kapesné nebo předáte číslo účtu babičce.",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Doporučené kapesné podle věku dítěte"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Jednoduché přesouvání peněz mezi účty přetažením částek"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Nastavení pravidelného kapesného"
+                            }
+                        ]
+                    },
+                    {
+                        "style": "attached",
+                        "title": "Karta, spoření i účet do dospělosti",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Platební karta k účtu"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Placení mobilem"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Atraktivní úrok na spořicím účtu"
+                            }
+                        ],
+                        "footer": "Více informací najdete na <a href=\"https://moneta.cz\">webu Monety</a>"
+                    },
+                    {
+                        "style": "separate",
+                        "title": "Pro založení dětského účtu online postačí",
+                        "items": [
+                            {
+                                "icon": "tickFill",
+                                "text": "Český pas nebo občanský průkaz dítěte (od patnáctni let pouze OP)",
+                                "info": "<a href=\"pep\">Dítě nemá pas ani občanku, nebo má pouze cizí občanství?</a>",
+                                "redirect": "MISSING_ID"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Být zapsaný v rodném listu dítěte",
+                                "info": "<a href=\"pep\">Nejste zapsáni v rodném listu dítěte?</a>",
+                                "redirect": "BIRTH_CERT"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Rodný list dítěte"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Kontaktní údaje dítěte"
+                            },
+                            {
+                                "icon": "tickFill",
+                                "text": "Dítě musí být starší 8 let"
+                            }
+                        ]
+                    }
                 ],
-                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
-              }
-            ]
-          },
-          {
-            "title": "Kontrola dítěte",
-            "detail": "Kontrola dítěte je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
-            "image": "userVerifiedFill",
-            "sections": [
-              {
-                "style": "attached",
-                "title": "Základní doporučení",
+                "primaryButton": "Založit dětský účet zdarma"
+            },
+            "uploadBirthCertificateIntro": {
+                "title": "Teď ověříme totožnost vašeho dítěte",
+                "primaryButton": "Vyfotit rodný list",
                 "items": [
-                  {
-                    "icon": "1.circle.fill",
-                    "text": "Posílejte kapesné pravidelně"
-                  },
-                  {
-                    "icon": "2.circle.fill",
-                    "text": "Kontrolujte převody z běžného na spořící účet"
-                  },
-                  {
-                    "icon": "3.circle.fill",
-                    "text": "Motivujte dítě ke spoření"
-                  }
-                ],
-                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
-              }
-            ]
-          },
-          {
-            "title": "Finanční edukace dítěte",
-            "detail": "Finanční edukace dítěte je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
-            "image": "studyFill",
-            "sections": [
-              {
-                "style": "attached",
-                "title": "Základní doporučení",
-                "items": [
-                  {
-                    "icon": "1.circle.fill",
-                    "text": "Posílejte kapesné pravidelně"
-                  },
-                  {
-                    "icon": "2.circle.fill",
-                    "text": "Kontrolujte převody z běžného na spořící účet"
-                  },
-                  {
-                    "icon": "3.circle.fill",
-                    "text": "Motivujte dítě ke spoření"
-                  }
-                ],
-                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
-              }
-            ]
-          }
-        ]
-      },
-      "connectVictory": {
-        "title": "Hotovo. Vložíme ještě dítěti první peníze?",
-        "subtitle": "Dětem se učí lépe hospodařit, když je s čím. Peníze přijdou za chvíli a můžete dítěti rovnou ukázat, jak správně spořit.",
-        "tip": "Při nastavení pravidelného kapesného  vám dáme tipy, jaká částká je optimální",
-        "primaryButton": "Nastavit pravidelné kapesné",
-        "secondaryButton": "Poslat jednorázově",
-        "tertiaryButton": "Neposílat nic"
-      },
-      "allowanceForm": {
-        "sourceAccount": {
-          "title": "Z účtu",
-          "value": "Vybrat"
-        },
-        "dueDate": {
-          "title": "Datum splatnosti",
-          "value": "Teď"
-        },
-        "frequency": {
-          "title": "Frekvence plateb",
-          "options": [
-            {
-              "value": "WEEK",
-              "text": "Týdně"
+                    {
+                        "icon": "documentsFill",
+                        "text": "<b>Focení rodného listu</b><br/>Vyfotíte český rodný list vašeho dítěte."
+                    },
+                    {
+                        "icon": "idCardFill",
+                        "text": "<b>Focení druhého dokladu</b><br/>Pro založení dětského účtu potřebujeme vidět občanský průkaz nebo pas dítěte (od 15 let pouze OP)."
+                    }
+                ]
             },
-            {
-              "value": "FORTNIGHT",
-              "text": "14 dní"
+            "uploadBirthCertificateScanner": {
+                "title": "Vyfoťte dokument",
+                "detail": "Platný rodný list dítěte, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit"
             },
-            {
-              "value": "MONTH",
-              "text": "Měsíčně"
-            }
-          ]
-        },
-        "amount": "Částka",
-        "info": {
-          "text": "Děti ve věku {0} let průměrně dostávají {1} až {2} Kč {3}",
-          "week": "týdně",
-          "fortnight": "na 14 dní",
-          "month": "měsíčně"
-        },
-        "startDate": {
-          "title": "První platba",
-          "value": "Teď"
-        },
-        "endDate": {
-          "title": "Poslední platba",
-          "value": "Bez ukončení"
-        },
-        "addNote": {
-          "title": "Zpráva pro dítě a další",
-          "button": "Zpráva pro dítě"
-        },
-        "primaryButton": "Pokračovat"
-      },
-      "allowanceSummary": {
-        "title": "Kontrola údajů",
-        "sourceAccount": "Z účtu",
-        "destinationAccount": "Na účet",
-        "amount": "Částka",
-        "startDateRecurring": "První platba",
-        "startDateOneTime": "Datum splatnosti",
-        "endDate": "Poslední platba",
-        "frequency": {
-          "title": "Frekvence plateb",
-          "options": [
-            {
-              "value": "WEEK",
-              "text": "Týdně"
+            "basicInfo": {
+                "title": "Začneme se základními údaji",
+                "accountName": {
+                    "title": "Název účtu",
+                    "placeholder": "Např. Anička"
+                },
+                "childInputSection": {
+                    "title": "Údaje o dítěti",
+                    "email": {
+                        "title": "E-mail",
+                        "placeholder": "dite@moneta.cz"
+                    },
+                    "phone": {
+                        "title": "Telefon",
+                        "placeholder": "Naše infolinka má 224 443 636"
+                    },
+                    "info": "Telefon slouží k potvrzování plateb na internetu (3-D Secure). Pokud nechcete, aby dítě kartou na internetu platilo, zablokujte tuto možnost v dalších krocích."
+                },
+                "parentInputSection": {
+                    "title": "Vaše údaje",
+                    "email": {
+                        "title": "E-mail"
+                    },
+                    "phone": {
+                        "title": "Telefon"
+                    },
+                    "info": "Pro zasílání důležitých informací o dětském účtu"
+                },
+                "consentSection": {
+                    "title": "Abychom s vámi mohli rychle komunikovat",
+                    "unencryptedCommunication": {
+                        "title": "Můžeme si volat a psát jednoduše",
+                        "secondary": "Chci, aby s mým dítětem Moneta komunikovala běžným, nešifrovaným způsobem přes e-mail a telefon."
+                    },
+                    "instantMessaging": {
+                        "title": "Můžeme spolu chatovat",
+                        "secondary": "Souhlasím s nešifrovanou komunikací s Monetou přes WhatsApp a jinými aplikacemi pro zasílání zpráv."
+                    },
+                    "marketingConsent": {
+                        "title": "O všem budete vědět jako první",
+                        "secondary": "Souhlasím se zpracováním údajů mého dítěte pro zasílání nabídek Monety. Zasílání lze kdykoliv zrušit."
+                    },
+                    "personalData": {
+                        "title": "Pokračováním souhlasím s tím, že informace týkající se založení běžného účtu mohou být jednorázově zaslány nešifrovaným způsobem na výše uvedenou e-mailovou adresu a telefonní číslo. Dále beru na vědomí <a href=\"https://moneta.cz/ochrana-dat\">zásady zpracování</a> osobních údajů v koncernu MONETA."
+                    }
+                },
+                "primaryButton": "Pokračovat"
             },
-            {
-              "value": "FORTNIGHT",
-              "text": "14 dní"
+            "confirmedChildSelection": {
+                "title": "Pro jaké dítě tvoříme účet?",
+                "detail": "Účty pro další děti můžete otevřít po založení tohoto",
+                "info": "Tato data čerpáme z dokumentů, které jste jste nám již dříve poskytli",
+                "prepareDocument": "Připravte si",
+                "documents": {
+                    "ID": "občanský průkaz",
+                    "PASSPORT": "pas dítěte"
+                },
+                "secondaryButton": "Jiné dítě"
             },
-            {
-              "value": "MONTH",
-              "text": "Měsíčně"
-            }
-          ]
-        },
-        "note": "Poznámka pro příjemce",
-        "primaryButtonRecurring": "Nastavit pravidelné kapesné",
-        "primaryButtonOneTime": "Poslat jednorázově"
-      },
-      "allowanceVictory": {
-        "title": "Hotovo!",
-        "primarySubtitle": "Teď si můžete společně užívat výhody dětského účtu. ",
-        "secondarySubtitle": "Pokud chcete, můžeme vám ukázat tipy, jak dítěti pomoci s hospodařením.",
-        "primaryButton": "Ukázat tipy"
-      },
-      "oneTimeAllowance": {
-        "sourceAccount": {
-          "title": "Z účtu",
-          "value": "Vybrat"
-        },
-        "amount": "Částka",
-        "primaryButton": "Převést"
-      },
-      "uploadParentID": {
-        "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
-        "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
-        "documents": {
-          "141": {
-            "icon": "idCardFill",
-            "title": "Občanský průkaz",
-            "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
-            "photoCapture": [
-              {
+            "uploadBirthCertificateBusyLoader": {
+                "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                "detail": "Zabere to maximálně pár vteřin."
+            },
+            "uploadBirthCertificateReview": {
+                "title": "Je fotografie dostatečně ostrá?",
+                "primaryButton": "Ano, pokračovat",
+                "secondaryButton": "Vyfotit znovu"
+            },
+            "birthNumber": {
+                "title": "Doplňte údaje o dítěti",
+                "birthCertficateNumber": {
+                    "title": "Číslo rodného listu",
+                    "placeholder": "Např. 51 2000 500 50",
+                    "info": "Jde o čtyři čísla – Svazek, Ročník, Strana, Pořadové číslo (všechny naleznete v horní polovině rodného listu)."
+                },
+                "birthNumber": {
+                    "title": "Rodné číslo",
+                    "placeholder": "10 čísel bez lomítka"
+                },
+                "primaryButton": "Pokračovat",
+                "victoryError": {
+                    "title": "Vašemu dítěti teď účet nemůžeme nabídnout"
+                }
+            },
+            "wrongBirthNumberVictory": {
+                "title": "S tímto RČ dítěte nelze pokračovat",
+                "secondaryButton": "Ukončit žádost"
+            },
+            "uploadDocumentSimpleLoader": {
+                "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                "detail": "Zabere to vteřinu."
+            },
+            "uploadDocumentIntroChoice": {
+                "title": "Teď vyfotíme druhý doklad <span style=\"color: #246BFD\">dítěte</span>",
+                "detail": "Prosím pokračujte druhým dokladem dítěte, abychom si byli opravdu jisti jeho totožností.",
+                "primaryButton": "Občanský průkaz",
+                "secondaryButton": "Pas",
+                "tertiaryButton": "Dítě nemá ani jeden"
+            },
+            "uploadDocumentIntroID": {
+                "title": "Teď vyfotíme občanský průkaz <span style=\"color: #246BFD\">dítěte</span>",
+                "detail": "Prosím pokračujte focením občanského průkazu dítěte, abychom si byli opravdu jisti jeho totožností.",
+                "primaryButton": "Občanský průkaz",
+                "tertiaryButton": "Dítě nemá občanský průkaz"
+            },
+            "uploadDocumentNoDocuments": {
+                "title": "Bez druhého dokladu to nepůjde",
+                "detail": "Dětský účet vám bohužel bez druhého dokladu totožnosti nemůžeme založit."
+            },
+            "uploadDocumentScannerID1": {
                 "title": "Vyfoťte přední stranu občanského průkazu",
                 "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
                 "primaryButton": "Vyfotit"
-              },
-              {
+            },
+            "uploadDocumentScannerID2": {
                 "title": "Vyfoťte zadní stranu občanského průkazu",
                 "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
                 "primaryButton": "Vyfotit"
-              }
-            ],
-            "busyLoader": {
-              "title": "Chvilku strpení, kocour to musí všechno zkontrolovat",
-              "detail": "Zabere to maximálně pár vteřin."
+            },
+            "uploadDocumentScannerPassport": {
+                "title": "Vyfoťte pas",
+                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit"
             },
             "uploadDocumentResultNok": {
-              "title": "Dětský účet vám teď nemůžeme založit",
-              "detail": "Moc se omlouváme"
+                "title": "Dětský účet vám teď nemůžeme založit",
+                "detail": "Moc se omlouváme"
             },
             "uploadDocumentResultUploadAgain": {
-              "title": "Jejda, tohle se nepovedlo",
-              "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
-              "primaryButton": "Vyfotit znovu",
-              "secondaryButton": "Pokračovat později"
+                "title": "Jejda, tohle se nepovedlo",
+                "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                "primaryButton": "Vyfotit znovu",
+                "secondaryButton": "Pokračovat později"
             },
-            "review": {
-              "title": "Skvělá fotka! Přečetli jsme vše správně?",
-              "documentDetails": {
-                "title": "Údaje z dokladu",
-                "firstName": "Jméno",
-                "lastName": "Příjmení",
-                "birthDate": "Datum narození",
-                "birthPlace": "Místo narození",
-                "birthNumber": "Rodné číslo",
-                "idCardNumber": {
-                  "title": "Číslo občanského průkazu",
-                  "secondaryTitle": "Číslo pasu"
+            "uploadDocumentBusyLoader": {
+                "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                "detail": "Zabere to maximálně pár vteřin."
+            },
+            "uploadDocumentReview": {
+                "title": "Načetli jsme vše správně?",
+                "documentDetails": {
+                    "title": "Údaje z dokladu dítěte",
+                    "firstName": "Jméno",
+                    "lastName": "Příjmení",
+                    "birthDate": "Datum narození",
+                    "birthPlace": "Místo narození",
+                    "birthNumber": "Rodné číslo",
+                    "idCardNumber": {
+                        "title": "Číslo občanského průkazu",
+                        "secondaryTitle": "Číslo pasu"
+                    },
+                    "idCardValidTo": "Platnost do",
+                    "issueDate": "Platnost od",
+                    "nationality": "Státní občanství",
+                    "nationalityValue": "pouze Česká republika",
+                    "sex": "Pohlaví",
+                    "male": "muž",
+                    "female": "žena"
                 },
-                "idCardValidTo": "Platnost do",
-                "issueDate": "Platnost od",
+                "documentAddress": {
+                    "title": "Trvalý pobyt",
+                    "secondary": "(Pouze Česká republika)",
+                    "street": "Ulice",
+                    "descriptiveNumber": "Číslo popisné",
+                    "orientationNumber": "Číslo orientační",
+                    "city": "Obec nebo město",
+                    "zip": "PSČ",
+                    "personalData": {
+                        "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                    }
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "uploadDocumentReviewCorrection": {
+                "title": "Některé údaje nesouhlasí",
+                "detail": "Zdá se, že vyplněné údaje nesouhlasí s načtenými. Prosím zkontrolujte je a opravte.",
+                "inputPlaceHolder": "vyplňte",
+                "primaryButton": "Potvrdit",
+                "secondaryButton": "Pokračovat později"
+            },
+            "uploadParentIDInVerificationVictory": {
+                "title": "Probíhá posouzení uploadovaného OP rodiče"
+            },
+            "contactAddress": {
+                "title": "Kam pošleme kartu pro dítě?",
+                "virtualCard": {
+                    "title": "Dítěti stačí karta do mobilu",
+                    "detail": "Místo plastové karty vydáme virtuální kartu. Pro placení a výběry si ji dítě přidá do mobilu hned po zřízení účtu. Údaje pro placení na  internetu pak najde ve Smart Bance a Internet Bance."
+                },
+                "addressSection": {
+                    "title": "Kontaktní adresa",
+                    "info": "Doporučujeme nastavit vaši adresu jako kontaktní.",
+                    "firstName": "Jméno",
+                    "lastName": "Příjmení",
+                    "street": "Ulice",
+                    "descriptiveNumber": "Číslo popisné",
+                    "orientationNumber": "Číslo orientační",
+                    "city": "Obec nebo město",
+                    "country": "Země",
+                    "countryValue": "Česká republika",
+                    "zip": "PSČ"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "amlQuestionnaire": {
+                "title": "Údaje vyžadované zákonem",
+                "questions": {
+                    "secondaryTitle": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
+                    "select": "Vybrat",
+                    "depositOrigin": {
+                        "title": "Odkud budou převážně pocházet peníze na běžném účtu dítěte?",
+                        "options": [
+                            {
+                                "value": "POCKET_MONEY",
+                                "text": "Kapesné"
+                            },
+                            {
+                                "value": "STUDENT_WORK_INCOME",
+                                "text": "Příjmy z brigády nebo zaměstnání"
+                            },
+                            {
+                                "value": "GIFT",
+                                "text": "Dary"
+                            },
+                            {
+                                "value": "HERITAGE",
+                                "text": "Dědictví"
+                            },
+                            {
+                                "value": "COURT_DECISION_BASED_REVENUE",
+                                "text": "Příjmy na základě rozhodnutí soudu",
+                                "infoText": "Výživné a podobné příjmy"
+                            },
+                            {
+                                "value": "SOCIAL_SUPPORT",
+                                "text": "Státní podpora",
+                                "infoText": "Dávky nemocenského pojištění a důchodového pojištění, dávky sociální péče a dávky státní sociální podpory, sirotčí důchod, apod."
+                            },
+                            {
+                                "value": "OTHER",
+                                "text": "Jiné"
+                            }
+                        ],
+                        "primaryButton": "Pokračovat"
+                    },
+                    "prevailingTransactions": {
+                        "title": "Jaké transakce budou na běžném účtu dítěte převažovat?",
+                        "options": [
+                            {
+                                "value": "CASHLESS_DOMESTIC",
+                                "text": "Bezhotovostní tuzemské"
+                            },
+                            {
+                                "value": "CASHLESS_FOREIGN_WITHIN_EU",
+                                "text": "Bezhotovostní zahraniční v rámci EU"
+                            },
+                            {
+                                "value": "CASHLESS_FOREIGN_OUTSIDE_EU",
+                                "text": "Bezhotovostní zahraniční mimo EU"
+                            }
+                        ],
+                        "primaryButton": "Pokračovat"
+                    },
+                    "rangeOfIncome": {
+                        "title": "Jaká bude výše měsíčních příjmů na běžném účtu dítěte?",
+                        "options": [
+                            {
+                                "value": "BELOW_5K",
+                                "text": "Do 5 000 Kč"
+                            },
+                            {
+                                "value": "BELOW_10K",
+                                "text": "5 000 až 10 000 Kč"
+                            },
+                            {
+                                "value": "BELOW_25K",
+                                "text": "10 000 až 25 000 Kč"
+                            },
+                            {
+                                "value": "ABOVE_25K",
+                                "text": "Nad 25 000 Kč"
+                            }
+                        ],
+                        "primaryButton": "Pokračovat"
+                    }
+                },
+                "taxResidence": "Je dítě zahraničním daňovým rezidentem?",
+                "pep": {
+                    "text": "Je dítě politicky exponovaná osoba?",
+                    "info": {
+                        "title": "Kdo je <a href=\"pep\">politicky exponovaná osoba?</a>"
+                    },
+                    "detail": {
+                        "title": "Politicky exponovaná osoba",
+                        "subtitleOne": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí",
+                        "subtitleTwo": "Např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil, apod.",
+                        "section": {
+                            "title": "Za politicky exponovanou osobu se považuje také",
+                            "textRows": [
+                                "Osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka)",
+                                "Společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu",
+                                "Skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby"
+                            ]
+                        }
+                    }
+                },
+                "pepDescription": "Proč je dítě politicky exponovaná osoba?",
                 "nationality": "Státní občanství",
-                "nationalityValue": "pouze Česká republika",
-                "sex": "Pohlaví",
-                "male": "muž",
-                "female": "žena"
-              },
-              "documentAddress": {
-                "title": "Trvalý pobyt",
-                "secondary": "(Pouze Česká republika)",
-                "street": "Ulice",
-                "descriptiveNumber": "Číslo popisné",
-                "orientationNumber": "Číslo orientační",
-                "city": "Obec nebo město",
-                "zip": "PSČ",
-                "personalData": {
-                  "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                "nationalityValue": "Česká republika",
+                "primaryButton": "Potvrdit informace"
+            },
+            "cardLimits": {
+                "title": "Nastavení karty dítěte",
+                "subtitle": "Karta vám oproti hotovosti umožňuje lepší kontrolu nad platbami. Dítě bude navíc držet krok se svými vrstevníky.",
+                "limitsSection": {
+                    "title": "Nastavte prosím povolení a limity plateb",
+                    "cash": {
+                        "enabled": "Výběry z bankomatu",
+                        "limit": "Měsíční limit",
+                        "info": "Maximální měsíční limit je 5 000 Kč"
+                    },
+                    "internet": {
+                        "enabled": "Internetové platby",
+                        "limit": "Měsíční limit",
+                        "info": "Maximální měsíční limit je 3 000 Kč"
+                    },
+                    "payment": {
+                        "enabled": "Platby v kamenných ochodech",
+                        "limit": "Měsíční limit",
+                        "info": "Maximální měsíční limit je 7 000 Kč"
+                    }
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "otherLimits": {
+                "title": "Posílání peněz převodem",
+                "subtitle": "Dítěti můžete povolit odesílat peníze z jeho účtů příkazem k úhradě. Zároveň můžete nastavit, od jaké částky budete převody schvalovat. Převody mezi účty dítěte (běžný a spořicí účet) se do tohoto limitu nezapočítávají.",
+                "paymentApprovalEnabled": "Povolit dítěti převody na jiné účty",
+                "paymentSection": {
+                    "title": "Limity převodů",
+                    "secondaryTitle": "Měsíční limit je částka, kterou může dítě měsíčně odeslat. A to včetně plateb, které mu schválíte.",
+                    "limit": "Měsíční limit",
+                    "info": "Maximální měsíční limit je 10 000 Kč"
+                },
+                "inOtherAccountsSection": {
+                    "title": "Schvalování převodů rodičem",
+                    "secondaryTitle": "Převody vyšší než částka níže budete schvalovat ve své Smart Bance. Nižší částky může dítě převést samo.",
+                    "enabled": "Schvalovat rodičem",
+                    "limit": "Od částky",
+                    "info": "Pokud chcete schvalovat všechny převody, nastavte 0 Kč"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "cifChecks": {
+                "busyLoader": {
+                    "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                    "detail": "Zabere to maximálně pár vteřin."
+                },
+                "victory": {
+                    "inManualVerification": {
+                        "title": "Máme skoro hotovo",
+                        "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět."
+                    },
+                    "genericError": {
+                        "title": "Vašemu dítěti teď účet nemůžeme nabídnout"
+                    }
                 }
-              },
-              "primaryButton": "Pokračovat"
+            },
+            "precontractBusyLoader": {
+                "title": "Už máme skoro hotovo!\nStačí jen podepsat smlouvy",
+                "detail": "Dejte nám chvilku, než je připravíme."
+            },
+            "precontract": {
+                "title": "Přečtěte si prosím předsmluvní informace",
+                "section": {
+                    "title": "Prostudujte i tyto dokumenty",
+                    "footer": "Všechny tyto dokumenty najdete ve Smart Bance v sekci Moje dokumenty"
+                },
+                "primaryButton": "Souhlasím, pokračovat",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "contract": {
+                "title": "Teď si přečtěte následující smlouvu",
+                "primaryButton": "Souhlasím, pokračovat",
+                "secondaryButton": "Nesouhlasím"
+            },
+            "sign": {
+                "title": "Podepište smlouvu PINem"
+            },
+            "checkVictoryBusyLoader": {
+                "title": "Teď to musíme podepsat my",
+                "detail": "Bude to trvat jen chviličku."
+            },
+            "checkVictory": {
+                "done": {
+                    "title": "Založili jsme účet pro vaše dítě",
+                    "detail": "Aby ho mohlo využívat naplno, propojte ho s jeho telefonem nebo tabletem.",
+                    "primaryButton": "Propojit se zařízením dítěte ",
+                    "secondaryButton": "Zpět na Přehled"
+                },
+                "waiting": {
+                    "title": "Máme skoro hotovo",
+                    "detail": "Teď už jen všechno zkontrolujeme a dáme vám vědět."
+                },
+                "insufficient": {
+                    "title": "Dětský účet vám teď nemůžeme založit",
+                    "detail": "Moc se omlouváme"
+                }
+            },
+            "connectDevice": {
+                "title": "Propojte dětské zařízení prostřednictvím QR kódu",
+                "sections": [
+                    {
+                        "title": "Na dětském zařízení:",
+                        "textRows": [
+                            "Naintalujte aplikaci Smart Bank",
+                            "Na její úvodní obrazovce vyberte <b>Propojit pomocí QR kódu</b>",
+                            "Naskenujte nebo opište do dětského zařízení aktivační kód, který vidíte výše",
+                            "Nastavte si PIN pro přihlašování a ověřování"
+                        ]
+                    },
+                    {
+                        "title": "Na tomto zařízení:",
+                        "textRows": ["Potvrďte celý proces PINem"]
+                    }
+                ]
+            },
+            "tips": {
+                "title": "Průvodce rodičovským účtem",
+                "pages": [
+                    {
+                        "title": "Spoření",
+                        "detail": "Spoření je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit.",
+                        "image": "savingsFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Základní doporučení",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Posílejte kapesné pravidelně"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Kontrolujte převody z běžného na spořící účet"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivujte dítě ke spoření"
+                                    }
+                                ],
+                                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kapesné",
+                        "detail": "Kapesné je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
+                        "image": "pocketMoneyFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Základní doporučení",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Posílejte kapesné pravidelně"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Kontrolujte převody z běžného na spořící účet"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivujte dítě ke spoření"
+                                    }
+                                ],
+                                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Kontrola dítěte",
+                        "detail": "Kontrola dítěte je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
+                        "image": "userVerifiedFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Základní doporučení",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Posílejte kapesné pravidelně"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Kontrolujte převody z běžného na spořící účet"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivujte dítě ke spoření"
+                                    }
+                                ],
+                                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
+                            }
+                        ]
+                    },
+                    {
+                        "title": "Finanční edukace dítěte",
+                        "detail": "Finanční edukace dítěte je nedílnou součástí zdravé finanční edukace dítěte. Dítě ve veku stejném jako Anička by si mělo spořit každý měsíc alespoň 20 % svého kapesného, aby dosáhlo na většinu věci, které si chce koupit. // TODO",
+                        "image": "studyFill",
+                        "sections": [
+                            {
+                                "style": "attached",
+                                "title": "Základní doporučení",
+                                "items": [
+                                    {
+                                        "icon": "1.circle.fill",
+                                        "text": "Posílejte kapesné pravidelně"
+                                    },
+                                    {
+                                        "icon": "2.circle.fill",
+                                        "text": "Kontrolujte převody z běžného na spořící účet"
+                                    },
+                                    {
+                                        "icon": "3.circle.fill",
+                                        "text": "Motivujte dítě ke spoření"
+                                    }
+                                ],
+                                "footer": "Automatické kapesné můžete zapnout v Nastavení v sekci Kapesné"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "connectVictory": {
+                "title": "Hotovo. Vložíme ještě dítěti první peníze?",
+                "subtitle": "Dětem se učí lépe hospodařit, když je s čím. Peníze přijdou za chvíli a můžete dítěti rovnou ukázat, jak správně spořit.",
+                "tip": "Při nastavení pravidelného kapesného  vám dáme tipy, jaká částká je optimální",
+                "primaryButton": "Nastavit pravidelné kapesné",
+                "secondaryButton": "Poslat jednorázově",
+                "tertiaryButton": "Neposílat nic"
+            },
+            "allowanceForm": {
+                "sourceAccount": {
+                    "title": "Z účtu",
+                    "value": "Vybrat"
+                },
+                "dueDate": {
+                    "title": "Datum splatnosti",
+                    "value": "Teď"
+                },
+                "frequency": {
+                    "title": "Frekvence plateb",
+                    "options": [
+                        {
+                            "value": "WEEK",
+                            "text": "Týdně"
+                        },
+                        {
+                            "value": "FORTNIGHT",
+                            "text": "14 dní"
+                        },
+                        {
+                            "value": "MONTH",
+                            "text": "Měsíčně"
+                        }
+                    ]
+                },
+                "amount": "Částka",
+                "info": {
+                    "text": "Děti ve věku {0} let průměrně dostávají {1} až {2} Kč {3}",
+                    "week": "týdně",
+                    "fortnight": "na 14 dní",
+                    "month": "měsíčně"
+                },
+                "startDate": {
+                    "title": "První platba",
+                    "value": "Teď"
+                },
+                "endDate": {
+                    "title": "Poslední platba",
+                    "value": "Bez ukončení"
+                },
+                "addNote": {
+                    "title": "Zpráva pro dítě a další",
+                    "button": "Zpráva pro dítě"
+                },
+                "primaryButton": "Pokračovat"
+            },
+            "allowanceSummary": {
+                "title": "Kontrola údajů",
+                "sourceAccount": "Z účtu",
+                "destinationAccount": "Na účet",
+                "amount": "Částka",
+                "startDateRecurring": "První platba",
+                "startDateOneTime": "Datum splatnosti",
+                "endDate": "Poslední platba",
+                "frequency": {
+                    "title": "Frekvence plateb",
+                    "options": [
+                        {
+                            "value": "WEEK",
+                            "text": "Týdně"
+                        },
+                        {
+                            "value": "FORTNIGHT",
+                            "text": "14 dní"
+                        },
+                        {
+                            "value": "MONTH",
+                            "text": "Měsíčně"
+                        }
+                    ]
+                },
+                "note": "Poznámka pro příjemce",
+                "primaryButtonRecurring": "Nastavit pravidelné kapesné",
+                "primaryButtonOneTime": "Poslat jednorázově"
+            },
+            "allowanceVictory": {
+                "title": "Hotovo!",
+                "primarySubtitle": "Teď si můžete společně užívat výhody dětského účtu. ",
+                "secondarySubtitle": "Pokud chcete, můžeme vám ukázat tipy, jak dítěti pomoci s hospodařením.",
+                "primaryButton": "Ukázat tipy"
+            },
+            "oneTimeAllowance": {
+                "sourceAccount": {
+                    "title": "Z účtu",
+                    "value": "Vybrat"
+                },
+                "amount": "Částka",
+                "primaryButton": "Převést"
+            },
+            "uploadParentID": {
+                "title": "Jejda, potřebujeme váš aktuální občanský průkaz",
+                "detail": "Zdá se, že občanský průkaz, který jste nám poskytli dříve, už není aktuální. Nahrajte prosím nový.",
+                "documents": {
+                    "141": {
+                        "icon": "idCardFill",
+                        "title": "Občanský průkaz",
+                        "detail": "Od Vaší poslední návštěvy se změnily některé údaje",
+                        "photoCapture": [
+                            {
+                                "title": "Vyfoťte přední stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            },
+                            {
+                                "title": "Vyfoťte zadní stranu občanského průkazu",
+                                "detail": "Platný doklad, za dobrého osvětlení, ostře a nerozmazaně.",
+                                "primaryButton": "Vyfotit"
+                            }
+                        ],
+                        "busyLoader": {
+                            "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                            "detail": "Zabere to maximálně pár vteřin."
+                        },
+                        "uploadDocumentResultNok": {
+                            "title": "Dětský účet vám teď nemůžeme založit",
+                            "detail": "Moc se omlouváme"
+                        },
+                        "uploadDocumentResultUploadAgain": {
+                            "title": "Jejda, tohle se nepovedlo",
+                            "detail": "Vyfoťte prosím dokument znovu, za dobrého osvětlení, ostře a nerozmazaně.",
+                            "primaryButton": "Vyfotit znovu",
+                            "secondaryButton": "Pokračovat později"
+                        },
+                        "review": {
+                            "title": "Skvělá fotka! Přečetli jsme vše správně?",
+                            "documentDetails": {
+                                "title": "Údaje z dokladu",
+                                "firstName": "Jméno",
+                                "lastName": "Příjmení",
+                                "birthDate": "Datum narození",
+                                "birthPlace": "Místo narození",
+                                "birthNumber": "Rodné číslo",
+                                "idCardNumber": {
+                                    "title": "Číslo občanského průkazu",
+                                    "secondaryTitle": "Číslo pasu"
+                                },
+                                "idCardValidTo": "Platnost do",
+                                "issueDate": "Platnost od",
+                                "nationality": "Státní občanství",
+                                "nationalityValue": "pouze Česká republika",
+                                "sex": "Pohlaví",
+                                "male": "muž",
+                                "female": "žena"
+                            },
+                            "documentAddress": {
+                                "title": "Trvalý pobyt",
+                                "secondary": "(Pouze Česká republika)",
+                                "street": "Ulice",
+                                "descriptiveNumber": "Číslo popisné",
+                                "orientationNumber": "Číslo orientační",
+                                "city": "Obec nebo město",
+                                "zip": "PSČ",
+                                "personalData": {
+                                    "title": "Vámi poskytnuté údaje ověříme zároveň v základních registrech. Více o jejich fungování na webu <a href=\"https://www.szrcr.cz/cs/\">Správy základních registrů</a> a <a href=\"https://moneta.cz/ochrana-dat\">Monety</a>\n\n Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální."
+                                }
+                            },
+                            "primaryButton": "Pokračovat"
+                        }
+                    }
+                },
+                "secondaryButton": "Doložím doklady později"
             }
-          }
-        },
-        "secondaryButton": "Doložím doklady později"
-      }
+        }
     }
-  }
 }
