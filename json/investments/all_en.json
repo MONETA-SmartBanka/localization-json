@@ -7314,7 +7314,7 @@
                         "title": "Spořicí účet DIP",
                         "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
                         "value": "{dipAccountAmount}",
-                        "action": "DIPINVESTMENT"
+                        "action": "DIP_ACCOUNT"
                     },
                     {
                         "icon": "coinsStackAdd",
@@ -7329,7 +7329,7 @@
                         "title": "Spořicí účet DIP",
                         "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
                         "value": "{dipAccountAmount}",
-                        "action": "DIPINVESTMENT"
+                        "action": "DIP_ACCOUNT"
                     }
                 ],
                 "dipEmptyAccountNote": "<red>Zatím jste nevložili žádné peníze.</red>",
@@ -7338,7 +7338,7 @@
                         "icon": "walletArrowInFill",
                         "title": "<b>Vložte peníze na Spořicí účet DIP</b>",
                         "detail": "Investovat do fondů můžete už od 500 Kč.",
-                        "action": "DIPINVESTMENT"
+                        "action": "DIP_DEPOSIT"
                     }
                 ],
                 "dipNotInvestedNote": "<red>Nezainvestováno</red>"
