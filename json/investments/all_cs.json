@@ -2839,6 +2839,7 @@
             "funds": [
                 {
                     "isin": "IE000YZM15Q6",
+                    "featuredName": "MONETA 5 dynamický",
                     "detail": "Fond je vhodný pro investory, kteří usilují o maximální zhodnocení a jsou připraveni akceptovat vyšší míru kolísání.\n\nDynamickou složku tvoří až 100% portfolia pomocí investic do akcií pokrývajících celý svět a oblasti ekonomiky. V případě nepříznivého vývoje lze dynamickou složku snížit na 75 % a konzervativní navýšit, aby se omezila míra kolísání.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-report.pdf",
@@ -2916,6 +2917,7 @@
                 },
                 {
                     "isin": "IE000HD0CWC2",
+                    "featuredName": "MONETA 4 růstový",
                     "detail": "Fond je vhodný pro dynamičtější investory, kteří hledají nadstandardní zhodnocení a akceptují vyšší míru kolísání.\n\nTo se odráží ve složením fondu, kde tvoří dynamická složka přibližně 75 %. Zbytek je zastoupen státními a korporátními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.\nDíky aktivní správě lze reagovat na pozitivní vývoj trhu a navýšit dynamickou složku až na 100 %. V případě nepříznivého vývoje na trhu ji lze snížit na 50 % a omezit tak míru kolísání.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-report.pdf",
@@ -2993,6 +2995,7 @@
                 },
                 {
                     "isin": "IE000N6PPGB0",
+                    "featuredName": "MONETA 3 vyvážený",
                     "detail": "Fond je vhodný pro investory s vyváženým investičním přístupem, kteří hledají stabilní a mírně nadprůměrné výnosy. Zároveň jsou ochotni akceptovat určitou míru kolísání v rámci svého dlouhodobějšího horizontu.\n\nStrategie fondu cílí na rovnoměrné rozložení mezi konzervativní a dynamickou složkou. Konzervativní část portfolia, která má ve fondu zastoupení 50 % je tvořena korporátními dluhopisy a doplňkově českými státními dluhopisy a zahraničními státními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.Díky aktivní správě fondu lze, při nepříznivém vývoji na trhu, dynamickou složku snížit na 25 %. Při příznivém výhledu je možné navýšit dynamickou složku až na 75 % a podpořit tak výnosnost.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-report.pdf",
@@ -3070,6 +3073,7 @@
                 },
                 {
                     "isin": "IE000VHJLW78",
+                    "featuredName": "MONETA 2 konzervativní",
                     "detail": "Fond je vhodný pro konzervativní investory, kteří chtějí uchovat hodnotu svých prostředků a zároveň dosáhnout vyššího zhodnocení bez výrazného rizika.\n\nKonzervativní složku tvoří převážně české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 25 % globálními akciemi. Díky aktivní správě fondu, lze dynamickou složku v případě nepříznivého vývoje na trhu snížit na 10 %. V opačném případě lze dynamickou složku navýšit až na 50 % a podpořit tím výnosový potenciál.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-report.pdf",
@@ -3147,6 +3151,7 @@
                 },
                 {
                     "isin": "IE000PM12TN1",
+                    "featuredName": "Moneta 1 opatrný",
                     "detail": "Fond je vhodný pro velmi konzervativní investory, kteří chtějí dosáhnout mírně vyššího zhodnocení, než na běžných depozitních produktech jako jsou spořící účty nebo termínované vklady.\n\nKonzervativní složku portfolia tvoří převáženě české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 10 % globálními akciemi. Díky aktivní správě fondu lze dynamickou složku v případě nepříznivého vývoje na trhu snížit až na nulu a omezit tak kolísání. V příznivém prostředí ji lze naopak navýšit až na 25 % a podpořit výnosový potenciál.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-report.pdf",
@@ -7816,12 +7821,14 @@
                 "dip": "Dlouhodobý investiční produkt"
             }
         },
+
         "advisoryFund": {
-            "name": "Moneta Opatrný 10",
-            "nameShort": "Opatrný 10",
             "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\u2028<green>{0}</green>",
-            "funds": {
-                "MOCK-careful10": {
+            "funds": [
+                {
+                    "isin": "IE000PM12TN1",
+                    "name": "Moneta Opatrný 10",
+                    "nameShort": "Opatrný 10",
                     "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 2 roky.",
                     "composition": {
                         "title": "Fond rozkládá svou investiční strategii mezi dluhopisy a akcie.",
@@ -7858,7 +7865,8 @@
                         ]
                     }
                 },
-                "MOCK-conservative25": {
+                {
+                    "isin": "IE000VHJLW78",
                     "name": "Moneta Konzervativní 25",
                     "nameShort": "Konzervativní 25",
                     "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
@@ -7897,7 +7905,8 @@
                         ]
                     }
                 },
-                "MOCK-balanced50": {
+                {
+                    "isin": "IE000N6PPGB0",
                     "name": "Moneta Vyvážený 50",
                     "nameShort": "Vyvážený 50",
                     "detail": "Tento fond jsme vybrali, protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
@@ -7936,7 +7945,8 @@
                         ]
                     }
                 },
-                "MOCK-grow75": {
+                {
+                    "isin": "IE000HD0CWC2",
                     "name": "Moneta Růstový 75",
                     "nameShort": "Růstový 75",
                     "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
@@ -7975,7 +7985,8 @@
                         ]
                     }
                 },
-                "MOCK-dynamic100": {
+                {
+                    "isin": "IE000YZM15Q6",
                     "name": "Moneta Dynamický 100",
                     "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
                     "composition": {
@@ -8013,30 +8024,30 @@
                         ]
                     }
                 }
-            },
+            ],
             "moreSheet": {
                 "appropriateTitle": "Tento fond je pro Vás <green>vhodný</green>",
                 "inappropriateTitle": "Tento fond pro Vás <warning>není vhodný</warning>",
                 "recommended": "Doporučeno",
                 "tabs": [
                     {
-                        "isin": "MOCK-careful10",
+                        "isin": "IE000PM12TN1",
                         "name": "Opatrný 10"
                     },
                     {
-                        "isin": "MOCK-conservative25",
+                        "isin": "IE000VHJLW78",
                         "name": "Konzervativní 20"
                     },
                     {
-                        "isin": "MOCK-balanced50",
+                        "isin": "IE000N6PPGB0",
                         "name": "Vyvážený 50"
                     },
                     {
-                        "isin": "MOCK-grow75",
+                        "isin": "IE000HD0CWC2",
                         "name": "Růstový 75"
                     },
                     {
-                        "isin": "MOCK-dynamic100",
+                        "isin": "IE000YZM15Q6",
                         "name": "Dynamický 100"
                     }
                 ],
