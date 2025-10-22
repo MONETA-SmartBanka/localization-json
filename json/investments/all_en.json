@@ -2623,10 +2623,17 @@
             "secondaryButton": "Back to Balance Overview"
         },
         "sell": {
+            "payOutToAccount": "Vyplatit na účet",
             "sellShare": "Sell shares in value",
             "actualValue": "Current value",
             "sellFee": "Sale fee",
             "sellBlock": "Blocked",
+            "sellExact": "Sell {0}",
+            "sellAll": "Sell all",
+            "sellPieces": "Number of shares",
+            "sellShares": "{0} shares",
+            "availableBalance": "Disponibilní zůstatek",
+            "approximatePrice": "Přibližná cena: {0}",
             "sellAlert": "You are selling {{shares}} shares. As of today, their value amounts to  {{amount}}\u00a0{{currency}}. <b>V The final profit may differ as the sale will be processed within a couple following days for the current market value.</b>",
             "termAlert": "You are about to sell <b>considerably earlier</b>, than it is advised for the fund's investment horizon. It is likely that today's sale will be less profitable than selling at an advised date.",
             "primaryButton": "Sell"
@@ -2634,6 +2641,10 @@
         "sellVictory": {
             "title": "It's done. We sell the shares.",
             "primaryButton": "Show Investment Overview"
+        },
+        "dipSellVictory": {
+            "title": "Příkaz k prodeji zpracováváme.",
+            "primaryButton": "Zpět na Přehled DIP"
         },
         "funds": {
             "types": [
@@ -8072,6 +8083,18 @@
         "list": {
             "investmentTitle": "Investments {0}",
             "dipTitle": "Long-Term Investment Product {0}",
+            "dipTitleV2": {
+              "title": "Dlouhodobý investiční produkt",
+              "investmentReturn": "{0} • Zhodnocení investic"
+            },
+            "dipButtonGroupActions": {
+              "invest": "Investovat",
+              "addFunds": "Vložit peníze",
+              "statements": "Výpisy",
+              "more": "Další"
+            },
+            "fundDipAccount": "Vložit",
+            "investDipPortfolioButton": "Investovat",
             "investmentAdvisoryTitle": "Investment Advisory",
             "dipActionButtonAccessibility": "Deposit funds",
             "tabMyPortfolio": "My portfolio",
