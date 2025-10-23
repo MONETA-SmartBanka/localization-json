@@ -3,249 +3,249 @@
     "responseObject": {
         "errorScreens": {
             "api": {
-                "title": "Omlouváme se, tak tohle nevyšlo",
-                "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "primaryButton": "Zpět",
-                "secondaryButton": "Zkusit znovu"
+                "title": "Something went wrong, our apologies.",
+                "detail": "PLease try again later.",
+                "callUs": "Call Helpline",
+                "primaryButton": "Back",
+                "secondaryButton": "Try again."
             },
             "disagreement": {
-                "title": "Bez souhlasu Vám účet založit nemůžeme",
-                "detail": "Tak to ještě promyslete. Pokud však dáváte přednost osobnímu kontaktu, rádi Vás uvidíme na naší pobočce.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "secondaryButton": "Ukončit žádost",
-                "primaryButton": "Pokračovat"
+                "title": "Your consent is required in order to open an account",
+                "detail": "Take your time. If you prefer to meet in person, please visit one of our branches.",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "secondaryButton": "Cancel application",
+                "primaryButton": "Continue"
             },
             "cantProceed": {
-                "title": "Je nám líto, ale účet Vám online založit nemůžeme",
-                "detail": "Prosím zavolejte nám.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "secondaryButton": "Ukončit žádost"
+                "title": "Our apologies, but we ar unable to open an account for you online.",
+                "detail": "Please contact us",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "secondaryButton": "Cancel application"
             },
             "welcomeBack": {
-                "toolbarTitle": "Vítejte zpět",
-                "title": "Vítejte zpět v Monetě",
-                "detail": "<b>Po kontrole Vašich dokladů jsme zjistili, že jste naším klientem.</b><br><br><b>Prosím aktivujte si aplikaci Smart Banka ve svém internetovém bankovnictví.</b><br><br>Tom Plus účet zdarma a bez podmínek si aktivujete přepnutím svého stávajícího účtu nebo založením nového účtu po přihlášení.",
-                "primaryButton": "Propojit s Internet Bankou",
-                "secondaryButton": "Nemám přihlašovací údaje"
+                "toolbarTitle": "Welcome back",
+                "title": "Welcome back to Moneta",
+                "detail": "<b>After reviewing your information it seems that you are an existing client.</b><br><br><b>Please activate the Smart Banka app in your internet banking.</b><br><br>Tom Plus Account free of charge and hidden terms can be activated by switching your existing account or opening a new account when you log in.",
+                "primaryButton": "Pair with Internet Banka",
+                "secondaryButton": "I don't have my login details"
             },
             "welcomeBackForgotten": {
-                "toolbarTitle": "Vítejte zpět",
-                "title": "Zapomněli jste své přihlašovací údaje?",
-                "detail": "Zavolejte na naši infolinku a po krátkém ověření Vám je zašleme e-mailem znovu.<br><br>Nebo se za námi zastavte na pobočce. Rádi Vás uvidíme.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Naštivte nás\nna pobočce",
-                "primaryButton": "Zpět",
-                "secondaryButton": "Ukončit aplikaci"
+                "toolbarTitle": "Welcome back",
+                "title": "Did you forget your login details?",
+                "detail": "Call our Helpline and we will send them via email after a quick verification.<br><br>Alternatively, visit one of our branches.",
+                "callUs": "Call Helpline",
+                "branch": "Visit a branch",
+                "primaryButton": "Back",
+                "secondaryButton": "Cancel application"
             }
         },
         "general": {
-            "toolbarTitle": "Ověření totožnosti",
-            "toolbarCreateTitle": "Vytvoření účtu",
+            "toolbarTitle": "Identity Verification",
+            "toolbarCreateTitle": "Open an account",
             "phoneNumberSupport": "224 443 636",
             "phoneNumberSale": "800 102 040"
         },
         "scenes": {
             "intro": {
-                "title": "Ve následujícím kroku teď ověříme Vaši totožnost",
+                "title": "In the next step we will verify your identity",
                 "bullets": [
                     {
-                        "title": "Focení občanského průkazu",
-                        "description": "Vyfotíte svůj platný český občanský průkaz z obou stran.",
+                        "title": "Scan your ID card",
+                        "description": "Take a picture of both sides of your valid ID card.",
                         "icon": "idCardFill"
                     },
                     {
-                        "title": "Focení druhého dokladu",
-                        "description": "Vyfotíte svůj platný řidičský průkaz nebo pas. Pouze z přední strany.",
+                        "title": "Scan second ID document",
+                        "description": "Take a photo of your valid driver's license or passport. Front side only.",
                         "icon": "idCardFill"
                     },
                     {
-                        "title": "Ověření totožnosti",
-                        "description": "V posledním kroku ověříme, že jste to opravdu Vy a nikdo se za Vás nevydává.",
+                        "title": "Identity Verification",
+                        "description": "In the last step we will verify that you are not being impersonated by someone else.",
                         "icon": "cameraFill"
                     }
                 ],
-                "primaryButton": "Spustit focení"
+                "primaryButton": "Start verification"
             },
             "documentScan": {
                 "info": {
-                    "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
-                    "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
-                    "drivingLicenceTitle": "Nyní vyfotíte přední stranu řidičského průkazu",
-                    "passportLicenceTitle": "Nyní vyfotíte přední stranu cestovního pasu",
-                    "detail": "Ujistěte se, že fotíte",
+                    "idFrontTitle": "Take a photo of the front side of your ID card",
+                    "idBackTitle": "Take a photo of the back side of your ID card",
+                    "drivingLicenceTitle": "Take a photo of the front side of your driver's license",
+                    "passportLicenceTitle": "Take a photo of the front side of your passport",
+                    "detail": "Make sure that you are taking a photo of",
                     "bullets": [
                         {
-                            "title": "Platný doklad ze správné strany a na šířku",
+                            "title": "the right side of a valid document in landscape mode",
                             "icon": "idCardFill"
                         },
                         {
-                            "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků",
+                            "title": "under good lighting, legible and without glare.",
                             "icon": "lightBulbOnFill"
                         }
                     ],
-                    "primaryButton": "Pokračovat k focení"
+                    "primaryButton": "Proceed"
                 },
                 "takePhoto": {
-                    "tooltip": "Ostrá, bez odlesků a čitelná",
-                    "idFrontTitle": "Přední strana občanského průkazu",
-                    "idBackTitle": "Zadní strana občanského průkazu",
-                    "drivingLicenceTitle": "Přední strana řidičského průkazu",
-                    "passportLicenceTitle": "Úvodní strana cestovního pasu",
-                    "takePhoto": "Vyfotit",
-                    "reviewTitle": "Je vše dobře viditelné?",
-                    "yes": "Ano",
-                    "no": "Ne, znovu"
+                    "tooltip": "Clear, legible and without glare",
+                    "idFrontTitle": "Front side of the ID card",
+                    "idBackTitle": "Back side of the ID card",
+                    "drivingLicenceTitle": "Front side of the driver's license",
+                    "passportLicenceTitle": "Data page of the passport",
+                    "takePhoto": "Take a photo",
+                    "reviewTitle": "Is everything legible?",
+                    "yes": "Yes",
+                    "no": "No, try again"
                 },
                 "upload": {
-                    "title": "Zpracováváme vyfocený doklad, hned to bude",
-                    "error": "Omlouváme se, tak tohle nevyšlo",
-                    "takeAgainButton": "Vyfotit znovu",
-                    "cancelButton": "Zkusit příště"
+                    "title": "Processing uploaded document, just a moment",
+                    "error": "Our apologies, something went wrong.",
+                    "takeAgainButton": "Try again",
+                    "cancelButton": "Try later"
                 },
                 "wrongDocument": {
-                    "title": "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou",
-                    "detail": "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
-                    "primaryButton": "Vyfotit znovu"
+                    "title": "We could not process data from your ID document. Please try taking another photo.",
+                    "detail": "Make sure that it is the correct (Czech) document, that it is all in frame and the details are legible.",
+                    "primaryButton": "Try again"
                 },
                 "scanFailed": {
-                    "title": "Vaše údaje se nám nepodařilo správně načíst",
-                    "detail": "Zkontrolujte a doplňte je prosím v dalším kroku.",
-                    "primaryButton": "Vyfotit znovu"
+                    "title": "We could not process the data from your document.",
+                    "detail": "Please review it in the next step.",
+                    "primaryButton": "Try again"
                 },
                 "permissionErrorScreen": {
-                    "title": "Aplikace potřebuje oprávnění",
-                    "detail": "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
-                    "primaryButton": "Povolit fotoaparát"
+                    "title": "The app requires access",
+                    "detail": "To verify your identity, we will need to take a photo of your IDs, please allow Smart Banka access to your camera in Settings.<br/><br/>Alternatively, you can bring your IDs in person to one of our branches.",
+                    "primaryButton": "Allow camera access"
                 }
             },
             "onboardingDocumentUpload": {
-                "detail": "Ujistěte se, že fotíte",
+                "detail": "Make sure that you are taking a photo of",
                 "bullets": [
                     {
-                        "title": "Platný doklad ze správné strany a na šířku",
+                        "title": "the right side of a valid document in landscape mode",
                         "icon": "idCardFill"
                     },
                     {
-                        "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků",
+                        "title": "under good lighting, legible and without glare",
                         "icon": "lightBulbOnFill"
                     }
                 ],
-                "tooltip": "Ostrá, bez odlesků a čitelná",
-                "inProgress": "Zpracováváme vyfocený doklad, <b>hned to bude</b>",
-                "visible": "Je vše dobře viditelné?",
-                "idFrontTitle": "Přední strana občanského průkazu",
-                "idBackTitle": "Zadní strana občanského průkazu",
-                "drivingLicenceTitle": "Přední strana řidičského průkazu",
-                "passportLicenceTitle": "Úvodní strana cestovního pasu",
-                "primaryButton": "Pokračovat k focení",
-                "takePhoto": "Vyfotit",
+                "tooltip": "Clear, legible and without glare",
+                "inProgress": "Processing the uploaded document, <b>just a moment/b>",
+                "visible": "Is everything legible?",
+                "idFrontTitle": "Front side of the ID card",
+                "idBackTitle": "Back side of the ID card",
+                "drivingLicenceTitle": "Front side of the driver's license",
+                "passportLicenceTitle": "Data page of the passport",
+                "primaryButton": "Proceed",
+                "takePhoto": "Take a photos",
                 "wrongDocument": {
-                    "title": "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou",
-                    "detail": "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
-                    "primaryButton": "Vyfotit znovu"
+                    "title": "We could not process data from your ID document. Please try taking another photo",
+                    "detail": "Make sure that it is the correct (Czech) document, that it is all in frame and the details are legible.",
+                    "primaryButton": "Try again"
                 },
                 "scanFailed": {
-                    "title": "Vaše údaje se nám nepodařilo správně načíst",
-                    "detail": "Zkontrolujte a doplňte je prosím v dalším kroku.",
-                    "primaryButton": "Vyfotit znovu"
+                    "title": "We could not process the data from your document.",
+                    "detail": "Please review it in the next step.",
+                    "primaryButton": "Try again"
                 },
                 "permissionErrorScreen": {
-                    "title": "Aplikace potřebuje oprávnění",
-                    "detail": "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
-                    "primaryButton": "Povolit fotoaparát"
+                    "title": "The app requires access",
+                    "detail": "To verify your identity, we will need to take a photo of your IDs, please allow Smart Banka access to your camera in Settings.<br/><br/>Alternatively, you can bring your IDs in person to one of our branches.",
+                    "primaryButton": "Allow camera access"
                 }
             },
             "onboardingDocumentReview": {
-                "title": "Načetli jsme Vaše údaje správně?",
-                "firstName": "Jméno",
-                "lastName": "Příjmení",
-                "dateOfBirth": "Datum narození",
-                "birthNumber": "Rodné číslo",
+                "title": "Is this information correct?",
+                "firstName": "First name",
+                "lastName": "Last name",
+                "dateOfBirth": "Date of birth",
+                "birthNumber": "Birth number",
                 "city": "Město",
-                "descriptiveNumber": "Č. popisné",
-                "orientationNumber": "Č. orientační",
-                "idCardNumber": "Číslo dokladu",
-                "idCardValidTo": "Platnost do",
-                "citizenship": "Státní občanství",
-                "citizenshipValue": "pouze Česká republika",
-                "placeOfBirth": "Místo narození",
-                "street": "Ulice",
-                "zipCode": "PSČ",
-                "sectionScan": "<b>Údaje z dokladu</b>",
-                "sectionAddress": "<b>Trvalý pobyt</b> (pouze Česká republika)",
-                "detail": "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
-                "primaryButton": "Pokračovat"
+                "descriptiveNumber": "House no.",
+                "orientationNumber": "Street no.",
+                "idCardNumber": "ID card number",
+                "idCardValidTo": "Validity",
+                "citizenship": "Citizenship",
+                "citizenshipValue": "Only Czech Republic",
+                "placeOfBirth": "Place of birth",
+                "street": "Street",
+                "zipCode": "ZIP",
+                "sectionScan": "<b>Information from the document</b>",
+                "sectionAddress": "<b>Permanent residence</b> (Czech Republic only)",
+                "detail": "By clicking Continue, you confirm that all the information provided is correct, factual and up-to-date..",
+                "primaryButton": "Continue"
             },
             "secondDocumentTypeSelection": {
-                "title": "Focení druhého dokladu",
-                "detail": "Občanský průkaz už jsme ověřili. Nyní zvolte druhý doklad totožnosti, abychom si byli opravdu jistí, že jste to Vy.",
-                "primaryButton": "Vyfotit řidičský průkaz",
-                "secondaryButton": "Vyfotit cestovní pas"
+                "title": "Take a photo of your other ID",
+                "detail": "Your ID card has been verified, Choose a second form of ID to verify your identity.",
+                "primaryButton": "Driver's license",
+                "secondaryButton": "Passport"
             },
             "liveness": {
-                "title": "V posledním kroku Vás ověříme pomocí krátkého videa",
+                "title": "In the last step we will verify your identity via a quick video",
                 "bullets": [
                     {
-                        "title": "Nyní nahrajeme krátké video Vašeho obličeje.",
-                        "detail": "Abychom poznali, že se za Vás nikdo nevydává.",
+                        "title": "Now we will take a short video of your face.",
+                        "detail": "In order to make sure you are not being impersonated.",
                         "icon": "cameraFill"
                     },
                     {
-                        "title": "Pomocí jednoduchých gest (otočením hlavou doleva, doprava a úsměvu) získáme maximální jistotu.",
+                        "title": "Simple gestures (moving your head to the left, to the right and smiling) provide the best possible verification.",
                         "icon": "userFill"
                     },
                     {
-                        "title": "Vaše soukromí a bezpečnost jsou pro nás nejdůležitější - nahrávku použijeme pouze pro ověření Vaší totožnosti.",
+                        "title": "Your privacy and security is paramount - the video serves only as identity verification.",
                         "icon": "lockFill"
                     }
                 ],
                 "error": {
-                    "title": "Omlouváme se, ale nastala neočekávaná chyba při odesílání videa",
-                    "detail": "Prosím opakujte akci ještě jednou.",
-                    "primaryButton": "Začít znovu"
+                    "title": "Our apologies, an error occurred while uploading the video.",
+                    "detail": "Please try again.",
+                    "primaryButton": "Start over"
                 },
-                "demo": "Přehrajte si ukázku, abyste vědeli, co vás čeká",
-                "demoButton": "Přehrát ukázku",
-                "skipButton": "Přeskočit",
-                "faceInCenter": "Máte dobré světlo a obličej ve středu záběru?",
-                "turnCameraButton": "Otočit kameru",
-                "startButton": "Začít",
-                "smile": "Jdeme na to. Nejdřív se krátce usmějte:",
-                "againButton": "Zkusit znovu",
-                "turnBack": "Skvělé! Teď otočte hlavu do strany a zpět:",
-                "primaryButton": "Pokračovat"
+                "demo": "Watch the sample to see what to expect.",
+                "demoButton": "Play the sample",
+                "skipButton": "Skip",
+                "faceInCenter": "Is your face well-lit and in focus?",
+                "turnCameraButton": "Flip camera",
+                "startButton": "Star",
+                "smile": "Let's do it. First, smile:",
+                "againButton": "Try again",
+                "turnBack": "Great job! Now, turn your head to the side and back:",
+                "primaryButton": "Continue"
             },
             "livenessVerification": {
-                "title": "Oskarový výkon! Děkujeme. Do 5 minut video zpracujeme",
-                "detail": "Natočené video porovná automat s Vašimi doklady, abychom si byli jisti, že jste to vy.",
-                "primaryButton": "Pokračovat"
+                "title": "Oscar-worthy performance! Thank you. The video will be processed within 5 minutes.",
+                "detail": "The recorded video will be compared with your documents to confirm your identity.",
+                "primaryButton": "Continue"
             },
             "onboardingContactAddress": {
-                "title": "Jaká je Vaše doručovací adresa? Součástí aplikace je běžný účet a karta se vším zdarma bez podmínek",
-                "sectionCardTitle": "Jaká karta Vám bude vyhovovat?",
+                "title": "What is your contact address? The app comes with a current account with a card free of charge and hidden terms.",
+                "sectionCardTitle": "Which card would you prefer?",
                 "cardOptions": [
                     {
                         "technology": "VIRTUAL",
-                        "title": "Virtuální karta do mobilu",
-                        "detail": "Místo plastové karty vydáme virtuální kartu. Pro placení a výběry si ji stačí přidat do mobilu hned po zřízení účtu.",
+                        "title": "Virtual card on your smartphone",
+                        "detail": "Instead of a plastic card, you will be issued a virtual card. To use it for payments and ATM withdrawals add it to your smartphone wallet.",
                         "icon": "mobileFill"
                     },
                     {
                         "technology": "PLASTIC",
-                        "title": "Fyzická plastová karta",
-                        "detail": "Plastová karta, kterou dobře znáte. Do mobilu si ji můžete přidat také.",
+                        "title": "Physical plastic card",
+                        "detail": "A regular card you know it. It can also be added to your smartphone.",
                         "icon": "cardFill"
                     }
                 ],
-                "sectionContact": "Kontaktní adresa",
-                "sectionContactInfo": "Kontaktní informace",
-                "primaryButton": "Pokračovat"
+                "sectionContact": "Contact address",
+                "sectionContactInfo": "Contact information",
+                "primaryButton": "Continue"
             },
             "cardDesign": {
-                "title": "Vyberte vzhled své nové karty",
+                "title": "Select the design of your new card",
                 "designs": [
                     {
                         "title": "Moneta Standard",
@@ -253,18 +253,18 @@
                     },
                     {
                         "value": "CA141D0020",
-                        "title": "MONETA - Plavání"
+                        "title": "MONETA - Swimming"
                     },
                     {
                         "value": "CA141D0021",
-                        "title": "MONETA - Cyklistika"
+                        "title": "MONETA - Cycling"
                     },
                     {
                         "value": "CA141D0022",
-                        "title": "MONETA - Tenis"
+                        "title": "MONETA - Tennis"
                     },
                     {
-                        "title": "MONETA - Beach volejbal",
+                        "title": "MONETA - Beach volleyball",
                         "value": "CA141D0023"
                     },
                     {
@@ -272,67 +272,67 @@
                         "value": "CA141D0003"
                     },
                     {
-                        "title": "Moneta Standard - Praha",
+                        "title": "Moneta Standard - Prague",
                         "value": "CA141D0005"
                     },
                     {
-                        "title": "Moneta Standard - Středočeský kraj",
+                        "title": "Moneta Standard - Central Bohemia",
                         "value": "CA141D0006"
                     },
                     {
-                        "title": "Moneta Standard - Jihočeský kraj",
+                        "title": "Moneta Standard - South Bohemia ",
                         "value": "CA141D0007"
                     },
                     {
-                        "title": "Moneta Standard - Plzeňský kraj",
+                        "title": "Moneta Standard - Plzeň Region",
                         "value": "CA141D0008"
                     },
                     {
-                        "title": "Moneta Standard - Karlovarský kraj",
+                        "title": "Moneta Standard - Karlovy Vary Region",
                         "value": "CA141D0009"
                     },
                     {
-                        "title": "Moneta Standard - Ústecký kraj",
+                        "title": "Moneta Standard - Ústí nad Labem Region",
                         "value": "CA141D0010"
                     },
                     {
-                        "title": "Moneta Standard - Liberecký kraj",
+                        "title": "Moneta Standard - Liberec Region",
                         "value": "CA141D0011"
                     },
                     {
-                        "title": "Moneta Standard - Královéhradecký kraj",
+                        "title": "Moneta Standard - Hradec Králové Region",
                         "value": "CA141D0012"
                     },
                     {
-                        "title": "Moneta Standard - Pardubický kraj",
+                        "title": "Moneta Standard - Pardubice Region",
                         "value": "CA141D0013"
                     },
                     {
-                        "title": "Moneta Standard - Kraj Vysočina",
+                        "title": "Moneta Standard - Vysočina Region",
                         "value": "CA141D0014"
                     },
                     {
-                        "title": "Moneta Standard - Jihomoravský kraj",
+                        "title": "Moneta Standard - South Moravia",
                         "value": "CA141D0015"
                     },
                     {
-                        "title": "Moneta Standard - Zlínský kraj",
+                        "title": "Moneta Standard - Zlín Region",
                         "value": "CA141D0016"
                     },
                     {
-                        "title": "Moneta Standard - Olomoucký kraj",
+                        "title": "Moneta Standard - Olomouc Region",
                         "value": "CA141D0017"
                     },
                     {
-                        "title": "Moneta Standard - Moravskoslezský kraj",
+                        "title": "Moneta Standard - Moravian-Silesian Region",
                         "value": "CA141D0018"
                     }
                 ],
-                "primaryButton": "Pokračovat"
+                "primaryButton": "Continue"
             },
             "click2Pay": {
                 "title": "Click to Pay has been enabled for your card on the e-shop",
-                "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
+                "detail": "Whenever you see the Click to Pay logo {0} while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
                 "emailPrompt": "E-mail for payments",
                 "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
                 "emailError": "We don't have your e-mail in contact information. Set it up in Settings.",
@@ -340,199 +340,199 @@
                 "secondaryButton": "Not interested"
             },
             "onboardingMatchId": {
-                "title": "Údaje z dokladů se neshodují",
-                "detail": "Vyberte nebo napište správný údaj",
-                "hintFirstName": "Vaše jméno",
-                "hintLastName": "Vaše příjmení",
-                "hintBirthNumber": "Rodné číslo (s lomítkem)",
-                "hintDateOfBirth": "Datum narození (dd.mm.rrrr)",
-                "otherSelectorTitle": "Jiný",
-                "otherInputTitle": "Doplňte",
-                "primaryButton": "Pokračovat"
+                "title": "The details on your IDs do not match",
+                "detail": "Select or enter the correct information",
+                "hintFirstName": "First name",
+                "hintLastName": "Last name",
+                "hintBirthNumber": "Birth number (incl. slash)",
+                "hintDateOfBirth": "Date of birth (dd.mm.yyyy)",
+                "otherSelectorTitle": "Other",
+                "otherInputTitle": "Enter information",
+                "primaryButton": "Continue"
             },
             "amlQuestionnaire": {
-                "title": "Údaje vyžadované zákonem",
-                "detail": "Zeptat se na tyto informace musíme, ukládá nám to zákon č. 253/2008 Sb. o praní špinavých peněz.",
-                "wrongTaxResidenceDialogText": "Je nám líto, ale pokud opravdu odvádíte daně i mimo ČR, nemůžeme Vám založit účet online. Zastavte se za námi na pobočce, kde Vám rádi pomůžeme.",
+                "title": "Information Required by Law",
+                "detail": "ZThis information is required under Act No. 253/2008 Coll. on Anti-Money Laundering.",
+                "wrongTaxResidenceDialogText": "We're sorry, if you truly are a tax resident of another country, you will not be able to open an account online. PLease visit one of our branches where we will be happy to assist you.",
                 "questions": {
                     "depositOrigin": {
-                        "text": "Odkud budou převážně pocházet peníze na běžném účtu?",
+                        "text": "What is the main source of the funds in the current account?",
                         "options": [
                             {
                                 "value": "1",
-                                "text": "Příjem ze zaměstnání"
+                                "text": "Income from employment"
                             },
                             {
                                 "value": "2",
-                                "text": "Příjem z podnikání"
+                                "text": "Income from business"
                             },
                             {
                                 "value": "3",
-                                "text": "Důchod / Renta"
+                                "text": "Pension / annuity "
                             },
                             {
                                 "value": "4",
-                                "text": "Sociální dávky"
+                                "text": "Welfare benefits"
                             },
                             {
                                 "value": "5",
-                                "text": "Příjem od rodinných příslušníků / Výhra / Dary"
+                                "text": "Income from family members / Winnings / Gifts."
                             }
                         ]
                     },
                     "prevailingTransactions": {
-                        "text": "Jaké transakce budou na běžném účtu převažovat?",
+                        "text": "Which types of transactions will be most frequent on your current account?",
                         "options": [
                             {
                                 "value": "1",
-                                "text": "Hotovostní"
+                                "text": "Cash"
                             },
                             {
                                 "value": "2",
-                                "text": "Bezhotovostní tuzemské"
+                                "text": "Cashless - domestic"
                             },
                             {
                                 "value": "3",
-                                "text": "Bezhotovostní zahraniční v rámci EU"
+                                "text": "Cashless - foreign, within the EU"
                             },
                             {
                                 "value": "4",
-                                "text": "Bezhotovostní zahraniční mimo EU"
+                                "text": "Cashless - foreign, outside of the EU"
                             }
                         ]
                     },
                     "rangeOfSalary": {
-                        "text": "Jaká bude výše měsíčních příjmů na běžném účtu?",
+                        "text": "What is the expected monthly income for the current account?",
                         "options": [
                             {
                                 "value": "AML2.1.DO_50",
-                                "text": "Do 50 000 Kč"
+                                "text": "Less than 50 000 CZK"
                             },
                             {
                                 "value": "AML2.2.DO_100",
-                                "text": "50 000 - 100 000 Kč"
+                                "text": "50 000 - 100 000 CZK"
                             },
                             {
                                 "value": "AML2.3.NAD_100",
-                                "text": "Nad 100 000 Kč"
+                                "text": "More than 100 000 CZK"
                             }
                         ]
                     },
                     "taxResidence": {
-                        "text": "Odvádíte daně pouze v ČR?",
+                        "text": "Is the CR your only tax residence?",
                         "options": [
                             {
                                 "value": "YES",
-                                "text": "Ano"
+                                "text": "Yes"
                             },
                             {
                                 "value": "NO",
-                                "text": "Ne"
+                                "text": "No"
                             }
                         ]
                     },
                     "pep": {
-                        "text": "Jste politicky exponovaná osoba?",
-                        "info": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí (např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil).\nZa politicky exponovanou osobu se považuje také: 1) osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka), 2) společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu, 3) skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby.",
+                        "text": "Are you a politically exposed person?",
+                        "info": "A politically exposed person is an individual who holds a prominent public position or role in a government body or international organization, either in the Czech Republic or abroad (e.g., Prime Minister, Member of Parliament, prominent head of local government, judge of the Supreme or Constitutional Court, member of the Central Bank's bank board, senior officer of the armed forces). A politically exposed person is also any: 1) member of immediate family of said person (e.g., parent, child, sibling, spouse), 2) Partner or the beneficial owner of the same legal person or trust fund as said person or a person who has any other close business relationship with said person, 3) Beneficiary owner of a legal person or a trust fund created on behalf or for the benefit of said person.",
                         "options": [
                             {
                                 "value": "YES",
-                                "text": "Ano"
+                                "text": "Yes"
                             },
                             {
                                 "value": "NO",
-                                "text": "Ne"
+                                "text": "No"
                             }
                         ]
                     },
                     "pepReason": {
-                        "text": "Důvod polit. exponovanosti",
-                        "info": "Uveďte funkci (případně vztah k jiné osobě), která z Vás činí politicky exponovanou osobu (např. \"jsem soudce Ústavního soudu\", nebo \"jsem manželka primátora města Plzeň\")",
-                        "default": "Zadejte"
+                        "text": "Why are you politically exposed?",
+                        "info": "State the position (or relationship to another person) that makes you a politically exposed person (for example, 'I am a judge of the Constitutional Court' or 'I am the spouse of the mayor of Plzeň')",
+                        "default": "Enter the position"
                     },
                     "bankId": {
-                        "text": "Aktivovat BankID",
-                        "info": "BankID umožňuje jednoduše přistupovat ke službám státu i soukromých společností. Jeho používání je zcela zdarma."
+                        "text": "Activate BankID",
+                        "info": "BankID provides a simple way to access government and private services. It is free to use. "
                     }
                 },
                 "pepInfo": {
-                    "label": "Kdo je politicky <a>exponovaná osoba?</a>",
-                    "title": "Politicky exponovaná osoba",
-                    "detail": "Politicky exponovanou osobou se rozumí fyzická osoba, která je nebo byla ve významné veřejné funkci s celostátním nebo regionálním významem v České republice nebo v zahraničí.",
-                    "subdetail": "Např. předseda vlády, člen parlamentu, významný vedoucí představitel územní samosprávy, soudce nejvyššího nebo ústavního soudu, člen bankovní rady centrální banky, vysoký důstojník ozbrojených sil, apod.",
-                    "sectionTitle": "Za politicky exponovanou osobu se považuje také:",
+                    "label": "Who is a politically <a>exposed person</a>",
+                    "title": "Politically exposed person",
+                    "detail": "A politically exposed person is an individual who holds a prominent public position or role in a government body or international organization, either in the Czech Republic or abroad. ",
+                    "subdetail": "E.g., Prime Minister, Member of Parliament, prominent head of local government, judge of the Supreme or Constitutional Court, member of the Central Bank's bank board, senior officer of the armed forces etc.",
+                    "sectionTitle": "A politically exposed person is also any:",
                     "bullets": [
-                        "Osoba blízká této osobě (např. rodič, dítě, sourozenec, manžel/ka nebo partner/ka)",
-                        "Společník nebo skutečný majitel stejné právnické osoby nebo svěřenského fondu jako tato osoba nebo osoba, která je s ní v jakémkoli jiném blízkém podnikatelském vztahu",
-                        "Skutečný majitel právnické osoby nebo svěřenského fondu, které byly vytvořeny ve prospěch této osoby"
+                        "Member of immediate family of said person (e.g., parent, child, sibling, spouse)",
+                        "Partner or the beneficial owner ofm the same legal person or trust fund as said person or a person who has any other close business relationship with said person",
+                        "Beneficiary owner of a legal person or a trust fund created on behalf or for the benefit of said person"
                     ]
                 },
-                "bankIdSectionTitle": "BankID u Moneta",
-                "citizenship": "Státní občanství",
-                "taxResidenceInfoTitle": "Určení daňové rezidence",
-                "taxResidenceInfoBody": "Dovolujeme si Vás požádat o informace za účelem plnění Společného standardu pro náležitou péči v oblasti informací o finančních účtech za účelem výměny informací poskytovaných finančními institucemi daňovým správám na základě Mnohostranné dohody příslušných orgánů o automatické výměně informací o finančních účtech (v případě banky se jedná o běžné, spořicí účty a termínované vklady).",
-                "primaryButton": "Pokračovat"
+                "bankIdSectionTitle": "BankID with Moneta",
+                "citizenship": "Citizenship",
+                "taxResidenceInfoTitle": "Tax residence",
+                "taxResidenceInfoBody": "We kindly request information from you for the purpose of complying with the Common Standard for Due Diligence regarding financial account information, for the purpose of exchanging information provided by financial institutions with tax authorities under the Multilateral Competent Authority Agreement on the Automatic Exchange of Financial Account Information (for banks, this concerns current accounts, savings accounts, and term deposits)",
+                "primaryButton": "Continue"
             },
             "scoring": {
-                "title": "Chvilku strpení, všechno to musíme zkontrolovat."
+                "title": "Just a moment, processing."
             },
             "staticDocuments": {
-                "title": "Přečtěte si před podpisem smlouvy tyto dokumenty",
-                "subtitle": "Všechny dokumenty najdete ve své Smart Bance v sekci <b>Moje dokumenty</b>.",
+                "title": "Review these documents before signing the Agreement",
+                "subtitle": "All documents can be found in Smart Banka under <b>'Documents'</b>.",
                 "primaryButton": "S dokumenty jsem se seznámil/a"
             },
             "waitingBeforePrecontract": {
-                "title": "Chvilku strpení, připravím Vám předsmluvní informace"
+                "title": "Just a moment, preparing pre-contractual information"
             },
             "precontractInfo": {
-                "title": "Přečtěte si předsmluvní informace",
-                "detail": "Stahněte si PDF",
-                "primaryButton": "Souhlasím",
-                "secondaryButton": "Nesouhlasím"
+                "title": "Read the pre-contractual information",
+                "detail": "Download the PDF",
+                "primaryButton": "Agree",
+                "secondaryButton": "Decline"
             },
             "contract": {
-                "title": "Přečtěte si smlouvu k běžnému účtu",
-                "detail": "Stahněte si PDF",
-                "primaryButton": "Rozumím a souhlasím",
-                "secondaryButton": "Nesouhlasím"
+                "title": "Read the Current Account Agreement",
+                "detail": "Download the PDF",
+                "primaryButton": "Confirm and agree",
+                "secondaryButton": "Decline"
             },
             "etb": {
                 "unsuported": {
-                    "title": "Vítejte zpět v Monetě",
-                    "detail": "<b>Jsme rádi, že chcete využívat Tom Plus účet s mobilní aplikací Smart Banka. Technické problémy nám momentálně neumožňují dokončit vytvoření účtu online.</b><br><br>Navštivte nás prosím na pobočce, kde vše vyřešíme. A nezapomeňte si s sebou vzít doklad totožnosti. Děkujeme Vám.",
-                    "callUs": "Zavolejte nám\nna infolinku",
-                    "branch": "Naštivte nás\nna pobočce",
-                    "primaryButton": "Ukončit aplikaci"
+                    "title": "Welcome back to Moneta",
+                    "detail": "<b>We are glad you chose to use the Tom Plus Account and Smart Banka. Due to technical difficulties, we are unable to open your account online.</b><br><br> Visit one of our branches, where we will be happy to help you. Please remember to bring with you a valid form of ID. Thank you.",
+                    "callUs": "Call Helpline",
+                    "branch": "Visit a branch",
+                    "primaryButton": "Close application"
                 },
                 "withSB": {
-                    "title": "Vítejte zpět v Monetě. Právě vám aktivujeme Smart Banku.",
-                    "detail": "Zpravidla to zvládneme za pár minut, nejpozději do druhého dne.",
-                    "primaryButton": "Pokračovat"
+                    "title": "Welcome back to Moneta. We're activating your Smart Banka.",
+                    "detail": "It usually takes just a few minutes, in rare cases it can take until the next day.",
+                    "primaryButton": "Continue"
                 },
                 "waiting": {
-                    "title": "Ještě na tom pracujeme. Aplikaci teď můžete vypnout a zkontrolovat ji později."
+                    "title": "We're still working on it. You can leave the app and come back later."
                 },
                 "noSB": {
-                    "title": "Vítejte zpět v Monetě",
-                    "detail": "<b>Teď Vám sjednáme aplikaci Smart Banka. Zabere to maximálně pár minut a hned poté ji budete moct používat.</b><br><br>Tom Plus účet zdarma a bez podmínek si aktivujete přepnutím svého stávajícího účtu nebo založením nového účtu po přihlášení do Smart Banky.",
-                    "primaryButton": "Aktivovat Smart Banku"
+                    "title": "Welcome back to Moneta",
+                    "detail": "<b>We will set up your Smart Banka now. It should only take a couple of minutes and it will be ready to be used right away.</b><br><br>Tom Plus Account free of charge and hidden terms can be activated by switching your current account or opening a new one when you log in to Smart Banka.",
+                    "primaryButton": "Activate Smart Banka"
                 },
                 "consent": {
-                    "title": "Přečtěte si prosím sjednávané Parametry Smart Banky",
-                    "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
-                    "primaryButton": "Rozumím a souhlasím",
-                    "secondaryButton": "Nesouhlasím"
+                    "title": "Review the parameters of Smart Banka",
+                    "detail": "All documents can be found in Smart Banka and Internet Banka under 'Documents'",
+                    "primaryButton": "Confirm and agree",
+                    "secondaryButton": "Decline"
                 },
                 "victory": {
-                    "title": "Vítejte zpět v Monetě, vše je připraveno!",
-                    "detail": "Přihlaste se pro potvrzení aktivace Smart Banky.",
-                    "primaryButton": "Přihlásit se"
+                    "title": "Welcome back to Moneta. Everything is ready!",
+                    "detail": "Log in to confirm the activation of Smart Banka.",
+                    "primaryButton": "Log in"
                 }
             },
             "victory": {
-                "title": " Hotovo!",
-                "detail": "Děkujeme za ověření. Teď to musíme zkontrolovat.",
-                "primaryButton": "Přejít na Přehled"
+                "title": " Done!",
+                "detail": "Thank you for verifying. We will now process your information.",
+                "primaryButton": "Go to Overview"
             }
         }
     }
