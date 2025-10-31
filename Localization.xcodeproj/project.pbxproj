@@ -182,6 +182,7 @@
 		8F553E822DCB8C24002E735E /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F553E842DCB8C24002E735E /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 		8F553E852DCB8C24002E735E /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
+		8F8DDAF62EAA2BD700EB7576 /* setup.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = setup.json; sourceTree = "<group>"; };
 		8FC4965F2E05774900A517C9 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1092,6 +1093,7 @@
 		8F553E872DCB8C24002E735E /* json */ = {
 			isa = PBXGroup;
 			children = (
+				8F8DDAF52EAA2BB900EB7576 /* infolines */,
 				8F2C79A32E24EF4A0094ADE7 /* visa-alias */,
 				8F553D7D2DCB8C24002E735E /* abilities */,
 				8F553D832DCB8C24002E735E /* accident-insurance */,
@@ -1157,6 +1159,14 @@
 				8F553E862DCB8C24002E735E /* wustenrot-sb-onboarding */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		8F8DDAF52EAA2BB900EB7576 /* infolines */ = {
+			isa = PBXGroup;
+			children = (
+				8F8DDAF62EAA2BD700EB7576 /* setup.json */,
+			);
+			path = infolines;
 			sourceTree = "<group>";
 		};
 		8FC4965E2E05773A00A517C9 /* redesigned */ = {
