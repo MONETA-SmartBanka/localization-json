@@ -35,7 +35,7 @@ jobs:
       - name: Run Prettier on changed files
         shell: bash
         run: |
-          git fetch origin ${{ github.base_ref }} --depth=1 || true
+          git fetch origin ${{ github.base_ref }} --depth=0 || true
           git diff -z --name-only --diff-filter=ACMR origin/${{ github.base_ref }}...HEAD -- 'json/**/*.json' \
             | xargs -0 -r npx prettier --write
 
