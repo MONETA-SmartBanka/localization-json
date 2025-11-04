@@ -520,7 +520,7 @@
             "primaryButton": "Pokračovat",
             "notEligibleMifid": {
                 "title": "Zadržte, prosím",
-                "detail": "Jako ochranu před investicí do neodpovídajících finančních nástrojů Vám bohužel nyní neumožníme aktualizovat investiční profil.\n\nDěkujeme za pochopení.",
+                "detail": "Jako ochranu před investicí do neodpovídajících finančních nástrojů Vám bohužel neumožníme aktualizovat investiční profil do {0}.\n\nDěkujeme za pochopení.",
                 "primaryButton": "Zpět na přehled fondů"
             },
             "category": [
@@ -1156,7 +1156,7 @@
                 "insufficientKnowledge": {
                     "victoryKind": "hold",
                     "title": "Pokud neznáte odpověď, investice vám nemůžeme nabídnout",
-                    "detail": "Zkuste mrknout do nápovědy",
+                    "detail": "Zkuste mrknout do nápovědy.",
                     "primaryButton": "Nápověda",
                     "primaryAction": "help",
                     "secondaryButton": "Zpět na jinou odpověď",
@@ -1202,15 +1202,11 @@
                             "body": "Investuje většinu majetku do dluhopisů. Dluhopis je nástroj, pomocí kterého se podniku či státu půjčují peníze."
                         },
                         {
-                            "title": "Smíšený podílový fond",
-                            "body": "Nejčastěji obsahují kombinaci akcií podniků a dluhopisů podniků nebo států."
-                        },
-                        {
                             "title": "Investiční certifikát",
                             "body": "Je investiční produkt, který má své specifické podmínky, které určují práva a povinnosti investora. Mezi takové podmínky patří doba trvání, způsob stanovení výnosu, omezení na maximální výši výnosu nebo podmínky předčasného splacení."
                         },
                         {
-                            "title": "Investiční služba přijímání a předávání pokynů",
+                            "title": "Služba přijímání a předávání pokynů",
                             "body": "Banka od klienta přijme pokyn k požadovanému obchodu a ten následně předá dané investiční společnosti k provedení; při této službě není poskytováno investiční poradenství."
                         },
                         {
@@ -1785,8 +1781,7 @@
                                 {
                                     "title": "NE, nepreferuji.",
                                     "value": 2,
-                                    "uncheckOthers": true,
-                                    "disqualificationReason": "noSuitableOffers"
+                                    "uncheckOthers": true
                                 },
                                 {
                                     "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 20 %.",
@@ -1815,7 +1810,8 @@
                                 {
                                     "title": "ANO, preferuji 100% udržitelné investice.",
                                     "value": 1,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 }
                             ]
                         },

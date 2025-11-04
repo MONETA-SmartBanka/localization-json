@@ -520,7 +520,7 @@
             "primaryButton": "Continue",
             "notEligibleMifid": {
                 "title": "Hold, please",
-                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile now.\n\nThank you for your understanding.",
+                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile until {0}.\n\nThank you for your understanding.",
                 "primaryButton": "Back to fund overview"
             },
             "category": [
@@ -1156,7 +1156,7 @@
                 "insufficientKnowledge": {
                     "victoryKind": "hold",
                     "title": "We can't offer you investments if you don't know the answer",
-                    "detail": "Try looking into help",
+                    "detail": "Try looking into help.",
                     "primaryButton": "Help",
                     "primaryAction": "help",
                     "secondaryButton": "Back to another answer",
@@ -1202,15 +1202,11 @@
                             "body": "It invests the majority of its assets in bonds. A bond is a financial instrument used to lend money to a company or government."
                         },
                         {
-                            "title": "Mixed Mutual Fund",
-                            "body": "They typically contain a mix of corporate stocks and bonds issued by companies or governments."
-                        },
-                        {
                             "title": "Investment Certificate",
                             "body": "It is an investment product with specific terms and conditions that define the rights and obligations of the investor. These may include the investment duration, how returns are calculated, limits on maximum returns, or conditions for early repayment."
                         },
                         {
-                            "title": "Investment Service: Order Execution",
+                            "title": "Service: Order Execution",
                             "body": "The bank receives a trade order from the client and forwards it to the relevant investment company for execution. No investment advice is provided as part of this service."
                         },
                         {
