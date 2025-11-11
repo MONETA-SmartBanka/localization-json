@@ -2548,7 +2548,7 @@
                 "4": "Moderate profit, moderate volatility.",
                 "5": "Considerable profit, significant volatility.",
                 "6": "High profit, high volatility."
-            },
+        },
             "years": {
                 "one": "{0} year or more",
                 "two": "{0} years or more",
@@ -2557,6 +2557,7 @@
         },
         "invest": {
             "title": "Invest from {0}",
+            "dipTitle": "Nákup ze Spořicího účtu DIP",
             "oneTime": "One-time investment",
             "regularInvestment": "Monthly investment",
             "regularInfo": "Starting today, your monthly investment is saved as a standing order which can be canceled or edited anytime.",
@@ -2570,7 +2571,8 @@
             "investAlert": "You are about to invest in a fund {{name}}, which bears a <b> higher risk ({{profile}}) than your investment profile</b>",
             "primaryButton": "Invest",
             "alertPrimaryButton": "Yes, continue anyway",
-            "alertSecondaryButton": "Choose another fund"
+            "alertSecondaryButton": "Choose another fund",
+            "remainingBalance": "Remaining balance: {0}"
         },
         "advisoryInvest": {
             "title": "How will you invest?",
