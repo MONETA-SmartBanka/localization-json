@@ -39,6 +39,29 @@
         }
     },
     "scenes": {
+        "deliveryAddress": {
+            "title": "Adresa pro zaslání karty",
+            "changeAddressInfo": "Chcete poslat kartu na jinou adresu?\nZměňte kontaktní adresu v sekci O mně v Nastavení.",
+            "addressTypes": [
+                {
+                    "type": "CONTACT",
+                    "text": "Kontaktní adresa"
+                },
+                {
+                    "type": "PERMANENT",
+                    "text": "Trvalá adresa"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_FOP",
+                    "text": "Adresa podníkání"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_PO",
+                    "text": "Sídlo firmy"
+                }
+            ],
+            "primaryButton": "Pokračovat"
+        },
         "victoryPlastic": {
             "title": "Máme skoro hotovo, zbývají už jen podpisy",
             "detail": "Až bude žádost schválená všemi schvalovateli, odešleme vám vaši kartu.",
