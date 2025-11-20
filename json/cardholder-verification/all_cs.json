@@ -9,7 +9,7 @@
         },
         "noPhone": {
             "title": "Jaký je váš kontaktní telefon?",
-            "detail": "Abychom mohli pokračovat, potřebujeme znát vaše telefonní číslo.\nDoplňte si ho u banky, kde máte Bankovní identitu, a potom pokračujte v žádosti o kartu.",
+            "detail": "Abychom mohli pokračovat, potřebujeme znát vaše telefonní číslo.\nDoplňte si ho u banky, kde máte Bankovní identitu, a potom pokračujte v žádosti o kartu.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět na Přehled",
@@ -22,26 +22,81 @@
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět na Přehled"
         },
+        "invalidToken": {
+            "title": "Tenhle QR kód nepoznáváme",
+            "detail": "Zkontrolujte prosím, že skenujete správný QR kód a to zkuste znovu",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Vyfotit znovu"
+        },
+        "contractDisagree": {
+            "title": "Máte nějaké otázky?",
+            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
         "cancelledExpire": {
-            "title": "Žádost o kartu je zrušena",
-            "detail": "Protože jste nestihli dokončit ověření do {0}, žádost jsme zrušili.\n\nPro novou žádost o kartu prosím kontaktujte majitele účtu.",
+            "title": "Žádost o kartu je zrušena",
+            "detail": "Protože jste nestihli dokončit ověření do {0}, žádost jsme zrušili.\n\nPro novou žádost o kartu prosím kontaktujte majitele účtu.",
             "primaryButton": "Zpět na Přehled"
         },
         "cancelledHolder": {
-            "title": "Žádost o kartu je zrušena",
-            "detail": "Pro novou žádost o kartu prosím kontaktujte majitele účtu.",
+            "title": "Žádost o kartu je zrušena",
+            "detail": "Pro novou žádost o kartu prosím kontaktujte majitele účtu.",
             "primaryButton": "Zpět na Přehled"
         },
         "invalidData": {
             "title": "Údaje se neshodují",
-            "detail": "Údaje z ověření neodpovídají pozvané osobě. Požádejte osobu, která Vás pozvala o kontrolu údajů na pozvánce.",
+            "detail": "Údaje z ověření neodpovídají pozvané osobě. Požádejte osobu, která Vás pozvala o kontrolu údajů na pozvánce.",
             "primaryButton": "Ukončit proces"
         }
     },
     "scenes": {
+        "start": {
+            "title": "Ověření držitele karty",
+            "detailCredit": "<b>Typ karty:</b> {cardType}\n<b>Majitel smlouvy:</b> {contractOwner}\n<b>Číslo smlouvy:</b> {contractNumber}",
+            "detailDebit": "<b>Typ karty:</b> {cardType}\n<b>Majitel účtu:</b> {accountOwner}\n<b>Číslo účtu:</b> {accountNumber}",
+            "bulletsTitleExistingUser": "Jak na to?",
+            "bulletsExistingUser": [
+                {
+                    "title": "Vyplňte zbývající údaje k vaší nové kartě"
+                },
+                {
+                    "title": "Podepište žádost"
+                },
+                {
+                    "title": "Karta bude na cestě k Vám, hned jak majitel vše potvrdí"
+                }
+            ],
+            "bulletsTitleAcquisitionUserBankId": "Nejdříve ověříme vaši totožnost přes BankID",
+            "bulletsAcquisitionUserBankId": [
+                {
+                    "title": "Přihlásíte se k existujícímu účtu jiné své banky"
+                },
+                {
+                    "title": "Sami si stáhneme nezbytné údaje"
+                },
+                {
+                    "title": "Ověření totožnosti",
+                    "detail": "V posledním kroku ověříme, že jste to opravdu Vy a nikdo se za Vás nevydává."
+                }
+            ],
+            "bulletsTitleAcquisitionUserDetails": "Potom už jen maličkosti",
+            "bulletsAcquisitionUserDetails": [
+                {
+                    "title": "Vyplníte zbývající údaje k vaší nové kartě a podepíšete žádost"
+                },
+                {
+                    "title": "Karta bude na cestě k Vám, hned jak majitel vše potvrdí"
+                }
+            ],
+            "primaryButton": "Pokračovat"
+        },
         "deliveryAddress": {
             "title": "Adresa pro zaslání karty",
-            "changeAddressInfo": "Chcete poslat kartu na jinou adresu?\nZměňte kontaktní adresu v sekci O mně v Nastavení.",
+            "changeAddressInfo": "Chcete poslat kartu na jinou adresu?\nZměňte kontaktní adresu v sekci O mně v Nastavení.",
             "addressTypes": [
                 {
                     "type": "CONTACT",
@@ -62,6 +117,36 @@
             ],
             "primaryButton": "Pokračovat"
         },
+        "staticDocuments": {
+            "title": "Přečtěte si předsmluvní dokumentaci",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "scoring": {
+            "title": "Chvilku strpení,\nvšechno to musíme zkontrolovat",
+            "detail": "Brzy budeme pokračovat."
+        },
+        "waitingBeforeNeedsAnalysis": {
+            "title": "Chvilku strpení,\npřipravíme vám smlouvu",
+            "detail": "Brzy budeme pokračovat."
+        },
+        "needsAnalysis": {
+            "title": "Přečtěte si dokumenty k pojištění",
+            "subtitle": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "agree": "Stisknutím tlačítka „Pokračovat“ potvrzuji, že jsem se seznámil*a s těmito dokumenty.",
+            "primaryButton": "Pokračovat"
+        },
+        "waitingBeforeContract": {
+            "title": "Chvilku strpení,\npřipravíme vám smlouvu",
+            "detail": "Brzy budeme pokračovat."
+        },
+        "contract": {
+            "title": "Přečtěte si souhlas s vydáním karty",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
         "victoryPlastic": {
             "title": "Máme skoro hotovo, zbývají už jen podpisy",
             "detail": "Až bude žádost schválená všemi schvalovateli, odešleme vám vaši kartu.",
@@ -69,7 +154,7 @@
         },
         "victoryVirtual": {
             "title": "Máme skoro hotovo, zbývají už jen podpisy",
-            "detail": "Až bude žádost schválená všemi schvalovateli, budete si moct přidat svou virtuální kartu svého do telefonu.",
+            "detail": "Až bude žádost schválená všemi schvalovateli, budete si moct přidat svou virtuální kartu do svého telefonu.",
             "primaryButton": "Zpět na Přehled"
         }
     }
