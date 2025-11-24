@@ -213,6 +213,15 @@
                         "actionType": "CLOSE",
                         "actionLabelText": "Decline, cancel payment"
                     }
+                },
+                "blacklist": {
+                    "victoryKind": "failure",
+                    "title": "Something went wrong.\nThe payment could not be sent.",
+                    "detail": "To make the payment, please call us at <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Back to Overview"
+                    }
                 }
             },
             "fx": {
