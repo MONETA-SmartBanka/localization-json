@@ -8930,6 +8930,44 @@
             "title": "Peníze na DIP můžete vložit odkudkoliv",
             "detail": "Bohužel jsme nenašli žádný běžný účet u Monety, ze kterého byste mohli vložit peníze na DIP.<br/>Pokud chcete, můžete peníze poslat i odjinud. Nepotřebujete žádný variabilní symbol, stačí jen zaslat platbu Váš spořicí účet DIP.",
             "primaryButton": "Rozumím"
+        },
+        "dipWithdrawal": {
+            "alert": {
+                "title": "Předčasným výběrem DIP přijdete o výhody",
+                "description": "Pokud ještě nespoříte 10 let a zároveň jste nedosáhl*a 60 let:",
+                "disadvantages1": {
+                    "title": "Ztratíte nárok na daňové výhody",
+                    "description": "Odečtené příspěvky z daňového základu budete muset doplatit."
+                },
+                "disadvantages2": {
+                    "title": "Budete muset zdanit příspěvky od zaměstnavatele",
+                    "description": "Při předčasném výběru jsou tyto částky považovány za příjem a podléhají zdanění."
+                },
+                "helpSection": {
+                    "title": "Máte nějaké otázky? Rádi vám poradíme",
+                    "callUs": "Zavolejte nám<br>na infolinku",
+                    "branch": "Naštivte nás<br>na pobočce"
+                },
+                "backButton": "Zpět",
+                "confirmButton": "Rozumím, přesto DIP vybrat"
+            },
+            "withdrawal": {
+                "title": "Výběr ze Spořicího účtu DIP",
+                "fromAccountName": "Vybrat z účtu DIP"
+            },
+            "busyLoader": {
+                "title": "Chvilku strpení, připravujeme vám smlouvu"
+            },
+            "agreement": {
+                "title": "Přečtěte si smlouvu o výběru ze Spoření DIP",
+                "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+                "confirmButton": "Rozumím a souhlasím",
+                "cancelButton": "Nesouhlasím"
+            },
+            "withdrawVictory": {
+                "title": "Hotovo! Peníze převedeme na zvolený účet",
+                "primaryButton": "Zpět na Přehled"
+            }
         }
     }
 }

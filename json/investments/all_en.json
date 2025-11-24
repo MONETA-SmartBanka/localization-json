@@ -8924,6 +8924,44 @@
             "title": "You can transfer funds into LTIP from any account",
             "detail": "Unfortunately, we have not found any current account with Moneta from which you can deposit money do DIP.<br/>If you want, you can also send money from elsewhere. No variable symbol is needed, just send the payment to your LTIP savings account.",
             "primaryButton": "Understand"
+        },
+        "dipWithdrawal": {
+            "alert": {
+                "title": "Předčasným výběrem DIP přijdete o výhody",
+                "description": "Pokud ještě nespoříte 10 let a zároveň jste nedosáhl*a 60 let:",
+                "disadvantages1": {
+                    "title": "Ztratíte nárok na daňové výhody",
+                    "description": "Odečtené příspěvky z daňového základu budete muset doplatit."
+                },
+                "disadvantages2": {
+                    "title": "Budete muset zdanit příspěvky od zaměstnavatele",
+                    "description": "Při předčasném výběru jsou tyto částky považovány za příjem a podléhají zdanění."
+                },
+                "helpSection": {
+                    "title": "Máte nějaké otázky? Rádi vám poradíme",
+                    "callUs": "Zavolejte nám<br>na infolinku",
+                    "branch": "Naštivte nás<br>na pobočce"
+                },
+                "backButton": "Zpět",
+                "confirmButton": "Rozumím, přesto DIP vybrat"
+            },
+            "withdrawal": {
+                "title": "Výběr ze Spořicího účtu DIP",
+                "fromAccountName": "Vybrat z účtu DIP"
+            },
+            "busyLoader": {
+                "title": "Chvilku strpení, připravujeme vám smlouvu"
+            },
+            "agreement": {
+                "title": "Přečtěte si smlouvu o výběru ze Spoření DIP",
+                "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+                "confirmButton": "Rozumím a souhlasím",
+                "cancelButton": "Nesouhlasím"
+            },
+            "withdrawVictory": {
+                "title": "Hotovo! Peníze převedeme na zvolený účet",
+                "primaryButton": "Zpět na Přehled"
+            }
         }
     }
 }
