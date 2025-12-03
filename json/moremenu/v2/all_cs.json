@@ -4,6 +4,7 @@
     "sections": [
         {
             "value": "DATEIO",
+            "analyticsId": "Header",
             "items": [
                 {
                     "title": "Odměny",
@@ -12,12 +13,14 @@
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
                     "actionValue": "DATEIO"
+                    "analyticsId": "more_rewards"
                 }
             ]
         },
         {
             "title": "Hypotéky",
             "value": "MORTGAGES",
+            "analyticsId": "mortgage",
             "items": [
                 {
                     "title": "Hypotéky",
@@ -26,7 +29,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "MORTGAGE",
-                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka"
+                    "fallback": "https://www.moneta.cz/hypoteky/hypoteka",
+                    "analyticsId": "more_mortgage"
                 },
                 {
                     "title": "Refinancování hypotéky",
@@ -36,13 +40,15 @@
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
                     "actionValue": "REFINANSO_INTRO",
-                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky"
+                    "fallback": "https://www.moneta.cz/hypoteky/refinancovani-hypoteky",
+                    "analyticsId": "more_refinanso"
                 }
             ]
         },
         {
             "title": "Spoření a investice",
             "value": "SAVINGS",
+            "analyticsId": "savings_investments",
             "items": [
                 {
                     "title": "Spoření",
@@ -50,7 +56,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "SAVINGS"
+                    "actionValue": "SAVINGS",
+                    "analyticsId": "more_savings"
                 },
                 {
                     "title": "Investice a podílové fondy",
@@ -58,7 +65,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "INVESTMENTS"
+                    "actionValue": "INVESTMENTS",
+                    "analyticsId": "more_investments"
                 },
                 {
                     "title": "Stavební spoření",
@@ -66,7 +74,8 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "BUILDING_SAVINGS"
+                    "actionValue": "BUILDING_SAVINGS",
+                    "analyticsId": "more_buildingSavings"
                 },
                 {
                     "title": "Termínovaný vklad",
@@ -74,7 +83,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "RTVETB"
+                    "actionValue": "RTVETB",
+                    "analyticsId": "more_termDeposit"
                 },
                 {
                     "title": "Doplňkové penzijní spoření",
@@ -82,13 +92,15 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "DPS_NN"
+                    "actionValue": "DPS_NN",
+                    "analyticsId": "more_dps"
                 }
             ]
         },
         {
             "title": "Pojištění",
             "value": "INSURANCES_NEW",
+            "analyticsId": "insurance",
             "items": [
                 {
                     "title": "Moje pojištění",
@@ -97,7 +109,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "INSURANCELIST",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_myInsurance"
                 },
                 {
                     "title": "Sjednat pojištění Online",
@@ -106,7 +119,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "INSURANCEOFFERS",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_getInsurance"
                 },
                 {
                     "title": "Cestovní pojištění",
@@ -115,7 +129,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "TRAVELINSURANCE",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_travelInsurance"
                 },
                 {
                     "title": "Úrazové pojištění",
@@ -124,7 +139,8 @@
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
                     "actionValue": "ACCIDENT_INSURANCE",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_accidentInsurance"
                 },
                 {
                     "title": "Pojištění splácení hypotéky",
@@ -133,7 +149,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-hypotecni-uver?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_mortgageRepaymentInsurance"
                 },
                 {
                     "title": "Pojištění právní ochrany",
@@ -142,7 +159,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-pravni-ochrany?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_legalProtectionInsurance"
                 },
                 {
                     "title": "Pojištění majetku",
@@ -151,7 +169,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-majetku?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_propertyiInsurance"
                 },
                 {
                     "title": "Životní pojištění",
@@ -160,7 +179,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_lifeInsurance"
                 },
                 {
                     "title": "Pojištění splácení úvěrů",
@@ -169,7 +189,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/pojisteni-schopnosti-splacet-spotrebitelsky-uver-extra?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
-                    "minVersion": "80.0.0"
+                    "minVersion": "80.0.0",
+                    "analyticsId": "more_creditRepaymentiInsurance"
                 }
             ]
         },
@@ -194,6 +215,7 @@
                     "actionType": "APPPAGE",
                     "actionValue": "INSURANCEOFFERS",
                     "maxVersion": "79.2.0"
+
                 },
                 {
                     "title": "Úrazové pojištění",
@@ -239,6 +261,7 @@
                     "actionType": "OPENURL",
                     "actionValue": "https://www.moneta.cz/pojisteni/zivotni-pojisteni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
                     "maxVersion": "79.2.0"
+
                 },
                 {
                     "title": "Pojištění splácení úvěrů",
@@ -254,6 +277,7 @@
         {
             "title": "Placení a karty",
             "value": "PAYMENTS",
+            "analyticsId": "payments_cards",
             "items": [
                 {
                     "title": "Běžné a cizoměnové účty",
@@ -261,7 +285,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "CURRENTACCOUNTS"
+                    "actionValue": "CURRENTACCOUNTS",
+                    "analyticsId": "more_currentAccounts"
                 },
                 {
                     "title": "Dětský účet",
@@ -269,7 +294,8 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "FAMILYACCOUNT"
+                    "actionValue": "FAMILYACCOUNT",
+                    "analyticsId": "more_familyAccount"
                 },
                 {
                     "title": "Směnárna",
@@ -278,6 +304,7 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "FXMONEY",
+                    "analyticsId": "more_currencyExchange",
                     "dispoModel": {
                         "type": "Account",
                         "right": "FOREIGN_EXCHANGE_ONLINE"
@@ -289,7 +316,8 @@
                     "userClientTypeList": ["FO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_CURRENT_ACCOUNT"
+                    "actionValue": "SME_NTC_CURRENT_ACCOUNT",
+                    "analyticsId": "more_entrepreneursAccount"
                 },
                 {
                     "title": "Účet pro podnikatele",
@@ -297,7 +325,8 @@
                     "userClientTypeList": ["FOP"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_SECOND_ACCOUNT"
+                    "actionValue": "SME_SECOND_ACCOUNT",
+                    "analyticsId": "more_entrepreneursAccount"
                 },
                 {
                     "title": "Platební karty",
@@ -305,7 +334,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "CARDSOVERVIEW"
+                    "actionValue": "CARDSOVERVIEW",
+                    "analyticsId": "more_paymentCards"
                 },
                 {
                     "title": "Dobití kreditu",
@@ -314,6 +344,8 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "CREDITTOPUP",
+                    "analyticsId": "more_creditTopUp",
+
                     "dispoModel": {
                         "type": "Account",
                         "right": "MOBILE_TOPUP"
@@ -326,6 +358,7 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "MYTEMPLATES",
+                    "analyticsId": "more_templates",
                     "dispoModel": {
                         "type": "Context",
                         "right": "TEMPLATES_VIEW"
@@ -337,7 +370,9 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "STANDING_ORDERS"
+                    "actionValue": "STANDING_ORDERS",
+                    "analyticsId": "more_transferAccount"
+
                 },
                 {
                     "title": "Inkasa",
@@ -346,6 +381,7 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "DIRECT_DEBIT",
+                    "analyticsId": "more_directDebit",
                     "dispoModel": {
                         "type": "Account",
                         "right": "PRODUCT_DETAIL"
@@ -357,6 +393,7 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
+                    "analyticsId": "more_accountTransfer",
                     "actionValue": "BANK_SWITCH",
                     "dispoModel": {
                         "type": "Account",
@@ -369,13 +406,16 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "CATEGORIES"
+                    "actionValue": "CATEGORIES",
+                    "analyticsId": "more_manageCategories"
+
                 }
             ]
         },
         {
             "title": "Půjčky",
             "value": "LOANS",
+            "analyticsId": "loans",
             "items": [
                 {
                     "title": "Půjčky",
@@ -383,7 +423,9 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "LOANSOVERVIEW"
+                    "actionValue": "LOANSOVERVIEW",
+                    "analyticsId": "more_loans"
+
                 },
                 {
                     "title": "Sloučení půjček",
@@ -392,6 +434,7 @@
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "UDCONLINE",
+                    "analyticsId": "more_udc",
                     "fallback": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
                     "minVersion": "80.0.0"
                 },
@@ -401,7 +444,8 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "FLEXIKREDIT"
+                    "actionValue": "FLEXIKREDIT",
+                    "analyticsId": "more_flexikredit"
                 },
                 {
                     "title": "Business flexi",
@@ -409,7 +453,8 @@
                     "userClientTypeList": ["PO", "FOP", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SMBFLEXI"
+                    "actionValue": "SMBFLEXI",
+                    "analyticsId": "more_flexiBusiness"
                 },
                 {
                     "title": "Business flexi",
@@ -417,7 +462,8 @@
                     "userClientTypeList": ["PO", "FOP", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SMB_MULTI_FLEXI"
+                    "actionValue": "SMB_MULTI_FLEXI",
+                    "analyticsId": "more_flexiBusiness"
                 },
                 {
                     "title": "Kreditní karta",
@@ -425,7 +471,8 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "CREDITCARD"
+                    "actionValue": "CREDITCARD",
+                    "analyticsId": "more_creditCard"
                 },
                 {
                     "title": "Podnikatelská kreditka",
@@ -433,7 +480,8 @@
                     "userClientTypeList": ["FOP", "PO", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SMBCCARD"
+                    "actionValue": "SMBCCARD",
+                    "analyticsId": "more_businessCard"
                 },
                 {
                     "title": "Podnikatelská kreditka",
@@ -441,7 +489,8 @@
                     "userClientTypeList": ["FOP", "PO", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SMB_MULTI_CCARD"
+                    "actionValue": "SMB_MULTI_CCARD",
+                    "analyticsId": "more_businessCard"
                 },
                 {
                     "title": "Kreditní účet",
@@ -449,7 +498,8 @@
                     "userClientTypeList": [],
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/kreditni-ucet?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/kreditni-ucet?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+                    "analyticsId": "more_creditAccount"
                 },
                 {
                     "title": "Expres Home - půjčka na bydlení",
@@ -457,7 +507,8 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/pujcka-pro-bydleni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/pujcka-pro-bydleni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+                    "analyticsId": "more_expresHome"
                 },
                 {
                     "title": "Úvěr ze stavebního spoření",
@@ -465,13 +516,15 @@
                     "userClientTypeList": ["FO", "ZAM"],
                     "shouldCheckEligibility": false,
                     "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu"
+                    "actionValue": "https://www.moneta.cz/pujcky-a-uvery/uver-ze-stavebniho-sporeni?AgentID=50288&gemid1=12453&utm_source=sb&utm_medium=link&utm_campaign=sb_menu",
+                    "analyticsId": "more_buildingSavingsLoan"
                 }
             ]
         },
         {
             "title": "Pro podnikání",
             "value": "SME",
+            "analyticsId": "SME",
             "items": [
                 {
                     "title": "Chytré služby a slevy",
@@ -479,7 +532,8 @@
                     "userClientTypeList": ["FOP", "PO"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "INTEGRATIONS"
+                    "actionValue": "INTEGRATIONS",
+                    "analyticsId": "more_servicesSales"
                 },
                 {
                     "title": "Podnikatelský úvěr",
@@ -487,7 +541,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_EXPRES"
+                    "actionValue": "SME_NTC_EXPRES",
+                    "analyticsId": "more_ntc_expres"
                 },
                 {
                     "title": "Podnikatelská kreditní karta",
@@ -495,7 +550,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_MBC"
+                    "actionValue": "SME_NTC_MBC",
+                    "analyticsId": "more_ntc_businessCard"
                 },
                 {
                     "title": "Kontokorent pro podnikatele",
@@ -503,7 +559,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_FLEXI"
+                    "actionValue": "SME_NTC_FLEXI",
+                    "analyticsId": "more_ntc_flexiBusiness"
                 },
                 {
                     "title": "Spoření PRO podnikání",
@@ -511,7 +568,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_SAVINGS_ACCOUNT"
+                    "actionValue": "SME_NTC_SAVINGS_ACCOUNT",
+                    "analyticsId": "more_ntc_savingsAccount"
                 },
                 {
                     "title": "Konto PRO podnikání",
@@ -519,13 +577,15 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
                     "actionType": "APPPAGE",
-                    "actionValue": "SME_NTC_CURRENT_ACCOUNT"
+                    "actionValue": "SME_NTC_CURRENT_ACCOUNT",
+                    "analyticsId": "more_ntc_currentAccount"
                 }
             ]
         },
         {
             "title": "Užitečné informace",
             "value": "INFORMATIONS",
+            "analyticsId": "useful_information",
             "items": [
                 {
                     "title": "Pobočky a bankomaty",
@@ -533,7 +593,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "BRANCHESATMS"
+                    "actionValue": "BRANCHESATMS",
+                    "analyticsId": "more_branchesAtms"
                 },
                 {
                     "title": "Kurzovní lístek",
@@ -541,7 +602,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "EXCHANGERATES"
+                    "actionValue": "EXCHANGERATES",
+                    "analyticsId": "more_exchangeRates"
                 },
                 {
                     "title": "Kontaktujte nás",
@@ -549,7 +611,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "CONTACTUS"
+                    "actionValue": "CONTACTUS",
+                    "analyticsId": "more_contactUs"
                 },
                 {
                     "title": "Pomáhejte se Smart Bankou",
@@ -557,7 +620,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "CHARITY"
+                    "actionValue": "CHARITY",
+                    "analyticsId": "more_charity"
                 },
                 {
                     "title": "Co Smart Banka umí?",
@@ -565,7 +629,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "ABILITIES"
+                    "actionValue": "ABILITIES",
+                    "analyticsId": "more_sbFeatures"
                 },
                 {
                     "title": "Hodinky a widgety",
@@ -573,7 +638,8 @@
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
-                    "actionValue": "ADVANCED_SETTINGS"
+                    "actionValue": "ADVANCED_SETTINGS",
+                    "analyticsId": "more_smartwatchWidgets"
                 }
             ]
         }
