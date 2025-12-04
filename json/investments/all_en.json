@@ -520,7 +520,7 @@
             "primaryButton": "Continue",
             "notEligibleMifid": {
                 "title": "Hold, please",
-                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile now.\n\nThank you for your understanding.",
+                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile until {0}.\n\nThank you for your understanding.",
                 "primaryButton": "Back to fund overview"
             },
             "category": [
@@ -1140,21 +1140,53 @@
             "title": "Investment questionnaire.\nWill you invest boldly or with care?",
             "detail": "Answer the following questions to help you discover your investment profile and which investment products are right for you.",
             "footer": "The questions are based on the European Directive on Markets in Financial Instruments (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), and after completing them, you can update them {0}x this month.",
+            "advisoryTitle": "Share more details about yourself to complete the Investment Questionnaire.",
+            "advisoryDetail": "This questionnaire is based on the European Markets in Financial Instruments Directive (MiFID) and takes <b>no more than 10 minutes to complete</b>.\n\nYou will have the option to update your responses one more time this month.",
             "primaryButton": "Continue",
+            "secondaryButton": "Help",
             "firstCategoryPrimaryButton": "Continue",
             "middleCategoryPrimaryButton": "{0} to go",
             "lastCategoryPrimaryButton": "Done, proceed to results",
             "notEligibleMifid": {
                 "title": "Hold, please",
-                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile now.\n\nThank you for your understanding.",
+                "detail": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile until {0}.\n\nThank you for your understanding.",
+                "detailNoDate": "Unfortunately, as a protection against investing in inappropriate financial instruments, we will not allow you to update your investment profile.\n\nThank you for your understanding.",
                 "primaryButton": "Back to fund overview"
+            },
+            "disqualificationReasons": {
+                "insufficientKnowledge": {
+                    "victoryKind": "hold",
+                    "title": "We can't offer you investments if you don't know the answer",
+                    "detail": "Try looking into help.",
+                    "primaryButton": "Help",
+                    "primaryAction": "help",
+                    "secondaryButton": "Back to another answer",
+                    "secondaryAction": "back"
+                },
+                "noSuitableOffers": {
+                    "victoryKind": "failure",
+                    "title": "We can't offer you investments of this type",
+                    "detail": "If you want, you can go back and change your answer.",
+                    "primaryButton": "Back",
+                    "primaryAction": "back",
+                    "secondaryButton": "End questionnaire",
+                    "secondaryAction": "finish",
+                    "showContacts": true,
+                    "callUs": "Call our helpline",
+                    "branch": "Visit our branch"
+                }
             },
             "investmentCertificatesTitle": "Would you like to invest in investment certificates as well?",
             "investmentCertificatesDetail": "If so, you will need to answer a few additional questions.",
-            "investmentCertificatesDisabled": "TODO: You already have investment certificates.",
+            "remainingTitle1": "{0} question remaining",
+            "remainingTitle2": "{0} questions remaining",
+            "remainingTitle5": "{0} questions remaining",
+            "previouslySelected": "Previously selected",
             "category": [
                 {
                     "title": "Are you familiar with investing?",
+                    "summaryTitle": "Investments Knowledge",
+                    "analyticsTitle": "knowledge",
                     "detail": "We’re not here to test you. We just need to understand your level of knowledge in finance and investing.\nWould you like to invest only in mutual funds? For any questions related to investment certificates, feel free to select “I don’t know.”",
                     "vocabularyTitle": "Glossary",
                     "vocabularyBullets": [
@@ -1171,15 +1203,11 @@
                             "body": "It invests the majority of its assets in bonds. A bond is a financial instrument used to lend money to a company or government."
                         },
                         {
-                            "title": "Mixed Mutual Fund",
-                            "body": "They typically contain a mix of corporate stocks and bonds issued by companies or governments."
-                        },
-                        {
                             "title": "Investment Certificate",
                             "body": "It is an investment product with specific terms and conditions that define the rights and obligations of the investor. These may include the investment duration, how returns are calculated, limits on maximum returns, or conditions for early repayment."
                         },
                         {
-                            "title": "Investment Service: Order Execution",
+                            "title": "Service: Order Execution",
                             "body": "The bank receives a trade order from the client and forwards it to the relevant investment company for execution. No investment advice is provided as part of this service."
                         },
                         {
@@ -1190,6 +1218,8 @@
                     "questions": [
                         {
                             "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
+                            "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
+                            "showHelpSecondaryButton": true,
                             "id": 1,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1214,12 +1244,16 @@
                                 {
                                     "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
                             "title": "How do mutual and investment funds work?",
+                            "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
+                            "showHelpSecondaryButton": true,
                             "id": 2,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1244,12 +1278,16 @@
                                 {
                                     "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
                             "title": "What types of mutual funds are there?",
+                            "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
+                            "showHelpSecondaryButton": true,
                             "id": 3,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1274,12 +1312,16 @@
                                 {
                                     "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
                             "title": "What are investment certificates?",
+                            "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
+                            "showHelpSecondaryButton": true,
                             "id": 4,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1304,12 +1346,16 @@
                                 {
                                     "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
                         {
                             "title": "What are the risks and benefits of investment certificates?",
+                            "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
+                            "showHelpSecondaryButton": true,
                             "id": 5,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1334,7 +1380,9 @@
                                 {
                                     "title": "I don’t know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         }
@@ -1342,6 +1390,8 @@
                 },
                 {
                     "title": "What is your experience with investing?",
+                    "summaryTitle": "Investment Experience",
+                    "analyticsTitle": "experience",
                     "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
                     "questions": [
                         {
@@ -1483,6 +1533,8 @@
                 },
                 {
                     "title": "What are your goals and needs?",
+                    "summaryTitle": "Your investment goals and needs",
+                    "analyticsTitle": "goals",
                     "detail": "This section will help you select funds whose fluctuations, potential losses, or the need for longer holding periods will not pose a significant problem for you.",
                     "vocabularyTitle": "Vocabulary",
                     "vocabularyBullets": [
@@ -1493,6 +1545,18 @@
                         {
                             "title": "Investment horizon",
                             "body": "The period for which the investment is planned. Failing to adhere to the product’s investment horizon significantly increases the risk associated with the investment."
+                        },
+                        {
+                            "title": "Environmentally sustainable investments",
+                            "body": "These are investments that, according to European regulations (known as the EU Taxonomy), significantly contribute to achieving at least one environmental objective while not significantly harming other objectives. Such goals include, for example, climate change mitigation or pollution prevention and reduction. These are the only investments for which the EU has established precise criteria aimed at protecting the environment. You can learn more about the EU Taxonomy and all its objectives on our <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">website.</a>"
+                        },
+                        {
+                            "title": "Sustainable investments",
+                            "body": "These investments contribute to environmental and social goals without significantly harming any environmental or social objectives. Examples include renewable energy, waste reduction, biodiversity, combating inequality, improving working conditions, and more."
+                        },
+                        {
+                            "title": "Investments with adverse impacts on sustainability",
+                            "body": "These are products where adverse impacts on sustainability are monitored in certain areas. We want to know if you would like to explicitly avoid some of these negative impacts in your investments."
                         }
                     ],
                     "questions": [
@@ -1503,6 +1567,7 @@
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
                             "answers": [
                                 {
                                     "title": "I expect at least to recover my initial investment and cannot tolerate any loss.",
@@ -1528,11 +1593,13 @@
                         },
                         {
                             "title": "What level of risk, on a scale from 1 (low risk) to 7 (high risk), are you able to accept?",
+                            "detail": "Higher level of risk means possibility of higher gain, but also higher loss.",
                             "id": 12,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
                             "answers": [
                                 {
                                     "title": "Low risk: 1 to 2",
@@ -1563,6 +1630,7 @@
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
                             "answers": [
                                 {
                                     "title": "Up to 1 year, including",
@@ -1598,6 +1666,7 @@
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
                             "answers": [
                                 {
                                     "title": "There is a possibility that I might need the money sooner.",
@@ -1615,28 +1684,7 @@
                                     "uncheckOthers": true
                                 }
                             ]
-                        }
-                    ]
-                },
-                {
-                    "title": "What are your requirements for sustainability?",
-                    "detail": "If investing sustainably is important to you, this section of the questionnaire will help you choose funds that consider sustainability.",
-                    "vocabularyTitle": "Vocabulary",
-                    "vocabularyBullets": [
-                        {
-                            "title": "Environmentally sustainable investments",
-                            "body": "These are investments that, according to European regulations (known as the EU Taxonomy), significantly contribute to achieving at least one environmental objective while not significantly harming other objectives. Such goals include, for example, climate change mitigation or pollution prevention and reduction. These are the only investments for which the EU has established precise criteria aimed at protecting the environment. You can learn more about the EU Taxonomy and all its objectives on our <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">website.</a>"
                         },
-                        {
-                            "title": "Sustainable investments",
-                            "body": "These investments contribute to environmental and social goals without significantly harming any environmental or social objectives. Examples include renewable energy, waste reduction, biodiversity, combating inequality, improving working conditions, and more."
-                        },
-                        {
-                            "title": "Investments with adverse impacts on sustainability",
-                            "body": "These are products where adverse impacts on sustainability are monitored in certain areas. We want to know if you would like to explicitly avoid some of these negative impacts in your investments."
-                        }
-                    ],
-                    "questions": [
                         {
                             "title": "Do you prefer environmentally sustainable investments?",
                             "id": 15,
@@ -1644,6 +1692,25 @@
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
+                            "requiredQuestion": {
+                                "title": "Do your investments need to be environmentally sustainable?",
+                                "maxAnswers": 1,
+                                "minAnswers": 1,
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
+                                "showHelpSecondaryButton": true,
+                                "answers": [
+                                    {
+                                        "title": "No",
+                                        "value": 1
+                                    },
+                                    {
+                                        "title": "Yes",
+                                        "detail": "Investments offering may be limited."
+                                    }
+                                ]
+                            },
                             "answers": [
                                 {
                                     "title": "NO, I do not",
@@ -1684,6 +1751,25 @@
                             "maxAnswersErrMessage": "Select 1 answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select one answer",
+                            "showHelpSecondaryButton": true,
+                            "requiredQuestion": {
+                                "title": "Do your investments need to be sustainable?",
+                                "maxAnswers": 1,
+                                "minAnswers": 1,
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
+                                "showHelpSecondaryButton": true,
+                                "answers": [
+                                    {
+                                        "title": "No",
+                                        "value": 1
+                                    },
+                                    {
+                                        "title": "Yes",
+                                        "detail": "We do not have this type of investments."
+                                    }
+                                ]
+                            },
                             "answers": [
                                 {
                                     "title": "NO, I do not",
@@ -1693,37 +1779,70 @@
                                 {
                                     "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 20%.",
                                     "value": 2,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
                                     "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
                                     "value": 3,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
                                     "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
                                     "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 80%.",
                                     "value": 5,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
                                     "title": "YES, I prefer 100% sustainable investments.",
                                     "value": 6,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "noSuitableOffers"
                                 }
                             ]
                         },
                         {
-                            "title": "Would you like to consider any adverse impacts on sustainability in your investments? ",
+                            "title": "Would you like to consider any adverse impacts on sustainability in your investments?",
                             "id": 17,
                             "maxAnswers": 5,
                             "maxAnswersErrMessage": "You can select more than one answer",
                             "minAnswers": 1,
                             "minAnswersErrMessage": "Select at least one answer",
+                            "showHelpSecondaryButton": true,
+                            "requiredQuestion": {
+                                "title": "Would you like to consider any adverse impacts on sustainability in your investments?",
+                                "maxAnswers": 1,
+                                "minAnswers": 1,
+                                "maxAnswersErrMessage": "Select 1 answer",
+                                "minAnswersErrMessage": "Select one answer",
+                                "showHelpSecondaryButton": true,
+                                "answers": [
+                                    {
+                                        "title": "No",
+                                        "value": 1
+                                    },
+                                    {
+                                        "title": "Yes",
+                                        "detail": "Options can be very limited."
+                                    }
+                                ]
+                            },
+                            "requiredAnswer": {
+                                "title": "Yes",
+                                "detail": "Options can be very limited.\nChoose up to 5 options."
+                            },
                             "answers": [
                                 {
                                     "title": "Do not consider.",
@@ -1761,9 +1880,12 @@
                 },
                 {
                     "title": "Investment Guide:\nFinal Questions",
+                    "summaryTitle": "Financial situation and expectations",
+                    "analyticsTitle": "situation",
                     "questions": [
                         {
                             "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
+                            "hint": "We can't offer investments if you don't know the answer.",
                             "id": 18,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1788,7 +1910,9 @@
                                 {
                                     "title": "I don't know.",
                                     "value": 4,
-                                    "uncheckOthers": true
+                                    "uncheckOthers": true,
+                                    "startNewSection": true,
+                                    "disqualificationReason": "insufficientKnowledge"
                                 }
                             ]
                         },
@@ -1818,7 +1942,8 @@
                             ]
                         },
                         {
-                            "title": "What percentage of my financial assets (including savings, deposits, investments, securities) do I intend to invest through the bank annually?",
+                            "title": "What percentage of my financial assets do I intend to invest through the bank annually?",
+                            "detail": "Including savings, deposits, investments, securities.",
                             "id": 20,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1844,6 +1969,7 @@
                         },
                         {
                             "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
+                            "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "id": 21,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1869,6 +1995,8 @@
                         },
                         {
                             "title": "My regular debt payments and other financial obligations.",
+                            "detail": "By liabilities, we mean things like a mortgage, regular housing expenses, or loans. Do not include payments for basic living necessities such as food and clothing.",
+                            "hint": "Obligations:",
                             "id": 22,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1983,7 +2111,8 @@
                             ]
                         },
                         {
-                            "title": "Which of the following situations would reduce your ability to meet your basic living needs (e.g., buying food or clothing) upon the sale of your investment?",
+                            "title": "Which of the following situations would reduce your ability to meet your basic living needs upon the sale of your investment?",
+                            "detail": "For example, when buying food or clothing.",
                             "id": 25,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -2011,9 +2140,17 @@
                 }
             ]
         },
+        "questionnaireCheckpoint": {
+            "title": "Thank you for your answers.\nCompleting the next section will take approximately {0} minutes",
+            "done": "Completed",
+            "upNext": "Upcoming",
+            "primaryButton": "Continue",
+            "secondaryButton": "Save and continue later"
+        },
         "questionnaireResult": {
             "primaryButton": "View products",
             "alternativePrimaryButton": "Continue",
+            "investmentProfileNumber": "Investment profile {0}",
             "fundTitle": "Appropriate products",
             "fundTypes": [
                 {
@@ -2120,6 +2257,111 @@
                 "detail": "According to the investment questionnaire, you currently lack the experience and knowledge required for investing. Therefore, it is our legal duty to protect you from potential risks.\n\nWhen you are ready, you can complete the questionnaire again, {0}x again this month.",
                 "primaryButton": "Zpět na přehled fondů"
             }
+        },
+        "questionnaireNotEligibleAdvisory": {
+            "title": "Teď není správná doba na investice",
+            "detail": "Vaše odpovědi v investičním dotazníku ukazují, že nemáte dostatečné zkušenosti, znalosti nebo finanční zázemí, abyste do těchto finančních nástrojů mohli investovat. My jsme proto povinni Vás před tímto rizikem ochránit.\n\nDoporučujeme se o téma investování více zajímat a poté zkusit dotazník znovu, nejdříve to bude možné {0}.\n\nDěkujeme za pochopení.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "questionnaireResultAdvisory": {
+            "title": "Hotovo, podle dotazníku jste:\n\n{0}\n\nTeď se přesuneme k výběru konkrétní investice",
+            "clientProfiles": [
+                "Velmi konzervativní investor",
+                "Konzervativní investor",
+                "Dynamický investor",
+                "Velmi dymanický investor"
+            ],
+            "done": "Vyplněno",
+            "primaryButton": "Pokračovat"
+        },
+        "questionnairePreexisting": {
+            "title": "You have already filled in the investment questionnaire before.\nDo you want to update it?",
+            "detail": "The questionnaire now includes new questions about additional investment opportunities.\n\nThe questionnaire is based on the European directive on markets in financial instruments (MiFID) and filling it in will take you <b>no more than 10 minutes</b>. Right after, we will recommend a mutual fund suitable for your needs.",
+            "profileTitle": "Current investment profile: {investmentProfile}",
+            "profiles": [
+                {
+                    "numero": 2,
+                    "bullets": [
+                        {
+                            "icon": "circleInfoFill",
+                            "title": "Suitable products",
+                            "description": "Conservative products based on the money market and short-term bonds"
+                        },
+                        {
+                            "icon": "investmentsFill",
+                            "title": "Value fluctuation",
+                            "description": "Low (0.5 - 2%)"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "title": "Investment horizon",
+                            "description": "1 - 3 years"
+                        }
+                    ]
+                },
+                {
+                    "numero": 3,
+                    "bullets": [
+                        {
+                            "icon": "circleInfoFill",
+                            "title": "Suitable products",
+                            "description": "Conservative products with bonds and mixed products with a large share of bonds"
+                        },
+                        {
+                            "icon": "investmentsFill",
+                            "title": "Value fluctuation",
+                            "description": "Medium (0.5 - 5%)"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "title": "Investment horizon",
+                            "description": "3 - 5 years"
+                        }
+                    ]
+                },
+                {
+                    "numero": 4,
+                    "bullets": [
+                        {
+                            "icon": "circleInfoFill",
+                            "title": "Suitable products",
+                            "description": "Dynamic mixed products with a larger portion of stocks"
+                        },
+                        {
+                            "icon": "investmentsFill",
+                            "title": "Value fluctuation",
+                            "description": "Higher (5 - 10%)"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "title": "Investment horizon",
+                            "description": "5 years"
+                        }
+                    ]
+                },
+                {
+                    "numero": 7,
+                    "bullets": [
+                        {
+                            "icon": "circleInfoFill",
+                            "title": "Suitable products",
+                            "description": "Dynamic products with purely stock investments"
+                        },
+                        {
+                            "icon": "investmentsFill",
+                            "title": "Value fluctuation",
+                            "description": "High (15% and more)"
+                        },
+                        {
+                            "icon": "calendarFill",
+                            "title": "Investment horizon",
+                            "description": "5 years or more"
+                        }
+                    ]
+                }
+            ],
+            "primaryButton": "Continue without update",
+            "secondaryButton": "Update questionnaire"
         },
         "fundOverview": {
             "alternativeTitle": "Investments",
@@ -2310,11 +2552,12 @@
             }
         },
         "invest": {
+            "title": "Invest from {0}",
             "oneTime": "One-time investment",
             "regularInvestment": "Monthly investment",
             "regularInfo": "Starting today, your monthly investment is saved as a standing order which can be canceled or edited anytime.",
             "invested": "Invested",
-            "entryFee": "Purchase fee{{entryfee}} %",
+            "entryFee": "Purchase fee {{entryfee}} %",
             "entryFeeInfo": "Purchase fee is deducted from the invested amount.",
             "entryFeeDiscountInfo": "Purchase fee is deducted from the invested amount. Thanks to investing via Smart Banka you get a discount {{discount}}.",
             "sellFee": "Sale fee",
@@ -2323,7 +2566,42 @@
             "investAlert": "You are about to invest in a fund {{name}}, which bears a <b> higher risk ({{profile}}) than your investment profile</b>",
             "primaryButton": "Invest",
             "alertPrimaryButton": "Yes, continue anyway",
-            "alertSecondaryButton": "Choose another fund"
+            "alertSecondaryButton": "Choose another fund",
+            "remainingBalance": "Remaining balance: {0}"
+        },
+        "advisoryInvest": {
+            "title": "How will you invest?",
+            "profileTitle": "Investment profile",
+            "oneTime": "One-time investment",
+            "regularInvestment": "Regular investment",
+            "fromAccount": "Invest from",
+            "amount": "Amount",
+            "remainingBalance": "Remaining balance: {0}",
+            "term": "How long do you plan to keep this investment?",
+            "termMinYears": 2,
+            "termMaxYears": 99,
+            "termInvalidMessage": "Duration must be between 2 and 99 years.",
+            "term1": "year",
+            "term2": "years",
+            "term5": "years",
+            "frequency": "Investment frequency",
+            "frequencyOptionsTitle": "How often would you like to invest?",
+            "frequencyOptions": [
+                {
+                    "title": "Weekly",
+                    "value": "D7"
+                },
+                {
+                    "title": "Every 14 days",
+                    "value": "D14"
+                },
+                {
+                    "title": "Monthly",
+                    "value": "M1",
+                    "default": true
+                }
+            ],
+            "primaryButton": "Continue"
         },
         "contract": {
             "title": "Read the framework contract",
@@ -2439,6 +2717,16 @@
         ],
         "warnings": [
             {
+                "type": "DISPONENT_NO_RIGHTS",
+                "title": "Oops, this is not going to work",
+                "detail": "You are not aurhorized to view this section. If you are an eDisponent, you can obtain the necessary authorization from the account owner.",
+                "primaryButton": {
+                    "actionType": "APPPAGE",
+                    "actionData": "BALANCEOVERVIEW",
+                    "actionLabelText": "I understand"
+                }
+            },
+            {
                 "type": "NO_CIF_STREET",
                 "title": "Please visit one of our branches",
                 "detail": "There are some details missing in your profile which are essential to make investments via the app. You can only add the street to your profile in person at the branch. Thank you for understanding.",
@@ -2525,8 +2813,398 @@
             ],
             "funds": [
                 {
+                    "isin": "IE000YZM15Q6",
+                    "featuredName": "MONETA 5 dynamický",
+                    "detail": "Fond je vhodný pro investory, kteří usilují o maximální zhodnocení a jsou připraveni akceptovat vyšší míru kolísání.\n\nDynamickou složku tvoří až 100% portfolia pomocí investic do akcií pokrývajících celý svět a oblasti ekonomiky. V případě nepříznivého vývoje lze dynamickou složku snížit na 75 % a konzervativní navýšit, aby se omezila míra kolísání.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-statut.pdf"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-brozura.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "8 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000HD0CWC2",
+                    "featuredName": "MONETA 4 růstový",
+                    "detail": "Fond je vhodný pro dynamičtější investory, kteří hledají nadstandardní zhodnocení a akceptují vyšší míru kolísání.\n\nTo se odráží ve složením fondu, kde tvoří dynamická složka přibližně 75 %. Zbytek je zastoupen státními a korporátními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.\nDíky aktivní správě lze reagovat na pozitivní vývoj trhu a navýšit dynamickou složku až na 100 %. V případě nepříznivého vývoje na trhu ji lze snížit na 50 % a omezit tak míru kolísání.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-statut.pdf"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-brozura.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000N6PPGB0",
+                    "featuredName": "MONETA 3 vyvážený",
+                    "detail": "Fond je vhodný pro investory s vyváženým investičním přístupem, kteří hledají stabilní a mírně nadprůměrné výnosy. Zároveň jsou ochotni akceptovat určitou míru kolísání v rámci svého dlouhodobějšího horizontu.\n\nStrategie fondu cílí na rovnoměrné rozložení mezi konzervativní a dynamickou složkou. Konzervativní část portfolia, která má ve fondu zastoupení 50 % je tvořena korporátními dluhopisy a doplňkově českými státními dluhopisy a zahraničními státními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.Díky aktivní správě fondu lze, při nepříznivém vývoji na trhu, dynamickou složku snížit na 25 %. Při příznivém výhledu je možné navýšit dynamickou složku až na 75 % a podpořit tak výnosnost.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-statut.pdf"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-brozura.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 3",
+                                "info": {
+                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000VHJLW78",
+                    "featuredName": "MONETA 2 konzervativní",
+                    "detail": "Fond je vhodný pro konzervativní investory, kteří chtějí uchovat hodnotu svých prostředků a zároveň dosáhnout vyššího zhodnocení bez výrazného rizika.\n\nKonzervativní složku tvoří převážně české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 25 % globálními akciemi. Díky aktivní správě fondu, lze dynamickou složku v případě nepříznivého vývoje na trhu snížit na 10 %. V opačném případě lze dynamickou složku navýšit až na 50 % a podpořit tím výnosový potenciál.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-statut.pdf"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-brozura.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 3",
+                                "info": {
+                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním"
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000PM12TN1",
+                    "featuredName": "Moneta 1 opatrný",
+                    "detail": "Fond je vhodný pro velmi konzervativní investory, kteří chtějí dosáhnout mírně vyššího zhodnocení, než na běžných depozitních produktech jako jsou spořící účty nebo termínované vklady.\n\nKonzervativní složku portfolia tvoří převáženě české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 10 % globálními akciemi. Díky aktivní správě fondu lze dynamickou složku v případě nepříznivého vývoje na trhu snížit až na nulu a omezit tak kolísání. V příznivém prostředí ji lze naopak navýšit až na 25 % a podpořit výnosový potenciál.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-statut.pdf"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-brozura.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "3 roky a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Nízké výnosy, nízké kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním"
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                            }
+                        ]
+                    }
+                },
+                {
                     "isin": "HU0000709308",
-                    "featuredName": "BFM Conservative Bond Fund",
+                    "featuredName": "BFM Konzervativní dluhopisový fond",
                     "detail": "BFM Conservative Bond Fund (BF Money Conservative Fund) is a short-term bond fund. This fund invests primarily in term deposits, financial market instruments, government bonds or corporate bonds with short maturity. The average maturity of the portfolio does not exceed 2 years. The Fund's primary objective is to achieve higher returns than savings accounts and term deposits. Any currency risk is hedged. The fund is suitable as an instrument for the appreciation of the financial reserve,  from which we expect high availability. For very conservative clients, the fund is also suitable for long-term appreciation of financial reserves.",
                     "sellFeeValue": "0",
                     "featuredDetail": "Short-term government and corporate bonds with investments in term-deposits and money market in a fund suitable for conservative investors who want their financial reserve appreciated yet affordable.",
@@ -2616,6 +3294,7 @@
                 },
                 {
                     "isin": "CZ0008472578",
+                    "featuredName": "UNIQA CEE Dluhopisový fond",
                     "detail": "UNIQA CEE Bond Fund is a bond fund that relies on high-quality government and corporate bonds with a high rating, suitable for a conservative medium-term investor who has a basic knowledge of financial market instruments and wants to participate in bond and currency yields in Central and Eastern Europe. From the regional point of view, the fund's investments are directed mainly to bonds from the Czech Republic, Slovakia, Hungary and Poland. Investment grade bonds must account for at least 50% of the fund portfolio.",
                     "sellFeeValue": "0",
                     "featuredDetail": "High-quality government and corporate bonds with a high rating from the CEE region in a fund for conservative, medium-term investors.",
@@ -2798,6 +3477,7 @@
                 },
                 {
                     "isin": "HU0000707187",
+                    "featuredName": "BFM Balancovaný smíšený fond",
                     "detail": "BFM Balanced Mixed Fund (BF Money Balanced Fund) is a blend fund. It invests in bonds, money market instruments, stocks and commodities (especially gold). The neutral ratio of each asset class is: 70% bonds and money market instruments, 25% shares and 5% commodities (mainly gold). Shares and commodities represent a dynamic part of the portfolio. However, the current composition of the portfolio is changed by the portfolio manager depending on his expectations on the capital markets. The portfolio manager can change the dynamic part of the portfolio in the range of 0-60%. The equity part of the portfolio consists of Central European equities and world equities. The objective of the fund is to achieve returns exceeding the yields on current deposit products within the investment horizon of 5 years. The fund is suitable for clients who intend to invest in the medium and longer term. It is also suitable for regular investments. The fund fluctuations correspond to the asset classes used.",
                     "sellFeeValue": "0",
                     "featuredDetail": "A mixed fund investing in bonds, money market, equities and commodities for investors who want to exceed the yields on current savings products in the medium and long term.",
@@ -2883,6 +3563,7 @@
                 },
                 {
                     "isin": "HU0000705785",
+                    "featuredName": "BFM Konzervativní smíšený fond",
                     "detail": "The BFM Conservative Mixed Fund (BF Money Protected Fund) is a blend fund. It invests in money market instruments, short-term bonds and equities. Shares represent a dynamic part of the portfolio. This is adjusted on the basis of the expectations of the development of the capital markets by the portfolio manager and also on the basis of the protection mechanism available to the fund - the so-called protected value. The protected value is set at 90% of the highest historical value of the participation certificate. The protected value may rise but never fall. The dynamic part of the portfolio is changed in such a way that the fund does not fall below the protected level. The objective of the fund is to achieve returns in the investment horizon of 3-5 years that exceed the yields on current deposit products. The fund is suitable for clients who intend to invest in the medium and longer term. It is also suitable for regular investments. The fluctuation of the fund corresponds to the asset classes used and is limited by the use of a protection mechanism.",
                     "sellFeeValue": "0",
                     "featuredDetail": "Money market, short-term bonds and equities in the fund with a special mechanism that protects 90% of its highest value reached.",
@@ -2968,6 +3649,7 @@
                 },
                 {
                     "isin": "LU1402199910",
+                    "featuredName": "Franklin Diversified Conservative Fund",
                     "detail": "The fund is suitable for medium-term capital appreciation (3 years) with low targeted volatility (3-5% p.a.). The fund aims to yield 2% above the EURIBOR bid rate. It may invest up to 40% in equities that form a dynamic part of the fund. Thanks to the targeting of volatility and return, great emphasis is placed on risk control. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814722/mmb-ft-fdcf-report.pdf",
@@ -3056,7 +3738,7 @@
                 },
                 {
                     "isin": "CZ0008471760",
-                    "featuredName": "The Generali Balanced Conservative Fund",
+                    "featuredName": "Generali Fond balancovaný konzervativní",
                     "detail": "The Generali Balanced Conservative Fund is intended for investors who prefer a balanced ratio between the expected return, the level of investment risk and the recommended investment horizon, in this case set to at least 5 years. The portfolio of the fund is spread between the equity and the bond part, with a share of stocks reaching a maximum of 30%. The equity part is widely diversified both regionally and sectorally. Individual shares are selected on the basis of fundamental and technical indicators. The bond part of the portfolio consists of Czech government bonds with longer maturities and corporate bonds whose structure is similar to that in the Corporate Bond Fund. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814728/mmb-generali-fbk-report.pdf",
@@ -3230,7 +3912,7 @@
                 },
                 {
                     "isin": "CZ0008471786",
-                    "featuredName": "The Generali Corporate Bond Fund \uD83D\uDCC5",
+                    "featuredName": "Generali Fond korporátních dluhopisů \uD83D\uDCC5",
                     "detail": "The Generali Corporate Bond Fund is suitable for less conservative investors who can deposit their available funds for at least 3 years and are looking for a higher yield than the domestic bond market offers. The fund's portfolio includes high-quality corporate bonds, mainly from Central and Eastern Europe, where Generali Group has strong analytical coverage. The currency risk is hedged here. Due to the credit risk, the rate of appreciation is generally higher than that of government bonds. The portfolio's sensitivity to interest rate fluctuation is low.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814734/mmb-generali-fkd-report.pdf",
@@ -3319,7 +4001,7 @@
                 },
                 {
                     "isin": "CZ0008478476",
-                    "featuredName": "Generali Fund Secured equity return 5",
+                    "featuredName": "Generali Zajištěný fond akciového výnosu 5",
                     "detail": "The client uses the growth potential of the world stock index, which is composed of selected 100 stocks with a high dividend yield from around the world. The favorable development of the selected stock index STOXX Global Select Dividend 100 EUR works in your favor, while the conservative part of the portfolio aims to ensure the return of the invested amount. At the maturity date, the fund ensures the return of the invested amount against any market risk after deducting the entry fee. The fund does not hold any capital guarantee against the possible credit risk of the issuers of the underlying assets. By buying the fund, you become a shareholder and participate in the growth of the given index. If the STOXX Global Select Dividend EUR 100 stock index rises on the fund's maturity date, your appreciation will also rise.   Any return of the fund is realized by the mentioned stock index with a minimum 65% participation from the percentage change of the stock index at the maturity of the fund. The final amount of participation may be higher depending on the current development on the financial markets. The percentage change in the underlying index is further limited to a maximum amount of 45%. You can find a more detailed explanation of what can happen to the invested amount and to what amount the appreciation is limited at <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">www.moneta.cz</a>.The fund is suitable for more conservative investors who can save their free money for 4 years and 5 months. The fund is monetary secured. The current value of the fund's share certificate is determined with a monthly frequency, always at the end of the month.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/24697040/mmb-generali-zfav-5-informace-o-nabizeni.pdf",
@@ -3396,7 +4078,7 @@
                 },
                 {
                     "isin": "LU2544647592",
-                    "featuredName": "Espiria Nordic Corporate Bond – class A H1 EUR",
+                    "featuredName": "Espiria Nordic Corporate Bond EUR",
                     "detail": "The fund invests in corporate bonds of the Nordic countries. It is ideal for portfolio diversification, also considering that the Nordic countries and the Nordic banking sector are very stable and profitable. The objective of the fund is to achieve a combination of interest income and capital appreciation through direct or indirect investments in bonds and money market securities. As investors, you participate in the development of Bonheur (shipping), Volvo and Nordic banks such as Luminor Bank, DnB Bank, Jyske Bank and Arion Bank. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/22493418/mmb-espiria-ncb-eur-report.pdf",
@@ -4024,7 +4706,7 @@
                 },
                 {
                     "isin": "GB00BSSZ7345",
-                    "featuredName": "US Technology Equity 107% Guaranteed Certificate",
+                    "featuredName": "Garantovaný Certifikát US Technology Equity 107 %",
                     "detail": "The US Technology Equity 107% Guaranteed Certificate represents an investment strategy that limits potential loss at maturity and at the same time allows you to participate in the performance of US technology stocks. On the maturity date, it offers a return of the invested amount of 107% and an unlimited maximum yield.<br><br>Thus, you participate 100% in the performance of the Goldman Sachs US Technology Equity 6% Volatility Target USD ER Index, which includes the E-mini NASDAQ 100 futures.<br><br>The composition of the index includes technology giants such as Apple, Microsoft or Amazon, which makes the index attractive to investors looking for growth opportunities, especially in the technology and communications sectors. The index focuses on innovative companies that dominate the world market for a long time.<br><br>The certificate is valued daily based on the current market price, which may not take into account the parameters (guarantee) of the product, valid until the end of the product's lifetime. The currency risk is insured.<br><br><b>On the maturity date, one of the following scenarios may occur:</b><br><br>• If the appreciation of the index is negative, you will be paid 107% of the investment when the product matures .<br>• If the appreciation of the index is between 0% and 7%, you will be paid 107% of the investment when the product matures.<br>• If the appreciation of the index is higher than 7%, you will be paid a return corresponding to the growth of the index.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/28574658/mmb-gcuste107-brozura.pdf",
@@ -4101,7 +4783,7 @@
                 },
                 {
                     "isin": "GB00BTC5B914",
-                    "featuredName": "Guaranteed Lookback Max Global Equity Certificate",
+                    "featuredName": "Garantovaný Certifikát Lookback Max Global Equity",
                     "detail": "The Guaranteed Lookback Max Global Equity Certificate is an investment strategy that limits potential losses on the maturity date and allows you to participate in the performance of global stocks. It offers a 100% return on the invested amount and an unlimited maximum yield on the maturity date.<br><br>You participate in the performance of the Goldman Sachs Global Equity 6% Volatility Target USD ER Index, which includes futures contracts on MSCI World.<br><br>The composition of the index includes stocks from global markets, which makes the index attractive to investors looking for opportunities in global markets. The index focuses on growth opportunities across various sectors and regions.<br><br><br>The certificate is valued daily based on the current market price, which may not take into account the parameters (guarantee) of the product valid until the end of the product's term. Currency risk is hedged.<br><b>Maturity structure:</b><br><br>The product offers 100% capital protection at maturity. It uses a \"lookback max\" mechanism that captures the best annual performance of the index recorded during the 1st, 2nd or 3rd year. The best result achieved is paid out at maturity, regardless of the index level in the last year.<br><br>Example:<br><br>• 24.02.2026: The index is at 110% of the initial value<br>• 24.02.2027: The index is at 105% of the initial value<br>• 24.02.2028: The index is at 100% of the initial value<br><br>Result: The investor receives 110%, which is the best recorded performance.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/29410013/mmb-gclmge-brozura.pdf",
@@ -4259,7 +4941,7 @@
                 },
                 {
                     "isin": "LU2807456855",
-                    "featuredName": "Fidelity Global Technology Fund",
+                    "featuredName": "Fidelity Global Technology",
                     "detail": "The fund focuses on companies that develop or plan to develop products, processes or services that use or benefit from technological innovation. Most of the portfolio is invested in leading American companies, among which you will find such names as Microsoft, Apple or Samsung. The fund also incorporates ESG factors into its investment decisions, thereby striving for sustainable and responsible investing. Currency risk is hedged within the fund.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/28336605/mmb-ff-gtf-report.pdf",
@@ -4519,6 +5201,7 @@
                 },
                 {
                     "isin": "LU1402200197",
+                    "featuredName": "Franklin Diversified Balanced Fund",
                     "detail": "Franklin Diversified Balanced is suitable for medium to long-term capital appreciation (3 years) with low targeted volatility (5-8% p.a.). The fund aims to yield 3.5% above the EURIBOR bid rate. It may invest up to 75% in equities that form a dynamic part of the fund. Thanks to the targeting of volatility and return, great emphasis is placed on risk control. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814719/mmb-ft-fdbf-report.pdf",
@@ -4607,6 +5290,7 @@
                 },
                 {
                     "isin": "LU1402200353",
+                    "featuredName": "Franklin Diversified Dynamic Fund",
                     "detail": "Franklin Diversified Dynamic is suitable for long-term capital appreciation (3 years) with low targeted volatility (8-11% p.a.). The fund aims to yield 5% above the EURIBOR bid rate. It may invest up to 100% in equities that form a dynamic part of the fund. Thanks to the targeting of volatility and return, great emphasis is placed on risk control. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814725/mmb-ft-fddf-report.pdf",
@@ -5590,7 +6274,7 @@
                 },
                 {
                     "isin": "CZ0008471778",
-                    "featuredName": "Generali Global Brands Fund \uD83D\uDCC5",
+                    "featuredName": "Generali Fond globálních značek \uD83D\uDCC5",
                     "detail": "Generali Global Brands Fund is designed for investors who have decided to deposit their funds for at least 8 years and expect a higher rate of appreciation. The fund's shareholders benefit primarily from the return of shares in strong, world-known companies. These traded companies own the most valuable brands in the world. The fund invests in those companies whose list is released annually by Interbrand and published by Businessweek magazine.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814731/mmb-generali-fgz-report.pdf",
@@ -5679,6 +6363,7 @@
                 },
                 {
                     "isin": "CZ0008474145",
+                    "featuredName": "Generali Fond konzervativní",
                     "featuredDetail": "The fund focuses on the greatest certainty of appreciation of the investment. Useful if you plan to invest your funds for at least 1 year",
                     "detail": "Generali Conservative Fund is suitable for conservative clients, for whom low risk and higher security of capital appreciation are important. The Fund invests in term deposits, government bonds and corporate bonds. The expected appreciation is above the rate of ordinary bank savings products. The currency risk is hedged.",
                     "sellFeeValue": "0",
@@ -5853,7 +6538,7 @@
                 },
                 {
                     "isin": "IE00BK9WQ196",
-                    "featuredName": "The Generali Corporate Bond Fund \uD83D\uDCC5",
+                    "featuredName": "Generali Fond korporátních dluhopisů třídy M \uD83D\uDCC5",
                     "detail": "The Generali Corporate Bond Fund (Class M CZK) is a bond fund suitable for a conservative investor who wants to invest in a lump sum and has an investment horizon of at least 4 years. The Fund targets an average annual return of around 2% over an investment horizon of four years (provided that there is no sharp drop in capital markets, a change in macroeconomic developments, etc.). The means to achieve the investment objective will be a diversified and actively managed portfolio consisting mainly of corporate bonds and bonds of financial institutions, and to a lesser extent also government bonds and bonds of supranational institutions. The bonds are mostly denominated in USD, EUR and CZK. The currency risk is hedged in CZK. If the securities are redeemed before the four-year investment horizon expires, an exit fee of 3% is charged. After the investment horizon, ie after 4 years, the fee will not be charged. The currency risk is hedged.",
                     "sellFeeValue": "3",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/14246903/mmb-generali-fkdm-report.pdf",
@@ -6027,7 +6712,7 @@
                 },
                 {
                     "isin": "LU2052245482",
-                    "featuredName": "FT EM Bond Fund \uD83C\uDF33",
+                    "featuredName": "Templeton Emerging Markets Bond Fund \uD83C\uDF33",
                     "detail": "Fund Templeton Emerging Markets Bond is a bond fund suitable for dynamic clients who expect higher yields and are willing to take the associated risk. The fund's objective is to provide long-term capital growth consisting of a combination of interest income, capital appreciation and currency gains. The fund invests primarily in government bonds, bonds of companies related to the state or, to a lesser extent, corporate bonds located in developing or emerging countries. When building the investment portfolio, the fund takes into account strict environmental and social management criteria, known as the ESG strategy. The fund pays a semi-annual coupon to the client's account. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/14518120/mmb-ft-tembf-report.pdf",
@@ -6286,7 +6971,7 @@
                 },
                 {
                     "isin": "LU2111945700",
-                    "featuredName": "Fidelity Sustainable Climate Bond \uD83C\uDF33",
+                    "featuredName": "Fidelity Climate Transition Bond Fund \uD83C\uDF33",
                     "detail": "Fund is a bond fund suitable for dynamic clients, who can invest their available financial reserves for at least 3 years. The fund primarily invests in corporate bonds from around the world. The fund uses a sustainability strategy and actively selects securities from issuers seeking to reduce carbon emissions. At least 70% will be invested into securities, which have sustainable properties. Sustainable properties are ones that are effective and more efficient solutions to environmental and social issues, the so-called ESG strategy. The fund will aim to achieve lower levels of carbon dioxide emissions compared to the wider market. Furthermore, the fund can invest into bond of issuers that exhibit improving sustainability. The fund invests worldwide and may therefore invest in countries that can be considered as emerging markets. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/16241048/mmb-ff-srcbf-report.pdf",
@@ -6371,7 +7056,7 @@
                 },
                 {
                     "isin": "CZ0008475928",
-                    "featuredName": "Generali Real Estate Fund",
+                    "featuredName": "Generali Fond realit",
                     "detail": "Generali Real Estate Fund invests primarily in real estate in the Czech Republic and the European Union. In the Czech Republic, it makes investments in the form of acquisitions of participations in real estate companies in Prague and major regional cities. The fund focuses on investments in apartment buildings, shopping centers, office buildings and other real estate. Investing in the fund should not form a substantial part of the investor's portfolio, but is suitable for investors who want to enrich their core investment portfolio with investments in real estate assets through investments in the fund. The recommended minimum horizon is 5 years.",
                     "sellFeeValue": "0",
                     "info": "The fund is not suited for clients who could suffer considerable financial distress in case of loss, plan to invest for less than 3 years and for clients who have basic knowledge and experience.",
@@ -6461,7 +7146,7 @@
                 },
                 {
                     "isin": "LU2223384681",
-                    "featuredName": "East Capital Global Emerging Markets Sustainable \uD83C\uDF33",
+                    "featuredName": "East Capital Global Emerging Markets Sustainable CZK \uD83C\uDF33",
                     "detail": "The East Capital Global Emerging Markets Sustainable Fund is an equity fund suitable for very dynamic customers who can invest their available funds over a period of 10 years or more. The fund aims to ensure long-term capital growth through investments in companies in emerging markets. In these regions, the fund focuses on companies managing the risks of sustainable development or companies which contribute to sustainable development. The ESG strategy, ie the monitoring of environmental, social and administrative factors within the investment strategy, forms an integral part of the investment process. The fund currency is CZK.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/16758341/mmb-ec-gems-czk-report.pdf",
@@ -6635,6 +7320,7 @@
                 },
                 {
                     "isin": "CZ0008474665",
+                    "featuredName": "UNIQA Small Cap Portfolio",
                     "detail": "The fund invests in securities of companies with small and possibly medium market capitalization (small & mid caps market capitalization range is most commonly CZK 250 million - CZK 5 billion). The aim of the Fund is to achieve the highest possible long-term capital appreciation by investing at least two thirds of its assets in shares of companies with small and possibly medium market capitalization. The fund is managed by UNIQA Investment Company, which is part of the Austrian UNIQA Group.  In total, UNIQA Investment Company manages assets worth over CZK 80 billion.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/17291045/mmb-uniqa-scp-report.pdf",
@@ -6813,7 +7499,7 @@
                 },
                 {
                     "isin": "LU2368120650",
-                    "featuredName": "Espiria 30 \uD83C\uDFC6",
+                    "featuredName": "Espiria 30 CZK \uD83C\uDFC6",
                     "detail": "This is a mixed fund suitable for conservative clients who can invest their available funds for at least 2 years. The fund invests approximately 65% of its portfolio in Nordic fixed income corporate bonds and approximately 35% of its portfolio in global equities. The distribution of the portfolio is actively managed. The principles of ESG and sustainability are an integral part of the investment process. The fund seeks to create long-term value by investing according to structural trends driven by innovation and solutions, with a focus on companies with high growth and / or profitability. Currency risk is hedged against the fund's base currency.",
                     "sellFeeValue": "0",
                     "featured": true,
@@ -6895,7 +7581,7 @@
                 },
                 {
                     "isin": "IE00011P34T6",
-                    "featuredName": "Generali Stable Growth Fund",
+                    "featuredName": "Generali Fond stabilního růstu",
                     "detail": "The fund invests in global equities with a significant market position, a comparative advantage over its competitors, and a strong global brand. The fund pays its shareholders in the form of dividends after the end of January. The fund is suitable for very dynamic clients who are willing to accept high volatility of investments and are looking for the potential for higher capital appreciation. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "featured": true,
@@ -6977,7 +7663,7 @@
                 },
                 {
                     "isin": "LU2382294135",
-                    "featuredName": "Invesco Global Total Return Bond",
+                    "featuredName": "Invesco Global Total Return Bond Fund",
                     "detail": "The fund invests in high-quality government or corporate debt instruments worldwide. In the portfolio you will find US or German bonds and additionally Unicredit or Tesla bonds. The goal of the fund is to achieve a positive fund appreciation through a flexible investment strategy, where the portfolio manager can respond quickly to changes in the markets. The fund is suitable for conservative clients who are willing to accept lower investment volatility and expect a lower appreciation at approximately the inflation level over the three-year horizon. The fund is actively managed and the currency risk against the base currency of the fund is hedged.",
                     "sellFeeValue": "0",
                     "featured": false,
@@ -7149,7 +7835,7 @@
                 },
                 {
                     "isin": "LU2382294218",
-                    "featuredName": "Invesco Developing Initiatives Bond",
+                    "featuredName": "Invesco Developing Initiatives Bond Fund",
                     "detail": "The fund continues its strategy of investing in debt instruments of developing countries, both sovereign and corporate. At the same time, the fund expanded its investment objective and policy so that it could better use other investment opportunities arising as a result of changes in the market environment. The fund will thus also focus on individual countries/regions, regional partnerships and cooperation between developing markets and developed markets. The theme of global connectivity continues to be one of the development strategies, aiming to promote land and sea connectivity between Asia, Europe, the Middle East, Africa and their adjacent seas. The effort is to create and strengthen economic partnerships and cooperation not only in these regions. The fund invests in countries such as China, Indonesia, India or the United Arab Emirates. The fund is actively managed and the currency risk against the base currency of the fund is hedged.",
                     "info": "This fund is a rebranded original Invesco Belt and Road Debt Fund, which is now under the new name Invesco Developing Initiatives Bond. The new name thus corresponds to the fund's new strategy, which also aims to focus on individual countries and regions of emerging markets and cooperation with developed markets.",
                     "sellFeeValue": "0",
@@ -7236,7 +7922,7 @@
                 },
                 {
                     "isin": "CZ0008476124",
-                    "featuredName": "Generali Secured Equity Fund",
+                    "featuredName": "Generali Zajištěný fond akciového výnosu",
                     "detail": "The fund guarantees return on the invested amount on the maturity date. This is ensured through investments in government bonds of the Czech Republic and through a 20% investment in the Generali Corporate Bond. The fund seeks to appreciate up to 24% above the hedged value over its duration by investing in shares of selected strong euro area companies with long-term high dividend yields. The fund participates in the performance of companies such as Ahold, Volkswagen, and Siemens. Currency risk is hedged. The fund is suitable for conservative investors who can invest their funds for 4 years and 2 months and are looking for a return above the level of inflation. The fund has a fixed duration until June 30, 2026. The fund can only be purchased at our branches. The current value of the fund's unit certificate is determined monthly at the end of each month. In the case of sale of unit certificates before maturity, an exit fee is charged.",
                     "sellFeeValue": "0",
                     "featured": false,
@@ -7318,7 +8004,7 @@
                 },
                 {
                     "isin": "CZ0008477270",
-                    "featuredName": "Generali Secured Equity Fund 2.0",
+                    "featuredName": "Generali Zajištěný fond akciového výnosu 2",
                     "detail": "The fund ensures the return of the invested amount on the maturity date. You use the growth potential of the European stock index of selected stable companies with low volatility, while considering the criteria of responsible investing. The favorable development of the selected European stock index STOXX Europe ESG Leaders Select 30 Index works in your favor, while a possible drop will not put your investment at risk in any way. The investment strategy is based on investing in the shares of selected strong European companies such as E-on, GSK or Telefónica, which have a long-term high dividend yield and low volatility. At the same time, the selected stocks meet the ESG criteria. The index is diversified by regions and sectors. The fund is hedged against currency risk and has a fixed maturity date on 28/02/2027. It is suitable for conservative investors who can deposit their spare finances for 4 years and 4 months and are looking for a return above the level of inflation. The current value of the fund's share certificate is determined monthly always at the end of the month. An exit fee is charged in case of sale of units before maturity.",
                     "sellFeeValue": "5",
                     "featured": false,
@@ -7551,6 +8237,502 @@
                 }
             ]
         },
+        "intro": {
+            "clientProfile": "Investment Profile",
+            "introTitle": "Do you want to investbut\ndon't know in what?",
+            "introDescription": "Together we'll find suitable investments and show you how to get started.",
+            "introAdvisoryButton": "Which fund is the right one for me?",
+            "introAdvisoryDescription": "Try investment advisory",
+            "introOr": "I already know what",
+            "introInvestments": "Mutual Funds",
+            "introDIP": "LTIP",
+            "listTitle": "What type of investment are you interested in?",
+            "tabInvestments": "Mutual Funds",
+            "tabDIP": "Long-Term Investment Product"
+        },
+        "aggregationInvestOpportunities": {
+            "title": "Invest",
+            "cardTitle": "Are you looking for new investment opportunities?",
+            "cardDetail": "See what other investments are right for you.",
+            "opportunitiesTitle": "What portfolio do you want to buy into?",
+            "tabInvestments": "Mutual Funds",
+            "tabDIP": "Long-Term Investment Product",
+            "tabAdvisory": "Funds from Investment Advisory",
+            "lessSuitableTitle": "Funds less suitable for you",
+            "advisoryCardButton": "Which fund is the right one for me?",
+            "advisoryCardDescription": "Try investment advisory"
+        },
+        "aggregationInvestedDashboard": {
+            "clientProfile": "Investment Profile",
+            "totalTitle": "Celková hodnota investic",
+            "investButton": "Investovat",
+            "sellButton": "Prodat",
+            "moreButton": "Další",
+            "sellInProgress": "Zpracováváme prodej",
+            "buyInProgress": "Zpracováváme nákup",
+            "funds": {
+                "title": "Podílové fondy",
+                "noProductNote": "Ať peníze pracují za vás",
+                "noProductBullets": [
+                    {
+                        "title": "Jednorázové i pravidelné investice",
+                        "detail": "Na výběr máte více než 40 renomovaných investičních produktů z celého světa."
+                    },
+                    {
+                        "title": "Začít můžete i s malými částkami",
+                        "detail": "Investovat můžete už od 500 Kč."
+                    }
+                ],
+                "noProductActionBullet": {
+                    "icon": "chartLineUpFill",
+                    "title": "Chci zhodnotit mé peníze",
+                    "action": "INVESTMENT"
+                }
+            },
+            "dip": {
+                "title": "Dlouhodobý inv. produkt (DIP)",
+                "noProductNote": "Co si v mládí ušetříte,\nve stáří jako když najdete",
+                "noProductBullets": [
+                    {
+                        "title": "Uložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
+                        "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spoření v rámci DIP."
+                    },
+                    {
+                        "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou 3,5 % ročně",
+                        "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+                    }
+                ],
+                "noProductActionBullet": {
+                    "icon": "chartLineUpFill",
+                    "title": "Chci zhodnotit své peníze",
+                    "action": "DIPINVESTMENT"
+                },
+                "notInvestedBullets": [
+                    {
+                        "icon": "savingsFill",
+                        "title": "Spořicí účet DIP",
+                        "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+                        "value": "{dipAccountAmount}",
+                        "action": "DIP_ACCOUNT"
+                    },
+                    {
+                        "icon": "pocketMoneyFill",
+                        "title": "<sb>Investujte a využijte DIP na maximum</sb>",
+                        "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa.",
+                        "action": "DIPINVESTMENT"
+                    }
+                ],
+                "investedAdditionalBullets": [
+                    {
+                        "icon": "savingsFill",
+                        "title": "Spořicí účet DIP",
+                        "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+                        "value": "{dipAccountAmount}",
+                        "action": "DIP_ACCOUNT"
+                    }
+                ],
+                "dipEmptyAccountNote": "<error600>Zatím jste nevložili žádné peníze.</error600>",
+                "dipEmptyAccountBullets": [
+                    {
+                        "icon": "walletArrowInFill",
+                        "title": "<sb>Vložte peníze na Spořicí účet DIP</sb>",
+                        "detail": "Investovat do fondů můžete už od 500 Kč.",
+                        "action": "DIP_DEPOSIT"
+                    }
+                ],
+                "dipNotInvestedNote": "<error600>Nezainvestováno</error600>"
+            },
+            "advisory": {
+                "title": "Fondy z investičního poradenství",
+                "noProductNote": "Jaký fond je pro mě ten pravý?",
+                "noProductBullets": [
+                    {
+                        "title": "Fondy pro vás na míru",
+                        "detail": "Vhodné investice vybereme na základě vašich potřeb"
+                    },
+                    {
+                        "title": "Diverzifikaci vyřešíme za vás",
+                        "detail": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+                    }
+                ],
+                "noProductActionBullet": {
+                    "icon": "starsAltFill",
+                    "title": "Poraďte mi s investicí",
+                    "action": "INVESTMENT_ADVISORY_PROMO"
+                },
+                "investedAdditionalBullets": [
+                    {
+                        "icon": "starsAltFill",
+                        "title": "Poraďte mi s investicí",
+                        "action": "INVESTMENT_ADVISORY_PROMO"
+                    }
+                ]
+            },
+            "sellSheet": {
+                "portfolioTitle": "Z jakého portfolia chcete prodávat?",
+                "productTitle": "Jaký investiční produkt chcete prodat?",
+                "funds": "Investice",
+                "advisory": "Fondy z investičnoho poradenství",
+                "dip": "Dlouhodobý investiční produkt"
+            }
+        },
+        "advisoryFund": {
+            "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
+            "funds": [
+                {
+                    "isin": "IE000PM12TN1",
+                    "name": "Moneta Opatrný 10",
+                    "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-1-opatrny",
+                    "nameShort": "Opatrný 10",
+                    "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 2 roky.",
+                    "composition": {
+                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "values": [
+                            {
+                                "label": "Akcie",
+                                "value": 12.5,
+                                "color": "#0E73D1"
+                            },
+                            {
+                                "label": "Dluhopisy a peněžní trh",
+                                "value": 87.5,
+                                "color": "#5CBBFC"
+                            }
+                        ]
+                    },
+                    "more": "Více o fondu",
+                    "moreSheetValues": {
+                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 2 roky.",
+                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují nižší míru investičního rizika, jsou schopni akceptovat pouze krátkodobé ztráty a plánují držet investici alespoň 2 roky.",
+                        "strategyBullets": [
+                            {
+                                "icon": "interestFill",
+                                "title": "Fond rozkládá svou investiční strategii z 87,5 % mezi státní a firemní dluhopisy a investice do akcií, kterých je v portfoliu 12,5 %."
+                            },
+                            {
+                                "icon": "extraFill",
+                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                            },
+                            {
+                                "icon": "flexicreditFill",
+                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000VHJLW78",
+                    "name": "Moneta Konzervativní 25",
+                    "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-2-konzervativni",
+                    "nameShort": "Konzervativní 25",
+                    "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
+                    "composition": {
+                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "values": [
+                            {
+                                "label": "Akcie",
+                                "value": 25.0,
+                                "color": "#0E73D1"
+                            },
+                            {
+                                "label": "Dluhopisy a peněžní trh",
+                                "value": 75.0,
+                                "color": "#5CBBFC"
+                            }
+                        ]
+                    },
+                    "more": "Více o fondu",
+                    "moreSheetValues": {
+                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
+                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují nižší míru investičního rizika, jsou schopni akceptovat pouze krátkodobé ztráty a plánují držet investici alespoň 3 roky.",
+                        "strategyBullets": [
+                            {
+                                "icon": "interestFill",
+                                "title": "Fond rozkládá svou investiční strategii z 75 % mezi státní a firemní dluhopisy a investice do akcií, kterých je v portfoliu 12,5 %."
+                            },
+                            {
+                                "icon": "extraFill",
+                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                            },
+                            {
+                                "icon": "flexicreditFill",
+                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000N6PPGB0",
+                    "name": "Moneta Vyvážený 50",
+                    "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-3-vyvazeny",
+                    "nameShort": "Vyvážený 50",
+                    "detail": "Tento fond jsme vybrali, protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
+                    "composition": {
+                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "values": [
+                            {
+                                "label": "Akcie",
+                                "value": 50.0,
+                                "color": "#0E73D1"
+                            },
+                            {
+                                "label": "Dluhopisy a peněžní trh",
+                                "value": 50.0,
+                                "color": "#5CBBFC"
+                            }
+                        ]
+                    },
+                    "more": "Více o fondu",
+                    "moreSheetValues": {
+                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
+                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují střední míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 4 roky.",
+                        "strategyBullets": [
+                            {
+                                "icon": "interestFill",
+                                "title": "Fond rovnoměrně rozkládá svou investiční strategii mezi státní a firemní dluhopisy a investice do akcií."
+                            },
+                            {
+                                "icon": "extraFill",
+                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                            },
+                            {
+                                "icon": "flexicreditFill",
+                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000HD0CWC2",
+                    "name": "Moneta Růstový 75",
+                    "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-4-rustovy",
+                    "nameShort": "Růstový 75",
+                    "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
+                    "composition": {
+                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "values": [
+                            {
+                                "label": "Akcie",
+                                "value": 75.0,
+                                "color": "#0E73D1"
+                            },
+                            {
+                                "label": "Dluhopisy a peněžní trh",
+                                "value": 25.0,
+                                "color": "#5CBBFC"
+                            }
+                        ]
+                    },
+                    "more": "Více o fondu",
+                    "moreSheetValues": {
+                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete vyšší riziko, s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
+                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují vyšší míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 5 let.",
+                        "strategyBullets": [
+                            {
+                                "icon": "interestFill",
+                                "title": "50-100 % portfolia fondu tvoří akcie doplněné o státní a firemní dluhopisy. // TODO asi špatně, nesedí %"
+                            },
+                            {
+                                "icon": "extraFill",
+                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                            },
+                            {
+                                "icon": "flexicreditFill",
+                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "IE000YZM15Q6",
+                    "name": "Moneta Dynamický 100",
+                    "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-5-dynamicky",
+                    "nameShort": "Dynamický 100",
+                    "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
+                    "composition": {
+                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "values": [
+                            {
+                                "label": "Akcie",
+                                "value": 75.0,
+                                "color": "#0E73D1"
+                            },
+                            {
+                                "label": "Dluhopisy a peněžní trh",
+                                "value": 25.0,
+                                "color": "#5CBBFC"
+                            }
+                        ]
+                    },
+                    "more": "Více o fondu",
+                    "moreSheetValues": {
+                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete vyšší riziko, s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
+                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br>Doporučujeme ho klientům, kteří preferují vyšší míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 8 let.",
+                        "strategyBullets": [
+                            {
+                                "icon": "interestFill",
+                                "title": "75 % portfolia fondu tvoří akcie, zbylých 25 % je rozděleno mezi státní a firemní dluhopisy."
+                            },
+                            {
+                                "icon": "extraFill",
+                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                            },
+                            {
+                                "icon": "flexicreditFill",
+                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                            }
+                        ]
+                    }
+                }
+            ],
+            "moreSheet": {
+                "appropriateTitle": "Tento fond je pro Vás <success600>vhodný</success600>",
+                "inappropriateTitle": "Tento fond pro Vás <warning600>není vhodný</warning600>",
+                "recommended": "Doporučeno",
+                "tabs": [
+                    {
+                        "isin": "IE000PM12TN1",
+                        "name": "Opatrný 10"
+                    },
+                    {
+                        "isin": "IE000VHJLW78",
+                        "name": "Konzervativní 20"
+                    },
+                    {
+                        "isin": "IE000N6PPGB0",
+                        "name": "Vyvážený 50"
+                    },
+                    {
+                        "isin": "IE000HD0CWC2",
+                        "name": "Růstový 75"
+                    },
+                    {
+                        "isin": "IE000YZM15Q6",
+                        "name": "Dynamický 100"
+                    }
+                ],
+                "strategyTitle": "Strategie fondu",
+                "parameters": {
+                    "title": "Další parametry",
+                    "items": [
+                        {
+                            "title": "Měna",
+                            "value": "{currency}"
+                        },
+                        {
+                            "title": "Vstupní poplatek",
+                            "value": "{feePercent}"
+                        },
+                        {
+                            "title": "ISIN",
+                            "value": "{isin}"
+                        },
+                        {
+                            "title": "Rizikovost",
+                            "value": "{risk}"
+                        }
+                    ]
+                },
+                "primaryButton": "Souhlasím, chci investovat",
+                "secondaryButton": "Prohlédnout ostatní fondy",
+                "primaryButtonOther": "Zpět na doporučený",
+                "secondaryButtonPrevious": "Předchozí",
+                "secondaryButtonNext": "Další"
+            },
+            "parameters": {
+                "title": "Parametry investice",
+                "edit": "Upravit parametry",
+                "items": [
+                    {
+                        "title": "Výše investice",
+                        "value": "{amount}"
+                    },
+                    {
+                        "title": "Na dobu",
+                        "value": "{term}"
+                    },
+                    {
+                        "title": "Frekvence",
+                        "value": "{frequency}"
+                    },
+                    {
+                        "title": "Vstupní poplatek",
+                        "value": "{feePercent}",
+                        "subvalue": "{feeAmount}"
+                    }
+                ],
+                "term1": "year",
+                "term2": "years",
+                "term5": "years",
+                "frequencyOptions": [
+                    {
+                        "title": "Weekly",
+                        "value": "D7"
+                    },
+                    {
+                        "title": "Every 14 days",
+                        "value": "D14"
+                    },
+                    {
+                        "title": "Monthly",
+                        "value": "M1"
+                    },
+                    {
+                        "title": "One-time",
+                        "value": ""
+                    }
+                ],
+                "document": "Přečtěte si detailní informace o investičním produktu"
+            },
+            "agree": "I hereby confirm that I have read and understood  the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/vseobecne-produktove-podminky#investovani\" target=\"_blank\">Terms and Conditions of Investment Services</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Pricelist</a> and <a href=\"{URL_KIID}\" target=\"_blank\">Key information for investors</a>",
+            "agreeError": "Než budete pokračovat, seznamte se všemi dokumenty.",
+            "primaryButton": "Souhlasím, chci investovat",
+            "secondaryButton": "Nechci tuto investici",
+            "secondarySheet": {
+                "title": "Potřebujete větší výběr?\nProhlédněte si všechny naše podílové fondy",
+                "detail": "V detailu uvidíte, jak si vedly v předchozích letech.",
+                "primaryButton": "To mě zajímá",
+                "secondaryButton": "Nemám zájem"
+            }
+        },
+        "advisoryFailure": {
+            "title": "We are currently unable to recommend any fund based on your criteria",
+            "detail": "Please return to the investment screen and choose a mutual fund from our full range of offerings.",
+            "primaryButton": "Back to Investments",
+            "callUs": "Call<br>Helpline",
+            "branch": "Visit a<br>branch"
+        },
+        "advisoryContract": {
+            "title": "Přečtěte si smlouvu s parametry produktu",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+            "primaryButton": "Pokračovat",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "advisoryReport": {
+            "title": "Přečtěte si zápis o investičním doporučení",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+            "primaryButton": "Rozumím, pokračovat k podpisu",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "advisoryDisagree": {
+            "title": "Bez souhlasu to bohužel nepůjde...",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám<br>na infolinku",
+            "branch": "Naštivte nás<br>na pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "advisorySign": {
+            "title": "Odeslání prostředků do fondu potvrďte PINem"
+        },
+        "advisoryVictory": {
+            "title": "Hotovo!<br>Gratulujeme k vaší investici",
+            "detail": "Zpracování investice nám obvykle zabere 2-3 pracovní dny a hned poté ji uvidíte ve své Smart Bance.",
+            "tip": "Tip: naši nejúspěšnější investoři nejčastěji investují pravidelně, zkuste to taky.",
+            "primaryButtonOneTime": "Zadat pravidelnou investici",
+            "primaryButtonRegular": "Zadat další investici",
+            "secondaryButton": "Zpět na Přehled"
+        },
         "list": {
             "investmentTitle": "Investments {0}",
             "dipTitle": "Long-Term Investment Product {0}",
@@ -7558,6 +8740,7 @@
             "dipActionButtonAccessibility": "Deposit funds",
             "tabMyPortfolio": "My portfolio",
             "tabInvestmentOpportunities": "Investment opportunities",
+            "tabAdvisoryPromo": "Invest",
             "emptyPortfolio": {
                 "noInvestments": "Not invested",
                 "showFunds": "Show funds",
@@ -7676,6 +8859,29 @@
                 "actionType": "APPPAGE",
                 "actionData": "BRANCHESATMS"
             }
+        },
+        "advisoryPromo": {
+            "title": "Investment Advisory",
+            "detail": "Srozumitelně i pro ty, kteří nemají zkušenost s investováním.",
+            "bullets": [
+                {
+                    "icon": "investmentsFill",
+                    "title": "Vhodné investice najdeme společně."
+                },
+                {
+                    "icon": "businessFill",
+                    "title": "Spravovat je budou zkušení odborníci, kteří sledují trhy za vás."
+                },
+                {
+                    "icon": "tickFill",
+                    "title": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+                },
+                {
+                    "icon": "infoFill",
+                    "title": "Investiční příležitosti tvoří pečlivě vybrané fondy označené jako\nMONETA fondy."
+                }
+            ],
+            "primaryButton": "Pokračovat"
         },
         "notImplemented": {
             "title": "Smart Bank can't do this yet.<br/>Before we teach it, we'll be happy to help you at the branch.",
