@@ -20,3 +20,11 @@ To check without changing files:
 ```
 npm run format:check
 ```
+
+# SYNC from TST1
+
+It is good to sync text from tst1 to get the latest changes from the business. Just run sync and check if the changes are correct.
+
+```bash
+sh sync
+```
