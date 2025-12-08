@@ -1,329 +1,351 @@
 {
-    "status": "OK",
-    "responseObject": {
-        "scenes": {
-            "cardType": {
-                "variants": [
-                    {
-                        "type": "14100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Standard",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
+    "scenes": {
+        "cardType": {
+            "variants": [
+                {
+                    "type": "14100",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Standard",
+                        "color": "violet"
                     },
-                    {
-                        "type": "15100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Gold",
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        }
+                    ]
+                },
+                {
+                    "type": "15100",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Gold",
+                        "color": "gold"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "vacationFill",
+                            "title": "<a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\" target=\"_blank\">Cestovní pojištění Komfort</a>",
                             "color": "gold"
                         },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "vacationFill",
-                                "title": "<a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\" target=\"_blank\">Cestovní pojištění Komfort</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "icon": "electronicsFill",
-                                "title": "<a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "icon": "planeDepartureFill",
-                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
-                                "color": "gold"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "16100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "17100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business Premium",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "title": "Sjednání plně online",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
-                                "color": "gold"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "99300",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "EUR",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "99400",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business EUR",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "88300",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "USD",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "88400",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business USD",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    }
-                ]
-            },
-            "cardTech": {
-                "tech": {
-                    "options": [
                         {
-                            "technology": "VIRTUAL",
-                            "image": "mobileFill"
+                            "icon": "electronicsFill",
+                            "title": "<a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                            "color": "gold"
                         },
                         {
-                            "technology": "PLASTIC",
-                            "image": "cardFill"
+                            "icon": "planeDepartureFill",
+                            "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                            "color": "gold"
+                        }
+                    ]
+                },
+                {
+                    "type": "16100",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Business",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        }
+                    ]
+                },
+                {
+                    "type": "17100",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Business Premium",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "title": "Sjednání plně online",
+                            "color": "gold"
+                        },
+                        {
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "gold"
+                        },
+                        {
+                            "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                            "color": "gold"
+                        },
+                        {
+                            "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                            "color": "gold"
+                        },
+                        {
+                            "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                            "color": "gold"
+                        }
+                    ]
+                },
+                {
+                    "type": "99300",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "EUR",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        }
+                    ]
+                },
+                {
+                    "type": "99400",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Business EUR",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        }
+                    ]
+                },
+                {
+                    "type": "88300",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "USD",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
+                        }
+                    ]
+                },
+                {
+                    "type": "88400",
+                    "title": {
+                        "label": "Debetní karta",
+                        "type": "Business USD",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmFill",
+                            "title": "Výběry z bankomatů zdarma",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "Kartou můžete platit ihned po sjednání",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "U karty si můžete zvolit design",
+                            "color": "primary"
                         }
                     ]
                 }
-            },
-            "cardDesign": {
-                "designs": [
+            ]
+        },
+        "cardTech": {
+            "tech": {
+                "options": [
                     {
-                        "value": "CA141D0001",
-                        "title": "MONETA - Standard"
+                        "technology": "VIRTUAL",
+                        "image": "mobileFill"
                     },
                     {
-                        "value": "CA141D0020",
-                        "title": "MONETA - Plavání"
-                    },
-                    {
-                        "value": "CA141D0021",
-                        "title": "MONETA - Cyklistika"
-                    },
-                    {
-                        "value": "CA141D0022",
-                        "title": "MONETA - Tenis"
-                    },
-                    {
-                        "title": "MONETA - Beach volejbal",
-                        "value": "CA141D0023"
-                    },
-                    {
-                        "value": "CA141D0003",
-                        "title": "MONETA - Pride"
-                    },
-                    {
-                        "value": "CA141D0005",
-                        "title": "MONETA - Praha"
-                    },
-                    {
-                        "title": "MONETA - Středočeský kraj",
-                        "value": "CA141D0006"
-                    },
-                    {
-                        "title": "MONETA - Jihočeský kraj",
-                        "value": "CA141D0007"
-                    },
-                    {
-                        "title": "MONETA - Plzeňský kraj",
-                        "value": "CA141D0008"
-                    },
-                    {
-                        "title": "MONETA - Karlovarský kraj",
-                        "value": "CA141D0009"
-                    },
-                    {
-                        "title": "MONETA - Ústecký kraj",
-                        "value": "CA141D0010"
-                    },
-                    {
-                        "title": "MONETA - Liberecký kraj",
-                        "value": "CA141D0011"
-                    },
-                    {
-                        "title": "MONETA - Královéhradecký kraj",
-                        "value": "CA141D0012"
-                    },
-                    {
-                        "title": "MONETA - Pardubický kraj",
-                        "value": "CA141D0013"
-                    },
-                    {
-                        "title": "MONETA - Kraj Vysočina",
-                        "value": "CA141D0014"
-                    },
-                    {
-                        "title": "MONETA - Jihomoravský kraj",
-                        "value": "CA141D0015"
-                    },
-                    {
-                        "title": "MONETA - Zlínský kraj",
-                        "value": "CA141D0016"
-                    },
-                    {
-                        "title": "MONETA - Olomoucký kraj",
-                        "value": "CA141D0017"
-                    },
-                    {
-                        "title": "MONETA - Moravskoslezský kraj",
-                        "value": "CA141D0018"
+                        "technology": "PLASTIC",
+                        "image": "cardFill"
                     }
                 ]
             }
+        },
+        "cardDesign": {
+            "designs": [
+                {
+                    "value": "CA141D0001",
+                    "title": "MONETA - Standard"
+                },
+                {
+                    "value": "CA141D0020",
+                    "title": "MONETA - Plavání"
+                },
+                {
+                    "value": "CA141D0021",
+                    "title": "MONETA - Cyklistika"
+                },
+                {
+                    "value": "CA141D0022",
+                    "title": "MONETA - Tenis"
+                },
+                {
+                    "title": "MONETA - Beach volejbal",
+                    "value": "CA141D0023"
+                },
+                {
+                    "value": "CA141D0003",
+                    "title": "MONETA - Pride"
+                },
+                {
+                    "value": "CA141D0005",
+                    "title": "MONETA - Praha"
+                },
+                {
+                    "title": "MONETA - Středočeský kraj",
+                    "value": "CA141D0006"
+                },
+                {
+                    "title": "MONETA - Jihočeský kraj",
+                    "value": "CA141D0007"
+                },
+                {
+                    "title": "MONETA - Plzeňský kraj",
+                    "value": "CA141D0008"
+                },
+                {
+                    "title": "MONETA - Karlovarský kraj",
+                    "value": "CA141D0009"
+                },
+                {
+                    "title": "MONETA - Ústecký kraj",
+                    "value": "CA141D0010"
+                },
+                {
+                    "title": "MONETA - Liberecký kraj",
+                    "value": "CA141D0011"
+                },
+                {
+                    "title": "MONETA - Královéhradecký kraj",
+                    "value": "CA141D0012"
+                },
+                {
+                    "title": "MONETA - Pardubický kraj",
+                    "value": "CA141D0013"
+                },
+                {
+                    "title": "MONETA - Kraj Vysočina",
+                    "value": "CA141D0014"
+                },
+                {
+                    "title": "MONETA - Jihomoravský kraj",
+                    "value": "CA141D0015"
+                },
+                {
+                    "title": "MONETA - Zlínský kraj",
+                    "value": "CA141D0016"
+                },
+                {
+                    "title": "MONETA - Olomoucký kraj",
+                    "value": "CA141D0017"
+                },
+                {
+                    "title": "MONETA - Moravskoslezský kraj",
+                    "value": "CA141D0018"
+                }
+            ]
         }
+    },
+    "summary": {
+        "title": "Shrnutí",
+        "name": "Jméno držitele",
+        "email": "E-mail",
+        "birthDate": "Datum narození",
+        "cardType": "Typ karty",
+        "cardTypeFree": "ZDARMA",
+        "cardVariants": [
+            {
+                "title": "Plastová",
+                "value": "PLASTIC"
+            },
+            {
+                "title": "Virtuální",
+                "value": "VIRTUAL"
+            }
+        ],
+        "account": "Pro účet",
+        "internetMoto": "Internetové a MO/TO platby",
+        "3dSec": "Číslo pro 3D Secure",
+        "limitPos": "Platby v obchodech",
+        "limitAtm": "Výběry z bankomatu",
+        "limitInternet": "Platby na internetu",
+        "primaryButton": "Pokračovat"
     }
 }
