@@ -322,6 +322,43 @@
                 }
             ]
         },
+        "holderType": {
+            "title": "Kdo bude mít novou kartu?",
+            "options": [
+                {
+                    "type": "SELF",
+                    "title": "Já",
+                    "icon": "userFill"
+                },
+                {
+                    "type": "EXIST",
+                    "title": "Stávající uživatel",
+                    "icon": "usersFill"
+                },
+                {
+                    "type": "OTHER",
+                    "title": "Někdo jiný",
+                    "description": "Držitel karty ověří svoji totožnost přes Smart Banku na svém telefonu",
+                    "icon": "plusFill"
+                },
+            ],
+            "roles": [
+                {
+                    "title": "Držitel",
+                    "value": "HOLDER"
+                },
+                {
+                    "title": "eDisponent",
+                    "value": "EDISPONENT"
+                }
+            ],
+            "tooManyCards": "K tomuto účtu můžete mít pouze jednu plastovou a jednu virtuální kartu. A ty už máte.",
+            "branch": "Online to nepůjde. Zastavte se prosím za námi na pobočce, kde vám platební kartu rádi založíme.",
+            "user": "Vyberte uživatele",
+            "account": "K účtu",
+            "primaryButton": "Pokračovat"
+
+        },
         "summary": {
             "title": "Shrnutí",
             "name": "Jméno držitele",
