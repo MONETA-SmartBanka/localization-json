@@ -356,6 +356,23 @@
             "branch": "Online to nepůjde. Zastavte se prosím za námi na pobočce, kde vám platební kartu rádi založíme.",
             "user": "Vyberte uživatele",
             "account": "K účtu",
+            "card": "Ke smlouvě",
+            "primaryButton": "Pokračovat"
+        },
+        "holderDetailSelf": {
+            "title": "Vaše kontaktní údaje",
+            "email": "E-mail",
+            "info": "Nejsou kontaktní údaje správně? Změňte je v sekci O mně v Nastavení.",
+            "primaryButton": "Pokračovat"
+        },
+        "holderDetail": {
+            "title": "Kontakt na držitele nové karty",
+            "detail": "Slouží pouze pro odeslání pozvánky k ověření",
+            "firstName": "Jméno",
+            "lastName": "Přijmení",
+            "birthDate": "Datum narození",
+            "citizenship": "Občanství",
+            "email": "E-mail",
             "primaryButton": "Pokračovat"
         },
         "summary": {
@@ -382,6 +399,24 @@
             "limitAtm": "Výběry z bankomatu",
             "limitInternet": "Platby na internetu",
             "primaryButton": "Pokračovat"
+        }
+    },
+    "errorScreens": {
+        "nonResident": {
+            "title": "Pojďme to vyřešit na pobočce",
+            "detail": "Pokud držitel nemá české občanství, zastavte se společně na naší pobočce, kde žádost o novou kartu vyřešíme.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "underAge": {
+            "title": "Držitel karty musí mít alespoň 18 let",
+            "detail": "Zkontrolujte prosím jeho datum narození, nebo ukončete žádost.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět na údaje o držiteli",
+            "secondaryButton": "Ukončit žádost"
         }
     }
 }
