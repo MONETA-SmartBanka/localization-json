@@ -213,6 +213,15 @@
                         "actionType": "CLOSE",
                         "actionLabelText": " Nesouhlasím, zrušit platbu"
                     }
+                },
+                "blacklist": {
+                    "victoryKind": "failure",
+                    "title": "Něco se pokazilo.\nPlatba nebyla odeslána",
+                    "detail": "Pokud si přejete platbu odeslat, zavolejte nám na <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Zpět na přehled"
+                    }
                 }
             },
             "fx": {
