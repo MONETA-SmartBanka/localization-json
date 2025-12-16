@@ -1,6 +1,37 @@
 {
     "scenes": {
         "cardType": {
+            "title": "Jakou kartu zvolíte?",
+            "footer": "Více informací o poplatcích za plastové karty najdete v našem <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">sazebníku.</a>",
+            "cardTechOptions": [
+                {
+                    "type": "PLASTIC",
+                    "text": "Klasická plastová karta",
+                    "icon": "cardFill"
+                },
+                {
+                    "type": "VIRTUAL",
+                    "text": "Virtuální karta",
+                    "icon": "card"
+                },
+                {
+                    "type": "BOTH",
+                    "text": "Plastová nebo virtuální karta",
+                    "icon": "cardFill"
+                }
+            ],
+            "variantDetail": {
+                "title": "Varianty platebních karet",
+                "virtualTitle": "Virtuální karta",
+                "virtualDescription": "Pro placení a výběry si ji můžete přidat do mobilu hned po sjednání. Více informací o virtuálních kartách najdete na <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">našem webu.</a>",
+                "virtualMessage": "Pro nastavení karty, zobrazení PINu a čísla karty je třeba mít aktivní Smart Banku.",
+                "plasticTitle": "Plastová karta",
+                "plasticDescription": "Fyzická karta, kterou dobře znáte. Do mobilu si ji můžete přidat také."
+            },
+            "virtualButtonFree": "Chci virtuální ZDARMA",
+            "virtualButton": "Chci virtuální za {0} měsíčně",
+            "plasticButtonFree": "Chci virtuální ZDARMA",
+            "plasticButton": "Chci plastovou za {0} měsíčně",
             "variants": [
                 {
                     "type": "14100",
@@ -23,7 +54,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 },
@@ -48,21 +80,25 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         },
                         {
                             "icon": "vacationFill",
-                            "title": "<a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                            "title": "Cestovní pojištění Komfort",
+                            "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
                             "color": "gold"
                         },
                         {
                             "icon": "electronicsFill",
-                            "title": "<a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                            "title": "Pojištění cenností, karet, elektroniky a telefonu",
+                            "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
                             "color": "gold"
                         },
                         {
                             "icon": "planeDepartureFill",
-                            "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                            "title": "Bonusový program Priority Pass",
+                            "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold"
                         }
                     ]
@@ -88,7 +124,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 },
@@ -109,15 +146,18 @@
                             "color": "gold"
                         },
                         {
-                            "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
+                            "title": "Cestovní pojištění Komfort",
+                            "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
                             "color": "gold"
                         },
                         {
-                            "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
+                            "title": "Pojištění cenností, karet, elektroniky a telefonu",
+                            "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
                             "color": "gold"
                         },
                         {
-                            "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
+                            "title": "Bonusový program Priority Pass",
+                            "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold"
                         }
                     ]
@@ -143,7 +183,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 },
@@ -168,7 +209,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 },
@@ -193,7 +235,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 },
@@ -218,7 +261,8 @@
                         {
                             "icon": "card",
                             "title": "U karty si můžete zvolit design",
-                            "color": "primary"
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 }
