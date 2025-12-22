@@ -15,7 +15,8 @@
                     "actionData": "224 443 636",
                     "privateBankerPossible": true,
                     "actionLabelText": "Zavolat",
-                    "actionImageName": "contactsPhone"
+                    "actionImageName": "contactsPhone",
+                    "analyticsEvent": "contacts_call"
                 }
             ],
             "footer": "Když nám zavoláte ze Smart Banky, nemusíte se ověřovat."
@@ -28,7 +29,8 @@
                     "actionType": "PHONECALL",
                     "actionData": "224 443 636",
                     "privateBankerPossible": true,
-                    "actionLabelText": "Zákaznický servis"
+                    "actionLabelText": "Zákaznický servis",
+                    "analyticsEvent": "customer_service"
                 }
             ]
         },
@@ -38,7 +40,8 @@
                 {
                     "actionType": "PHONECALL",
                     "actionData": "224 445 959",
-                    "actionLabelText": "Potíže se splácením"
+                    "actionLabelText": "Potíže se splácením",
+                     "analyticsEvent": "contacts_difficultyWithRepayment"
                 }
             ]
         },
@@ -48,14 +51,16 @@
                 {
                     "actionType": "PHONECALL",
                     "actionData": "224 442 424",
-                    "actionLabelText": "Blokace produktů"
+                    "actionLabelText": "Blokace produktů",
+                    "analyticsEvent": "contacts_productBlock"
                 },
                 {
                     "actionType": "APPPAGE",
                     "actionData": "CARDSOVERVIEW",
                     "actionImageName": "cardBanFill",
                     "actionLabelText": "Zablokovat kartu online",
-                    "actionColor": "warning"
+                    "actionColor": "warning",
+                    "analyticsEvent": "contacts_blockCard"
                 }
             ]
         },
@@ -68,7 +73,8 @@
                     "actionImageName": "personAgentFill",
                     "actionLabelText": "Zablokovat bankovnictví",
                     "actionLabelSubtext": "Při podezření na zneužití účtu. Okamžitě a bez čekání na telefonní lince.",
-                    "actionColor": "warning"
+                    "actionColor": "warning",
+                    "analyticsEvent": "contacts_blockOnlineBanking"
                 }
             ]
         },
