@@ -15,7 +15,8 @@
                     "actionData": "224 443 636",
                     "privateBankerPossible": true,
                     "actionLabelText": "Call",
-                    "actionImageName": "contactsPhone"
+                    "actionImageName": "contactsPhone",
+                    "analyticsEvent": "contacts_call"
                 }
             ],
             "footer": "When you call us from Smart Banka, you don't need to authenticate"
@@ -28,7 +29,8 @@
                     "actionType": "PHONECALL",
                     "actionData": "224 443 636",
                     "privateBankerPossible": true,
-                    "actionLabelText": "Customer Service"
+                    "actionLabelText": "Customer Service",
+                    "analyticsEvent": "customer_service"
                 }
             ]
         },
@@ -38,7 +40,8 @@
                 {
                     "actionType": "PHONECALL",
                     "actionData": "224 445 959",
-                    "actionLabelText": "Difficulty with repayment"
+                    "actionLabelText": "Difficulty with repayment",
+                    "analyticsEvent": "contacts_difficultyWithRepayment"
                 }
             ]
         },
@@ -48,14 +51,16 @@
                 {
                     "actionType": "PHONECALL",
                     "actionData": "224 442 424",
-                    "actionLabelText": "Product block"
+                    "actionLabelText": "Product block",
+                    "analyticsEvent": "contacts_productBlock"
                 },
                 {
                     "actionType": "APPPAGE",
                     "actionData": "CARDSOVERVIEW",
                     "actionImageName": "cardBanFill",
                     "actionLabelText": "Block card online",
-                    "actionColor": "WARNING"
+                    "actionColor": "WARNING",
+                    "analyticsEvent": "contacts_blockCard"
                 }
             ]
         },
@@ -68,7 +73,8 @@
                     "actionImageName": "personAgentFill",
                     "actionLabelText": "Block access to online banking",
                     "actionLabelSubtext": "Immediately without waiting on hold.",
-                    "actionColor": "WARNING"
+                    "actionColor": "WARNING",
+                    "analyticsEvent": "contacts_blockOnlineBanking"
                 }
             ]
         },
