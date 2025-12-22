@@ -514,6 +514,51 @@
             "limitAtm": "Výběry z bankomatu",
             "limitInternet": "Platby na internetu",
             "primaryButton": "Pokračovat"
+        },
+        "invitation": {
+            "title": "Teď počkáme, až se nový držitel karty ověří",
+            "detail": "Na ověření má {0} a postup je následující:",
+            "bulletSections": [
+                {
+                    "title": "Nový držitel",
+                    "bullets": [
+                        {
+                            "title": "Obdrží e-mail s instrukcemi"
+                        },
+                        {
+                            "title": "Ověří svou totožnost ve Smart Bance",
+                            "info": {
+                                "title": "Ověření totožnosti ve Smart Bance ",
+                                "detail": "E-mail obsahuje instrukce, jak při ověření přes Smart Banku postupovat. Pokud ji držitel ještě nemá, obdrží informace o tom, jak si ji stáhnout a aktivovat."
+                            }
+                        },
+                        {
+                            "title": "Ověříme, zda má na kartu nárok"
+                        }
+                    ]
+                },
+                {
+                    "title": "Vy",
+                    "bullets": [
+                        {
+                            "title": "Obdržíte oznámení o výsledku ověření"
+                        },
+                        {
+                            "title": "Podepíšete smlouvu o kartě ve Smart Bance nebo Internet Bance"
+                        }
+                    ]
+                },
+                {
+                    "title": "Nový držitel",
+                    "bullets": [
+                        {
+                            "title": "Zobrazíme mu kartu ve Smart Bance a Internet Bance a po přidání do mobilu s ní může okamžitě platit",
+                            "description": "Pokud jste žádali o plastovou kartu, odešleme ji na uvedenou adresu."
+                        }
+                    ]
+                }
+            ],
+            "primaryButton": "Rozumím, zpět na Přehled"
         }
     },
     "errorScreens": {
