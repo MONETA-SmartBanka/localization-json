@@ -567,6 +567,36 @@
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět",
             "secondaryButton": "Ukončit žádost"
+        },
+        "loaderVictory": {
+            "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+            "detail": "Potrvá to jen chviličku."
+        },
+        "victory": {
+            "selfSign": {
+                "plastic": {
+                    "title": "Hotovo!\nPlastová karta už je na cestě",
+                    "detail": "Obvykle dorazí do 14 dní a už teď si ji můžete přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                },
+                "virtual": {
+                    "title": "Hotovo! S virtuální kartou můžete okamžitě platit",
+                    "detail": "Stačí si ji přidat do mobilu. Nový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                },
+                "primaryButton": "Zobrazit kartu",
+                "secondaryButton": "Přejít na Přehled"
+            },
+            "prepared": {
+                "plastic": {
+                    "title": "Máme skoro hotovo, zbývají už jen podpisy",
+                    "detail": "Až bude žádost podepsaná všemi schvalovateli, odešleme ji. Obvykle dorazí do 14 dní a už ten den bude možné přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě pak zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                },
+                "virtual": {
+                    "title": "Máme skoro hotovo, zbývají už jen podpisy",
+                    "detail": "Až bude žádost podepsaná všemi schvalovateli, bude možné ji přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě pak zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                },
+                "primaryButton": "Zpět na Přehled",
+                "secondaryButton": "Zobrazit průběh schvalování"
+            }
         }
     },
     "errorScreens": {
@@ -627,6 +657,11 @@
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět",
             "secondaryButton": "Ukončit žádost"
-        }
+        },
+        "waitingInvitation": {
+            "title": "Teď musíme vše zkontrolovat",
+            "detail": "Protože to může chvíli trvat, můžete se vrátit na Přehled. Až bude vše hotovo, pošleme vám SMS.",
+            "primaryButton": "Přejít na Přehled"
+        },
     }
 }
