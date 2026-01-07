@@ -2555,6 +2555,7 @@
         },
         "invest": {
             "title": "Invest from {0}",
+            "dipTitle": "Nákup ze Spořicího účtu DIP",
             "oneTime": "One-time investment",
             "regularInvestment": "Monthly investment",
             "regularInfo": "Starting today, your monthly investment is saved as a standing order which can be canceled or edited anytime.",
@@ -2569,7 +2570,8 @@
             "primaryButton": "Invest",
             "alertPrimaryButton": "Yes, continue anyway",
             "alertSecondaryButton": "Choose another fund",
-            "remainingBalance": "Remaining balance: {0}"
+            "remainingBalance": "Remaining balance: {0}",
+            "overBalanceDipError": "K provedení nákupu nemáte na Spořicím účtu DIP dostatek peněz."
         },
         "advisoryInvest": {
             "title": "How will you invest?",
@@ -2618,6 +2620,11 @@
             "title": "Congratulations on your investment!",
             "primaryButton": "Back to Investment Overview"
         },
+        "dipInvestVictory": {
+            "title": "Congratulations on your investment",
+            "description": "Zpracujeme ji zpravidla do 2 až 3 pracovních dnů.",
+            "primaryButton": "Přejít na Přehled DIP"
+        },
         "taxResidenceFail": {
             "title": "Oops, this won’t work",
             "detail": "Unfortunately, we are unable to process your tax residence within the application. Please visit one of our branches and we will be happy to find a suitable solution.",
@@ -2625,10 +2632,17 @@
             "secondaryButton": "Back to Balance Overview"
         },
         "sell": {
+            "payOutToAccount": "Vyplatit na účet",
             "sellShare": "Sell shares in value",
             "actualValue": "Current value",
             "sellFee": "Sale fee",
             "sellBlock": "Blocked",
+            "sellExact": "Sell ",
+            "sellAll": "Sell all",
+            "sellPieces": "Number of shares",
+            "sellShares": "{0} shares",
+            "availableBalance": "Disponibilní zůstatek",
+            "approximatePrice": "Přibližná cena: {0}",
             "sellAlert": "You are selling {{shares}} shares. As of today, their value amounts to  {{amount}}\u00a0{{currency}}. <b>V The final profit may differ as the sale will be processed within a couple following days for the current market value.</b>",
             "termAlert": "You are about to sell <b>considerably earlier</b>, than it is advised for the fund's investment horizon. It is likely that today's sale will be less profitable than selling at an advised date.",
             "primaryButton": "Sell"
@@ -2636,6 +2650,10 @@
         "sellVictory": {
             "title": "It's done. We sell the shares.",
             "primaryButton": "Show Investment Overview"
+        },
+        "dipSellVictory": {
+            "title": "Příkaz k prodeji zpracováváme.",
+            "primaryButton": "Zpět na Přehled DIP"
         },
         "funds": {
             "types": [
@@ -8964,10 +8982,23 @@
         "list": {
             "investmentTitle": "Investments {0}",
             "dipTitle": "Long-Term Investment Product {0}",
+            "dipTitleV2": {
+                "title": "Dlouhodobý investiční produkt",
+                "investmentReturn": "{0} • Zhodnocení investic"
+            },
+            "dipButtonGroupActions": {
+                "invest": "Investovat",
+                "addFunds": "Vložit peníze",
+                "statements": "Výpisy",
+                "more": "Další"
+            },
+            "fundDipAccount": "Vložit",
+            "investDipPortfolioButton": "Investovat",
             "investmentAdvisoryTitle": "Investment Advisory",
             "dipActionButtonAccessibility": "Deposit funds",
             "tabMyPortfolio": "My portfolio",
             "tabInvestmentOpportunities": "Investment opportunities",
+            "paymentDestinationDip": "Na váš účet DIP",
             "tabAdvisoryPromo": "Invest",
             "emptyPortfolio": {
                 "noInvestments": "Not invested",
@@ -9002,6 +9033,15 @@
                 ],
                 "footer": "See also funds in EUR. All you have to do is open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">EUR account for free</a>, and you can invest.",
                 "footerButton": "How do investments work?"
+            },
+            "moreBottomSheet": {
+                "invest": "Invest",
+                "withdrawFromDipAccount": "Vybrat ze Spořicího účtu DIP",
+                "payMe": "Pay me",
+                "receiptForEmployer": "Employer receipt",
+                "templates": "Payment templates",
+                "standingOrders": "Standing orders",
+                "paymentDestinationDip": "Na váš účet DIP"
             }
         },
         "detail": {
@@ -9042,6 +9082,7 @@
         },
         "detailSheet": {
             "actionPurchase": "Invest",
+            "actionPurchaseDip": "Koupit",
             "actionSell": "Sell",
             "actionDetail": "Detail",
             "actionTransactions": "History",
@@ -9054,7 +9095,14 @@
             "fundDescription": "Fund description",
             "detail": "{type}, {profile} for investments for {term} and more years.",
             "statementDIP": "long-term investment fund",
-            "statementInvestment": "mutual funds"
+            "statementInvestment": "mutual funds",
+            "standingOrders": "Standing orders"
+        },
+        "transactionHistory": {
+            "thisMonthTransactionGroupTitle": "This month",
+            "filterDirectionAll": "All",
+            "filterDirectionIncoming": "Incoming",
+            "filterDirectionOutgoing": "Outgoing"
         },
         "dipPromo": {
             "title": "Better Retirement with Long-Term Investment Product",
@@ -9120,6 +9168,54 @@
             "title": "You can transfer funds into LTIP from any account",
             "detail": "Unfortunately, we have not found any current account with Moneta from which you can deposit money do DIP.<br/>If you want, you can also send money from elsewhere. No variable symbol is needed, just send the payment to your LTIP savings account.",
             "primaryButton": "Understand"
+        },
+        "dipWithdrawal": {
+            "alert": {
+                "title": "Předčasným výběrem DIP přijdete o výhody",
+                "description": "Pokud ještě nespoříte 10 let a zároveň jste nedosáhl*a 60 let:",
+                "disadvantages1": {
+                    "title": "Ztratíte nárok na daňové výhody",
+                    "description": "Odečtené příspěvky z daňového základu budete muset doplatit."
+                },
+                "disadvantages2": {
+                    "title": "Budete muset zdanit příspěvky od zaměstnavatele",
+                    "description": "Při předčasném výběru jsou tyto částky považovány za příjem a podléhají zdanění."
+                },
+                "helpSection": {
+                    "title": "Máte nějaké otázky? Rádi vám poradíme",
+                    "callUs": "Zavolejte nám<br>na infolinku",
+                    "callUsNumber": "+420 224 449 397",
+                    "branch": "Naštivte nás<br>na pobočce"
+                },
+                "backButton": "Zpět",
+                "confirmButton": "Rozumím, přesto DIP vybrat"
+            },
+            "withdrawal": {
+                "title": "Výběr ze Spořicího účtu DIP",
+                "fromAccountName": "Vybrat z účtu DIP",
+                "toAccountName": "Na účet"
+            },
+            "busyLoader": {
+                "title": "Chvilku strpení, připravujeme vám smlouvu"
+            },
+            "agreement": {
+                "title": "Přečtěte si smlouvu o výběru ze Spoření DIP",
+                "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+                "confirmButton": "Rozumím a souhlasím",
+                "cancelButton": "Nesouhlasím"
+            },
+            "withdrawVictory": {
+                "title": "Hotovo! Peníze převedeme na zvolený účet",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "withdrawDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde...",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+                "callUs": "Zavolejte nám<br>na infolinku",
+                "branch": "Naštivte nás<br>na pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Ukončit výběr"
+            }
         }
     }
 }

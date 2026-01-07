@@ -231,7 +231,7 @@
             ],
             "helpTitle": "Nevíte si s něčím rady a potřebujete poradit?",
             "callUs": "Zavolejte nám<br>na infolinku",
-            "branch": "Naštivte nás<br>na pobočce"
+            "branch": "Navštivte nás<br>na pobočce"
         },
         "questionnaire": {
             "title": "Investovat odvážně, nebo opatrně?",
@@ -2526,6 +2526,7 @@
         },
         "invest": {
             "title": "Investovat z {0}",
+            "dipTitle": "Nákup ze Spořicího účtu DIP",
             "oneTime": "Jednorázově investovat",
             "regularInvestment": "Měsíčně investovat",
             "regularInfo": "Počínaje následujícím pracovním dnem. Pravidelnou investici Vám uložíme jako trvalý příkaz, který můžete kdykoli upravit či zrušit.",
@@ -2540,7 +2541,8 @@
             "primaryButton": "Investovat",
             "alertPrimaryButton": "Ano, přesto pokračovat",
             "alertSecondaryButton": "Vybrat jiný fond",
-            "remainingBalance": "Zůstane: {0}"
+            "remainingBalance": "Zůstane: {0}",
+            "overBalanceDipError": "K provedení nákupu nemáte na Spořicím účtu DIP dostatek peněz."
         },
         "advisoryInvest": {
             "title": "Jak budete investovat?",
@@ -2589,6 +2591,11 @@
             "title": "A je to. Investujete.",
             "primaryButton": "Zobrazit přehled investic"
         },
+        "dipInvestVictory": {
+            "title": "Gratulujeme k vaší investici",
+            "description": "Zpracujeme ji zpravidla do 2 až 3 pracovních dnů.",
+            "primaryButton": "Přejít na Přehled DIP"
+        },
         "taxResidenceFail": {
             "title": "Jejda, to nepůjde",
             "detail": "Přes aplikaci bohužel Vaši daňovou rezidenci neumíme zpracovat. Stavte se prosím na některé z našich poboček, kde spolu najdeme vhodné řešení.",
@@ -2596,11 +2603,17 @@
             "secondaryButton": "Zobrazit Přehled zůstatků"
         },
         "sell": {
+            "payOutToAccount": "Vyplatit na účet",
             "sellShare": "Prodat kusy v hodnotě",
             "actualValue": "Aktuální hodnota",
             "sellFee": "Poplatek při prodeji",
             "sellBlock": "Blokováno",
+            "sellExact": "Prodat v ",
+            "sellAll": "Prodat vše",
+            "sellPieces": "Počet kusů",
+            "sellShares": "{0} podílů",
             "availableBalance": "Disponibilní zůstatek",
+            "approximatePrice": "Přibližná cena: {0}",
             "sellAlert": "Prodáváte {{shares}} kusů. K dnešnímu dni jejich hodnota odpovídá {{amount}}\u00a0{{currency}}. <b>Při prodeji se ale může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
             "termAlert": "Chystáte se prodávat <b>dříve</b>, než doporučuje investiční horizont fondu. Je možné, že Váš dnešní prodej bude méně výhodný než prodej v doporučeném termínu. Pro více informací kontaktujte investičního specialistu ve vašem regionu.",
             "primaryButton": "Prodat"
@@ -2608,6 +2621,10 @@
         "sellVictory": {
             "title": "A je to. Podíly prodáme.",
             "primaryButton": "Zobrazit přehled investic"
+        },
+        "dipSellVictory": {
+            "title": "Příkaz k prodeji zpracováváme.",
+            "primaryButton": "Zpět na Přehled DIP"
         },
         "funds": {
             "types": [
@@ -8974,11 +8991,24 @@
         "list": {
             "investmentTitle": "Investice {0}",
             "dipTitle": "Dlouhodobý invest. produkt {0}",
+            "dipTitleV2": {
+                "title": "Dlouhodobý investiční produkt",
+                "investmentReturn": "{0} • Zhodnocení investic"
+            },
+            "dipButtonGroupActions": {
+                "invest": "Investovat",
+                "addFunds": "Vložit peníze",
+                "statements": "Výpisy",
+                "more": "Další"
+            },
+            "fundDipAccount": "Vložit",
+            "investDipPortfolioButton": "Investovat",
             "investmentAdvisoryTitle": "Investiční poradenství",
             "dipActionButtonAccessibility": "Vložit peníze",
             "tabMyPortfolio": "Moje portfolio",
             "tabInvestmentOpportunities": "Investiční příležitosti",
             "tabAdvisoryPromo": "Investovat",
+            "paymentDestinationDip": "Na váš účet DIP",
             "emptyPortfolio": {
                 "noInvestments": "Nezainvestováno",
                 "showFunds": "Zobrazit produkty",
@@ -9012,6 +9042,15 @@
                 ],
                 "footer": "Zobrazte si i fondy v EUR. Stačí, když si u nás na pár kliků založíte <a href=\"smartbanka://open?ACTION=APPPAGE&URL=FXMONEY\">eurový účet zdarma</a>, a můžete investovat.",
                 "footerButton": "Jak fungují investice?"
+            },
+            "moreBottomSheet": {
+                "invest": "Investovat",
+                "withdrawFromDipAccount": "Vybrat ze Spořicího účtu DIP",
+                "payMe": "Zaplať mi",
+                "receiptForEmployer": "Dokument pro zaměstnavatele",
+                "templates": "Šablony plateb",
+                "standingOrders": "Trvalé příkazy",
+                "paymentDestinationDip": "Na váš účet DIP"
             }
         },
         "detail": {
@@ -9052,6 +9091,7 @@
         },
         "detailSheet": {
             "actionPurchase": "Investovat",
+            "actionPurchaseDip": "Koupit",
             "actionSell": "Prodat",
             "actionDetail": "Detail",
             "actionTransactions": "Historie transakcí",
@@ -9064,7 +9104,14 @@
             "fundDescription": "Popis produktu",
             "detail": "{type}, {profile} pro investice na {term} a více let.",
             "statementDIP": "dlouhodobého investičního produktu",
-            "statementInvestment": "investičních produktů"
+            "statementInvestment": "investičních produktů",
+            "standingOrders": "Trvalé příkazy"
+        },
+        "transactionHistory": {
+            "thisMonthTransactionGroupTitle": "Tento měsíc",
+            "filterDirectionAll": "Vše",
+            "filterDirectionIncoming": "Příchozí",
+            "filterDirectionOutgoing": "Odchozí"
         },
         "dipPromo": {
             "title": "Lepší penze s Dlouhodobým investičním produktem",
@@ -9130,6 +9177,54 @@
             "title": "Peníze na DIP můžete vložit odkudkoliv",
             "detail": "Bohužel jsme nenašli žádný běžný účet u Monety, ze kterého byste mohli vložit peníze na DIP.<br/>Pokud chcete, můžete peníze poslat i odjinud. Nepotřebujete žádný variabilní symbol, stačí jen zaslat platbu Váš spořicí účet DIP.",
             "primaryButton": "Rozumím"
+        },
+        "dipWithdrawal": {
+            "alert": {
+                "title": "Předčasným výběrem DIP přijdete o výhody",
+                "description": "Pokud ještě nespoříte 10 let a zároveň jste nedosáhl*a 60 let:",
+                "disadvantages1": {
+                    "title": "Ztratíte nárok na daňové výhody",
+                    "description": "Odečtené příspěvky z daňového základu budete muset doplatit."
+                },
+                "disadvantages2": {
+                    "title": "Budete muset zdanit příspěvky od zaměstnavatele",
+                    "description": "Při předčasném výběru jsou tyto částky považovány za příjem a podléhají zdanění."
+                },
+                "helpSection": {
+                    "title": "Máte nějaké otázky? Rádi vám poradíme",
+                    "callUs": "Zavolejte nám<br>na infolinku",
+                    "callUsNumber": "+420 224 449 397",
+                    "branch": "Naštivte nás<br>na pobočce"
+                },
+                "backButton": "Zpět",
+                "confirmButton": "Rozumím, přesto DIP vybrat"
+            },
+            "withdrawal": {
+                "title": "Výběr ze Spořicího účtu DIP",
+                "fromAccountName": "Vybrat z účtu DIP",
+                "toAccountName": "Na účet"
+            },
+            "busyLoader": {
+                "title": "Chvilku strpení, připravujeme vám smlouvu"
+            },
+            "agreement": {
+                "title": "Přečtěte si smlouvu o výběru ze Spoření DIP",
+                "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+                "confirmButton": "Rozumím a souhlasím",
+                "cancelButton": "Nesouhlasím"
+            },
+            "withdrawVictory": {
+                "title": "Hotovo! Peníze převedeme na zvolený účet",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "withdrawDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde...",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+                "callUs": "Zavolejte nám<br>na infolinku",
+                "branch": "Naštivte nás<br>na pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Ukončit výběr"
+            }
         }
     }
 }
