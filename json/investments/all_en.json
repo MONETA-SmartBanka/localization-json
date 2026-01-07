@@ -167,8 +167,8 @@
                     "detail": "<b>These are the different types of assets (movable and immovable) which are traded on the stock exchange. Depending on how well we can predict their value we assign them a level of risk. You can find out more in our <b><a href=\"https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf\" target=\"_blank\">investment vocabulary</a></b>. What is more important now is to find out your expectations and figure out what type of investor you are."
                 }
             ],
-            "primaryButton": "Další",
-            "secondaryButton": "Předchozí"
+            "primaryButton": "Next",
+            "secondaryButton": "Previous"
         },
         "help": {
             "title": "Why invest via Smart Banka",
@@ -513,7 +513,7 @@
         },
         "questionnaire_v2": {
             "title": "Investment questionnaire.\nWill you invest boldly or with care?",
-            "alternativeTitle": "Je to pro Vás to pravé?",
+            "alternativeTitle": "Is this right for you?",
             "detail": "Answer the following questions to help you discover your investment profile and which investment products are right for you. ",
             "alternativeDetail": "Answer the following questions to help you discover your investment profile and which investment products are right for you. ",
             "footer": "The questions are based on the European Directive on Markets in Financial Instruments (<a href=\"https://www.moneta.cz/poradna/podilove-fondy\" target=\"_blank\">MiFID</a>), you can update them twice this month. ",
@@ -1971,7 +1971,7 @@
                         },
                         {
                             "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
-                            "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
+                            "detail": "This is your personal property or property in which you have a stake. Include savings, deposits, investments and securities.",
                             "id": 21,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -2257,24 +2257,24 @@
             "nokResult": {
                 "title": "This is not the right time for you to invest",
                 "detail": "According to the investment questionnaire, you currently lack the experience and knowledge required for investing. Therefore, it is our legal duty to protect you from potential risks.\n\nWhen you are ready, you can complete the questionnaire again, {0}x again this month.",
-                "primaryButton": "Zpět na přehled fondů"
+                "primaryButton": "Back to fund overview"
             }
         },
         "questionnaireNotEligibleAdvisory": {
-            "title": "Teď není správná doba na investice",
-            "detail": "Vaše odpovědi v investičním dotazníku ukazují, že nemáte dostatečné zkušenosti, znalosti nebo finanční zázemí, abyste do těchto finančních nástrojů mohli investovat. My jsme proto povinni Vás před tímto rizikem ochránit.\n\nDoporučujeme se o téma investování více zajímat a poté zkusit dotazník znovu, nejdříve to bude možné {0}.\n\nDěkujeme za pochopení.",
-            "primaryButton": "Zpět na Přehled"
+            "title": "Now is not the right time to invest",
+            "detail": "Your answers in the investment questionnaire indicate that you do not have sufficient experience, knowledge or financial background to invest in these financial instruments. We are therefore obliged to protect you from this risk.\n\nWe recommend learning more about investing and then try the questionnaire again, at the earliest this will be possible {0}.\n\nThank you for your understanding.",
+            "primaryButton": "Back to Overview"
         },
         "questionnaireResultAdvisory": {
-            "title": "Hotovo, podle dotazníku jste:\n\n{0}\n\nTeď se přesuneme k výběru konkrétní investice",
+            "title": "Done, according to the questionnaire you are:\n\n{0}\n\nNow we will move on to selecting a specific investment",
             "clientProfiles": [
-                "Velmi konzervativní investor",
-                "Konzervativní investor",
-                "Dynamický investor",
-                "Velmi dymanický investor"
+                "Very conservative investor",
+                "Conservative investor",
+                "Dynamic investor",
+                "Very dynamic investor"
             ],
-            "done": "Vyplněno",
-            "primaryButton": "Pokračovat"
+            "done": "Completed",
+            "primaryButton": "Continue"
         },
         "questionnairePreexisting": {
             "title": "You have already filled in the investment questionnaire before.\nDo you want to update it?",
@@ -2834,14 +2834,14 @@
             "funds": [
                 {
                     "isin": "IE000YZM15Q6",
-                    "featuredName": "MONETA 5 dynamický",
-                    "detail": "Fond je vhodný pro investory, kteří usilují o maximální zhodnocení a jsou připraveni akceptovat vyšší míru kolísání.\n\nDynamickou složku tvoří až 100% portfolia pomocí investic do akcií pokrývajících celý svět a oblasti ekonomiky. V případě nepříznivého vývoje lze dynamickou složku snížit na 75 % a konzervativní navýšit, aby se omezila míra kolísání.",
+                    "featuredName": "MONETA 5 dynamic",
+                    "detail": "The fund is suitable for investors who seek maximum appreciation and are willing to accept a higher degree of fluctuation.\n\nThe dynamic component comprises up to 100% of the portfolio through investments in stocks covering the entire world and economic sectors. In the event of unfavorable developments, the dynamic component can be reduced to 75% and the conservative component increased to limit the degree of fluctuation.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-kiid.pdf",
                     "documents": [
                         {
-                            "title": "Sdělení klíčových informací",
+                            "title": "Key Information Document",
                             "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-kiid.pdf"
                         },
                         {
@@ -2853,73 +2853,73 @@
                             "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-statut.pdf"
                         },
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-brozura.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, August 2021 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "8 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "8 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice"
+                                    "title": "Medium returns, medium fluctuation in investment value"
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with knowledge of investing and at least 2 years of investment experience"
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                                "title": "Negative Target Market",
+                                "detail": "The fund is not suitable for clients who are not willing to accept potential losses"
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000HD0CWC2",
-                    "featuredName": "MONETA 4 růstový",
-                    "detail": "Fond je vhodný pro dynamičtější investory, kteří hledají nadstandardní zhodnocení a akceptují vyšší míru kolísání.\n\nTo se odráží ve složením fondu, kde tvoří dynamická složka přibližně 75 %. Zbytek je zastoupen státními a korporátními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.\nDíky aktivní správě lze reagovat na pozitivní vývoj trhu a navýšit dynamickou složku až na 100 %. V případě nepříznivého vývoje na trhu ji lze snížit na 50 % a omezit tak míru kolísání.",
+                    "featuredName": "MONETA 4 growth",
+                    "detail": "The fund is suitable for more dynamic investors seeking above-standard returns who accept a higher degree of fluctuation.\n\nThis is reflected in the fund's composition, where the dynamic component comprises approximately 75%. The remainder is represented by government and corporate bonds. The dynamic component contains stocks covering the entire world and economic sectors.\nThanks to active management, it is possible to respond to positive market developments and increase the dynamic component up to 100%. In the event of unfavorable market developments, it can be reduced to 50%, thus limiting the degree of fluctuation.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-kiid.pdf",
                     "documents": [
                         {
-                            "title": "Sdělení klíčových informací",
+                            "title": "Key Information Document",
                             "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-kiid.pdf"
                         },
                         {
@@ -2931,73 +2931,73 @@
                             "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-statut.pdf"
                         },
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-brozura.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, August 2021 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice"
+                                    "title": "Medium returns, medium fluctuation in investment value"
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with knowledge of investing and at least 2 years of investment experience"
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                                "title": "Negative Target Market",
+                                "detail": "The fund is not suitable for clients who are not willing to accept potential losses"
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000N6PPGB0",
-                    "featuredName": "MONETA 3 vyvážený",
-                    "detail": "Fond je vhodný pro investory s vyváženým investičním přístupem, kteří hledají stabilní a mírně nadprůměrné výnosy. Zároveň jsou ochotni akceptovat určitou míru kolísání v rámci svého dlouhodobějšího horizontu.\n\nStrategie fondu cílí na rovnoměrné rozložení mezi konzervativní a dynamickou složkou. Konzervativní část portfolia, která má ve fondu zastoupení 50 % je tvořena korporátními dluhopisy a doplňkově českými státními dluhopisy a zahraničními státními dluhopisy. Dynamická složka obsahuje akcie pokrývající celý svět a oblasti ekonomiky.Díky aktivní správě fondu lze, při nepříznivém vývoji na trhu, dynamickou složku snížit na 25 %. Při příznivém výhledu je možné navýšit dynamickou složku až na 75 % a podpořit tak výnosnost.",
+                    "featuredName": "MONETA 3 balanced",
+                    "detail": "The fund is suitable for investors with a balanced investment approach who are looking for stable and slightly above-average returns. At the same time, they are willing to accept a certain degree of fluctuation within their longer-term horizon.\n\nThe fund's strategy aims for an even distribution between the conservative and dynamic components. The conservative part of the portfolio, which represents 50% of the fund, consists of corporate bonds and, additionally, Czech government bonds and foreign government bonds. The dynamic component contains stocks covering the entire world and economic sectors. Thanks to active fund management, the dynamic component can be reduced to 25% in the event of unfavorable market developments. With a favorable outlook, the dynamic component can be increased up to 75% to support profitability.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-kiid.pdf",
                     "documents": [
                         {
-                            "title": "Sdělení klíčových informací",
+                            "title": "Key Information Document",
                             "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-kiid.pdf"
                         },
                         {
@@ -3009,73 +3009,73 @@
                             "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-statut.pdf"
                         },
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-brozura.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, August 2021 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice"
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value"
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky"
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with knowledge of investing and at least 2 years of investment experience"
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                                "title": "Negative Target Market",
+                                "detail": "The fund is not suitable for clients who are not willing to accept potential losses"
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000VHJLW78",
-                    "featuredName": "MONETA 2 konzervativní",
-                    "detail": "Fond je vhodný pro konzervativní investory, kteří chtějí uchovat hodnotu svých prostředků a zároveň dosáhnout vyššího zhodnocení bez výrazného rizika.\n\nKonzervativní složku tvoří převážně české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 25 % globálními akciemi. Díky aktivní správě fondu, lze dynamickou složku v případě nepříznivého vývoje na trhu snížit na 10 %. V opačném případě lze dynamickou složku navýšit až na 50 % a podpořit tím výnosový potenciál.",
+                    "featuredName": "MONETA 2 conservative",
+                    "detail": "The fund is suitable for conservative investors who want to preserve the value of their funds while achieving higher appreciation without significant risk.\n\nThe conservative component consists mainly of Czech government bonds, supplemented by foreign bonds and corporate bonds. The dynamic component consists of around 25% global stocks. Thanks to active fund management, the dynamic component can be reduced to 10% in the event of unfavorable market developments. Conversely, the dynamic component can be increased up to 50% to support yield potential.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-kiid.pdf",
                     "documents": [
                         {
-                            "title": "Sdělení klíčových informací",
+                            "title": "Key Information Document",
                             "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-kiid.pdf"
                         },
                         {
@@ -3087,73 +3087,73 @@
                             "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-statut.pdf"
                         },
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-brozura.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, August 2021 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice"
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value"
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním"
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with basic knowledge of investing and no investment experience"
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                                "title": "Negative Target Market",
+                                "detail": "The fund is not suitable for clients who are not willing to accept potential losses"
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000PM12TN1",
-                    "featuredName": "Moneta 1 opatrný",
-                    "detail": "Fond je vhodný pro velmi konzervativní investory, kteří chtějí dosáhnout mírně vyššího zhodnocení, než na běžných depozitních produktech jako jsou spořící účty nebo termínované vklady.\n\nKonzervativní složku portfolia tvoří převáženě české státní dluhopisy, doplňkově dluhopisy zahraniční a korporátní dluhopisy. Dynamická složka je tvořena okolo 10 % globálními akciemi. Díky aktivní správě fondu lze dynamickou složku v případě nepříznivého vývoje na trhu snížit až na nulu a omezit tak kolísání. V příznivém prostředí ji lze naopak navýšit až na 25 % a podpořit výnosový potenciál.",
+                    "featuredName": "Moneta 1 Cautious",
+                    "detail": "The fund is suitable for very conservative investors who want to achieve slightly higher appreciation than on common deposit products such as savings accounts or term deposits.\n\nThe conservative component of the portfolio consists mainly of Czech government bonds, supplemented by foreign bonds and corporate bonds. The dynamic component consists of around 10% global stocks. Thanks to active fund management, the dynamic component can be reduced to zero in the event of unfavorable market developments, thus limiting fluctuation. In a favorable environment, it can be increased up to 25% to support yield potential.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-kiid.pdf",
                     "documents": [
                         {
-                            "title": "Sdělení klíčových informací",
+                            "title": "Key Information Document",
                             "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-kiid.pdf"
                         },
                         {
@@ -3165,59 +3165,59 @@
                             "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-statut.pdf"
                         },
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30046351/mmb-moneta-opatrny-brozura.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, srpen 2021 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, August 2021 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb-02082021.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "3 roky a více"
+                                "title": "Investment Horizon",
+                                "detail": "3 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 2",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 2",
                                 "info": {
-                                    "title": "Nízké výnosy, nízké kolísání hodnoty investice"
+                                    "title": "Low returns, low fluctuation in investment value"
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním"
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with basic knowledge of investing and no investment experience"
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu"
+                                "title": "Negative Target Market",
+                                "detail": "The fund is not suitable for clients who are not willing to accept potential losses"
                             }
                         ]
                     }
@@ -3314,7 +3314,7 @@
                 },
                 {
                     "isin": "CZ0008472578",
-                    "featuredName": "UNIQA CEE Dluhopisový fond",
+                    "featuredName": "UNIQA CEE Bond Fund",
                     "detail": "UNIQA CEE Bond Fund is a bond fund that relies on high-quality government and corporate bonds with a high rating, suitable for a conservative medium-term investor who has a basic knowledge of financial market instruments and wants to participate in bond and currency yields in Central and Eastern Europe. From the regional point of view, the fund's investments are directed mainly to bonds from the Czech Republic, Slovakia, Hungary and Poland. Investment grade bonds must account for at least 50% of the fund portfolio.",
                     "sellFeeValue": "0",
                     "featuredDetail": "High-quality government and corporate bonds with a high rating from the CEE region in a fund for conservative, medium-term investors.",
@@ -3452,44 +3452,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "3 roky a více"
+                                "title": "Investment Horizon",
+                                "detail": "3 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice."
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Základní, střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Basic, intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -3497,7 +3497,7 @@
                 },
                 {
                     "isin": "HU0000707187",
-                    "featuredName": "BFM Balancovaný smíšený fond",
+                    "featuredName": "BFM Balanced Mixed Fund",
                     "detail": "BFM Balanced Mixed Fund (BF Money Balanced Fund) is a blend fund. It invests in bonds, money market instruments, stocks and commodities (especially gold). The neutral ratio of each asset class is: 70% bonds and money market instruments, 25% shares and 5% commodities (mainly gold). Shares and commodities represent a dynamic part of the portfolio. However, the current composition of the portfolio is changed by the portfolio manager depending on his expectations on the capital markets. The portfolio manager can change the dynamic part of the portfolio in the range of 0-60%. The equity part of the portfolio consists of Central European equities and world equities. The objective of the fund is to achieve returns exceeding the yields on current deposit products within the investment horizon of 5 years. The fund is suitable for clients who intend to invest in the medium and longer term. It is also suitable for regular investments. The fund fluctuations correspond to the asset classes used.",
                     "sellFeeValue": "0",
                     "featuredDetail": "A mixed fund investing in bonds, money market, equities and commodities for investors who want to exceed the yields on current savings products in the medium and long term.",
@@ -3583,7 +3583,7 @@
                 },
                 {
                     "isin": "HU0000705785",
-                    "featuredName": "BFM Konzervativní smíšený fond",
+                    "featuredName": "BFM Conservative Mixed Fund",
                     "detail": "The BFM Conservative Mixed Fund (BF Money Protected Fund) is a blend fund. It invests in money market instruments, short-term bonds and equities. Shares represent a dynamic part of the portfolio. This is adjusted on the basis of the expectations of the development of the capital markets by the portfolio manager and also on the basis of the protection mechanism available to the fund - the so-called protected value. The protected value is set at 90% of the highest historical value of the participation certificate. The protected value may rise but never fall. The dynamic part of the portfolio is changed in such a way that the fund does not fall below the protected level. The objective of the fund is to achieve returns in the investment horizon of 3-5 years that exceed the yields on current deposit products. The fund is suitable for clients who intend to invest in the medium and longer term. It is also suitable for regular investments. The fluctuation of the fund corresponds to the asset classes used and is limited by the use of a protection mechanism.",
                     "sellFeeValue": "0",
                     "featuredDetail": "Money market, short-term bonds and equities in the fund with a special mechanism that protects 90% of its highest value reached.",
@@ -3887,44 +3887,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice."
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Základní, střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Basic, intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -4053,44 +4053,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "3 roky a více"
+                                "title": "Investment Horizon",
+                                "detail": "3 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice."
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Základní, střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Basic, intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -4277,7 +4277,7 @@
                 {
                     "isin": "LU0534239909",
                     "featuredName": "Invesco Global Total Return Bond Fund EUR",
-                    "detail": "Fond investuje do kvalitních státních či korporátních dluhových nástrojů napříč celým světem. V portfoliu naleznete dluhopisy USA či Německa a doplňkově dluhopisy Unicredit či Amazonu. Cílem fondu je dosáhnout kladného zhodnocení fondu prostřednictvím flexibilní investiční strategie, kdy portfolio manažer může rychle reagovat na změny na trzích. Fond je řízen aktivně.",
+                    "detail": "The fund invests in high-quality government or corporate debt instruments across the world. In the portfolio, you will find bonds of the USA or Germany and, additionally, bonds of Unicredit or Amazon. The aim of the fund is to achieve positive appreciation of the fund through a flexible investment strategy, where the portfolio manager can quickly respond to changes in the markets. The fund is actively managed.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/22493489/mmb-invesco-gtrbf-eur-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/22493489/mmb-invesco-gtrbf-eur-kid.pdf",
@@ -4835,44 +4835,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                    "title": "Medium returns, medium fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -4912,44 +4912,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                    "title": "Medium returns, medium fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -4958,17 +4958,17 @@
                 {
                     "isin": "DE000GV8KW67",
                     "featuredName": "Guaranteed Certificate Multi-Asset Autocall 7%",
-                    "detail": "Investiční certifikát s 100% ochranou kapitálu při splatnosti a atraktivním potenciálem výnosu až 7 % ročně díky možnosti předčasného splacení.\n\nCertifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International (rating A1 od Moody's / A+ od Standard & Poor's / A+ od Fitch). Certifikát umožňuje jednou za rok možnost předčasného splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a 7% procent za každý rok. Scénáře vývoje najdete v brožuře.\n\nKlient se podílí na vývoji indexu Goldman Sachs Momentum Builder Focus.\n\nIndex Goldman Sachs Momentum Builder Focus je smíšené portfolio indexů nabízející potencionální expozici v následujících třídách aktiv – americké akcie, akcie rozvinutých trhů, dluhopisy rozvinutých trhů, akcie rozvíjejících se trhů a komodity.\n\nPři předčasném odkupu není garantována 100% ochrana vlastního kapitálu, ta platí jen při autocallu, či ukončení produktu v pátém roce.\n\nMěnové riziko je zajištěno.",
+                    "detail": "Investment certificate with 100% capital protection at maturity and attractive yield potential of up to 7% per year thanks to the possibility of early repayment.\n\nThe certificate guarantees the client the payment of 100% of the invested amount after deducting the entry fee at maturity. This amount is guaranteed by Goldman Sachs International (rating A1 from Moody's / A+ from Standard & Poor's / A+ from Fitch). The certificate allows for early repayment once a year, so-called autocall. If autocall is triggered, the certificate ends in that year and pays 100% of the guaranteed value and 7% for each year. Development scenarios can be found in the brochure.\n\nThe client participates in the development of the Goldman Sachs Momentum Builder Focus index.\n\nThe Goldman Sachs Momentum Builder Focus Index is a mixed portfolio of indices offering potential exposure to the following asset classes – US stocks, developed market stocks, developed market bonds, emerging market stocks and commodities.\n\nIn the case of early redemption, 100% capital protection is not guaranteed; it applies only in the case of autocall or termination of the product in the fifth year.\n\nCurrency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf",
                     "documents": [
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-brozura.pdf"
                         },
                         {
-                            "title": "Emisní podmínky",
+                            "title": "Emission conditions",
                             "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-emisni-podminky.pdf"
                         },
                         {
@@ -4976,7 +4976,7 @@
                             "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-kid.pdf"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
@@ -4993,44 +4993,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                    "title": "Medium returns, medium fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -5038,18 +5038,18 @@
                 },
                 {
                     "isin": "DE000GU4SC51",
-                    "featuredName": "Garantovaný Certifikát ETF Portfolio Autocall 7%",
-                    "detail": "Certifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International. Ochranu jmenovité hodnoty poskytuje výlučně emitent, společnost Goldman Sachs International, jako nezajištěný a nepodřízený závazek; produkt není vkladem a nepodléhá pojištění vkladů (rating A1 od Moody’s / A+ od Standard & Poor’s / A+ od Fitch; rating není doporučení a může se měnit). Certifikát umožňuje jednou ročně automatické předčasné splacení (autocall) při dosažení předem stanovené úrovně indexu. Dojde li k autocallu, emitent vyplatí 100 % jmenovité hodnoty a kumulativní kupon dle tabulky; při odkupu na sekundárním trhu před splatností není návratnost jmenovité hodnoty zaručena.",
+                    "featuredName": "Guaranteed Certificate ETF Portfolio Autocall 7%",
+                    "detail": "The certificate guarantees the client the payment of 100% of the invested amount after deducting the entry fee at maturity. This amount is guaranteed by Goldman Sachs International. Protection of the nominal value is provided exclusively by the issuer, Goldman Sachs International, as an unsecured and unsubordinated obligation; the product is not a deposit and is not subject to deposit insurance (rating A1 from Moody’s / A+ from Standard & Poor’s / A+ from Fitch; the rating is not a recommendation and may change). The certificate allows for automatic early repayment (autocall) once a year upon reaching a predetermined index level. If autocall occurs, the issuer pays 100% of the nominal value and the cumulative coupon according to the table; repayment of the nominal value is not guaranteed upon redemption on the secondary market before maturity.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-brozura",
                     "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-kid",
                     "documents": [
                         {
-                            "title": "Brožura",
+                            "title": "Brochure",
                             "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-brozura"
                         },
                         {
-                            "title": "Emisní podmínky",
+                            "title": "Emission conditions",
                             "url": "https://www.moneta.cz/documents/20143/30234070/mmb-gcmaa-emisni-podminky"
                         },
                         {
@@ -5057,56 +5057,56 @@
                             "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-kid"
                         },
                         {
-                            "title": "Statut",
+                            "title": "Statute",
                             "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-statut"
                         },
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "title": "Investment Services Terms and Conditions, October 2025",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst hodnoty investice."
+                                "title": "Investment Preference",
+                                "detail": "Growth of investment value."
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků."
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds."
                             },
                             {
-                                "title": "Stupeň rizika (dle SRR)",
-                                "detail": "4.stupeň"
+                                "title": "Risk level (according to SRR)",
+                                "detail": "Level 4"
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální."
+                                "title": "Customer Category",
+                                "detail": "Retail."
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let."
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with advanced knowledge of investing and at least 5 years of investment experience."
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Produkt není vhodný pro klienty se základními znalostmi investování a bez zkušeností s investováním a dále pro klienty s investičním horizontem do jednoho roku."
+                                "title": "Negative Target Market",
+                                "detail": "The product is not suitable for clients with basic knowledge of investing and no investment experience, and also for clients with an investment horizon of up to one year."
                             }
                         ]
                     }
@@ -5153,44 +5153,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 4",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                    "title": "Medium returns, medium fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -5957,44 +5957,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 5",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 5",
                                 "info": {
-                                    "title": "Středně vysoké výnosy, výrazné kolísání hodnoty investice."
+                                    "title": "Medium-high returns, significant fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -6042,44 +6042,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "5 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 5",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 5",
                                 "info": {
-                                    "title": "Středně vysoké výnosy, výrazné kolísání hodnoty investice."
+                                    "title": "Medium-high returns, significant fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -6535,81 +6535,81 @@
                 },
                 {
                     "isin": "IE000YRP0NA4",
-                    "featuredName": "Generali Fond dluhopisových příležitostí",
-                    "detail": "Cílem fondu je dosáhnout výnosu o 2 % procenta vyšší než spořicí účty na českém trhu. Toho chce dosáhnout díky složení portfolia, které investuje minimálně 50 % do dluhopisů neinvestičního stupně. Tyto dluhopisy nabízejí vyšší výnosový potenciál, ale zároveň s ním přichází i vyšší míra kreditního rizika.\nGeograficky se fond zaměřuje na západní Evropu napříč sektory i regiony.\nMěnové riziko je zajištěno.\nSprávcem fondu je Generali Investments – jedna z největších investičních společností v České republice i celém regionu Střední a Východní Evropy působící na trhu od roku 1991.",
+                    "featuredName": "Generali Bond Opportunities Fund",
+                    "detail": "The aim of the fund is to achieve a yield 2% higher than savings accounts on the Czech market. It aims to achieve this thanks to the composition of the portfolio, which invests at least 50% in non-investment grade bonds. These bonds offer higher yield potential, but also come with a higher degree of credit risk.\nGeographically, the fund focuses on Western Europe across sectors and regions.\nCurrency risk is hedged.\nThe fund manager is Generali Investments – one of the largest investment companies in the Czech Republic and the entire Central and Eastern Europe region, operating on the market since 1991.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-report.pdf/19d344fe-ad1b-592f-01bc-b0727c29bfd0?t=1763994030311",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-kiid.pdf/38ff1b47-e7b4-234a-7280-0f09284be3a2?t=1763993995706",
                     "documents": [
                         {
-                            "title": "Slovníček pojmů",
+                            "title": "Glossary of Terms",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
                         },
                         {
-                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "title": "Framework Agreement on the Purchase or Sale of Securities MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, říjen 2025 | MONETA Money Bank",
+                            "title": "Investment Services Terms and Conditions, October 2025 | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
                         },
                         {
-                            "title": "Statut fondu",
+                            "title": "Fund Statute",
                             "url": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-prospekt.pdf/9043b349-347d-9c69-2017-c1d9766115dd?t=1763994146376"
                         },
                         {
-                            "title": "Dodatek ke statutu",
+                            "title": "Supplement to the Statute",
                             "url": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-statut.pdf/0f90a3c5-ab31-e6fd-d704-041992c9ec6f?t=1763994217229"
                         },
                         {
-                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "title": "Investment Services Terms and Conditions, October 2025",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf"
                         },
                         {
-                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "title": "Information about the Securities Dealers Guarantee Fund | MONETA Money Bank",
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "3 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "3 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst hodnoty investice"
+                                "title": "Investment Preference",
+                                "detail": "Growth of investment value"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků."
+                                "title": "Ability to Bear Losses",
+                                "detail": "Client who is willing to accept possible losses and does not require a guarantee of return on invested funds."
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 2",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 2",
                                 "info": {
-                                    "title": "Nízké výnosy, nízké kolísání hodnoty investice."
+                                    "title": "Low returns, low fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální"
+                                "title": "Customer Category",
+                                "detail": "Retail"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním."
+                                "title": "Knowledge and Experience",
+                                "detail": "Client with basic knowledge of investing and no investment experience."
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Bez preferencí"
+                                "title": "Negative Target Market",
+                                "detail": "No preferences"
                             }
                         ]
                     }
                 },
                 {
                     "isin": "CZ0008474145",
-                    "featuredName": "Generali Fond konzervativní",
+                    "featuredName": "Generali Conservative Fund",
                     "featuredDetail": "The fund focuses on the greatest certainty of appreciation of the investment. Useful if you plan to invest your funds for at least 1 year",
                     "detail": "Generali Conservative Fund is suitable for conservative clients, for whom low risk and higher security of capital appreciation are important. The Fund invests in term deposits, government bonds and corporate bonds. The expected appreciation is above the rate of ordinary bank savings products. The currency risk is hedged.",
                     "sellFeeValue": "0",
@@ -6913,44 +6913,44 @@
                         }
                     ],
                     "targetMarkets-missing": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "7 let a více"
+                                "title": "Investment Horizon",
+                                "detail": "7 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 5",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 5",
                                 "info": {
-                                    "title": "Středně vysoké výnosy, výrazné kolísání hodnoty investice."
+                                    "title": "Medium-high returns, significant fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -7700,44 +7700,44 @@
                         }
                     ],
                     "targetMarkets": {
-                        "title": "Cílové trhy",
+                        "title": "Target Markets",
                         "values": [
                             {
-                                "title": "Investiční horizont",
-                                "detail": "2 roky a více"
+                                "title": "Investment Horizon",
+                                "detail": "2 years and more"
                             },
                             {
-                                "title": "Investiční preference",
-                                "detail": "Růst"
+                                "title": "Investment Preference",
+                                "detail": "Growth"
                             },
                             {
-                                "title": "Schopnost nést ztráty",
-                                "detail": "Ano"
+                                "title": "Ability to Bear Losses",
+                                "detail": "Yes"
                             },
                             {
-                                "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 3",
+                                "title": "Risk Tolerance",
+                                "detail": "Risk level 3",
                                 "info": {
-                                    "title": "Středně nízké výnosy, středně nízké kolísání hodnoty investice."
+                                    "title": "Medium-low returns, medium-low fluctuation in investment value."
                                 }
                             },
                             {
-                                "title": "Kategorie zákazníka",
-                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                                "title": "Customer Category",
+                                "detail": "Retail, professional, eligible counterparty"
                             },
                             {
-                                "title": "Znalosti a zkušenosti",
-                                "detail": "Základní, střední, pokročilý",
+                                "title": "Knowledge and Experience",
+                                "detail": "Basic, intermediate, advanced",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Investor classification is based on answers to questions 1 to 6 of the investment questionnaire (knowledge and experience section) completed before providing the investment service, together with the investor's declared education and profession.\nBasic = 0 to 7 points\nIntermediate = 8 to 15 points\nAdvanced = 16 to 26 points."
                                 }
                             },
                             {
-                                "title": "Negativní cílový trh",
-                                "detail": "Garance bez ztrát",
+                                "title": "Negative Target Market",
+                                "detail": "No-loss guarantee",
                                 "info": {
-                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
-                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                    "title": "Characteristic, goal or need of the customer incompatible with the given investment product.",
+                                    "detail": "The fund is not intended for customers for whom a potential loss could cause significant financial difficulties."
                                 }
                             }
                         ]
@@ -8510,363 +8510,363 @@
         },
         "aggregationInvestedDashboard": {
             "clientProfile": "Investment Profile",
-            "totalTitle": "Celková hodnota investic",
-            "investButton": "Investovat",
-            "sellButton": "Prodat",
-            "moreButton": "Další",
-            "sellInProgress": "Zpracováváme prodej",
-            "buyInProgress": "Zpracováváme nákup",
+            "totalTitle": "Total investment value",
+            "investButton": "Invest",
+            "sellButton": "Sell",
+            "moreButton": "More",
+            "sellInProgress": "Processing sale",
+            "buyInProgress": "Processing purchase",
             "funds": {
-                "title": "Podílové fondy",
-                "noProductNote": "Ať peníze pracují za vás",
+                "title": "Mutual funds",
+                "noProductNote": "Let your money work for you",
                 "noProductBullets": [
                     {
-                        "title": "Jednorázové i pravidelné investice",
-                        "detail": "Na výběr máte více než 40 renomovaných investičních produktů z celého světa."
+                        "title": "One-time and regular investments",
+                        "detail": "You can choose from more than 40 renowned investment products from all over the world."
                     },
                     {
-                        "title": "Začít můžete i s malými částkami",
-                        "detail": "Investovat můžete už od 500 Kč."
+                        "title": "You can start with small amounts",
+                        "detail": "You can invest from as little as 500 CZK."
                     }
                 ],
                 "noProductActionBullet": {
                     "icon": "chartLineUpFill",
-                    "title": "Chci zhodnotit mé peníze",
+                    "title": "I want to appreciate my money",
                     "action": "INVESTMENT"
                 }
             },
             "dip": {
-                "title": "Dlouhodobý inv. produkt (DIP)",
-                "noProductNote": "Co si v mládí ušetříte,\nve stáří jako když najdete",
+                "title": "Long-term inv. product (DIP)",
+                "noProductNote": "What you save in your youth,\nyou will find in your old age",
                 "noProductBullets": [
                     {
-                        "title": "Uložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
-                        "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spoření v rámci DIP."
+                        "title": "You can deduct the saved money \nfrom taxes. Up to 48,000 CZK per year",
+                        "detail": "You can use them to buy mutual funds or deposit them in Savings within DIP."
                     },
                     {
-                        "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou 3,5 % ročně",
-                        "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+                        "title": "We will credit your money on the DIP Savings Account with an interest rate of 3.5% per year",
+                        "detail": "The account is part of the product and you can deposit money on it without a maximum limit."
                     }
                 ],
                 "noProductActionBullet": {
                     "icon": "chartLineUpFill",
-                    "title": "Chci zhodnotit své peníze",
+                    "title": "I want to appreciate my money",
                     "action": "DIPINVESTMENT"
                 },
                 "notInvestedBullets": [
                     {
                         "icon": "savingsFill",
-                        "title": "Spořicí účet DIP",
-                        "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+                        "title": "DIP Savings Account",
+                        "detail": "We do not count this amount in the total investment value",
                         "value": "{dipAccountAmount}",
                         "action": "DIP_ACCOUNT"
                     },
                     {
                         "icon": "pocketMoneyFill",
-                        "title": "<sb>Investujte a využijte DIP na maximum</sb>",
-                        "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa.",
+                        "title": "<sb>Invest and make the most of DIP</sb>",
+                        "detail": "You can choose from more than 40 renowned mutual funds from all over the world.",
                         "action": "DIPINVESTMENT"
                     }
                 ],
                 "investedAdditionalBullets": [
                     {
                         "icon": "savingsFill",
-                        "title": "Spořicí účet DIP",
-                        "detail": "Tuto částku nepočítáme do celkové hodnoty investic",
+                        "title": "DIP Savings Account",
+                        "detail": "We do not count this amount in the total investment value",
                         "value": "{dipAccountAmount}",
                         "action": "DIP_ACCOUNT"
                     }
                 ],
-                "dipEmptyAccountNote": "<error600>Zatím jste nevložili žádné peníze.</error600>",
+                "dipEmptyAccountNote": "<error600>You haven't deposited any money yet.</error600>",
                 "dipEmptyAccountBullets": [
                     {
                         "icon": "walletArrowInFill",
-                        "title": "<sb>Vložte peníze na Spořicí účet DIP</sb>",
-                        "detail": "Investovat do fondů můžete už od 500 Kč.",
+                        "title": "<sb>Deposit money into the DIP Savings Account</sb>",
+                        "detail": "You can invest in funds from as little as 500 CZK.",
                         "action": "DIP_DEPOSIT"
                     }
                 ],
-                "dipNotInvestedNote": "<error600>Nezainvestováno</error600>"
+                "dipNotInvestedNote": "<error600>Not invested</error600>"
             },
             "advisory": {
-                "title": "Fondy z investičního poradenství",
-                "noProductNote": "Jaký fond je pro mě ten pravý?",
+                "title": "Funds from investment advisory",
+                "noProductNote": "Which fund is right for me?",
                 "noProductBullets": [
                     {
-                        "title": "Fondy pro vás na míru",
-                        "detail": "Vhodné investice vybereme na základě vašich potřeb"
+                        "title": "Funds tailored for you",
+                        "detail": "We will select suitable investments based on your needs"
                     },
                     {
-                        "title": "Diverzifikaci vyřešíme za vás",
-                        "detail": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+                        "title": "We will handle diversification for you",
+                        "detail": "The offer includes portfolios with stocks, bonds and ETFs from renowned companies."
                     }
                 ],
                 "noProductActionBullet": {
                     "icon": "starsAltFill",
-                    "title": "Poraďte mi s investicí",
+                    "title": "Advise me on investment",
                     "action": "INVESTMENT_ADVISORY_PROMO"
                 },
                 "investedAdditionalBullets": [
                     {
                         "icon": "starsAltFill",
-                        "title": "Poraďte mi s investicí",
+                        "title": "Advise me on investment",
                         "action": "INVESTMENT_ADVISORY_PROMO"
                     }
                 ]
             },
             "sellSheet": {
-                "portfolioTitle": "Z jakého portfolia chcete prodávat?",
-                "productTitle": "Jaký investiční produkt chcete prodat?",
-                "funds": "Investice",
-                "advisory": "Fondy z investičnoho poradenství",
-                "dip": "Dlouhodobý investiční produkt"
+                "portfolioTitle": "From which portfolio do you want to sell?",
+                "productTitle": "Which investment product do you want to sell?",
+                "funds": "Investments",
+                "advisory": "Funds from investment advisory",
+                "dip": "Long-term investment product"
             }
         },
         "advisoryFund": {
-            "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
+            "title": "Based on what you told us about yourself, the most suitable fund for you is:\n<green>{0}</green>",
             "funds": [
                 {
                     "isin": "IE000PM12TN1",
-                    "name": "MONETA 1 opatrný",
+                    "name": "MONETA 1 Cautious",
                     "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-1-opatrny",
-                    "nameShort": "Opatrný",
-                    "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 2 roky.",
+                    "nameShort": "Cautious",
+                    "detail": "We selected this fund because you prefer lower risk, you know that the investment value may fluctuate in the short term, and you plan to hold the investment for at least 2 years.",
                     "composition": {
-                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "title": "The fund distributes its investment strategy between <b>bonds and stocks.</b>",
                         "values": [
                             {
-                                "label": "Akcie",
+                                "label": "Stocks",
                                 "value": 12.5,
                                 "color": "#0E73D1"
                             },
                             {
-                                "label": "Dluhopisy a peněžní trh",
+                                "label": "Bonds and money market",
                                 "value": 87.5,
                                 "color": "#5CBBFC"
                             }
                         ]
                     },
-                    "more": "Více o fondu",
+                    "more": "More about the fund",
                     "moreSheetValues": {
-                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 2 roky.",
-                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují nižší míru investičního rizika, jsou schopni akceptovat pouze krátkodobé ztráty a plánují držet investici alespoň 2 roky.",
+                        "appropriateDetail": "<b>You can invest in this fund,</b><br/>because you prefer lower risk, you know that the investment value may fluctuate in the short term, and you plan to hold the investment for at least 2 years.",
+                        "inappropriateDetail": "<b>You cannot invest in this fund.</b><br/>We recommend it to clients who prefer a lower level of investment risk, are able to accept only short-term losses and plan to hold the investment for at least 2 years.",
                         "strategyBullets": [
                             {
                                 "icon": "interestFill",
-                                "title": "Fond rozkládá svou investiční strategii z 87,5 % mezi státní a firemní dluhopisy a investice do akcií, kterých je v portfoliu 12,5 %."
+                                "title": "The fund distributes its investment strategy 87.5% between government and corporate bonds and investments in stocks, which make up 12.5% of the portfolio."
                             },
                             {
                                 "icon": "extraFill",
-                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                                "title": "The bond part of the portfolio consists mainly of investments in government bonds, especially of the Czech Republic. For corporate bonds, you will find investments mainly within Central Europe and the USA."
                             },
                             {
                                 "icon": "flexicreditFill",
-                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                                "title": "Stocks include investments in the USA, Europe and additionally in Asia. In the portfolio you will find companies such as Apple or Alphabet (Google), in which you invest through major global investment managers such as Blackrock or Vanguard."
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000VHJLW78",
-                    "name": "MONETA 2 konzervativní",
+                    "name": "MONETA 2 Conservative",
                     "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-2-konzervativni",
-                    "nameShort": "Konzervativní",
-                    "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
+                    "nameShort": "Conservative",
+                    "detail": "We selected this fund because you prefer lower risk, you know that the investment value may fluctuate in the short term, and you plan to hold the investment for at least 3 years.",
                     "composition": {
-                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "title": "The fund distributes its investment strategy between <b>bonds and stocks.</b>",
                         "values": [
                             {
-                                "label": "Akcie",
+                                "label": "Stocks",
                                 "value": 25.0,
                                 "color": "#0E73D1"
                             },
                             {
-                                "label": "Dluhopisy a peněžní trh",
+                                "label": "Bonds and money market",
                                 "value": 75.0,
                                 "color": "#5CBBFC"
                             }
                         ]
                     },
-                    "more": "Více o fondu",
+                    "more": "More about the fund",
                     "moreSheetValues": {
-                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
-                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují nižší míru investičního rizika, jsou schopni akceptovat pouze krátkodobé ztráty a plánují držet investici alespoň 3 roky.",
+                        "appropriateDetail": "<b>You can invest in this fund,</b><br/>because you prefer lower risk, you know that the investment value may fluctuate in the short term, and you plan to hold the investment for at least 3 years.",
+                        "inappropriateDetail": "<b>You cannot invest in this fund.</b><br/>We recommend it to clients who prefer a lower level of investment risk, are able to accept only short-term losses and plan to hold the investment for at least 3 years.",
                         "strategyBullets": [
                             {
                                 "icon": "interestFill",
-                                "title": "Fond rozkládá svou investiční strategii z 75 % mezi státní a firemní dluhopisy a investice do akcií, kterých je v portfoliu 12,5 %."
+                                "title": "The fund distributes its investment strategy 75% to government and corporate bonds and 25% to investments in stocks."
                             },
                             {
                                 "icon": "extraFill",
-                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                                "title": "The bond part of the portfolio consists mainly of investments in government bonds, especially of the Czech Republic. For corporate bonds, you will find investments mainly within Central Europe and the USA."
                             },
                             {
                                 "icon": "flexicreditFill",
-                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                                "title": "Stocks include investments in the USA, Europe and additionally in Asia. In the portfolio you will find companies such as Apple or Alphabet (Google), in which you invest through major global investment managers such as Blackrock or Vanguard."
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000N6PPGB0",
-                    "name": "MONETA 3 vyvážený",
+                    "name": "MONETA 3 Balanced",
                     "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-3-vyvazeny",
-                    "nameShort": "Vyvážený",
-                    "detail": "Tento fond jsme vybrali, protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
+                    "nameShort": "Balanced",
+                    "detail": "We selected this fund because you prefer a medium level of risk, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 4 years.",
                     "composition": {
-                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "title": "The fund distributes its investment strategy between <b>bonds and stocks.</b>",
                         "values": [
                             {
-                                "label": "Akcie",
+                                "label": "Stocks",
                                 "value": 50.0,
                                 "color": "#0E73D1"
                             },
                             {
-                                "label": "Dluhopisy a peněžní trh",
+                                "label": "Bonds and money market",
                                 "value": 50.0,
                                 "color": "#5CBBFC"
                             }
                         ]
                     },
-                    "more": "Více o fondu",
+                    "more": "More about the fund",
                     "moreSheetValues": {
-                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
-                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují střední míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 4 roky.",
+                        "appropriateDetail": "<b>You can invest in this fund,</b><br/>because you prefer a medium level of risk, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 4 years.",
+                        "inappropriateDetail": "<b>You cannot invest in this fund.</b><br/>We recommend it to clients who prefer a medium level of investment risk, are prepared for possible short-term losses and plan to hold the investment for at least 4 years.",
                         "strategyBullets": [
                             {
                                 "icon": "interestFill",
-                                "title": "Fond rovnoměrně rozkládá svou investiční strategii mezi státní a firemní dluhopisy a investice do akcií."
+                                "title": "The fund evenly distributes its investment strategy between government and corporate bonds and investments in stocks."
                             },
                             {
                                 "icon": "extraFill",
-                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                                "title": "The bond part of the portfolio consists mainly of investments in government bonds, especially of the Czech Republic. For corporate bonds, you will find investments mainly within Central Europe and the USA."
                             },
                             {
                                 "icon": "flexicreditFill",
-                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                                "title": "Stocks include investments in the USA, Europe and additionally in Asia. In the portfolio you will find companies such as Apple or Alphabet (Google), in which you invest through major global investment managers such as Blackrock or Vanguard."
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000HD0CWC2",
-                    "name": "MONETA 4 růstový",
+                    "name": "MONETA 4 Growth",
                     "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-4-rustovy",
-                    "nameShort": "Růstový",
-                    "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
+                    "nameShort": "Growth",
+                    "detail": "We selected this fund because you prefer higher risk with regard to possible higher returns, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 5 years.",
                     "composition": {
-                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "title": "The fund distributes its investment strategy between <b>bonds and stocks.</b>",
                         "values": [
                             {
-                                "label": "Akcie",
+                                "label": "Stocks",
                                 "value": 75.0,
                                 "color": "#0E73D1"
                             },
                             {
-                                "label": "Dluhopisy a peněžní trh",
+                                "label": "Bonds and money market",
                                 "value": 25.0,
                                 "color": "#5CBBFC"
                             }
                         ]
                     },
-                    "more": "Více o fondu",
+                    "more": "More about the fund",
                     "moreSheetValues": {
-                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete vyšší riziko, s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
-                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br/>Doporučujeme ho klientům, kteří preferují vyšší míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 5 let.",
+                        "appropriateDetail": "<b>You can invest in this fund,</b><br/>because you prefer higher risk with regard to possible higher returns, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 5 years.",
+                        "inappropriateDetail": "<b>You cannot invest in this fund.</b><br/>We recommend it to clients who prefer a higher level of investment risk, are prepared for possible short-term losses and plan to hold the investment for at least 5 years.",
                         "strategyBullets": [
                             {
                                 "icon": "interestFill",
-                                "title": "50-100 % portfolia fondu tvoří akcie doplněné o státní a firemní dluhopisy."
+                                "title": "50-100% of the fund's portfolio consists of stocks supplemented by government and corporate bonds."
                             },
                             {
                                 "icon": "extraFill",
-                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                                "title": "The bond part of the portfolio consists mainly of investments in government bonds, especially of the Czech Republic. For corporate bonds, you will find investments mainly within Central Europe and the USA."
                             },
                             {
                                 "icon": "flexicreditFill",
-                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                                "title": "Stocks include investments in the USA, Europe and additionally in Asia. In the portfolio you will find companies such as Apple or Alphabet (Google), in which you invest through major global investment managers such as Blackrock or Vanguard."
                             }
                         ]
                     }
                 },
                 {
                     "isin": "IE000YZM15Q6",
-                    "name": "MONETA 5 dynamický",
+                    "name": "MONETA 5 Dynamic",
                     "url": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/moneta-5-dynamicky",
-                    "nameShort": "Dynamický",
-                    "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
+                    "nameShort": "Dynamic",
+                    "detail": "We selected this fund because you prefer higher risk with regard to possible higher returns, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 8 years.",
                     "composition": {
-                        "title": "Fond rozkládá svou investiční strategii mezi <b>dluhopisy a akcie.</b>",
+                        "title": "The fund distributes its investment strategy between <b>bonds and stocks.</b>",
                         "values": [
                             {
-                                "label": "Akcie",
+                                "label": "Stocks",
                                 "value": 75.0,
                                 "color": "#0E73D1"
                             },
                             {
-                                "label": "Dluhopisy a peněžní trh",
+                                "label": "Bonds and money market",
                                 "value": 25.0,
                                 "color": "#5CBBFC"
                             }
                         ]
                     },
-                    "more": "Více o fondu",
+                    "more": "More about the fund",
                     "moreSheetValues": {
-                        "appropriateDetail": "<b>Do tohoto fondu můžete investovat,</b><br/>protože preferujete vyšší riziko, s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
-                        "inappropriateDetail": "<b>Do tohoto fondu nemůžete investovat.</b><br>Doporučujeme ho klientům, kteří preferují vyšší míru investičního rizika, jsou připraveni na případné krátkodobé ztráty a plánují držet investici alespoň 8 let.",
+                        "appropriateDetail": "<b>You can invest in this fund,</b><br/>because you prefer higher risk with regard to possible higher returns, you are willing to accept possible short-term losses, and you plan to hold the investment for at least 8 years.",
+                        "inappropriateDetail": "<b>You cannot invest in this fund.</b><br>We recommend it to clients who prefer a higher level of investment risk, are prepared for possible short-term losses and plan to hold the investment for at least 8 years.",
                         "strategyBullets": [
                             {
                                 "icon": "interestFill",
-                                "title": "75 % portfolia fondu tvoří akcie, zbylých 25 % je rozděleno mezi státní a firemní dluhopisy."
+                                "title": "75% of the fund's portfolio consists of stocks, the remaining 25% is divided between government and corporate bonds."
                             },
                             {
                                 "icon": "extraFill",
-                                "title": "Dluhopisovou část portfolia tvoří především investice do státních dluhopisů, zejména České republiky. U firemních dluhopisů najdete investice především v rámci střední Evropy a USA."
+                                "title": "The bond part of the portfolio consists mainly of investments in government bonds, especially of the Czech Republic. For corporate bonds, you will find investments mainly within Central Europe and the USA."
                             },
                             {
                                 "icon": "flexicreditFill",
-                                "title": "Akcie zahrnují investice v USA, Evropě a doplňkově v Asii. V portfoliu najdete společnosti jako Apple nebo Alphabet (Google), do kterých investujete přes velké světové správce investic jako jsou Blackrock nebo Vanguard."
+                                "title": "Stocks include investments in the USA, Europe and additionally in Asia. In the portfolio you will find companies such as Apple or Alphabet (Google), in which you invest through major global investment managers such as Blackrock or Vanguard."
                             }
                         ]
                     }
                 }
             ],
             "moreSheet": {
-                "appropriateTitle": "Tento fond je pro Vás <success600>vhodný</success600>",
-                "inappropriateTitle": "Tento fond pro Vás <warning600>není vhodný</warning600>",
-                "recommended": "Doporučeno",
+                "appropriateTitle": "This fund is <success600>suitable</success600> for you",
+                "inappropriateTitle": "This fund is <warning600>not suitable</warning600> for you",
+                "recommended": "Recommended",
                 "tabs": [
                     {
                         "isin": "IE000PM12TN1",
-                        "name": "Opatrný"
+                        "name": "Cautious"
                     },
                     {
                         "isin": "IE000VHJLW78",
-                        "name": "Konzervativní"
+                        "name": "Conservative"
                     },
                     {
                         "isin": "IE000N6PPGB0",
-                        "name": "Vyvážený"
+                        "name": "Balanced"
                     },
                     {
                         "isin": "IE000HD0CWC2",
-                        "name": "Růstový"
+                        "name": "Growth"
                     },
                     {
                         "isin": "IE000YZM15Q6",
-                        "name": "Dynamický"
+                        "name": "Dynamic"
                     }
                 ],
-                "strategyTitle": "Strategie fondu",
+                "strategyTitle": "Fund strategy",
                 "parameters": {
-                    "title": "Další parametry",
+                    "title": "Other parameters",
                     "items": [
                         {
-                            "title": "Měna",
+                            "title": "Currency",
                             "value": "{currency}"
                         },
                         {
-                            "title": "Vstupní poplatek",
+                            "title": "Entry fee",
                             "value": "{feePercent}"
                         },
                         {
@@ -8874,35 +8874,35 @@
                             "value": "{isin}"
                         },
                         {
-                            "title": "Rizikovost",
+                            "title": "Risk level",
                             "value": "{risk}"
                         }
                     ]
                 },
-                "primaryButton": "Souhlasím, chci investovat",
-                "secondaryButton": "Prohlédnout ostatní fondy",
-                "primaryButtonOther": "Zpět na doporučený",
-                "secondaryButtonPrevious": "Předchozí",
-                "secondaryButtonNext": "Další"
+                "primaryButton": "I agree, I want to invest",
+                "secondaryButton": "View other funds",
+                "primaryButtonOther": "Back to recommended",
+                "secondaryButtonPrevious": "Previous",
+                "secondaryButtonNext": "Next"
             },
             "parameters": {
-                "title": "Parametry investice",
-                "edit": "Upravit parametry",
+                "title": "Investment parameters",
+                "edit": "Edit parameters",
                 "items": [
                     {
-                        "title": "Výše investice",
+                        "title": "Investment amount",
                         "value": "{amount}"
                     },
                     {
-                        "title": "Na dobu",
+                        "title": "For a period of",
                         "value": "{term}"
                     },
                     {
-                        "title": "Frekvence",
+                        "title": "Frequency",
                         "value": "{frequency}"
                     },
                     {
-                        "title": "Vstupní poplatek",
+                        "title": "Entry fee",
                         "value": "{feePercent}",
                         "subvalue": "{feeAmount}"
                     }
@@ -8928,17 +8928,17 @@
                         "value": ""
                     }
                 ],
-                "document": "Přečtěte si detailní informace o investičním produktu"
+                "document": "Read detailed information about the investment product"
             },
             "agree": "I hereby confirm that I have read and understood  the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/vseobecne-produktove-podminky#investovani\" target=\"_blank\">Terms and Conditions of Investment Services</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Pricelist</a> and <a href=\"{URL_KIID}\" target=\"_blank\">Key information for investors</a>",
-            "agreeError": "Než budete pokračovat, seznamte se všemi dokumenty.",
-            "primaryButton": "Souhlasím, chci investovat",
+            "agreeError": "Before you continue, please familiarize yourself with all documents.",
+            "primaryButton": "I agree, I want to invest",
             "secondaryButton": "Nechci tuto investici",
             "secondarySheet": {
-                "title": "Potřebujete větší výběr?\nProhlédněte si všechny naše podílové fondy",
-                "detail": "V detailu uvidíte, jak si vedly v předchozích letech.",
-                "primaryButton": "To mě zajímá",
-                "secondaryButton": "Nemám zájem"
+                "title": "Need a wider selection?\nView all our mutual funds",
+                "detail": "In the detail, you will see how they performed in previous years.",
+                "primaryButton": "I am interested",
+                "secondaryButton": "I am not interested"
             }
         },
         "advisoryFailure": {
@@ -8949,35 +8949,35 @@
             "branch": "Visit a<br>branch"
         },
         "advisoryContract": {
-            "title": "Přečtěte si smlouvu s parametry produktu",
-            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
-            "primaryButton": "Pokračovat",
-            "secondaryButton": "Nesouhlasím"
+            "title": "Read the contract with product parameters",
+            "detail": "You can find all documents in Smart Banka and Internet Banka in the Documents section.",
+            "primaryButton": "Continue",
+            "secondaryButton": "I do not agree"
         },
         "advisoryReport": {
-            "title": "Přečtěte si zápis o investičním doporučení",
-            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
-            "primaryButton": "Rozumím, pokračovat k podpisu",
-            "secondaryButton": "Nesouhlasím"
+            "title": "Read the record of investment advice",
+            "detail": "You can find all documents in Smart Banka and Internet Banka in the Documents section.",
+            "primaryButton": "I understand, continue to signature",
+            "secondaryButton": "I do not agree"
         },
         "advisoryDisagree": {
-            "title": "Bez souhlasu to bohužel nepůjde...",
-            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-            "callUs": "Zavolejte nám<br>na infolinku",
-            "branch": "Naštivte nás<br>na pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
+            "title": "Unfortunately, it won't work without consent...",
+            "detail": "Do you have any questions? Call us or visit us at the nearest branch.",
+            "callUs": "Call us<br>on the helpline",
+            "branch": "Visit us<br>at the branch",
+            "primaryButton": "Back",
+            "secondaryButton": "End request"
         },
         "advisorySign": {
-            "title": "Odeslání prostředků do fondu potvrďte PINem"
+            "title": "Confirm sending funds to the fund with PIN"
         },
         "advisoryVictory": {
-            "title": "Hotovo!<br>Gratulujeme k vaší investici",
-            "detail": "Zpracování investice nám obvykle zabere 2-3 pracovní dny a hned poté ji uvidíte ve své Smart Bance.",
-            "tip": "Tip: naši nejúspěšnější investoři nejčastěji investují pravidelně, zkuste to taky.",
-            "primaryButtonOneTime": "Zadat pravidelnou investici",
-            "primaryButtonRegular": "Zadat další investici",
-            "secondaryButton": "Zpět na Přehled"
+            "title": "Done!<br>Congratulations on your investment",
+            "detail": "Processing the investment usually takes us 2-3 business days and immediately after that you will see it in your Smart Banka.",
+            "tip": "Tip: our most successful investors most often invest regularly, try it too.",
+            "primaryButtonOneTime": "Enter regular investment",
+            "primaryButtonRegular": "Enter another investment",
+            "secondaryButton": "Back to Overview"
         },
         "list": {
             "investmentTitle": "Investments {0}",
@@ -9138,26 +9138,26 @@
         },
         "advisoryPromo": {
             "title": "Investment Advisory",
-            "detail": "Srozumitelně i pro ty, kteří nemají zkušenost s investováním.",
+            "detail": "Understandable even for those who have no experience with investing.",
             "bullets": [
                 {
                     "icon": "investmentsFill",
-                    "title": "Vhodné investice najdeme společně."
+                    "title": "We will find suitable investments together."
                 },
                 {
                     "icon": "businessFill",
-                    "title": "Spravovat je budou zkušení odborníci, kteří sledují trhy za vás."
+                    "title": "They will be managed by experienced experts who monitor the markets for you."
                 },
                 {
                     "icon": "tickFill",
-                    "title": "V nabídce najdete portfolia s akciemi, dluhopisy a ETF od renomovaných společností."
+                    "title": "The offer includes portfolios with stocks, bonds and ETFs from renowned companies."
                 },
                 {
                     "icon": "infoFill",
-                    "title": "Investiční příležitosti tvoří pečlivě vybrané fondy označené jako\nMONETA fondy."
+                    "title": "Investment opportunities consist of carefully selected funds marked as\nMONETA funds."
                 }
             ],
-            "primaryButton": "Pokračovat"
+            "primaryButton": "Continue"
         },
         "notImplemented": {
             "title": "Smart Bank can't do this yet.<br/>Before we teach it, we'll be happy to help you at the branch.",
