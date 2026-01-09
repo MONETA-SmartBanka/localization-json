@@ -367,11 +367,20 @@
                         "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
+                        "representativeExample": "Representative example for a balance of CZK 1,005,725:\n\nCZK 1,000,000 earns 2.6 %.\nCZK 5,725 earns 0.5 %.",
+                        "representativeExampleEUR": "Representative example for a balance of EUR 4,200:\n\nEUR 4,000 earns 2.6 %.\nEUR 200 earns 0.5 %."
                     },
                     "secondBonus": {
                         "title": "Úrokový bonus za aktivitu",
                         "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "1": ["For the entire balance"],
+                        "2": ["Up to {0}", "Above {0}"],
+                        "3": ["Up to {0}","{0} - {1}","Above {0}"]
                     }
                 },
                 {
@@ -392,6 +401,12 @@
                     "secondBonus": {
                         "title": "Úrokový bonus za investice",
                         "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "1": ["For the entire balance"],
+                        "2": ["Up to {0}", "Above {0}"],
+                        "3": ["Up to {0}","{0} - {1}","Above {0}"]
                     }
                 },
                 {
@@ -411,6 +426,12 @@
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "1": ["For the entire balance"],
+                        "2": ["Up to {0}", "Above {0}"],
+                        "3": ["Up to {0}","{0} - {1}","Above {0}"]
                     }
                 },
                 {
@@ -430,6 +451,12 @@
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "1": ["For the entire balance"],
+                        "2": ["Up to {0}", "Above {0}"],
+                        "3": ["Up to {0}","{0} - {1}","Above {0}"]
                     }
                 }
             ],
