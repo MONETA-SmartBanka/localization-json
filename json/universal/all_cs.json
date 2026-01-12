@@ -368,11 +368,20 @@
                         "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek 1 005 725 Kč:\n\n1 000 000 Kč je úročen sazbou 2,6 %.\n5 725 Kč je úročeno sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek 4 200 EUR:\n\n4 000 EUR je úročen sazbou 2,6 %.\n200 EUR je úročeno sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Úrokový bonus za aktivitu",
                         "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "one": ["Pro celý zůstatek"],
+                        "two": ["Do {0}", "Nad {0}"],
+                        "three": ["Do {0}", "{0} - {1}", "Nad {0}"]
                     }
                 },
                 {
@@ -388,11 +397,20 @@
                         "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek 1 005 725 Kč:\n\n1 000 000 Kč je úročen sazbou 2,6 %.\n5 725 Kč je úročeno sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek 4 200 EUR:\n\n4 000 EUR je úročen sazbou 2,6 %.\n200 EUR je úročeno sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Úrokový bonus za investice",
                         "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "one": ["Pro celý zůstatek"],
+                        "two": ["Do {0}", "Nad {0}"],
+                        "three": ["Do {0}", "{0} - {1}", "Nad {0}"]
                     }
                 },
                 {
@@ -408,10 +426,19 @@
                         "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b>",
                         "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b>",
                         "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek 1 005 725 Kč:\n\n1 000 000 Kč je úročen sazbou 2,6 %.\n5 725 Kč je úročeno sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek 4 200 EUR:\n\n4 000 EUR je úročen sazbou 2,6 %.\n200 EUR je úročeno sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "one": ["Pro celý zůstatek"],
+                        "two": ["Do {0}", "Nad {0}"],
+                        "three": ["Do {0}", "{0} - {1}", "Nad {0}"]
                     }
                 },
                 {
@@ -427,10 +454,19 @@
                         "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
                         "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek 1 005 725 Kč:\n\n1 000 000 Kč je úročen sazbou 2,6 %.\n5 725 Kč je úročeno sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek 4 200 EUR:\n\n4 000 EUR je úročen sazbou 2,6 %.\n200 EUR je úročeno sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "one": ["Pro celý zůstatek"],
+                        "two": ["Do {0}", "Nad {0}"],
+                        "three": ["Do {0}", "{0} - {1}", "Nad {0}"]
                     }
                 }
             ],
