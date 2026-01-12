@@ -356,25 +356,25 @@
             "savingsInterestRate": [
                 {
                     "codes": ["596", "597"],
-                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
-                    "description": "Bonus je platný po celou dobu garance.",
-                    "standardRate": "Standardní úroková sazba",
-                    "bonusRate": "Garantovaný úrokový bonus",
-                    "guarantee": "Garance úrokového bonusu",
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "description": "The bonus is valid for the entire guarantee period.",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Guaranteed interest bonus",
+                    "guarantee": "Interest bonus guarantee",
                     "rateValue": "{0} p.a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "change": "From {dateFrom}, it will change to <b>{rate} p. a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "extension": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
                         "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
                         "representativeExample": "Representative example for a balance of CZK 1,005,725:\n\nCZK 1,000,000 earns 2.6 %.\nCZK 5,725 earns 0.5 %.",
                         "representativeExampleEUR": "Representative example for a balance of EUR 4,200:\n\nEUR 4,000 earns 2.6 %.\nEUR 200 earns 0.5 %."
                     },
                     "secondBonus": {
-                        "title": "Úrokový bonus za aktivitu",
-                        "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                        "title": "Interest bonus for activity",
+                        "description": "You will receive it next month if you make at least 10 card payments and have received at least CZK 15,000 in your current account in the previous month."
                     },
                     "tiersTitle": "Annual yield",
                     "tiers": {
@@ -385,25 +385,25 @@
                 },
                 {
                     "codes": ["569", "570"],
-                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
-                    "description": "Bonus je platný po celou dobu garance.",
-                    "standardRate": "Standardní úroková sazba",
-                    "bonusRate": "Úrokový bonus",
-                    "guarantee": "Garance úrokového bonusu",
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "description": "The bonus is valid for the entire guarantee period.",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Interest bonus",
+                    "guarantee": "Interest bonus guarantee",
                     "rateValue": "{0} p.a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "change": "From {dateFrom}, it will change to <b>{rate} p. a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "extension": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
                         "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
                         "representativeExample": "Representative example for a balance of CZK 1,005,725:\n\nCZK 1,000,000 earns 2.6 %.\nCZK 5,725 earns 0.5 %.",
                         "representativeExampleEUR": "Representative example for a balance of EUR 4,200:\n\nEUR 4,000 earns 2.6 %.\nEUR 200 earns 0.5 %."
                     },
                     "secondBonus": {
-                        "title": "Úrokový bonus za investice",
-                        "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                        "title": "Interest bonus for investments",
+                        "description": "You will receive it for a new investment and total investment as of the last day of the calendar month in the amount of at least CZK 100,000."
                     },
                     "tiersTitle": "Annual yield",
                     "tiers": {
@@ -414,24 +414,24 @@
                 },
                 {
                     "codes": ["761"],
-                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
-                    "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
-                    "standardRate": "Standardní úroková sazba",
-                    "bonusRate": "Úrokový bonus",
-                    "guarantee": "Garance úrokového bonusu",
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "description": "The bonus is specified in the campaign terms and conditions at <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Interest bonus",
+                    "guarantee": "Interest bonus guarantee",
                     "rateValue": "{0} p.a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b>",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "change": "From {dateFrom}, it will change to <b>{rate} p. a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p. a.</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p. a.</b>.",
+                        "extension": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
                         "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
                         "representativeExample": "Representative example for a balance of CZK 1,005,725:\n\nCZK 1,000,000 earns 2.6 %.\nCZK 5,725 earns 0.5 %.",
                         "representativeExampleEUR": "Representative example for a balance of EUR 4,200:\n\nEUR 4,000 earns 2.6 %.\nEUR 200 earns 0.5 %."
                     },
                     "secondBonus": {
-                        "title": "Druhý úrokový bonus"
+                        "title": "Second interest bonus"
                     },
                     "tiersTitle": "Annual yield",
                     "tiers": {
@@ -442,24 +442,24 @@
                 },
                 {
                     "codes": ["default"],
-                    "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
-                    "description": "Bonus je platný po celou dobu garance.",
-                    "standardRate": "Standardní úroková sazba",
-                    "bonusRate": "Úrokový bonus",
-                    "guarantee": "Garance úrokového bonusu",
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "description": "The bonus is valid for the entire guarantee period.",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Interest bonus",
+                    "guarantee": "Interest bonus guarantee",
                     "rateValue": "{0} p.a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "change": "From {dateFrom}, it will change to <b>{rate} p. a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p. a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "extension": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p. a.</b> rate <b>until {dateTo}</b>.",
                         "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
                         "representativeExample": "Representative example for a balance of CZK 1,005,725:\n\nCZK 1,000,000 earns 2.6 %.\nCZK 5,725 earns 0.5 %.",
                         "representativeExampleEUR": "Representative example for a balance of EUR 4,200:\n\nEUR 4,000 earns 2.6 %.\nEUR 200 earns 0.5 %."
                     },
                     "secondBonus": {
-                        "title": "Druhý úrokový bonus"
+                        "title": "Second interest bonus"
                     },
                     "tiersTitle": "Annual yield",
                     "tiers": {
