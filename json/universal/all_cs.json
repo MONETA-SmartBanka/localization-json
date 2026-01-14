@@ -65,7 +65,7 @@
                 "buttonDashboard": {
                     "title": "Při podezření na zneužití účtu",
                     "detail": "Zablokovat bankovnictví",
-                    "primary": "Mám podezření na zneužití účtu"
+                    "primary": "Máte podezření na zneužití účtu?"
                 },
                 "buttonCommon": {
                     "title": "Zablokovat bankovnictví",
@@ -203,11 +203,11 @@
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
-                    "title": "Platbu odešleme jako standardní",
-                    "detail": "Z technických důvodů odešleme vaši platbu jako standardní s dnešním datem splatnosti.Pokud potřebujete odeslat platbu okamžitě, zavolejte nám.\n\nV případě, že se nevyjádříte, platbu odešleme jako standardní.\n\nPro více informací volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "title": "Platbu budeme zpracovávat jako standardní",
+                    "detail": "Z technických důvodu budeme zpracovávat platbu jako standardní s dnešním datem splatnosti.\nPlatbu obvykle připíšeme bance příjemce do jednoho pracovního dne.\nPokud řešíte urgentní situaci volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CONTINUE",
-                        "actionLabelText": "Souhlasím, odeslat standardně"
+                        "actionLabelText": "Souhlasím, zpracovat standardně"
                     },
                     "secondaryButton": {
                         "actionType": "CLOSE",
@@ -287,8 +287,8 @@
                     "secondaryButton": "Pokračovat do Smart Banky"
                 },
                 "channelBlocked": {
-                    "title": "Abychom vám umožnili přihlášení, zastavte se prosím za námi na pobočce",
-                    "subtitle": "Bezpečnost je pro nás na prvním místě. Proto bychom se s vámi nejdřív potřebovali vidět.",
+                    "title": "Vaše Smart Banka je zablokovaná, proto není možné přihlásit se pomocí QR kódu",
+                    "subtitle": "Abyste se mohli přihlásit pomocí QR kódu, přihlaste se do Internet Banky ID a heslem a odblokujte si Smart Banku <b>v sekci nastavení - Smart Banka</b>. Pokud některý z údajů neznáte, zastavte se za námi na pobočce.",
                     "branch": "Navštivte nás na pobočce",
                     "primaryButton": "Zavřít"
                 },
@@ -356,7 +356,10 @@
             },
             "savingsInterestRate": [
                 {
-                    "codes": ["596", "597"],
+                    "codes": [
+                        "596",
+                        "597"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -387,7 +390,10 @@
                     }
                 },
                 {
-                    "codes": ["569", "570"],
+                    "codes": [
+                        "569",
+                        "570"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -418,7 +424,9 @@
                     }
                 },
                 {
-                    "codes": ["761"],
+                    "codes": [
+                        "761"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
@@ -448,7 +456,9 @@
                     }
                 },
                 {
-                    "codes": ["default"],
+                    "codes": [
+                        "default"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -481,7 +491,7 @@
             "cifUpdate": {
                 "errorScreens": {
                     "api": {
-                        "title": "Jejda, něco se pokazilo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
+                         "title": "Jejda, něco se pokazilo.\nZavolejte nám a rádi s Vámi vše probereme telefonicky",
                         "detail": "Omlouváme se, ale momentálně není možné pokračovat se změnou osobních údajů ve Smart Bance.",
                         "callUs": "Zavolejte nám\nna infolinku",
                         "primaryButton": "Zpět na přehled zůstatků"
@@ -569,7 +579,7 @@
                     "primaryButton": "Pokračovat k focení"
                 },
                 "loading": {
-                    "title": "Chvilku strpení, všechno to musíme zkontrolovat."
+                   "title": "Chvilku strpení, všechno to musíme zkontrolovat."
                 },
                 "uploadRetry": {
                     "title": "Jejda, takhle to nepůjde",
@@ -579,93 +589,93 @@
                 },
                 "documentUploadVictory": {
                     "title": "Zpracováváme",
-                    "detail": "Děkujeme. Teď to musíme zkontrolovat my. Do 5 dní Vám dáme vědět.",
+                   "detail": "Děkujeme. Teď to musíme zkontrolovat my. Do 5 dní Vám dáme vědět.",
                     "primaryButton": "Rozumím"
                 }
             },
-            "cifUpdateV2": {
-                "documentScan": {
-                    "info": {
-                        "bullets": [
+            "cifUpdateV2" : {
+                "documentScan" : {
+                    "info" : {
+                        "bullets" : [
                             {
-                                "icon": "idCardFill",
-                                "title": "Platný doklad ze správné strany a na šířku"
+                                "icon" : "idCardFill",
+                                "title" : "Platný doklad ze správné strany a na šířku"
                             },
                             {
-                                "icon": "lightBulbOnFill",
-                                "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
+                                "icon" : "lightBulbOnFill",
+                                "title" : "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků"
                             }
                         ],
-                        "detail": "Ujistěte se, že fotíte",
-                        "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
-                        "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
-                        "primaryButton": "Pokračovat k focení"
+                        "detail" : "Ujistěte se, že fotíte",
+                        "idBackTitle" : "Nyní vyfotíte zadní stranu občanského průkazu",
+                        "idFrontTitle" : "Nyní vyfotíte přední stranu občanského průkazu",
+                        "primaryButton" : "Pokračovat k focení"
                     },
-                    "permissionErrorScreen": {
-                        "detail": "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
-                        "primaryButton": "Povolit fotoaparát",
-                        "title": "Aplikace potřebuje oprávnění"
+                    "permissionErrorScreen" : {
+                        "detail" : "Aby bylo možné, kvůli ověření Vaší totožnosti, vyfotit Vaše doklady, povolte Smart Bance focení v <a>nastavení</a>.<br/><br/>Nechcete fotit Vaše doklady? Přineste nám je na pobočku.",
+                        "primaryButton" : "Povolit fotoaparát",
+                        "title" : "Aplikace potřebuje oprávnění"
                     },
-                    "scanFailed": {
-                        "detail": "Zkontrolujte a doplňte je prosím v dalším kroku.",
-                        "primaryButton": "Vyfotit znovu",
-                        "title": "Vaše údaje se nám nepodařilo správně načíst"
+                    "scanFailed" : {
+                        "detail" : "Zkontrolujte a doplňte je prosím v dalším kroku.",
+                        "primaryButton" : "Vyfotit znovu",
+                        "title" : "Vaše údaje se nám nepodařilo správně načíst"
                     },
-                    "takePhoto": {
-                        "drivingLicenceTitle": "Přední strana řidičského průkazu",
-                        "idBackTitle": "Zadní strana občanského průkazu",
-                        "idFrontTitle": "Přední strana občanského průkazu",
-                        "no": "Ne, znovu",
-                        "passportLicenceTitle": "Úvodní strana cestovního pasu",
-                        "reviewTitle": "Je vše dobře viditelné?",
-                        "takePhoto": "Vyfotit",
-                        "tooltip": "Ostrá, bez odlesků a čitelná",
-                        "yes": "Ano"
+                    "takePhoto" : {
+                        "drivingLicenceTitle" : "Přední strana řidičského průkazu",
+                        "idBackTitle" : "Zadní strana občanského průkazu",
+                        "idFrontTitle" : "Přední strana občanského průkazu",
+                        "no" : "Ne, znovu",
+                        "passportLicenceTitle" : "Úvodní strana cestovního pasu",
+                        "reviewTitle" : "Je vše dobře viditelné?",
+                        "takePhoto" : "Vyfotit",
+                        "tooltip" : "Ostrá, bez odlesků a čitelná",
+                        "yes" : "Ano"
                     },
-                    "upload": {
-                        "cancelButton": "Zkusit příště",
+                    "upload" : {
+                        "cancelButton" : "Zkusit příště",
                         "error": "Omlouváme se, tak tohle nevyšlo",
-                        "nok": "Tohle ve Smart Bance neumíme.\nVyřešíme to spolu na pobočce",
-                        "takeAgainButton": "Vyfotit znovu",
-                        "title": "Zpracováváme vyfocený doklad, hned to bude"
+                        "nok" : "Tohle ve Smart Bance neumíme.\nVyřešíme to spolu na pobočce",
+                        "takeAgainButton" : "Vyfotit znovu",
+                        "title" : "Zpracováváme vyfocený doklad, hned to bude"
                     },
-                    "wrongDocument": {
-                        "detail": "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
-                        "primaryButton": "Vyfotit znovu",
-                        "title": "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou"
+                    "wrongDocument" : {
+                        "detail" : "Ujistěte se, že fotíte správný doklad (český), že je v záběru celý a údaje nejsou rozostřené.",
+                        "primaryButton" : "Vyfotit znovu",
+                        "title" : "Nepodařilo se načíst údaje z Vašeho dokladu. Vyfoťte ho prosím ještě jednou"
                     }
                 },
-                "intro": {
-                    "bullets": [
+                "intro" : {
+                    "bullets" : [
                         {
-                            "description": "Vyfotíte svůj platný český občanský průkaz z obou stran.",
-                            "icon": "idCardFill",
-                            "title": "Focení občanského průkazu"
+                            "description" : "Vyfotíte svůj platný český občanský průkaz z obou stran.",
+                            "icon" : "idCardFill",
+                            "title" : "Focení občanského průkazu"
                         }
                     ],
-                    "primaryButton": "Spustit focení",
-                    "title": "V následujícím kroku ověříme vaši totožnost"
+                    "primaryButton" : "Spustit focení",
+                    "title" : "V následujícím kroku ověříme vaši totožnost"
                 },
-                "uploadReview": {
-                    "birthNumber": "Rodné číslo",
-                    "citizenship": "Státní občanství",
-                    "citizenshipValue": "pouze Česká republika",
-                    "city": "Město",
-                    "dateOfBirth": "Datum narození",
-                    "descriptiveNumber": "Č. popisné",
-                    "detail": "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
-                    "firstName": "Jméno",
-                    "idCardNumber": "Číslo dokladu",
-                    "idCardValidTo": "Platnost do",
-                    "lastName": "Příjmení",
-                    "orientationNumber": "Č. orientační",
-                    "placeOfBirth": "Místo narození",
-                    "primaryButton": "Pokračovat",
-                    "sectionAddress": "<b>Trvalý pobyt</b> (pouze Česká republika)",
-                    "sectionScan": "<b>Údaje z dokladu</b>",
-                    "street": "Ulice",
-                    "title": "Načetli jsme Vaše údaje správně?",
-                    "zipCode": "PSČ"
+                "uploadReview" : {
+                    "birthNumber" : "Rodné číslo",
+                    "citizenship" : "Státní občanství",
+                    "citizenshipValue" : "pouze Česká republika",
+                    "city" : "Město",
+                    "dateOfBirth" : "Datum narození",
+                    "descriptiveNumber" : "Č. popisné",
+                    "detail" : "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
+                    "firstName" : "Jméno",
+                    "idCardNumber" : "Číslo dokladu",
+                    "idCardValidTo" : "Platnost do",
+                    "lastName" : "Příjmení",
+                    "orientationNumber" : "Č. orientační",
+                    "placeOfBirth" : "Místo narození",
+                    "primaryButton" : "Pokračovat",
+                    "sectionAddress" : "<b>Trvalý pobyt</b> (pouze Česká republika)",
+                    "sectionScan" : "<b>Údaje z dokladu</b>",
+                    "street" : "Ulice",
+                    "title" : "Načetli jsme Vaše údaje správně?",
+                    "zipCode" : "PSČ"
                 }
             },
             "overlay": {
@@ -728,19 +738,19 @@
             },
             "smallBusinessScenes": {
                 "banners": {
-                    "noProductName": "Výhodné nabídky pro Vás",
+                    "noProductName": "Získejte až 1 500 000 Kč",
                     "title": "{type} čeká zde",
                     "productCreditCardName": "Kreditka",
                     "productExpressName": "Půjčka",
                     "productFlexiName": "Kontokorent",
                     "productTopupName": "Navýšení",
-                    "inProgressText": "Máte rozpracovanou žádost o {type}",
+                    "inProgressText": "Dokončete {type}",
                     "productCreditCardInProgressName": "kreditní kartu",
                     "productExpressInProgressName": "půjčku",
                     "productFlexiInProgressName": "kontokorent",
                     "productTopupInProgressName": "navýšení kontokorentu",
                     "tabTitle": "Máme pro Vás připraveno",
-                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
+                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
                     "productFlexiTopUpInfo": "<b>Navýšení kontokorentu Flexi Business až na {amount}</b> s úrokem od {rate}",
                     "productExpressInfo": "<b>O 33 % nižší úrok na úvěr Expres Business.</b> Získejte až {amount} Kč online.",
                     "productCreditCardInfo": "<b>Moneta Business Card s limitem až {amount}</b> Vám vrátí 5 % za každé tankování, po dobu půl roku až 1 000 Kč měsíčně."
@@ -749,15 +759,15 @@
                     "enabled": true,
                     "dependentOnInfolimit": true,
                     "tabLabel": "Potřebujete více?",
-                    "title": "Pokud potřebujete vyšší úvěr, stačí když:",
+                    "title": "Pojďte naproti výhodným nabídkám",
                     "bullets": [
                         {
                             "iconName": "repeatFill",
-                            "body": "<b>Zvýšíte obrat na svém běžném účtu</b> a budete ho využívat naplno, tedy například odesílat více transakcí. Jako hlavní banka pro vaše podnikání vám pak můžeme nabídnout výhodnější sazby a další bonusy."
+                            "body": "<b>Zvyšte obrat na svém běžném účtu</b> a využívejte ho naplno. Jako hlavní banka pro vaše podnikání vám poté můžeme nabídnout výhodnější sazby a další bonusy."
                         },
                         {
                             "iconName": "bankFill",
-                            "body": "<b>Zastavíte se za námi na pobočce</b> a naši bankéři připraví nabídku na míru vašemu podnikání. Také s sebou prosím vezměte poslední daňové přiznání, s ním bude všechno snazší."
+                            "body": "<b>Zastavte se za námi na pobočce</b> a naši bankéři Vám připraví nabídku na míru Vašemu podnikání. Nezapomeňte s sebou prosím vzít poslední daňové přiznání. S ním bude všechno snazší."
                         }
                     ],
                     "primaryButton": {
@@ -883,7 +893,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -914,7 +924,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -945,7 +955,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -976,7 +986,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1007,7 +1017,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1038,7 +1048,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1069,7 +1079,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 2,6 % p. a. do 31. 12. 2025",
+                            "title": "GARANCE úroku 2,6 % p. a. do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
