@@ -65,7 +65,7 @@
                 "buttonDashboard": {
                     "title": "In case of suspected account misuse",
                     "detail": "Block access to online banking",
-                    "primary": "I suspect unauthorized access"
+                    "primary": "Suspicious activity on your account?"
                 },
                 "buttonCommon": {
                     "title": "Block access to online banking",
@@ -203,11 +203,11 @@
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
-                    "title": "The payment will be sent as a standard payment",
-                    "detail": "Due to technical reasons, we have changed the due date of your payment to standard. If you need to send the payment instantly, please call us.\n\nIf you do not contact us, the payment will be sent as standard.\n\nFor more information call <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "title": "We’ll process the payment as a standard",
+                    "detail": "For technical reasons, we’ll process the payment as a standard transfer with today’s due date.\nThe payment is usually credited to the recipient’s bank within one business day.\nIf this is an urgent matter, please call <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CONTINUE",
-                        "actionLabelText": "Confirm, send as standard"
+                        "actionLabelText": "Process as standard"
                     },
                     "secondaryButton": {
                         "actionType": "CLOSE",
@@ -286,8 +286,8 @@
                     "secondaryButton": "Continue to Smart Banka"
                 },
                 "channelBlocked": {
-                    "title": "In order to log in, please visit a branch",
-                    "subtitle": "As security is our top priority, you must verify your identity in person.",
+                    "title": "Your Smart Banka is blocked, so you can’t sign in using the QR code.",
+                    "subtitle": "To sign in with a QR code, log in to Internet Banking with your ID and password and unblock your Smart Banka <b>app in Settings – Smart Banking</b>. If you don’t remember any of your login details, please visit one of our branches.",
                     "branch": "Visit a branch",
                     "primaryButton": "Close"
                 },
@@ -727,19 +727,19 @@
             },
             "smallBusinessScenes": {
                 "banners": {
-                    "noProductName": "Výhodné nabídky pro Vás",
+                    "noProductName": "Získejte až 1 500 000 Kč",
                     "title": "{type} čeká zde",
                     "productCreditCardName": "Kreditka",
                     "productExpressName": "Půjčka",
                     "productFlexiName": "Kontokorent",
                     "productTopupName": "Navýšení",
-                    "inProgressText": "Máte rozpracovanou žádost o {type}",
+                    "inProgressText": "Dokončete {type}",
                     "productCreditCardInProgressName": "kreditní kartu",
                     "productExpressInProgressName": "půjčku",
                     "productFlexiInProgressName": "kontokorent",
                     "productTopupInProgressName": "navýšení kontokorentu",
                     "tabTitle": "Máme pro Vás připraveno",
-                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p.a. který platíte, jen když jej čerpáte",
+                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
                     "productFlexiTopUpInfo": "<b>Navýšení kontokorentu Flexi Business až na {amount}</b> s úrokem od {rate}",
                     "productExpressInfo": "<b>O 33 % nižší úrok na úvěr Expres Business.</b> Získejte až {amount} Kč online.",
                     "productCreditCardInfo": "<b>Moneta Business Card s limitem až {amount}</b> Vám vrátí 5 % za každé tankování, po dobu půl roku až 1 000 Kč měsíčně."
@@ -748,15 +748,15 @@
                     "enabled": true,
                     "dependentOnInfolimit": true,
                     "tabLabel": "Potřebujete více?",
-                    "title": "Pokud potřebujete vyšší úvěr, stačí když:",
+                    "title": "Pojďte naproti výhodným nabídkám",
                     "bullets": [
                         {
                             "iconName": "repeatFill",
-                            "body": "<b>Zvýšíte obrat na svém běžném účtu</b> a budete ho využívat naplno, tedy například odesílat více transakcí. Jako hlavní banka pro vaše podnikání vám pak můžeme nabídnout výhodnější sazby a další bonusy."
+                            "body": "<b>Zvyšte obrat na svém běžném účtu</b> a využívejte ho naplno. Jako hlavní banka pro vaše podnikání vám poté můžeme nabídnout výhodnější sazby a další bonusy."
                         },
                         {
                             "iconName": "bankFill",
-                            "body": "<b>Zastavíte se za námi na pobočce</b> a naši bankéři připraví nabídku na míru vašemu podnikání. Také s sebou prosím vezměte poslední daňové přiznání, s ním bude všechno snazší."
+                            "body": "<b>Zastavte se za námi na pobočce</b> a naši bankéři Vám připraví nabídku na míru Vašemu podnikání. Nezapomeňte s sebou prosím vzít poslední daňové přiznání. S ním bude všechno snazší."
                         }
                     ],
                     "primaryButton": {
@@ -882,7 +882,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -913,7 +913,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -944,7 +944,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -975,7 +975,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1006,7 +1006,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1037,7 +1037,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1068,7 +1068,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 2,6 % p. a. do 31. 12. 2025",
+                            "title": "GARANCE úroku 2,6 % p. a. do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1154,7 +1154,7 @@
                 },
                 {
                     "salesProdType": "14007",
-                    "title": "A special offer just for you:\nGet an interest rate of 3.3 % p.a. with our term deposit",
+                    "title": "A special offer just for you:\nGet an interest rate of 3.3 % p.a. with our term deposit",
                     "icon": "moneta",
                     "bullets": [
                         {
@@ -1181,7 +1181,7 @@
                 },
                 {
                     "salesProdType": "14008",
-                    "title": "A special offer just for you:\nGet an interest rate of 3.3 % p.a. with our term deposit",
+                    "title": "A special offer just for you:\nGet an interest rate of 3.3 % p.a. with our term deposit",
                     "icon": "moneta",
                     "bullets": [
                         {

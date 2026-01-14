@@ -65,7 +65,7 @@
                 "buttonDashboard": {
                     "title": "Při podezření na zneužití účtu",
                     "detail": "Zablokovat bankovnictví",
-                    "primary": "Mám podezření na zneužití účtu"
+                    "primary": "Máte podezření na zneužití účtu?"
                 },
                 "buttonCommon": {
                     "title": "Zablokovat bankovnictví",
@@ -203,11 +203,11 @@
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
-                    "title": "Platbu odešleme jako standardní",
-                    "detail": "Z technických důvodů odešleme vaši platbu jako standardní s dnešním datem splatnosti.Pokud potřebujete odeslat platbu okamžitě, zavolejte nám.\n\nV případě, že se nevyjádříte, platbu odešleme jako standardní.\n\nPro více informací volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "title": "Platbu budeme zpracovávat jako standardní",
+                    "detail": "Z technických důvodu budeme zpracovávat platbu jako standardní s dnešním datem splatnosti.\nPlatbu obvykle připíšeme bance příjemce do jednoho pracovního dne.\nPokud řešíte urgentní situaci volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CONTINUE",
-                        "actionLabelText": "Souhlasím, odeslat standardně"
+                        "actionLabelText": "Souhlasím, zpracovat standardně"
                     },
                     "secondaryButton": {
                         "actionType": "CLOSE",
@@ -287,8 +287,8 @@
                     "secondaryButton": "Pokračovat do Smart Banky"
                 },
                 "channelBlocked": {
-                    "title": "Abychom vám umožnili přihlášení, zastavte se prosím za námi na pobočce",
-                    "subtitle": "Bezpečnost je pro nás na prvním místě. Proto bychom se s vámi nejdřív potřebovali vidět.",
+                    "title": "Vaše Smart Banka je zablokovaná, proto není možné přihlásit se pomocí QR kódu",
+                    "subtitle": "Abyste se mohli přihlásit pomocí QR kódu, přihlaste se do Internet Banky ID a heslem a odblokujte si Smart Banku <b>v sekci nastavení - Smart Banka</b>. Pokud některý z údajů neznáte, zastavte se za námi na pobočce.",
                     "branch": "Navštivte nás na pobočce",
                     "primaryButton": "Zavřít"
                 },
@@ -728,19 +728,19 @@
             },
             "smallBusinessScenes": {
                 "banners": {
-                    "noProductName": "Výhodné nabídky pro Vás",
+                    "noProductName": "Získejte až 1 500 000 Kč",
                     "title": "{type} čeká zde",
                     "productCreditCardName": "Kreditka",
                     "productExpressName": "Půjčka",
                     "productFlexiName": "Kontokorent",
                     "productTopupName": "Navýšení",
-                    "inProgressText": "Máte rozpracovanou žádost o {type}",
+                    "inProgressText": "Dokončete {type}",
                     "productCreditCardInProgressName": "kreditní kartu",
                     "productExpressInProgressName": "půjčku",
                     "productFlexiInProgressName": "kontokorent",
                     "productTopupInProgressName": "navýšení kontokorentu",
                     "tabTitle": "Máme pro Vás připraveno",
-                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
+                    "productFlexiInfo": "<b>Kontokorent Flexi Business až {amount}</b> s úrokem od {rate} p. a. který platíte, jen když jej čerpáte",
                     "productFlexiTopUpInfo": "<b>Navýšení kontokorentu Flexi Business až na {amount}</b> s úrokem od {rate}",
                     "productExpressInfo": "<b>O 33 % nižší úrok na úvěr Expres Business.</b> Získejte až {amount} Kč online.",
                     "productCreditCardInfo": "<b>Moneta Business Card s limitem až {amount}</b> Vám vrátí 5 % za každé tankování, po dobu půl roku až 1 000 Kč měsíčně."
@@ -749,15 +749,15 @@
                     "enabled": true,
                     "dependentOnInfolimit": true,
                     "tabLabel": "Potřebujete více?",
-                    "title": "Pokud potřebujete vyšší úvěr, stačí když:",
+                    "title": "Pojďte naproti výhodným nabídkám",
                     "bullets": [
                         {
                             "iconName": "repeatFill",
-                            "body": "<b>Zvýšíte obrat na svém běžném účtu</b> a budete ho využívat naplno, tedy například odesílat více transakcí. Jako hlavní banka pro vaše podnikání vám pak můžeme nabídnout výhodnější sazby a další bonusy."
+                            "body": "<b>Zvyšte obrat na svém běžném účtu</b> a využívejte ho naplno. Jako hlavní banka pro vaše podnikání vám poté můžeme nabídnout výhodnější sazby a další bonusy."
                         },
                         {
                             "iconName": "bankFill",
-                            "body": "<b>Zastavíte se za námi na pobočce</b> a naši bankéři připraví nabídku na míru vašemu podnikání. Také s sebou prosím vezměte poslední daňové přiznání, s ním bude všechno snazší."
+                            "body": "<b>Zastavte se za námi na pobočce</b> a naši bankéři Vám připraví nabídku na míru Vašemu podnikání. Nezapomeňte s sebou prosím vzít poslední daňové přiznání. S ním bude všechno snazší."
                         }
                     ],
                     "primaryButton": {
@@ -883,7 +883,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -914,7 +914,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -945,7 +945,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -976,7 +976,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1007,7 +1007,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1038,7 +1038,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1069,7 +1069,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 2,6 % p. a. do 31. 12. 2025",
+                            "title": "GARANCE úroku 2,6 % p. a. do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
