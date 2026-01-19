@@ -67,6 +67,8 @@
         "primaryButton": "Pokračovat",
         "item1Title": "Vyberete si, kam pošleme peníze.",
         "item1Description": "Třeba i ty, které vám přijdou v průběhu rušení.",
+        "item2TitleInvestment": "Zruší se možnost obsluhovat EUR fondy.",
+        "item2DescriptionInvestment": "Po zrušení účtu nebudete moct nakupovat ani prodávat své EUR podílové fondy. I nadále uvidíte, jak si vedou.",
         "item2Title": "Účet zrušíme do 40 dní.",
         "item2Description": "Spolu s účtem zrušíme také všechny karty a trvalé příkazy s ním spojené.",
         "item3Title": "Zrušení účtu je nevratné",
@@ -80,12 +82,18 @@
         "primaryButton": "Zrušit účet"
     },
     "balanceTransferForeignCurrency": {
+        "title": "Zvolte účet pro převod prostředků",
+        "chooseAccountSectionTitle": "Vyberte účet pro zaslání zůstatku",
+        "accountInputTitle": "Výběr cílového účtu",
+        "accountInputValue": "vyberte",
         "message": "Pokud převedete peníze na jinou měnu, přepočítá se částka podle aktuálního kurzu platného v den převodu.",
         "sectionTitle": "Zrušíme tyto produkty",
         "balance": "Zůstatek",
         "debitCard": "Debetní karta č. {0}",
         "foreignInvestment": "Zrušení aktivních operací pro podílové fondy",
-        "standingOrders": "Trvalé příkazy"
+        "standingOrders": "Trvalé příkazy",
+        "primaryButton": "Pokračovat",
+        "secondaryButton:": "Nerušit účet"
     },
     "balanceTransferConfirmation": {
         "title": "Tato akce je nevratná",
@@ -119,6 +127,17 @@
         "branch": "Naštivte nás\nna pobočce",
         "primaryButton": "Zpět",
         "secondaryButton": "Ukončit zrušení"
+    },
+    "victoryErrorTermDeposit": {
+        "title": "Účet teď bohužel nemůžeme zrušit",
+        "detail": "Účet nemůžeme zrušit, protože je potřeba k vedení těchto produktů:",
+        "listItem": "Termínovaný vklad",
+        "primaryButton": "Zpět na Přehled"
+    },
+    "victoryBranch": {
+        "title": "Tento účet není možné zrušit online",
+        "detail": "Pokud ho chcete zrušit, zastavte se za námi na pobočce.",
+        "primaryButton": "Zpět na Přehled"
     },
     "error": {
         "title": "Účet teď bohužel zrušit nemůžeme",
