@@ -14,7 +14,7 @@
         },
         "cardType": {
             "title": "Jakou kartu zvolíte?",
-            "footer": "Více informací o poplatcích za plastové karty najdete v našem <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">sazebníku.</a>",
+            "footer": "Více informací o poplatcích za plastové karty najdete v našem <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">sazebníku</a>.",
             "cardTechOptions": [
                 {
                     "type": "PLASTIC",
@@ -35,14 +35,14 @@
             "variantDetail": {
                 "title": "Varianty platebních karet",
                 "virtualTitle": "Virtuální karta",
-                "virtualDescription": "Pro placení a výběry si ji můžete přidat do mobilu hned po sjednání. Více informací o virtuálních kartách najdete na <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">našem webu.</a>",
+                "virtualDescription": "Pro placení a výběry si ji můžete přidat do mobilu hned po sjednání. Více informací o virtuálních kartách najdete na <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">našem webu</a>.",
                 "virtualMessage": "Pro nastavení karty, zobrazení PINu a čísla karty je třeba mít aktivní Smart Banku.",
                 "plasticTitle": "Plastová karta",
                 "plasticDescription": "Fyzická karta, kterou dobře znáte. Do mobilu si ji můžete přidat také."
             },
             "virtualButtonFree": "Chci virtuální ZDARMA",
             "virtualButton": "Chci virtuální za {0} měsíčně",
-            "plasticButtonFree": "Chci virtuální ZDARMA",
+            "plasticButtonFree": "Chci plastovou ZDARMA",
             "plasticButton": "Chci plastovou za {0} měsíčně",
             "variants": [
                 {
@@ -157,22 +157,26 @@
                             "color": "gold"
                         },
                         {
+                            "icon": "atmHorizontalFill",
                             "title": "Výběry z bankomatů zdarma",
                             "color": "gold"
                         },
                         {
+                            "icon": "vacationFill",
                             "title": "Cestovní pojištění Komfort",
                             "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
+                            "icon": "electronicsFill",
                             "title": "Pojištění cenností, karet, elektroniky a telefonu",
                             "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
+                            "icon": "planeDepartureFill",
                             "title": "Bonusový program Priority Pass",
                             "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold",
@@ -561,7 +565,7 @@
                         {
                             "title": "Ověří svou totožnost ve Smart Bance",
                             "info": {
-                                "title": "Ověření totožnosti ve Smart Bance ",
+                                "title": "Ověření totožnosti ve Smart Bance",
                                 "detail": "E-mail obsahuje instrukce, jak při ověření přes Smart Banku postupovat. Pokud ji držitel ještě nemá, obdrží informace o tom, jak si ji stáhnout a aktivovat."
                             }
                         },
