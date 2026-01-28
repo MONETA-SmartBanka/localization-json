@@ -1,0 +1,168 @@
+{
+    "errorScreens": {
+        "branch": {
+            "title": "Let’s meet in person",
+            "detail": "Do you have any questions? Call our Helpline or visit one of our branches ",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Overview"
+        },
+        "noPhone": {
+            "title": "What is your contact phone number?",
+            "detail": "In order to continue, we need to know your phone number. Please update it with the bank which you use for BankID, then return to continue your card application.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Overview",
+            "secondaryButton": "Cancel application"
+        },
+        "general": {
+            "title": "Something went wrong, our apologies",
+            "detail": "Please try again later",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Overview"
+        },
+        "invalidToken": {
+            "title": "Unknown QR code",
+            "detail": "Please make sure you are scanning the correct QR code and try again ",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Scan again"
+        },
+        "contractDisagree": {
+            "title": "Máte nějaké otázky?",
+            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "cancelledExpire": {
+            "title": "The request for a new card has been canceled",
+            "detail": "Since you did not complete the verification within 7 days, we have canceled your request.\nTo submit a new card application, please contact the account owner.",
+            "primaryButton": "Back to Overview"
+        },
+        "cancelledHolder": {
+            "title": "The request for a new card has been canceled",
+            "detail": "To submit a new card application, please contact the account owner.",
+            "primaryButton": "Back to Overview"
+        },
+        "invalidData": {
+            "title": "Please check the details from the invitation and try verifying again",
+            "detail": "It’s possible that your details differ from those listed in the invitation. Please ask the person who invited you to review them.\n\nIf it still doesn’t work, schedule an appointment at a branch and visit us together. We’ll be happy to help you complete the process.",
+            "primaryButton": "Close"
+        },
+        "alreadyExists": {
+            "title": "The verification process has been started on another device",
+            "detail": "Please use said device to finish it",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back"
+        }
+    },
+    "scenes": {
+        "start": {
+            "title": "Cardholder verification",
+            "detailCredit": "<b>Card type:</b> {cardType}\n<b>Account owner:</b> {contractOwner}\n<b>Agreement number:</b> {contractNumber}",
+            "detailDebit": "<b>Card type:</b> {cardType}\n<b>Account owner:</b> {accountOwner}\n<b>Account number:</b> {accountNumber}",
+            "bulletsTitleExistingUser": "Follow these steps",
+            "bulletsExistingUser": [
+                {
+                    "title": "Enter the remaining details for your new card"
+                },
+                {
+                    "title": "Sign the agreement"
+                },
+                {
+                    "title": "The card will be mailed to you as soon as the account owner confirms it."
+                }
+            ],
+            "bulletsTitleAcquisitionUserBankId": "First, we will verify your identity via BankID",
+            "bulletsAcquisitionUserBankId": [
+                {
+                    "title": "Log in to one of your other bank accounts"
+                },
+                {
+                    "title": "We will retrieve the necessary information "
+                },
+                {
+                    "title": "Identity verification",
+                    "description": "In the last step, we will verify your identity. "
+                }
+            ],
+            "bulletsTitleAcquisitionUserDetails": "Then, we will finalize the details",
+            "bulletsAcquisitionUserDetails": [
+                {
+                    "title": "You will enter the remaining details for your new card and sign the agreement "
+                },
+                {
+                    "title": "The card will be sent as soon as the account owner confirms the request "
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "deliveryAddress": {
+            "title": "Address for card delivery",
+            "changeAddressInfo": "Do you wish to have the card delivered to a different address?\nChange the contact address in Settings under ‘About Me’",
+            "addressTypes": [
+                {
+                    "type": "CONTACT",
+                    "text": "Contact address"
+                },
+                {
+                    "type": "PERMANENT",
+                    "text": "Permanent address"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_FOP",
+                    "text": "Adresa podnikání"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_PO",
+                    "text": "Sídlo firmy"
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "staticDocuments": {
+            "title": "Review the pre-contractual information",
+            "detail": "All documents can be found in Smart Banka, Internet Banka under ‘Document’ as well as in your email.",
+            "primaryButton": "Agree and accept",
+            "secondaryButton": "Decline"
+        },
+        "scoring": {
+            "title": "Just a moment, processing.",
+            "detail": "It will only take a minute."
+        },
+        "waitingBeforeNeedsAnalysis": {
+            "title": "Just a moment please",
+            "detail": "Getting things ready"
+        },
+        "needsAnalysis": {
+            "title": "Review the insurance documentation",
+            "detail": "All documents can be found in Smart Banka and Internet Banka uder ‘Documents’",
+            "agree": "By clicking ‘Continue’ I confirm that I have reviewed the documents",
+            "primaryButton": "Continue"
+        },
+        "waitingBeforeContract": {
+            "title": "Just a moment please",
+            "detail": "Getting things ready"
+        },
+        "contract": {
+            "title": "Review the Cardholder Agreement",
+            "detail": "All documents can be found in Smart Banka, Internet Banka under ‘Document’ as well as in your email.",
+            "primaryButton": "Agree and accept",
+            "secondaryButton": "Decline"
+        },
+        "victoryPlastic": {
+            "title": "Almost done - ine signatures are left",
+            "detail": "Once the request has been approved by all approvers, your card will be sent.",
+            "primaryButton": "Back to Overview"
+        },
+        "victoryVirtual": {
+            "title": "Almost done - ine signatures are left",
+            "detail": "Once the request has been approved by all approvers, your virtual card can be added to your smartphone.",
+            "primaryButton": "Back to Overview"
+        }
+    }
+}
