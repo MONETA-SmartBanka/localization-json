@@ -2,14 +2,14 @@
     "errorScreens": {
         "branch": {
             "title": "Let’s meet in person",
-            "detail": "Do you have any questions? Call our Helpline or visit one of our branches ",
+            "detail": "Do you have any questions? Call our Helpline or visit one of our branches",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back to Overview"
         },
         "noPhone": {
             "title": "What is your contact phone number?",
-            "detail": "In order to continue, we need to know your phone number. Please update it with the bank which you use for BankID, then return to continue your card application.",
+            "detail": "To continue, we need your phone number. Please add it with the bank where you have your Bank Identity, then continue your card application.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back to Overview",
@@ -17,25 +17,25 @@
         },
         "general": {
             "title": "Something went wrong, our apologies",
-            "detail": "Please try again later",
+            "detail": "Unfortunately, we can’t continue right now. Please try again in a moment.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back to Overview"
         },
         "invalidToken": {
             "title": "Unknown QR code",
-            "detail": "Please make sure you are scanning the correct QR code and try again ",
+            "detail": "Please make sure you’re scanning the correct QR code and try again.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Scan again"
         },
         "contractDisagree": {
-            "title": "Máte nějaké otázky?",
-            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
+            "title": "Do you have any questions?",
+            "detail": "Call us or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
         },
         "cancelledExpire": {
             "title": "The request for a new card has been canceled",
@@ -48,8 +48,8 @@
             "primaryButton": "Back to Overview"
         },
         "invalidData": {
-            "title": "Please check the details from the invitation and try verifying again",
-            "detail": "It’s possible that your details differ from those listed in the invitation. Please ask the person who invited you to review them.\n\nIf it still doesn’t work, schedule an appointment at a branch and visit us together. We’ll be happy to help you complete the process.",
+            "title": "Please check the details in the invitation and try verifying again",
+            "detail": "It’s possible your details don’t match the information provided. Please ask the person who invited you to review them.\n\nIf it still doesn’t work, please book an appointment at a branch and come in together. We’ll be happy to help you complete the process.",
             "primaryButton": "Close"
         },
         "alreadyExists": {
@@ -63,47 +63,47 @@
     "scenes": {
         "start": {
             "title": "Cardholder verification",
-            "detailCredit": "<b>Card type:</b> {cardType}\n<b>Account owner:</b> {contractOwner}\n<b>Agreement number:</b> {contractNumber}",
+            "detailCredit": "<b>Card type:</b> {cardType}\n<b>Contract owner:</b> {contractOwner}\n<b>Agreement number:</b> {contractNumber}",
             "detailDebit": "<b>Card type:</b> {cardType}\n<b>Account owner:</b> {accountOwner}\n<b>Account number:</b> {accountNumber}",
-            "bulletsTitleExistingUser": "Follow these steps",
+            "bulletsTitleExistingUser": "How does it work?",
             "bulletsExistingUser": [
                 {
-                    "title": "Enter the remaining details for your new card"
+                    "title": "Fill in the remaining details for the new card"
                 },
                 {
-                    "title": "Sign the agreement"
+                    "title": "Sign the application"
                 },
                 {
-                    "title": "The card will be mailed to you as soon as the account owner confirms it."
+                    "title": "We’ll send the card once the account owner confirms it"
                 }
             ],
-            "bulletsTitleAcquisitionUserBankId": "First, we will verify your identity via BankID",
+            "bulletsTitleAcquisitionUserBankId": "Verification via BankID",
             "bulletsAcquisitionUserBankId": [
                 {
-                    "title": "Log in to one of your other bank accounts"
+                    "title": "Sign in using your existing account with another bank"
                 },
                 {
-                    "title": "We will retrieve the necessary information "
+                    "title": "We’ll verify the required details"
                 },
                 {
-                    "title": "Identity verification",
-                    "description": "In the last step, we will verify your identity. "
+                    "title": "Verify your identity",
+                    "description": "In the final step, we’ll confirm it’s really you and no one is impersonating you."
                 }
             ],
-            "bulletsTitleAcquisitionUserDetails": "Then, we will finalize the details",
+            "bulletsTitleAcquisitionUserDetails": "Complete details and send the card",
             "bulletsAcquisitionUserDetails": [
                 {
-                    "title": "You will enter the remaining details for your new card and sign the agreement "
+                    "title": "Fill in the remaining details for your new card and sign the application"
                 },
                 {
-                    "title": "The card will be sent as soon as the account owner confirms the request "
+                    "title": "We’ll send the card once the account owner confirms it"
                 }
             ],
             "primaryButton": "Continue"
         },
         "deliveryAddress": {
             "title": "Address for card delivery",
-            "changeAddressInfo": "Do you wish to have the card delivered to a different address?\nChange the contact address in Settings under ‘About Me’",
+            "changeAddressInfo": "If you’re our client, you can update your address in Settings under “About me.”",
             "addressTypes": [
                 {
                     "type": "CONTACT",
@@ -115,11 +115,11 @@
                 },
                 {
                     "type": "REGISTERED_OFFICE_FOP",
-                    "text": "Adresa podnikání"
+                    "text": "Business address"
                 },
                 {
                     "type": "REGISTERED_OFFICE_PO",
-                    "text": "Sídlo firmy"
+                    "text": "Registered office"
                 }
             ],
             "primaryButton": "Continue"
@@ -155,13 +155,13 @@
             "secondaryButton": "Decline"
         },
         "victoryPlastic": {
-            "title": "Almost done - ine signatures are left",
-            "detail": "Once the request has been approved by all approvers, your card will be sent.",
+            "title": "Almost done — just the signatures left",
+            "detail": "Once the request is approved by all approvers, we’ll send you the card.",
             "primaryButton": "Back to Overview"
         },
         "victoryVirtual": {
-            "title": "Almost done - ine signatures are left",
-            "detail": "Once the request has been approved by all approvers, your virtual card can be added to your smartphone.",
+            "title": "Almost done — just the signatures left",
+            "detail": "Once the request is approved by all approvers, you’ll be able to add your virtual card to your phone.",
             "primaryButton": "Back to Overview"
         }
     }
