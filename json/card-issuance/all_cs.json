@@ -14,7 +14,7 @@
         },
         "cardType": {
             "title": "Jakou kartu zvolíte?",
-            "footer": "Více informací o poplatcích za plastové karty najdete v našem <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">sazebníku</a>.",
+            "footer": "Více informací o poplatcích za plastové karty najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">našem sazebníku</a>.",
             "cardTechOptions": [
                 {
                     "type": "PLASTIC",
@@ -111,7 +111,7 @@
                         },
                         {
                             "icon": "planeDepartureFill",
-                            "title": "Bonusový program Priority Pass",
+                            "title": "Program Priority Pass",
                             "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold",
                             "type": "insurance"
@@ -177,7 +177,7 @@
                         },
                         {
                             "icon": "planeDepartureFill",
-                            "title": "Bonusový program Priority Pass",
+                            "title": "Program Priority Pass",
                             "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold",
                             "type": "insurance"
@@ -475,7 +475,8 @@
         },
         "deliveryAddress": {
             "title": "Adresa pro zaslání karty",
-            "changeAddressInfo": "Chcete poslat kartu na jinou adresu?\nZměňte kontaktní adresu v sekci O mně v Nastavení.",
+            "changeAddressInfoDebit": "Toto jsou adresy majitele účtu. Pokud jím jste vy a chcete poslat kartu na jinou adresu, změňte ji v sekci O mně v Nastavení, nebo požádejte majitele účtu o změnu.",
+            "changeAddressInfoCredit": "Toto jsou adresy stávajícího uživatele. Pokud jím jste vy a chcete poslat kartu na jinou adresu, změňte ji v sekci O mně v Nastavení.",
             "addressTypes": [
                 {
                     "type": "CONTACT",
@@ -487,7 +488,7 @@
                 },
                 {
                     "type": "REGISTERED_OFFICE_FOP",
-                    "text": "Adresa podnikání"
+                    "text": "Sídlo podnikání"
                 },
                 {
                     "type": "REGISTERED_OFFICE_PO",
@@ -515,12 +516,12 @@
             "secondaryButton": "Mám dotaz"
         },
         "loaderContract": {
-            "title": "Chvilku strpení, připravíme vám smlouvu",
+            "title": "Chvilku strpení,\npřipravujeme vám smlouvu",
             "detail": "Brzy budeme pokračovat."
         },
         "contract": {
             "title": "Pro sjednání karty potřebujeme váš souhlas",
-            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
             "primaryButton": "Rozumím a souhlasím",
             "primaryButtonPrepare": "Odeslat k podpisu",
             "secondaryButton": "Nesouhlasím"
@@ -595,11 +596,11 @@
                     ]
                 }
             ],
-            "primaryButton": "Rozumím, zpět na Přehled"
+            "primaryButton": "Přejít na Přehled"
         },
         "questions": {
             "title": "Máte nějaké otázky?",
-            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "detail": "Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět",
@@ -613,24 +614,24 @@
             "done": {
                 "plastic": {
                     "title": "Hotovo!\nPlastová karta už je na cestě",
-                    "detail": "Obvykle dorazí do 14 dní a už teď si ji můžete přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                    "detail": "Obvykle dorazí do 14 dní a už teď si ji můžete přidat do mobilu a okamžitě s ní platit.\nNový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
                 },
                 "virtual": {
                     "title": "Hotovo! S virtuální kartou můžete okamžitě platit",
-                    "detail": "Stačí si ji přidat do mobilu. Nový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                    "detail": "Stačí si ji přidat do mobilu.\nNový PIN ke kartě vám zobrazíme v detailu karty ve Smart Bance a Internet Bance."
                 },
                 "primaryButton": "Přejít na Přehled"
             },
             "waitingAprc": {
                 "plastic": {
                     "title": "Máme skoro hotovo, zbývají už jen podpisy",
-                    "detail": "Až bude žádost podepsaná všemi schvalovateli, odešleme ji. Obvykle dorazí do 14 dní a už ten den bude možné přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě pak zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                    "detail": "Až bude žádost podepsaná všemi schvalovateli, kartu odešleme.\n\nObvykle dorazí do 14 dní a od té chvíle bude možné si ji přidat pro placení mobilem.\nNový PIN ke kartě poté najdete v detailu karty ve Smart Bance a Internet Bance."
                 },
                 "virtual": {
                     "title": "Máme skoro hotovo, zbývají už jen podpisy",
-                    "detail": "Až bude žádost podepsaná všemi schvalovateli, bude možné ji přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě pak zobrazíme v detailu karty ve Smart Bance a Internet Bance."
+                    "detail": "Až bude žádost podepsaná všemi schvalovateli, bude možné si kartu přidat do mobilu a okamžitě s ní platit.\n\nNový PIN ke kartě poté najdete v detailu karty ve Smart Bance a Internet Bance."
                 },
-                "primaryButton": "Zpět na Přehled",
+                "primaryButton": "Přejít na Přehled",
                 "secondaryButton": "Zobrazit průběh schvalování"
             }
         }
@@ -661,20 +662,20 @@
             "secondaryButton": "Ukončit žádost"
         },
         "general": {
-            "title": "Omlouváme se, tak tohle nevyšlo",
+            "title": "Omlouváme se,\ntak tohle nevyšlo",
             "detail": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
             "primaryButton": "Přejít na Přehled"
         },
         "pos": {
             "title": "Tohle online zatím neumíme. Ale zvládneme to spolu na pobočce",
-            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "detail": "Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Přejít na Přehled"
         },
         "longTermProcess": {
-            "title": "Toto bude trvat celou noc",
-            "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné.\n\nBohužel teď nejsme schopni připravit Vaše dokumenty - <b>budeme je pro Vás mít ráno kolem osmé</b>. Děkujeme za strpení.",
+            "title": "Dokumenty k podpisu budou připraveny po osmé ráno",
+            "detail": "Děkujeme vám za trpělivost",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Přejít na Přehled"
@@ -684,7 +685,7 @@
             "detail": "Pro změnu je třeba, aby měl dostatečný počet statutárních zástupců profilu {0} přístup do Internet Banky.\n\nPokud je tato podmínka splněna a stále máte potíže s potvrzením, zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Přejít na Přehled"
+            "primaryButton": "Zpět"
         },
         "disagree": {
             "title": "Bez souhlasu to bohužel nepůjde",
@@ -696,7 +697,7 @@
         },
         "waitingIssuance": {
             "title": "Teď musíme vše zkontrolovat",
-            "detail": "Protože to může chvíli trvat, můžete se vrátit na Přehled. Až bude vše hotovo, pošleme vám SMS.",
+            "detail": "Protože to může chvíli trvat, vraťte se prosím na Přehled.\nAž bude vše hotovo, pošleme vám SMS.",
             "primaryButton": "Přejít na Přehled"
         },
         "waitingInvitation": {

@@ -1,20 +1,20 @@
 {
     "scenes": {
         "productSelection": {
-            "title": "Nová karta",
-            "detail": "Vyberte typ karty, kterou chcete pro sebe nebo pro jiného držitele sjednat.",
-            "debitCard": "Debetní karta k běžnému účtu",
-            "creditCard": "Kreditní karta",
-            "account": "K účtu",
-            "contract": "Ke smlouvě",
-            "chooseAccount": "Vyberte účet",
-            "chooseContract": "Vyberte smlouvu",
-            "primaryButton": "Rozumím",
-            "secondaryButton": "Zrušit"
+            "title": "New card",
+            "detail": "Choose the type of card you want to order for yourself or another cardholder.",
+            "debitCard": "Debit card for a current account",
+            "creditCard": "Credit card",
+            "account": "Linked to account",
+            "contract": "Linked to contract",
+            "chooseAccount": "Select an account",
+            "chooseContract": "Select a contract",
+            "primaryButton": "Got it",
+            "secondaryButton": "Cancel"
         },
         "cardType": {
-            "title": "Choose a new card",
-            "footer": "Information on fees for plastic payment card can be found in the<a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">List of Fees</a>.",
+            "title": "Which card would you like?",
+            "footer": "More information about fees for plastic cards can be found in our <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">fee schedule</a>.",
             "cardTechOptions": [
                 {
                     "type": "PLASTIC",
@@ -33,17 +33,17 @@
                 }
             ],
             "variantDetail": {
-                "title": "Payment Card Options",
+                "title": "Payment card options",
                 "virtualTitle": "Virtual card",
-                "virtualDescription": "Add it right away and use it for payments and withdrawals. Learn more on <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">Moneta’s website</a>.",
-                "virtualMessage": "To manage your card, view the PIN, and see the card number, you need to have an active Smart Banka.",
+                "virtualDescription": "For payments and cash withdrawals, you can add it to your phone right after ordering. More information about virtual cards is available on <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">our website</a>.",
+                "virtualMessage": "To manage your card, view your PIN, and see your card number, you need to have Smart Banka activated.",
                 "plasticTitle": "Plastic card",
-                "plasticDescription": "Physical plastic card as you know it. Can also be added to your smartphone."
+                "plasticDescription": "A physical card you already know well. You can add it to your phone too."
             },
-            "virtualButtonFree": "Choose a FREE virtual card ",
-            "virtualButton": "Choose a virtual card for {0}/month",
-            "plasticButtonFree": "Choose a FREE plastic card",
-            "plasticButton": "Choose a plastic card for {0}/month",
+            "virtualButtonFree": "I want a FREE virtual card",
+            "virtualButton": "Get virtual: {0}/month",
+            "plasticButtonFree": "I want a FREE plastic card",
+            "plasticButton": "Get plastic: {0}/month",
             "variants": [
                 {
                     "type": "14100",
@@ -60,12 +60,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -86,32 +86,32 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         },
                         {
                             "icon": "vacationFill",
-                            "title": "Travel insurance package Comfort",
+                            "title": "Comfort travel insurance",
                             "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
                             "icon": "electronicsFill",
-                            "title": "Valuables, cards, electronics and smartphone insurance",
+                            "title": "Insurance for valuables, cards, electronics and phone",
                             "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
                             "icon": "planeDepartureFill",
-                            "title": "Priority Pass Program",
+                            "title": "Priority Pass program",
                             "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold",
                             "type": "insurance"
@@ -133,12 +133,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -163,21 +163,21 @@
                         },
                         {
                             "icon": "vacationFill",
-                            "title": "Travel insurance package Comfort",
+                            "title": "Comfort travel insurance",
                             "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
                             "icon": "electronicsFill",
-                            "title": "Valuables, cards, electronics and smartphone insurance",
+                            "title": "Insurance for valuables, cards, electronics and phone",
                             "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
                             "color": "gold",
                             "type": "insurance"
                         },
                         {
                             "icon": "planeDepartureFill",
-                            "title": "Priority Pass Program",
+                            "title": "Priority Pass program",
                             "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
                             "color": "gold",
                             "type": "insurance"
@@ -199,12 +199,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -225,12 +225,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -251,12 +251,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -277,12 +277,12 @@
                         },
                         {
                             "icon": "payFill",
-                            "title": "Ready for use immediately after arrangement",
+                            "title": "You can pay with the card right after you order it",
                             "color": "primary"
                         },
                         {
                             "icon": "card",
-                            "title": "Card with a customizable design",
+                            "title": "You can choose the card design",
                             "color": "primary",
                             "type": "designs"
                         }
@@ -305,8 +305,8 @@
             }
         },
         "cardDesign": {
-            "title": "Select your preferred design",
-            "primaryButton": "Pokračovat s tímto vzhledem",
+            "title": "Choose a card design so you can easily spot it in the app",
+            "primaryButton": "Continue with this design",
             "designs": [
                 {
                     "value": "CA141D0001",
@@ -391,7 +391,7 @@
             ]
         },
         "holderType": {
-            "title": "Who is the new cardholder?",
+            "title": "Who will get the new card?",
             "options": [
                 {
                     "type": "SELF",
@@ -400,13 +400,13 @@
                 },
                 {
                     "type": "EXIST",
-                    "title": "An existing user",
+                    "title": "Existing user",
                     "icon": "usersFill"
                 },
                 {
                     "type": "OTHER",
-                    "title": "Another person",
-                    "description": "The cardholder will verify their identity via Smart Banka on their device.",
+                    "title": "Someone else",
+                    "description": "The cardholder will verify their identity in Smart Banka on their phone.",
                     "icon": "plusFill"
                 }
             ],
@@ -420,32 +420,32 @@
                     "value": "EDISPONENT"
                 }
             ],
-            "tooManyCards": "You can have only one plastic and one virtual card linked to this account. You already have both.",
-            "branch": "We can’t help you online. Please visit one of our branches, where we will be happy to assist you setting up your new card.",
+            "tooManyCards": "You can have only one physical card and one virtual card for this account. And you already have them.",
+            "branch": "Unfortunately, this can’t be done online. Please visit a branch and we’ll be happy to issue your payment card.",
             "user": "Select a user",
-            "account": "Linked account",
-            "card": "Linked agreement",
+            "account": "Linked to account",
+            "card": "Linked to contract",
             "primaryButton": "Continue"
         },
         "holderDetailSelf": {
-            "title": "Your contact information",
+            "title": "Your contact details",
             "email": "Email",
-            "info": "Incorrect information? Change it in Settings, under ‘About Me’.",
+            "info": "Are your contact details incorrect? Change them in the About me section in Settings.",
             "primaryButton": "Continue"
         },
         "help": {
-            "title": "You are just a couple of taps away from a new card",
-            "helpHeadline": "Do you have any questions?",
-            "primaryButton": "Finish application",
+            "title": "You’re just a few taps away from ordering another card",
+            "helpHeadline": "Need help with anything?",
+            "primaryButton": "Complete application",
             "secondaryButton": "Go to Overview",
-            "tertiaryButton": "Cancel application",
+            "tertiaryButton": "Cancel request",
             "callUs": "Call Helpline",
             "branch": "Visit a branch"
         },
         "holderDetail": {
-            "title": "New cardholder’s contact information",
-            "detailExist": "Only for the purposes of sending the invitation for identity verification.",
-            "detailOther": "Only for the purposes of sending the invitation for identity verification.",
+            "title": "New cardholder contact details",
+            "detailExist": "Used to send the verification invitation.",
+            "detailOther": "Used to send the verification invitation. All details must exactly match the information the person being verified will provide.",
             "firstName": "First name",
             "lastName": "Last name",
             "birthDate": "Date of birth",
@@ -454,14 +454,14 @@
             "primaryButton": "Continue"
         },
         "cardSetup": {
-            "title": "Card Settings",
-            "detail": "Settings can be changed later in ‘Card Detail’.",
-            "internetMoto": "Internet payments and MO/TO",
-            "secure3d": "Number for 3D Secure",
-            "limitsSection": "Daily Limits",
+            "title": "Card settings",
+            "detail": "You can also change everything later in the card details.",
+            "internetMoto": "Online payments and MO/TO",
+            "secure3d": "3D Secure phone number",
+            "limitsSection": "Daily limits",
             "limitPos": "In-store payments",
             "limitAtm": "ATM withdrawals",
-            "limitInternet": "Internet Payments",
+            "limitInternet": "Online payments",
             "primaryButton": "Continue"
         },
         "clickToPay": {
@@ -475,7 +475,8 @@
         },
         "deliveryAddress": {
             "title": "Address for card delivery",
-            "changeAddressInfo": "Do you want the card to be delivered to a different address? Change your contact address in the ‘About Me’ section in Settings.",
+            "changeAddressDebit": "These are the account owner’s addresses. If that’s you and you want the card sent to a different address, change it in Settings > About me, or ask the account owner to update it.",
+            "changeAddressCredit": "These are the existing user’s addresses. If that’s you and you want the card sent to a different address, change it in Settings > About me.",
             "addressTypes": [
                 {
                     "type": "CONTACT",
@@ -487,51 +488,51 @@
                 },
                 {
                     "type": "REGISTERED_OFFICE_FOP",
-                    "text": "Registered seat"
+                    "text": "Business address"
                 },
                 {
                     "type": "REGISTERED_OFFICE_PO",
-                    "text": "Registered seat"
+                    "text": "Registered office"
                 }
             ],
             "primaryButton": "Continue"
         },
         "loaderDocuments": {
-            "title": "Just a moment, processing.",
-            "detail": "It will only take a minute."
+            "title": "Please bear with us, we’re preparing your documents",
+            "detail": "We’ll continue shortly."
         },
         "precontract": {
-            "title": "Review the following documents before signing the Agreement",
-            "detail": "All documents can be found under ‘Documents’ in Smart Banka, Internet Banka as well as in your email",
-            "confirm": "Stisknutím tlačítka „Pokračovat“ potvrzuji, že jsem se seznámil*a s těmito dokumenty.",
+            "title": "Before signing the agreement, please read these documents",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents, and in your email.",
+            "confirm": "By tapping Continue, I confirm that I have read these documents.",
             "primaryButton": "Continue",
             "secondaryButton": "I have a question"
         },
         "needAnalysis": {
-            "title": "Přečtěte si dokumenty k pojištění",
-            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
-            "agree": "Stisknutím tlačítka „Pokračovat“ potvrzuji, že jsem se seznámil*a s těmito dokumenty.",
-            "primaryButton": "Pokračovat",
-            "secondaryButton": "Mám dotaz"
+            "title": "Please read the insurance documents",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents",
+            "agree": "By tapping Continue, I confirm that I have read these documents.",
+            "primaryButton": "Continue",
+            "secondaryButton": "I have a question"
         },
         "loaderContract": {
-            "title": "Just a moment, preparing the Agreement",
-            "detail": "It should only take a moment."
+            "title": "Just a moment, we’re preparing your contract",
+            "detail": "We’ll continue shortly."
         },
         "contract": {
-            "title": "Your agreement is required to issue the card",
-            "detail": "All documents can be found under ‘Documents’ in Smart Banka, Internet Banka as well as in your email",
-            "primaryButton": "Confirm and agree",
-            "primaryButtonPrepare": "Submit for signature",
-            "secondaryButton": "Decline"
+            "title": "We need your agreement to issue the card.",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents",
+            "primaryButton": "I understand and agree",
+            "primaryButtonPrepare": "Send for signature",
+            "secondaryButton": "I do not agree"
         },
         "summary": {
             "title": "Summary",
-            "name": "Cardholder’s name",
+            "name": "Cardholder name",
             "email": "Email",
             "birthDate": "Date of birth",
             "cardType": "Card type",
-            "cardTypeFree": "ZDARMA",
+            "cardTypeFree": "FREE",
             "cardVariants": [
                 {
                     "title": "Plastic",
@@ -542,168 +543,168 @@
                     "value": "VIRTUAL"
                 }
             ],
-            "account": "Linked account",
-            "card": "Linked agreement",
-            "internetMoto": "Internet and MO/TO payments",
-            "enabled": "Zapnuto",
-            "secure3d": "Number for 3D Secure",
-            "limitPos": "In-store payments",
-            "limitAtm": "ATM withdrawals",
-            "limitInternet": "ATM withdrawals",
+            "account": "For account",
+            "card": "Linked to contract",
+            "internetMoto": "Online and MO/TO payments",
+            "enabled": "On",
+            "secure3d": "3D Secure number",
+            "limitPos": "Card payments",
+            "limitAtm": "Cash withdrawals",
+            "limitInternet": "Online payments",
             "primaryButton": "Continue"
         },
         "invitation": {
             "title": "Now, the new cardholder will verify their identity ",
-            "detail": "They must do so within {0}. The process is as follows:",
+            "detail": "Verification must be completed within {0}. The steps are as follows:",
             "bulletSections": [
                 {
-                    "title": "The new cardholder will",
+                    "title": "New cardholder",
                     "bullets": [
                         {
-                            "title": "Receive an email with instructions"
+                            "title": "They will receive an email with instructions"
                         },
                         {
-                            "title": "Use Smart Banka to verify their identity",
+                            "title": "They will verify their identity in Smart Bank",
                             "info": {
-                                "title": "Identity verification in Smart Banka",
-                                "detail": "The email contains instructions on how to proceed with verification through Smart Banka. If the cardholder does not have it, they will receive information on how to download and activate it."
+                                "title": "Identity verification in Smart Bank",
+                                "detail": "The email includes instructions on how to complete verification in Smart Bank. If the cardholder doesn’t have it yet, they’ll receive information on how to download and activate it."
                             }
                         },
                         {
-                            "title": "We will check their eligibility for the card."
+                            "title": "We will check whether they’re eligible for the card"
                         }
                     ]
                 },
                 {
-                    "title": "You will",
+                    "title": "You",
                     "bullets": [
                         {
-                            "title": "Receive a confirmation of the verification"
+                            "title": "You will receive a notification with the verification result"
                         },
                         {
-                            "title": "Sign the Card Agreement in Smart Banka or Internet Banka"
+                            "title": "You will sign the card agreement in Smart Banka or Internet Banka"
                         }
                     ]
                 },
                 {
-                    "title": "The new cardholder",
+                    "title": "New cardholder",
                     "bullets": [
                         {
-                            "title": "The card will be displayed to them in Smart Banka and Internet Banka, and once added to their smartphone, it can be used for payments immediately",
-                            "description": "If a plastic card was requested, it will be sent to the given address."
+                            "title": "We will show the card in Smart Bank and Internet Bank, and once added to a phone, they can start paying right away",
+                            "description": "If you requested a plastic card, we’ll send it to the address provided."
                         }
                     ]
                 }
             ],
-            "primaryButton": "Confirm, back to Overview"
+            "primaryButton": "Go to Overview"
         },
         "questions": {
             "title": "Do you have any questions?",
-            "detail": "Call us or visit your nearest branch.",
+            "detail": "Give us a call or visit your nearest branch.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back",
-            "secondaryButton": "Cancel request"
+            "secondaryButton": "Cancel application"
         },
         "loaderVictory": {
-            "title": "Just a moment, processing.",
-            "detail": "It will only take a minute."
+            "title": "Just a moment — we need to check everything",
+            "detail": "It’ll only take a moment."
         },
         "victoryScreens": {
             "done": {
                 "plastic": {
-                    "title": "Done!\nThe card is on its way to you",
-                    "detail": "It usually arrives within 14 days, but you can already add it to your smartphone and start paying right away. Your new card PIN will be shown in the card details in Smart Banka and Internet Banka."
+                    "title": "Done! Your plastic card is on its way",
+                    "detail": "It usually arrives within 14 days, and you can add it to your phone right away and start paying instantly.\nWe’ll show your new card PIN in the card details in Smart Banka and Internet Banka."
                 },
                 "virtual": {
-                    "title": "Done!\nThe virtual card is ready for use right away",
-                    "detail": "Just add it to your smartphone. Your new card PIN will be shown in the card details in Smart Banka and Internet Banka."
+                    "title": "Done! You can pay right away with your virtual card",
+                    "detail": "Just add it to your phone.\nWe’ll show your new card PIN in the card details in Smart Banka and Internet Banka."
                 },
                 "primaryButton": "Go to Overview"
             },
             "waitingAprc": {
                 "plastic": {
-                    "title": "Almost done, only signatures are left",
-                    "detail": "Once the application has been signed by all approvers, the card will be sent. It usually arrives within 14 days, but once it is shipped you will be able to add it to your smartphone and start paying right away. Your new card PIN will be shown in the card details in Smart Banka and Internet Banka."
+                    "title": "We’re almost done — just signatures left",
+                    "detail": "Once the request has been signed by all approvers, we’ll send the card.\n\nIt usually arrives within 14 days, and from then on you’ll be able to add it to your phone for mobile payments.\nYou’ll then find your new card PIN in the card details in Smart Banka and Internet Banka."
                 },
                 "virtual": {
-                    "title": "Almost done, only signatures are left",
-                    "detail": "Once the application has been signed by all approvers, you will be able to add it to your smartphone and start paying right away. Your new card PIN will be shown in the card details in Smart Banka and Internet Banka."
+                    "title": "We’re almost done — just signatures left",
+                    "detail": "Once the request has been signed by all approvers, you’ll be able to add the card to your phone and start paying right away.\n\nYou’ll then find your new card PIN in the card details in Smart Bank and Internet Bank."
                 },
                 "primaryButton": "Back to Overview",
-                "secondaryButton": "View Approval Progress"
+                "secondaryButton": "View approval progress"
             }
         }
     },
     "errorScreens": {
         "nonResident": {
             "title": "We can assist you at one of our branches",
-            "detail": "If the cardholder is not a Czech citizen, you and the new cardholder will need to visit one of our branches where we will be happy to assist you.",
+            "detail": "If the cardholder is not a Czech citizen, please visit one of our branches together and we’ll take care of the new card application there.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back",
-            "secondaryButton": "Cancel request"
-        },
-        "underAge": {
-            "title": "The cardholder must be 18 years old as of the day of verification.",
-            "detail": "Please check their date of birth or cancel the request.",
-            "callUs": "Call Helpline",
-            "branch": "Visit a branch",
-            "primaryButton": "Back to Cardholder Information",
-            "secondaryButton": "Cancel request"
-        },
-        "tooManyCards": {
-            "title": "The cardholder can have only one plastic and one virtual card linked to this account. They already have both.",
-            "detail": "Therefore, you can’t request an additional card. Please select a different user or cancel the application.",
-            "callUs": "Call Helpline",
-            "branch": "Visit a branch",
-            "primaryButton": "Select another user",
             "secondaryButton": "Cancel application"
         },
+        "underAge": {
+            "title": "The cardholder must be at least 18 years old",
+            "detail": "Please check their date of birth, or cancel the application.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to cardholder details",
+            "secondaryButton": "Cancel application"
+        },
+        "tooManyCards": {
+            "title": "This account allows each cardholder to have only one physical card and one virtual card. You already have both",
+            "detail": "That’s why you can’t request another card.\nPlease choose a different user or end the request.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Select a different user",
+            "secondaryButton": "End request"
+        },
         "general": {
-            "title": "Something went wrong, our apologies.",
-            "detail": "Please try again later.",
+            "title": "Sorry, it didn’t work this time",
+            "detail": "Unfortunately, we can’t continue right now. Please try again in a moment.",
             "primaryButton": "Go to Overview"
         },
         "pos": {
-            "title": "We can’t help you online just yet, but we will be happy to help you at one of our branches.",
+            "title": "We can’t do this online yet. But we can sort it out together at a branch",
             "detail": "Call us or visit your nearest branch.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Go to Overview"
         },
         "longTermProcess": {
-            "title": "Toto bude trvat celou noc",
-            "detail": "Každý den v noci provádíme údržbu systémů, proto některé nemusí být dostupné.\n\nBohužel teď nejsme schopni připravit Vaše dokumenty - <b>budeme je pro Vás mít ráno kolem osmé</b>. Děkujeme za strpení.",
+            "title": "The documents for signing will be ready after 8 a.m.",
+            "detail": "Thank you for your patience.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Go to Overview"
         },
         "noSigningPossibility": {
-            "title": "The set rules prevent you from performing this action",
-            "detail": "To submit the request, a sufficient number of authorized representatives of profile {0} must have access to Internet Banka.\n\nIf this condition is met and you are still having trouble confirming, give us a call or visit the nearest branch.",
+            "title": "The current rules don’t allow you to complete this action",
+            "detail": "To make this change, a sufficient number of authorised signatories for profile {0} must have access to Internet Bank.\n\nIf this condition is met and you’re still having trouble confirming, call us or visit your nearest branch.",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
-            "primaryButton": "Go to Overview"
+            "primaryButton": "Back"
         },
         "disagree": {
-            "title": "Your agreement is required in order to proceed.",
+            "title": "Unfortunately, we can’t proceed without your agreement",
             "detail": "Do you have any questions?",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
             "primaryButton": "Back",
-            "secondaryButton": "Cancel request"
+            "secondaryButton": "Cancel application"
         },
         "waitingIssuance": {
-            "title": "Teď musíme vše zkontrolovat",
-            "detail": "Protože to může chvíli trvat, můžete se vrátit na Přehled. Až bude vše hotovo, pošleme vám SMS.",
+            "title": "Now we need to check everything",
+            "detail": "This may take a moment, so please go back to Overview.\nOnce everything is ready, we’ll send you an SMS.",
             "primaryButton": "Go to Overview"
         },
         "waitingInvitation": {
-            "title": "Čekáme na ověření držitele",
-            "detail": "Až to bude hotovo, dáme Vám vědět.",
+            "title": "Waiting for cardholder verification",
+            "detail": "We’ll let you know once it’s done.",
             "primaryButton": "Go to Overview",
-            "secondaryButton": "Zrušit žádost"
+            "secondaryButton": "Cancel request"
         }
     }
 }
