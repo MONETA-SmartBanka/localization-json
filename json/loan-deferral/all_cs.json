@@ -145,6 +145,36 @@
                 }
             ],
             "primaryButton": "Pokračovat"
+        },
+        "calculator": {
+            "title": "Na jak dlouho chcete splátky odložit?",
+            "nextInstallment": "Příští splátka: {nextInstallmentDate}",
+            "beforeDeferral": {
+                "title": "Před odkladem",
+                "installmentDate": "Datum příští splátky",
+                "installmentAmount": "Výše splátky",
+                "remainingCount": "Zbývající splátky",
+                "remainingAmount": "Zbývá doplatit",
+                "repaymentDate": "Datum doplacení"
+            },
+            "afterDeferral": {
+                "title": "Po odkladu",
+                "installmentDate": "Datum příští splátky",
+                "installmentAmount": "Výše splátky",
+                "remainingCount": "Zbývající splátky",
+                "remainingCountInfo": {
+                    "title": "Zbývající počet splátek",
+                    "description": "Aby poslední splátka nebyla příliš vysoká, je možné, že je zbývající počet splátek vašeho úvěru navýšen.<br/>Ve splátkách po odkladu uhradíte případné pojištění a úroky za dobu odkladu.<br/>Více informací o odkladu splátek najdete na našem webu."
+                },
+                "remainingAmount": "Zbývá doplatit",
+                "remainingAmountInfo": {
+                    "title": "Zbývá doplatit",
+                    "description": "Částka je navýšená o případné pojištění a úroky za dobu odkladu."
+                },
+                "repaymentDate": "Datum doplacení"
+            },
+            "agree": "Potvrzuji, že momentálně nejsem ve finanční tísni a jsem si vědom*a toho, že odklad splátek může mít vliv na poskytnutí jiného úvěru.",
+            "primaryButton": "Požádat o odklad"
         }
     }
 }
