@@ -1,0 +1,150 @@
+{
+    "errorScreens": {},
+    "scenes": {
+        "ineligibilities": {
+            "howDeferralWorks": "Learn more about how deferral works on our <a href=\"https://www.moneta.cz/odklad-splatek\">website</a>.",
+            "variants": {
+                "CurrAccRel": {
+                    "title": "You can request a payment deferral only if you repay the loan from your current account with Moneta",
+                    "description": "Before requesting a deferral, please make sure you are repaying the loan from this account.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "InstlPaidCount": {
+                    "title": "You can request a payment deferral later",
+                    "description": "The installment for this month has already been generated, so you can ask for a deferral next month.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "InstlNotPaid": {
+                    "title": "You can request a payment deferral later",
+                    "description": "The installment for this month has already been generated, so you can ask for a deferral next month.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "DefCount": {
+                    "title": "You can no longer defer payments on this loan",
+                    "description": "You can defer installments only 3×. You’ve already used this option.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "InstlLeftCount": {
+                    "title": "You can no longer defer payments on this loan",
+                    "description": "You cannot defer installments for this month anymore.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "ApplDeclined": {
+                    "title": "It’s not possible to defer payments on this loan at the moment",
+                    "description": "You can defer installments only for some loan types.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "RetIntRateChg": {
+                    "title": "It’s not possible to defer payments on this loan at the moment",
+                    "description": "You can defer installments only for some loan types.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "UnregPayment": {
+                    "title": "It’s not possible to defer payments on this loan at the moment",
+                    "description": "You can defer installments only for some loan types.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "ProdType": {
+                    "title": "You cannot defer payments for this loan",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "EarlyPayoff": {
+                    "title": "Payments cannot be deferred because you have requested early repayment of the loan",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "CovidInsFee": {
+                    "title": "You cannot defer payments for this loan",
+                    "kind": "failure",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "LoanObjectCode": {
+                    "title": "You cannot defer payments for this loan",
+                    "kind": "failure",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "InstlSoon": {
+                    "title": "You can request a payment deferral for this loan starting from {eligibleDate}",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "ActInstl": {
+                    "title": "You can request a payment deferral for this loan starting from {eligibleDate}",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "I understand"
+                },
+                "TooManyInstl": {
+                    "title": "You cannot defer payments for this loan",
+                    "description": "A deferral cannot be requested because the loan is in collections.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "ProdClientRel": {
+                    "title": "Unfortunately, we cannot defer payments on this loan",
+                    "description": "Please give us a call or visit a branch.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                },
+                "NoPurp": {
+                    "title": "You can apply for a repayment deferral once you provide documentation of the loan’s purpose", //memá description
+                    "kind": "hold",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "I understand"
+                }
+            }
+        },
+        "intro": {
+            "title": "{0} – Repayment Deferral Application",
+            "detail": "During deferral you will not have to make any repayments. The loan will keep accruing interest and your insurance will remain valid. Accrued interest and insurance premiums will be included the next repayments after the deferral.",
+            "imageURL": "/cbl_images/loan/deferral/intro.png",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Choose the length of the deferral period",
+                    "detail": "You can defer repayments for 1-3 months. The table below shows how it will affect future repayments."
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Your application will be reviewed",
+                    "detail": "Usually it takes only a few moments. In rare cases, it may take until the next business day."
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Your repayments will be deferred",
+                    "detail": "If approved, your repayments will be deferred for the desired period"
+                },
+                {
+                    "icon": "plain4",
+                    "text": "You will resume repayments",
+                    "detail": "To prevent your repayment amount from increasing, the loan term will be extended to cover the costs incurred during the repayment deferral"
+                }
+            ],
+            "primaryButton": "Continue"
+        }
+    }
+}
