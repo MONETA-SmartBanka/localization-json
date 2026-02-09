@@ -17,11 +17,17 @@
                 "secondaryButton": "Zpět",
                 "claimUrl": "https://online.cardif.cz"
             },
+            "offerUnavailable": {
+                "title": "V aplikaci Moneta toto zatím neumíme",
+                "detail": "Navštivte nás na pobočce.",
+                "primaryButton": "Zpět"
+            },
             "selection": {
                 "title": "Kterého pojištění se událost týká?",
                 "active": {
                     "title": "Pojistná událost - Aktivní pojištění",
                     "detail": "Volejte přímo PO-PÁ 8-18 asistenční linku v českém jazyce <a>{0}</a> nebo vyplňte formulář <a href=\"https://cardifcz.eclaims.europ-assistance.com/login\">na webu</a>.",
+                    "detailWeb": "Pokračujte na <a>{0}</a>.",
                     "types": {
                         "CONSUMER_LOAN_REPAYMENT": {
                             "title": "Pojištění schopnosti splácet",
@@ -75,7 +81,7 @@
             },
             "riskGroups": {
                 "title": "Událost – Pojištění schopnosti splácet",
-                "detail": "Popište prosím, co přesně se Vám stalo. Poté budete moct nahrát dokumety pro pojišťovnu, aby mohla posoudit nárok na vyplacení pojistného plnění.",
+                "detail": "Popište prosím, co přesně se Vám stalo. Poté budete moct nahrát dokumenty pro pojišťovnu, aby mohla posoudit nárok na vyplacení pojistného plnění.",
                 "sectionTitle": "Co přesně se vám stalo?",
                 "types": [
                     {
