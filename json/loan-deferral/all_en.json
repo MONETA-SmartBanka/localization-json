@@ -145,6 +145,36 @@
                 }
             ],
             "primaryButton": "Continue"
+        },
+        "calculator": {
+            "title": "How long would you like to defer the repayments?",
+            "nextInstallment": "Next repayment: {nextInstallmentDate}",
+            "beforeDeferral": {
+                "title": "Before deferral",
+                "installmentDate": "Date of next repayment",
+                "installmentAmount": "Amount",
+                "remainingCount": "Repayments remaining",
+                "remainingAmount": "Outstanding balance",
+                "repaymentDate": "Date of final repayment"
+            },
+            "afterDeferral": {
+                "title": "After deferral",
+                "installmentDate": "Date of next repayment",
+                "installmentAmount": "Amount",
+                "remainingCount": "Repayments remaining",
+                "remainingCountInfo": {
+                    "title": "Number of remaining repayments",
+                    "description": "To prevent your final repayment amount from being too high, the number of remaining repayments may increase.<br/>Accrued interest and insurance premiums will be included the next repayments after the deferral.<br/>Learn more about repayment deferral on <a href=\"https://www.moneta.cz/odklad-splatek\">our website</a>."
+                },
+                "remainingAmount": "Outstanding balance",
+                "remainingAmountInfo": {
+                    "title": "Outstanding balance",
+                    "description": "The amount includes interest and insurance premiums accrued during the deferral."
+                },
+                "repaymentDate": "Date of final repayment"
+            },
+            "agree": "I confirm that I am not currently in financial hardship and I am aware that deferring payments may affect the approval of another loan.",
+            "primaryButton": "Apply for deferral"
         }
     }
 }
