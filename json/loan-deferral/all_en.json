@@ -9,6 +9,14 @@
             "title": "It’s not possible to defer payments on this loan",
             "detail": "Are you experiencing financial difficulties?<br/>Visit <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv#odkladsplatek\">our website</a> to learn about other options for adjusting your repayments.",
             "primaryButton": "I understand"
+        },
+        "contractDisagree": {
+            "title": "This is required in order to proceed",
+            "detail": "Do you have any questions? Call us or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
         }
     },
     "scenes": {
@@ -190,6 +198,16 @@
         "scoring": {
             "title": "Processing your application",
             "detail": "Just a moment"
+        },
+        "waitingBeforeContract": {
+            "title": "Just a moment please",
+            "detail": "Getting things ready"
+        },
+        "contract": {
+            "title": "Review the document with the product information",
+            "detail": "All documents can be found in Smart Banka, Internet Banka under ‘Documents’ as well as in your email.",
+            "primaryButton": "Confirm and accept",
+            "secondaryButton": "Decline"
         }
     }
 }
