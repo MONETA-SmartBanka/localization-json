@@ -1,6 +1,6 @@
 {
     "scenes": {
-        "cardSelectionScreen": {
+        "cardSelection": {
             "title": "Vyberte kartu",
             "searchHint": "Hledat",
             "debitCards": "Debetní karty",
@@ -27,6 +27,11 @@
             "blockedSubscription": "Předplatné",
             "blockedSaved": "Uloženo u obchodníka",
             "paymentsBlocked": "Platby blokovány"
+        },
+        "selectedCardNotActive": {
+            "title": "Tato karta nelze zobrazit v této sekci.",
+            "detail": "Kartu Vám zobrazíme po její aktivaci.",
+            "primaryButton": "Zpět na Přehled"
         }
     }
 }
