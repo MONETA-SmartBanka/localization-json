@@ -1,5 +1,16 @@
 {
-    "errorScreens": {},
+    "errorScreens": {
+        "api": {
+            "title": "Omlouváme se, tak tohle nevyšlo",
+            "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "scoring": {
+            "title": "Splátky tohoto úvěru není možné odložit",
+            "detail": "Dostali jste se do nepříznivé finanční situace?<br/>Na <a href=\"https://www.moneta.cz/odklad-splatek\">našem webu</a> zjistíte, jaké jsou další možnosti pro úpravu splácení.",
+            "primaryButton": "Rozumím"
+        }
+    },
     "scenes": {
         "ineligibilities": {
             "howDeferralWorks": "Více o tom, jak odklad splátek funguje, najdete na našem <a href=\"https://www.moneta.cz/odklad-splatek\">webu</a>.",

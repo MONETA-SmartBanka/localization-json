@@ -1,5 +1,16 @@
 {
-    "errorScreens": {},
+    "errorScreens": {
+        "api": {
+            "title": "Sorry, something went wrong",
+            "detail": "We can't continue right now. Please try again later.",
+            "primaryButton": "Back to Overview"
+        },
+        "scoring": {
+            "title": "It’s not possible to defer payments on this loan",
+            "detail": "Are you experiencing financial difficulties?<br/>Visit our website to learn about other options for adjusting your repayments.",
+            "primaryButton": "I understand"
+        }
+    },
     "scenes": {
         "ineligibilities": {
             "howDeferralWorks": "Learn more about how deferral works on our <a href=\"https://www.moneta.cz/odklad-splatek\">website</a>.",
