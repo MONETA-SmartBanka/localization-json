@@ -329,6 +329,15 @@
                     "analyticsId": "more_entrepreneursAccount"
                 },
                 {
+                    "title": "Předplatná a uložené karty",
+                    "listIcon": "shoppingCartFill",
+                    "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "CARDONFILE",
+                    "analyticsId": "more_cardOnFile"
+                },
+                {
                     "title": "Platební karty",
                     "listIcon": "cardFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
