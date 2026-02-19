@@ -36,7 +36,31 @@
         },
         "confirmation": {
             "fee": "Poplatek za blokaci",
-            "cancel": "Zrušit"
+            "cancel": "Zrušit",
+            "blocking": {
+                "buttonTitle": "Rozumím, zablokovat",
+                "savedAtMerchant": {
+                    "title": "Platby u obchodníka zablokujeme",
+                    "description": "Vždy vám doporučujeme kartu odebrat přímo u obchodníka.",
+                    "info": "Odstraněním této uložené karty zablokujete také všechny další platby touto kartou u obchodníka.",
+                },
+                "recurring": {
+                    "title": "Platby už nebudou odcházet, ale předplatné tímto nerušíte",
+                    "description": "Abyste předešli případnému dluhu, doporučujeme vám zrušit předplatné přímo u obchodníka.",
+                    "info": "Zablokováním této platby zablokujete také všechny další platby touto kartou u obchodníka."
+                }
+            },
+            "unblocking": {
+                "buttonTitle": "Rozumím, odblokovat",
+                "savedAtMerchant" : {
+                    title: "Platby u obchodníka odblokujeme",
+                    "description": "Obchodník si bude moct strhávat platby z vaší karty."
+                },
+                "recurring": {
+                    "title": "Platby u obchodníka odblokujeme",
+                    "description": "Obchodník si bude moct strhávat pravidelné platby z vaší karty."
+                }
+            }
         },
         "victoryScreen": {
             "backButton": "Zpět na Předplatná a uložené karty",
