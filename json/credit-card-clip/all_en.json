@@ -1,0 +1,29 @@
+{
+    "errorScreens": {
+        "api": {
+            "title": "Sorry, something went wrong",
+            "detail": "We can't continue right now. Please try again later.",
+            "primaryButton": "Back to Overview"
+        }
+    },
+    "scenes": {
+        "calculator": {
+            "title": "Increase your credit card limit",
+            "detail": "Increase your credit card limit up to CZK 300,000 fully online without visiting a branch.",
+            "calculator": {
+                "slider": {
+                    "newLimit": "New credit limit",
+                    "currentLimit": "Current limit\n{currentLimit}",
+                    "maxLimit": "New limit up to\n{maxLimit}",
+                    "minIncreaseInfo": "The increase must be at least CZK 2,000."
+                },
+                "interestTitle": "Annual interest rate",
+                "interestDetail": "For cashless transactions",
+                "interestCashTitle": "Annual interest rate",
+                "interestCashDetail": "For cash transactions"
+            },
+            "info": "Your credit card will remain physically with you.\nWe will only increase its credit limit.",
+            "primaryButton": "Continue"
+        }
+    }
+}
