@@ -1,0 +1,226 @@
+{
+    "errorScreens": {
+        "api": {
+            "title": "Omlouváme se, tak tohle nevyšlo",
+            "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Přejít na Přehled"
+        },
+        "scoring": {
+            "title": "Splátky tohoto úvěru není možné odložit",
+            "detail": "Dostali jste se do nepříznivé finanční situace?<br/>Na <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv#odkladsplatek\">našem webu</a> zjistíte, jaké jsou další možnosti pro úpravu splácení.",
+            "primaryButton": "Rozumím"
+        },
+        "contractDisagree": {
+            "title": "Bez toho to bohužel nepůjde...",
+            "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+            "callUs": "Zavolejte nám\nna infolinku",
+            "branch": "Navštivte nás\nna pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        }
+    },
+    "scenes": {
+        "ineligibilities": {
+            "howDeferralWorks": "Více o tom, jak odklad splátek funguje, najdete na našem <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv#odkladsplatek\">webu</a>.",
+            "variants": {
+                "CurrAccRel": {
+                    "title": "O odklad splátek si můžete požádat jen pokud splácíte úvěr ze svého běžného účtu u Monety",
+                    "description": "Účet pro splácení úvěru vám rádi založíme a spojíme s úvěrem na pobočce.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "InstlPaidCount": {
+                    "title": "O odklad splátek si můžete požádat později",
+                    "description": "Nejdříve je třeba uhradit nejméně 12 měsíčních splátek od sjednání úvěru nebo jeho posledního odkladu.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "InstlNotPaid": {
+                    "title": "O odklad splátek si můžete požádat později",
+                    "description": "Nejdříve je třeba uhradit nejméně 12 měsíčních splátek od sjednání úvěru nebo jeho posledního odkladu.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "DefCount": {
+                    "title": "Splátky tohoto úvěru už není možné odložit",
+                    "description": "U jednoho úvěru si můžete odložit splátky maximálně 3×. A to už jste udělal*a.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "InstlLeftCount": {
+                    "title": "Splátky tohoto úvěru už není možné odložit",
+                    "description": "K doplacení vám zbývají méně než 3 splátky a ty už není možné odložit.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "ApplDeclined": {
+                    "title": "Momentálně není možné odložit splátky tohoto úvěru",
+                    "description": "Ještě zpracováváme všechny předchozí požadavky k úvěru.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "RetIntRateChg": {
+                    "title": "Momentálně není možné odložit splátky tohoto úvěru",
+                    "description": "Ještě zpracováváme všechny předchozí požadavky k úvěru.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "UnregPayment": {
+                    "title": "Momentálně není možné odložit splátky tohoto úvěru",
+                    "description": "Ještě zpracováváme všechny předchozí požadavky k úvěru.",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "ProdType": {
+                    "title": "U tohoto úvěru není možné odložit splátky",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "EarlyPayoff": {
+                    "title": "Splátky není možné odložit, protože máte zažádáno o předčasné splacení úvěru",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "CovidInsFee": {
+                    "title": "U tohoto úvěru není možné odložit splátky",
+                    "kind": "failure",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "LoanObjectCode": {
+                    "title": "U tohoto úvěru není možné odložit splátky",
+                    "kind": "failure",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "InstlSoon": {
+                    "title": "O odklad splátek tohoto úvěru si můžete požádat od {eligibleDate}",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "ActInstl": {
+                    "title": "O odklad splátek tohoto úvěru si můžete požádat od {eligibleDate}",
+                    "kind": "hold",
+                    "showHowDefferalWorks": true,
+                    "primaryButton": "Rozumím"
+                },
+                "TooManyInstl": {
+                    "title": "U tohoto úvěru není možné odložit splátky",
+                    "description": "O odklad splátek není možné požádat, protože by došlo k neúměrnému prodloužení splácení úvěru.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "ProdClientRel": {
+                    "title": "Splátky tohoto úvěru vám bohužel odložit nemůžeme",
+                    "description": "O odklad splátek nemůže požádat spolužadatel.",
+                    "kind": "failure",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                },
+                "NoPurp": {
+                    "title": "O odklad splátek si můžete požádat po doložení účelu úvěru",
+                    "kind": "hold",
+                    "showHowDefferalWorks": false,
+                    "primaryButton": "Rozumím"
+                }
+            }
+        },
+        "intro": {
+            "title": "{0} – žádost o odklad splátek",
+            "detail": "Během odkladu nebudete muset nic platit. Úvěr bude nadále úročen a případné pojištění bude platné i při odkladu. Úroky i pojistné poté uhradíte ve splátkách po odkladu.",
+            "imageURL": "/cbl_images/loan/deferral/intro.png",
+            "iconBullets": [
+                {
+                    "icon": "plain1",
+                    "text": "Vyberete si délku odkladu",
+                    "detail": "Splátky si můžete odložit o 1 až 3 měsíce. Okamžitě přitom uvidíte, jak to bude po odkladu vypadat."
+                },
+                {
+                    "icon": "plain2",
+                    "text": "Vyhodnotíme vaši žádost",
+                    "detail": "Většinou to zvládneme během pár okamžiků, ve výjimečných případech do druhého pracovního dne."
+                },
+                {
+                    "icon": "plain3",
+                    "text": "Odložíme vaše splátky",
+                    "detail": "Pokud bude vaše žádost úspěšná, odložíme vaše splátky o zvolenou dobu."
+                },
+                {
+                    "icon": "plain4",
+                    "text": "Poté začnete opět splácet",
+                    "detail": "Výše vaší měsíční splátky zůstane stejná.\nAby se splátka nezvyšovala, prodlouží se doba splácení kvůli nákladům vzniklým při odkladu splátek."
+                }
+            ],
+            "primaryButton": "Pokračovat"
+        },
+        "calculator": {
+            "title": "Na jak dlouho chcete splátky odložit?",
+            "nextInstallment": "Příští splátka: {nextInstallmentDate}",
+            "beforeDeferral": {
+                "title": "Před odkladem",
+                "installmentDate": "Datum příští splátky",
+                "installmentAmount": "Výše splátky",
+                "remainingCount": "Zbývající splátky",
+                "remainingAmount": "Zbývá doplatit",
+                "repaymentDate": "Datum doplacení"
+            },
+            "afterDeferral": {
+                "title": "Po odkladu",
+                "installmentDate": "Datum příští splátky",
+                "installmentAmount": "Výše splátky",
+                "remainingCount": "Zbývající splátky",
+                "remainingCountInfo": {
+                    "title": "Zbývající počet splátek",
+                    "description": "Aby poslední splátka nebyla příliš vysoká, je možné, že je zbývající počet splátek vašeho úvěru navýšen.<br/>Ve splátkách po odkladu uhradíte případné pojištění a úroky za dobu odkladu.<br/>Více informací o odkladu splátek najdete na <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv#odkladsplatek\">našem webu</a>."
+                },
+                "remainingAmount": "Zbývá doplatit",
+                "remainingAmountInfo": {
+                    "title": "Zbývá doplatit",
+                    "description": "Částka je navýšená o případné pojištění a úroky za dobu odkladu."
+                },
+                "repaymentDate": "Datum doplacení"
+            },
+            "agree": "Potvrzuji, že momentálně nejsem ve finanční tísni a jsem si vědom*a toho, že odklad splátek může mít vliv na poskytnutí jiného úvěru.",
+            "primaryButton": "Požádat o odklad"
+        },
+        "scoring": {
+            "title": "Vyhodnocujeme vaši žádost",
+            "detail": "Brzy budeme pokračovat."
+        },
+        "waitingBeforeContract": {
+            "title": "Chvilku strpení,\npřipravíme vám smlouvu",
+            "detail": "Brzy budeme pokračovat."
+        },
+        "contract": {
+            "title": "Přečtěte si dokument s parametry produktu",
+            "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a ve vašem e-mailu.",
+            "primaryButton": "Rozumím a souhlasím",
+            "secondaryButton": "Nesouhlasím"
+        },
+        "victory": {
+            "title": "Odklad splátek byl schválen",
+            "detail": "Vaše žádost o odklad splátek byla úspěšně schválena a nejpozději následující den bude zpracována.<br/><br/>Potvrzení o odkladu najdete v sekci Dokumenty.",
+            "primaryButton": "Zpět na detail půjčky"
+        },
+        "help": {
+            "title": "Potřebujete poradit?",
+            "buttonsHeadline": "Potřebujete víc informací?",
+            "callUs": "Zavolejte nám<br/>na infolinku",
+            "branch": "Naštivte nás<br/>na pobočce",
+            "primaryButton": "Zpět",
+            "secondaryButton": "Ukončit žádost"
+        }
+    }
+}
