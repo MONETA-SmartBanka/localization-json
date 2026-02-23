@@ -1,5 +1,87 @@
 {
-    "config": {
-        "serviceFee": "2€"
+  "scenes": {
+    "cardSelection": {
+      "title": "Select card",
+      "searchHint": "Search",
+      "debitCards": "Debit cards",
+      "creditCards": "Credit cards",
+      "temporaryBlocked": "Temporarily blocked",
+      "primaryButton": "All subscriptions & saved cards"
+    },
+    "list": {
+      "title": "Subscriptions & saved cards",
+      "allCards": "All cards",
+      "searchHint": "Search by merchant, amount, date",
+      "subscriptions": "Subscriptions",
+      "saved": "Saved with merchants",
+      "blocked": "Blocked",
+      "cardSectionTitle": "Card {0}",
+      "emptySubscriptions": "You have no subscriptions",
+      "emptySaved": "This card is not saved anywhere",
+      "emptyBlocked": "You have no blocked payments",
+      "missingRightsSubscription": "You do not have permission to view subscriptions for this card. Access can be granted by the account owner.",
+      "missingRightsSaved": "You do not have permission to view which merchants have this card saved. Access can be granted by the account owner.",
+      "missingRightsBlocked": "You do not have permission to view subscriptions for this card or which merchants have this card saved. Access can be granted by the account owner.",
+      "subscriptionDate": "Last payment {0}",
+      "savedDate": "Last payment",
+      "blockedSubscription": "Subscription",
+      "blockedSaved": "Saved with merchant",
+      "paymentsBlocked": "Payments blocked"
+    },
+    "detail": {
+      "blocationToggleTitle": "Merchant can charge a payment",
+      "blocationToggleDescription": "You will also block all future payments to this merchant.",
+      "cardLabelSavedAtMerchant": "Saved card",
+      "cardLabelRecurring": "Card"
+    },
+    "confirmation": {
+      "fee": "Blocking fee",
+      "blocking": {
+        "buttonTitle": "Block payment",
+        "savedAtMerchant": {
+          "title": "We will block payments to this merchant",
+          "description": "We always recommend removing the card directly with the merchant.",
+          "info": "Removing this saved card will also block all future payments made with this card to this merchant."
+        },
+        "recurring": {
+          "title": "Payments will no longer go through, but this does not cancel the subscription",
+          "description": "To avoid any potential debt, we recommend cancelling the subscription directly with the merchant.",
+          "info": "Blocking this payment will also block all future payments made with this card to this merchant."
+        }
+      },
+      "unblocking": {
+        "buttonTitle": "Unblock payment",
+        "savedAtMerchant": {
+          "title": "We will unblock payments to this merchant",
+          "description": "The merchant will be able to charge payments to your card."
+        },
+        "recurring": {
+          "title": "We will unblock payments to this merchant",
+          "description": "The merchant will be able to charge recurring payments to your card."
+        }
+      }
+    },
+    "victoryScreen": {
+      "backButton": "Back to Subscriptions & saved cards",
+      "success": {
+        "blocked": {
+          "title": "Done! Payments have been blocked",
+          "subTitle": "To avoid any potential debt, we recommend cancelling the subscription directly with the merchant."
+        },
+        "unblocked": {
+          "title": "Done! Payments have been unblocked"
+        }
+      },
+      "error": {
+        "title": "Sorry, that didn’t work",
+        "subtitle": "Unfortunately, we can’t continue right now. Please try again in a moment."
+      }
+    },
+    "selectedCardNotActive": {
+      "title": "This card cannot be displayed in this section.",
+      "detail": "We will display the card here after it is activated.",
+      "primaryButton": "Back to Overview"
     }
+  }
 }
+ 
