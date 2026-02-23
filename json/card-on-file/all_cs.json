@@ -77,6 +77,63 @@
                 "subtitle": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli."
             }
         },
+        "detail": {
+            "transactionsBlocked": "Platby blokovány",
+            "lastTransaction": "Poslední platba",
+            "blockingToggleTitle": "Povolit platby obchodníkovi",
+            "blockingToggleDescription": "Když je vypnuto, obchodník nemůže strhávat platby.",
+            "cardLabelSavedAtMerchant": "Uložená karta",
+            "cardLabelRecurring": "Karta",
+            "lastTransactionDate": "Poslední platba"
+        },
+        "confirmation": {
+            "fee": "Poplatek za blokaci",
+            "cancel": "Zrušit",
+            "blocking": {
+                "buttonTitle": "Rozumím, zablokovat",
+                "savedAtMerchant": {
+                    "title": "Platby u obchodníka zablokujeme",
+                    "description": "Vždy vám doporučujeme kartu odebrat přímo u obchodníka.",
+                    "info": "Odstraněním této uložené karty zablokujete také všechny další platby touto kartou u obchodníka."
+                },
+                "recurring": {
+                    "title": "Platby už nebudou odcházet, ale předplatné tímto nerušíte",
+                    "description": "Abyste předešli případnému dluhu, doporučujeme vám zrušit předplatné přímo u obchodníka.",
+                    "info": "Zablokováním této platby zablokujete také všechny další platby touto kartou u obchodníka."
+                }
+            },
+            "unblocking": {
+                "buttonTitle": "Rozumím, odblokovat",
+                "savedAtMerchant": {
+                    "title": "Platby u obchodníka odblokujeme",
+                    "description": "Obchodník si bude moct strhávat platby z vaší karty."
+                },
+                "recurring": {
+                    "title": "Platby u obchodníka odblokujeme",
+                    "description": "Obchodník si bude moct strhávat pravidelné platby z vaší karty."
+                }
+            }
+        },
+        "authorization": {
+            "titleUnblock": "Odblokování plateb potvrďte PINem",
+            "titleBlock": "Blokaci plateb potvrďte PINem"
+        },
+        "victoryScreen": {
+            "backButton": "Zpět na Předplatná a uložené karty",
+            "success": {
+                "blocked": {
+                    "title": "Hotovo! Platby jsme zablokovali",
+                    "subTitle": "Abyste se vyhnul*a případnému dluhu, doporučujeme vám zrušit předplatné přímo u obchodníka."
+                },
+                "unblocked": {
+                    "title": "Hotovo! Platby jsme odblokovali"
+                }
+            },
+            "error": {
+                "title": "Omlouváme se, tak tohle nevyšlo",
+                "subtitle": "Bohužel teď nemůžeme pokračovat. Zkuste to prosím za chvíli."
+            }
+        },
         "selectedCardNotActive": {
             "title": "Tato karta nelze zobrazit v této sekci.",
             "detail": "Kartu Vám zobrazíme po její aktivaci.",

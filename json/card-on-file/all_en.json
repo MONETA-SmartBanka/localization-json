@@ -29,13 +29,17 @@
             "paymentsBlocked": "Payments blocked"
         },
         "detail": {
-            "blocationToggleTitle": "Merchant can charge a payment",
-            "blocationToggleDescription": "You will also block all future payments to this merchant.",
+            "transactionsBlocked": "Payments blocked",
+            "lastTransaction": "Last payment",
+            "blockingToggleTitle": "Allow payments to this merchant",
+            "blockingToggleDescription": "Turning this off will also block all future payments to this merchant.",
             "cardLabelSavedAtMerchant": "Saved card",
-            "cardLabelRecurring": "Card"
+            "cardLabelRecurring": "Card",
+            "lastTransactionDate": "Last payment"
         },
         "confirmation": {
             "fee": "Blocking fee",
+            "cancel": "Cancel",
             "blocking": {
                 "buttonTitle": "Block payment",
                 "savedAtMerchant": {
@@ -60,6 +64,10 @@
                     "description": "The merchant will be able to charge recurring payments to your card."
                 }
             }
+        },
+        "authorization": {
+            "titleUnblock": "Confirm payment unblocking with your PIN",
+            "titleBlock": "Confirm the payment block with your PIN"
         },
         "victoryScreen": {
             "backButton": "Back to Subscriptions & saved cards",
