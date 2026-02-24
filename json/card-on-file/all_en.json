@@ -70,19 +70,23 @@
             "titleBlock": "Confirm the payment block with your PIN"
         },
         "victoryScreen": {
-            "backButton": "Back to Subscriptions & saved cards",
             "success": {
+                "primaryButton": "Back to Subscriptions & saved cards",
+                "secondaryButton": "Back to overview",
                 "blocked": {
-                    "title": "Done! Payments have been blocked",
-                    "subTitle": "To avoid any potential debt, we recommend cancelling the subscription directly with the merchant."
+                    "title": "Done!\u2028Payments have been blocked",
+                    "subtitle": "To avoid any outstanding balance, we recommend cancelling the subscription directly with the merchant."
                 },
                 "unblocked": {
-                    "title": "Done! Payments have been unblocked"
+                    "title": "Done!\u2028Payments have been unblocked"
                 }
             },
             "error": {
-                "title": "Sorry, that didn’t work",
-                "subtitle": "Unfortunately, we can’t continue right now. Please try again in a moment."
+                "primaryButton": "Back",
+                "title": "Sorry, something went wrong",
+                "subtitle": "We can’t continue right now. Please try again later.",
+                "callUs": "Call Helpline",
+                "branches": "Visit us at a branch"
             }
         },
         "selectedCardNotActive": {
