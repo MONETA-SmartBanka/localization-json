@@ -7,6 +7,18 @@
         }
     },
     "scenes": {
+        "maxLimitReached": {
+            "title": "You’ve reached the maximum amount we can offer you on your credit card.\n\nWould you like to apply for a loan?",
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Apply for an Express Loan"
+            },
+            "secondaryButton": {
+                "actionType": "CLOSE",
+                "actionLabelText": "Back"
+            }
+        },
         "calculator": {
             "title": "Increase credit card limit",
             "detail": "Increase your credit limit up to {maxLimit} fully online, without visiting a branch.",
