@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		562A1D772F3B94E000D514A6 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
+		562A1D782F3B953600D514A6 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F2C79A42E24EF590094ADE7 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 		8F2C79A52E24EF610094ADE7 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F5436ED2E40DB7F00E273D8 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
@@ -187,6 +189,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		562A1D762F3B944600D514A6 /* card-on-file */ = {
+			isa = PBXGroup;
+			children = (
+				562A1D782F3B953600D514A6 /* all_en.json */,
+				562A1D772F3B94E000D514A6 /* all_cs.json */,
+			);
+			path = "card-on-file";
+			sourceTree = "<group>";
+		};
 		8F2C79A32E24EF4A0094ADE7 /* visa-alias */ = {
 			isa = PBXGroup;
 			children = (
@@ -1093,6 +1104,7 @@
 		8F553E872DCB8C24002E735E /* json */ = {
 			isa = PBXGroup;
 			children = (
+				562A1D762F3B944600D514A6 /* card-on-file */,
 				8F8DDAF52EAA2BB900EB7576 /* infolines */,
 				8F2C79A32E24EF4A0094ADE7 /* visa-alias */,
 				8F553D7D2DCB8C24002E735E /* abilities */,

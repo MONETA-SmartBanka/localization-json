@@ -1,0 +1,99 @@
+{
+    "scenes": {
+        "cardSelection": {
+            "title": "Select card",
+            "searchHint": "Search",
+            "debitCards": "Debit cards",
+            "creditCards": "Credit cards",
+            "temporaryBlocked": "Temporarily blocked",
+            "primaryButton": "All subscriptions & saved cards"
+        },
+        "list": {
+            "title": "Subscriptions & saved cards",
+            "allCards": "All cards",
+            "searchHint": "Search by merchant, amount, date",
+            "subscriptions": "Subscriptions",
+            "saved": "Saved with merchants",
+            "blocked": "Blocked",
+            "cardSectionTitle": "Card {0}",
+            "emptySubscriptions": "You have no subscriptions",
+            "emptySaved": "This card is not saved anywhere",
+            "emptyBlocked": "You have no blocked payments",
+            "missingRightsSubscription": "You do not have permission to view subscriptions for this card. Access can be granted by the account owner.",
+            "missingRightsSaved": "You do not have permission to view which merchants have this card saved. Access can be granted by the account owner.",
+            "missingRightsBlocked": "You do not have permission to view subscriptions for this card or which merchants have this card saved. Access can be granted by the account owner.",
+            "subscriptionDate": "Last payment {0}",
+            "savedDate": "Last payment",
+            "blockedSubscription": "Subscription",
+            "blockedSaved": "Saved with merchant",
+            "paymentsBlocked": "Payments blocked"
+        },
+        "detail": {
+            "transactionsBlocked": "Payments blocked",
+            "lastTransaction": "Last payment",
+            "blockingToggleTitle": "Allow payments to this merchant",
+            "blockingToggleDescription": "Turning this off will also block all future payments to this merchant.",
+            "blockingToggleDescriptionBlocked": "When turned off, the merchant cannot charge your card.",
+            "cardLabelSavedAtMerchant": "Saved card",
+            "cardLabelRecurring": "Card",
+            "lastTransactionDate": "Last payment"
+        },
+        "confirmation": {
+            "fee": "Blocking fee",
+            "cancel": "Cancel",
+            "blocking": {
+                "buttonTitle": "Block payment",
+                "savedAtMerchant": {
+                    "title": "We will block payments to this merchant",
+                    "description": "We always recommend removing the card directly with the merchant.",
+                    "info": "Removing this saved card will also block all future payments made with this card to this merchant."
+                },
+                "recurring": {
+                    "title": "Payments will no longer go through, but this does not cancel the subscription",
+                    "description": "To avoid any potential debt, we recommend cancelling the subscription directly with the merchant.",
+                    "info": "Blocking this payment will also block all future payments made with this card to this merchant."
+                }
+            },
+            "unblocking": {
+                "buttonTitle": "Unblock payment",
+                "savedAtMerchant": {
+                    "title": "We will unblock payments to this merchant",
+                    "description": "The merchant will be able to charge payments to your card."
+                },
+                "recurring": {
+                    "title": "We will unblock payments to this merchant",
+                    "description": "The merchant will be able to charge recurring payments to your card."
+                }
+            }
+        },
+        "authorization": {
+            "titleUnblock": "Confirm payment unblocking with your PIN",
+            "titleBlock": "Confirm the payment block with your PIN"
+        },
+        "victoryScreen": {
+            "success": {
+                "primaryButton": "Back to Subscriptions & saved cards",
+                "secondaryButton": "Back to overview",
+                "blocked": {
+                    "title": "Done!\u2028Payments have been blocked",
+                    "subtitle": "To avoid any outstanding balance, we recommend cancelling the subscription directly with the merchant."
+                },
+                "unblocked": {
+                    "title": "Done!\u2028Payments have been unblocked"
+                }
+            },
+            "error": {
+                "primaryButton": "Back",
+                "title": "Sorry, something went wrong",
+                "subtitle": "We can’t continue right now. Please try again later.",
+                "callUs": "Call Helpline",
+                "branches": "Visit us at a branch"
+            }
+        },
+        "selectedCardNotActive": {
+            "title": "This card cannot be displayed in this section.",
+            "detail": "We will display the card here after it is activated.",
+            "primaryButton": "Back to Overview"
+        }
+    }
+}
