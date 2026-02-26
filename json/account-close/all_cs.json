@@ -1,12 +1,16 @@
 {
     "reasons": {
         "title": "Mrzí nás, že chcete odejít",
-        "primaryButton": "Zrušit účet",
-        "secondaryButton": "Účet zruším později",
-        "reasonHint": "Abychom Vám do budoucna mohli poskytovat lepší služby, pomůže nám znát důvod zrušení účtu",
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Nerušit účet",
+        "reasonHint": "Abychom Vám do budoucna mohli poskytovat lepší služby, pomůže nám znát důvod zrušení účtu.",
         "reasonTitle": "Důvod zrušení",
-        "voteHint": "Budeme rádi, když také ohodnotíte Vaši zkušenost s používáním produktu",
+        "voteHint": "Budeme rádi, když také ohodnotíte svou zkušenost s používáním produktu.",
         "reasonsTitle": "Proč rušíte účet?",
+        "foreignReasonsTitle": "Důvod zrušení",
+        "foreignReasonsSubtitle": "Vyberte jednu možnost:",
+        "chooseLabel": "vyberte",
+        "reasonRequiredWarning": "Toto pole je povinné",
         "reasons": [
             {
                 "title": "Účet již nepoužívám",
@@ -42,17 +46,63 @@
                 "title": "Nespokojenost s MONETA Money bank",
                 "value": "OTHER"
             }
+        ],
+        "reasonsForeignAccount": [
+            {
+                "title": "Používám účet u jiné banky.",
+                "value": "OTHER_BANK_ACCOUNT"
+            },
+            {
+                "title": "Nejsem spokojen*a s podmínkami nebo službami účtu.",
+                "value": "NOT_SATISFIED_CONDITIONS_AND_SERVICES"
+            },
+            {
+                "title": "Účet jsem nevyužíval*a aktivně.",
+                "value": "NO_ACTIVE_USAGE"
+            },
+            {
+                "title": "Jiný důvod",
+                "value": "OTHER"
+            }
         ]
+    },
+    "introForeignCurrency": {
+        "title": "Jak probíhá rušení účtu?",
+        "primaryButton": "Pokračovat",
+        "item1Title": "Vyberete si, kam pošleme peníze.",
+        "item1Description": "Třeba i ty, které vám přijdou v průběhu rušení.",
+        "item2TitleInvestment": "Zruší se možnost obsluhovat EUR fondy.",
+        "item2DescriptionInvestment": "Po zrušení účtu nebudete moct nakupovat ani prodávat své EUR podílové fondy. I nadále uvidíte, jak si vedou.",
+        "item2Title": "Účet zrušíme do 40 dní.",
+        "item2Description": "Spolu s účtem zrušíme také všechny karty a trvalé příkazy s ním spojené.",
+        "item3Title": "Zrušení účtu je nevratné",
+        "item3Description": "Když si zrušíte účet, není možné jej obnovit. Musíte si založit nový účet.",
+        "message": "Chcete převést zbylé peníze na jinou měnu?<br>Převeďte si je ještě před zrušením účtu. Budete tak mít plnou kontrolu nad kurzem."
     },
     "balanceTransfer": {
         "title": "Zrušení účtu {0}",
         "balanceSectionTitle": "Kam máme poslat zůstatek?",
         "otherProductsTerminationSectionTitle": "Spolu s účtem dojde také ke zrušení",
-        "primaryButton": "Zrušit účet"
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Nerušit účet"
+    },
+    "balanceTransferForeignCurrency": {
+        "title": "Zvolte účet pro převod prostředků",
+        "chooseAccountSectionTitle": "Vyberte účet pro zaslání zůstatku",
+        "accountInputTitle": "Výběr cílového účtu",
+        "accountInputValue": "vyberte",
+        "message": "Pokud převedete peníze na jinou měnu, přepočítá se částka podle aktuálního kurzu platného v den převodu.",
+        "sectionTitle": "Zrušíme tyto produkty",
+        "balance": "Zůstatek",
+        "debitCard": "Debetní karta č. {0}",
+        "foreignInvestment": "Zrušení aktivních operací pro podílové fondy",
+        "standingOrders": "Trvalé příkazy",
+        "primaryButton": "Pokračovat",
+        "secondaryButton": "Nerušit účet"
     },
     "balanceTransferConfirmation": {
         "title": "Tato akce je nevratná",
-        "detail": "<b>Pokud  tento účet zrušíte nebude možné jej v budoucnu obnovit. V případě potřeby bude tedy třeba založit úplně nový účet.</b>\n Ještě si to můžete rozmyslet a účet zrušit kdykoli v budoucnu.",
+        "detail": "<b>Pokud tento účet zrušíte nebude možné jej v budoucnu obnovit. V případě potřeby bude tedy třeba založit úplně nový účet.</b>\n Ještě si to můžete rozmyslet a účet zrušit kdykoli v budoucnu.",
         "primaryButton": "Jsem si toho vědom, pokračovat",
         "secondaryButton": "Zrušit později"
     },
@@ -61,9 +111,20 @@
         "primaryButton": "Souhlasím, pokračovat",
         "secondaryButton": "Nesouhlasím"
     },
+    "contractForeignCurrency": {
+        "title": "Přečtěte si prosím dohodu o zrušení účtu",
+        "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a smlouvy.",
+        "primaryButton": "Rozumím a souhlasím",
+        "secondaryButton": "Nesouhlasím"
+    },
     "success": {
         "title": "Hotovo! Děkujeme, že jste využívali náš produkt.",
         "detail": "Na rušení budeme ještě chvíli pracovat. Kdyby nastal nějaký problém, ozveme se vám."
+    },
+    "successForeignCurrency": {
+        "title": "Hotovo!\nVáš účet zrušíme do 40 dnů",
+        "listItem": "Spolu s účtem zrušíme také všechny karty a trvalé příkazy s ním spojené.",
+        "primaryButton": "Pokračovat na Přehled"
     },
     "contractDisagree": {
         "title": "Bez souhlasu to bohužel nepůjde",
@@ -72,6 +133,17 @@
         "branch": "Naštivte nás\nna pobočce",
         "primaryButton": "Zpět",
         "secondaryButton": "Ukončit zrušení"
+    },
+    "victoryErrorTermDeposit": {
+        "title": "Účet teď bohužel nemůžeme zrušit",
+        "detail": "Účet nemůžeme zrušit, protože je potřeba k vedení těchto produktů:",
+        "listItem": "Termínovaný vklad",
+        "primaryButton": "Zpět na Přehled"
+    },
+    "victoryBranch": {
+        "title": "Tento účet není možné zrušit online",
+        "detail": "Pokud ho chcete zrušit, zastavte se za námi na pobočce.",
+        "primaryButton": "Zpět na Přehled"
     },
     "error": {
         "title": "Účet teď bohužel zrušit nemůžeme",
