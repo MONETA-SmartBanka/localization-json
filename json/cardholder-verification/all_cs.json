@@ -23,15 +23,15 @@
             "primaryButton": "Zpět na Přehled"
         },
         "invalidToken": {
-            "title": "Tenhle QR kód nepoznáváme",
-            "detail": "Zkontrolujte prosím, že skenujete správný QR kód a to zkuste znovu",
+            "title": "Tento QR kód nepoznáváme",
+            "detail": "Zkontrolujte prosím, že načítáte správný QR kód a zkuste to znovu.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Vyfotit znovu"
         },
         "contractDisagree": {
             "title": "Máte nějaké otázky?",
-            "detail": "Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
+            "detail": "Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět",
@@ -39,7 +39,7 @@
         },
         "cancelledExpire": {
             "title": "Žádost o kartu je zrušena",
-            "detail": "Protože jste nestihli dokončit ověření do {0}, žádost jsme zrušili.\n\nPro novou žádost o kartu prosím kontaktujte majitele účtu.",
+            "detail": "Protože jste nestihli dokončit ověření do 7 dnů, žádost jsme zrušili.\n\nPro novou žádost o kartu prosím kontaktujte majitele účtu.",
             "primaryButton": "Zpět na Přehled"
         },
         "cancelledHolder": {
@@ -48,9 +48,9 @@
             "primaryButton": "Zpět na Přehled"
         },
         "invalidData": {
-            "title": "Údaje se neshodují",
-            "detail": "Údaje z ověření neodpovídají pozvané osobě. Požádejte osobu, která Vás pozvala o kontrolu údajů na pozvánce.",
-            "primaryButton": "Ukončit proces"
+            "title": "Zkontrolujte prosím údaje z pozvánky a zkuste se ověřit znovu",
+            "detail": "Je možné, že se vaše údaje liší od uvedených údajů. Požádejte prosím osobu, která vás pozvala, o jejich kontrolu.\n\nPokud se to ani poté nepodaří, domluvte si schůzku na pobočce a zastavte se společně za námi. Rádi vám s dokončením pomůžeme.",
+            "primaryButton": "Zavřít"
         },
         "alreadyExists": {
             "title": "Ověření jste už začali na jiném zařízení",
@@ -58,6 +58,10 @@
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "primaryButton": "Zpět"
+        },
+        "longTermProcess": {
+            "title": "Kontrola trvá déle než obvykle",
+            "detail": "Aplikaci můžete zavřít a vrátit se za pár minut."
         }
     },
     "scenes": {
@@ -68,42 +72,42 @@
             "bulletsTitleExistingUser": "Jak na to?",
             "bulletsExistingUser": [
                 {
-                    "title": "Vyplňte zbývající údaje k vaší nové kartě"
+                    "title": "Vyplňte zbývající údaje k nové kartě"
                 },
                 {
                     "title": "Podepište žádost"
                 },
                 {
-                    "title": "Karta bude na cestě k Vám, hned jak majitel vše potvrdí"
+                    "title": "Kartu vám odešleme hned po potvrzení majitelem účtu"
                 }
             ],
-            "bulletsTitleAcquisitionUserBankId": "Nejdříve ověříme vaši totožnost přes BankID",
+            "bulletsTitleAcquisitionUserBankId": "Ověření přes BankID",
             "bulletsAcquisitionUserBankId": [
                 {
-                    "title": "Přihlásíte se k existujícímu účtu jiné své banky"
+                    "title": "Přihlásíte se existujícím účtem u vaší jiné banky"
                 },
                 {
-                    "title": "Sami si stáhneme nezbytné údaje"
+                    "title": "Ověříme si nezbytné údaje"
                 },
                 {
-                    "title": "Ověření totožnosti",
-                    "description": "V posledním kroku ověříme, že jste to opravdu Vy a nikdo se za Vás nevydává."
+                    "title": "Ověříte svou totožnost",
+                    "description": "V posledním kroku ověříme, že jste to opravdu vy a nikdo se za vás nevydává."
                 }
             ],
-            "bulletsTitleAcquisitionUserDetails": "Potom už jen maličkosti",
+            "bulletsTitleAcquisitionUserDetails": "Doplnění údajů a odeslání karty",
             "bulletsAcquisitionUserDetails": [
                 {
-                    "title": "Vyplníte zbývající údaje k vaší nové kartě a podepíšete žádost"
+                    "title": "Vyplníte zbývající údaje ke své nové kartě a podepíšete žádost"
                 },
                 {
-                    "title": "Karta bude na cestě k Vám, hned jak majitel vše potvrdí"
+                    "title": "Kartu vám odešleme hned po potvrzení majitelem účtu"
                 }
             ],
             "primaryButton": "Pokračovat"
         },
         "deliveryAddress": {
             "title": "Adresa pro zaslání karty",
-            "changeAddressInfo": "Chcete poslat kartu na jinou adresu?\nZměňte kontaktní adresu v sekci O mně v Nastavení.",
+            "changeAddressInfo": "Pokud jste naším klientem, můžete adresu upravit v sekci O mně v Nastavení.",
             "addressTypes": [
                 {
                     "type": "CONTACT",

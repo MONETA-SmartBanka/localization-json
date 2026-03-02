@@ -65,7 +65,7 @@
                 "buttonDashboard": {
                     "title": "Při podezření na zneužití účtu",
                     "detail": "Zablokovat bankovnictví",
-                    "primary": "Mám podezření na zneužití účtu"
+                    "primary": "Máte podezření na zneužití účtu?"
                 },
                 "buttonCommon": {
                     "title": "Zablokovat bankovnictví",
@@ -203,11 +203,11 @@
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
-                    "title": "Platbu odešleme jako standardní",
-                    "detail": "Z technických důvodů odešleme vaši platbu jako standardní s dnešním datem splatnosti.Pokud potřebujete odeslat platbu okamžitě, zavolejte nám.\n\nV případě, že se nevyjádříte, platbu odešleme jako standardní.\n\nPro více informací volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "title": "Platbu budeme zpracovávat jako standardní",
+                    "detail": "Z technických důvodu budeme zpracovávat platbu jako standardní s dnešním datem splatnosti.\nPlatbu obvykle připíšeme bance příjemce do jednoho pracovního dne.\nPokud řešíte urgentní situaci volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
                     "primaryButton": {
                         "actionType": "CONTINUE",
-                        "actionLabelText": "Souhlasím, odeslat standardně"
+                        "actionLabelText": "Souhlasím, zpracovat standardně"
                     },
                     "secondaryButton": {
                         "actionType": "CLOSE",
@@ -287,8 +287,8 @@
                     "secondaryButton": "Pokračovat do Smart Banky"
                 },
                 "channelBlocked": {
-                    "title": "Abychom vám umožnili přihlášení, zastavte se prosím za námi na pobočce",
-                    "subtitle": "Bezpečnost je pro nás na prvním místě. Proto bychom se s vámi nejdřív potřebovali vidět.",
+                    "title": "Vaše Smart Banka je zablokovaná, proto není možné přihlásit se pomocí QR kódu",
+                    "subtitle": "Abyste se mohli přihlásit pomocí QR kódu, přihlaste se do Internet Banky ID a heslem a odblokujte si Smart Banku <b>v sekci nastavení - Smart Banka</b>. Pokud některý z údajů neznáte, zastavte se za námi na pobočce.",
                     "branch": "Navštivte nás na pobočce",
                     "primaryButton": "Zavřít"
                 },
@@ -326,6 +326,12 @@
                     "transparent": "Schůzku s bankéřem jsme zrušili."
                 }
             },
+            "virtualClinic": {
+                "title": "Virtuální ordinace",
+                "detail": "S lékařem se můžete kdykoliv spojit přes virtuální ordinaci zdarma. Při registraci stačí zadat promo kód MONETA.",
+                "primaryButton": "Pokračovat do ordinace",
+                "secondaryButton": "Zkopírovat promo kód MONETA"
+            },
             "travelInsuranceVirtualClinic": {
                 "info": {
                     "title": "Virtuální ordinace",
@@ -358,79 +364,123 @@
                 {
                     "codes": ["596", "597"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
                     "bonusRate": "Garantovaný úrokový bonus",
                     "guarantee": "Garance úrokového bonusu",
-                    "rateValue": "{0} p.a.",
+                    "rateValue": "{0} p. a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek <b>1 005 725 Kč</b>:\n\n<b>1 000 000 Kč</b> je úročen sazbou 2,6 %.\n<b>5 725 Kč</b> je úročen sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek <b>4 200 EUR</b>:\n\n<b>4 000 EUR</b> je úročen sazbou 2,6 %.\n<b>200 EUR</b> je úročen sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Úrokový bonus za aktivitu",
-                        "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                        "description": "Získáte ho příští měsíc za minimálně 10 plateb kartou a příjmu na běžném účtu alespoň 15 000 Kč v uplynulém měsíci."
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "entireBalance": "Pro celý zůstatek",
+                        "upTo": "Do {0}",
+                        "range": "{0} - {1}",
+                        "above": "Nad {0}"
                     }
                 },
                 {
                     "codes": ["569", "570"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
                     "bonusRate": "Úrokový bonus",
                     "guarantee": "Garance úrokového bonusu",
-                    "rateValue": "{0} p.a.",
+                    "rateValue": "{0} p. a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek <b>1 005 725 Kč</b>:\n\n<b>1 000 000 Kč</b> je úročen sazbou 2,6 %.\n<b>5 725 Kč</b> je úročen sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek <b>4 200 EUR</b>:\n\n<b>4 000 EUR</b> je úročen sazbou 2,6 %.\n<b>200 EUR</b> je úročen sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Úrokový bonus za investice",
-                        "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                        "description": "Získáte ho za novou investici a celkovou investici k poslednímu dni kalendářního měsíce ve výši minimálně 100 000 Kč."
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "entireBalance": "Pro celý zůstatek",
+                        "upTo": "Do {0}",
+                        "range": "{0} - {1}",
+                        "above": "Nad {0}"
                     }
                 },
                 {
                     "codes": ["761"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
                     "standardRate": "Standardní úroková sazba",
                     "bonusRate": "Úrokový bonus",
                     "guarantee": "Garance úrokového bonusu",
-                    "rateValue": "{0} p.a.",
+                    "rateValue": "{0} p. a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b>",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b>",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek <b>1 005 725 Kč</b>:\n\n<b>1 000 000 Kč</b> je úročen sazbou 2,6 %.\n<b>5 725 Kč</b> je úročen sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek <b>4 200 EUR</b>:\n\n<b>4 000 EUR</b> je úročen sazbou 2,6 %.\n<b>200 EUR</b> je úročen sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "entireBalance": "Pro celý zůstatek",
+                        "upTo": "Do {0}",
+                        "range": "{0} - {1}",
+                        "above": "Nad {0}"
                     }
                 },
                 {
                     "codes": ["default"],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
+                    "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
                     "standardRate": "Standardní úroková sazba",
                     "bonusRate": "Úrokový bonus",
                     "guarantee": "Garance úrokového bonusu",
-                    "rateValue": "{0} p.a.",
+                    "rateValue": "{0} p. a.",
                     "infoMessages": {
-                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
-                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
-                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
-                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>"
+                        "change": "Od {dateFrom} se změní úrok na <b>{rate} p. a.</b>",
+                        "changeWithGuarantee": "Od {dateFrom} se změní bonusový úrok na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "Od {dateFrom} se změní zhodnocení na <b>{rate} p. a.</b> s garancí do <b>{dateTo}</b>.",
+                        "extension": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "extensionDashboard": "Sazbu <b>{rate} p. a.</b> prodlužujeme <b>až do {dateTo}.</b>",
+                        "interestTiers": "Vaše peníze se úročí podle pásem, do kterých spadají. Více informací najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">úrokovém lístku</a>.",
+                        "representativeExample": "Reprezentativní příklad pro zůstatek <b>1 005 725 Kč</b>:\n\n<b>1 000 000 Kč</b> je úročen sazbou 2,6 %.\n<b>5 725 Kč</b> je úročen sazbou 0,5 %.",
+                        "representativeExampleEUR": "Reprezentativní příklad pro zůstatek <b>4 200 EUR</b>:\n\n<b>4 000 EUR</b> je úročen sazbou 2,6 %.\n<b>200 EUR</b> je úročen sazbou 0,5 %."
                     },
                     "secondBonus": {
                         "title": "Druhý úrokový bonus"
+                    },
+                    "tiersTitle": "Roční zhodnocení",
+                    "tiers": {
+                        "entireBalance": "Pro celý zůstatek",
+                        "upTo": "Do {0}",
+                        "range": "{0} - {1}",
+                        "above": "Nad {0}"
                     }
                 }
             ],
@@ -684,13 +734,13 @@
             },
             "smallBusinessScenes": {
                 "banners": {
-                    "noProductName": "Výhodné nabídky pro Vás",
+                    "noProductName": "Získejte až 1 500 000 Kč",
                     "title": "{type} čeká zde",
                     "productCreditCardName": "Kreditka",
                     "productExpressName": "Půjčka",
                     "productFlexiName": "Kontokorent",
                     "productTopupName": "Navýšení",
-                    "inProgressText": "Máte rozpracovanou žádost o {type}",
+                    "inProgressText": "Dokončete {type}",
                     "productCreditCardInProgressName": "kreditní kartu",
                     "productExpressInProgressName": "půjčku",
                     "productFlexiInProgressName": "kontokorent",
@@ -705,15 +755,15 @@
                     "enabled": true,
                     "dependentOnInfolimit": true,
                     "tabLabel": "Potřebujete více?",
-                    "title": "Pokud potřebujete vyšší úvěr, stačí když:",
+                    "title": "Pojďte naproti výhodným nabídkám",
                     "bullets": [
                         {
                             "iconName": "repeatFill",
-                            "body": "<b>Zvýšíte obrat na svém běžném účtu</b> a budete ho využívat naplno, tedy například odesílat více transakcí. Jako hlavní banka pro vaše podnikání vám pak můžeme nabídnout výhodnější sazby a další bonusy."
+                            "body": "<b>Zvyšte obrat na svém běžném účtu</b> a využívejte ho naplno. Jako hlavní banka pro vaše podnikání vám poté můžeme nabídnout výhodnější sazby a další bonusy."
                         },
                         {
                             "iconName": "bankFill",
-                            "body": "<b>Zastavíte se za námi na pobočce</b> a naši bankéři připraví nabídku na míru vašemu podnikání. Také s sebou prosím vezměte poslední daňové přiznání, s ním bude všechno snazší."
+                            "body": "<b>Zastavte se za námi na pobočce</b> a naši bankéři Vám připraví nabídku na míru Vašemu podnikání. Nezapomeňte s sebou prosím vzít poslední daňové přiznání. S ním bude všechno snazší."
                         }
                     ],
                     "primaryButton": {
@@ -839,7 +889,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -870,7 +920,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -901,7 +951,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -932,7 +982,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -963,7 +1013,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -994,7 +1044,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 12. 2025",
+                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1025,7 +1075,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "GARANCE úroku 2,6 % p. a. do 31. 12. 2025",
+                            "title": "GARANCE úroku 2,6 % p. a. do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {

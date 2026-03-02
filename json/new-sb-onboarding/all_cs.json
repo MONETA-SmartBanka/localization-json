@@ -64,6 +64,12 @@
                 "min": 2,
                 "type": "regexp",
                 "max": 20
+            },
+            "postCode": {
+                "regexp": "^\\d{5}$",
+                "min": 5,
+                "type": "regexp",
+                "max": 5
             }
         },
         "errorMessages": {
@@ -73,6 +79,7 @@
             "noValidExpiration": "Doklad je neplatný",
             "noValidFirstName": "Tohle snad ani není v kalendáři :)",
             "noValidLastName": "Moc se nám to nezdá… Víte to jistě?",
+            "noValidPostCode": "Neplatný formát PSČ",
             "ocrConfidenceTooLow": "Zkontrolujte prosím",
             "notEmpty": "Musí být vyplněno"
         },

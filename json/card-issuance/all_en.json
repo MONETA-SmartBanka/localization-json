@@ -1,329 +1,717 @@
 {
-    "status": "OK",
-    "responseObject": {
-        "scenes": {
-            "cardType": {
-                "variants": [
-                    {
-                        "type": "14100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Standard",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "15100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Gold",
-                            "color": "gold"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "vacationFill",
-                                "title": "<a href=\"https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort\" target=\"_blank\">Cestovní pojištění Komfort</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "icon": "electronicsFill",
-                                "title": "<a href=\"https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "icon": "planeDepartureFill",
-                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
-                                "color": "gold"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "16100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "17100",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business Premium",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "title": "Sjednání plně online",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-cestovni-pojisteni-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Cestovní pojištění Komfort</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-debetni-karty-a-osobnich-veci-stribrna-zlata-business-premium-022022.pdf\" target=\"_blank\">Pojištění cenností, karet, elektroniky a telefonu</a>",
-                                "color": "gold"
-                            },
-                            {
-                                "title": "<a href=\"https://www.moneta.cz/ucty-a-karty/priority-pass\" target=\"_blank\">Bonusový program Priority Pass</a>",
-                                "color": "gold"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "99300",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "EUR",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "99400",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business EUR",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "88300",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "USD",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "88400",
-                        "title": {
-                            "label": "Debetní karta",
-                            "type": "Business USD",
-                            "color": "violet"
-                        },
-                        "bullets": [
-                            {
-                                "icon": "atmFill",
-                                "title": "Výběry z bankomatů zdarma",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "payFill",
-                                "title": "Kartou můžete platit ihned po sjednání",
-                                "color": "primary"
-                            },
-                            {
-                                "icon": "card",
-                                "title": "U karty si můžete zvolit design",
-                                "color": "primary"
-                            }
-                        ]
-                    }
-                ]
+    "scenes": {
+        "productSelection": {
+            "title": "New card",
+            "detail": "Choose the type of card you want to order for yourself or another cardholder.",
+            "debitCard": "Debit card for a current account",
+            "creditCard": "Credit card",
+            "account": "Linked to account",
+            "contract": "Linked to contract",
+            "chooseAccount": "Select an account",
+            "chooseContract": "Select a contract",
+            "primaryButton": "Got it",
+            "secondaryButton": "Cancel"
+        },
+        "cardType": {
+            "title": "Which card would you like?",
+            "footer": "More information about fees for plastic cards can be found in our <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">fee schedule</a>.",
+            "cardTechOptions": [
+                {
+                    "type": "PLASTIC",
+                    "text": "Classic plastic card",
+                    "icon": "cardFill"
+                },
+                {
+                    "type": "VIRTUAL",
+                    "text": "Virtual card",
+                    "icon": "card"
+                },
+                {
+                    "type": "BOTH",
+                    "text": "Plastic or virtual card",
+                    "icon": "cardFill"
+                }
+            ],
+            "variantDetail": {
+                "title": "Payment card options",
+                "virtualTitle": "Virtual card",
+                "virtualDescription": "For payments and cash withdrawals, you can add it to your phone right after ordering. More information about virtual cards is available on <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/co-je-virtualni-platebni-karta\">our website</a>.",
+                "virtualMessage": "To manage your card, view your PIN, and see your card number, you need to have Smart Banka activated.",
+                "plasticTitle": "Plastic card",
+                "plasticDescription": "A physical card you already know well. You can add it to your phone too."
             },
-            "cardTech": {
-                "tech": {
-                    "options": [
+            "virtualButtonFree": "I want a FREE virtual card",
+            "virtualButton": "Get virtual: {0}/month",
+            "plasticButtonFree": "I want a FREE plastic card",
+            "plasticButton": "Get plastic: {0}/month",
+            "variants": [
+                {
+                    "type": "14100",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Standard",
+                        "color": "violet"
+                    },
+                    "bullets": [
                         {
-                            "technology": "VIRTUAL",
-                            "image": "mobileFill"
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
                         },
                         {
-                            "technology": "PLASTIC",
-                            "image": "cardFill"
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        }
+                    ]
+                },
+                {
+                    "type": "15100",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Gold",
+                        "color": "gold"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        },
+                        {
+                            "icon": "vacationFill",
+                            "title": "Comfort travel insurance",
+                            "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
+                            "color": "gold",
+                            "type": "insurance"
+                        },
+                        {
+                            "icon": "electronicsFill",
+                            "title": "Insurance for valuables, cards, electronics and phone",
+                            "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
+                            "color": "gold",
+                            "type": "insurance"
+                        },
+                        {
+                            "icon": "planeDepartureFill",
+                            "title": "Priority Pass program",
+                            "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
+                            "color": "gold",
+                            "type": "insurance"
+                        }
+                    ]
+                },
+                {
+                    "type": "16100",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Business",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        }
+                    ]
+                },
+                {
+                    "type": "17100",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Business Premium",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        },
+                        {
+                            "icon": "vacationFill",
+                            "title": "Comfort travel insurance",
+                            "link": "https://www.moneta.cz/pojisteni/cestovni-pojisteni-komfort",
+                            "color": "gold",
+                            "type": "insurance"
+                        },
+                        {
+                            "icon": "electronicsFill",
+                            "title": "Insurance for valuables, cards, electronics and phone",
+                            "link": "https://www.moneta.cz/pojisteni/pojisteni-debetni-platebni-karty",
+                            "color": "gold",
+                            "type": "insurance"
+                        },
+                        {
+                            "icon": "planeDepartureFill",
+                            "title": "Priority Pass program",
+                            "link": "https://www.moneta.cz/ucty-a-karty/priority-pass",
+                            "color": "gold",
+                            "type": "insurance"
+                        }
+                    ]
+                },
+                {
+                    "type": "99300",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "EUR",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        }
+                    ]
+                },
+                {
+                    "type": "99400",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Business EUR",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        }
+                    ]
+                },
+                {
+                    "type": "88300",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "USD",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
+                        }
+                    ]
+                },
+                {
+                    "type": "88400",
+                    "title": {
+                        "label": "Debit card",
+                        "type": "Business USD",
+                        "color": "violet"
+                    },
+                    "bullets": [
+                        {
+                            "icon": "atmHorizontalFill",
+                            "title": "Free ATM withdrawals",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "payFill",
+                            "title": "You can pay with the card right after you order it",
+                            "color": "primary"
+                        },
+                        {
+                            "icon": "card",
+                            "title": "You can choose the card design",
+                            "color": "primary",
+                            "type": "designs"
                         }
                     ]
                 }
-            },
-            "cardDesign": {
-                "designs": [
+            ]
+        },
+        "cardTech": {
+            "tech": {
+                "options": [
                     {
-                        "value": "CA141D0001",
-                        "title": "MONETA - Standard"
+                        "technology": "VIRTUAL",
+                        "image": "mobileFill"
                     },
                     {
-                        "value": "CA141D0020",
-                        "title": "MONETA - Plavání"
-                    },
-                    {
-                        "value": "CA141D0021",
-                        "title": "MONETA - Cyklistika"
-                    },
-                    {
-                        "value": "CA141D0022",
-                        "title": "MONETA - Tenis"
-                    },
-                    {
-                        "title": "MONETA - Beach volejbal",
-                        "value": "CA141D0023"
-                    },
-                    {
-                        "value": "CA141D0003",
-                        "title": "MONETA - Pride"
-                    },
-                    {
-                        "value": "CA141D0005",
-                        "title": "MONETA - Praha"
-                    },
-                    {
-                        "title": "MONETA - Středočeský kraj",
-                        "value": "CA141D0006"
-                    },
-                    {
-                        "title": "MONETA - Jihočeský kraj",
-                        "value": "CA141D0007"
-                    },
-                    {
-                        "title": "MONETA - Plzeňský kraj",
-                        "value": "CA141D0008"
-                    },
-                    {
-                        "title": "MONETA - Karlovarský kraj",
-                        "value": "CA141D0009"
-                    },
-                    {
-                        "title": "MONETA - Ústecký kraj",
-                        "value": "CA141D0010"
-                    },
-                    {
-                        "title": "MONETA - Liberecký kraj",
-                        "value": "CA141D0011"
-                    },
-                    {
-                        "title": "MONETA - Královéhradecký kraj",
-                        "value": "CA141D0012"
-                    },
-                    {
-                        "title": "MONETA - Pardubický kraj",
-                        "value": "CA141D0013"
-                    },
-                    {
-                        "title": "MONETA - Kraj Vysočina",
-                        "value": "CA141D0014"
-                    },
-                    {
-                        "title": "MONETA - Jihomoravský kraj",
-                        "value": "CA141D0015"
-                    },
-                    {
-                        "title": "MONETA - Zlínský kraj",
-                        "value": "CA141D0016"
-                    },
-                    {
-                        "title": "MONETA - Olomoucký kraj",
-                        "value": "CA141D0017"
-                    },
-                    {
-                        "title": "MONETA - Moravskoslezský kraj",
-                        "value": "CA141D0018"
+                        "technology": "PLASTIC",
+                        "image": "cardFill"
                     }
                 ]
             }
+        },
+        "cardDesign": {
+            "title": "Choose a card design so you can easily spot it in the app",
+            "primaryButton": "Continue with this design",
+            "designs": [
+                {
+                    "value": "CA141D0001",
+                    "title": "MONETA - Standard"
+                },
+                {
+                    "value": "CA141D0020",
+                    "title": "MONETA - Plavání"
+                },
+                {
+                    "value": "CA141D0021",
+                    "title": "MONETA - Cyklistika"
+                },
+                {
+                    "value": "CA141D0022",
+                    "title": "MONETA - Tenis"
+                },
+                {
+                    "title": "MONETA - Beach volejbal",
+                    "value": "CA141D0023"
+                },
+                {
+                    "value": "CA141D0003",
+                    "title": "MONETA - Pride"
+                },
+                {
+                    "value": "CA141D0005",
+                    "title": "MONETA - Praha"
+                },
+                {
+                    "title": "MONETA - Středočeský kraj",
+                    "value": "CA141D0006"
+                },
+                {
+                    "title": "MONETA - Jihočeský kraj",
+                    "value": "CA141D0007"
+                },
+                {
+                    "title": "MONETA - Plzeňský kraj",
+                    "value": "CA141D0008"
+                },
+                {
+                    "title": "MONETA - Karlovarský kraj",
+                    "value": "CA141D0009"
+                },
+                {
+                    "title": "MONETA - Ústecký kraj",
+                    "value": "CA141D0010"
+                },
+                {
+                    "title": "MONETA - Liberecký kraj",
+                    "value": "CA141D0011"
+                },
+                {
+                    "title": "MONETA - Královéhradecký kraj",
+                    "value": "CA141D0012"
+                },
+                {
+                    "title": "MONETA - Pardubický kraj",
+                    "value": "CA141D0013"
+                },
+                {
+                    "title": "MONETA - Kraj Vysočina",
+                    "value": "CA141D0014"
+                },
+                {
+                    "title": "MONETA - Jihomoravský kraj",
+                    "value": "CA141D0015"
+                },
+                {
+                    "title": "MONETA - Zlínský kraj",
+                    "value": "CA141D0016"
+                },
+                {
+                    "title": "MONETA - Olomoucký kraj",
+                    "value": "CA141D0017"
+                },
+                {
+                    "title": "MONETA - Moravskoslezský kraj",
+                    "value": "CA141D0018"
+                }
+            ]
+        },
+        "holderType": {
+            "title": "Who will get the new card?",
+            "options": [
+                {
+                    "type": "SELF",
+                    "title": "Me",
+                    "icon": "userFill"
+                },
+                {
+                    "type": "EXIST",
+                    "title": "Existing user",
+                    "icon": "usersFill"
+                },
+                {
+                    "type": "OTHER",
+                    "title": "Someone else",
+                    "description": "The cardholder will verify their identity in Smart Banka on their phone.",
+                    "icon": "plusFill"
+                }
+            ],
+            "roles": [
+                {
+                    "title": "Cardholder",
+                    "value": "HOLDER"
+                },
+                {
+                    "title": "eDisponent",
+                    "value": "EDISPONENT"
+                }
+            ],
+            "tooManyCards": "You already have all available card types. It’s not possible to set up any more cards for you.",
+            "branch": "Unfortunately, this can’t be done online. Please visit a branch and we’ll be happy to issue your payment card.",
+            "user": "Select a user",
+            "account": "Linked to account",
+            "card": "Linked to contract",
+            "primaryButton": "Continue"
+        },
+        "holderDetailSelf": {
+            "title": "Your contact details",
+            "email": "Email",
+            "info": "Are your contact details incorrect? Change them in the About me section in Settings.",
+            "primaryButton": "Continue"
+        },
+        "help": {
+            "title": "You’re just a few taps away from ordering another card",
+            "helpHeadline": "Need help with anything?",
+            "primaryButton": "Complete application",
+            "secondaryButton": "Go to Overview",
+            "tertiaryButton": "Cancel request",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch"
+        },
+        "holderDetail": {
+            "title": "New cardholder contact details",
+            "detailExist": "Used to send the verification invitation.",
+            "detailOther": "Used to send the verification invitation. All details must exactly match the information the person being verified will provide.",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "birthDate": "Date of birth",
+            "citizenship": "Citizenship",
+            "email": "Email",
+            "primaryButton": "Continue"
+        },
+        "cardSetup": {
+            "title": "Card settings",
+            "detail": "You can also change everything later in the card details.",
+            "internetMoto": "Online payments and MO/TO",
+            "secure3d": "3D Secure phone number",
+            "limitsSection": "Daily limits",
+            "limitPos": "In-store payments",
+            "limitAtm": "ATM withdrawals",
+            "limitInternet": "Online payments",
+            "primaryButton": "Continue"
+        },
+        "clickToPay": {
+            "title": "Click to Pay has been enabled for your card on the e-shop",
+            "detail": "Whenever you see the Click to Pay {0} logo while shopping, you can easily pay by entering your email. Your card details are securely stored in the Click to Pay system, which the merchant does not have access to.\n\nBy proceeding, you agree to the <a href=\"ctp\">terms of service</a>, which will also be saved in your Documents. You can deactivate this service anytime in Smart Banka.",
+            "emailPrompt": "E-mail for payments",
+            "emailInfo": "If you have multiple cards linked to one email, you can always choose which one to use.",
+            "emailError": "Enter a valid e-mail address",
+            "primaryButton": "Continue with Click to Pay",
+            "secondaryButton": "Not interested"
+        },
+        "deliveryAddress": {
+            "title": "Address for card delivery",
+            "changeAddressInfoDebit": "These are the account owner’s addresses. If that’s you and you want the card sent to a different address, change it in Settings > About me, or ask the account owner to update it.",
+            "changeAddressInfoCredit": "These are the existing user’s addresses. If that’s you and you want the card sent to a different address, change it in Settings > About me.",
+            "addressTypes": [
+                {
+                    "type": "CONTACT",
+                    "text": "Contact address"
+                },
+                {
+                    "type": "PERMANENT",
+                    "text": "Permanent address"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_FOP",
+                    "text": "Business address"
+                },
+                {
+                    "type": "REGISTERED_OFFICE_PO",
+                    "text": "Registered office"
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "loaderDocuments": {
+            "title": "Please bear with us, we’re preparing your documents",
+            "detail": "We’ll continue shortly."
+        },
+        "precontract": {
+            "title": "Before signing the agreement, please read these documents",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents, and in your email.",
+            "confirm": "By tapping Continue, I confirm that I have read these documents.",
+            "primaryButton": "Continue",
+            "secondaryButton": "I have a question"
+        },
+        "needAnalysis": {
+            "title": "Please read the insurance documents",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents",
+            "agree": "By tapping Continue, I confirm that I have read these documents.",
+            "primaryButton": "Continue",
+            "secondaryButton": "I have a question"
+        },
+        "loaderContract": {
+            "title": "Just a moment, we’re preparing your contract",
+            "detail": "We’ll continue shortly."
+        },
+        "contract": {
+            "title": "We need your agreement to issue the card.",
+            "detail": "You can find all documents in Smart Banka and Internet Banka under Documents",
+            "primaryButton": "I understand and agree",
+            "primaryButtonPrepare": "Send for signature",
+            "secondaryButton": "I do not agree"
+        },
+        "summary": {
+            "title": "Summary",
+            "name": "Cardholder name",
+            "email": "Email",
+            "birthDate": "Date of birth",
+            "cardType": "Card type",
+            "cardTypeFree": "FREE",
+            "cardVariants": [
+                {
+                    "title": "Plastic",
+                    "value": "PLASTIC"
+                },
+                {
+                    "title": "Virtual",
+                    "value": "VIRTUAL"
+                }
+            ],
+            "account": "Linked to account",
+            "card": "Linked to contract",
+            "internetMoto": "Online and MO/TO payments",
+            "enabled": "On",
+            "secure3d": "3D Secure number",
+            "limitPos": "Card payments",
+            "limitAtm": "Cash withdrawals",
+            "limitInternet": "Online payments",
+            "primaryButton": "Continue"
+        },
+        "invitation": {
+            "title": "Now, the new cardholder will verify their identity ",
+            "detail": "Verification must be completed within {0}. The steps are as follows:",
+            "bulletSections": [
+                {
+                    "title": "New cardholder",
+                    "bullets": [
+                        {
+                            "title": "They will receive an email with instructions"
+                        },
+                        {
+                            "title": "They will verify their identity in Smart Bank",
+                            "info": {
+                                "title": "Identity verification in Smart Bank",
+                                "detail": "The email includes instructions on how to complete verification in Smart Bank. If the cardholder doesn’t have it yet, they’ll receive information on how to download and activate it."
+                            }
+                        },
+                        {
+                            "title": "We will check whether they’re eligible for the card"
+                        }
+                    ]
+                },
+                {
+                    "title": "You",
+                    "bullets": [
+                        {
+                            "title": "You will receive a notification with the verification result"
+                        },
+                        {
+                            "title": "You will sign the card agreement in Smart Banka or Internet Banka"
+                        }
+                    ]
+                },
+                {
+                    "title": "New cardholder",
+                    "bullets": [
+                        {
+                            "title": "We will show the card in Smart Bank and Internet Bank, and once added to a phone, they can start paying right away",
+                            "description": "If you requested a plastic card, we’ll send it to the address provided."
+                        }
+                    ]
+                }
+            ],
+            "primaryButton": "Go to Overview"
+        },
+        "questions": {
+            "title": "Do you have any questions?",
+            "detail": "Give us a call or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        },
+        "loaderVictory": {
+            "title": "Just a moment — we need to check everything",
+            "detail": "It’ll only take a moment."
+        },
+        "victoryScreens": {
+            "done": {
+                "plastic": {
+                    "title": "Done! Your plastic card is on its way",
+                    "detail": "It usually arrives within 14 days, and you can add it to your phone right away and start paying instantly.\nWe’ll show your new card PIN in the card details in Smart Banka and Internet Banka."
+                },
+                "virtual": {
+                    "title": "Done! You can pay right away with your virtual card",
+                    "detail": "Just add it to your phone.\nWe’ll show your new card PIN in the card details in Smart Banka and Internet Banka."
+                },
+                "primaryButton": "Go to Overview"
+            },
+            "waitingAprc": {
+                "plastic": {
+                    "title": "We’re almost done — just signatures left",
+                    "detail": "Once the request has been signed by all approvers, we’ll send the card.\n\nIt usually arrives within 14 days, and from then on you’ll be able to add it to your phone for mobile payments.\nYou’ll then find your new card PIN in the card details in Smart Banka and Internet Banka."
+                },
+                "virtual": {
+                    "title": "We’re almost done — just signatures left",
+                    "detail": "Once the request has been signed by all approvers, you’ll be able to add the card to your phone and start paying right away.\n\nYou’ll then find your new card PIN in the card details in Smart Bank and Internet Bank."
+                },
+                "primaryButton": "Back to Overview",
+                "secondaryButton": "View approval progress"
+            }
+        }
+    },
+    "errorScreens": {
+        "nonResident": {
+            "title": "We can assist you at one of our branches",
+            "detail": "If the cardholder is not a Czech citizen, please visit one of our branches together and we’ll take care of the new card application there.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        },
+        "underAge": {
+            "title": "The cardholder must be at least 18 years old",
+            "detail": "Please check their date of birth, or cancel the application.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to cardholder details",
+            "secondaryButton": "Cancel application"
+        },
+        "tooManyCards": {
+            "title": "This person already has all available cards. It’s not possible to set up another one for them.",
+            "detail": "Please choose a different person or end the request.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Select a different user",
+            "secondaryButton": "End request"
+        },
+        "general": {
+            "title": "Sorry, it didn’t work this time",
+            "detail": "Unfortunately, we can’t continue right now. Please try again in a moment.",
+            "primaryButton": "Go to Overview"
+        },
+        "pos": {
+            "title": "We can’t do this online yet. But we can sort it out together at a branch",
+            "detail": "Call us or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Go to Overview"
+        },
+        "longTermProcess": {
+            "title": "The documents for signing will be ready after 8 a.m.",
+            "detail": "Thank you for your patience.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Go to Overview"
+        },
+        "noSigningPossibility": {
+            "title": "The current rules don’t allow you to complete this action",
+            "detail": "To make this change, a sufficient number of authorised signatories for profile {0} must have access to Internet Bank.\n\nIf this condition is met and you’re still having trouble confirming, call us or visit your nearest branch.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back"
+        },
+        "disagree": {
+            "title": "Unfortunately, we can’t proceed without your agreement",
+            "detail": "Do you have any questions?",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back",
+            "secondaryButton": "Cancel application"
+        },
+        "waitingIssuance": {
+            "title": "Now we need to check everything",
+            "detail": "This may take a moment, so please go back to Overview.\nOnce everything is ready, we’ll send you an SMS.",
+            "primaryButton": "Go to Overview"
+        },
+        "waitingInvitation": {
+            "title": "Waiting for cardholder verification",
+            "detail": "We’ll let you know once it’s done.",
+            "primaryButton": "Go to Overview",
+            "secondaryButton": "Cancel request"
         }
     }
 }
