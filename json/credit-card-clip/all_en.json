@@ -89,6 +89,32 @@
                 "secondaryButton": "Cancel application"
             },
             "primaryButton": "Yes, continue"
+        },
+        "szrIneligibilities": {
+            "CC_CLIP_SZR_INVALID_IDCARD": {
+                "title": "Your ID card is invalid or blocked",
+                "description": "Unfortunately, we can’t continue without a valid ID.\nPlease apply for a new one at the appropriate authority. The details will then be automatically updated in Smart Bank.",
+                "kind": "hold",
+                "callUs": "Call customer support ",
+                "branch": "Visit a branch",
+                "primaryButton": "Back to Overview"
+            },
+            "CC_CLIP_SZR_TO_BRANCH": {
+                "title": "Let's solve this at the branch",
+                "description": "Do you have any questions? Call us or visit the nearest branch.",
+                "kind": "branch",
+                "callUs": "Call customer support ",
+                "branch": "Visit a branch",
+                "primaryButton": "Back to Overview"
+            },
+            "CC_CLIP_SZR_NOK": {
+                "title": "We’re sorry, this service is currently unavailable for this account",
+                "description": "An increase to your credit limit is currently not available for this account. We’ll be happy to help you on our customer support line or at a branch.",
+                "kind": "failure",
+                "callUs": "Call customer support ",
+                "branch": "Visit a branch",
+                "primaryButton": "Back to Overview"
+            }
         }
     }
 }

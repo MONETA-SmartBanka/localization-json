@@ -89,6 +89,32 @@
                 "secondaryButton": "Ukončit žádost"
             },
             "primaryButton": "Ano, pokračovat"
+        },
+        "szrIneligibilities": {
+            "CC_CLIP_SZR_INVALID_IDCARD": {
+                "title": "Váš občanský průkaz je neplatný nebo zablokovaný",
+                "description": "Bez platného průkazu bohužel nemůžeme pokračovat. Požádejte prosím o nový na příslušném úřadě. Údaje z něj se nám do Smartbanky propíší automaticky.",
+                "kind": "hold",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "CC_CLIP_SZR_TO_BRANCH": {
+                "title": "Pojďme to vyřešit na pobočce",
+                "description": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                "kind": "branch",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "CC_CLIP_SZR_NOK": {
+                "title": "Omlouváme se, ale tohle nepůjde",
+                "description": "Navýšení kreditního limitu není u tohoto účtu momentálně dostupné. Rádi vám poradíme na zákaznické lince nebo na pobočce.",
+                "kind": "failure",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Naštivte nás\nna pobočce",
+                "primaryButton": "Zpět na Přehled"
+            }
         }
     }
 }
