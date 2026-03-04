@@ -115,6 +115,296 @@
                 "branch": "Naštivte nás\nna pobočce",
                 "primaryButton": "Zpět na Přehled"
             }
+        },
+        "incomesPim": {
+            "list": {
+                "title": "Pokud máte více příjmů, můžete je nyní doplnit",
+                "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
+                "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
+                "remove": "Odstranit příjem",
+                "incomeSource": "Zdroj příjmu",
+                "fillIn": "Doplňte",
+                "employer": {
+                    "EMPLOYMENT_INCOME": "Zaměstnavatel",
+                    "BUSINESS_INCOME": "Název subjektu",
+                    "RENT": "Subjekt vyplácející rentu"
+                },
+                "idNumberTitle": "IČ: {0}",
+                "netIncome": "Čistý měsíční příjem",
+                "incomeFooter": "Podle příchozí platby od {0} z účtu {1}",
+                "fillMissing": "Doplňte chybějící údaje",
+                "moreIncomes": "Další příjmy",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "tax": "Daň (ř. 74)",
+                "addMoreIncomes": {
+                    "title": "Přidat další příjem",
+                    "detail": "Přidáním všech vašich příjmů můžete přispět ke kladnému vyhodnocení vaší žádosti."
+                },
+                "removeAlert": {
+                    "title": "Opravdu chcete odstranit tento příjem?"
+                },
+                "trialPeriod": "ve zkušební lhůtě",
+                "onNoticePeriod": "ve výpovědní lhůtě",
+                "employmentForPeriod": "na dobu určitou do {0}",
+                "indefinitePeriod": "na dobu neurčitou",
+                "primaryButton": "Pokračovat"
+            },
+            "incomeSource": {
+                "title": "Jaký je váš zdroj příjmů?",
+                "detail": "Příjem",
+                "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
+                "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
+                "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "fixPeriodTitle": "a zároveň na dobu určitou",
+                "fixPeriodDateTitle": "do",
+                "fixPeriodDateHint": "Vyberte datum",
+                "primaryButton": "Pokračovat",
+                "titleConfirm": "Zaměstnání u {0}",
+                "detailConfirm": "Vyberte všechny platné varianty",
+                "offers": {
+                    "TO_SME": {
+                        "icon": "business",
+                        "title": "Hledáte úvěr pro podnikání?",
+                        "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
+                        "bulletsTitle": "Výhody podnikatelského úvěru",
+                        "bullets": [
+                            "Úrok už od {interestRate} ročně",
+                            "Sjednání kompletně online",
+                            "Bez poplatku za vedení úvěru",
+                            "Bez prokazování příjmu",
+                            "Možnost odpočtu úroků úvěru z daňového základu",
+                            "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                        ],
+                        "primaryButton": {
+                            "actionType": "APP_PAGE",
+                            "actionData": "SME_NTC_EXPRES",
+                            "actionLabelText": "Více o podnikatelském úvěru"
+                        },
+                        "secondaryButton": {
+                            "actionType": "CLOSE",
+                            "actionLabelText": "Zpět na Expres půjčku"
+                        }
+                    }
+                }
+            },
+            "entrepreneur": {
+                "title": "Detaily o vašem podnikání",
+                "entrepreneurFrom": "Podnikám od",
+                "taxBase": "Výše rozdílu (základ daně za minulý rok)",
+                "taxBaseInfoMessage": "Zadejte základ daně z minulého roku. Najdete ho v daňovém přiznání. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                "taxationPeriodYear": "Zdaňovací období",
+                "line101LastTaxationPeriodIncome": "Příjmy (ř. 101)",
+                "line101LastTaxationPeriodIncomeInfoMessage": "Zadejte částku z řádku 101 z daňového přiznání z minulého roku. V případě, že uplatňujete paušální daň, zastavte se za námi na pobočku kde s Vámi žádost dokončíme.",
+                "unpaidTaxForLastYear": "Zbývá doplatit (ř. 91)",
+                "unpaidTaxForLastYearInfoMessage": "Zadejte skutečnou daň z příjmu z řádku 91 z daňového přiznání z minulého roku.",
+                "tax": "Daň (ř. 74)",
+                "taxInfoMessage": "Po uplatnění slevy podle paragrafu 35c zákona ř. 71 - ř. 73",
+                "primaryButton": "Pokračovat"
+            },
+            "incomeSources": [
+                {
+                    "id": "EMPLOYMENT_INCOME",
+                    "title": "Zaměstnanec",
+                    "detail": "Vyberte všechny platné varianty"
+                },
+                {
+                    "id": "BUSINESS_INCOME",
+                    "title": "Podnikatel"
+                },
+                {
+                    "id": "RENT",
+                    "title": "Renta"
+                },
+                {
+                    "id": "PARENTAL_ALLOWANCE",
+                    "title": "Rodičovský příspěvek"
+                },
+                {
+                    "id": "MATERNITY_ALLOWANCE",
+                    "title": "Peněžitá pomoc v mateřství"
+                },
+                {
+                    "id": "OLDAGE_PENSION",
+                    "title": "Důchodce - starobní"
+                },
+                {
+                    "id": "DISABILITY_PENSION",
+                    "title": "Důchodce - invalidní"
+                },
+                {
+                    "id": "RENTAL_OFF_TAX_RETURN",
+                    "title": "Pronájem nemovitosti"
+                },
+                {
+                    "id": "MAINTENANCE_ALLOWANCE",
+                    "title": "Výživné"
+                },
+                {
+                    "id": "OTHER_INCOME",
+                    "title": "Jiný",
+                    "detail": "(DPP, DPČ, podpora v nezaměstnanosti a jiné)"
+                }
+            ],
+            "employer": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je Váš současný zaměstnavatel?",
+                    "employerTitle": "Zaměstnavatel",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "countryTitle": "Země",
+                    "countryPlaceholder": "vyberte",
+                    "czechEmployer": "Český zaměstnavatel",
+                    "foreignEmployer": "Zahraniční zaměstnavatel",
+                    "primaryButton": "Pokračovat"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "employerTitle": "Název",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "employerTitle": "Subjekt vyplácející rentu",
+                    "employerPlaceholder": "vyberte",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "vyberte",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "employerSearch": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš současný zaměstnavatel?",
+                    "employerTitle": "Zaměstnavatel",
+                    "employerPlaceholder": "vyberte",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu subjektu, včetně diakritiky.",
+                    "employerTitle": "Subjekt",
+                    "employerPlaceholder": "Vyberte název subjektu",
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Napište alespoň 3 písmena z názvu zaměstnavatele, včetně diakritiky.",
+                    "employerTitle": "Subjekt vyplácející rentu",
+                    "employerPlaceholder": "vyberte",
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                }
+            },
+            "employerSearchId": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš současný zaměstnavatel?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Zaměstnává mě zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "BUSINESS_INCOME": {
+                    "title": "Doplňte údaje o Vašem podnikání",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Podnikám v zahraničí",
+                    "noMatchItem": "Pokračovat s {0}"
+                },
+                "RENT": {
+                    "title": "Kdo vám rentu vyplácí?",
+                    "sectionTitle": "Vyberte ze seznamu",
+                    "hint": "Zadejte celé IČO subjektu.",
+                    "idNumberTitle": "IČ",
+                    "idNumberPlaceholder": "IČ",
+                    "switchToForeignEmployer": "Rentu mi vyplácí zahraniční firma",
+                    "noMatchItem": "Pokračovat s {0}"
+                }
+            },
+            "solvency": {
+                "EMPLOYMENT_INCOME": {
+                    "title": "Jaký je váš příjem ze zaměstnání?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                    "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENT": {
+                    "title": "Jaká je výše vaší renty",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "PARENTAL_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho rodičovského příspěvku",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "MATERNITY_ALLOWANCE": {
+                    "title": "Jaká je výše vaší peněžité pomoci v mateřství",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "OLDAGE_PENSION": {
+                    "title": "Jaká je výše vašeho starobního důchodu?",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "DISABILITY_PENSION": {
+                    "title": "Jaká je výše vašeho invalidního důchodu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "RENTAL_OFF_TAX_RETURN": {
+                    "title": "Jaká je výše vašeho příjmu z pronájmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "MAINTENANCE_ALLOWANCE": {
+                    "title": "Jaká je výše vašeho příjmu z výživného",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                },
+                "OTHER_INCOME": {
+                    "title": "Jaká je výše vašeho příjmu",
+                    "inputTitle": "Čistý měsíční příjem",
+                    "inputPlaceholder": "0",
+                    "primaryButton": "Pokračovat"
+                }
+            },
+            "invalidIncomeCombination": {
+                "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
+                "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
+                "callUs": "Zavolejte nám\nna infolinku",
+                "branch": "Navštivte nás\nna pobočce",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Dokončit později",
+                "tertiaryButton": "Ukončit žádost"
+            }
         }
     }
 }
