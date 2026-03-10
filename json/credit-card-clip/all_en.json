@@ -406,15 +406,116 @@
                 "tertiaryButton": "Ukončit žádost"
             }
         },
-        "dependents": {
-            "title": "How many dependents?",
-            "detail": "A dependent is any person who is even partly dependent on your income. How many people in your life would be impacted by a cut in your income?",
+        "householdSolvency": {
+            "title": "What is the net monthly income of your household?",
+            "inputTitle": "Net monthly income",
+            "detail": "Enter the net monthly income of all members of your household. If your income varies from month to month, provide the average from the last three months.",
+            "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
             "primaryButton": "Continue"
         },
-        "householdIncome": {
-            "title": "What is your net household income?",
-            "detail": "Enter the net income of your household - if the monthly income varies, please enter a mean of the last 3 months. Take your time if you need to - you can find your saved application in Balance Overview in Smart Banka.",
+        "dependents": {
+            "title": "How many dependents do you have?",
+            "me": "Me",
+            "count": "Number of dependents",
+            "detail": "A dependent is anyone who relies on your income — even partially — such as children, a partner on parental leave, or a person with a disability you care for.  How many people close to you would be affected by a reduction in your income?",
             "primaryButton": "Continue"
+        },
+        "householdExpensesNecessary": {
+            "title": "What other personal expenses do you have?",
+            "necessaryExpensesSection": "What essential expenses do you cover as a loan applicant?",
+            "necessaryExpensesInfo": "Only include the expenses — or the portion of them — that you personally cover. Essential expenses are those that are necessary and unavoidable.",
+            "necessaryExpenses": "Monthly expenses amount",
+            "installmentsSumSection": "Are you currently repaying a lease or loan with a provider other than MONETA Money Bank?",
+            "installmentsSum": "Monthly repayment amount",
+            "necessaryExpensesError": {
+                "title": "Your essential monthly expenses are higher than your income.",
+                "detail": "You may have included rent or mortgage payments. We're mainly interested in your essential monthly living expenses.",
+                "secondaryButton": "Edit expenses",
+                "primaryButton": "Continue"
+            },
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "Food, clothing, internet bills, insurance, and housing costs (such as rent, utilities, water, and other services)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Transportation (public transit pass, fuel costs)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Healthcare (medications, physical therapy, medical supplies)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Alimony or child support"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Children’s education (nurseries, kindergartens, schools, lunches, after-school programs, extracurricular activities)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Other regular monthly expenses"
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Please do not include loan repayments, mortgages, or wage garnishments."
+                }
+            ],
+            "primaryButton": "Continue"
+        },
+        "otherInfo": {
+            "title": "Just final details:",
+            "detail": "Please select the document you could bring with you to a branch, if needed.",
+            "primaryButton": "Continue",
+            "idDetail": "Other form of ID",
+            "secondDocuments": [
+                {
+                    "title": "Driving licence",
+                    "id": "DRIVING_LICENCE"
+                },
+                {
+                    "title": "Passport",
+                    "id": "PASSPORT"
+                },
+                {
+                    "title": "Birth certificate",
+                    "id": "BIRTH_CERTIFICATE"
+                }
+            ],
+            "housingDetail": "Where do you live?",
+            "housing": [
+                {
+                    "title": "Own house / apartment",
+                    "id": "OWN"
+                },
+                {
+                    "title": "Rent",
+                    "id": "RENTED"
+                },
+                {
+                    "title": "Cooperative living",
+                    "id": "COOPERATIVE"
+                },
+                {
+                    "title": "With parents",
+                    "id": "PARENTS"
+                },
+                {
+                    "title": "Other",
+                    "id": "OTHER"
+                }
+            ]
+        },
+        "agreement": {
+            "title": "Just one consent left",
+            "detail": "By selecting „Continue“, you submit your application to increase your credit card limit to the amount stated above.<br/><br/>In order to process your application, we are required to process your personal data and assess your creditworthiness and payment history. This includes verifying information in the Banking Client Information Register, the Non-Banking Client Information Register, and, where applicable, in other databases necessary for the assessment of your creditworthiness.<br/><br/>By continuing, you grant your consent to the collection and processing of the above-mentioned information for the purposes of reviewing your application and concluding the contractual relationship.",
+            "primaryButton": "Continue"
+        },
+        "scoring": {
+            "title": "Just a minute. We must review everything",
+            "detail": "We'll be right back with you."
         }
     }
 }

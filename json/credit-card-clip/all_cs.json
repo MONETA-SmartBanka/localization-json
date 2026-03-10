@@ -406,15 +406,116 @@
                 "tertiaryButton": "Ukončit žádost"
             }
         },
-        "dependents": {
-            "title": "Kolik je Vámi vyživovaných osob?",
-            "detail": "Vyživovanou osobou je každý, kdo je i\u00A0jen částečně závislý na Vašem příjmu - například děti, manželka na mateřské, invalidní osoby o které pečujete atd. Kolik Vašich blízkých by pocítilo snížení Vašeho příjmu?",
+        "householdSolvency": {
+            "title": "Jaký je čistý měsíční příjem vaší domácnosti?",
+            "inputTitle": "Měsíční příjem",
+            "detail": "Zadejte čistý měsíční příjem všech členů vaší domácnosti. Pokud máte každý měsíc jiný příjem, uveďte průměr za poslední tři měsíce.",
+            "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
             "primaryButton": "Pokračovat"
         },
-        "householdIncome": {
-            "title": "Jaký je čistý měsíční příjem Vaší domácnosti?",
-            "detail": "Zadejte čistý měsíční příjem Vaší domácnosti - pokud máte každý měsíc jiný příjem, uveďte průměr za poslední tři měsíce. Pokud si to chcete v\u00A0klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+        "dependents": {
+            "title": "Kolik je vámi vyživovaných osob?",
+            "me": "Já",
+            "count": "Počet osob",
+            "detail": "Vyživovanou osobou je každý, kdo je i jen částečně závislý na Vašem příjmu – například děti, partner*ka na rodičovské, invalidní osoby o které pečujete atd. Kolik vašich blízkých by pocítilo snížení vašeho příjmu?",
             "primaryButton": "Pokračovat"
+        },
+        "householdExpensesNecessary": {
+            "title": "Jaké další měsíční výdaje se týkají přímo Vás?",
+            "necessaryExpensesSection": "Jaké nezbytné náklady jako žadatel*ka o úvěr hradíte?",
+            "necessaryExpensesInfo": "Započítejte pouze náklady nebo jejich část, kterou hradíte Vy. Nezbytné náklady jsou ty, bez kterých se neobejdete.",
+            "necessaryExpenses": "Výše měsíčních nákladů",
+            "installmentsSumSection": "Splácíte leasing nebo úvěr jinde než v MONETA Money Bank?",
+            "installmentsSum": "Výše měsíční splátky",
+            "necessaryExpensesError": {
+                "title": "Vaše nezbytné měsíční náklady jsou vyšší než vaše příjmy",
+                "detail": "Možná jste započítali nájem nebo splátku hypotéky. Nás zajímají především nezbytné měsíční náklady.",
+                "secondaryButton": "Upravit výdaje",
+                "primaryButton": "Pokračovat"
+            },
+            "richBullets": [
+                {
+                    "image": "tickFill",
+                    "title": "Jídlo, oblečení, platby za internet, pojištění, náklady na bydlení (například nájem, platby za energie, vodu a další služby)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Dopravu (tramvajenka, náklady na palivo)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Zdravotní péči (léky, rehabilitace, zdravotní pomůcky)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Výživné"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Vzdělání pro děti (jesle, školky, školy, obědy, družiny, kroužky)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Ostatní pravidelné měsíční výdaje"
+                },
+                {
+                    "image": "closeFill",
+                    "title": "Neuvádějte prosím splátky úvěrů včetně hypoték a srážky ze mzdy"
+                }
+            ],
+            "primaryButton": "Pokračovat"
+        },
+        "otherInfo": {
+            "title": "Teď už jen drobnosti:",
+            "detail": "Vyberte prosím doklad, se kterým můžete případně dorazit na pobočku.",
+            "primaryButton": "Pokračovat",
+            "idDetail": "Další doklad",
+            "secondDocuments": [
+                {
+                    "title": "Řidičský průkaz",
+                    "id": "DRIVING_LICENCE"
+                },
+                {
+                    "title": "Cestovní pas",
+                    "id": "PASSPORT"
+                },
+                {
+                    "title": "Rodný list",
+                    "id": "BIRTH_CERTIFICATE"
+                }
+            ],
+            "housingDetail": "Kde bydlíte?",
+            "housing": [
+                {
+                    "title": "Vlastní dům / byt",
+                    "id": "OWN"
+                },
+                {
+                    "title": "Pronajatý dům / byt",
+                    "id": "RENTED"
+                },
+                {
+                    "title": "Družstevní byt",
+                    "id": "COOPERATIVE"
+                },
+                {
+                    "title": "U rodičů",
+                    "id": "PARENTS"
+                },
+                {
+                    "title": "Jiné",
+                    "id": "OTHER"
+                }
+            ]
+        },
+        "agreement": {
+            "title": "Poslední krok – už jen jeden souhlas",
+            "detail": "Po kliknutí na tlačítko „Pokračovat“ vám založíme žádost o navýšení úvěrového rámce kreditní karty v uvedené výši.<br/><br/>Pro její vyřízení potřebujeme zpracovat vaše osobní údaje, posoudit vaši úvěruschopnost, důvěryhodnost a platební morálku. To zahrnuje ověření informací v Bankovním registru klientských informací, Nebankovním registru klientských informací a případně i v dalších databázích nezbytných pro posouzení vaší bonity.<br/><br/>Tímto nám udělujete souhlas s vyžádáním a zpracováním těchto informací nezbytných k jednání o uzavření smlouvy.",
+            "primaryButton": "Pokračovat"
+        },
+        "scoring": {
+            "title": "Chvilku strpení,<br/>všechno to musíme zkontrolovat",
+            "detail": "Brzy budeme pokračovat."
         }
     }
 }
