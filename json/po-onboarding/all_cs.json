@@ -51,10 +51,22 @@
             "title": "Máme skoro hotovo. Ušetřete čas a založte si rovnou spořicí účet",
             "benefitsTitle": "Výhody spořicího účtu",
             "bullets": [
-                "Peníze máte kdykoliv k dispozici",
-                "Atraktivní zhodnocení Vašeho vkladu",
-                "Zřízení a vedení účtu zdarma",
-                "Vklady jsou pojištěny do 100 000 eur."
+                {
+                    "icon": "starsAltFill",
+                    "label": "Peníze máte kdykoliv k dispozici"
+                },
+                {
+                    "icon": "interestFill",
+                    "label": "Atraktivní zhodnocení Vašeho vkladu"
+                },
+                {
+                    "icon": "tickFill",
+                    "label": "Zřízení a vedení účtu zdarma"
+                },
+                {
+                    "icon": "shieldBlankFill",
+                    "label": "Vklady jsou pojištěny do 100 000 eur."
+                }            
             ],
             "primaryButton": "Založit se spořicím účtem",
             "secondaryButton": "Pokračovat bez spoření"
