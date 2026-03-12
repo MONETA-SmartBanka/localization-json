@@ -8630,7 +8630,6 @@
                 "dip": "Dlouhodobý investiční produkt"
             }
         },
-
         "advisoryFund": {
             "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
             "funds": [
@@ -9123,24 +9122,29 @@
             "filterDirectionOutgoing": "Odchozí"
         },
         "dipPromo": {
-            "title": "Lepší penze s Dlouhodobým investičním produktem",
-            "detail": "S novinkou na trhu si můžete sami zvolit, kde\nse budou Vaše peníze na stáří zhodnocovat.",
-            "bulletsTitle": "Daňová úspora až 7 200 Kč ročně a možnost příspěvku od zaměstnavatele až 50 000 Kč",
+            "title": "Dlouhodobý investiční produkt (DIP)",
+            "detail": "Výhody pravidelného investování a daňové úspory v jednom produktu.",
+            "bulletsTitle": "Co si v mládí ušetříte, ve stáří jako když najdete",
             "bullets": [
                 {
                     "icon": "investmentsFill",
-                    "title": "Spoření s atraktivní úrokovou sazbou",
-                    "detail": "Součástí produktu je Spořicí účet DIP. Peníze tam můžete nechat úročit nebo je investovat do podílových fondů pro možné vyšší zhodnocení."
+                    "title": "Jednorázové i pravidelné investování",
+                    "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa."
                 },
                 {
                     "icon": "moneyBillRepeatFill",
-                    "title": "Jednorázové i pravidelné investice",
-                    "detail": "Na výběr máte více než 40 renomovaných investičních produktů z naší nabídky. Když investici prodáte, peníze Vám připíšeme zpět na Spořicí účet DIP."
+                    "title": "Uložené peníze si můžete odečíst z daní. Až do 48 000 Kč ročně",
+                    "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spořicí účet DIP."
                 },
                 {
                     "icon": "interestFill",
-                    "title": "Ušetříte na daních",
-                    "detail": "Pokud uložíte peníze na DIP nejméně na 10 let a zároveň do 60 let věku, můžete na daních ušetřit až 7 200 Kč ročně."
+                    "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou {rate} ročně",
+                    "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+                },
+                {
+                    "icon": "calendarClockFill",
+                    "title": "Po 60. narozeninách a 10 letech spoření",
+                    "detail": "DIP můžete vybrat po 10 letech spoření, nejdříve ale, až oslavíte 60. narozeniny."
                 }
             ],
             "moreInfo": {
@@ -9148,11 +9152,39 @@
                 "actionType": "WEB",
                 "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
             },
+            "stepsTitle": "Využijte DIP na maximum",
+            "steps": [
+                {
+                    "title": "Založte si Dlouhodobý investiční produkt",
+                    "detail": "Jeho součástí je úročený spořicí účet, ze kterého můžete investovat do renomovaných podílových fondů."
+                },
+                {
+                    "title": "Vložte peníze na Spořicí účet DIP",
+                    "detail": "Od této chvíle můžete využít daňovou úsporu."
+                },
+                {
+                    "title": "Pravidelně investujte",
+                    "detail": "Založte si trvalý příkaz a využijte příspěvek od zaměstnavatele nebo daňovou úsporu ve výši investované částky."
+                },
+                {
+                    "title": "Přineste zaměstnavateli potvrzení a čerpejte příspěvek",
+                    "detail": "Stáhněte si potvrzení o vedení DIP a nechte si přispívat na dlouhodobý investiční produkt od svého zaměstnavatele."
+                }
+            ],
             "primaryButton": {
-                "actionLabelText": "Sjednat DIP na pobočce",
+                "actionLabelText": "Založit Dlouhodobý investiční produkt"
+            },
+            "secondaryButton": {
+                "actionLabelText": "Seznam fondů",
                 "actionType": "APPPAGE",
-                "actionData": "BRANCHESATMS"
+                "actionData": "INVESTMENTS_DASHBOARD"
             }
+        },
+        "dipOnboardingRejected": {
+            "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+            "detail": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství a platili daně v ČR.",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Zpět na investice"
         },
         "advisoryPromo": {
             "title": "Investiční poradenství",
@@ -9233,6 +9265,13 @@
                 "branch": "Naštivte nás<br>na pobočce",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
+            }
+        },
+        "dipOnboarding": {
+            "cannotOffer": {
+                "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+                "subtitle": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství a platili daně v ČR.",
+                "primaryButton": "Zpět na investice"
             }
         }
     }
