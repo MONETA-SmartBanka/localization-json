@@ -465,14 +465,63 @@
             ],
             "primaryButton": "Continue"
         },
-        "otherInfo": {
-            "title": "Just final details:",
-            "detail": "Please select the document you could bring with you to a branch, if needed.",
-            "primaryButton": "Continue",
-            "idDetail": "Other form of ID",
+        "otherInfoExtended": {
+            "title": "Now the small details:",
+            "detail": "Please select a form of ID which you could present at one of our branches.",
+            "statusDetail": "Status",
+            "statusDocuments": [
+                {
+                    "title": "Single",
+                    "id": "SINGLE"
+                },
+                {
+                    "title": "Married",
+                    "id": "MARRIED"
+                },
+                {
+                    "title": "Divorced",
+                    "id": "DIVORCED"
+                },
+                {
+                    "title": "Partner",
+                    "id": "PARTNER"
+                },
+                {
+                    "title": "Widowed",
+                    "id": "WIDOWED"
+                },
+                {
+                    "title": "Other",
+                    "id": "OTHER"
+                }
+            ],
+            "educationDetail": "Your education",
+            "educationDocuments": [
+                {
+                    "title": "Primary",
+                    "id": "BASIC"
+                },
+                {
+                    "title": "Apprenticeship",
+                    "id": "SECONDARY"
+                },
+                {
+                    "title": "Secondary",
+                    "id": "HIGH"
+                },
+                {
+                    "title": "Higher",
+                    "id": "HIGHER"
+                },
+                {
+                    "title": "Other",
+                    "id": "OTHER"
+                }
+            ],
+            "idDetail": "Other ID",
             "secondDocuments": [
                 {
-                    "title": "Driving licence",
+                    "title": "Driving license",
                     "id": "DRIVING_LICENCE"
                 },
                 {
@@ -480,26 +529,27 @@
                     "id": "PASSPORT"
                 },
                 {
-                    "title": "Birth certificate",
+                    "title": "Birth Certificate",
                     "id": "BIRTH_CERTIFICATE"
                 }
             ],
+            "primaryButton": "Continue",
             "housingDetail": "Where do you live?",
             "housing": [
                 {
-                    "title": "Own house / apartment",
+                    "title": "Own house / flat",
                     "id": "OWN"
                 },
                 {
-                    "title": "Rent",
+                    "title": "Rented house / flat",
                     "id": "RENTED"
                 },
                 {
-                    "title": "Cooperative living",
+                    "title": "Cooperative flat",
                     "id": "COOPERATIVE"
                 },
                 {
-                    "title": "With parents",
+                    "title": "At parents",
                     "id": "PARENTS"
                 },
                 {

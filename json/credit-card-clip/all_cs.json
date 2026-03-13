@@ -465,10 +465,59 @@
             ],
             "primaryButton": "Pokračovat"
         },
-        "otherInfo": {
+        "otherInfoExtended": {
             "title": "Teď už jen drobnosti:",
             "detail": "Vyberte prosím doklad, se kterým můžete případně dorazit na pobočku.",
-            "primaryButton": "Pokračovat",
+            "statusDetail": "Váš rodinný stav",
+            "statusDocuments": [
+                {
+                    "title": "Svobodný/á",
+                    "id": "SINGLE"
+                },
+                {
+                    "title": "Ženatý/Vdaná",
+                    "id": "MARRIED"
+                },
+                {
+                    "title": "Rozvedený/á",
+                    "id": "DIVORCED"
+                },
+                {
+                    "title": "Druh/Družka",
+                    "id": "PARTNER"
+                },
+                {
+                    "title": "Vdovec/Vdova",
+                    "id": "WIDOWED"
+                },
+                {
+                    "title": "Jiný",
+                    "id": "OTHER"
+                }
+            ],
+            "educationDetail": "Vaše vzdělání",
+            "educationDocuments": [
+                {
+                    "title": "Základní",
+                    "id": "BASIC"
+                },
+                {
+                    "title": "Odborné/Učňovské",
+                    "id": "SECONDARY"
+                },
+                {
+                    "title": "Střední",
+                    "id": "HIGH"
+                },
+                {
+                    "title": "Vysokoškolské",
+                    "id": "HIGHER"
+                },
+                {
+                    "title": "Jiné",
+                    "id": "OTHER"
+                }
+            ],
             "idDetail": "Další doklad",
             "secondDocuments": [
                 {
@@ -484,6 +533,7 @@
                     "id": "BIRTH_CERTIFICATE"
                 }
             ],
+            "primaryButton": "Pokračovat",
             "housingDetail": "Kde bydlíte?",
             "housing": [
                 {
