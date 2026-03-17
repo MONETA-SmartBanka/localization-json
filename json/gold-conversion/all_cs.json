@@ -1,7 +1,105 @@
 {
     "scenes": {
-        "benefits": {
-            
+        "benefitList": {
+            "title": "Prémiové služby pro vás a vaši rodinu",
+            "description": "Aktivujte si balíček Gold a užívejte si to nejlepší.",
+            "airportLounges": "Letištní salonky po celém světě",
+            "familyTravelInsurance": "Cestovní pojištění pro vás i rodinu",
+            "lossAndTheftInsurance": "Pojištění proti ztrátám a krádežím",
+            "unlimitedSavingsAccount": "Spořicí účet bez omezení",
+            "bestExchangeRates": "Směnárna s nejlepšími kurzy",
+            "exclusiveOffersAndServices": "Exkluzivní slevy, nabídky a služby",
+            "mainButton": "Pokračovat"
+        },
+        "benefitDetails": {
+            "airportLounges": {
+                "title": "Relaxujte v letištních saloncích po celém světě",
+                "moreInfoButton": "Více informací",
+                "benefits": [
+                    {
+                        "title": "Více než 1 500 letištních salonků",
+                        "description": "Pro vstup vám stačí vaše karta nebo aplikace Priority Pass."
+                    },
+                    {
+                        "title": "4 vstupy ročně zdarma",
+                        "description": "Můžete je využít sami nebo se svými blízkými."
+                    }
+                ]
+            },
+            "familyTravelInsurance": {
+              "title": "Cestovní pojištění pro vás i vaši rodinu",
+              "moreInfoButton": "Více informací",
+              "benefits": [
+                  {
+                      "title": "Limit až 15 000 000 Kč",
+                      "description": "Pokryje léčebné výlohy v zahraničí včetně asistenčních služeb a přepravy do ČR."
+                  },
+                  {
+                      "title": "Platí po celém světě",
+                      "description": "Navíc s podporou v českém jazyce 24/7."
+                  },
+                  {
+                      "title": "Kompenzace za ztrátu zavazadla i zpožděný let",
+                      "description": "Pojištěny budou také vaše osobní věcí a zavazadla až do výše 30 000 Kč navíc s kompenzací za zpoždění nebo zrušení letu."
+                  }
+              ]
+            },
+            "lossAndTheftInsurance" : {
+                "title": "Pojištění cenností, karet, elektroniky a telefonu",
+                "moreInfoButton": "Více informací",
+                "benefits": [
+                    {
+                        "title": "Pojištění ztracených osobních věcí a elektroniky",
+                        "description": "Při ztrátě nebo odcizení vašich osobních věcí, cenností a elektroniky vám bude proplacen nákup nových."
+                    },
+                    {
+                        "title": "Příspěvek na opravu nebo nákup nového zařízení",
+                        "description": "Při rozbití mobilního telefonu, tabletu či chytrých hodinek s nainstalovanou Smart Bankou získáte příspěvek na jejich opravu nebo na nákup nového zařízení."
+                    },
+                    {
+                        "title": "Pojištění zneužití platebních karet a plateb",
+                        "description": "Platí pro vás a další držitele karet k vašemu účtu. Pojištění se vztahuje na zneužití elektronických plateb nebo zneužití elektronického a mobilního bankovnictví."
+                    },
+                ]
+            },
+            "unlimitedSavingsAccount": {
+                "title": "Spořicí účet Gold. Bez omezení a bez podmínek",
+                "moreInfoButton": "Více informací o sazbě",
+                "benefits": [
+                    {
+                        "title": "Neomezená výše vkladu a žádné podmínky",
+                        "description": "Výhodný úrok platí pro každou korunu na vašem spořicím účtu."
+                    },
+                    {
+                        "title": "Spořicí účet získáte automaticky",
+                        "description": "Spoření nemusíte znovu zakládat, aktivujeme vám ho automaticky."
+                    },
+                ]
+            },
+            "bestExchangeRates": {
+                "title": "Směnárna s nejlepšími kurzy",
+                "moreInfoButton": "Více informací",
+                "benefits": [
+                    {
+                        "title": "Předem známý kurz",
+                        "description": "V online Směnárně se předem dozvíte nezávaznou nabídku kurzu eur a dolarů, které můžete následně okamžitě směnit."
+                    },
+                    {
+                        "title": "Směnárna 24/7",
+                        "description": "Směnu můžete provést odkudkoliv a zdarma."
+                    },
+                ]
+            },
+            "exclusiveOffersAndServices": {
+                "title": "Exkluzivní služby, nabídky a slevy",
+                "moreInfoButton": "Slevy od VISA",
+                "benefits": [
+                    {
+                        "title": "Odměny a Visa benefitní program",
+                        "description": "Užívejte si ještě lepší výhody s našimi Odměnami. Můžete s nimi ušetřit tisíce korun ročně a navíc získáte přístup do Visa benefitního programu."
+                    },
+                ]
+            }
         }
     }
 }
