@@ -29,28 +29,25 @@
         "final": "{{date}} –&nbsp;on this date, your mortgage will be repaid. Please make sure there are sufficient funds in your account.",
         "finalDate": "Repayment Date",
         "repaymentReasons": {
-            "refinancing": { "label": "Refinancování", "order": 1 },
-            "sale": { "label": "Prodej nemovitosti", "order": 3 },
-            "other": { "label": "Jiné", "order": 10 },
-            "ownFunds": {
-                "label": "Vlastní peněžní prostředky k dispozici",
-                "order": 2
-            },
+            "refinancing": { "label": "Refinancing", "order": 1 },
+            "sale": { "label": "Property sale", "order": 3 },
+            "other": { "label": "Other", "order": 10 },
+            "ownFunds": { "label": "Own funds available", "order": 2 },
             "saleBefore24Months": {
-                "label": "Prodej nemovitosti do 24 měsíců trvání hypotéky",
+                "label": "Property sale within 24 months of mortgage",
                 "order": 4
             },
             "saleAfter24Months": {
-                "label": "Prodej nemovitosti po 24 měsících trvání hypotéky",
+                "label": "Property sale after 24 months of mortgage",
                 "order": 5
             },
             "communityPropertySettlement": {
-                "label": "Vypořádání SJ po 24 měsících trvání hypotéky",
+                "label": "Settlement after 24 months of mortgage",
                 "order": 6
             },
-            "longTermDisease": { "label": "Dlouhodobá nemoc", "order": 7 },
-            "disability": { "label": "Invalidita", "order": 8 },
-            "death": { "label": "Úmrtí", "order": 9 }
+            "longTermDisease": { "label": "Long-term illness", "order": 7 },
+            "disability": { "label": "Disability", "order": 8 },
+            "death": { "label": "Death", "order": 9 }
         },
         "cadastreDetail": "There is no need to deal with the Land Register paperwork. We will pay the administrative fee of 1,600 CZK on your behalf and then bill you for it afterwards.",
         "reason": {
@@ -79,15 +76,15 @@
             "text": "Please enter the source"
         },
         "originOfFunds": {
-            "workIncome": "Příjmy ze zaměstnání",
-            "businessIncome": "Příjmy z podnikání",
-            "gift": "Dar",
-            "heritage": "Dědictví",
-            "other": "Jiný",
-            "rentalIncome": "Příjmy z pronájmu",
-            "saleOfVirtualAssets": "Prodej virtuálních aktiv",
-            "saleOfOtherProperty": "Prodej jiného majetku",
-            "saleOfProperty": "Prodej nemovitého majetku"
+            "workIncome": "Employment income",
+            "businessIncome": "Business income",
+            "gift": "Gift",
+            "heritage": "Inheritance",
+            "other": "Other",
+            "rentalIncome": "Rental income",
+            "saleOfVirtualAssets": "Sale of virtual assets",
+            "saleOfOtherProperty": "Sale of other property",
+            "saleOfProperty": "Sale of real estate"
         },
         "detailButton": {
             "base": "Extraordinary repayment / early repayment",
