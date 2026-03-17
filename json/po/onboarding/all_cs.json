@@ -1,4 +1,10 @@
 {
+    "errorScreens": {
+        "scoringNok": {
+            "title": "Při podpisu smlouvy došlo k chybě. Brzy se Vám ozveme",
+            "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit."
+        }
+    },
     "scenes": {
         "details": {
             "title": "Máme správně údaje o firmě?",
@@ -12,7 +18,7 @@
             "countryOfIncorporation": "Země založení společnosti",
             "lawRequirementTitle": "Ze zákona se Vás musíme zeptat, jestli máte provozovny i v jiných zemích.",
             "foreignBranchesTitle": "Máte provozovny i v jiných zemích?",
-            "foreignBrancheLabel": "Země provozovny",
+            "foreignBranchesLabel": "Země provozovny",
             "addCountry": "Přidat zemi",
             "birthDate": "Datum narození",
             "citizenship": "Země občanství",
@@ -20,6 +26,7 @@
             "ownerType": "Typ skutečného majitele",
             "share": "Podíl",
             "searchHint": "Hledat",
+            "ownerTrailingIcon": "ic_circle_info_fill",
             "countryTitle": "Vyberte zemi",
             "statutoryRepresentativesTitle": "Statutární zástupci",
             "realOwners": "Skuteční majitelé",
@@ -117,10 +124,6 @@
             "inProgressTitle": "Teď to musíme podepsat my",
             "inProgressDetail": "Chvilku strpení prosím",
             "primaryButton": "Pokračovat"
-        },
-        "victoryError": {
-            "title": "Při podpisu smlouvy došlo k chybě. Brzy se Vám ozveme",
-            "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit."
         }
     }
 }
