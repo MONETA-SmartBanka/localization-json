@@ -165,6 +165,50 @@
                 "kind": "paid"
             }
         ]
+    },
+    "goldCard": {
+        "mainButton": "Pokračovat",
+        "cardImage": "/cbl_images/gold-conversion/gold_card.png",
+        "newCard": {
+            "title": "Součástí balíčku Gold je také Gold karta",
+            "description": "Gold kartu budete mít k účtu zdarma ",
+            "otherAddressInfo": "Chcete poslat kartu na jinou adresu? Změňte kontaktní adresu v sekci O mně v Nastavení."
+        },
+        "existingCard": {
+            "title": "Gold kartu už máte. Aktivujte si balíček Gold a získejte více výhod za lepší cenu",
+            "description": "Kartu budete mít v balíčku zdarma a navíc",
+            "existingBenefitsTitle": "Služby, které vám zůstanou",
+            "newBenefits": [
+                {
+                    "id": "savingsAccount",
+                    "title": "Spořicí účet s výhodnějším úrokem",
+                    "description": "Bez omezení a bez podmínek."
+                },
+                {
+                    "id": "currencyExchange",
+                    "title": "Směnárnu s nejlepšími kurzy",
+                    "description": "V provozu 24/7, při založení cizoměnného účtu v USD, GBP, EUR."
+                }
+            ],
+            "existingBenefits": [
+                {
+                    "id": "familyTravelInsurance",
+                    "title": "Cestovní pojištění pro vás i pro rodinu",
+                },
+                {
+                    "id": "lossAndTheftInsurance",
+                    "title": "Pojištění proti ztrátám a krádežím",
+                },
+                {
+                    "id": "airportLounges",
+                    "title": "Letištní salonky po celém světě"
+                },
+                {
+                    "id": "exclusiveOffersAndServices",
+                    "title": "Exkluzivní slevy, nabídky a služby"
+                }
+            ]
+        }
     }
   }
 }
