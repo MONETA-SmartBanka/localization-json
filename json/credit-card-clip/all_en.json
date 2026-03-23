@@ -23,18 +23,15 @@
     "scenes": {
         "help": {
             "title": "Do you need help?",
-
             "iconBullets": [
                 {
                     "icon": "circleInfo",
                     "text": "Find everything about credit cards on <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta\">www.moneta.cz/ucty-a-karty/kreditni-karta</a>."
                 }
             ],
-
             "buttonsHeadline": "Do you need more information?",
             "callUs": "Call us<br>on call center",
             "branch": "Visit us<br>at a branch",
-
             "primaryButton": "Complete application",
             "secondaryButton": "Back to Overview",
             "tertiaryButton": "Cancel application"
@@ -799,6 +796,21 @@
                 "photos": "Choose from gallery",
                 "files": "Choose from files"
             }
+        },
+        "scoringSummary": {
+            "title": "New settings for your credit card",
+            "originalLimit": "Current credit limit",
+            "newLimit": "New credit limit",
+            "interestTitle": "Annual interest rate",
+            "interestDetail": "For cashless transactions",
+            "interestCashTitle": "Annual interest rate",
+            "interestCashDetail": "For cash withdrawals",
+            "limitIncreaseTitle": "Credit limit increase",
+            "limitIncreaseValue": "FREE OF CHARGE",
+            "agreementTitle": "I acknowledge that the minimum monthly payment will increase according to the new credit limit.",
+            "agreementDetail": "You can find the amount on your credit card statement.",
+            "primaryButton": "Continue",
+            "agreementRequired": "You must accept the agreement to continue."
         }
     }
 }
