@@ -202,7 +202,7 @@
                     "title": "Pokud máte více příjmů, můžete je nyní doplnit",
                     "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
                     "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
-                    "remove": "Odstranit příjem",
+                    "remove": "Odebrat",
                     "incomeSource": "Zdroj příjmu",
                     "fillIn": "Doplňte",
                     "employer": {
@@ -790,7 +790,13 @@
                     "13": {
                         "icon": "documentsFill",
                         "title": "Signed Certificate of Income",
-                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
+                        "titleEmployer": "Certificate of Income for {0}",
+                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. <b>The confirmation must not be older than 30 days from the date of issue.</b> You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
+                    },
+                    "15": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                     },
                     "112": {
                         "icon": "documentsFill",
