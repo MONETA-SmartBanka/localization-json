@@ -829,6 +829,35 @@
         },
         "signByUs": {
             "title": "Just a moment, we are signing the contract"
+        },
+        "victory": {
+            "paymentOrder": {
+                "title": "Done!\nYour credit card limit has been increased",
+                "detail": "You will continue to repay your card by bank transfer, as before.\n\nYou can find the payment details in your credit card statement and in the contract details.",
+                "primaryButton": "Back to Overview",
+                "secondaryButton": "Card details"
+            },
+            "directDebitInternalFull": {
+                "title": "Done!\nYour credit card limit has been increased",
+                "detail": "You will continue to repay your card by 100% direct debit, as before.\n\nYou can find the payment details in your credit card statement and in the contract details.",
+                "primaryButton": "Back to Overview",
+                "secondaryButton": "Card details"
+            },
+            "directDebitInternalMin": {
+                "title": "Done!\nYour credit card limit has been increased",
+                "detail": "You will continue to repay your card by minimum direct debit, as before.\n\nYou can find the payment details in your credit card statement and in the contract details.",
+                "primaryButton": "Back to Overview",
+                "secondaryButton": "Card details"
+            },
+            "directDebitExternal": {
+                "title": "All set on our side. Please increase your direct debit limit now",
+                "detail": "To ensure your next credit card payment is processed successfully, please increase your direct debit limit.",
+                "fromAccount": "From account",
+                "recipientAccount": "Recipient account",
+                "recommendedLimit": "Recommended direct debit limit",
+                "primaryButton": "Back to Overview",
+                "secondaryButton": "Go to card details"
+            }
         }
     }
 }
