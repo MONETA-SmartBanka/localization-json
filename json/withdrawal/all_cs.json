@@ -1,0 +1,293 @@
+{
+    "errorScreens": {
+        "generalError": {
+            "title": "Omlouváme se, tohle nevyšlo",
+            "detail": "Teď bohužel nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Zpět"
+        },
+        "loanRepay": {
+            "title": "Z tohoto účtu splácíte úvěr, proto není možné odstoupit od smlouvy online",
+            "detail": "Pokud chcete odstoupit od smlouvy, zastavte se za námi na pobočce a dohodněte si jiný způsob splácení úvěru.",
+            "primaryButton": "Zpět"
+        },
+        "termDepositLink": {
+            "title": "S tímto účtem je spojený Váš termínovaný vklad",
+            "detail": "Pokud chcete odstoupit od smlouvy, zastavte se za námi na pobočce a dohodněte si jiný účet, na který Vám budeme vyplácet úroky nebo jeho jistinu.",
+            "primaryButton": "Zpět"
+        },
+        "lastAccount": {
+            "title": "Tento účet můžete zrušit až jako poslední",
+            "detail": "Kdybyste ho zrušili teď, zůstal by vám už jen cizoměnový účet. Ten ale bez běžného účtu v korunách mít nemůžete.",
+            "primaryButton": "Zpět"
+        }
+    },
+    "scenes": {
+        "form": {
+            "title": {
+                "default": "Odstoupení od smlouvy",
+                "INSURANCE": "Odstoupení od pojištění"
+            },
+            "detail": {
+                "default": [
+                    {
+                        "label": "Číslo účtu",
+                        "value": "{accountNumber}"
+                    }
+                ],
+                "BUILDING_SAVING": [
+                    {
+                        "label": "Číslo účtu",
+                        "value": "{accountNumber}"
+                    },
+                    {
+                        "label": "Majitel",
+                        "value": "{owner}"
+                    }
+                ],
+                "LOAN": [
+                    {
+                        "label": "Číslo účtu",
+                        "value": "{accountNumber}"
+                    },
+                    {
+                        "label": "Původní výše úvěru",
+                        "value": "{loanAmount}"
+                    },
+                    {
+                        "label": "Nesplacená jistina",
+                        "value": "{outstandingPrincipal}"
+                    },
+                    {
+                        "label": "Nesplacené obchodní úroky",
+                        "value": "{outstandingInterest}",
+                        "description": "K dnešnímu dni"
+                    }
+                ],
+                "UDC": [
+                    {
+                        "label": "Číslo účtu",
+                        "value": "{accountNumber}"
+                    },
+                    {
+                        "label": "Původní výše úvěru",
+                        "value": "{loanAmount}"
+                    },
+                    {
+                        "label": "Nesplacená jistina",
+                        "value": "{outstandingPrincipal}"
+                    },
+                    {
+                        "label": "Nesplacené obchodní úroky",
+                        "value": "{outstandingInterest}",
+                        "description": "K dnešnímu dni"
+                    }
+                ],
+                "FLEXIKREDIT": [
+                    {
+                        "label": "Rámec kontokorentu",
+                        "value": "{overdraftLimit}"
+                    },
+                    {
+                        "label": "Vyčerpáno",
+                        "value": "{amountUsed}"
+                    },
+                    {
+                        "label": "Nesplacené obchodní úroky",
+                        "value": "{outstandingInterest}",
+                        "description": "K dnešnímu dni"
+                    }
+                ],
+                "DIP": [
+                    {
+                        "label": "Spořicí účet DIP",
+                        "value": "{accountNumber}"
+                    },
+                    {
+                        "label": "Číslo smlouvy",
+                        "value": "{contractNumber}"
+                    }
+                ],
+                "INSURANCE": [
+                    {
+                        "label": "Vedené k účtu",
+                        "value": "{accountNumber}"
+                    }
+                ],
+                "INSURANCE_PPI": [
+                    {
+                        "label": "Navázané na úvěr",
+                        "value": "{accountNumber}"
+                    }
+                ],
+                "DPS": [
+                    {
+                        "label": "Číslo smlouvy",
+                        "value": "{accountNumber}"
+                    },
+                    {
+                        "label": "Majitel",
+                        "value": "{owner}"
+                    }
+                ],
+                "CREDIT_CARD": [
+                    {
+                        "label": "Číslo karty",
+                        "value": "{cardNumber}"
+                    },
+                    {
+                        "label": "Držitel karty",
+                        "value": "{cardholder}"
+                    },
+                    {
+                        "label": "Číslo smlouvy",
+                        "value": "{contractNumber}"
+                    },
+                    {
+                        "label": "Úvěrový rámec",
+                        "value": "{creditLimit}"
+                    },
+                    {
+                        "label": "Vyčerpáno",
+                        "value": "{amountUsed}"
+                    }
+                ],
+                "DEBIT_CARD": [
+                    {
+                        "label": "Číslo karty",
+                        "value": "{cardNumber}"
+                    },
+                    {
+                        "label": "Držitel karty",
+                        "value": "{cardholder}"
+                    },
+                    {
+                        "label": "Vedená k účtu",
+                        "value": "{accountNumber}"
+                    }
+                ]
+            },
+            "afterWithdrawal": {
+                "title": "Co se stane po odstoupení",
+                "items": {
+                    "default": [
+                        "Případný zůstatek převedeme na účet, který vyberete níže.",
+                        "Odstoupení od smlouvy je nevratné. Po odstoupení nebude možné tento účet v budoucnu obnovit."
+                    ],
+                    "CURRENT_ACCOUNT_FOREIGN": [
+                        "Případný zůstatek převedeme na Váš účet u Monety, který si můžete vybrat níže. V případě, že ho chcete převést jinam, udělejte to ještě před odstoupením od smlouvy.",
+                        "Pokud odstoupíte od smlouvy a tím zrušíte svůj poslední cizoměnový účet, zruší se také online Směnárna.",
+                        "Odstoupení od smlouvy je nevratné. Po odstoupení nebude možné tento účet v budoucnu obnovit."
+                    ],
+                    "SAVINGS_ACCOUNT_FOREIGN": [
+                        "Případný zůstatek převedeme na Váš účet u Monety, který si můžete vybrat níže. V případě, že ho chcete převést jinam, udělejte to ještě před odstoupením od smlouvy.",
+                        "Odstoupení od smlouvy je nevratné. Po odstoupení nebude možné tento účet v budoucnu obnovit."
+                    ],
+                    "BUILDING_SAVING": [
+                        "Případný zůstatek převedeme na účet, který vyberete níže.",
+                        "Odstoupení od smlouvy je nevratné."
+                    ],
+                    "JTV": [
+                        "Odstoupení od smlouvy je nevratné. Po odstoupení nebude možné termínovaný vklad v budoucnu obnovit.",
+                        "Pokud jsou na vkladu připsané prostředky, při zrušení vám budou vyplaceny úroky do dne předcházejícího zrušení vkladu.",
+                        "Případný zůstatek převedeme na účet, který vyberete níže."
+                    ],
+                    "RTV": [
+                        "Odstoupení od smlouvy je nevratné. Po odstoupení nebude možné termínovaný vklad v budoucnu obnovit.",
+                        "Pokud jsou na vkladu připsané prostředky, při zrušení vám budou vyplaceny úroky do dne předcházejícího zrušení vkladu.",
+                        "Případný zůstatek převedeme na účet, který vyberete níže."
+                    ],
+                    "LOAN": [
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit.",
+                        "Odstoupením vám vzniká povinnost uhradit nesplacenou jistinu úvěru a nesplacené obchodní úroky za dobu od čerpání do splacení. Tyto úroky se navyšují každý den. Pokud částku neuhradíte do 30 dní od odstoupení, budeme dluh vymáhat, proto si prosím zajistěte dostatek prostředků na běžném účtu.",
+                        "Pokud jste nám v souvislosti s úvěrem uhradil*a poplatek za poskytnutí úvěru, vrátíme vám ho na Váš běžný účet."
+                    ],
+                    "UDC": [
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit.",
+                        "Pokud měly být Konsolidací půjček splaceny úvěry, dříve sjednané s MONETA Money Bank, došlo k jejich splacení.",
+                        "Pokud měly být Konsolidací půjček splaceny úvěry sjednané s jinými poskytovateli, peněžní prostředky pro jejich splacení byly již odeslány nebo se tak stane. Pro bližší informace o stavu Vašich splácených úvěrů se na ně obraťte.",
+                        "Odstoupením vám vzniká povinnost uhradit nesplacenou jistinu úvěru a nesplacené obchodní úroky za dobu od čerpání do splacení. Tyto úroky se navyšují každý den. Pokud částku neuhradíte do 30 dní od odstoupení, budeme dluh vymáhat, proto si prosím zajistěte dostatek prostředků na běžném účtu.",
+                        "Pokud jste nám v souvislosti s úvěrem uhradil*a poplatek za poskytnutí konsolidace, vrátíme vám ho na Váš běžný účet."
+                    ],
+                    "FLEXIKREDIT": [
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit.",
+                        "Odstoupením vám vzniká povinnost uhradit nesplacenou jistinu úvěru a nesplacené obchodní úroky za dobu od čerpání do splacení. Tyto úroky se navyšují každý den. Pokud částku neuhradíte do 30 dní od odstoupení, budeme dluh vymáhat, proto si prosím zajistěte dostatek prostředků na běžném účtu.",
+                        "Pokud jste nám v souvislosti s úvěrem uhradil*a poplatek za čerpání kontokorentu, vrátíme vám ho na Váš běžný účet."
+                    ],
+                    "DIP": [
+                        "Dlouhodobý investiční produkt je daňově podporovaný. Odstoupení nebo ukončení může vést ke ztrátě daňové podpory a případně k povinnosti dodatečně zdanit dříve uplatněné zvýhodnění.",
+                        "Případný zůstatek převedeme na účet, který vyberete níže.",
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit."
+                    ],
+                    "INSURANCE": [
+                        "Odstoupením se pojištění ruší od začátku, jako by nikdy nevzniklo. Proto za dobu od sjednání do odstoupení nejste pojištěni a nevzniká vám nárok na pojistné plnění za události, které v tomto období nastaly.",
+                        "Pokud vám byla úhrada za pojištění již stržena z účtu, bude vrácena zpět na účet.",
+                        "Odstoupení je nevratné a není možné ho zrušit."
+                    ],
+                    "DPS": [
+                        "Odstoupením se smlouva o doplňkovém penzijním spoření ruší od počátku. Nárok na státní příspěvky Vám nevzniká.",
+                        "Vaše odstoupení bylo předáno NN Penzijní společnosti, a. s., která Vás bude ohledně vypořádání kontaktovat na e-mailovou adresu uvedenou při sjednání smlouvy o doplňkovém penzijním spoření.",
+                        "Odstoupení je nevratné a není možné ho zrušit.",
+                        "Pokud jste již odeslal příspěvek na doplňkové penzijní spoření, právo odstoupit se na Vás nevztahuje a NN Penzijní společnost, a. s. Vás bude kontaktovat."
+                    ],
+                    "CREDIT_CARD": [
+                        "Potvrzením odstoupení od smlouvy ke kreditní kartě dojde k jejímu okamžitému zrušení a nebude možné ji používat k platbám ani k výběrům hotovosti.",
+                        "Odstoupením pro Vás vzniká povinnost vrátit nám případnou vyčerpanou částku a veškeré vzniklé úroky a poplatky nejpozději do 30 dnů od odstoupení od smlouvy.",
+                        "Pokud dlužnou jistinu a úroky neuhradíte do 30 dní od odstoupení, budeme dluh vymáhat.",
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit."
+                    ],
+                    "DEBIT_CARD": [
+                        "Potvrzením odstoupení od smlouvy k debetní kartě dojde k jejímu okamžitému zrušení a nebude možné ji používat k platbám ani k výběrům hotovosti.",
+                        "Odstoupení od smlouvy je nevratné a není možné ho zrušit."
+                    ]
+                },
+                "note": {
+                    "default": "",
+                    "LOAN": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "UDC": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "FLEXIKREDIT": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "CREDIT_CARD": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>"
+                }
+            },
+            "withdrawalIncludes": {
+                "title": "Odstoupením zanikne také"
+            },
+            "transferBalance": {
+                "title": "Kam převést případný zůstatek?",
+                "label": "Účet",
+                "hint": "Vyberte",
+                "accountSelection": {
+                    "title": "Kam poslat případný zůstatek?",
+                    "monetaSectionTitle": "Váš účet u Monety",
+                    "monetaSectionAll": "Všechny",
+                    "otherSectionTitle": "Účet jiné banky",
+                    "otherSectionNote": "Účet musí být vedený v ČR.",
+                    "foreignCurrencyNote": "Pokud převedete peníze na jinou měnu, přepočítá se částka podle aktuálního kurzu platného v den převodu.",
+                    "primaryButton": "Vybrat"
+                }
+            },
+            "contactEmail": {
+                "title": "Kontaktní e-mail",
+                "label": "E-mail",
+                "hint": "Váš e-mail",
+                "note": "Žádám o zaslání potvrzení o přijetí odstoupení a dalších informací týkajících se odstoupení od smlouvy na tento e-mail. <a href=\"smartbanka://emailFullWording\">Celé prohlášení</a>\u2028\u2028Pokud e-mail změníte, nastavíme ho jako Váš kontaktní.",
+                "fullWording": {
+                    "title": "Celé prohlášení",
+                    "detail": "V souvislosti s žádostí o zaslání potvrzení o přijetí odstoupení od smlouvy, včetně následných informací a dokumentů souvisejících s ukončením smluvního vztahu s bankou a vypořádáním vzájemných pohledávek a závazků na mnou uvedený kontaktní e-mail, a to v nešifrované formě, prohlašuji, že mnou určená schránka elektronické pošty je v mé výlučné dispoziční sféře, a jsem si vědom, že uvedená sdělení z banky budou obsahovat mé osobní údaje a informace k ukončované smlouvě chráněné bankovním tajemství."
+                }
+            },
+            "primaryButton": "Potvrdit odstoupení od smlouvy",
+            "secondaryButton": "Zpět"
+        },
+        "agreement": {
+            "title": "Oznámení o odstoupení",
+            "detail": "Toto oznámení předáme NN Penzijní společnosti, a. s.",
+            "primaryButton": "Podepsat",
+            "secondaryButton": "Zpět"
+        },
+        "victory": {
+            "title": "Odstoupili jste od smlouvy",
+            "detail": "Potvrzení o odstoupení a případné další informace vám zašleme na uvedený e-mail.\n\n<b>Co bude následovat?</b>\n1. Požadavek na odstoupení zpracujeme.\n2. Pokud bude potřeba něco doplnit, kontaktujeme Vás.",
+            "primaryButton": "Zpět na Přehled"
+        }
+    }
+}
