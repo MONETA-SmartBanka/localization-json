@@ -28,143 +28,189 @@
                 "INSURANCE": "Odstoupení od pojištění"
             },
             "detail": {
-                "default": [
-                    {
-                        "label": "Číslo účtu",
-                        "value": "{accountNumber}"
-                    }
-                ],
-                "BUILDING_SAVING": [
-                    {
-                        "label": "Číslo účtu",
-                        "value": "{accountNumber}"
-                    },
-                    {
-                        "label": "Majitel",
-                        "value": "{owner}"
-                    }
-                ],
-                "LOAN": [
-                    {
-                        "label": "Číslo účtu",
-                        "value": "{accountNumber}"
-                    },
-                    {
-                        "label": "Původní výše úvěru",
-                        "value": "{loanAmount}"
-                    },
-                    {
-                        "label": "Nesplacená jistina",
-                        "value": "{outstandingPrincipal}"
-                    },
-                    {
-                        "label": "Nesplacené obchodní úroky",
-                        "value": "{outstandingInterest}",
-                        "description": "K dnešnímu dni"
-                    }
-                ],
-                "UDC": [
-                    {
-                        "label": "Číslo účtu",
-                        "value": "{accountNumber}"
-                    },
-                    {
-                        "label": "Původní výše úvěru",
-                        "value": "{loanAmount}"
-                    },
-                    {
-                        "label": "Nesplacená jistina",
-                        "value": "{outstandingPrincipal}"
-                    },
-                    {
-                        "label": "Nesplacené obchodní úroky",
-                        "value": "{outstandingInterest}",
-                        "description": "K dnešnímu dni"
-                    }
-                ],
-                "FLEXIKREDIT": [
-                    {
-                        "label": "Rámec kontokorentu",
-                        "value": "{overdraftLimit}"
-                    },
-                    {
-                        "label": "Vyčerpáno",
-                        "value": "{amountUsed}"
-                    },
-                    {
-                        "label": "Nesplacené obchodní úroky",
-                        "value": "{outstandingInterest}",
-                        "description": "K dnešnímu dni"
-                    }
-                ],
-                "DIP": [
-                    {
-                        "label": "Spořicí účet DIP",
-                        "value": "{accountNumber}"
-                    },
-                    {
-                        "label": "Číslo smlouvy",
-                        "value": "{contractNumber}"
-                    }
-                ],
-                "INSURANCE": [
-                    {
-                        "label": "Vedené k účtu",
-                        "value": "{accountNumber}"
-                    }
-                ],
-                "INSURANCE_PPI": [
-                    {
-                        "label": "Navázané na úvěr",
-                        "value": "{accountNumber}"
-                    }
-                ],
-                "DPS": [
-                    {
-                        "label": "Číslo smlouvy",
-                        "value": "{accountNumber}"
-                    },
-                    {
-                        "label": "Majitel",
-                        "value": "{owner}"
-                    }
-                ],
-                "CREDIT_CARD": [
-                    {
-                        "label": "Číslo karty",
-                        "value": "{cardNumber}"
-                    },
-                    {
-                        "label": "Držitel karty",
-                        "value": "{cardholder}"
-                    },
-                    {
-                        "label": "Číslo smlouvy",
-                        "value": "{contractNumber}"
-                    },
-                    {
-                        "label": "Úvěrový rámec",
-                        "value": "{creditLimit}"
-                    },
-                    {
-                        "label": "Vyčerpáno",
-                        "value": "{amountUsed}"
-                    }
-                ],
-                "DEBIT_CARD": [
-                    {
-                        "label": "Číslo karty",
-                        "value": "{cardNumber}"
-                    },
-                    {
-                        "label": "Držitel karty",
-                        "value": "{cardholder}"
-                    },
-                    {
-                        "label": "Vedená k účtu",
-                        "value": "{accountNumber}"
-                    }
-                ]
+                "default": {
+                    "title": null,
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}",
+                            "description": null
+                        }
+                    ]
+                },
+                "BUILDING_SAVING": {
+                    "title": "Stavební spoření",
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Majitel",
+                            "value": "{owner}"
+                        }
+                    ]
+                },
+                "JTV": {
+                    "title": "Jednorázový termínovaný vklad",
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "RTV": {
+                    "title": "Revolvingový termínovaný vklad",
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "LOAN": {
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Původní výše úvěru",
+                            "value": "{loanAmount}"
+                        },
+                        {
+                            "label": "Nesplacená jistina",
+                            "value": "{outstandingPrincipal}"
+                        },
+                        {
+                            "label": "Nesplacené obchodní úroky",
+                            "value": "{outstandingInterest}",
+                            "description": "K dnešnímu dni"
+                        }
+                    ]
+                },
+                "UDC": {
+                    "items": [
+                        {
+                            "label": "Číslo účtu",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Původní výše úvěru",
+                            "value": "{loanAmount}"
+                        },
+                        {
+                            "label": "Nesplacená jistina",
+                            "value": "{outstandingPrincipal}"
+                        },
+                        {
+                            "label": "Nesplacené obchodní úroky",
+                            "value": "{outstandingInterest}",
+                            "description": "K dnešnímu dni"
+                        }
+                    ]
+                },
+                "FLEXIKREDIT": {
+                    "items": [
+                        {
+                            "label": "Rámec kontokorentu",
+                            "value": "{overdraftLimit}"
+                        },
+                        {
+                            "label": "Vyčerpáno",
+                            "value": "{amountUsed}"
+                        },
+                        {
+                            "label": "Nesplacené obchodní úroky",
+                            "value": "{outstandingInterest}",
+                            "description": "K dnešnímu dni"
+                        }
+                    ]
+                },
+                "DIP": {
+                    "title": "Dlouhodobý investiční produkt",
+                    "items": [
+                        {
+                            "label": "Spořicí účet DIP",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Číslo smlouvy",
+                            "value": "{contractNumber}"
+                        }
+                    ]
+                },
+                "INSURANCE": {
+                    "items": [
+                        {
+                            "label": "Vedené k účtu",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "INSURANCE_PPI": {
+                    "items": [
+                        {
+                            "label": "Navázané na úvěr",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "DPS": {
+                    "title": "Doplňkové penzijní spoření od NN Penzijní společnosti",
+                    "items": [
+                        {
+                            "label": "Číslo smlouvy",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Majitel",
+                            "value": "{owner}"
+                        }
+                    ]
+                },
+                "CREDIT_CARD": {
+                    "items": [
+                        {
+                            "label": "Číslo karty",
+                            "value": "{cardNumber}"
+                        },
+                        {
+                            "label": "Držitel karty",
+                            "value": "{cardholder}"
+                        },
+                        {
+                            "label": "Číslo smlouvy",
+                            "value": "{contractNumber}"
+                        },
+                        {
+                            "label": "Úvěrový rámec",
+                            "value": "{creditLimit}"
+                        },
+                        {
+                            "label": "Vyčerpáno",
+                            "value": "{amountUsed}"
+                        }
+                    ]
+                },
+                "DEBIT_CARD": {
+                    "title": "Debetní karta {cardName}",
+                    "items": [
+                        {
+                            "label": "Číslo karty",
+                            "value": "{cardNumber}"
+                        },
+                        {
+                            "label": "Držitel karty",
+                            "value": "{cardholder}"
+                        },
+                        {
+                            "label": "Vedená k účtu",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                }
             },
             "afterWithdrawal": {
                 "title": "Co se stane po odstoupení",
@@ -241,7 +287,7 @@
                     ]
                 },
                 "note": {
-                    "default": "",
+                    "default": null,
                     "LOAN": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
                     "UDC": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
                     "FLEXIKREDIT": "Není-li Vám cokoliv ohledně odstoupení zřejmé, navštivte kterékoliv obchodní místo MONETA Money Bank, a. s. anebo nás kontaktujte na Infolince <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
