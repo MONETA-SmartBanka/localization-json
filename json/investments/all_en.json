@@ -9387,15 +9387,21 @@
                     "primaryButton": "Back to Investments"
                 }
             },
-            "precontract": {
+            "contracts": {
                 "busyLoader": {
                     "title": "We’re preparing your agreement",
                     "subtitle": "We’ll continue shortly."
                 },
-                "agreement": {
+                "precontract": {
                     "title": "Read the agreement with product parameters",
                     "description": "You can find all documents in Smart Banka and Internet Banka in the Documents section and in your email.",
                     "confirmButton": "I understand and agree",
+                    "cancelButton": "I disagree"
+                },
+                "mainContract": {
+                    "title": "Read the framework agreement",
+                    "description": "You can find all documents in Smart Banka and Internet Banka in the Documents section and in your email.",
+                    "confirmButton": "I agree, continue to signing",
                     "cancelButton": "I disagree"
                 }
             },
