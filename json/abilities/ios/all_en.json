@@ -230,12 +230,11 @@
         },
         {
             "id": "Platby_1_ENG",
-            "title": "Drag and drop makes transfers between your own accounts easier",
-            "detail": "<b>Just hold your finger on the account</b> from which you wish to make the transfer, and drag it over another account, e.g., your savings account, and let go. Then, you select the amount and confirm the transfer. You can also use drag and & drop on savings envelopes.",
-            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_1_ENG.png",
+            "title": "Make transfers between your foreign currency accounts easier with drag & drop",
+            "detail": "Press and hold the account you want to transfer money from, then drag it to the target account. Then just enter the amount and confirm the transfer. You can use drag & drop with current, foreign currency and savings accounts.",
+            "imageURL": "/cbl_images/popup-news/v90/drag_and_drop_CZ.png",
+            "minAppVersion": "91.0.0",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_ENG.png",
-            "newsDate": "2024-02-05",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
             "abilitySortOrder": 100,
@@ -1072,6 +1071,65 @@
             "abilityCategory": "products",
             "abilityTitle": "File Insurance Claims",
             "abilitySortOrder": 7500
+        },
+        {
+            "id": "Investice",
+            "title": "Let your money grow with a bank you trust",
+            "detail": "Want to invest but not sure where to start? We’ll help you choose the right investments, and experienced professionals will manage them for you while keeping an eye on the markets.",
+            "imageURL": "/cbl_images/popup-news/v90/investice_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investment advisory",
+            "abilitySortOrder": 7600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "Pim",
+            "title": "Do you have more than one source of income and are applying for a loan? Include them all",
+            "detail": "You can now include up to 3 different sources of income in your loan application and improve your chances of approval.",
+            "imageURL": "/cbl_images/popup-news/v90/pim_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Additional income in a loan application",
+            "abilitySortOrder": 7700
+        },
+        {
+            "id": "Dip",
+            "title": "You can now manage your Long-Term Investment Product right in the app",
+            "detail": "Transfer money to your DIP savings account, buy funds, and manage your investments easily in the app.",
+            "imageURL": "/cbl_images/popup-news/v90/dip_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Long-term investment product investments",
+            "abilitySortOrder": 7800,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "DetskeLimity",
+            "title": "Higher limits for your little ones",
+            "detail": "At your request, we’re increasing the limits on children’s accounts. You can now set in-store payments, online payments and ATM withdrawals up to CZK 20,000. The account transfer limit can now be set up to CZK 35,000. Would you like to update everything now?",
+            "imageURL": "/cbl_images/popup-news/v90/detsky_limit_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Higher limits for children's accounts",
+            "abilitySortOrder": 7900,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "FAMILYACCOUNT",
+                "actionLabelText": "Try it out"
+            }
         }
     ]
 }

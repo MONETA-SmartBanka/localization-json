@@ -230,12 +230,10 @@
         },
         {
             "id": "Platby_1_CZ",
-            "title": "Ulehčete si převod mezi účty s funkcí drag & drop",
-            "detail": "<b>Stačí přidržet prst na účtu</b>, ze kterého chcete peníze převést, a tahem je přesunout na jiný, třeba spořicí. A pustit. Poté jen zvolíte částku, kterou chcete převést a potvrdíte. Drag & drop můžete využít i u spořicích obálek.",
-            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_1_CZ.png",
-            "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_CZ.png",
-            "newsDate": "2024-02-05",
+            "title": "Ulehčete si převody mezi cizoměnovými účty s funkcí drag & drop",
+            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze, a přetáhněte ho na cílový účet. Pak už jen zadejte částku a převod potvrďte.\u2028Drag & drop můžete využít u běžných, cizoměnových i spořicích účtů.",
+            "imageURL": "/cbl_images/popup-news/v90/drag_and_drop_CZ.png",
+            "minAppVersion": "91.0.0",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
             "abilitySortOrder": 100,
@@ -1075,6 +1073,65 @@
             "abilityCategory": "products",
             "abilityTitle": "Hlášení pojistné události",
             "abilitySortOrder": 7500
+        },
+        {
+            "id": "Investice",
+            "title": "Nechte své peníze růst v bance, které důvěřujete",
+            "detail": "Chcete investovat, ale nevíte do čeho? Vhodné investice najdeme společně a spravovat je budou zkušení odborníci, kteří sledují trhy za Vás.",
+            "imageURL": "/cbl_images/popup-news/v90/investice_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investiční poradenství",
+            "abilitySortOrder": 7600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Pim",
+            "title": "Máte více příjmů a žádáte o úvěr? Uveďte je všechny",
+            "detail": "Nově můžete u našich úvěrů uvést až 3 různé příjmy a zvýšit tak své šance na schválení.",
+            "imageURL": "/cbl_images/popup-news/v90/pim_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Více příjmů v žádosti o úvěr",
+            "abilitySortOrder": 7700
+        },
+        {
+            "id": "Dip",
+            "title": "Svůj dlouhodobý investiční produkt teď můžete obsluhovat přímo v aplikaci",
+            "detail": "Pošlete peníze na Spořicí účet DIP, nakupujte fondy a spravujte své investice pohodlně v aplikaci.",
+            "imageURL": "/cbl_images/popup-news/v90/dip_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investice s dlouhodobým investičním produktem",
+            "abilitySortOrder": 7800,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "DetskeLimity",
+            "title": "Vyšší limity pro ty nejmenší",
+            "detail": "Na Vaše přání zvyšujeme limity u dětských účtů. Platby v obchodech, na internetu a výběry z bankomatů nově můžete nastavit až do 20 000 Kč. Limit pro převody z účtu až na 35 000 Kč. Chcete vše rovnou nastavit?",
+            "imageURL": "/cbl_images/popup-news/v90/detsky_limit_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Vyšší limity pro dětský účet",
+            "abilitySortOrder": 7900,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "FAMILYACCOUNT",
+                "actionLabelText": "Vyzkoušet"
+            }
         }
     ]
 }
