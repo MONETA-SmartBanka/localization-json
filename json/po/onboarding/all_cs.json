@@ -3,7 +3,20 @@
         "scoringNok": {
             "title": "Při podpisu smlouvy došlo k chybě. Brzy se Vám ozveme",
             "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit."
+        },
+        "api": {
+            "title": "Omlouváme se, tak tohle nevyšlo",
+            "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
+            "primaryButton": "Sjednat schůzku na pobočce"
+        },
+        "invalidInvitation": {
+            "title": "Online to nepůjde, ale rádi Vám založíme účet na pobočce",
+            "detail": "Sjednejte si schůzku na kterékoliv naší pobočce.",
+            "primaryButton": "Sjednat schůzku na pobočce"
         }
+    },
+    "accessibilityLabels": {
+        "helpButton": "help"
     },
     "scenes": {
         "details": {
@@ -33,6 +46,8 @@
             "directOwners": "Přímí vlastníci",
             "primaryButton": "Vše souhlasí, pokračovat",
             "secondaryButton": "Něco nesouhlasí",
+            "addCountryIcon": "plus",
+            "infoIcon": "circleInfoFill",
             "ownerTypeCodeTable": [
                 {
                     "id": "1",
