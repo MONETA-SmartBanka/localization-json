@@ -230,19 +230,14 @@
         },
         {
             "id": "Platby_1_ENG",
-            "title": "Make transfers between your foreign currency accounts easier with drag & drop",
-            "detail": "Press and hold the account you want to transfer money from, then drag it to the target account. Then just enter the amount and confirm the transfer. You can use drag & drop with current, foreign currency and savings accounts.",
-            "imageURL": "/cbl_images/popup-news/v90/drag_and_drop_CZ.png",
+            "title": "Make transfers between accounts easier with drag & drop",
+            "detail": "Press and hold the account you want to transfer money from, then drag it to the target account. Then enter the amount and confirm the transfer. You can use drag & drop for current and savings accounts.",
+            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
             "minAppVersion": "91.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
-            "abilitySortOrder": 100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Try it"
-            }
+            "abilitySortOrder": 100
         },
         {
             "id": "Platby_2_ENG",
@@ -604,15 +599,12 @@
         },
         {
             "id": "Zmena_1_ENG",
-            "title": "Messages and documents from the Bank",
-            "detail": "Tap the <b>Messages icon</b> to find all important messages, notifications, and all documents concerning your products.  ",
-            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_1_ENG.png",
+            "title": "Messages & Documents",
+            "detail": "Tap the icon on your Home screen to find all important messages, notices, and documents for your products.",
+            "imageURL": "/cbl_images/popup-news/v91/dokumenty_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_1.png",
-            "newsDate": "2024-04-01",
-            "avatarTitle": "Notifications and Messages",
             "abilityCategory": "security",
-            "abilityTitle": "Notifications and Messages",
+            "abilityTitle": "Documents",
             "abilitySortOrder": 2100,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -1130,6 +1122,33 @@
                 "actionData": "FAMILYACCOUNT",
                 "actionLabelText": "Try it out"
             }
+        },
+        {
+            "id": "CardsNaming_EN",
+            "title": "Cards? Name them your way",
+            "detail": "One for fun, one for bills. Name your cards in a way that makes sense to you. You can change the name anytime in the card details.",
+            "imageURL": "/cbl_images/popup-news/v91/karty_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Card renaming",
+            "abilitySortOrder": 8000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "UrokovePasmo_EN",
+            "title": "What makes up the interest on your savings account?",
+            "detail": "Tap the interest rate to see the breakdown. You’ll find what it’s made up of, which balance tiers it applies to, and how long the rate is guaranteed—plus a simple example.",
+            "imageURL": "/cbl_images/popup-news/v91/urokove_pasmo_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Interest rates on your savings account",
+            "abilitySortOrder": 8100
         }
     ]
 }

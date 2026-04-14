@@ -230,18 +230,13 @@
         },
         {
             "id": "Platby_1_CZ",
-            "title": "Ulehčete si převody mezi cizoměnovými účty s funkcí drag & drop",
-            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze, a přetáhněte ho na cílový účet. Pak už jen zadejte částku a převod potvrďte.\u2028Drag & drop můžete využít u běžných, cizoměnových i spořicích účtů.",
-            "imageURL": "/cbl_images/popup-news/v90/drag_and_drop_CZ.png",
+            "title": "Ulehčete si převody mezi účty s funkcí drag & drop",
+            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze a přetáhněte ho na cílový účet. Pak už jen zadejte částku a převod potvrďte.\u2028Drag & drop neboli „táhni a pust“ můžete využít u běžných i spořicích účtů.",
+            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
             "minAppVersion": "91.0.0",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
-            "abilitySortOrder": 100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
-            }
+            "abilitySortOrder": 100
         },
         {
             "id": "Platby_2_CZ",
@@ -479,7 +474,6 @@
             "abilityTitle": "Zrušení karty",
             "abilitySortOrder": 600
         },
-
         {
             "id": "Ucet_Velikonoce_0_CZ",
             "title": "Velikonoční vzhled",
@@ -601,18 +595,14 @@
             "abilityTitle": "Mimořádná splátka půjčky",
             "abilitySortOrder": 1600
         },
-
         {
             "id": "Zmena_1_CZ",
             "title": "Zprávy a dokumenty z banky",
-            "detail": "Pod <b>ikonkou zpráv</b> najdete všechny důležité zprávy z banky, oznámení a dokumenty k vašim produktům.",
-            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_1_CZ.png",
+            "detail": "Klikněte na ikonku přímo na Přehledu, pod kterou najdete všechny důležité zprávy, oznámení a dokumenty k Vašim produktům.",
+            "imageURL": "/cbl_images/popup-news/v91/dokumenty_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_1.png",
-            "newsDate": "2024-04-01",
-            "avatarTitle": "Zprávy z banky",
             "abilityCategory": "security",
-            "abilityTitle": "Zprávy a dokumenty",
+            "abilityTitle": "Dokumenty",
             "abilitySortOrder": 2100,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -690,7 +680,6 @@
             "abilityTitle": "Kontrola údajů",
             "abilitySortOrder": 2600
         },
-
         {
             "id": "Business_1_CZ",
             "title": "Přidejte si kartu do telefonu a tu plastovou nechte doma",
@@ -753,7 +742,6 @@
             "abilityTitle": "Splátka hypotéky",
             "abilitySortOrder": 3400
         },
-
         {
             "id": "Platby_Deti_1_CZ",
             "title": "Upozornění na duplicitní platbu",
@@ -1132,6 +1120,33 @@
                 "actionData": "FAMILYACCOUNT",
                 "actionLabelText": "Vyzkoušet"
             }
+        },
+        {
+            "id": "CardsNaming_CZ",
+            "title": "Karty? Pojmenujte si je po svém",
+            "detail": "Jedna na radost, druhá na povinnosti. Pojmenujte si karty tak, jak Vám dávají smysl. Název můžete kdykoli změnit v jejich detailu.",
+            "imageURL": "/cbl_images/popup-news/v91/karty_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Přejmenování karty",
+            "abilitySortOrder": 8000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "UrokovePasmo_CZ",
+            "title": "Z čeho se skládá úrok na Vašem spořicím účtu?",
+            "detail": "Podrobnosti o úročení najdete po kliknutí na číslo úroku. Na jednom místě uvidíte, z čeho se skládá, pro jaké částky platí a do kdy ho garantujeme. Včetně jednoduchého příkladu.",
+            "imageURL": "/cbl_images/popup-news/v91/urokove_pasmo_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Pásmové úročení – spořicí účty",
+            "abilitySortOrder": 8100
         }
     ]
 }
