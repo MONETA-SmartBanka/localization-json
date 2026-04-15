@@ -201,6 +201,37 @@
                         "actionLabelText": "Continue to payment"
                     }
                 },
+                "activeCall": {
+                    "victoryKind": "stop",
+                    "title": "Phone scam warning",
+                    "detail": "If you are sending money to:",
+                    "bullets": [
+                        {
+                            "icon": "chartLineUpFill",
+                            "title": "A “guaranteed investment”?"
+                        },
+                        {
+                            "icon": "shieldBlankFill",
+                            "title": "A “safe account”?"
+                        },
+                        {
+                            "icon": "alertFill",
+                            "title": "Police investigation?"
+                        }
+                    ],
+                    "message": "Don’t do it and don’t confirm the payment. It is very likely a scam.",
+                    "footer": "Have doubts? Call <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "primaryButton": "Cancel the payment instead",
+                    "primarySlideButton": {
+                        "title": "Proceed anyway",
+                        "countdownSeconds": 5
+                    }
+                },
+                "cancelPayment": {
+                    "victoryKind": "failure",
+                    "title": "The payment has been cancelled",
+                    "primaryButton": "Back to Overview"
+                },
                 "priorityChanged": {
                     "victoryKind": "wait",
                     "title": "We’ll process the payment as a standard",
