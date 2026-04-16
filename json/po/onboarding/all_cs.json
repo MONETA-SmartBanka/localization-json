@@ -2,7 +2,8 @@
     "errorScreens": {
         "scoringNok": {
             "title": "Při podpisu smlouvy došlo k chybě. Brzy se Vám ozveme",
-            "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit."
+            "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit.",
+            "primaryButton": "Dobře, ozvěte se mi"
         },
         "api": {
             "title": "Omlouváme se, tak tohle nevyšlo",
@@ -134,39 +135,18 @@
         },
         "victory": {
             "title": "Váš účet je téměř připravený. Teď Vám nastavíme přístup jako jednateli společnosti",
-            "inProgressTitle": "Teď to musíme podepsat my",
-            "inProgressDetail": "Chvilku strpení prosím",
             "primaryButton": "Pokračovat"
         },
+        "signByUs": {
+            "title": "Teď to musíme podepsat my",
+            "detail": "Chvilku strpení prosím"
+        },
         "help": {
-            "title": "Nápověda",
-            "detail": "Jak se prokousat po onboardingem?",
-            "iconBullets": [
-                {
-                    "icon": "starsAltFill",
-                    "text": "Začněte krokem 1"
-                },
-                {
-                    "icon": "starsAltFill",
-                    "text": "Pak krok 2"
-                },
-                {
-                    "icon": "starsAltFill",
-                    "text": "Krok 3"
-                },
-                {
-                    "icon": "starsAltFill",
-                    "text": "A tak dál až do konce"
-                }
-            ],
-            "footerText": "Více informací",
-            "footerLink": "https://www.moneta.cz/",
-            "helpHeadline": "Chcete vědět více?",
+            "title": "Potřebujete poradit nebo chcete žádost zrušit?",
             "callUs": "Zavolejte nám",
             "branch": "Navštivte nás na pobočce",
             "primaryButton": "Pokračovat",
-            "secondaryButton": "Uložit a pokračovat později",
-            "tertiaryButton": "Ukončit proces"
+            "secondaryButton": "Uložit a pokračovat později"
         }
     }
 }
