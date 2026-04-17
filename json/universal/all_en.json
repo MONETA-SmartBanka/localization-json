@@ -221,7 +221,10 @@
                     ],
                     "message": "Don’t do it and don’t confirm the payment. It is very likely a scam.",
                     "footer": "Have doubts? Call <a href=\"tel:+420224446666\">224 446 666</a>.",
-                    "primaryButton": "Cancel the payment instead",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Cancel the payment instead"
+                    },
                     "primarySlideButton": {
                         "title": "Proceed anyway",
                         "countdownSeconds": 5
@@ -230,7 +233,10 @@
                 "cancelPayment": {
                     "victoryKind": "failure",
                     "title": "The payment has been cancelled",
-                    "primaryButton": "Back to Overview"
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Back to Overview"
+                    }
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",

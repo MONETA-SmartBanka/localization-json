@@ -221,7 +221,10 @@
                     ],
                     "message": "Nedělejte to a platbu nepotvrzujte. Pravděpodobně se jedná o podvod.",
                     "footer": "Máte pochybnosti? Volejte <a href=\"tel:+420224446666\">224 446 666</a>.",
-                    "primaryButton": "Raději zrušit platbu",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Raději zrušit platbu"
+                    },
                     "primarySlideButton": {
                         "title": "Pokračovat k platbě",
                         "countdownSeconds": 5
@@ -230,7 +233,10 @@
                 "cancelPayment": {
                     "victoryKind": "failure",
                     "title": "Platba byla zrušena",
-                    "primaryButton": "Zpět na Přehled"
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Zpět na Přehled"
+                    }
                 },
                 "priorityChanged": {
                     "victoryKind": "wait",
