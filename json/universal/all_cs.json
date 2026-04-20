@@ -2,6 +2,38 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "loginFactorSmsWarningModal": {
+                "modalNotification": {
+                    "title": "Souhlas s využitím mobilního klíče pro přihlášení do Internet Banky a autorizaci transakcí",
+                    "description": "Dobrý den,\n<b>nejrychleji a zdarma</b> se do Internet Banky přihlásíte přes naši <a href=\"https://www.moneta.cz/smart-banka\" target=\"_blank\" rel=\"noopener\">aplikaci Smart Banka</a>, která také poskytuje <b>nejvyšší možnou míru zabezpečení<b/>. Pokud i přesto chcete nadále využívat přihlášení prostřednictvím SMS, potvrďte nám prosím souhlas s využitím mobilního klíče pro autorizaci transakcí a přihlášení do Internet Banky.",
+                    "infoTitle": "Co je mobilní klíč?",
+                    "infoDescription": "Jedná se o jednorázové osmičíselné heslo zaslané v SMS zprávě potřebné pro autorizaci transakcí a přihlášení do Internet Banky v případě, že nevyužíváte Smart Banku.",
+                    "subtitle1": "Přihlašujete se do Internet Banky a autorizujete transakce přes Smart Banku?",
+                    "subdescription1": "V takovém případě se pro Vás nic nemění. Pokud by však bylo potřeba Vám mobilní klíč zaslat, potřebujeme Váš souhlas.",
+                    "subtitle2": "Využíváte Vy nebo Vaši eDisponenti mobilní klíč z SMS?",
+                    "subdescription2": "Pak Vám bude za každé použití, i Vašimi eDisponenty, účtován poplatek dle platného sazebníku (aktuálně 5 Kč za každou SMS s mobilním klíčem). Klienti od 65 let mají zaslání SMS zdarma.",
+                    "subtitle3": "Chcete začít využívat Smart Banku?",
+                    "subdescription3": "Můžete si ji jednoduše stáhnout do svého zařízení z obchodu s aplikacemi. Připravili jsme pro Vás <a href=\"https://www.moneta.cz/caste-dotazy/odpoved/je-smart-banka-zdarma-jak-ji-aktivovat\" target=\"_blank\" rel=\"noopener\">podrobný návod jak na to.</a>",
+                    "subtitle4": "Proč je třeba podepsat souhlas?",
+                    "subdescription4": "Jedná se pouze o administrativní záležitost, v rámci které si oboustranně potvrdíme, že v případě využití mobilního klíče souhlasíte s podmínkami jeho zaslání a poplatkem.",
+                    "confirmButton": "Souhlasím, pokračovat"
+                },
+                "modalNotificationKeepMobileKey": {
+                    "title": "Níže prosím potvrďte informovaný souhlas",
+                    "text": "Se Smart Bankou využíváte pro přihlášení i potvrzování nejbezpečnější variantu, která je vždy\nZDARMA.",
+                    "agreementLabel": "Chápu, že v případě zaslání mobilního klíče pro přihlášení nebo autorizaci, může být taková SMS zpoplatněna v souladu s\nuvedenými podmínkami za cenu dle <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\" target=\"_blank\" rel=\"noopener\">sazebníku poplatků</a> a to také u eDisponentů.",
+                    "backButton": "Zpět",
+                    "confirmButton": "Souhlasím"
+                },
+                "modalNotificationVictory": {
+                    "title": "Hotovo, podepsali jste souhlas o zpoplatnění SMS",
+                    "text": "Pokud od této chvíle využijete zaslání mobilního klíče, může být tato služba zpoplatněna dle platného sazebníku. Proto doporučujeme využívat Smart Banku.",
+                    "agreeButton": "Rozumím"
+                },
+                "mkInfo": {
+                    "confirmButtonTooltip": "Takto to nepůjde. Protože Vám ještě nebylo 18 let, požádejte svého zákonného zástupce, aby kontaktoval náš zákaznický servis na čísle 224 443 636."
+                }
+            },
             "dateio": {
                 "title": "Získejte slevy a další odměny za platby kartou",
                 "bulletsSectionTitle": "Jak to funguje?",
@@ -324,8 +356,8 @@
                     "secondaryButton": "Pokračovat do Smart Banky"
                 },
                 "channelBlocked": {
-                    "title": "Vaše Smart Banka je zablokovaná, proto není možné přihlásit se pomocí QR kódu",
-                    "subtitle": "Abyste se mohli přihlásit pomocí QR kódu, přihlaste se do Internet Banky ID a heslem a odblokujte si Smart Banku <b>v sekci nastavení - Smart Banka</b>. Pokud některý z údajů neznáte, zastavte se za námi na pobočce.",
+                    "title": "Abychom vám umožnili přihlášení, zastavte se prosím za námi na pobočce",
+                    "subtitle": "Bezpečnost je pro nás na prvním místě. Proto bychom se s vámi nejdřív potřebovali vidět.",
                     "branch": "Navštivte nás na pobočce",
                     "primaryButton": "Zavřít"
                 },
@@ -900,15 +932,15 @@
                     ]
                 },
                 "paymentCrossSell": {
-                    "title": "Z části vašeho vkladu můžete získat 19,7 % za každý rok vašeho spoření při založení doplňkového penzijního spoření.",
+                    "title": "Z části vašeho vkladu můžete získat 20 % za každý rok vašeho spoření při založení doplňkového penzijního spoření.",
                     "button": "Založit penzijní spoření"
                 },
                 "paymentVictoryCrossSell": {
                     "title": "Hotovo! Platba je odeslaná.",
-                    "detail": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření",
+                    "detail": "Z části vašeho vkladu můžete získat 20 % založením doplňkového penzijního spoření",
                     "bullets": [
                         "Otevřete si penzijní spoření<br>ve Smart Bance",
-                        "Ze spořicího účtu si na něj vložte 20 000 Kč ročně a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
+                        "Ze spořicího účtu si na něj vložte 20 400 Kč ročně a díky státnímu příspěvku 4 080 Kč získáte roční zhodnocení vlastního vkladu 20 %.",
                         "Pro část svého vkladu získáte nejvýhodnější zhodnocení."
                     ],
                     "primaryButton": "Založit penzijní spoření",
@@ -1171,7 +1203,7 @@
                 },
                 {
                     "salesProdType": "43005",
-                    "title": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření.",
+                    "title": "Z části vašeho vkladu můžete získat 20 % založením doplňkového penzijního spoření.",
                     "icon": "vacation",
                     "bullets": [
                         {
@@ -1179,7 +1211,7 @@
                             "icon": "tickFill"
                         },
                         {
-                            "title": "Ze spořicího účtu si na něj vložte 20 000 Kč ročně a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
+                            "title": "Ze spořicího účtu si na něj vložte 20 400 Kč ročně a díky státnímu příspěvku 4 080 Kč získáte roční zhodnocení vlastního vkladu 20 %.",
                             "icon": "starsAltFill"
                         },
                         {

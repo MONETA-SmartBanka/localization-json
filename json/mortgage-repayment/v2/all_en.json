@@ -1,379 +1,379 @@
 {
     "errorScreens": {
         "defaultError": {
-            "title": "Omlouváme se, tak tohle nevyšlo",
-            "detail": "Zkuste to prosím za chvíli znovu.\nPokud by se to opakovalo, kontaktujte nás.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "We’re sorry, something went wrong",
+            "detail": "Please try again in a moment.\nIf this happens again, contact us.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "overduePartial": {
-            "title": "Vaše hypotéka je po splatnosti",
-            "detail": "Nejdříve prosím uhraďte dlužnou částku a poté bude možné provést mimořádnou splátku nebo doplacení hypotéky.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "Your mortgage is overdue",
+            "detail": "Please settle the overdue amount first. Then you can make an extra repayment or pay off your mortgage.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "overdueFull": {
-            "title": "Vaše hypotéka je již po splatnosti.",
-            "detail": "Nejdříve prosím uhraďte dlužnou částku, až poté lze provést doplacení hypotéky.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "Your mortgage is overdue",
+            "detail": "Please settle the overdue amount first. Then you can pay off your mortgage.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "remedialPartial": {
-            "title": "Žádost o mimořádnou splátku nelze v tuto chvíli provést",
-            "detail": "Obraťte se prosím na remedialhypo@moneta.cz.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "Your extra repayment request cannot be processed at this time",
+            "detail": "Please contact remedialhypo@moneta.cz.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "remedialFull": {
-            "title": "Obraťte se prosím na remediahypo@moneta.cz.",
-            "detail": "Obraťte se prosím na remediahypo@moneta.cz.",
-            "callUs": "Zavolejte nám\nna infolinku",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "Please contact remedialhypo@moneta.cz.",
+            "detail": "Please contact remedialhypo@moneta.cz.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Mortgage Overview"
         }
     },
     "scenes": {
         "calculatorPartial": {
-            "title": "Mimořádná splátka hypotéky",
-            "message": "Nejdříve k {date} můžete zaplatit až {amount} bez dalších nákladů.",
-            "amount": "Výše mimořádné splátky",
-            "remains": "Zbývá doplatit",
-            "date": "Datum mimořádné splátky",
-            "dateInfo": "Na vyřízení žádosti o mimořádnou splátku potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
-            "repaymentType": "Jak chcete upravit zbývající splátky?",
-            "repaymentLower": "Snížení splátek",
-            "repaymentLowerInfo": "Snížíme vám měsíční splátku, doba splatnosti zůstane zachována.",
-            "repaymentShorter": "Zkrácení splatnosti",
-            "repaymentShorterInfo": "Zkrátíme dobu splatnosti vaší hypotéky, výše měsíční splátky zůstane zachována.",
-            "reason": "Důvod mimořádné splátky",
+            "title": "Extra mortgage repayment",
+            "message": "The earliest available date is {date}. You can pay up to {amount} at no extra cost.",
+            "amount": "Extra repayment amount",
+            "remains": "Remaining balance",
+            "date": "Extra repayment date",
+            "dateInfo": "We need more time to process an extra repayment request. That is why the earliest available dates are at least 7 days from today.",
+            "repaymentType": "How would you like to adjust the remaining installments?",
+            "repaymentLower": "Reduce installments",
+            "repaymentLowerInfo": "We will reduce your monthly installment. The term will remain unchanged.",
+            "repaymentShorter": "Shorten term",
+            "repaymentShorterInfo": "We’ll shorten your mortgage term and recalculate your monthly instalment amount.",
+            "reason": "Reason for extra repayment",
             "reasonSelection": {
-                "title": "Jaký je důvod mimořádné splátky?",
+                "title": "What is the reason for the extra repayment?",
                 "values": [
                     {
                         "value": "REFINANCING",
-                        "title": "Refinancování"
+                        "title": "Refinancing"
                     },
                     {
                         "value": "OWN_FUNDS",
-                        "title": "Vlastní peněžní prostředky k dispozici"
+                        "title": "Own funds available"
                     },
                     {
                         "value": "SALE",
-                        "title": "Prodej nemovitosti"
+                        "title": "Property sale"
                     },
                     {
                         "value": "SALE_BEFORE_24_MONTHS",
-                        "title": "Prodej nemovitosti do 24 měsíců trvání hypotéky"
+                        "title": "Property sale within the first 24 months of the mortgage"
                     },
                     {
                         "value": "SALE_AFTER_24_MONTHS",
-                        "title": "Prodej nemovitosti po 24 měsících trvání hypotéky"
+                        "title": "Property sale after 24 months of the mortgage"
                     },
                     {
                         "value": "COMMUNITY_PROPERTY_SETTLEMENT",
-                        "title": "Vypořádání SJ po 24 měsících trvání hypotéky"
+                        "title": "Joint property settlement after 24 months of the mortgage"
                     },
                     {
                         "value": "LONG_TERM_DISEASE",
-                        "title": "Dlouhodobá nemoc"
+                        "title": "Long-term illness"
                     },
                     {
                         "value": "DISABILITY",
-                        "title": "Invalidita"
+                        "title": "Disability"
                     },
                     {
                         "value": "DEATH",
-                        "title": "Úmrtí"
+                        "title": "Death"
                     },
                     {
                         "value": "OTHER",
-                        "title": "Jiné"
+                        "title": "Other"
                     }
                 ]
             },
-            "bank": "Refinancování do banky",
-            "origin": "Původ prostředků",
-            "originComment": "Doplňte informace o původu prostředků",
+            "bank": "Refinancing to bank",
+            "origin": "Source of funds",
+            "originComment": "Add information about the source of funds",
             "originSelection": {
-                "title": "Odkud prostředky převážně pocházejí?",
-                "detail": "Pokud v nabídce není možnost, která odpovídá vaší situaci, zvolte možnost „jiné“ a doplňte ho do komentáře.",
+                "title": "Where do the funds mainly come from?",
+                "detail": "If the option that matches your situation is not available, choose “Other” and add details in the comment.",
                 "values": [
                     {
                         "value": "SALE_OF_PROPERTY",
-                        "title": "Prodej nemovitého majetku"
+                        "title": "Sale of real estate"
                     },
                     {
                         "value": "WORK_INCOME",
-                        "title": "Příjmy ze zaměstnání"
+                        "title": "Employment income"
                     },
                     {
                         "value": "BUSINESS_INCOME",
-                        "title": "Příjmy z podnikání"
+                        "title": "Business income"
                     },
                     {
                         "value": "GIFT",
-                        "title": "Dar"
+                        "title": "Gift"
                     },
                     {
                         "value": "HERITAGE",
-                        "title": "Dědictví"
+                        "title": "Inheritance"
                     },
                     {
                         "value": "RENTAL_INCOME",
-                        "title": "Příjmy z pronájmu"
+                        "title": "Rental income"
                     },
                     {
                         "value": "SALE_OF_VIRTUAL_ASSETS",
-                        "title": "Prodej virtuálních aktiv"
+                        "title": "Sale of virtual assets"
                     },
                     {
                         "value": "SALE_OF_OTHER_PROPERTY",
-                        "title": "Prodej jiného majetku"
+                        "title": "Sale of other property"
                     },
                     {
                         "value": "OTHER",
-                        "title": "Jiný"
+                        "title": "Other"
                     }
                 ]
             },
-            "account": "Odkud odejdou peníze?",
+            "account": "Where will the money be paid from?",
             "accountSelection": {
-                "title": "Z jakého účtu chcete splátku uhradit?",
-                "detail": "Vyberte běžný účet, pokud mimořádnou splátku odešlete z účtu, ze kterého hypotéku běžné splácíte. Pokud splátku odešlete z jiného účtu, zvolte technický účet.",
-                "standard": "Běžný účet",
-                "technical": "Technický účet"
+                "title": "From which account do you want to make the payment?",
+                "detail": "Select Current account if you are making the extra repayment from the account you normally use to repay your mortgage. If you are making the payment from a different account, choose Technical account.",
+                "standard": "Current account",
+                "technical": "Technical account"
             },
-            "totalAmount": "Celková částka",
-            "fee": "Náklady za předčasné splacení",
-            "feeInfo": "Jde o výši účelně vynaložených nákladů souvisejících s předčasným splacením.",
-            "referenceTypeInfo": "Zvolili jste mimořádnou splátku v jiném měsíci, než je ten současný? V tom případě je možné, že dojde ke změně nákladů. Pokud se to stane, zašleme Vám do Internet Banky nejpozději 10 dní před datem mimořádné splátky nový dokument s aktualizovanou výší nákladů.",
-            "maritalProperty": "Jsou-li použité finanční prostředky ze společného jmění, prohlašuji, že druhý z manželů či partnerů o splacení ví a souhlasí s ním.",
-            "fillBank": "Prosím vyberte Refinancování do banky",
-            "primaryButton": "Pokračovat"
+            "totalAmount": "Total amount",
+            "fee": "Costs for early repayment",
+            "feeInfo": "This is the amount of reasonably incurred costs related to early repayment.",
+            "referenceTypeInfo": "Did you choose an extra repayment in a month other than the current one? If so, the costs may change. If that happens, we will send you a new document with the updated costs to Internet Banka no later than 10 days before the extra repayment date.",
+            "maritalProperty": "If funds from joint property are used, I declare that the other spouse or partner is aware of the repayment and agrees to it.",
+            "fillBank": "Please select “Refinancing to bank",
+            "primaryButton": "Continue"
         },
         "calculatorFinal": {
-            "title": "Doplacení hypotéky",
-            "message": "Nejdříve k {date} můžete doplatit hypotéku bez úhrady nákladů.",
-            "amount": "Jistina úvěru ke dni doplacení",
-            "date": "Datum doplacení hypotéky",
-            "dateInfo": "Na vyřízení žádosti o doplacení hypotéky potřebujeme delší dobu. Proto jsou v nabídce termíny nejdříve za 7 dní.",
-            "lastPaymentDate": "proběhne poslední řádná splátka",
-            "repaymentDate": "proběhne doplacení Vaší hypotéky",
-            "refinancingDate": "doplatí Vaši hypotéku",
-            "reason": "Důvod doplacení hypotéky",
+            "title": "Mortgage payoff",
+            "message": "The earliest available date is {date}. You can pay off your mortgage without any fees.",
+            "amount": "Loan principal on payoff date",
+            "date": "Mortgage payoff date",
+            "dateInfo": "We need more time to process a mortgage payoff request. That is why the earliest available dates are at least 7 days from today.",
+            "lastPaymentDate": "the last regular installment will take place",
+            "repaymentDate": "your mortgage payoff will take place",
+            "refinancingDate": "will pay off your mortgage",
+            "reason": "Reason for mortgage payoff",
             "reasonSelection": {
-                "title": "Jaký je důvod doplacení hypotéky?",
+                "title": "What is the reason for paying off the mortgage?",
                 "values": [
                     {
                         "value": "REFINANCING",
-                        "title": "Refinancování"
+                        "title": "Refinancing"
                     },
                     {
                         "value": "OWN_FUNDS",
-                        "title": "Vlastní peněžní prostředky k dispozici"
+                        "title": "Own funds available"
                     },
                     {
                         "value": "SALE",
-                        "title": "Prodej nemovitosti"
+                        "title": "Property sale"
                     },
                     {
                         "value": "SALE_BEFORE_24_MONTHS",
-                        "title": "Prodej nemovitosti do 24 měsíců trvání hypotéky"
+                        "title": "Property sale within the first 24 months of the mortgage"
                     },
                     {
                         "value": "SALE_AFTER_24_MONTHS",
-                        "title": "Prodej nemovitosti po 24 měsících trvání hypotéky"
+                        "title": "Property sale after 24 months of the mortgage"
                     },
                     {
                         "value": "COMMUNITY_PROPERTY_SETTLEMENT",
-                        "title": "Vypořádání SJ po 24 měsících trvání hypotéky"
+                        "title": "Joint property settlement after 24 months of the mortgage"
                     },
                     {
                         "value": "LONG_TERM_DISEASE",
-                        "title": "Dlouhodobá nemoc"
+                        "title": "Long-term illness"
                     },
                     {
                         "value": "DISABILITY",
-                        "title": "Invalidita"
+                        "title": "Disability"
                     },
                     {
                         "value": "DEATH",
-                        "title": "Úmrtí"
+                        "title": "Death"
                     },
                     {
                         "value": "OTHER",
-                        "title": "Jiné"
+                        "title": "Other"
                     }
                 ]
             },
-            "bank": "Refinancování do banky",
-            "origin": "Původ prostředků",
-            "originComment": "Doplňte informace o původu prostředků",
+            "bank": "Refinancing to bank",
+            "origin": "Source of funds",
+            "originComment": "Add information about the source of funds",
             "originSelection": {
-                "title": "Odkud prostředky převážně pocházejí?",
-                "detail": "Pokud v nabídce není možnost, která odpovídá vaší situaci, zvolte možnost „jiné“ a doplňte ho do komentáře.",
+                "title": "Where do the funds mainly come from?",
+                "detail": "If the option that matches your situation is not available, choose “Other” and add details in the comment.",
                 "values": [
                     {
                         "value": "SALE_OF_PROPERTY",
-                        "title": "Prodej nemovitého majetku"
+                        "title": "Sale of real estate"
                     },
                     {
                         "value": "WORK_INCOME",
-                        "title": "Příjmy ze zaměstnání"
+                        "title": "Employment income"
                     },
                     {
                         "value": "BUSINESS_INCOME",
-                        "title": "Příjmy z podnikání"
+                        "title": "Business income"
                     },
                     {
                         "value": "GIFT",
-                        "title": "Dar"
+                        "title": "Gift"
                     },
                     {
                         "value": "HERITAGE",
-                        "title": "Dědictví"
+                        "title": "Inheritance"
                     },
                     {
                         "value": "RENTAL_INCOME",
-                        "title": "Příjmy z pronájmu"
+                        "title": "Rental income"
                     },
                     {
                         "value": "SALE_OF_VIRTUAL_ASSETS",
-                        "title": "Prodej virtuálních aktiv"
+                        "title": "Sale of virtual assets"
                     },
                     {
                         "value": "SALE_OF_OTHER_PROPERTY",
-                        "title": "Prodej jiného majetku"
+                        "title": "Sale of other property"
                     },
                     {
                         "value": "OTHER",
-                        "title": "Jiný"
+                        "title": "Other"
                     }
                 ]
             },
-            "account": "Odkud odejdou peníze?",
+            "account": "Where will the money be paid from?",
             "accountSelection": {
-                "title": "Z jakého účtu chcete splátku uhradit?",
-                "detail": "Vyberte běžný účet, pokud mimořádnou splátku odešlete z účtu, ze kterého hypotéku běžné splácíte. Pokud splátku odešlete z jiného účtu, zvolte technický účet.",
-                "standard": "Běžný účet",
-                "technical": "Technický účet"
+                "title": "From which account do you want to make the payment?",
+                "detail": "Select Current account if you are making the extra repayment from the account you normally use to repay your mortgage. If you are making the payment from a different account, choose Technical account.",
+                "standard": "Current account",
+                "technical": "Technical account"
             },
             "cadastreInfo": {
-                "title": "Souhlas pro katastr",
-                "detail": "Zvolte v případě, že chcete vystavit souhlas se zřízením zástavního práva v druhém pořadí a věcného práva zákazu zcizení a zatížení.\n\nBěžný účet můžete zrušit nejdříve 40 dní od podání žádosti o doplacení hypotéky."
+                "title": "Land Registry consent",
+                "detail": "Select this option if you want to issue consent to establish a second-priority lien and a prohibition against alienation and encumbrance.\n\nYou can close the current account no earlier than 40 days after submitting the mortgage payoff request."
             },
-            "cadastreConsent": "Vystavit souhlas pro katastr",
-            "cadastreDetail": "Na Katastrálním úřadu nemusíte nic vyřizovat. Uhradíme za Vás správní poplatek 1 600 Kč, který Vám následně přeúčtujeme.",
-            "interestAmount": "Úrok ke dni doplacení",
-            "insuranceFeeAmount": "Pojištění",
-            "totalAmount": "Celkem k doplacení",
-            "fee": "Náklady za předčasné splacení",
-            "feeInfo": "Jde o výši účelně vynaložených nákladů souvisejících s předčasným splacením.",
-            "referenceTypeInfo": "Zvolili jste doplacení hypotéky v jiném měsíci, než je ten současný? V tom případě je možné, že dojde ke změně nákladů. Pokud se to stane, zašleme Vám do Internet Banky nejpozději 10 dní před datem doplacení hypotéky nový dokument s aktualizovanou výší nákladů.",
-            "maritalProperty": "Jsou-li použité finanční prostředky ze společného jmění, prohlašuji, že druhý z manželů či partnerů o splacení ví a souhlasí s ním.",
-            "fillBank": "Prosím vyberte Refinancování do banky",
-            "primaryButton": "Pokračovat"
+            "cadastreConsent": "Issue Land Registry consent",
+            "cadastreDetail": "You do not need to handle anything at the Land Registry. We will pay the administrative fee of CZK 1,600 for you and then debit this amount to your account.",
+            "interestAmount": "Interest on payoff date",
+            "insuranceFeeAmount": "Insurance",
+            "totalAmount": "Total to pay off",
+            "fee": "Costs for early repayment",
+            "feeInfo": "This is the amount of reasonably incurred costs related to early repayment.",
+            "referenceTypeInfo": "Did you choose to pay off your mortgage in a different month than the current one? If so, the costs may change. If that happens, we will send you a new document with the updated costs to Internet Banka no later than 10 days before the mortgage payoff date.",
+            "maritalProperty": "If funds from joint property are used, I declare that the other spouse or partner is aware of the repayment and agrees to it.",
+            "fillBank": "Please select “Refinancing to another bank",
+            "primaryButton": "Continue"
         },
         "reviewPartial": {
-            "title": "Zkontrolujte nastavení mimořádné splátky",
-            "amount": "Mimořádná splátka",
-            "date": "Datum mimořádné splátky",
-            "fee": "Náklady za předčasné splacení",
-            "type": "Úprava zbývajících splátek",
-            "lower": "Snížení splátky",
-            "shorter": "Zkrácení splatnosti",
-            "reason": "Důvod mimořádné splátky",
-            "origin": "Původ prostředků",
-            "account": "Peníze odejdou z",
-            "totalAmount": "Celková částka",
-            "message": "Se změnou výše anuitní splátky se změní i výše měsíční úhrady za pojištění od BNP Paribas Cardif Pojišťovna, a. s., pokud jste ji měli sjednanou ve Smlouvě o hypotečním úvěru.",
-            "primaryButton": "Pokračovat"
+            "title": "Review extra repayment details",
+            "amount": "Extra repayment",
+            "date": "Extra repayment date",
+            "fee": "Costs for early repayment",
+            "type": "Adjustment of remaining installments",
+            "lower": "Reduce installments",
+            "shorter": "Shorten term",
+            "reason": "Reason for extra repayment",
+            "origin": "Source of funds",
+            "account": "The money will leave from",
+            "totalAmount": "Total amount",
+            "message": "If the annuity installment amount changes, the monthly insurance payment from BNP Paribas Cardif Pojišťovna, a.s. will also change, if it was arranged in your Mortgage Loan Agreement.",
+            "primaryButton": "Continue"
         },
         "reviewFinal": {
-            "title": "Zkontrolujte nastavení doplacení hypotéky",
-            "amount": "Jistina úvěru ke dni doplacení",
-            "date": "Datum doplacení hypotéky",
-            "refinancingDate": "{0} doplatí Vaši hypotéku",
-            "dateInfo": "Poslední řádná splátka proběhne",
-            "fee": "Náklady za předčasné splacení",
-            "reason": "Důvod doplacení hypotéky",
-            "origin": "Původ prostředků",
-            "account": "Peníze odejdou z",
-            "interestAmount": "Úrok ke dni doplacení",
-            "insuranceFeeAmount": "Pojištění",
-            "totalAmount": "Celkem k doplacení",
-            "bank": "Refinancování do banky",
-            "cadastreConsent": "Vystavit souhlas pro katastr",
-            "primaryButton": "Pokračovat"
+            "title": "Review mortgage payoff details",
+            "amount": "Loan principal on payoff date",
+            "date": "Mortgage payoff date",
+            "refinancingDate": "{0} will pay off your mortgage",
+            "dateInfo": "The last regular installment will take place",
+            "fee": "Costs for early repayment",
+            "reason": "Reason for mortgage payoff",
+            "origin": "Source of funds",
+            "account": "The money will leave from",
+            "interestAmount": "Interest on payoff date",
+            "insuranceFeeAmount": "Insurance",
+            "totalAmount": "Total to pay off",
+            "bank": "Refinancing to another bank",
+            "cadastreConsent": "Issue Land Registry consent",
+            "primaryButton": "Continue"
         },
         "victory": {
-            "title": "Váš požadavek jsme přijali ke zpracování",
-            "detail": "Následující pracovní den najdete dokumenty k požadavku ve Smart Bance a Internet Bance v sekci Dokumenty.",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "We have received your request and are processing it",
+            "detail": "On the next business day, you will find the documents related to your request in Smart Banka and Internet Banka under Documents.",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "victoryParitalDocument": {
-            "title": "Zvolený důvod umožňuje mimořádnou splátku zdarma, stačí nahrát dokument",
-            "detail": "Následující pracovní den najdete vyčíslení s informací o tom, který dokument nahrát, v Internet Bance a Smart Bance v sekci Dokumenty.\n\nPotřebný dokument můžete poté doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "The selected reason allows an extra repayment free of charge—just upload the document",
+            "detail": "On the next business day, you will find a statement with information on which document to upload in Internet Banka and Smart Banka under Documents.\n\nYou can then submit the required document in Internet Banka under Extra repayment > Upload documents.",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "victoryFinalDocument": {
-            "title": "Zvolený důvod umožňuje předčasné splacení zdarma, stačí nahrát dokument",
-            "detail": "Následující pracovní den najdete vyčíslení s informací o tom, který dokument nahrát, v Internet Bance a Smart Bance v sekci Dokumenty.\n\nPotřebný dokument můžete poté doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
-            "primaryButton": "Zpět na Přehled hypotéky"
+            "title": "The selected reason allows a mortgage payoff free of charge—just upload the document",
+            "detail": "On the next business day, you will find a statement with information on which document to upload in Internet Banka and Smart Banka under Documents.\n\nYou can then submit the required document in Internet Banka under Mortgage payoff > Upload documents.",
+            "primaryButton": "Back to Mortgage Overview"
         },
         "detailPartial": {
-            "title": "Mimořádná splátka",
-            "message": "Zpracováváme vaši žádost o mimořádnou splátku. Pokud zde nevidíte aktuální informace (výše splátky, doplacení, náklady apod.), zkontrolujte je prosím během následujícího pracovního dne.",
-            "amount": "Mimořádná splátka",
-            "date": "Datum mimořádné splátky",
-            "fee": "Orientační výše nákladů",
-            "freeInfo": "Zvolený důvod umožňuje mimořádnou splátku zdarma, stačí nahrát dokument.\n\nPotřebný dokument můžete doložit v Internet Bance v sekci Mimořádná splátka, Nahrát dokumenty.",
-            "totalAmount": "Celková částka",
-            "type": "Úprava zbývajících splátek",
-            "lower": "Snížení splátky",
-            "shorter": "Zkrácení splatnosti",
-            "reason": "Důvod mimořádné splátky",
-            "origin": "Původ prostředků",
-            "account": "Peníze odejdou z",
-            "footer": "Se změnou výše anuitní splátky se změní i výše měsíční úhrady za pojištění od BNP Paribas Cardif Pojišťovna, a.s., pokud jste ji měli sjednánu ve Smlouvě o hypotečním úvěru.",
-            "primaryButton": "Stornovat žádost"
+            "title": "Extra mortgage repayment",
+            "message": "We are processing your extra repayment request. If you do not see the latest information here (repayment amount, remaining balance, costs, etc.), please check again on the next business day.",
+            "amount": "Extra mortgage repayment",
+            "date": "Extra repayment date",
+            "fee": "Estimated costs",
+            "freeInfo": "The selected reason allows an extra repayment free of charge—just upload the document.\n\nYou can then submit the required document in Internet Banka under Extra repayment > Upload documents.",
+            "totalAmount": "Total amount",
+            "type": "Adjustment of remaining installments",
+            "lower": "Reduce installments",
+            "shorter": "Shorten term",
+            "reason": "Reason for extra repayment",
+            "origin": "Source of funds",
+            "account": "The money will leave from",
+            "footer": "If the annuity installment amount changes, the monthly insurance payment from BNP Paribas Cardif Pojišťovna, a.s. will also change, if it was arranged in your Mortgage Loan Agreement.",
+            "primaryButton": "Cancel request"
         },
         "detailFinal": {
-            "title": "Doplacení hypotéky",
-            "message": "Zpracováváme vaši žádost o doplacení. Pokud zde nevidíte aktuální informace (výše splátky, doplacení, náklady apod.), zkontrolujte je prosím během následujícího pracovního dne.",
-            "amount": "Jistina úvěru ke dni doplacení",
-            "interestAmount": "Úrok ke dni doplacení",
-            "insuranceFeeAmount": "Pojištění",
-            "totalAmount": "Celkem k doplacení",
-            "date": "Datum doplacení hypotéky",
-            "refinancingDate": "{0} doplatí Vaši hypotéku",
-            "fee": "Náklady za předčasné splacení",
-            "freeInfo": "<b>Zvolený důvod umožňuje předčasné splacení zdarma, stačí nahrát dokument.</b>\n\n Potřebný dokument můžete doložit v Internet Bance v sekci Doplacení hypotéky, Nahrát dokumenty.",
-            "reason": "Důvod doplacení hypotéky",
-            "origin": "Původ prostředků",
-            "account": "Způsob úhrady",
-            "cadasterConsent": "Vystavit souhlas pro katastr",
-            "primaryButton": "Stornovat žádost"
+            "title": "Mortgage payoff",
+            "message": "We are processing your mortgage payoff request. If you do not see the latest information here (amounts, payoff details, costs, etc.), please check again on the next business day.",
+            "amount": "Loan principal on payoff date",
+            "interestAmount": "Interest on payoff date",
+            "insuranceFeeAmount": "Insurance",
+            "totalAmount": "Total to pay off",
+            "date": "Mortgage payoff date",
+            "refinancingDate": "{0} will pay off your mortgage",
+            "fee": "Costs for early repayment",
+            "freeInfo": "<b>The selected reason allows a mortgage payoff free of charge—just upload the document.</b>\n\nYou can then submit the required document in Internet Banka under Mortgage payoff > Upload documents.",
+            "reason": "Reason for mortgage payoff",
+            "origin": "Source of funds",
+            "account": "Payment method",
+            "cadasterConsent": "Issue Land Registry consent",
+            "primaryButton": "Cancel request"
         },
         "cancelPartial": {
-            "title": "Chcete stornovat žádost o mimořádnou splátku?",
-            "detail": "Pokud ji stornujete, mimořádná splátka neproběhne a ve splácení budete pokračovat jako předtím.",
-            "victory": "Vaši žádost o mimořádnou splátku jsme stornovali",
-            "victoryBack": "Zpět na Přehled hypotéky",
-            "primaryButton": "Ano",
-            "secondaryButton": "Zrušit"
+            "title": "Do you want to cancel the extra repayment request?",
+            "detail": "If you cancel it, the extra repayment will not take place and you will continue paying as before.",
+            "victory": "Your extra repayment request has been canceled",
+            "victoryBack": "Back to Mortgage Overview",
+            "primaryButton": "Yes",
+            "secondaryButton": "Cancel"
         },
         "cancelFinal": {
-            "title": "Chcete stornovat žádost o doplacení hypotéky?",
-            "detail": " Pokud ji stornujete, doplacení neproběhne a ve splácení budete pokračovat jako předtím.",
-            "victory": "Vaši žádost o doplacení hypotéky jsme stornovali.",
-            "victoryBack": "Zpět na Přehled hypotéky",
-            "primaryButton": "Ano",
-            "secondaryButton": "Zrušit"
+            "title": "Do you want to cancel the mortgage payoff request?",
+            "detail": "If you cancel it, the mortgage payoff will not take place and you will continue paying as before.",
+            "victory": "Your mortgage payoff request has been canceled.",
+            "victoryBack": "Back to Mortgage Overview",
+            "primaryButton": "Yes",
+            "secondaryButton": "Cancel"
         }
     }
 }
