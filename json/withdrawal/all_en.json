@@ -1,0 +1,345 @@
+{
+    "errorScreens": {
+        "generalError": {
+            "title": "Sorry, this didn't work out",
+            "detail": "Unfortunately, we can't continue right now. Please try again later.",
+            "primaryButton": "Back"
+        },
+        "loanRepay": {
+            "title": "You repay a loan from this account, so it is not possible to withdraw from the contract online",
+            "detail": "If you want to withdraw from the contract, please visit a branch and arrange a different repayment method for the loan.",
+            "primaryButton": "Back"
+        },
+        "termDepositLink": {
+            "title": "A term deposit is linked to this account",
+            "detail": "If you want to withdraw from the contract, please visit a branch and arrange a different account to which we will pay your interest or principal.",
+            "primaryButton": "Back"
+        },
+        "lastAccount": {
+            "title": "You can close this account only as the last one",
+            "detail": "If you closed it now, you would only be left with a foreign currency account. But you cannot have one without a current account in CZK.",
+            "primaryButton": "Back"
+        }
+    },
+    "scenes": {
+        "form": {
+            "title": {
+                "default": "Withdrawal from the contract",
+                "INSURANCE": "Withdrawal from insurance"
+            },
+            "detail": {
+                "default": {
+                    "title": null,
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}",
+                            "description": null
+                        }
+                    ]
+                },
+                "BUILDING_SAVING": {
+                    "title": "Building savings",
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Account holder",
+                            "value": "{owner}"
+                        }
+                    ]
+                },
+                "JTV": {
+                    "title": "One-off term deposit",
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "RTV": {
+                    "title": "Revolving term deposit",
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "LOAN": {
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Original loan amount",
+                            "value": "{loanAmount}"
+                        },
+                        {
+                            "label": "Outstanding principal",
+                            "value": "{outstandingPrincipal}"
+                        },
+                        {
+                            "label": "Outstanding interest",
+                            "value": "{outstandingInterest}",
+                            "description": "As of today"
+                        }
+                    ]
+                },
+                "UDC": {
+                    "items": [
+                        {
+                            "label": "Account number",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Original loan amount",
+                            "value": "{loanAmount}"
+                        },
+                        {
+                            "label": "Current outstanding principal",
+                            "value": "{outstandingPrincipal}"
+                        },
+                        {
+                            "label": "Outstanding contractual interest",
+                            "value": "{outstandingInterest}",
+                            "description": "As of today"
+                        }
+                    ]
+                },
+                "FLEXIKREDIT": {
+                    "items": [
+                        {
+                            "label": "Overdraft limit",
+                            "value": "{overdraftLimit}"
+                        },
+                        {
+                            "label": "Amount used",
+                            "value": "{amountUsed}"
+                        },
+                        {
+                            "label": "Outstanding contractual interest",
+                            "value": "{outstandingInterest}",
+                            "description": "As of today"
+                        }
+                    ]
+                },
+                "DIP": {
+                    "title": "Long-term investment product",
+                    "items": [
+                        {
+                            "label": "DIP savings account",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Contract number",
+                            "value": "{contractNumber}"
+                        }
+                    ]
+                },
+                "INSURANCE": {
+                    "items": [
+                        {
+                            "label": "Linked to account",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                },
+                "INSURANCE_PPI": {
+                    "items": [
+                        {
+                            "label": "Linked loan",
+                            "value": "{loanType}",
+                            "subValue": "{accountNumber}"
+                        }
+                    ]
+                },
+                "DPS": {
+                    "title": "Supplementary pension savings with NN Pension Company",
+                    "items": [
+                        {
+                            "label": "Contract number",
+                            "value": "{accountNumber}"
+                        },
+                        {
+                            "label": "Account holder",
+                            "value": "{owner}"
+                        }
+                    ]
+                },
+                "CREDIT_CARD": {
+                    "items": [
+                        {
+                            "label": "Card number",
+                            "value": "{cardNumber}"
+                        },
+                        {
+                            "label": "Cardholder",
+                            "value": "{cardholder}"
+                        },
+                        {
+                            "label": "Contract number",
+                            "value": "{contractNumber}"
+                        },
+                        {
+                            "label": "Credit limit",
+                            "value": "{creditLimit}"
+                        },
+                        {
+                            "label": "Amount used",
+                            "value": "{amountUsed}"
+                        }
+                    ]
+                },
+                "DEBIT_CARD": {
+                    "title": "Debit card {cardName}",
+                    "items": [
+                        {
+                            "label": "Card number",
+                            "value": "{cardNumber}"
+                        },
+                        {
+                            "label": "Cardholder",
+                            "value": "{cardholder}"
+                        },
+                        {
+                            "label": "Linked to account",
+                            "value": "{accountNumber}"
+                        }
+                    ]
+                }
+            },
+            "afterWithdrawal": {
+                "title": "What happens after withdrawal",
+                "items": {
+                    "default": [
+                        "Any remaining balance will be transferred to the account you select below.",
+                        "This withdrawal is irreversible. This account cannot be reinstated later."
+                    ],
+                    "CURRENT_ACCOUNT_FOREIGN": [
+                        "Any remaining balance will be transferred to your MONETA account, which you can select below. If you want to transfer it elsewhere, do so before withdrawing from the contract.",
+                        "If you withdraw from the contract and thereby close your last foreign currency account, the online Exchange will also be cancelled.",
+                        "This withdrawal is irreversible. This account cannot be reinstated later."
+                    ],
+                    "SAVINGS_ACCOUNT_FOREIGN": [
+                        "Any remaining balance will be transferred to your MONETA account, which you can select below. If you want to transfer it elsewhere, do so before withdrawing from the contract.",
+                        "This withdrawal is irreversible. This account cannot be reinstated later."
+                    ],
+                    "BUILDING_SAVING": [
+                        "Any remaining balance will be transferred to the account you select below.",
+                        "This withdrawal is irreversible."
+                    ],
+                    "JTV": [
+                        "Withdrawal from the contract is irreversible. After withdrawal, it will not be possible to reinstate the term deposit in the future.",
+                        "If there are funds credited to the deposit, interest will be paid to you up to the day before the deposit is closed.",
+                        "Any remaining balance will be transferred to the account you select below."
+                    ],
+                    "RTV": [
+                        "Withdrawal from the contract is irreversible. After withdrawal, it will not be possible to reinstate the term deposit in the future.",
+                        "If there are funds credited to the deposit, interest will be paid to you up to the day before the deposit is closed.",
+                        "Any remaining balance will be transferred to the account you select below."
+                    ],
+                    "LOAN": [
+                        "By withdrawing from the contract, you become obliged to repay the outstanding principal and the outstanding contractual interest accrued from the date the loan was disbursed. Interest continues to accrue daily. If you do not repay the amount within 30 days of withdrawal, we will initiate debt collection. Please ensure you have sufficient funds in the account you use to repay the loan.",
+                        "If you paid us a fee in connection with the loan, we will refund it to your current account.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "UDC": [
+                        "If Loan Consolidation was intended to repay loans previously taken out with MONETA Money Bank, those loans have been repaid.",
+                        "If Loan Consolidation was intended to repay loans taken out with other lenders, the funds to repay them have already been sent or will be sent shortly. For more information about the status of those repayments, please contact the respective lenders.",
+                        "By withdrawing from the contract, you become obliged to repay the outstanding principal and the outstanding contractual interest accrued from the date the loan was disbursed. Interest continues to accrue daily. If you do not repay the amount within 30 days of withdrawal, we will initiate debt collection. Please ensure you have sufficient funds in the account you use to repay the loan.",
+                        "If you paid a fee in connection with providing the consolidation, we will refund it to your current account.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "FLEXIKREDIT": [
+                        "By withdrawing from the contract, you become obliged to repay the outstanding principal and the outstanding contractual interest accrued from the date the overdraft was used. Interest continues to accrue daily. If you do not repay the amount within 30 days of withdrawal, we will initiate debt collection. Please ensure you have sufficient funds in the account you use to repay the overdraft.",
+                        "If you paid a fee in connection with using the overdraft, we will refund it to your current account.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "DIP": [
+                        "A long-term investment product is tax-supported. Withdrawal or termination may result in the loss of tax benefits and may also create an obligation to additionally tax previously claimed tax relief.",
+                        "Any remaining balance will be transferred to the account you select below.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "INSURANCE": [
+                        "Upon withdrawal, the insurance is cancelled from the outset, as if it had never been concluded. Therefore, no premium is charged for the period from conclusion of the insurance to withdrawal, and you are not entitled to insurance benefits for events that occurred during that period.",
+                        "If the insurance premium has already been charged to your account, it will be refunded to the account.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "DPS": [
+                        "By withdrawing, the supplementary pension savings agreement is cancelled from the outset. You are not entitled to state contributions.",
+                        "Your withdrawal request will be forwarded to NN Pension Company, a.s., which will contact you about settlement at the email address provided when you signed the supplementary pension savings agreement.",
+                        "Withdrawal is irreversible and cannot be cancelled.",
+                        "Any contributions you have paid in will be transferred to the payment account provided when the agreement was concluded."
+                    ],
+                    "CREDIT_CARD": [
+                        "By confirming withdrawal from the credit card agreement, the card will be cancelled immediately and can no longer be used for payments or cash withdrawals.",
+                        "By withdrawing from the contract, you are obliged to repay any amount used, together with all accrued interest and fees, no later than 30 days from withdrawal from the contract.",
+                        "If you do not repay the outstanding principal and interest within 30 days of withdrawal, we will initiate debt collection.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ],
+                    "DEBIT_CARD": [
+                        "By confirming withdrawal from the debit card agreement, the card will be cancelled immediately and can no longer be used for payments or cash withdrawals.",
+                        "Withdrawal is irreversible and cannot be cancelled."
+                    ]
+                },
+                "note": {
+                    "default": null,
+                    "LOAN": "If anything is unclear regarding withdrawal, please visit any MONETA Money Bank branch or contact our helpline at <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "UDC": "If anything is unclear regarding withdrawal, please visit any MONETA Money Bank branch or contact our helpline at <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "FLEXIKREDIT": "If anything is unclear regarding withdrawal, please visit any MONETA Money Bank branch or contact our helpline at <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>",
+                    "CREDIT_CARD": "If anything is unclear regarding withdrawal, please visit any MONETA Money Bank branch or contact our helpline at <a href=\"smartbanka://clientCenterPhone\">224 443 636</a>"
+                }
+            },
+            "withdrawalIncludes": {
+                "title": "Included in the withdrawal"
+            },
+            "transferBalance": {
+                "title": "Transfer remaining balance to",
+                "label": "Account",
+                "hint": "Select",
+                "accountSelection": {
+                    "title": "Send remaining balance to",
+                    "monetaSectionTitle": "Your MONETA accounts",
+                    "monetaSectionAll": "All",
+                    "otherSectionTitle": "Other bank account",
+                    "otherSectionNote": "The account must be held in the Czech Republic.",
+                    "foreignCurrencyNote": "If you transfer money to a different currency, the amount will be converted using the current exchange rate valid on the day of transfer.",
+                    "primaryButton": "Select"
+                }
+            },
+            "contactEmail": {
+                "title": "Contact email",
+                "label": "Email",
+                "hint": "Your email",
+                "note": "I request that confirmation of receipt of the withdrawal and further information related to the withdrawal from the contract be sent to this email address. <a href=\"smartbanka://emailFullWording\">Full wording</a>  If you change the email address, we will set it as your contact email.",
+                "fullWording": {
+                    "title": "Full wording",
+                    "detail": "In connection with the request to send confirmation of receipt of the withdrawal from the contract, including subsequent information and documents related to the termination of the contractual relationship with the bank and the settlement of mutual receivables and liabilities, to the contact email provided by me, in unencrypted form, I declare that the email mailbox designated by me is within my exclusive sphere of control, and I am aware that the communications from the bank will contain my personal data and information relating to the terminated contract protected by banking secrecy."
+                }
+            },
+            "primaryButton": "Confirm withdrawal",
+            "secondaryButton": "Back"
+        },
+        "agreement": {
+            "title": "Notice of withdrawal",
+            "detail": "We will forward this notice to NN Pension Company, a.s.",
+            "primaryButton": "Sign",
+            "secondaryButton": "Back"
+        },
+        "victory": {
+            "title": "You have withdrawn from the contract",
+            "detail": "We will send confirmation of your withdrawal and any further information to the email address provided.\n\n<b>What happens next?</b>\n1. We will process your withdrawal request.\n2. If anything else is needed, we will contact you.",
+            "primaryButton": "Back to Overview"
+        },
+        "detailButton": {
+            "title": "Withdraw from the contract",
+            "detail": "Close product",
+            "withdrawn": "You’ve already withdrawn from this contract."
+        }
+    }
+}
