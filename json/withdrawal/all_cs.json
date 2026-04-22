@@ -114,6 +114,10 @@
                 "FLEXIKREDIT": {
                     "items": [
                         {
+                            "label": "Přečerpaný kontokorent",
+                            "value": "{overdraft}"
+                        },
+                        {
                             "label": "Rámec kontokorentu",
                             "value": "{overdraftLimit}"
                         },
@@ -122,7 +126,7 @@
                             "value": "{amountUsed}"
                         },
                         {
-                            "label": "Nesplacené obchodní úroky",
+                            "label": "Nesplacené úroky",
                             "value": "{outstandingInterest}",
                             "description": "K dnešnímu dni"
                         }
@@ -319,7 +323,7 @@
                 "note": "Žádám o zaslání potvrzení o přijetí odstoupení a dalších informací týkajících se odstoupení od smlouvy na tento e-mail. <a href=\"smartbanka://emailFullWording\">Celé prohlášení</a>\n\nPokud e-mail změníte, nastavíme ho jako Váš kontaktní.",
                 "fullWording": {
                     "title": "Celé prohlášení",
-                    "detail": "V souvislosti s žádostí o zaslání potvrzení o přijetí odstoupení od smlouvy, včetně následných informací a dokumentů souvisejících s ukončením smluvního vztahu s bankou a vypořádáním vzájemných pohledávek a závazků na mnou uvedený kontaktní e-mail, a to v nešifrované formě, prohlašuji, že mnou určená schránka elektronické pošty je v mé výlučné dispoziční sféře, a jsem si vědom, že uvedená sdělení z banky budou obsahovat mé osobní údaje a informace k ukončované smlouvě chráněné bankovním tajemství."
+                    "detail": "V souvislosti s žádostí o zaslání potvrzení o přijetí odstoupení od smlouvy, včetně následných informací a dokumentů souvisejících s ukončením smluvního vztahu s bankou a vypořádáním vzájemných pohledávek a závazků na mnou uvedený kontaktní e-mail, a to v nešifrované formě, prohlašuji, že mnou určená schránka elektronické pošty je v mé výlučné dispoziční sféře, a jsem si vědom, že uvedená sdělení z banky budou obsahovat mé osobní údaje a informace k ukončované smlouvě chráněné bankovním tajemstvím."
                 }
             },
             "primaryButton": "Potvrdit odstoupení od smlouvy",
@@ -337,7 +341,7 @@
             "primaryButton": "Zpět na Přehled"
         },
         "detailButton": {
-            "title": "Odstupit od smlouvy",
+            "title": "Odstoupit od smlouvy",
             "detail": "Zrušit produkt",
             "withdrawn": "Od tohoto produktu jste již odstoupili."
         }
