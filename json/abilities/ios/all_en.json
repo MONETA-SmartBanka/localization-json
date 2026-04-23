@@ -230,20 +230,14 @@
         },
         {
             "id": "Platby_1_ENG",
-            "title": "Drag and drop makes transfers between your own accounts easier",
-            "detail": "<b>Just hold your finger on the account</b> from which you wish to make the transfer, and drag it over another account, e.g., your savings account, and let go. Then, you select the amount and confirm the transfer. You can also use drag and & drop on savings envelopes.",
-            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_1_ENG.png",
+            "title": "Make transfers between accounts easier with drag & drop",
+            "detail": "Press and hold the account you want to transfer money from, then drag it to the target account. Then enter the amount and confirm the transfer. You can use drag & drop for current and savings accounts.",
+            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
+            "minAppVersion": "91.0.0",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_ENG.png",
-            "newsDate": "2024-02-05",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
-            "abilitySortOrder": 100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Try it"
-            }
+            "abilitySortOrder": 100
         },
         {
             "id": "Platby_2_ENG",
@@ -605,15 +599,12 @@
         },
         {
             "id": "Zmena_1_ENG",
-            "title": "Messages and documents from the Bank",
-            "detail": "Tap the <b>Messages icon</b> to find all important messages, notifications, and all documents concerning your products.  ",
-            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_1_ENG.png",
+            "title": "Messages & Documents",
+            "detail": "Tap the icon on your Home screen to find all important messages, notices, and documents for your products.",
+            "imageURL": "/cbl_images/popup-news/v91/dokumenty_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_1.png",
-            "newsDate": "2024-04-01",
-            "avatarTitle": "Notifications and Messages",
             "abilityCategory": "security",
-            "abilityTitle": "Notifications and Messages",
+            "abilityTitle": "Documents",
             "abilitySortOrder": 2100,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -940,24 +931,6 @@
             }
         },
         {
-            "id": "Doplnky_1_ENG",
-            "title": "Help with Smart Banka",
-            "detail": "You can easily contribute to selected organizations directly through Smart Banka. Just open the <b>More</b> menu, select <b>Useful Information</b>, and choose the option <b>Help with Smart Banka</b>.",
-            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_1_ENG.png",
-            "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_1.png",
-            "newsDate": "2024-06-24",
-            "avatarTitle": "Help with Smart Banka",
-            "abilityCategory": "appearance",
-            "abilityTitle": "Help with Smart Banka",
-            "abilitySortOrder": 6100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "CHARITY",
-                "actionLabelText": "Try it out"
-            }
-        },
-        {
             "id": "Doplnky_3_ENG",
             "title": "Pairing Smart Banka",
             "detail": "Even though you are currently using Smart Banka, we would like to remind you how to pair it again in the future, for example, when you get a new phone. Just log in to your <b>Internet Banka</b>, open the <b>settings</b>, select ‘<b>Smart Banka</b>’, and then follow the instructions.",
@@ -1026,7 +999,7 @@
         },
         {
             "id": "Mismas_3_ENG",
-            "title": "Profile Switching for Entrepreneurs and Authorized Users",
+            "title": "Profile Switching for Enterpreneurs and Authorized Users",
             "detail": "Are you a business owner with multiple profiles in Smart Banka? You can switch between profiles easily in <b>Settings</b> without needing to log in and out.",
             "imageURL": "/cbl_images/abilities/ios/12_Mismas/Mismas_Image_3_ENG.png",
             "shouldCheckEligibility": false,
@@ -1072,6 +1045,92 @@
             "abilityCategory": "products",
             "abilityTitle": "File Insurance Claims",
             "abilitySortOrder": 7500
+        },
+        {
+            "id": "Investice",
+            "title": "Let your money grow with a bank you trust",
+            "detail": "Want to invest but not sure where to start? We’ll help you choose the right investments, and experienced professionals will manage them for you while keeping an eye on the markets.",
+            "imageURL": "/cbl_images/popup-news/v90/investice_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investment advisory",
+            "abilitySortOrder": 7600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "Pim",
+            "title": "Do you have more than one source of income and are applying for a loan? Include them all",
+            "detail": "You can now include up to 3 different sources of income in your loan application and improve your chances of approval.",
+            "imageURL": "/cbl_images/popup-news/v90/pim_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Additional income in a loan application",
+            "abilitySortOrder": 7700
+        },
+        {
+            "id": "Dip",
+            "title": "You can now manage your Long-Term Investment Product right in the app",
+            "detail": "Transfer money to your DIP savings account, buy funds, and manage your investments easily in the app.",
+            "imageURL": "/cbl_images/popup-news/v90/dip_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Long-term investment product investments",
+            "abilitySortOrder": 7800,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "DetskeLimity",
+            "title": "Higher limits for your little ones",
+            "detail": "At your request, we’re increasing the limits on children’s accounts. You can now set in-store payments, online payments and ATM withdrawals up to CZK 20,000. The account transfer limit can now be set up to CZK 35,000. Would you like to update everything now?",
+            "imageURL": "/cbl_images/popup-news/v90/detsky_limit_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Higher limits for children's accounts",
+            "abilitySortOrder": 7900,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "FAMILYACCOUNT",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "CardsNaming_EN",
+            "title": "Cards? Name them your way",
+            "detail": "One for fun, one for bills. Name your cards in a way that makes sense to you. You can change the name anytime in the card details.",
+            "imageURL": "/cbl_images/popup-news/v91/karty_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Card renaming",
+            "abilitySortOrder": 8000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Try it out"
+            }
+        },
+        {
+            "id": "UrokovePasmo_EN",
+            "title": "What makes up the interest on your savings account?",
+            "detail": "Tap the interest rate to see the breakdown. You’ll find what it’s made up of, which balance tiers it applies to, and how long the rate is guaranteed—plus a simple example.",
+            "imageURL": "/cbl_images/popup-news/v91/urokove_pasmo_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Interest rates on your savings account",
+            "abilitySortOrder": 8100
         }
     ]
 }

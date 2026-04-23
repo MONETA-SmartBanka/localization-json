@@ -1,21 +1,49 @@
 #!/bin/bash
 
-# Získání posledního tagu
-LAST_TAG=$(git describe --tags --abbrev=0 2>/dev/null)
+set -euo pipefail
 
-# Kontrola, zda existuje nějaký tag
-if [ -z "$LAST_TAG" ]; then
-    echo "Žádný tag nenalezen. Kontroluji všechny soubory."
-    FILES=$(git ls-files '*.json')
-else
-    echo "Kontroluji změny od posledního tagu: $LAST_TAG"
-    FILES=$(git ls-files '*.json')
+BASE_URL="https://tembs.internetbanka.cz"
+
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+    echo "Chyba: script musí běžet uvnitř git repozitáře." >&2
+    exit 1
 fi
 
-# Procházení souborů a stažení změn
-for FILE in $FILES; do
-    echo "Stahuji změny: $FILE"
-    curl -s -o "$FILE" "https://tembs.internetbanka.cz/$FILE"
-done
+echo "Stahuji sledované soubory all_cs.json a all_en.json"
+FILES=$(git ls-files -- '*all_cs.json' '*all_en.json')
 
-echo "Hotovo"
+if [ -z "$FILES" ]; then
+    echo "Žádné JSON soubory ke stažení."
+    exit 0
+fi
+
+SUCCESS=0
+FAILED=0
+
+while IFS= read -r FILE; do
+    [ -z "$FILE" ] && continue
+
+    echo "Stahuji změny: $FILE"
+
+    DIR=$(dirname "$FILE")
+    mkdir -p "$DIR"
+
+    TMP_FILE=$(mktemp)
+    if curl -fSsL -o "$TMP_FILE" "$BASE_URL/$FILE"; then
+        mv "$TMP_FILE" "$FILE"
+        SUCCESS=$((SUCCESS + 1))
+    else
+        echo "Chyba při stahování: $FILE" >&2
+        rm -f "$TMP_FILE"
+        FAILED=$((FAILED + 1))
+    fi
+done <<< "$FILES"
+
+echo "Formátuji JSON soubory pomocí Prettier..."
+npx prettier --write "json/**/*.json"
+
+echo "Hotovo. Úspěšně: $SUCCESS, neúspěšně: $FAILED"
+
+if [ "$FAILED" -gt 0 ]; then
+    exit 1
+fi

@@ -23,7 +23,7 @@
         {
             "id": "appearance",
             "image": "mobilePaletteFill",
-            "title": "Vzhled a přispůsobení"
+            "title": "Vzhled a přizpůsobení"
         }
     ],
     "items": [
@@ -230,20 +230,13 @@
         },
         {
             "id": "Platby_1_CZ",
-            "title": "Ulehčete si převod mezi účty s funkcí drag & drop",
-            "detail": "<b>Stačí přidržet prst na účtu</b>, ze kterého chcete peníze převést, a tahem je přesunout na jiný, třeba spořicí. A pustit. Poté jen zvolíte částku, kterou chcete převést a potvrdíte. Drag & drop můžete využít i u spořicích obálek.",
-            "imageURL": "/cbl_images/abilities/ios/3_sada/Platby_Image_1_CZ.png",
-            "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_CZ.png",
-            "newsDate": "2024-02-05",
+            "title": "Ulehčete si převody mezi účty s funkcí drag & drop",
+            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze a přetáhněte ho na cílový účet. Pak už jen zadejte částku a převod potvrďte.\u2028Drag & drop neboli „táhni a pust“ můžete využít u běžných i spořicích účtů.",
+            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
+            "minAppVersion": "91.0.0",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
-            "abilitySortOrder": 100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
-            }
+            "abilitySortOrder": 100
         },
         {
             "id": "Platby_2_CZ",
@@ -481,7 +474,6 @@
             "abilityTitle": "Zrušení karty",
             "abilitySortOrder": 600
         },
-
         {
             "id": "Ucet_Velikonoce_0_CZ",
             "title": "Velikonoční vzhled",
@@ -603,18 +595,14 @@
             "abilityTitle": "Mimořádná splátka půjčky",
             "abilitySortOrder": 1600
         },
-
         {
             "id": "Zmena_1_CZ",
             "title": "Zprávy a dokumenty z banky",
-            "detail": "Pod <b>ikonkou zpráv</b> najdete všechny důležité zprávy z banky, oznámení a dokumenty k vašim produktům.",
-            "imageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_Image_1_CZ.png",
+            "detail": "Klikněte na ikonku přímo na Přehledu, pod kterou najdete všechny důležité zprávy, oznámení a dokumenty k Vašim produktům.",
+            "imageURL": "/cbl_images/popup-news/v91/dokumenty_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/7_Zmeny/Zmena_NewsImage_1.png",
-            "newsDate": "2024-04-01",
-            "avatarTitle": "Zprávy z banky",
             "abilityCategory": "security",
-            "abilityTitle": "Zprávy a dokumenty",
+            "abilityTitle": "Dokumenty",
             "abilitySortOrder": 2100,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -692,7 +680,6 @@
             "abilityTitle": "Kontrola údajů",
             "abilitySortOrder": 2600
         },
-
         {
             "id": "Business_1_CZ",
             "title": "Přidejte si kartu do telefonu a tu plastovou nechte doma",
@@ -755,7 +742,6 @@
             "abilityTitle": "Splátka hypotéky",
             "abilitySortOrder": 3400
         },
-
         {
             "id": "Platby_Deti_1_CZ",
             "title": "Upozornění na duplicitní platbu",
@@ -943,24 +929,6 @@
             }
         },
         {
-            "id": "Doplnky_1_CZ",
-            "title": "Pomáhejte se Smart Bankou",
-            "detail": "Vybraným organizacím můžete snadno přispět přímo přes Smart Banku. Stačí si rozkliknout menu <b>Více</b> a v sekci <b>Užitečné informace</b> vybrat možnost <b>Pomáhejte se Smart Bankou</b>.",
-            "imageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_Image_1_CZ.png",
-            "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/11_Doplnky/Doplnky_NewsImage_1.png",
-            "newsDate": "2024-06-24",
-            "avatarTitle": "Pomáhejte se Smart Bankou",
-            "abilityCategory": "appearance",
-            "abilityTitle": "Pomáhejte se Smart Bankou",
-            "abilitySortOrder": 6100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "CHARITY",
-                "actionLabelText": "Vyzkoušet"
-            }
-        },
-        {
             "id": "Doplnky_3_CZ",
             "title": "Párování Smart Banky",
             "detail": "I když Smart Banku právě používáte, rádi bychom vám připomněli, jak si ji v budoucnu znovu spárovat. Například když budete mít nový telefon. Stačí se přihlásit do vaší <b>Internet Banky</b>, otevřít si <b>nastavení</b>, vybrat možnost <b>Smart Banka</b> a pak už jen postupovat podle instrukcí.",
@@ -1075,6 +1043,92 @@
             "abilityCategory": "products",
             "abilityTitle": "Hlášení pojistné události",
             "abilitySortOrder": 7500
+        },
+        {
+            "id": "Investice",
+            "title": "Nechte své peníze růst v bance, které důvěřujete",
+            "detail": "Chcete investovat, ale nevíte do čeho? Vhodné investice najdeme společně a spravovat je budou zkušení odborníci, kteří sledují trhy za Vás.",
+            "imageURL": "/cbl_images/popup-news/v90/investice_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investiční poradenství",
+            "abilitySortOrder": 7600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Pim",
+            "title": "Máte více příjmů a žádáte o úvěr? Uveďte je všechny",
+            "detail": "Nově můžete u našich úvěrů uvést až 3 různé příjmy a zvýšit tak své šance na schválení.",
+            "imageURL": "/cbl_images/popup-news/v90/pim_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Více příjmů v žádosti o úvěr",
+            "abilitySortOrder": 7700
+        },
+        {
+            "id": "Dip",
+            "title": "Svůj dlouhodobý investiční produkt teď můžete obsluhovat přímo v aplikaci",
+            "detail": "Pošlete peníze na Spořicí účet DIP, nakupujte fondy a spravujte své investice pohodlně v aplikaci.",
+            "imageURL": "/cbl_images/popup-news/v90/dip_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Investice s dlouhodobým investičním produktem",
+            "abilitySortOrder": 7800,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "DetskeLimity",
+            "title": "Vyšší limity pro ty nejmenší",
+            "detail": "Na Vaše přání zvyšujeme limity u dětských účtů. Platby v obchodech, na internetu a výběry z bankomatů nově můžete nastavit až do 20 000 Kč. Limit pro převody z účtu až na 35 000 Kč. Chcete vše rovnou nastavit?",
+            "imageURL": "/cbl_images/popup-news/v90/detsky_limit_CZ.png",
+            "minAppVersion": "90.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Vyšší limity pro dětský účet",
+            "abilitySortOrder": 7900,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "FAMILYACCOUNT",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "CardsNaming_CZ",
+            "title": "Karty? Pojmenujte si je po svém",
+            "detail": "Jedna na radost, druhá na povinnosti. Pojmenujte si karty tak, jak Vám dávají smysl. Název můžete kdykoli změnit v jejich detailu.",
+            "imageURL": "/cbl_images/popup-news/v91/karty_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Přejmenování karty",
+            "abilitySortOrder": 8000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "UrokovePasmo_CZ",
+            "title": "Z čeho se skládá úrok na Vašem spořicím účtu?",
+            "detail": "Podrobnosti o úročení najdete po kliknutí na číslo úroku. Na jednom místě uvidíte, z čeho se skládá, pro jaké částky platí a do kdy ho garantujeme. Včetně jednoduchého příkladu.",
+            "imageURL": "/cbl_images/popup-news/v91/urokove_pasmo_CZ.png",
+            "minAppVersion": "91.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Pásmové úročení – spořicí účty",
+            "abilitySortOrder": 8100
         }
     ]
 }

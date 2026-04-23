@@ -41,12 +41,10 @@
             "primaryButton": "Continue in application"
         },
         "moreMoney": {
-            "title": "Do you need a bigger limit?",
-            "detail": "You can easily apply for a higher credit limit in Internet Banka.  If you prefer to talk it through in person, give us a call or stop by one of our branches.",
-            "callUs": "Call Helpline",
+            "title": "Let’s take care of this at a branch",
+            "detail": "We’ll be happy to help you increase your credit card limit at any of our branches.\nPlease remember to bring your proof of income with you.",
             "branch": "Visit a branch",
-            "primaryButton": "Back",
-            "secondaryButton": "Back to Overview "
+            "secondaryButton": "Back to Overview"
         }
     },
     "general": {
@@ -96,12 +94,11 @@
             "title": "Shop with our card and get money back",
             "headerUrl": null,
             "bullets": [
-                "You’ll get 5% back on every grocery purchase.",
-                "Plus, get 1% back on purchases in a category of your choice.",
-                "It’s perfect for travel and shopping abroad.",
-                "Apply for it online in Smart Banka and start using it right away with Google Pay or Apple Pay.",
-                "Shop now, pay later – enjoy up to 50 days interest-free.",
-                "You can easily manage your card re payments in Smart Banka"
+                "For the first six months, you will get 10 % back on grocery purchases worldwide, up to CZK 1,500 per month.",
+                "In addition, you get 1 % cashback in a selected category, up to CZK 500 per month, permanently.",
+                "In total, you can get up to CZK 12,000 back in half a year.",
+                "Interest-free period of up to 50 days.",
+                "You can start shopping immediately after adding the card to Google Pay or Apple Pay."
             ],
             "primaryButton": "Continue",
             "secondaryButton": "How does it work?"
@@ -136,7 +133,7 @@
                 }
             ],
             "bullets": [
-                "The reward applies both in-store and online at all merchants in your chosen category — over 12,000 shops in total.",
+                "The reward applies both in-store and online at all merchants in your chosen category.",
                 "We’ll credit the amount to your account retroactively each month — up to CZK 500."
             ],
             "footers": [
@@ -160,7 +157,7 @@
             "withdrawalsElseWhereTitle": "Withdrawals via other ATMs",
             "withdrawalsAbroadTitle": "Withdrawals abroad",
             "interestRateTitle": "Annual interest rate",
-            "detail": " Representative example of a revolving credit and credit card is based on the assumption that a credit limit of CZK 37,800 is fully used immediately through cashless transactions and repaid in 12 equal monthly repayments of CZK 3,604.90.\nThe credit card allows repayment in varying monthly amounts, but at least 2% of the drawn credit limit.\nLoan term: indefinite.\u2028Annual interest rate: 22.99%.\u2028Fees related to the credit: monthly card maintenance fee CZK 49, cost of electronic statement delivery CZK 0, APR 28.91%, total amount payable by the consumer CZK 43,258.\nIf you make higher or more frequent repayments, or use the card within the interest-free period for cashless purchases, the figures in this representative example may vary.",
+            "detail": "With a credit card credit limit of CZK 37,800 and repayment in 12 equal monthly instalments of CZK 3,604.90, the annual interest rate is 22.99%, the APR is 28.91%, and the total amount payable by the consumer is CZK 43,258.00. The monthly credit card account maintenance fee is CZK 49, and the fee for electronic statement delivery is CZK 0.<br/>This example does not take into account the marketing offer mentioned above. There is no legal entitlement to enter into a revolving credit agreement, or to the issuance and use of a credit card.",
             "primaryButton": "Continue",
             "secondaryButton": "Do you need a bigger limit?"
         },
@@ -235,7 +232,7 @@
                     "title": "Opravdu chcete odstranit tento příjem?"
                 },
                 "trialPeriod": "ve zkušební lhůtě",
-                "onNoticePeriod": "ve výpovědní lhůtě",
+                "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                 "employmentForPeriod": "na dobu určitou do {0}",
                 "indefinitePeriod": "na dobu neurčitou",
                 "primaryButton": "Pokračovat"
@@ -246,7 +243,7 @@
                 "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
                 "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                 "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                 "fixPeriodTitle": "a zároveň na dobu určitou",
                 "fixPeriodDateTitle": "do",
                 "fixPeriodDateHint": "Vyberte datum",
@@ -256,16 +253,16 @@
                 "offers": {
                     "TO_SME": {
                         "icon": "business",
-                        "title": "Hledáte úvěr pro podnikání?",
-                        "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                        "bulletsTitle": "Výhody podnikatelského úvěru",
+                        "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                        "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                        "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                         "bullets": [
                             "Úrok už od {interestRate} ročně",
                             "Sjednání kompletně online",
                             "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
-                            "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                            "Pohodové splácení s pojištěním schopnosti splácet"
                         ],
                         "primaryButton": {
                             "actionType": "APP_PAGE",
@@ -484,11 +481,10 @@
                 }
             },
             "invalidIncomeCombination": {
-                "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-                "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Navštivte nás\nna pobočce",
-                "primaryButton": "Zpět",
+                "icon": "warning",
+                "title": "Uvedené příjmy nestačí ke schválení úvěru",
+                "detail": "Abyste mohli pokračovat, přidejte alespoň jeden z následujících příjmů:\n\u2022 příjem ze závislé činnosti na dobu určitou nebo neurčitou\n\u2022 starobní nebo invalidní důchod\n\u2022 rentu\n\u2022 příjem z podnikání",
+                "primaryButton": "Rozumím",
                 "secondaryButton": "Dokončit později",
                 "tertiaryButton": "Ukončit žádost"
             }
@@ -498,7 +494,7 @@
             "employedTitle": "Employment",
             "indefinitePeriodTitle": "indefinitely",
             "trialPeriodTitle": "in trial period",
-            "noticePeriodTitle": "in notice period",
+            "noticePeriodTitle": "and on a notice period/agreement on termination",
             "employedInfo": "Select 1-4 answers",
             "fixPeriodTitle": "for a definite period",
             "fixPeriodDateTitle": "to",
@@ -592,6 +588,10 @@
                 {
                     "image": "tickFill",
                     "title": "Children’s education (nurseries, kindergartens, schools, lunches, after-school programs, extracurricular activities)"
+                },
+                {
+                    "image": "tickFill",
+                    "title": "Wage garnishment"
                 },
                 {
                     "image": "tickFill",
@@ -773,6 +773,11 @@
                 "15": {
                     "icon": "documentsFill",
                     "title": "Daňové přiznání",
+                    "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
+                },
+                "173": {
+                    "icon": "documentsFill",
+                    "title": "Daňové přiznání Pošta",
                     "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                 },
                 "112": {

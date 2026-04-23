@@ -103,8 +103,7 @@
                     "<b>Splácí se automaticky příchozími platbami</b> - a pokud potřebujete, hned zase můžete využít.",
                     "<b>Úrok platíte jen za dny, kdy kontokorent čerpáte.</b>",
                     "<b>Stačí, když Vám na účet měsíčně dorazí alespoň {{minCreditMonthlyAmount}} CZK</b> - do této částky se nezapočítávají převody z jakéhokoliv Vašeho účtu vedeného u nás, včetně spořicího účtu nebo podnikatelských účtů, převody z vnitřních účtů a příjem z kreditních úroků z prostředků na Vašich účtech.",
-                    "<b>Zřízení, vedení i zrušení zdarma</b> - sami se můžete rozhodnout, kdy kontokorent přestanete využívat, nebo jej zcela zrušíte.",
-                    "<b>Abychom Vám pomohli ochránit se před nepovoleným přečerpáním</b>, budeme posledních 500 CZK Vašeho kontokorentu držet jako rezervu."
+                    "<b>Zřízení, vedení i zrušení zdarma</b> - sami se můžete rozhodnout, kdy kontokorent přestanete využívat, nebo jej zcela zrušíte."
                 ],
                 "detail": "Všechny informace o kontokorentu Flexikredit <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">najdete na našem webu</a>.",
                 "summaryHeadline": "Vše o Vašem kontokorentu:",
@@ -139,8 +138,7 @@
                     "<b>Splácí se automaticky příchozími platbami</b> - a pokud potřebujete, hned zase můžete využít.",
                     "<b>Úrok platíte jen za dny, kdy kontokorent čerpáte.</b>",
                     "<b>Stačí, když Vám na účet měsíčně dorazí alespoň {{minCreditMonthlyAmount}} CZK</b> - do této částky se nezapočítávají převody z jakéhokoliv Vašeho účtu vedeného u nás, včetně spořicího účtu nebo podnikatelských účtů, převody z vnitřních účtů a příjem z kreditních úroků z prostředků na Vašich účtech.",
-                    "<b>Zřízení, vedení i zrušení zdarma</b> - sami se můžete rozhodnout, kdy kontokorent přestanete využívat, nebo jej zcela zrušíte.",
-                    "<b>Abychom Vám pomohli ochránit se před nepovoleným přečerpáním</b>, budeme posledních 500 CZK Vašeho kontokorentu držet jako rezervu."
+                    "<b>Zřízení, vedení i zrušení zdarma</b> - sami se můžete rozhodnout, kdy kontokorent přestanete využívat, nebo jej zcela zrušíte."
                 ],
                 "detail": "Všechny informace o kontokorentu Flexikredit najdete <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">na našem webu</a>.",
                 "secondaryButton": "Potřebuji více než 30 000 CZK",
@@ -156,8 +154,7 @@
                 "tip-missing": "<b>Tip:</b> Nevíte, jakou výši kontokorentu zvolit? Naši klienti volí průměrně 15 000 CZK.",
                 "bullets": [
                     "<b>Kontokorent navýšíte online a po sjednání bude za chvíli aktivní – </b>navštívíte nás, jen když to bude nutné.",
-                    "<b>Splácet budete jak jste zvyklí – </b>automaticky příchozími platbami. Stačit bude, když Vám na účet měsíčne dorazí aspoň {{minCreditMonthlyAmount}} CZK, do této částky se nezapočítavají převody z jakéhokoli Vašeho účtu vedeného u nás, včetně spořicího a pondikatelského, převody z vnitřních účtů a příjem z úroků z prostředků na Vašich účtech.",
-                    "<b>Abychom Vám pomohli ochránit se před nepovoleným přečerpáním, </b>budeme posledních 500 CZK držet jako rezervu."
+                    "<b>Splácet budete jak jste zvyklí – </b>automaticky příchozími platbami. Stačit bude, když Vám na účet měsíčne dorazí aspoň {{minCreditMonthlyAmount}} CZK, do této částky se nezapočítavají převody z jakéhokoli Vašeho účtu vedeného u nás, včetně spořicího a pondikatelského, převody z vnitřních účtů a příjem z úroků z prostředků na Vašich účtech."
                 ],
                 "detail": "Informace najdete také <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">na webu</a>.",
                 "secondaryButton-missing": "Potřebuji více než 30 000 CZK",
@@ -230,7 +227,7 @@
                         "title": "Opravdu chcete odstranit tento příjem?"
                     },
                     "trialPeriod": "ve zkušební lhůtě",
-                    "onNoticePeriod": "ve výpovědní lhůtě",
+                    "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                     "employmentForPeriod": "na dobu určitou do {0}",
                     "indefinitePeriod": "na dobu neurčitou",
                     "primaryButton": "Pokračovat"
@@ -241,7 +238,7 @@
                     "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
                     "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                     "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                     "fixPeriodTitle": "a zároveň na dobu určitou",
                     "fixPeriodDateTitle": "do",
                     "fixPeriodDateHint": "Vyberte datum",
@@ -251,16 +248,16 @@
                     "offers": {
                         "TO_SME": {
                             "icon": "business",
-                            "title": "Hledáte úvěr pro podnikání?",
-                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                            "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
                                 "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
-                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                                "Pohodové splácení s pojištěním schopnosti splácet"
                             ],
                             "primaryButton": {
                                 "actionType": "APP_PAGE",
@@ -479,11 +476,10 @@
                     }
                 },
                 "invalidIncomeCombination": {
-                    "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-                    "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-                    "callUs": "Zavolejte nám\nna infolinku",
-                    "branch": "Navštivte nás\nna pobočce",
-                    "primaryButton": "Zpět",
+                    "icon": "warning",
+                    "title": "Uvedené příjmy nestačí ke schválení úvěru",
+                    "detail": "Abyste mohli pokračovat, přidejte alespoň jeden z následujících příjmů:\n\u2022 příjem ze závislé činnosti na dobu určitou nebo neurčitou\n\u2022 starobní nebo invalidní důchod\n\u2022 rentu\n\u2022 příjem z podnikání",
+                    "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
                 }
@@ -493,7 +489,7 @@
                 "employedTitle": "Jsem zaměstnaný/á",
                 "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                 "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                 "employedInfo": "Můžete vybrat 1-3 odpovědi:",
                 "fixPeriodTitle": "a zároveň na dobu určitou",
                 "fixPeriodDateTitle": "do",
@@ -801,6 +797,11 @@
                         "title": "Daňové přiznání",
                         "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                     },
+                    "173": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání Pošta",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
+                    },
                     "112": {
                         "icon": "documentsFill",
                         "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů"
@@ -808,6 +809,10 @@
                     "113": {
                         "icon": "documentsFill",
                         "title": "Důchodový výměr"
+                    },
+                    "173": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání z Počty"
                     },
                     "141": {
                         "icon": "idCardFill",
