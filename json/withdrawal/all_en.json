@@ -114,6 +114,10 @@
                 "FLEXIKREDIT": {
                     "items": [
                         {
+                            "label": "Overdraft used",
+                            "value": "{overdraft}"
+                        },
+                        {
                             "label": "Overdraft limit",
                             "value": "{overdraftLimit}"
                         },
@@ -122,7 +126,7 @@
                             "value": "{amountUsed}"
                         },
                         {
-                            "label": "Outstanding contractual interest",
+                            "label": "Outstanding interest",
                             "value": "{outstandingInterest}",
                             "description": "As of today"
                         }
