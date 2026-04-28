@@ -101,10 +101,22 @@
             "title": "Připravte si původní zařízení a pokračujte dle instrukcí",
             "stepsTitle": "Jak na to?",
             "steps": [
-                "Přejděte na původní zařízení se Smart Bankou a přihlaste se",
-                "Otevřete menu Více --> Nastavení a profil --> Připojení nového zařízení",
-                "Nechte otevřenou obrazovku s {ts1}**QR kódem se symbolem „propojení“**{/ts1}",
-                "Na tomto zařízení klikněte na tlačítko níže a namiřte fotoaparátem {ts2}**na QR kód** {/ts2}"
+                {
+                    "id": 1,
+                    "label": "Přejděte na původní zařízení se Smart Bankou a přihlaste se"
+                },
+                {
+                    "id": 2,
+                    "label": "Otevřete menu Více --> Nastavení a profil --> Připojení nového zařízení"
+                },
+                {
+                    "id": 3,
+                    "label": "Nechte otevřenou obrazovku s {ts1}**QR kódem se symbolem „propojení“**{/ts1}"
+                },
+                {
+                    "id": 4,
+                    "label": "Na tomto zařízení klikněte na tlačítko níže a namiřte fotoaparátem {ts2}**na QR kód** {/ts2}"
+                }
             ],
             "scanButton": "Načíst QR kód se symbolem „propojení“"
         },
@@ -152,7 +164,7 @@
                 },
                 {
                     "id": 4,
-                    "label": "Potvrďte přihlášení pomocí <b>kódu SMS</b>" 
+                    "label": "Potvrďte přihlášení pomocí <b>kódu SMS</b>"
                 }
             ],
             "qrScanSteps": [
