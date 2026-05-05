@@ -226,7 +226,7 @@
                     "interests": "Transfer interest to my current account"
                 },
                 "depositInterestSection": {
-                    "titleHeader": "On the renewal date, transfer the interest to account number",
+                    "titleHeader": "Interest as of the renewal date",
                     "textAdd": "Add to the deposit",
                     "textSend": "Transfer to the account from which the deposit was made"
                 },
@@ -339,6 +339,18 @@
                 "primaryButton": "Done"
             },
             "nib": {
+                "form": {
+                    "title": "Open a term deposit online with no paperwork",
+                    "accountAlert": "The deposit currency is based on the account you choose.",
+                    "fromAccount": "From account",
+                    "moreThanOrEqualTo": "The amount must be at least {limit} {currency}.",
+                    "creditAccount": "Transfer the deposit to account at maturity",
+                    "interestCredit": {
+                        "termDeposit": "Add to deposit",
+                        "account": "Transfer to account",
+                        "label": "Interest at maturity"
+                    }
+                },
                 "infoSection": {
                     "bullets": [
                         {
