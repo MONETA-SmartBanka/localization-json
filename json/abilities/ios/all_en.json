@@ -497,20 +497,13 @@
         {
             "id": "Ucet_1_ENG",
             "title": "Copy your account number",
-            "detail": "In Smart Banka, tap the <b>three dots next to the name of the account</b>, and then tap the <b>‘copy’ icon</b>. You can then paste it wherever you need.",
-            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_1_ENG.png",
+            "detail": "In Smart Banka, tap <b>the three dots next to the name of the account</b>, and then tap the <b>‘copy’ icon</b>. You can then paste it wherever you need.",
+            "imageURL": "/cbl_images/popup-news/v92/kopirovani_cisla_uctu_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_1.png",
-            "newsDate": "2024-03-18",
             "avatarTitle": "Copy account number",
             "abilityCategory": "payments",
             "abilityTitle": "Copy account number",
-            "abilitySortOrder": 1100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Try it out"
-            }
+            "abilitySortOrder": 1100
         },
         {
             "id": "Ucet_2_ENG",
@@ -533,20 +526,13 @@
         {
             "id": "Ucet_3_ENG",
             "title": "Rename your account",
-            "detail": "1. Tap the three dots next to the name of the account to view the details.<br/>2. Tap the the arrow icon next to the balance and a little pencil will pop up.<br/>3. Tap the icon and change the name to whatever you like.",
-            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_3_ENG.png",
+            "detail": "1. Tap the three dots next to the name of the account to view the details.<br/>2. Tap the arrow icon next to the balance and a little pencil will pop up.<br/>3. Tap the pencil icon and change the name to whatever you like.",
+            "imageURL": "/cbl_images/popup-news/v92/prejmenovani_uctu_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_3.png",
-            "newsDate": "2024-03-18",
             "avatarTitle": "Rename your account",
             "abilityCategory": "appearance",
             "abilityTitle": "Rename your account",
-            "abilitySortOrder": 1300,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Try it out"
-            }
+            "abilitySortOrder": 1300
         },
         {
             "id": "Ucet_4_ENG",
@@ -1131,6 +1117,17 @@
             "abilityCategory": "appearance",
             "abilityTitle": "Interest rates on your savings account",
             "abilitySortOrder": 8100
+        },
+        {
+            "id": "Kontokorent_EN",
+            "title": "The overdraft is now clearer",
+            "detail": "Based on your feedback, we have adjusted how your account balance is displayed in the current account. At first glance, you can now clearly see how much of your own money you have and when you are using the overdraft, as these amounts are shown separately.",
+            "imageURL": "/cbl_images/popup-news/v92/prehlednejsi_kontokorent_CZ.png",
+            "minAppVersion": "92.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Overdraft view",
+            "abilitySortOrder": 8200
         }
     ]
 }
