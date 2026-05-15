@@ -496,19 +496,12 @@
             "id": "Ucet_1_CZ",
             "title": "Kopírování čísla účtu",
             "detail": "Klikněte ve Smart Bance na <b>tři tečky vedle názvu účtu</b> a v detailu pak na <b>ikonku kopírovat</b>. Kliknutím ho pak můžete vložit kam potřebujete.",
-            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_1_CZ.png",
+            "imageURL": "/cbl_images/popup-news/v92/kopirovani_cisla_uctu_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_1.png",
-            "newsDate": "2024-03-18",
             "avatarTitle": "Kopírování čísla účtu",
             "abilityCategory": "payments",
             "abilityTitle": "Kopírování čísla účtu",
-            "abilitySortOrder": 1100,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
-            }
+            "abilitySortOrder": 1100
         },
         {
             "id": "Ucet_2_CZ",
@@ -531,20 +524,13 @@
         {
             "id": "Ucet_3_CZ",
             "title": "Přejmenování účtu",
-            "detail": "1. Klikněte na tři tečky vedle názvu účtu<br/>2. Šipkou nahoru zvětšete nabídku<br/>3. Klikněte na ikonu tužky vedle názvu účtu a přejmenujte si účet podle sebe.",
-            "imageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_Image_3_CZ.png",
+            "detail": "1. Klikněte na tři tečky vedle názvu účtu<br/>2. Šipkou nahoru zvětšete nabídku<br/>3. Klikněte na ikonu tužky vedle názvu účtu a přejmenujte si účet podle sebe.",
+            "imageURL": "/cbl_images/popup-news/v92/prejmenovani_uctu_CZ.png",
             "shouldCheckEligibility": false,
-            "newsImageURL": "/cbl_images/abilities/ios/6_Ucty_a_pujcky/Ucet_NewsImage_3.png",
-            "newsDate": "2024-03-18",
             "avatarTitle": "Přejmenování účtu",
             "abilityCategory": "appearance",
             "abilityTitle": "Přejmenování účtu",
-            "abilitySortOrder": 1300,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
-            }
+            "abilitySortOrder": 1300
         },
         {
             "id": "Ucet_4_CZ",
@@ -1129,6 +1115,17 @@
             "abilityCategory": "appearance",
             "abilityTitle": "Pásmové úročení – spořicí účty",
             "abilitySortOrder": 8100
+        },
+        {
+            "id": "Kontokorent_CZ",
+            "title": "Kontokorent je teď přehlednější",
+            "detail": "Na základě Vaší zpětné vazby jsme upravili zobrazení zůstatku na účtu a kontokorentu. Teď na první pohled uvidíte, kolik máte vlastních peněz a kdy už čerpáte kontokorent, protože je nově zobrazujeme odděleně.",
+            "imageURL": "/cbl_images/popup-news/v92/prehlednejsi_kontokorent_CZ.png",
+            "minAppVersion": "92.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "appearance",
+            "abilityTitle": "Zobrazení kontokorentu",
+            "abilitySortOrder": 8200
         }
     ]
 }
