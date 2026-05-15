@@ -52,7 +52,7 @@
                 }
             },
             "term": {
-                "title": "Which type of insurance fits your travel plans?",
+                "title": "How long would you like to be covered?",
                 "short": "Short-term",
                 "long": "Long-term",
                 "footer": "Long-term insurance is arranged for an indefinite period and is valid from midnight of the day following the date of the agreement",
@@ -67,7 +67,46 @@
                 "end": "End date"
             },
             "choose": "Select",
-            "primaryButton": "Continue"
+            "primaryButton": "Continue",
+            "helpButton": "Help",
+            "shortTerm": {
+                "title": "Short-term",
+                "description": "Up to 30 days.",
+                "priceLabel": "from {0} daily",
+                "benefits": [
+                    "For travel across Europe or around the world",
+                    "Medical expenses up to CZK 15 million",
+                    "Liability insurance up to CZK 5 million"
+                ],
+                "coverageLinkTitle": "Complete list of all coverages"
+            },
+            "longTerm": {
+                "title": "Long-term",
+                "description": "For an indefinite period. One trip up to 120 days.",
+                "priceLabel": "from {0} monthly",
+                "benefits": [
+                    {
+                        "text": "For travel around the world",
+                        "moreInfoText": "Also covers trip cancellation within the Czech Republic. <a href=\"around_the_world_info\">More information</a>",
+                        "moreInfoLink": "More information"
+                    },
+                    {
+                        "text": "Medical expenses up to CZK 25 million"
+                    },
+                    {
+                        "text": "Liability insurance up to CZK 5 million"
+                    }
+                ],
+                "coverageLinkTitle": "Complete list of all coverages"
+            },
+            "moreInfo": {
+                "title": "For travel around the world, including trip cancellation within the Czech Republic",
+                "detail": "Travel insurance is valid worldwide, except for the territories of the Russian Federation, Iran, North Korea, Syria, Venezuela, Belarus, Myanmar, Crimea, Afghanistan, Sevastopol, and the Donetsk, Kherson, Luhansk, and Zaporizhzhia regions.\n\nWe always recommend checking before planning a trip abroad whether the Ministry of Foreign Affairs has issued a travel warning, a recommendation not to travel, or a recommendation to travel only when necessary. In such cases, the insurance may not help you, as an exclusion may apply.\n\nTrip cancellation insurance within the Czech Republic\nIn the case of early return, unused services, and missed transportation, the insurance also applies within the Czech Republic for trips longer than 2 nights."
+            },
+            "helpSheet": {
+                "title": "More about insurance",
+                "detail": "Short-term coverage can be arranged within an hour of completing the insurance agreement in Smart Banka for your desired length of stay.\nCoverage list for short-term insurance\n\nIf you travel abroad regularly, a Long-term travel insurance with a low monthly payment might be more beneficial for you.\nCoverage list for long-term insurance"
+            }
         },
         "agreement": {
             "title": "Travel insurance summary",
