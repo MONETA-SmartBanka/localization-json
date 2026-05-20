@@ -287,44 +287,49 @@
             }
         },
         "victory": {
-            "title": "Nastavujeme váš prémiový Gold balíček. Bude aktivní nejpozději do zítřka.",
-            "detail": null,
+            "title": "Připravujeme vám prémiový balíček Gold. Nejpozději zítra bude aktivní",
             "primaryButton": "Pokračovat",
             "listItems": [
                 {
-                    "title": "Spořicí účet Gold",
-                    "description": "Výhoda zdarma k vašemu balíčku"
+                    "title": "V rámci balíčku vám aktivujeme i Gold spořicí účet.",
+                    "icon": "savingsFill"
                 },
                 {
-                    "title": "Příchod karty",
-                    "description": "Do několika dnů obdržíte Gold kartu"
+                    "title": "Karta dorazí nejpozději do 14 dní.",
+                    "icon": "emailFill"
                 },
                 {
-                    "title": "Měsíční poplatek",
-                    "description": "První poplatek vám strhujeme na začátku příštího měsíce"
+                    "title": "Pokud se vás týká poplatek za účet, strhneme ho automaticky začátkem příštího měsíce.",
+                    "icon": "moneyBillFastFill"
                 }
             ]
         },
-        "finalSteps": {
-            "title": "První kroky s vaším Gold účtem",
-            "primaryButton": "Přejít na přehled",
-            "cards": [
-                {
-                    "title": "Priority Pass",
-                    "description": "Získejte kartu Priority Pass",
-                    "url": null
-                },
-                {
-                    "title": "Cestovní pojištění",
-                    "description": "Informace o cestovním pojištění",
-                    "url": null
-                },
-                {
-                    "title": "Spořicí účet Gold",
-                    "description": "Nastavte si spořicí účet",
-                    "url": null
-                }
-            ]
+        "firstSteps": {
+            "title": "První kroky s Gold účtem",
+            "priorityPass": {
+                "title": "Stáhněte si aplikaci Priority Pass",
+                "description": "Díky ní získáte bezplatný vstup do letištních salonků po celém světě.",
+                "url": ""
+            },
+            "insurance": {
+                "title": "Vaše pojištění ke Gold kartě jsou aktivní",
+                "listItems": [
+                    {
+                        "icon": "vacationFill",
+                        "title": "Cestovní pojištění Komfort"
+                    },
+                    {
+                        "icon": "electronicsFill",
+                        "title": "Pojištění cenností, karet, elektroniky a telefonu"
+                    }
+                ]
+            },
+            "infoItem": {
+                "icon": "savingsFill",
+                "title": "Podržte prst na zůstatku u účtu a přesuňte si ho na tento pomocí funkce drag & drop."
+            },
+            "primaryButton": "Na přehled"
         }
+
     }
 }
