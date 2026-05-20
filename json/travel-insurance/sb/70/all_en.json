@@ -3,7 +3,174 @@
         "toolbarTitle": "Travel Insurance",
         "phoneNumber": "+420 224 443 636",
         "phoneNumberAssist": "+420 234 240 244",
-        "shortTermOverlapError": "You already have valid travel insurance for the selected period. Please select another period."
+        "shortTermOverlapError": "You already have valid travel insurance for the selected period. Please select another period.",
+        "limits": {
+            "shortTerm": [
+                {
+                    "param": "Medical expense and assistance services insurance",
+                    "valueEurope": "10 000 000 CZK",
+                    "valueWorld": "15 000 000 CZK"
+                },
+                {
+                    "param": "Emergency dental treatment",
+                    "valueEurope": "25 000 CZK",
+                    "valueWorld": "25 000 CZK"
+                },
+                {
+                    "param": "Companion insurance",
+                    "valueEurope": "50 000 CZK",
+                    "valueWorld": "100 000 CZK ",
+                    "subvalueEurope": "(3 000 CZK/day)",
+                    "subvalueWorld": "(6 000 CZK/day)"
+                },
+                {
+                    "param": "Legal asistence and bail in case of a car accident",
+                    "valueEurope": "100 000 CZK",
+                    "valueWorld": "100 000 CZK"
+                },
+                {
+                    "param": "Personal liability insurance",
+                    "valueEurope": "5 000 000 CZK",
+                    "valueWorld": "5 000 000 CZK"
+                },
+                {
+                    "param": "Trip cancellation insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Unused services insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Early return insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Missed departure insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Baggage delay insurance (minimum of 5 hours)**",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Baggage and personal items insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Flight delay or cancellation insurance",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Accidental death insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Permanent disability insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Rental car deductible insurance",
+                    "valueEurope": "20 000 CZK",
+                    "valueWorld": "20 000 CZK"
+                },
+                {
+                    "param": "Express document issuance insurance",
+                    "valueEurope": "10 000 CZK",
+                    "valueWorld": "10 000 CZK"
+                },
+                {
+                    "param": " Telehealth / virtual doctor's office",
+                    "valueEurope": "Yes",
+                    "valueWorld": "Yes"
+                }
+            ],
+            "longTerm": [
+                {
+                    "title": "Medical expense and assistance services insurance",
+                    "value": "CZK 25,000,000",
+                    "description": "Dental treatment sublimit",
+                    "subvalue": "CZK 25,000"
+                },
+                {
+                    "title": "Accompaniment insurance",
+                    "value": "CZK 100,000",
+                    "subvalue": "CZK 6,000/day"
+                },
+                {
+                    "title": "Legal assistance and bail insurance for traffic accidents",
+                    "value": "CZK 100,000"
+                },
+                {
+                    "title": "Liability for personal injury",
+                    "value": "CZK 5,000,000"
+                },
+                {
+                    "title": "Liability for property damage",
+                    "value": "CZK 5,000,000"
+                },
+                {
+                    "title": "Trip cancellation insurance",
+                    "value": "CZK 50,000",
+                    "description": "15% co-payment. Not applicable in case of hospitalisation or death. Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Flight delay or cancellation insurance",
+                    "value": "CZK 10,000",
+                    "description": "For delays of more than 3 hours",
+                    "subvalue": "Family together max. CZK 20,000"
+                },
+                {
+                    "title": "Baggage delay insurance",
+                    "value": "CZK 10,000",
+                    "description": "For delays of more than 3 hours"
+                },
+                {
+                    "title": "Baggage and personal effects insurance",
+                    "value": "CZK 50,000"
+                },
+                {
+                    "title": "Accidental death insurance",
+                    "value": "CZK 1,500,000"
+                },
+                {
+                    "title": "Permanent consequences of accident insurance",
+                    "value": "CZK 1,500,000"
+                },
+                {
+                    "title": "Rental vehicle excess insurance",
+                    "value": "CZK 20,000"
+                },
+                {
+                    "title": "Express document reissue insurance",
+                    "value": "CZK 10,000"
+                },
+                {
+                    "title": "Unused services insurance",
+                    "value": "CZK 50,000",
+                    "description": "15% co-payment. Not applicable in case of hospitalisation or repatriation. Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Early return insurance",
+                    "value": "CZK 50,000",
+                    "description": "Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Missed departure insurance",
+                    "value": "CZK 50,000",
+                    "description": "Valid in the Czech Republic too"
+                }
+            ]
+        }
     },
     "scenes": {
         "help": {
