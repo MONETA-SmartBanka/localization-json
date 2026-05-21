@@ -1,10 +1,32 @@
 {
     "scenes": {
         "benefits": {
-            "title": "Prémiové služby pro vás a vaši rodinu",
+            "title": "Prémiové služby pro Vás a vaši rodinu",
             "description": "Aktivujte si balíček Gold a užívejte si to nejlepší.",
             "mainButton": "Pokračovat",
             "benefits": [
+                {
+                    "id": "bestExchangeRates",
+                    "title": "Karta a směnárna s nejlepšími kurzy na trhu",
+                    "icon": "arrowRightArrowLeftFill",
+                    "detail": {
+                        "title": "Karta a Směnárna s nejlepšími kurzy na trhu",
+                        "moreInfoButton": {
+                            "title": "Více informací",
+                            "url": "https://www.moneta.cz/ucty-a-karty/ucet-gold"
+                        },
+                        "features": [
+                            {
+                                "title": "Předem známý kurz",
+                                "description": "V online Směnárně se předem dozvíte nezávaznou nabídku kurzu eur a dolarů, které můžete následně okamžitě směnit."
+                            },
+                            {
+                                "title": "Směnárna 24/7",
+                                "description": "Směnu můžete provést odkudkoliv a zdarma."
+                            }
+                        ]
+                    }
+                },
                 {
                     "id": "airportLounges",
                     "title": "Letištní salonky po celém světě",
@@ -102,28 +124,6 @@
                     }
                 },
                 {
-                    "id": "bestExchangeRates",
-                    "title": "Karta a směnárna s nejlepšími kurzy na trhu",
-                    "icon": "arrowRightArrowLeftFill",
-                    "detail": {
-                        "title": "Karta a Směnárna s nejlepšími kurzy na trhu",
-                        "moreInfoButton": {
-                            "title": "Více informací",
-                            "url": "https://www.moneta.cz/ucty-a-karty/ucet-gold"
-                        },
-                        "features": [
-                            {
-                                "title": "Předem známý kurz",
-                                "description": "V online Směnárně se předem dozvíte nezávaznou nabídku kurzu eur a dolarů, které můžete následně okamžitě směnit."
-                            },
-                            {
-                                "title": "Směnárna 24/7",
-                                "description": "Směnu můžete provést odkudkoliv a zdarma."
-                            }
-                        ]
-                    }
-                },
-                {
                     "id": "exclusiveOffersAndServices",
                     "title": "Exkluzivní slevy, nabídky a služby",
                     "icon": "giftFill",
@@ -146,7 +146,7 @@
         "fees": {
             "title": "Nadstandardní servis bez poplatku? I to je možné",
             "terms": "Podmínky pro sjednání jsou platné pro daný měsíc. Pokud se vaše situace změní, bude v dalších měsících platný jiný poplatkový plán dle <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">podmínek pro vedení Gold účtu.</a>",
-            "mainButton": "Aktivovat účet Gold",
+            "mainButton": "Pokračovat",
             "orText": "nebo",
             "info": [
                 {
@@ -331,6 +331,15 @@
             },
             "primaryButton": "Na přehled"
         }
-
+    },
+    "errorScreens": {
+        "contractDisagree": {
+            "title": "Žádost je zrušena",
+            "detail": "Vaši žádost o balíček Gold jsme zrušili.",
+            "callUs": "Zavolejte nám",
+            "branch": "Navštivte pobočku",
+            "primaryButton": "Zpět na přehled",
+            "secondaryButton": "Zrušit žádost"
+        }
     }
 }
