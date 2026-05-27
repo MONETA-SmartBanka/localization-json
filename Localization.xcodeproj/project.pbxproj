@@ -9,6 +9,8 @@
 /* Begin PBXFileReference section */
 		562A1D772F3B94E000D514A6 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 		562A1D782F3B953600D514A6 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
+		5669F5CB2FC6FABD0027B118 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
+		5669F5CC2FC6FABD0027B118 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F2C79A42E24EF590094ADE7 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
 		8F2C79A52E24EF610094ADE7 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
 		8F5436ED2E40DB7F00E273D8 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
@@ -196,6 +198,15 @@
 				562A1D772F3B94E000D514A6 /* all_cs.json */,
 			);
 			path = "card-on-file";
+			sourceTree = "<group>";
+		};
+		5669F5CD2FC6FABD0027B118 /* v2 */ = {
+			isa = PBXGroup;
+			children = (
+				5669F5CB2FC6FABD0027B118 /* all_cs.json */,
+				5669F5CC2FC6FABD0027B118 /* all_en.json */,
+			);
+			path = v2;
 			sourceTree = "<group>";
 		};
 		8F2C79A32E24EF4A0094ADE7 /* visa-alias */ = {
@@ -516,6 +527,7 @@
 		8F553DD72DCB8C24002E735E /* express */ = {
 			isa = PBXGroup;
 			children = (
+				5669F5CD2FC6FABD0027B118 /* v2 */,
 				8F553DD52DCB8C24002E735E /* all_cs.json */,
 				8F553DD62DCB8C24002E735E /* all_en.json */,
 			);
