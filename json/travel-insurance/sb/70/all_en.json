@@ -202,11 +202,11 @@
             "party": {
                 "title": "Who will be traveling?",
                 "alone": "Individual",
-                "aloneDescription": "Majitel tohoto účtu",
+                "aloneDescription": "The account holder.",
                 "family": "Family",
-                "familyDescription": "Majitel tohoto účtu, jeho partner a děti do 18 let. I když cestují sami.",
+                "familyDescription": "The account holder, their partner and children under 18, even when they travel without you.",
                 "price": "from {0}",
-                "perMonth": "měsičně",
+                "perMonth": "month",
                 "help": {
                     "title": "Who will be traveling?",
                     "detail": "Travel insurance can be arranged for you and the whole family.\n\nFamily package covers:\n\n1.Your spouse, registered partner, or domestic partner living with you in the same household, as long as they have permanent residence in the same country as you and do not have permanent residence at the travel destination.\\n\\n2.All your children, including those from previous relationships, up to 18 years old (there is no limit on the number of children)..\\n\\n Each insured person has individual coverage limits within the \"Me and My Family\" package, and your family members are covered only when they travel with you."
@@ -216,11 +216,15 @@
             "where": {
                 "title": "Where are you traveling to?",
                 "europe": "Europe",
-                "world": "The world",
-                "footer": "Varianta Evropa se vztahuje na celé území... <a href=\"destination_help\">zobrazit více</a>",
+                "world": "Worldwide",
+                "footer": "The Europe option covers the whole territory… <a href=\"destination_help\">show more.</a>",
                 "help": {
                     "title": "Europe or the world?",
                     "detail": "<b>Short-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands and the territory</b>:\n・Armenia\n・Azerbaijan\n・Egypt\n・Kazakhstan\n・Cyprus\n・Morocco\n・Georgia\n・Tunisia\n・Turkey\nThe insurance is not valid in the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions. \n\nThe <b>World variant is valid worldwide</b> outside the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions, Iran, North Korea, Syria, Cuba, Venezuela, Myanmar, Crimea and Afghanistan.\n\n<b>Long-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands</b>, the European part of Russia ( delimited by the Ural mountain range) and further to the territory of Egypt, Morocco, Tunisia and Turkey.\n\nThe territorial validity is not limited in the <b>World</b> variant."
+                },
+                "shortTermHelp": {
+                    "title": "Europe or worldwide?",
+                    "detail": "The <b>Europe</b> option covers <b>all of continental Europe, including nearby islands and the following territories:</b>\n・Armenia\n・Azerbaijan\n・Egypt\n・Kazakhstan\n・Cyprus\n・Morocco\n・Georgia\n・Tunisia\n・Turkey\nCover does not apply in Russia, Belarus, Sevastopol, or the Donetsk, Kherson, Luhansk and Zaporizhzhia regions.\n\nThe <b>Worldwide</b> option covers the rest of the world, except Russia, Belarus, Sevastopol, the Donetsk, Kherson, Luhansk and Zaporizhzhia regions, Iran, North Korea, Syria, Cuba, Venezuela, Myanmar, Crimea and Afghanistan."
                 }
             },
             "term": {
@@ -247,38 +251,38 @@
             "helpButton": "Help",
             "helpSheet": {
                 "shortTerm": {
-                    "title": "S kým budete cestovat?",
-                    "detail": "Cestovní pojištění můžete uzavřít pro vás, nebo celou rodinu.\n\nS balíčkem Já s rodinou jsou pojištěni:\n\n1. Váš manžel*ka, registrovaný a partner*ka, druh nebo družka žijící s vámi ve společné domácnosti, pokud mají trvalý pobyt na území stejného státu jako vy a nemají trvalý pobyt v místě cesty.\n2. Všechny vaše společné děti a děti z předchozích vztahů do 18 let (počet dětí není omezen).\n\nLimity v rámci balíčků Já s rodinou jsou individuální pro každého pojištěného a vaši rodinní příslušníci jsou pojištěni pouze cestují s vámi."
+                    "title": "Who will you travel with?",
+                    "detail": "You can take out travel insurance for yourself or your whole family.\n\nWith the I’m travelling with my family package, the following people are covered:\n1. Your spouse, registered partner, or another person living in the same household as you, provided they are permanently resident in the same country as you and not permanently resident at the travel destination.\n2. All your children together, including children from previous relationships, up to age 18. There is no limit on the number of children.\n\nLimits under the I’m travelling with my family package apply separately to each insured person, and your family members are covered only when travelling with you."
                 },
                 "longTerm": {
-                    "title": "Kdo bude cestovat?",
-                    "detail": "Cestovní pojištění můžete uzavřít pro sebe nebo celou rodinu. \n\nBalíček Já s rodinou kryje: Vás, Vašeho partnera (manžel/ka nebo registrovaný/á partner/ka, druh/družka žijící s Vámi ve společné domácnosti) a Vaše či partnerovy děti nebo vnoučata do 21 let, pokud mají bydliště ve stejném státě jako Vy.\n\n<a href=\"limits\">Limity</a> v rámci balíčků Já s rodinou jsou pro každého pojištěného zvlášť a členové Vaší rodiny jsou pojištěni i když cestují sami."
+                    "title": "Who will be travelling?",
+                    "detail": "You can take out travel insurance for yourself or your whole family.\n\nThe Me and my family package covers you, your partner and your children up to age 21.\n\nThe <a href=\"limits\">limits</a> apply separately to each insured person, and family members are covered even when travelling on their own."
                 }
             }
         },
         "term": {
-            "title": "How long would you like to be covered?",
+            "title": "How long do you want to be insured for?",
             "primaryButton": "Continue",
             "helpButton": "Help",
             "shortTerm": {
                 "title": "Short-term",
                 "description": "Up to 30 days.",
-                "priceLabel": "from {0} daily",
+                "priceLabel": "from {0}\nday",
                 "benefits": [
-                    "For travel across Europe or around the world",
+                    "For trips in Europe or worldwide",
                     "Medical expenses up to CZK 15 million",
-                    "Liability insurance up to CZK 5 million"
+                    "Liability cover up to CZK 5 million"
                 ],
-                "coverageLinkTitle": "Complete list of all coverages"
+                "coverageLinkTitle": "Full list of cover"
             },
             "longTerm": {
                 "title": "Long-term",
-                "description": "For an indefinite period. One trip up to 120 days.",
-                "priceLabel": "from {0} monthly",
+                "description": "Ongoing cover. Each trip up to 120 days.",
+                "priceLabel": "from {0}\nmonth",
                 "benefits": [
                     {
                         "text": "For travel around the world",
-                        "moreInfoText": "Also covers trip cancellation within the Czech Republic. <a href=\"around_the_world_info\">More information</a>",
+                        "moreInfoText": "Includes ski trips in the Czech Republic. <a href=\"around_the_world_info\">More info</a>",
                         "moreInfoLink": "More information"
                     },
                     {
@@ -288,7 +292,7 @@
                         "text": "Liability insurance up to CZK 5 million"
                     }
                 ],
-                "coverageLinkTitle": "Complete list of all coverages",
+                "coverageLinkTitle": "Full list of cover",
                 "aloneTitle": "Just me",
                 "aloneDescription": "Account holder",
                 "familyTitle": "Me with family",
@@ -306,15 +310,15 @@
         "agreement": {
             "title": "Travel insurance",
             "payment": "The insurance premiums will be paid from",
-            "account": "Účet pro platbu",
+            "account": "Account for payment",
             "summary": {
                 "title": "Insurance summary",
                 "type": "Insurance type",
                 "start": "Valid from",
-                "inAnHourFromSigning": "Za hodinu od sjednání",
-                "perMonth": "měsičně",
+                "inAnHourFromSigning": "One hour after purchase",
+                "perMonth": "month",
                 "end": "Valid until",
-                "longterm": "Indefinite",
+                "longterm": "No end date",
                 "price": "Insurance premium",
                 "month": "month",
                 "startDateFooter": "The exact start time of your insurance will be specified in the signed insurance document, available in the Documents section of both Smart Banka and Internet Banka.",
@@ -484,12 +488,12 @@
             "primaryButtonShortTerm": "Arrange for {0}"
         },
         "limits": {
-            "titleShortEurope": "Pojistné částky - krátkodobé cestovní pojištění Evropa",
-            "titleShortWorld": "Pojistné částky - krátkodobé cestovní pojištění Svět",
-            "titleLong": "Pojistné částky - dlouhodobé cestovní pojištění",
-            "subtitle": "Pokud není uvedeno jinak, platí pro každou osobu.",
-            "tabEurope": "Evropa",
-            "tabWorld": "Svět",
+            "titleShortEurope": "Cover amounts – short-term travel insurance Europe",
+            "titleShortWorld": "Cover amounts – short-term travel insurance Worldwide",
+            "titleLong": "Cover amounts – long-term travel insurance",
+            "subtitle": "Unless stated otherwise, amounts apply per person.",
+            "tabEurope": "Europe",
+            "tabWorld": "Worldwide",
             "backButton": "Back"
         },
         "needsAnalysis": {
