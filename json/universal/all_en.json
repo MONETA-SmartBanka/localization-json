@@ -1280,6 +1280,33 @@
                         "ibAnalyticsCode": "Retention Savings Banner JTV"
                     },
                     "secondaryButton": "Continue payment"
+                },
+                {
+                    "salesProdType": "6001333",
+                    "title": "Move your money to the BEST-VALUE building savings plan on the market",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "We’ll DOUBLE the CZK 1,000 annual state bonus for the first 6 years.",
+                            "icon": "starFill"
+                        },
+                        {
+                            "title": "Get a CZK 3,000 bonus when you deposit CZK 120,000 within 4 months of opening.",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "After 6 years, you can use your savings (including the state bonus) for anything.",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Best-value building savings plan",
+                        "actionData": "BUILDING_SAVINGS",
+                        "ibRoute": "TODO",
+                        "ibAnalyticsCode": "TODO"
+                    },
+                    "secondaryButton": "Continue payment"
                 }
             ],
             "retentionOffer": {
