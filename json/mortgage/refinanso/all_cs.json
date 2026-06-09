@@ -16,7 +16,7 @@
             "rpsn": "RPSN",
             "totalAmount": "Celkem zaplatíte",
             "totalAmountWithInsurance": "včetně pojištění",
-            "footer": "Výpočet je pouze orientační. Přesný výpočet a parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
+            "footer": "Sazba 3,99&nbsp;% ročně platí pro všechny žadatele o&nbsp;hypotéku s&nbsp;jednoletou nebo tříletou fixací úrokové sazby, s&nbsp;LTV do 80&nbsp;% a&nbsp;s&nbsp;výší úvěru nad 1&nbsp;milion korun. Na sjednání úvěru nevzniká právní nárok a&nbsp;nabídka není závazná.\nVýpočet je pouze orientační. Přesný výpočet a&nbsp;parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
             "primaryButton": "Refinancovat hypotéku",
             "recalculating": "Přepočítáváme...",
             "insurance": {
@@ -62,7 +62,8 @@
             "maturity": {
                 "title": "Jak dlouho chcete hypotéku splácet?",
                 "sliderTitle": "Chci splácet",
-                "primaryButton": "Potvrdit"
+                "primaryButton": "Potvrdit",
+                "youngClientMessage": "Klienti mladší 36 let mohou mít splatnost delší než 30 let, pokud jde maximálně o jejich druhou hypotéku a jsou (nebo se stanou) vlastníky financované nemovitosti."
             },
             "interestInfoSheet": {
                 "title": "Jak získám nejlepší úrok?",
@@ -70,27 +71,31 @@
             },
             "exampleInfo": {
                 "title": "Reprezentativní příklad",
-                "detail": "Výše úvěru 2 500 000 Kč, doba splatnosti 30 let, počet splátek 360, fixace 5 let.",
+                "detail": "Výše úvěru 2 500 000 Kč, doba splatnosti 30 let, počet splátek 360, fixace 3 roky.",
                 "content": [
                     {
                         "title": "S pojištěním schopnosti splácet u BNP Paribas Cardif Pojišťovny, a.s.:",
-                        "text": "・měsíční splátka úvěru: 12 138 Kč\n・měsíční platba za pojištění: 1 092 Kč\n・úroková sazba: 4,14 % ročně\n・RPSN: 5,00 % \n・celková splatná částka: 4 777 613 Kč"
+                        "text": "・měsíční splátka úvěru: 11 635 Kč\n・měsíční platba za pojištění: 1 046 Kč\n・úroková sazba: 3,79 % ročně\n・RPSN: 4,62 % \n・celková splatná částka: 4 580 309 Kč"
                     },
                     {
                         "title": "Bez pojištění schopnosti splácet:",
-                        "text": "・měsíční splátka úvěru: 12 431 Kč\n・úroková sazba: 4,34 % ročně\n・RPSN: 4,44 %\n・celková splatná částka: 4 489 491 Kč"
+                        "text": "・měsíční splátka úvěru: 11 921 Kč\n・úroková sazba: 3,99 % ročně\n・RPSN: 4,08 %\n・celková splatná částka: 4 306 514 Kč"
                     },
                     {
-                        "title": "Co v souvislosti s úvěrem neplatíte:",
+                        "title": "Co je v souvislosti s úvěrem zdarma:",
                         "text": "・zpracování úvěru\n・vedení úvěrového účtu\n・vedení běžného účtu"
                     },
                     {
-                        "title": "Co je naopak zpoplatněno:",
-                        "text": "・poplatek za posouzení vhodnosti zástavy 3 000 Kč\n・poplatek za podání návrhu na vklad zástavního práva 2 000 Kč za každý návrh\n・poplatek za podání návrhu na výmaz zástavního práva 1 600 Kč za každý návrh\n・poplatek za ověření podpisu na Zástavní smlouvě k nemovitým věcem 50 Kč"
+                        "title": "Co je zpoplatněno:",
+                        "text": "・poplatek za posouzení vhodnosti zástavy 3 000 Kč"
+                    },
+                    {
+                        "title": "Jaké jsou ostatní správní poplatky:",
+                        "text": "・poplatek ČÚZK za podání návrhu na vklad zástavního práva 2 000 Kč za každý návrh\n・poplatek ČÚZK za podání návrhu na výmaz zástavního práva 1 600 Kč za každý návrh\n・poplatek za ověření podpisu na Zástavní smlouvě k nemovitým věcem 50 Kč (např. Czech Point)"
                     },
                     {
                         "title": "Jaké jsou další podmínky:",
-                        "text": "・Úvěr musí být zajištěn zástavním právem k nemovitosti. Zajištění nesmí být ve zcela zjevném nepoměru k hodnotě zajišťované pohledávky.\n・Sjednání a udržování pojištění nemovitosti (zajištění), a to po celou dobu trvání smluvního vztahu. Náklady tohoto pojištění nebyly zahrnuty do RPSN, neboť jejich výše není známa v době výpočtu."
+                        "text": "・Úvěr musí být zajištěn zástavním právem k nemovitosti. Zajištění nesmí být ve zcela zjevném nepoměru k hodnotě zajišťované pohledávky.\n・Sjednání a udržování pojištění nemovitosti (zajištění), a to po celou dobu trvání smluvního vztahu. Náklady tohoto pojištění nebyli zahrnuty do RPSN, neboť jejich výše není známav době výpočtu."
                     }
                 ],
                 "footers": [

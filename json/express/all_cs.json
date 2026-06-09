@@ -114,13 +114,14 @@
             },
             "promoOfferNib": {
                 "title": "Expres půjčka",
-                "detail": "Potřebujete peníze rychle a na cokoliv? Využijte naši výhodnou Expres půjčku s nízkou úrokovou sazbou od {expres_loan_interest_rate} ročně s RPSN od {expres_loan_rpsn}. Půjčku si můžete sjednat <b>za pár minut plně online</b>.",
+                "detail": "Potřebujete peníze rychle a na cokoliv? Využijte naši výhodnou Expres <b>půjčku s garancí nejnižšího úroku na trhu.</b> S úrokovou sazbou už od  {expres_loan_interest_rate} ročně s RPSN od {expres_loan_rpsn}. Půjčku si můžete sjednat <b>za pár minut plně online</b>.",
                 "bulletsTitle": "Další výhody, které jako klient oceníte",
                 "bullets": [
+                    "<b>Garance nejnižšího úroku na trhnu</b> - lepší nabídku od jiné banky dorovnáme. <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\" target=\"_blank\" rel=\"noopener\">Více info na webu</a>",
+                    "<b>Předčasně půjčku splatit u nás není žádný problém.</b>",
                     "Splácení v klidu i při výpadku příjmů s výběrem pojištění schopnosti splácet",
                     "<b>Online od žádosti až po uzavření</b> smlouvy. Na pobočku Vás zveme jen ve výjimečných případech.",
-                    "Nízká úroková<b> sazba od {expres_loan_interest_rate}</b> ročně s RPSN od {expres_loan_rpsn}",
-                    "<b>Předčasně půjčku splatit</b> u nás není žádný problém."
+                    "Nízká úroková <b>sazba od {expres_loan_interest_rate}</b> ročně s RPSN od {expres_loan_rpsn}"
                 ]
             },
             "help": {
@@ -149,7 +150,7 @@
                 "total": "Celkem zaplatíte za úvěr"
             },
             "detail": {
-                "subtitle": "Plně online, bez poplatku a peníze do pěti minut na účtu. S jistotou, že své závazky vždy splatíte díky pojištění schopnosti splácet.",
+                "subtitle": "Využijte naší výhodnou <b>Expres půjčku s garancí nejnižšího úroku na trhu.</b> S úrokovou sazbou už od 4,29 % ročně s RPSN od 4,38 %. <b>Půjčku si můžete sjednat za pár minut plně online.</b>",
                 "title": "Vaše půjčka:",
                 "amount": "Půjčíme Vám",
                 "duration": "na dobu",
@@ -163,30 +164,31 @@
                 "insurance": "Pojištění schopnosti splácet za <b>{0} měsíčně</b> ke splátce",
                 "insuranceInfo": "<a href=\"innsuranceInfo\">Více o pojištění zde.</a>",
                 "insuranceHelp": {
-                    "title": "Splácejte s jistotou",
+                    "title": "Pojištění za vás zaplatí",
                     "subtitle": "Pro případ, že by Vám poklesly příjmy z důvodu nenadálé situace, pojišťovna zajistí:",
                     "bullets": [
-                        "Až <b>12 splátek</b> při ztrátě zaměstnání (nebo zrušení živnosti), pokud budete v pracovní neschopnosti nebo v případě nutnosti ošetřování člena rodiny",
-                        "<b>1 splátku</b>, pokud se budete léčit v nemocnici",
-                        "<b>Doplacení úvěru</b> v případě přiznání invalidity II. nebo III. stupně a ZTP/P nebo v případě úmrtí",
-                        "<b>Virtuální ordinace 24/7</b> s lékařem na telefonu, který může poslat např. e-recept nebo žádanku na další vyšetření"
+                        "<b>až 12 splátek</b> při ztrátě zaměstnání, přerušení nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny",
+                        "12 splátek v případě invalidity I.stupně",
+                        "Zbývající část úvěru v případě přiznání ZTP/P, invalidity II. či III.stupně, úmrtí"
                     ],
+                    "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření.",
                     "insurance": "Pojištění schopnosti splácet za <b>{0} měsíčně</b> ke splátce",
                     "insuranceInfo": "Jistota, že své závazky splatíte",
-                    "detail": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>. V případě invalidity nedojde k plnění při pojistné události.",
-                    "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}. V případě invalidity nedojde k plnění při pojistné události.",
+                    "detail": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                    "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                     "primaryButton": "Rozumím",
                     "secondaryButton": "Nechci pojištění"
                 },
                 "insuranceBullet": "<b>Splácejte v klidu i při výpadku příjmů. Pojištění</b> vás ochrání při pracovní neschopnosti, ztrátě zaměstnání, invaliditě nebo úmrtí.",
                 "bullets": [
+                    "<b>Garance nejnižšího úroku na trhu -</b>lepší nabídku od jiné banky dorovnáme.<a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">Více na našem webu</a>",
+                    "<b>Předčasně půjčku splatit u nás není žádný problém.</b>",
                     "<b>Online od žádosti až po uzavření smlouvy.</b> Na pobočku zveme, jen když to jinak nelze.",
                     "<b>Peníze na účtu do pěti minut od podpisu</b> schválené žádosti.",
-                    "<b>Žádný spěch.</b> Proces si můžete kdykoli uložit nebo se poradit s naším bankéřem",
-                    "<b>Předčasně půjčku splatit u nás není žádný problém.</b>"
+                    "<b>Žádný spěch.</b> Proces si můžete kdykoli uložit nebo se poradit s naším bankéřem"
                 ],
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "secondaryButton": "Do kalkulačky",
                 "needMoreButton": "Potřebujete více než {0}?",
                 "primaryButton": "Pokračovat"
@@ -204,9 +206,9 @@
                     "detail": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Přečtěte si přehledné a srozumitelné podmínky</a>",
                     "ppiDocuments": "Přečtěte si {0}",
                     "bullets": [
-                        "<b>Až 12 splátek</b> při ztrátě zaměstnání nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny.",
-                        "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí.",
-                        "<b>1 splátku</b> při hospitalizaci"
+                        "<b>až 12 splátek</b> při ztrátě zaměstnání, přerušení nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny",
+                        "12 splátek v případě invalidity I.stupně",
+                        "Zbývající část úvěru v případě přiznání ZTP/P, invalidity II. či III.stupně, úmrtí"
                     ],
                     "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření."
                 },
@@ -228,8 +230,8 @@
                 "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet.",
                 "totalWithInsurance": "včetně pojištění",
                 "detail": "CZK měsíčně",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "secondaryButton": "Potřebujete více než {1} CZK?",
                 "primaryButton": "Pokračovat",
                 "dontWantButton": "Žádná z nabídek mi nevyhovuje"
@@ -273,7 +275,7 @@
                     "title": "Pokud máte více příjmů, můžete je nyní doplnit",
                     "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
                     "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
-                    "remove": "Odstranit příjem",
+                    "remove": "Odebrat",
                     "incomeSource": "Zdroj příjmu",
                     "fillIn": "Doplňte",
                     "employer": {
@@ -300,7 +302,7 @@
                         "title": "Opravdu chcete odstranit tento příjem?"
                     },
                     "trialPeriod": "ve zkušební lhůtě",
-                    "onNoticePeriod": "ve výpovědní lhůtě",
+                    "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                     "employmentForPeriod": "na dobu určitou do {0}",
                     "indefinitePeriod": "na dobu neurčitou",
                     "primaryButton": "Pokračovat"
@@ -311,7 +313,7 @@
                     "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
                     "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                     "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                     "fixPeriodTitle": "a zároveň na dobu určitou",
                     "fixPeriodDateTitle": "do",
                     "fixPeriodDateHint": "Vyberte datum",
@@ -321,16 +323,16 @@
                     "offers": {
                         "TO_SME": {
                             "icon": "business",
-                            "title": "Hledáte úvěr pro podnikání?",
-                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                            "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
                                 "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
-                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                                "Pohodové splácení s pojištěním schopnosti splácet"
                             ],
                             "primaryButton": {
                                 "actionType": "APP_PAGE",
@@ -549,11 +551,10 @@
                     }
                 },
                 "invalidIncomeCombination": {
-                    "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-                    "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-                    "callUs": "Zavolejte nám\nna infolinku",
-                    "branch": "Navštivte nás\nna pobočce",
-                    "primaryButton": "Zpět",
+                    "icon": "warning",
+                    "title": "Uvedené příjmy nestačí ke schválení úvěru",
+                    "detail": "Abyste mohli pokračovat, přidejte alespoň jeden z následujících příjmů:\n\u2022 příjem ze závislé činnosti na dobu určitou nebo neurčitou\n\u2022 starobní nebo invalidní důchod\n\u2022 rentu\n\u2022 příjem z podnikání",
+                    "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
                 }
@@ -563,7 +564,7 @@
                 "employedTitle": "Jsem zaměstnaný/á",
                 "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                 "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                 "employedInfo": "Můžete vybrat 1-3 odpovědi:",
                 "fixPeriodTitle": "a zároveň na dobu určitou",
                 "fixPeriodDateTitle": "do",
@@ -575,9 +576,9 @@
                 "primaryButton": "Pokračovat"
             },
             "businessExpressInfo": {
-                "title": "Hledáte úvěr pro podnikání?",
-                "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                "bulletsTitle": "Výhody podnikatelského úvěru",
+                "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                 "bullets": [
                     "Úrok už od {interestRate} ročně",
                     "Sjednání kompletně online",
@@ -1013,8 +1014,8 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "total": "Celkem zaplatíte za úvěr",
                 "primaryButton": "Pokračovat",
                 "secondaryButton": "Nechci tuto nabídku"
@@ -1150,8 +1151,8 @@
                 "totalWithInsurance": "včetně pojištění",
                 "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet.",
                 "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet.",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "primaryButton": "Pokračovat",
                 "secondaryButton": "Nechci tuto nabídku"
             },
@@ -1171,8 +1172,8 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "primaryButton": "Sjednat půjčku",
                 "secondaryButton": "Nesouhlasím"
             },
@@ -1212,8 +1213,8 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "primaryButton": "Rozumím, zobrazit nejbližší pobočky"
             },
             "documentUpload": {
@@ -1252,7 +1253,17 @@
                         "icon": "documentsFill",
                         "title": "Podepsané Potvrzení o výši příjmu",
                         "titleEmployer": "Potvrzení o příjmu u {0}",
-                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Stáhněte si Potvrzení o výši příjmu</b></a> a nechte si ho u zaměstnavatele vyplnit a podepsat. <b>Potvrzení o příjmu nesmí být starší než 30 dní od data vystavení.</b> Půjčku jsme Vám teď uložili. Do 30 dnů se můžete kdykoli vrátit, podepsané potvrzení tady vyfotit a pokračovat."
+                    },
+                    "15": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
+                    },
+                    "173": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání Pošta",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                     },
                     "112": {
                         "icon": "documentsFill",
@@ -1441,8 +1452,8 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "primaryButton": "Pokračovat"
             },
             "docScoringChange": {
@@ -1462,8 +1473,8 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "primaryButton": "Souhlasím, pokračovat",
                 "secondaryButton": "Nesouhlasím"
             },
@@ -1513,16 +1524,16 @@
                 "title": "Pojištění za Vás zaplatí",
                 "subtitle": "Pro případ, že by Vám poklesly příjmy z důvodu nenadálé situace, pojišťovna zajistí:",
                 "bullets": [
-                    "<b>Až 12 splátek</b> v případě invalidity I. stupně",
-                    "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí.",
-                    "<b>1 splátku</b> při hospitalizaci"
+                    "<b>až 12 splátek</b> při ztrátě zaměstnání, přerušení nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny",
+                    "12 splátek v případě invalidity I.stupně",
+                    "Zbývající část úvěru v případě přiznání ZTP/P, invalidity II. či III.stupně, úmrtí"
                 ],
                 "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření.",
                 "primaryButton": "Pojistit se za {0} CZK měsíčně",
                 "detail": "Kliknutím na \"Pojistit\" souhlasíte s Rámcovou pojistnou smlouvou včetně Pojistných podmínek a sjednáváte si pojištění schopnosti splácet.<br><a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\"><b>Přečtěte si přehledné a srozumitelné podmínky>></b></a>",
                 "iddDetail": "Smluvní dokumentaci k pojištění obdržíte v elektronické podobě. Listinnou podobu dokumentace obdržíte na kterékoli <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">pobočce MONETA Money Bank</a>.",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
+                "ppiDocuments": "<b>Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}.</b>",
                 "secondaryButton": "Nechci pojištění"
             },
             "insuranceDisabled": {

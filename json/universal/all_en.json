@@ -2,6 +2,38 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "loginFactorSmsWarningModal": {
+                "modalNotification": {
+                    "title": "Consent to the use of Mobile Key to log in to Internet Banka and authorize transactions",
+                    "description": "Hello,\n<b>The fastest and free</b> way to log in to Internet Banka is through <a href=\"https://www.moneta.cz/smart-banka\" target=\"_blank\" rel=\"noopener\">the Smart Banka app</a> , which also offers <b>the highest level of security</b>. However, if you still prefer to log in via a code sent in a text message (SMS), please confirm your consent to the use of Mobile Key for logging in and authorizing transactions.",
+                    "infoTitle": "What is Mobile Key?",
+                    "infoDescription": "This is a one-time eight-digit password sent via SMS, required for logging in to Internet Banka and authorizing transactions if you do not use the Smart Banka app.",
+                    "subtitle1": "Do you use the Smart Banka app to log in and approve transactions?",
+                    "subdescription1": "If so, nothing changes for you. But if we ever need to send you a Mobile Key via text message, we’ll need your permission first.",
+                    "subtitle2": "Do you or your authorized users (eDisponents) use Mobile Keys sent via SMS?",
+                    "subdescription2": "In that case, a small fee will apply each time an SMS is sent, including by your authorized users. The current fee is 5 CZK per Mobile Key text message. Clients aged 65 and over receive SMS messages free of charge.",
+                    "subtitle3": "Thinking about switching to Smart Banka?",
+                    "subdescription3": "You can easily download the app from your phone’s app store. There is also a simple step-by-step <a href=\"https://www.moneta.cz/web/en/smart-banka\" target=\"_blank\" rel=\"noopener\">guide to help you get started.</a>",
+                    "subtitle4": "Why do we need your consent?",
+                    "subdescription4": "It’s just a formality to confirm that if you ever choose to use SMS Mobile Keys, you agree to the terms and the fee for receiving them.",
+                    "confirmButton": "Accept, proceed"
+                },
+                "modalNotificationKeepMobileKey": {
+                    "title": "Please confirm the informed consent below",
+                    "text": "With Smart Bank, you use the most secure option for logging in and authorizing transactions, which is always\nFREE OF CHARGE.",
+                    "agreementLabel": "I understand that if a mobile key for login or authorization is sent, such an SMS may be charged in accordance with <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\" target=\"_blank\" rel=\"noopener\">the fee schedule</a>, including for eDisponents.",
+                    "backButton": "Back",
+                    "confirmButton": "Confirm"
+                },
+                "modalNotificationVictory": {
+                    "title": "Consent Signed",
+                    "text": "Sending mobile keys is now subject to a fee according to the price list.",
+                    "agreeButton": "Confirm"
+                },
+                "mkInfo": {
+                    "confirmButtonTooltip": "This won’t work. Because you are not yet 18 years old, please ask your legal guardian to contact our customer service at 224 443 636."
+                }
+            },
             "dateio": {
                 "title": "Enjoy Discounts and Rewards on Card Payments",
                 "bulletsSectionTitle": "How does it work?",
@@ -201,6 +233,43 @@
                         "actionLabelText": "Continue to payment"
                     }
                 },
+                "activeCall": {
+                    "victoryKind": "stop",
+                    "title": "Phone scam warning",
+                    "detail": "If you are sending money to:",
+                    "bullets": [
+                        {
+                            "icon": "chartLineUpFill",
+                            "title": "A “guaranteed investment”?"
+                        },
+                        {
+                            "icon": "shieldBlankFill",
+                            "title": "A “safe account”?"
+                        },
+                        {
+                            "icon": "alertFill",
+                            "title": "Police investigation?"
+                        }
+                    ],
+                    "message": "Don’t do it and don’t confirm the payment. It is very likely a scam.",
+                    "footer": "Have doubts? Call <a href=\"tel:+420224446666\">224 446 666</a>.",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Cancel the payment instead"
+                    },
+                    "primarySlideButton": {
+                        "title": "Proceed anyway",
+                        "countdownSeconds": 10
+                    }
+                },
+                "cancelPayment": {
+                    "victoryKind": "failure",
+                    "title": "The payment has been cancelled",
+                    "primaryButton": {
+                        "actionType": "CLOSE",
+                        "actionLabelText": "Back to Overview"
+                    }
+                },
                 "priorityChanged": {
                     "victoryKind": "wait",
                     "title": "We’ll process the payment as a standard",
@@ -286,8 +355,8 @@
                     "secondaryButton": "Continue to Smart Banka"
                 },
                 "channelBlocked": {
-                    "title": "Your Smart Banka is blocked, so you can’t sign in using the QR code.",
-                    "subtitle": "To sign in with a QR code, log in to Internet Banking with your ID and password and unblock your Smart Banka <b>app in Settings – Smart Banking</b>. If you don’t remember any of your login details, please visit one of our branches.",
+                    "title": "In order to log in, please visit a branch",
+                    "subtitle": "As security is our top priority, you must verify your identity in person.",
                     "branch": "Visit a branch",
                     "primaryButton": "Close"
                 },
@@ -862,15 +931,15 @@
                     ]
                 },
                 "paymentCrossSell": {
-                    "title": "From a part of your deposit, you can get 19.7 % a year if you apply for a Pension Savings.",
+                    "title": "From a part of your deposit, you can get 20 % a year if you apply for a Pension Savings.",
                     "button": "Apply for Pension Savings"
                 },
                 "paymentVictoryCrossSell": {
                     "title": "Done. Payment is sent.",
-                    "detail": "From a part of your deposit, you can get 19.7 % a year if you apply for a Pension Savings.",
+                    "detail": "From a part of your deposit, you can get 20 % a year if you apply for a Pension Savings.",
                     "bullets": [
                         "Apply for Pension Savings<br>in Smart Banka",
-                        "By depositing CZK 20,000 yearly, state contribution CZK 2,760 and a tax relief of CZK 1,199 yearly you can get a yield of 19,7 %.",
+                        "By depositing CZK 20,400 yearly, state contribution CZK 4.080 you can get a yield of 20 %.",
                         "For a part of your deposit you get the best appreciation."
                     ],
                     "primaryButton": "Apply for Pension Savings",
@@ -888,7 +957,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -919,7 +988,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -950,7 +1019,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -981,7 +1050,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1012,7 +1081,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1043,7 +1112,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 31. 3. 2026",
+                            "title": "Úrokovou sazbu Vám garantujeme do 31. 3. 2026",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1133,30 +1202,30 @@
                 },
                 {
                     "salesProdType": "43005",
-                    "title": "Z části vašeho vkladu můžete získat 19,7 % založením doplňkového penzijního spoření.",
+                    "title": "From a part of your deposit, you can get 20 % a year if you apply for a Pension Savings.",
                     "icon": "vacation",
                     "bullets": [
                         {
-                            "title": "Otevřete si penzijní spoření<br>jednoduše online",
+                            "title": "Open your pension savings easily online",
                             "icon": "tickFill"
                         },
                         {
-                            "title": "Ze spořicího účtu si na něj vložte 20 000 Kč ročně a díky státnímu příspěvku 2 760 Kč a daňové úlevě 1 199 Kč ročně získáte roční zhodnocení vlastního vkladu 19,7 %.",
+                            "title": "Deposit 20 400 CZK a year from your savings account and, thanks to the state contribution of 4 080 CZK, you receive a 20% annual appreciation of your own contribution.",
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Pro část svého vkladu získáte nejvýhodnější zhodnocení.",
+                            "title": "Get the most attractive return on part of your deposit.",
                             "icon": "starFill"
                         }
                     ],
                     "primaryButton": {
                         "actionType": "APPPAGE",
-                        "actionLabelText": "Založit penzijní spoření",
+                        "actionLabelText": "Open a pension savings plan",
                         "actionData": "DPS_NN",
                         "ibRoute": "/savings/dps/calculator",
                         "ibAnalyticsCode": "DPS Cross-sell banner"
                     },
-                    "secondaryButton": "Pokračovat v platbě"
+                    "secondaryButton": "Continue payment"
                 },
                 {
                     "salesProdType": "14007",
@@ -1279,7 +1348,7 @@
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Úrokovou sazku Vám garantujeme do 30. 9. 2025",
+                            "title": "Úrokovou sazbu Vám garantujeme do 30. 9. 2025",
                             "icon": "calendarClockFill"
                         },
                         {
@@ -1325,6 +1394,13 @@
                     ],
                     "primaryButton": "Sjednat termínovaný vklad",
                     "secondaryButton": "Pokračovat v platbě"
+                }
+            },
+            "withdrawal": {
+                "detailButton": {
+                    "title": "Withdraw from the contract",
+                    "detail": "Close product",
+                    "withdrawn": "You’ve already withdrawn from this contract."
                 }
             }
         }

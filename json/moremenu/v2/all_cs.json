@@ -329,7 +329,7 @@
                     "analyticsId": "more_entrepreneursAccount"
                 },
                 {
-                    "title": "Předplatná a uložené karty",
+                    "title": "Předplatná a blokace plateb",
                     "listIcon": "shoppingCartFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": true,
@@ -626,15 +626,6 @@
                     "analyticsId": "more_contactUs"
                 },
                 {
-                    "title": "Pomáhejte se Smart Bankou",
-                    "listIcon": "handHoldingHeartFill",
-                    "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
-                    "shouldCheckEligibility": false,
-                    "actionType": "APPPAGE",
-                    "actionValue": "CHARITY",
-                    "analyticsId": "more_charity"
-                },
-                {
                     "title": "Co Smart Banka umí?",
                     "listIcon": "starsAltFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM"],
@@ -659,5 +650,7 @@
     "productCatalog": "To nejlepší od Monety na jednom místě",
     "productCatalogClientTypeList": [],
     "documents": "Dokumenty a smlouvy",
-    "collections": "Nedoplatky"
+    "proofOfAccount": "Potvrzení o vedení účtu a zůstatku",
+    "collections": "Nedoplatky",
+    "appointments": "Domluvit schůzku na pobočce"
 }

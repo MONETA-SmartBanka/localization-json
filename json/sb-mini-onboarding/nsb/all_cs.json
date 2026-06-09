@@ -35,6 +35,17 @@
                 "branch": "Naštivte nás\nna pobočce",
                 "secondaryButton": "Ukončit žádost",
                 "primaryButton": "Pokračovat ve sjednání"
+            },
+            "branchAppointment": {
+                "title": "Zastavte se za námi na pobočce, kde vše vyřešíme",
+                "detail": "Nezapomeňte s sebou přinést svůj občanský průkaz.",
+                "primaryButton": "Sjednat schůzku na pobočce",
+                "secondaryButton": "Zpět"
+            },
+            "invalidInvitation": {
+                "title": "Vraťte se prosím na web a začněte sjednání znovu",
+                "detail": "QR kód už není aktivní, a proto není možné pokračovat.\n\nDoporučujeme Vám pokračovat do mobilní aplikace co nejdříve po zobrazení QR kódu.",
+                "primaryButton": "Zpět na úvodní obrazovku"
             }
         },
         "general": {
@@ -236,8 +247,8 @@
                 "detail": "Pokračováním souhlasím s tím, že informace mohou být jednorázově zaslány nešifrovnaným způsobem na výše uvedenou e-mailovou adresu a telefonní číslo. Dále beru na vědomí <a href=\"personalData\">zásady zpracování osobní údajů</a> v koncernu MONETA.",
                 "primaryButton": "Pokračovat",
                 "checkboxMarketing": "<b>O všem budete vědět jako první</b><br>Souhlasím se zpracováním mých údajů pro zasílání nabídek koncernu MONETA. Zasílání mohu kdykoliv zrušit. <a href=\"marketingConsent\">Více</a>",
-                "checkboxUnsecured": "<b>Můžeme si volat a psát jednoduše</b><br>Chci, aby se mnou koncern MONETA komunikoval běžným, nešifrovaným způsobem na můj e-mail a telefon. <a href=\"unencryptedCommunication\">Více</a>",
                 "checkboxIM": "<b>Můžeme spolu chatovat</b><br>Souhlasím s komunikací s koncernem MONETA přes WhatsApp a jiné aplikace pro zasílání zpráv. <a href=\"instantMessaging\">Více</a>",
+                "checkboxUnsecured": "<b>Můžeme si volat a psát jednoduše</b><br>Chci, aby se mnou koncern MONETA komunikoval běžným, nešifrovaným způsobem na můj e-mail a telefon. <a href=\"unencryptedCommunication\">Více</a>",
                 "instantMessaging": {
                     "title": "Souhlas s komunikací běžným způsobem přes WhatsApp, případně pomocí jiné aplikace pro okamžité zasílání zpráv.",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606 a MONETA Stavební Spořitelna, a.s., IČO: 471 15 289) mohou komunikovat běžným způsobem prostřednictvím platformy WhatsApp, případně jiné aplikace pro okamžité zasílání zpráv, zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených s výše uvedenými společnostmi. Seznam aktuálně využívaných aplikací pro okamžité zasílání zpráv je dostupný na stránce <a href=\"https://moneta.cz/kontakt/souhlas-aplikace\">https://moneta.cz/kontakt/souhlas-aplikace</a>.<br><br>Koncern MONETA se mnou bude komunikovat prostřednictvím telefonních čísel +420 224 443 636 a +420 728 133 133."
@@ -395,6 +406,43 @@
             },
             "scoring": {
                 "title": "Chvilku strpení, všechno to musíme zkontrolovat."
+            },
+            "acquisitionPersonalDataVerification": {
+                "title": "Máme vše správně?",
+                "toolbarTitle": "Vaše údaje",
+                "firstName": "Jméno",
+                "lastName": "Příjmení",
+                "birthNumber": "Rodné číslo",
+                "permanentAddress": "Trvalé bydliště",
+                "primaryButton": "Vše souhlasí, pokračovat",
+                "secondaryButton": "Něco nesouhlasí"
+            },
+            "acquisitionContactInformation": {
+                "title": "Jak s Vámi budeme komunikovat?",
+                "detail": "Na které Vám později zašleme přihlašovací údaje do Internet Banky",
+                "toolbarTitle": "Zadejte prosím kontaktní údaje",
+                "footerTitle": "Tyto souhlasy lze kdykoliv odvolat",
+                "email": "Email",
+                "phone": "Telefon",
+                "marketingTitle": "O všem budete vědět jako první",
+                "marketingDescription": "Souhlasím se zpracováním mých údajů pro zasílání nabídek Monety. Zasílání mohu kdykoliv zrušit. <a href=\"MKTG_BYALL\">Více</a>",
+                "pinTitle": "Souhlasím, že v daším kroku vytvořím PIN pro přihlášování a podpis smluvní dokumentace v aplikaci Smart Banka",
+                "pinDescription": "Upozornění: PIN je jen váš — je to Váš bezpečnostní prvek a slouží také jako Váš elektronický podpis. PIN nikomu nesdělujte a chraňte ho. <a href=\"pinConsent\">Více</a>",
+                "imTitle": "Můžeme spolu psát a chatovat",
+                "imDescription": "Souhlasím s nešifrovanou komunikací s Monetou přes WhatsApp a jinými aplikacemi pro zasílání zpráv. <a href=\"IMSG_BYALL\">Více</a>",
+                "primaryButton": "Pokračovat",
+                "marketingConsent": {
+                    "title": "Souhlas se zasíláním marketingových sdělení",
+                    "detail": "Souhlasím se zpracováním svých osobních údajů, zejména identifikačních a kontaktních údajů, informací o bankovních obchodech a údajů vzniklých v průběhu využívání produktů a služeb a dalších osobních údajů, které jsem sdělil/a, v budoucnu sdělím, nebo které jiným oprávněným způsobem získají společnosti koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) pro přípravu nabídky na míru a oslovení s nabídkou produktů nebo služeb."
+                },
+                "pinConsent": {
+                    "title": "PIN pro přihlašování a podpis smluvní dokumentace",
+                    "detail": "„PIN, který si v tomto kroku zvolíte a kterým se budete přihlašovat do aplikace Smart Banka, zároveň slouží jako váš elektronický podpis, kterým podepíšete Smlouvu o bankovních produktech a službách (dále jen „Smlouva“).\n\nPIN je osobní bezpečnostní prvek — nikomu ho nesdělujte a chraňte ho před přístupem třetích osob, zejména máte povinnost:\n\n(i) znemožnit používání mobilního zařízení třetími osobami nastavením PIN kódu nebo biometriky pro vstup do zařízení; pokud je zařízení chráněno PIN kódem, uchovávat ho v tajnosti a nesdělovat ho třetím osobám ani nikam nepoznamenávat;\n\n(ii) nikomu nesdělovat PIN pro vstup do Aplikace Smart Banka nainstalované na mobilním zařízení, ani si ho nikam nepoznamenávat;\n\n(iii) nastavit své zařízení tak, aby nebylo možné automatické připojení třetí osoby k zařízení  a toto nastavení aktualizovat v závislosti na technickém vývoji; pokud si na své zařízení instalujete programy, které umožní vzdálené připojení třetí osoby k zařízení, jako je např. Any Desk, Team Viewer či jiné obdobné programy, jste povinen pečlivě ověřit, kterým osobám dává k zařízení přístup; Banka Vás upozorňuje, že instalací takových programů či aplikací zvyšuje riziko podvodného jednání.\n\nPo podpisu v aplikaci Smart Banka se ochrana Vašich bezpečnostních prvků a elektronický podpis budou řídit ustanoveními Smlouvy a příslušných produktových podmínek.“"
+                },
+                "imConsent": {
+                    "title": "Souhlas se zasíláním nešifrované komunikace",
+                    "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
+                }
             }
         }
     }

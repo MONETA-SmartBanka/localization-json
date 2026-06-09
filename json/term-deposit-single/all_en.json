@@ -73,19 +73,27 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best deposit in each category with no maximum deposit limit"
+                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account"
                         },
                         {
                             "icon": "handshake",
-                            "text": "Term deposit for individuals and sole proprietors with the most favorable interest rate of 3.4 % p.a. for 1 month from CZK 2.5 million Kč"
+                            "text": "3.4% p.a. for 1 month on deposits exceeding CZK 2.5 million, and 2.7% p.a. on deposits below CZK 2.5 million, for individuals"
                         },
                         {
                             "icon": "checkmark",
-                            "text": "Deposit for 3, 6, and 12 months with an interest rate of 3.2 % per year can be opened without any amount limit"
+                            "text": "3.2% per year for 12 months on the entire deposit amount from CZK 15,000 for all clients"
                         },
                         {
-                            "icon": "calendarFill",
-                            "text": "The interest rate applies to the entire amount for the entire deposit period"
+                            "icon": "longtermFunds",
+                            "text": "3.1% per year for 6 months on the entire deposit amount from CZK 15,000 for all clients"
+                        },
+                        {
+                            "icon": "longtermFunds",
+                            "text": "3.0% per year for 3 months on the entire deposit amount from CZK 15,000 for all clients"
+                        },
+                        {
+                            "icon": "euroSign",
+                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
                         }
                     ]
                 },
@@ -112,24 +120,28 @@
                 "infoSectionRevolving": {
                     "bullets": [
                         {
-                            "icon": "repeatFill",
-                            "text": "The length of the deposit will <b>automatically renew</b> until you cancel the deposit"
+                            "icon": "investmentsFill",
+                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account"
                         },
                         {
-                            "icon": "pocketMoneyFill",
-                            "text": "On the renewal date of the deposit, you can <b>withdraw the deposit free of charge</b> or <b>deposit additional money</b>"
+                            "icon": "handshake",
+                            "text": "3.4% p.a. for 1 month on deposits exceeding CZK 2.5 million, and 2.7% p.a. on deposits below CZK 2.5 million, for individuals"
                         },
                         {
-                            "icon": "calendarFill",
-                            "text": "The interest rate applies to the <b>entire deposit</b> as of the next renewal date"
+                            "icon": "checkmark",
+                            "text": "3.2% per year for 12 months on the entire deposit amount from CZK 15,000 for all clients"
                         },
                         {
-                            "icon": "mobileFill",
-                            "text": "<b>No maintenance fees</b>, and opened within minutes in just a couple of clicks"
+                            "icon": "longtermFunds",
+                            "text": "3.1% per year for 6 months on the entire deposit amount from CZK 15,000 for all clients"
                         },
                         {
-                            "icon": "payFill",
-                            "text": "After cancellation, the amount <b>will be transferred back</b> to the account from which it was deposited"
+                            "icon": "longtermFunds",
+                            "text": "3.0% per year for 3 months on the entire deposit amount from CZK 15,000 for all clients"
+                        },
+                        {
+                            "icon": "euroSign",
+                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
                         }
                     ]
                 },
@@ -214,7 +226,7 @@
                     "interests": "Transfer interest to my current account"
                 },
                 "depositInterestSection": {
-                    "titleHeader": "On the renewal date, transfer the interest to account number",
+                    "titleHeader": "Interest as of the renewal date",
                     "textAdd": "Add to the deposit",
                     "textSend": "Transfer to the account from which the deposit was made"
                 },
@@ -327,27 +339,104 @@
                 "primaryButton": "Done"
             },
             "nib": {
+                "unavailable": {
+                    "title": "Omlouváme se, služba je momentálně z technických důvodů nedostupná. Zkuste to, prosím, později.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "poModal": {
+                    "modalTitle": "Who is authorized to approve financial operations in your company?",
+                    "personalInfo": "Personal details",
+                    "name": "First name",
+                    "surname": "Last name",
+                    "function": "Position",
+                    "choose": "Choose",
+                    "permissionLabel": "I declare that I am authorized to carry out this operation on behalf of the company"
+                },
+                "notEligible": {
+                    "title": "Jednorázový termínovaný vklad Vám sjednáme na pobočce",
+                    "titleRTV": "Revolvingový termínovaný vklad Vám sjednáme na pobočce",
+                    "text1": "Je nám líto, ale momentálně Vám neumíme sjednat jednorázový termínovaný vklad v Internet Bance.",
+                    "text1RTV": "Je nám líto, ale momentálně Vám neumíme sjednat revolvingový termínovaný vklad v Internet Bance.",
+                    "text2": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde vše vyřešíme.",
+                    "meeting": "Sjednat schůzku na pobočce",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "form": {
+                    "title": "Open a term deposit online with no paperwork",
+                    "accountAlert": "The deposit currency is based on the account you choose.",
+                    "fromAccount": "From account",
+                    "moreThanOrEqualTo": "The amount must be at least {limit} {currency}.",
+                    "creditAccount": "Transfer the deposit to account at maturity",
+                    "interestCredit": {
+                        "termDeposit": "Add to deposit",
+                        "account": "Transfer to account",
+                        "label": "Interest at maturity"
+                    }
+                },
+                "contract": {
+                    "title": "Přečtěte si Žádost o jednorázový termínovaný vklad a dodatečné dokumenty",
+                    "titleRTV": "Přečtěte si Žádost o revolvingový termínovaný vklad a dodatečné dokumenty",
+                    "downloadTooltip": "Stáhněte si Žádost o jednorázový termínovaný vklad",
+                    "downloadTooltipRTV": "Stáhněte si Žádost o revolvingový termínovaný vklad",
+                    "downloadTitle": "Žádost o jednorázový termínovaný vklad.pdf",
+                    "downloadTitleRTV": "Žádost o revolvingový termínovaný vklad.pdf",
+                    "agreement": "<strong>Prohlašuji, že jsem se seznámil s těmito dokumenty</strong> - ",
+                    "disagreement": {
+                        "title": "Bez Vašeho souhlasu to bohužel nepůjde",
+                        "text": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                        "branch": "Sjednat schůzku na pobočce",
+                        "cancelButton": "Ukončit sjednání",
+                        "backButton": "Zpět"
+                    },
+                    "disagreeButton": "Nesouhlasím",
+                    "agreeButton": "Souhlasím, pokračovat k podpisu",
+                    "terminateAgreement": "Ukončit sjednání",
+                    "noSigningPossibility": "Požadavek nemůžete autorizovat, protože nastavená pravidla pro jednotlivé subjekty nejsou splnitelná. Do Internet Banky musí mít přístup všichni statutární zástupci minimálně v počtu pro splnění jednacího pravidla. Je tato podmínka splněna a stále máte potíže s autorizací? Zavolejte nám prosím na 224 444 544.",
+                    "sign": {
+                        "title": "Podepište Žádost o jednorázový termínovaný vklad",
+                        "titleRTV": "Podepište Žádost o revolvingový termínovaný vklad",
+                        "backButton": "Zpět",
+                        "signButton": "Podepsat"
+                    }
+                },
+                "victory": {
+                    "title": {
+                        "cosigned": "Žádost podepsána a odeslána dalším schvalovatelům",
+                        "done": "Hotovo! Vaši žádost jsme odeslali ke zpracování"
+                    },
+                    "text1": {
+                        "cosigned": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel. Poté Vám vklad zaoložíme obratem.",
+                        "done": "Termínovaný vklad vám založíme obratem, nejpozději následující pracovní den ráno."
+                    },
+                    "text2": "Ujistěte se prosím, že máte na účtu {account} dostatečné prostředky k převodu. Peníze Vám pak převedeme automaticky po založení.",
+                    "text3": "Žádost, související dokumenty a po založení i Parametry produktu najdete v Internet Bance i Smart Bance v sekci Dokumenty a smlouvy.",
+                    "buttonTitle": "Zpět na Přehled"
+                },
                 "infoSection": {
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "Appreciation of money with an attractive interest rate with no maximum deposit limit"
+                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account"
                         },
                         {
-                            "icon": "calendarFill",
-                            "text": "The entire amount accrues interest for the duration of the deposit"
+                            "icon": "handshake",
+                            "text": "3.4% p.a. for 1 month on deposits exceeding CZK 2.5 million, and 2.7% p.a. on deposits below CZK 2.5 million, for individuals"
                         },
                         {
-                            "icon": "smartBankaDuotone",
-                            "text": "Arrange quickly with no management fees"
+                            "icon": "checkmark",
+                            "text": "3.2% per year for 12 months on the entire deposit amount from CZK 15,000 for all clients"
                         },
                         {
-                            "icon": "walletArrowInFill",
-                            "text": "Automatically renewable"
+                            "icon": "longtermFunds",
+                            "text": "3.1% per year for 6 months on the entire deposit amount from CZK 15,000 for all clients"
                         },
                         {
-                            "icon": "euroSignFill",
-                            "text": "Term Deposits available in EUR and USD with Foreign Currency Account"
+                            "icon": "longtermFunds",
+                            "text": "3.0% per year for 3 months on the entire deposit amount from CZK 15,000 for all clients"
+                        },
+                        {
+                            "icon": "euroSign",
+                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
                         }
                     ]
                 },

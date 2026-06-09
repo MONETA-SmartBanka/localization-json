@@ -30,7 +30,7 @@
                     "actionData": "224 443 636",
                     "privateBankerPossible": true,
                     "actionLabelText": "Zákaznický servis",
-                    "analyticsEvent": "customer_service"
+                    "analyticsEvent": "contacts_customer_service"
                 }
             ]
         },
@@ -40,7 +40,8 @@
                 {
                     "actionType": "PHONECALL",
                     "actionData": "224 445 959",
-                    "actionLabelText": "Potíže se splácením",
+                    "actionLabelText": "Splátky po splatnosti",
+                    "actionLabelSubtext": "Potíže se splácením",
                     "analyticsEvent": "contacts_difficultyWithRepayment"
                 }
             ]

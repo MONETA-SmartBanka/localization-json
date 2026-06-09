@@ -102,8 +102,7 @@
                     "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
                     "<b>You pay interest only for the days you use Overdraft.</b>",
                     "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
-                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it.",
-                    "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve. "
+                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it."
                 ],
                 "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
                 "summaryHeadline": "All about Flexikredit:",
@@ -138,8 +137,7 @@
                     "<b>Automatic repayment with incoming payments</b> - and if you need it you can use it again right away.",
                     "<b>You pay interest only for the days you use Overdraft.</b>",
                     "<b>Incoming transactions need to reach at least {{minCreditMonthlyAmount}} CZK</b> a month - this amount does not include amounts transferred from your other Moneta accounts, including Savings and Business accounts, and income from credit interest of these accounts.",
-                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it..",
-                    "<b>To protect you from unauthorized Overdraft</b> we will block the last 500 CZK  of your Overdraft as a reserve."
+                    "<b>Opening, managing, and cancelling is free</b> - you can decide when to stop using Overdraft or completely cancel it.."
                 ],
                 "detail": "All information on Flexikredit Overdraft <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">can be found on our website</a>.",
                 "secondaryButton": "I need a higher Overdraft",
@@ -155,8 +153,7 @@
                 "tip-missing": "<b>Tip:</b> Don't know what amount of overdraft to choose? Our clients choose on average 15 000 CZK.",
                 "bullets": [
                     "<b> You will increase the overdraft online and after the agreement it will be active shortly – </b> you will visit us, only when necessary.",
-                    "<b> You will repay as usual – </b> automatically by incoming payments. It will suffice if  {{minCreditMonthlyAmount}} CZK arrives at your account monthly,  this amount does not include transfers from any of your accounts with us, including savings and business, transfers from internal accounts and interest income from funds in your accounts.",
-                    "<b>To help protect you from unauthorized overdrafts, </b>we will keep the last 500 CZK as a reserve."
+                    "<b> You will repay as usual – </b> automatically by incoming payments. It will suffice if  {{minCreditMonthlyAmount}} CZK arrives at your account monthly,  this amount does not include transfers from any of your accounts with us, including savings and business, transfers from internal accounts and interest income from funds in your accounts."
                 ],
                 "detail": "You can also find information <a href=\"https://www.moneta.cz/pujcky-a-uvery/kontokorent\">on the web</a>.",
                 "secondaryButton-missing": "I need more than 30 000 CZK",
@@ -202,7 +199,7 @@
                     "title": "Pokud máte více příjmů, můžete je nyní doplnit",
                     "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
                     "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
-                    "remove": "Odstranit příjem",
+                    "remove": "Odebrat",
                     "incomeSource": "Zdroj příjmu",
                     "fillIn": "Doplňte",
                     "employer": {
@@ -229,7 +226,7 @@
                         "title": "Opravdu chcete odstranit tento příjem?"
                     },
                     "trialPeriod": "ve zkušební lhůtě",
-                    "onNoticePeriod": "ve výpovědní lhůtě",
+                    "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                     "employmentForPeriod": "na dobu určitou do {0}",
                     "indefinitePeriod": "na dobu neurčitou",
                     "primaryButton": "Pokračovat"
@@ -240,7 +237,7 @@
                     "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
                     "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                     "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                     "fixPeriodTitle": "a zároveň na dobu určitou",
                     "fixPeriodDateTitle": "do",
                     "fixPeriodDateHint": "Vyberte datum",
@@ -250,16 +247,16 @@
                     "offers": {
                         "TO_SME": {
                             "icon": "business",
-                            "title": "Hledáte úvěr pro podnikání?",
-                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                            "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
                                 "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
-                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                                "Pohodové splácení s pojištěním schopnosti splácet"
                             ],
                             "primaryButton": {
                                 "actionType": "APP_PAGE",
@@ -478,11 +475,10 @@
                     }
                 },
                 "invalidIncomeCombination": {
-                    "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-                    "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-                    "callUs": "Zavolejte nám\nna infolinku",
-                    "branch": "Navštivte nás\nna pobočce",
-                    "primaryButton": "Zpět",
+                    "icon": "warning",
+                    "title": "Uvedené příjmy nestačí ke schválení úvěru",
+                    "detail": "Abyste mohli pokračovat, přidejte alespoň jeden z následujících příjmů:\n\u2022 příjem ze závislé činnosti na dobu určitou nebo neurčitou\n\u2022 starobní nebo invalidní důchod\n\u2022 rentu\n\u2022 příjem z podnikání",
+                    "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
                 }
@@ -492,7 +488,7 @@
                 "employedTitle": "I am employed",
                 "indefinitePeriodTitle": "and at the same time for an indefinite period",
                 "trialPeriodTitle": "and on a trial period",
-                "noticePeriodTitle": "and on a notice period",
+                "noticePeriodTitle": "and on a notice period/agreement on termination",
                 "employedInfo": "You can choose 1-3 answers:",
                 "fixPeriodTitle": "for a fixed period",
                 "fixPeriodDateTitle": "until",
@@ -790,7 +786,18 @@
                     "13": {
                         "icon": "documentsFill",
                         "title": "Signed Certificate of Income",
-                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
+                        "titleEmployer": "Certificate of Income for {0}",
+                        "detail": "<a href=\"https://www.moneta.cz/documents/cz/pujcky/potvrzeni-o-vysi-prijmu.pdf\"><b>Download the Certificate of Income</b></a> and have it filled out and signed by the employer. <b>The confirmation must not be older than 30 days from the date of issue.</b> You can now return the loan within 30 days, take a photo of the signed confirmation here and continue."
+                    },
+                    "15": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
+                    },
+                    "173": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání Pošta",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                     },
                     "112": {
                         "icon": "documentsFill",
@@ -811,7 +818,7 @@
                             },
                             {
                                 "title": "Take a photo of the back of your ID card",
-                                "detail": "alid document, in good lighting, sharp and not blurred.",
+                                "detail": "Valid document, in good lighting, sharp and not blurred.",
                                 "primaryButton": "Take Photo"
                             }
                         ],

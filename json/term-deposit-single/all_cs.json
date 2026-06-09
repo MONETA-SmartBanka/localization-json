@@ -73,19 +73,27 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "Termínovaný vklad bez omezení maximální výše vkladu"
+                            "text": "Nejlepší termínovaný vklad v Kč bez omezení maximální výše vkladu. Stačí mít na účtu požadovanou výši vkladu"
                         },
                         {
                             "icon": "handshake",
-                            "text": "Termínovaný vklad pro fyzické osoby a živnostníky s nejvýhodnějším úrokem 3,4 % ročně sjednáte na 1 měsíc od 2,5 milionu Kč"
+                            "text": "3,4 % ročně na 1 měsíc při vkladu od 2,5 milionu korun a 2,7 % ročně při vkladu do 2,5 milionu korun pro fyzické osoby"
                         },
                         {
                             "icon": "checkmark",
-                            "text": "Vklad na 3, 6 a 12 měsíců s úrokem 3,2 % ročně si založíte bez omezení částky"
+                            "text": "3,2 % ročně na 12 měsíců na celou výši vkladu od 15 tis korun pro všechny klienty"
                         },
                         {
-                            "icon": "calendarFill",
-                            "text": "Úroková sazba platí na celou částku po celou dobu vkladu"
+                            "icon": "longtermFunds",
+                            "text": "3,1 % ročně na 6 měsíců na celou výši vkladu od 15 tis korun pro všechny klienty"
+                        },
+                        {
+                            "icon": "longtermFunds",
+                            "text": "3,0 % ročně na 3 měsíce na celou výši vkladu od 15 tis korun pro všechny klienty"
+                        },
+                        {
+                            "icon": "euroSign",
+                            "text": "Můžete si sjednat i vklad v cizí měně v EUR/USD s úrokem až 1,6 % ročně"
                         }
                     ]
                 },
@@ -214,7 +222,7 @@
                     "interests": "Úroky převést na účet"
                 },
                 "depositInterestSection": {
-                    "titleHeader": "Úroky ke dni obnovy připisovat na účet číslo",
+                    "titleHeader": "Úroky ke dni obnovy",
                     "textAdd": "Připsat ke vkladu",
                     "textSend": "Převést na účet ze kterého byl proveden vklad"
                 },
@@ -327,23 +335,104 @@
                 "primaryButton": "Hotovo"
             },
             "nib": {
+                "unavailable": {
+                    "title": "Omlouváme se, služba je momentálně z technických důvodů nedostupná. Zkuste to, prosím, později.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "poModal": {
+                    "modalTitle": "Kdo za vaši společnost podepisuje finanční operace?",
+                    "personalInfo": "Osobní údaje",
+                    "name": "Jméno",
+                    "surname": "Příjmení",
+                    "function": "Funkce",
+                    "choose": "Vyberte",
+                    "permissionLabel": "Prohlašuji, že jsem oprávněn provést za právnickou osobu tuto operaci"
+                },
+                "notEligible": {
+                    "title": "Jednorázový termínovaný vklad Vám sjednáme na pobočce",
+                    "titleRTV": "Revolvingový termínovaný vklad Vám sjednáme na pobočce",
+                    "text1": "Je nám líto, ale momentálně Vám neumíme sjednat jednorázový termínovaný vklad v Internet Bance.",
+                    "text1RTV": "Je nám líto, ale momentálně Vám neumíme sjednat revolvingový termínovaný vklad v Internet Bance.",
+                    "text2": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde vše vyřešíme.",
+                    "meeting": "Sjednat schůzku na pobočce",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "form": {
+                    "title": "Termínovaný vklad založíte online a bez papírování",
+                    "accountAlert": "Podle zvoleného účtu, bude vybrána měna k založení Termínovaného vkladu",
+                    "fromAccount": "Z účtu",
+                    "moreThanOrEqualTo": "Zadaná hodnota je menší než {limit} {currency}.",
+                    "creditAccount": "Vklad po uplynutí doby převést na účet",
+                    "interestCredit": {
+                        "termDeposit": "Připsat ke vkladu",
+                        "account": "Převést na účet",
+                        "label": "Úrok po uplynutí doby"
+                    }
+                },
+                "contract": {
+                    "title": "Přečtěte si Žádost o jednorázový termínovaný vklad a dodatečné dokumenty",
+                    "titleRTV": "Přečtěte si Žádost o revolvingový termínovaný vklad a dodatečné dokumenty",
+                    "downloadTooltip": "Stáhněte si Žádost o jednorázový termínovaný vklad",
+                    "downloadTooltipRTV": "Stáhněte si Žádost o revolvingový termínovaný vklad",
+                    "downloadTitle": "Žádost o jednorázový termínovaný vklad.pdf",
+                    "downloadTitleRTV": "Žádost o revolvingový termínovaný vklad.pdf",
+                    "agreement": "<strong>Prohlašuji, že jsem se seznámil s těmito dokumenty</strong> - ",
+                    "disagreement": {
+                        "title": "Bez Vašeho souhlasu to bohužel nepůjde",
+                        "text": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                        "branch": "Sjednat schůzku na pobočce",
+                        "cancelButton": "Ukončit sjednání",
+                        "backButton": "Zpět"
+                    },
+                    "disagreeButton": "Nesouhlasím",
+                    "agreeButton": "Souhlasím, pokračovat k podpisu",
+                    "terminateAgreement": "Ukončit sjednání",
+                    "noSigningPossibility": "Požadavek nemůžete autorizovat, protože nastavená pravidla pro jednotlivé subjekty nejsou splnitelná. Do Internet Banky musí mít přístup všichni statutární zástupci minimálně v počtu pro splnění jednacího pravidla. Je tato podmínka splněna a stále máte potíže s autorizací? Zavolejte nám prosím na 224 444 544.",
+                    "sign": {
+                        "title": "Podepište Žádost o jednorázový termínovaný vklad",
+                        "titleRTV": "Podepište Žádost o revolvingový termínovaný vklad",
+                        "backButton": "Zpět",
+                        "signButton": "Podepsat"
+                    }
+                },
+                "victory": {
+                    "title": {
+                        "cosigned": "Žádost podepsána a odeslána dalším schvalovatelům",
+                        "done": "Hotovo! Vaši žádost jsme odeslali ke zpracování"
+                    },
+                    "text1": {
+                        "cosigned": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel. Poté Vám vklad zaoložíme obratem.",
+                        "done": "Termínovaný vklad vám založíme obratem, nejpozději následující pracovní den ráno."
+                    },
+                    "text2": "Ujistěte se prosím, že máte na účtu {account} dostatečné prostředky k převodu. Peníze Vám pak převedeme automaticky po založení.",
+                    "text3": "Žádost, související dokumenty a po založení i Parametry produktu najdete v Internet Bance i Smart Bance v sekci Dokumenty a smlouvy.",
+                    "buttonTitle": "Zpět na Přehled"
+                },
                 "infoSection": {
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "Termínovaný vklad bez omezení maximální výše vkladu."
+                            "text": "Nejlepší termínovaný vklad v Kč bez omezení maximální výše vkladu. Stačí mít na účtu požadovanou výši vkladu"
                         },
                         {
-                            "icon": "calendarFill",
-                            "text": "Termínovaný vklad s nejvýhodnějším úrokem 3,4 % ročně sjednáte na 1 měsíc od 2,5 milionu Kč."
+                            "icon": "handshake",
+                            "text": "3,4 % ročně na 1 měsíc při vkladu od 2,5 milionu korun a 2,7 % ročně při vkladu do 2,5 milionu korun pro fyzické osoby"
                         },
                         {
-                            "icon": "smartBankaDuotone",
-                            "text": "Vklad na 3, 6 a 12 měsíců s úrokem 3,2 % ročně si založíte bez omezení částky."
+                            "icon": "checkmark",
+                            "text": "3,2 % ročně na 12 měsíců na celou výši vkladu od 15 tis korun pro všechny klienty"
                         },
                         {
-                            "icon": "walletArrowInFill",
-                            "text": "Úroková sazba platí na celou částku po celou dobu vkladu."
+                            "icon": "longtermFunds",
+                            "text": "3,1 % ročně na 6 měsíců na celou výši vkladu od 15 tis korun pro všechny klienty"
+                        },
+                        {
+                            "icon": "longtermFunds",
+                            "text": "3,0 % ročně na 3 měsíce na celou výši vkladu od 15 tis korun pro všechny klienty"
+                        },
+                        {
+                            "icon": "euroSign",
+                            "text": "Můžete si sjednat i vklad v cizí měně v EUR/USD s úrokem až 1,6% ročně"
                         }
                     ]
                 },

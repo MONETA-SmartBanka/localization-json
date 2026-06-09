@@ -2263,7 +2263,7 @@
         "questionnaireNotEligibleAdvisory": {
             "title": "Teď není správná doba na investice",
             "detail": "Vaše odpovědi v investičním dotazníku ukazují, že nemáte dostatečné zkušenosti, znalosti nebo finanční zázemí, abyste do těchto finančních nástrojů mohli investovat. My jsme proto povinni Vás před tímto rizikem ochránit.\n\nDoporučujeme se o téma investování více zajímat a poté zkusit dotazník znovu, nejdříve to bude možné {0}.\n\nDěkujeme za pochopení.",
-            "primaryButton": "Zpět na Přehled"
+            "primaryButton": "Back to Overview"
         },
         "questionnaireResultAdvisory": {
             "title": "Hotovo, podle dotazníku jste:\n\n{0}\n\nTeď se přesuneme k výběru konkrétní investice",
@@ -2555,7 +2555,7 @@
         },
         "invest": {
             "title": "Invest from {0}",
-            "dipTitle": "Nákup ze Spořicího účtu DIP",
+            "dipTitle": "Invest from DIP Savings Account",
             "oneTime": "One-time investment",
             "regularInvestment": "Monthly investment",
             "regularInfo": "Starting today, your monthly investment is saved as a standing order which can be canceled or edited anytime.",
@@ -2571,7 +2571,7 @@
             "alertPrimaryButton": "Yes, continue anyway",
             "alertSecondaryButton": "Choose another fund",
             "remainingBalance": "Remaining balance: {0}",
-            "overBalanceDipError": "K provedení nákupu nemáte na Spořicím účtu DIP dostatek peněz."
+            "overBalanceDipError": "You don’t have enough money in your DIP Savings Account to make this purchase."
         },
         "advisoryInvest": {
             "title": "How will you invest?",
@@ -2622,8 +2622,8 @@
         },
         "dipInvestVictory": {
             "title": "Congratulations on your investment",
-            "description": "Zpracujeme ji zpravidla do 2 až 3 pracovních dnů.",
-            "primaryButton": "Přejít na Přehled DIP"
+            "description": "We usually process it within 2 to 3 business days.",
+            "primaryButton": "Go to DIP Overview"
         },
         "taxResidenceFail": {
             "title": "Oops, this won’t work",
@@ -2632,7 +2632,7 @@
             "secondaryButton": "Back to Balance Overview"
         },
         "sell": {
-            "payOutToAccount": "Vyplatit na účet",
+            "payOutToAccount": "Pay out to account",
             "sellShare": "Sell shares in value",
             "actualValue": "Current value",
             "sellFee": "Sale fee",
@@ -2641,8 +2641,8 @@
             "sellAll": "Sell all",
             "sellPieces": "Number of shares",
             "sellShares": "{0} shares",
-            "availableBalance": "Disponibilní zůstatek",
-            "approximatePrice": "Přibližná cena: {0}",
+            "availableBalance": "Available balance",
+            "approximatePrice": "Approx. price: {0}",
             "sellAlert": "You are selling {{shares}} shares. As of today, their value amounts to  {{amount}}\u00a0{{currency}}. <b>V The final profit may differ as the sale will be processed within a couple following days for the current market value.</b>",
             "termAlert": "You are about to sell <b>considerably earlier</b>, than it is advised for the fund's investment horizon. It is likely that today's sale will be less profitable than selling at an advised date.",
             "primaryButton": "Sell"
@@ -2652,8 +2652,8 @@
             "primaryButton": "Show Investment Overview"
         },
         "dipSellVictory": {
-            "title": "Příkaz k prodeji zpracováváme.",
-            "primaryButton": "Zpět na Přehled DIP"
+            "title": "We’re processing your sell order.",
+            "primaryButton": "Back to DIP Overview"
         },
         "funds": {
             "types": [
@@ -3260,11 +3260,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814687/mmb-bfm-konzervativni-dluhopisovy-fond-statut.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814687/mmb-bfm-konzervativni-dluhopisovy-fond-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814687/mmb-bfm-konzervativni-dluhopisovy-fond-pololetni-zprava.pdf"
                         }
                     ],
@@ -3350,11 +3350,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/12604272/mmb-uniqa-ceed-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/12604272/mmb-uniqa-ceed-pololetni-zprava.pdf"
                         },
                         {
@@ -3443,11 +3443,11 @@
                             "url": "https://www.moneta.cz/documents/20143/29501331/mmb-pa-avf-prospekt.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/29501331/mmb-pa-avf-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/29501331/mmb-pa-avf-pololetni-zprava.pdf"
                         }
                     ],
@@ -3529,11 +3529,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814684/mmb-bfm-balancovany-smiseny-fond-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814684/mmb-bfm-balancovany-smiseny-fond-pololetni-zprava.pdf"
                         }
                     ],
@@ -3615,11 +3615,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": " 2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814690/mmb-bfm-konzervativni-smiseny-fond-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814690/mmb-bfm-konzervativni-smiseny-fond-pololetni-zprava.pdf"
                         }
                     ],
@@ -3793,11 +3793,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814728/mmb-generali-fbk-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava.pdf"
                         }
                     ],
@@ -3878,11 +3878,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-nn-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual Report",
+                            "title": "Semi-annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-pololetni-zprava.pdf"
                         }
                     ],
@@ -3967,11 +3967,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814734/mmb-generali-fkd-statut.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814734/mmb-generali-fkd-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava.pdf"
                         }
                     ],
@@ -4117,11 +4117,11 @@
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-prospekt.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-pololetni-zprava.pdf"
                         },
                         {
@@ -4206,11 +4206,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-prospekt.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         },
                         {
@@ -4295,11 +4295,11 @@
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-prospekt.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual report",
+                            "title": "Semi-Annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-pololetni-zprava.pdf"
                         },
                         {
@@ -4388,11 +4388,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814737/mmb-gs-pa-prospekt.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814737/mmb-gs-pa-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814737/mmb-gs-pa-pololetni-zprava.pdf"
                         },
                         {
@@ -4477,11 +4477,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-prospekt.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         },
                         {
@@ -4570,11 +4570,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-prospekt.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-pololetni-zprava.pdf"
                         },
                         {
@@ -4672,11 +4672,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         }
                     ],
@@ -5095,6 +5095,81 @@
                             {
                                 "title": "Stupeň rizika (dle SRR)",
                                 "detail": "4.stupeň"
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální."
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let."
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Produkt není vhodný pro klienty se základními znalostmi investování a bez zkušeností s investováním a dále pro klienty s investičním horizontem do jednoho roku."
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "DE000GU9HCP7",
+                    "featuredName": "Garantovaný Certifikát ETF Portfolio Autocall 8 %",
+                    "detail": "Certifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs Bank Europe SE (rating A1 od Moody’s / A+ od Standard & Poor’s / A+ od Fitch). Certifikát umožňuje jednou ročně automatické předčasné splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a kupon.\n\nPodkladovým aktivem je index skládající se z rovnoměrného zastoupení níže uvedených ETF, zahrnující:\n\nAmerické akcie prostřednictvím SPDR S&P 500 ETF Trust\nAmerické technologické akcie prostřednictvím Invesco QQQ Trust Series\nEvropské akcie prostřednictvím iShares STOXX Europe 600 UCITS ETF\nDluhopisy prostřednictvím iShares 20+ Year Treasury Bond ETF\nKomodity prostřednictvím SPDR Gold Shares\n\nIndex je kalkulován v CZK; měnové zajištění vůči relevantním měnám ETF snižuje, nikoli zcela eliminuje, měnové riziko.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-statut",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-kid",
+                    "documents": [
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-statut"
+                        },
+                        {
+                            "title": "Emisní podmínky",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-emisni-podminky"
+                        },
+                        {
+                            "title": "KID",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-kid"
+                        },
+                        {
+                            "title": "Statut",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-brozura"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice."
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který není schopný nést ztráty."
+                            },
+                            {
+                                "title": "Stupeň rizika (dle SRR)",
+                                "detail": "2.stupeň"
                             },
                             {
                                 "title": "Kategorie zákazníka",
@@ -5551,7 +5626,7 @@
                 },
                 {
                     "isin": "CZ0008472917",
-                    "featuredName": "UNIQA Selection Opportunities \uD83D\uDCC5",
+                    "featuredName": "UNIQA Selection Opportunities",
                     "detail": "UNIQA Selection Opportunities is a blend fund of funds suitable for a dynamic investor that focuses on long-term appreciation of finances. The fund aims to achieve the highest possible long-term capital appreciation through investments in foreign collective investment funds with different focus. The Fund's investments are not sectorally or regionally limited. The Fund also facilitates availability of difficult-to-access alternative assets, including a higher share of investment in gold and precious metals. Emerging-market shares account for about one-fifth of the portfolio and a significant part of the portfolio is made up of high-yield bonds.",
                     "sellFeeValue": "0",
                     "featuredDetail": "A fund of funds with otherwise-difficult-to-access alternative assets including a higher proportion of gold and precious metals suitable for dynamic investors.",
@@ -5587,11 +5662,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/12604278/mmb-uniqa-so-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/12604278/mmb-uniqa-so-pololetni-zprava.pdf"
                         },
                         {
@@ -5676,11 +5751,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         }
                     ],
@@ -5769,11 +5844,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2020 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-nn-pololetni-zprava-2020.pdf"
                         }
                     ],
@@ -5859,11 +5934,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/12604275/mmb-uniqa-sge-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/12604275/mmb-uniqa-sge-pololetni-zprava.pdf"
                         },
                         {
@@ -5948,11 +6023,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/23624813/mmb-jt-bond-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual Report",
+                            "title": "Semi-annual Report",
                             "url": "https://www.moneta.cz/documents/20143/23624813/mmb-jt-bond-pololetni-zprava.pdf"
                         }
                     ],
@@ -6033,11 +6108,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/23624816/mmb-jt-opportunity-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/23624816/mmb-jt-opportunity-pololetni-zprava.pdf"
                         }
                     ],
@@ -6119,11 +6194,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         }
                     ],
@@ -6173,7 +6248,7 @@
                 },
                 {
                     "isin": "LU1400167216",
-                    "featuredName": "Fidelity World \uD83D\uDCC5",
+                    "featuredName": "Fidelity World",
                     "featuredDetail": "The fund follows yet undervalued companies with global reach. It aims at long-term appreciation of your investments with the expected return in 5 years at the earliest.",
                     "detail": "Fidelity Funds - World Fund is suitable for a long-term investor for a minimum investment horizon of 5 years. The goal is long-term capital growth. The approach of the fund is to identify companies with significant growth potential = undervalued companies, companies undergoing change, and market leaders in their field. At least 70% of the assets are invested in global stocks, global companies in developed markets. The currency risk is hedged.",
                     "sellFeeValue": "0",
@@ -6206,11 +6281,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         }
                     ],
@@ -6260,7 +6335,7 @@
                 },
                 {
                     "isin": "LU0295015480",
-                    "featuredName": "Goldman Sachs Global Equity Income \uD83D\uDCC5",
+                    "featuredName": "Goldman Sachs Global Equity Income",
                     "detail": "Fund is an equity fund that invests in companies that consistently offer high dividend yields. The fund is widely used, especially in times of high volatility in stock markets, where both unexpected growth and drop may come. During such period. the portfolio is driven by a dividend rather than a rise in share prices, and the fund is designed for dynamic investors who prefer more stable stock returns.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814743/mmb-gs-gei-report.pdf",
@@ -6299,11 +6374,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-pololetni-zprava.pdf"
                         }
                     ],
@@ -6353,7 +6428,7 @@
                 },
                 {
                     "isin": "LU0405489047",
-                    "featuredName": "Goldman Sachs Patrimonial Aggressive \uD83D\uDCC5",
+                    "featuredName": "Goldman Sachs Patrimonial Aggressive",
                     "detail": "Fund is a fund of funds and invests primarily in a diversified international portfolio of equity and bond funds. The Fund operates without collateral and is actively managed against an investment profile of 25% of euro-denominated bonds and 75% of global equities. Emphasis was placed on stable capital growth. The Fund seeks to add value through three approaches: (1) choice between stocks and bonds and the choice of specific securities, (2) selection in a diverse group of Goldman Sachs funds, and (3) portfolio diversification and risk management decisions. The strategy adapts to market developments (+/- 10%). Comprehensive solution for investors with a horizon of 5 years or more. The Sub-Fund's base currency is the Euro (EUR) and may be exposed to currencies other than the Euro. The Fund does not aim to pay dividends. It continues to invest all profits. It is suitable for a dynamic investor or for regular investments.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/11814737/mmb-gs-pa-report.pdf",
@@ -6392,11 +6467,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814737/mmb-nn-pa-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814737/mmb-gs-pa-pololetni-zprava.pdf"
                         }
                     ],
@@ -6481,11 +6556,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814731/mmb-generali-fgz-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava.pdf"
                         }
                     ],
@@ -6646,11 +6721,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/12355528/mmb-generali-fk-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava.pdf"
                         }
                     ],
@@ -6730,11 +6805,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14096539/mmb-pa-ssf-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14096539/mmb-pa-ssf-pololetni-zprava.pdf"
                         }
                     ],
@@ -6819,11 +6894,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/258060/11805024/mmb-generali-fkd-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2020 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava-2020.pdf"
                         }
                     ],
@@ -6873,7 +6948,7 @@
                 },
                 {
                     "isin": "LU2968731443",
-                    "featuredName": "Espiria 60 \uD83D\uDCC5",
+                    "featuredName": "Espiria 60",
                     "detail": "The fund invests approximately 40% of its portfolio in fixed-income corporate bonds from Nordic countries and approximately 60% of its portfolio in global equities. The investment process incorporates ESG and sustainability principles. The fund aims to create long-term value by investing according to structural trends driven by innovation and solutions, focusing on companies with high growth and/or profitability. Currency risk is hedged against the fund's base currency.\n\nThe fund targets clients who invest for at least 2 years and are seeking a compromise between stock market volatility and bond yields.",
                     "sellFeeValue": "3",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/29593093/mmb-espiria-60-czk-report.pdf",
@@ -6958,7 +7033,7 @@
                 },
                 {
                     "isin": "LU2052245482",
-                    "featuredName": "FT EM Bond Fund \uD83C\uDF33",
+                    "featuredName": "FT EM Bond Fund",
                     "detail": "Fund Templeton Emerging Markets Bond is a bond fund suitable for dynamic clients who expect higher yields and are willing to take the associated risk. The fund's objective is to provide long-term capital growth consisting of a combination of interest income, capital appreciation and currency gains. The fund invests primarily in government bonds, bonds of companies related to the state or, to a lesser extent, corporate bonds located in developing or emerging countries. When building the investment portfolio, the fund takes into account strict environmental and social management criteria, known as the ESG strategy. The fund pays a semi-annual coupon to the client's account. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/14518120/mmb-ft-tembf-report.pdf",
@@ -6989,11 +7064,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814461/mmb-ft-vyrocni-zprava-2020.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814461/mmb-ft-pololetni-zprava.pdf"
                         }
                     ],
@@ -7043,7 +7118,7 @@
                 },
                 {
                     "isin": "LU2125249990",
-                    "featuredName": "Franklin Innovation Fund \uD83C\uDFC6",
+                    "featuredName": "Franklin Innovation Fund",
                     "detail": "The Franklin Innovation Fund is intended for very dynamic investors with long-term financial appreciation. The fund invests in companies that are leaders in innovation, ie. they use new technologies, new products, new ideas and new methodologies, or benefit from new industry conditions in a dynamically changing global economy. The fund focuses on sectors such as information technology (including software and the Internet), communication services and healthcare (including biotechnology). The investment team focuses on companies that, thanks to innovation, meet the criteria of sustainable growth. The fund invests a substantial portion of its portfolio in companies based or traded in the US. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/15832893/mmb-ft-fif-report.pdf",
@@ -7074,11 +7149,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814461/mmb-ft-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814461/mmb-ft-pololetni-zprava.pdf"
                         }
                     ],
@@ -7128,7 +7203,7 @@
                 },
                 {
                     "isin": "LU0429746091",
-                    "featuredName": "Goldman Sachs Global Climate & Environment Equity \uD83C\uDF33 \uD83C\uDFC6",
+                    "featuredName": "Goldman Sachs Global Climate & Environment Equity",
                     "detail": "Fund is a global equity fund suitable for very dynamic clients who can invest their free funds for at least 5 years.  The fund uses active management to target companies that, in addition to financial income, create positive social and environmental impacts.  The fund has a thematic investment approach, focusing its investments on companies that offer solutions for the sustainability of our natural resources, such as those related to water scarcity, food security, energy transformation and recycling economics.  The fund follows the ESG strategy (environmental and socioeconomic impact assessment, and corporate governance) when selecting companies.  In principle, the Fund does not invest in companies with controversial ESG activities and behavior or in companies that violate the principles of global agreements, such as the protection of human rights and the protection of the environment.  We also do not invest in companies that make weapons or tobacco. The fund is suitable as part of a diversified portfolio. Currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/15362953/mmb-gs-gcee-report.pdf",
@@ -7163,11 +7238,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-pololetni-zprava.pdf"
                         }
                     ],
@@ -7217,7 +7292,7 @@
                 },
                 {
                     "isin": "LU2111945700",
-                    "featuredName": "Fidelity Sustainable Climate Bond \uD83C\uDF33",
+                    "featuredName": "Fidelity Sustainable Climate Bond",
                     "detail": "Fund is a bond fund suitable for dynamic clients, who can invest their available financial reserves for at least 3 years. The fund primarily invests in corporate bonds from around the world. The fund uses a sustainability strategy and actively selects securities from issuers seeking to reduce carbon emissions. At least 70% will be invested into securities, which have sustainable properties. Sustainable properties are ones that are effective and more efficient solutions to environmental and social issues, the so-called ESG strategy. The fund will aim to achieve lower levels of carbon dioxide emissions compared to the wider market. Furthermore, the fund can invest into bond of issuers that exhibit improving sustainability. The fund invests worldwide and may therefore invest in countries that can be considered as emerging markets. The currency risk is hedged.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/16241048/mmb-ff-srcbf-report.pdf",
@@ -7248,11 +7323,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814458/mmb-ff-pololetni-zprava.pdf"
                         }
                     ],
@@ -7342,7 +7417,7 @@
                             "url": "https://www.moneta.cz/documents/20143/16395070/mmb-generali-fr-portfolio.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/258060/16394951/mmb-generali-fr-vyrocni-zprava.pdf"
                         }
                     ],
@@ -7392,7 +7467,7 @@
                 },
                 {
                     "isin": "LU2223384681",
-                    "featuredName": "East Capital Global Emerging Markets Sustainable \uD83C\uDF33",
+                    "featuredName": "East Capital Global Emerging Markets Sustainable",
                     "detail": "The East Capital Global Emerging Markets Sustainable Fund is an equity fund suitable for very dynamic customers who can invest their available funds over a period of 10 years or more. The fund aims to ensure long-term capital growth through investments in companies in emerging markets. In these regions, the fund focuses on companies managing the risks of sustainable development or companies which contribute to sustainable development. The ESG strategy, ie the monitoring of environmental, social and administrative factors within the investment strategy, forms an integral part of the investment process. The fund currency is CZK.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/16758341/mmb-ec-gems-czk-report.pdf",
@@ -7423,11 +7498,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-ec-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-ec-pololetni-zprava.pdf"
                         }
                     ],
@@ -7512,11 +7587,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-gs-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2020 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/11814680/mmb-nn-pololetni-zprava-2020.pdf"
                         }
                     ],
@@ -7601,11 +7676,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/17291045/mmb-uniqa-scp-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/17291045/mmb-uniqa-scp-pololetni-zprava.pdf"
                         },
                         {
@@ -7745,7 +7820,7 @@
                 },
                 {
                     "isin": "LU2368120650",
-                    "featuredName": "Espiria 30 \uD83C\uDFC6",
+                    "featuredName": "Espiria 30",
                     "detail": "This is a mixed fund suitable for conservative clients who can invest their available funds for at least 2 years. The fund invests approximately 65% of its portfolio in Nordic fixed income corporate bonds and approximately 35% of its portfolio in global equities. The distribution of the portfolio is actively managed. The principles of ESG and sustainability are an integral part of the investment process. The fund seeks to create long-term value by investing according to structural trends driven by innovation and solutions, with a focus on companies with high growth and / or profitability. Currency risk is hedged against the fund's base currency.",
                     "sellFeeValue": "0",
                     "featured": true,
@@ -7773,11 +7848,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual Report",
+                            "title": "Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2022 Semi-Annual Report",
+                            "title": "Semi-Annual Report",
                             "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-pololetni-zprava.pdf"
                         }
                     ],
@@ -7855,11 +7930,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-fur-fkdm-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-fur-fkdm-pololetni-zprava.pdf"
                         }
                     ],
@@ -7941,11 +8016,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-pololetni-zprava.pdf"
                         }
                     ],
@@ -8027,11 +8102,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-pololetni-zprava.pdf"
                         }
                     ],
@@ -8114,11 +8189,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2023 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2023 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/19063580/mmb-invesco-pololetni-zprava.pdf"
                         }
                     ],
@@ -8196,11 +8271,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/258060/19525366/mmb-generali-zfav-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2021 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava-2021.pdf"
                         }
                     ],
@@ -8278,11 +8353,11 @@
                             "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
                         },
                         {
-                            "title": "2022 Annual report",
+                            "title": "Annual report",
                             "url": "https://www.moneta.cz/documents/258060/20865259/mmb-generali-zfav-2-vyrocni-zprava.pdf"
                         },
                         {
-                            "title": "2021 Semi-annual report",
+                            "title": "Semi-annual report",
                             "url": "https://www.moneta.cz/documents/20143/11814677/mmb-generali-pololetni-zprava.pdf"
                         }
                     ],
@@ -8511,11 +8586,12 @@
         "aggregationInvestedDashboard": {
             "clientProfile": "Investment Profile",
             "totalTitle": "Celková hodnota investic",
-            "investButton": "Investovat",
-            "sellButton": "Prodat",
+            "investButton": "Invest",
+            "sellButton": "Sell",
             "moreButton": "Další",
             "sellInProgress": "Zpracováváme prodej",
             "buyInProgress": "Zpracováváme nákup",
+            "buySellInProgress": "Zpracováváme nákup a prodej",
             "funds": {
                 "title": "Podílové fondy",
                 "noProductNote": "Ať peníze pracují za vás",
@@ -8586,7 +8662,7 @@
                         "action": "DIP_DEPOSIT"
                     }
                 ],
-                "dipNotInvestedNote": "<error600>Nezainvestováno</error600>"
+                "dipNotInvestedNote": "<error600>No investments</error600>"
             },
             "advisory": {
                 "title": "Fondy z investičního poradenství",
@@ -8619,7 +8695,7 @@
                 "productTitle": "Jaký investiční produkt chcete prodat?",
                 "funds": "Investice",
                 "advisory": "Fondy z investičního poradenství",
-                "dip": "Dlouhodobý investiční produkt"
+                "dip": "Long-term Investment Product"
             }
         },
         "advisoryFund": {
@@ -8668,7 +8744,7 @@
                 },
                 {
                     "isin": "IE000VHJLW78",
-                    "name": "MONETA 2 konzervativní",
+                    "name": "Moneta 2 Konzervativní",
                     "url": "https://www.moneta.cz/documents/20143/30047538/mmb-moneta-konzervativni-brozura.pdf",
                     "nameShort": "Konzervativní",
                     "detail": "Tento fond jsme vybrali, protože preferujete nižší riziko, víte, že hodnota investice může krátkodobě kolísat a plánujete držet investici alespoň 3 roky.",
@@ -8709,7 +8785,7 @@
                 },
                 {
                     "isin": "IE000N6PPGB0",
-                    "name": "MONETA 3 vyvážený",
+                    "name": "Moneta 3 Vyvážený",
                     "url": "https://www.moneta.cz/documents/20143/30048180/mmb-moneta-vyvazeny-brozura.pdf",
                     "nameShort": "Vyvážený",
                     "detail": "Tento fond jsme vybrali, protože preferujete střední míru rizika, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 4 roky.",
@@ -8750,7 +8826,7 @@
                 },
                 {
                     "isin": "IE000HD0CWC2",
-                    "name": "MONETA 4 růstový",
+                    "name": "Moneta 4 Růstový",
                     "url": "https://www.moneta.cz/documents/20143/30048610/mmb-moneta-rustovy-brozura.pdf",
                     "nameShort": "Růstový",
                     "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 5 let.",
@@ -8791,7 +8867,7 @@
                 },
                 {
                     "isin": "IE000YZM15Q6",
-                    "name": "MONETA 5 dynamický",
+                    "name": "Moneta 5 Dynamický",
                     "url": "https://www.moneta.cz/documents/20143/30048916/mmb-moneta-dynamicky-brozura.pdf",
                     "nameShort": "Dynamický",
                     "detail": "Tento fond jsme vybrali, protože preferujete vyšší riziko s ohledem na možné vyšší výnosy, jste připraveni přijmout možné krátkodobé ztráty a plánujete držet investici alespoň 8 let.",
@@ -8963,8 +9039,8 @@
         "advisoryDisagree": {
             "title": "Bez souhlasu to bohužel nepůjde...",
             "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-            "callUs": "Zavolejte nám<br>na infolinku",
-            "branch": "Naštivte nás<br>na pobočce",
+            "callUs": "Call our<br>helpline",
+            "branch": "Visit us<br>at a branch",
             "primaryButton": "Zpět",
             "secondaryButton": "Ukončit žádost"
         },
@@ -8972,7 +9048,7 @@
             "title": "Odeslání prostředků do fondu potvrďte PINem"
         },
         "advisoryVictory": {
-            "title": "Hotovo!<br>Gratulujeme k vaší investici",
+            "title": "Hotovo!<br>Congratulations on your investment",
             "detail": "Zpracování investice nám obvykle zabere 2-3 pracovní dny a hned poté ji uvidíte ve své Smart Bance.",
             "tip": "Tip: naši nejúspěšnější investoři nejčastěji investují pravidelně, zkuste to taky.",
             "primaryButtonOneTime": "Zadat pravidelnou investici",
@@ -9001,13 +9077,13 @@
                 "statements": "Statements",
                 "more": "More"
             },
-            "fundDipAccount": "Vložit",
-            "investDipPortfolioButton": "Investovat",
+            "fundDipAccount": "Deposit",
+            "investDipPortfolioButton": "Invest",
             "investmentAdvisoryTitle": "Investment Advisory",
             "dipActionButtonAccessibility": "Deposit funds",
             "tabMyPortfolio": "My portfolio",
             "tabInvestmentOpportunities": "Investment opportunities",
-            "paymentDestinationDip": "Na váš účet DIP",
+            "paymentDestinationDip": "To your DIP account",
             "tabAdvisoryPromo": "Invest",
             "emptyPortfolio": {
                 "noInvestments": "Not invested",
@@ -9045,12 +9121,12 @@
             },
             "moreBottomSheet": {
                 "invest": "Invest",
-                "withdrawFromDipAccount": "Vybrat ze Spořicího účtu DIP",
+                "withdrawFromDipAccount": "Withdraw from DIP Savings Account",
                 "payMe": "Pay me",
                 "receiptForEmployer": "Employer receipt",
                 "templates": "Payment templates",
                 "standingOrders": "Standing orders",
-                "paymentDestinationDip": "Na váš účet DIP"
+                "paymentDestinationDip": "To your DIP account"
             }
         },
         "detail": {
@@ -9091,9 +9167,9 @@
         },
         "detailSheet": {
             "actionPurchase": "Invest",
-            "actionPurchaseDip": "Koupit",
+            "actionPurchaseDip": "Buy",
             "actionSell": "Sell",
-            "actionDetail": "Detail",
+            "actionDetail": "Details",
             "actionTransactions": "History",
             "actionStatements": "Statements",
             "actionReport": "Composition",
@@ -9180,48 +9256,48 @@
         },
         "dipWithdrawal": {
             "alert": {
-                "title": "Předčasným výběrem DIP přijdete o výhody",
-                "description": "Pokud ještě nespoříte 10 let a zároveň jste nedosáhl*a 60 let:",
+                "title": "You’ll lose your benefits by withdrawing early",
+                "description": "If you haven’t been saving for 10 years and you’re under 60:",
                 "disadvantages1": {
-                    "title": "Ztratíte nárok na daňové výhody",
-                    "description": "Odečtené příspěvky z daňového základu budete muset doplatit."
+                    "title": "You’ll lose your tax benefits",
+                    "description": "You’ll have to repay the tax deductions you previously claimed"
                 },
                 "disadvantages2": {
-                    "title": "Budete muset zdanit příspěvky od zaměstnavatele",
-                    "description": "Při předčasném výběru jsou tyto částky považovány za příjem a podléhají zdanění."
+                    "title": "Employer contributions will be taxed",
+                    "description": "With early withdrawal, these contributions are treated as income and taxed."
                 },
                 "helpSection": {
-                    "title": "Máte nějaké otázky? Rádi vám poradíme",
-                    "callUs": "Zavolejte nám<br>na infolinku",
+                    "title": "Any questions? We’re here to help",
+                    "callUs": "Call our<br>helpline",
                     "callUsNumber": "+420 224 449 397",
-                    "branch": "Naštivte nás<br>na pobočce"
+                    "branch": "Visit us<br>at a branch"
                 },
-                "backButton": "Zpět",
-                "confirmButton": "Rozumím, přesto DIP vybrat"
+                "backButton": "Back",
+                "confirmButton": "I understand, withdraw DIP anyway"
             },
             "withdrawal": {
-                "title": "Výběr ze Spořicího účtu DIP",
-                "fromAccountName": "Vybrat z účtu DIP",
+                "title": "Withdrawal from DIP Savings Account",
+                "fromAccountName": "Withdraw from DIP Account",
                 "toAccountName": "Na účet"
             },
             "busyLoader": {
-                "title": "Chvilku strpení, připravujeme vám smlouvu"
+                "title": "One moment, we’re preparing your contract"
             },
             "agreement": {
-                "title": "Přečtěte si smlouvu o výběru ze Spoření DIP",
-                "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
-                "confirmButton": "Rozumím a souhlasím",
-                "cancelButton": "Nesouhlasím"
+                "title": "Read the DIP withdrawal agreement",
+                "description": "You’ll find all documents in Smart Banka and Internet Banka under Documents",
+                "confirmButton": "I understand and agree",
+                "cancelButton": "I disagree"
             },
             "withdrawVictory": {
-                "title": "Hotovo! Peníze převedeme na zvolený účet",
-                "primaryButton": "Zpět na Přehled"
+                "title": "Done! We’ll transfer the money to the selected account",
+                "primaryButton": "Back to Overview"
             },
             "withdrawDisagree": {
                 "title": "Bez souhlasu to bohužel nepůjde...",
                 "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
-                "callUs": "Zavolejte nám<br>na infolinku",
-                "branch": "Naštivte nás<br>na pobočce",
+                "callUs": "Call our<br>helpline",
+                "branch": "Visit us<br>at a branch",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
             }
