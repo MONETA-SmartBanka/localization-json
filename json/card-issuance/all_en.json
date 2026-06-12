@@ -14,7 +14,7 @@
         },
         "cardType": {
             "title": "Which card would you like?",
-            "footer": "More information about fees for plastic cards can be found in our <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">fee schedule</a>.",
+            "footer": "More information about fees for physical cards can be found in our <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">fee schedule</a>.",
             "cardTechOptions": [
                 {
                     "type": "PLASTIC",
@@ -189,7 +189,29 @@
                             "color": "gold",
                             "type": "insurance"
                         }
-                    ]
+                    ],
+                    "cardTechOptions": [
+                        {
+                            "type": "PLASTIC",
+                            "text": "Platinum card",
+                            "icon": "cardFill"
+                        },
+                        {
+                            "type": "VIRTUAL",
+                            "text": "Virtual card",
+                            "icon": "card"
+                        },
+                        {
+                            "type": "BOTH",
+                            "text": "Platinum or virtual card",
+                            "icon": "cardFill"
+                        }
+                    ],
+                    "virtualButtonFree": "I want a FREE virtual card",
+                    "virtualButton": "Get virtual: {0}/month",
+                    "plasticButtonFree": "I want a FREE platinum card",
+                    "plasticButton": "Get platinum: {0}/month",
+                    "plasticTitle": "Platinum card"
                 },
                 {
                     "type": "99300",
