@@ -23,9 +23,10 @@
                 "primaryButton": "Zpět"
             },
             "selection": {
-                "title": "Kterého pojištění se událost týká?",
+                "title": "Which insurance is the claim for?",
+                "archiveButton": "Event archive",
                 "active": {
-                    "title": "Pojistná událost - Aktivní pojištění",
+                    "title": "Active policies",
                     "detail": "Volejte přímo PO-PÁ 8-18 asistenční linku v českém jazyce <a>{0}</a> nebo vyplňte formulář <a href=\"https://cardifcz.eclaims.europ-assistance.com/login\">na webu</a>.",
                     "detailWeb": "Pokračujte na <a>{0}</a>.",
                     "types": {
@@ -36,7 +37,7 @@
                     }
                 },
                 "ended": {
-                    "title": "Pojistná událost - Ukončená pojištění",
+                    "title": "Ended policies",
                     "types": {
                         "CONSUMER_LOAN_REPAYMENT": {
                             "title": "Pojištění schopnosti splácet",
@@ -351,6 +352,12 @@
                     "TAKING_CARE": "Péče o osobu blízkou"
                 },
                 "primaryButton": "Přidat další dokument"
+            },
+            "claimActionSheet": {
+                "title": "How would you like to make a claim?",
+                "onlineButton": "Make a claim online",
+                "phoneButton": "Call {0}",
+                "phoneDescription": "24/7 assistance line in Czech."
             }
         }
     }

@@ -3,7 +3,175 @@
         "toolbarTitle": "Travel Insurance",
         "phoneNumber": "+420 224 443 636",
         "phoneNumberAssist": "+420 234 240 244",
-        "shortTermOverlapError": "You already have valid travel insurance for the selected period. Please select another period."
+        "shortTermOverlapError": "You already have valid travel insurance for the selected period. Please select another period.",
+        "limits": {
+            "shortTerm": [
+                {
+                    "param": "Medical expense and assistance services insurance",
+                    "valueEurope": "10 000 000 CZK",
+                    "valueWorld": "15 000 000 CZK"
+                },
+                {
+                    "param": "Teeth (sublimit)",
+                    "valueEurope": "25 000 CZK",
+                    "valueWorld": "25 000 CZK"
+                },
+                {
+                    "param": "Companion insurance",
+                    "valueEurope": "50 000 CZK",
+                    "valueWorld": "100 000 CZK ",
+                    "subvalueEurope": "(3 000 CZK/day)",
+                    "subvalueWorld": "(6 000 CZK/day)"
+                },
+                {
+                    "param": "Legal asistence and bail in case of a car accident",
+                    "valueEurope": "100 000 CZK",
+                    "valueWorld": "100 000 CZK"
+                },
+                {
+                    "param": "Personal liability insurance",
+                    "valueEurope": "5 000 000 CZK",
+                    "valueWorld": "5 000 000 CZK"
+                },
+                {
+                    "param": "Trip cancellation insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Unused services insurance*",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Early return insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Missed departure insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Baggage delay insurance (minimum of 5 hours)**",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Baggage and personal items insurance",
+                    "valueEurope": "30 000 CZK",
+                    "valueWorld": "50 000 CZK"
+                },
+                {
+                    "param": "Flight delay or cancellation insurance",
+                    "valueEurope": "5 000 CZK",
+                    "valueWorld": "5 000 CZK"
+                },
+                {
+                    "param": "Accidental death insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Permanent disability insurance",
+                    "valueEurope": "1 000 000 CZK",
+                    "valueWorld": "1 500 000 CZK"
+                },
+                {
+                    "param": "Rental car deductible insurance",
+                    "valueEurope": "20 000 CZK",
+                    "valueWorld": "20 000 CZK"
+                },
+                {
+                    "param": "Express document issuance insurance",
+                    "valueEurope": "10 000 CZK",
+                    "valueWorld": "10 000 CZK"
+                },
+                {
+                    "param": "Telehealth / virtual doctor's office",
+                    "valueEurope": "Yes",
+                    "valueWorld": "Yes"
+                }
+            ],
+            "longTerm": [
+                {
+                    "title": "Medical expense and assistance services insurance",
+                    "value": "CZK 25,000,000",
+                    "description": "Teeth (sublimit)",
+                    "subvalue": "CZK 25,000"
+                },
+                {
+                    "title": "Accompaniment insurance",
+                    "value": "CZK 100,000",
+                    "subvalue": "CZK 6,000/day"
+                },
+                {
+                    "title": "Legal assistance and bail insurance for traffic accidents",
+                    "value": "CZK 100,000"
+                },
+                {
+                    "title": "Liability for personal injury",
+                    "value": "CZK 5,000,000"
+                },
+                {
+                    "title": "Liability for property damage",
+                    "value": "CZK 5,000,000"
+                },
+                {
+                    "title": "Trip cancellation insurance",
+                    "value": "CZK 50,000",
+                    "description": "15% co-payment. Not applicable in case of hospitalisation or death. Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Flight delay or cancellation insurance",
+                    "value": "CZK 10,000",
+                    "description": "For delays of more than 3 hours",
+                    "subvalue": "Family together max. CZK 20,000"
+                },
+                {
+                    "title": "Baggage delay insurance",
+                    "value": "CZK 10,000",
+                    "description": "For delays of more than 3 hours"
+                },
+                {
+                    "title": "Baggage and personal effects insurance",
+                    "value": "CZK 50,000"
+                },
+                {
+                    "title": "Accidental death insurance",
+                    "value": "CZK 1,500,000"
+                },
+                {
+                    "title": "Permanent consequences of accident insurance",
+                    "value": "CZK 1,500,000"
+                },
+                {
+                    "title": "Rental vehicle excess insurance",
+                    "value": "CZK 20,000"
+                },
+                {
+                    "title": "Express document reissue insurance",
+                    "value": "CZK 10,000"
+                },
+                {
+                    "title": "Unused services insurance",
+                    "value": "CZK 50,000",
+                    "description": "15% co-payment. Not applicable in case of hospitalisation or repatriation. Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Early return insurance",
+                    "value": "CZK 50,000",
+                    "description": "Valid in the Czech Republic too"
+                },
+                {
+                    "title": "Missed departure insurance",
+                    "value": "CZK 50,000",
+                    "description": "Valid in the Czech Republic too"
+                }
+            ],
+            "shortFooter": "* 15% deductible does not apply in the case of hospitalization or death\n**in case of multiple passengers in the Family package the maximum payout is  10 000 CZK."
+        }
     },
     "scenes": {
         "help": {
@@ -35,24 +203,37 @@
             "party": {
                 "title": "Who will be traveling?",
                 "alone": "Individual",
+                "aloneDescription": "The account holder.",
                 "family": "Family",
+                "familyDescription": "The account holder, their partner and children under 18, even when they travel without you.",
+                "price": "from {0}",
+                "perMonth": "month",
+                "perDay": "day",
                 "help": {
                     "title": "Who will be traveling?",
                     "detail": "Travel insurance can be arranged for you and the whole family.\n\nFamily package covers:\n\n1.Your spouse, registered partner, or domestic partner living with you in the same household, as long as they have permanent residence in the same country as you and do not have permanent residence at the travel destination.\\n\\n2.All your children, including those from previous relationships, up to 18 years old (there is no limit on the number of children)..\\n\\n Each insured person has individual coverage limits within the \"Me and My Family\" package, and your family members are covered only when they travel with you."
-                }
+                },
+                "longTermAlone": "Just me",
+                "longTermFamily": "Me with family",
+                "longTermFamilyDescription": "Account holder with partner, children and grandchildren up to 21. They can travel independently."
             },
             "help": "Help",
             "where": {
                 "title": "Where are you traveling to?",
                 "europe": "Europe",
-                "world": "The world",
+                "world": "Worldwide",
+                "footer": "The Europe option covers the whole territory… <a href=\"destination_help\">show more.</a>",
                 "help": {
                     "title": "Europe or the world?",
                     "detail": "<b>Short-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands and the territory</b>:\n・Armenia\n・Azerbaijan\n・Egypt\n・Kazakhstan\n・Cyprus\n・Morocco\n・Georgia\n・Tunisia\n・Turkey\nThe insurance is not valid in the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions. \n\nThe <b>World variant is valid worldwide</b> outside the territory of the Russian Federation, Belarus, Sevastopol, Donetsk, Kherson, Luhansk and Zaporozhye regions, Iran, North Korea, Syria, Cuba, Venezuela, Myanmar, Crimea and Afghanistan.\n\n<b>Long-term travel insurance</b>\n\nThe <b>Europe</b> variant covers the <b>entire territory of continental Europe including adjacent islands</b>, the European part of Russia ( delimited by the Ural mountain range) and further to the territory of Egypt, Morocco, Tunisia and Turkey.\n\nThe territorial validity is not limited in the <b>World</b> variant."
+                },
+                "shortTermHelp": {
+                    "title": "Europe or worldwide?",
+                    "detail": "The <b>Europe</b> option covers <b>all of continental Europe, including nearby islands and the following territories:</b>\n・Armenia\n・Azerbaijan\n・Egypt\n・Kazakhstan\n・Cyprus\n・Morocco\n・Georgia\n・Tunisia\n・Turkey\nCover does not apply in Russia, Belarus, Sevastopol, or the Donetsk, Kherson, Luhansk and Zaporizhzhia regions.\n\nThe <b>Worldwide</b> option covers the rest of the world, except Russia, Belarus, Sevastopol, the Donetsk, Kherson, Luhansk and Zaporizhzhia regions, Iran, North Korea, Syria, Cuba, Venezuela, Myanmar, Crimea and Afghanistan."
                 }
             },
             "term": {
-                "title": "Which type of insurance fits your travel plans?",
+                "title": "How long would you like to be covered?",
                 "short": "Short-term",
                 "long": "Long-term",
                 "footer": "Long-term insurance is arranged for an indefinite period and is valid from midnight of the day following the date of the agreement",
@@ -67,26 +248,81 @@
                 "end": "End date"
             },
             "choose": "Select",
-            "primaryButton": "Continue"
+            "primaryButton": "Continue",
+            "helpButton": "Help",
+            "helpSheet": {
+                "shortTerm": {
+                    "title": "Who will you travel with?",
+                    "detail": "You can take out travel insurance for yourself or your whole family.\n\nWith the I’m travelling with my family package, the following people are covered:\n1. Your spouse, registered partner, or another person living in the same household as you, provided they are permanently resident in the same country as you and not permanently resident at the travel destination.\n2. All your children together, including children from previous relationships, up to age 18. There is no limit on the number of children.\n\nLimits under the I’m travelling with my family package apply separately to each insured person, and your family members are covered only when travelling with you."
+                },
+                "longTerm": {
+                    "title": "Who will be travelling?",
+                    "detail": "You can take out travel insurance for yourself or your whole family.\n\nThe Me and my family package covers you, your partner and your children up to age 21.\n\nThe <a href=\"limits\">limits</a> apply separately to each insured person, and family members are covered even when travelling on their own."
+                }
+            }
+        },
+        "term": {
+            "title": "How long do you want to be insured for?",
+            "primaryButton": "Continue",
+            "helpButton": "Help",
+            "shortTerm": {
+                "title": "Short-term",
+                "description": "Up to 30 days.",
+                "priceLabel": "from {0}\nday",
+                "benefits": [
+                    "For trips in Europe or worldwide",
+                    "Medical expenses up to CZK 15 million",
+                    "Liability cover up to CZK 5 million"
+                ],
+                "coverageLinkTitle": "Full list of cover"
+            },
+            "longTerm": {
+                "title": "Long-term",
+                "description": "Ongoing cover. Each trip up to 120 days.",
+                "priceLabel": "from {0}\nmonth",
+                "benefits": [
+                    {
+                        "text": "For travel around the world",
+                        "moreInfoText": "Includes ski trips in the Czech Republic. <a href=\"around_the_world_info\">More info</a>"
+                    },
+                    {
+                        "text": "Medical expenses up to CZK 25 million"
+                    },
+                    {
+                        "text": "Liability insurance up to CZK 5 million"
+                    }
+                ],
+                "coverageLinkTitle": "Full list of cover"
+            },
+            "moreInfo": {
+                "title": "Worldwide travel, including trip cancellation in the Czech Republic",
+                "detail": "Travel insurance is valid worldwide, except for Russia, Iran, North Korea, Syria, Venezuela, Belarus, Myanmar, Crimea, Afghanistan, Sevastopol, and the Donetsk, Kherson, Luhansk, and Zaporizhzhia regions.\nBefore planning a trip abroad, we recommend checking whether the Ministry of Foreign Affairs has issued a travel warning, advice against travel, or advice to travel only when necessary. In these cases, your insurance may not cover you, as an exclusion may apply.\n<b>Trip cancellation insurance in the Czech Republic</b>\nFor cancelled travel, unused services, or missed transport, cover applies within the Czech Republic for trips longer than 2 nights."
+            },
+            "helpSheet": {
+                "title": "More about insurance",
+                "detail": "<b>Short-term</b> cover starts just 1 hour after you take out the policy in Smart Bank and lasts for the period you choose.\n\n<a href=\"short_term_insurance_complete_information\">Full information about short-term travel insurance</a>\n\nIf you travel abroad regularly, <b>Long-term</b> travel insurance with low monthly payments may be a better choice. It also starts 1 hour after you take out the policy.\n<a href=\"long_term_insurance_complete_information\">Full information about long-term travel insurance</a>"
+            }
         },
         "agreement": {
-            "title": "Travel insurance summary",
+            "title": "Travel insurance",
             "payment": "The insurance premiums will be paid from",
-            "account": "Current Account",
+            "account": "Account for payment",
             "summary": {
                 "title": "Insurance summary",
                 "type": "Insurance type",
                 "start": "Valid from",
+                "inAnHourFromSigning": "One hour after purchase",
+                "perMonth": "month",
                 "end": "Valid until",
-                "longterm": "Indefinite",
+                "longterm": "No end date",
                 "price": "Insurance premium",
                 "month": "month",
-                "startDateFooter": "The exact start time of your insurance will be specified in the signed insurance document, available in the Documents section of both Smart Banka and Internet Banka.",
-                "iddDetail": "The contractual documents will be sent to you via email. You can pick up a physical copy at any of <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">our branches.</a>",
-                "footer": "Carefully read the informational material on travel insurance, which outlines exclusions and coverage limits."
+                "startDateFooter": "The exact start date of your insurance will be shown in the signed insurance document. You’ll find it under Documents in Smart Banka and Internet Banka.",
+                "iddDetail": "Your insurance documents will be saved in Smart Banka and Internet Banka. You can also request a printed copy at any of <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">our branches.</a>",
+                "footer": "Please read the travel insurance information carefully. It includes exclusions and cover limits."
             },
             "limitsTitle": "Coverage amounts",
-            "perPerson": "(per person)",
+            "perPerson": "per person",
             "limitsShortFooter": "* 15% deductible does not apply in the case of hospitalization or death\n**in case of multiple passengers in the Family package the maximum payout is  10 000 CZK.",
             "limitsLongFooter": "",
             "limits": [
@@ -96,14 +332,14 @@
                     "valueWorld": "15 000 000 CZK"
                 },
                 {
-                    "param": "Emergency dental treatment",
+                    "param": "Teeth (sublimit)",
                     "valueEurope": "25 000 CZK",
                     "valueWorld": "25 000 CZK"
                 },
                 {
                     "param": "Companion insurance",
                     "valueEurope": "50 000 CZK",
-                    "valueWorld": "100 000 CZK ",
+                    "valueWorld": "100 000 CZK",
                     "subvalueEurope": "(3 000 CZK/day)",
                     "subvalueWorld": "(6 000 CZK/day)"
                 },
@@ -244,8 +480,17 @@
             "agreement": "I confirm that I have read and understood the document",
             "agreements": "I confirm that I have read and understood the documents",
             "agreementTitlePlain": "I confirm that I have read and understood the product information and the documents listed above.",
-            "primaryButtonLongTerm": "Arrange for {0} a month",
+            "primaryButtonLongTerm": "Arrange for {0}/month",
             "primaryButtonShortTerm": "Arrange for {0}"
+        },
+        "limits": {
+            "titleShortEurope": "Cover amounts – short-term travel insurance Europe",
+            "titleShortWorld": "Cover amounts – short-term travel insurance Worldwide",
+            "titleLong": "Cover amounts – long-term travel insurance",
+            "subtitle": "Unless stated otherwise, amounts apply per person.",
+            "tabEurope": "Europe",
+            "tabWorld": "Worldwide",
+            "backButton": "Back"
         },
         "needsAnalysis": {
             "title": "Read the needs analysis with a recommendation for insurance",
@@ -289,8 +534,8 @@
         },
         "victoryLong": {
             "title": "Done, you can prepare for the trip",
-            "detail": "Insurance will be valid from midnight of the following day.",
-            "primaryButton": "Show my insurance",
+            "detail": "Long-term travel insurance will be valid in an hour.",
+            "primaryButton": "Show insurance detail",
             "secondaryButton": "Back to Overview"
         },
         "victoryCreditCard": {
@@ -298,6 +543,11 @@
             "detail": "Some hotels or car rental services only accept credit cards - it might be the only way to make a reservation. And it might come in handy in case of unexpected expenses.",
             "primaryButton": "Continue to Credit Card",
             "secondaryButton": "I'm not interested"
+        },
+        "changePackage": {
+            "title": "We’ll be happy to change your package by phone or at any branch",
+            "callButton": "Call helpline",
+            "branchButton": "Visit a branch"
         }
     }
 }
