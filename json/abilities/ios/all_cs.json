@@ -1129,8 +1129,8 @@
             "id": "DalsiKontokorent_CZ",
             "title": "Další podnikatelský účet v měně, která se Vám hodí",
             "detail": "Když Vám jeden podnikatelský účet nestačí, založte si další. Platby, příjmy i výdaje si tak snadno oddělíte doma i v zahraničí a je jedno, jestli to bude v CZK, EUR nebo USD.",
-            "imageURL": "/cbl_images/popup-news/v93/dalsi_ucet_CZ.png",
-            "minAppVersion": "93.0.0",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
+            "minAppVersion": "94.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
             "abilityTitle": "Další účet online",
@@ -1182,7 +1182,12 @@
             "shouldCheckEligibility": false,
             "abilityCategory": "cards",
             "abilityTitle": "Navýšení úvěrového rámce kreditky",
-            "abilitySortOrder": 8600
+            "abilitySortOrder": 8600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CC_CLIP",
+                "actionLabelText": "Vyzkoušet"
+            }
         }
     ]
 }

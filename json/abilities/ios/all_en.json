@@ -1131,8 +1131,8 @@
             "id": "DalsiKontokorent_EN",
             "title": "Open another business account in CZK, EUR or USD",
             "detail": "When one business account isn’t enough, open another. Keep payments, income and expenses separate at home and abroad. In CZK, EUR or USD.",
-            "imageURL": "/cbl_images/popup-news/v93/dalsi_ucet_CZ.png",
-            "minAppVersion": "93.0.0",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
+            "minAppVersion": "94.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
             "abilityTitle": "Another account online",
@@ -1184,7 +1184,12 @@
             "shouldCheckEligibility": false,
             "abilityCategory": "cards",
             "abilityTitle": "Credit card limit increase",
-            "abilitySortOrder": 8600
+            "abilitySortOrder": 8600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CC_CLIP",
+                "actionLabelText": "Try it"
+            }
         }
     ]
 }
