@@ -340,12 +340,12 @@
             },
             "nib": {
                 "unavailable": {
-                    "title": "Omlouváme se, služba je momentálně z technických důvodů nedostupná. Zkuste to, prosím, později.",
-                    "primaryButton": "Zpět na Přehled"
+                    "title": "Sorry, this service is temporarily unavailable for technical reasons. Please try again later.",
+                    "primaryButton": "Back to Overview"
                 },
                 "poModal": {
-                    "modalTitle": "Who is authorized to approve financial operations in your company?",
-                    "personalInfo": "Personal details",
+                    "modalTitle": "Who has the authority to represent your company in financial operations?",
+                    "personalInfo": "Your information",
                     "name": "First name",
                     "surname": "Last name",
                     "function": "Position",
@@ -353,13 +353,13 @@
                     "permissionLabel": "I declare that I am authorized to carry out this operation on behalf of the company"
                 },
                 "notEligible": {
-                    "title": "Jednorázový termínovaný vklad Vám sjednáme na pobočce",
-                    "titleRTV": "Revolvingový termínovaný vklad Vám sjednáme na pobočce",
-                    "text1": "Je nám líto, ale momentálně Vám neumíme sjednat jednorázový termínovaný vklad v Internet Bance.",
-                    "text1RTV": "Je nám líto, ale momentálně Vám neumíme sjednat revolvingový termínovaný vklad v Internet Bance.",
-                    "text2": "Zastavte se prosím za námi na kterékoliv naší pobočce, kde vše vyřešíme.",
-                    "meeting": "Sjednat schůzku na pobočce",
-                    "primaryButton": "Zpět na Přehled"
+                    "title": "We can arrange a One-Time Term Deposit for you at a branch",
+                    "titleRTV": "We can arrange a Revolving Term Deposit for you at a branch",
+                    "text1": "Sorry, we can’t currently arrange a One-Time Term Deposit for you in Internet Banka.",
+                    "text1RTV": "Sorry, we can’t currently arrange a Revolving Term Deposit for you in Internet Banka.",
+                    "text2": "Please visit any of our branches and we’ll help you set it up.",
+                    "meeting": "Arrange a meeting",
+                    "primaryButton": "Back to Overview"
                 },
                 "form": {
                     "title": "Open a term deposit online with no paperwork",
@@ -374,43 +374,43 @@
                     }
                 },
                 "contract": {
-                    "title": "Přečtěte si Žádost o jednorázový termínovaný vklad a dodatečné dokumenty",
-                    "titleRTV": "Přečtěte si Žádost o revolvingový termínovaný vklad a dodatečné dokumenty",
-                    "downloadTooltip": "Stáhněte si Žádost o jednorázový termínovaný vklad",
-                    "downloadTooltipRTV": "Stáhněte si Žádost o revolvingový termínovaný vklad",
-                    "downloadTitle": "Žádost o jednorázový termínovaný vklad.pdf",
-                    "downloadTitleRTV": "Žádost o revolvingový termínovaný vklad.pdf",
-                    "agreement": "<strong>Prohlašuji, že jsem se seznámil s těmito dokumenty</strong> - ",
+                    "title": "Read the One-Time Term Deposit Application and additional documents",
+                    "titleRTV": "Read the Revolving Term Deposit Application and additional documents",
+                    "downloadTooltip": "Download the One-Time Term Deposit Application",
+                    "downloadTooltipRTV": "Download the Revolving Term Deposit Application",
+                    "downloadTitle": "One-Time Term Deposit Application.pdf",
+                    "downloadTitleRTV": "Revolving Term Deposit Application.pdf",
+                    "agreement": "<strong>I confirm that I have read these documents </strong> - {documents}.",
                     "disagreement": {
-                        "title": "Bez Vašeho souhlasu to bohužel nepůjde",
-                        "text": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
-                        "branch": "Sjednat schůzku na pobočce",
-                        "cancelButton": "Ukončit sjednání",
-                        "backButton": "Zpět"
+                        "title": "We can not continue without your consent",
+                        "text": "Do you have any questions? Call our Helpline or visit one of our branches",
+                        "branch": "Arrange a meeting",
+                        "cancelButton": "Cancel application",
+                        "backButton": "Back"
                     },
-                    "disagreeButton": "Nesouhlasím",
-                    "agreeButton": "Souhlasím, pokračovat k podpisu",
-                    "terminateAgreement": "Ukončit sjednání",
-                    "noSigningPossibility": "Požadavek nemůžete autorizovat, protože nastavená pravidla pro jednotlivé subjekty nejsou splnitelná. Do Internet Banky musí mít přístup všichni statutární zástupci minimálně v počtu pro splnění jednacího pravidla. Je tato podmínka splněna a stále máte potíže s autorizací? Zavolejte nám prosím na 224 444 544.",
+                    "disagreeButton": "I do not agree",
+                    "agreeButton": "I agree, proceed to signature",
+                    "terminateAgreement": "Cancel application",
+                    "noSigningPossibility": "You can’t sign this request because the current signing setup cannot be completed. To meet the company signing rules, all required statutory representatives must have access to Internet Bank. If this is already the case and you still have trouble signing, please call us on 224 444 544.",
                     "sign": {
-                        "title": "Podepište Žádost o jednorázový termínovaný vklad",
-                        "titleRTV": "Podepište Žádost o revolvingový termínovaný vklad",
-                        "backButton": "Zpět",
-                        "signButton": "Podepsat"
+                        "title": "Sign the One-Time Term Deposit Application",
+                        "titleRTV": "Sign the Revolving Term Deposit Application",
+                        "backButton": "Back",
+                        "signButton": "Sign"
                     }
                 },
                 "victory": {
                     "title": {
-                        "cosigned": "Žádost podepsána a odeslána dalším schvalovatelům",
-                        "done": "Hotovo! Vaši žádost jsme odeslali ke zpracování"
+                        "cosigned": "The request has been sent to other approvers",
+                        "done": "Done! Your request is being processed"
                     },
                     "text1": {
-                        "cosigned": "Máte hotovo. Aby mohla být žádost odeslána, musí ji podepsat další schvalovatelé podle nastavených podpisových pravidel. Poté Vám vklad zaoložíme obratem.",
-                        "done": "Termínovaný vklad vám založíme obratem, nejpozději následující pracovní den ráno."
+                        "cosigned": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.",
+                        "done": "The term deposit will be opened right away or on the following business day the latest."
                     },
-                    "text2": "Ujistěte se prosím, že máte na účtu {account} dostatečné prostředky k převodu. Peníze Vám pak převedeme automaticky po založení.",
-                    "text3": "Žádost, související dokumenty a po založení i Parametry produktu najdete v Internet Bance i Smart Bance v sekci Dokumenty a smlouvy.",
-                    "buttonTitle": "Zpět na Přehled"
+                    "text2": "Please make sure to have sufficient funds for the transfer in your account {0}. The money will be transferred automatically after the term deposit has been opened.",
+                    "text3": "The application, all relevant documents as well as product information can be found in Smart Banka and Internet Banka in Documents.",
+                    "buttonTitle": "Back to Overview"
                 },
                 "infoSection": {
                     "bullets": [
