@@ -1144,18 +1144,13 @@
         {
             "id": "TomPlus_CZ",
             "title": "Prémiové služby pro Vás i Vaši rodinu s účtem Gold",
-            "detail": "Aktivujte si balíček Gold a užívejte si pohodlnější cestování, výhodné kurzy a další služby, které se hodí doma i na cestách.",
+            "detail": "Užívejte si pohodlnější cestování, výhodné kurzy a další služby, které se hodí doma i na cestách. Aktivujte si balíček Gold přes tři tečky v detailu svého účtu.",
             "imageURL": "/cbl_images/popup-news/v93/tom_plus_gold_CZ.png",
             "minAppVersion": "93.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
             "abilityTitle": "Běžný účet Tom Plus",
-            "abilitySortOrder": 8400,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "GOLDCONVERSION",
-                "actionLabelText": "Zjistit více"
-            }
+            "abilitySortOrder": 8400
         },
         {
             "id": "Cestovko_CZ",
@@ -1185,7 +1180,7 @@
             "abilitySortOrder": 8600,
             "primaryButton": {
                 "actionType": "APPPAGE",
-                "actionData": "CC_CLIP",
+                "actionData": "CARDSOVERVIEW",
                 "actionLabelText": "Vyzkoušet"
             }
         }
