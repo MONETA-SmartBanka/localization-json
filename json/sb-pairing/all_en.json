@@ -1,0 +1,115 @@
+{
+    "scenes": {
+        "landing": {
+            "label": "Sign in",
+            "scanQrButton": "Scan QR code",
+            "helpButton": "Where do I find the QR code?",
+            "languageButton": "English",
+            "branchesButton": "Branches",
+            "contactsButton": "Contacts",
+            "aboutAppButton": "About app"
+        },
+        "pairingMethod": {
+            "title": "Choose how to link the app to your existing account",
+            "options": {
+                "viaSB": {
+                    "title": "Via my Smart Banka on another device",
+                    "description": "If you got a new phone.",
+                    "howToButton": "How to do it?"
+                },
+                "viaIB": {
+                    "title": "Via Internet Banking and an ID document",
+                    "description": "When you're at a computer and have your ID with you.",
+                    "howToButton": "How to do it?"
+                },
+                "viaTwoDocuments": {
+                    "title": "With two Czech identity documents",
+                    "description": "When you have a national ID and a driver's licence, or a passport.",
+                    "howToButton": "How to do it?"
+                }
+            },
+            "moreOptionsTitle": "More options",
+            "scanQrOption": "Scan QR code",
+            "noAccountOption": "I don't have an account with MONETA yet"
+        },
+        "scanQr": {
+            "title": "Point at the QR code",
+            "infoBadge": "Where do I find the QR code?",
+            "helpButton": "Where do I find the QR code?",
+            "uploadButton": "Upload from file"
+        },
+        "helpScanQr": {
+            "title": "What is the QR code for?",
+            "description": "With a QR code you can quickly:\ncontinue setting up a new product from\u00a0the web or email,\nlink your app to your existing accounts at\u00a0MONETA",
+            "items": {
+                "continueFromWeb": {
+                    "title": "Continue from the web or email",
+                    "description": "Did a QR code appear when setting up a product, or did you receive one by email? Simply scan it and continue in Smart Banka."
+                },
+                "linkWithIB": {
+                    "title": "Link with Internet Banking",
+                    "description": "If you already have an account with us, you can link Smart Banka to it via Internet Banking. Log in at ib.moneta.cz, select Settings in the top menu and then Smart Banka on the left. Then scan the displayed code.\n\nIf you are activating Smart Banka for the first time, you need to accept the terms of use first."
+                },
+                "linkWithSB": {
+                    "title": "Link with another Smart Banka",
+                    "description": "If you already use Smart Banka on another device (phone, tablet), open it, go to More in the menu, then Your profile and Device management. Tap Add another device. The activation code will then appear on the active device.\nThen tap Scan QR code."
+                }
+            }
+        },
+        "loginQrWarning": {
+            "title": "It looks like you are scanning a sign-in QR code",
+            "description": "To pair your device, please sign in first and follow the instructions.",
+            "primaryButton": "Back to instructions"
+        },
+        "documentSelection": {
+            "title": "Which documents do you have available?",
+            "options": {
+                "czechId": "Czech national ID card",
+                "residencePermit": "Residence permit\nwith Czech birth number",
+                "noDocuments": "I don't have Czech documents or a birth number"
+            }
+        },
+        "existingAccount": {
+            "title": "We can see you already have an account with us. Would you like to link it to Smart Banka?",
+            "description": "Unfortunately we cannot open a new account\nthis way.",
+            "primaryButton": "Link to existing account",
+            "secondaryButton": "Cancel application"
+        },
+        "devicePairing": {
+            "title": "Link the child's device via QR code",
+            "stepsTitle": "On the child's device:",
+            "steps": {
+                "installApp": "Install the Smart Banka app and open it",
+                "selectScanQr": "On the home screen, tap Scan QR code in the top left corner",
+                "enterCode": "Scan or type the activation code shown above into the child's device"
+            },
+            "primaryButton": "Done",
+            "secondaryButton": "I'll finish later"
+        },
+        "getStarted": {
+            "title": "Get started with MONETA or continue your application",
+            "continueFromWebTitle": "Continue from web or email",
+            "scanQrButton": "Scan QR code",
+            "separator": "or",
+            "accountTypeTitle": "How would you like to use Smart Banka?",
+            "accountTypes": {
+                "meOrFamily": {
+                    "title": "For me or my family",
+                    "description": "Personal finances, savings, investments and more.",
+                    "button": "Open"
+                },
+                "soleTrader": {
+                    "title": "Sole trader",
+                    "description": "Account, loans, savings and more for self-employed.",
+                    "button": "Open"
+                },
+                "company": {
+                    "title": "For a company",
+                    "description": "Or an organisation.",
+                    "button": "Open"
+                }
+            },
+            "foreignerNotice": "Don't have Czech citizenship?\nWe'll be happy to open any of our products for you at any of our branches."
+        }
+    }
+}
