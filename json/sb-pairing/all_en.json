@@ -89,8 +89,14 @@
         "twoDocumentsPairing": {
             "title": "Prepare your documents and follow the instructions",
             "steps": [
-                "Prepare two identity documents.",
-                "Follow the instructions and scan both documents one by one."
+                {
+                    "id": 1,
+                    "label": "Prepare two identity documents."
+                },
+                {
+                    "id": 2,
+                    "label": "Follow the instructions and scan both documents one by one."
+                }
             ],
             "noDocumentsButton": "I don't have Czech documents",
             "continueButton": "I have two documents, continue",

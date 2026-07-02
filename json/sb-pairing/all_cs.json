@@ -89,8 +89,14 @@
         "twoDocumentsPairing": {
             "title": "Připravte si doklady a pokračujte podle instrukcí",
             "steps": [
-                "Připravte si dva doklady totožnosti.",
-                "Pokračujte podle instrukcí a postupně oba doklady naskenujte."
+                {
+                    "id": 1,
+                    "label": "Připravte si dva doklady totožnosti."
+                },
+                {
+                    "id": 2,
+                    "label": "Pokračujte podle instrukcí a postupně oba doklady naskenujte."
+                }
             ],
             "noDocumentsButton": "Nemám české doklady",
             "continueButton": "Mám dva doklady, pokračovat",
