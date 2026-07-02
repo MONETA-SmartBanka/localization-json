@@ -1,0 +1,42 @@
+name: Nightly sync from TST1
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install deps
+        run: npm ci
+
+      - name: Run sync
+        run: sh sync
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: chore/nightly-sync-from-tst1
+          delete-branch: true
+          commit-message: "chore(sync): sync from TST1"
+          title: "Sync from TST1"
+          body: |
+            Automated nightly sync from TST1.
