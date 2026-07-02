@@ -28,3 +28,5 @@ It is good to sync text from tst1 to get the latest changes from the business. J
 ```bash
 sh sync
 ```
+
+A GitHub Action also runs this sync automatically every midnight (00:00 UTC) and opens or updates a PR titled `Sync from TST1` when it detects changes.
