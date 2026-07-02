@@ -95,16 +95,28 @@
             "noDocumentsButton": "I don't have Czech documents",
             "continueButton": "I have two documents, continue",
             "goToBranchTitle": "Let's sort it out at a branch",
-"goToBranchSubtitle": "Have any questions? Give us a call or visit your nearest branch."
+            "goToBranchSubtitle": "Have any questions? Give us a call or visit your nearest branch."
         },
         "otherDevicePairing": {
             "title": "Prepare your original device and follow the instructions",
             "stepsTitle": "How to do it?",
             "steps": [
-                "Go to your original device with Smart Banka and sign in",
-                "Open the menu More --> Settings and profile --> Connect a new device",
-                "Keep the screen with the {ts1}**QR code with the \"pairing\" symbol**{/ts1} open",
-                "On this device, tap the button below and point the camera {ts2}**at the QR code**{/ts2}"
+                {
+                    "id": 1,
+                    "label": "Go to your original device with Smart Banka and sign in"
+                },
+                {
+                    "id": 2,
+                    "label": "Open the menu More --> Settings and profile --> Connect a new device"
+                },
+                {
+                    "id": 3,
+                    "label": "Keep the screen with the {ts1}**QR code with the \"pairing\" symbol**{/ts1} open"
+                },
+                {
+                    "id": 4,
+                    "label": "On this device, tap the button below and point the camera {ts2}**at the QR code**{/ts2}"
+                }
             ],
             "scanButton": "Scan QR code with the \"pairing\" symbol"
         },
