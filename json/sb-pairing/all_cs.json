@@ -132,6 +132,42 @@
                 }
             },
             "foreignerNotice": "Nemáte české občanství?\nNaše produkty vám rádi založíme na kterékoliv naší pobočce."
+        },
+        "internetBankPairingGuide": {
+            "loginPageTitle": "Přejděte do Internet Banky a klikněte na „Přihlášení ID a heslem”",
+            "qrScanPageTitle": "V přihlášené Internet Bance klikněte v horním menu na „+Propojit Smart Banku”",
+            "sectionHeader": "Jak na to?",
+            "loginSteps": [
+                {
+                    "id": 1,
+                    "label": "Na počítači přejděte na přihlašovací stránku Internet Banky <b>ib.moneta.cz.</b>"
+                },
+                {
+                    "id": 2,
+                    "label": "Přepněte možnost přihlášení <b>„Přihlášení ID a heslem”.</b>"
+                },
+                {
+                    "id": 3,
+                    "label": "Zadejte své <a href=\"id\">Identifikační číslo (ID)</a>, <a href=\"password\">heslo</a> a přihlaste se."
+                },
+                {
+                    "id": 4,
+                    "label": "Potvrďte přihlášení pomocí <b>kódu SMS</b>" 
+                }
+            ],
+            "qrScanSteps": [
+                {
+                    "id": 5,
+                    "label": "V Internet Bance klikněte v horním menu na  <b>„+Propojit Smart Banku”.</b>"
+                },
+                {
+                    "id": 6,
+                    "label": "Na tomto zařízení klikněte na tlačítko níže a namiřte fotoaparátem <b>na QR kód s modrým symbolem „propojení”</b>"
+                }
+            ],
+            "forgotPasswordButton": "Zapomněli jste heslo do IB?",
+            "loginConfirmButton": "Jsem přihlášen v Internet Bance",
+            "scanQrButton": "Načíst QR kód se symbolem"
         }
     }
 }
