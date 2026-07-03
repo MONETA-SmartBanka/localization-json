@@ -2,7 +2,6 @@
     "scenes": {
         "confirmation": {
             "title": "Potvrzení o vedení účtu",
-            "titleMultipleAccounts": "Potvrzení o vedení %s účtů",
             "titleMultipleAccountsText": "Potvrzení o vedení",
             "titleMultipleAccountsLink": "účtů",
             "selectMoreAccounts": "Vybrat více účtů",
@@ -12,14 +11,13 @@
             "showBalancePlural": "Zobrazit zůstatky",
             "showCustomAccountName": "Zobrazit vlastní název účtu",
             "showCustomAccountNamePlural": "Zobrazit vlastní názvy účtů",
-            "downloadButton": "Stáhnout",
-            "previewButton": "Zobrazit"
+            "primaryButton": "Stáhnout"
         },
         "accountSelection": {
             "title": "Vyberte účty, ke kterým chcete potvrzení",
             "searchPlaceholder": "Název, číslo účtu",
             "showClosedAccounts": "Zobrazit zrušené účty",
-            "nonHolderInfo": "K dispozici pouze pro <a href=\"action\">majitele účtu</a>",
+            "closedAccountsInfo": "K dispozici pouze pro <a href=\"action\">majitele účtu</a>",
             "closedAccountDescription": "Ukončený",
             "continueButton": "Pokračovat",
             "selectAll": "Vybrat vše",
@@ -29,8 +27,7 @@
             "title": "Zobrazit zrušené účty",
             "description": "Zrušené účty si mohou zobrazit pouze majitelé hlavního účtu. V nabídce budou nejpozději do 2 pracovních dnů od jejich zrušení."
         },
-        "victory": {
-            "oldTitle": "Připravujeme vám potvrzení, chvilku strpení prosím",
+        "busyLoader": {
             "title": "Připravujeme vám potvrzení",
             "detail": "Chvilku strpení prosím"
         },
@@ -38,10 +35,6 @@
             "title": "Potvrzení o vedení účtu",
             "downloadButton": "Stáhnout",
             "fileName": "Potvrzení_o_vedení_účtu.pdf"
-        },
-        "toast": {
-            "downloadedToDevice": "Dokument jsme uložili do vašeho zařízení.",
-            "downloadedAndEmailed": "Dokument jsme uložili do vašeho zařízení a odeslali na váš e-mail."
         }
     }
 }
