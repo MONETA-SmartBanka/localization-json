@@ -1,83 +1,83 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "mustBeClient": {
-        "title": "Táto funkce je dostupná pouze pro klienty. Prosím vyberete jiný způsob ověření.",
-        "primaryButton": "Zpět na úvodní obrazovku"
-      },
-      "invalidQR": {
-        "title": "Platnost QR kódu vypršela. Prosím vygenerujte nový kód.",
-        "primaryButton": "Zpět na úvodní obrazovku"
-      },
-      "detailsDoNotMatchZenId": {
-        "title": "Údaje nesouhlasí prosím vyberete jiný způsob ověření",
-        "primaryButton": "Zavřít",
-        "secondaryButton": "Zkusit znovu"
-      },
-      "detailsDoNotMatch": {
-        "title": "Údaje nesouhlasí prosím vyberete jiný způsob ověření",
-        "primaryButton": "Zavřít"
-      }
-    },
-    "scenes": {
-      "entityVerification": {
-        "toolbarTitle": "Máme vše správně?",
-        "title": "Vaše údaje",
-        "detail": "Zkontrolujte a potvrďte prosím své osobní údaje.",
-        "confirmMessage": "Potvrzením souhlasíte s ověřením své identity.",
-        "committing": "Ověřuji...",
-        "fields": {
-          "firstName": {
-            "label": "Jméno"
-          },
-          "lastName": {
-            "label": "Příjmení"
-          },
-          "birthDate": {
-            "label": "Datum narození"
-          },
-          "birthNumber": {
-            "label": "Rodné číslo"
-          }
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "mustBeClient": {
+                "title": "Táto funkce je dostupná pouze pro klienty. Prosím vyberete jiný způsob ověření.",
+                "primaryButton": "Zpět na úvodní obrazovku"
+            },
+            "invalidQR": {
+                "title": "Platnost QR kódu vypršela. Prosím vygenerujte nový kód.",
+                "primaryButton": "Zpět na úvodní obrazovku"
+            },
+            "detailsDoNotMatchZenId": {
+                "title": "Údaje nesouhlasí prosím vyberete jiný způsob ověření",
+                "primaryButton": "Zavřít",
+                "secondaryButton": "Zkusit znovu"
+            },
+            "detailsDoNotMatch": {
+                "title": "Údaje nesouhlasí prosím vyberete jiný způsob ověření",
+                "primaryButton": "Zavřít"
+            }
         },
-        "primaryButton": "Vše souhlasí, pokračovat",
-        "secondaryButton": "Něco nesouhlasí",
-        "victory": {
-          "title": "Ověření identity bylo úspěšně dokončeno a můžete se vrátit do původní aplikace",
-          "primaryButton": "Zavřít"
+        "scenes": {
+            "entityVerification": {
+                "toolbarTitle": "Máme vše správně?",
+                "title": "Vaše údaje",
+                "detail": "Zkontrolujte a potvrďte prosím své osobní údaje.",
+                "confirmMessage": "Potvrzením souhlasíte s ověřením své identity.",
+                "committing": "Ověřuji...",
+                "fields": {
+                    "firstName": {
+                        "label": "Jméno"
+                    },
+                    "lastName": {
+                        "label": "Příjmení"
+                    },
+                    "birthDate": {
+                        "label": "Datum narození"
+                    },
+                    "birthNumber": {
+                        "label": "Rodné číslo"
+                    }
+                },
+                "primaryButton": "Vše souhlasí, pokračovat",
+                "secondaryButton": "Něco nesouhlasí",
+                "victory": {
+                    "title": "Ověření identity bylo úspěšně dokončeno a můžete se vrátit do původní aplikace",
+                    "primaryButton": "Zavřít"
+                }
+            },
+            "entityVerificationZenId": {
+                "toolbarTitle": "Máme vše správně?",
+                "title": "Vaše údaje",
+                "detail": "Zkontrolujte a potvrďte prosím své osobní údaje.",
+                "confirmMessage": "Potvrzením souhlasíte s ověřením své identity.",
+                "committing": "Ověřuji...",
+                "fields": {
+                    "firstName": {
+                        "label": "Jméno"
+                    },
+                    "lastName": {
+                        "label": "Příjmení"
+                    },
+                    "birthDate": {
+                        "label": "Datum narození"
+                    },
+                    "birthNumber": {
+                        "label": "Rodné číslo"
+                    },
+                    "documentNumber": {
+                        "label": "Číslo dokladu"
+                    }
+                },
+                "primaryButton": "Vše souhlasí, pokračovat",
+                "secondaryButton": "Něco nesouhlasí",
+                "victory": {
+                    "title": "Ověření identity bylo úspěšně dokončeno a můžete se vrátit do původní aplikace",
+                    "primaryButton": "Zavřít"
+                }
+            }
         }
-      },
-      "entityVerificationZenId": {
-        "toolbarTitle": "Máme vše správně?",
-        "title": "Vaše údaje",
-        "detail": "Zkontrolujte a potvrďte prosím své osobní údaje.",
-        "confirmMessage": "Potvrzením souhlasíte s ověřením své identity.",
-        "committing": "Ověřuji...",
-        "fields": {
-          "firstName": {
-            "label": "Jméno"
-          },
-          "lastName": {
-            "label": "Příjmení"
-          },
-          "birthDate": {
-            "label": "Datum narození"
-          },
-          "birthNumber": {
-            "label": "Rodné číslo"
-          },
-          "documentNumber": {
-            "label": "Číslo dokladu"
-          }
-        },
-        "primaryButton": "Vše souhlasí, pokračovat",
-        "secondaryButton": "Něco nesouhlasí",
-        "victory": {
-          "title": "Ověření identity bylo úspěšně dokončeno a můžete se vrátit do původní aplikace",
-          "primaryButton": "Zavřít"
-        }
-      }
     }
-  }
 }

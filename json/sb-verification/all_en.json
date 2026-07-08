@@ -1,83 +1,83 @@
 {
-  "status": "OK",
-  "responseObject": {
-    "errorScreens": {
-      "mustBeClient": {
-        "title": "This feature is available for clients only. Please select a different verification method.",
-        "primaryButton": "Back to Home Screen"
-      },
-      "invalidQR": {
-        "title": "QR code validity has expired. Please generate a new code.",
-        "primaryButton": "Back to Home Screen"
-      },
-      "detailsDoNotMatchZenId": {
-        "title": "Details do not match, please select a different verification method",
-        "primaryButton": "Close",
-        "secondaryButton": "Try Again"
-      },
-      "detailsDoNotMatch": {
-        "title": "Details do not match, please select a different verification method",
-        "primaryButton": "Close"
-      }
-    },
-    "scenes": {
-      "entityVerification": {
-        "toolbarTitle": "Is Everything Correct?",
-        "title": "Your Details",
-        "detail": "Please review and confirm your personal information.",
-        "confirmMessage": "By confirming, you agree to verify your identity.",
-        "committing": "Verifying...",
-        "fields": {
-          "firstName": {
-            "label": "First Name"
-          },
-          "lastName": {
-            "label": "Last Name"
-          },
-          "birthDate": {
-            "label": "Date of Birth"
-          },
-          "birthNumber": {
-            "label": "Birth Number"
-          }
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "mustBeClient": {
+                "title": "This feature is available for clients only. Please select a different verification method.",
+                "primaryButton": "Back to Home Screen"
+            },
+            "invalidQR": {
+                "title": "QR code validity has expired. Please generate a new code.",
+                "primaryButton": "Back to Home Screen"
+            },
+            "detailsDoNotMatchZenId": {
+                "title": "Details do not match, please select a different verification method",
+                "primaryButton": "Close",
+                "secondaryButton": "Try Again"
+            },
+            "detailsDoNotMatch": {
+                "title": "Details do not match, please select a different verification method",
+                "primaryButton": "Close"
+            }
         },
-        "primaryButton": "Everything is correct, continue",
-        "secondaryButton": "Something is wrong",
-        "victory": {
-          "title": "Identity verification was successfully completed and you can return to the original application",
-          "primaryButton": "Close"
+        "scenes": {
+            "entityVerification": {
+                "toolbarTitle": "Is Everything Correct?",
+                "title": "Your Details",
+                "detail": "Please review and confirm your personal information.",
+                "confirmMessage": "By confirming, you agree to verify your identity.",
+                "committing": "Verifying...",
+                "fields": {
+                    "firstName": {
+                        "label": "First Name"
+                    },
+                    "lastName": {
+                        "label": "Last Name"
+                    },
+                    "birthDate": {
+                        "label": "Date of Birth"
+                    },
+                    "birthNumber": {
+                        "label": "Birth Number"
+                    }
+                },
+                "primaryButton": "Everything is correct, continue",
+                "secondaryButton": "Something is wrong",
+                "victory": {
+                    "title": "Identity verification was successfully completed and you can return to the original application",
+                    "primaryButton": "Close"
+                }
+            },
+            "entityVerificationZenId": {
+                "toolbarTitle": "Is Everything Correct?",
+                "title": "Your Details",
+                "detail": "Please review and confirm your personal information.",
+                "confirmMessage": "By confirming, you agree to verify your identity.",
+                "committing": "Verifying...",
+                "fields": {
+                    "firstName": {
+                        "label": "First Name"
+                    },
+                    "lastName": {
+                        "label": "Last Name"
+                    },
+                    "birthDate": {
+                        "label": "Date of Birth"
+                    },
+                    "birthNumber": {
+                        "label": "Birth Number"
+                    },
+                    "documentNumber": {
+                        "label": "Document Number"
+                    }
+                },
+                "primaryButton": "Everything is correct, continue",
+                "secondaryButton": "Something is wrong",
+                "victory": {
+                    "title": "Identity verification was successfully completed and you can return to the original application",
+                    "primaryButton": "Close"
+                }
+            }
         }
-      },
-      "entityVerificationZenId": {
-        "toolbarTitle": "Is Everything Correct?",
-        "title": "Your Details",
-        "detail": "Please review and confirm your personal information.",
-        "confirmMessage": "By confirming, you agree to verify your identity.",
-        "committing": "Verifying...",
-        "fields": {
-          "firstName": {
-            "label": "First Name"
-          },
-          "lastName": {
-            "label": "Last Name"
-          },
-          "birthDate": {
-            "label": "Date of Birth"
-          },
-          "birthNumber": {
-            "label": "Birth Number"
-          },
-          "documentNumber": {
-            "label": "Document Number"
-          }
-        },
-        "primaryButton": "Everything is correct, continue",
-        "secondaryButton": "Something is wrong",
-        "victory": {
-          "title": "Identity verification was successfully completed and you can return to the original application",
-          "primaryButton": "Close"
-        }
-      }
     }
-  }
 }
