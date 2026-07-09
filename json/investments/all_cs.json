@@ -2663,6 +2663,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Diskontní certifikát"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "Fondy Kvalifikovaných Investorů"
                 }
             ],
             "profiles": [
@@ -8543,6 +8547,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Diskontní certifikát"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "FKI"
                 }
             ],
             "profiles": [
@@ -8624,11 +8632,11 @@
                 "noProductNote": "Co si v mládí ušetříte,\nve stáří jako když najdete",
                 "noProductBullets": [
                     {
-                        "title": "Uložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
+                        "title": "Vložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
                         "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spoření v rámci DIP."
                     },
                     {
-                        "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou 3,5 % ročně",
+                        "title": "Na Spořicím účtu DIP Vám budeme peníze úročit sazbou 3,5 % ročně",
                         "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
                     }
                 ],
@@ -8706,7 +8714,6 @@
                 "dip": "Dlouhodobý investiční produkt"
             }
         },
-
         "advisoryFund": {
             "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
             "funds": [
@@ -9199,24 +9206,29 @@
             "filterDirectionOutgoing": "Odchozí"
         },
         "dipPromo": {
-            "title": "Lepší penze s Dlouhodobým investičním produktem",
-            "detail": "S novinkou na trhu si můžete sami zvolit, kde\nse budou Vaše peníze na stáří zhodnocovat.",
-            "bulletsTitle": "Daňová úspora až 7 200 Kč ročně a možnost příspěvku od zaměstnavatele až 50 000 Kč",
+            "title": "Dlouhodobý investiční produkt (DIP)",
+            "detail": "Výhody pravidelného investování a daňové úspory v jednom produktu.",
+            "bulletsTitle": "Co si v mládí ušetříte, ve stáří jako když najdete",
             "bullets": [
                 {
                     "icon": "investmentsFill",
-                    "title": "Spoření s atraktivní úrokovou sazbou",
-                    "detail": "Součástí produktu je Spořicí účet DIP. Peníze tam můžete nechat úročit nebo je investovat do podílových fondů pro možné vyšší zhodnocení."
+                    "title": "Jednorázové i pravidelné investování",
+                    "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa."
                 },
                 {
                     "icon": "moneyBillRepeatFill",
-                    "title": "Jednorázové i pravidelné investice",
-                    "detail": "Na výběr máte více než 40 renomovaných investičních produktů z naší nabídky. Když investici prodáte, peníze Vám připíšeme zpět na Spořicí účet DIP."
+                    "title": "Vložené peníze si můžete odečíst od základu daně až do 48 000 Kč ročně",
+                    "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spořicí účet DIP."
                 },
                 {
                     "icon": "interestFill",
-                    "title": "Ušetříte na daních",
-                    "detail": "Pokud uložíte peníze na DIP nejméně na 10 let a zároveň do 60 let věku, můžete na daních ušetřit až 7 200 Kč ročně."
+                    "title": "Na Spořicím účtu DIP Vám budeme peníze úročit sazbou {rate} ročně",
+                    "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+                },
+                {
+                    "icon": "calendarClockFill",
+                    "title": "Po 60. narozeninách a 10 letech spoření",
+                    "detail": "DIP můžete vybrat po 10 letech spoření, nejdříve však po 60. narozeninách."
                 }
             ],
             "moreInfo": {
@@ -9224,11 +9236,39 @@
                 "actionType": "WEB",
                 "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
             },
+            "stepsTitle": "Využijte DIP na maximum",
+            "steps": [
+                {
+                    "title": "Založte si Dlouhodobý investiční produkt",
+                    "detail": "Jeho součástí je úročený spořicí účet, ze kterého můžete investovat do renomovaných podílových fondů."
+                },
+                {
+                    "title": "Vložte peníze na Spořicí účet DIP",
+                    "detail": "Od této chvíle můžete využít daňovou úsporu."
+                },
+                {
+                    "title": "Pravidelně investujte",
+                    "detail": "Založte si trvalý příkaz a využijte příspěvek od zaměstnavatele nebo daňovou úsporu ve výši investované částky."
+                },
+                {
+                    "title": "Přineste zaměstnavateli potvrzení a čerpejte příspěvek",
+                    "detail": "Stáhněte si potvrzení o vedení DIP a nechte si přispívat na dlouhodobý investiční produkt od svého zaměstnavatele."
+                }
+            ],
             "primaryButton": {
-                "actionLabelText": "Sjednat DIP na pobočce",
+                "actionLabelText": "Založit Dlouhodobý investiční produkt"
+            },
+            "secondaryButton": {
+                "actionLabelText": "Seznam fondů",
                 "actionType": "APPPAGE",
-                "actionData": "BRANCHESATMS"
+                "actionData": "INVESTMENTS_DASHBOARD"
             }
+        },
+        "dipOnboardingRejected": {
+            "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+            "detail": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství a platili daně v ČR.",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Zpět na investice"
         },
         "advisoryPromo": {
             "title": "Investiční poradenství",
@@ -9309,6 +9349,140 @@
                 "branch": "Naštivte nás<br>na pobočce",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
+            }
+        },
+        "dipOnboarding": {
+            "cannotOffer": {
+                "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+                "subtitle": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství, platili daně v ČR a měli běžný účet v korunách.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "checkDetails": {
+                "headerTitle": "Zkontrolujte své údaje",
+                "continueButton": "Ano, pokračovat",
+                "personalDetails": {
+                    "title": "Osobní údaje",
+                    "somethingWrongButton": "Něco nesouhlasí",
+                    "permanentAddress": "Trvalý pobyt",
+                    "citizenship": "Státní občanství"
+                },
+                "contactDetails": {
+                    "title": "Kontaktní údaje",
+                    "phone": "Telefon",
+                    "email": "E-mail"
+                },
+                "contactAddress": {
+                    "title": "Kontaktní adresa",
+                    "sameAsPermanent": "Stejná jako trvalá",
+                    "street": "Ulice",
+                    "buildingNumber": "Č. p.",
+                    "unitNumber": "Č. o.",
+                    "city": "Město",
+                    "zipCode": "PSČ",
+                    "country": "Země"
+                },
+                "supportBottomSheet": {
+                    "title": "Nejsou Vaše osobní údaje správně?",
+                    "description": "Tyto údaje čerpáme ze základních registrů státu. Pokud některý z Vašich údajů nesouhlasí, obraťte se prosím na kterýkoliv Czech POINT, kde můžete podat žádost o změnu.",
+                    "primaryButton": "Zpět",
+                    "secondaryButton": "Ukončit žádost"
+                }
+            },
+            "aml": {
+                "busyLoader": {
+                    "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                    "subtitle": "Brzy budeme pokračovat."
+                },
+                "nokScreen": {
+                    "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+                    "primaryButton": "Zpět na Přehled"
+                }
+            },
+            "contracts": {
+                "busyLoader": {
+                    "title": "Připravujeme Vám smlouvu",
+                    "subtitle": "Brzy budeme pokračovat."
+                },
+                "bankBusyLoader": {
+                    "title": "Teď to musíme podepsat my",
+                    "subtitle": "Chvilku strpení prosím."
+                },
+                "precontract": {
+                    "title": "Přečtěte si smlouvu s parametry produktu",
+                    "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+                    "confirmButton": "Rozumím a souhlasím",
+                    "cancelButton": "Nesouhlasím"
+                },
+                "mainContract": {
+                    "title": "Přečtěte si rámcovou smlouvu",
+                    "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+                    "confirmButton": "Souhlasím, přejít k podpisu",
+                    "cancelButton": "Nesouhlasím"
+                }
+            },
+            "documentDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde...",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Ukončit sjednání"
+            },
+            "victoryScreen": {
+                "title": "DIP je připravený",
+                "sectionTitle": "Jak pokračovat?",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "Dlouhodobý investiční produkt už máte",
+                        "detail": "Součástí je také Spořicí účet DIP, ze kterého můžete investovat do renomovaných podílových fondů."
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Vložení peněz na Spořicí účet DIP",
+                        "detail": "Od této chvíle můžete využít daňovou úsporu."
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Nastavení investice<br>ze Spořicího účtu DIP"
+                    }
+                ],
+                "primaryButton": "Poslat peníze na Spořicí účet DIP",
+                "secondaryButton": "Poslat peníze později"
+            },
+            "victoryScreenDeposit": {
+                "title": "Peníze jsou na cestě na Váš spořicí účet DIP.<br>Můžete investovat",
+                "subtitle": "Peníze převedeme zpravidla za několik minut. Nejpozději následující pracovní den.",
+                "primaryButton": "Pokračovat"
+            },
+            "longTermProcess": {
+                "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                "subtitle": "V pracovních dnech to zvládneme za pár hodin, pokud je víkend, hotovo budeme mít v pondělí.\n\nHned poté Vám dáme vědět na Přehledu, smlouvu uložíme do dokumentů a aktivujeme Vám účet.\n\nOmlouváme se Vám a děkujeme za trpělivost.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "victoryScreenFinal": {
+                "title": "Využijte DIP na maximum",
+                "sectionTitle": "Jak pokračovat?",
+                "bullets": [
+                    {
+                        "icon": "reconstructionFill",
+                        "title": "Potvrzení pro zaměstnavatele a čerpání příspěvku",
+                        "detail": "Stáhněte si potvrzení o vedení DIP a nechte si přispívat na dlouhodobý investiční produkt."
+                    },
+                    {
+                        "icon": "savingsFill",
+                        "title": "Nastavení investice<br>ze Spořicího účtu DIP"
+                    }
+                ],
+                "navigationCard": {
+                    "icon": "fileLinesFill",
+                    "title": "Potvrzení DIP pro zaměstnavatele",
+                    "description": "PDF ke stažení"
+                },
+                "primaryButton": "Přejít na Přehled DIP"
+            },
+            "processFail": {
+                "title": "Omlouváme se, tak tohle nevyšlo",
+                "subtitle": "Bohužel nastala neočekávaná chyba a není možné pokračovat. \nProsím, zkuste to později.",
+                "primaryButton": "Zpět na Přehled"
             }
         }
     }
