@@ -1,0 +1,184 @@
+{
+    "scenes": {
+        "pairingMethod": {
+            "title": "Zvolte způsob, jak propojit aplikaci s existujícím účtem",
+            "options": {
+                "viaSB": {
+                    "title": "Přes mou Smart Banku na jiném zařízení",
+                    "description": "Pokud jste si pořídili nový telefon.",
+                    "howToButton": "Jak na to?"
+                },
+                "viaIB": {
+                    "title": "Pomocí Internet Banky a dokladu",
+                    "description": "Když jste u počítače a máte u sebe doklad totožnosti.",
+                    "howToButton": "Jak na to?"
+                },
+                "viaTwoDocuments": {
+                    "title": "Se dvěma českými doklady totožnosti",
+                    "description": "Když máte občanský průkaz a řidičák, nebo pas.",
+                    "howToButton": "Jak na to?"
+                }
+            },
+            "moreOptionsTitle": "Další možnosti",
+            "scanQrOption": "Načíst QR kód",
+            "noAccountOption": "Účet v Monetě zatím nemám"
+        },
+        "helpScanQr": {
+            "title": "K čemu slouží QR kód?",
+            "description": "Pomocí QR kódu můžete rychle:\npokračovat ve sjednání nového produktu z\u00a0webu nebo e-mailu,\npropojit svou aplikaci se stávajícími účty v\u00a0Monetě",
+            "items": {
+                "continueFromWeb": {
+                    "title": "Pokračovat z webu nebo emailu",
+                    "description": "Zobrazil se vám při sjednání produktu QR kód nebo jste ho obdrželi e-mailem? Jednoduše ho načtěte a pokračujte do Smart Banky."
+                },
+                "linkWithIB": {
+                    "title": "Propojit s Internet Bankou",
+                    "description": "Pokud už u nás máte účet, můžete si s ním Smart Banku propojit přes Internet Banku. Přihlaste se na ib.moneta.cz, v horním menu zvolte Nastavení a v levém části pak Smart Banka. Poté načtěte zobrazený kód.\n\nPokud aktivujete Smart Banku poprvé, je třeba nejdříve odsouhlasit podmínky s jejím používáním."
+                },
+                "linkWithSB": {
+                    "title": "Propojit s jinou Smart Bankou",
+                    "description": "Pokud už používáte Smart Banku na jiném zařízení (telefon, tablet), otevřete si ji, zvolte v menu Více, Váš profil a Správa zařízení. Klikněte na tlačítko Připojit další. Na aktivním zařízení poté uvidíte aktivační kód.\nNásledně klikněte na Skenovat QR kód."
+                }
+            }
+        },
+        "loginQrWarning": {
+            "title": "Zdá se, že skenujete přihlašovací QR kód",
+            "description": "Pro spárování zařízení se prosím nejprve přihlaste a pokračujte podle instrukcí.",
+            "primaryButton": "Zpět na instrukce"
+        },
+        "documentSelection": {
+            "title": "Jaké doklady máte k dispozici?",
+            "options": {
+                "czechId": "Český občanský průkaz",
+                "residencePermit": "Povolení k pobytu\ns českým rodným číslem",
+                "noDocuments": "Nemám české doklady ani rodné číslo"
+            }
+        },
+        "existingAccount": {
+            "title": "Vidíme, že u nás už účet máte. Chcete ho propojit se Smart Bankou?",
+            "description": "Bohužel nový účet touto cestou\nzaložit neumíme.",
+            "primaryButton": "Propojit s existujícím účtem",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "devicePairing": {
+            "title": "Propojte dětské zařízení prostřednictvím QR kódu",
+            "stepsTitle": "Na dětském zařízení:",
+            "steps": {
+                "installApp": "Nainstalujte aplikaci Smart Banka a otevřete ji",
+                "selectScanQr": "Na její úvodní obrazovce zvolte v levé horní části možnost Skenovat QR kód",
+                "enterCode": "Naskenujte nebo opište do dětského zařízení aktivační kód, který vidíte výše"
+            },
+            "primaryButton": "Hotovo",
+            "secondaryButton": "Dokončím později"
+        },
+        "twoDocumentsPairing": {
+            "title": "Připravte si doklady a pokračujte podle instrukcí",
+            "steps": [
+                {
+                    "id": 1,
+                    "label": "Připravte si dva doklady totožnosti."
+                },
+                {
+                    "id": 2,
+                    "label": "Pokračujte podle instrukcí a postupně oba doklady naskenujte."
+                }
+            ],
+            "noDocumentsButton": "Nemám české doklady",
+            "continueButton": "Mám dva doklady, pokračovat",
+            "goToBranchTitle": "Pojďme to vyřešit na pobočce",
+            "goToBranchSubtitle": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku."
+        },
+        "otherDevicePairing": {
+            "title": "Připravte si původní zařízení a pokračujte dle instrukcí",
+            "stepsTitle": "Jak na to?",
+            "steps": [
+                {
+                    "id": 1,
+                    "label": "Přejděte na původní zařízení se Smart Bankou a přihlaste se"
+                },
+                {
+                    "id": 2,
+                    "label": "Otevřete menu Více --> Nastavení a profil --> Připojení nového zařízení"
+                },
+                {
+                    "id": 3,
+                    "label": "Nechte otevřenou obrazovku s QR kódem se symbolem „propojení“"
+                },
+                {
+                    "id": 4,
+                    "label": "Na tomto zařízení klikněte na tlačítko níže a namiřte fotoaparátem na QR kód"
+                }
+            ],
+            "scanButton": "Načíst QR kód se symbolem „propojení“",
+            "videoGuideURL": "https://ib.moneta.cz/video/nove_zarizeni_fullHD.mp4"
+        },
+        "getStarted": {
+            "title": "Začněte s Monetou nebo pokračujte v založení",
+            "continueFromWebTitle": "Pokračovat z webu nebo e-mailu",
+            "scanQrButton": "Načíst QR kód",
+            "separator": "nebo",
+            "accountTypeTitle": "Jak chcete Smart Banku používat?",
+            "accountTypes": {
+                "meOrFamily": {
+                    "title": "Pro mě nebo rodinu",
+                    "description": "Osobní finance, spoření, investice a další.",
+                    "button": "Založit"
+                },
+                "soleTrader": {
+                    "title": "Fyzická osoba\npodnikající",
+                    "description": "Účet, úvěry, spoření a další pro OSVČ.",
+                    "button": "Založit"
+                },
+                "company": {
+                    "title": "Pro firmu",
+                    "description": "Nebo organizaci.",
+                    "button": "Založit"
+                }
+            },
+            "foreignerNotice": "Nemáte české občanství?\nNaše produkty vám rádi založíme na kterékoliv naší pobočce."
+        },
+        "internetBankPairingGuide": {
+            "loginPageTitle": "Přejděte do Internet Banky a klikněte na „Přihlášení ID a heslem”",
+            "qrScanPageTitle": "V přihlášené Internet Bance klikněte v horním menu na „+Propojit Smart Banku”",
+            "loginPageTutorial": "https://ib.moneta.cz/video/ib_pt1_fullHD.mp4",
+            "qrScanPageTutorial": "https://ib.moneta.cz/video/ib_pt2_fullHD.mp4",
+            "sectionHeader": "Jak na to?",
+            "loginSteps": [
+                {
+                    "id": 1,
+                    "label": "Na počítači přejděte na přihlašovací stránku Internet Banky <b>ib.moneta.cz.</b>"
+                },
+                {
+                    "id": 2,
+                    "label": "Přepněte možnost přihlášení <b>„Přihlášení ID a heslem”.</b>"
+                },
+                {
+                    "id": 3,
+                    "label": "Zadejte své <a href=\"id\">Identifikační číslo (ID)</a>, <a href=\"password\">heslo</a> a přihlaste se."
+                },
+                {
+                    "id": 4,
+                    "label": "Potvrďte přihlášení pomocí <b>kódu SMS</b>"
+                }
+            ],
+            "qrScanSteps": [
+                {
+                    "id": 5,
+                    "label": "V Internet Bance klikněte v horním menu na  <b>„+Propojit Smart Banku”.</b>"
+                },
+                {
+                    "id": 6,
+                    "label": "Na tomto zařízení klikněte na tlačítko níže a namiřte fotoaparátem <b>na QR kód s modrým symbolem „propojení”</b>"
+                }
+            ],
+            "forgotPasswordButton": "Zapomněli jste heslo do IB?",
+            "loginConfirmButton": "Jsem přihlášen v Internet Bance",
+            "scanQrButton": "Načíst QR kód se symbolem"
+        },
+        "forgotPassword": {
+            "title": "Zastavte se za námi na pobočce nebo zvolte jiný způsob propojení.",
+            "primaryButton": "Sjednat schůzku na pobočce",
+            "secondaryButton": "Zpět na možnosti párování"
+        }
+    }
+}
