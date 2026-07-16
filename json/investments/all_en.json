@@ -9322,6 +9322,92 @@
                     "value": "Euro"
                 }
             ]
+        },
+        "filter": {
+            "title": "Filtrování produktů",
+            "searchPlaceholder": "Název produktu",
+            "applyButton": "Filtrovat produkty",
+            "risk": {
+                "id": "risk",
+                "title": "Rizikovost",
+                "options": [
+                    {
+                        "id": 0,
+                        "text": "Nízká"
+                    },
+                    {
+                        "id": 1,
+                        "text": "Střední"
+                    },
+                    {
+                        "id": 2,
+                        "text": "Vysoká"
+                    }
+                ]
+            },
+            "currency": {
+                "id": "currency",
+                "title": "Měna",
+                "options": [
+                    {
+                        "id": "CZK",
+                        "text": "CZK"
+                    },
+                    {
+                        "id": "EUR",
+                        "text": "EUR"
+                    }
+                ]
+            },
+            "investmentLength": {
+                "id": "recommendedLength",
+                "title": "Doporučená délka",
+                "options": [
+                    {
+                        "id": 1,
+                        "text": "Minimálně 1 rok"
+                    },
+                    {
+                        "id": 3,
+                        "text": "Minimálně 3 roky"
+                    },
+                    {
+                        "id": 5,
+                        "text": "Minimálně 5 let"
+                    }
+                ]
+            },
+            "productType": {
+                "id": "productType",
+                "title": "Typ produktu",
+                "options": [
+                    {
+                        "id": "MIX",
+                        "text": "Smíšený"
+                    },
+                    {
+                        "id": "BOND",
+                        "text": "Dluhopisový"
+                    },
+                    {
+                        "id": "STOCKS",
+                        "text": "Akciový"
+                    },
+                    {
+                        "id": "SHORT_TERM_BOND",
+                        "text": "Krátkodobé dluhopisy"
+                    },
+                    {
+                        "id": "REAL_ESTATE",
+                        "text": "Realitní"
+                    }
+                ]
+            },
+            "issuer": {
+                "id": "issuer",
+                "title": "Společnost",
+                "options": []
+            }
         }
     }
 }
