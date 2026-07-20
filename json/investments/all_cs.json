@@ -9341,6 +9341,10 @@
                 "title": "Rizikovost",
                 "options": [
                     {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
                         "id": "low",
                         "text": "Nízká"
                     },
@@ -9359,6 +9363,10 @@
                 "title": "Měna",
                 "options": [
                     {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
                         "id": "CZK",
                         "text": "CZK"
                     },
@@ -9372,6 +9380,10 @@
                 "id": "recommendedLength",
                 "title": "Doporučená délka",
                 "options": [
+                    {
+                        "id": 0,
+                        "text": "Vše"
+                    },
                     {
                         "id": 1,
                         "text": "Minimálně 1 rok"
@@ -9390,6 +9402,10 @@
                 "id": "productType",
                 "title": "Typ produktu",
                 "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
                     {
                         "id": "MIX",
                         "text": "Smíšený"
@@ -9415,7 +9431,12 @@
             "issuer": {
                 "id": "issuer",
                 "title": "Společnost",
-                "options": []
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    }
+                ]
             }
         }
     }
