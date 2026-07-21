@@ -29,7 +29,8 @@ jobs:
         run: npm ci
 
       - name: Run sync
-        run: sh sync
+        shell: bash
+        run: ./sync
 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
