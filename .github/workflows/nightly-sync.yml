@@ -1,8 +1,8 @@
-name: Nightly sync from TST1
+name: Morning sync from TST1
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
