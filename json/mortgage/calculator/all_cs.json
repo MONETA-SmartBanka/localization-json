@@ -1,7 +1,7 @@
 {
     "scenes": {
         "main": {
-            "title": "Hypotéka s garancí nejnižšího úroku na trhu",
+            "title": "Hypotéka s garancí nejnižšího úroku s předčasným splacením zdarma",
             "titlePreApproved": "Připravili jsme vám až {0} od {1} ročně",
             "propertyPrice": "Cena nemovitosti",
             "loanAmountTitle": "Chci si půjčit",
@@ -18,7 +18,7 @@
             "rpsn": "RPSN",
             "totalAmount": "Celkem zaplatíte",
             "totalAmountWithInsurance": "včetně pojištění",
-            "footer": "Sazba 3,99&nbsp;% ročně platí pro všechny žadatele o&nbsp;hypotéku s&nbsp;jednoletou nebo tříletou fixací úrokové sazby, s&nbsp;LTV do 80&nbsp;% a&nbsp;s&nbsp;výší úvěru nad 1&nbsp;milion korun. Na sjednání úvěru nevzniká právní nárok a&nbsp;nabídka není závazná.\nVýpočet je pouze orientační. Přesný výpočet a&nbsp;parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
+            "footer": "Výpočet je pouze orientační. Přesný výpočet a&nbsp;parametry Vaší půjčky získáte během online žádosti. Podívejte se na <a href=\"link\">reprezentativní příklad</a>.",
             "primaryButton": "Sjednat hypotéku online",
             "recalculating": "Přepočítáváme...",
             "bonuses": [
@@ -39,24 +39,26 @@
                 "icon": "homeRepeatFill"
             },
             "insurance": {
-                "title": "Pojištění za vás zaplatí",
+                "title": "Díky pojištění získáte",
                 "coverage": [
                     {
                         "icon": "tickFill",
-                        "text": "<b>Až 12 splátek</b> úvěru v případě ošetřování člena rodiny, ztráty zaměstnání nebo v případě pracovní neschopnosti, a navíc v případě dlouhodobé nemoci od 7.-12. měsíce navíc částka ve výši splátky na účet klienta."
+                        "text": "<b>Až 12 splátek</b> úvěru v případě ošetřování člena rodiny, ztráty zaměstnání, zrušení nebo přerušení živnosti nebo v případě pracovní neschopnosti."
                     },
                     {
                         "icon": "tickFill",
-                        "text": "<b>Zbývající část úvěru</b> v&nbsp;případě invalidity III. stupně nebo úmrtí."
-                    }
-                ],
-                "doctor": [
+                        "text": "<b>12 splátek jednorázově</b> v&nbsp;případě invalidity I. stupně."
+                    },
                     {
-                        "icon": "medicalKitFill",
-                        "text": "<b>S pojištěním máte k&nbsp;dispozici Virtuální ordinaci 24/7 s&nbsp;lékařem online</b>, který vám může poslat například e-recept nebo žádanku na vyšetření."
+                        "icon": "tickFill",
+                        "text": "<b>Úhradu zbývající části úvěru</b> v&nbsp;případě přiznání invalidity II. či III. stupně, ZTP&#8288;/&#8288;P nebo úmrtí."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "text": "<b>Virtuální ordinaci 24/7 s&nbsp;lékařem online</b>, který vám může poslat například e-recept nebo žádanku na vyšetření."
                     }
                 ],
-                "termsAndConditions": "Pokračováním potvrzujete, že nejste invalidní a&nbsp;že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-hypotecni-uver.pdf/221733ed-a36a-a427-b3d6-7328d6da2494?t=1719836291247\">Podmínkami&nbsp;pojištění</a>.\n\nV případě invalidity nedojde k&nbsp;plnění při pojistné události.",
+                "termsAndConditions": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita (1. - 3. stupně). Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/d/guest/mmb-informace-o-pojistovacim-zprostredkovateli\">Informace&nbsp;o&nbsp;pojišťovacím&nbsp;zprostředkovateli</a> a <a href=\"https://www.moneta.cz/documents/d/guest/mmb-brozura-pojisteni-schopnosti-splacet-hypotecni-uver-2026\">Brožura&nbsp;pojištění&nbsp;schopnosti&nbsp;splácet&nbsp;2026</a>",
                 "primaryButton": "Chci se pojistit",
                 "secondaryButton": "Nechci pojištění"
             },
@@ -66,7 +68,7 @@
                 "primaryButton": "Potvrdit"
             },
             "loanAmount": {
-                "title": "Zabydlete se s úrokem od 3.99 %",
+                "title": "Zabydlete se s úrokem od 4.39 %",
                 "info": "Nejvýhodnější úrokovou sazbu můžete získat, pokud si půjčíte do 80 % odhadní ceny nemovitosti.",
                 "infoYoung": "Hypotéku na více než 80 % odhadní ceny nemovitosti poskytujeme především klientům mladším 36 let.",
                 "infoOverLtv": "Protože poskytujeme hypotéku maximálně na 90 % z ceny nemovitosti, automaticky navýšíme celkovou cenu nemovitosti.",
@@ -90,11 +92,11 @@
                 "content": [
                     {
                         "title": "S pojištěním schopnosti splácet u BNP Paribas Cardif Pojišťovny, a.s.:",
-                        "text": "・měsíční splátka úvěru: 11 635 Kč\n・měsíční platba za pojištění: 1 046 Kč\n・úroková sazba: 3,79 % ročně\n・RPSN: 4,62 % \n・celková splatná částka: 4 580 309 Kč"
+                        "text": "・měsíční splátka úvěru: 12 801 Kč\n・měsíční platba za pojištění: 1 407 Kč\n・úroková sazba: 4,59 % ročně\n・RPSN: 5,65 % \n・celková splatná částka: 5 128 145 Kč"
                     },
                     {
                         "title": "Bez pojištění schopnosti splácet:",
-                        "text": "・měsíční splátka úvěru: 11 921 Kč\n・úroková sazba: 3,99 % ročně\n・RPSN: 4,08 %\n・celková splatná částka: 4 306 514 Kč"
+                        "text": "・měsíční splátka úvěru: 13 102 Kč\n・úroková sazba: 4,79 % ročně\n・RPSN: 4,90 %\n・celková splatná částka: 4 729 179 Kč"
                     },
                     {
                         "title": "Co je v souvislosti s úvěrem zdarma:",

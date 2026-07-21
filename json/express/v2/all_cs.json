@@ -93,7 +93,7 @@
         },
         "scenes": {
             "nib": {
-                "ppiDocuments": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byl přiznán invalidní důchod. Více informací o pojištění najdete v dokumentu {0}."
+                "ppiDocuments": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita. Více informací o pojištění najdete v dokumentu {0}."
             },
             "billing": {
                 "title": "Kam peníze pošleme a jak půjčku splácet?",
@@ -166,10 +166,10 @@
                     "title": "Splácejte s jistotou",
                     "subtitle": "Pro případ, že by Vám poklesly příjmy z důvodu nenadálé situace, pojišťovna zajistí:",
                     "bullets": [
-                        "Až <b>12 splátek</b> při ztrátě zaměstnání (nebo zrušení živnosti), pokud budete v pracovní neschopnosti nebo v případě nutnosti ošetřování člena rodiny",
-                        "<b>1 splátku</b>, pokud se budete léčit v nemocnici",
-                        "<b>Doplacení úvěru</b> v případě přiznání invalidity II. nebo III. stupně a ZTP/P nebo v případě úmrtí",
-                        "<b>Virtuální ordinace 24/7</b> s lékařem na telefonu, který může poslat např. e-recept nebo žádanku na další vyšetření"
+                        "<b>Až 12 splátek</b> při ztrátě zaměstnání (nebo zrušení živnosti), pokud budete v pracovní neschopnosti nebo v případě nutnosti ošetřování člena rodiny",
+                        "<b>Jednorázově 12 splátek</b> v případě invalidity I.stupně",
+                        "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí.",
+                        "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření."
                     ],
                     "insurance": "Pojištění schopnosti splácet za <b>{0} měsíčně</b> ke splátce",
                     "insuranceInfo": "Jistota, že své závazky splatíte",
@@ -204,9 +204,9 @@
                     "detail": "<a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Přečtěte si přehledné a srozumitelné podmínky</a>",
                     "ppiDocuments": "Přečtěte si {0}",
                     "bullets": [
-                        "<b>Až 12 splátek</b> při ztrátě zaměstnání nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny.",
-                        "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí.",
-                        "<b>1 splátku</b> při hospitalizaci"
+                        "<b>Až 12 splátek</b> při ztrátě zaměstnání, přerušení nebo zrušení živnosti, pracovní neschopnosti a ošetřování člena rodiny.",
+                        "<b>Jednorázově 12 splátek</b> v případě invalidity I.stupně",
+                        "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí."
                     ],
                     "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření."
                 },
@@ -1525,12 +1525,12 @@
                     "<b>Jednorázově 12 splátek</b> v případě invalidity I.stupně",
                     "<b>Zbývající část úvěru</b> v případě přiznání ZTP/P, invalidity II. či III. stupně, úmrtí."
                 ],
-                "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření.",
-                "primaryButton": "Pojistit se za {0} CZK měsíčně",
-                "detail": "Kliknutím na \"Pojistit\" souhlasíte s Rámcovou pojistnou smlouvou včetně Pojistných podmínek a sjednáváte si pojištění schopnosti splácet. <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\"><b>Přečtěte si přehledné a srozumitelné podmínky>></b></a>",
+                "bulletsFooter": "<b>S pojištěním máte k dispozici Virtuální ordinaci 24/7 s lékařem online,</b> který vám může poslat například e-recept nebo žádanku na vyšetření.",
+                "primaryButton": "Pojistit se za {0} CZK měsíčně",
+                "detail": "Kliknutím na \"Pojistit\" souhlasíte s Rámcovou pojistnou smlouvou včetně Pojistných podmínek a sjednáváte si pojištění schopnosti splácet.<br><a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\"><b>Přečtěte si přehledné a srozumitelné podmínky>></b></a>",
                 "iddDetail": "Smluvní dokumentaci k pojištění obdržíte v elektronické podobě. Listinnou podobu dokumentace obdržíte na kterékoli <a href=\"smartbanka://open/path?ACTION=APPPAGE&URL=BRANCHESATMS\">pobočce MONETA Money Bank</a>.",
                 "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění</a>.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
-                "ppiDocuments": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita. Více informací o pojištění najdete v dokumentu {0}.",
+                "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}.<br><br>V případě invalidity nedojde k plnění při pojistné události.",
                 "secondaryButton": "Nechci pojištění"
             },
             "insuranceDisabled": {
@@ -1579,17 +1579,17 @@
             },
             "victory": {
                 "title": "A je to. Peníze už jsou na cestě k Vám a dorazí do pěti minut. Užijte si je!",
-                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "tomorrowVictory": {
                 "title": "Váše půjčka bude k dispozici následující pracovní den ráno.",
-                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "delayedVictory": {
                 "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat.",
-                "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám půjčku načerpáme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Moje dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
+                "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám půjčku načerpáme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "sign": {
