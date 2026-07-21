@@ -18,19 +18,19 @@
     },
     "dashboard_v2": {
         "title": "Vítejte ve Smart Bance",
-        "scanQR": "Skenovat QR kód",
+        "scanQR": "Načíst QR kód",
         "existingClient": {
-            "icon": "userVerifiedFill",
-            "title": "Jste naším klientem?",
-            "detail": "Nebo disponentem?",
-            "primaryButton": "Přihlásit se"
+            "icon": "linkFill",
+            "title": "Propojte si aplikaci s existujícím účtem",
+            "detail": "Jsem klient nebo existující disponent.",
+            "primaryButton": "Propojit"
         },
         "newClient": {
             "icon": "starsAltFill",
-            "title": "Ještě se neznáme?",
-            "detail": "Smart Banka má vše, co potřebujete. Její součástí je běžný účet se vším <b>zdarma</b>.",
-            "primaryButton": "Vyzkoušet Moneta aplikaci",
-            "secondaryButton": "Pokračovat QR kódem z webu"
+            "title": "Začněte s Monetou",
+            "detail": "Pro Vás i Vaše podnikání.",
+            "primaryButton": "Založit",
+            "secondaryButton": "Načíst QR kód z webu"
         },
         "changeLanguage": "English",
         "branches": "Pobočky",
@@ -96,11 +96,11 @@
                         "deeplink": "JTVETB",
                         "templateId": 1000382,
                         "icon": "wallPiggyBankFill",
-                        "title": "Nejlepší termínovaný vklad na trhu s úrokem až 3,40 % ročně.",
+                        "title": "Nejlepší termínovaný vklad na trhu s úrokem až 3,70 % ročně.",
                         "subtitle": "Jisté zhodnocení vašich peněz s garantovaným úrokem.",
                         "pills": [
                             {
-                                "text": "úrok až 3,4 %",
+                                "text": "úrok až 3,7 %",
                                 "style": "gold"
                             }
                         ]
@@ -183,14 +183,14 @@
                         "templateId": 1000447,
                         "icon": "usersFill",
                         "title": "Kreditní karta Smart",
-                        "subtitle": "Získejte nyní 5 % zpět z nákupu potravin a 1 % z dalších nákupů.",
+                        "subtitle": "Získejte nyní 10 % zpět z nákupu potravin a 1 % z dalších nákupů.",
                         "pills": [
                             {
                                 "text": "0 % úrok až 50 dní",
                                 "style": "green"
                             },
                             {
-                                "text": "až 500 Kč měsíčně",
+                                "text": "až 6 000 Kč",
                                 "style": "gold"
                             }
                         ]

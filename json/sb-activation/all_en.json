@@ -37,12 +37,49 @@
                 ],
                 "primaryButton": "Take a photo of the ID card"
             },
+            "residencePermitIntro": {
+                "title": "Now we’ll verify your identity",
+                "bullets": [
+                    {
+                        "title": "Take a photo of your residence permit",
+                        "description": "Prepare your residence permit issued in the Czech Republic.",
+                        "icon": "plain1"
+                    },
+                    {
+                        "title": "Identity verification",
+                        "description": "We’ll then confirm that it’s really you and no one else pretending to be you.",
+                        "icon": "plain2"
+                    }
+                ],
+                "detail": "Your residence permit must include a Czech birth number and be issued on or after 1 July 2020.",
+                "primaryButton": "Continue"
+            },
+            "residencePermitSample": {
+                "title": "What does a residence permit look like?",
+                "detail": "Sample residence permit",
+                "bullets": [
+                    {
+                        "title": "We accept temporary and long-term residence permits as well as residence cards for family members.",
+                        "icon": "calendarFill"
+                    },
+                    {
+                        "title": "The document must be issued on or after 1 July 2020 and must include a Czech birth number.",
+                        "icon": "checkmarkFill"
+                    },
+                    {
+                        "title": "If you don’t have a Czech birth number, please visit one of our branches.",
+                        "icon": "triangleExclamationFill"
+                    }
+                ]
+            },
             "documentScan": {
                 "info": {
                     "idFrontTitle": "Now take a photo of the front side of your ID card",
                     "idBackTitle": "Now take a photo of the back side of your ID card",
                     "drivingLicenceTitle": "Now take a photo of the front side of your driver's license",
                     "passportLicenceTitle": "Now take a photo of the front side of your passport",
+                    "residencePermitFrontTitle": "Now take a photo of the front side of your residence permit",
+                    "residencePermitBackTitle": "Turn the residence permit over and take a photo of the back side",
                     "detail": "Make sure you are photographing:",
                     "bullets": [
                         {
@@ -62,6 +99,8 @@
                     "idBackTitle": "Back side of the ID card",
                     "drivingLicenceTitle": "Front side of the driver's license",
                     "passportLicenceTitle": "Front page of the passport",
+                    "residencePermitFrontTitle": "Front side of the residence permit",
+                    "residencePermitBackTitle": "Back side of the residence permit",
                     "takePhoto": "Take a photo",
                     "reviewTitle": "Is everything clearly visible?",
                     "yes": "Yes",

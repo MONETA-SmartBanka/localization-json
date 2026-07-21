@@ -322,10 +322,6 @@
                     },
                     {
                         "icon": "tickFill",
-                        "text": "No maintenance fees"
-                    },
-                    {
-                        "icon": "tickFill",
                         "text": "No proof of income required"
                     },
                     {
@@ -386,7 +382,7 @@
                     },
                     {
                         "icon": "tickFill",
-                        "text": "No drawdown or management fees"
+                        "text": "No drawdown fees or management fees"
                     },
                     {
                         "icon": "tickFill",
@@ -559,7 +555,6 @@
                 "bullets": [
                     "Arranged online within minutes",
                     "From {interestRate} p.a.",
-                    "No maintenance fees",
                     "No proof of income required",
                     "Business Account free of charge",
                     "Repay with peace of mind with Payment Protection Insurance"
@@ -1110,7 +1105,7 @@
                     "interestRate": "Interest rate",
                     "bullets": [
                         "Option to deduct loan interest from your taxable income.",
-                        "No drawdown or maintenance fees"
+                        "No drawdown"
                     ],
                     "disclaimer": "By activating you agree to arrange a business loan <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver-nezajisteny\">Express Business</a>."
                 }
@@ -1206,7 +1201,7 @@
         },
         "contractExpres": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act.",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act.",
             "message": "Together with your loan we will set up a  <a href=\"productsPackage\">package of products</a>.",
             "productsPackage": {
                 "title": "Product package with your business loan",
@@ -1223,7 +1218,7 @@
         },
         "contractCc": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
             "message": "Together with your credit card we will set up a  <a href=\"productsPackage\">package of products</a>..",
             "productsPackage": {
                 "title": "Product package with your credit card",
@@ -1240,7 +1235,7 @@
         },
         "contractFlexi": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
             "message": "Together with Overdraft we will set up a  <a href=\"productsPackage\">package of products</a>.",
             "productsPackage": {
                 "title": "Product package with your Business Ovedraft",
@@ -1261,8 +1256,8 @@
         },
         "productVictory": {
             "title": "Congratulations! It's all set up",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>.",
-            "detailExpres": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>.",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>.",
+            "detailExpres": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>.",
             "products": {
                 "commercialAccount": {
                     "title": "PRO Business Account",
@@ -1313,7 +1308,7 @@
         },
         "vocabulary": {
             "promo": {
-                "title": "Promotion: 10 % for Grocery",
+                "title": "Get 1% cashback on every card payment",
                 "detail": "Complete information about this promotion can be found at <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-kreditni-karta\">MONETA Business Card</a>."
             },
             "internetBank": {
@@ -1451,7 +1446,7 @@
             },
             "posSavings": {
                 "title": "How does it work?",
-                "detail": "The total saved amount when applying online includes waived loan fees, waived management fees, and interest savings due to a reduced interest rate compared to the standard branch rate."
+                "detail": "Your estimated savings show how much you could save over the full loan term by applying online rather than at a branch. This includes differences in drawdown and loan administration fees, as well as interest savings."
             }
         }
     }

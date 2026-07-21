@@ -1,7 +1,7 @@
 {
     "scenes": {
         "main": {
-            "title": "Mortgage with a guarantee of the lowest rate on the market",
+            "title": "Mortgage with a Lowest-Rate Guarantee and Free Early Repayment",
             "titlePreApproved": "Up to {0} for you from {1} p.a",
             "propertyPrice": "Property value",
             "loanAmountTitle": "Desired amount",
@@ -18,7 +18,7 @@
             "rpsn": "APR",
             "totalAmount": "Total amount due",
             "totalAmountWithInsurance": "including insurance",
-            "footer": "The 3.99% p.a. interest rate applies to all mortgage applicants choosing a 1-year or 3-year fixed-rate period, with an LTV of up to 80% and a loan amount over CZK 1,000,000. There is no legal entitlement to the loan, and the offer is non-binding.\nThis calculation is for illustrative purposes only. You will receive the exact calculation and your loan terms during the online application.  See a <a href=\"link\">representative example</a>.",
+            "footer": "This calculation is for illustrative purposes only. You will receive the exact calculation and your loan terms during the online application.  See a <a href=\"link\">representative example</a>.",
             "primaryButton": "Arrange mortgage online",
             "recalculating": "Recalculating...",
             "bonuses": [
@@ -28,7 +28,7 @@
                     "info": {
                         "icon": "couple",
                         "title": "Couples are eligible for more",
-                        "detail": "A clear advantage of applying for a mortgage as a couple is that the bank assesses your combined creditworthiness as that of the entire household. This can help you qualify for much better loan conditions."
+                        "detail": "If you apply together, we’ll consider both of your incomes. This may help you borrow more and get better terms."
                     }
                 }
             ],
@@ -39,30 +39,28 @@
                 "icon": "homeRepeatFill"
             },
             "insurance": {
-                "title": "The insurance covers",
+                "title": "What will you receive?",
                 "coverage": [
                     {
                         "icon": "tickFill",
-                        "text": "<b> Up to 12 repayments </b> covered in case of job loss or business closure, incapacity for work, or caring for a family member "
+                        "text": "Up to 12 monthly loan instalments if you need to <b>take care of a family member</b>, become <b>involuntarily unemployed</b>, experience a business interruption or termination or become <b>temporarily disabled</b>."
                     },
                     {
                         "icon": "tickFill",
-                        "text": "<b> The remainder of the loan </b> in case of a ZTP/P disability status, second- or third-degree disability, or death. "
+                        "text": "A lump-sum payment equal to 12 instalments in the event of <b>minimal permanent disability</b>."
                     },
                     {
                         "icon": "tickFill",
-                        "text": "<b>1 repayment</b> while hospitalized."
-                    }
-                ],
-                "doctor": [
+                        "text": "Repayment of the outstanding balance in the event of <b>partial permanent disability, total permanent disability</b>, issuance of a disability card (ZTP/P), or <b>death</b>."
+                    },
                     {
-                        "icon": "medicalKitFill",
-                        "text": "<b> With insurance, you have access to a 24/7 Virtual Clinic with a doctor available via telehealth </b> who can, for example, send you an e-prescription or a referral for an examination. "
+                        "icon": "tickFill",
+                        "text": "24/7 <b>online doctor</b> - immediate access to a qualified doctor who can, for example, issue e-prescription or referrals for medical examinations."
                     }
                 ],
-                "termsAndConditions": "By continuing, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Insurance Terms and Conditions</a>.\n\n. If you are disabled when arranging the insurance, no benefits will be paid in the event of a claim.",
-                "primaryButton": "I would like to get insurance",
-                "secondaryButton": "I’m not interested"
+                "termsAndConditions": "Payment protection insurance is not available to anyone who already has a permanent disability (whether minimal, partial, or total). For full details, please refer to the document <a href=\"https://www.moneta.cz/documents/d/guest/mmb-informace-o-pojistovacim-zprostredkovateli\">Information&nbsp;about&nbsp;the&nbsp;Intermediary</a> and <a href=\"https://www.moneta.cz/documents/d/guest/mmb-brozura-pojisteni-schopnosti-splacet-hypotecni-uver-2026\">Payment&nbsp;Protection&nbsp;Insurance&nbsp;Brochure&nbsp;2026</a>",
+                "primaryButton": "Arrange insurance",
+                "secondaryButton": "Not interested"
             },
             "propertyPriceSheet": {
                 "title": "What is the appraised value of the property?",
@@ -70,10 +68,10 @@
                 "primaryButton": "Confirm"
             },
             "loanAmount": {
-                "title": " Settle into your new home with interest rates from just 3.99%",
-                "info": " You can get the best interest rate if you borrow up to 80% of the property's appraised value ",
-                "infoYoung": " We primarily offer mortgages over 80% of the property's appraised value to clients under the age of 36.",
-                "infoOverLtv": " Because our mortgage covers up to 90% of the property's value, we automatically adjust the total property price accordingly.",
+                "title": "Settle into your new home with interest rates from just 4.39%",
+                "info": "You can get the best interest rate if you borrow up to 80% of the property's appraised value ",
+                "infoYoung": "We primarily offer mortgages over 80% of the property's appraised value to clients under the age of 36.",
+                "infoOverLtv": "Because our mortgage covers up to 90% of the property's value, we automatically adjust the total property price accordingly.",
                 "loanAmountTitle": "I’d like to borrow ",
                 "propertyPricePercent": "{0} of the property appraised value",
                 "primaryButton": "Confirm"
@@ -94,11 +92,11 @@
                 "content": [
                     {
                         "title": "With Payment Protection Insurance from BNP Paribas Cardif Pojišťovna, a.s.:",
-                        "text": "・monthly mortgage repayment: 11,635 CZK\n・monthly insurance premium: 1,046 CZK\n・interest rate: 3.79 % p.a.\n・APR: 4.62 % \n・total amount due: 4,580,309 CZK"
+                        "text": "・monthly mortgage repayment: 12,801 CZK\n・monthly insurance premium: 1,407 CZK\n・interest rate: 4.59 % p.a.\n・APR: 5.65 % \n・total amount due: 5,128,145 CZK"
                     },
                     {
                         "title": "Without Payment Protection Insurance:",
-                        "text": "・monthly mortgage repayment: 11,921 CZK\n・interest rate: 3.99 % p.a.\n・APR: 4.08 %\n・total amount due: 4,306,514 CZK"
+                        "text": "・monthly mortgage repayment: 13,102 CZK\n・interest rate: 4.79 % p.a.\n・APR: 4.90 %\n・total amount due: 4,729,179 CZK"
                     },
                     {
                         "title": "What is NOT charged:",

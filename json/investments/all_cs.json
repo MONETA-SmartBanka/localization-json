@@ -561,7 +561,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Pokud bance zadám pokyn k nákupu podílových listů za určitou částku, jak se nazývá služba, kterou banka provede?",
+                            "title": "Služba, při které předáte pokyn k nákupu podílových listů za určitou částku, se nazývá:",
                             "id": 1,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
@@ -569,17 +569,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Jde o službu Přijímání a předávání pokynů, protože banka předá můj pokyn investičnímu fondu, aby pro mě vydal nové podílové listy. ",
+                                    "title": "Přijímání a předávání pokynů",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka mi prodá podílové listy ze svého účtu a určí vlastní cenu, za kterou je od ní koupím. ",
+                                    "title": "Prodej z vlastního",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka najde několik prodávajících, ze kterých si vyberu toho, kdo mi bude nejvíc vyhovovat, a od něj si podílové listy napřímo odkoupím.",
+                                    "title": "Tržiště",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -591,7 +591,7 @@
                             ]
                         },
                         {
-                            "title": "Jak fungují podílové a investiční fondy?",
+                            "title": "Podílové a investiční fondy:",
                             "id": 2,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
@@ -599,17 +599,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Podílové i jiné investiční fondy pečují o můj majetek odděleně od ostatních klientů podle mé investiční strategie. ",
+                                    "title": "Pečují o mé finance odděleně od ostatních klientů podle mé unikátní investiční strategie.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podílové a další investiční fondy shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu fondu. ",
+                                    "title": "Shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podílové a investiční fondy nabízí pevně úročený vklad. Úrok je garantovaný, nehrozí tak žádná ztráta.",
+                                    "title": "Nabízí garantovaný úrok a nehrozí tak žádná ztráta.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -621,7 +621,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké jsou druhy podílových fondů?",
+                            "title": "Podílové fondy se dělí na:",
                             "id": 3,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
@@ -629,17 +629,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Pevné a plovoucí. U pevných podílových fondů je garantovaný přesný procentuální výnos. U plovoucích fondů se může výnos v budoucnu měnit. Konkrétní výnos podílových fondů stanovuje banka ve svých obchodních podmínkách.",
+                                    "title": "Pevné a plovoucí",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akciové a smíšené. Akciové fondy umožňují podílení se na fungování jednotlivých podniků a hlasování na jejich valných hromadách. Smíšené fondy oproti tomu zaručují, že v žádném případě neskončí investovaná částka ve ztrátě.",
+                                    "title": "Smíšené a akciové",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akciové, dluhopisové a smíšené. Akciové fondy jsou nejvíce kolísavé a je u nich možnost nejvyššího zisku i ztráty. Dluhopisové fondy, které jsou nejméně kolísavé a obvykle slibují nejnižší výnos.",
+                                    "title": "Akciové, dluhopisové a smíšené",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -651,7 +651,7 @@
                             ]
                         },
                         {
-                            "title": "Co jsou investiční certifikáty?",
+                            "title": "Investiční certifikáty:",
                             "id": 4,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
@@ -659,17 +659,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Investiční certifikáty vydávají investiční fondy. Jedná se o podílové listy, ke kterým byl certifikační autoritou vystaven certifikát pravosti.",
+                                    "title": "Vydávají investiční fondy. Jsou to podílové listy s vystaveným certifikátem pravosti certifikační autoritou (např. prezident nebo premiér).",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investiční certifikáty jsou cenné papíry, které mohou mít různé vlastnosti. Každý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi nejdůležitější podmínky patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
+                                    "title": "Jsou to cenné papíry, které mohou mít různé vlastnosti.\nKaždý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi ty nejdůležitější patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investiční certifikáty jsou totéž co dluhopisy. Termín investiční certifikáty se používá až v poslední době, a to pouze k ozvláštnění marketingových zpráv.",
+                                    "title": "Nahrazují dluhopisy. Termín investiční certifikáty se používá až v poslední době, k ozvláštnění marketingových zpráv.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -681,7 +681,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké jsou výhody a rizika investičních certifikátů?",
+                            "title": "Výhody a rizika investičních certifikátů jsou:",
                             "id": 5,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 správnou odpověď",
@@ -689,17 +689,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Výhodou investičních certifikátů je jejich rychlé a flexibilní vydání. U garantovaných certifikátů je výhodou také výrazně omezená možnost ztráty. Riziko certifikátů spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce, tzv. riziko protistrany.",
+                                    "title": "Výhodou je rychlé a flexibilní vydání. U garantovaných certifikátů také výrazně omezená možnost ztráty. Riziko spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce – tzv. riziko protistrany.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Výhodou investičních certifikátů je, že jsou založeny na blockchainové technologii, a mohou být proto převáděny podobně jako kryptoměny. Riziko certifikátů spočívá v nejasné regulaci, tj. velké právní riziko.",
+                                    "title": "Protože jsou založeny na blockchainové technologii, jejich výhodou je, že mohou být převáděny podobně jako kryptoměny. Riziko spočívá v nejasné regulaci, která s sebou nese značnou právní nejistotu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Výhodou investičních certifikátů je, že jsou vždy vydávány státem. Riziko investičních certifikátů spočívá zejména ve státním bankrotu.",
+                                    "title": "\tVydává je stát, což je výhoda, ale zároveň hrozí velké riziko, že stát zbankrotuje.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -718,7 +718,7 @@
                     "primaryButton": "Už jen 7 otázek",
                     "questions": [
                         {
-                            "title": "Jaké máte zkušenosti s podílovými fondy?",
+                            "title": "Máte zkušenosti s podílovými fondy?",
                             "id": 6,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -726,7 +726,7 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "V posledních 3 letech jsem investoval*a",
+                                    "title": "Investoval*a jsem během posledních 3 let.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
@@ -748,7 +748,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké máte zkušenosti s investičními certifikáty?",
+                            "title": "Máte zkušenosti s investičními certifikáty?",
                             "id": 7,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -756,7 +756,7 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "V posledních 3 letech jsem investoval*a",
+                                    "title": "Investoval*a jsem během posledních 3 let.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
@@ -778,7 +778,7 @@
                             ]
                         },
                         {
-                            "title": "Jak jste investoval*a v posledních 5 letech? ",
+                            "title": "V posledních 5 letech jste investoval*a:",
                             "id": 8,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -786,17 +786,17 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Investoval*a jsem jednorázově více než 50 000 Kč",
+                                    "title": "Jednorázově více než 50 000 Kč.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Investoval*a jsem jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí",
+                                    "title": "Jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Pravidelně investuji minimálně 500 Kč měsíčně",
+                                    "title": "Pravidelně aspoň 500 Kč měsíčně.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
@@ -816,7 +816,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji",
+                                    "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -841,7 +841,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Ano, za posledních 5 let mám relevantní pracovní zkušenost z kapitálových trhů",
+                                    "title": "Ano, za posledních 5 let.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -871,7 +871,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Které tvrzení nejlépe popisuje vaše chování během investování?",
+                            "title": "Které z následujících tvrzení nejlépe popisuje Vaše chování během života investice?",
                             "id": 11,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -879,22 +879,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Očekávám minimálně návrat investice, nejsem schopen unést žádnou ztrátu.",
+                                    "title": "Nechci přijít ani o korunu. Investici prodám při prvním náznaku poklesu.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji menší kolísání, jsem schopen unést případnou ztrátu do 5 %.",
+                                    "title": "Akceptuji menší pokles a možnou budoucí ztrátu do 5 %.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji kolísání, jsem schopen unést případnou ztrátu do 15 %.",
+                                    "title": "Akceptuji pokles a možnou budoucí ztrátu do 15 %.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji vyšší kolísání, jsem schopen unést případnou ztrátu přes 15 %.",
+                                    "title": "Akceptuji pokles a možnou budoucí ztrátu více než 15 %.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
@@ -909,17 +909,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Nižší riziko: 1 až 2 ",
+                                    "title": "Nižší riziko: 1 až 2.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Střední/vyšší riziko: 1 až 4",
+                                    "title": "Střední/vyšší riziko: 1 až 4.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Vyšší riziko: 1 až 5",
+                                    "title": "Vyšší riziko: 1 až 5.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -939,7 +939,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Do 1 roku včetně.",
+                                    "title": "Do 1 roku včetně",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -949,7 +949,7 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "3 až 5 roky včetně",
+                                    "title": "3 až 5 let včetně",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -966,7 +966,7 @@
                             ]
                         },
                         {
-                            "title": "Budete potřebovat peníze dříve než v plánované době? ",
+                            "title": "Budete potřebovat investované peníze dříve než v plánované době?",
                             "id": 14,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -974,17 +974,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Je určitá pravděpodobnost, že budu peníze potřebovat dříve.",
+                                    "title": "Spíše ano.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Může se stát, že budu peníze potřebovat dříve, ale je to málo pravděpodobné.",
+                                    "title": "Nevím.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Není pravděpodobné, že budu potřebovat peníze vybrat před uplynutím plánované doby.",
+                                    "title": "Spíše ne.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
@@ -1013,7 +1013,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Preferujete environmentálně udržitelné investice? ",
+                            "title": "Musí být vaše investice environmentálně udržitelné?",
                             "id": 15,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1021,39 +1021,39 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "NE, nepreferuji",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                                    "title": "Minimálně z 20 %",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                                    "title": "Minimálně ze 40 %",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                                    "title": "Minimálně z 60 %",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                                    "title": "Minimálně z 80 %",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji 100% environmentálně udržitelné investice",
+                                    "title": "100 %",
                                     "value": 6,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Preferujete udržitelné investice? ",
+                            "title": "Musí být vaše investice udržitelné?",
                             "id": 16,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1061,39 +1061,39 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "NE, nepreferuji",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                                    "title": "Minimálně z 20 %",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                                    "title": "Minimálně ze 40 %",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                                    "title": "Minimálně z 60 %",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                                    "title": "Minimálně z 80 %",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji 100% udržitelné investice",
+                                    "title": "100 %",
                                     "value": 6,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Chcete ve svých investicích zohlednit některé nepříznivé dopady na udržitelnost?",
+                            "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
                             "id": 17,
                             "maxAnswers": 5,
                             "maxAnswersErrMessage": "Vybrat můžete více odpovědí",
@@ -1101,7 +1101,7 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "NE, nemám takové preference.",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -1223,7 +1223,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Pokud bance zadám pokyn k nákupu podílových listů za určitou částku, jak se nazývá služba, kterou banka provede?",
+                            "title": "Služba, při které předáte pokyn k nákupu podílových listů za určitou částku, se nazývá:",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 1,
@@ -1233,22 +1233,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Jde o službu Přijímání a předávání pokynů, protože banka předá můj pokyn příslušnému investičnímu fondu, aby pro mě vydal nové podílové listy.",
+                                    "title": "Přijímání a předávání pokynů",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka mi prodá podílové listy ze svého účtu a určí vlastní cenu, za kterou je od ní koupím.",
+                                    "title": "Prodej z vlastního",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka najde několik prodávajících, ze kterých si vyberu toho, kdo mi bude nejvíc vyhovovat, a od něj si podílové listy napřímo odkoupím.",
+                                    "title": "Tržiště",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "Nevím",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1257,7 +1257,7 @@
                             ]
                         },
                         {
-                            "title": "Jak fungují podílové a investiční fondy?",
+                            "title": "Podílové a investiční fondy:",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 2,
@@ -1267,22 +1267,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Podílové i jiné investiční fondy pečují o můj majetek odděleně od ostatních klientů podle mé vlastní investiční strategie.",
+                                    "title": "Pečují o mé finance odděleně od ostatních klientů podle mé unikátní investiční strategie.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podílové a další investiční fondy shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu fondu.",
+                                    "title": "Shromažďují peníze od více investorů, které poté hromadně investují. Investor vlastní podílové listy, díky kterým má podíl na výnosu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podílové a investiční fondy nabízí pevně úročený vklad. Úrok je garantovaný, nehrozí tak žádná ztráta.",
+                                    "title": "Nabízí garantovaný úrok a nehrozí tak žádná ztráta.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "Nevím",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1291,7 +1291,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké jsou druhy podílových fondů?",
+                            "title": "Podílové fondy se dělí na:",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout. Chcete si <a href=\"hint\">zobrazit nápovědu</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 3,
@@ -1301,22 +1301,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Pevné a plovoucí. U pevných podílových fondů je garantovaný přesný procentuální výnos. U plovoucích fondů se může výnos v budoucnu měnit. Konkrétní výnos podílových fondů stanovuje banka ve svých obchodních podmínkách.",
+                                    "title": "Pevné a plovoucí",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akciové a smíšené. Akciové fondy umožňují podílení se na fungování jednotlivých podniků a hlasování na jejich valných hromadách. Smíšené fondy oproti tomu zaručují, že v žádném případě neskončí investovaná částka ve ztrátě.",
+                                    "title": "Smíšené a akciové",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akciové, dluhopisové a smíšené. Akciové fondy jsou nejvíce kolísavé a je u nich možnost nejvyššího zisku i ztráty. Dluhopisové fondy jsou nejméně kolísavé a obvykle slibují nejnižší výnos.",
+                                    "title": "Akciové, dluhopisové a smíšené",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "Nevím",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1325,7 +1325,7 @@
                             ]
                         },
                         {
-                            "title": "Co jsou investiční certifikáty?",
+                            "title": "Investiční certifikáty:",
                             "showHelpSecondaryButton": true,
                             "id": 4,
                             "maxAnswers": 1,
@@ -1334,22 +1334,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Investiční certifikáty vydávají investiční fondy. Jedná se o podílové listy, ke kterým byl certifikační autoritou vystaven certifikát pravosti.",
+                                    "title": "Vydávají investiční fondy. Jsou to podílové listy s vystaveným certifikátem pravosti certifikační autoritou (např. prezident nebo premiér).",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investiční certifikáty jsou cenné papíry, které mohou mít různé vlastnosti. Každý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi nejdůležitější podmínky patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
+                                    "title": "Jsou to cenné papíry, které mohou mít různé vlastnosti.\nKaždý investiční certifikát má své podmínky přesně specifikující práva a povinnosti. Mezi ty nejdůležitější patří způsob stanovení výnosu certifikátu a podmínky splacení certifikátu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investiční certifikáty jsou totéž, co dluhopisy. Termín investiční certifikáty se používá až v poslední době, a to pouze k ozvláštnění marketingových zpráv.",
+                                    "title": "Nahrazují dluhopisy. Termín investiční certifikáty se používá až v poslední době, k ozvláštnění marketingových zpráv.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "Nevím",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true
@@ -1357,7 +1357,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké jsou výhody a rizika investičních certifikátů?",
+                            "title": "Výhody a rizika investičních certifikátů jsou:",
                             "showHelpSecondaryButton": true,
                             "id": 5,
                             "maxAnswers": 1,
@@ -1366,22 +1366,22 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Výhodou investičních certifikátů je jejich rychlé a flexibilní vydání. U garantovaných certifikátů je výhodou také výrazně omezená možnost ztráty. Riziko certifikátů spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce, tzv. riziko protistrany.",
+                                    "title": "Výhodou je rychlé a flexibilní vydání. U garantovaných certifikátů také výrazně omezená možnost ztráty. Riziko spočívá v nutnosti spoléhat se na dodržení závazků ze strany jejich vydavatele, kterým je obvykle mezinárodní finanční instituce – tzv. riziko protistrany.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Výhodou investičních certifikátů je, že jsou založeny na blockchainové technologii a mohou být proto převáděny podobně jako kryptoměny. Riziko certifikátů spočívá v nejasné regulaci, tj. je zde velké právní riziko.",
+                                    "title": "Protože jsou založeny na blockchainové technologii, jejich výhodou je, že mohou být převáděny podobně jako kryptoměny. Riziko spočívá v nejasné regulaci, která s sebou nese značnou právní nejistotu.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Výhodou investičních certifikátů je, že jsou vždy vydávány státem. Riziko investičních certifikátů spočívá zejména ve státním bankrotu.",
+                                    "title": "Vydává je stát, což je výhoda, ale zároveň hrozí velké riziko, že stát zbankrotuje.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nevím.",
+                                    "title": "Nevím",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true
@@ -1389,7 +1389,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké máte zkušenosti s podílovými fondy?",
+                            "title": "Máte zkušenosti s podílovými fondy?",
                             "id": 6,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1397,7 +1397,7 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "V posledních 3 letech jsem investoval*a.",
+                                    "title": "Investoval*a jsem během posledních 3 let.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
@@ -1419,7 +1419,7 @@
                             ]
                         },
                         {
-                            "title": "Jaké máte zkušenosti s investičními certifikáty?",
+                            "title": "Máte zkušenosti s investičními certifikáty?",
                             "id": 7,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1427,7 +1427,7 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "V posledních 3 letech jsem investoval*a.",
+                                    "title": "Investoval*a jsem během posledních 3 let.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
@@ -1449,7 +1449,7 @@
                             ]
                         },
                         {
-                            "title": "Jak jste investoval*a v posledních 5 letech?",
+                            "title": "V posledních 5 letech jste investoval*a:",
                             "id": 8,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Vyberte až 3 odpovědi",
@@ -1457,17 +1457,17 @@
                             "minAnswersErrMessage": "Vyberte prosím alespoň jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Investoval*a jsem jednorázově více než 50 000 Kč.",
+                                    "title": "Jednorázově více než 50 000 Kč.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Investoval*a jsem jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
+                                    "title": "Jednorázově více než 50 000 Kč a k tomu příležitostně investuji dle tržních příležitostí.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "Pravidelně investuji minimálně 500 Kč měsíčně.",
+                                    "title": "Pravidelně aspoň 500 Kč měsíčně.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
@@ -1487,7 +1487,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji.",
+                                    "title": "Ano, mám odbornou zkoušku se zaměřením na obchodování s investičními nástroji.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -1497,7 +1497,7 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nic z výše uvedeného.",
+                                    "title": "Ne",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
@@ -1512,12 +1512,12 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Ano, za posledních 5 let mám relevantní pracovní zkušenost z kapitálových trhů.",
+                                    "title": "Ano, za posledních 5 let.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Ne.",
+                                    "title": "Ne",
                                     "value": 2,
                                     "uncheckOthers": true
                                 }
@@ -1555,7 +1555,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Které tvrzení nejlépe popisuje vaše chování během investování?",
+                            "title": "Které z následujících tvrzení nejlépe popisuje Vaše chování během života investice?",
                             "id": 11,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1564,22 +1564,22 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Očekávám minimálně návrat investice, nejsem schopen unést žádnou ztrátu.",
+                                    "title": "Nechci přijít ani o korunu. Investici prodám při prvním náznaku poklesu.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji menší kolísání, jsem schopen unést případnou ztrátu do 5 %.",
+                                    "title": "Akceptuji menší pokles a možnou budoucí ztrátu do 5 %.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji kolísání, jsem schopen unést případnou ztrátu do 15 %.",
+                                    "title": "Akceptuji pokles a možnou budoucí ztrátu do 15 %.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Akceptuji vyšší kolísání, jsem schopen unést případnou ztrátu přes 15 %.",
+                                    "title": "Akceptuji pokles a možnou budoucí ztrátu více než 15 %.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
@@ -1627,34 +1627,34 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Do 1 roku včetně.",
+                                    "title": "Do 1 roku včetně",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "1 až 3 roky včetně.",
+                                    "title": "1 až 3 roky včetně",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "3 až 5 let včetně.",
+                                    "title": "3 až 5 let včetně",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "5 až 8 let včetně.",
+                                    "title": "5 až 8 let včetně",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Více než 8 let.",
+                                    "title": "Více než 8 let",
                                     "value": 5,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Budu potřebovat peníze dříve než v plánované době?",
+                            "title": "Budete potřebovat investované peníze dříve než v plánované době?",
                             "id": 14,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1663,24 +1663,24 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Je určitá pravděpodobnost, že budu peníze potřebovat dříve.",
+                                    "title": "Spíše ano.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Může se stát, že budu peníze potřebovat dříve, ale je to málo pravděpodobné.",
+                                    "title": "Nevím.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Není pravděpodobné, že budu potřebovat peníze vybrat před uplynutím plánované doby.",
+                                    "title": "Spíše ne.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Preferujete environmentálně udržitelné investice?",
+                            "title": "Musí být vaše investice environmentálně udržitelné?",
                             "id": 15,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1707,39 +1707,39 @@
                             },
                             "answers": [
                                 {
-                                    "title": "NE, nepreferuji.",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                                    "title": "Minimálně z 20 %",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                                    "title": "Minimálně ze 40 %",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                                    "title": "Minimálně z 60 %",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji environmentálně udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                                    "title": "Minimálně z 80 %",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji 100% environmentálně udržitelné investice.",
+                                    "title": "100 %",
                                     "value": 6,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Preferujete udržitelné investice?",
+                            "title": "Musí být vaše investice udržitelné?",
                             "id": 16,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1766,40 +1766,40 @@
                             },
                             "answers": [
                                 {
-                                    "title": "NE, nepreferuji.",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 20 %.",
+                                    "title": "Minimálně z 20 %",
                                     "value": 2,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 40 %.",
+                                    "title": "Minimálně ze 40 %",
                                     "value": 3,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 60 %.",
+                                    "title": "Minimálně z 60 %",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "ANO, preferuji udržitelné investice s minimální mírou udržitelnosti 80 %.",
+                                    "title": "Minimálně z 80 %",
                                     "value": 5,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "ANO, preferuji 100% udržitelné investice.",
+                                    "title": "100 %",
                                     "value": 6,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1808,7 +1808,7 @@
                             ]
                         },
                         {
-                            "title": "Chcete ve svých investicích zohlednit některé nepříznivé dopady na udržitelnost?",
+                            "title": "Musí vaše investice zohledňovat nepříznivé dopady na udržitelnost?",
                             "id": 17,
                             "maxAnswers": 5,
                             "maxAnswersErrMessage": "Vybrat můžete více odpovědí",
@@ -1817,32 +1817,32 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Nezohledňovat.",
+                                    "title": "Ne",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "ANO, chci zohlednit dopad na emise skleníkových plynů.",
+                                    "title": "ANO, chci zohledňovat dopad na emise skleníkových plynů.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "ANO, chci zohlednit dopad na biologickou rozmanitost.",
+                                    "title": "ANO, chci zohledňovat dopad na biologickou rozmanitost.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "ANO, chci zohlednit dopad na znečištění vod.",
+                                    "title": "\tANO, chci zohledňovat dopad na znečištění vod.",
                                     "value": 4,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "ANO, chci zohlednit dopad na odpad.",
+                                    "title": "ANO, chci zohledňovat dopad na odpad.",
                                     "value": 5,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "ANO, chci zohlednit dopad na sociální a zaměstnanecké otázky.",
+                                    "title": "ANO, chci zohledňovat dopad na sociální a zaměstnanecké otázky.",
                                     "value": 6,
                                     "uncheckOthers": false
                                 }
@@ -1856,7 +1856,7 @@
                     "analyticsTitle": "situation",
                     "questions": [
                         {
-                            "title": "Když mi banka poskytne doporučení, do čeho mám investovat, jak se nazývá služba, kterou banka provede?",
+                            "title": "Pro službu investičního poradenství je typické:",
                             "hint": "Pokud neznáte správnou odpověď, investice vám nemůžeme nabídnout.",
                             "id": 18,
                             "maxAnswers": 1,
@@ -1865,17 +1865,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Banka mi bude poskytovat investiční poradenství, přičemž na základě sdělených informací mi banka vybere nejvhodnější produkt. Já se poté rozhodnu, zda doporučení přijmu či nikoli.",
+                                    "title": "Na základě sdělených informací mi banka poradí nejvhodnější produkt. Já se poté rozhodnu, zda toto poradenství přijmu či nikoli.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka bude sama průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
+                                    "title": "Banka bude sama podle vlastního uvážení průběžně investovat mé peníze tak, aby obsah mého portfolia odpovídal investiční strategii, kterou jsme si společně dohodli.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Banka mi prodá podílové listy ze svého účtu a určí si svévolně cenu, za kterou je od ní koupím.",
+                                    "title": "Banka mi prodá podílové listy ze svého účtu za cenu, kterou si sama určila.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1889,7 +1889,7 @@
                             ]
                         },
                         {
-                            "title": "Zjistil*a jsem, že hodnota mojí investice poklesla o 10 %. Co udělám?",
+                            "title": "Zjistil*a jste, že hodnota vaší investice momentálně poklesla o 10 %. Co uděláte?",
                             "id": 19,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1902,7 +1902,7 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nebudu dělat nic.",
+                                    "title": "Nebudu dělat nic, kolísání je přirozené.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
@@ -1914,7 +1914,7 @@
                             ]
                         },
                         {
-                            "title": "Jakou část svého finančního majetku hodlám ročně prostřednictvím banky investovat?",
+                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat? Včetně úspor, vkladů, investic a cenných papírů.",
                             "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
                             "id": 20,
                             "maxAnswers": 1,
@@ -1940,7 +1940,7 @@
                             ]
                         },
                         {
-                            "title": "Výše mého finančního majetku (včetně úspor, vkladů, investic, cenných papírů) je.",
+                            "title": "Jaká je přibližná hodnota vašeho finančního majetku? Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "id": 21,
                             "maxAnswers": 1,
@@ -1949,24 +1949,24 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Do 300 000 Kč včetně.",
+                                    "title": "Do 300 tisíc Kč",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Mezi 300 000 Kč a 1 000 000 Kč.",
+                                    "title": "300 tisíc Kč až 1 milion Kč",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nad 1 000 000 Kč.",
+                                    "title": "Nad 1 milion Kč",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Moje pravidelné splátky dluhů a jiných finančních závazků.",
+                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků? Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.Závazky tvoří:",
                             "detail": "Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.",
                             "hint": "Závazky tvoří:",
                             "id": 22,
@@ -1976,24 +1976,24 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Tvoří více než 80 % mých pravidelných příjmů.",
+                                    "title": "Více než 80 % mých pravidelných příjmů.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Tvoří 50 až 80 % mých pravidelných příjmů.",
+                                    "title": "50 až 80 % mých pravidelných příjmů.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Tvoří méně než 50 % mých pravidelných příjmů.",
+                                    "title": "Méně než 50 % mých pravidelných příjmů.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaká je čistá výše Vašich pravidelných měsíčních příjmů?",
+                            "title": "Jaké jsou vaše osobní čisté pravidelné měsíční příjmy?",
                             "id": 23,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -2001,24 +2001,24 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Do 20 000 Kč.",
+                                    "title": "Do 20 000 Kč",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Mezi 20 000 Kč a 50 000 Kč.",
+                                    "title": "Mezi 20 000 Kč a 50 000 Kč",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Nad 50 000 Kč.",
+                                    "title": "Nad 50 000 Kč",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Jaký je hlavní zdroj Vašich pravidelných příjmů?",
+                            "title": "Jaký je hlavní zdroj vašich pravidelných příjmů?",
                             "id": 24,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -2026,17 +2026,17 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Zaměstnanec na dobu neurčitou",
+                                    "title": "Zaměstnání na dobu neurčitou",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Zaměstnanec na dobu určitou",
+                                    "title": "Zaměstnání na dobu určitou",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Podnikatel",
+                                    "title": "Podnikání",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -2071,7 +2071,7 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Studuji",
+                                    "title": "Studium",
                                     "value": 10,
                                     "uncheckOthers": true
                                 },
@@ -2083,7 +2083,7 @@
                             ]
                         },
                         {
-                            "title": "Která z následujících situací by při ukončení investice snížila naplňování Vašich základních životních potřeb?",
+                            "title": "Bylo by pro mě složité hradit běžné náklady, jako např. jídlo a oblečení, pokud by:",
                             "detail": " Například při nákupu jídla či oblečení.",
                             "id": 25,
                             "maxAnswers": 1,
@@ -2092,12 +2092,12 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "answers": [
                                 {
-                                    "title": "Pokles hodnoty investované částky o méně než 5 %.",
+                                    "title": "Hodnota investované částky poklesla o méně než 5 %.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Pokles hodnoty investované částky od 5 % do 15 %.",
+                                    "title": "Hodnota investované částky poklesla o 5 až 15 %.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
@@ -2535,8 +2535,8 @@
             "entryFeeInfo": "Poplatek při nákupu se vždy odečítá z investované částky.",
             "entryFeeDiscountInfo": "Poplatek při nákupu se vždy odečítá z investované částky. Díky nákupu přes Smart Banku z něj máte slevu {{discount}}.",
             "sellFee": "Poplatek při prodeji",
-            "checkboxTitle": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/vseobecne-produktove-podminky#investovani\" target=\"_blank\">Podmínkami investičních služeb</a> a <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a>",
-            "checkboxTitleKIID": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/vseobecne-produktove-podminky#investovani\" target=\"_blank\">Podmínkami investičních služeb</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a> a <a href=\"{URL_KIID}\" target=\"_blank\">Klíčovými informacemi pro investory</a>",
+            "checkboxTitle": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf\" target=\"_blank\">Podmínkami investičních služeb</a> a <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a>",
+            "checkboxTitleKIID": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf\" target=\"_blank\">Podmínkami investičních služeb</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a> a <a href=\"{URL_KIID}\" target=\"_blank\">Klíčovými informacemi pro investory</a>",
             "investAlert": "Chystáte se investovat do fondu {{name}}, který nese <b>riziko vyšší ({{profile}}) než odpovídá Vašemu investičnímu profilu.</b>",
             "primaryButton": "Investovat",
             "alertPrimaryButton": "Ano, přesto pokračovat",
@@ -2663,6 +2663,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Diskontní certifikát"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "Fondy Kvalifikovaných Investorů"
                 }
             ],
             "profiles": [
@@ -4016,7 +4020,7 @@
                     "detail": "Klient využívá růstový potenciál světového akciového indexu, který je složen z vybraných 100 akcií s vysokým dividendovým výnosem z celého světa. Příznivý vývoj vybraného akciového indexu STOXX Global Select Dividend 100 EUR pracuje ve Váš prospěch, zatímco konzervativní část portfolia má za cíl zajistit návratnost investované částky. Fond ke dni splatnosti zajišťuje návratnost investované částky proti případnému tržnímu riziku po odečtení vstupního poplatku. Fond nedrží žádnou kapitálovou záruku proti případnému úvěrovému riziku emitentů podkladových aktiv. Koupí fondu se stáváte podílníkem a participujete na růstu daného indexu. V případě, že akciový index STOXX Global Select Dividend 100 EUR vzroste ke dni splatnosti fondu, pak poroste i vaše zhodnocení.  Případný výnos fondu je realizovaný zmíněným akciovým indexem s minimálně 65% participací z procentuální změny akciového indexu při splatnosti fondu. Konečná výše participace může být i vyšší v závislosti na aktuálním vývoji na finančních trzích. Procentuální změna podkladového indexu je dále omezena maximální výší 45 %. Podrobnější vysvětlení, co se s investovanou částkou může stát a do jaké výše je zhodnocení omezeno naleznete na <a href=\"https://www.moneta.cz/sporeni-a-investice/podilove-fondy\" target=\"_blank\">www.moneta.cz</a>. Fond je vhodný pro konzervativnější investory, kteří mohou uložit své volné peníze na 4 roky a 5 měsíců. Fond je měnově zajištěný. Aktuální hodnota podílového listu fondu je stanovována s měsíční frekvencí vždy ke konci měsíce.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/24697040/mmb-generali-zfav-5-informace-o-nabizeni.pdf",
-                    "kiidUrl": "https://www.moneta.cz/documents/20143/24697040/mmb-generali-zfav-5-kid.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/11740677/mmb-generali-zfav-5-kid.pdf",
                     "documents": [
                         {
                             "title": "Sdělení klíčových informací",
@@ -4089,8 +4093,8 @@
                 },
                 {
                     "isin": "LU2544647592",
-                    "featuredName": "Espiria Nordic Corporate Bond – class A H1 EUR",
-                    "detail": "Fond investuje do korporátních dluhopisů severských zemí. Je ideální pro diverzifikaci portfolia, i s ohledem na to, že severské země i severský bankovní sektor jsou velmi stabilní a ziskové.  Cílem fondu je dosáhnout kombinace výnosu z úroků a zhodnocení kapitálu prostřednictvím přímých nebo nepřímých investic do dluhopisů a cenných papírů peněžního trhu. Jako investoři se podílíte na rozvoji společností Bonheur (lodní doprava), Volvo a severské banky jako Luminor Bank, DnB Bank, Jyske Bank a Arion Bank. Měnové riziko je zajištěno.",
+                    "featuredName": "Espiria Nordic Corporate Bond EUR",
+                    "detail": "Pro severský region je charakteristické stabilní makroekonomické prostředí, s nejvyšším možným hodnocením a silným bankovním systémem. To investorům do krytých dluhopisů poskytuje vysokou úroveň bezpečí, které se jinde ve světě hledá velmi těžce.\\n\\nPortfolio fondu se primárně skládá ze švédských sektorově diverzifikovaných podnikových dluhopisů, které malým procentem doplňují nástroje peněžního trhu.\\n\\nMěnové riziko je zajištěno.\\n\\nSprávcem fondu je East Capitol – švédská firma založená na přelomu 21. století, zaměřující se na odpovědné investování s důrazem na hlubokou analýzu trhu, udržitelnost a dlouhodobý růst.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/22493418/mmb-espiria-ncb-eur-report.pdf",
                     "kiidUrl": "https://www.moneta.cz/documents/20143/22493418/mmb-espiria-ncb-eur-kid.pdf",
@@ -4137,11 +4141,11 @@
                         "values": [
                             {
                                 "title": "Investiční horizont",
-                                "detail": "5 let a více"
+                                "detail": "2 roky a více"
                             },
                             {
                                 "title": "Investiční preference",
-                                "detail": "Růst"
+                                "detail": "Růst hodnoty investice"
                             },
                             {
                                 "title": "Schopnost nést ztráty",
@@ -4149,9 +4153,9 @@
                             },
                             {
                                 "title": "Tolerance rizika",
-                                "detail": "Rizikový stupeň 4",
+                                "detail": "Rizikový stupeň 2",
                                 "info": {
-                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                    "title": "Dluhopisový. velmi konzervativní pro investice na 2 a více let."
                                 }
                             },
                             {
@@ -4160,9 +4164,9 @@
                             },
                             {
                                 "title": "Znalosti a zkušenosti",
-                                "detail": "Střední, pokročilý",
+                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním.",
                                 "info": {
-                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\\nZákladní = 0 až 7 bodů\\nStřední = 8 až 15 bodů\\nPokročilý = 16 až 26 bodů."
                                 }
                             },
                             {
@@ -4721,7 +4725,7 @@
                     "detail": "Investiční strategie fondu je postavena na přímých investicích do firem napříč celým obranným průmyslem. Základ portfolia tvoří velké obranné společnosti, které mají většinu svých příjmů z vládních zakázek, stabilní cash flow a dlouhodobé kontrakty s členskými státy NATO a dalšími západními vládami.\nDalší část portfolia tvoří menší specializovaní dodavatelé – například výrobci radarů, avioniky nebo vojenských čipů. Patří sem také těžaři strategických surovin a firmy vyvíjející technologie dvojího užití nebo nové generace, jako jsou autonomní systémy, kyberbezpečnost nebo vesmírné technologie.\nFond rovněž doplňuje své portfolio o menší podíl investic do private equity a  venture kapitálových fondů zaměřených na obranný sektor, které mohou dohromady tvořit maximálně 10 % portfolia.\nMěnové riziko je zajištěno.\nSprávcem fondu je  J&T Investiční společnost, a. s. – jeden z nejvýznamnějších tuzemských správců fondů působících na trhu již od roku 1997. ",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-jt-wood-defense-report",
-                    "kiidUrl": "https://www.moneta.cz/sporeni-a-investice/podilove-fondy/j-t-wood-defense",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30937950/mmb-jt-wood-defense-kid.pdf",
                     "documents": [
                         {
                             "title": "Sdělení klíčových informací",
@@ -4788,6 +4792,257 @@
                             {
                                 "title": "Negativní cílový trh",
                                 "detail": "Garance bez ztrát",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "CZ1005100873",
+                    "featuredName": "Generali Zajištěný fond akciového výnosu 6",
+                    "detail": "Fond nabízí 100 % ochranu investované částky (po odečtení vstupního poplatku) proti případnému tržnímu riziku, a to při držení investice do splatnosti fondu. Ochrana investice je zajištěna prostřednictvím investic do českých státních dluhopisů, případně dluhopisů korporátních.\nInvestor má současně možnost podílet se na růstu akciového indexu EURO STOXX Select Dividend 30 EUR, který je složen z 30 vybraných evropských společností s vysokým dividendovým výnosem napříč různými odvětvími. Při splatnosti fondu se investor podílí na růstu tohoto indexu ve výši 100 %, maximálně však do výše 40 % za celé období trvání fondu.\nMěnové riziko fondu je zajišťováno vůči koruně. Měnové zajištění má omezit dopad nepříznivých kurzových výkyvů, nemusí však zcela vyloučit všechna rizika spojená s měnovým vývojem.\nSprávcem fondu je Generali Investments – jedna z největších investičních společností v České republice i celém regionu Střední a Východní Evropy působící na trhu od roku 1991.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-generali-zfav-6-report",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-generali-zfav-6-kiid",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/31650040/mmb-generali-zfav-6-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-generali-zfav-6-report"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-generali-zfav-6-statut"
+                        },
+                        {
+                            "title": "Infolist",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-generali-zfav-6-infolist"
+                        },
+                        {
+                            "title": "Slovník pro investory",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "4 a více let"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Zachování hodnoty investice, růst hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Střední, pokročilý",
+                                "info": {
+                                    "title": "Klient se základními znalostmi investování a bez zkušeností s investováním."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Produkt pro klienty s investičním horizontem do jednoho roku.",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "CZ0008477684",
+                    "featuredName": "J&T Naše Česko",
+                    "detail": "Fond investuje do českých společností napříč odvětvími a zaměřuje se na využití růstového potenciálu domácí ekonomiky.\nPortfolio zahrnuje různé fáze vývoje firem, od raných projektů po zavedené společnosti, a pokrývá více tříd aktiv. Patří mezi ně private equity, venture kapitál, veřejně obchodované akcie a nemovitosti.\nFond není určen k distribuci prostřednictvím online kanálů. Nákup a odkup podílových listů probíhá prostřednictvím investičních poradců na pobočkách.\nSprávcem fondu je J&T Investiční společnost, a. s., jeden z nejvýznamnějších tuzemských správců fondů působících na trhu již od roku 1997.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-report",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-statut",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-kiid"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-report"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-statut"
+                        },
+                        {
+                            "title": "Infolist",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-jt-nase-cesko-infolist"
+                        },
+                        {
+                            "title": "Slovník pro investory",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "7 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Zachování hodnoty investice, růst hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Retail, profesionální, způsobilá prostistrana"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Střední, pokročilý",
+                                "info": {
+                                    "title": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát.",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "CZ0008472594",
+                    "featuredName": "Uniqa CEE Akciový fond",
+                    "detail": "Portfolio fondu se skládá z akcií špičkových firem, které patří mezi lídry ve svých odvětvích v regionu střední a východní Evropy. Největší část portfolia je postavena na silných společnostech z Česka, Polska a Maďarska, které dlouhodobě udávají tempo trhu. Fond je široce diverzifikován napříč sektory od energetiky a financí přes telekomunikace až po zdravotnictví.\nSprávcem fondu je UNIQA investiční společnost, a. s., součást skupiny UNIQA působící na českém trhu již od roku 1992.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/31247781/mmb-uniqa-ceea-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/31247781/mmb-uniqa-ceea-statut.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/31247781/mmb-uniqa-ceea-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/31247781/mmb-uniqa-ceea-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/31247781/mmb-uniqa-ceea-statut.pdf"
+                        },
+                        {
+                            "title": "Slovník pro investory",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Zachování hodnoty investice, růst hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Střední, pokročilý",
+                                "info": {
+                                    "title": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát.",
                                 "info": {
                                     "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
                                     "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
@@ -4951,6 +5206,87 @@
                     }
                 },
                 {
+                    "isin": "XS3321717806",
+                    "featuredName": "Garantovaný Certifikát Eurozone TOP 50",
+                    "detail": "Garantovaný certifikát Eurozone TOP 50 je tříletý strukturovaný investiční produkt navázaný na akciový index Solactive Eurozone Top 50 Market Trend PR Index, který sleduje vývoj 50 nejvýznamnějších společností eurozóny. Produkt je kapitálově chráněný – investor má nárok na návrat 100 % nominální hodnoty investice za předpokladu splnění finančních závazků emitenta certifikátu, kterým je BNP Paribas Financial Markets. V případě jeho platební neschopnosti může investor přijít o část nebo celou investici. Certifikát nabízí možnost výnosu formou kupónů, přičemž emitent má právo certifikát každoročně předčasně splatit k rozhodnému dni. V takovém případě investor obdrží 100 % nominální hodnoty, roční kupón 5 % p.a. za každý uplynulý rok držení certifikátu. Rozhodnutí o předčasném splacení závisí zejména na vývoji podkladového indexu, jeho ocenění a tržní volatilitě. Výplata při řádné splatnosti (po 3 letech) - pokud je hodnota indexu na nebo nad 100 % počáteční úrovně investor získá 100 % nominální hodnoty + celkový kupón 23,5 %. Pokud je hodnota indexu pod 100 % počáteční úrovně investor obdrží 100 % nominální hodnoty bez kupónu. Produkt není vhodný pro klienty se základními znalostmi investování a bez zkušeností s investováním a dále pro klienty s investičním horizontem do jednoho roku.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-brozura",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-kid",
+                    "documents": [
+                        {
+                            "title": "Statut",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-statut"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-brozura"
+                        },
+                        {
+                            "title": "Emisní podmínky",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-emisni-podminky"
+                        },
+                        {
+                            "title": "KID",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcet-50-kid"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Ano"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální, profesionální, způsobilá protistrana"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky.",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není vhodný pro klienty s investičním horizontem do 1 roku."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
                     "isin": "DE000GV8KW67",
                     "featuredName": "Garantovaný Certifikát Multi-Asset Autocall 7%",
                     "detail": "Investiční certifikát s 100% ochranou kapitálu při splatnosti a atraktivním potenciálem výnosu až 7 % ročně díky možnosti předčasného splacení.\n\nCertifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International (rating A1 od Moody's / A+ od Standard & Poor's / A+ od Fitch). Certifikát umožňuje jednou za rok možnost předčasného splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a 7% procent za každý rok. Scénáře vývoje najdete v brožuře.\n\nKlient se podílí na vývoji indexu Goldman Sachs Momentum Builder Focus.\n\nIndex Goldman Sachs Momentum Builder Focus je smíšené portfolio indexů nabízející potencionální expozici v následujících třídách aktiv – americké akcie, akcie rozvinutých trhů, dluhopisy rozvinutých trhů, akcie rozvíjejících se trhů a komodity.\n\nPři předčasném odkupu není garantována 100% ochrana vlastního kapitálu, ta platí jen při autocallu, či ukončení produktu v pátém roce.\n\nMěnové riziko je zajištěno.",
@@ -5037,7 +5373,7 @@
                     "detail": "Certifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International. Ochranu jmenovité hodnoty poskytuje výlučně emitent, společnost Goldman Sachs International, jako nezajištěný a nepodřízený závazek; produkt není vkladem a nepodléhá pojištění vkladů (rating A1 od Moody’s / A+ od Standard & Poor’s / A+ od Fitch; rating není doporučení a může se měnit). Certifikát umožňuje jednou ročně automatické předčasné splacení (autocall) při dosažení předem stanovené úrovně indexu. Dojde li k autocallu, emitent vyplatí 100 % jmenovité hodnoty a kumulativní kupon dle tabulky; při odkupu na sekundárním trhu před splatností není návratnost jmenovité hodnoty zaručena.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-brozura",
-                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-kid",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30637924/mmb-gcepa-kid.pdf",
                     "documents": [
                         {
                             "title": "Brožura",
@@ -5112,7 +5448,7 @@
                     "detail": "Certifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs Bank Europe SE (rating A1 od Moody’s / A+ od Standard & Poor’s / A+ od Fitch). Certifikát umožňuje jednou ročně automatické předčasné splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a kupon.\n\nPodkladovým aktivem je index skládající se z rovnoměrného zastoupení níže uvedených ETF, zahrnující:\n\nAmerické akcie prostřednictvím SPDR S&P 500 ETF Trust\nAmerické technologické akcie prostřednictvím Invesco QQQ Trust Series\nEvropské akcie prostřednictvím iShares STOXX Europe 600 UCITS ETF\nDluhopisy prostřednictvím iShares 20+ Year Treasury Bond ETF\nKomodity prostřednictvím SPDR Gold Shares\n\nIndex je kalkulován v CZK; měnové zajištění vůči relevantním měnám ETF snižuje, nikoli zcela eliminuje, měnové riziko.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-statut",
-                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcepa-8-kid",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/31155383/mmb-gcepa-8-kid.pdf",
                     "documents": [
                         {
                             "title": "Brožura",
@@ -6157,7 +6493,7 @@
                 },
                 {
                     "isin": "LU1961889083",
-                    "featuredName": "Fidelity Sustainable Demographics",
+                    "featuredName": "Fidelity Global Demographics Fund",
                     "detail": "Akciový fond s výběrem inovativních společností především z oblasti zdravotní péče a spotřebního zboží, těžících z trendů růstu populace na planetě, rostoucí střední třídy a stárnutí společnosti. Fond je určený velmi dynamickým investorům. Fond je široce diverzifikovaný a nabízí investice do akciových společností, které by měly těžit z trendů růstu populace na planetě, rostoucí střední třídy a stárnutí společnosti. Cílem fondu je dlouhodobě vyhledávat společnosti, které budou z těchto trendů těžit a mají inovativní služby či produkty. Primární sektory, kam fond investuje jsou zdravotní péče a spotřební zboží. Jedná se o společnosti jako LVMH Moet Hennessy, L´OREAL, AMAZON, DISNEY. Měnové riziko je zajištěno.",
                     "info": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu a kterým pokles hodnoty investované částky o méně jak 5 % sníží naplňování běžných životních potřeb.",
                     "sellFeeValue": "0",
@@ -6612,7 +6948,7 @@
                     "detail": "Cílem fondu je dosáhnout výnosu o 2 % procenta vyšší než spořicí účty na českém trhu. Toho chce dosáhnout díky složení portfolia, které investuje minimálně 50 % do dluhopisů neinvestičního stupně. Tyto dluhopisy nabízejí vyšší výnosový potenciál, ale zároveň s ním přichází i vyšší míra kreditního rizika.\nGeograficky se fond zaměřuje na západní Evropu napříč sektory i regiony.\nMěnové riziko je zajištěno.\nSprávcem fondu je Generali Investments – jedna z největších investičních společností v České republice i celém regionu Střední a Východní Evropy působící na trhu od roku 1991.",
                     "sellFeeValue": "0",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-report.pdf/19d344fe-ad1b-592f-01bc-b0727c29bfd0?t=1763994030311",
-                    "kiidUrl": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-kiid.pdf/38ff1b47-e7b4-234a-7280-0f09284be3a2?t=1763993995706",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/30969326/mmb-generali-fdp-kiid.pdf",
                     "documents": [
                         {
                             "title": "Slovníček pojmů",
@@ -6861,7 +7197,7 @@
                     "detail": "Generali Fond korporátních dluhopisů /třída M CZK/ je fondem dluhopisovým, vhodným pro konzervativního investora, který chce investovat jednorázově a má investiční horizont minimálně 4 roky. Fond cíluje průměrný roční výnos okolo 2 % na investičním horizontu čtyř let (za předpokladu, že nedojde k prudkému poklesu kapitálových trhů, změně makroekonomického vývoje apod.). Prostředkem k dosažení investičního cíle bude diverzifikované a aktivně řízené portfolio tvořené zejména korporátními dluhopisy a dluhopisy finančních institucí, v menší míře pak také státními dluhopisy a dluhopisy nadnárodních institucí. Dluhopisy jsou většinou denominovány v USD, EUR a CZK. Měnové riziko je zajištěno do CZK. Při odkupu cenných papírů před uplynutím čtyřletého investičního horizontu, je účtován výstupní poplatek ve výši 3 %. Po uplynutí investičního horizontu, tedy po 4 letech, poplatek účtován nebude. Měnové riziko je zajištěno.",
                     "sellFeeValue": "3",
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/14246903/mmb-generali-fkdm-report.pdf",
-                    "kiidUrl": "https://www.moneta.cz/documents/258060/14248234/mmb-generali-cbf-kiid.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/14246903/mmb-generali-cbf-kiid.pdf",
                     "documents": [
                         {
                             "title": "Sdělení klíčových informací",
@@ -7828,7 +8164,7 @@
                     "sellFeeValue": "0",
                     "featured": true,
                     "fundReportUrl": "https://www.moneta.cz/documents/20143/18214181/mmb-espiria-defensiv-czk-report.pdf",
-                    "kiidUrl": "https://www.moneta.cz/documents/20143/18214181/mmb-espiria-defensiv-czk-kiid.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/18214181/mmb-espiria-30-czk-kiid.pdf",
                     "documents": [
                         {
                             "title": "Sdělení klíčových informací",
@@ -8247,6 +8583,249 @@
                     }
                 },
                 {
+                    "isin": "LU0212839673",
+                    "featuredName": "East Capital Global Emerging Markets Sustainable EUR",
+                    "detail": "Strategie fondu klade na důraz výběr vysoce kvalitních podniků se střední a malou tržní kapitalizací na globálních trzích. Více jak 30 % podniků v portfoliu je z jižní a východní Asie.\n\nInvestiční tým využívá propracovaný proces ESG analýzy, který pomáhá identifikovat příležitosti i rizika spojené s jednotlivými společnostmi.\n\nSprávcem fondu je East Capitol – švédská firma založená na přelomu 21. století, zaměřující se na odpovědné investování s důrazem na hlubokou analýzu trhu, udržitelnost a dlouhodobý růst.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/14538666/mmb-ec-gems-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/14538666/mmb-ec-gems-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/14538666/mmb-ec-gems-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/14538666/mmb-ec-gems-report.pdf"
+                        },
+                        {
+                            "title": "Statut fondu",
+                            "url": "https://www.moneta.cz/documents/20143/14538663/mmb-ec-prospekt.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "10 a více let"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Ano"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Akciový, dynamický pro investice na 10 a více let."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let.",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není vhodný pro klienty, kteří nejsou ochotni akceptovat případnou ztrátu."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "LU2368120908",
+                    "featuredName": "Espiria 30 EUR",
+                    "detail": "Nákupem fondu investujete do nástrojů s pevným výnosem a severského podnikového dluhopisového trhu, které zastává přibližně 70 % portfolia fondu. Severské podnikové dluhopisy díky stabilnímu makroekonomickému prostředí s plovoucí úrokovou sazbou nabízejí jedinečnou příležitost, kterou je obtížné najít jinde ve světě. \n\nZbytek fondu investuje do akcií předních světových společností, jako je Microsoft, Google či JPMorgan Chase & Co.\n\nMěnové riziko je zajištěno.\n\nSprávcem fondu je East Capitol – švédská firma založená na přelomu 21. století, zaměřující se na odpovědné investování s důrazem na hlubokou analýzu trhu, udržitelnost a dlouhodobý růst.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/20143/18214167/mmb-espiria-defensiv-eur-report.pdf",
+                    "kiidUrl": "https://www.moneta.cz/documents/20143/18214167/mmb-espiria-defensiv-eur-kiid.pdf",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/20143/18214167/mmb-espiria-defensiv-eur-kiid.pdf"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/20143/18214167/mmb-espiria-defensiv-eur-report.pdf"
+                        },
+                        {
+                            "title": "Status fondu",
+                            "url": "https://www.moneta.cz/documents/20143/14538663/mmb-espiria-prospekt.pdf"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "2 roky a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Ano"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Smíšený, velmi konzervativní pro investice na 2 a více let."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se základními znalostmi investování a bez zkušeností s investováním",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "LU3307443161",
+                    "featuredName": "Goldman Sachs Global Environmental Impact Equity Portfolio",
+                    "detail": "Fond usiluje o dosažení pozitivního a měřitelného environmentálního dopadu spolu s dlouhodobým růstem kapitálu.\nZa tímto účelem investuje do akcií společností z celého světa, které jsou v souladu s klíčovými tématy zaměřenými na řešení environmentálních problémů, zejména v oblastech čisté energie, efektivního využívání zdrojů, udržitelné spotřeby a výroby či udržitelného hospodaření s vodou.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gs-geiep-report",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gs-geiep-kiid",
+                    "documents": [
+                        {
+                            "title": "Sdělení klíčových informací",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gs-geiep-kiid"
+                        },
+                        {
+                            "title": "Fond report",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gs-geiep-report"
+                        },
+                        {
+                            "title": "Status fondu",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gs-geiep-prospekt"
+                        },
+                        {
+                            "title": "Slovníček pojmů",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-slovnik-pojmu-podilove-fondy.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025 | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který je ochoten akceptovat možné ztráty a nevyžaduje garanci návratnosti investovaných prostředků\n"
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 4",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice"
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Retail"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let.",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Garance bez ztrát",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není určen pro zákazníky, kterým případná ztráta může způsobit značné finanční potíže."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
                     "isin": "CZ0008476124",
                     "featuredName": "Generali Zajištěný fond akciového výnosu",
                     "detail": "Fond ke dni splatnosti zajišťuje návratnost investované částky. Tohoto zajištění je dosaženo pomocí investice do státních dluhopisů České republiky a z 20 % pomocí investice do korporátního dluhopisu Generali. Fond usiluje o zhodnocení až do výše 24 % nad zajištěnou hodnotu za dobu trvání fondu pomocí investice do akcií vybraných silných společností eurozóny, které mají dlouhodobě vysoký dividendový výnos. Fond participuje na výkonnosti společností jako Ahold, Volkswagen či Siemens. Měnové riziko je zajištěno. Fond je vhodný pro konzervativní investory, kteří mohou uložit své volné peníze na 4 roky a 2 měsíce a hledají výnos nad úroveň inflace. Fond má pevnou dobu trvání do 30. 6. 2026. Fond je možné nakoupit pouze na našich pobočkách. Aktuální hodnota podílového listu fondu je stanovována s měsíční frekvencí vždy ke konci měsíce. V případě prodeje podílových listů před splatností je účtován výstupní poplatek.",
@@ -8543,6 +9122,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Diskontní certifikát"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "FKI"
                 }
             ],
             "profiles": [
@@ -8624,11 +9207,11 @@
                 "noProductNote": "Co si v mládí ušetříte,\nve stáří jako když najdete",
                 "noProductBullets": [
                     {
-                        "title": "Uložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
+                        "title": "Vložené peníze si můžete odečíst \nz daní. Až do 48 000 Kč ročně",
                         "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spoření v rámci DIP."
                     },
                     {
-                        "title": "Na Spořicím účtu DIP vám budeme peníze úročit sazbou 3,5 % ročně",
+                        "title": "Na Spořicím účtu DIP Vám budeme peníze úročit sazbou 3,5 % ročně",
                         "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
                     }
                 ],
@@ -8661,7 +9244,7 @@
                         "action": "DIP_ACCOUNT"
                     }
                 ],
-                "dipEmptyAccountNote": "",
+                "dipEmptyAccountNote": " ",
                 "dipEmptyAccountBullets": [
                     {
                         "icon": "walletArrowInFill",
@@ -8706,7 +9289,6 @@
                 "dip": "Dlouhodobý investiční produkt"
             }
         },
-
         "advisoryFund": {
             "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
             "funds": [
@@ -9015,7 +9597,7 @@
                 ],
                 "document": "Přečtěte si detailní informace o investičním produktu"
             },
-            "agree": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/vseobecne-produktove-podminky#investovani\" target=\"_blank\">Podmínkami investičních služeb</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a> a <a href=\"{URL_KIID}\" target=\"_blank\">Klíčovými informacemi pro investory</a>",
+            "agree": "Potvrzuji, že jsem se seznámil/a s <a href=\"https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf\" target=\"_blank\">Podmínkami investičních služeb</a>, <a href=\"https://www.moneta.cz/documents/20143/11740785/mmb-sazebnik-investicni-sluzby-fon.pdf\" target=\"_blank\">Sazebníkem</a> a <a href=\"{URL_KIID}\" target=\"_blank\">Klíčovými informacemi pro investory</a>",
             "agreeError": "Než budete pokračovat, seznamte se všemi dokumenty.",
             "primaryButton": "Souhlasím, chci investovat",
             "secondaryButton": "Nechci tuto investici",
@@ -9230,6 +9812,71 @@
                 "actionData": "BRANCHESATMS"
             }
         },
+        "dipPromoV2": {
+            "title": "Dlouhodobý investiční produkt (DIP)",
+            "detail": "Výhody pravidelného investování a daňové úspory v jednom produktu.",
+            "bulletsTitle": "Co si v mládí ušetříte, ve stáří jako když najdete",
+            "bullets": [
+                {
+                    "icon": "investmentsFill",
+                    "title": "Jednorázové i pravidelné investování",
+                    "detail": "Na výběr máte více než 40 renomovaných podílových fondů z celého světa."
+                },
+                {
+                    "icon": "moneyBillRepeatFill",
+                    "title": "Vložené peníze si můžete odečíst od základu daně až do 48 000 Kč ročně",
+                    "detail": "Můžete za ně nakoupit podílové fondy nebo je uložit na Spořicí účet DIP."
+                },
+                {
+                    "icon": "interestFill",
+                    "title": "Na Spořicím účtu DIP Vám budeme peníze úročit sazbou {rate} ročně",
+                    "detail": "Účet je součástí produktu a můžete na něj ukládat peníze bez omezení maximální výše."
+                },
+                {
+                    "icon": "calendarClockFill",
+                    "title": "Po 60. narozeninách a 10 letech spoření",
+                    "detail": "DIP můžete vybrat po 10 letech spoření, nejdříve však po 60. narozeninách."
+                }
+            ],
+            "moreInfo": {
+                "actionLabelText": "Více informací",
+                "actionType": "WEB",
+                "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
+            },
+            "stepsTitle": "Využijte DIP na maximum",
+            "steps": [
+                {
+                    "title": "Založte si Dlouhodobý investiční produkt",
+                    "detail": "Jeho součástí je úročený spořicí účet, ze kterého můžete investovat do renomovaných podílových fondů."
+                },
+                {
+                    "title": "Vložte peníze na Spořicí účet DIP",
+                    "detail": "Od této chvíle můžete využít daňovou úsporu."
+                },
+                {
+                    "title": "Pravidelně investujte",
+                    "detail": "Založte si trvalý příkaz a využijte příspěvek od zaměstnavatele nebo daňovou úsporu ve výši investované částky."
+                },
+                {
+                    "title": "Přineste zaměstnavateli potvrzení a čerpejte příspěvek",
+                    "detail": "Stáhněte si potvrzení o vedení DIP a nechte si přispívat na dlouhodobý investiční produkt od svého zaměstnavatele."
+                }
+            ],
+            "primaryButton": {
+                "actionLabelText": "Založit Dlouhodobý investiční produkt"
+            },
+            "secondaryButton": {
+                "actionLabelText": "Seznam fondů",
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS_DASHBOARD"
+            }
+        },
+        "dipOnboardingRejected": {
+            "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+            "detail": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství a platili daně v ČR.",
+            "branch": "Navštivte nás na pobočce",
+            "primaryButton": "Zpět na investice"
+        },
         "advisoryPromo": {
             "title": "Investiční poradenství",
             "detail": "Srozumitelně i pro ty, kteří nemají zkušenost s investováním.",
@@ -9309,6 +9956,140 @@
                 "branch": "Naštivte nás<br>na pobočce",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
+            }
+        },
+        "dipOnboarding": {
+            "cannotOffer": {
+                "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+                "subtitle": "Abychom Vám mohli založit dlouhodobý investiční produkt, je třeba abyste měli české občanství, platili daně v ČR a měli běžný účet v korunách.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "checkDetails": {
+                "headerTitle": "Zkontrolujte své údaje",
+                "continueButton": "Ano, pokračovat",
+                "personalDetails": {
+                    "title": "Osobní údaje",
+                    "somethingWrongButton": "Něco nesouhlasí",
+                    "permanentAddress": "Trvalý pobyt",
+                    "citizenship": "Státní občanství"
+                },
+                "contactDetails": {
+                    "title": "Kontaktní údaje",
+                    "phone": "Telefon",
+                    "email": "E-mail"
+                },
+                "contactAddress": {
+                    "title": "Kontaktní adresa",
+                    "sameAsPermanent": "Stejná jako trvalá",
+                    "street": "Ulice",
+                    "buildingNumber": "Č. p.",
+                    "unitNumber": "Č. o.",
+                    "city": "Město",
+                    "zipCode": "PSČ",
+                    "country": "Země"
+                },
+                "supportBottomSheet": {
+                    "title": "Nejsou Vaše osobní údaje správně?",
+                    "description": "Tyto údaje čerpáme ze základních registrů státu. Pokud některý z Vašich údajů nesouhlasí, obraťte se prosím na kterýkoliv Czech POINT, kde můžete podat žádost o změnu.",
+                    "primaryButton": "Zpět",
+                    "secondaryButton": "Ukončit žádost"
+                }
+            },
+            "aml": {
+                "busyLoader": {
+                    "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                    "subtitle": "Brzy budeme pokračovat."
+                },
+                "nokScreen": {
+                    "title": "Po ověření žádosti Vám bohužel DIP nabídnout nemůžeme",
+                    "primaryButton": "Zpět na Přehled"
+                }
+            },
+            "contracts": {
+                "busyLoader": {
+                    "title": "Připravujeme Vám smlouvu",
+                    "subtitle": "Brzy budeme pokračovat."
+                },
+                "bankBusyLoader": {
+                    "title": "Teď to musíme podepsat my",
+                    "subtitle": "Chvilku strpení prosím."
+                },
+                "precontract": {
+                    "title": "Přečtěte si smlouvu s parametry produktu",
+                    "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+                    "confirmButton": "Rozumím a souhlasím",
+                    "cancelButton": "Nesouhlasím"
+                },
+                "mainContract": {
+                    "title": "Přečtěte si rámcovou smlouvu",
+                    "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty.",
+                    "confirmButton": "Souhlasím, přejít k podpisu",
+                    "cancelButton": "Nesouhlasím"
+                }
+            },
+            "documentDisagree": {
+                "title": "Bez souhlasu to bohužel nepůjde...",
+                "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku.",
+                "primaryButton": "Zpět",
+                "secondaryButton": "Ukončit sjednání"
+            },
+            "victoryScreen": {
+                "title": "DIP je připravený",
+                "sectionTitle": "Jak pokračovat?",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "Dlouhodobý investiční produkt už máte",
+                        "detail": "Součástí je také Spořicí účet DIP, ze kterého můžete investovat do renomovaných podílových fondů."
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Vložení peněz na Spořicí účet DIP",
+                        "detail": "Od této chvíle můžete využít daňovou úsporu."
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Nastavení investice<br>ze Spořicího účtu DIP"
+                    }
+                ],
+                "primaryButton": "Poslat peníze na Spořicí účet DIP",
+                "secondaryButton": "Poslat peníze později"
+            },
+            "victoryScreenDeposit": {
+                "title": "Peníze jsou na cestě na Váš spořicí účet DIP.<br>Můžete investovat",
+                "subtitle": "Peníze převedeme zpravidla za několik minut. Nejpozději následující pracovní den.",
+                "primaryButton": "Pokračovat"
+            },
+            "longTermProcess": {
+                "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat",
+                "subtitle": "V pracovních dnech to zvládneme za pár hodin, pokud je víkend, hotovo budeme mít v pondělí.\n\nHned poté Vám dáme vědět na Přehledu, smlouvu uložíme do dokumentů a aktivujeme Vám účet.\n\nOmlouváme se Vám a děkujeme za trpělivost.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "victoryScreenFinal": {
+                "title": "Využijte DIP na maximum",
+                "sectionTitle": "Jak pokračovat?",
+                "bullets": [
+                    {
+                        "icon": "reconstructionFill",
+                        "title": "Potvrzení pro zaměstnavatele a čerpání příspěvku",
+                        "detail": "Stáhněte si potvrzení o vedení DIP a nechte si přispívat na dlouhodobý investiční produkt."
+                    },
+                    {
+                        "icon": "savingsFill",
+                        "title": "Nastavení investice<br>ze Spořicího účtu DIP"
+                    }
+                ],
+                "navigationCard": {
+                    "icon": "fileLinesFill",
+                    "title": "Potvrzení DIP pro zaměstnavatele",
+                    "description": "PDF ke stažení"
+                },
+                "primaryButton": "Přejít na Přehled DIP"
+            },
+            "processFail": {
+                "title": "Omlouváme se, tak tohle nevyšlo",
+                "subtitle": "Bohužel nastala neočekávaná chyba a není možné pokračovat. \nProsím, zkuste to později.",
+                "primaryButton": "Zpět na Přehled"
             }
         }
     }

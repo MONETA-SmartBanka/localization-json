@@ -254,7 +254,6 @@
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
-                                "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
                                 "Pohodové splácení s pojištěním schopnosti splácet"
@@ -482,6 +481,16 @@
                     "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
+                },
+                "invalidIncomeCombinationSheet": {
+                    "title": "Abyste mohli pokračovat, přidejte alespoň jeden z těchto svých příjmů:",
+                    "bullets": [
+                        "příjem ze zaměstnání (závislá činnost na dobu určitou nebo neurčitou)",
+                        "starobní nebo invalidní důchod",
+                        "renta",
+                        "příjem z podnikání"
+                    ],
+                    "primaryButton": "Rozumím"
                 }
             },
             "incomeSource": {
@@ -1017,22 +1026,22 @@
             },
             "victory": {
                 "title": "Váš kontokorent máte k dispozici. Zas je svět o kousek jednodušší :)",
-                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "clipVictory": {
                 "title": "Váš kontokorent jsme navýšili. Zas je svět o kousek jednodušší",
-                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "tomorrowVictory": {
                 "title": "Váš kontokorent bude k dispozici následující pracovní den ráno.",
-                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "delayedVictory": {
                 "title": "Máme skoro hotovo, jen podpis nám bude chvíli trvat.",
-                "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám kontokorent aktivujeme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Moje dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
+                "detail": "Náš podpis pod dokumenty zabere ještě chvíli - v pracovní dny pár hodin, o víkendu bohužel až v pondělí. Hned pak Vám kontokorent aktivujeme. Všechny dokumenty naleznete už teď ve Smart bance a Internet Bance v sekci Dokumenty.\n\nOmlouváme se a děkujeme za strpení.",
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "scoring": {

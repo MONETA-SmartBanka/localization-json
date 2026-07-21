@@ -507,7 +507,6 @@
                         "bullets": [
                             "Úrok už od {interestRate} ročně",
                             "Sjednání kompletně online",
-                            "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
                             "Pohodové splácení s pojištěním schopnosti splácet"
@@ -735,6 +734,16 @@
                 "primaryButton": "Rozumím",
                 "secondaryButton": "Dokončit později",
                 "tertiaryButton": "Ukončit žádost"
+            },
+            "invalidIncomeCombinationSheet": {
+                "title": "Abyste mohli pokračovat, přidejte alespoň jeden z těchto svých příjmů:",
+                "bullets": [
+                    "příjem ze zaměstnání (závislá činnost na dobu určitou nebo neurčitou)",
+                    "starobní nebo invalidní důchod",
+                    "renta",
+                    "příjem z podnikání"
+                ],
+                "primaryButton": "Rozumím"
             }
         },
         "householdExpensesNecessary": {
@@ -1211,7 +1220,7 @@
             },
             "verification": {
                 "title": "Hotovo. Vše zpracujeme co nejdříve a poté vám dáme vědět jak pokračovat.",
-                "detail": "Všechny dokumenty najdete ve Smart Bance a v Internet Bance v sekci Moje dokumenty.",
+                "detail": "Všechny dokumenty najdete ve Smart Bance a v Internet Bance v sekci Dokumenty.",
                 "contractUpload": "Půjčka {0} (jinde): Nahrát dokument",
                 "repaymentSign": "Podepsat žádost o předčasné splacení",
                 "primaryButton": "Přejít na Přehled"

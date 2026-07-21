@@ -260,7 +260,6 @@
                         "bullets": [
                             "Úrok už od {interestRate} ročně",
                             "Sjednání kompletně online",
-                            "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
                             "Pohodové splácení s pojištěním schopnosti splácet"
@@ -488,6 +487,16 @@
                 "primaryButton": "Rozumím",
                 "secondaryButton": "Dokončit později",
                 "tertiaryButton": "Ukončit žádost"
+            },
+            "invalidIncomeCombinationSheet": {
+                "title": "To continue, add at least one of these income sources:",
+                "bullets": [
+                    "employment income, including fixed-term or permanent contracts",
+                    "old-age or disability pension",
+                    "rental income",
+                    "business income"
+                ],
+                "primaryButton": "Got it"
             }
         },
         "incomeSource": {
