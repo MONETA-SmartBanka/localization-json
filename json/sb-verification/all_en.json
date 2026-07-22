@@ -3,27 +3,27 @@
     "responseObject": {
         "errorScreens": {
             "mustBeClient": {
-                "title": "This feature is available for clients only. Please select a different verification method.",
-                "primaryButton": "Back to Home Screen"
+                "title": "This option is only available to MONETA customers. Please choose another way to verify your identity",
+                "primaryButton": "Back to start"
             },
             "invalidQR": {
-                "title": "QR code validity has expired. Please generate a new code.",
-                "primaryButton": "Back to Home Screen"
+                "title": "This QR code has expired. Please generate a new one.",
+                "primaryButton": "Back to start"
             },
             "detailsDoNotMatchZenId": {
-                "title": "Details do not match, please select a different verification method",
+                "title": "Your details don't match. Please choose another way to verify your identity.",
                 "primaryButton": "Close",
-                "secondaryButton": "Try Again"
+                "secondaryButton": "Try again"
             },
             "detailsDoNotMatch": {
-                "title": "Details do not match, please select a different verification method",
+                "title": "Your details don't match. Please choose another way to verify your identity.",
                 "primaryButton": "Close"
             }
         },
         "scenes": {
             "entityVerification": {
-                "toolbarTitle": "Is Everything Correct?",
-                "title": "Your Details",
+                "toolbarTitle": "Does everything look right?",
+                "title": "Your details",
                 "detail": "Please review and confirm your personal information.",
                 "confirmMessage": "By confirming, you agree to verify your identity.",
                 "committing": "Verifying...",
@@ -38,19 +38,19 @@
                         "label": "Date of Birth"
                     },
                     "birthNumber": {
-                        "label": "Birth Number"
+                        "label": "Personal ID number"
                     }
                 },
-                "primaryButton": "Everything is correct, continue",
-                "secondaryButton": "Something is wrong",
+                "primaryButton": "Everything looks right",
+                "secondaryButton": "Something's wrong",
                 "victory": {
-                    "title": "Identity verification was successfully completed and you can return to the original application",
+                    "title": "Identity verified. You can now return to the app you came from",
                     "primaryButton": "Close"
                 }
             },
             "entityVerificationZenId": {
-                "toolbarTitle": "Is Everything Correct?",
-                "title": "Your Details",
+                "toolbarTitle": "Does everything look right?",
+                "title": "Your details",
                 "detail": "Please review and confirm your personal information.",
                 "confirmMessage": "By confirming, you agree to verify your identity.",
                 "committing": "Verifying...",
@@ -65,16 +65,16 @@
                         "label": "Date of Birth"
                     },
                     "birthNumber": {
-                        "label": "Birth Number"
+                        "label": "Personal ID number"
                     },
                     "documentNumber": {
                         "label": "Document Number"
                     }
                 },
-                "primaryButton": "Everything is correct, continue",
-                "secondaryButton": "Something is wrong",
+                "primaryButton": "Everything looks right",
+                "secondaryButton": "Something's wrong",
                 "victory": {
-                    "title": "Identity verification was successfully completed and you can return to the original application",
+                    "title": "Identity verified. You can now return to the app you came from",
                     "primaryButton": "Close"
                 }
             }
