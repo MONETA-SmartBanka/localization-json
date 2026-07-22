@@ -61,6 +61,29 @@
         "title": "Moneta aplikace se vám přizpůsobí. Nastavte si ji podle svých představ. Běžný účet se vším zdarma je samozřejmostí",
         "primaryButton": "Pokračovat",
         "ownSectionTitle": "Ve své Moneta aplikaci najdete",
+        "promoSections": [
+            {
+                "promoId": "RDC0010001",
+                "item": {
+                    "id": "BUNDLE_CA_DC_CZK",
+                    "deeplink": "CAETB",
+                    "templateId": 1000381,
+                    "icon": "accountFill",
+                    "title": "Běžný účet se vším zdarma a 5 % zpět za platby kartou",
+                    "subtitle": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.",
+                    "pills": [
+                        {
+                            "text": "Zdarma",
+                            "style": "green"
+                        },
+                        {
+                            "text": "5 % ZPĚT",
+                            "style": "gold"
+                        }
+                    ]
+                }
+            }
+        ],
         "sections": [
             {
                 "title": "Další produkty, které vám usnadní hospodaření",
@@ -70,16 +93,12 @@
                         "deeplink": "CAETB",
                         "templateId": 1000381,
                         "icon": "accountFill",
-                        "title": "Běžný účet se vším zdarma a 5 % zpět za platby kartou",
-                        "subtitle": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.",
+                        "title": "Běžný účet se vším zdarma",
+                        "subtitle": "Nejoblíbenější účet bez poplatků, s výběry ze všech bankomatů zdarma doma i v zahraničí.",
                         "pills": [
                             {
                                 "text": "Zdarma",
                                 "style": "green"
-                            },
-                            {
-                                "text": "5 % ZPĚT",
-                                "style": "gold"
                             }
                         ]
                     },
