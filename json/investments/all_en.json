@@ -3,12 +3,24 @@
         "toolbarTitle": "Investments",
         "phoneNumber": "+420 224 443 636",
         "phoneNumberAssist": "+420 234 240 244",
-        "intervals": {
-            "YEAR": "1 year",
-            "THREE_YEARS": "3 years",
-            "FIVE_YEARS": "5 years",
-            "WHOLE": "Since creation"
-        }
+        "intervals": [
+            { 
+                "interval": "YEAR", 
+                "title": "1 year" 
+            },
+            { 
+                "interval": "THREE_YEARS", 
+                "title": "3 years" 
+            },
+            { 
+                "interval": "FIVE_YEARS", 
+                "title": "5 years" 
+            },
+            { 
+                "interval": "WHOLE", 
+                "title": "Since creation" 
+            }
+        ]
     },
     "screens": {
         "disclaimer": {

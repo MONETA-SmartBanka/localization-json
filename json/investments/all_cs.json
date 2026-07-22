@@ -3,12 +3,24 @@
         "toolbarTitle": "Investice",
         "phoneNumber": "+420 224 443 636",
         "phoneNumberAssist": "+420 234 240 244",
-        "intervals": {
-            "YEAR": "1 rok",
-            "THREE_YEARS": "3 roky",
-            "FIVE_YEARS": "5 let",
-            "WHOLE": "Od začátku"
-        }
+        "intervals": [
+            { 
+                "interval": "YEAR", 
+                "title": "1 rok" 
+            },
+            { 
+                "interval": "THREE_YEARS", 
+                "title": "3 roky" 
+            },
+            { 
+                "interval": "FIVE_YEARS", 
+                "title": "5 let" 
+            },
+            { 
+                "interval": "WHOLE", 
+                "title": "Od začátku" 
+            }
+        ]
     },
     "screens": {
         "disclaimer": {
