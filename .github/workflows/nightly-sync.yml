@@ -1,8 +1,8 @@
-name: Nightly sync from TST1
+name: Morning sync from TST1
 
 on:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 8 * * 1-5'
   workflow_dispatch:
 
 permissions:
@@ -11,13 +11,14 @@ permissions:
 
 jobs:
   sync:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted]
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v5
         with:
           fetch-depth: 0
+          token: ${{ secrets.LOCALIZATION_SYNC_PR_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -35,6 +36,7 @@ jobs:
       - name: Create pull request
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.LOCALIZATION_SYNC_PR_TOKEN }}
           branch: chore/nightly-sync-from-tst1
           delete-branch: true
           commit-message: "chore(sync): sync from TST1"
