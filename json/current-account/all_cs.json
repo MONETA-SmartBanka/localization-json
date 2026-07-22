@@ -308,10 +308,13 @@
                         "icon": "cardFill"
                     }
                 ],
-                "message": {
-                    "title": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.<br><a href=\"TODO: Přidat url!!!\">Zobrazit podmínky akce</a>",
-                    "icon": "giftFill"
-                },
+                "promoMessages": [
+                    {
+                        "promoId": "RDC0010001",
+                        "title": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.<br><a href=\"TODO: Přidat url!!!\">Zobrazit podmínky akce</a>",
+                        "icon": "giftFill"
+                    }
+                ],
                 "addressSection": {
                     "title": "Kontaktní adresa",
                     "info": "Na kontaktní adresu Vám zašleme Vaší debetní kartu.",
