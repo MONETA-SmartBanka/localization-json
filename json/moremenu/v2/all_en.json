@@ -88,6 +88,15 @@
                     "analyticsId": "more_termDeposit"
                 },
                 {
+                    "title": "Long-Term investment product",
+                    "listIcon": "longtermFundsFill",
+                    "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "DIPINVESTMENT",
+                    "analyticsId": "more_dip"
+                },
+                {
                     "title": "Supplementary pension savings",
                     "listIcon": "faceOldtFill",
                     "userClientTypeList": ["FO", "ZAM"],

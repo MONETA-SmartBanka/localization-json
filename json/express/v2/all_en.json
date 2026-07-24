@@ -135,9 +135,9 @@
                 "detail": "You can find all the information on Express Loan at <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">on our website`</a>.",
                 "summaryHeadline": "About your loan:",
                 "finishLaterHeadline": "Do you need to finish another time?",
-                "tertiaryButton": "Cancel Application",
-                "secondaryButton": "Finish another time",
                 "primaryButton": "Finish Application",
+                "secondaryButton": "Finish application later",
+                "tertiaryButton": "Cancel Application",
                 "confusedHeadline": "Do you need assistance?",
                 "callUs": "Call our helpline",
                 "branch": "Visit one of our branches",
@@ -329,7 +329,6 @@
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
-                                "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
                                 "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
@@ -497,7 +496,7 @@
                         "title": "Jaký je váš příjem ze zaměstnání?",
                         "inputTitle": "Čistý měsíční příjem",
                         "inputPlaceholder": "0",
-                        "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                        "detail": "Pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců.",
                         "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                         "primaryButton": "Pokračovat"
                     },
@@ -558,6 +557,16 @@
                     "primaryButton": "Zpět",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
+                },
+                "invalidIncomeCombinationSheet": {
+                    "title": "To continue, add at least one of these income sources:",
+                    "bullets": [
+                        "employment income, including fixed-term or permanent contracts",
+                        "old-age or disability pension",
+                        "rental income",
+                        "business income"
+                    ],
+                    "primaryButton": "Got it"
                 }
             },
             "incomeSource": {
@@ -583,7 +592,6 @@
                 "bullets": [
                     "Interest from {interestRate} annually",
                     "Completely online arrangement",
-                    "No credit management fee",
                     "Without proof of income",
                     "Possibility of deducting loan interest from the tax base",
                     "Comfortable repayment with <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">payment ability insurance</a>"
@@ -623,7 +631,7 @@
                 "title": "Is this your monthly income?",
                 "alternativeTitle": "What is your net monthly income?",
                 "inputTitle": "Monthly income",
-                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
@@ -631,7 +639,7 @@
                 "title": "Is this your monthly income?",
                 "alternativeTitle": "What is your net monthly income?",
                 "inputTitle": "Monthly income",
-                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
@@ -639,7 +647,7 @@
                 "title": "Is this your monthly pension?",
                 "alternativeTitle": "What is your monthly pension?",
                 "inputTitle": "Monthly pension",
-                "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your pension varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "dependents": {
@@ -659,14 +667,14 @@
             "householdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter your household’s net monthly income - if your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
             "pensionerHouseholdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "householdExpenses": {
@@ -1570,17 +1578,17 @@
             },
             "victory": {
                 "title": "It’s done. The money is on its way into your account and should be there within 5 minutes. Enjoy!",
-                "detail": "All of your documents can be found in Smart Banka and Internet Banka in My Documents.",
+                "detail": "All of your documents can be found in Smart Banka and Internet Banka in Documents.",
                 "primaryButton": "Back to Balance Overview"
             },
             "tomorrowVictory": {
                 "title": "Your loan will be ready next business day in the morning.",
-                "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
+                "detail": "All of your documents can be found in Documents section of Internet Banka and Smart Banka.",
                 "primaryButton": "Back to Balance Overview"
             },
             "delayedVictory": {
                 "title": "We are almost done. The signing may take a while.",
-                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your My Documents section. We apologize for the inconvenience and appreciate your patience.",
+                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your Documents section. We apologize for the inconvenience and appreciate your patience.",
                 "primaryButton": "Back to Balance Overview"
             },
             "sign": {
@@ -1610,7 +1618,7 @@
             },
             "creditCard": {
                 "title": "We understand you don’t need more money at this moment. But since you’re already approved, why not have a credit card on hand just in case you ever need it?",
-                "detail": "✓ An immediate financial reserve\n✓ Up to 50 days interest-free\n✓ Extra rewards\n\nAdd it in just a couple of clicks.\n\nAll documents can be found in Smart Banka and Internet Banka under 'My Documents'.",
+                "detail": "✓ An immediate financial reserve\n✓ Up to 50 days interest-free\n✓ Extra rewards\n\nAdd it in just a couple of clicks.\n\nAll documents can be found in Smart Banka and Internet Banka under 'Documents'.",
                 "primaryButton": "Apply for a credit card",
                 "secondaryButton": "I'm not interested"
             },

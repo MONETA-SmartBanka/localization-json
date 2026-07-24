@@ -49,7 +49,7 @@
             "primaryButton": "Terminate onboarding"
         },
         "victoryParentProcessPO": {
-            "title": "Při podpisu smlouvy došlo k chybě. Brzy se Vám ozveme",
+            "title": "Bohužel se nepodařilo aktivovat Váš přístup k účtu",
             "detail": "Nemusíte mít strach, o nic jste nepřišli a není třeba postup opakovat.\n\nCo nejdříve Vám zavoláme a pomůžeme vše dokončit.",
             "primaryButton": "Ukončit žádost"
         }
@@ -79,11 +79,19 @@
             "primaryButton": "Terminate onboarding"
         },
         "victoryParentProcessPO": {
-            "title": "Hotovo! Konto PRO podnikání máte založeno",
-            "titleLoading": "Teď to musíme podepsat my, chvilku strpení prosím.",
-            "detail": "Kartu k účtu si můžete sjednat ve Smart Bance v sekci Karty, Nová karta.\n\nPro přihlášení do Internet Banky použijte ID, které jsme Vám zaslali e-mailem a heslo z SMS.",
+            "title": "Done! Your Konto PRO business account has been opened",
+            "titleLoading": "Now it’s our turn to sign it. Please bear with us for a moment.",
+            "detail": "To log in to the Internet Bank, enter the ID we sent you by email and the password from the SMS.",
             "detailStatutory": "We have just added you as an authorized representative of the company {0}. You can log into Internet Banka using the ID from the email and the password from the SMS.",
-            "primaryButton": "Pokračovat"
+            "primaryButton": "Continue"
+        },
+        "victoryParentProcessPOWithCards": {
+            "title": "Done! The PRO business account is ready. Order a card for it too",
+            "titleLoading": "Now we have to sign it, please be patient.",
+            "detail": "To log in to the Internet Bank, use the ID we sent you by email and the password from the SMS.\n\nYou can also order a card for the account at any time later in the Cards section, New card.",
+            "detailStatutory": "We have just added you as the statutory representative of the company {0}. You can log in to the Internet Bank using the ID from the email and the password from the SMS.",
+            "primaryButton": "Order a card",
+            "secondaryButton": "I don't need a card now"
         }
     }
 }

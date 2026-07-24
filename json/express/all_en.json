@@ -114,13 +114,14 @@
             },
             "promoOfferNib": {
                 "title": "Expres loan",
-                "detail": "Need money fast and for anything? Take advantage of our advantageous Expres Loan with a low interest rate from {expres_loan_interest_rate} per year with an APR from {expres_loan_rpsn}.</b> You can arrange a loan in a <b>few minutes fully online.</b>",
+                "detail": "Do you need money quickly and for any purpose? Use our Express Loan with a <b>lowest interest rate guarantee on the market.</b> The interest rate starts from {expres_loan_interest_rate} p.a., with an APR from {expres_loan_rpsn}.</b> You can apply for the loan <b>fully online in just a few minutes.</b>",
                 "bulletsTitle": "Other benefits that you will appreciate as a client",
                 "bullets": [
+                    "<b>Lowest interest rate guarantee on the market</b> - we’ll match a better offer from another bank. <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\" target=\"_blank\" rel=\"noopener\">Learn more on our website</a>",
+                    "<b>Repay the loan early is no problem for us.</b>",
                     "Repayment at rest even in the event of a loss of income with the selection of ability to repay insurance",
                     "<b>Online from application to a signing</b> of the contract. We invite you to the branch only when you can't do otherwise.",
-                    "Low interest rate<b>from {expres_loan_interest_rate}</b> per year with APR from {expres_loan_rpsn}",
-                    "<b>Repay the loan early</b> is no problem for us."
+                    "Low interest rate<b>from {expres_loan_interest_rate}</b> per year with APR from {expres_loan_rpsn}"
                 ]
             },
             "help": {
@@ -135,9 +136,9 @@
                 "detail": "You can find all the information on Express Loan at <a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">on our website`</a>.",
                 "summaryHeadline": "About your loan:",
                 "finishLaterHeadline": "Do you need to finish another time?",
-                "tertiaryButton": "Finish another time",
-                "secondaryButton": "Cancel Application",
                 "primaryButton": "Finish Application",
+                "secondaryButton": "Finish application later",
+                "tertiaryButton": "Cancel Application",
                 "confusedHeadline": "Do you need assistance?",
                 "callUs": "Call our helpline",
                 "branch": "Visit one of our branches",
@@ -149,7 +150,7 @@
                 "total": "You will pay a total of"
             },
             "detail": {
-                "subtitle": "Fully online, zero fees, and funds in your account in five minutes. Repay with confidence thanks to payment protection insurance.",
+                "subtitle": "Get our Express <b>Loan with a guaranteed lowest market interest rate.</b> Rates from 4.29% p.a., APR from 4.38%. <b>Apply online in minutes.</b>",
                 "title": "Your loan:",
                 "amount": "Do you need a",
                 "duration": "for a period of",
@@ -180,6 +181,7 @@
                 },
                 "insuranceBullet": "<b>Pay with confidence, even if you lose your income</b> thanks to payment protection insurance.",
                 "bullets": [
+                    "<b>Guaranteed lowest interest rate on the market -</b>we’ll match any better offer from another bank.<a href=\"https://www.moneta.cz/pujcky-a-uvery/pujcka-na-cokoliv\">Více na našem webu</a>",
                     "<b>Fully online - from application to agreement conclusion</b> Only visit a branch if absolutely necessary.",
                     "<b>Money in your account within 5 minutes</b> of agreement conclusion.",
                     "<b>There is no rush</b> You can save your process for later and consult one of our bankers."
@@ -302,7 +304,7 @@
                         "title": "Opravdu chcete odstranit tento příjem?"
                     },
                     "trialPeriod": "ve zkušební lhůtě",
-                    "onNoticePeriod": "ve výpovědní lhůtě",
+                    "onNoticePeriod": "ve výpovědní lhůtě/dohoda o ukončení",
                     "employmentForPeriod": "na dobu určitou do {0}",
                     "indefinitePeriod": "na dobu neurčitou",
                     "primaryButton": "Pokračovat"
@@ -313,7 +315,7 @@
                     "footer": "Pokud máte příjmů více, budete je moci přidat v dalších krocích žádosti.",
                     "indefinitePeriodTitle": "a zároveň na dobu neurčitou",
                     "trialPeriodTitle": "a zároveň ve zkušební lhůtě",
-                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě",
+                    "noticePeriodTitle": "a zároveň ve výpovědní lhůtě/dohoda o ukončení",
                     "fixPeriodTitle": "a zároveň na dobu určitou",
                     "fixPeriodDateTitle": "do",
                     "fixPeriodDateHint": "Vyberte datum",
@@ -323,16 +325,15 @@
                     "offers": {
                         "TO_SME": {
                             "icon": "business",
-                            "title": "Hledáte úvěr pro podnikání?",
-                            "detail": "Sjednejte si neúčelový úvěr pro podnikatele. Do {loanAmount} navíc bez daňového přiznání.",
-                            "bulletsTitle": "Výhody podnikatelského úvěru",
+                            "title": "Podnikáte? Hledáte úvěr pro podnikání?",
+                            "detail": "Sjednejte si <b>neúčelový úvěr</b> pro podnikatele. <b>Do {loanAmount} navíc bez daňového přiznání.</b>",
+                            "bulletsTitle": "Výhody podnikatelského úvěru Expres Business",
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
-                                "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
-                                "Pohodové splácení s <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">pojištěním schopnosti splácet</a>"
+                                "Pohodové splácení s pojištěním schopnosti splácet"
                             ],
                             "primaryButton": {
                                 "actionType": "APP_PAGE",
@@ -497,7 +498,7 @@
                         "title": "Jaký je váš příjem ze zaměstnání?",
                         "inputTitle": "Čistý měsíční příjem",
                         "inputPlaceholder": "0",
-                        "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                        "detail": "Pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců.",
                         "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                         "primaryButton": "Pokračovat"
                     },
@@ -551,11 +552,10 @@
                     }
                 },
                 "invalidIncomeCombination": {
-                    "title": "Je nám líto, ale půjčku vám bohužel nabídnout nemůžeme",
-                    "detail": "Pokud chcete, můžete se vrátit zpět a své příjmy ještě jednou zkontrolovat.",
-                    "callUs": "Zavolejte nám\nna infolinku",
-                    "branch": "Navštivte nás\nna pobočce",
-                    "primaryButton": "Zpět",
+                    "icon": "warning",
+                    "title": "Uvedené příjmy nestačí ke schválení úvěru",
+                    "detail": "Abyste mohli pokračovat, přidejte alespoň jeden z následujících příjmů:\n\u2022 příjem ze závislé činnosti na dobu určitou nebo neurčitou\n\u2022 starobní nebo invalidní důchod\n\u2022 rentu\n\u2022 příjem z podnikání",
+                    "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
                 }
@@ -565,7 +565,7 @@
                 "employedTitle": "I am employed",
                 "indefinitePeriodTitle": "and at the same time for an indefinite period",
                 "trialPeriodTitle": "and on a trial period",
-                "noticePeriodTitle": "and on a notice period",
+                "noticePeriodTitle": "and on a notice period/agreement on termination",
                 "employedInfo": "You can select 1-3 answers:",
                 "fixPeriodTitle": "for a fixed period",
                 "fixPeriodDateTitle": "until",
@@ -583,7 +583,6 @@
                 "bullets": [
                     "Interest from {interestRate} annually",
                     "Completely online arrangement",
-                    "No credit management fee",
                     "Without proof of income",
                     "Possibility of deducting loan interest from the tax base",
                     "Comfortable repayment with <a href=\"https://www.moneta.cz/documents/20143/11819189/mmb-pojisteni-schopnosti-splacet-expres-business-nezajisteny-brozura.pdf\">payment ability insurance</a>"
@@ -623,7 +622,7 @@
                 "title": "Is this your monthly income?",
                 "alternativeTitle": "What is your net monthly income?",
                 "inputTitle": "Monthly income",
-                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
@@ -631,7 +630,7 @@
                 "title": "Is this your monthly income?",
                 "alternativeTitle": "What is your net monthly income?",
                 "inputTitle": "Monthly income",
-                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
@@ -639,7 +638,7 @@
                 "title": "Is this your monthly pension?",
                 "alternativeTitle": "What is your monthly pension?",
                 "inputTitle": "Monthly pension",
-                "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your pension varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "dependents": {
@@ -659,14 +658,14 @@
             "householdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter your household’s net monthly income - if your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "description": "Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
                 "primaryButton": "Continue"
             },
             "pensionerHouseholdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "householdExpenses": {
@@ -1015,7 +1014,7 @@
                 "insuranceRow": "a měsíční splátkou pojištění",
                 "insuranceDetail": "a měsíční splátkou pojištění",
                 "totalWithInsurance": "včetně pojištění",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
                 "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}. V případě invalidity nedojde k plnění při pojistné události.",
                 "total": "You will pay a total of",
                 "primaryButton": "Continue",
@@ -1152,7 +1151,7 @@
                 "totalWithInsurance": "včetně pojištění",
                 "detailInsurance": "Potvrzuji, že částku za úvěr a pojištění <b>{0}</b> zvládnu měsíčně splácet",
                 "detailWoInsurance": "Potvrzuji, že částku za úvěr <b>{0}</b> zvládnu měsíčně splácet",
-                "footer": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Podmínkami pojištění.</a> V případě invalidity nedojde k plnění při pojistné události.",
+                "footer": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita. Více informací o pojištění najdete v dokumentu <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">",
                 "ppiDocuments": "Pokračováním potvrzujete, že nejste invalidní a že jste se seznámili s {0}. V případě invalidity nedojde k plnění při pojistné události.",
                 "primaryButton": "Continue",
                 "secondaryButton": "I’m not interested"
@@ -1336,6 +1335,11 @@
                     "15": {
                         "icon": "documentsFill",
                         "title": "Daňové přiznání",
+                        "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
+                    },
+                    "173": {
+                        "icon": "documentsFill",
+                        "title": "Daňové přiznání Pošta",
                         "detail": "Jste v paušální dani? Zastavte se za námi na pobočce s výpisy z účtu za poslední 3 měsíce s viditelnou platbou daně a příjmy."
                     },
                     "112": {
@@ -1576,17 +1580,17 @@
             },
             "victory": {
                 "title": "It’s done. The money is on its way into your account and should be there within 5 minutes. Enjoy!",
-                "detail": "All of your documents can be found in Smart Banka and Internet Banka in My Documents.",
+                "detail": "All of your documents can be found in Smart Banka and Internet Banka in Documents.",
                 "primaryButton": "Back to Balance Overview"
             },
             "tomorrowVictory": {
                 "title": "Your loan will be ready next business day in the morning.",
-                "detail": "All of your documents can be found in My Documents section of Internet Banka and Smart Banka.",
+                "detail": "All of your documents can be found in Documents section of Internet Banka and Smart Banka.",
                 "primaryButton": "Back to Balance Overview"
             },
             "delayedVictory": {
                 "title": "We are almost done. The signing may take a while.",
-                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your My Documents section. We apologize for the inconvenience and appreciate your patience.",
+                "detail": "We couldn't sign the document automatically and will have to sign it manually. That may take a while - a couple of hours during business days, and on Monday during weekends. We will save the contract in your Documents section. We apologize for the inconvenience and appreciate your patience.",
                 "primaryButton": "Back to Balance Overview"
             },
             "sign": {
@@ -1615,10 +1619,10 @@
                 }
             },
             "creditCard": {
-                "title": "We understand you don’t need more money at this moment. But since you’re already approved, why not have a credit card on hand just in case you ever need it?",
-                "detail": "✓ An immediate financial reserve\n✓ Up to 50 days interest-free\n✓ Extra rewards\n\nAdd it in just a couple of clicks.\n\nAll documents can be found in Smart Banka and Internet Banka under 'My Documents'.",
-                "primaryButton": "Apply for a credit card",
-                "secondaryButton": "I'm not interested"
+                "title": "Done!\n How would you like a card that gives you 10% back on grocery shopping?",
+                "detail": "✓ Get up to CZK 6,000 back on your purchases.\n✓ Plus more discounts with the Rewards program.\n✓ You can get it online in just a few clicks.",
+                "primaryButton": "Continue with a credit card",
+                "secondaryButton": "I’ll do without the card"
             },
             "toUDC": {
                 "title": "First, we merge your existing loans and then we can add a new one to them",

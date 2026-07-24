@@ -1,0 +1,164 @@
+{
+    "scenes": {
+        "pairingMethod": {
+            "title": "Choose how to link the app to your existing account",
+            "options": {
+                "viaSB": {
+                    "title": "Via my Smart Banka on another device",
+                    "description": "If you got a new phone.",
+                    "howToButton": "How to do it?"
+                },
+                "viaIB": {
+                    "title": "Via Internet Banking and an ID document",
+                    "description": "When you're at a computer and have your ID with you.",
+                    "howToButton": "How to do it?"
+                },
+                "viaTwoDocuments": {
+                    "title": "With two Czech identity documents",
+                    "description": "When you have a national ID and a driver's licence, or a passport.",
+                    "howToButton": "How to do it?"
+                }
+            },
+            "moreOptionsTitle": "More options",
+            "scanQrOption": "Scan QR code",
+            "noAccountOption": "I don't have an account with MONETA yet"
+        },
+        "documentSelection": {
+            "title": "Which documents do you have available?",
+            "options": {
+                "czechId": "Czech national ID card",
+                "residencePermit": "Residence permit\nwith Czech birth number",
+                "noDocuments": "I don't have Czech documents or a birth number"
+            }
+        },
+        "existingAccount": {
+            "title": "We can see you already have an account with us. Would you like to link it to Smart Banka?",
+            "description": "Unfortunately we cannot open a new account\nthis way.",
+            "primaryButton": "Link to existing account",
+            "secondaryButton": "Cancel application"
+        },
+        "devicePairing": {
+            "title": "Link the child's device via QR code",
+            "stepsTitle": "On the child's device:",
+            "steps": {
+                "installApp": "Install the Smart Banka app and open it",
+                "selectScanQr": "On the home screen, tap Scan QR code in the top left corner",
+                "enterCode": "Scan or type the activation code shown above into the child's device"
+            },
+            "primaryButton": "Done",
+            "secondaryButton": "I'll finish later"
+        },
+        "twoDocumentsPairing": {
+            "title": "Prepare your documents and follow the instructions",
+            "stepsTitle": "How to do it?",
+            "steps": [
+                {
+                    "id": 1,
+                    "label": "Prepare two identity documents."
+                },
+                {
+                    "id": 2,
+                    "label": "Follow the instructions and scan both documents one by one."
+                }
+            ],
+            "noDocumentsButton": "I don't have Czech documents",
+            "continueButton": "I have two documents, continue",
+            "goToBranchTitle": "Let's sort it out at a branch",
+            "goToBranchSubtitle": "Have any questions? Give us a call or visit your nearest branch."
+        },
+        "otherDevicePairing": {
+            "title": "Prepare your original device and follow the instructions",
+            "stepsTitle": "How to do it?",
+            "steps": [
+                {
+                    "id": 1,
+                    "label": "Go to your original device with Smart Banka and sign in"
+                },
+                {
+                    "id": 2,
+                    "label": "Open the menu More --> Settings and profile --> Connect a new device"
+                },
+                {
+                    "id": 3,
+                    "label": "Keep the screen with the QR code with the \"pairing\" symbol open"
+                },
+                {
+                    "id": 4,
+                    "label": "On this device, tap the button below and point the camera at the QR code"
+                }
+            ],
+            "scanButton": "Scan QR code with the \"pairing\" symbol",
+            "videoGuideURL": "https://ib.moneta.cz/video/nove_zarizeni_fullHD.mp4"
+        },
+        "getStarted": {
+            "title": "Get started with MONETA or continue your application",
+            "continueFromWebTitle": "Continue from web or email",
+            "scanQrButton": "Scan QR code",
+            "separator": "or",
+            "accountTypeTitle": "How would you like to use Smart Banka?",
+            "accountTypes": {
+                "meOrFamily": {
+                    "title": "For me or my family",
+                    "description": "Personal finances, savings, investments and more.",
+                    "button": "Open"
+                },
+                "soleTrader": {
+                    "title": "Sole trader",
+                    "description": "Account, loans, savings and more for self-employed.",
+                    "button": "Open"
+                },
+                "company": {
+                    "title": "For a company",
+                    "description": "Or an organisation.",
+                    "button": "Open"
+                }
+            },
+            "foreignerNotice": "Don't have Czech citizenship?\nWe'll be happy to open any of our products for you at any of our branches."
+        },
+        "internetBankPairingGuide": {
+            "loginPageTitle": "Go to Internet Banking and click on \"Sign in with ID and password\"",
+            "qrScanPageTitle": "In Internet Banking, click on \"+Connect Smart Bank\" in the top menu",
+            "loginPageTutorial": "https://ib.moneta.cz/video/ib_pt1_fullHD.mp4",
+            "qrScanPageTutorial": "https://ib.moneta.cz/video/ib_pt2_fullHD.mp4",
+            "sectionHeader": "How to do it?",
+            "loginSteps": [
+                {
+                    "id": 1,
+                    "label": "On your computer, go to the Internet Banking login page <b>ib.moneta.cz.</b>"
+                },
+                {
+                    "id": 2,
+                    "label": "Switch the login option to <b>\"Sign in with ID and password\".</b>"
+                },
+                {
+                    "id": 3,
+                    "label": "Enter your <a href=\"id\"><b>Identification number (ID)</b></a>, <a href=\"password\"><b>password</b></a> and sign in."
+                },
+                {
+                    "id": 4,
+                    "label": "Confirm the login using an <b>SMS code</b>"
+                }
+            ],
+            "qrScanSteps": [
+                {
+                    "id": 5,
+                    "label": "In Internet Banking, click on <b>\"+Connect Smart Bank\"</b> in the top menu."
+                },
+                {
+                    "id": 6,
+                    "label": "On this device, click the button below and point your camera <b>at the QR code with the blue \"connect\" symbol</b>"
+                }
+            ],
+            "forgotPasswordButton": "Forgot your Internet Banking password?",
+            "loginConfirmButton": "I am signed in to Internet Banking",
+            "scanQrButton": "Scan QR code with symbol",
+            "idURL": "https://www.moneta.cz/caste-dotazy/odpoved/neznate-sve-id-",
+            "passwordURL": "https://www.moneta.cz/caste-dotazy/odpoved/nepamatuji-si-uzivatelske-heslo-do-internet-banky"
+        },
+        "forgotPassword": {
+            "title": "Zastavte se za námi na pobočce nebo zvolte jiný způsob propojení.",
+            "primaryButton": "Sjednat schůzku na pobočce",
+            "secondaryButton": "Zpět na možnosti párování"
+        }
+    }
+}

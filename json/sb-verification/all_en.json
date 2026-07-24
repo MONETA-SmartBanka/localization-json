@@ -1,0 +1,77 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "errorScreens": {
+            "mustBeClient": {
+                "title": "This option is only available to MONETA customers.\nPlease choose another way to verify your identity",
+                "primaryButton": "Back to start"
+            },
+            "invalidQR": {
+                "title": "This QR code has expired\nPlease generate a new one.",
+                "primaryButton": "Back to start"
+            },
+            "detailsDoNotMatchZenId": {
+                "title": "Your details don't match.\nPlease choose another way to verify your identity.",
+                "primaryButton": "Close",
+                "secondaryButton": "Try again"
+            },
+            "detailsDoNotMatch": {
+                "title": "Your details don't match.\nPlease choose another way to verify your identity.",
+                "primaryButton": "Close"
+            }
+        },
+        "scenes": {
+            "entityVerification": {
+                "toolbarTitle": "Does everything look right?",
+                "title": "Your details",
+                "fields": {
+                    "firstName": {
+                        "label": "First Name"
+                    },
+                    "lastName": {
+                        "label": "Last Name"
+                    },
+                    "birthDate": {
+                        "label": "Date of Birth"
+                    },
+                    "birthNumber": {
+                        "label": "Personal ID number"
+                    }
+                },
+                "primaryButton": "Everything looks right",
+                "secondaryButton": "Something's wrong",
+                "victory": {
+                    "title": "Identity verified.\nYou can now return to the app you came from",
+                    "primaryButton": "Close"
+                }
+            },
+            "entityVerificationZenId": {
+                "toolbarTitle": "Does everything look right?",
+                "title": "Your details",
+                "fields": {
+                    "firstName": {
+                        "label": "First Name"
+                    },
+                    "lastName": {
+                        "label": "Last Name"
+                    },
+                    "birthDate": {
+                        "label": "Date of Birth"
+                    },
+                    "birthNumber": {
+                        "label": "Personal ID number"
+                    },
+                    "documentNumber": {
+                        "label": "Document Number"
+                    }
+                },
+                "primaryButton": "Everything looks right",
+                "secondaryButton": "Something's wrong",
+                "victory": {
+                    "title": "Identity verified.\nYou can now return to the app you came from",
+                    "primaryButton": "Close"
+                }
+            }
+        }
+    }
+}

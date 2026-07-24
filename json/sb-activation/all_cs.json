@@ -37,12 +37,49 @@
                 ],
                 "primaryButton": "Vyfotit občanský průkaz"
             },
+            "residencePermitIntro": {
+                "title": "Teď ověříme Vaši totožnost",
+                "bullets": [
+                    {
+                        "title": "Vyfocení povolení k pobytu",
+                        "description": "Připravte si doklad povolení k pobytu v České republice.",
+                        "icon": "plain1"
+                    },
+                    {
+                        "title": "Ověření totožnosti",
+                        "description": "Následně ověříme, že jste to opravdu Vy a nikdo se za Vás nevydává.",
+                        "icon": "plain2"
+                    }
+                ],
+                "detail": "Povolení k pobytu musí obsahovat rodné číslo a být vydané nejdříve 1. 7. 2020.",
+                "primaryButton": "Pokračovat k focení"
+            },
+            "residencePermitSample": {
+                "title": "Jak vypadá doklad povolení k pobytu?",
+                "detail": "Vzorový doklad povolení k pobytu",
+                "bullets": [
+                    {
+                        "title": "Doklad musí být vydán nejdříve <b>1. 7. 2020</b> a musí obsahovat rodné číslo.",
+                        "icon": "calendarFill"
+                    },
+                    {
+                        "title": "Akceptujeme povolení k přechodnému i dlouhodobému pobytu a pobytovou kartu rodinného příslušníka.",
+                        "icon": "checkmarkFill"
+                    },
+                    {
+                        "title": "Pokud nemáte české rodné číslo, zastavte se prosím za námi na pobočce.",
+                        "icon": "triangleExclamationFill"
+                    }
+                ]
+            },
             "documentScan": {
                 "info": {
                     "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
                     "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
                     "drivingLicenceTitle": "Nyní vyfotíte přední stranu řidičského průkazu",
                     "passportLicenceTitle": "Nyní vyfotíte přední stranu cestovního pasu",
+                    "residencePermitFrontTitle": "Nyní vyfotíte přední stranu dokladu k povolení pobytu",
+                    "residencePermitBackTitle": "Otočte doklad k povolení pobytu, vyfotíte jeho zadní stranu.",
                     "detail": "Ujistěte se, že fotíte:",
                     "bullets": [
                         {
@@ -62,6 +99,8 @@
                     "idBackTitle": "Zadní strana občanského průkazu",
                     "drivingLicenceTitle": "Přední strana řidičského průkazu",
                     "passportLicenceTitle": "Úvodní strana cestovního pasu",
+                    "residencePermitFrontTitle": "Přední strana dokladu",
+                    "residencePermitBackTitle": "Zadní strana dokladu",
                     "takePhoto": "Vyfotit",
                     "reviewTitle": "Je vše dobře viditelné?",
                     "yes": "Ano",
@@ -70,6 +109,8 @@
                 "upload": {
                     "title": "Zpracováváme vyfocený doklad, hned to bude",
                     "error": "Omlouváme se, tak tohle nevyšlo",
+                    "noBirthNumberError": "Na Vašem dokladu není uvedeno rodné číslo, proto nemůžeme pokračovat online. Zastavte se prosím za námi na pobočce.",
+                    "branchesButton": "Pobočky a bankomaty",
                     "takeAgainButton": "Vyfotit znovu",
                     "cancelButton": "Zkusit příště"
                 },
