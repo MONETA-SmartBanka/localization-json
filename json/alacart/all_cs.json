@@ -21,7 +21,7 @@
         "scanQR": "Načíst QR kód",
         "existingClient": {
             "icon": "linkFill",
-            "title": "Propojte si aplikaci s existujícím účtem",
+            "title": "Propojte si aplikaci s existujícím účtem",
             "detail": "Jsem klient nebo existující disponent.",
             "primaryButton": "Propojit"
         },
@@ -59,6 +59,29 @@
         "title": "Moneta aplikace se vám přizpůsobí. Nastavte si ji podle svých představ. Běžný účet se vším zdarma je samozřejmostí",
         "primaryButton": "Pokračovat",
         "ownSectionTitle": "Ve své Moneta aplikaci najdete",
+        "promoSections": [
+            {
+                "promoId": "RDC0010001",
+                "item": {
+                    "id": "BUNDLE_CA_DC_CZK",
+                    "deeplink": "CAETB",
+                    "templateId": 1000381,
+                    "icon": "accountFill",
+                    "title": "Běžný účet se vším zdarma a 5 % zpět za platby kartou",
+                    "subtitle": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.",
+                    "pills": [
+                        {
+                            "text": "Zdarma",
+                            "style": "green"
+                        },
+                        {
+                            "text": "5 % ZPĚT",
+                            "style": "gold"
+                        }
+                    ]
+                }
+            }
+        ],
         "sections": [
             {
                 "title": "Další produkty, které vám usnadní hospodaření",
@@ -110,7 +133,7 @@
                         "deeplink": "SAVINGSACCOUNT",
                         "templateId": 1000383,
                         "icon": "savingsFill",
-                        "title": "Spořicí účet s úrokem až 2,6 %",
+                        "title": "Spořicí účet s úrokem až 2,6 %",
                         "subtitle": "S bonusovým úrokem, spořicími obálkami a okamžitými převody na váš účet.",
                         "pills": [
                             {
@@ -118,7 +141,7 @@
                                 "style": "green"
                             },
                             {
-                                "text": "úrok až 2,6 % p. a.",
+                                "text": "úrok až 2,6 % p. a.",
                                 "style": "gold"
                             }
                         ]
@@ -129,7 +152,7 @@
                         "templateId": 1000384,
                         "icon": "walletEarthFill",
                         "title": "Online směnárna",
-                        "subtitle": "Nejlepší kurzy na bankovním trhu. S platební kartou a výběry v zahraničí zdarma. Směnit můžete EUR i USD.",
+                        "subtitle": "Nejlepší kurzy na bankovním trhu. S platební kartou a výběry v zahraničí zdarma. Směnit můžete EUR i USD.",
                         "pills": [
                             {
                                 "text": "Zdarma",
@@ -183,10 +206,10 @@
                         "templateId": 1000447,
                         "icon": "usersFill",
                         "title": "Kreditní karta Smart",
-                        "subtitle": "Získejte nyní 10 % zpět z nákupu potravin a 1 % z dalších nákupů.",
+                        "subtitle": "Získejte nyní 10 % zpět z nákupu potravin a 1 % z dalších nákupů.",
                         "pills": [
                             {
-                                "text": "0 % úrok až 50 dní",
+                                "text": "0 % úrok až 50 dní",
                                 "style": "green"
                             },
                             {
