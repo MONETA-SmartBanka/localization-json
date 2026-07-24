@@ -258,7 +258,7 @@
                         "actionLabelText": "Raději zrušit platbu"
                     },
                     "primarySlideButton": {
-                        "title": "Pokračovat k platbě",
+                        "title": "Přesto pokračovat v platbě",
                         "countdownSeconds": 10
                     }
                 },
@@ -1279,6 +1279,33 @@
                         "actionData": "JTVETB",
                         "ibRoute": "/application/savingsTermDeposit/offer",
                         "ibAnalyticsCode": "Retention Savings Banner JTV"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "26114",
+                    "title": "Převeďte své peníze přímo na NEJVÝHODNĚJŠÍ stavební spoření na trhu",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "Státní podporu 1 000 Kč ročně vám v prvních 6 letech ZDVOJNÁSOBÍME.",
+                            "icon": "starFill"
+                        },
+                        {
+                            "title": "Přidáme vám bonus 3 000 Kč za vklad 120 000 Kč do 4 měsíců od sjednání.",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Uspořené peníze včetně státní podpory můžete po 6 letech použít na cokoliv.",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Nejvýhodnější stavební spoření",
+                        "actionData": "BUILDING_SAVINGS",
+                        "ibRoute": "/savings/buildingSavings",
+                        "ibAnalyticsCode": "Stavebni sporeni - platebni prikaz"
                     },
                     "secondaryButton": "Pokračovat v platbě"
                 }

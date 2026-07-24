@@ -141,7 +141,7 @@
             "total": "Celkem zaplatíte",
             "totalAmount": "Celková půjčka",
             "primaryButton": "Dokončit žádost",
-            "secondaryButton": "Přejít na Přehled",
+            "secondaryButton": "Dokončit žádost jindy",
             "tertiaryButton": "Zrušit žádost",
             "confusedHeadline": "Nevíte si s něčím rady, a potřebujete poradit?",
             "callUs": "Zavolejte nám\nna infolinku",
@@ -292,9 +292,9 @@
             "dependentPersonCount": "Vyživované osoby",
             "dependentPersonCountInfo": "Vyživovanou osobou je každý, kdo je i jen částečně závislý na vašem příjmu – například děti, manželka na mateřské, invalidní osoby o které pečujete atd.",
             "netMonthlyIncome": "Čistý měsíční příjem",
-            "netMonthlyIncomeInfo": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce. Chcete si to v klidu spočítat? Dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+            "netMonthlyIncomeInfo": "Pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců. V případě, že si to chcete v klidu spočítat, nemusíte spěchat, svou žádost najdete uloženou na Přehledu ve Smart Bance.",
             "netMonthlyHouseIncome": "Měsíční příjem domácnosti",
-            "netMonthlyHouseIncomeInfo": "Zadejte čistý měsíční příjem Vaší domácnosti – pokud máte každý měsíc jiný příjem, uveďte průměr za poslední tři měsíce. Pokud si to chcete v klidu spočítat, dejte si načas – Vaši žádost najdete uloženou na Přehledu zůstatků Smart Banky.",
+            "netMonthlyHouseIncomeInfo": "Zadejte čistý měsíční příjem Vaší domácnosti – pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců. V případě, že si to chcete v klidu spočítat, nemusíte spěchat, svou žádost najdete uloženou na Přehledu ve Smart Bance.",
             "expensesSection": "Výdaje",
             "installmentsSum": "Splátky mimo Monetu (leasing, úvěry)",
             "installmentsSumInfo": "Splácíte leasing nebo úvěr jinde než v MONETA Money Bank? Zadejte prosím výši celkové měsíční splátky:",
@@ -507,7 +507,6 @@
                         "bullets": [
                             "Úrok už od {interestRate} ročně",
                             "Sjednání kompletně online",
-                            "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
                             "Pohodové splácení s pojištěním schopnosti splácet"
@@ -675,7 +674,7 @@
                     "title": "Jaký je váš příjem ze zaměstnání?",
                     "inputTitle": "Čistý měsíční příjem",
                     "inputPlaceholder": "0",
-                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za posledních 12 měsíců.",
                     "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                     "primaryButton": "Pokračovat"
                 },
@@ -735,6 +734,16 @@
                 "primaryButton": "Rozumím",
                 "secondaryButton": "Dokončit později",
                 "tertiaryButton": "Ukončit žádost"
+            },
+            "invalidIncomeCombinationSheet": {
+                "title": "To continue, add at least one of these income sources:",
+                "bullets": [
+                    "employment income, including fixed-term or permanent contracts",
+                    "old-age or disability pension",
+                    "rental income",
+                    "business income"
+                ],
+                "primaryButton": "Got it"
             }
         },
         "householdExpensesNecessary": {

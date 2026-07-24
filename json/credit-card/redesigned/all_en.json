@@ -61,8 +61,9 @@
             "detail": "You can learn more about MoneyCard Smart Credit Card at <a href=\"https://www.moneta.cz/ucty-a-karty/kreditni-karta\">www.moneta.cz/ucty-a-karty/kreditni-karta</a>.",
             "summaryHeadline": "More information about your Credit Cards:",
             "finishLaterHeadline": "Do you want to come back to the application later?",
-            "secondaryButton": "Cancel application",
-            "primaryButton": "Come back later",
+            "primaryButton": "Complete application",
+            "secondaryButton": "Come back later",
+            "tertiaryButton": "Cancel application",
             "confusedHeadline": "Do you need assitance?",
             "callUs": "Call Helpline",
             "branch": "Visit a branch",
@@ -108,7 +109,7 @@
             "discounts": [
                 {
                     "title": "Home & garden",
-                    "icon": "householdFill",
+                    "icon": "householdEquipmentFill",
                     "discountId": "HOUSE"
                 },
                 {
@@ -259,7 +260,6 @@
                         "bullets": [
                             "Úrok už od {interestRate} ročně",
                             "Sjednání kompletně online",
-                            "Bez poplatku za vedení úvěru",
                             "Bez prokazování příjmu",
                             "Možnost odpočtu úroků úvěru z daňového základu",
                             "Pohodové splácení s pojištěním schopnosti splácet"
@@ -427,7 +427,7 @@
                     "title": "Jaký je váš příjem ze zaměstnání?",
                     "inputTitle": "Čistý měsíční příjem",
                     "inputPlaceholder": "0",
-                    "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                    "detail": "Pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců.",
                     "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                     "primaryButton": "Pokračovat"
                 },
@@ -487,6 +487,16 @@
                 "primaryButton": "Rozumím",
                 "secondaryButton": "Dokončit později",
                 "tertiaryButton": "Ukončit žádost"
+            },
+            "invalidIncomeCombinationSheet": {
+                "title": "To continue, add at least one of these income sources:",
+                "bullets": [
+                    "employment income, including fixed-term or permanent contracts",
+                    "old-age or disability pension",
+                    "rental income",
+                    "business income"
+                ],
+                "primaryButton": "Got it"
             }
         },
         "incomeSource": {
@@ -537,15 +547,15 @@
             "title": "Is this your net monthly income?",
             "alternativeTitle": "What is your net monthly income?",
             "inputTitle": "Net monthly income",
-            "detail": "If your income varies each month, enter the average from the last three months.",
-            "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
+            "detail": "If your income varies from month to month, enter your average income over the last 12 months.",
+            "description": "Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
             "primaryButton": "Yes, Continue"
         },
         "householdSolvency": {
             "title": "What is the net monthly income of your household?",
             "inputTitle": "Net monthly income",
-            "detail": "Enter the net monthly income of all members of your household. If your income varies from month to month, provide the average from the last three months.",
-            "description": "Want to take your time and do the math? No rush — your application is saved in the Smart Banka Overview.",
+            "detail": "Enter the net monthly income of all members of your household. If your income varies from month to month, enter your average income over the last 12 months.",
+            "description": "Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
             "primaryButton": "Continue"
         },
         "dependents": {

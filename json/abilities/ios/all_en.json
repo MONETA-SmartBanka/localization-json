@@ -176,20 +176,18 @@
         },
         {
             "id": "Bezpecnost_4_ENG",
-            "title": "The fastest way to get in touch with us is via Smart Banka",
-            "detail": "Call us through Smart Bank so you don't have to verify that it's really you.",
-            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_4_ENG.png",
+            "title": "Do you need to contact us?",
+            "detail": "You can call us directly from Smart Banka without unnecessary checks.",
+            "imageURL": "/cbl_images/popup-news/v93/overeni_hovoru_CZ.png",
+            "minAppVersion": "93.0.0",
             "shouldCheckEligibility": false,
-            "minAppVersion": "62.0.0",
-            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_4_ENG.png",
-            "newsDate": "2024-01-22",
             "abilityCategory": "security",
-            "abilityTitle": "Get in touch",
+            "abilityTitle": "Automatic call verification from SB",
             "abilitySortOrder": 400,
             "primaryButton": {
                 "actionType": "APPPAGE",
                 "actionData": "CONTACTUS",
-                "actionLabelText": "Try it"
+                "actionLabelText": "Learn more"
             }
         },
         {
@@ -1128,6 +1126,65 @@
             "abilityCategory": "appearance",
             "abilityTitle": "Overdraft view",
             "abilitySortOrder": 8200
+        },
+        {
+            "id": "DalsiKontokorent_EN",
+            "title": "Open another business account in CZK, EUR or USD",
+            "detail": "When one business account isn’t enough, open another. Keep payments, income and expenses separate at home and abroad. In CZK, EUR or USD.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
+            "minAppVersion": "94.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Another account online",
+            "abilitySortOrder": 8300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "SME_SECOND_ACCOUNT",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "TomPlus_EN",
+            "title": "Premium services for you and your family with the Gold account",
+            "detail": "Enjoy smoother travel, better exchange rates and useful services at home and on the go. Activate the Gold package from the three-dot menu in your account details.",
+            "imageURL": "/cbl_images/popup-news/v94/tom_plus_gold_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Current Account Tom Plus",
+            "abilitySortOrder": 8400
+        },
+        {
+            "id": "Cestovko_EN",
+            "title": "Travel insurance that also covers trips in the Czech Republic? We’ve got you covered",
+            "detail": "Whether you’re heading to the seaside, the mountains or travelling around the Czech Republic, our travel insurance keeps you covered. It includes trips abroad and cancellation in the Czech Republic.",
+            "imageURL": "/cbl_images/popup-news/v93/dlouhodobe_cestovni_pojisteni_CZ.png",
+            "minAppVersion": "93.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Long-term travel insurance",
+            "abilitySortOrder": 8500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TRAVELINSURANCE",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "LimitKreditky_EN",
+            "title": "Unexpected expenses? Increase your credit card limit online. It’s quick and easy",
+            "detail": "Increase your credit card limit up to CZK 300,000 in just a few minutes. Submit your application and, if approved, the funds can be available right away.",
+            "imageURL": "/cbl_images/popup-news/v94/navyseni_kreditky_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "cards",
+            "abilityTitle": "Credit card limit increase",
+            "abilitySortOrder": 8600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Try it"
+            }
         }
     ]
 }

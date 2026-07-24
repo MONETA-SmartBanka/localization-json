@@ -88,6 +88,15 @@
                     "analyticsId": "more_termDeposit"
                 },
                 {
+                    "title": "Dlouhodobý investiční produkt",
+                    "listIcon": "longtermFundsFill",
+                    "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
+                    "shouldCheckEligibility": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "DIPINVESTMENT",
+                    "analyticsId": "more_dip"
+                },
+                {
                     "title": "Doplňkové penzijní spoření",
                     "listIcon": "faceOldtFill",
                     "userClientTypeList": ["FO", "ZAM"],

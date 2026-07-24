@@ -108,6 +108,8 @@
                 "upload": {
                     "title": "Processing uploaded document, just a moment",
                     "error": "Our apologies, something went wrong.",
+                    "noBirthNumberError": "Your document does not include a Czech birth number, so we cannot continue online. Please visit one of our branches.",
+                    "branchesButton": "Branches and ATMs",
                     "takeAgainButton": "Try again",
                     "cancelButton": "Try later"
                 },
@@ -334,6 +336,12 @@
                         "value": "CA141D0018"
                     }
                 ],
+                "primaryButton": "Continue"
+            },
+            "bankIdActivationSheet": {
+                "title": "Bank iD with MONETA",
+                "description": "Bank iD lets you easily access services from public authorities and private companies. It’s highly secure and free to use.",
+                "toggleDescription": "Activate Bank iD for free",
                 "primaryButton": "Continue"
             },
             "click2Pay": {

@@ -14,7 +14,7 @@
         },
         "cardType": {
             "title": "Jakou kartu zvolíte?",
-            "footer": "Více informací o poplatcích za plastové karty najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">našem sazebníku</a>.",
+            "footer": "Více informací o poplatcích za fyzické karty najdete v <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">našem sazebníku</a>.",
             "cardTechOptions": [
                 {
                     "type": "PLASTIC",
@@ -189,7 +189,29 @@
                             "color": "gold",
                             "type": "insurance"
                         }
-                    ]
+                    ],
+                    "cardTechOptions": [
+                        {
+                            "type": "PLASTIC",
+                            "text": "Platinová karta",
+                            "icon": "cardFill"
+                        },
+                        {
+                            "type": "VIRTUAL",
+                            "text": "Virtuální karta",
+                            "icon": "card"
+                        },
+                        {
+                            "type": "BOTH",
+                            "text": "Platinová nebo virtuální karta",
+                            "icon": "cardFill"
+                        }
+                    ],
+                    "virtualButtonFree": "Chci virtuální ZDARMA",
+                    "virtualButton": "Chci virtuální za {0} měsíčně",
+                    "plasticButtonFree": "Chci platinovou ZDARMA",
+                    "plasticButton": "Chci platinovou za {0} měsíčně",
+                    "plasticTitle": "Platinová karta"
                 },
                 {
                     "type": "99300",

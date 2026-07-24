@@ -253,7 +253,6 @@
                             "bullets": [
                                 "Úrok už od {interestRate} ročně",
                                 "Sjednání kompletně online",
-                                "Bez poplatku za vedení úvěru",
                                 "Bez prokazování příjmu",
                                 "Možnost odpočtu úroků úvěru z daňového základu",
                                 "Pohodové splácení s pojištěním schopnosti splácet"
@@ -421,7 +420,7 @@
                         "title": "Jaký je váš příjem ze zaměstnání?",
                         "inputTitle": "Čistý měsíční příjem",
                         "inputPlaceholder": "0",
-                        "detail": "Pokud máte každý měsíc jiný příjem, zadejte průměr za poslední tři měsíce.",
+                        "detail": "Pokud máte každý měsíc jiný příjem, uveďte průměr za posledních 12 měsíců.",
                         "description": "Chcete si to v klidu spočítat? Dejte si načas, vaši žádost najdete uloženou na Přehledu Smart Banky.",
                         "primaryButton": "Pokračovat"
                     },
@@ -481,6 +480,16 @@
                     "primaryButton": "Rozumím",
                     "secondaryButton": "Dokončit později",
                     "tertiaryButton": "Ukončit žádost"
+                },
+                "invalidIncomeCombinationSheet": {
+                    "title": "To continue, add at least one of these income sources:",
+                    "bullets": [
+                        "employment income, including fixed-term or permanent contracts",
+                        "old-age or disability pension",
+                        "rental income",
+                        "business income"
+                    ],
+                    "primaryButton": "Got it"
                 }
             },
             "incomeSource": {
@@ -532,14 +541,14 @@
                 "inputTitle": "Monthly income",
                 "title": "Is this your net monthly income?",
                 "alternativeTitle": "What is your net monthly income?",
-                "detail": "If your income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "pensionerPersonalSolvency": {
                 "title": "Is this your monthly pension?",
                 "alternativeTitle": "What is your monthly pension?",
                 "inputTitle": "Monthly pension",
-                "detail": "If your pension varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "If your pension varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "dependents": {
@@ -559,13 +568,13 @@
             "householdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter your household’s net monthly income - if your income varies from month to month, enter your average income over the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "pensionerHouseholdSolvency": {
                 "title": "What is the net monthly income of your household?",
                 "inputTitle": "Monthly income",
-                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 3 months. Do you need a moment to calculate? Take your time - you can find your saved application in Balance Overview in Smart Banka.",
+                "detail": "Enter the net monthly income of your household - if the income varies please enter the average of the last 12 months. Need more time to work it out? No problem. Your application is saved on the Overview screen in Smart Banka.",
                 "primaryButton": "Continue"
             },
             "housingExpenses": {

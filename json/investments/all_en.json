@@ -2692,6 +2692,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Discont certificate"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "QIF"
                 }
             ],
             "profiles": [
@@ -8535,6 +8539,10 @@
                 {
                     "typeCode": "DISCONT_CERTIFICATE",
                     "type": "Discont certificate"
+                },
+                {
+                    "typeCode": "QIF",
+                    "type": "Qualified investor fund"
                 }
             ],
             "profiles": [
@@ -8653,7 +8661,7 @@
                         "action": "DIP_ACCOUNT"
                     }
                 ],
-                "dipEmptyAccountNote": "<error600>Zatím jste nevložili žádné peníze.</error600>",
+                "dipEmptyAccountNote": "",
                 "dipEmptyAccountBullets": [
                     {
                         "icon": "walletArrowInFill",
@@ -9190,36 +9198,69 @@
             "filterDirectionOutgoing": "Outgoing"
         },
         "dipPromo": {
-            "title": "Better Retirement with Long-Term Investment Product",
-            "detail": "This new product allows you to choose where your retirement savings will appreciate.",
-            "bulletsTitle": "Tax credit of up to 7,200 CZK per year and the possibility of an employer contribution of up to 50,000 CZK.",
+            "title": "Long-Term Investment Product (DIP)",
+            "detail": "Benefits of regular investing and tax savings in one product.",
+            "bulletsTitle": "Save now, enjoy later",
             "bullets": [
                 {
                     "icon": "investmentsFill",
-                    "title": "Savings with an attractive interest rate",
-                    "detail": "The product includes a LTIP Savings Account. You can either let your money accrue interest there or invest it in mutual funds for the possibility of higher returns."
+                    "title": "One-time and regular investing",
+                    "detail": "Choose from more than 40 renowned mutual funds from around the world."
                 },
                 {
                     "icon": "moneyBillRepeatFill",
-                    "title": "One-time and regular investments",
-                    "detail": "You have access to over 40 reputable mutual funds. When you decide to sell your investment, the money will be credited back to your LTIP Savings Account."
+                    "title": "You can deduct your contributions from your taxes. Up to CZK 48,000 per year",
+                    "detail": "You can use them to buy mutual funds or keep them in the DIP Savings Account."
                 },
                 {
                     "icon": "interestFill",
-                    "title": "Tax savings",
-                    "detail": "If you deposit money into LTIP for at least 10 years and simultaneously until the age of 60, you can save up to 7,200 CZK per year on taxes."
+                    "title": "We pay 2.6% interest p.a. on the DIP Savings Account",
+                    "detail": "The account is part of the product, and you can deposit money into it with no maximum limit."
+                },
+                {
+                    "icon": "calendarClockFill",
+                    "title": "Available after 60 + 10 years saving",
+                    "detail": "You can withdraw from DIP after 10 years of saving, but not before your 60th birthday."
                 }
             ],
             "moreInfo": {
-                "actionLabelText": "More Information",
+                "actionLabelText": "Learn more",
                 "actionType": "WEB",
                 "actionData": "https://www.moneta.cz/sporeni-a-investice/dlouhodoby-investicni-produkt"
             },
+            "stepsTitle": "Make the most of DIP",
+            "steps": [
+                {
+                    "title": "Open a Long-Term Investment Product",
+                    "detail": "It includes an interest-bearing savings account from which you can invest in renowned mutual funds."
+                },
+                {
+                    "title": "Deposit money into the DIP Savings Account",
+                    "detail": "From this point on, you can benefit from tax savings."
+                },
+                {
+                    "title": "Invest regularly",
+                    "detail": "Set up a standing order and take advantage of an employer contribution or a tax deduction based on the amount invested."
+                },
+                {
+                    "title": "Bring confirmation to your employer and receive a contribution",
+                    "detail": "Download a confirmation of your DIP account and have your employer contribute to your Long-Term Investment Product."
+                }
+            ],
             "primaryButton": {
-                "actionLabelText": "Arrange LTIP in branch",
+                "actionLabelText": "Open a Long-Term Investment Product"
+            },
+            "secondaryButton": {
+                "actionLabelText": "Fund list",
                 "actionType": "APPPAGE",
-                "actionData": "BRANCHESATMS"
+                "actionData": "INVESTMENTS_DASHBOARD"
             }
+        },
+        "dipOnboardingRejected": {
+            "title": "Unfortunately, we can’t offer you a DIP",
+            "detail": "To open a Long-Term Investment Product (DIP), you must be a Czech citizen and a tax resident of the Czech Republic.",
+            "branch": "Visit a branch",
+            "primaryButton": "Back to Investments"
         },
         "advisoryPromo": {
             "title": "Investment Advisory",
@@ -9300,6 +9341,146 @@
                 "branch": "Visit us<br>at a branch",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
+            }
+        },
+        "dipOnboarding": {
+            "cannotOffer": {
+                "title": "Unfortunately, after reviewing your application, we can't offer you a DIP.",
+                "subtitle": "To open a Long-Term Investment Product, you need to be a Czech citizen, pay taxes in the Czech Republic, and have a CZK current account.",
+                "primaryButton": "Back to Overview"
+            },
+            "checkDetails": {
+                "headerTitle": "Check your details",
+                "continueButton": "Yes, continue",
+                "personalDetails": {
+                    "title": "Personal details",
+                    "somethingWrongButton": "Something’s incorrect",
+                    "permanentAddress": "Permanent address",
+                    "citizenship": "Citizenship"
+                },
+                "contactDetails": {
+                    "title": "Contact details",
+                    "phone": "Phone",
+                    "email": "Email"
+                },
+                "contactAddress": {
+                    "title": "Contact address",
+                    "sameAsPermanent": "Same as permanent address",
+                    "street": "Street",
+                    "buildingNumber": "Building\nnumber",
+                    "unitNumber": "Unit\nnumber",
+                    "city": "City",
+                    "zipCode": "Postal code",
+                    "country": "Country"
+                },
+                "supportBottomSheet": {
+                    "title": "Are your personal details incorrect?",
+                    "description": "We retrieve these details from the state’s basic registers. If any of your details are incorrect, please contact any Czech POINT office, where you can submit a request for a change.",
+                    "primaryButton": "Back",
+                    "secondaryButton": "Cancel application"
+                }
+            },
+            "amlBusyLoader": {
+                "title": "Just a moment, we need to check everything",
+                "subtitle": "We’ll continue shortly."
+            },
+
+            "aml": {
+                "busyLoader": {
+                    "title": "Just a moment, we need to check everything",
+                    "subtitle": "We’ll continue shortly."
+                },
+                "nokScreen": {
+                    "title": "Unfortunately, we can’t offer you a DIP",
+                    "primaryButton": "Back to Investments"
+                }
+            },
+            "contracts": {
+                "busyLoader": {
+                    "title": "We’re preparing your agreement",
+                    "subtitle": "We’ll continue shortly."
+                },
+                "bankBusyLoader": {
+                    "title": "Now we need to sign it",
+                    "subtitle": "Please bear with us for a moment."
+                },
+                "precontract": {
+                    "title": "Read the agreement with product parameters",
+                    "description": "You can find all documents in Smart Banka and Internet Banka in the Documents section.",
+                    "confirmButton": "I understand and agree",
+                    "cancelButton": "I disagree"
+                },
+                "mainContract": {
+                    "title": "Read the framework agreement",
+                    "description": "You can find all documents in Smart Banka and Internet Banka in the Documents section.",
+                    "confirmButton": "I agree, continue to signing",
+                    "cancelButton": "I disagree"
+                }
+            },
+            "documentDisagree": {
+                "title": "Unfortunately, we can’t continue without your agreement...",
+                "detail": "Have questions? Call us or visit your nearest branch.",
+                "primaryButton": "Back",
+                "secondaryButton": "End application"
+            },
+            "victoryScreen": {
+                "title": "Done.<br>Make the most of your DIP",
+                "sectionTitle": "What’s next?",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "You now have a Long-Term Investment Product (DIP)",
+                        "detail": "It also includes a DIP Savings Account, which you can use to invest in established mutual funds."
+                    },
+                    {
+                        "icon": "plain2",
+                        "title": "Deposit money into your DIP Savings Account",
+                        "detail": "From now on, you can start benefiting from tax relief."
+                    },
+                    {
+                        "icon": "plain3",
+                        "title": "Set up investment<br>from your DIP Savings Account"
+                    }
+                ],
+                "primaryButton": "Send money to your DIP Savings",
+                "secondaryButton": "Send money later"
+            },
+            "victoryScreenDeposit": {
+                "title": "The money is on its way to your DIP Savings Account.<br>You can start investing now",
+                "subtitle": "We usually transfer the money within a few minutes, and no later than the next business day.",
+                "primaryButton": "Go to DIP Overview",
+                "secondaryButton": "Set up as a recurring payment"
+            },
+            "longTermProcess": {
+                "title": "We’re almost done, the signing process just takes a little longer",
+                "subtitle": "On business days, this usually takes a few hours. If it’s the weekend, everything will be ready on Monday.\n\nAs soon as it’s done, we’ll let you know in Overview, save the agreement to Documents, and activate your account.\n\nWe’re sorry for the delay, and thank you for your patience.",
+                "primaryButton": "Back to Investments"
+            },
+            "victoryScreenFinal": {
+                "title": "Done.<br>Make the most of your DIP",
+                "sectionTitle": "What’s next?",
+                "bullets": [
+                    {
+                        "icon": "reconstructionFill",
+                        "title": "Confirmation for your employer and employer contributions",
+                        "detail": "Download the DIP account confirmation and have your employer contribute to your Long-Term Investment Product."
+                    },
+                    {
+                        "icon": "savingsFill",
+                        "title": "Set up an investment<br>from your DIP Savings Account"
+                    }
+                ],
+                "navigationCard": {
+                    "icon": "fileLinesFill",
+                    "title": "DIP confirmation for employer",
+                    "description": "PDF download"
+                },
+                "primaryButton": "Back to DIP Overview"
+            },
+            "processFail": {
+                "title": "Sorry, something went wrong",
+                "subtitle": "Unfortunately, an unexpected error occurred and we can’t continue right now.\nPlease try again later.",
+                "primaryButton": "Back to Investments"
             }
         }
     }

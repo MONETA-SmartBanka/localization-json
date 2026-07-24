@@ -1,155 +1,227 @@
 {
     "textCodes": [
         {
-            "textCode": "COMMON_TITLE",
             "status": "APPROVED",
+            "textCode": "COMMON_TITLE",
             "translations": {
-                "en": "Approved!",
-                "cs": "Schváleno!"
+                "cs": "Schváleno!",
+                "en": "Approved!"
             }
         },
         {
-            "textCode": "COMMON_FIRST_DESCRIPTION",
             "status": "APPROVED",
-            "translations": {
-                "en": "We will process your request as soon as possible.",
-                "cs": "Váš požadavek zpracujeme co nejdříve."
-            }
-        },
-        {
-            "textCode": "COMMON_TITLE",
-            "status": "TO_APPROVE",
-            "translations": {
-                "en": "Almost done. We are waiting for the remaining signatures",
-                "cs": "Máme skoro hotovo. Teď čekáme na další podpisy"
-            }
-        },
-        {
             "textCode": "COMMON_FIRST_DESCRIPTION",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "We will process the request once everything has been signed.",
-                "cs": "Až bude vše podepsáno, požadavek zpracujeme."
+                "cs": "Váš požadavek zpracujeme co nejdříve.",
+                "en": "We will process your request as soon as possible."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "COMMON_TITLE",
+            "translations": {
+                "cs": "Máme skoro hotovo. Teď čekáme na další podpisy",
+                "en": "Almost done. We are waiting for the remaining signatures"
+            }
+        },
+        {
+            "status": "TO_APPROVE",
+            "textCode": "COMMON_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "Až bude vše podepsáno, požadavek zpracujeme.",
+                "en": "We will process the request once everything has been signed."
+            }
+        },
+        {
             "status": "REJECTED",
+            "textCode": "COMMON_TITLE",
             "translations": {
-                "en": "Your request has been cancelled as instructed",
-                "cs": "Požadavek jsme podle vašeho přání zrušili"
+                "cs": "Požadavek jsme podle vašeho přání zrušili",
+                "en": "Your request has been cancelled as instructed"
             }
         },
         {
+            "status": "APPROVED",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_APPROVED_TITLE",
-            "status": "APPROVED",
             "translations": {
-                "en": "Done! Your request has been received successfully.",
-                "cs": "Hotovo! Váš požadavek jsme úspěšně přijali."
+                "cs": "Hotovo! Váš požadavek jsme úspěšně přijali.",
+                "en": "Done! Your request has been received successfully."
             }
         },
         {
+            "status": "APPROVED",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_APPROVED_TEXT",
-            "status": "APPROVED",
             "translations": {
-                "en": "The loan will be fully repaid as of today. A repayment confirmation will be saved in your Documents.",
-                "cs": "Úvěr bude k dnešnímu dni doplacen. Potvrzení o doplacení Vám uložíme do Dokumentů."
+                "cs": "Úvěr bude k dnešnímu dni doplacen. Potvrzení o doplacení Vám uložíme do Dokumentů.",
+                "en": "The loan will be fully repaid as of today. A repayment confirmation will be saved in your Documents."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_TO_APPROVE_TITLE",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "We’re almost done, just the signatures left.",
-                "cs": "Máme skoro hotovo, zbývají už jen podpisy."
+                "cs": "Máme skoro hotovo, zbývají už jen podpisy.",
+                "en": "We’re almost done, just the signatures left."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_TO_APPROVE_TEXT",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "Once the request is signed by the responsible persons, the loan will be repaid.",
-                "cs": "Až bude žádost podepsaná odpovědnými osobami, bude úvěr doplacen."
+                "cs": "Až bude žádost podepsaná odpovědnými osobami, bude úvěr doplacen.",
+                "en": "Once the request is signed by the responsible persons, the loan will be repaid."
             }
         },
         {
+            "status": "REJECTED",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_REJECTED_TITLE",
-            "status": "REJECTED",
             "translations": {
-                "en": "Your request for early repayment has been declined.",
-                "cs": "Požadavek na předčasné splacení byl Vámi zamítnut."
+                "cs": "Požadavek na předčasné splacení byl Vámi zamítnut.",
+                "en": "Your request for early repayment has been declined."
             }
         },
         {
+            "status": "REJECTED",
             "textCode": "EARLY_REPAYMENT_EXPRES_BUSINESS_REJECTED_TEXT",
-            "status": "REJECTED",
             "translations": {
-                "en": "The request for early repayment has been cancelled. To repay the loan early, please submit a new request.",
-                "cs": "Žádost o předčasné splacení byla tímto zrušena. Pokud budete chtít úvěr předčasně splatit, bude potřeba založit nový požadavek."
+                "cs": "Žádost o předčasné splacení byla tímto zrušena. Pokud budete chtít úvěr předčasně splatit, bude potřeba založit nový požadavek.",
+                "en": "The request for early repayment has been cancelled. To repay the loan early, please submit a new request."
             }
         },
         {
+            "status": "APPROVED",
             "textCode": "EARLY_REPAYMENT_APPROVED_TITLE",
-            "status": "APPROVED",
             "translations": {
-                "en": "Done! Your request has been received successfully.",
-                "cs": "Hotovo! Váš požadavek jsme úspěšně přijali."
+                "cs": "Hotovo! Váš požadavek jsme úspěšně přijali.",
+                "en": "Done! Your request has been received successfully."
             }
         },
         {
+            "status": "APPROVED",
             "textCode": "EARLY_REPAYMENT_APPROVED_TEXT",
-            "status": "APPROVED",
             "translations": {
-                "en": "The loan will be fully repaid at your requested day.",
-                "cs": "Úvěr bude splacen k Vámi požadovanému dni."
+                "cs": "Úvěr bude splacen k Vámi požadovanému dni.",
+                "en": "The loan will be fully repaid at your requested day."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_TO_APPROVE_TITLE",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "We’re almost done, just the signatures left.",
-                "cs": "Máme skoro hotovo, zbývají už jen podpisy."
+                "cs": "Máme skoro hotovo, zbývají už jen podpisy.",
+                "en": "We’re almost done, just the signatures left."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_TO_APPROVE_INFO1",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "The document below quantifies the loan",
-                "cs": "V níže uvedeném dokumentu je vyčíslen úvěr"
+                "cs": "V níže uvedeném dokumentu je vyčíslen úvěr",
+                "en": "The document below quantifies the loan"
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_TO_APPROVE_SIGNREQUIRED",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "Your signature is required to process the request based on your company's policy.",
-                "cs": "Váš podpis je potřeba pro zpracování požadavku na základě způsobu jednání vaší firmy."
+                "cs": "Váš podpis je potřeba pro zpracování požadavku na základě způsobu jednání vaší firmy.",
+                "en": "Your signature is required to process the request based on your company's policy."
             }
         },
         {
+            "status": "TO_APPROVE",
             "textCode": "EARLY_REPAYMENT_TO_APPROVE_TEXT",
-            "status": "TO_APPROVE",
             "translations": {
-                "en": "Once the request is signed by the responsible persons, the loan will be repaid.",
-                "cs": "Až bude žádost podepsaná všemi schvalovateli, bude předána ke zpracování."
+                "cs": "Až bude žádost podepsaná všemi schvalovateli, bude předána ke zpracování.",
+                "en": "Once the request is signed by the responsible persons, the loan will be repaid."
             }
         },
         {
+            "status": "REJECTED",
             "textCode": "EARLY_REPAYMENT_REJECTED_TITLE",
-            "status": "REJECTED",
             "translations": {
-                "en": "Your request for early repayment has been declined.",
-                "cs": "Požadavek na předčasné splacení byl Vámi zamítnut."
+                "cs": "Požadavek na předčasné splacení byl Vámi zamítnut.",
+                "en": "Your request for early repayment has been declined."
             }
         },
         {
-            "textCode": "EARLY_REPAYMENT_REJECTED_TEXT",
             "status": "REJECTED",
+            "textCode": "EARLY_REPAYMENT_REJECTED_TEXT",
             "translations": {
-                "en": "The request for early repayment has been cancelled. To repay the loan early, please submit a new request.",
-                "cs": "Žádost o předčasné splacení byla tímto zrušena. Pokud budete chtít úvěr předčasně splatit, bude potřeba založit nový požadavek."
+                "cs": "Žádost o předčasné splacení byla tímto zrušena. Pokud budete chtít úvěr předčasně splatit, bude potřeba založit nový požadavek.",
+                "en": "The request for early repayment has been cancelled. To repay the loan early, please submit a new request."
+            }
+        },
+        {
+            "status": "APPROVED",
+            "textCode": "CARD_ISSUANCE_APPROVED_TITLE",
+            "translations": {
+                "cs": "Žádost o kartu pro {cardHolderName} je schválená",
+                "en": "Card request for {cardHolderName} has been approved"
+            }
+        },
+        {
+            "status": "APPROVED",
+            "textCode": "CARD_ISSUANCE_APPROVED_PLASTIC_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "Předali jsme všechny informace a už teď je možné si kartu přidat do mobilu a okamžitě s ní platit.",
+                "en": "We’ve passed on all the information, and you can already add the card to your mobile and pay with it right away."
+            }
+        },
+        {
+            "status": "APPROVED",
+            "textCode": "CARD_ISSUANCE_APPROVED_PLASTIC_SECOND_DESCRIPTION",
+            "translations": {
+                "cs": "Plastová karta by měla dorazit do 14 dní.",
+                "en": "The plastic card should arrive within 14 days."
+            }
+        },
+        {
+            "status": "APPROVED",
+            "textCode": "CARD_ISSUANCE_APPROVED_VIRTUAL_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "Předali jsme všechny informace novému držiteli. Už teď si kartu může přidat do mobilu a okamžitě s ní platit.",
+                "en": "We’ve passed all the information to the new cardholder. They can already add the card to their mobile and pay with it right away."
+            }
+        },
+        {
+            "status": "TO_APPROVE",
+            "textCode": "CARD_ISSUANCE_TO_APPROVE_TITLE",
+            "translations": {
+                "cs": "Máme skoro hotovo, zbývají už jen podpisy",
+                "en": "Almost done, only signatures are left"
+            }
+        },
+        {
+            "status": "TO_APPROVE",
+            "textCode": "CARD_ISSUANCE_TO_APPROVE_PLASTIC_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "Až bude žádost podepsaná všemi schvalovateli, kartu odešleme. Obvykle dorazí do 14 dní a od té chvíle bude možné si ji přidat pro placení mobilem. Nový PIN ke kartě poté najdete v detailu karty ve Smart Bance a Internet Bance.",
+                "en": "Once the request has been signed by all approvers, we’ll send the card. It usually arrives within 14 days. From then on, you can add it to your phone for mobile payments. You’ll find the new card PIN in the card details in Smart Banka and Internet Banka."
+            }
+        },
+        {
+            "status": "TO_APPROVE",
+            "textCode": "CARD_ISSUANCE_TO_APPROVE_VIRTUAL_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "Až bude žádost podepsaná všemi schvalovateli, bude možné si kartu přidat do mobilu a okamžitě s ní platit. Nový PIN ke kartě poté najdete v detailu karty ve Smart Bance a Internet Bance.",
+                "en": "Once the application has been signed by all approvers, the card can be added to a smartphone and be used right away. The new card PIN will be shown in the card details in Smart Banka and Internet Banka."
+            }
+        },
+        {
+            "status": "REJECTED",
+            "textCode": "CARD_ISSUANCE_REJECTED_TITLE",
+            "translations": {
+                "cs": "Sjednání nové karty bylo zamítnuto",
+                "en": "New card request was declined"
+            }
+        },
+        {
+            "status": "REJECTED",
+            "textCode": "CARD_ISSUANCE_REJECTED_FIRST_DESCRIPTION",
+            "translations": {
+                "cs": "{cardHolderName} na kartu nemá nárok.",
+                "en": "{cardHolderName} is not eligible for a card."
             }
         }
     ]

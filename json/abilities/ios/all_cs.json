@@ -176,20 +176,18 @@
         },
         {
             "id": "Bezpecnost_4_CZ",
-            "title": "Nejrychleji nám zavoláte ze Smart Banky",
-            "detail": "Zavolejte nám přes Smart Banku, abyste se nemuseli ověřovat, že jste to opravdu vy.",
-            "imageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_Image_4_CZ.png",
+            "title": "Potřebujete se s námi spojit?",
+            "detail": "Zavolejte nám rovnou ze Smart Banky bez zbytečného ověřování. ",
+            "imageURL": "/cbl_images/popup-news/v93/overeni_hovoru_CZ.png",
             "shouldCheckEligibility": false,
-            "minAppVersion": "62.0.0",
-            "newsImageURL": "/cbl_images/abilities/ios/2_sada/Bezpecnost_NewsImage_4_CZ.png",
-            "newsDate": "2024-01-22",
+            "minAppVersion": "93.0.0",
             "abilityCategory": "security",
-            "abilityTitle": "Nejrychlejší spojení",
+            "abilityTitle": "Automatické ověření volání ze SB",
             "abilitySortOrder": 400,
             "primaryButton": {
                 "actionType": "APPPAGE",
                 "actionData": "CONTACTUS",
-                "actionLabelText": "Vyzkoušet"
+                "actionLabelText": "Zjistit více"
             }
         },
         {
@@ -1126,6 +1124,65 @@
             "abilityCategory": "appearance",
             "abilityTitle": "Zobrazení kontokorentu",
             "abilitySortOrder": 8200
+        },
+        {
+            "id": "DalsiKontokorent_CZ",
+            "title": "Další podnikatelský účet v měně, která se Vám hodí",
+            "detail": "Když Vám jeden podnikatelský účet nestačí, založte si další. Platby, příjmy i výdaje si tak snadno oddělíte doma i v zahraničí a je jedno, jestli to bude v CZK, EUR nebo USD.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
+            "minAppVersion": "94.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Další účet online",
+            "abilitySortOrder": 8300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "SME_SECOND_ACCOUNT",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "TomPlus_CZ",
+            "title": "Prémiové služby pro Vás i Vaši rodinu s účtem Gold",
+            "detail": "Užívejte si pohodlnější cestování, výhodné kurzy a další služby, které se hodí doma i na cestách. Aktivujte si balíček Gold přes tři tečky v detailu svého účtu.",
+            "imageURL": "/cbl_images/popup-news/v94/tom_plus_gold_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Běžný účet Tom Plus",
+            "abilitySortOrder": 8400
+        },
+        {
+            "id": "Cestovko_CZ",
+            "title": "Cestovní pojištění, které myslí i na cesty po ČR? Máme ho!",
+            "detail": "Ať už vyrážíte k moři, na hory nebo jen po Česku, s naším cestovním pojištěním můžete mít jistotu, že o Vás bude postaráno. Kryje totiž cesty v zahraničí i storno zájezdu v ČR.",
+            "imageURL": "/cbl_images/popup-news/v93/dlouhodobe_cestovni_pojisteni_CZ.png",
+            "minAppVersion": "93.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Dlouhodobé cestovní pojištění",
+            "abilitySortOrder": 8500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TRAVELINSURANCE",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "LimitKreditky_CZ",
+            "title": "Nečekané výdaje? Navyšte si částku na kreditní kartě online",
+            "detail": "Během pár minut si můžete navýšit limit kreditní karty až na 300 000 Kč. Stačí odeslat žádost a peníze mohou být brzy Vaše.",
+            "imageURL": "/cbl_images/popup-news/v94/navyseni_kreditky_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "cards",
+            "abilityTitle": "Navýšení úvěrového rámce kreditky",
+            "abilitySortOrder": 8600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARDSOVERVIEW",
+                "actionLabelText": "Vyzkoušet"
+            }
         }
     ]
 }
