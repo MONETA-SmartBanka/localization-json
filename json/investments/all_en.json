@@ -10082,17 +10082,6 @@
                 "secondaryButton": "I understand"
             },
             {
-                "type": "NO_EUR_ACCOUNT",
-                "title": "Bez eurového účtu to nepůjde",
-                "detail": "Sjednejte si během pár minut cizoměnový účet a investujte také do eurových fondů.",
-                "primaryButton": {
-                    "actionType": "APPPAGE",
-                    "actionData": "FXMONEY",
-                    "actionLabelText": "Založit EUR účet"
-                },
-                "secondaryButton": "Zpět"
-            },
-            {
                 "type": "CLIENT_TYPE",
                 "title": "Oops, we can’t continue in the app",
                 "detail": "In order to invest in mutual funds, please ask your banker or any branch with a business service. We cannot show current offers to any business or legal persons. Thank you for understanding.",
@@ -10302,6 +10291,17 @@
             "secondaryButton": "I disagree",
             "detail": "You can find all documents in Smart Banka and Internet Banka under Documents.",
             "title": "Read the investment recommendation record"
+        },
+        "noEuroAccountVictory": {
+            "title": "Bez eurového účtu to nepůjde",
+            "detail": "Sjednejte si během pár minut cizoměnový účet a investujte také do eurových fondů.",
+            "primaryButton": "Založit EUR účet",
+            "secondaryButton": "Zpět"
+        },
+        "euroAccountCreatedVictory": {
+            "title": "Hotovo, Váš EUR účet je připravený. Pošlete si na něj peníze a začněte investovat",
+            "detail": "Pokud jste žádali o fyzickou kartu, přijde vám poštou do pěti pracovních dní.\n\nKartu si také můžete kdykoliv přidat pro placení mobilem a okamžitě s ní začít platit.",
+            "primaryButton": "Vložit peníze na EUR účet"
         }
     }
 }
