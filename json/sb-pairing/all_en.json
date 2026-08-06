@@ -80,11 +80,11 @@
                 },
                 {
                     "id": 3,
-                    "label": "Keep the screen with the QR code with the \"pairing\" symbol open"
+                    "label": "Keep the screen with the <b>QR code with the \"pairing\" symbol open</b>"
                 },
                 {
                     "id": 4,
-                    "label": "On this device, tap the button below and point the camera at the QR code"
+                    "label": "On this device, tap the button below and point the camera at the <b>QR code</b>"
                 }
             ],
             "scanButton": "Scan QR code with the \"pairing\" symbol",
@@ -159,6 +159,12 @@
             "title": "Zastavte se za námi na pobočce nebo zvolte jiný způsob propojení.",
             "primaryButton": "Sjednat schůzku na pobočce",
             "secondaryButton": "Zpět na možnosti párování"
+        },
+        "loginQrWarning": {
+            "title": "It looks like you're scanning a login QR code",
+            "description": "To pair your device, please sign in first and follow the instructions.",
+            "tutorialURL": "https://ib.moneta.cz/video/qr_login_tutorial.mp4",
+            "primaryButton": "Back to instructions"
         }
     }
 }
