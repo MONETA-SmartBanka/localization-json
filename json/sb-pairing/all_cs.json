@@ -73,20 +73,19 @@
             "secondaryButton": "Dokončím později"
         },
         "twoDocumentsPairing": {
-            "title": "Připravte si doklady a pokračujte podle instrukcí",
-            "stepsTitle": "Než začnete, ověřte, že máte:",
+            "title": "Připravte si české doklady a telefon, na který Vám chodí ověřovací SMS kódy",
             "steps": [
                 {
                     "id": 1,
-                    "label": "Občanský průkaz"
+                    "stepTitle": "Akceptovatelné doklady",
+                    "icon": "idCardFill",
+                    "label": "Občanský průkaz + řidičscký průkaz nebo pas"
                 },
                 {
                     "id": 2,
-                    "label": "Řidičský průkaz nebo pas"
-                },
-                {
-                    "id": 3,
-                    "label": "Telefonní číslo, na které Vám chodí přihlašovací a ověřovací SMS kódy"
+                    "stepTitle": "Telefonní číslo pro ověření",
+                    "icon": "smsFill",
+                    "label": "Ověřovací SMS pošleme na číslo, které u nás běžně používáte při přihlašování do IB nebo platbách na e-shopech."
                 }
             ],
             "noDocumentsButton": "Nemám české doklady",

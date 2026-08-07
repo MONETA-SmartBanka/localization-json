@@ -49,24 +49,23 @@
             "secondaryButton": "I'll finish later"
         },
         "twoDocumentsPairing": {
-            "title": "Prepare your documents and follow the instructions",
-            "stepsTitle": "Before you begin, make sure you have:",
+            "title": "Please have your Czech documents ready, along with the mobile phone on which you receive verification SMS codes",
             "steps": [
                 {
                     "id": 1,
-                    "label": "National ID card"
+                    "stepTitle": "Acceptable documents",
+                    "icon": "idCardFill",
+                    "label": "ID card + driving licence or passport"
                 },
                 {
                     "id": 2,
-                    "label": "Driving licence or passport"
-                },
-                {
-                    "id": 3,
-                    "label": "The phone number where you receive login and verification SMS codes"
+                    "stepTitle": "Verification phone number",
+                    "icon": "smsFill",
+                    "label": "We will send the verification SMS to the number you normally use when logging into IB or making payments on online shops."
                 }
             ],
-            "noDocumentsButton": "I don't have Czech documents",
-            "continueButton": "I have everything, continue",
+            "noDocumentsButton": "I don't have any Czech documents",
+            "continueButton": "I’ve got everything, continue",
             "goToBranchTitle": "Let's sort this out at a branch",
             "goToBranchSubtitle": "Do you have any questions? Call us or visit your nearest branch."
         },
