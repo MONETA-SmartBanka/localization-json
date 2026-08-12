@@ -10305,31 +10305,27 @@
             "title": "Read the investment recommendation record"
         },
         "noEuroAccountVictory": {
-            "title": "Bez eurového účtu to nepůjde",
-            "detail": "Sjednejte si během pár minut cizoměnový účet a investujte také do eurových fondů.",
-            "primaryButton": "Založit EUR účet",
-            "secondaryButton": "Zpět"
-        },
-        "euroAccountCreatedVictory": {
-            "title": "Hotovo, Váš EUR účet je připravený. Pošlete si na něj peníze a začněte investovat",
-            "detail": "Pokud jste žádali o fyzickou kartu, přijde vám poštou do pěti pracovních dní.\n\nKartu si také můžete kdykoliv přidat pro placení mobilem a okamžitě s ní začít platit.",
-            "primaryButton": "Vložit peníze na EUR účet"
-        },
-        "paymentToEurAccountVictory": {
-            "title": "Platba byla odeslána",
-            "primaryButton": "Zpět na Přehled investic"
-        },
-        "noEurAccount": {
             "title": "You’ll need a EUR account to buy and sell these funds",
-            "subtitle": "Open one in just a few minutes, right in the app.",
+            "detail": "Open one in just a few minutes, right in the app.",
+            "primaryButton": "Open a EUR account",
+            "secondaryButton": "Back",
             "benefitsTitle": "Benefits of a EUR account",
             "benefits": [
                 "No account fee",
                 "Best exchange rate on the market",
                 "EUR debit card"
-            ],
-            "primaryButton": "Open a EUR account",
-            "secondaryButton": "Back"
+            ]
+        },
+        "euroAccountCreatedVictory": {
+            "title": "Done, your EUR account is ready. Transfer money to it and start investing",
+            "cardDeliveryDetail": "If you requested a physical card, it will arrive by post within five business days.",
+            "mobilePaymentsDetail": "You can also add the card to your mobile wallet at any time and start paying with it immediately.",
+            "walletButton": "Add to Google Pay",
+            "primaryButton": "Add money to EUR account"
+        },
+        "paymentToEurAccountVictory": {
+            "title": "Platba byla odeslána",
+            "primaryButton": "Zpět na Přehled investic"
         }
     }
 }
