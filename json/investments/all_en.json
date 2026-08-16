@@ -1032,7 +1032,9 @@
         "filter": {
             "title": "Filtrování produktů",
             "searchPlaceholder": "Název produktu",
+            "filterButton": "Filter",
             "applyButton": "Filtrovat produkty",
+            "clearButton": "Clear filters",
             "risk": {
                 "id": "risk",
                 "title": "Rizikovost",
@@ -1092,6 +1094,10 @@
                     {
                         "id": 5,
                         "text": "Minimálně 5 let"
+                    },
+                    {
+                        "id": 8,
+                        "text": "Minimálně 8 let"
                     }
                 ]
             },
@@ -1104,8 +1110,8 @@
                         "text": "Vše"
                     },
                     {
-                        "id": "MIX",
-                        "text": "Smíšený"
+                        "id": "SHORT_TERM_BOND",
+                        "text": "Krátkodobé dluhopisy"
                     },
                     {
                         "id": "BOND",
@@ -1116,12 +1122,12 @@
                         "text": "Akciový"
                     },
                     {
-                        "id": "SHORT_TERM_BOND",
-                        "text": "Krátkodobé dluhopisy"
-                    },
-                    {
                         "id": "REAL_ESTATE",
                         "text": "Realitní"
+                    },
+                    {
+                        "id": "MIX",
+                        "text": "Smíšený"
                     }
                 ]
             },
