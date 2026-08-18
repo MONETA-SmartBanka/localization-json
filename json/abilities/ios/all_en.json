@@ -1214,6 +1214,65 @@
             "abilityCategory": "payments",
             "abilityTitle": "Payment deferral",
             "abilitySortOrder": 8800
+        },
+        {
+            "id": "ParovaniCizincu_EN",
+            "title": "Set up Smart Banka on your next phone without visiting a branch",
+            "detail": "Got a new phone? You can now verify your identity with your residence permit when setting up Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v95/parovani_cizincu_EN.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Smart Banka setup for foreign customers",
+            "abilitySortOrder": 8900
+        },
+        {
+            "id": "DIP_online_sjednani_EN",
+            "title": "Open Long Term Investment Product online",
+            "detail": "Enjoy the benefits of regular investing and tax savings of up to CZK 7,200 a year. On top of that, your employer can contribute up to CZK 50,000.",
+            "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Long-term Investment Product",
+            "abilitySortOrder": 9000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DIPINVESTMENT",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "Potvrzeni_o_vedeni_uctu_EN",
+            "title": "Get an account confirmation in a few clicks",
+            "detail": "Tap the three dots next to Pay on your account. Then select Account and balance confirmation.",
+            "imageURL": "/cbl_images/popup-news/v95/potvrzeni_o_vedeni_uctu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Account and balance confirmation",
+            "abilitySortOrder": 9100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "ACCOUNT_CONFIRMATION",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "PO_onboarding_EN",
+            "title": "Open a business account online in minutes — for free",
+            "detail": "Add other people as authorised users, move spare funds to a savings account or create invoices directly from your account. Start online and finish in Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v95/PO_onboarding_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Opening a business account",
+            "abilitySortOrder": 9200,
+            "primaryButton": {
+                "actionType": "OPENURL",
+                "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
+                "actionLabelText": "Learn more"
+            }
         }
     ]
 }
