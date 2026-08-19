@@ -1001,7 +1001,7 @@
         },
         "filter": {
             "title": "Filtrování produktů",
-            "searchPlaceholder": "Název produktu",
+            "searchPlaceholder": "Název fondu nebo certifikátu",
             "filterButton": "Filtr",
             "applyButton": "Filtrovat produkty",
             "clearButton": "Zrušit filtry",
@@ -1946,8 +1946,7 @@
                 "advisory": "Fondy z investičního poradenství",
                 "funds": "Investice",
                 "dip": "Dlouhodobý investiční produkt"
-            },
-            "moreButton": "Další"
+            }
         },
         "contract": {
             "anotherVat": "Přidat další daňovou rezidenci",
@@ -9956,14 +9955,16 @@
         "sell": {
             "termAlert": "Chystáte se prodávat <b>dříve</b>, než doporučuje investiční horizont fondu. Je možné, že Váš dnešní prodej bude méně výhodný než prodej v doporučeném termínu. Pro více informací kontaktujte investičního specialistu ve vašem regionu.",
             "actualValue": "Aktuální hodnota",
+            "shareValue": "Hodnota podílů v ",
+            "invested": "Dosud investováno",
             "primaryButton": "Prodat",
             "sellShares": "{0} podílů",
-            "sellAlert": "Prodáváte {{shares}} kusů. K dnešnímu dni jejich hodnota odpovídá {{amount}} {{currency}}. <b>Při prodeji se ale může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
+            "sellAlert": "Prodáváte {{shares}}. K dnešnímu dni jejich hodnota odpovídá {{amount}} {{currency}}. <b>Výsledný zisk z prodeje se může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
             "availableBalance": "Disponibilní zůstatek",
             "sellPieces": "Počet kusů",
             "sellExact": "Prodat v ",
             "sellAll": "Prodat vše",
-            "approximatePrice": "Přibližná cena: {0}",
+            "approximatePrice": "Přibližná hodnota: {0}",
             "sellShare": "Prodat kusy v hodnotě",
             "payOutToAccount": "Vyplatit na účet",
             "sellBlock": "Blokováno",
