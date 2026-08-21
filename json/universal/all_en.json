@@ -6,9 +6,10 @@
                 "continueButton": "Continue",
                 "submitButton": "Submit questionnaire",
                 "victory": {
-                    "title": "Thank you for completing the questionnaire",
-                    "subtitle": null,
-                    "primaryButton": "Back to dashboard"
+                    "default": "Thank you for your feedback.",
+                    "types": {
+                        "Post sale": "Thank you for your feedback. If we need any clarification, we will contact you."
+                    }
                 },
                 "progress": {
                     "dynamicHint": "Filling this out will only take a moment.",
