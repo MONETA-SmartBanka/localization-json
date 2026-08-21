@@ -6,9 +6,10 @@
                 "continueButton": "Pokračovat",
                 "submitButton": "Odeslat dotazník",
                 "victory": {
-                    "title": "Děkujeme za vyplnění dotazníku",
-                    "subtitle": null,
-                    "primaryButton": "Zpět na dashboard"
+                    "default": "Děkujeme Vám za zpětnou vazbu.",
+                    "types": {
+                        "Post sale": "Děkujeme za Vaši zpětnou vazbu. Pokud budeme potřebovat něco upřesnit, ozveme se Vám."
+                    }
                 },
                 "progress": {
                     "dynamicHint": "Vyplnění Vám zabere jen chviličku.",
@@ -18,7 +19,7 @@
                     "remainingFew": "Zbývají %d otázky",
                     "remainingMany": "Zbývá %d otázek"
                 },
-                "closedMessage": "Dotazník už není dostupný."
+                "closedMessage": "Dotazník již není dostupný."
             },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
