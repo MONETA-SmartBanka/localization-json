@@ -2,6 +2,24 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "questionnaire": {
+                "continueButton": "Pokračovat",
+                "submitButton": "Odeslat dotazník",
+                "victory": {
+                    "title": "Děkujeme za vyplnění dotazníku",
+                    "subtitle": null,
+                    "primaryButton": "Zpět na dashboard"
+                },
+                "progress": {
+                    "dynamicHint": "Vyplnění Vám zabere jen chviličku.",
+                    "lastQuestion": "Poslední otázka",
+                    "question": "Otázka %d/%d",
+                    "remainingOne": "Zbývá 1 otázka",
+                    "remainingFew": "Zbývají %d otázky",
+                    "remainingMany": "Zbývá %d otázek"
+                },
+                "closedMessage": "Dotazník už není dostupný."
+            },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
                     "title": "Souhlas s využitím mobilního klíče pro přihlášení do Internet Banky a autorizaci transakcí",
