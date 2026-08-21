@@ -2,6 +2,25 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "questionnaire": {
+                "continueButton": "Continue",
+                "submitButton": "Submit questionnaire",
+                "victory": {
+                    "default": "Thank you for your feedback.",
+                    "types": {
+                        "Post sale": "Thank you for your feedback. If we need any clarification, we will contact you."
+                    }
+                },
+                "progress": {
+                    "dynamicHint": "Filling this out will only take a moment.",
+                    "lastQuestion": "Last question",
+                    "question": "Question %d/%d",
+                    "remainingOne": "1 question remaining",
+                    "remainingFew": "%d questions remaining",
+                    "remainingMany": "%d questions remaining"
+                },
+                "closedMessage": "The questionnaire is no longer available."
+            },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
                     "title": "Consent to the use of Mobile Key to log in to Internet Banka and authorize transactions",
