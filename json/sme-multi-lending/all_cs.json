@@ -394,13 +394,13 @@
                 "directDebitAccountError": {
                     "noAccount": {
                         "title": "Navýšení úvěrového rámce není možné",
-                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu 181181181/0600. Tento účet již neexistuje.\n\nPro navýšení úvěrového rámce je zapotřebí nastavit správný způsob splácení.",
+                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu {accountNumber}. Tento účet již neexistuje.\n\nPro navýšení úvěrového rámce je zapotřebí nastavit správný způsob splácení.",
                         "primaryButton": "Nastavit splácení",
                         "secondaryButton": "Rozumím"
                     },
                     "accountWithoutRight": {
                         "title": "Navýšení úvěrového rámce není možné",
-                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu 181181181/0600. K tomuto účtu nemáte dostatečné oprávnění pro navýšení inkasa pro řádné splácení.\n\nKontaktujte prosím majitele účtu pro přiřazení oprávnění, popřípadě změňte typ splácení své kreditní karty.",
+                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu {accountNumber}. K tomuto účtu nemáte dostatečné oprávnění pro navýšení inkasa pro řádné splácení.\n\nKontaktujte prosím majitele účtu pro přiřazení oprávnění, popřípadě změňte typ splácení své kreditní karty.",
                         "primaryButton": "Nastavit splácení",
                         "secondaryButton": "Rozumím"
                     }
