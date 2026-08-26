@@ -445,6 +445,46 @@
                     "title": "Souhlas se zasíláním nešifrované komunikace",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
                 }
+            },
+            "identityVerification": {
+                "title": "Let's verify it's really you",
+                "bankIdSection": {
+                    "title": "With Bank iD",
+                    "badge": "Fastest",
+                    "requirementsTitle": "All you need:",
+                    "bankIdRequirement": "An active Bank iD",
+                    "citizenshipRequirement": "Czech citizenship",
+                    "timeRequirement": "2 minutes",
+                    "primaryButton": "Verify with Bank iD"
+                },
+                "otherSection": {
+                    "title": "Other ways to verify your identity",
+                    "detail": "Can't use Bank iD?",
+                    "secondaryButton": "Other verification options"
+                }
+            },
+            "bankIdBanks": {
+                "title": "Log in to your bank to verify with Bank iD",
+                "detail": "Bankovni Identita (BankID), a.s., processes your personal data to provide identity verification services and protect legal claims. For more information, including a list of your rights, see the <a href=\"https://www.bankid.cz/osobni-udaje\">Privacy Policy</a>.",
+                "secondaryButton": "Other verification options"
+            },
+            "otherVerification": {
+                "title": "Other verification options",
+                "documentsSection": {
+                    "title": "With two Czech IDs and an account at another bank",
+                    "requirementsTitle": "You'll need:",
+                    "documentsRequirement": "Two Czech IDs",
+                    "documentsRequirementDetail": "Czech ID card plus a driving licence or passport.",
+                    "accountRequirement": "An account in your name at another Czech bank",
+                    "videoRequirement": "A short verification video",
+                    "timeRequirement": "About 10 minutes",
+                    "primaryButton": "Verify with Czech IDs"
+                },
+                "branchSection": {
+                    "title": "I don't have Czech IDs",
+                    "detail": "Visit any of our branches and we'll be happy to help.",
+                    "secondaryButton": "Show branch map"
+                }
             }
         }
     }

@@ -445,6 +445,46 @@
                     "title": "Souhlas se zasíláním nešifrované komunikace",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
                 }
+            },
+            "identityVerification": {
+                "title": "Teď ověříme, že jste to opravdu Vy",
+                "bankIdSection": {
+                    "title": "Přes bankovní identitu (Bank iD)",
+                    "badge": "Nejrychlejší",
+                    "requirementsTitle": "Stačí mít:",
+                    "bankIdRequirement": "Aktivní bankovní identitu",
+                    "citizenshipRequirement": "České státní občanství",
+                    "timeRequirement": "2 minuty času",
+                    "primaryButton": "Ověřit přes Bank iD"
+                },
+                "otherSection": {
+                    "title": "Jiné způsoby ověření totožnosti",
+                    "detail": "Pokud se nemůžete ověřit přes Bank iD.",
+                    "secondaryButton": "Jiné způsoby ověření"
+                }
+            },
+            "bankIdBanks": {
+                "title": "Ověřte se přihlášením do své banky přes Bank iD",
+                "detail": "Bankovní identita, a.s. zpracovává Vaše osobní údaje za účelem poskytnutí identifikačních služeb a ochrany právních nároků. Více informací včetně výčtu svých práv najdete v <a href=\"https://www.bankid.cz/osobni-udaje\">Zásadách ochrany osobních údajů</a>.",
+                "secondaryButton": "Jiné způsoby ověření"
+            },
+            "otherVerification": {
+                "title": "Jiné způsoby ověření",
+                "documentsSection": {
+                    "title": "Pomocí 2 dokladů totožnosti a jiného účtu",
+                    "requirementsTitle": "Budete potřebovat:",
+                    "documentsRequirement": "Dva české doklady totožnosti",
+                    "documentsRequirementDetail": "Občanský průkaz a řidičský průkaz nebo cestovní pas.",
+                    "accountRequirement": "Účet v jiné bance v ČR na Vaše jméno",
+                    "videoRequirement": "Natočit krátké ověřovací video",
+                    "timeRequirement": "10 minut času",
+                    "primaryButton": "Ověřit s českými doklady"
+                },
+                "branchSection": {
+                    "title": "Nemám české doklady",
+                    "detail": "Navštivte nás na kterékoliv naší pobočce, kde Vám rádi pomůžeme.",
+                    "secondaryButton": "Zobrazit mapu poboček"
+                }
             }
         }
     }
