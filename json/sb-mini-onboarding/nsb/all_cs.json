@@ -452,9 +452,20 @@
                     "title": "Přes bankovní identitu (Bank iD)",
                     "badge": "Nejrychlejší",
                     "requirementsTitle": "Stačí mít:",
-                    "bankIdRequirement": "Aktivní bankovní identitu",
-                    "citizenshipRequirement": "České státní občanství",
-                    "timeRequirement": "2 minuty času",
+                    "requirements": [
+                        {
+                            "icon": "userVerfiedFill",
+                            "title": "Aktivní bankovní identitu"
+                        },
+                        {
+                            "icon": "idCardFill",
+                            "title": "České státní občanství"
+                        },
+                        {
+                            "icon": "pendingFill",
+                            "title": "2 minuty času"
+                        },
+                    ],
                     "primaryButton": "Ověřit přes Bank iD"
                 },
                 "otherSection": {

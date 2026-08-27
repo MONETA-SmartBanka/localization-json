@@ -452,9 +452,20 @@
                     "title": "With Bank iD",
                     "badge": "Fastest",
                     "requirementsTitle": "All you need:",
-                    "bankIdRequirement": "An active Bank iD",
-                    "citizenshipRequirement": "Czech citizenship",
-                    "timeRequirement": "2 minutes",
+                    "requirements": [
+                        {
+                            "icon": "userVerfiedFill",
+                            "title": "An active Bank iD"
+                        },
+                        {
+                            "icon": "idCardFill",
+                            "title": "Czech citizenship"
+                        },
+                        {
+                            "icon": "pendingFill",
+                            "title": "2 minuts"
+                        },
+                    ],
                     "primaryButton": "Verify with Bank iD"
                 },
                 "otherSection": {
