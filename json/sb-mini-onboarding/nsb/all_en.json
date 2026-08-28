@@ -484,11 +484,25 @@
                 "documentsSection": {
                     "title": "With two Czech IDs and an account at another bank",
                     "requirementsTitle": "You'll need:",
-                    "documentsRequirement": "Two Czech IDs",
-                    "documentsRequirementDetail": "Czech ID card plus a driving licence or passport.",
-                    "accountRequirement": "An account in your name at another Czech bank",
-                    "videoRequirement": "A short verification video",
-                    "timeRequirement": "About 10 minutes",
+                    "requirements": [
+                        {
+                            "title": "Two Czech IDs",
+                            "detail": "Czech ID card plus a driving licence or passport.",
+                            "icon": "idCardFill"
+                        },
+                        {
+                            "title": "An account in your name at another Czech bank",
+                            "icon": "bankFill"
+                        },
+                        {
+                            "title":"A short verification video",
+                            "icon": "cameraFill"
+                        },
+                        {
+                            "title": "About 10 minutes",
+                            "icon": "pendingFill"
+                        }
+                    ],
                     "primaryButton": "Verify with Czech IDs"
                 },
                 "branchSection": {

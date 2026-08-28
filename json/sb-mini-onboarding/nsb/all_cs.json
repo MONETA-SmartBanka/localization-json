@@ -484,11 +484,25 @@
                 "documentsSection": {
                     "title": "Pomocí 2 dokladů totožnosti a jiného účtu",
                     "requirementsTitle": "Budete potřebovat:",
-                    "documentsRequirement": "Dva české doklady totožnosti",
-                    "documentsRequirementDetail": "Občanský průkaz a řidičský průkaz nebo cestovní pas.",
-                    "accountRequirement": "Účet v jiné bance v ČR na Vaše jméno",
-                    "videoRequirement": "Natočit krátké ověřovací video",
-                    "timeRequirement": "10 minut času",
+                    "requirements": [
+                        {
+                            "title": "Dva české doklady totožnosti",
+                            "detail": "Občanský průkaz a řidičský průkaz nebo cestovní pas.",
+                            "icon": "idCardFill"
+                        },
+                        {
+                            "title": "Účet v jiné bance v ČR na Vaše jméno",
+                            "icon": "bankFill"
+                        },
+                        {
+                            "title": "Natočit krátké ověřovací video",
+                            "icon": "cameraFill"
+                        },
+                        {
+                            "title": "10 minut času",
+                            "icon": "pendingFill"
+                        }
+                    ],
                     "primaryButton": "Ověřit s českými doklady"
                 },
                 "branchSection": {
