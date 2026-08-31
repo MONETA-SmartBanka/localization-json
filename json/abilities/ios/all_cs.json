@@ -1128,7 +1128,7 @@
         {
             "id": "DalsiPodnikatelskyUcet_CZ",
             "title": "Další podnikatelský účet v měně, která se Vám hodí",
-            "detail": "Oddělte si platby, příjmy a výdaje doma i v zahraničí. Další podnikatelský účet si založíte v CZK, EUR nebo USD a zdarma.",
+            "detail": "Oddělte si platby, příjmy a výdaje doma i v zahraničí. Další podnikatelský účet si zdarma založíte v CZK, EUR nebo USD.",
             "imageURL": "/cbl_images/popup-news/v94/dalsi_podnikatelsky_ucet_CZ.png",
             "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
@@ -1210,6 +1210,65 @@
             "abilityCategory": "payments",
             "abilityTitle": "Odklad splátek",
             "abilitySortOrder": 8800
+        },
+        {
+            "id": "ParovaniCizincu_CZ",
+            "title": "Při příštím párování Smart Banky už nemusíte na pobočku",
+            "detail": "Máte nový telefon? Pro jeho spárování se teď můžete ověřit svým povolením k pobytu.",
+            "imageURL": "/cbl_images/popup-news/v95/parovani_cizincu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Párování Smart Banky pro cizince",
+            "abilitySortOrder": 8900
+        },
+        {
+            "id": "DIP_online_sjednani_CZ",
+            "title": "Sjednejte si DIP online",
+            "detail": "Výhody pravidelného investování a daňové úspory až 7 200 Kč ročně. Navíc s příspěvkem od zaměstnavatele až 50 000 Kč.",
+            "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Dlouhodobý investiční produkt",
+            "abilitySortOrder": 9000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DIPINVESTMENT",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "Potvrzeni_o_vedeni_uctu_CZ",
+            "title": "Potvrzení o vedení účtu Vám vystavíme na pár kliknutí",
+            "detail": "U svého účtu klepněte na tři tečky vedle tlačítka Zaplatit. Pak už jen v nabídce vyberte Potvrzení o vedení účtu a zůstatku.",
+            "imageURL": "/cbl_images/popup-news/v95/potvrzeni_o_vedeni_uctu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Potvrzení o vedení účtu a zůstatku",
+            "abilitySortOrder": 9100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "ACCOUNT_CONFIRMATION",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "PO_onboarding_CZ",
+            "title": "Účet pro firmu si teď založíte rychle online a zdarma",
+            "detail": "Navíc k němu můžete přidat další osoby jako eDisponenty, volné peníze odložit na spořicí účet nebo z něj fakturovat. Založení začnete na webu a dokončíte ve Smart Bance.",
+            "imageURL": "/cbl_images/popup-news/v95/PO_onboarding_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Založení firemního účtu",
+            "abilitySortOrder": 9200,
+            "primaryButton": {
+                "actionType": "OPENURL",
+                "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
+                "actionLabelText": "Zjistit více"
+            }
         }
     ]
 }

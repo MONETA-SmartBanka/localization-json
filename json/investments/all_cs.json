@@ -3260,6 +3260,11 @@
                 "title": "Omlouváme se, tak tohle nevyšlo",
                 "subtitle": "Bohužel nastala neočekávaná chyba a není možné pokračovat. \nProsím, zkuste to později.",
                 "primaryButton": "Zpět na Přehled"
+            },
+            "deniedFopPo": {
+                "title": "Dlouhodobý investiční produkt si můžete sjednat v osobním profilu",
+                "subtitle": "Tento produkt je určený pouze pro fyzické osoby. Pro jeho sjednání se přepněte do osobního profilu.",
+                "primaryButton": "Zpět"
             }
         },
         "questionnaireResult": {
@@ -3515,7 +3520,11 @@
             "term2": "roky",
             "frequency": "Frekvence investice",
             "title": "Jak budete investovat?",
-            "termInvalidMessage": "Délka musí být mezi 2 a 99 roky."
+            "termInvalidMessage": "Délka musí být mezi 2 a 99 roky.",
+            "regularInvestmentAccountInfo": "Pravidelně investovat lze pouze z běžného účtu.",
+            "regularInvestmentAccountValidationInfo": "Pravidelně investovat můžete pouze z běžného účtu.",
+            "termMinInvalidMessage": "Minimální investiční horizont jsou {0} roky.",
+            "termMaxInvalidMessage": "Maximální investiční horizont je {0} let."
         },
         "currencySelector": {
             "title": "Celková hodnota portfolia",

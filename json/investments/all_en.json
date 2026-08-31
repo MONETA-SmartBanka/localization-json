@@ -1612,7 +1612,6 @@
                     "informations_ib_2_a": "Value fluctuation:",
                     "informations_ib_3_b": "1-3 years",
                     "informations_ib_3_a": "Investment horizon:"
-
                 },
                 {
                     "title": "Medium-term investments, <br>balanced funds",
@@ -1629,7 +1628,6 @@
                     "informations_ib_2_a": "Value fluctuation:",
                     "informations_ib_3_b": "3-5 years",
                     "informations_ib_3_a": "Investment horizon:"
-
                 },
                 {
                     "title": "Long-term investments,<br>fluctuating funds",
@@ -1646,7 +1644,6 @@
                     "informations_ib_2_a": "Value fluctuation:",
                     "informations_ib_3_b": "5 years",
                     "informations_ib_3_a": "Investment horizon:"
-
                 },
                 {
                     "title": "Long-term investments,<br>fluctuating funds",
@@ -3295,6 +3292,11 @@
                 "title": "Sorry, something went wrong",
                 "subtitle": "Unfortunately, an unexpected error occurred and we can’t continue right now.\nPlease try again later.",
                 "primaryButton": "Back to Investments"
+            },
+            "deniedFopPo": {
+                "title": "Open a Long-term Investment Product from your personal profile",
+                "subtitle": "This product is only available to personal customers. Switch to your personal profile to open it.",
+                "primaryButton": "Back"
             }
         },
         "questionnaireResult": {
@@ -3550,7 +3552,11 @@
             "term2": "years",
             "frequency": "Investment frequency",
             "title": "How will you invest?",
-            "termInvalidMessage": "Duration must be between 2 and 99 years."
+            "termInvalidMessage": "Duration must be between 2 and 99 years.",
+            "regularInvestmentAccountInfo": "You can invest regularly only from a current account.",
+            "regularInvestmentAccountValidationInfo": "You can invest regularly only from a current account.",
+            "termMinInvalidMessage": "The minimum investment horizon is {0} years.",
+            "termMaxInvalidMessage": "The maximum investment horizon is {0} years."
         },
         "currencySelector": {
             "title": "Celková hodnota portfolia",

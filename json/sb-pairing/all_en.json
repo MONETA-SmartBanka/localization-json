@@ -49,22 +49,25 @@
             "secondaryButton": "I'll finish later"
         },
         "twoDocumentsPairing": {
-            "title": "Prepare your documents and follow the instructions",
-            "stepsTitle": "How to do it?",
+            "title": "Please have your Czech documents ready, along with the mobile phone on which you receive verification SMS codes",
             "steps": [
                 {
                     "id": 1,
-                    "label": "Prepare two identity documents."
+                    "stepTitle": "Acceptable documents",
+                    "icon": "idCardFill",
+                    "label": "ID card + driving licence or passport"
                 },
                 {
                     "id": 2,
-                    "label": "Follow the instructions and scan both documents one by one."
+                    "stepTitle": "Verification phone number",
+                    "icon": "smsFill",
+                    "label": "We will send the verification SMS to the number you normally use when logging into IB or making payments on online shops."
                 }
             ],
-            "noDocumentsButton": "I don't have Czech documents",
-            "continueButton": "I have two documents, continue",
-            "goToBranchTitle": "Let's sort it out at a branch",
-            "goToBranchSubtitle": "Have any questions? Give us a call or visit your nearest branch."
+            "noDocumentsButton": "I don't have any Czech documents",
+            "continueButton": "I’ve got everything, continue",
+            "goToBranchTitle": "Let's sort this out at a branch",
+            "goToBranchSubtitle": "Do you have any questions? Call us or visit your nearest branch."
         },
         "otherDevicePairing": {
             "title": "Prepare your original device and follow the instructions",
@@ -80,11 +83,11 @@
                 },
                 {
                     "id": 3,
-                    "label": "Keep the screen with the QR code with the \"pairing\" symbol open"
+                    "label": "Keep the screen with the <b>QR code with the \"pairing\" symbol open</b>"
                 },
                 {
                     "id": 4,
-                    "label": "On this device, tap the button below and point the camera at the QR code"
+                    "label": "On this device, tap the button below and point the camera at the <b>QR code</b>"
                 }
             ],
             "scanButton": "Scan QR code with the \"pairing\" symbol",
@@ -159,6 +162,18 @@
             "title": "Zastavte se za námi na pobočce nebo zvolte jiný způsob propojení.",
             "primaryButton": "Sjednat schůzku na pobočce",
             "secondaryButton": "Zpět na možnosti párování"
+        },
+        "loginQrWarning": {
+            "title": "It looks like you're scanning a login QR code",
+            "description": "To pair your device, please sign in first and follow the instructions.",
+            "tutorialURL": "https://ib.moneta.cz/video/qr_login_tutorial.mp4",
+            "primaryButton": "Back to instructions"
+        },
+        "unsupportedQRCode": {
+            "title": "This QR code cannot be used",
+            "description": "Scan a QR code to continue your application or pair the app.",
+            "primaryButton": "Back",
+            "secondaryButton": "Where can I find the QR code?"
         }
     }
 }
