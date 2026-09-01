@@ -14,10 +14,10 @@
                 "progress": {
                     "dynamicHint": "Vyplnění Vám zabere jen chviličku.",
                     "lastQuestion": "Poslední otázka",
-                    "question": "Otázka %d/%d",
+                    "question": "Otázka 1/{0}",
                     "remainingOne": "Zbývá 1 otázka",
-                    "remainingFew": "Zbývají %d otázky",
-                    "remainingMany": "Zbývá %d otázek"
+                    "remainingFew": "Zbývají {0} otázky",
+                    "remainingMany": "Zbývá {0} otázek"
                 },
                 "closedMessage": "Dotazník již není dostupný."
             },
@@ -450,7 +450,10 @@
             },
             "savingsInterestRate": [
                 {
-                    "codes": ["596", "597"],
+                    "codes": [
+                        "596",
+                        "597"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -481,7 +484,10 @@
                     }
                 },
                 {
-                    "codes": ["569", "570"],
+                    "codes": [
+                        "569",
+                        "570"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -512,7 +518,9 @@
                     }
                 },
                 {
-                    "codes": ["761"],
+                    "codes": [
+                        "761"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je uveden v podmínkách kampaně na <a href=\"https://www.moneta.cz/sporeni/sporici-ucet-euro\" target=\"_blank\">www.moneta.cz</a>",
@@ -542,7 +550,9 @@
                     }
                 },
                 {
-                    "codes": ["default"],
+                    "codes": [
+                        "default"
+                    ],
                     "title": "Zhodnocení {0} se skládá ze standardní úrokové sazby a úrokového bonusu",
                     "titleWithoutBonus": "Zhodnocení {0}",
                     "description": "Bonus je platný po celou dobu garance.",
@@ -658,6 +668,18 @@
                     "mobileKeyButton": "Změnit číslo pro mobilní klíč",
                     "cardsButton": "Změnit číslo pro 3D secure",
                     "continueButton": "Pokračovat na Přehled"
+                },
+                "overview": {
+                    "title": "Kontaktní a osobní údaje",
+                    "phoneNumbers": "Telefonní čísla",
+                    "personalSection": "Osobní údaje",
+                    "somethingWrong": "Něco nesouhlasí",
+                    "address": "Adresa",
+                    "fullName": "Jméno a příjmení",
+                    "permanentAddress": "Trvalá adresa",
+                    "birthNumber": "Rodné číslo",
+                    "birthPlace": "Místo narození",
+                    "nationality": "Státní občanství"
                 },
                 "upload": {
                     "title": "Pro změnu údajů vyfoťte prosím svou občanku",
