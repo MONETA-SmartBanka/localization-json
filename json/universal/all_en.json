@@ -2,6 +2,25 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "questionnaire": {
+                "continueButton": "Continue",
+                "submitButton": "Submit questionnaire",
+                "victory": {
+                    "default": "Thank you for your feedback.",
+                    "types": {
+                        "Post sale": "Thank you for your feedback. If we need any clarification, we will contact you."
+                    }
+                },
+                "progress": {
+                    "dynamicHint": "Filling this out will only take a moment.",
+                    "lastQuestion": "Last question",
+                    "question": "Question 1/{0}",
+                    "remainingOne": "1 question remaining",
+                    "remainingFew": "{0} questions remaining",
+                    "remainingMany": "{0} questions remaining"
+                },
+                "closedMessage": "The questionnaire is no longer available."
+            },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
                     "title": "Consent to the use of Mobile Key to log in to Internet Banka and authorize transactions",
@@ -638,6 +657,18 @@
                     "mobileKeyButton": "Change the Mobile Key number",
                     "cardsButton": "Change the 3D Secure number",
                     "continueButton": "Continue to Overview"
+                },
+                "overview": {
+                    "title": "Contact and personal details",
+                    "phoneNumbers": "Phone numbers",
+                    "personalSection": "Personal details",
+                    "somethingWrong": "Something's wrong",
+                    "address": "Address",
+                    "fullName": "Name and surname",
+                    "permanentAddress": "Permanent address",
+                    "birthNumber": "Birth number",
+                    "birthPlace": "Place of birth",
+                    "nationality": "Citizenship"
                 },
                 "upload": {
                     "title": "In order to change your identification details please upload your ID",

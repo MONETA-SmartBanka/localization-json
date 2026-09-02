@@ -2,6 +2,25 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "questionnaire": {
+                "continueButton": "Pokračovat",
+                "submitButton": "Odeslat dotazník",
+                "victory": {
+                    "default": "Děkujeme Vám za zpětnou vazbu.",
+                    "types": {
+                        "Post sale": "Děkujeme za Vaši zpětnou vazbu. Pokud budeme potřebovat něco upřesnit, ozveme se Vám."
+                    }
+                },
+                "progress": {
+                    "dynamicHint": "Vyplnění Vám zabere jen chviličku.",
+                    "lastQuestion": "Poslední otázka",
+                    "question": "Otázka 1/{0}",
+                    "remainingOne": "Zbývá 1 otázka",
+                    "remainingFew": "Zbývají {0} otázky",
+                    "remainingMany": "Zbývá {0} otázek"
+                },
+                "closedMessage": "Dotazník již není dostupný."
+            },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
                     "title": "Souhlas s využitím mobilního klíče pro přihlášení do Internet Banky a autorizaci transakcí",
@@ -639,6 +658,18 @@
                     "mobileKeyButton": "Změnit číslo pro mobilní klíč",
                     "cardsButton": "Změnit číslo pro 3D secure",
                     "continueButton": "Pokračovat na Přehled"
+                },
+                "overview": {
+                    "title": "Kontaktní a osobní údaje",
+                    "phoneNumbers": "Telefonní čísla",
+                    "personalSection": "Osobní údaje",
+                    "somethingWrong": "Něco nesouhlasí",
+                    "address": "Adresa",
+                    "fullName": "Jméno a příjmení",
+                    "permanentAddress": "Trvalá adresa",
+                    "birthNumber": "Rodné číslo",
+                    "birthPlace": "Místo narození",
+                    "nationality": "Státní občanství"
                 },
                 "upload": {
                     "title": "Pro změnu údajů vyfoťte prosím svou občanku",
