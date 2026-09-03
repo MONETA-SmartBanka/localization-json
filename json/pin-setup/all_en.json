@@ -1,0 +1,64 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "intro": {
+                "title": "Create a PIN you'll never forget",
+                "image": "/cbl_images/pin-setup/intro.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "Set a card PIN that makes sense only to you."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "Don't write it down anywhere; keep it in your head."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "If you forget it, you can always view it in Smart Banka."
+                    }
+                ],
+                "primaryButton": "Change card PIN",
+                "secondaryButton": "Continue to view PIN"
+            },
+            "createPin": {
+                "title": "Create a new card PIN",
+                "description": "Choose one that won't be easy to guess.",
+                "primaryButton": "Continue"
+            },
+            "confirmPin": {
+                "title": "Confirm your new PIN",
+                "primaryButton": "Confirm",
+                "errorTitle": "Enter your PIN again",
+                "errorDescription": "The PIN codes don't match. Please enter it again."
+            },
+            "sign": {
+                "title": "Please confirm the change with your app password"
+            },
+            "busyLoader": {
+                "title": "Please wait, we are checking everything",
+                "detail": "We will continue shortly."
+            },
+            "victoryVirtual": {
+                "title": "Done!",
+                "description": "Your card PIN has been changed",
+                "primaryButton": "Back to Overview"
+            },
+            "victoryPlastic": {
+                "title": "Your PIN has been changed.",
+                "description": "Now activate it by making a payment with your physical card",
+                "bullets": [
+                    {
+                        "icon": "card",
+                        "title": "For your next transaction, insert the card into a payment terminal or ATM."
+                    },
+                    {
+                        "icon": "dialHandFill",
+                        "title": "Complete the transaction by entering your new PIN."
+                    }
+                ]
+            }
+        }
+    }
+}

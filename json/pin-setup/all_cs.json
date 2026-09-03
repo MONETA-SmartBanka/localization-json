@@ -1,0 +1,64 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "intro": {
+                "title": "Vytvořte si PIN, který už z hlavy nedostanete",
+                "image": "/cbl_images/pin-setup/intro.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "Nastavte si PIN ke kartě, který dává smysl jenom Vám."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "Nikam si ho nezapisujte a noste ho v hlavě."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "Kdybyste ho zapomněli, můžete si ho kdykoliv zobrazit ve Smart Bance."
+                    }
+                ],
+                "primaryButton": "Změnit PIN karty",
+                "secondaryButton": "Pokračovat na zobrazení PINu"
+            },
+            "createPin": {
+                "title": "Vytvořte si nový PIN ke kartě",
+                "description": "Zvolte takový, který nebude snadné uhodnout.",
+                "primaryButton": "Pokračovat"
+            },
+            "confirmPin": {
+                "title": "Potvrďte nový PIN",
+                "primaryButton": "Potvrdit",
+                "errorTitle": "Zadejte PIN znovu",
+                "errorDescription": "PIN kódy se neshodují. Zadejte ho prosím ještě jednou."
+            },
+            "sign": {
+                "title": "Změnu prosím potvrďte heslem do aplikace"
+            },
+            "busyLoader": {
+                "title": "Chvilku strpení, všechno to musíme zkontrolovat",
+                "detail": "Brzy budeme pokračovat."
+            },
+            "victoryVirtual": {
+                "title": "Hotovo!",
+                "description": "PIN k Vaší kartě je změněný",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "victoryPlastic": {
+                "title": "PIN je změněný.",
+                "description": "Teď ho prosím aktivujte platbou Vaší fyzickou kartou",
+                "bullets": [
+                    {
+                        "icon": "card",
+                        "title": "Při příští transakci vložte kartu do platebního terminálu nebo bankomatu."
+                    },
+                    {
+                        "icon": "dialHandFill",
+                        "title": "Transakci dokončete zadáním nového PINu."
+                    }
+                ]
+            }
+        }
+    }
+}
