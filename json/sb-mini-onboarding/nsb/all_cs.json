@@ -248,7 +248,7 @@
                 "primaryButton": "Pokračovat",
                 "checkboxMarketing": "<b>O všem budete vědět jako první</b><br>Souhlasím se zpracováním mých údajů pro zasílání nabídek koncernu MONETA. Zasílání mohu kdykoliv zrušit. <a href=\"marketingConsent\">Více</a>",
                 "checkboxIM": "<b>Můžeme spolu chatovat</b><br>Souhlasím s komunikací s koncernem MONETA přes WhatsApp a jiné aplikace pro zasílání zpráv. <a href=\"instantMessaging\">Více</a>",
-                "checkboxUnsecured": "<b>Informace k Vašim produktům</b><br>Souhlasím, aby mi Moneta posílala servisní zprávy a další informace k mým produktům e-mailem nebo telefonicky. <a href=\"unencryptedCommunication\">Více</a>",
+                "checkboxUnsecured": "<b>Můžeme si volat a psát jednoduše</b><br>Chci, aby se mnou koncern MONETA komunikoval běžným, nešifrovaným způsobem na můj e-mail a telefon. <a href=\"unencryptedCommunication\">Více</a>",
                 "instantMessaging": {
                     "title": "Souhlas s komunikací běžným způsobem přes WhatsApp, případně pomocí jiné aplikace pro okamžité zasílání zpráv.",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a. s., IČO: 256 72 720, MONETA Auto, s.r.o., IČO: 601 12 743, MONETA Leasing, s.r.o., IČO: 607 51 606 a MONETA Stavební Spořitelna, a.s., IČO: 471 15 289) mohou komunikovat běžným způsobem prostřednictvím platformy WhatsApp, případně jiné aplikace pro okamžité zasílání zpráv, zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených s výše uvedenými společnostmi. Seznam aktuálně využívaných aplikací pro okamžité zasílání zpráv je dostupný na stránce <a href=\"https://moneta.cz/kontakt/souhlas-aplikace\">https://moneta.cz/kontakt/souhlas-aplikace</a>.<br><br>Koncern MONETA se mnou bude komunikovat prostřednictvím telefonních čísel +420 224 443 636 a +420 728 133 133."
@@ -444,71 +444,6 @@
                 "imConsent": {
                     "title": "Souhlas se zasíláním nešifrované komunikace",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
-                }
-            },
-            "identityVerification": {
-                "title": "Teď ověříme, že jste to opravdu Vy",
-                "bankIdSection": {
-                    "title": "Přes bankovní identitu (Bank iD)",
-                    "badge": "Nejrychlejší",
-                    "requirementsTitle": "Stačí mít:",
-                    "requirements": [
-                        {
-                            "icon": "userVerifiedFill",
-                            "title": "Aktivní bankovní identitu"
-                        },
-                        {
-                            "icon": "idCardFill",
-                            "title": "České státní občanství"
-                        },
-                        {
-                            "icon": "pendingFill",
-                            "title": "2 minuty času"
-                        }
-                    ],
-                    "primaryButton": "Ověřit přes Bank iD"
-                },
-                "otherSection": {
-                    "title": "Jiné způsoby ověření totožnosti",
-                    "detail": "Pokud se nemůžete ověřit přes Bank iD.",
-                    "secondaryButton": "Jiné způsoby ověření"
-                }
-            },
-            "bankIdBanks": {
-                "title": "Ověřte se přihlášením do své banky přes Bank iD",
-                "detail": "Bankovní identita, a.s. zpracovává Vaše osobní údaje za účelem poskytnutí identifikačních služeb a ochrany právních nároků. Více informací včetně výčtu svých práv najdete v <a href=\"https://www.bankid.cz/osobni-udaje\">Zásadách ochrany osobních údajů</a>.",
-                "secondaryButton": "Jiné způsoby ověření"
-            },
-            "otherVerification": {
-                "title": "Jiné způsoby ověření",
-                "documentsSection": {
-                    "title": "Pomocí 2 dokladů totožnosti a jiného účtu",
-                    "requirementsTitle": "Budete potřebovat:",
-                    "requirements": [
-                        {
-                            "title": "Dva české doklady totožnosti",
-                            "detail": "Občanský průkaz a řidičský průkaz nebo cestovní pas.",
-                            "icon": "idCardFill"
-                        },
-                        {
-                            "title": "Účet v jiné bance v ČR na Vaše jméno",
-                            "icon": "bankFill"
-                        },
-                        {
-                            "title": "Natočit krátké ověřovací video",
-                            "icon": "cameraFill"
-                        },
-                        {
-                            "title": "10 minut času",
-                            "icon": "pendingFill"
-                        }
-                    ],
-                    "primaryButton": "Ověřit s českými doklady"
-                },
-                "branchSection": {
-                    "title": "Nemám české doklady",
-                    "detail": "Navštivte nás na kterékoliv naší pobočce, kde Vám rádi pomůžeme.",
-                    "secondaryButton": "Zobrazit mapu poboček"
                 }
             }
         }
