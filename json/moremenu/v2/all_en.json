@@ -70,15 +70,6 @@
                     "analyticsId": "more_investments"
                 },
                 {
-                    "title": "Building Savings",
-                    "listIcon": "walletPiggyBankFill",
-                    "userClientTypeList": ["FO", "ZAM"],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BUILDING_SAVINGS",
-                    "analyticsId": "more_buildingSavings"
-                },
-                {
                     "title": "Term Deposit",
                     "listIcon": "calendarPiggyBankFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM"],
@@ -86,6 +77,15 @@
                     "actionType": "APPPAGE",
                     "actionValue": "RTVETB",
                     "analyticsId": "more_termDeposit"
+                },
+                {
+                    "title": "Building Savings",
+                    "listIcon": "walletPiggyBankFill",
+                    "userClientTypeList": ["FO", "ZAM"],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "BUILDING_SAVINGS",
+                    "analyticsId": "more_buildingSavings"
                 },
                 {
                     "title": "Long-Term investment product",

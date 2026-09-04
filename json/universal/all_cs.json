@@ -595,62 +595,6 @@
                     "primaryButton": "Uložit změny",
                     "primaryScanButton": "Pokračovat k focení dokladu"
                 },
-                "overview": {
-                    "title": "Kontaktní a osobní údaje",
-                    "phoneNumbers": "Telefonní čísla",
-                    "personalSection": "Osobní údaje",
-                    "somethingWrong": "Něco nesouhlasí",
-                    "address": "Adresa",
-                    "fullName": "Jméno a příjmení",
-                    "permanentAddress": "Trvalá adresa",
-                    "birthNumber": "Rodné číslo",
-                    "birthPlace": "Místo narození",
-                    "nationality": "Státní občanství"
-                },
-                "emailEdit": {
-                    "title": "Chcete změnit e-mail?",
-                    "primaryButton": "Potvrdit"
-                },
-                "processingVictory": {
-                    "title": "Změnu zpracováváme",
-                    "detail": "Jakmile bude hotovo, dáme vám vědět.",
-                    "primaryButton": "Hotovo"
-                },
-                "phoneTypeList": {
-                    "title": "Které číslo chcete změnit?",
-                    "contact": "Kontaktní",
-                    "mobileKey": "Pro mobilní klíč",
-                    "mobileKeyDescription": "Slouží pro přihlášení do Internet Banky a potvrzování transakcí.",
-                    "cards": "Pro potvrzování plateb kartou na internetu",
-                    "cardsDescription": "3D secure"
-                },
-                "phoneEdit": {
-                    "title": "Chcete změnit kontaktní telefon?",
-                    "primaryButton": "Potvrdit"
-                },
-                "mobileKeyInfo": {
-                    "title": "Protože jde o bezpečí Vašich financí, zastavte se raději za námi na pobočce",
-                    "detail": "Mobilní klíč slouží k Vašemu ověření například pro přihlášení do bankovnictví nebo potvrzení plateb. Proto raději na pobočce ověříme, že o změnu čísla žádáte opravdu Vy a číslo společně nastavíme.",
-                    "primaryButton": "Zpět"
-                },
-                "phoneVictory": {
-                    "title": "Brzy bude hotovo. Až změnu dokončíme pošleme Vám upozornění.\n\nChcete změnit i další čísla?",
-                    "detail": "Třeba ta pro mobilní klíč nebo pro potvrzování plateb kartou na internetu (3D secure). Ať nemáte v budoucnu zbytečné problémy.",
-                    "mobileKeyButton": "Změnit číslo pro mobilní klíč",
-                    "cardsButton": "Změnit číslo pro 3D secure",
-                    "continueButton": "Pokračovat na Přehled"
-                },
-                "contactAddressEdit": {
-                    "title": "Jaká je Vaše kontaktní adresa?",
-                    "street": "Ulice",
-                    "descriptiveNumber": "Č. popisné",
-                    "orientationNumber": "Č. orientační",
-                    "town": "Město",
-                    "district": "Část obce",
-                    "zip": "PSČ",
-                    "country": "Stát",
-                    "primaryButton": "Potvrdit"
-                },
                 "upload": {
                     "title": "Pro změnu údajů vyfoťte prosím svou občanku",
                     "detail": "Změny ve jméně nebo trvalé adrese musíme ověřit. Stačí nám čitelná, nerozmazaná fotografie občanky. Vyfotit ji můžete rovnou tady v aplikaci. Focení je u nás samozřejmě zabezpečené.",
@@ -711,21 +655,6 @@
                 "documentUploadVictory": {
                     "title": "Zpracováváme",
                     "detail": "Děkujeme. Teď to musíme zkontrolovat my. Do 5 dní Vám dáme vědět.",
-                    "primaryButton": "Rozumím"
-                },
-                "fonPersonalDataMismatch": {
-                    "title": "Nejsou Vaše osobní údaje správně?",
-                    "description": "Osobní údaje přebíráme ze základních registrů státu, proto by měly být aktuální.\n\nPokud přesto něco nesouhlasí, obraťte se prosím na libovolné pracoviště Czech POINT, kde můžete požádat o jejich změnu.",
-                    "primaryButton": "Rozumím"
-                },
-                "fopPersonalDataMismatch": {
-                    "title": "Nejsou údaje o Vašem podnikání správně?",
-                    "description": "Údaje o podnikání přebíráme z informačního systému Ministerstva financí, proto by měly být aktuální.\n\nPokud přesto něco nesouhlasí, obraťte se prosím na webové stránky ARES, kde můžete požádat o jejich změnu.",
-                    "primaryButton": "Rozumím"
-                },
-                "poPersonalDataMismatch": {
-                    "title": "Nejsou údaje o Vaší společnosti správně?",
-                    "description": "Údaje o společnosti přebíráme z informačního systému Ministerstva financí, proto by měly být aktuální.\n\nPokud přesto něco nesouhlasí, obraťte se prosím na webové stránky ARES, kde můžete požádat o jejich změnu.",
                     "primaryButton": "Rozumím"
                 }
             },
@@ -1199,6 +1128,68 @@
                     "primaryButton": {
                         "actionType": "APPPAGE",
                         "actionLabelText": "Spořit s úrokem 3,65 % p. a.",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13050",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,4 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,4 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 30. 9. 2026",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,4 % p. a.",
+                        "conversionDeeplink": "SACONVERSION_RETENTION",
+                        "ibRoute": "/savings/savingsAccountPromo",
+                        "ibAnalyticsCode": "Retention Savings Banner VIP"
+                    },
+                    "secondaryButton": "Pokračovat v platbě"
+                },
+                {
+                    "salesProdType": "13051",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,5 % p. a.",
+                    "icon": "savings",
+                    "bullets": [
+                        {
+                            "title": "<b>3,5 % ročně bez podmínek</b>",
+                            "icon": "starsAltFill"
+                        },
+                        {
+                            "title": "Úrokovou sazbu Vám garantujeme do 30. 9. 2026",
+                            "icon": "calendarClockFill"
+                        },
+                        {
+                            "title": "<b>Žádné poplatky.</b> Jak jste u nás zvyklí",
+                            "icon": "tickFill"
+                        },
+                        {
+                            "title": "Otevření účtu online během chvilky",
+                            "icon": "clockRotateLeftFill"
+                        }
+                    ],
+                    "primaryButton": {
+                        "actionType": "APPPAGE",
+                        "actionLabelText": "Spořit s úrokem 3,5 % p. a.",
                         "conversionDeeplink": "SACONVERSION_RETENTION",
                         "ibRoute": "/savings/savingsAccountPromo",
                         "ibAnalyticsCode": "Retention Savings Banner VIP"
