@@ -16,6 +16,58 @@
                 "newInterestRate": "Nová roční úroková sazba",
                 "paymentDate": "Datum doplacení"
             }
-        }
+        },
+        "caclulator": {
+            "title": "Končí {0} fixace Vaší hypotéky. Nastavte si novou",
+            "icon": "circleInfoFill",
+            "description": "Při stejné délce fixace budete platit {0}.",
+            "calculatorSection": {
+                "title": "Nastavte si novou fixaci",
+                "monthlyInstallment": "Měsíční splátka"
+            },
+            "extensionSectionHeader": "Jak si ještě více snížit splátku",
+            "extensionSection": {
+                "title": "Prodloužte si dobu splácení",
+                "icon": "circleInfoFill",
+                "optionZero": "Beze změny",
+                "insuranceToggle": {
+                    "title": "Snižte si úrok o 0,2 % s pojištěním schopnosti splácet",
+                    "description": "<a href=\"refix\">Více o pojištění</a>"
+                }
+            },
+            "insuranceToggle": {
+                "title": "Mám zájem o Pojištění schopnosti splácet za {0} měsíčně ke splátce",
+                "description": "<a href=\"refix\">Více o pojištění</a>"
+            },
+            "sum": "Celkem zaplatíte",
+            "help": {
+                "fixation": {
+                    "title": "Brzy končí fixace Vaší hypotéky",
+                    "detail": "Pro další období si můžete vybrat a nastavit novou výši úrokové sazby a délku fixace. Pokud chcete ponechat stávající délku fixace, nemusíte nic upravovat, vše nastavíme automaticky."
+                },
+                "repayment": {
+                    "title": "Chcete splácet méně?",
+                    "detail": "Prodloužením doby splácení si snížíte měsíční splátku. Spolu s tím se zvýší celková částka, kterou za hypotéku zaplatíte."
+                },
+                "insurance": {
+                    "title": "Díky pojištění získáte",
+                    "bullets": [
+                        "<b>Až 12 splátek</b> úvěru v případě ošetřování člena rodiny, ztráty zaměstnání, zrušení nebo přerušení živnosti nebo v případě pracovní neschopnosti.",
+                        "<b>12 splátek</b> jednorázově v případě invalidity I. stupně.",
+                        "<b>Zbývající část úvěru</b> v případě přiznání invalidity II. či III. stupně, ZTP/P, nebo úmrtí.",
+                        "<b>Virtuální ordinaci 24/7 s lékařem online</b>, který vám může poslat například e-recept nebo žádanku na vyšetření."
+                    ],
+                    "message": {
+                        "title": "Pojištění schopnosti splácet není možné sjednat osobám, kterým byla přiznána invalidita (1.- 3.stupně). Více informací o pojištění najdete v dokumentu <a href=\"refix\">Informace o zprostředkovateli</a> a <a href=\"refix\">Brožura pojištění schopnosti splácet 2026</a>",
+                        "icon": "triangleExclamation"
+                    },
+                    "primaryButton": "Chci se pojistit",
+                    "secondaryButton": "Nechci pojištění"
+                }
+            }
+        },
+        "insurance": {},
+        "summary": {},
+        "victory": {}
     }
 }
