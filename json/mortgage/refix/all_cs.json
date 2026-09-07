@@ -17,7 +17,7 @@
                 "paymentDate": "Datum doplacení"
             }
         },
-        "caclulator": {
+        "caclculator": {
             "title": "Končí {0} fixace Vaší hypotéky. Nastavte si novou",
             "icon": "circleInfoFill",
             "description": "Při stejné délce fixace budete platit {0}.",
@@ -31,7 +31,7 @@
                 "icon": "circleInfoFill",
                 "optionZero": "Beze změny",
                 "insuranceToggle": {
-                    "title": "Snižte si úrok o 0,2 % s pojištěním schopnosti splácet",
+                    "title": "Snižte si úrok o {0} s pojištěním schopnosti splácet",
                     "description": "<a href=\"refix\">Více o pojištění</a>"
                 }
             },
@@ -39,7 +39,7 @@
                 "title": "Mám zájem o Pojištění schopnosti splácet za {0} měsíčně ke splátce",
                 "description": "<a href=\"refix\">Více o pojištění</a>"
             },
-            "sum": "Celkem zaplatíte",
+            "total": "Celkem zaplatíte",
             "help": {
                 "fixation": {
                     "title": "Brzy končí fixace Vaší hypotéky",
@@ -67,7 +67,41 @@
             }
         },
         "insurance": {},
-        "summary": {},
+        "summary": {
+            "title": "Zkontrolujte nastavení nové fixace Vaší hypotéky",
+            "withInsurance": {
+                "title": "Měsíčně s pojištěním",
+                "withLowerInterestRate": {
+                    "title": "Splátka s nižším úrokem",
+                    "detail": "Sleva se započítá až po sjednání."
+                },
+                "repaymentInsurance": {
+                    "title": "Pojištění schopnosti splácet"
+                },
+                "total": "Celkem"
+            },
+            "withoutInsurance": {
+                "title": "Měsíčně bez pojištění",
+                "standart": {
+                    "title": "Standardní splátka",
+                    "detail": "Platná do sjednání pojištění."
+                }
+            },
+            "rates": {
+                "title": "Úroky a splatnost",
+                "annualInterestRate": {
+                    "title": "Roční úroková sazba"
+                },
+                "rpsn": { "title": "RPSN" },
+                "validity": { "title": "Platnost sazby" },
+                "fixation": { "title": "Fixace" },
+                "repayment": {
+                    "title": "Datum splatnosti",
+                    "detail": "Prodlouženo o  {0}."
+                }
+            },
+            "total": "Celkem zaplatíte"
+        },
         "victory": {}
     }
 }
