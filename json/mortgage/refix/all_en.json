@@ -80,6 +80,10 @@
             "primaryButton": "Pokračovat"
         },
         "insurance": {
+            "titleMultiple": "K hypotéce si naši klienti sjednávají i tato pojištění",
+            "titleProperty": "Chraňte svůj domov ze všech stran s pojištěním majetku",
+            "descriptionMultiple": "Dejte nám vědět, které pojištění Vás zaujalo  a my se Vám ozveme, abychom vše probrali.",
+            "descriptionProperty": "Pokud budete mít o pojištění zájem, ozveme se Vám, abychom vše nastavili.",
             "installmentSheet": {
                 "title": "Z čeho se splátka skládá?",
                 "primaryButton": "Zavřít",
@@ -88,7 +92,54 @@
                 "insuranceRepayment": "Pojištění schopnosti splácet",
                 "insuranceDiscount": "Sleva za pojištění",
                 "finalMortgage": "Hypotéka s pojištěním měsíčně"
-            }
+            },
+            "ppi": {
+                "title": "Pojištění schopnosti splácet sníží úrok z {0} na {1}",
+                "detail": "Ušetříte měsíčně {0}",
+                "totalWithInsurance": "Celková splátka s pojistným",
+                "insurance": "Z toho pojistné",
+                "bullets": [
+                    {
+                        "title": "Zaplatí až 12 splátek",
+                        "detail": "Při výpadku příjmu.",
+                        "icon": "tickFill"
+                    },
+                    {
+                        "title": "12 splátek jednorázově",
+                        "detail": "V případě invalidity I. stupně.",
+                        "icon": "tickFill"
+                    },
+                    {
+                        "title": "Doplatí zbývající část úvěru",
+                        "detail": "V případě přiznání invalidity II. či III. stupně, ZTP/P, nebo úmrtí.",
+                        "icon": "tickFill"
+                    }
+                ]
+            },
+            "property": {
+                "title": "Pojištění majetku ",
+                "detail": "S exkluzivní slevou až <b>{0}</b>",
+                "bullets": [
+                    {
+                        "title": "Splníte nezbytnou podmínku hypotéky",
+                        "detail": "A nebudete muset nic dokládat.",
+                        "icon": "tickFill"
+                    },
+                    {
+                        "title": "Kontroluje hodnotu nemovitosti",
+                        "detail": "Pojištění odpovídá realitě i po letech.",
+                        "icon": "tickFill"
+                    },
+                    {
+                        "title": "Ušetří Váš čas",
+                        "detail": "Vinkulaci vyřešíme za Vás.",
+                        "icon": "tickFill"
+                    }
+                ]
+            },
+            "primaryButton": "Pokračovat",
+            "primaryButtonInsurance": "Pokračovat s pojištěním",
+            "secondaryButtonInsurance": "Nechci pojištění"
         },
         "summary": {
             "title": "Zkontrolujte nastavení nové fixace Vaší hypotéky",
