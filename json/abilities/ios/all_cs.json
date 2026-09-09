@@ -47,21 +47,14 @@
         },
         {
             "id": "Design_2_CZ",
-            "title": "Nechte si zůstatky na účtech pro sebe",
-            "detail": "Jediným kliknutím je můžete skrýt a zase zobrazit. Jak právě potřebujete.",
-            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_2_CZ.png",
+            "title": "Skryjte zůstatky na účtech kdykoliv potřebujete",
+            "detail": "Jediným kliknutím na ikonku očička je můžete skrýt a zase zobrazit. Jak právě potřebujete.",
+            "imageURL": "/cbl_images/popup-news/v96/anonymni_zobrazeni_CZ.png",
             "shouldCheckEligibility": false,
-            "minAppVersion": "62.0.0",
-            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_2_CZ.png",
-            "newsDate": "2024-01-08",
+            "minAppVersion": "97.0.0",
             "abilityCategory": "appearance",
-            "abilityTitle": "Skrytí zůstatků",
-            "abilitySortOrder": 200,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
-            }
+            "abilityTitle": "Anonymní zobrazení",
+            "abilitySortOrder": 200
         },
         {
             "id": "Design_3_CZ",
@@ -229,8 +222,8 @@
         {
             "id": "Platby_1_CZ",
             "title": "Ulehčete si převody mezi účty s funkcí drag & drop",
-            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze a přetáhněte ho na cílový účet. Pak už jen zadejte částku a převod potvrďte.\u2028Drag & drop neboli „táhni a pust“ můžete využít u běžných i spořicích účtů.",
-            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
+            "detail": "Podržte prst na účtu, ze kterého chcete převést peníze, a přetáhněte ho na cílový účet. Funkci můžete využít u běžných, cizoměnových i spořicích účtů.",
+            "imageURL": "/cbl_images/popup-news/v96/drag_and_drop_CZ.png",
             "minAppVersion": "91.0.0",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
@@ -1225,7 +1218,7 @@
         {
             "id": "DIP_online_sjednani_CZ",
             "title": "Sjednejte si DIP online",
-            "detail": "Výhody pravidelného investování a daňové úspory až 7 200 Kč ročně. Navíc s příspěvkem od zaměstnavatele až 50 000 Kč.",
+            "detail": "Pravidelně investujte na stáří a využijte možnost daňové úspory až 7 200 Kč ročně. Na DIP Vám může přispívat také zaměstnavatel.",
             "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
             "minAppVersion": "96.0.0",
             "shouldCheckEligibility": false,
@@ -1267,6 +1260,54 @@
             "primaryButton": {
                 "actionType": "OPENURL",
                 "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "Clip_KK_CZ",
+            "title": "Nečekané výdaje? Navyšte si částku na kreditní kartě online",
+            "detail": "Během pár minut si můžete navýšit limit kreditní karty až na 300 000 Kč. Stačí odeslat žádost a peníze mohou být brzy Vaše.",
+            "imageURL": "/cbl_images/popup-news/v96/clip_KK_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "Navýšení limitu Kreditní Karty",
+            "abilitySortOrder": 9300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
+                "actionLabelText": "Vyzkoušet"
+            }
+        },
+        {
+            "id": "Firemni_karta_CZ",
+            "title": "Novou kartu k firemnímu účtu pro sebe i zaměstnance si nově sjednáte online",
+            "detail": "Potřebujete kartu pro účetní nebo další lidi ve firmě? Teď ji sjednáte za pár minut online. Stačí vybrat plastovou nebo virtuální a vše dokončit ve Smart Bance.",
+            "imageURL": "/cbl_images/popup-news/v96/firemni_karta_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "Firemní karta",
+            "abilitySortOrder": 9400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "Odmeny_CZ",
+            "title": "V okolí na Vás čekají odměny. Prohlédněte si je na mapě",
+            "detail": "Nová mapa Vám ukáže nabídky, které kolem sebe máte. Najděte je a šetřete při platbách kartou.",
+            "imageURL": "/cbl_images/popup-news/v96/odmeny_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "Odměny v okolí",
+            "abilitySortOrder": 9500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
                 "actionLabelText": "Zjistit více"
             }
         }

@@ -48,20 +48,13 @@
         {
             "id": "Design_2_ENG",
             "title": "Keep your account balance private",
-            "detail": "You can hide or view your balances in one tap. Whenever you need.",
-            "imageURL": "/cbl_images/abilities/ios/1_sada/Design_Image_2_ENG.png",
+            "detail": "Tap the eye icon to hide or show them anytime.",
+            "imageURL": "/cbl_images/popup-news/v96/anonymni_zobrazeni_CZ.png",
             "shouldCheckEligibility": false,
-            "minAppVersion": "62.0.0",
-            "newsImageURL": "/cbl_images/abilities/ios/1_sada/Design_NewsImage_2_ENG.png",
-            "newsDate": "2024-01-08",
+            "minAppVersion": "97.0.0",
             "abilityCategory": "appearance",
             "abilityTitle": "Hide Balances",
-            "abilitySortOrder": 200,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "BALANCEOVERVIEW",
-                "actionLabelText": "Try it"
-            }
+            "abilitySortOrder": 200
         },
         {
             "id": "Design_3_ENG",
@@ -229,8 +222,8 @@
         {
             "id": "Platby_1_ENG",
             "title": "Make transfers between accounts easier with drag & drop",
-            "detail": "Press and hold the account you want to transfer money from, then drag it to the target account. Then enter the amount and confirm the transfer. You can use drag & drop for current and savings accounts.",
-            "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
+            "detail": "Press and hold the account you want to transfer money from, then drag it to the account you want to transfer it to. Drag and drop works with current, foreign currency and savings accounts.",
+            "imageURL": "/cbl_images/popup-news/v96/drag_and_drop_CZ.png",
             "minAppVersion": "91.0.0",
             "shouldCheckEligibility": false,
             "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_ENG.png",
@@ -475,7 +468,6 @@
             "abilityTitle": "Card cancellation",
             "abilitySortOrder": 600
         },
-
         {
             "id": "Ucet_Velikonoce_0_ENG",
             "title": "Easter Theme",
@@ -1229,7 +1221,7 @@
         {
             "id": "DIP_online_sjednani_EN",
             "title": "Open Long Term Investment Product online",
-            "detail": "Enjoy the benefits of regular investing and tax savings of up to CZK 7,200 a year. On top of that, your employer can contribute up to CZK 50,000.",
+            "detail": "Invest regularly for retirement and save up to CZK 7,200 a year on tax. Your employer can contribute to your Long-term Investment Product too.",
             "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
             "minAppVersion": "96.0.0",
             "shouldCheckEligibility": false,
@@ -1272,6 +1264,54 @@
                 "actionType": "OPENURL",
                 "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
                 "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "Clip_KK_EN",
+            "title": "Unexpected expenses? Increase your credit card limit online. It’s quick and easy",
+            "detail": "Increase your credit card limit up to CZK 300,000 in just a few minutes. Submit your application and, if approved, the funds can be available right away.",
+            "imageURL": "/cbl_images/popup-news/v96/clip_KK_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "TODO",
+            "abilitySortOrder": 9300,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
+                "actionLabelText": "Try it"
+            }
+        },
+        {
+            "id": "Firemni_karta_EN",
+            "title": "Order a new business account card online for you or your employees",
+            "detail": "Need a card for your accountant or other people in your business? Order one online in just a few minutes. Choose a physical or virtual card and finish everything in Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v96/firemni_karta_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "TODO",
+            "abilitySortOrder": 9400,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "Odmeny_EN",
+            "title": "Discover rewards near you",
+            "detail": "Our new map shows nearby offers, so you can easily find places to save when you pay by card.",
+            "imageURL": "/cbl_images/popup-news/v96/odmeny_CZ.png",
+            "minAppVersion": "97.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "TODO",
+            "abilityTitle": "TODO",
+            "abilitySortOrder": 9500,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "TODO",
+                "actionLabelText": "Try it"
             }
         }
     ]
