@@ -53,7 +53,7 @@
             "shouldCheckEligibility": false,
             "minAppVersion": "97.0.0",
             "abilityCategory": "appearance",
-            "abilityTitle": "Hide Balances",
+            "abilityTitle": "Anonymous View",
             "abilitySortOrder": 200
         },
         {
@@ -1273,12 +1273,12 @@
             "imageURL": "/cbl_images/popup-news/v96/clip_KK_CZ.png",
             "minAppVersion": "97.0.0",
             "shouldCheckEligibility": false,
-            "abilityCategory": "TODO",
-            "abilityTitle": "TODO",
+            "abilityCategory": "cards",
+            "abilityTitle": "Credit Card Limit Increase",
             "abilitySortOrder": 9300,
             "primaryButton": {
                 "actionType": "APPPAGE",
-                "actionData": "TODO",
+                "actionData": "CARDSOVERVIEW",
                 "actionLabelText": "Try it"
             }
         },
@@ -1289,14 +1289,9 @@
             "imageURL": "/cbl_images/popup-news/v96/firemni_karta_CZ.png",
             "minAppVersion": "97.0.0",
             "shouldCheckEligibility": false,
-            "abilityCategory": "TODO",
-            "abilityTitle": "TODO",
-            "abilitySortOrder": 9400,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "TODO",
-                "actionLabelText": "Learn more"
-            }
+            "abilityCategory": "cards",
+            "abilityTitle": "Card for a Third Party",
+            "abilitySortOrder": 9400
         },
         {
             "id": "Odmeny_EN",
@@ -1305,12 +1300,12 @@
             "imageURL": "/cbl_images/popup-news/v96/odmeny_CZ.png",
             "minAppVersion": "97.0.0",
             "shouldCheckEligibility": false,
-            "abilityCategory": "TODO",
-            "abilityTitle": "TODO",
+            "abilityCategory": "products",
+            "abilityTitle": "Nearby Rewards",
             "abilitySortOrder": 9500,
             "primaryButton": {
                 "actionType": "APPPAGE",
-                "actionData": "TODO",
+                "actionData": "DATEIO",
                 "actionLabelText": "Try it"
             }
         }
