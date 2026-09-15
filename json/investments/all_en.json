@@ -2,7 +2,25 @@
     "general": {
         "toolbarTitle": "Investments",
         "phoneNumber": "+420 224 443 636",
-        "phoneNumberAssist": "+420 234 240 244"
+        "phoneNumberAssist": "+420 234 240 244",
+        "intervals": [
+            {
+                "interval": "YEAR",
+                "title": "1 year"
+            },
+            {
+                "interval": "THREE_YEARS",
+                "title": "3 years"
+            },
+            {
+                "interval": "FIVE_YEARS",
+                "title": "5 years"
+            },
+            {
+                "interval": "WHOLE",
+                "title": "Since creation"
+            }
+        ]
     },
     "screens": {
         "disclaimer": {
@@ -2174,8 +2192,8 @@
             ],
             "profiles": [
                 {
-                    "title": "Your investment profile is \u2777 , your investments are best suited for stable funds.",
-                    "title_ib": "Your investment profile is \u2777.<br>Your investments are best suited for stable funds.",
+                    "title": "Your investment profile is ❷ , your investments are best suited for stable funds.",
+                    "title_ib": "Your investment profile is ❷.<br>Your investments are best suited for stable funds.",
                     "colorfulNumeros": [1],
                     "numeros": [2],
                     "greyNumeros": [3, 4, 5, 6, 7],
@@ -2194,8 +2212,8 @@
                     ]
                 },
                 {
-                    "title": "Your investment profile is \u2778, your investments are best suited for balanced and stable funds.",
-                    "title_ib": "Your investment profile is \u2778.<br>Your investments are best suited for balanced and stable funds.",
+                    "title": "Your investment profile is ❸, your investments are best suited for balanced and stable funds.",
+                    "title_ib": "Your investment profile is ❸.<br>Your investments are best suited for balanced and stable funds.",
                     "colorfulNumeros": [1, 2],
                     "numeros": [3],
                     "greyNumeros": [4, 5, 6, 7],
@@ -2214,8 +2232,8 @@
                     ]
                 },
                 {
-                    "title": "Your investment profile is \u2779, your investments are suited even for more fluctuating funds.",
-                    "title_ib": "Your investment profile is \u2779.<br>Your investments are suited even for more fluctuating funds.",
+                    "title": "Your investment profile is ❹, your investments are suited even for more fluctuating funds.",
+                    "title_ib": "Your investment profile is ❹.<br>Your investments are suited even for more fluctuating funds.",
                     "colorfulNumeros": [1, 2, 3],
                     "numeros": [4],
                     "greyNumeros": [5, 6, 7],
@@ -2234,8 +2252,8 @@
                     ]
                 },
                 {
-                    "title": "Your investment profile is \u277c, your investments are suited even for more fluctuating funds.",
-                    "title_ib": "Your investment profile is \u277c.<br>Your investments are suited even for more fluctuating funds.",
+                    "title": "Your investment profile is ❼, your investments are suited even for more fluctuating funds.",
+                    "title_ib": "Your investment profile is ❼.<br>Your investments are suited even for more fluctuating funds.",
                     "colorfulNumeros": [1, 2, 3, 4, 5, 6],
                     "numeros": [7],
                     "greyNumeros": [],
@@ -2376,7 +2394,7 @@
                 "<b>Track, buy and sell your investments right in Smart Banka.",
                 "<b>Past revenue data is for informational purposes only and does not guarantee future revenue.</b> Your investment is not insured."
             ],
-            "disclaimer": "\uD83C\uDF33 – Funds are focused, inter alia, on companies contributing to sustainable development.\n\uD83C\uDFC6 – Most purchased funds in Smart Banka and Internet Banka for the past month.\n\uD83D\uDCC5 – Funds suitable for regular investments.",
+            "disclaimer": "🌳 – Funds are focused, inter alia, on companies contributing to sustainable development.\n🏆 – Most purchased funds in Smart Banka and Internet Banka for the past month.\n📅 – Funds suitable for regular investments.",
             "alternativeBullets": {
                 "bulletHeadline": "What to do next with your investment profile:",
                 "bullets": [
@@ -2399,7 +2417,7 @@
                 "report": "Fund report"
             },
             "myFundsHeadline": "Your portfolio",
-            "summary": "Invested CZK\u00a0{{sum}}\nProfit CZK\u00a0{{profitMoney}} / {{profitPerc}} %",
+            "summary": "Invested CZK {{sum}}\nProfit CZK {{profitMoney}} / {{profitPerc}} %",
             "icko": "Portfolio evaluation is calculated as a proportional ratio of profit vs. total sum invested.\nPortfolios evaluation is based on the daily portfolio evaluation changes of all of your funds.",
             "from": "Since {{date}}",
             "invested": "Invested amount",
@@ -2421,7 +2439,7 @@
             "secondaryButton": "ALl funds"
         },
         "profilesHelp": {
-            "title": "Lets discuss the risks",
+            "title": "About the risks",
             "profiles": [
                 {
                     "title": "Short-term investments, <br>stable funds",
@@ -2430,10 +2448,12 @@
                     "headline": "\"I invest carefully. I want a quick return at a lower performance.\"",
                     "detail": "Very conservative funds are based on the financial markets and short-term bonds. The low risk yields returns which are slightly greater than a savings account.",
                     "informations": "<b>Value fluctuation:</b> Low (0,5-2%)<br><b>Investment horizon:</b> 1-3 years.",
-                    "informations_ib_2_b": "1-3 years",
-                    "informations_ib_2_a": "Investment horizon:",
-                    "informations_ib_1_b": "Low (0,5-2%)",
-                    "informations_ib_1_a": "Value fluctuation:"
+                    "informations_ib_2_b": "Low (0,5-2%)",
+                    "informations_ib_2_a": "Value fluctuation:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_3_b": "1-3 years",
+                    "informations_ib_3_a": "Investment horizon:"
                 },
                 {
                     "title": "Medium-term investments, <br>balanced funds",
@@ -2442,10 +2462,12 @@
                     "headline": "\"I am in no rush. I want a better return and I can handle a bit of uncertainty.\"",
                     "detail": "These are usually conservative, bond or blend funds with a majority share of bonds. They yield an attractive return in exchange for a little bit of time and uncertainty.",
                     "informations": "<b>Value fluctuation:</b> Medium (0,5-5%)<br><b>Investment horizon:</b> 3-5 years",
-                    "informations_ib_2_b": "3-5 years",
-                    "informations_ib_2_a": "Investment horizon:",
-                    "informations_ib_1_b": "Medium (0,5-5%)",
-                    "informations_ib_1_a": "Value fluctuation:"
+                    "informations_ib_2_b": "Medium (0,5-5%)",
+                    "informations_ib_2_a": "Value fluctuation:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_3_b": "3-5 years",
+                    "informations_ib_3_a": "Investment horizon:"
                 },
                 {
                     "title": "Long-term investments,<br>fluctuating funds",
@@ -2454,10 +2476,12 @@
                     "headline": "\"I know how it goes. I will not be bothered and I will wait for a considerable return.\"",
                     "detail": "Blend funds, with a majority of shares. Their value increases in time despite fluctuations. Dynamic funds suit investors who put their money to work for a couple of years.",
                     "informations": "<b>Value fluctuation:</b> Higher (5-10%)<br><b>Investment horizon:</b> 5 years.",
-                    "informations_ib_2_b": "5 years",
-                    "informations_ib_2_a": "Investment horizon:",
-                    "informations_ib_1_b": "Higher (5-10%)",
-                    "informations_ib_1_a": "Value fluctuation:"
+                    "informations_ib_2_b": "Higher (5-10%)",
+                    "informations_ib_2_a": "Value fluctuation:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_3_b": "5 years",
+                    "informations_ib_3_a": "Investment horizon:"
                 },
                 {
                     "title": "Long-term investments,<br>fluctuating funds",
@@ -2466,13 +2490,15 @@
                     "headline": "\"I invest with courage. While it is sometimes difficult, I know great things come to those who wait.\"",
                     "detail": "Very dynamic, equity funds balance their riskiness with great return. They work great for young or experienced investors who can afford to wait out a decline period.",
                     "informations": "<b>Value fluctuation:</b> High (15 and more %)<br><b>Investment horizon:</b> 5 and more years.",
-                    "informations_ib_2_b": "5 and more years",
-                    "informations_ib_2_a": "Investment horizon:",
-                    "informations_ib_1_b": "High (15 and more %)",
-                    "informations_ib_1_a": "Value fluctuation:"
+                    "informations_ib_2_b": "High (15 and more %)",
+                    "informations_ib_2_a": "Value fluctuation:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_3_b": "5 and more years",
+                    "informations_ib_3_a": "Investment horizon:"
                 }
             ],
-            "primaryButton": "What is my investment profile",
+            "primaryButton": "Update my investment profile",
             "alternativePrimaryButton": "Update my investment profile"
         },
         "fundDetail": {
@@ -2646,10 +2672,12 @@
             "sellPieces": "Number of shares",
             "sellShares": "{0} shares",
             "availableBalance": "Available balance",
-            "approximatePrice": "Approximate price: {0}",
-            "sellAlert": "You are selling {{shares}} shares. As of today, their value amounts to {{amount}} {{currency}}. <b>The final profit may differ as the sale will be processed within a couple following days for the current market value.</b>",
+            "approximatePrice": "Approximate value: {0}",
+            "sellAlert": "You are selling {{shares}}. As of today, their value amounts to {{amount}} {{currency}}. <b>The final profit may differ as the sale will be processed within a couple following days for the current market value.</b>",
             "termAlert": "You are about to sell <b>considerably earlier</b>, than it is advised for the fund's investment horizon. It is likely that today's sale will be less profitable than selling at an advised date.",
-            "primaryButton": "Sell"
+            "primaryButton": "Sell",
+            "shareValue": "Share value in ",
+            "invested": "Invested so far"
         },
         "sellVictory": {
             "title": "It's done. We sell the shares.",
@@ -9135,40 +9163,44 @@
         },
         "intro": {
             "clientProfile": "Investment Profile",
-            "introTitle": "Do you want to investbut\ndon't know in what?",
-            "introDescription": "Together we'll find suitable investments and show you how to get started.",
-            "introAdvisoryButton": "Which fund is the right one for me?",
-            "introAdvisoryDescription": "Try investment advisory",
-            "introOr": "I already know what",
-            "introInvestments": "Mutual Funds",
+            "introTitle": "Want to invest but not sure where to start?",
+            "introDescription": "We’ll help you find the right investments and show you how to begin.",
+            "introAdvisoryButton": "Which fund is right for me?",
+            "introAdvisoryDescription": "Try investment guidance.",
+            "introOr": "I already know\nwhat I want",
+            "introInvestments": "Investment products",
             "introDIP": "LTIP",
-            "listTitle": "What type of investment are you interested in?",
-            "tabInvestments": "Mutual Funds",
-            "tabDIP": "Long-Term Investment Product"
+            "listTitle": "Nabídka investičních produktů",
+            "tabInvestments": "Investment products",
+            "tabDIP": "DIP",
+            "introInvestmentsDescription": "Choose from 40+ investment products.",
+            "listTitleDIP": "Nabídka LTIP",
+            "introDIPDescription": "Investing and tax savings in one."
         },
         "aggregationInvestOpportunities": {
             "title": "Invest",
             "cardTitle": "Are you looking for new investment opportunities?",
             "cardDetail": "Investment advice will help you find out what investments are suitable for you.",
             "opportunitiesTitle": "What portfolio do you want to buy into?",
-            "tabInvestment": "Mutual Funds",
-            "tabDIP": "Long-Term Investment Product",
+            "tabInvestment": "Investment products",
+            "tabDIP": "LTIP",
             "tabAdvisory": "Funds from Investment Advisory",
             "lessSuitableTitle": "Funds less suitable for you",
             "advisoryCardButton": "Which fund is the right one for me?",
-            "advisoryCardDescription": "Try investment advisory"
+            "advisoryCardDescription": "Try investment advisory",
+            "notSuitableTitle": "Funds not suitable for you"
         },
         "aggregationInvestedDashboard": {
             "clientProfile": "Investment Profile",
             "totalTitle": "Total investment value",
             "investButton": "Invest",
             "sellButton": "Sell",
-            "moreButton": "Next",
+            "moreButton": "More",
             "sellInProgress": "We’re processing the sale",
             "buyInProgress": "We’re processing the purchase",
             "buySellInProgress": "We are processing the purchase and the sale",
             "funds": {
-                "title": "Mutual funds",
+                "title": "Investments",
                 "noProductNote": "Let your money work for you",
                 "noProductBullets": [
                     {
@@ -9240,7 +9272,7 @@
                 "dipNotInvestedNote": "<error600>Not invested</error600>"
             },
             "advisory": {
-                "title": "Funds from Investment Advisory",
+                "title": "Advised funds",
                 "noProductNote": "Which fund is right for me?",
                 "noProductBullets": [
                     {
@@ -9271,7 +9303,16 @@
                 "funds": "Investment",
                 "advisory": "Funds from Investment Advisory",
                 "dip": "Long-Term Investment Product"
-            }
+            },
+            "totalTitleDidNotInvest": "Total value of investments",
+            "totalTitleWithCurrency": "Portfolio value\nin selected currency",
+            "howItWorksButton": "How investing works",
+            "didNotInvest": "No investments yet",
+            "fromBeginning": "Since start",
+            "totalInvested": "Total invested",
+            "profit": "Gain",
+            "fundsTitle": "Funds",
+            "certificatesTitle": "Certificates"
         },
         "advisoryFund": {
             "title": "Based on what you’ve told us, the most suitable fund for you is:\n<green>{0}</green>",
@@ -9633,7 +9674,7 @@
         "list": {
             "investmentTitle": "Investments {0}",
             "investmentTitleV2": {
-                "title": "Investments",
+                "title": "Investment products",
                 "investmentReturn": "{0} • Investment return"
             },
             "dipTitle": "Long-Term Investment Product {0}",
@@ -9682,7 +9723,10 @@
                 "fundsTitle": "Invested in funds",
                 "unprocessedTitle": "Processed",
                 "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
-                "sellFundLoading": "We are processing the sale. We will probably update your investment {date}."
+                "sellFundLoading": "We are processing the sale. We will probably update your investment {date}.",
+                "certificatesTitle": "Invested in certificates",
+                "singleCurrencyTitle": "Sum of all investments",
+                "multiCurrencyTitle": "Sum of all investments\nconverted to the selected currency"
             },
             "funds": {
                 "profiles": [
@@ -9702,7 +9746,8 @@
                 "templates": "Payment templates",
                 "standingOrders": "Standing orders",
                 "paymentDestinationDip": "To your DIP account"
-            }
+            },
+            "investmentProductsTitle": "Investment products"
         },
         "detail": {
             "detail": "{type}, {profile} for investments for {term} and more years.",
@@ -9715,10 +9760,10 @@
                 "historyFull": "Complete History",
                 "bought": "Purchase",
                 "sold": "Sale",
-                "totalInvested": "Total amount invested",
+                "totalInvested": "Total invested",
                 "monthlyInvested": "Monthly investment",
                 "performance": "Appretiation since {date}",
-                "profit": "Profit",
+                "profit": "Gain",
                 "currentValue": "Current Value",
                 "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
                 "sellFundLoading": "We are processing the sale. We will probably update your investment {date}."
@@ -9741,7 +9786,7 @@
             }
         },
         "detailSheet": {
-            "actionPurchase": "Invest",
+            "actionPurchase": "Buy",
             "actionPurchaseDip": "Buy",
             "actionSell": "Sell",
             "actionDetail": "Details",
@@ -9761,8 +9806,8 @@
         "transactionHistory": {
             "thisMonthTransactionGroupTitle": "This month",
             "filterDirectionAll": "All",
-            "filterDirectionIncoming": "Incoming",
-            "filterDirectionOutgoing": "Outgoing"
+            "filterDirectionIncoming": "Buy",
+            "filterDirectionOutgoing": "Sell"
         },
         "dipPromo": {
             "title": "Better Retirement with Long-Term Investment Product",
@@ -9983,7 +10028,6 @@
                 "title": "Just a moment, we need to check everything",
                 "subtitle": "We’ll continue shortly."
             },
-
             "aml": {
                 "busyLoader": {
                     "title": "Just a moment, we need to check everything",
@@ -10086,6 +10130,162 @@
                 "subtitle": "This product is only available to personal customers. Switch to your personal profile to open it.",
                 "primaryButton": "Back"
             }
+        },
+        "filter": {
+            "title": "Product filters",
+            "searchPlaceholder": "Product filters",
+            "filterButton": "Filter",
+            "applyButton": "Apply filters",
+            "clearButton": "Cancel",
+            "risk": {
+                "id": "risk",
+                "title": "Risk",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "All"
+                    },
+                    {
+                        "id": "low",
+                        "text": "Low"
+                    },
+                    {
+                        "id": "medium",
+                        "text": "Medium"
+                    },
+                    {
+                        "id": "high",
+                        "text": "High"
+                    }
+                ]
+            },
+            "currency": {
+                "id": "currency",
+                "title": "Currency",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "CZK",
+                        "text": "CZK"
+                    },
+                    {
+                        "id": "EUR",
+                        "text": "EUR"
+                    }
+                ]
+            },
+            "investmentLength": {
+                "id": "recommendedLength",
+                "title": "Recommended time horizon",
+                "options": [
+                    {
+                        "id": 0,
+                        "text": "All"
+                    },
+                    {
+                        "id": 1,
+                        "text": "1+ year"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3+ years"
+                    },
+                    {
+                        "id": 5,
+                        "text": "5+ years"
+                    },
+                    {
+                        "id": 8,
+                        "text": "8+ years"
+                    }
+                ]
+            },
+            "productType": {
+                "id": "productType",
+                "title": "Product type",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "All"
+                    },
+                    {
+                        "id": "SHORT_TERM_BOND",
+                        "text": "Short-term bonds"
+                    },
+                    {
+                        "id": "BOND",
+                        "text": "Bond funds"
+                    },
+                    {
+                        "id": "STOCKS",
+                        "text": "Equity funds"
+                    },
+                    {
+                        "id": "REAL_ESTATE",
+                        "text": "Realitní"
+                    },
+                    {
+                        "id": "MIX",
+                        "text": "Smíšený"
+                    }
+                ]
+            },
+            "issuer": {
+                "id": "issuer",
+                "title": "Company",
+                "sheetTitle": "Select a company",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "All"
+                    }
+                ]
+            }
+        },
+        "currencySelector": {
+            "title": "Total portfolio value",
+            "description": "This is the value of your funds and certificates converted to your selected currency at the current exchange rate.",
+            "currencies": [
+                {
+                    "id": "CZK",
+                    "title": "CZK",
+                    "value": "Czech koruna"
+                },
+                {
+                    "id": "EUR",
+                    "title": "EUR",
+                    "value": "Euro"
+                }
+            ]
+        },
+        "noEuroAccountVictory": {
+            "title": "You need a EUR account to buy and sell these funds",
+            "detail": "Open one in just a few minutes, right in the app.",
+            "primaryButton": "Open a EUR account",
+            "secondaryButton": "Back",
+            "benefitsTitle": "Benefits of a EUR account",
+            "benefits": [
+                "Competitive exchange rates online",
+                "Free ATM withdrawals with your card",
+                "No account fee"
+            ]
+        },
+        "euroAccountCreatedVictory": {
+            "title": "Done, your EUR account is ready. Transfer money to it and start investing",
+            "detail": "If you requested a physical card, it will arrive by post within five business days.\n\nYou can also add the card to your mobile wallet at any time and start paying with it immediately.",
+            "primaryButton": "Add money to EUR account"
+        },
+        "eurAccountHoldVictory": {
+            "title": "Your current account will be ready the morning of the following business day.",
+            "detail": "All documents can be found in the Documents sections in Internet Banka and Smart Banka.",
+            "primaryButton": "Back to Investments"
+        },
+        "paymentToEurAccountVictory": {
+            "title": "Platba byla odeslána",
+            "primaryButton": "Zpět na Přehled investic"
         }
     }
 }
