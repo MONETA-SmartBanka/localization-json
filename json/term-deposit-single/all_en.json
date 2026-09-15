@@ -73,15 +73,15 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
+                            "text": "Market-leading term deposit."
                         },
                         {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000"
+                            "icon": "savingsFill",
+                            "text": "No maximum deposit limit."
                         },
                         {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
+                            "icon": "loan",
+                            "text": "Available in CZK, EUR and USD."
                         }
                     ]
                 },
@@ -109,15 +109,15 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
+                            "text": "Market-leading term deposit."
                         },
                         {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000, available to all clients."
+                            "icon": "savingsFill",
+                            "text": "No maximum deposit limit., available to all clients."
                         },
                         {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
+                            "icon": "loan",
+                            "text": "Available in CZK, EUR and USD. with an interest rate of up to 1.6% p.a."
                         }
                     ]
                 },
@@ -208,220 +208,219 @@
                 },
                 "typeSection": {
                     "gold": "Better interest rate",
-                    "title": "Automatic renewal of the term deposit",
-                    "button": "How does it work?",
+                    "title": "What should happen when your deposit ends?",
+                    "button": "More info",
                     "revolving": {
-                        "title": "Renew after the term expires (revolving deposit)",
-                        "detail": "The term deposit will automatically renew until it is cancelled \n\nOn the renewal date, you can withdraw the deposit free of charge or add additional funds"
+                        "title": "Transfer the money to your account",
+                        "detail": "When the deposit ends, we'll automatically transfer your money and interest back to your account."
                     },
                     "oneTime": {
-                        "title": "One-time deposit, no renewal (single deposit)",
-                        "detail": "After the term has expired, the deposit and accrued interest will be deposited to your account"
-                    }
-                },
-                "taxSection": {
-                    "titleHeader": "What is your tax residence?",
-                    "text": "CR is my only tax residence",
-                    "footer": "This information is required by law no. 253/2008 Sb. on money laundering.",
-                    "taxResidence": "Tax residence",
-                    "taxResidenceInfoBody": "Enter your TIN (Taxpayer Identification Number) of that country",
-                    "vat": "TIN",
-                    "anotherVat": "Add Country"
-                },
-                "primaryButton": "Continue",
-                "primaryButtonJtv": "Continue with One-time Term Deposit",
-                "primaryButtonRtv": "Continue with Revolving Term Deposit",
-                "switchToGold": "Get better interest rate",
-                "secondaryButton": "More Information",
-                "secondaryButtonURL": "https://www.moneta.cz/sporeni-a-investice/terminovane-vklady",
-                "secondaryButtonURLFOP": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
-                "secondaryButtonURLPO": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
-                "switchModal": {
-                    "title": "Revolving Deposit with better interest rate has been activated",
-                    "detail": "How does Revolving Deposit work?",
-                    "bullets": [
-                        "The deposit will be automatically renewed after the term has expired",
-                        "Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal",
-                        "On the day of renewal you may withdraw the deposit free of charge or deposit additional money"
-                    ],
-                    "primaryButton": "I understand"
-                },
-                "switchModalJtv": {
-                    "title": "One-time Deposit with better interest rate has been activated",
-                    "detail": "How does One-time Deposit work?",
-                    "bullets": [
-                        "After the Agreement expires, the full deposited amount and accrued interest will be transferred to your preferred account",
-                        "The interest rate at the time of opening the term deposit will apply for the full term"
-                    ],
-                    "primaryButton": "I understand"
-                },
-                "infoModal": {
-                    "title": "How does it work?",
-                    "sectionRtv": {
-                        "title": "Automatic Renewal",
-                        "bullets": [
-                            "The deposit will be automatically renewed after the term has expired",
-                            "Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal",
-                            "On the day of renewal you may withdraw the deposit free of charge or deposit additional money"
-                        ]
-                    },
-                    "sectionJtv": {
-                        "title": "One-time deposit",
-                        "bullets": [
-                            "After the Agreement expires, the full deposited amount and accrued interest will be transferred to your preferred account",
-                            "The interest rate at the time of opening the term deposit will apply for the full term"
-                        ]
+                        "title": "Automatically renew the deposit",
+                        "detail": "We'll automatically renew your deposit until you turn off renewal. On the renewal date, you can withdraw money or add more at no cost."
                     }
                 }
+            }
+        },
+        "taxSection": {
+            "titleHeader": "What is your tax residence?",
+            "text": "CR is my only tax residence",
+            "footer": "This information is required by law no. 253/2008 Sb. on money laundering.",
+            "taxResidence": "Tax residence",
+            "taxResidenceInfoBody": "Enter your TIN (Taxpayer Identification Number) of that country",
+            "vat": "TIN",
+            "anotherVat": "Add Country"
+        },
+        "primaryButton": "Continue",
+        "primaryButtonJtv": "Continue with One-time Term Deposit",
+        "primaryButtonRtv": "Continue with Revolving Term Deposit",
+        "switchToGold": "Get better interest rate",
+        "secondaryButton": "More Information",
+        "secondaryButtonURL": "https://www.moneta.cz/sporeni-a-investice/terminovane-vklady",
+        "secondaryButtonURLFOP": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
+        "secondaryButtonURLPO": "https://www.moneta.cz/sporeni-a-investovani/terminovane-vklady-pro-podnikani",
+        "switchModal": {
+            "title": "Revolving Deposit with better interest rate has been activated",
+            "detail": "How does Revolving Deposit work?",
+            "bullets": [
+                "The deposit will be automatically renewed after the term has expired",
+                "Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal",
+                "On the day of renewal you may withdraw the deposit free of charge or deposit additional money"
+            ],
+            "primaryButton": "I understand"
+        },
+        "switchModalJtv": {
+            "title": "One-time Deposit with better interest rate has been activated",
+            "detail": "How does One-time Deposit work?",
+            "bullets": [
+                "After the Agreement expires, the full deposited amount and accrued interest will be transferred to your preferred account",
+                "The interest rate at the time of opening the term deposit will apply for the full term"
+            ],
+            "primaryButton": "I understand"
+        },
+        "infoModal": {
+            "title": "What should happen when your deposit ends?",
+            "sectionRtv": {
+                "title": "Transfer the money to your account",
+                "bullets": [
+                    "No need to do anything. When the deposit ends, we’ll automatically transfer the money back to your account."
+                ]
             },
-            "invalidTin": {
-                "title": "The provided TIN is invalid. Do you wish to continue?",
-                "primaryButton": "Continue",
-                "secondaryButton": "Back"
+            "sectionJtv": {
+                "title": "Automatically renew the deposit",
+                "bullets": [
+                    "You’re in control. You can turn off renewal before the deposit ends.",
+                    "We’ll let you know in advance. We’ll remind you 14 days before renewal.",
+                    "Decide based on the latest terms. We’ll show you the new interest rate 3 days before renewal."
+                ]
+            }
+        }
+    },
+    "invalidTin": {
+        "title": "The provided TIN is invalid. Do you wish to continue?",
+        "primaryButton": "Continue",
+        "secondaryButton": "Back"
+    },
+    "additionalInfo": {
+        "title": "Who has the authority to represent your company in financial operations?",
+        "primaryButton": "Continue",
+        "sectionInfo": "Your information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "role": "Position",
+        "confirmation": "I confrim that I have authority to make such operation on behalf of a legal person."
+    },
+    "contract": {
+        "title": "Read the One-Time Term Deposit Application and additional documents",
+        "titleRevolving": "Read the Revolving Term Deposit Application and additional documents",
+        "detail": "All documents can be found in the Documents section of Smart Banka",
+        "toolbarTitle": "Review these documents",
+        "primaryButton": "I agree, proceed to signature",
+        "secondaryButton": "Decline"
+    },
+    "sign": {
+        "title": "Enter PIN to sign"
+    },
+    "victory": {
+        "approvalCenter": {
+            "cosign": {
+                "title": "The request has been signed and sent to other approvers for signature",
+                "detail": "It’s done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day. <br/><br/>Make sure there are sufficient funds in the account {0} to make the transfer. The money will be transferred automatically. <br/><br/>The request, related documents and product details can be found in Smart Banka and Internet Banka in the Documents and Agreements section."
             },
-            "additionalInfo": {
-                "title": "Who has the authority to represent your company in financial operations?",
-                "primaryButton": "Continue",
-                "sectionInfo": "Your information",
-                "firstName": "First Name",
-                "lastName": "Last Name",
-                "role": "Position",
-                "confirmation": "I confrim that I have authority to make such operation on behalf of a legal person."
+            "prepared": {
+                "title": "The request has been sent to other approvers",
+                "detail": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.<br/><br/>Make sure there are sufficient funds in the account {0} to make the transfer. The money will be transferred automatically.<br/><br/>The request, related documents and product details can be found in Smart Banka and Internet Banka in the Documents and Agreements section."
+            }
+        },
+        "title": "Done! We’ll set up your term deposit by the morning of the next business day",
+        "detail": "<br/>Please make sure there’s enough money in account {0}. We’ll transfer it automatically.<br/><br/>You’ll find all your documents in Smart Banka and Internet Banka under Documents.",
+        "primaryButton": "Go to Overview"
+    },
+    "nib": {
+        "unavailable": {
+            "title": "Sorry, this service is temporarily unavailable for technical reasons. Please try again later.",
+            "primaryButton": "Back to Overview"
+        },
+        "poModal": {
+            "modalTitle": "Who has the authority to represent your company in financial operations?",
+            "personalInfo": "Your information",
+            "name": "First name",
+            "surname": "Last name",
+            "function": "Position",
+            "choose": "Choose",
+            "permissionLabel": "I declare that I am authorized to carry out this operation on behalf of the company"
+        },
+        "notEligible": {
+            "title": "We can arrange a One-Time Term Deposit for you at a branch",
+            "titleRTV": "We can arrange a Revolving Term Deposit for you at a branch",
+            "text1": "Sorry, we can’t currently arrange a One-Time Term Deposit for you in Internet Banka.",
+            "text1RTV": "Sorry, we can’t currently arrange a Revolving Term Deposit for you in Internet Banka.",
+            "text2": "Please visit any of our branches and we’ll help you set it up.",
+            "meeting": "Arrange a meeting",
+            "primaryButton": "Back to Overview"
+        },
+        "form": {
+            "title": "Open a term deposit online with no paperwork",
+            "accountAlert": "The deposit currency is based on the account you choose.",
+            "fromAccount": "From account",
+            "moreThanOrEqualTo": "The amount must be at least {limit} {currency}.",
+            "creditAccount": "Transfer the deposit to account at maturity",
+            "interestCredit": {
+                "termDeposit": "Add to deposit",
+                "account": "Transfer to account",
+                "label": "Interest at maturity"
+            }
+        },
+        "contract": {
+            "title": "Read the One-Time Term Deposit Application and additional documents",
+            "titleRTV": "Read the Revolving Term Deposit Application and additional documents",
+            "downloadTooltip": "Download the One-Time Term Deposit Application",
+            "downloadTooltipRTV": "Download the Revolving Term Deposit Application",
+            "downloadTitle": "One-Time Term Deposit Application.pdf",
+            "downloadTitleRTV": "Revolving Term Deposit Application.pdf",
+            "agreement": "<strong>I confirm that I have read these documents </strong> - ",
+            "disagreement": {
+                "title": "We can not continue without your consent",
+                "text": "Do you have any questions? Call our Helpline or visit one of our branches",
+                "branch": "Arrange a meeting",
+                "cancelButton": "Cancel application",
+                "backButton": "Back"
             },
-            "contract": {
-                "title": "Read the One-Time Term Deposit Application and additional documents",
-                "titleRevolving": "Read the Revolving Term Deposit Application and additional documents",
-                "detail": "All documents can be found in the Documents section of Smart Banka",
-                "toolbarTitle": "Review these documents",
-                "primaryButton": "I agree, proceed to signature",
-                "secondaryButton": "Decline"
-            },
+            "disagreeButton": "I do not agree",
+            "agreeButton": "I agree, proceed to signature",
+            "terminateAgreement": "Cancel application",
+            "noSigningPossibility": "You can’t sign this request because the current signing setup cannot be completed. To meet the company signing rules, all required statutory representatives must have access to Internet Bank. If this is already the case and you still have trouble signing, please call us on 224 444 544.",
             "sign": {
-                "title": "Enter PIN to sign"
+                "title": "Sign the One-Time Term Deposit Application",
+                "titleRTV": "Sign the Revolving Term Deposit Application",
+                "backButton": "Back",
+                "signButton": "Sign"
+            }
+        },
+        "victory": {
+            "title": {
+                "cosigned": "The request has been sent to other approvers",
+                "done": "Done! We’ll set up your term deposit by the morning of the next business day"
             },
-            "victory": {
-                "approvalCenter": {
-                    "cosign": {
-                        "title": "The request has been signed and sent to other approvers for signature",
-                        "detail": "It’s done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day. <br/><br/>Make sure there are sufficient funds in the account {0} to make the transfer. The money will be transferred automatically. <br/><br/>The request, related documents and product details can be found in Smart Banka and Internet Banka in the Documents and Agreements section."
-                    },
-                    "prepared": {
-                        "title": "The request has been sent to other approvers",
-                        "detail": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.<br/><br/>Make sure there are sufficient funds in the account {0} to make the transfer. The money will be transferred automatically.<br/><br/>The request, related documents and product details can be found in Smart Banka and Internet Banka in the Documents and Agreements section."
-                    }
-                },
-                "title": "Done! Your request is being processed",
-                "detail": "The term deposit will be opened right away or on the following business day the latest.<br/><br/>Please make sure to have sufficient funds for the transfer in your account {0}. The money will be transferred automatically after the term deposit has been opened.<br/><br/>The application, all relevant documents as well as product information can be found in Smart Banka and Internet Banka in Documents.",
-                "primaryButton": "Done"
+            "text1": {
+                "cosigned": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.",
+                "done": "The term deposit will be opened right away or on the following business day the latest."
             },
-            "nib": {
-                "unavailable": {
-                    "title": "Sorry, this service is temporarily unavailable for technical reasons. Please try again later.",
-                    "primaryButton": "Back to Overview"
+            "text2": "Please make sure to have sufficient funds for the transfer in your account {account}. The money will be transferred automatically after the term deposit has been opened.",
+            "text3": "The application, all relevant documents as well as product information can be found in Smart Banka and Internet Banka in Documents.",
+            "buttonTitle": "Back to Overview"
+        },
+        "infoSection": {
+            "bullets": [
+                {
+                    "icon": "investmentsFill",
+                    "text": "Market-leading term deposit."
                 },
-                "poModal": {
-                    "modalTitle": "Who has the authority to represent your company in financial operations?",
-                    "personalInfo": "Your information",
-                    "name": "First name",
-                    "surname": "Last name",
-                    "function": "Position",
-                    "choose": "Choose",
-                    "permissionLabel": "I declare that I am authorized to carry out this operation on behalf of the company"
+                {
+                    "icon": "savingsFill",
+                    "text": "No maximum deposit limit."
                 },
-                "notEligible": {
-                    "title": "We can arrange a One-Time Term Deposit for you at a branch",
-                    "titleRTV": "We can arrange a Revolving Term Deposit for you at a branch",
-                    "text1": "Sorry, we can’t currently arrange a One-Time Term Deposit for you in Internet Banka.",
-                    "text1RTV": "Sorry, we can’t currently arrange a Revolving Term Deposit for you in Internet Banka.",
-                    "text2": "Please visit any of our branches and we’ll help you set it up.",
-                    "meeting": "Arrange a meeting",
-                    "primaryButton": "Back to Overview"
-                },
-                "form": {
-                    "title": "Open a term deposit online with no paperwork",
-                    "accountAlert": "The deposit currency is based on the account you choose.",
-                    "fromAccount": "From account",
-                    "moreThanOrEqualTo": "The amount must be at least {limit} {currency}.",
-                    "creditAccount": "Transfer the deposit to account at maturity",
-                    "interestCredit": {
-                        "termDeposit": "Add to deposit",
-                        "account": "Transfer to account",
-                        "label": "Interest at maturity"
-                    }
-                },
-                "contract": {
-                    "title": "Read the One-Time Term Deposit Application and additional documents",
-                    "titleRTV": "Read the Revolving Term Deposit Application and additional documents",
-                    "downloadTooltip": "Download the One-Time Term Deposit Application",
-                    "downloadTooltipRTV": "Download the Revolving Term Deposit Application",
-                    "downloadTitle": "One-Time Term Deposit Application.pdf",
-                    "downloadTitleRTV": "Revolving Term Deposit Application.pdf",
-                    "agreement": "<strong>I confirm that I have read these documents </strong> - ",
-                    "disagreement": {
-                        "title": "We can not continue without your consent",
-                        "text": "Do you have any questions? Call our Helpline or visit one of our branches",
-                        "branch": "Arrange a meeting",
-                        "cancelButton": "Cancel application",
-                        "backButton": "Back"
-                    },
-                    "disagreeButton": "I do not agree",
-                    "agreeButton": "I agree, proceed to signature",
-                    "terminateAgreement": "Cancel application",
-                    "noSigningPossibility": "You can’t sign this request because the current signing setup cannot be completed. To meet the company signing rules, all required statutory representatives must have access to Internet Bank. If this is already the case and you still have trouble signing, please call us on 224 444 544.",
-                    "sign": {
-                        "title": "Sign the One-Time Term Deposit Application",
-                        "titleRTV": "Sign the Revolving Term Deposit Application",
-                        "backButton": "Back",
-                        "signButton": "Sign"
-                    }
-                },
-                "victory": {
-                    "title": {
-                        "cosigned": "The request has been sent to other approvers",
-                        "done": "Done! Your request is being processed"
-                    },
-                    "text1": {
-                        "cosigned": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.",
-                        "done": "The term deposit will be opened right away or on the following business day the latest."
-                    },
-                    "text2": "Please make sure to have sufficient funds for the transfer in your account {account}. The money will be transferred automatically after the term deposit has been opened.",
-                    "text3": "The application, all relevant documents as well as product information can be found in Smart Banka and Internet Banka in Documents.",
-                    "buttonTitle": "Back to Overview"
-                },
-                "infoSection": {
-                    "bullets": [
-                        {
-                            "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
-                        },
-                        {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000"
-                        },
-                        {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
-                        }
-                    ]
-                },
-                "betterInterest": "Better interest rate",
-                "betterInterestButton": "Get better interest rate",
-                "taxResidencyDescription": "This information is required by law no. 253/2008 Sb. on money laundering.",
-                "termDepositType": {
-                    "label": "Would you like to renew your Term Deposit?",
-                    "jtv": {
-                        "label": "One-time deposit, no renewal (single deposit)",
-                        "description": "After the term has expired, the deposit and accrued interest will be deposited to your account.",
-                        "tooltip": "After the term deposit expires, the full amount with the accrued interest will be automatically transferred to your preferred account.<br><br>The interest rate at the time of opening the term deposit will apply for the full term.",
-                        "primaryButton": "Continue with One-time Term Deposit"
-                    },
-                    "rtv": {
-                        "label": "Renew after the term expires (revolving deposit)",
-                        "description": "The length of the deposit will automatically renew until you cancel the deposit.<br>On the renewal date of the deposit, you can withdraw the deposit free of charge or deposit additional money.",
-                        "tooltip": "The revolving deposit will be automatically renewed after the term has expired.<br><br>Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal.<br><br>On the day of renewal you may withdraw the deposit free of charge or deposit additional money.",
-                        "primaryButton": "Continue with Revolving Term Deposit"
-                    }
+                {
+                    "icon": "loan",
+                    "text": "Available in CZK, EUR and USD."
                 }
+            ]
+        },
+        "betterInterest": "Better interest rate",
+        "betterInterestButton": "Get better interest rate",
+        "taxResidencyDescription": "This information is required by law no. 253/2008 Sb. on money laundering.",
+        "termDepositType": {
+            "label": "What should happen when your deposit ends?",
+            "jtv": {
+                "label": "Transfer the money to your account",
+                "description": "When the deposit ends, we'll automatically transfer your money and interest back to your account.",
+                "tooltip": "After the term deposit expires, the full amount with the accrued interest will be automatically transferred to your preferred account.<br><br>The interest rate at the time of opening the term deposit will apply for the full term.",
+                "primaryButton": "Continue with One-time Term Deposit"
+            },
+            "rtv": {
+                "label": "Automatically renew the deposit",
+                "description": "We'll automatically renew your deposit until you turn off renewal. On the renewal date, you can withdraw money or add more at no cost.",
+                "tooltip": "The revolving deposit will be automatically renewed after the term has expired.<br><br>Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal.<br><br>On the day of renewal you may withdraw the deposit free of charge or deposit additional money.",
+                "primaryButton": "Continue with Revolving Term Deposit"
             }
         }
     }
