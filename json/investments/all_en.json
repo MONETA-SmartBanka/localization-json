@@ -1030,36 +1030,36 @@
             }
         },
         "filter": {
-            "title": "Filtrování produktů",
-            "searchPlaceholder": "Fund or certificate name",
+            "title": "Product filters",
+            "searchPlaceholder": "Product filters",
             "filterButton": "Filter",
-            "applyButton": "Filtrovat produkty",
-            "clearButton": "Clear filters",
+            "applyButton": "Apply filters",
+            "clearButton": "Cancel",
             "risk": {
                 "id": "risk",
-                "title": "Rizikovost",
+                "title": "Risk",
                 "options": [
                     {
                         "id": "all",
-                        "text": "Vše"
+                        "text": "All"
                     },
                     {
                         "id": "low",
-                        "text": "Nízká"
+                        "text": "Low"
                     },
                     {
                         "id": "medium",
-                        "text": "Střední"
+                        "text": "Medium"
                     },
                     {
                         "id": "high",
-                        "text": "Vysoká"
+                        "text": "High"
                     }
                 ]
             },
             "currency": {
                 "id": "currency",
-                "title": "Měna",
+                "title": "Currency",
                 "options": [
                     {
                         "id": "all",
@@ -1077,49 +1077,49 @@
             },
             "investmentLength": {
                 "id": "recommendedLength",
-                "title": "Doporučená délka",
+                "title": "Recommended time horizon",
                 "options": [
                     {
                         "id": 0,
-                        "text": "Vše"
+                        "text": "All"
                     },
                     {
                         "id": 1,
-                        "text": "Minimálně 1 rok"
+                        "text": "1+ year"
                     },
                     {
                         "id": 3,
-                        "text": "Minimálně 3 roky"
+                        "text": "3+ years"
                     },
                     {
                         "id": 5,
-                        "text": "Minimálně 5 let"
+                        "text": "5+ years"
                     },
                     {
                         "id": 8,
-                        "text": "Minimálně 8 let"
+                        "text": "8+ years"
                     }
                 ]
             },
             "productType": {
                 "id": "productType",
-                "title": "Typ produktu",
+                "title": "Product type",
                 "options": [
                     {
                         "id": "all",
-                        "text": "Vše"
+                        "text": "All"
                     },
                     {
                         "id": "SHORT_TERM_BOND",
-                        "text": "Krátkodobé dluhopisy"
+                        "text": "Short-term bonds"
                     },
                     {
                         "id": "BOND",
-                        "text": "Dluhopisový"
+                        "text": "Bond funds"
                     },
                     {
                         "id": "STOCKS",
-                        "text": "Akciový"
+                        "text": "Equity funds"
                     },
                     {
                         "id": "REAL_ESTATE",
@@ -1138,7 +1138,7 @@
                 "options": [
                     {
                         "id": "all",
-                        "text": "Vše"
+                        "text": "All"
                     }
                 ]
             }
@@ -1728,24 +1728,24 @@
         "intro": {
             "clientProfile": "Investment Profile",
             "introDIP": "LTIP",
-            "introOr": "I already know what",
+            "introOr": "I already know\nwhat I want",
             "introInvestments": "Investment products",
             "introInvestmentsDescription": "Choose from 40+ investment products.",
             "tabInvestments": "Investment products",
             "introAdvisoryDescription": "Try investment guidance.",
             "listTitleDIP": "Nabídka LTIP",
-            "tabDIP": "Long-Term Investment Product",
-            "introDescription": "Together we'll find suitable investments and show you how to get started.",
+            "tabDIP": "DIP",
+            "introDescription": "We’ll help you find the right investments and show you how to begin.",
             "introDIPDescription": "Investing and tax savings in one.",
-            "introTitle": "Do you want to investbut\ndon't know in what?",
+            "introTitle": "Want to invest but not sure where to start?",
             "listTitle": "Nabídka investičních produktů",
-            "introAdvisoryButton": "Which fund is the right one for me?"
+            "introAdvisoryButton": "Which fund is right for me?"
         },
         "transactionHistory": {
             "filterDirectionAll": "All",
             "thisMonthTransactionGroupTitle": "This month",
-            "filterDirectionOutgoing": "Outgoing",
-            "filterDirectionIncoming": "Incoming"
+            "filterDirectionOutgoing": "Sell",
+            "filterDirectionIncoming": "Buy"
         },
         "wizzard": {
             "primaryButton": "What type of investor am I?",
@@ -1867,7 +1867,7 @@
                         "action": "INVESTMENT_ADVISORY_PROMO"
                     }
                 ],
-                "title": "Funds from Investment Advisory",
+                "title": "Advised funds",
                 "noProductNote": "Which fund is right for me?",
                 "noProductActionBullet": {
                     "action": "INVESTMENT_ADVISORY_PROMO",
@@ -1948,20 +1948,20 @@
                     }
                 ]
             },
-            "totalTitleDidNotInvest": "Součet hodnoty všech investic",
-            "totalTitleWithCurrency": "Hodnota všech investic\npřevedená do zvolené měny",
+            "totalTitleDidNotInvest": "Total value of investments",
+            "totalTitleWithCurrency": "Portfolio value\nin selected currency",
             "sellInProgress": "We’re processing the sale",
             "clientProfile": "Investment Profile",
             "totalTitle": "Total investment value",
-            "howItWorksButton": "Jak fungují investice?",
+            "howItWorksButton": "How investing works",
             "investButton": "Invest",
-            "didNotInvest": "Nezainvestováno",
-            "fromBeginning": "Od začátku",
+            "didNotInvest": "No investments yet",
+            "fromBeginning": "Since start",
             "buyInProgress": "We’re processing the purchase",
-            "totalInvested": "Total amount invested",
-            "profit": "Profit",
-            "fundsTitle": "Invested in funds",
-            "certificatesTitle": "Invested in certificates",
+            "totalInvested": "Total invested",
+            "profit": "Gain",
+            "fundsTitle": "Funds",
+            "certificatesTitle": "Certificates",
             "sellSheet": {
                 "productTitle": "Which investment product would you like to sell?",
                 "portfolioTitle": "Which portfolio would you like to sell from?",
@@ -3512,13 +3512,13 @@
             "termMaxInvalidMessage": "The maximum investment horizon is {0} years."
         },
         "currencySelector": {
-            "title": "Celková hodnota portfolia",
-            "description": "Jde o hodnotu Vašich fondů a certifikátů přepočtenou do Vámi zvolené měny podle aktuálního kurzu.",
+            "title": "Total portfolio value",
+            "description": "This is the value of your funds and certificates converted to your selected currency at the current exchange rate.",
             "currencies": [
                 {
                     "id": "CZK",
                     "title": "CZK",
-                    "value": "Česká koruna"
+                    "value": "Czech koruna"
                 },
                 {
                     "id": "EUR",
@@ -3619,9 +3619,9 @@
                 "performance": "Appretiation since {date}",
                 "bought": "Purchase",
                 "sellFundLoading": "We are processing the sale. We will probably update your investment {date}.",
-                "totalInvested": "Total amount invested",
+                "totalInvested": "Total invested",
                 "currentValue": "Current Value",
-                "profit": "Profit",
+                "profit": "Gain",
                 "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
                 "history": "History",
                 "historyFull": "Complete History",
