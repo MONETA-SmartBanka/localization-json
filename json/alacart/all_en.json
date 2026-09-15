@@ -59,6 +59,29 @@
         "title": "Customize your MONETA app to your needs. Acurrent account free of charge is just the start.",
         "primaryButton": "Continue",
         "ownSectionTitle": "In your app you will find",
+        "promoSections": [
+            {
+                "promoId": "RDC0010001",
+                "item": {
+                    "id": "BUNDLE_CA_DC_CZK",
+                    "deeplink": "CAETB",
+                    "templateId": 1000381,
+                    "icon": "accountFill",
+                    "title": "Current account with free services and 5% cashback on card payments",
+                    "subtitle": "Get 5% cashback on every debit card payment for 6 months, up to CZK 3,000.",
+                    "pills": [
+                        {
+                            "text": "Free",
+                            "style": "green"
+                        },
+                        {
+                            "text": "5% CASHBACK",
+                            "style": "gold"
+                        }
+                    ]
+                }
+            }
+        ],
         "sections": [
             {
                 "title": "More products to help with your savings",
@@ -96,11 +119,11 @@
                         "deeplink": "JTVETB",
                         "templateId": 1000382,
                         "icon": "wallPiggyBankFill",
-                        "title": "The best term deposit on the market with interest of up to 3.40 % p.a.",
+                        "title": "The best term deposit on the market with interest of up to 3.70 % p.a.",
                         "subtitle": "A guaranteed appreciation of your deposit with a confirmed interest rate.",
                         "pills": [
                             {
-                                "text": "Interest of up to 3.4 %",
+                                "text": "Interest of up to 3.7 %",
                                 "style": "gold"
                             }
                         ]
@@ -183,14 +206,14 @@
                         "templateId": 1000447,
                         "icon": "usersFill",
                         "title": "Credit card Smart",
-                        "subtitle": "Now receive 5% from grocery purchases and 1% back from other purchases.",
+                        "subtitle": "Now receive 10 % from grocery purchases and 1% back from other purchases.",
                         "pills": [
                             {
                                 "text": "0% interest rate up to 50 days",
                                 "style": "green"
                             },
                             {
-                                "text": "extra money",
+                                "text": "up to CZK 6 000",
                                 "style": "gold"
                             }
                         ]

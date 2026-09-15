@@ -428,6 +428,17 @@
                     "actionType": "APPPAGE",
                     "actionValue": "CATEGORIES",
                     "analyticsId": "more_manageCategories"
+                },
+                {
+                    "title": "Add account from another bank",
+                    "listIcon": "bankFill",
+                    "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
+                    "shouldCheckEligibility": false,
+                    "showInRestrictedSb": false,
+                    "actionType": "APPPAGE",
+                    "actionValue": "MULTIBANKING",
+                    "analyticsId": "more_multiBanking",
+                    "minVersion": "95.0.0"
                 }
             ]
         },

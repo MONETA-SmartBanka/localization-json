@@ -233,6 +233,8 @@
             "imageURL": "/cbl_images/popup-news/v91/drag_and_drop_CZ.png",
             "minAppVersion": "91.0.0",
             "shouldCheckEligibility": false,
+            "newsImageURL": "/cbl_images/abilities/ios/3_sada/Platby_NewsImage_1_ENG.png",
+            "newsDate": "2024-02-05",
             "abilityCategory": "payments",
             "abilityTitle": "Drag & drop",
             "abilitySortOrder": 100
@@ -1128,14 +1130,14 @@
             "abilitySortOrder": 8200
         },
         {
-            "id": "DalsiKontokorent_EN",
+            "id": "DalsiPodnikatelskyUcet_EN",
             "title": "Open another business account in CZK, EUR or USD",
-            "detail": "When one business account isn’t enough, open another. Keep payments, income and expenses separate at home and abroad. In CZK, EUR or USD.",
-            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
-            "minAppVersion": "94.0.0",
+            "detail": "Keep your payments, income and expenses separate at home and abroad. Open another business account in CZK, EUR or USD for free.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_podnikatelsky_ucet_CZ.png",
+            "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
-            "abilityTitle": "Another account online",
+            "abilityTitle": "Opening a Konto Pro account",
             "abilitySortOrder": 8300,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -1151,7 +1153,7 @@
             "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
-            "abilityTitle": "Current Account Tom Plus",
+            "abilityTitle": "Gold Tom Plus account",
             "abilitySortOrder": 8400
         },
         {
@@ -1171,19 +1173,105 @@
             }
         },
         {
-            "id": "LimitKreditky_EN",
-            "title": "Unexpected expenses? Increase your credit card limit online. It’s quick and easy",
-            "detail": "Increase your credit card limit up to CZK 300,000 in just a few minutes. Submit your application and, if approved, the funds can be available right away.",
-            "imageURL": "/cbl_images/popup-news/v94/navyseni_kreditky_CZ.png",
+            "id": "Predplatne_EN",
+            "title": "Your subscriptions are now in one place",
+            "detail": "You’ll now find Netflix, Spotify and other card-paid subscriptions in your card details. Need to stop a charge? You can block future card payments anytime.",
+            "imageURL": "/cbl_images/popup-news/v94/predplatne_CZ.png",
             "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "cards",
-            "abilityTitle": "Credit card limit increase",
+            "abilityTitle": "Subscriptions overview",
             "abilitySortOrder": 8600,
             "primaryButton": {
                 "actionType": "APPPAGE",
-                "actionData": "CARDSOVERVIEW",
-                "actionLabelText": "Try it"
+                "actionData": "CARDONFILE",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "DalsiUcet_EN",
+            "title": "Is one account not enough? Open another. Or even two",
+            "detail": "You can now open more current accounts in Smart Banka for whatever you need. Use them for everyday payments, hobbies or shared expenses with your partner.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_bezny_ucet_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Opening a Tom Plus account",
+            "abilitySortOrder": 8700,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CURRENTACCOUNT",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "OdkladSplatek_EN",
+            "title": "Need a break from your loan repayments? Postpone them",
+            "detail": "You can postpone your Loan repayments by 1 to 3 months directly in Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v94/odklad_splatek_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Payment deferral",
+            "abilitySortOrder": 8800
+        },
+        {
+            "id": "ParovaniCizincu_EN",
+            "title": "Set up Smart Banka on your next phone without visiting a branch",
+            "detail": "Got a new phone? You can now verify your identity with your residence permit when setting up Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v95/parovani_cizincu_EN.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Smart Banka setup for foreign customers",
+            "abilitySortOrder": 8900
+        },
+        {
+            "id": "DIP_online_sjednani_EN",
+            "title": "Open Long Term Investment Product online",
+            "detail": "Enjoy the benefits of regular investing and tax savings of up to CZK 7,200 a year. On top of that, your employer can contribute up to CZK 50,000.",
+            "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Long-term Investment Product",
+            "abilitySortOrder": 9000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DIPINVESTMENT",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "Potvrzeni_o_vedeni_uctu_EN",
+            "title": "Get an account confirmation in a few clicks",
+            "detail": "Tap the three dots next to Pay on your account. Then select Account and balance confirmation.",
+            "imageURL": "/cbl_images/popup-news/v95/potvrzeni_o_vedeni_uctu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Account and balance confirmation",
+            "abilitySortOrder": 9100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "ACCOUNT_CONFIRMATION",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "PO_onboarding_EN",
+            "title": "Open a business account online in minutes — for free",
+            "detail": "Add other people as authorised users, move spare funds to a savings account or create invoices directly from your account. Start online and finish in Smart Banka.",
+            "imageURL": "/cbl_images/popup-news/v95/PO_onboarding_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Opening a business account",
+            "abilitySortOrder": 9200,
+            "primaryButton": {
+                "actionType": "OPENURL",
+                "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
+                "actionLabelText": "Learn more"
             }
         }
     ]

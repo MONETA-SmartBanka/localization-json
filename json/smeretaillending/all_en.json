@@ -705,6 +705,7 @@
                 "loanAmount": "Loan amount",
                 "installmentsCount": "For a period of",
                 "installmentAmount": "Monthly repayment",
+                "interestCashback": "Plus get 3 months interest refunded",
                 "posSavings": {
                     "title": "The bigger the loan and the longer the repayment period, the bigger the discount",
                     "description": "Saved thanks to online arrangement",
@@ -978,6 +979,7 @@
                 "firstInstallmentDate": "First repayment due",
                 "message": "Need more funds? We will be happy to help you at one of our <b>branches</b>, where we can offer you a  <a href=\"https://www.moneta.cz/pujcky-a-uvery/program-easi-all\"><b>loan guaranteed by the European Investment Fund.</b></a>",
                 "messageEbz": "Need more funds?\nVisit one of our <a href=\"https://www.moneta.cz/kontakt/schuzka-na-pobocce\">branches</a>, where in addition to a classic loan we can offer you a <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-uver\">loan secured by real estate</a>.",
+                "interestCashbackMessage": "Repay on time and we'll refund the interest you paid for the first 3 months.",
                 "upsellOriginalVariant": "Original offer",
                 "upsellAdditionalVariants": "Special offers",
                 "upsellCommonValues": "Shared specifications for all options",
@@ -995,7 +997,6 @@
                     "email": "E-mail",
                     "emailHint": "your email",
                     "emailInfo": "The email address where we will send a code to pick up latest Apple iPhone SE 128 GB",
-
                     "footer": "By selecting \"Claim Apple iPhone SE 128 GB\" I agree that MONETA Money Bank, a.s. may share my data, including: <i>email address, loan registration number,</i> loan drawdown date and loan principal amount, with iStyle CZ, s.r.o., which will process this data for the purpose of delivering the latest Apple iPhone SE 128 GB. I also acknowledge that the Fee for Early Repayment initiated by the Client will increase by 3% of the early-repaid loan principal. The full terms and conditions for receiving the <a href=\"https://www.moneta.cz/documents/20143/11819236/mmb-expres-business-nezajisteny-podminky-kampane-28032024.pdf\">Apple iPhone SE 128 GB</a> can be found here.",
                     "bottomSheet": {
                         "title": "Review your email address",
@@ -1201,7 +1202,7 @@
         },
         "contractExpres": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act.",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act.",
             "message": "Together with your loan we will set up a  <a href=\"productsPackage\">package of products</a>.",
             "productsPackage": {
                 "title": "Product package with your business loan",
@@ -1218,7 +1219,7 @@
         },
         "contractCc": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
             "message": "Together with your credit card we will set up a  <a href=\"productsPackage\">package of products</a>..",
             "productsPackage": {
                 "title": "Product package with your credit card",
@@ -1235,7 +1236,7 @@
         },
         "contractFlexi": {
             "title": "Great! Your Agreements are ready",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>. This is a loan for business purposes and is not provided under the Consumer Credit Act",
             "message": "Together with Overdraft we will set up a  <a href=\"productsPackage\">package of products</a>.",
             "productsPackage": {
                 "title": "Product package with your Business Ovedraft",
@@ -1256,8 +1257,8 @@
         },
         "productVictory": {
             "title": "Congratulations! It's all set up",
-            "detail": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>.",
-            "detailExpres": "All documents can be found in <b>Smart Banka</b> under <b>My Documents</b>.",
+            "detail": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>.",
+            "detailExpres": "All documents can be found in <b>Smart Banka</b> under <b>Documents</b>.",
             "products": {
                 "commercialAccount": {
                     "title": "PRO Business Account",
@@ -1273,6 +1274,7 @@
                 },
                 "expres": {
                     "title": "Express Business Loan",
+                    "interestCashback": "Pay on time and <b>we’ll refund the interest paid in the first 3 months.</b>",
                     "detailWithInsurance": "<b>{loanAmount}</b> will be credited by the following business day to your account <b>{accountNumber}</b>.\n\nThe first repayment <b>{installmentAmount}</b> including insurance premium will be automatically deducted on <b>{firstInstallmentDate}</b>.",
                     "detailWithoutInsurance": "<b>{loanAmount}</b> will be credited by the following business day to your account <b>{accountNumber}</b>.\n\nThe first repayment <b>{installmentAmount}</b> will be automatically deducted on <b>{firstInstallmentDate}</b>"
                 },
@@ -1308,7 +1310,7 @@
         },
         "vocabulary": {
             "promo": {
-                "title": "Promotion: 10 % for Grocery",
+                "title": "Get 1% cashback on every card payment",
                 "detail": "Complete information about this promotion can be found at <a href=\"https://www.moneta.cz/pujcky-a-uvery/business-kreditni-karta\">MONETA Business Card</a>."
             },
             "internetBank": {

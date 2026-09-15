@@ -439,11 +439,76 @@
                 },
                 "pinConsent": {
                     "title": "PIN pro přihlašování a podpis smluvní dokumentace",
-                    "detail": "„PIN, který si v tomto kroku zvolíte a kterým se budete přihlašovat do aplikace Smart Banka, zároveň slouží jako váš elektronický podpis, kterým podepíšete Smlouvu o bankovních produktech a službách (dále jen „Smlouva“).\n\nPIN je osobní bezpečnostní prvek — nikomu ho nesdělujte a chraňte ho před přístupem třetích osob, zejména máte povinnost:\n\n(i) znemožnit používání mobilního zařízení třetími osobami nastavením PIN kódu nebo biometriky pro vstup do zařízení; pokud je zařízení chráněno PIN kódem, uchovávat ho v tajnosti a nesdělovat ho třetím osobám ani nikam nepoznamenávat;\n\n(ii) nikomu nesdělovat PIN pro vstup do Aplikace Smart Banka nainstalované na mobilním zařízení, ani si ho nikam nepoznamenávat;\n\n(iii) nastavit své zařízení tak, aby nebylo možné automatické připojení třetí osoby k zařízení  a toto nastavení aktualizovat v závislosti na technickém vývoji; pokud si na své zařízení instalujete programy, které umožní vzdálené připojení třetí osoby k zařízení, jako je např. Any Desk, Team Viewer či jiné obdobné programy, jste povinen pečlivě ověřit, kterým osobám dává k zařízení přístup; Banka Vás upozorňuje, že instalací takových programů či aplikací zvyšuje riziko podvodného jednání.\n\nPo podpisu v aplikaci Smart Banka se ochrana Vašich bezpečnostních prvků a elektronický podpis budou řídit ustanoveními Smlouvy a příslušných produktových podmínek.“"
+                    "detail": "PIN, který si v tomto kroku zvolíte a kterým se budete přihlašovat do aplikace Smart Banka, zároveň slouží jako váš elektronický podpis, kterým podepíšete Smlouvu o bankovních produktech a službách (dále jen „Smlouva“).<br>PIN je osobní bezpečnostní prvek — nikomu ho nesdělujte a chraňte ho před přístupem třetích osob, zejména máte povinnost:<br>(i) znemožnit používání mobilního zařízení třetími osobami nastavením PIN kódu nebo biometriky pro vstup do zařízení; pokud je zařízení chráněno PIN kódem, uchovávat ho v tajnosti a nesdělovat ho třetím osobám ani nikam nepoznamenávat;<br>(ii) nikomu nesdělovat PIN pro vstup do Aplikace Smart Banka nainstalované na mobilním zařízení, ani si ho nikam nepoznamenávat;<br>(iii) nastavit své zařízení tak, aby nebylo možné automatické připojení třetí osoby k zařízení  a toto nastavení aktualizovat v závislosti na technickém vývoji; pokud si na své zařízení instalujete programy, které umožní vzdálené připojení třetí osoby k zařízení, jako je např. Any Desk, Team Viewer či jiné obdobné programy, jste povinen pečlivě ověřit, kterým osobám dává k zařízení přístup; Banka Vás upozorňuje, že instalací takových programů či aplikací zvyšuje riziko podvodného jednání.<br>Po podpisu v aplikaci Smart Banka se ochrana Vašich bezpečnostních prvků a elektronický podpis budou řídit ustanoveními Smlouvy a příslušných produktových podmínek."
                 },
                 "imConsent": {
                     "title": "Souhlas se zasíláním nešifrované komunikace",
                     "detail": "Souhlasím, že se mnou členové koncernu MONETA (MONETA Money Bank, a.s., IČO: 25672720, MONETA Auto, s.r.o., IČO: 60112743, MONETA Leasing, s.r.o., IČO: 60751606 a MONETA Stavební Spořitelna, a.s., IČO: 47115289) mohou komunikovat běžným způsobem, tedy nešifrovanými elektronickými a SMS zprávami, které mohou obsahovat informace o mé osobě a o obsahu a průběhu smluv uzavřených se členy koncernu MONETA."
+                }
+            },
+            "identityVerification": {
+                "title": "Let's verify it's really you",
+                "bankIdSection": {
+                    "title": "With Bank iD",
+                    "badge": "Fastest",
+                    "requirementsTitle": "All you need:",
+                    "requirements": [
+                        {
+                            "icon": "userVerifiedFill",
+                            "title": "An active Bank iD"
+                        },
+                        {
+                            "icon": "idCardFill",
+                            "title": "Czech citizenship"
+                        },
+                        {
+                            "icon": "pendingFill",
+                            "title": "2 minutes"
+                        }
+                    ],
+                    "primaryButton": "Verify with Bank iD"
+                },
+                "otherSection": {
+                    "title": "Other ways to verify your identity",
+                    "detail": "Can't use Bank iD?",
+                    "secondaryButton": "Other verification options"
+                }
+            },
+            "bankIdBanks": {
+                "title": "Log in to your bank to verify with Bank iD",
+                "detail": "Bankovní identita, a.s. processes your personal data to provide identity verification services and protect legal claims. For more information, including your rights, see the <a href=\"https://www.bankid.cz/osobni-udaje\">Privacy Policy</a>.",
+                "secondaryButton": "Other verification options"
+            },
+            "otherVerification": {
+                "title": "Other verification options",
+                "documentsSection": {
+                    "title": "With two Czech IDs and an account at another bank",
+                    "requirementsTitle": "You'll need:",
+                    "requirements": [
+                        {
+                            "title": "Two Czech IDs",
+                            "detail": "Czech ID card plus a driving licence or passport.",
+                            "icon": "idCardFill"
+                        },
+                        {
+                            "title": "An account in your name at another Czech bank",
+                            "icon": "bankFill"
+                        },
+                        {
+                            "title": "A short verification video",
+                            "icon": "cameraFill"
+                        },
+                        {
+                            "title": "About 10 minutes",
+                            "icon": "pendingFill"
+                        }
+                    ],
+                    "primaryButton": "Verify with Czech IDs"
+                },
+                "branchSection": {
+                    "title": "I don't have Czech IDs",
+                    "detail": "Visit any of our branches and we'll be happy to help.",
+                    "secondaryButton": "Show branch map"
                 }
             }
         }

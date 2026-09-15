@@ -187,6 +187,11 @@
                 "detail": "Stisknutím tlačítka Pokračovat potvrzujete, že všechny uvedené informace jsou pravdivé, úplné, správné a aktuální.",
                 "primaryButton": "Pokračovat"
             },
+            "unsupportedPairingStyle": {
+                "title": "Tento způsob propojení není dostupný",
+                "detail": "Ověřte, že máte Smart Banku aktivovanou v Internet Bance, nebo nás navštivte na pobočce.",
+                "primaryButton": "Zpět na Úvod"
+            },
             "secondDocumentTypeSelection": {
                 "title": "Focení druhého dokladu",
                 "detail": "Občanský průkaz už jsme ověřili. Nyní zvolte druhý doklad totožnosti, abychom si byli opravdu jistí, že jste to Vy.",
@@ -246,6 +251,13 @@
                         "title": "Fyzická plastová karta",
                         "detail": "Plastová karta, kterou dobře znáte. Do mobilu si ji můžete přidat také.",
                         "icon": "cardFill"
+                    }
+                ],
+                "promoMessages": [
+                    {
+                        "promoId": "RDC0010001",
+                        "title": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Zobrazit podmínky akce</a>",
+                        "icon": "giftFill"
                     }
                 ],
                 "sectionContact": "Kontaktní adresa",
@@ -492,7 +504,7 @@
             },
             "staticDocuments": {
                 "title": "Přečtěte si před podpisem smlouvy tyto dokumenty",
-                "subtitle": "Všechny dokumenty najdete ve své Smart Bance v sekci <b>Moje dokumenty</b>.",
+                "subtitle": "Všechny dokumenty najdete ve své Smart Bance v sekci <b>Dokumenty</b>.",
                 "primaryButton": "S dokumenty jsem se seznámil/a"
             },
             "waitingBeforePrecontract": {

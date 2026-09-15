@@ -177,7 +177,7 @@
         {
             "id": "Bezpecnost_4_CZ",
             "title": "Potřebujete se s námi spojit?",
-            "detail": "Zavolejte nám rovnou ze Smart Banky bez zbytečného ověřování. ",
+            "detail": "Zavolejte nám rovnou ze Smart Banky bez zbytečného ověřování.",
             "imageURL": "/cbl_images/popup-news/v93/overeni_hovoru_CZ.png",
             "shouldCheckEligibility": false,
             "minAppVersion": "93.0.0",
@@ -1126,14 +1126,14 @@
             "abilitySortOrder": 8200
         },
         {
-            "id": "DalsiKontokorent_CZ",
+            "id": "DalsiPodnikatelskyUcet_CZ",
             "title": "Další podnikatelský účet v měně, která se Vám hodí",
-            "detail": "Když Vám jeden podnikatelský účet nestačí, založte si další. Platby, příjmy i výdaje si tak snadno oddělíte doma i v zahraničí a je jedno, jestli to bude v CZK, EUR nebo USD.",
-            "imageURL": "/cbl_images/popup-news/v94/dalsi_ucet_CZ.png",
-            "minAppVersion": "94.0.0",
+            "detail": "Oddělte si platby, příjmy a výdaje doma i v zahraničí. Další podnikatelský účet si zdarma založíte v CZK, EUR nebo USD.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_podnikatelsky_ucet_CZ.png",
+            "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
-            "abilityTitle": "Další účet online",
+            "abilityTitle": "Sjednání Konto Pro",
             "abilitySortOrder": 8300,
             "primaryButton": {
                 "actionType": "APPPAGE",
@@ -1149,7 +1149,7 @@
             "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
-            "abilityTitle": "Běžný účet Tom Plus",
+            "abilityTitle": "Gold Tom Plus účet",
             "abilitySortOrder": 8400
         },
         {
@@ -1169,19 +1169,105 @@
             }
         },
         {
-            "id": "LimitKreditky_CZ",
-            "title": "Nečekané výdaje? Navyšte si částku na kreditní kartě online",
-            "detail": "Během pár minut si můžete navýšit limit kreditní karty až na 300 000 Kč. Stačí odeslat žádost a peníze mohou být brzy Vaše.",
-            "imageURL": "/cbl_images/popup-news/v94/navyseni_kreditky_CZ.png",
+            "id": "Predplatne_CZ",
+            "title": "Svá předplatná teď najdete na jednom místě",
+            "detail": "Netflix, Spotify a další předplatná placená kartou teď najdete v jejím detailu. A když budete potřebovat, můžete tyto platby kdykoliv zablokovat.",
+            "imageURL": "/cbl_images/popup-news/v94/predplatne_CZ.png",
             "minAppVersion": "95.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "cards",
-            "abilityTitle": "Navýšení úvěrového rámce kreditky",
+            "abilityTitle": "Zobrazení předplatného",
             "abilitySortOrder": 8600,
             "primaryButton": {
                 "actionType": "APPPAGE",
-                "actionData": "CARDSOVERVIEW",
-                "actionLabelText": "Vyzkoušet"
+                "actionData": "CARDONFILE",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "DalsiUcet_CZ",
+            "title": "Jeden účet je málo? Založte si další. Nebo rovnou dva",
+            "detail": "Nově si ve Smart Bance založíte další běžné účty pro vše, co potřebujete. Třeba na běžné platby, koníčky nebo výdaje s partnerem.",
+            "imageURL": "/cbl_images/popup-news/v94/dalsi_bezny_ucet_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Sjednání dalšího Běžného účtu",
+            "abilitySortOrder": 8700,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CURRENTACCOUNT",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "OdkladSplatek_CZ",
+            "title": "Potřebujete od splátek půjčky pauzu? Odložte si je",
+            "detail": "Splátky půjčky si můžete odložit o 1 až 3 měsíce přímo ve Smart Bance.",
+            "imageURL": "/cbl_images/popup-news/v94/odklad_splatek_CZ.png",
+            "minAppVersion": "95.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "payments",
+            "abilityTitle": "Odklad splátek",
+            "abilitySortOrder": 8800
+        },
+        {
+            "id": "ParovaniCizincu_CZ",
+            "title": "Při příštím párování Smart Banky už nemusíte na pobočku",
+            "detail": "Máte nový telefon? Pro jeho spárování se teď můžete ověřit svým povolením k pobytu.",
+            "imageURL": "/cbl_images/popup-news/v95/parovani_cizincu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Párování Smart Banky pro cizince",
+            "abilitySortOrder": 8900
+        },
+        {
+            "id": "DIP_online_sjednani_CZ",
+            "title": "Sjednejte si DIP online",
+            "detail": "Výhody pravidelného investování a daňové úspory až 7 200 Kč ročně. Navíc s příspěvkem od zaměstnavatele až 50 000 Kč.",
+            "imageURL": "/cbl_images/popup-news/v95/dip_online_sjednani_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Dlouhodobý investiční produkt",
+            "abilitySortOrder": 9000,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "DIPINVESTMENT",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "Potvrzeni_o_vedeni_uctu_CZ",
+            "title": "Potvrzení o vedení účtu Vám vystavíme na pár kliknutí",
+            "detail": "U svého účtu klepněte na tři tečky vedle tlačítka Zaplatit. Pak už jen v nabídce vyberte Potvrzení o vedení účtu a zůstatku.",
+            "imageURL": "/cbl_images/popup-news/v95/potvrzeni_o_vedeni_uctu_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Potvrzení o vedení účtu a zůstatku",
+            "abilitySortOrder": 9100,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "ACCOUNT_CONFIRMATION",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "PO_onboarding_CZ",
+            "title": "Účet pro firmu si teď založíte rychle online a zdarma",
+            "detail": "Navíc k němu můžete přidat další osoby jako eDisponenty, volné peníze odložit na spořicí účet nebo z něj fakturovat. Založení začnete na webu a dokončíte ve Smart Bance.",
+            "imageURL": "/cbl_images/popup-news/v95/PO_onboarding_CZ.png",
+            "minAppVersion": "96.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Založení firemního účtu",
+            "abilitySortOrder": 9200,
+            "primaryButton": {
+                "actionType": "OPENURL",
+                "actionData": "https://www.moneta.cz/ucty-a-karty/konto-pro-podnikani/online-sjednani",
+                "actionLabelText": "Zjistit více"
             }
         }
     ]
