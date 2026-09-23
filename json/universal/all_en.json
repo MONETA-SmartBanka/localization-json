@@ -2,6 +2,32 @@
     "status": "OK",
     "responseObject": {
         "scenes": {
+            "questionnaire": {
+                "progress": {
+                    "short": "Vyplnění Vám zabere jen chviličku.",
+                    "numbered": "Otázka {current}/{total}",
+                    "last": "Poslední otázka"
+                },
+                "buttons": {
+                    "continue": "Pokračovat",
+                    "submit": "Odeslat dotazník",
+                    "back": "Zpět"
+                },
+                "grade": {
+                    "excellent": "Výborná",
+                    "good": "Dobrá",
+                    "poor": "Špatná",
+                    "veryPoor": "Velmi špatná"
+                },
+                "outcomes": {
+                    "successDefault": "Děkujeme Vám za zpětnou vazbu.",
+                    "successByType": {
+                        "Post sale": "Děkujeme za Vaši zpětnou vazbu. Pokud budeme potřebovat něco upřesnit, ozveme se Vám."
+                    },
+                    "unavailable": "Dotazník už není dostupný.",
+                    "refreshError": "Bohužel nastala neočekávaná chyba."
+                }
+            },
             "loginFactorSmsWarningModal": {
                 "modalNotification": {
                     "title": "Consent to the use of Mobile Key to log in to Internet Banka and authorize transactions",
