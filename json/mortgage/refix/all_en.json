@@ -19,17 +19,18 @@
         },
         "calculator": {
             "title": "Končí {0} fixace Vaší hypotéky. Nastavte si novou",
-            "icon": "circleInfoFill",
             "description": "Při stejné délce fixace budete platit {0}.",
             "calculatorSection": {
                 "title": "Nastavte si novou fixaci",
-                "monthlyInstallment": "Měsíční splátka"
+                "monthlyInstallment": "Měsíční splátka",
+                "icon": "circleInfoFill",
             },
             "extensionSectionHeader": "Jak si ještě více snížit splátku",
             "extensionSection": {
                 "title": "Prodloužte si dobu splácení",
                 "icon": "circleInfoFill",
                 "optionZero": "Beze změny",
+                "icon": "circleInfoFill",
                 "insuranceToggle": {
                     "title": "Snižte si úrok o 0,2% s pojištěním schopnosti splácet",
                     "description": "<a href=\"refix\">Více o pojištění</a>"
@@ -172,7 +173,7 @@
                 "fixation": { "title": "Fixace" },
                 "repayment": {
                     "title": "Datum splatnosti",
-                    "detail": "Prodlouženo o  {0}."
+                    "detail": "Prodlouženo o {0}."
                 }
             },
             "existingInsurance": {
