@@ -4,28 +4,28 @@
         "scenes": {
             "questionnaire": {
                 "progress": {
-                    "short": "Vyplnění Vám zabere jen chviličku.",
-                    "numbered": "Otázka {current}/{total}",
-                    "last": "Poslední otázka"
+                    "short": "This will only take a moment.",
+                    "numbered": "Question {current}/{total}",
+                    "last": "Final question"
                 },
                 "buttons": {
-                    "continue": "Pokračovat",
-                    "submit": "Odeslat dotazník",
-                    "back": "Zpět"
+                    "continue": "Continue",
+                    "submit": "Submit survey",
+                    "back": "Back"
                 },
                 "grade": {
-                    "excellent": "Výborná",
-                    "good": "Dobrá",
-                    "poor": "Špatná",
-                    "veryPoor": "Velmi špatná"
+                    "excellent": "Excellent",
+                    "good": "Good",
+                    "poor": "Poor",
+                    "veryPoor": "Very poor"
                 },
                 "outcomes": {
-                    "successDefault": "Děkujeme Vám za zpětnou vazbu.",
+                    "successDefault": "Thank you for your feedback.",
                     "successByType": {
-                        "Post sale": "Děkujeme za Vaši zpětnou vazbu. Pokud budeme potřebovat něco upřesnit, ozveme se Vám."
+                        "Post sale": "Thank you for your feedback. If we need any clarification, we'll be in touch."
                     },
-                    "unavailable": "Dotazník už není dostupný.",
-                    "refreshError": "Bohužel nastala neočekávaná chyba."
+                    "unavailable": "This survey is no longer available.",
+                    "refreshError": "Sorry, an unexpected error occurred."
                 }
             },
             "loginFactorSmsWarningModal": {
