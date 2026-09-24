@@ -70,15 +70,6 @@
                     "analyticsId": "more_investments"
                 },
                 {
-                    "title": "Stavební spoření",
-                    "listIcon": "walletPiggyBankFill",
-                    "userClientTypeList": ["FO", "ZAM"],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BUILDING_SAVINGS",
-                    "analyticsId": "more_buildingSavings"
-                },
-                {
                     "title": "Termínovaný vklad",
                     "listIcon": "calendarPiggyBankFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM"],
@@ -86,6 +77,15 @@
                     "actionType": "APPPAGE",
                     "actionValue": "RTVETB",
                     "analyticsId": "more_termDeposit"
+                },
+                {
+                    "title": "Stavební spoření",
+                    "listIcon": "walletPiggyBankFill",
+                    "userClientTypeList": ["FO", "ZAM"],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "BUILDING_SAVINGS",
+                    "analyticsId": "more_buildingSavings"
                 },
                 {
                     "title": "Dlouhodobý investiční produkt",
