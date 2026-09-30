@@ -60,6 +60,35 @@
                 ],
                 "primaryButton": "Back to Overview"
             }
+        },
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong",
+                "detail": "We're sorry, changing your PIN is currently unavailable.\nPlease try again later.",
+                "primaryButton": "Back to Overview"
+            },
+            "ineligibilityScreens": {
+                "CARD_BLOCKED": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "Your card is blocked. You will be able to change it once the card is unblocked.",
+                    "primaryButton": "Back to Overview"
+                },
+                "CARD_NEAR_EXPIRY": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "Your card is expiring soon. You will be able to change it after your new card is delivered.",
+                    "primaryButton": "Back to Overview"
+                },
+                "LIMIT_REACHED": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "You won't be able to change your PIN today because you've reached your daily limit. Please try again tomorrow.",
+                    "primaryButton": "Back to Overview"
+                },
+                "FIRST_VISION_UNAVAILABLE": {
+                    "title": "Something went wrong",
+                    "detail": "We're sorry, changing your PIN is currently unavailable.\nPlease try again later.",
+                    "primaryButton": "Back to Overview"
+                }
+            }
         }
     }
 }

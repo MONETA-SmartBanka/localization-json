@@ -60,6 +60,35 @@
                 ],
                 "primaryButton": "Zpět na Přehled"
             }
+        },
+        "errorScreens": {
+            "api": {
+                "title": "Něco se nepovedlo",
+                "detail": "Omlouváme se, změna PINu je momentálně nedostupná.\nZkuste to, prosím, později.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "ineligibilityScreens": {
+                "CARD_BLOCKED": {
+                    "title": "PIN bohužel není možné změnit",
+                    "detail": "Vaše karta je zablokovaná. Změna bude možná po odblokování karty.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "CARD_NEAR_EXPIRY": {
+                    "title": "PIN bohužel není možné změnit",
+                    "detail": "Vaší kartě končí platnost. Změna bude možná po doručení nové karty.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "LIMIT_REACHED": {
+                    "title": "PIN bohužel není možné změnit",
+                    "detail": "Dnes už PIN změnit nepůjde, protože jste vyčerpali denní limit.\nZkuste to, prosím, znovu zítra.",
+                    "primaryButton": "Zpět na Přehled"
+                },
+                "FIRST_VISION_UNAVAILABLE": {
+                    "title": "Něco se nepovedlo",
+                    "detail": "Omlouváme se, změna PINu je momentálně nedostupná.\nZkuste to, prosím, později.",
+                    "primaryButton": "Zpět na Přehled"
+                }
+            }
         }
     }
 }
