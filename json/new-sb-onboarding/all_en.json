@@ -238,7 +238,7 @@
                 "promoMessages": [
                     {
                         "promoId": "RDC0010001",
-                        "title": "Get 5% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
+                        "title": "Get 10% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
                         "icon": "giftFill"
                     }
                 ],
@@ -551,28 +551,6 @@
                     "detail": "You can find all documents in Smart Bank and Internet Bank in the Documents section",
                     "primaryButton": "I understand and agree",
                     "secondaryButton": "Disagree"
-                },
-                "verifyMobileKey": {
-                    "title": "Verify with the code we sent you via SMS",
-                    "titleWithPhone": "Verify with the code we sent you via SMS to {phoneNumber}",
-                    "inputLabel": "SMS code",
-                    "primaryButton": "Continue",
-                    "secondaryButton": "Send SMS again",
-                    "noPhoneButton": "I don't have this number",
-                    "errors": {
-                        "SMS_CANNOT_SEND": "The SMS could not be sent, please try again.",
-                        "SMS_FAILED": "The SMS could not be sent. Request a new one.",
-                        "SMS_LIMIT_EXCEEDED": "You have reached the SMS limit. Please start over from beginning.",
-                        "BAD_MK": "You've entered an invalid code, please try it again.",
-                        "MK_EXPIRED": "The code has expired, send another one.",
-                        "CANNOT_VERIFY": "The code could not be verified. Please visit us at one of our branches."
-                    }
-                },
-                "noPhoneAccess": {
-                    "title": "No access to this phone number?",
-                    "detail": "We send the verification code for account pairing to the phone number you provided when opening the account.\n\nIf you no longer have access to it, you can change it at a branch or choose another pairing method.",
-                    "primaryButton": "Choose another pairing method",
-                    "secondaryButton": "Back"
                 }
             }
         }
