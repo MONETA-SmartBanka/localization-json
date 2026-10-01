@@ -73,15 +73,15 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
+                            "text": "Market-leading term deposit."
                         },
                         {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000"
+                            "icon": "savingsFill",
+                            "text": "No maximum deposit limit."
                         },
                         {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
+                            "icon": "loan",
+                            "text": "Available in CZK, EUR and USD."
                         }
                     ]
                 },
@@ -109,15 +109,15 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
+                            "text": "Market-leading term deposit."
                         },
                         {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000, available to all clients."
+                            "icon": "savingsFill",
+                            "text": "No maximum deposit limit, available to all clients."
                         },
                         {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
+                            "icon": "loan",
+                            "text": "Available in CZK, EUR and USD."
                         }
                     ]
                 },
@@ -178,7 +178,7 @@
                         },
                         {
                             "period": 1095,
-                            "text": "3 years"
+                            "text": "36 months"
                         },
                         {
                             "period": 1460,
@@ -186,7 +186,7 @@
                         },
                         {
                             "period": 1825,
-                            "text": "5 years"
+                            "text": "60 months"
                         }
                     ],
                     "footer": "Interest rate subject to change in the future"
@@ -208,15 +208,15 @@
                 },
                 "typeSection": {
                     "gold": "Better interest rate",
-                    "title": "Automatic renewal of the term deposit",
-                    "button": "How does it work?",
+                    "title": "What should happen when your deposit ends?",
+                    "button": "More info",
                     "revolving": {
-                        "title": "Renew after the term expires (revolving deposit)",
-                        "detail": "The term deposit will automatically renew until it is cancelled \n\nOn the renewal date, you can withdraw the deposit free of charge or add additional funds"
+                        "title": "Automatically renew the deposit",
+                        "detail": "We'll automatically renew your deposit until you turn off renewal. On the renewal date, you can withdraw money or add more at no cost."
                     },
                     "oneTime": {
-                        "title": "One-time deposit, no renewal (single deposit)",
-                        "detail": "After the term has expired, the deposit and accrued interest will be deposited to your account"
+                        "title": "Transfer the money to your account",
+                        "detail": "When the deposit ends, we'll automatically transfer your money and interest back to your account."
                     }
                 },
                 "taxSection": {
@@ -256,20 +256,19 @@
                     "primaryButton": "I understand"
                 },
                 "infoModal": {
-                    "title": "How does it work?",
-                    "sectionRtv": {
-                        "title": "Automatic Renewal",
+                    "title": "What should happen when your deposit ends?",
+                    "sectionJtv": {
+                        "title": "Transfer the money to your account",
                         "bullets": [
-                            "The deposit will be automatically renewed after the term has expired",
-                            "Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal",
-                            "On the day of renewal you may withdraw the deposit free of charge or deposit additional money"
+                            "No need to do anything. When the deposit ends, we’ll automatically transfer the money back to your account."
                         ]
                     },
-                    "sectionJtv": {
-                        "title": "One-time deposit",
+                    "sectionRtv": {
+                        "title": "Automatically renew the deposit",
                         "bullets": [
-                            "After the Agreement expires, the full deposited amount and accrued interest will be transferred to your preferred account",
-                            "The interest rate at the time of opening the term deposit will apply for the full term"
+                            "You’re in control. You can turn off renewal before the deposit ends.",
+                            "We’ll let you know in advance. We’ll remind you 14 days before renewal.",
+                            "Decide based on the latest terms. We’ll show you the new interest rate 3 days before renewal."
                         ]
                     }
                 }
@@ -286,7 +285,7 @@
                 "firstName": "First Name",
                 "lastName": "Last Name",
                 "role": "Position",
-                "confirmation": "I confrim that I have authority to make such operation on behalf of a legal person."
+                "confirmation": "I confirm that I have authority to make such operation on behalf of a legal person."
             },
             "contract": {
                 "title": "Read the One-Time Term Deposit Application and additional documents",
@@ -310,9 +309,9 @@
                         "detail": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.<br/><br/>Make sure there are sufficient funds in the account {0} to make the transfer. The money will be transferred automatically.<br/><br/>The request, related documents and product details can be found in Smart Banka and Internet Banka in the Documents and Agreements section."
                     }
                 },
-                "title": "Done! Your request is being processed",
-                "detail": "The term deposit will be opened right away or on the following business day the latest.<br/><br/>Please make sure to have sufficient funds for the transfer in your account {0}. The money will be transferred automatically after the term deposit has been opened.<br/><br/>The application, all relevant documents as well as product information can be found in Smart Banka and Internet Banka in Documents.",
-                "primaryButton": "Done"
+                "title": "Done! We’ll set up your term deposit by the morning of the next business day",
+                "detail": "<br/>Please make sure there’s enough money in account {0}. We’ll transfer it automatically.<br/><br/>You’ll find all your documents in Smart Banka and Internet Banka under Documents.",
+                "primaryButton": "Go to Overview"
             },
             "nib": {
                 "unavailable": {
@@ -378,7 +377,7 @@
                 "victory": {
                     "title": {
                         "cosigned": "The request has been sent to other approvers",
-                        "done": "Done! Your request is being processed"
+                        "done": "Done! We’ll set up your term deposit by the morning of the next business day"
                     },
                     "text1": {
                         "cosigned": "It's done. In order for the request to be sent, it must be signed by other approvers according to the Signature Rules. Once that is done, the deposit will be realized no later than on the following business day.",
@@ -392,15 +391,15 @@
                     "bullets": [
                         {
                             "icon": "investmentsFill",
-                            "text": "The best term deposit in CZK with no maximum deposit limit. You only need to have the required deposit amount in your account."
+                            "text": "Market-leading term deposit."
                         },
                         {
-                            "icon": "handshake",
-                            "text": "Up to 3.7% p.a. on the entire deposit amount from CZK 15,000"
+                            "icon": "savingsFill",
+                            "text": "No maximum deposit limit."
                         },
                         {
-                            "icon": "euroSign",
-                            "text": "You can also open a deposit in foreign currency (EUR/USD) with an interest rate of up to 1.6% p.a."
+                            "icon": "loan",
+                            "text": "Available in CZK, EUR and USD."
                         }
                     ]
                 },
@@ -408,16 +407,16 @@
                 "betterInterestButton": "Get better interest rate",
                 "taxResidencyDescription": "This information is required by law no. 253/2008 Sb. on money laundering.",
                 "termDepositType": {
-                    "label": "Would you like to renew your Term Deposit?",
+                    "label": "What should happen when your deposit ends?",
                     "jtv": {
-                        "label": "One-time deposit, no renewal (single deposit)",
-                        "description": "After the term has expired, the deposit and accrued interest will be deposited to your account.",
+                        "label": "Transfer the money to your account",
+                        "description": "When the deposit ends, we'll automatically transfer your money and interest back to your account.",
                         "tooltip": "After the term deposit expires, the full amount with the accrued interest will be automatically transferred to your preferred account.<br><br>The interest rate at the time of opening the term deposit will apply for the full term.",
                         "primaryButton": "Continue with One-time Term Deposit"
                     },
                     "rtv": {
-                        "label": "Renew after the term expires (revolving deposit)",
-                        "description": "The length of the deposit will automatically renew until you cancel the deposit.<br>On the renewal date of the deposit, you can withdraw the deposit free of charge or deposit additional money.",
+                        "label": "Automatically renew the deposit",
+                        "description": "We'll automatically renew your deposit until you turn off renewal. On the renewal date, you can withdraw money or add more at no cost.",
                         "tooltip": "The revolving deposit will be automatically renewed after the term has expired.<br><br>Interest rate is subject to change at renewal depending on the current interest rates on the day of renewal.<br><br>On the day of renewal you may withdraw the deposit free of charge or deposit additional money.",
                         "primaryButton": "Continue with Revolving Term Deposit"
                     }
