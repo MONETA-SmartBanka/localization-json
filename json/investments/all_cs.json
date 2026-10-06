@@ -1706,7 +1706,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "showHelpSecondaryButton": true,
                             "requiredQuestion": {
-                                "title": "Máte preference v oblasti environmentálně udržitelných investic?",
+                                "title": "Musí být vaše investice environmentálně udržitelné?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
                                 "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1765,7 +1765,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "showHelpSecondaryButton": true,
                             "requiredQuestion": {
-                                "title": "Máte preference v oblasti udržitelných investic?",
+                                "title": "Musí být vaše investice udržitelné?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
                                 "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1850,7 +1850,7 @@
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "ANO, chci zohledňovat dopad na znečištění vod.",
+                                    "title": "\tANO, chci zohledňovat dopad na znečištění vod.",
                                     "value": 4,
                                     "uncheckOthers": false
                                 },
@@ -1932,7 +1932,7 @@
                             ]
                         },
                         {
-                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat? Včetně úspor, vkladů, investic a cenných papírů.",
+                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat?",
                             "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
                             "id": 20,
                             "maxAnswers": 1,
@@ -1958,7 +1958,7 @@
                             ]
                         },
                         {
-                            "title": "Jaká je přibližná hodnota vašeho finančního majetku? Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
+                            "title": "Jaká je přibližná hodnota vašeho finančního majetku?",
                             "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "id": 21,
                             "maxAnswers": 1,
@@ -1984,7 +1984,7 @@
                             ]
                         },
                         {
-                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků? Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.Závazky tvoří:",
+                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků?",
                             "detail": "Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.",
                             "hint": "Závazky tvoří:",
                             "id": 22,
@@ -2410,66 +2410,58 @@
             "secondaryButton": "Všechny produkty"
         },
         "profilesHelp": {
-            "title": "O riziku",
+            "title": "Pojďme se bavit o riziku",
             "profiles": [
                 {
                     "title": "Krátkodobé investice, <br>stabilnější produkty",
                     "numeros": [1, 2],
-                    "headline": "Investuji opatrně a hledám rychlou návratnost za cenu menšího výkonu",
-                    "detail": "Tomuto investičnímu profilu odpovídají konzervativní produkty založené na peněžním trhu a krátkodobých dluhopisech. Jejich nízké riziko přináší mírně vyšší výnosy než běžný spořicí účet.",
-                    "informations": "<b>Kolísání hodnoty:</b> Nízké (0,5-2 %)<br><b>Investiční horizont:</b> 1-3 roky",
-                    "informations_ib_1_a": "Odpovídající produkty:",
-                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
-                    "informations_ib_2_a": "Kolísání hodnoty:",
-                    "informations_ib_2_b": "Nízké (0,5-2 %)",
-                    "title_ib": "Krátkodobé investice, stabilnější produkty",
-                    "informations_ib_3_a": "Investiční horizont:",
-                    "informations_ib_3_b": "1-3 roky"
+                    "headline": "\"Investuji opatrně. Hledám rychlou návratnost za cenu menšího výkonu.\"",
+                    "detail": "Velmi konzervativní produkty bývají založené na peněžním trhu a krátkodobých dluhopisech. Nízké riziko u nich přináší výnosy mírně vyšší než obvyklý spořicí účet.",
+                    "informations": "<b>Kolísání hodnoty:</b> Nízké (0,5–2 %)<br><b>Investiční horizont:</b> 1–3 roky",
+                    "informations_ib_1_a": "Kolísání hodnoty:",
+                    "informations_ib_1_b": "Nízké (0,5–2 %)",
+                    "informations_ib_2_a": "Investiční horizont:",
+                    "informations_ib_2_b": "1–3 roky",
+                    "title_ib": "Krátkodobé investice, stabilnější produkty"
                 },
                 {
                     "title": "Střednědobé investice,<br>vyvážené produkty",
                     "numeros": [3],
-                    "headline": "Nespěchám. Chci si přilepšit a zvládnu špetku nejistoty",
-                    "detail": "Tomuto investičnímu profilu odpovídají konzervativní produkty s dluhopisy a smíšené produkty s velkým podílem dluhopisů. Za poměrně krátkou dobu přináší zajímavé zhodnocení, zpravidla vyšší než na spořicím účtu.",
-                    "informations": "<b>Kolísání hodnoty:</b> Střední (0,5-5 %)<br><b>Investiční horizont:</b> 3-5 let",
-                    "informations_ib_1_a": "Odpovídající produkty:",
-                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
-                    "informations_ib_2_a": "Kolísání hodnoty:",
-                    "informations_ib_2_b": "Střední (0,5-5 %)",
-                    "title_ib": "Střednědobé investice, vyvážené produkty",
-                    "informations_ib_3_a": "Investiční horizont:",
-                    "informations_ib_3_b": "3-5 let"
+                    "headline": "\"Nespěchám. Chci si trochu přilepšit a zvládnu špetku nejistoty.\"",
+                    "detail": "Většinou jde o konzervativní, dluhopisové nebo smíšené fondy s velkým podílem dluhopisů. Výměnou za trochu času a důvěry dokáží přinést zajímavé zhodnocení.",
+                    "informations": "<b>Kolísání hodnoty:</b> Střední (0,5–5 %)<br><b>Investiční horizont:</b> 3–5 let",
+                    "informations_ib_1_a": "Kolísání hodnoty:",
+                    "informations_ib_1_b": "Střední (0,5–5 %)",
+                    "informations_ib_2_a": "Investiční horizont:",
+                    "informations_ib_2_b": "3–5 let",
+                    "title_ib": "Střednědobé investice, vyvážené produkty"
                 },
                 {
                     "title": "Dlouhodobé investice,<br>kolísavější produkty",
                     "numeros": [4],
-                    "headline": "Vím, jak to chodí. Nenechám se rozhodit a počkám na slušný výnos",
-                    "detail": "Tomuto investičnímu profilu odpovídají dynamické, smíšené produkty s větší částí akcií. Patří sem také čistě akciové produkty, jejichž hodnota navzdory výkyvům v čase roste. Tyto produkty jsou vhodné pro všechny, kteří je nechají pár let pracovat.",
-                    "informations": "<b>Kolísání hodnoty:</b> Vyšší (5-10 %)<br><b>Investiční horizont:</b> 5 let",
-                    "informations_ib_1_a": "Odpovídající produkty:",
-                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
-                    "informations_ib_2_a": "Kolísání hodnoty:",
-                    "informations_ib_2_b": "Vyšší (5-10 %)",
-                    "title_ib": "Dlouhodobé investice, kolísavější produkty",
-                    "informations_ib_3_a": "Investiční horizont:",
-                    "informations_ib_3_b": "5 let"
+                    "headline": "\"Vím, jak to chodí. Nenechám se rozhodit a počkám na slušný výnos.\"",
+                    "detail": "Smíšené fondy, ve kterých mírně převažují akcie. Jejich hodnota navzdory výkyvům časem roste. Dynamické fondy se tak vyplatí investorům, kteří je nechají pár let pracovat.",
+                    "informations": "<b>Kolísání hodnoty:</b> Vyšší (5–10 %)<br><b>Investiční horizont:</b> 5 let",
+                    "informations_ib_1_a": "Kolísání hodnoty:",
+                    "informations_ib_1_b": "Vyšší (5–10 %)",
+                    "informations_ib_2_a": "Investiční horizont:",
+                    "informations_ib_2_b": "5 let",
+                    "title_ib": "Dlouhodobé investice, kolísavější produkty"
                 },
                 {
                     "title": "Dlouhodobé investice,<br>kolísavé produkty",
                     "numeros": [5, 6, 7],
-                    "headline": "Investuji odvážně. I když to může být někdy těžké, vím, že trpělivost růže přináší",
-                    "detail": "Tomuto investičnímu profilu odpovídají dynamické produkty s čistě akciovými investicemi, jejichž rizikovost je vyvážena velkou návratností. Často je volí lidé se zkušenostmi s investováním, kteří si mohou dovolit vytrvat během období poklesu.",
+                    "headline": "\"Investuji odvážně. I když je to někdy těžké, vím, že trpělivost růže přináší.\"",
+                    "detail": "Velmi dynamické, akciové produkty svou rizikovost vyvažují velkou návratností. Vhodné bývají pro mladé nebo zkušené investory, kteří si mohou dovolit vytrvat během období poklesu.",
                     "informations": "<b>Kolísání hodnoty:</b> Vysoké (15 a více %)<br><b>Investiční horizont:</b> 5 a více let",
-                    "informations_ib_1_a": "Odpovídající produkty:",
-                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
-                    "informations_ib_2_a": "Kolísání hodnoty:",
-                    "informations_ib_2_b": "Vysoké (15 a více %)",
-                    "title_ib": "Dlouhodobé investice, kolísavé produkty",
-                    "informations_ib_3_a": "Investiční horizont:",
-                    "informations_ib_3_b": "5 a více let"
+                    "informations_ib_1_a": "Kolísání hodnoty:",
+                    "informations_ib_1_b": "Vysoké (15 a více %)",
+                    "informations_ib_2_a": "Investiční horizont:",
+                    "informations_ib_2_b": "5 a více let",
+                    "title_ib": "Dlouhodobé investice, kolísavé produkty"
                 }
             ],
-            "primaryButton": "Aktualizovat investiční profil",
+            "primaryButton": "Zjistit můj investiční profil",
             "alternativePrimaryButton": "Aktualizovat investiční profil"
         },
         "fundDetail": {
