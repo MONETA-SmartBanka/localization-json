@@ -1031,10 +1031,10 @@
         },
         "filter": {
             "title": "Product filters",
-            "searchPlaceholder": "Product filters",
+            "searchPlaceholder": "Fund or certificate name",
             "filterButton": "Filter",
             "applyButton": "Apply filters",
-            "clearButton": "Cancel",
+            "clearButton": "Clear filters",
             "risk": {
                 "id": "risk",
                 "title": "Risk",
@@ -1123,18 +1123,18 @@
                     },
                     {
                         "id": "REAL_ESTATE",
-                        "text": "Realitní"
+                        "text": "Real estate"
                     },
                     {
                         "id": "MIX",
-                        "text": "Smíšený"
+                        "text": "Multi-asset"
                     }
                 ]
             },
             "issuer": {
                 "id": "issuer",
                 "title": "Company",
-                "sheetTitle": "Select a company",
+                "sheetTitle": "Choose a provider",
                 "options": [
                     {
                         "id": "all",
@@ -1738,7 +1738,7 @@
             "introDescription": "We’ll help you find the right investments and show you how to begin.",
             "introDIPDescription": "Investing and tax savings in one.",
             "introTitle": "Want to invest but not sure where to start?",
-            "listTitle": "Nabídka investičních produktů",
+            "listTitle": "Investment products",
             "introAdvisoryButton": "Which fund is right for me?"
         },
         "transactionHistory": {
@@ -3099,7 +3099,7 @@
                 "Performance in the last 5 years",
                 "Performance since creation"
             ],
-            "notYourHeadlineLessSuitable": "Funds less suitable for you",
+            "notYourHeadlineLessSuitable": "Less suitable for you",
             "alternativeTitle": "Investments",
             "actions": {
                 "history": "Account statement",
@@ -3123,7 +3123,7 @@
             "midTerm": "Medium-term investments, balanced funds",
             "longTerm": "Long-term investments, volatile funds",
             "secondaryButton": "ALl funds",
-            "notYourHeadlineNotSuitable": "Funds not suitable for you",
+            "notYourHeadlineNotSuitable": "Not suitable for you",
             "title": "Let your money work for you",
             "myFundsHeadline": "Your portfolio",
             "icko": "Portfolio evaluation is calculated as a proportional ratio of profit vs. total sum invested.\nPortfolios evaluation is based on the daily portfolio evaluation changes of all of your funds."
@@ -3624,7 +3624,7 @@
                 "profit": "Gain",
                 "buyFundLoading": "We are processing the purchase. We will probably update your investment {date}.",
                 "history": "History",
-                "historyFull": "Complete History",
+                "historyFull": "View all",
                 "sold": "Sale"
             },
             "tabMyInvestment": "My investments",
@@ -10275,18 +10275,18 @@
             ]
         },
         "euroAccountCreatedVictory": {
-            "title": "Done, your EUR account is ready. Transfer money to it and start investing",
-            "detail": "If you requested a physical card, it will arrive by post within five business days.\n\nYou can also add the card to your mobile wallet at any time and start paying with it immediately.",
+            "title": "All set! Your EUR account is ready",
+            "detail": "If you ordered a physical card, it will arrive within five business days.\n\nYou can also add the card to your phone and start paying with it right away.",
             "primaryButton": "Add money to EUR account"
         },
         "eurAccountHoldVictory": {
-            "title": "Your current account will be ready the morning of the following business day.",
-            "detail": "All documents can be found in the Documents sections in Internet Banka and Smart Banka.",
+            "title": "Your account will be ready by the next business morning",
+            "detail": "You’ll find all your documents in the Documents section of Smart Banka and Internet Banka.",
             "primaryButton": "Back to Investments"
         },
         "paymentToEurAccountVictory": {
-            "title": "Platba byla odeslána",
-            "primaryButton": "Zpět na Přehled investic"
+            "title": "Payment sent",
+            "primaryButton": "Back to investments"
         }
     }
 }
