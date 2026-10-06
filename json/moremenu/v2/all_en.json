@@ -61,22 +61,13 @@
                     "analyticsId": "more_savings"
                 },
                 {
-                    "title": "Investments and Mutual Funds",
+                    "title": "Investments and Investment Products",
                     "listIcon": "investmentsFill",
                     "userClientTypeList": ["FO", "FOP", "PO", "ZAM", "ZDRAV"],
                     "shouldCheckEligibility": false,
                     "actionType": "APPPAGE",
                     "actionValue": "INVESTMENTS",
                     "analyticsId": "more_investments"
-                },
-                {
-                    "title": "Building Savings",
-                    "listIcon": "walletPiggyBankFill",
-                    "userClientTypeList": ["FO", "ZAM"],
-                    "shouldCheckEligibility": true,
-                    "actionType": "APPPAGE",
-                    "actionValue": "BUILDING_SAVINGS",
-                    "analyticsId": "more_buildingSavings"
                 },
                 {
                     "title": "Term Deposit",
@@ -86,6 +77,15 @@
                     "actionType": "APPPAGE",
                     "actionValue": "RTVETB",
                     "analyticsId": "more_termDeposit"
+                },
+                {
+                    "title": "Building Savings",
+                    "listIcon": "walletPiggyBankFill",
+                    "userClientTypeList": ["FO", "ZAM"],
+                    "shouldCheckEligibility": true,
+                    "actionType": "APPPAGE",
+                    "actionValue": "BUILDING_SAVINGS",
+                    "analyticsId": "more_buildingSavings"
                 },
                 {
                     "title": "Long-Term investment product",
