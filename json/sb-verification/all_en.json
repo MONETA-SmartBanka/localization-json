@@ -27,7 +27,34 @@
         },
         "scenes": {
             "pinCreate": {
-                "title": "Choose a PIN you will use to log into Smart Banka."
+                "title": "Create a PIN to be used to log into Smart Banka",
+                "help": "Choose 4 to 8 digits. For more security, we recommend at least 6.",
+                "validatePinError": "The entered pin does not match",
+                "strength": {
+                    "short": "PIN is too short 😞",
+                    "weak": "PIN is not very secure, we recommend another 😐",
+                    "strong": "This PIN is OK 😌",
+                    "extraStrong": "This PIN is a great 👍"
+                },
+                "verify": {
+                    "title": "Repeat PIN"
+                },
+                "activationError": {
+                    "title": "Error",
+                    "activationError": "The activation you entered may not be valid. Please make sure you entered it correctly.",
+                    "unknownError": "An unknown error occurred. Please try again and contact us if necessary."
+                },
+                "biometry": {
+                    "title": "Log in more securely",
+                    "subtitle": "Fingerprint or face scan, if your phone allows it.",
+                    "toggleTitle": "Also confirm payments",
+                    "info": "Look how does <a href=\"https://www.moneta.cz/documents/20143/11740746/mmb-smart-banka-popis-mechanismu-zabezpeceni-pomoci-biometrickych-dat.pdf\">Smart Bank biometry security</a> work",
+                    "action": {
+                        "use": "Yes",
+                        "notUse": "Not yet"
+                    }
+                },
+                "continue": "Continue"
             },
             "zenIdIntro": {
                 "title": "Now let’s verify your identity",

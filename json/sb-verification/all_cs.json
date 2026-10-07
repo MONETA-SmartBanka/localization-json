@@ -27,7 +27,34 @@
         },
         "scenes": {
             "pinCreate": {
-                "title": "Zvolte svůj PIN pro přihlašování do aplikace"
+                "title": "Vytvořte si PIN pro přihlašování do aplikace",
+                "help": "Zvolte 4 až 8 číslic. Pro větší bezpečí doporučujeme min. 6.",
+                "validatePinError": "Zadaný pin se neshoduje",
+                "strength": {
+                    "short": "PIN je příliš krátký 😞",
+                    "weak": "PIN není moc bezpečný, doporučujeme jiný 😐",
+                    "strong": "Tento PIN je OK 😌",
+                    "extraStrong": "Tento PIN je skvělý 👍"
+                },
+                "verify": {
+                    "title": "Zopakujte PIN"
+                },
+                "activationError": {
+                    "title": "Chyba",
+                    "activationError": "Zadaná aktivace zřejmě není platná. Ověřte prosím, zda jste ji zadali správně.",
+                    "unknownError": "Stala se neznámá chyba. Prosím opakujte akci znovu a případně nás kontaktujte."
+                },
+                "biometry": {
+                    "title": "Přihlašovat bezpečněji",
+                    "subtitle": "Otiskem prstu nebo skenem obličeje, umožňuje-li to Váš telefon.",
+                    "toggleTitle": "Potvrzovat také platby",
+                    "info": "Přečtěte si, jak funguje <a href=\"https://www.moneta.cz/documents/20143/11740746/mmb-smart-banka-popis-mechanismu-zabezpeceni-pomoci-biometrickych-dat.pdf\">zabezpečení Smart Banky pomocí biometrických dat</a>",
+                    "action": {
+                        "use": "Ano",
+                        "notUse": "Zatím ne"
+                    }
+                },
+                "continue": "Pokračovat"
             },
             "zenIdIntro": {
                 "title": "Teď ověříme Vaši totožnost",
