@@ -115,6 +115,39 @@
                         "label": "Document Number"
                     }
                 },
+                "documentScan": {
+                    "info": {
+                        "idFrontTitle": "Take a photo of the front side of your ID card",
+                        "idBackTitle": "Take a photo of the back side of your ID card",
+                        "detail": "Make sure that you are taking a photo of",
+                        "bullets": [
+                            {
+                                "title": "the right side of a valid document in landscape mode",
+                                "icon": "idCardFill"
+                            },
+                            {
+                                "title": "under good lighting, legible and without glare.",
+                                "icon": "lightBulbOnFill"
+                            }
+                        ],
+                        "primaryButton": "Proceed"
+                    },
+                    "takePhoto": {
+                        "takePhoto": "Take a photo",
+                        "idFrontTitle": "Front side of the ID card",
+                        "idBackTitle": "Back side of the ID card",
+                        "reviewTitle": "Is everything legible?",
+                        "tooltip": "Clear, legible and without glare"
+                    },
+                    "upload": {
+                        "title": "Processing uploaded document, just a moment",
+                        "takeAgainButton": "Try again",
+                        "cancelButton": "Try later",
+                        "branchesButton": "Branches and ATMs",
+                        "error": "Our apologies, something went wrong.",
+                        "noBirthNumberError": "Your document does not include a Czech birth number, so we cannot continue online. Please visit one of our branches."
+                    }
+                },
                 "primaryButton": "Everything looks right",
                 "secondaryButton": "Something's wrong",
                 "victory": {

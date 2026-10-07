@@ -115,6 +115,39 @@
                         "label": "Číslo dokladu"
                     }
                 },
+                "documentScan": {
+                    "info": {
+                        "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
+                        "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
+                        "detail": "Ujistěte se, že fotíte",
+                        "bullets": [
+                            {
+                                "title": "Platný doklad ze správné strany a na šířku",
+                                "icon": "idCardFill"
+                            },
+                            {
+                                "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků",
+                                "icon": "lightBulbOnFill"
+                            }
+                        ],
+                        "primaryButton": "Pokračovat k focení"
+                    },
+                    "takePhoto": {
+                        "takePhoto": "Vyfotit",
+                        "idFrontTitle": "Přední strana občanského průkazu",
+                        "idBackTitle": "Zadní strana občanského průkazu",
+                        "reviewTitle": "Je vše dobře viditelné?",
+                        "tooltip": "Ostrá, bez odlesků a čitelná"
+                    },
+                    "upload": {
+                        "title": "Zpracováváme vyfocený doklad, hned to bude",
+                        "takeAgainButton": "Vyfotit znovu",
+                        "cancelButton": "Zkusit příště",
+                        "branchesButton": "Pobočky a bankomaty",
+                        "error": "Omlouváme se, tak tohle nevyšlo",
+                        "noBirthNumberError": "Na Vašem dokladu není uvedeno rodné číslo, proto nemůžeme pokračovat online. Zastavte se prosím za námi na pobočce."
+                    }
+                },
                 "primaryButton": "Vše souhlasí, pokračovat",
                 "secondaryButton": "Něco nesouhlasí",
                 "victory": {
