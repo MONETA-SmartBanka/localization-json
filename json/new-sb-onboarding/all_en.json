@@ -488,46 +488,46 @@
             },
             "pennyPayment": {
                 "senderAccount": {
-                    "title": "TODO",
-                    "detail": "TODO",
-                    "section": "TODO",
-                    "account": "TODO",
-                    "primaryButton": "TODO"
+                    "title": "Enter an account held in your name at another Czech bank. Then send a {0} verification payment from it",
+                    "detail": "We’ll use the payment to verify that the account belongs to you.",
+                    "section": "An account at another bank held in your name",
+                    "account": "Account number",
+                    "primaryButton": "Continue"
                 },
                 "paymentInfo": {
-                    "title": "TODO",
-                    "qrSection": "TODO",
-                    "shareQr": "TODO",
-                    "orDivider": "TODO",
-                    "paymentSection": "TODO",
-                    "account": "TODO",
-                    "note": "TODO",
-                    "amount": "TODO",
-                    "primaryButton": "TODO",
-                    "unableToSend": "TODO"
+                    "title": "Send a {0} verification payment from your account",
+                    "qrSection": "SCAN THE QR CODE IN YOUR OTHER BANK’S APP",
+                    "shareQr": "QR code with payment details",
+                    "orDivider": "or",
+                    "paymentSection": "PAY USING THESE DETAILS",
+                    "account": "Account number",
+                    "note": "Message for recipient",
+                    "amount": "Amount",
+                    "primaryButton": "I’ve sent the payment",
+                    "unableToSend": "I can’t send the payment"
                 },
                 "unableToSend": {
-                    "title": "TODO",
-                    "detail": "TODO",
-                    "branch": "TODO",
-                    "back": "TODO",
-                    "cancelRequest": "TODO"
+                    "title": "Visit us at a branch",
+                    "detail": "If you can’t send the payment, visit one of our branches and we’ll help you open the account.",
+                    "branch": "Visit a branch",
+                    "back": "Back",
+                    "cancelRequest": "Cancel application"
                 },
                 "waiting": {
-                    "title": "TODO",
-                    "detail": "TODO",
-                    "primaryButton": "TODO"
+                    "title": "Waiting for your verification payment",
+                    "detail": "We’ll send you an SMS as soon as the payment arrives.",
+                    "primaryButton": "Go to overview"
                 },
                 "notArrived": {
-                    "title": "TODO",
-                    "detail": "TODO",
-                    "weekendWarning": "TODO",
-                    "checklistTitle": "TODO",
-                    "checkSenderAccount": "TODO",
-                    "checkOtherBank": "TODO",
-                    "checkNote": "TODO",
-                    "primaryButton": "TODO",
-                    "branch": "TODO"
+                    "title": "Verification payment still not arrived?",
+                    "detail": "Check the details below or try sending it again.",
+                    "weekendWarning": "Did you send the payment over the weekend? It will be processed on the next business day.",
+                    "checklistTitle": "Make sure the payment:",
+                    "checkSenderAccount": "Was sent from the account you entered.",
+                    "checkOtherBank": "Was sent from your account at another Czech bank.",
+                    "checkNote": "Includes the message for the recipient.",
+                    "primaryButton": "Send the verification payment again",
+                    "branch": "Visit a branch"
                 }
             },
             "pennyAccount": {
