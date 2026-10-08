@@ -26,6 +26,36 @@
             }
         },
         "scenes": {
+            "pinCreate": {
+                "title": "Create a PIN to be used to log into Smart Banka",
+                "help": "Choose 4 to 8 digits. For more security, we recommend at least 6.",
+                "validatePinError": "The entered pin does not match",
+                "strength": {
+                    "short": "PIN is too short 😞",
+                    "weak": "PIN is not very secure, we recommend another 😐",
+                    "strong": "This PIN is OK 😌",
+                    "extraStrong": "This PIN is a great 👍"
+                },
+                "verify": {
+                    "title": "Repeat PIN"
+                },
+                "activationError": {
+                    "title": "Error",
+                    "activationError": "The activation you entered may not be valid. Please make sure you entered it correctly.",
+                    "unknownError": "An unknown error occurred. Please try again and contact us if necessary."
+                },
+                "biometry": {
+                    "title": "Log in more securely",
+                    "subtitle": "Fingerprint or face scan, if your phone allows it.",
+                    "toggleTitle": "Also confirm payments",
+                    "info": "Look how does <a href=\"https://www.moneta.cz/documents/20143/11740746/mmb-smart-banka-popis-mechanismu-zabezpeceni-pomoci-biometrickych-dat.pdf\">Smart Bank biometry security</a> work",
+                    "action": {
+                        "use": "Yes",
+                        "notUse": "Not yet"
+                    }
+                },
+                "continueButton": "Continue"
+            },
             "zenIdIntro": {
                 "title": "Now let’s verify your identity",
                 "bullets": [
@@ -83,6 +113,39 @@
                     },
                     "documentNumber": {
                         "label": "Document Number"
+                    }
+                },
+                "documentScan": {
+                    "info": {
+                        "idFrontTitle": "Take a photo of the front side of your ID card",
+                        "idBackTitle": "Take a photo of the back side of your ID card",
+                        "detail": "Make sure that you are taking a photo of",
+                        "bullets": [
+                            {
+                                "title": "the right side of a valid document in landscape mode",
+                                "icon": "idCardFill"
+                            },
+                            {
+                                "title": "under good lighting, legible and without glare.",
+                                "icon": "lightBulbOnFill"
+                            }
+                        ],
+                        "primaryButton": "Proceed"
+                    },
+                    "takePhoto": {
+                        "takePhoto": "Take a photo",
+                        "idFrontTitle": "Front side of the ID card",
+                        "idBackTitle": "Back side of the ID card",
+                        "reviewTitle": "Is everything legible?",
+                        "tooltip": "Clear, legible and without glare"
+                    },
+                    "upload": {
+                        "title": "Processing uploaded document, just a moment",
+                        "takeAgainButton": "Try again",
+                        "cancelButton": "Try later",
+                        "branchesButton": "Branches and ATMs",
+                        "error": "Our apologies, something went wrong.",
+                        "noBirthNumberError": "Your document does not include a Czech birth number, so we cannot continue online. Please visit one of our branches."
                     }
                 },
                 "primaryButton": "Everything looks right",

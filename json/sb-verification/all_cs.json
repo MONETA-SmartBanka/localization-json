@@ -26,6 +26,36 @@
             }
         },
         "scenes": {
+            "pinCreate": {
+                "title": "Vytvořte si PIN pro přihlašování do aplikace",
+                "help": "Zvolte 4 až 8 číslic. Pro větší bezpečí doporučujeme min. 6.",
+                "validatePinError": "Zadaný pin se neshoduje",
+                "strength": {
+                    "short": "PIN je příliš krátký 😞",
+                    "weak": "PIN není moc bezpečný, doporučujeme jiný 😐",
+                    "strong": "Tento PIN je OK 😌",
+                    "extraStrong": "Tento PIN je skvělý 👍"
+                },
+                "verify": {
+                    "title": "Zopakujte PIN"
+                },
+                "activationError": {
+                    "title": "Chyba",
+                    "activationError": "Zadaná aktivace zřejmě není platná. Ověřte prosím, zda jste ji zadali správně.",
+                    "unknownError": "Stala se neznámá chyba. Prosím opakujte akci znovu a případně nás kontaktujte."
+                },
+                "biometry": {
+                    "title": "Přihlašovat bezpečněji",
+                    "subtitle": "Otiskem prstu nebo skenem obličeje, umožňuje-li to Váš telefon.",
+                    "toggleTitle": "Potvrzovat také platby",
+                    "info": "Přečtěte si, jak funguje <a href=\"https://www.moneta.cz/documents/20143/11740746/mmb-smart-banka-popis-mechanismu-zabezpeceni-pomoci-biometrickych-dat.pdf\">zabezpečení Smart Banky pomocí biometrických dat</a>",
+                    "action": {
+                        "use": "Ano",
+                        "notUse": "Zatím ne"
+                    }
+                },
+                "continueButton": "Pokračovat"
+            },
             "zenIdIntro": {
                 "title": "Teď ověříme Vaši totožnost",
                 "bullets": [
@@ -83,6 +113,39 @@
                     },
                     "documentNumber": {
                         "label": "Číslo dokladu"
+                    }
+                },
+                "documentScan": {
+                    "info": {
+                        "idFrontTitle": "Nyní vyfotíte přední stranu občanského průkazu",
+                        "idBackTitle": "Nyní vyfotíte zadní stranu občanského průkazu",
+                        "detail": "Ujistěte se, že fotíte",
+                        "bullets": [
+                            {
+                                "title": "Platný doklad ze správné strany a na šířku",
+                                "icon": "idCardFill"
+                            },
+                            {
+                                "title": "Za dobrého osvětlení, ostře, nerozmazaně a bez odlesků",
+                                "icon": "lightBulbOnFill"
+                            }
+                        ],
+                        "primaryButton": "Pokračovat k focení"
+                    },
+                    "takePhoto": {
+                        "takePhoto": "Vyfotit",
+                        "idFrontTitle": "Přední strana občanského průkazu",
+                        "idBackTitle": "Zadní strana občanského průkazu",
+                        "reviewTitle": "Je vše dobře viditelné?",
+                        "tooltip": "Ostrá, bez odlesků a čitelná"
+                    },
+                    "upload": {
+                        "title": "Zpracováváme vyfocený doklad, hned to bude",
+                        "takeAgainButton": "Vyfotit znovu",
+                        "cancelButton": "Zkusit příště",
+                        "branchesButton": "Pobočky a bankomaty",
+                        "error": "Omlouváme se, tak tohle nevyšlo",
+                        "noBirthNumberError": "Na Vašem dokladu není uvedeno rodné číslo, proto nemůžeme pokračovat online. Zastavte se prosím za námi na pobočce."
                     }
                 },
                 "primaryButton": "Vše souhlasí, pokračovat",
