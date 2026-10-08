@@ -1706,7 +1706,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "showHelpSecondaryButton": true,
                             "requiredQuestion": {
-                                "title": "Musí být vaše investice environmentálně udržitelné?",
+                                "title": "Máte preference v oblasti environmentálně udržitelných investic?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
                                 "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1765,7 +1765,7 @@
                             "minAnswersErrMessage": "Vyberte prosím jednu možnost",
                             "showHelpSecondaryButton": true,
                             "requiredQuestion": {
-                                "title": "Musí být vaše investice udržitelné?",
+                                "title": "Máte preference v oblasti udržitelných investic?",
                                 "maxAnswers": 1,
                                 "minAnswers": 1,
                                 "maxAnswersErrMessage": "Vyberte 1 odpověď",
@@ -1932,7 +1932,7 @@
                             ]
                         },
                         {
-                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat?",
+                            "title": "Jakou část svého finančního majetku chcete ročně prostřednictvím banky investovat? Včetně úspor, vkladů, investic a cenných papírů.",
                             "detail": "Včetně úspor, vkladů, investic a cenných papírů.",
                             "id": 20,
                             "maxAnswers": 1,
@@ -1958,7 +1958,7 @@
                             ]
                         },
                         {
-                            "title": "Jaká je přibližná hodnota vašeho finančního majetku?",
+                            "title": "Jaká je přibližná hodnota vašeho finančního majetku? Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "detail": "Jedná se o váš osobní majetek, nebo majetek na kterém máte podíl. Započítejte i úspory, vklady, investice a cenné papíry.",
                             "id": 21,
                             "maxAnswers": 1,
@@ -1984,7 +1984,7 @@
                             ]
                         },
                         {
-                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků?",
+                            "title": "Jaký je vztah mezi vašimi příjmy a pravidelnými splátkami úvěrů a jiných finančních závazků? Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.Závazky tvoří:",
                             "detail": "Závazky myslíme například hypotéku, pravidelné náklady na bydlení nebo úvěry. Nezahrnujte platby za základní životní potřeby jako jídlo a oblečení.",
                             "hint": "Závazky tvoří:",
                             "id": 22,
@@ -2410,58 +2410,66 @@
             "secondaryButton": "Všechny produkty"
         },
         "profilesHelp": {
-            "title": "Pojďme se bavit o riziku",
+            "title": "O riziku",
             "profiles": [
                 {
                     "title": "Krátkodobé investice, <br>stabilnější produkty",
                     "numeros": [1, 2],
-                    "headline": "\"Investuji opatrně. Hledám rychlou návratnost za cenu menšího výkonu.\"",
-                    "detail": "Velmi konzervativní produkty bývají založené na peněžním trhu a krátkodobých dluhopisech. Nízké riziko u nich přináší výnosy mírně vyšší než obvyklý spořicí účet.",
-                    "informations": "<b>Kolísání hodnoty:</b> Nízké (0,5–2 %)<br><b>Investiční horizont:</b> 1–3 roky",
-                    "informations_ib_1_a": "Kolísání hodnoty:",
-                    "informations_ib_1_b": "Nízké (0,5–2 %)",
-                    "informations_ib_2_a": "Investiční horizont:",
-                    "informations_ib_2_b": "1–3 roky",
+                    "headline": "Investuji opatrně a hledám rychlou návratnost za cenu menšího výkonu",
+                    "detail": "Tomuto investičnímu profilu odpovídají konzervativní produkty založené na peněžním trhu a krátkodobých dluhopisech. Jejich nízké riziko přináší mírně vyšší výnosy než běžný spořicí účet.",
+                    "informations": "<b>Kolísání hodnoty:</b> Nízké (0,5-2 %)<br><b>Investiční horizont:</b> 1-3 roky",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_2_a": "Kolísání hodnoty:",
+                    "informations_ib_2_b": "Nízké (0,5-2 %)",
+                    "informations_ib_3_a": "Investiční horizont:",
+                    "informations_ib_3_b": "1-3 roky",
                     "title_ib": "Krátkodobé investice, stabilnější produkty"
                 },
                 {
                     "title": "Střednědobé investice,<br>vyvážené produkty",
                     "numeros": [3],
-                    "headline": "\"Nespěchám. Chci si trochu přilepšit a zvládnu špetku nejistoty.\"",
-                    "detail": "Většinou jde o konzervativní, dluhopisové nebo smíšené fondy s velkým podílem dluhopisů. Výměnou za trochu času a důvěry dokáží přinést zajímavé zhodnocení.",
-                    "informations": "<b>Kolísání hodnoty:</b> Střední (0,5–5 %)<br><b>Investiční horizont:</b> 3–5 let",
-                    "informations_ib_1_a": "Kolísání hodnoty:",
-                    "informations_ib_1_b": "Střední (0,5–5 %)",
-                    "informations_ib_2_a": "Investiční horizont:",
-                    "informations_ib_2_b": "3–5 let",
+                    "headline": "Nespěchám. Chci si přilepšit a zvládnu špetku nejistoty",
+                    "detail": "Tomuto investičnímu profilu odpovídají konzervativní produkty s dluhopisy a smíšené produkty s velkým podílem dluhopisů. Za poměrně krátkou dobu přináší zajímavé zhodnocení, zpravidla vyšší než na spořicím účtu.",
+                    "informations": "<b>Kolísání hodnoty:</b> Střední (0,5-5 %)<br><b>Investiční horizont:</b> 3-5 let",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_2_a": "Kolísání hodnoty:",
+                    "informations_ib_2_b": "Střední (0,5-5 %)",
+                    "informations_ib_3_a": "Investiční horizont:",
+                    "informations_ib_3_b": "3-5 let",
                     "title_ib": "Střednědobé investice, vyvážené produkty"
                 },
                 {
                     "title": "Dlouhodobé investice,<br>kolísavější produkty",
                     "numeros": [4],
-                    "headline": "\"Vím, jak to chodí. Nenechám se rozhodit a počkám na slušný výnos.\"",
-                    "detail": "Smíšené fondy, ve kterých mírně převažují akcie. Jejich hodnota navzdory výkyvům časem roste. Dynamické fondy se tak vyplatí investorům, kteří je nechají pár let pracovat.",
-                    "informations": "<b>Kolísání hodnoty:</b> Vyšší (5–10 %)<br><b>Investiční horizont:</b> 5 let",
-                    "informations_ib_1_a": "Kolísání hodnoty:",
-                    "informations_ib_1_b": "Vyšší (5–10 %)",
-                    "informations_ib_2_a": "Investiční horizont:",
-                    "informations_ib_2_b": "5 let",
+                    "headline": "Vím, jak to chodí. Nenechám se rozhodit a počkám na slušný výnos",
+                    "detail": "Tomuto investičnímu profilu odpovídají dynamické, smíšené produkty s větší částí akcií. Patří sem také čistě akciové produkty, jejichž hodnota navzdory výkyvům v čase roste. Tyto produkty jsou vhodné pro všechny, kteří je nechají pár let pracovat.",
+                    "informations": "<b>Kolísání hodnoty:</b> Vyšší (5-10 %)<br><b>Investiční horizont:</b> 5 let",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_2_a": "Kolísání hodnoty:",
+                    "informations_ib_2_b": "Vyšší (5-10 %)",
+                    "informations_ib_3_a": "Investiční horizont:",
+                    "informations_ib_3_b": "5 let",
                     "title_ib": "Dlouhodobé investice, kolísavější produkty"
                 },
                 {
                     "title": "Dlouhodobé investice,<br>kolísavé produkty",
                     "numeros": [5, 6, 7],
-                    "headline": "\"Investuji odvážně. I když je to někdy těžké, vím, že trpělivost růže přináší.\"",
-                    "detail": "Velmi dynamické, akciové produkty svou rizikovost vyvažují velkou návratností. Vhodné bývají pro mladé nebo zkušené investory, kteří si mohou dovolit vytrvat během období poklesu.",
+                    "headline": "Investuji odvážně. I když to může být někdy těžké, vím, že trpělivost růže přináší",
+                    "detail": "Tomuto investičnímu profilu odpovídají dynamické produkty s čistě akciovými investicemi, jejichž rizikovost je vyvážena velkou návratností. Často je volí lidé se zkušenostmi s investováním, kteří si mohou dovolit vytrvat během období poklesu.",
                     "informations": "<b>Kolísání hodnoty:</b> Vysoké (15 a více %)<br><b>Investiční horizont:</b> 5 a více let",
-                    "informations_ib_1_a": "Kolísání hodnoty:",
-                    "informations_ib_1_b": "Vysoké (15 a více %)",
-                    "informations_ib_2_a": "Investiční horizont:",
-                    "informations_ib_2_b": "5 a více let",
+                    "informations_ib_1_a": "Odpovídající produkty:",
+                    "informations_ib_1_b": "Podílové fondy, investiční certifikáty",
+                    "informations_ib_2_a": "Kolísání hodnoty:",
+                    "informations_ib_2_b": "Vysoké (15 a více %)",
+                    "informations_ib_3_a": "Investiční horizont:",
+                    "informations_ib_3_b": "5 a více let",
                     "title_ib": "Dlouhodobé investice, kolísavé produkty"
                 }
             ],
-            "primaryButton": "Zjistit můj investiční profil",
+            "primaryButton": "Aktualizovat investiční profil",
             "alternativePrimaryButton": "Aktualizovat investiční profil"
         },
         "fundDetail": {
@@ -2628,6 +2636,8 @@
             "payOutToAccount": "Vyplatit na účet",
             "sellShare": "Prodat kusy v hodnotě",
             "actualValue": "Aktuální hodnota",
+            "shareValue": "Hodnota podílů v ",
+            "invested": "Aktuální hodnota",
             "sellFee": "Poplatek při prodeji",
             "sellBlock": "Blokováno",
             "sellExact": "Prodat v ",
@@ -2636,7 +2646,7 @@
             "sellShares": "{0} podílů",
             "availableBalance": "Disponibilní zůstatek",
             "approximatePrice": "Přibližná hodnota: {0}",
-            "sellAlert": "Prodáváte {{shares}} podílů. K dnešnímu dni jejich hodnota odpovídá {{amount}}\u00a0{{currency}}. <b>Výsledný zisk z prodeje se může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
+            "sellAlert": "Prodáváte {{shares}} podílů. K dnešnímu dni jejich hodnota odpovídá {{amount}} {{currency}}. <b>Výsledný zisk z prodeje se může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
             "termAlert": "Chystáte se prodávat <b>dříve</b>, než doporučuje investiční horizont fondu. Je možné, že Váš dnešní prodej bude méně výhodný než prodej v doporučeném termínu. Pro více informací kontaktujte investičního specialistu ve vašem regionu.",
             "primaryButton": "Prodat",
             "shareValue": "Hodnota podílů v ",
@@ -9345,8 +9355,11 @@
             "introAdvisoryDescription": "Vyzkoušejte investiční poradenství",
             "introOr": "Už vím do čeho",
             "introInvestments": "Investiční produkty",
+            "introInvestmentsDescription": "Vybírejte z 40+ investičních produktů.",
             "introDIP": "DIP",
+            "introDIPDescription": "Investování a daňové úspory v jednom.",
             "listTitle": "Nabídka investičních produktů",
+            "listTitleDIP": "Nabídka DIP",
             "tabInvestments": "Podílové fondy",
             "tabDIP": "Dlouhodobý investiční produkt",
             "introInvestmentsDescription": "Vybírejte z 40+ investičních produktů.",
@@ -9362,6 +9375,7 @@
             "tabDIP": "DIP",
             "tabAdvisory": "Fondy z inv.poradenství",
             "lessSuitableTitle": "Fondy pro vás méně vhodné",
+            "notSuitableTitle": "Fondy pro vás nevhodné",
             "advisoryCardButton": "Jaký fond je pro mě ten pravý?",
             "advisoryCardDescription": "Vyzkoušejte investiční poradenství",
             "notSuitableTitle": "Fondy pro vás nevhodné"
@@ -9372,9 +9386,16 @@
             "investButton": "Investovat",
             "sellButton": "Prodat",
             "moreButton": "Další",
+            "howItWorksButton": "Jak fungují investice?",
             "sellInProgress": "Zpracováváme prodej",
             "buyInProgress": "Zpracováváme nákup",
+            "totalInvested": "Investováno celkem",
+            "profit": "Výnos",
+            "fundsTitle": "Investováno ve fondech",
+            "certificatesTitle": "Investováno v certifikátech",
             "buySellInProgress": "Zpracováváme nákup a prodej",
+            "fromBeginning": "Od začátku",
+            "didNotInvest": "Nezainvestováno",
             "funds": {
                 "title": "Investiční produkty",
                 "noProductNote": "Ať peníze pracují za vás",
@@ -9826,6 +9847,32 @@
             "primaryButton": "Rozumím, pokračovat k podpisu",
             "secondaryButton": "Nesouhlasím"
         },
+        "noEuroAccountVictory": {
+            "title": "K nákupu a prodeji těchto fondů potřebujete eurový účet",
+            "detail": "Sjednejte si ho během chvilky přímo v aplikaci.",
+            "primaryButton": "Sjednat EUR účet",
+            "secondaryButton": "Zpět",
+            "benefitsTitle": "Výhody eurového účtu",
+            "benefits": [
+                "Online směnárna s výhodnými kurzy",
+                "Karta s výběry z bankomatů zdarma",
+                "Vedení účtu zdarma"
+            ]
+        },
+        "euroAccountCreatedVictory": {
+            "title": "Hotovo, Váš EUR účet je připravený. Pošlete si na něj peníze a začněte investovat",
+            "detail": "Pokud jste žádali o fyzickou kartu, přijde vám poštou do pěti pracovních dní.\n\nKartu si také můžete kdykoliv přidat pro placení mobilem a okamžitě s ní začít platit.",
+            "primaryButton": "Vložit peníze na EUR účet"
+        },
+        "eurAccountHoldVictory": {
+            "title": "Váš účet bude k dispozici následující pracovní den ráno",
+            "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "primaryButton": "Zpět na investice"
+        },
+        "paymentToEurAccountVictory": {
+            "title": "Platba byla odeslána",
+            "primaryButton": "Zpět na Přehled investic"
+        },
         "advisoryDisagree": {
             "title": "Bez souhlasu to bohužel nepůjde...",
             "detail": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejblížší pobočku.",
@@ -9847,6 +9894,7 @@
         },
         "list": {
             "investmentTitle": "Investice {0}",
+            "investmentProductsTitle": "Investiční produkty",
             "investmentTitleV2": {
                 "title": "Hodnota investičních produktů\npřevedená do zvolené měny",
                 "investmentReturn": "{0} • Zhodnocení investic"
@@ -9895,6 +9943,9 @@
                 "investedTotal": "Investováno celkem",
                 "yield": "Výnos",
                 "fundsTitle": "Investováno ve fondech",
+                "certificatesTitle": "Investováno v certifikátech",
+                "singleCurrencyTitle": "Celková hodnota investic",
+                "multiCurrencyTitle": "Celková hodnota investic\npřevedená do zvolené měny",
                 "unprocessedTitle": "Zpracovávané",
                 "buyFundLoading": "Zpracováváme nákup. Vaši investici aktualizujeme pravděpodobně {date}.",
                 "sellFundLoading": "Zpracováváme prodej. Vaši investici aktualizujeme pravděpodobně {date}.",
@@ -9981,8 +10032,8 @@
             "thisMonthTransactionGroupTitle": "Tento měsíc",
             "filterDirectionAll": "Vše",
             "filterDirectionIncoming": "Nákup",
-            "filterDirectionOutgoing": "Prodej",
-            "footer": "Nebyly nalezeny žádné další platby"
+            "footer": "Nebyly nalezeny žádné další platby",
+            "filterDirectionOutgoing": "Prodej"
         },
         "dipPromo": {
             "title": "Lepší penze s Dlouhodobým investičním produktem",
@@ -10160,6 +10211,136 @@
                 "branch": "Naštivte nás<br>na pobočce",
                 "primaryButton": "Zpět",
                 "secondaryButton": "Ukončit výběr"
+            }
+        },
+        "currencySelector": {
+            "title": "Celková hodnota portfolia",
+            "description": "Jde o hodnotu Vašich fondů a certifikátů přepočtenou do Vámi zvolené měny podle aktuálního kurzu.",
+            "currencies": [
+                {
+                    "id": "CZK",
+                    "title": "Kč",
+                    "value": "Česká koruna"
+                },
+                {
+                    "id": "EUR",
+                    "title": "EUR",
+                    "value": "Euro"
+                }
+            ]
+        },
+        "filter": {
+            "title": "Filtrování produktů",
+            "searchPlaceholder": "Název produktu",
+            "filterButton": "Filtr",
+            "applyButton": "Filtrovat produkty",
+            "clearButton": "Zrušit filtry",
+            "risk": {
+                "id": "risk",
+                "title": "Rizikovost",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "low",
+                        "text": "Nízká"
+                    },
+                    {
+                        "id": "medium",
+                        "text": "Střední"
+                    },
+                    {
+                        "id": "high",
+                        "text": "Vysoká"
+                    }
+                ]
+            },
+            "currency": {
+                "id": "currency",
+                "title": "Měna",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "CZK",
+                        "text": "CZK"
+                    },
+                    {
+                        "id": "EUR",
+                        "text": "EUR"
+                    }
+                ]
+            },
+            "investmentLength": {
+                "id": "recommendedLength",
+                "title": "Doporučená délka",
+                "options": [
+                    {
+                        "id": 0,
+                        "text": "Vše"
+                    },
+                    {
+                        "id": 1,
+                        "text": "1-2 roky"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3-4 roky"
+                    },
+                    {
+                        "id": 5,
+                        "text": "5-7 let"
+                    },
+                    {
+                        "id": 8,
+                        "text": "8 a více let"
+                    }
+                ]
+            },
+            "productType": {
+                "id": "productType",
+                "title": "Typ produktu",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "SHORT_TERM_BOND",
+                        "text": "Krátkodobé dluhopisy"
+                    },
+                    {
+                        "id": "BOND",
+                        "text": "Dluhopisový"
+                    },
+                    {
+                        "id": "STOCKS",
+                        "text": "Akciový"
+                    },
+                    {
+                        "id": "REAL_ESTATE",
+                        "text": "Realitní"
+                    },
+                    {
+                        "id": "MIX",
+                        "text": "Smíšený"
+                    }
+                ]
+            },
+            "issuer": {
+                "id": "issuer",
+                "title": "Společnost",
+                "sheetTitle": "Vyberte společnost",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    }
+                ]
             }
         },
         "dipOnboarding": {
