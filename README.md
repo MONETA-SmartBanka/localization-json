@@ -30,3 +30,19 @@ sh sync
 ```
 
 A GitHub Action also runs this sync automatically on working days at 08:00 UTC and opens or updates a PR titled `Sync from TST1` when it detects changes.
+
+# Credit-card bullet copy
+
+The redesigned credit-card `scenes.intro` and Express v2 (`/express/v2`)
+`responseObject.scenes.creditCard`
+support an additive `bulletItems` array. Each item contains `text` and an optional
+`description` for the smaller grey detail below it. Consumers may also accept `title`
+as the main-text alias. Keep `"description": null` when no detail is displayed so
+copy can be added again without changing the JSON structure.
+
+Consumers supporting this format should prefer `bulletItems` and render
+`bulletsHeadline` above the Express list. Older consumers can continue using the
+credit-card `bullets` string array or Express `detail` text. Keep those fallback
+values in sync with the structured copy; do not change their types. Adding,
+editing, or removing structured items and descriptions requires no application
+change in consumers supporting this format.
