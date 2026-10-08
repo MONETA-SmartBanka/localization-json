@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		560C1CF4305198890062CFF6 /* all_cs.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_cs.json; sourceTree = "<group>"; };
+		560C1CF5305198890062CFF6 /* all_en.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = all_en.json; sourceTree = "<group>"; };
+		560C1D013052A4410062CFF6 /* property_insurance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = property_insurance.png; sourceTree = "<group>"; };
+		560C1D023052A4410062CFF6 /* repayment_protection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = repayment_protection.png; sourceTree = "<group>"; };
 		56144BAA2F6C3287009463E1 /* Design_Image_1_CZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design_Image_1_CZ.png; sourceTree = "<group>"; };
 		56144BAB2F6C3287009463E1 /* Design_Image_1_ENG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design_Image_1_ENG.png; sourceTree = "<group>"; };
 		56144BAC2F6C3287009463E1 /* Design_Image_2_CZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Design_Image_2_CZ.png; sourceTree = "<group>"; };
@@ -2732,6 +2736,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		560C1CF6305198890062CFF6 /* refix */ = {
+			isa = PBXGroup;
+			children = (
+				560C1CF4305198890062CFF6 /* all_cs.json */,
+				560C1CF5305198890062CFF6 /* all_en.json */,
+			);
+			path = refix;
+			sourceTree = "<group>";
+		};
 		56144BC42F6C3287009463E1 /* 1_sada */ = {
 			isa = PBXGroup;
 			children = (
@@ -5471,6 +5484,8 @@
 			children = (
 				561455062F6C3287009463E1 /* headline.png */,
 				561455072F6C3287009463E1 /* headline_refinanso.png */,
+				560C1D013052A4410062CFF6 /* property_insurance.png */,
+				560C1D023052A4410062CFF6 /* repayment_protection.png */,
 			);
 			path = mortgage;
 			sourceTree = "<group>";
@@ -5852,8 +5867,6 @@
 		5669F5CD2FC6FABD0027B118 /* v2 */ = {
 			isa = PBXGroup;
 			children = (
-				5669F5CB2FC6FABD0027B118 /* all_cs.json */,
-				5669F5CC2FC6FABD0027B118 /* all_en.json */,
 			);
 			path = v2;
 			sourceTree = "<group>";
@@ -6451,6 +6464,7 @@
 				8F553E1E2DCB8C24002E735E /* calculator */,
 				8F553E212DCB8C24002E735E /* refinanso */,
 				8F553E242DCB8C24002E735E /* v2 */,
+				560C1CF6305198890062CFF6 /* refix */,
 				8F553E252DCB8C24002E735E /* all_cs.json */,
 				8F553E262DCB8C24002E735E /* all_en.json */,
 			);

@@ -551,6 +551,28 @@
                     "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
                     "primaryButton": "Rozumím a souhlasím",
                     "secondaryButton": "Nesouhlasím"
+                },
+                "verifyMobileKey": {
+                    "title": "Ověřte se kódem, který jsme Vám poslali v SMS",
+                    "titleWithPhone": "Ověřte se kódem, který jsme Vám poslali v SMS na číslo {phoneNumber}",
+                    "inputLabel": "SMS kód",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Poslat SMS znovu",
+                    "noPhoneButton": "Tohle číslo nemám",
+                    "errors": {
+                        "SMS_CANNOT_SEND": "SMS se nepodařilo odeslat, prosím zkuste to znovu.",
+                        "SMS_FAILED": "SMS se nepodařilo odeslat. Nechte si poslat novou.",
+                        "SMS_LIMIT_EXCEEDED": "Překročili jste maximální počet odeslaných SMS. Začněte prosím proces od začátku.",
+                        "BAD_MK": "Zadali jste špatný kód, opište ho prosím ještě jednou.",
+                        "MK_EXPIRED": "SMS kód vypršel. Nechte si poslat nový.",
+                        "CANNOT_VERIFY": "Nepodařilo se nám ověřit SMS kód. Zastavte se prosím za námi na pobočku."
+                    }
+                },
+                "noPhoneAccess": {
+                    "title": "Nemáte přístup k tomuto telefonnímu číslu?",
+                    "detail": "Ověřovací kód pro spárování účtu posíláme na telefonní číslo, které jste uvedli při založení účtu.\n\nPokud už k tomuto číslu nemáte přístup, můžete si ho změnit na pobočce nebo zvolit jiný způsob párování.",
+                    "primaryButton": "Vybrat jiný způsob párování",
+                    "secondaryButton": "Zpět"
                 }
             }
         }

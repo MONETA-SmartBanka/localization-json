@@ -1,0 +1,94 @@
+{
+    "status": "OK",
+    "responseObject": {
+        "scenes": {
+            "intro": {
+                "title": "Create a PIN you'll never forget",
+                "image": "/cbl_images/pin-setup/intro.png",
+                "bullets": [
+                    {
+                        "icon": "tickFill",
+                        "title": "Set a card PIN that makes sense only to you."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "Don't write it down anywhere; keep it in your head."
+                    },
+                    {
+                        "icon": "tickFill",
+                        "title": "If you forget it, you can always view it in Smart Banka."
+                    }
+                ],
+                "primaryButton": "Change card PIN",
+                "secondaryButton": "Continue to view PIN"
+            },
+            "createPin": {
+                "title": "Create a new card PIN",
+                "description": "Choose one that won't be easy to guess.",
+                "primaryButton": "Continue"
+            },
+            "confirmPin": {
+                "title": "Confirm your new PIN",
+                "primaryButton": "Confirm",
+                "errorTitle": "Enter your PIN again",
+                "errorDescription": "The PIN codes don't match. Please enter it again."
+            },
+            "sign": {
+                "title": "Confirm this change with your app passcode"
+            },
+            "busyLoader": {
+                "title": "Please wait, we are checking everything",
+                "detail": "We will continue shortly."
+            },
+            "victoryVirtual": {
+                "title": "Done!",
+                "description": "Your card PIN has been changed",
+                "primaryButton": "Back to Overview"
+            },
+            "victoryPlastic": {
+                "title": "Your PIN has been changed.",
+                "description": "Now activate it by making a payment with your physical card",
+                "bullets": [
+                    {
+                        "icon": "card",
+                        "title": "For your next transaction, <b>insert the card into a payment terminal</b> or <b>ATM</b>."
+                    },
+                    {
+                        "icon": "dialHandFill",
+                        "title": "Complete the transaction by entering your <b>new PIN</b>."
+                    }
+                ],
+                "primaryButton": "Back to Overview"
+            }
+        },
+        "errorScreens": {
+            "api": {
+                "title": "Something went wrong",
+                "detail": "We're sorry, changing your PIN is currently unavailable.\nPlease try again later.",
+                "primaryButton": "Back to Overview"
+            },
+            "ineligibilityScreens": {
+                "CARD_BLOCKED": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "Your card is blocked. You will be able to change it once the card is unblocked.",
+                    "primaryButton": "Back to Overview"
+                },
+                "CARD_NEAR_EXPIRY": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "Your card is expiring soon. You will be able to change it after your new card is delivered.",
+                    "primaryButton": "Back to Overview"
+                },
+                "LIMIT_REACHED": {
+                    "title": "Unfortunately, the PIN cannot be changed",
+                    "detail": "You won't be able to change your PIN today because you've reached your daily limit. Please try again tomorrow.",
+                    "primaryButton": "Back to Overview"
+                },
+                "FIRST_VISION_UNAVAILABLE": {
+                    "title": "Something went wrong",
+                    "detail": "We're sorry, changing your PIN is currently unavailable.\nPlease try again later.",
+                    "primaryButton": "Back to Overview"
+                }
+            }
+        }
+    }
+}

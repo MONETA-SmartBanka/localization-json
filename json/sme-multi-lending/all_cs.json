@@ -390,7 +390,21 @@
                     "Bezúročné období až {interestFreePeriodDays} dní nejen pro platby, ale i pro výběry z bankomatů"
                 ],
                 "primaryButton": "Pokračovat",
-                "secondaryButton": "Více informací o kartě"
+                "secondaryButton": "Více informací o kartě",
+                "directDebitAccountError": {
+                    "noAccount": {
+                        "title": "Navýšení úvěrového rámce není možné",
+                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu {accountNumber}. Tento účet již neexistuje.\n\nPro navýšení úvěrového rámce je zapotřebí nastavit správný způsob splácení.",
+                        "primaryButton": "Nastavit splácení",
+                        "secondaryButton": "Rozumím"
+                    },
+                    "accountWithoutRight": {
+                        "title": "Navýšení úvěrového rámce není možné",
+                        "detail": "Na Vaší podnikatelské kreditní kartě máte nastavené jako způsob spláceni 100%/ minimální inkaso z účtu {accountNumber}. K tomuto účtu nemáte dostatečné oprávnění pro navýšení inkasa pro řádné splácení.\n\nKontaktujte prosím majitele účtu pro přiřazení oprávnění, popřípadě změňte typ splácení své kreditní karty.",
+                        "primaryButton": "Nastavit splácení",
+                        "secondaryButton": "Rozumím"
+                    }
+                }
             },
             "flexiClip": {
                 "title": "Navýšení kontokorentu",

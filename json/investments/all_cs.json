@@ -2648,7 +2648,9 @@
             "approximatePrice": "Přibližná hodnota: {0}",
             "sellAlert": "Prodáváte {{shares}} podílů. K dnešnímu dni jejich hodnota odpovídá {{amount}} {{currency}}. <b>Výsledný zisk z prodeje se může lišit, protože vypořádání obchodu proběhne v několika příštích dnech za aktuální hodnotu na trhu.</b>",
             "termAlert": "Chystáte se prodávat <b>dříve</b>, než doporučuje investiční horizont fondu. Je možné, že Váš dnešní prodej bude méně výhodný než prodej v doporučeném termínu. Pro více informací kontaktujte investičního specialistu ve vašem regionu.",
-            "primaryButton": "Prodat"
+            "primaryButton": "Prodat",
+            "shareValue": "Hodnota podílů v ",
+            "invested": "Aktuální hodnota"
         },
         "sellVictory": {
             "title": "Příkaz k prodeji zpracováváme",
@@ -5313,6 +5315,168 @@
                                 "info": {
                                     "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
                                     "detail": "Fond není vhodný pro klienty s investičním horizontem do 1 roku."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "XS3487954144",
+                    "featuredName": "Garantovaný Certifikát Multi Asset Catapult • CZK",
+                    "detail": "Certifikát garantuje při dodržení splatnosti výplatu 100 % investované částky po odečtení vstupního poplatku. Certifikát může být ve třetím roce automaticky předčasně splacen, pokud bude hodnota podkladového indexu v rozhodný den alespoň na úrovni 100 % jeho počáteční hodnoty. Investor obdrží 100 % jmenovité hodnoty certifikátu a výnos 33 %. Klient se podílí na vývoji indexu BNP Paribas Multi Asset Diversified X. Tento index představuje diverzifikované multi-asset portfolio složené z devíti podkladových složek z oblasti akcií, dluhopisů a komodit s expozicí vůči trhům Spojených států amerických, Evropy a Japonska. Index každý den vyhodnocuje různé kombinace jednotlivých složek a vybírá portfolio s nejvyšší historickou výkonností za posledních 12 měsíců při cílové volatilitě 5 %. Součástí jeho konstrukce je také mechanismus řízení trendového rizika, který pomáhá omezovat dopady nepříznivého vývoje na finančních trzích, nezaručuje však ochranu před ztrátou ani budoucí výkonnost indexu. Pokud nedojde k předčasnému splacení prostřednictvím autocallu, klient při splatnosti získá zpět 100 % jmenovité hodnoty certifikátu a navíc se bude podílet na růstu indexu s participací až 400 % kladného zhodnocení podkladového indexu, v souladu s emisními podmínkami. Při prodeji nebo zpětném odkupu certifikátu před jeho řádnou splatností není ochrana jmenovité hodnoty zaručena. Aktuální tržní hodnota certifikátu může být nižší než jeho jmenovitá hodnota a investor může utrpět ztrátu. Ochrana jmenovité hodnoty se uplatní pouze při automatickém předčasném splacení nebo při držení certifikátu do řádné splatnosti, vždy za předpokladu řádného splnění závazků emitenta. Měnové riziko plynoucí z rozdílu mezi měnou certifikátu a měnou podkladového indexu je zajištěno. Zajištění měnového rizika neodstraňuje ostatní rizika spojená s investicí. Certifikát není vkladem a nepodléhá pojištění vkladů. V případě platební neschopnosti emitenta může investor utrpět ztrátu části nebo celé investice. Měnové riziko je zajištěné.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-brozura",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-kid",
+                    "documents": [
+                        {
+                            "title": "Statut",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-statut"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-brozura"
+                        },
+                        {
+                            "title": "Emisní podmínky",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-emisni-podminky"
+                        },
+                        {
+                            "title": "KID",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmac-kid"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který není schopný nést ztráty."
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient s pokročilými znalostmi investování a zkušenostmi s investováním alespoň 5 let.",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Produkt není vhodný pro klienty se základními znalostmi investování a bez zkušeností.",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Fond není vhodný pro klienty s investičním horizontem do 1 roku."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "isin": "DE000GN3J631",
+                    "featuredName": "Garantovaný Certifikát Multi-Asset Autocall 10 % • CZK",
+                    "detail": "Certifikát garantuje klientovi výplatu 100 % investované částky po odečtení vstupního poplatku při splatnosti. Tato částka je garantována společností Goldman Sachs International (rating A1 od Moody's / A+ od Standard & Poor's / A+ od Fitch). Certifikát umožňuje jednou za rok možnost předčasného splacení, tzv. autocall. V případě spuštění autocallu certifikát v daném roce končí a vyplatí 100 % garantované hodnoty a kupon dle uvedené tabulky výše (viz Více informací). Klient se podílí na vývoji indexu Goldman Sachs Momentum Builder Focus. Index Goldman Sachs Momentum Builder Focus je smíšené portfolio indexů nabízející potencionální expozici v následujících třídách aktiv – americké akcie, akcie rozvinutých trhů, dluhopisy rozvinutých trhů, akcie rozvíjejících se trhů a komodity. Při předčasném odkupu není garantována 100 % ochrana vlastního kapitálu, ta platí jen při autocallu, či ukončení produktu v pátém roce. Měnové riziko je zajištěno.",
+                    "sellFeeValue": "0",
+                    "fundReportUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-brozura",
+                    "kiidUrl": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-kid",
+                    "documents": [
+                        {
+                            "title": "Statut",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-statut"
+                        },
+                        {
+                            "title": "Brožura",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-brozura"
+                        },
+                        {
+                            "title": "Emisní podmínky",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-emisni-podminky"
+                        },
+                        {
+                            "title": "KID",
+                            "url": "https://www.moneta.cz/documents/d/guest/mmb-gcmaa-10-kid"
+                        },
+                        {
+                            "title": "Obchodní podmínky investičních služeb, říjen 2025",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-obchodni-podminky-investicnich-sluzeb.pdf/4df470ff-d503-dfd5-c441-9efd0ad7793e?t=1760428110516"
+                        },
+                        {
+                            "title": "Informace o Garančním fondu obchodníků s cennými papíry | MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-informace-o-garancnim-fondu.pdf"
+                        },
+                        {
+                            "title": "Rámcová smlouva o obstarání koupě nebo prodeje cenných papírů MONETA Money Bank",
+                            "url": "https://www.moneta.cz/documents/20143/11740713/mmb-vzor-ramcova-smlouva-fondy.pdf"
+                        }
+                    ],
+                    "targetMarkets": {
+                        "title": "Cílové trhy",
+                        "values": [
+                            {
+                                "title": "Investiční horizont",
+                                "detail": "5 let a více"
+                            },
+                            {
+                                "title": "Investiční preference",
+                                "detail": "Růst hodnoty investice"
+                            },
+                            {
+                                "title": "Schopnost nést ztráty",
+                                "detail": "Klient, který není schopný nést ztráty."
+                            },
+                            {
+                                "title": "Tolerance rizika",
+                                "detail": "Rizikový stupeň 2",
+                                "info": {
+                                    "title": "Střední výnosy, střední kolísání hodnoty investice."
+                                }
+                            },
+                            {
+                                "title": "Kategorie zákazníka",
+                                "detail": "Neprofesionální"
+                            },
+                            {
+                                "title": "Znalosti a zkušenosti",
+                                "detail": "Klient se znalostmi investování a zkušenostmi s investováním alespoň 2 roky.",
+                                "info": {
+                                    "title": "Zařazení investora vychází z odpovědí na otázky 1 až 6 investičního dotazníku (oblast znalosti a zkušenosti) vyplňovaným před poskytnutím investiční služby spolu s investorem deklarovaným vzděláním a povoláním.\nZákladní = 0 až 7 bodů\nStřední = 8 až 15 bodů\nPokročilý = 16 až 26 bodů."
+                                }
+                            },
+                            {
+                                "title": "Negativní cílový trh",
+                                "detail": "Produkt není vhodný pro klienty se základními znalostmi investování a bez zkušeností.",
+                                "info": {
+                                    "title": "Charakteristika, cíl či potřeba zákazníka neslučitelná s daným investičním produktem.",
+                                    "detail": "Produkt není vhodný s investičním horizontem do jednoho roku."
                                 }
                             }
                         ]
@@ -9197,7 +9361,10 @@
             "listTitle": "Nabídka investičních produktů",
             "listTitleDIP": "Nabídka DIP",
             "tabInvestments": "Podílové fondy",
-            "tabDIP": "Dlouhodobý investiční produkt"
+            "tabDIP": "Dlouhodobý investiční produkt",
+            "introInvestmentsDescription": "Vybírejte z 40+ investičních produktů.",
+            "listTitleDIP": "Nabídka DIP",
+            "introDIPDescription": "Investování a daňové úspory v jednom."
         },
         "aggregationInvestOpportunities": {
             "title": "Investovat",
@@ -9210,7 +9377,8 @@
             "lessSuitableTitle": "Fondy pro vás méně vhodné",
             "notSuitableTitle": "Fondy pro vás nevhodné",
             "advisoryCardButton": "Jaký fond je pro mě ten pravý?",
-            "advisoryCardDescription": "Vyzkoušejte investiční poradenství"
+            "advisoryCardDescription": "Vyzkoušejte investiční poradenství",
+            "notSuitableTitle": "Fondy pro vás nevhodné"
         },
         "aggregationInvestedDashboard": {
             "clientProfile": "Investiční profil",
@@ -9332,7 +9500,14 @@
                 "funds": "Investice",
                 "advisory": "Fondy z investičního poradenství",
                 "dip": "Dlouhodobý investiční produkt"
-            }
+            },
+            "howItWorksButton": "Jak fungují investice?",
+            "didNotInvest": "Nezainvestováno",
+            "fromBeginning": "Od začátku",
+            "totalInvested": "Investováno celkem",
+            "profit": "Výnos",
+            "fundsTitle": "Investováno ve fondech",
+            "certificatesTitle": "Investováno v certifikátech"
         },
         "advisoryFund": {
             "title": "Podle toho, co jste nám o sobě řekli je pro vás nejvhodnější fond:\n<green>{0}</green>",
@@ -9773,7 +9948,10 @@
                 "multiCurrencyTitle": "Celková hodnota investic\npřevedená do zvolené měny",
                 "unprocessedTitle": "Zpracovávané",
                 "buyFundLoading": "Zpracováváme nákup. Vaši investici aktualizujeme pravděpodobně {date}.",
-                "sellFundLoading": "Zpracováváme prodej. Vaši investici aktualizujeme pravděpodobně {date}."
+                "sellFundLoading": "Zpracováváme prodej. Vaši investici aktualizujeme pravděpodobně {date}.",
+                "certificatesTitle": "Investováno v certifikátech",
+                "singleCurrencyTitle": "Celková hodnota investic",
+                "multiCurrencyTitle": "Celková hodnota investic\npřevedená do zvolené měny"
             },
             "funds": {
                 "profiles": [
@@ -9793,7 +9971,8 @@
                 "templates": "Šablony plateb",
                 "standingOrders": "Trvalé příkazy",
                 "paymentDestinationDip": "Na váš účet DIP"
-            }
+            },
+            "investmentProductsTitle": "Investiční produkty"
         },
         "detail": {
             "detail": "{type}, {profile} pro investice na {term} a více let.",
@@ -10302,6 +10481,162 @@
                 "subtitle": "Tento produkt je určený pouze pro fyzické osoby. Pro jeho sjednání se přepněte do osobního profilu.",
                 "primaryButton": "Zpět"
             }
+        },
+        "filter": {
+            "title": "Filtrování produktů",
+            "searchPlaceholder": "Název produktu",
+            "filterButton": "Filtr",
+            "applyButton": "Filtrovat produkty",
+            "clearButton": "Zrušit filtry",
+            "risk": {
+                "id": "risk",
+                "title": "Rizikovost",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "low",
+                        "text": "Nízká"
+                    },
+                    {
+                        "id": "medium",
+                        "text": "Střední"
+                    },
+                    {
+                        "id": "high",
+                        "text": "Vysoká"
+                    }
+                ]
+            },
+            "currency": {
+                "id": "currency",
+                "title": "Měna",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "CZK",
+                        "text": "CZK"
+                    },
+                    {
+                        "id": "EUR",
+                        "text": "EUR"
+                    }
+                ]
+            },
+            "investmentLength": {
+                "id": "recommendedLength",
+                "title": "Doporučená délka",
+                "options": [
+                    {
+                        "id": 0,
+                        "text": "Vše"
+                    },
+                    {
+                        "id": 1,
+                        "text": "1-2 roky"
+                    },
+                    {
+                        "id": 3,
+                        "text": "3-4 roky"
+                    },
+                    {
+                        "id": 5,
+                        "text": "5-7 let"
+                    },
+                    {
+                        "id": 8,
+                        "text": "8 a více let"
+                    }
+                ]
+            },
+            "productType": {
+                "id": "productType",
+                "title": "Typ produktu",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    },
+                    {
+                        "id": "SHORT_TERM_BOND",
+                        "text": "Krátkodobé dluhopisy"
+                    },
+                    {
+                        "id": "BOND",
+                        "text": "Dluhopisový"
+                    },
+                    {
+                        "id": "STOCKS",
+                        "text": "Akciový"
+                    },
+                    {
+                        "id": "REAL_ESTATE",
+                        "text": "Realitní"
+                    },
+                    {
+                        "id": "MIX",
+                        "text": "Smíšený"
+                    }
+                ]
+            },
+            "issuer": {
+                "id": "issuer",
+                "title": "Společnost",
+                "sheetTitle": "Vyberte společnost",
+                "options": [
+                    {
+                        "id": "all",
+                        "text": "Vše"
+                    }
+                ]
+            }
+        },
+        "currencySelector": {
+            "title": "Celková hodnota portfolia",
+            "description": "Jde o hodnotu Vašich fondů a certifikátů přepočtenou do Vámi zvolené měny podle aktuálního kurzu.",
+            "currencies": [
+                {
+                    "id": "CZK",
+                    "title": "Kč",
+                    "value": "Česká koruna"
+                },
+                {
+                    "id": "EUR",
+                    "title": "EUR",
+                    "value": "Euro"
+                }
+            ]
+        },
+        "noEuroAccountVictory": {
+            "title": "K nákupu a prodeji těchto fondů potřebujete eurový účet",
+            "detail": "Sjednejte si ho během chvilky přímo v aplikaci.",
+            "primaryButton": "Sjednat EUR účet",
+            "secondaryButton": "Zpět",
+            "benefitsTitle": "Výhody eurového účtu",
+            "benefits": [
+                "Online směnárna s výhodnými kurzy",
+                "Karta s výběry z bankomatů zdarma",
+                "Vedení účtu zdarma"
+            ]
+        },
+        "euroAccountCreatedVictory": {
+            "title": "Hotovo, Váš EUR účet je připravený. Pošlete si na něj peníze a začněte investovat",
+            "detail": "Pokud jste žádali o fyzickou kartu, přijde vám poštou do pěti pracovních dní.\n\nKartu si také můžete kdykoliv přidat pro placení mobilem a okamžitě s ní začít platit.",
+            "primaryButton": "Vložit peníze na EUR účet"
+        },
+        "eurAccountHoldVictory": {
+            "title": "Váš účet bude k dispozici následující pracovní den ráno",
+            "detail": "Všechny dokumenty naleznete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "primaryButton": "Zpět na investice"
+        },
+        "paymentToEurAccountVictory": {
+            "title": "Platba byla odeslána",
+            "primaryButton": "Zpět na Přehled investic"
         }
     }
 }
