@@ -238,7 +238,7 @@
                 "promoMessages": [
                     {
                         "promoId": "RDC0010001",
-                        "title": "Get 5% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
+                        "title": "Get 10% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
                         "icon": "giftFill"
                     }
                 ],
@@ -486,6 +486,50 @@
                 "detail": "It's almost done. We're preparing your account.",
                 "primaryButton": "Back"
             },
+            "pennyPayment": {
+                "senderAccount": {
+                    "title": "Enter an account held in your name at another Czech bank. Then send a {0} verification payment from it",
+                    "detail": "We’ll use the payment to verify that the account belongs to you.",
+                    "section": "An account at another bank held in your name",
+                    "account": "Account number",
+                    "primaryButton": "Continue"
+                },
+                "paymentInfo": {
+                    "title": "Send a {0} verification payment from your account",
+                    "qrSection": "SCAN THE QR CODE IN YOUR OTHER BANK’S APP",
+                    "shareQr": "QR code with payment details",
+                    "orDivider": "or",
+                    "paymentSection": "PAY USING THESE DETAILS",
+                    "account": "Account number",
+                    "note": "Message for recipient",
+                    "amount": "Amount",
+                    "primaryButton": "I’ve sent the payment",
+                    "unableToSend": "I can’t send the payment"
+                },
+                "unableToSend": {
+                    "title": "Visit us at a branch",
+                    "detail": "If you can’t send the payment, visit one of our branches and we’ll help you open the account.",
+                    "branch": "Visit a branch",
+                    "back": "Back",
+                    "cancelRequest": "Cancel application"
+                },
+                "waiting": {
+                    "title": "Waiting for your verification payment",
+                    "detail": "We’ll send you an SMS as soon as the payment arrives.",
+                    "primaryButton": "Go to overview"
+                },
+                "notArrived": {
+                    "title": "Verification payment still not arrived?",
+                    "detail": "Check the details below or try sending it again.",
+                    "weekendWarning": "Did you send the payment over the weekend? It will be processed on the next business day.",
+                    "checklistTitle": "Make sure the payment:",
+                    "checkSenderAccount": "Was sent from the account you entered.",
+                    "checkOtherBank": "Was sent from your account at another Czech bank.",
+                    "checkNote": "Includes the message for the recipient.",
+                    "primaryButton": "Send the verification payment again",
+                    "branch": "Visit a branch"
+                }
+            },
             "pennyAccount": {
                 "title": "We are almost done! Send us an activation payment of any amount (e.g. 1 CZK) to finish the activation.",
                 "detail": "<b>You can start using your current account after the activation payment.</b> Send any amount which we will then credit back to your account.",
@@ -551,44 +595,6 @@
                     "detail": "You can find all documents in Smart Bank and Internet Bank in the Documents section",
                     "primaryButton": "I understand and agree",
                     "secondaryButton": "Disagree"
-                },
-                "verifyMobileKey": {
-                    "title": "Verify with the code we sent you via SMS",
-                    "titleWithPhone": "Verify with the code we sent you via SMS to {phoneNumber}",
-                    "inputLabel": "SMS code",
-                    "primaryButton": "Continue",
-                    "secondaryButton": "Send SMS again",
-                    "noPhoneButton": "I don't have this number",
-                    "errors": {
-                        "SMS_CANNOT_SEND": "The SMS could not be sent, please try again.",
-                        "SMS_FAILED": "The SMS could not be sent. Request a new one.",
-                        "SMS_LIMIT_EXCEEDED": "You have reached the SMS limit. Please start over from beginning.",
-                        "BAD_MK": "You've entered an invalid code, please try it again.",
-                        "MK_EXPIRED": "The code has expired, send another one.",
-                        "CANNOT_VERIFY": "The code could not be verified. Please visit us at one of our branches."
-                    }
-                },
-                "noPhoneAccess": {
-                    "title": "No access to this phone number?",
-                    "detail": "We send the verification code for account pairing to the phone number you provided when opening the account.\n\nIf you no longer have access to it, you can change it at a branch or choose another pairing method.",
-                    "primaryButton": "Choose another pairing method",
-                    "secondaryButton": "Back"
-                },
-                "verifyPhoneNumber": {
-                    "title": "Please enter the phone number you use to log in to Internet Banka.",
-                    "detail": "We will send a verification SMS code to this number.",
-                    "inputLabel": "Phone",
-                    "primaryButton": "Continue",
-                    "secondaryButton": "I don't know which number to enter",
-                    "errors": {
-                        "INVALID": "This phone number cannot be used, please enter a different one"
-                    }
-                },
-                "unknownPhoneNumber": {
-                    "title": "Not sure which phone number to enter?",
-                    "detail": "Enter the phone number you provided when opening the account. We will send an SMS with a verification code to this number.\n\nIf you don't remember the number, visit our branch, where we will help you find or change it.",
-                    "primaryButton": "Book a branch appointment",
-                    "secondaryButton": "Back"
                 }
             }
         }
