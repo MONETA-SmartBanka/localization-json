@@ -486,6 +486,50 @@
                 "detail": "Už je téměř hotovo. Právě připravujeme váš účet.",
                 "primaryButton": "Zpět"
             },
+            "pennyPayment": {
+                "senderAccount": {
+                    "title": "Zadejte účet vedený na své jméno u jiné české banky. Z něj pak odešlete ověřovací platbu {0}",
+                    "detail": "Platbou ověříme, že účet patří opravdu Vám.",
+                    "section": "Váš účet u jiné banky vedený na Vaše jméno",
+                    "account": "Číslo účtu odesílatele",
+                    "primaryButton": "Pokračovat"
+                },
+                "paymentInfo": {
+                    "title": "Odešlete ověřovací platbu {0} z Vašeho účtu",
+                    "qrSection": "Načtěte QR kód v aplikaci jiné banky",
+                    "shareQr": "QR kód s platebními údaji",
+                    "orDivider": "NEBO",
+                    "paymentSection": "Zaplaťte pomocí těchto platebních údajů",
+                    "account": "Číslo účtu",
+                    "note": "Zpráva pro příjemce",
+                    "amount": "Částka",
+                    "primaryButton": "Platbu jsem odeslal/a",
+                    "unableToSend": "Platbu nemohu odeslat"
+                },
+                "unableToSend": {
+                    "title": "Zastavte se za námi na pobočce",
+                    "detail": "Pokud se Vám nedaří odeslat platbu, zastavte se za námi na pobočce, kde Vám účet pomůžeme založit.",
+                    "branch": "Navštivte nás na pobočce",
+                    "back": "Zpět",
+                    "cancelRequest": "Zrušit žádost"
+                },
+                "waiting": {
+                    "title": "Čekáme na připsání aktivační platby",
+                    "detail": "Hned jak platba dorazí, pošleme Vám SMS zprávu.",
+                    "primaryButton": "Přejít na Přehled"
+                },
+                "notArrived": {
+                    "title": "Aktivační platba ještě nedorazila?",
+                    "detail": "Zkontrolujte všechny údaje, nebo ji zkuste odeslat znovu.",
+                    "weekendWarning": "Odeslali jste platbu o víkendu? Zpracování proběhne nejbližší pracovní den.",
+                    "checklistTitle": "Zkontrolujte, že platba:",
+                    "checkSenderAccount": "Byla odeslána z účtu, který jste zadali",
+                    "checkOtherBank": "Byla odeslána z Vašeho účtu u jiné české banky",
+                    "checkNote": "Obsahuje zprávu pro příjemce",
+                    "primaryButton": "Zopakovat aktivační platbu",
+                    "branch": "Navštívit pobočku"
+                }
+            },
             "pennyAccount": {
                 "title": "Už to skoro máme! Pošlete na účet  libovolnou částku, třeba 1 Kč, abyste ho aktivovali",
                 "detail": "<b>Svůj běžný účet můžete využívat až po aktivačním převodu.</b> Stačí poslat jakoukoliv částku, kterou Vám následně na nový účet připíšeme.",
