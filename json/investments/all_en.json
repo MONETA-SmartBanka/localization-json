@@ -1241,7 +1241,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "If I place an order with the bank to purchase mutual fund units for a certain amount, what service will the bank provide?",
+                            "title": "What is the service called when you place an order to buy fund units for a specific amount?",
                             "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 1,
@@ -1251,17 +1251,17 @@
                             "minAnswersErrMessage": "Select 1 answer",
                             "answers": [
                                 {
-                                    "title": "This is the Order Execution service, as the bank forwards my order to the investment fund to issue new mutual fund units on my behalf.",
+                                    "title": "Receiving and transmitting orders",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "The bank sells me mutual fund units from its own account and sets its own price at which I buy them.",
+                                    "title": "Dealing on own account",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "It is a Marketplace service. The bank finds several sellers from whom I can choose the one that suits me best, and I buy the mutual fund units directly from them.",
+                                    "title": "Trading venue",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1275,7 +1275,7 @@
                             ]
                         },
                         {
-                            "title": "How do mutual and investment funds work?",
+                            "title": "Mutual funds and investment funds:",
                             "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 2,
@@ -1285,17 +1285,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Mutual and other investment funds manage my assets separately from those of other clients, in line with my investment strategy.",
+                                    "title": "Manage my money separately from other clients based on my individual investment strategy.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Mutual and other investment funds pool money from multiple investors and invest it collectively. The investor holds mutual fund units, which entitle them to a share of the fund’s returns.",
+                                    "title": "Pool money from multiple investors and invest it collectively. Investors own fund units that entitle them to a share of the returns.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Mutual and investment funds offer a fixed-interest deposit. The interest is guaranteed, so there is no risk of loss.",
+                                    "title": "Offer a guaranteed interest rate, so there is no risk of loss.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1309,7 +1309,7 @@
                             ]
                         },
                         {
-                            "title": "What types of mutual funds are there?",
+                            "title": "Mutual funds can be divided into:",
                             "hint": "We can't offer investments if you don't know the answer. Do you want to <a href=\"hint\">see help</a>?",
                             "showHelpSecondaryButton": true,
                             "id": 3,
@@ -1319,17 +1319,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "There are fixed-rate and floating-rate funds. Fixed-rate mutual funds offer a guaranteed, specific percentage return. Floating-rate funds may have returns that fluctuate over time. The exact return of a mutual fund is determined by the bank in its terms and conditions.",
+                                    "title": "Fixed and floating",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "There are equity and mixed funds. Equity funds allow investors to take part in the operations of individual companies and vote at their general meetings. Mixed funds, on the other hand, guarantee that the invested amount will never result in a loss.",
+                                    "title": "Mixed and equity",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "There are equity, bond, and mixed funds. Equity funds are the most volatile and offer the potential for the highest gains as well as losses.\nBond funds are the least volatile and typically offer the lowest returns.",
+                                    "title": "Equity, bond and mixed",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1343,7 +1343,7 @@
                             ]
                         },
                         {
-                            "title": "What are investment certificates?",
+                            "title": "Investment certificates:",
                             "showHelpSecondaryButton": true,
                             "id": 4,
                             "maxAnswers": 1,
@@ -1352,17 +1352,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Investment certificates are issued by investment funds. They are mutual fund units accompanied by a certificate of authenticity issued by a certifying authority.",
+                                    "title": "Are issued by investment funds. They are fund units with a certificate of authenticity issued by a certification authority, such as a president or prime minister.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investment certificates are securities that can have various features. Each investment certificate comes with specific terms and conditions that define the investor’s rights and obligations. Among the most important are the method of calculating returns and the conditions for the repayment of the certificate.",
+                                    "title": "Are securities that can have different features. Each investment certificate has its own terms setting out the rights and obligations. Key terms include how the return is calculated and the conditions for repayment.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Investment certificates are the same as bonds. The term investment certificates has only recently started being used, mainly to add variety to marketing messages",
+                                    "title": "Replace bonds. The term “investment certificates” has only recently been introduced to make marketing messages sound more appealing.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1375,7 +1375,7 @@
                             ]
                         },
                         {
-                            "title": "What are the risks and benefits of investment certificates?",
+                            "title": "The benefits and risks of investment certificates are:",
                             "showHelpSecondaryButton": true,
                             "id": 5,
                             "maxAnswers": 1,
@@ -1384,17 +1384,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "An advantage of investment certificates is their quick and flexible issuance. In the case of guaranteed certificates, a major benefit is the significantly limited risk of loss. The main risk lies in the need to rely on the issuer to fulfill their obligations, typically an international financial institution, which is known as counterparty risk.",
+                                    "title": "Benefits include quick and flexible issuance. Guaranteed certificates also significantly limit the potential for loss. The risk is that you rely on the issuer, usually an international financial institution, to meet its obligations. This is known as counterparty risk.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "An advantage of investment certificates is that they are based on blockchain technology, allowing them to be transferred similarly to cryptocurrencies. The main risk lies in unclear regulation, which presents a significant legal risk.",
+                                    "title": "Because they are based on blockchain technology, one benefit is that they can be transferred in a similar way to cryptocurrencies. The risk is unclear regulation, which creates significant legal uncertainty.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "An advantage of investment certificates is that they are always issued by the state. The main risk of investment certificates lies in the possibility of state bankruptcy.",
+                                    "title": "They are issued by the government, which is an advantage, but there is also a high risk that the government could default.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1409,7 +1409,7 @@
                     ]
                 },
                 {
-                    "title": "What is your experience with investing?",
+                    "title": "Do you have experience with mutual funds?",
                     "summaryTitle": "Investment Experience",
                     "analyticsTitle": "experience",
                     "detail": "Whether you're a complete beginner or an experienced investor, we'll help you find the right solution.",
@@ -1423,29 +1423,29 @@
                             "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "I have invested in them in the last 3 years.",
+                                    "title": "I have invested in them in the past 3 years.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I have been holding my investment for over 3 years.",
+                                    "title": "I have held investments for more than 3 years.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I invest quarterly or more frequently.",
+                                    "title": "I invest quarterly or more often.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "None of the above.",
+                                    "title": "None of the above applies to me.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "What is your experience with investment certificates?",
+                            "title": "Do you have experience with investment certificates?",
                             "id": 7,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Select up to 3 answers",
@@ -1453,29 +1453,29 @@
                             "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "I have invested in them in the last 3 years.",
+                                    "title": "I have invested in them in the past 3 years.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I have been holding my investment for over 3 years.",
+                                    "title": "I have held investments for more than 3 years.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I invest quarterly or more frequently.",
+                                    "title": "I invest quarterly or more often.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "None of the above.",
+                                    "title": "None of the above applies to me.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "How have you invested over the past 5 years?",
+                            "title": "In the past 5 years, you have invested:",
                             "id": 8,
                             "maxAnswers": 3,
                             "maxAnswersErrMessage": "Select up to 3 answers",
@@ -1483,29 +1483,29 @@
                             "minAnswersErrMessage": "Select at least 1 answer",
                             "answers": [
                                 {
-                                    "title": "I made a one-time investment of over CZK 50,000.",
+                                    "title": "More than CZK 50,000 in a single investment.",
                                     "value": 1,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I made a one-time investment of over CZK 50,000 and occasionally invest based on market opportunities.",
+                                    "title": "More than CZK 50,000 in a single investment, plus occasional additional investments when market opportunities arise.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "I invest regularly a minimum of CZK 500 each month.",
+                                    "title": "At least CZK 500 regularly each month.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "None of the above.",
+                                    "title": "None of the above applies to me.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Do you have education or professional knowledge in the field of capital markets?",
+                            "title": "Do you have education or professional expertise in capital markets?",
                             "id": 9,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1513,12 +1513,12 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Yes, I have a professional certification focused on trading investment instruments.",
+                                    "title": "Yes, I have a professional qualification focused on trading in investment instruments.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Yes, I have an educational background in financial markets and investment instruments.",
+                                    "title": "Yes, I have education in financial markets and investment instruments.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
@@ -1530,7 +1530,7 @@
                             ]
                         },
                         {
-                            "title": "Do you have relevant work experience in the field of capital markets?",
+                            "title": "Do you have relevant work experience in capital markets?",
                             "id": 10,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1538,7 +1538,7 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Yes, in the last 5 years I have relevant work experience in the field of capital markets.",
+                                    "title": "Yes, within the past 5 years.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -1581,7 +1581,7 @@
                     ],
                     "questions": [
                         {
-                            "title": "Which statement best describes your behavior during investing?",
+                            "title": "Which statement best describes how you would behave over the life of an investment?",
                             "id": 11,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1590,29 +1590,29 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "I expect at least to recover my initial investment and cannot tolerate any loss.",
+                                    "title": "I don’t want to lose any money. I would sell at the first sign of a decline.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I accept minor fluctuations and can tolerate a potential loss of up to 5%.",
+                                    "title": "I can accept a small decline and a potential loss of up to 5%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I accept fluctuations and can tolerate a potential loss of up to 15%.",
+                                    "title": "I can accept a decline and a potential loss of up to 15%.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I accept higher fluctuations and can tolerate a potential loss of more than 15%.",
+                                    "title": "I can accept a decline and a potential loss of more than 15%.",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "What level of risk, on a scale from 1 (low risk) to 7 (high risk), are you able to accept?",
+                            "title": "What level of risk can you accept on a scale from 1 (low risk) to 7 (high risk)?",
                             "detail": "Higher level of risk means possibility of higher gain, but also higher loss.",
                             "id": 12,
                             "maxAnswers": 1,
@@ -1622,22 +1622,22 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Low risk: 1 to 2",
+                                    "title": "Lower risk: 1–2.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Medium/higher: 1 to 4",
+                                    "title": "Medium/higher risk: 1–4.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Higher: 1 to 5",
+                                    "title": "Higher risk: 1–5.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "High: 1 to 7",
+                                    "title": "High risk: 1–7",
                                     "value": 4,
                                     "uncheckOthers": true
                                 }
@@ -1653,22 +1653,22 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "Up to 1 year, including",
+                                    "title": "Up to 1 year",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "1 to 3 years, including",
+                                    "title": "1–3 years",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "3 to 5 years, including",
+                                    "title": "3–5 years",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "5 to 8 years, including",
+                                    "title": "5–8 years",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
@@ -1680,7 +1680,7 @@
                             ]
                         },
                         {
-                            "title": "Will you need the money sooner than the planned period?",
+                            "title": "Are you likely to need the invested money earlier than planned?",
                             "id": 14,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1689,24 +1689,24 @@
                             "showHelpSecondaryButton": true,
                             "answers": [
                                 {
-                                    "title": "There is a possibility that I might need the money sooner.",
+                                    "title": "Probably yes.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "It’s possible that I might need the money sooner, but it’s unlikely.",
+                                    "title": "I don’t know.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "It’s unlikely that I will need to withdraw the money before the planned period ends.",
+                                    "title": "Probably not.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Do you prefer environmentally sustainable investments?",
+                            "title": "Do your investments need to be environmentally sustainable?",
                             "id": 15,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1733,39 +1733,39 @@
                             },
                             "answers": [
                                 {
-                                    "title": "NO, I do not",
+                                    "title": "No",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 20%.",
+                                    "title": "At least 20%",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 40%.",
+                                    "title": "At least 40%",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 60%.",
+                                    "title": "At least 60%",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer environmentally sustainable investments with a minimum sustainability rate of 80%.",
+                                    "title": "At least 80%",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer 100% environmentally sustainable investments.",
+                                    "title": "100%",
                                     "value": 6,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Do you prefer sustainable investments?",
+                            "title": "Do your investments need to be sustainable?",
                             "id": 16,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1792,40 +1792,40 @@
                             },
                             "answers": [
                                 {
-                                    "title": "NO, I do not",
+                                    "title": "No",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 20%.",
+                                    "title": "At least 20%",
                                     "value": 2,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
+                                    "title": "At least 40%",
                                     "value": 3,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 40%.",
+                                    "title": "At least 60%",
                                     "value": 4,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "YES, I prefer sustainable investments with a minimum sustainability rate of 80%.",
+                                    "title": "At least 80%",
                                     "value": 5,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
                                     "disqualificationReason": "noSuitableOffers"
                                 },
                                 {
-                                    "title": "YES, I prefer 100% sustainable investments.",
+                                    "title": "100%",
                                     "value": 6,
                                     "uncheckOthers": true,
                                     "startNewSection": true,
@@ -1834,7 +1834,7 @@
                             ]
                         },
                         {
-                            "title": "Would you like to consider any adverse impacts on sustainability in your investments?",
+                            "title": "Do your investments need to take adverse sustainability impacts into account?",
                             "id": 17,
                             "maxAnswers": 5,
                             "maxAnswersErrMessage": "You can select more than one answer",
@@ -1865,32 +1865,32 @@
                             },
                             "answers": [
                                 {
-                                    "title": "Do not consider.",
+                                    "title": "No",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "YES, I’d like to consider the impact on greenhouse gas emissions.",
+                                    "title": "Yes, I want to consider the impact on greenhouse gas emissions.",
                                     "value": 2,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "YES, I’d like to consider the impact on biodiversity",
+                                    "title": "Yes, I want to consider the impact on biodiversity.",
                                     "value": 3,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "YES, I’d like to consider the impact on water pollution.",
+                                    "title": "Yes, I want to consider the impact on water pollution.",
                                     "value": 4,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "YES, I’d like to consider the impact on waste.",
+                                    "title": "Yes, I want to consider the impact on waste.",
                                     "value": 5,
                                     "uncheckOthers": false
                                 },
                                 {
-                                    "title": "YES, I’d like to consider the impact on socioeconomic factors.",
+                                    "title": "Yes, I want to consider the impact on social and employee matters.",
                                     "value": 6,
                                     "uncheckOthers": false
                                 }
@@ -1904,7 +1904,7 @@
                     "analyticsTitle": "situation",
                     "questions": [
                         {
-                            "title": "When a bank provides me with recommendation on where to invest, what is the name of the service?",
+                            "title": "Investment advice typically means:",
                             "hint": "We can't offer investments if you don't know the answer.",
                             "id": 18,
                             "maxAnswers": 1,
@@ -1913,17 +1913,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "The bank will provide me with investment advice, and based on the information provided, the bank will select the most suitable product for me. I will then decide whether to accept the recommendation or not.",
+                                    "title": "Based on the information I provide, the bank recommends the most suitable product. I then decide whether to follow the recommendation.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "The bank will continuously invest my money so that the content of my portfolio corresponds to the investment strategy we have agreed upon.",
+                                    "title": "The bank continuously invests my money at its own discretion so that my portfolio stays aligned with the investment strategy we agreed on.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "The bank will sell me the shares from its account and arbitrarily determine the price at which I will buy them from it.",
+                                    "title": "The bank sells me fund units from its own account at a price it sets.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
@@ -1937,7 +1937,7 @@
                             ]
                         },
                         {
-                            "title": "I found out that the value of my investment has decreased by 10%. What will I do?",
+                            "title": "You see that the value of your investment has fallen by 10%. What do you do?",
                             "id": 19,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -1945,24 +1945,24 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "I will try to withdraw my funds.",
+                                    "title": "I start looking into how to withdraw my money.  ",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I won't do anything.",
+                                    "title": "I do nothing. Market fluctuations are normal.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I will take advantage of the dip and buy more.",
+                                    "title": "I take advantage of the decline and invest more.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "What percentage of my financial assets do I intend to invest through the bank annually?",
+                            "title": "What proportion of your financial assets do you plan to invest through the bank each year?\nInclude savings, deposits, investments and securities.",
                             "detail": "Including savings, deposits, investments, securities.",
                             "id": 20,
                             "maxAnswers": 1,
@@ -1988,7 +1988,7 @@
                             ]
                         },
                         {
-                            "title": "Total amount of my financial assets (including savings, deposits, investments, securities) is.",
+                            "title": "What is the approximate value of your financial assets?\nInclude assets you own personally or have a share in, as well as savings, deposits, investments and securities.",
                             "detail": "This is your personal property, or property in which you have a share. Include savings, deposits, investments and securities.",
                             "id": 21,
                             "maxAnswers": 1,
@@ -1997,24 +1997,24 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Up to CZK 300 000",
+                                    "title": "Up to CZK 300,000",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Between CZK 300,000 and CZK 1,000,000.",
+                                    "title": "CZK 300,000–1,000,000",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "More than CZK 1 000 000.",
+                                    "title": "More than CZK 1,000,000",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "My regular debt payments and other financial obligations.",
+                            "title": "How much of your regular income goes towards loan repayments and other financial commitments?\nBy financial commitments, we mean things like your mortgage, regular housing costs or other loans. Don’t include essential living costs such as food and clothing.",
                             "detail": "By liabilities, we mean things like a mortgage, regular housing expenses, or loans. Do not include payments for basic living necessities such as food and clothing.",
                             "hint": "Obligations:",
                             "id": 22,
@@ -2024,7 +2024,7 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Make up more than 80% of my income.",
+                                    "title": "More than 80% of my regular income.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
@@ -2034,14 +2034,14 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Make up less than 50% of my income.",
+                                    "title": "Less than 50% of my regular income.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "What is the net amount of your regular monthly income?",
+                            "title": "What is your regular monthly net income?",
                             "id": 23,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -2049,24 +2049,24 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Less than CZK 20,000 ",
+                                    "title": "Up to CZK 20,000",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Between CZK 20,000 and CZK 50,000.",
+                                    "title": "CZK 20,000–50,000",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "More than CZK 50,000.",
+                                    "title": "More than CZK 50,000",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "What is the main source of your regular income?",
+                            "title": "What is your main source of regular income?",
                             "id": 24,
                             "maxAnswers": 1,
                             "maxAnswersErrMessage": "Select 1 answer",
@@ -2074,27 +2074,27 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "Permanent employee",
+                                    "title": "Permanent employment",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Fixed-term employee",
+                                    "title": "Fixed-term employment",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Entrepreneur",
+                                    "title": "Self-employment",
                                     "value": 3,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Agreement to perform work",
+                                    "title": "Work activity agreement (DPČ)",
                                     "value": 4,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Contract for work",
+                                    "title": "Agreement to perform work (DPP)",
                                     "value": 5,
                                     "uncheckOthers": true
                                 },
@@ -2109,7 +2109,7 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Part-time work",
+                                    "title": "Part-time or casual work",
                                     "value": 8,
                                     "uncheckOthers": true
                                 },
@@ -2119,19 +2119,19 @@
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I am a student",
+                                    "title": "Studying",
                                     "value": 10,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "I am unemployed",
+                                    "title": "Unemployed",
                                     "value": 11,
                                     "uncheckOthers": true
                                 }
                             ]
                         },
                         {
-                            "title": "Which of the following situations would reduce your ability to meet your basic living needs upon the sale of your investment?",
+                            "title": "I would struggle to cover everyday expenses, such as food and clothing, if:",
                             "detail": "For example, when buying food or clothing.",
                             "id": 25,
                             "maxAnswers": 1,
@@ -2140,17 +2140,17 @@
                             "minAnswersErrMessage": "Select one answer",
                             "answers": [
                                 {
-                                    "title": "A decrease in the value of the invested amount by less than 5%.",
+                                    "title": "My investment fell by less than 5%.",
                                     "value": 1,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "A decrease in the value of the invested amount by 5% to 15%.",
+                                    "title": "My investment fell by 5–15%.",
                                     "value": 2,
                                     "uncheckOthers": true
                                 },
                                 {
-                                    "title": "Even a decrease in the value of the invested amount by 15% or more would not affect my ability to cover basic living needs.",
+                                    "title": "Even a fall of 15% or more would not affect my ability to cover essential living costs.",
                                     "value": 3,
                                     "uncheckOthers": true
                                 }
@@ -9339,7 +9339,7 @@
             "introDescription": "We’ll help you find the right investments and show you how to begin.",
             "introAdvisoryButton": "Which fund is right for me?",
             "introAdvisoryDescription": "Try investment guidance.",
-            "introOr": "I already know\nwhat I want",
+            "introOr": "I already know\nwhat I want",
             "introInvestments": "Investment products",
             "introDIP": "LTIP",
             "listTitle": "Investment products",
