@@ -2,11 +2,6 @@
     "status": "OK",
     "responseObject": {
         "errorScreens": {
-            "api": {
-                "title": "Omlouváme se, tak tohle nevyšlo",
-                "detail": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-                "primaryButton": "OK"
-            },
             "contractDisagree": {
                 "title": "Unfortunately, that is required in order to proceed...",
                 "detail": "If you have any questions, call our Helpline or visit one of our branches.",
@@ -39,20 +34,7 @@
                 "existingInfo": "If you already have a Supplementary Pension Savings plan or Pension Insurance, you’ll need to either transfer or cancel your contract. We can help you with this at any of our branches.",
                 "secondaryButton": "More information",
                 "secondaryButtonLink": "https://www.nn.cz/penze/doplnkove-penzijni-sporeni/",
-                "primaryButton": "Start saving",
-                "infoPage": {
-                    "title": "Retire at 65",
-                    "titlePlaceholder": "Retire at {0}",
-                    "yourContribution": "Your monthly deposit",
-                    "fromEmployer": "Employer contribution",
-                    "fromState": "State contribution",
-                    "appreciation": "appreciation",
-                    "total": "total",
-                    "info": "The total return is only an estimate and depends on the actual performance of the funds and your chosen strategy.<br><br>Naspořená částka je uvedena za období od teď do vašeho dovršení 65 let (tedy za následujících 32 let).<br><br>Slevy na daních a příspěvky od státu v plné výši platí pouze za předpokladu, že si peníze vyberete až po dovršení 65 let.",
-                    "infoPlaceholder": "The total return is only an estimate and depends on the actual performance of the funds and your chosen strategy.<br><br>Naspořená částka je uvedena za období od teď do vašeho dovršení {0} let (tedy za následujících {1}).<br><br>Slevy na daních a příspěvky od státu v plné výši platí pouze za předpokladu, že si peníze vyberete až po dovršení {0} let.",
-                    "secondaryButton": "More information",
-                    "secondaryButtonLink": "https://www.nn.cz/penze/doplnkove-penzijni-sporeni/"
-                }
+                "primaryButton": "Start saving"
             },
             "nok": {
                 "results": [
@@ -237,7 +219,7 @@
                     },
                     {
                         "code": "SUSTAINABILITY",
-                        "title": "Our apologies,\u2028no NN Fund currently meets your desired criteria ",
+                        "title": "Our apologies, no NN Fund currently meets your desired criteria ",
                         "detail": "We cannot proceed any further.",
                         "callUs": "Call Helpline",
                         "visitus": "Visit a branch",
@@ -275,100 +257,23 @@
                     "conservative": {
                         "title": "Your investment profile is Cautious, and the recommended strategy is Conservative",
                         "name": "Conservative",
-                        "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure.",
-                        "documents": [
-                            {
-                                "title": "Podrobnější přehled účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
-                            },
-                            {
-                                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
-                            },
-                            {
-                                "title": "Portfolia účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure."
                     },
                     "balanced": {
                         "title": "Your investment profile is Balanced, and the recommended strategy is Balanced",
                         "name": "Balanced",
-                        "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  ",
-                        "documents": [
-                            {
-                                "title": "Podrobnější přehled účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
-                            },
-                            {
-                                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
-                            },
-                            {
-                                "title": "Portfolia účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  "
                     },
                     "dynamic": {
                         "title": "Your investment profile is Bold, and the recommended strategy is Dynamic",
                         "name": "Dynamic",
-                        "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds.",
-                        "documents": [
-                            {
-                                "title": "Podrobnější přehled účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
-                            },
-                            {
-                                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
-                            },
-                            {
-                                "title": "Portfolia účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds."
                     },
                     "custom": {
                         "title": "You have selected a Custom profile. The recommended strategy is Conservative",
                         "name": "Custom",
-                        "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy.",
-                        "documents": [
-                            {
-                                "title": "Podrobnější přehled účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Statuty účastnických fondů doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-                            },
-                            {
-                                "title": "Klíčové informace k účastnickým fondům doplňkového penzijního spoření",
-                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-                            },
-                            {
-                                "title": "Portfolia účastnických fondů",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy."
                     }
-                },
-                "funds": {
-                    "conservative": "Conservative fund",
-                    "balanced": "Balanced fund",
-                    "growth": "Dynamic fund"
                 },
                 "fundsLocalizations": {
                     "CON": {
@@ -417,7 +322,6 @@
                 "primaryButton": "Continue",
                 "beneficiary": "{0}. beneficiary",
                 "removeButton": "Remove",
-                "removeLabel": "Do you want to remove beneficiary?",
                 "firstName": "First name",
                 "lastName": "Last name",
                 "sex": "Sex",
@@ -425,7 +329,6 @@
                 "share": "Share",
                 "addressLabel": "Address",
                 "address": {
-                    "title": "Address",
                     "street": "Street",
                     "descriptiveNumber": "Descr. no.",
                     "orientationNumber": "Descr. no.",
@@ -471,7 +374,6 @@
                     "source": "Source of income",
                     "assets": "Source of personal assets",
                     "assetsMultiple": "Multiple sources",
-                    "assetsDescription": "Or, if applicable, source of debt",
                     "assetsOther": "Enter your other source of personal assets or debt",
                     "assetsSelectorTitle": "Enter your other source of personal assets or debt",
                     "assetsSelectorDescription": "Select at least one option",
@@ -564,29 +466,21 @@
                 "primaryButton": "Continue"
             },
             "contract": {
-                "title": "Review and sign the Supplementary Pension Savings Agreement",
                 "primaryButton": "Agree, proceed to signature",
                 "secondaryButton": "Decline"
             },
             "victory": {
                 "title": "All set! Start saving for your retirement today!",
                 "detail": "If your employer will be making contributions to your supplementary pension savings, please forward them the agreement we’ve emailed to you.",
-                "section": "Set up a standing order for {0} from:",
                 "dateTitle": "Execute on",
                 "dateValue": "{0}. of the month",
-                "from": "Execute on",
                 "defaultValue": 25,
                 "dateValues": [
                     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
                     18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
                 ],
-                "firstPayment": "The first payment will be executed on {0}",
                 "primaryButton": "Set up a standing order",
                 "secondaryButton": "Set up later",
-                "destinationAccountNumber": {
-                    "bankCode": 800,
-                    "number": 5005004433
-                },
                 "standingOrderName": "Pension Savings"
             },
             "standingOrderVictory": {

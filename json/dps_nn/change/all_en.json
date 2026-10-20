@@ -66,22 +66,19 @@
             "questionnaireIntro": {
                 "title": "Investment questionnaire.\nWill you save boldly or cautiously?",
                 "detail": "Answer the following questions to determine your investment profile and find the best strategy for your savings.",
-                "primaryButton": "Continue",
-                "secondaryButton": "Skip the questionnaire"
+                "primaryButton": "Continue"
             },
             "questionnaire": {
                 "title": "First steps to finding the best pension savings plan for you",
                 "detail": "Please take a moment to complete this questionnaire—it helps us understand your financial expectations, knowledge, and experience. With this information, we can recommend the best Supplementary Pension Savings strategy for you. It only takes a few minutes.",
                 "primaryButton": "Continue",
-                "secondaryButton": "Skip the questionnaire",
                 "skip": {
                     "title": "Do you really wish to skip the questionnaire?",
                     "subtitle": "If you don’t complete the questionnaire, we won’t be able to assess which investment strategy suits you best, and you will automatically be assigned the Conservative Strategy.",
                     "checkbox": "I choose not to complete the questionnaire and acknowledge that I may be assigned an unsuitable pension savings strategy.",
                     "primaryButton": "Skip the questionnaire",
                     "secondaryButton": "Back"
-                },
-                "notFilled": "Some questions were not filled correctly"
+                }
             },
             "nok": {
                 "results": [
@@ -266,7 +263,7 @@
                     },
                     {
                         "code": "SUSTAINABILITY",
-                        "title": "Our apologies,\u2028no NN Fund currently meets your desired criteria ",
+                        "title": "Our apologies, no NN Fund currently meets your desired criteria ",
                         "detail": "We cannot proceed any further.",
                         "callUs": "Call Helpline",
                         "visitus": "Visit a branch",
@@ -277,10 +274,7 @@
                 "generic": {
                     "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
                     "detail": "Unfortunately, we’re unable to assist you even at one of our branches."
-                },
-                "callus": "Call Helpline",
-                "visitus": "Visit a branch",
-                "primaryButton": "Cancel application"
+                }
             },
             "amlSection": {
                 "title": "Information required by law",
@@ -379,7 +373,7 @@
             },
             "strategyInfo": {
                 "title": "Strategy",
-                "detail": "The change will take effect no later than the next business day.\u2028If existing deposits need to be transferred to new funds, it will take an additional 3 business days.",
+                "detail": "The change will take effect no later than the next business day. If existing deposits need to be transferred to new funds, it will take an additional 3 business days.",
                 "current": "Current",
                 "info": "Information about funds",
                 "primaryButton": "Proceed to Strategy changes"
@@ -392,100 +386,23 @@
                     "conservative": {
                         "title": "Your investment profile is Cautious, and the recommended strategy is Conservative",
                         "name": "Conservative",
-                        "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure.",
-                        "documents": [
-                            {
-                                "title": "Detailed Overview of Participant Funds",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514636.pdf"
-                            },
-                            {
-                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514351.pdf"
-                            },
-                            {
-                                "title": "Participant Funds Portfolios",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Do you prefer stability over high returns and want to minimize risk? With this profile, investments are expected to have very mild fluctuations, offering returns slightly higher than deposit products. This profile includes conservative investment instruments such as money market funds, government bonds, and mixed funds with a maximum of 25% risk exposure."
                     },
                     "balanced": {
                         "title": "Your investment profile is Balanced, and the recommended strategy is Balanced",
                         "name": "Balanced",
-                        "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  ",
-                        "documents": [
-                            {
-                                "title": "Detailed Overview of Participant Funds",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514638e.pdf"
-                            },
-                            {
-                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/soubory/ostatni_dokumenty/514451.pdf"
-                            },
-                            {
-                                "title": "Participant Funds Portfolios",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Are you comfortable with a moderate level of investment risk and aware of the uncertainty of future returns? If you prefer mid-level returns, a balanced profile might be the right choice. This profile includes a well-balanced mix of investment instruments, such as balanced mixed funds (with a maximum of 65% in riskier assets) and bond funds.  "
                     },
                     "dynamic": {
                         "title": "Your investment profile is Bold, and the recommended strategy is Dynamic",
                         "name": "Dynamic",
-                        "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds.",
-                        "documents": [
-                            {
-                                "title": "Detailed Overview of Participant Funds",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/statuty_fondu/514637.pdf"
-                            },
-                            {
-                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/klicove_informace/514470.pdf"
-                            },
-                            {
-                                "title": "Participant Funds Portfolios",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Are you aiming for high returns and fully aware of the high risk involved? If you see market downturns as an opportunity to invest more or expand your existing investments, a bold profile might be the right choice for you. This profile includes a well-balanced selection of dynamic investment instruments, such as dynamic mixed funds, bond funds, high-yield bonds, and equity funds."
                     },
                     "custom": {
                         "title": "You have selected a Custom profile. The recommended strategy is Conservative",
                         "name": "Custom",
-                        "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy.",
-                        "documents": [
-                            {
-                                "title": "Detailed Overview of Participant Funds",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            },
-                            {
-                                "title": "Rules of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-                            },
-                            {
-                                "title": "Key Information of the Participant Funds of Supplementary Pension Savings",
-                                "url": "https://www.nn.cz/pro-klienty/penze/doplnkove-penzijni-sporeni/dokumenty/"
-                            },
-                            {
-                                "title": "Participant Funds Portfolios",
-                                "url": "https://www.nn.cz/files/archiv/cz-penze/dps/fondy/ostatni_dokumenty/Portfolio_UF.pdf"
-                            }
-                        ]
+                        "detail": "Since the investment questionnaire has not been completed, we recommend allocating 100% of your contributions to the conservative fund. However, you also have the option to choose your own strategy."
                     }
-                },
-                "funds": {
-                    "conservative": "Conservative fund",
-                    "balanced": "Balanced fund",
-                    "growth": "Dynamic fund"
                 },
                 "fundsLocalizations": {
                     "CON": {
@@ -516,8 +433,7 @@
                     },
                     "new": {
                         "title": "Only new funds"
-                    },
-                    "validation": "Confirm the acknowledgment in order to continue."
+                    }
                 },
                 "validationSum": "The sum of the distribution of the funds must be equal to 100 %",
                 "alreadySelected": {
@@ -526,10 +442,6 @@
                     "primaryButton": "Change strategy",
                     "secondaryButton": "Cancel settings"
                 }
-            },
-            "scoring": {
-                "title": "Just a moment while we review the details",
-                "detail": "It should only take a moment"
             },
             "contract": {
                 "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
@@ -549,63 +461,12 @@
                 "title": "Done! The change will become effective from {0}",
                 "detail": "If your employer is going to contribute to your savings, please share your NN Penzijní Společnost agreement with them. You can find it in your email.",
                 "tooltip": "Don't forget to set up a standing order amount for {0}.",
-                "section": "Set up a standing order for {0} from:",
-                "dateTitle": "Execute on the",
-                "dateValue": "{0}. of the month",
-                "from": "From",
-                "defaultValue": 25,
-                "dateValues": [
-                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
-                    18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
-                ],
-                "firstPayment": "First Payment {0}",
                 "primaryButton": "Set up the standing order",
-                "primaryButtonWoStandingOrder": "Back to Overview",
-                "secondaryButton": "Set up later",
-                "destinationAccountNumber": {
-                    "bankCode": 800,
-                    "number": 5005004433
-                },
-                "standingOrderName": "Pension savings"
+                "secondaryButton": "Set up later"
             },
             "strategyVictory": {
                 "title": "Done!\nYou will receive a confirmation of the change in your Supplementary Pension Savings strategy by email.",
                 "primaryButton": "Back to Overview"
-            },
-            "standingOrderVictory": {
-                "title": "Trvalý příkaz byl přijat ke zpracování",
-                "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
-                "primaryButton": "Back to Overview"
-            },
-            "help": {
-                "title": "Help",
-                "detail": "With a state contribution of up to CZK 2,760 per year, saving for retirement is easier. You can also take advantage of a tax credit of up to CZK 3,600 per year.",
-                "iconBullets": [
-                    {
-                        "icon": "starsAltFill",
-                        "text": "No setup or maintenance fees"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Arrange right in the app"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Up to 6,360 CZK a year in state contribution and tax credit"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "This offer has been realized in collaboration with NN Penzijní společnost"
-                    }
-                ],
-                "footerText": "More information",
-                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-                "helpHeadline": "Would you like to learn more?",
-                "callUs": "Call Helpline",
-                "branch": "Visit a branch",
-                "primaryButton": "Continue application",
-                "secondaryButton": "Save and continue later",
-                "tertiaryButton": "Cancel application"
             }
         }
     }
