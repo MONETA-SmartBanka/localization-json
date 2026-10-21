@@ -66,8 +66,7 @@
             "questionnaireIntro": {
                 "title": "Investment questionnaire.\nWill you save boldly or cautiously?",
                 "detail": "Answer the following questions to determine your investment profile and find the best strategy for your savings.",
-                "primaryButton": "Continue",
-                "secondaryButton": "Skip the questionnaire"
+                "primaryButton": "Continue"
             },
             "questionnaire": {
                 "title": "First steps to finding the best pension savings plan for you",
@@ -277,10 +276,7 @@
                 "generic": {
                     "title": "We’re sorry, but you’re not eligible for Supplementary Pension Savings.",
                     "detail": "Unfortunately, we’re unable to assist you even at one of our branches."
-                },
-                "callus": "Call Helpline",
-                "visitus": "Visit a branch",
-                "primaryButton": "Cancel application"
+                }
             },
             "amlSection": {
                 "title": "Information required by law",
@@ -482,11 +478,6 @@
                         ]
                     }
                 },
-                "funds": {
-                    "conservative": "Conservative fund",
-                    "balanced": "Balanced fund",
-                    "growth": "Dynamic fund"
-                },
                 "fundsLocalizations": {
                     "CON": {
                         "title": "Conservative fund",
@@ -527,10 +518,6 @@
                     "secondaryButton": "Cancel settings"
                 }
             },
-            "scoring": {
-                "title": "Just a moment while we review the details",
-                "detail": "It should only take a moment"
-            },
             "contract": {
                 "title": "Read the Agreement on Changing the Parameters of the Supplementary Pension Savings",
                 "detail": "All documents can be found in Smart Banka, Internet Banka as well as in your email. ",
@@ -549,63 +536,13 @@
                 "title": "Done! The change will become effective from {0}",
                 "detail": "If your employer is going to contribute to your savings, please share your NN Penzijní Společnost agreement with them. You can find it in your email.",
                 "tooltip": "Don't forget to set up a standing order amount for {0}.",
-                "section": "Set up a standing order for {0} from:",
-                "dateTitle": "Execute on the",
-                "dateValue": "{0}. of the month",
-                "from": "From",
-                "defaultValue": 25,
-                "dateValues": [
-                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
-                    18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
-                ],
-                "firstPayment": "First Payment {0}",
                 "primaryButton": "Set up the standing order",
                 "primaryButtonWoStandingOrder": "Back to Overview",
-                "secondaryButton": "Set up later",
-                "destinationAccountNumber": {
-                    "bankCode": 800,
-                    "number": 5005004433
-                },
-                "standingOrderName": "Pension savings"
+                "secondaryButton": "Set up later"
             },
             "strategyVictory": {
                 "title": "Done!\nYou will receive a confirmation of the change in your Supplementary Pension Savings strategy by email.",
                 "primaryButton": "Back to Overview"
-            },
-            "standingOrderVictory": {
-                "title": "Trvalý příkaz byl přijat ke zpracování",
-                "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
-                "primaryButton": "Back to Overview"
-            },
-            "help": {
-                "title": "Help",
-                "detail": "With a state contribution of up to CZK 2,760 per year, saving for retirement is easier. You can also take advantage of a tax credit of up to CZK 3,600 per year.",
-                "iconBullets": [
-                    {
-                        "icon": "starsAltFill",
-                        "text": "No setup or maintenance fees"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Arrange right in the app"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Up to 6,360 CZK a year in state contribution and tax credit"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "This offer has been realized in collaboration with NN Penzijní společnost"
-                    }
-                ],
-                "footerText": "More information",
-                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-                "helpHeadline": "Would you like to learn more?",
-                "callUs": "Call Helpline",
-                "branch": "Visit a branch",
-                "primaryButton": "Continue application",
-                "secondaryButton": "Save and continue later",
-                "tertiaryButton": "Cancel application"
             }
         }
     }

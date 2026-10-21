@@ -62,8 +62,7 @@
             "questionnaireIntro": {
                 "title": "Investiční dotazník.\nBudete spořit odvážně nebo opatrně?",
                 "detail": "Odpovězte na následující otázky, díky kterým zjistíte svůj investiční profil a jaká strategie je vhodná pro vaše spoření.",
-                "primaryButton": "Pokračovat",
-                "secondaryButton": "Přeskočit dotazník"
+                "primaryButton": "Pokračovat"
             },
             "esg": {
                 "primaryButton": "Pokračovat",
@@ -277,10 +276,7 @@
                 "generic": {
                     "title": "Je nám líto, ale spoření nemůžete uzavřít",
                     "detail": "Bohužel Vám nepomůžeme ani na pobočce."
-                },
-                "callus": "Zavolejte nám\nna infolinku",
-                "visitus": "Navštivte nás\nna pobočce",
-                "primaryButton": "Ukončit žádost"
+                }
             },
             "amlSection": {
                 "title": "Údaje vyžadované zákonem",
@@ -482,11 +478,6 @@
                         ]
                     }
                 },
-                "funds": {
-                    "conservative": "Konzervativní fond",
-                    "balanced": "Vyvážený fond",
-                    "growth": "Růstový fond"
-                },
                 "fundsLocalizations": {
                     "CON": {
                         "title": "Konzervativní fond",
@@ -527,10 +518,6 @@
                     "secondaryButton": "Ukončit nastavení"
                 }
             },
-            "scoring": {
-                "title": "Chvilku strpení, všechno to musíme zkontrolovat",
-                "detail": "Potrvá to jen chviličku"
-            },
             "contract": {
                 "title": "Přečtěte si smlouvu o změně parametrů Doplňkového penzijního spoření",
                 "detail": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty a na vašem e-mailu",
@@ -549,63 +536,13 @@
                 "title": "Hotovo! Změna Doplňkového penzijního spoření je platná od {0}",
                 "detail": "Pokud vám bude na spoření přispívat zaměstnavatel, přepošlete mu prosím smlouvu od NN penzijní pojišťovny. Najdete ji ve svém e-mailu.",
                 "tooltip": "Nezapomeňte si nastavit výši vašeho trvalého příkazu na {0}.",
-                "section": "Nastavte si trvalý příkaz {0} z účtu:",
-                "dateTitle": "Posílat vždy",
-                "dateValue": "{0}. den v měsíci",
-                "from": "Odesíláte z účtu",
-                "defaultValue": 25,
-                "dateValues": [
-                    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
-                    18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28
-                ],
-                "firstPayment": "První platba odejde {0}",
                 "primaryButton": "Nastavit trvalý příkaz",
                 "primaryButtonWoStandingOrder": "Zpět na Přehled",
-                "secondaryButton": "Příkaz nastavím později",
-                "destinationAccountNumber": {
-                    "bankCode": 800,
-                    "number": 5005004433
-                },
-                "standingOrderName": "Penzijní spoření"
+                "secondaryButton": "Příkaz nastavím později"
             },
             "strategyVictory": {
                 "title": "Hotovo!\nPotvrzení o změně strategie Doplňkového penzijního spoření vám přijde e-mailem",
                 "primaryButton": "Zpět na Přehled"
-            },
-            "standingOrderVictory": {
-                "title": "Trvalý příkaz byl přijat ke zpracování",
-                "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
-                "primaryButton": "Zpět na Přehled"
-            },
-            "help": {
-                "title": "Nápověda",
-                "detail": "Se státním příspěvkem až 2 760 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 3 600 Kč ročně.",
-                "iconBullets": [
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Žádné poplatky za uzavření a vedení"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Zřídíte přímo v aplikaci"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Až 6 360 Kč ročně na státních  příspěvcích a daňové úspoře"
-                    },
-                    {
-                        "icon": "starsAltFill",
-                        "text": "Tuto nabídku jsme pro Vás připravili ve spolupráci s NN Penzijní společnost"
-                    }
-                ],
-                "footerText": "Více informací",
-                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-                "helpHeadline": "Potřebujete víc informací?",
-                "callUs": "Zavolejte nám na infolinku",
-                "branch": "Navštivte nás na pobočce",
-                "primaryButton": "Pokračovat v žádosti",
-                "secondaryButton": "Přerušit žádost",
-                "tertiaryButton": "Ukončit žádost"
             }
         }
     }
