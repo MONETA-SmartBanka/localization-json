@@ -1,0 +1,42 @@
+{
+    "scenes": {
+        "bankIdSonia": {
+            "preConsent": {
+                "title": "{client_name} žádá o ověření Vaší identity",
+                "companyIdLabel": "IČO",
+                "allowButton": "Pokračovat k potvrzení souhlasu",
+                "rejectButton": "Zamítnout",
+                "requiredSectionTitle": "Žádá o poskytnutí těchto informací",
+                "optionalSectionTitle": "Volitelné údaje",
+                "selectAll": "Označit vše",
+                "deselectAll": "Odznačit vše",
+                "scopes": {
+                    "openid": "Ověření vaší identity",
+                    "offline_access": "Možnost obnovit přístup k vašim údajům bez opětovného přihlášení",
+                    "profile.addresses": "Trvalá a kontaktní adresa",
+                    "profile.birthdate": "Datum narození",
+                    "profile.birthnumber": "Rodné číslo",
+                    "profile.birthplaceNationality": "Místo narození a státní příslušnost",
+                    "profile.email": "Emailová adresa",
+                    "profile.gender": "Vaše pohlaví",
+                    "profile.idcards": "Číslo občanského průkazu",
+                    "profile.legalstatus": "Právní status",
+                    "profile.locale": "Preferovaný jazyk",
+                    "profile.maritalstatus": "Rodinný stav",
+                    "profile.name": "Jméno, příjmení",
+                    "profile.paymentAccounts": "Čísla bankovních účtů",
+                    "profile.phonenumber": "Telefonní číslo",
+                    "profile.titles": "Tituly",
+                    "profile.updatedat": "Datum poslední aktualizace údajů",
+                    "profile.zoneinfo": "Časové pásmo",
+                    "profile.verification": "Údaje o ověření identity"
+                }
+            },
+            "accessDenied": {
+                "title": "Souhlas nebyl udělen",
+                "description": "Zamítli jste ověření.",
+                "continueButton": "Přesměrovat"
+            }
+        }
+    }
+}

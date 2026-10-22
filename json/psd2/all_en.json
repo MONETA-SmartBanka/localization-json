@@ -1,0 +1,42 @@
+{
+    "scenes": {
+        "bankIdSonia": {
+            "preConsent": {
+                "title": "{client_name} requests verification of your identity",
+                "companyIdLabel": "Company ID",
+                "allowButton": "Continue to confirm consent",
+                "rejectButton": "Decline",
+                "requiredSectionTitle": "Requests permission to provide this information",
+                "optionalSectionTitle": "Optional information",
+                "selectAll": "Select all",
+                "deselectAll": "Deselect all",
+                "scopes": {
+                    "openid": "Verify your identity",
+                    "offline_access": "Allow access to your data to be renewed without signing in again",
+                    "profile.addresses": "Permanent and contact address",
+                    "profile.birthdate": "Date of birth",
+                    "profile.birthnumber": "National identification number",
+                    "profile.birthplaceNationality": "Place of birth and nationality",
+                    "profile.email": "Email address",
+                    "profile.gender": "Your gender",
+                    "profile.idcards": "ID card number",
+                    "profile.legalstatus": "Legal status",
+                    "profile.locale": "Preferred language",
+                    "profile.maritalstatus": "Marital status",
+                    "profile.name": "First name, surname",
+                    "profile.paymentAccounts": "Bank account numbers",
+                    "profile.phonenumber": "Phone number",
+                    "profile.titles": "Titles",
+                    "profile.updatedat": "Last updated",
+                    "profile.zoneinfo": "Time zone",
+                    "profile.verification": "Identity verification data"
+                }
+            },
+            "accessDenied": {
+                "title": "Consent was not granted",
+                "description": "You declined identity verification.",
+                "continueButton": "Redirect"
+            }
+        }
+    }
+}
