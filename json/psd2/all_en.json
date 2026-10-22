@@ -36,6 +36,24 @@
                 "title": "Consent was not granted",
                 "description": "You declined identity verification.",
                 "continueButton": "Redirect"
+            },
+            "consent": {
+                "title": "Do you really want to share your data with {client_name}?",
+                "validityCheckbox": "Grant consent for 12 months",
+                "securityNotice": "Never share your details at the request of a third party. Continue only if you initiated this sign-in yourself.",
+                "dataSharingDisclaimer": "MONETA Money Bank, a.s. is not responsible for the use of shared data by a third party.",
+                "approveSlider": "Swipe to approve",
+                "rejectButton": "Decline"
+            },
+            "success": {
+                "title": "Success",
+                "description": "Redirecting,\ndo not close Smart Banka",
+                "continueButton": "Redirect"
+            },
+            "unverified": {
+                "title": "Verification failed",
+                "description": "Redirecting,\ndo not close Smart Banka",
+                "continueButton": "Redirect"
             }
         }
     }
