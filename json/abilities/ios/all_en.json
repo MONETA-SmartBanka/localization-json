@@ -21,6 +21,11 @@
             "title": "Product Applications"
         },
         {
+            "id": "expenses_categorization",
+            "image": "pieFill",
+            "title": "Expense overview and payment categorization"
+        },
+        {
             "id": "appearance",
             "image": "mobilePaletteFill",
             "title": "Appearance and Customization"
@@ -1308,6 +1313,61 @@
                 "actionData": "DATEIO",
                 "actionLabelText": "Try it"
             }
+        },
+        {
+            "id": "Categorization1_EN",
+            "title": "A better way to track your spending",
+            "detail": "A new chart next to your account balance compares your spending with the previous period. You can choose when the period starts.",
+            "imageURL": "/cbl_images/popup-news/v97/track_spending_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "A better way to track your spending",
+            "abilitySortOrder": 100
+        },
+        {
+            "id": "Categorization2_EN",
+            "title": "Introducing payment categories for a clearer view of your spending",
+            "detail": "See where your money goes, compare your spending and keep your go-to categories close at hand.",
+            "imageURL": "/cbl_images/popup-news/v97/payment_categories_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Payment categories",
+            "abilitySortOrder": 200
+        },
+        {
+            "id": "Categorization3_EN",
+            "title": "Your categories, your way",
+            "detail": "We automatically categorise your card payments. To change a category, press and hold the payment and choose another one. Your favourite categories are right there, with the rest under More.",
+            "imageURL": "/cbl_images/popup-news/v97/thumb_categories_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Your categories, your way",
+            "abilitySortOrder": 300
+        },
+        {
+            "id": "Categorization4_EN",
+            "title": "Smarter filters, clearer results",
+            "detail": "You can now filter by category and other payment details, making it easier to find exactly what you’re looking for.",
+            "imageURL": "/cbl_images/popup-news/v97/category_filter_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Smarter filters, clearer results",
+            "abilitySortOrder": 400
+        },
+        {
+            "id": "Categorization5_EN",
+            "title": "When will your payment be categorised?",
+            "detail": "We’ll categorise a card payment once it’s been posted. So if you pay at the end of the month and the payment is posted a few days later, it will appear in the next month’s chart.",
+            "imageURL": "/cbl_images/popup-news/v97/category_appearance_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "When will your payment be categorised?",
+            "abilitySortOrder": 500
         }
     ]
 }
