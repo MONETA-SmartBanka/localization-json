@@ -1,0 +1,152 @@
+{
+    "scenes": {
+        "detail": {
+            "banners": {
+                "returnRequested": "Žádost o vrácení platby byla odeslána. Samotné vrácení závisí na součinnosti příjemce a nelze ho garantovat. O sdělení údajů můžete zažádat nejdříve {0}.",
+                "idAvailable": "Od žádosti o vrácení platby uběhlo více než 7 dní. Nyní můžete zažádat o sdělení kontaktních údajů majitele účtu.",
+                "idRequested": "Žádost o vrácení platby a sdělení údajů jsme odeslali. Další postup je teď na bance příjemce."
+            },
+            "menu": {
+                "returnPayment": "Zažádat o vrácení platby",
+                "recipientDetails": "Zažádat o sdělení údajů příjemce"
+            }
+        },
+        "returnIntro": {
+            "title": "Poslali jste peníze na nesprávný účet? Požádejte o jejich vrácení",
+            "requestTitle": "Požádejte o vrácení platby",
+            "requestDescription": "Žádost odešleme bance příjemce, která informuje majitele účtu o Vaší žádosti.\nPozor žádost o vrácení platby není možné využít při platbě na podvodné e-shopy, či bazarové portály.",
+            "waitTitle": "Vyčkejte na reakci příjemce",
+            "waitDescription": "O vrácení platby nerozhoduje banka příjemce, ale majitel účtu, kam byla platba odeslána.",
+            "detailsTitle": "Pokud příjemce nezareaguje, můžete po 7 dnech požádat o kontaktní údaje",
+            "detailsDescription": "V případě, že Vám peníze nebyly vráceny, můžete stejným způsobem požádat o kontaktní údaje příjemce. Následnou komunikaci s ním řešíte napřímo.",
+            "feeTitle": "Poplatek za zpracování žádosti",
+            "feeValue": "{0}",
+            "disclaimer": "Vrácení platby závisí na součinnosti příjemce a nelze ho garantovat.",
+            "primaryButton": "Požádat o vrácení platby"
+        },
+        "idIntro": {
+            "title": "Žádost o sdělení údajů příjemce chybně odeslané platby",
+            "description": "Vaši žádost předáme bance příjemce platby, která poté rozhodne, zda Vám údaje o příjemci poskytne.",
+            "requestedTitle": "Požádali jste o vrácení platby",
+            "waitedTitle": "Vyčkali jste na reakci příjemce",
+            "detailsTitle": "Protože příjemce nezareagoval, můžete teď požádat o jeho kontaktní údaje",
+            "detailsDescription": "V případě, že Vám peníze nebyly vráceny, můžete stejným způsobem požádat o kontaktní údaje příjemce. Následnou komunikaci s ním řešíte napřímo.",
+            "feeTitle": "Poplatek za sdělení údajů",
+            "feeValue": "{0}",
+            "disclaimer": "Sdělení údajů závisí na rozhodnutí banky příjemce a nelze ho garantovat.",
+            "primaryButton": "Požádat o sdělení údajů"
+        },
+        "lowAmount": {
+            "title": "Žádost o vrácení platby je zpoplatněna {0}, opravdu se Vám vyplatí?",
+            "description": "Výše žádané částky se blíží poplatku za zpracování žádosti. Před pokračováním prosím zvažte, zda se Vám podání žádosti vyplatí.",
+            "primaryButton": "Pokračovat",
+            "secondaryButton": "Ukončit žádost"
+        },
+        "tooEarly": {
+            "title": "Zažádat o kontaktní údaje můžete nejdříve {0}",
+            "description": "Vaši žádost o vrácení platby jsme předali bance příjemce. Po 7 kalendářních dnech od odeslání žádosti můžete požádat o kontaktní údaje příjemce.",
+            "disclaimer": "Vrácení platby závisí na součinnosti příjemce a nelze ho garantovat.",
+            "primaryButton": "Zpět"
+        },
+        "wait": {
+            "title": "Žádost o vrácení platby a sdělení údajů jsme odeslali. Další postup je teď na bance příjemce",
+            "description": "O výsledku žádosti Vás budeme informovat zprávou v Internet Bance.",
+            "primaryButton": "Zpět na Přehled"
+        },
+        "account": {
+            "title": "Zadejte účet, na který měla platba odejít. Pro kontrolu můžete přidat také přílohu",
+            "description": "Chcete připojit přílohu, ze které je patrné, na který účet jste chtěli platbu odeslat? Může jít například o fakturu, objednávku nebo platební instrukce.",
+            "prefixLabel": "Předčíslí",
+            "accountNumberLabel": "Číslo účtu",
+            "bankCodeLabel": "Kód banky",
+            "disclaimer": "Vrácení platby závisí na součinnosti příjemce a nelze ho garantovat.",
+            "primaryButton": "Pokračovat s přílohou",
+            "secondaryButton": "Pokračovat bez přílohy",
+            "error": {
+                "description": "Toto je účet, na který jste platbu odeslali.\nUveďte účet, na který měla být platba správně odeslána.",
+                "disclaimer": "Vrácení platby závisí na součinnosti příjemce a nelze ho garantovat.\nPodání žádosti je zpoplatněno {0}.",
+                "primaryButton": "Připojit přílohu",
+                "secondaryButton": "Pokračovat bez přílohy"
+            }
+        },
+        "upload": {
+            "title": "Nahrajte přílohu, ze které je patrné, na který účet jste chtěli platbu odeslat",
+            "description": "Může jít například o fakturu, objednávku nebo platební instrukce.",
+            "uploadTitle": "Nahrát fotku nebo PDF",
+            "uploadButton": "Nahrát",
+            "primaryButton": "Pokračovat"
+        },
+        "returnContacts": {
+            "title": "Chcete uvést své údaje pro banku příjemce platby?",
+            "description": "Poskytnutí kontaktních údajů je dobrovolné a údaje budou využity pouze bankou příjemce pro účely vyřízení žádosti.",
+            "toggleTitle": "Poskytnout kontaktní údaje bance protistrany",
+            "nameLabel": "Jméno a příjmení",
+            "streetLabel": "Ulice, č. p.",
+            "cityLabel": "PSČ, obec",
+            "contactLabel": "Telefon/E-mail",
+            "primaryButton": "Pokračovat"
+        },
+        "idContacts": {
+            "title": "Chcete, aby Vás příjemce platby mohl kontaktovat napřímo?",
+            "description": "Můžete vyplnit pouze údaje, které chcete sdílet, například telefon nebo e-mail.\nÚdaje mohou být sdíleny s bankou a majitelem účtu příjemce pro účely vyřízení žádosti.",
+            "toggleTitle": "Poskytnout kontaktní údaje",
+            "nameLabel": "Jméno a příjmení",
+            "streetLabel": "Ulice, č. p.",
+            "cityLabel": "PSČ, obec",
+            "contactLabel": "Telefon/E-mail",
+            "primaryButton": "Pokračovat"
+        },
+        "summary": {
+            "returnTitle": "Shrnutí",
+            "idTitle": "Žádost o sdělení údajů příjemce chybně odeslané platby",
+            "paymentInfoTitle": "Informace o platbě",
+            "sentToAccount": "Platba odeslána na účet",
+            "shouldBeSentToAccount": "Platba měla být odeslána na účet",
+            "amount": "Částka",
+            "paymentDescription": "Popis platby",
+            "variableSymbol": "Variabilní symbol",
+            "constantSymbol": "Konstantní symbol",
+            "transactionDate": "Datum uskutečnění transakce",
+            "processingDate": "Datum provedení transakce",
+            "returnFeeTitle": "Poplatek za zpracování žádosti",
+            "idFeeTitle": "Poplatek za sdělení údajů",
+            "idFeeDisclaimer": "Sdělení údajů závisí na součinnosti banky příjemce a nelze ho garantovat.",
+            "attachmentsTitle": "Přiložené dokumenty",
+            "returnDeclaration": "Čestně prohlašuji, že číslo účtu příjemce na platebním příkazu bylo nesprávné a platba měla být odeslána na jiný účet.",
+            "idDeclaration": "Prohlašuji, že jsem odeslal(a) platbu na nesprávný účet a že požadované identifikační údaje použiji výhradně za účelem uplatnění svého nároku na vrácení chybně odeslaných finančních prostředků. Beru na vědomí, že uvedení nepravdivých údajů může mít právní následky.",
+            "primaryButton": "Pokračovat"
+        },
+        "documents": {
+            "paymentReturnApplication": "Zkontrolujte svou žádost o vrácení platby",
+            "paymentReturnDeclaration": "Zkontrolujte svou žádost o vrácení platby a potvrďte čestné prohlášení",
+            "paymentIdApplication": "Přečtěte si žádost o sdělení identifikačních údajů",
+            "description": "Všechny dokumenty najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+            "agreeButton": "Rozumím a souhlasím",
+            "disagreeButton": "Nesouhlasím"
+        },
+        "victories": {
+            "returnRequested": {
+                "title": "Žádost o vrácení platby jsme předali bance příjemce, která ji předá majiteli účtu",
+                "description": "Potvrzení o přijetí požadavku najdete ve Smart Bance a Internet Bance v sekci Dokumenty",
+                "requestedTitle": "Požádali jste o vrácení platby",
+                "waitTitle": "Vyčkejte na reakci příjemce",
+                "waitDescription": "O vrácení platby nerozhoduje banka příjemce, ale majitel účtu, kam byla platba odeslána.",
+                "detailsTitle": "Pokud příjemce nezareaguje, můžete po 7 dnech požádat o kontaktní údaje",
+                "detailsDescription": "V případě, že Vám peníze nebyly vráceny, můžete stejným způsobem požádat o kontaktní údaje příjemce. Následnou komunikaci s ním řešíte napřímo.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "idRequested": {
+                "title": "Žádost o sdělení kontaktních údajů jsme odeslali bance příjemce",
+                "description": "O výsledku žádosti Vás budeme informovat zprávou v Internet Bance.",
+                "primaryButton": "Zpět na Přehled"
+            },
+            "failure": {
+                "title": "Žádost nebyla odeslána",
+                "description": "Zkuste to prosím ještě jednou.",
+                "callUs": "Zavolejte nám na infolinku",
+                "branch": "Navštivte nás na pobočce",
+                "primaryButton": "Zpět"
+            }
+        }
+    }
+}
