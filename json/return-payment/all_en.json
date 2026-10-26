@@ -113,7 +113,7 @@
             "idFeeDisclaimer": "Whether the details can be provided depends on the recipient’s bank and can’t be guaranteed.",
             "attachmentsTitle": "Attached documents",
             "returnDeclaration": "I confirm that the recipient account number in the payment order was incorrect and the payment should have been sent to a different account.",
-            "idDeclaration": "TBD",
+            "idDeclaration": "I declare that I sent the payment to an incorrect account and that I will use the requested identification details solely to claim the return of the incorrectly sent funds. I acknowledge that providing false information may have legal consequences.",
             "primaryButton": "Continue"
         },
         "documents": {
@@ -141,10 +141,10 @@
                 "primaryButton": "Back to Overview"
             },
             "failure": {
-                "title": "TBD",
+                "title": "We couldn't send your request",
                 "description": "Please try again.",
-                "callUs": "TBD",
-                "branch": "TBD",
+                "callUs": "Call our helpline",
+                "branch": "Visit us at a branch",
                 "primaryButton": "Back"
             }
         }
