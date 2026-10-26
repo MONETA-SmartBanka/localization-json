@@ -214,22 +214,29 @@
                 "primaryButton": "Založit dětský účet zdarma"
             },
             "uploadBirthCertificateIntro": {
-                "title": "Teď ověříme totožnost vašeho dítěte",
-                "primaryButton": "Vyfotit rodný list",
+                "title": "Teď ověříme totožnost <theme>dítěte</theme>",
+                "subtitle": "V následujícím kroku vyfotíte potřebné dokumenty.",
+                "primaryButton": "Vyfotit originální rodný list",
                 "items": [
                     {
-                        "icon": "documentsFill",
-                        "text": "<b>Focení originálu rodného listu</b><br/>Vyfotíte český rodný list vašeho dítěte."
+                        "icon": "fileLinesFill",
+                        "text": "<b>Rodný list – originál</b><br/>Vyfotíte český rodný list dítěte.",
+                        "title": "Rodný list – originál",
+                        "description": "Vyfotíte český rodný list dítěte.",
+                        "info": "Fotografie z monitoru, černobílé kopie ani jiné reprodukce nelze použít."
                     },
                     {
                         "icon": "idCardFill",
-                        "text": "<b>Focení druhého dokladu</b><br/>Pro založení dětského účtu potřebujeme vidět občanský průkaz nebo pas dítěte (od 15 let pouze OP)."
+                        "header": "Možná bude potřeba vyfotit také",
+                        "text": "<b>Cestovní pas nebo občanský průkaz</b><br/>Vyfotíte cestovní pas, případně občanský průkaz dítěte. Od 15 let je OP povinný.",
+                        "title": "Cestovní pas nebo občanský průkaz",
+                        "description": "Vyfotíte cestovní pas, případně občanský průkaz dítěte. Od 15 let je OP povinný."
                     }
                 ]
             },
             "uploadBirthCertificateScanner": {
                 "title": "Vyfoťte dokument",
-                "detail": "Platný rodný list dítěte, za dobrého osvětlení, ostře a nerozmazaně.",
+                "detail": "<b>Originální rodný list dítěte</b>, vyfocený za dobrého osvětlení, ostře a bez oříznutí.",
                 "primaryButton": "Vyfotit"
             },
             "basicInfo": {
@@ -302,10 +309,12 @@
             },
             "birthNumber": {
                 "title": "Doplňte údaje o dítěti",
+                "image": "birthCertificateSample",
                 "birthCertficateNumber": {
                     "title": "Číslo rodného listu",
-                    "placeholder": "Např. 51 2000 500 50",
-                    "info": "Jde o čtyři čísla – Svazek, Ročník, Strana, Pořadové číslo (všechny naleznete v horní polovině rodného listu)."
+                    "placeholder": "např. 60 2009 132 261",
+                    "info": "Jde o čtyři údaje zapsaná po sobě, najdete je ve vrchní části rodného listu – Svazek, Ročník, Strana a Pořadové číslo.",
+                    "info2": "Příklady údajů pro číslo rodného listu: Svazek (60), Ročník (2009), Strana (132) a Pořadové číslo (261)."
                 },
                 "birthNumber": {
                     "title": "Rodné číslo",
