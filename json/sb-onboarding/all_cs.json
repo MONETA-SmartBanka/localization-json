@@ -593,6 +593,73 @@
                     "secondaryButton": "Zpět"
                 }
             },
+            "pennyPayment": {
+                "senderAccount": {
+                    "title": "Zadejte účet vedený na své jméno u jiné české banky. Z něj pak odešlete ověřovací platbu {0} Kč",
+                    "detail": "Platbou ověříme, že účet patří opravdu Vám.",
+                    "section": "Váš účet u jiné banky vedený na Vaše jméno",
+                    "account": "Číslo účtu odesílatele",
+                    "primaryButton": "Pokračovat"
+                },
+                "paymentInfo": {
+                    "title": "Odešlete ověřovací platbu {0} Kč z Vašeho účtu",
+                    "qrSection": "Načtěte QR kód v aplikaci jiné banky",
+                    "shareQr": "QR kód s platebními údaji",
+                    "orDivider": "NEBO",
+                    "paymentSection": "Zaplaťte pomocí těchto platebních údajů",
+                    "account": "Číslo účtu",
+                    "note": "Zpráva pro příjemce",
+                    "amount": "Částka",
+                    "primaryButton": "Platbu jsem odeslal/a",
+                    "unableToSend": "Platbu nemohu odeslat"
+                },
+                "unableToSend": {
+                    "title": "Zastavte se za námi na pobočce",
+                    "detail": "Pokud se Vám nedaří odeslat platbu, zastavte se za námi na pobočce, kde Vám účet pomůžeme založit.",
+                    "branch": "Navštivte nás na pobočce",
+                    "back": "Zpět"
+                },
+                "waiting": {
+                    "title": "Čekáme na připsání aktivační platby",
+                    "detail": "Hned jak platba dorazí, pošleme Vám SMS zprávu.",
+                    "primaryButton": "Přejít na Přehled"
+                },
+                "notArrived": {
+                    "title": "Aktivační platba ještě nedorazila?",
+                    "detail": "Zkontrolujte všechny údaje, nebo ji zkuste odeslat znovu.",
+                    "weekendWarning": "Odeslali jste platbu o víkendu? Zpracování proběhne nejbližší pracovní den.",
+                    "checklistTitle": "Zkontrolujte, že platba:",
+                    "checkSenderAccount": "Byla odeslána z účtu, který jste zadali",
+                    "checkOtherBank": "Byla odeslána z Vašeho účtu u jiné české banky",
+                    "checkNote": "Obsahuje zprávu pro příjemce",
+                    "primaryButton": "Zopakovat aktivační platbu",
+                    "branch": "Navštívit pobočku"
+                }
+            },
+            "miniDashboard": {
+                "title": "Teď už jen čekáme na připsání aktivační platby",
+                "productsTitle": "Produkty, které na Vás čekají",
+                "productsDescription": "Připraveny budou po aktivaci běžného účtu.",
+                "buildingSavings": "Stavební spoření",
+                "owner": "Majitel",
+                "loan": "Úvěr",
+                "overdue": "Po splatnosti",
+                "nextInstalment": "Příští splátka",
+                "nextInstalmentWithDate": "Příští splátka: {0}",
+                "detail": "Detail",
+                "moreInfo": "Více informací",
+                "paymentNotArrived": "Platba nepřišla?",
+                "salespointInfoButton": "OK",
+                "currentAccount": "Běžný účet",
+                "progress": "Aktivujeme Váš účet. Hned jak bude připravený, pošleme Vám SMS.",
+                "verification": "Platba obvykle dorazí do pár minut. Hned jak ji připíšeme, pošleme Vám SMS zprávu",
+                "rejected": "Mrzí nás to, ale založit Vám běžný účet přes telefon není možné. Pro více informací volejte +420 224 443 636 nebo navštivte naší pobočku."
+            },
+            "sign": {
+                "title": "Podepište smlouvu svým PINem",
+                "loadingTitle": "Všechno to musíme zkontrolovat, prosím počkejte",
+                "loadingDetail": "Obvykle to zvládneme za pár sekund, nejpozději do 5 minut. Poté už jen odešlete ověřovací platbu a účet Vám založíme."
+            },
             "victory": {
                 "title": " Hotovo!",
                 "detail": "Děkujeme za ověření. Teď to musíme zkontrolovat.",
