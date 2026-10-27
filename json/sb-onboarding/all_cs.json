@@ -167,7 +167,7 @@
                 }
             },
             "onboardingDocumentReview": {
-                "title": "Načetli jsme Vaše údaje správně?",
+                "title": "Zkontrolujte, že jsme načetli Vaše údaje správně",
                 "firstName": "Jméno",
                 "lastName": "Příjmení",
                 "dateOfBirth": "Datum narození",
@@ -188,9 +188,9 @@
                 "primaryButton": "Pokračovat"
             },
             "unsupportedPairingStyle": {
-                "title": "Tento způsob propojení není dostupný",
-                "detail": "Ověřte, že máte Smart Banku aktivovanou v Internet Bance, nebo nás navštivte na pobočce.",
-                "primaryButton": "Zpět na Úvod"
+                "title": "Zastavte se prosím na pobočce kde Vám rádi pomůžeme",
+                "primaryButton": "Sjednat schůzku",
+                "secondaryButton": "Zpět na Úvod"
             },
             "secondDocumentTypeSelection": {
                 "title": "Focení druhého dokladu",
@@ -232,8 +232,8 @@
                 "primaryButton": "Pokračovat"
             },
             "livenessVerification": {
-                "title": "Oskarový výkon! Děkujeme. Do 5 minut video zpracujeme",
-                "detail": "Natočené video porovná automat s Vašimi doklady, abychom si byli jisti, že jste to vy.",
+                "title": "Děkujeme Vám.\nUž brzy budeme mít hotovo",
+                "detail": "Pokračujte a my mezitím porovnáme natočené video s Vašimi doklady, abychom si byli jisti, že jste to opravdu Vy.",
                 "primaryButton": "Pokračovat"
             },
             "onboardingContactAddress": {
@@ -256,7 +256,7 @@
                 "promoMessages": [
                     {
                         "promoId": "RDC0010001",
-                        "title": "Nyní můžete získat 5 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Zobrazit podmínky akce</a>",
+                        "title": "Nyní můžete získat 10 % zpět z každé platby debetní kartou na 6 měsíců až do 3 000 Kč.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Zobrazit podmínky akce</a>",
                         "icon": "giftFill"
                     }
                 ],
@@ -553,6 +553,44 @@
                     "title": "Vítejte zpět v Monetě, vše je připraveno!",
                     "detail": "Přihlaste se pro potvrzení aktivace Smart Banky.",
                     "primaryButton": "Přihlásit se"
+                },
+                "verifyMobileKey": {
+                    "title": "Ověřte se kódem, který jsme Vám poslali v SMS",
+                    "titleWithPhone": "Ověřte se kódem, který jsme Vám poslali v SMS na číslo {phoneNumber}",
+                    "inputLabel": "SMS kód",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Poslat SMS znovu",
+                    "noPhoneButton": "Tohle číslo nemám",
+                    "errors": {
+                        "SMS_CANNOT_SEND": "SMS se nepodařilo odeslat, prosím zkuste to znovu.",
+                        "SMS_FAILED": "SMS se nepodařilo odeslat. Nechte si poslat novou.",
+                        "SMS_LIMIT_EXCEEDED": "Překročili jste maximální počet odeslaných SMS. Začněte prosím proces od začátku.",
+                        "BAD_MK": "Zadali jste špatný kód, opište ho prosím ještě jednou.",
+                        "MK_EXPIRED": "SMS kód vypršel. Nechte si poslat nový.",
+                        "CANNOT_VERIFY": "Nepodařilo se nám ověřit SMS kód. Zastavte se prosím za námi na pobočku."
+                    }
+                },
+                "noPhoneAccess": {
+                    "title": "Nemáte přístup k tomuto telefonnímu číslu?",
+                    "detail": "Ověřovací kód pro spárování účtu posíláme na telefonní číslo, které jste uvedli při založení účtu.\n\nPokud už k tomuto číslu nemáte přístup, můžete si ho změnit na pobočce nebo zvolit jiný způsob párování.",
+                    "primaryButton": "Vybrat jiný způsob párování",
+                    "secondaryButton": "Zpět"
+                },
+                "verifyPhoneNumber": {
+                    "title": "Zadejte prosím telefonní číslo, které u nás používáte pro přihlašování do Internet Banky.",
+                    "detail": "Na toto číslo vám zašleme ověřovací kód SMS.",
+                    "inputLabel": "Telefon",
+                    "primaryButton": "Pokračovat",
+                    "secondaryButton": "Nevím, jaké číslo zadat",
+                    "errors": {
+                        "INVALID": "Telefonní číslo nelze použít, zadejte prosím jiné"
+                    }
+                },
+                "unknownPhoneNumber": {
+                    "title": "Nevíte, jaké telefonní číslo zadat?",
+                    "detail": "Zadejte telefonní číslo, které jste uvedli při založení účtu. Na toto číslo vám zašleme SMS s ověřovacím kódem.\n\nPokud si číslo nepamatujete, navštivte naši pobočku, kde vám s jeho zjištěním nebo změnou pomůžeme.",
+                    "primaryButton": "Sjednat schůzku na pobočce",
+                    "secondaryButton": "Zpět"
                 }
             },
             "victory": {
