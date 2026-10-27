@@ -21,6 +21,11 @@
             "title": "Zakládání a rušení produktů"
         },
         {
+            "id": "expenses_categorization",
+            "image": "pieFill",
+            "title": "Přehled výdajů a kategorizace plateb"
+        },
+        {
             "id": "appearance",
             "image": "mobilePaletteFill",
             "title": "Vzhled a přizpůsobení"
@@ -1305,6 +1310,61 @@
                 "actionData": "DATEIO",
                 "actionLabelText": "Zjistit více"
             }
+        },
+        {
+            "id": "Categorization1_CZ",
+            "title": "Mějte své finance lépe pod kontrolou",
+            "detail": "Vedle zůstatku na účtu nově uvidíte graf, který porovnává Vaše výdaje s předchozím obdobím. Začátek období si můžete upravit podle sebe.",
+            "imageURL": "/cbl_images/popup-news/v97/track_spending_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Mějte své finance pod kontrolou",
+            "abilitySortOrder": 100
+        },
+        {
+            "id": "Categorization2_CZ",
+            "title": "Představujeme Vám novou kategorizaci plateb pro lepší přehled o výdajích",
+            "detail": "Sledujte, kde a za co utrácíte, porovnávejte výdaje a oblíbené kategorie mějte vždy po ruce.",
+            "imageURL": "/cbl_images/popup-news/v97/payment_categories_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Kategorizace plateb",
+            "abilitySortOrder": 200
+        },
+        {
+            "id": "Categorization3_CZ",
+            "title": "Kategorie máte pod palcem",
+            "detail": "Vaše platby kartou zařazujeme do kategorií automaticky. Pokud je chcete změnit, přidržte na platbě prst a vyberte kategorii z nabídky. Oblíbené máte po ruce, další najdete pod Více.",
+            "imageURL": "/cbl_images/popup-news/v97/thumb_categories_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Kategorie máte pod palcem",
+            "abilitySortOrder": 300
+        },
+        {
+            "id": "Categorization4_CZ",
+            "title": "Chytřejší filtr pro lepší přehled",
+            "detail": "Filtr nově využívá i kategorie a další údaje o platbách. Snadněji tak najdete přesně to, co hledáte.",
+            "imageURL": "/cbl_images/popup-news/v97/category_filter_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Chytřejší filtr",
+            "abilitySortOrder": 400
+        },
+        {
+            "id": "Categorization5_CZ",
+            "title": "Kdy se platba objeví v kategorii?",
+            "detail": "Platbu kartou zařadíme do kategorie až po jejím zaúčtování. Pokud tedy zaplatíte na konci měsíce a platbu zaúčtujeme až o pár dní později, uvidíte ji v grafu až další měsíc.",
+            "imageURL": "/cbl_images/popup-news/v97/category_appearance_CZ.png",
+            "minAppVersion": "98.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "expenses_categorization",
+            "abilityTitle": "Kdy se platba objeví v kategorii?",
+            "abilitySortOrder": 500
         }
     ]
 }
