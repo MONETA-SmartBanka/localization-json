@@ -188,9 +188,9 @@
                 "primaryButton": "Continue"
             },
             "unsupportedPairingStyle": {
-                "title": "This pairing method is not available",
-                "detail": "Make sure Smart Banka is activated in Internet Banka, or visit us at a branch.",
-                "primaryButton": "Back to Home"
+                "title": "Please stop by a branch where we'll be happy to help you",
+                "primaryButton": "Book an appointment",
+                "secondaryButton": "Back to Home"
             },
             "secondDocumentTypeSelection": {
                 "title": "Take a photo of your other ID",
@@ -232,8 +232,8 @@
                 "primaryButton": "Continue"
             },
             "livenessVerification": {
-                "title": "Oscar-worthy performance! Thank you. The video will be processed within 5 minutes.",
-                "detail": "The recorded video will be compared with your documents to confirm your identity.",
+                "title": "Thank you.\nWe'll be done shortly",
+                "detail": "Continue and we'll compare the recorded video with your documents in the meantime to make sure that it's really you.",
                 "primaryButton": "Continue"
             },
             "onboardingContactAddress": {
@@ -256,7 +256,7 @@
                 "promoMessages": [
                     {
                         "promoId": "RDC0010001",
-                        "title": "Get 5% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
+                        "title": "Get 10% cashback on every debit card payment for 6 months, up to CZK 3,000.<br><a href=\"https://www.moneta.cz/documents/d/guest/mmb-bu-tom-plus-podminky-kampane\">Terms and conditions</a>",
                         "icon": "giftFill"
                     }
                 ],
@@ -553,6 +553,28 @@
                     "title": "Welcome back to Moneta. Everything is ready!",
                     "detail": "Log in to confirm the activation of Smart Banka.",
                     "primaryButton": "Log in"
+                },
+                "verifyMobileKey": {
+                    "title": "Verify with the code we sent you via SMS",
+                    "titleWithPhone": "Verify with the code we sent you via SMS to {phoneNumber}",
+                    "inputLabel": "SMS code",
+                    "primaryButton": "Continue",
+                    "secondaryButton": "Send SMS again",
+                    "noPhoneButton": "I don't have this number",
+                    "errors": {
+                        "SMS_CANNOT_SEND": "The SMS could not be sent, please try again.",
+                        "SMS_FAILED": "The SMS could not be sent. Request a new one.",
+                        "SMS_LIMIT_EXCEEDED": "You have reached the SMS limit. Please start over from beginning.",
+                        "BAD_MK": "You've entered an invalid code, please try it again.",
+                        "MK_EXPIRED": "The code has expired, send another one.",
+                        "CANNOT_VERIFY": "The code could not be verified. Please visit us at one of our branches."
+                    }
+                },
+                "noPhoneAccess": {
+                    "title": "No access to this phone number?",
+                    "detail": "We send the verification code for account pairing to the phone number you provided when opening the account.\n\nIf you no longer have access to it, you can change it at a branch or choose another pairing method.",
+                    "primaryButton": "Choose another pairing method",
+                    "secondaryButton": "Back"
                 }
             },
             "victory": {
