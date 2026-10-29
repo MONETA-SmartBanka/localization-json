@@ -18,24 +18,6 @@
         },
         "scenes": {
             "calculator": {
-                "lifecycle": {
-                    "title": "Spoření, které se mění spolu s Vámi",
-                    "description": "Strategie spoření se postupem času více zaměřuje na ochranu naspořených peněz.",
-                    "benefits": [
-                        {
-                            "title": "Když máte do důchodu daleko, peníze mají větší prostor pro růst",
-                            "description": "Když máte do důchodu ještě daleko, strategie může využívat dynamičtější investice s větším potenciálem zhodnocení."
-                        },
-                        {
-                            "title": "Strategie se postupně přizpůsobuje vašemu věku",
-                            "description": "Rozložení vašich úspor mezi fondy se automaticky upravuje. Nemusíte sami hlídat, kdy a kam peníze přesunout."
-                        },
-                        {
-                            "title": "Před důchodem více chrání úspory",
-                            "description": "Čím blíže jste důchodu, tím větší část úspor se přesouvá do konzervativnějších investic."
-                        }
-                    ]
-                },
                 "title": "Doplňkové penzijní spoření",
                 "detail": "Spořte na důchod se státním příspěvkem a daňovou úsporou",
                 "chooseStrategy": "Vyberte si strategii",
@@ -64,6 +46,27 @@
                     "Až 11 280 Kč ročně na státních  příspěvcích a daňové úspoře. Od 1. 1. 2024 je celkový daňový odpočet pro produkty DPS, DIP a životní pojištění",
                     "Tuto nabídku jsme pro Vás připravili ve spolupráci s NN Penzijní společnost"
                 ],
+                "lcsBenefits": {
+                    "title": "Spoření, které se mění spolu s Vámi",
+                    "description": "Strategie spoření se postupem času více zaměřuje na ochranu naspořených peněz.",
+                    "benefits": [
+                        {
+                            "title": "Když máte do důchodu daleko, peníze mají větší prostor pro růst",
+                            "description": "Když máte do důchodu ještě daleko, strategie může využívat dynamičtější investice s větším potenciálem zhodnocení.",
+                            "icon": "pocketMoneyIncreaseFill"
+                        },
+                        {
+                            "title": "Strategie se postupně přizpůsobuje vašemu věku",
+                            "description": "Rozložení vašich úspor mezi fondy se automaticky upravuje. Nemusíte sami hlídat, kdy a kam peníze přesunout.",
+                            "icon": "graphFill"
+                        },
+                        {
+                            "title": "Před důchodem více chrání úspory",
+                            "description": "Čím blíže jste důchodu, tím větší část úspor se přesouvá do konzervativnějších investic.",
+                            "icon": "faceOldDuotone"
+                        }
+                    ]
+                },
                 "existingInfo": "Pokud už máte Doplňkové penzijní spoření nebo Penzijní připojištění, je potřeba stávající smlouvu převést nebo zrušit. S tím Vám rádi pomůžeme na našich pobočkách.",
                 "secondaryButton": "Více informací",
                 "secondaryButtonLink": "https://www.nn.cz/penze/doplnkove-penzijni-sporeni/",

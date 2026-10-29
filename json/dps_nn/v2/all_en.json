@@ -18,24 +18,6 @@
         },
         "scenes": {
             "calculator": {
-                "lifecycle": {
-                    "title": "Savings that change with you",
-                    "description": "Over time, the savings strategy focuses more on protecting the money you have saved.",
-                    "benefits": [
-                        {
-                            "title": "When retirement is far away, your money has more room to grow",
-                            "description": "When retirement is still far away, the strategy can use more dynamic investments with greater growth potential."
-                        },
-                        {
-                            "title": "The strategy gradually adapts to your age",
-                            "description": "Your savings are automatically reallocated between funds. You do not need to monitor when and where to move your money."
-                        },
-                        {
-                            "title": "Your savings are better protected as retirement approaches",
-                            "description": "The closer you are to retirement, the larger the share of your savings that moves into more conservative investments."
-                        }
-                    ]
-                },
                 "title": "Supplementary Pension Savings",
                 "detail": "Save up for retirement with state contribution and tax credit",
                 "chooseStrategy": "Vyberte si strategii",
@@ -64,6 +46,27 @@
                     "Up to 6 360 Kč a year in state contribution and tax credit",
                     "This offer has been realized in collaboration with NN Penzijní společnost"
                 ],
+                "lcsBenefits": {
+                    "title": "Spoření, které se mění spolu s Vámi",
+                    "description": "Strategie spoření se postupem času více zaměřuje na ochranu naspořených peněz.",
+                    "benefits": [
+                        {
+                            "title": "Když máte do důchodu daleko, peníze mají větší prostor pro růst",
+                            "description": "Když máte do důchodu ještě daleko, strategie může využívat dynamičtější investice s větším potenciálem zhodnocení.",
+                            "icon": "pocketMoneyIncreaseFill"
+                        },
+                        {
+                            "title": "Strategie se postupně přizpůsobuje vašemu věku",
+                            "description": "Rozložení vašich úspor mezi fondy se automaticky upravuje. Nemusíte sami hlídat, kdy a kam peníze přesunout.",
+                            "icon": "graphFill"
+                        },
+                        {
+                            "title": "Před důchodem více chrání úspory",
+                            "description": "Čím blíže jste důchodu, tím větší část úspor se přesouvá do konzervativnějších investic.",
+                            "icon": "faceOldDuotone"
+                        }
+                    ]
+                },
                 "existingInfo": "Pokud už máte Doplňkové penzijní spoření nebo Penzijní připojištění, je potřeba stávající smlouvu převést nebo zrušit. S tím Vám rádi pomůžeme na našich pobočkách.",
                 "secondaryButton": "More information",
                 "secondaryButtonLink": "https://www.nn.cz/penze/doplnkove-penzijni-sporeni/",
