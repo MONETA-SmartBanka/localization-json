@@ -623,9 +623,16 @@
             },
             "help": {
                 "title": "Nápověda",
-                "detail": "Se státním příspěvkem až {0} ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až {1} ročně.",
-                "detailValuesUpTo30": ["4 080 Kč", "7 200 Kč"],
-                "detailValuesOver30": ["4 080 Kč", "7 200 Kč"],
+                "detail": "Se státním příspěvkem až 4 080 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 7 200 Kč ročně.",
+                "detailParameterizable": "Se státním příspěvkem až {0} ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až {1} ročně.",
+                "detailValuesUpTo30": [
+                    "4 080 Kč",
+                    "7 200 Kč"
+                ],
+                "detailValuesOver30": [
+                    "4 080 Kč",
+                    "7 200 Kč"
+                ],
                 "iconBullets": [
                     {
                         "icon": "starsAltFill",
