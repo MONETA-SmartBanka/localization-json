@@ -1,0 +1,153 @@
+{
+    "scenes": {
+        "detail": {
+            "banners": {
+                "returnRequested": "Your payment return request has been sent. Whether the money is returned depends on the recipient’s cooperation and can’t be guaranteed. You can request their contact details from {0}.",
+                "idAvailable": "It’s been more than 7 days since you submitted your payment return request. You can now request the account holder’s contact details.",
+                "idRequested": "We’ve sent your payment return request and your request for contact details. The recipient’s bank will handle the next steps."
+            },
+            "menu": {
+                "returnPayment": "Request payment return",
+                "recipientDetails": "Request recipient’s contact details"
+            }
+        },
+        "returnIntro": {
+            "title": "Sent money to the wrong account? Request it back",
+            "requestTitle": "Request the payment back",
+            "requestDescription": "We’ll send your request to the recipient’s bank, which will notify the account holder. This service can’t be used for payments to fraudulent online shops or marketplace sites.",
+            "waitTitle": "Wait for the recipient to respond",
+            "waitDescription": "The recipient’s bank can’t decide whether the money is returned. It’s up to the account holder who received the payment.",
+            "detailsTitle": "If the recipient doesn’t respond, you can request their contact details after 7 days",
+            "detailsDescription": "If the money isn’t returned, you can request the recipient’s contact details. You can then contact them directly.",
+            "feeTitle": "Request processing fee",
+            "feeValue": "{0}",
+            "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed.",
+            "primaryButton": "Request payment return"
+        },
+        "idIntro": {
+            "title": "Request the recipient’s contact details",
+            "description": "We’ll send your request to the recipient’s bank, which will decide whether to provide you with the recipient’s contact details.",
+            "requestedTitle": "You requested the payment back",
+            "waitedTitle": "You waited for the recipient to respond",
+            "detailsTitle": "The recipient hasn’t responded, so you can now request their contact details",
+            "detailsDescription": "If the money hasn’t been returned, you can request the recipient’s contact details. You can then contact them directly.",
+            "feeTitle": "Contact details request fee",
+            "feeValue": "{0}",
+            "disclaimer": "Whether the contact details can be provided depends on the recipient’s bank and can’t be guaranteed.",
+            "primaryButton": "Request contact details"
+        },
+        "lowAmount": {
+            "title": "A payment return request costs {0}. Do you still want to continue?",
+            "description": "The amount you’re trying to recover is close to the processing fee. Please consider whether you still want to submit the request.",
+            "primaryButton": "Continue",
+            "secondaryButton": "Cancel request"
+        },
+        "tooEarly": {
+            "title": "You can request the recipient’s contact details from {0}",
+            "description": "We’ve sent your payment return request to the recipient’s bank. You can request the recipient’s contact details 7 calendar days after submitting the request.",
+            "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed.",
+            "primaryButton": "Back"
+        },
+        "wait": {
+            "title": "We’ve sent your payment return request and your request for contact details. The recipient’s bank will handle the next steps",
+            "description": "We’ll let you know the outcome in a message in Internet Banka.\nYou can find confirmation that we received your request in Smart Banka and Internet Banka under Documents.",
+            "primaryButton": "Back to Overview"
+        },
+        "account": {
+            "title": "Enter the account the payment should have been sent to. You can also add an attachment for verification",
+            "description": "You can attach a document showing which account the payment was meant for, such as an invoice, order or payment instructions.",
+            "prefixLabel": "Prefix",
+            "accountNumberLabel": "Account number",
+            "bankCodeLabel": "Bank code",
+            "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed.",
+            "primaryButton": "Continue with attachment",
+            "secondaryButton": "Continue without attachment",
+            "error": {
+                "description": "This is the account you sent the payment to. Enter the account it should have been sent to instead.",
+                "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed. The request costs {0}.",
+                "primaryButton": "Continue with attachment",
+                "secondaryButton": "Continue without attachment"
+            }
+        },
+        "upload": {
+            "title": "Upload a document showing which account the payment should have been sent to",
+            "description": "This could be an invoice, order or payment instructions.",
+            "uploadTitle": "Upload a photo or PDF",
+            "uploadButton": "Upload",
+            "fileTooLarge": "The file is too large. The maximum size is 10 MB.",
+            "primaryButton": "Continue"
+        },
+        "returnContacts": {
+            "title": "Would you like to share your contact details with the recipient’s bank?",
+            "description": "Sharing your contact details is optional. They’ll only be used by the recipient’s bank to process your request.",
+            "toggleTitle": "Share contact details with the recipient’s bank",
+            "nameLabel": "Full name",
+            "streetLabel": "Street and house number",
+            "cityLabel": "Postcode, city",
+            "contactLabel": "Phone / Email",
+            "primaryButton": "Continue"
+        },
+        "idContacts": {
+            "title": "Would you like the recipient to be able to contact you directly?",
+            "description": "You only need to provide the details you want to share, such as your phone number or email address.\nThese details may be shared with the recipient’s bank and the account holder to process your request.",
+            "toggleTitle": "Share contact details",
+            "nameLabel": "Full name",
+            "streetLabel": "Street and house number",
+            "cityLabel": "Postcode, city",
+            "contactLabel": "Phone / Email",
+            "primaryButton": "Continue"
+        },
+        "summary": {
+            "returnTitle": "Summary",
+            "idTitle": "Request for the recipient’s details",
+            "paymentInfoTitle": "Payment details",
+            "sentToAccount": "Payment sent to",
+            "shouldBeSentToAccount": "Payment should have been sent to",
+            "amount": "Amount",
+            "paymentDescription": "Payment description",
+            "variableSymbol": "Variable symbol",
+            "constantSymbol": "Constant symbol",
+            "transactionDate": "Transaction date",
+            "processingDate": "Processing date",
+            "returnFeeTitle": "Request processing fee",
+            "idFeeTitle": "Contact details request fee",
+            "idFeeDisclaimer": "Whether the details can be provided depends on the recipient’s bank and can’t be guaranteed.",
+            "attachmentsTitle": "Attached documents",
+            "returnDeclaration": "I confirm that the recipient account number in the payment order was incorrect and the payment should have been sent to a different account.",
+            "idDeclaration": "I declare that I sent the payment to an incorrect account and that I will use the requested identification details solely to claim the return of the incorrectly sent funds. I acknowledge that providing false information may have legal consequences.",
+            "primaryButton": "Continue"
+        },
+        "documents": {
+            "paymentReturnApplication": "Review your payment return request",
+            "paymentReturnDeclaration": "Review your payment return request and confirm your declaration",
+            "paymentIdApplication": "Review your request for the recipient’s details",
+            "description": "You can find all documents in Smart Banka and Internet Banka under Documents.",
+            "agreeButton": "I understand and agree",
+            "disagreeButton": "I disagree"
+        },
+        "victories": {
+            "returnRequested": {
+                "title": "We’ve sent your payment return request to the recipient’s bank, which will pass it on to the account holder",
+                "description": "You can find confirmation that we received your request in Smart Banka and Internet Banka under Documents.",
+                "requestedTitle": "You’ve requested the payment back",
+                "waitTitle": "Wait for the recipient to respond",
+                "waitDescription": "The recipient’s bank doesn’t decide whether the payment is returned. The decision is up to the account holder who received it.",
+                "detailsTitle": "If the recipient doesn’t respond, you can request their contact details after 7 days",
+                "detailsDescription": "If the money hasn’t been returned, you can request the recipient’s contact details the same way. You can then contact them directly.",
+                "primaryButton": "Back to Overview"
+            },
+            "idRequested": {
+                "title": "We’ve sent your request for contact details to the recipient’s bank",
+                "description": "We’ll let you know the outcome in a message in Internet Banka.\nYou can find confirmation that we received your request in Smart Banka and Internet Banka under Documents.",
+                "primaryButton": "Back to Overview"
+            },
+            "failure": {
+                "title": "We couldn't send your request",
+                "description": "Please try again.",
+                "callUs": "Call our helpline",
+                "branch": "Visit us at a branch",
+                "primaryButton": "Back"
+            }
+        }
+    }
+}
