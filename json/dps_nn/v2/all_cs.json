@@ -621,61 +621,17 @@
                 "detail": "Nastavení Vašeho trvalého příkazu proběhne zpravidla v řádu několika minut, nejpozději následující pracovní den.",
                 "primaryButton": "Zpět na Přehled"
             },
-            "helpUpTo30": {
-                "title": "Nápověda",
-                "detail": "Se státním příspěvkem až 4 080 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 7 200 Kč ročně.",
-                "iconBullets": [
-                    {
-                        "text": "Žádné poplatky za uzavření a vedení"
-                    },
-                    {
-                        "text": "Zřídíte přímo v aplikaci"
-                    },
-                    {
-                        "text": "Až 11 280 Kč ročně na státních  příspěvcích a daňové úspoře"
-                    },
-                    {
-                        "text": "Tuto nabídku jsme pro Vás připravili ve spolupráci s NN Penzijní společnost"
-                    }
-                ],
-                "footerText": "Více informací",
-                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-                "helpHeadline": "Potřebujete víc informací?",
-                "callUs": "Zavolejte nám na infolinku",
-                "branch": "Navštivte nás na pobočce",
-                "primaryButton": "Pokračovat v žádosti",
-                "secondaryButton": "Přerušit žádost",
-                "tertiaryButton": "Ukončit žádost"
-            },
-            "helpOver30": {
-                "title": "Nápověda",
-                "detail": "Se státním příspěvkem až 4 080 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 7 200 Kč ročně.",
-                "iconBullets": [
-                    {
-                        "text": "Žádné poplatky za uzavření a vedení"
-                    },
-                    {
-                        "text": "Zřídíte přímo v aplikaci"
-                    },
-                    {
-                        "text": "Až 11 280 Kč ročně na státních  příspěvcích a daňové úspoře"
-                    },
-                    {
-                        "text": "Tuto nabídku jsme pro Vás připravili ve spolupráci s NN Penzijní společnost"
-                    }
-                ],
-                "footerText": "Více informací",
-                "footerLink": "https://www.moneta.cz/sporeni-a-investice/doplnkove-penzijni-sporeni",
-                "helpHeadline": "Potřebujete víc informací?",
-                "callUs": "Zavolejte nám na infolinku",
-                "branch": "Navštivte nás na pobočce",
-                "primaryButton": "Pokračovat v žádosti",
-                "secondaryButton": "Přerušit žádost",
-                "tertiaryButton": "Ukončit žádost"
-            },
             "help": {
                 "title": "Nápověda",
-                "detail": "Se státním příspěvkem až 4 080 Kč ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až 7 200 Kč ročně.",
+                "detail": "Se státním příspěvkem až {0} ročně se spoří na důchod snadněji. Využít můžete také daňovou úsporu až {1} ročně.",
+                "detailValuesUpTo30": [
+                    "4 080 Kč",
+                    "7 200 Kč"
+                ],
+                "detailValuesOver30": [
+                    "4 080 Kč",
+                    "7 200 Kč"
+                ],
                 "iconBullets": [
                     {
                         "icon": "starsAltFill",
