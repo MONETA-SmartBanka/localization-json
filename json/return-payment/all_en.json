@@ -20,7 +20,6 @@
             "detailsTitle": "If the recipient doesn’t respond, you can request their contact details after 7 days",
             "detailsDescription": "If the money isn’t returned, you can request the recipient’s contact details. You can then contact them directly.",
             "feeTitle": "Request processing fee",
-            "feeValue": "{0}",
             "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed.",
             "primaryButton": "Request payment return"
         },
@@ -32,7 +31,6 @@
             "detailsTitle": "The recipient hasn’t responded, so you can now request their contact details",
             "detailsDescription": "If the money hasn’t been returned, you can request the recipient’s contact details. You can then contact them directly.",
             "feeTitle": "Contact details request fee",
-            "feeValue": "{0}",
             "disclaimer": "Whether the contact details can be provided depends on the recipient’s bank and can’t be guaranteed.",
             "primaryButton": "Request contact details"
         },
@@ -62,12 +60,7 @@
             "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed.",
             "primaryButton": "Continue with attachment",
             "secondaryButton": "Continue without attachment",
-            "error": {
-                "description": "This is the account you sent the payment to. Enter the account it should have been sent to instead.",
-                "disclaimer": "Returning the payment depends on the recipient’s cooperation and can’t be guaranteed. The request costs {0}.",
-                "primaryButton": "Continue with attachment",
-                "secondaryButton": "Continue without attachment"
-            }
+            "errorDescription": "This is the account you sent the payment to. Enter the account it should have been sent to instead."
         },
         "upload": {
             "title": "Upload a document showing which account the payment should have been sent to",
