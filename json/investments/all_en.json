@@ -20,7 +20,12 @@
                 "interval": "WHOLE",
                 "title": "Since creation"
             }
-        ]
+        ],
+        "filterNoResult": {
+            "title": "We don't currently offer these products",
+            "description": "Take a look at other options.",
+            "primaryButton": "Clear filters"
+        }
     },
     "screens": {
         "disclaimer": {
@@ -2608,6 +2613,7 @@
             "regularInvestmentAccountValidationInfo": "You can invest regularly only from a current account.",
             "fromAccount": "Invest from",
             "amount": "Amount",
+            "amountInfo": "We’ll use this amount to suggest a suitable investment. In the next step, you can decide whether to go with our recommendation.",
             "remainingBalance": "Remaining balance: {0}",
             "term": "How long do you plan to keep this investment?",
             "termMinYears": 2,
