@@ -214,22 +214,29 @@
                 "primaryButton": "Open a Family account free of charge"
             },
             "uploadBirthCertificateIntro": {
-                "title": "Now, we will verify the child's identity",
-                "primaryButton": "Take a picture of the birth certificate",
+                "title": "Now we will verify your <theme>child’s</theme> identity",
+                "subtitle": "In the next step you will take photos of the required documents.",
+                "primaryButton": "Take a photo of the original birth certificate",
                 "items": [
                     {
-                        "icon": "documentsFill",
-                        "text": "<b>Photo of birth certificate</b><br/>Take a picture of the Czech birth certificate of the child."
+                        "icon": "fileLinesFill",
+                        "text": "<b>Birth certificate – original</b><br/>Take a photo of your child’s Czech birth certificate.",
+                        "title": "Birth certificate – original",
+                        "description": "Take a photo of your child’s Czech birth certificate.",
+                        "info": "Photos taken from a screen, black and white copies and other reproductions cannot be used."
                     },
                     {
                         "icon": "idCardFill",
-                        "text": "<b>Photo of other form of ID</b><br/>Take a photo of the child's passport or ID card (ID cards are mandatory for minors over 15 years of age)."
+                        "header": "You may also need to photograph",
+                        "text": "<b>Passport or ID card</b><br/>Take a photo of your child’s passport or ID card. An ID card is mandatory from the age of 15.",
+                        "title": "Passport or ID card",
+                        "description": "Take a photo of your child’s passport or ID card. An ID card is mandatory from the age of 15."
                     }
                 ]
             },
             "uploadBirthCertificateScanner": {
                 "title": "Take a photo of the birth certificate",
-                "detail": "It must be valid, well-lit and legible.",
+                "detail": "<b>Your child’s original birth certificate</b>, well lit, sharp and not cropped.",
                 "primaryButton": "Take a photo"
             },
             "basicInfo": {
@@ -302,10 +309,12 @@
             },
             "birthNumber": {
                 "title": "Enter the chid's information",
+                "image": "birthCertificateSample",
                 "birthCertficateNumber": {
                     "title": "Birth Certificate Number",
-                    "placeholder": "E.g.,51 2000 500 50",
-                    "info": "It is 4 sets of numbers – Volume, Year, Page, Serial Number (all can be found in the top half of the birth certificate)."
+                    "placeholder": "e.g. 60 2009 132 261",
+                    "info": "It is four values written one after another, you will find them in the upper part of the birth certificate – Volume, Year, Page and Serial Number.",
+                    "info2": "Examples of the birth certificate number values: Volume (60), Year (2009), Page (132) and Serial Number (261)."
                 },
                 "birthNumber": {
                     "title": "Birth Number",
