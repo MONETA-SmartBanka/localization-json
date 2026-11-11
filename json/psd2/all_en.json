@@ -31,9 +31,9 @@
                 }
             },
             "accessDenied": {
-                "title": "Consent was not granted",
-                "description": "You declined identity verification.",
-                "continueButton": "Redirect"
+                "title": "You declined sharing the data required to verify your identity with {client_name}",
+                "description": "",
+                "continueButton": "Continue to web"
             },
             "consent": {
                 "title": "Do you want to share your data with {client_name}?",
@@ -52,13 +52,18 @@
                 "rejectButton": "Decline"
             },
             "success": {
-                "title": "Success",
-                "description": "Redirecting,\ndo not close Smart Banka",
-                "continueButton": "Redirect"
+                "title": "Done! We have passed the data required to verify your identity to {client_name}",
+                "description": "We are redirecting you back to the web. Please do not close Smart Banka.",
+                "continueButton": "Continue to web"
             },
             "unverified": {
-                "title": "Verification failed",
-                "description": "Redirecting,\ndo not close Smart Banka",
+                "title": "Your identity verification failed",
+                "description": "",
+                "continueButton": "Continue to web"
+            },
+            "onlySms": {
+                "title": "Not verified",
+                "description": "",
                 "continueButton": "Redirect"
             },
             "error": {

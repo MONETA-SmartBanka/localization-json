@@ -31,9 +31,9 @@
                 }
             },
             "accessDenied": {
-                "title": "Souhlas nebyl udělen",
-                "description": "Zamítli jste ověření.",
-                "continueButton": "Přesměrovat"
+                "title": "Zamítli jste sdílení údajů nezbytných pro ověření Vaší identity u {client_name}",
+                "description": "",
+                "continueButton": "Pokračovat na web"
             },
             "consent": {
                 "title": "Chcete sdílet údaje se společností {client_name}?",
@@ -52,13 +52,18 @@
                 "rejectButton": "Zamítnout"
             },
             "success": {
-                "title": "Podařilo se",
-                "description": "Probíhá přesměrování,\nnezavírejte Smart Banku",
-                "continueButton": "Přesměrovat"
+                "title": "Hotovo! Předali jsme údaje nezbytné pro ověření Vaší identity {client_name}",
+                "description": "Přesměrujeme Vás zpět na web. Prosím nezavírejte Smart Banku.",
+                "continueButton": "Pokračovat na web"
             },
             "unverified": {
-                "title": "Nepodařilo se ověřit",
-                "description": "Probíhá přesměrování,\nnezavírejte Smart Banku",
+                "title": "Ověření Vaší identity se nezdařilo",
+                "description": "",
+                "continueButton": "Pokračovat na web"
+            },
+            "onlySms": {
+                "title": "Neověřeno",
+                "description": "",
                 "continueButton": "Přesměrovat"
             },
             "error": {
