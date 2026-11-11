@@ -13,6 +13,11 @@
                     "description": "When you're at a computer and have your ID with you.",
                     "howToButton": "How to do it?"
                 },
+                "viaOneDocument": {
+                    "title": "Using your Czech ID card",
+                    "description": "If you have your wallet on you.",
+                    "howToButton": "How to do it?"
+                },
                 "viaTwoDocuments": {
                     "title": "With two Czech identity documents",
                     "description": "When you have a national ID and a driver's licence, or a passport.",
@@ -47,6 +52,27 @@
             },
             "primaryButton": "Done",
             "secondaryButton": "I'll finish later"
+        },
+        "oneDocumentPairing": {
+            "title": "Please have your Czech ID ready, along with the mobile phone on which you receive verification SMS codes",
+            "steps": [
+                {
+                    "id": 1,
+                    "stepTitle": "Acceptable document",
+                    "icon": "idCardFill",
+                    "label": "Czech ID card"
+                },
+                {
+                    "id": 2,
+                    "stepTitle": "Verification phone number",
+                    "icon": "smsFill",
+                    "label": "We will send the verification SMS to the number you normally use when logging into IB."
+                }
+            ],
+            "noDocumentsButton": "I don't have any Czech documents",
+            "continueButton": "I’ve got everything, continue",
+            "goToBranchTitle": "Let's sort this out at a branch",
+            "goToBranchSubtitle": "Do you have any questions? Call us or visit your nearest branch."
         },
         "twoDocumentsPairing": {
             "title": "Please have your Czech documents ready, along with the mobile phone on which you receive verification SMS codes",

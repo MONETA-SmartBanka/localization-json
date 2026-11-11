@@ -13,6 +13,11 @@
                     "description": "Když jste u počítače a máte u sebe doklad totožnosti.",
                     "howToButton": "Jak na to?"
                 },
+                "viaOneDocument": {
+                    "title": "S českým občanským průkazem",
+                    "description": "Když u sebe mate peněženku.",
+                    "howToButton": "Jak na to?"
+                },
                 "viaTwoDocuments": {
                     "title": "Se dvěma českými doklady totožnosti",
                     "description": "Když máte občanský průkaz a řidičák, nebo pas.",
@@ -71,6 +76,27 @@
             },
             "primaryButton": "Hotovo",
             "secondaryButton": "Dokončím později"
+        },
+        "oneDocumentPairing": {
+            "title": "Připravte si Občanský průkaz a telefon, na který Vám chodí ověřovací SMS kódy",
+            "steps": [
+                {
+                    "id": 1,
+                    "stepTitle": "Akceptovatelný doklad",
+                    "icon": "idCardFill",
+                    "label": "Občanský průkaz vydaný v České republice"
+                },
+                {
+                    "id": 2,
+                    "stepTitle": "Telefonní číslo pro ověření",
+                    "icon": "smsFill",
+                    "label": "Ověřovací SMS pošleme na číslo, které u nás běžně používáte při přihlašování do IB."
+                }
+            ],
+            "noDocumentsButton": "Nemám české doklady",
+            "continueButton": "Vše mám, pokračovat",
+            "goToBranchTitle": "Pojďme to vyřešit na pobočce",
+            "goToBranchSubtitle": "Máte nějaké otázky? Zavolejte nám nebo se za námi stavte na nejbližší pobočku."
         },
         "twoDocumentsPairing": {
             "title": "Připravte si české doklady a telefon, na který Vám chodí ověřovací SMS kódy",
