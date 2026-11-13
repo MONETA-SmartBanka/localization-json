@@ -1368,6 +1368,60 @@
             "abilityCategory": "expenses_categorization",
             "abilityTitle": "When will your payment be categorised?",
             "abilitySortOrder": 500
+        },
+        {
+            "id": "Notifications_EN",
+            "title": "Get notified about every payment",
+            "detail": "Turn on notifications for card payments, transfers and failed transactions to keep a closer eye on your transactions. Quickly spot any unusual activity on your account.",
+            "imageURL": "/cbl_images/popup-news/v98/notifications_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Notifications",
+            "abilitySortOrder": 9500
+        },
+        {
+            "id": "EurFunds_EN",
+            "title": "Now you can invest in EUR funds too",
+            "detail": "We’ve expanded our range with carefully selected EUR funds. You can also view the value of your investments in EUR or CZK.",
+            "imageURL": "/cbl_images/popup-news/v98/eur_funds_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "EUR Funds",
+            "abilitySortOrder": 9600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "ThirdPartyCC_EN",
+            "title": "Need a card for someone else? Add one to your credit card account",
+            "detail": "Choose who the card is for and complete the application in Smart Banka. Just like with a debit card.",
+            "imageURL": "/cbl_images/popup-news/v98/third_party_cc_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Credit Card for a Third Party",
+            "abilitySortOrder": 9700,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARD_ISSUANCE",
+                "actionLabelText": "Learn more"
+            }
+        },
+        {
+            "id": "MortgageRefix_EN",
+            "title": "Is your mortgage fixed-rate period ending? Choose a new one in Smart Banka",
+            "detail": "Compare your options for the next period and choose the fixed-rate term and interest rate that work for you. All online.",
+            "imageURL": "/cbl_images/popup-news/v98/mortgage_refix_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Mortgage Rate Fixation",
+            "abilitySortOrder": 9800
         }
     ]
 }
