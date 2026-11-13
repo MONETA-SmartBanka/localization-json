@@ -1370,26 +1370,21 @@
             "abilitySortOrder": 500
         },
         {
-            "id": "PinChange_EN",
-            "title": "Choose your own card PIN",
-            "detail": "Set your PIN in Smart Banka and view it again anytime if you need to.",
-            "imageURL": "/cbl_images/popup-news/v98/pin_change_CZ.png",
+            "id": "Notifications_EN",
+            "title": "Get notified about every payment",
+            "detail": "Turn on notifications for card payments, transfers and failed transactions to keep a closer eye on your transactions. Quickly spot any unusual activity on your account.",
+            "imageURL": "/cbl_images/popup-news/v98/notifications_CZ.png",
             "minAppVersion": "99.0.0",
             "shouldCheckEligibility": false,
-            "abilityCategory": "cards",
-            "abilityTitle": "PIN Change",
-            "abilitySortOrder": 9500,
-            "primaryButton": {
-                "actionType": "APPPAGE",
-                "actionData": "CARDSOVERVIEW",
-                "actionLabelText": "Learn more"
-            }
+            "abilityCategory": "security",
+            "abilityTitle": "Notifications",
+            "abilitySortOrder": 9500
         },
         {
-            "id": "EurFond_EN",
+            "id": "EurFunds_EN",
             "title": "Now you can invest in EUR funds too",
             "detail": "We’ve expanded our range with carefully selected EUR funds. You can also view the value of your investments in EUR or CZK.",
-            "imageURL": "/cbl_images/popup-news/v98/eur_fond_CZ.png",
+            "imageURL": "/cbl_images/popup-news/v98/eur_funds_CZ.png",
             "minAppVersion": "99.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
@@ -1408,7 +1403,7 @@
             "imageURL": "/cbl_images/popup-news/v98/third_party_cc_CZ.png",
             "minAppVersion": "99.0.0",
             "shouldCheckEligibility": false,
-            "abilityCategory": "cards",
+            "abilityCategory": "products",
             "abilityTitle": "Credit Card for a Third Party",
             "abilitySortOrder": 9700,
             "primaryButton": {
@@ -1418,10 +1413,10 @@
             }
         },
         {
-            "id": "HypoRefix_EN",
+            "id": "MortgageRefix_EN",
             "title": "Is your mortgage fixed-rate period ending? Choose a new one in Smart Banka",
             "detail": "Compare your options for the next period and choose the fixed-rate term and interest rate that work for you. All online.",
-            "imageURL": "/cbl_images/popup-news/v98/hypo_refix_CZ.png",
+            "imageURL": "/cbl_images/popup-news/v98/mortgage_refix_CZ.png",
             "minAppVersion": "99.0.0",
             "shouldCheckEligibility": false,
             "abilityCategory": "products",
