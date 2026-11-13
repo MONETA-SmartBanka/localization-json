@@ -1262,11 +1262,11 @@
                 },
                 {
                     "salesProdType": "13051",
-                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,5 % p. a.",
+                    "title": "MIMOŘÁDNÝ spořicí účet s úrokem 3,9 % p. a.",
                     "icon": "savings",
                     "bullets": [
                         {
-                            "title": "<b>3,5 % ročně bez podmínek</b>",
+                            "title": "<b>3,9 % ročně bez podmínek</b>",
                             "icon": "starsAltFill"
                         },
                         {
@@ -1284,7 +1284,7 @@
                     ],
                     "primaryButton": {
                         "actionType": "APPPAGE",
-                        "actionLabelText": "Spořit s úrokem 3,5 % p. a.",
+                        "actionLabelText": "Spořit s úrokem 3,9 % p. a.",
                         "conversionDeeplink": "SACONVERSION_RETENTION",
                         "ibRoute": "/savings/savingsAccountPromo",
                         "ibAnalyticsCode": "Retention Savings Banner VIP"
@@ -1325,38 +1325,30 @@
                 },
                 {
                     "salesProdType": "14001",
-                    "title": "Své peníze můžete převést také na termínovaný vklad s úrokem až 3,7 % p. a. Proč je tedy posílat jinam?",
+                    "title": "You can also transfer your money to a term deposit with an interest rate of up to 4.3% p.a. So why send it elsewhere?",
                     "icon": "vacation",
                     "bullets": [
                         {
-                            "title": "Získáte až 3,7 % p. a. ročně bez podmínek a maximálního limitu",
+                            "title": "You'll earn up to 4.3% p.a. with no strings attached",
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Od 15 000 Kč bez maximálního limitu",
+                            "title": "Starting at 15,000 CZK, with no maximum limit",
                             "icon": "starFill"
                         },
                         {
-                            "title": "Na 1, 3, 6 nebo 12 měsíců",
+                            "title": "From 1 month to 5 years",
                             "icon": "calendarClockFill"
-                        },
-                        {
-                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
-                            "icon": "tickFill"
-                        },
-                        {
-                            "title": "Sjednání z pohodlí domova jednoduše online",
-                            "icon": "smartBankaFill"
                         }
                     ],
                     "primaryButton": {
                         "actionType": "APPPAGE",
-                        "actionLabelText": "Sjednat termínovaný vklad",
+                        "actionLabelText": "Set up a term deposit",
                         "actionData": "JTVETB",
                         "ibRoute": "/application/savingsTermDeposit/offer",
                         "ibAnalyticsCode": "Retention Savings Banner JTV"
                     },
-                    "secondaryButton": "Pokračovat v platbě"
+                    "secondaryButton": "Continue to payment"
                 },
                 {
                     "salesProdType": "43005",
@@ -1553,32 +1545,24 @@
                     "secondaryButton": "Nemám zájem"
                 },
                 "termDeposit": {
-                    "title": "Své peníze můžete převést také na termínovaný vklad s úrokem až 3,7 % p. a. Proč je tedy posílat jinam?",
+                    "title": "You can also transfer your money to a term deposit with an interest rate of up to 4.5% p.a. So why send it elsewhere?",
                     "icon": "savings",
                     "bullets": [
                         {
-                            "title": "Získáte až 3,7 % ročně bez podmínek a maximálního limitu",
+                            "title": "You'll earn up to 4.5% p.a. with no strings attached",
                             "icon": "starsAltFill"
                         },
                         {
-                            "title": "Od 15 000 Kč bez maximálního limitu",
+                            "title": "Starting at 15,000 CZK, with no maximum limit",
                             "icon": "starFill"
                         },
                         {
-                            "title": "Na 1, 3, 6 nebo 12 měsíců",
+                            "title": "From 1 month to 5 years",
                             "icon": "calendarClockFill"
-                        },
-                        {
-                            "title": "Žádné poplatky. Jak jste u nás zvyklí",
-                            "icon": "tickFill"
-                        },
-                        {
-                            "title": "Sjednání z pohodlí domova přes Smart Banku",
-                            "icon": "smartBankaFill"
                         }
                     ],
-                    "primaryButton": "Sjednat termínovaný vklad",
-                    "secondaryButton": "Pokračovat v platbě"
+                    "primaryButton": "Set up a term deposit",
+                    "secondaryButton": "Continue to payment"
                 }
             },
             "withdrawal": {
