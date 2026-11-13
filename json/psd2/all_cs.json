@@ -4,9 +4,9 @@
             "preConsent": {
                 "title": "{client_name} žádá o ověření Vaší identity",
                 "companyIdLabel": "IČO",
-                "allowButton": "Pokračovat k potvrzení souhlasu",
+                "allowButton": "Pokračovat k ověření",
                 "rejectButton": "Zamítnout",
-                "requiredSectionTitle": "Žádá o poskytnutí těchto informací",
+                "requiredSectionTitle": "Nezbytné údaje",
                 "optionalSectionTitle": "Volitelné údaje",
                 "selectAll": "Označit vše",
                 "deselectAll": "Odznačit vše",
@@ -15,49 +15,53 @@
                     "profile.birthdate": "Datum narození",
                     "profile.birthnumber": "Rodné číslo",
                     "profile.birthplaceNationality": "Místo narození a státní příslušnost",
-                    "profile.email": "Emailová adresa",
+                    "profile.email": "E-mail",
                     "profile.gender": "Vaše pohlaví",
                     "profile.idcards": "Číslo občanského průkazu",
                     "profile.legalstatus": "Právní status",
                     "profile.locale": "Preferovaný jazyk",
                     "profile.maritalstatus": "Rodinný stav",
-                    "profile.name": "Jméno, příjmení",
+                    "profile.name": "Jméno a příjmení",
                     "profile.paymentAccounts": "Čísla bankovních účtů",
                     "profile.phonenumber": "Telefonní číslo",
-                    "profile.titles": "Tituly",
+                    "profile.titles": "Titul",
                     "profile.updatedat": "Datum poslední aktualizace údajů",
                     "profile.zoneinfo": "Časové pásmo",
                     "profile.verification": "Údaje o ověření identity"
                 }
             },
             "accessDenied": {
-                "title": "Souhlas nebyl udělen",
-                "description": "Zamítli jste ověření.",
-                "continueButton": "Přesměrovat"
+                "title": "Zamítli jste sdílení údajů nezbytných pro ověření Vaší identity u {client_name}",
+                "continueButton": "Pokračovat na web"
             },
             "consent": {
-                "title": "Opravdu chcete sdílet své údaje s {client_name}?",
+                "title": "Chcete sdílet údaje se společností {client_name}?",
+                "choiceTitle": "Jak chcete sdílet údaje se společností {client_name}?",
+                "oneTimeOption": "Jednorázově",
+                "validityOption": "Povolit přístup na 12 měsíců",
+                "validityOptionDescription": "Společnost může průběžně získávat Vaše aktuální údaje a informace o jejich změnách.",
+                "validityRequired": "Pro tuto službu je potřeba povolit přístup k údajům na 12 měsíců.",
+                "validityRequiredDescription": "Společnost může průběžně získávat Vaše aktuální údaje a informace o jejich změnách.",
+                "oneTimeOnly": "Povolení přístupu je jednorázové",
                 "validityCheckbox": "Souhlas udělit na 12 měsíců",
                 "validityCheckboxDescription": "Během této doby si může společnost opakovaně vyžádat Vaše aktuální údaje.",
-                "securityNotice": "Nikdy nesdílejte své údaje na žádost třetí osoby. Pokračujte pouze v případě, že se přihlašujete z vlastní iniciativy.",
+                "securityNotice": "Nikdy nesdílejte své údaje na žádost někoho jiného. Pokračujte jen v případě, pokud vše potvrzujte z vlastní iniciativy.",
                 "dataSharingDisclaimer": "MONETA Money Bank, a.s. nenese žádnou odpovědnost za užívání sdílených údajů třetí stranou.",
                 "approveSlider": "Přejetím schválit",
                 "rejectButton": "Zamítnout"
             },
             "success": {
-                "title": "Podařilo se",
-                "description": "Probíhá přesměrování,\nnezavírejte Smart Banku",
-                "continueButton": "Přesměrovat"
+                "title": "Hotovo! Předali jsme údaje nezbytné pro ověření Vaší identity {client_name}",
+                "description": "Přesměrujeme Vás zpět na web. Prosím nezavírejte Smart Banku.",
+                "continueButton": "Pokračovat na web"
             },
             "unverified": {
-                "title": "Nepodařilo se ověřit",
-                "description": "Probíhá přesměrování,\nnezavírejte Smart Banku",
-                "continueButton": "Přesměrovat"
+                "title": "Ověření Vaší identity se nezdařilo",
+                "continueButton": "Pokračovat na web"
             },
-            "error": {
-                "title": "Omlouváme se, tak tohle nevyšlo",
-                "description": "Teď nemůžeme pokračovat. Zkuste to prosím za chvíli.",
-                "continueButton": "Zavřít"
+            "onlySms": {
+                "title": "Ověřte se prosím na webu pomocí kódu z SMS",
+                "continueButton": "Přesměrovat na web"
             }
         }
     }
