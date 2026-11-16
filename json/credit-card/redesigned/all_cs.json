@@ -22,7 +22,8 @@
             "title": "Víc Vám teď neumíme nabídnout",
             "detail": "Momentálně Vám nejsme schopni nabídnout kreditku na vyšší částku. Pokud si to rozmyslíte a přijmete nižší částku, budeme rádi.",
             "secondaryButton": "Ukončit žádost",
-            "primaryButton": "Stačí mi {0}"
+            "primaryButton": "Stačí mi {0}",
+            "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
         },
         "precontractDisagree": {
             "title": "Bez souhlasu to bohužel nepůjde",
@@ -68,6 +69,26 @@
             "callUs": "Zavolejte nám\nna infolinku",
             "branch": "Navštivte nás\nna pobočce",
             "buttonWhatIsCreditCard": "Jak funguje kreditní karta?"
+        },
+        "scoringInfoSheet": {
+            "title": "Jak posuzujeme Vaši úvěruschopnost",
+            "items": [
+                {
+                    "title": "Při posouzení můžeme využít automatizované zpracování osobních údajů. Vycházíme přitom z informací uvedených v žádosti, z doložených dokumentů a z údajů, které můžeme ověřit z dalších dostupných zdrojů."
+                },
+                {
+                    "title": "Neúplné, nepřesné nebo neaktuální údaje mohou ovlivnit výsledek posouzení. Pokud o úvěr žádá více lidí společně, posuzujeme jejich úvěruschopnost dohromady."
+                },
+                {
+                    "title": "Vaše deklarované příjmy ověřujeme podle dokladů o příjmu nebo podle transakcí na účtech vedených u MONETA Money Bank či jiné banky. Ověřujeme také Vaše deklarované výdaje. Pokud se uvedená a zjištěná částka liší, počítáme s tou vyšší."
+                },
+                {
+                    "title": "Úvěry a další závazky mimo skupinu MONETA ověřujeme v Bankovním a Nebankovním registru klientských informací."
+                },
+                {
+                    "title": "Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky."
+                }
+            ]
         },
         "howItWorks": {
             "title": "Jak funguje kreditní karta?",
@@ -900,7 +921,8 @@
             "title": "Po prověření Vaší žádosti Vám bohužel kreditní kartu nemůžeme nabídnout",
             "detail": "<b>Pokud máte dotaz, jak dál postupovat, kontaktujte nás.</b>",
             "callUs": "Zavolejte nám\nna infolinku",
-            "primaryButton": "Ukončit žádost"
+            "primaryButton": "Ukončit žádost",
+            "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
         },
         "scoringOk": {
             "title": "Vše je v pořádku, můžeme pokračovat",
@@ -913,7 +935,8 @@
             "amount": "Částka",
             "detail": "Potvrzuji, že pokud bude částka plně vyčerpána, zaplatím alespoň minimální měsíční splátku ve výši {0}.",
             "primaryButton": "Pokračovat",
-            "secondaryButton": "Nesouhlasím"
+            "secondaryButton": "Nesouhlasím",
+            "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
         },
         "scoringOkBranch": {
             "title": "Potkejme se raději na pobočce",

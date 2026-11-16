@@ -16,12 +16,11 @@
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "scoringLessDisagree": {
-                "title": "Nic lepšího Vám teď neumíme nabídnout",
-                "detail": "Toto je půjčka, kterou jsme připraveni Vám poskytnout. <b>Pokud si to rozmyslíte a přijmete naši nabídku, budeme rádi.</b>",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "branch": "Navštivte nás\nna pobočce",
-                "primaryButton": "Pokračovat ve sjednání půjčky",
-                "secondaryButton": "Ukončit žádost"
+                "title": "Můžeme Vám nabídnout pouze tuto částku",
+                "detail": "Pokud si to rozmyslíte a přijmete naši nabídku, budeme rádi.\n\nPo posouzení Vaší úvěruschopnosti Vám nemůžeme poskytnout úvěr v požadované výši. Při posouzení jsme využili automatizované zpracování údajů.\n\nPokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky.",
+                "primaryButton": "Pokračovat ve sjednání",
+                "secondaryButton": "Ukončit žádost",
+                "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
             },
             "branch": {
                 "title": "Příjmy z podnikání umíme zpracovat v Internet Bance",
@@ -272,7 +271,11 @@
                 "list": {
                     "title": "Pokud máte více příjmů, můžete je nyní doplnit",
                     "detail": "Pokud nejde o vaše příjmy, odstraňte je.",
-                    "incomes": ["Příjem", "Druhý příjem", "Třetí příjem"],
+                    "incomes": [
+                        "Příjem",
+                        "Druhý příjem",
+                        "Třetí příjem"
+                    ],
                     "remove": "Odstranit příjem",
                     "incomeSource": "Zdroj příjmu",
                     "fillIn": "Doplňte",
@@ -1379,16 +1382,22 @@
                         "documents": [
                             {
                                 "title": "Výplatní doklad od České pošty (složenka), který není starší než 30 dnů",
-                                "labels": ["Přidejte doklad"],
+                                "labels": [
+                                    "Přidejte doklad"
+                                ],
                                 "documentCode": "112"
                             },
                             {
                                 "title": "Důchodový výměr",
-                                "labels": ["Přidejte doklad"],
+                                "labels": [
+                                    "Přidejte doklad"
+                                ],
                                 "documentCode": "113"
                             },
                             {
-                                "labels": ["Přidejte doklad"]
+                                "labels": [
+                                    "Přidejte doklad"
+                                ]
                             }
                         ]
                     }
@@ -1428,10 +1437,10 @@
                 "primaryButton": "Zpět na Přehled zůstatků"
             },
             "scoringNok": {
-                "title": "Po prověření Vaší žádosti Vám bohužel půjčku nemůžeme nabídnout",
-                "detail": "<b>Pokud máte dotaz, jak dál postupovat, kontaktujte nás.</b>",
-                "callUs": "Zavolejte nám\nna infolinku",
-                "primaryButton": "Ukončit žádost"
+                "title": "Vaši žádost jsme po posouzení úvěruschopnosti nemohli schválit",
+                "detail": "Při posouzení jsme využili automatizované zpracování údajů. Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky.\n\nPokud máte finanční potíže, můžete se obrátit také na poskytovatele dluhového poradenství. Kontaktní údaje jsou dostupné na <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+                "primaryButton": "Ukončit žádost",
+                "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
             },
             "docScoringSame": {
                 "title": "Vše bylo OK, můžeme pokračovat",
@@ -1649,6 +1658,26 @@
                 "elsewhere": "Mám půjčky i jinde, které chci taky sloučit",
                 "primaryButton": "Sloučit a požádat o další půjčku",
                 "secondaryButton": "Jak to bude probíhat?"
+            },
+            "scoringInfoSheet": {
+                "title": "Jak posuzujeme Vaši úvěruschopnost",
+                "items": [
+                    {
+                        "title": "Při posouzení můžeme využít automatizované zpracování osobních údajů. Vycházíme přitom z informací uvedených v žádosti, z doložených dokumentů a z údajů, které můžeme ověřit z dalších dostupných zdrojů."
+                    },
+                    {
+                        "title": "Neúplné, nepřesné nebo neaktuální údaje mohou ovlivnit výsledek posouzení. Pokud o úvěr žádá více lidí společně, posuzujeme jejich úvěruschopnost dohromady."
+                    },
+                    {
+                        "title": "Vaše deklarované příjmy ověřujeme podle dokladů o příjmu nebo podle transakcí na účtech vedených u MONETA Money Bank či jiné banky. Ověřujeme také Vaše deklarované výdaje. Pokud se uvedená a zjištěná částka liší, počítáme s tou vyšší."
+                    },
+                    {
+                        "title": "Úvěry a další závazky mimo skupinu MONETA ověřujeme v Bankovním a Nebankovním registru klientských informací."
+                    },
+                    {
+                        "title": "Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky."
+                    }
+                ]
             }
         }
     }

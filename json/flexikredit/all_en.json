@@ -913,19 +913,42 @@
                 "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
                 "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
                 "primaryButton": "Continue",
-                "secondaryButton": "Decline"
+                "secondaryButton": "Decline",
+                "tertiaryButton": "How we assess your creditworthiness"
             },
             "scoringNok": {
                 "title": "After reviewing your application we unfortunately can not offer you Overdraft.",
                 "detail": "<b>For further steps, don't hesitate to contact us.</b>",
                 "callUs": "Call our helpline",
-                "primaryButton": "Back to Balance Overview"
+                "primaryButton": "Back to Balance Overview",
+                "tertiaryButton": "How we assess your creditworthiness"
             },
             "clipScoringNok": {
                 "title": "After reviewing your application, we unfortunately cannot increase your overdraft",
                 "detail": "<b>If you have a query on how to proceed, contact us.</b>",
                 "callUs": "Call us on the customer service line",
-                "primaryButton": "End the request"
+                "primaryButton": "End the request",
+                "tertiaryButton": "How we assess your creditworthiness"
+            },
+            "scoringInfoSheet": {
+                "title": "How we assess your creditworthiness",
+                "items": [
+                    {
+                        "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                    },
+                    {
+                        "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                    },
+                    {
+                        "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                    },
+                    {
+                        "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                    },
+                    {
+                        "title": "You can ask a bank employee to review the decision at any of our branches."
+                    }
+                ]
             },
             "flexikreditDocScoringSame": {
                 "title": "Everything is OK. Let’s continue",
