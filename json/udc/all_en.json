@@ -82,12 +82,13 @@
             "secondaryButton": "Ukončit žádost"
         },
         "scoringDisagreement": {
-            "title": "Není to ono?",
-            "detail": "Sloučení půjček jsme Vám přizpůsobili na míru a nabízíme to nejlepší, co v tuto chvíli máme.\n\nMožná bychom Vám uměli lépe poradit na telefonu. Zavoláme si?",
+            "title": "That is the best we can offer you at this moment",
+            "detail": "This is the amount which we are ready to loan you, should you reconsider and accept our offer.\n\nAfter assessing your creditworthiness, we cannot offer you the loan amount you requested. The assessment included automated processing of your data.\n\nYou can ask a bank employee to review the decision at any of our branches.",
             "callUs": "Zavolejte nám na infolinku",
             "branch": "Navštivte nás na pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
+            "primaryButton": "Continue Application",
+            "secondaryButton": "Cancel Application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "repaymentContractDisagree": {
             "title": "Bez podpisu to bohužel nepůjde",
@@ -838,9 +839,8 @@
             "detail": "Potrvá to jen chviličku."
         },
         "scoringNok": {
-            "title": "Po prověření Vaší žádosti Vám bohužel sloučení půjček nemůžeme nabídnout",
-            "detail": "Pokud máte dotaz, jak postupovat, kontaktujte nás.",
-            "callUs": "Zavolejte nám na infolinku",
+            "title": "After reviewing your application we can not offer you a loan.",
+            "detail": "We couldn’t approve your application after assessing your creditworthiness. The assessment included automated processing of your data.\n\nIf you experience financial difficulties, you can also contact debt advisory services. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
             "primaryButton": "Ukončit žádost",
             "tertiaryButton": "How we assess your creditworthiness"
         },
@@ -866,7 +866,6 @@
             "title": "Vaše přání můžeme splnit následovně",
             "primaryButton": "Pokračovat",
             "secondaryButton": "Další možnosti",
-            "tertiaryButton": "How we assess your creditworthiness",
             "amount": "Splatíme za Vás",
             "duration": "Doba splácení",
             "term": "Doba splácení",
