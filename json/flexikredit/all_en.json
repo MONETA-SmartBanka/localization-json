@@ -20,10 +20,10 @@
             },
             "scoringLessDisagree": {
                 "title": "That is the best we can offer you at this moment",
-                "detail": "This is the amount of overdraft you could receive, should you reconsider and accept our offer.",
-                "callUs": "Call our helpline",
-                "secondaryButton": "Cancel application",
-                "primaryButton": "Continue application"
+                "detail": "This is the amount which we are ready to loan you, should you reconsider and accept our offer.\n\nAfter assessing your creditworthiness, we cannot offer you the loan amount you requested. The assessment included automated processing of your data.\n\nYou can ask a bank employee to review the decision at any of our branches.",
+                "primaryButton": "Continue loan Application",
+                "secondaryButton": "Cancel Application",
+                "tertiaryButton": "How we assess your creditworthiness"
             },
             "api": {
                 "title": "We are sorry, something went wrong",
@@ -913,8 +913,7 @@
                 "underlineInfo": "Overdraft without drawdown fees can be arranged only in Smart Banka or Internet Banka.",
                 "example": "<b>How much will you pay while using Overdraft?</b> For example: drawing a line of credit of {{loanAmount}} CZK in full for {{totalDueMonths}} months, the annual interest rate will be  {{interestRate}} %, drawdown fee {{drawdownFee}} CZK, APR {{rpsn}} % and the total due amount {{totalDueAmount}} CZK.",
                 "primaryButton": "Continue",
-                "secondaryButton": "Decline",
-                "tertiaryButton": "How we assess your creditworthiness"
+                "secondaryButton": "Decline"
             },
             "scoringNok": {
                 "title": "After reviewing your application we unfortunately can not offer you Overdraft.",
