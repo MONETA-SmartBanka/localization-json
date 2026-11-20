@@ -82,12 +82,13 @@
             "secondaryButton": "Ukončit žádost"
         },
         "scoringDisagreement": {
-            "title": "Není to ono?",
-            "detail": "Sloučení půjček jsme Vám přizpůsobili na míru a nabízíme to nejlepší, co v tuto chvíli máme.\n\nMožná bychom Vám uměli lépe poradit na telefonu. Zavoláme si?",
-            "callUs": "Zavolejte nám na infolinku",
-            "branch": "Navštivte nás na pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
+            "title": "TODO!!! That is the best we can offer you at this moment",
+            "detail": "TODO!!! This is the amount which we are ready to loan you, should you reconsider and accept our offer.\n\nAfter assessing your creditworthiness, we cannot offer you the loan amount you requested. The assessment included automated processing of your data.\n\nYou can ask a bank employee to review the decision at any of our branches.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "TODO!!! Cancel application",
+            "primaryButton": "TODO!!! Continue with the arrangement",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "repaymentContractDisagree": {
             "title": "Bez podpisu to bohužel nepůjde",
@@ -838,10 +839,10 @@
             "detail": "Potrvá to jen chviličku."
         },
         "scoringNok": {
-            "title": "Po prověření Vaší žádosti Vám bohužel sloučení půjček nemůžeme nabídnout",
-            "detail": "Pokud máte dotaz, jak postupovat, kontaktujte nás.",
-            "callUs": "Zavolejte nám na infolinku",
-            "primaryButton": "Ukončit žádost"
+            "title": "TODO!!! After reviewing your application we can not offer you a loan.",
+            "detail": "TODO!!! We couldn’t approve your application after assessing your creditworthiness. The assessment included automated processing of your data.\n\nYou can ask a bank employee to review the decision at any of our branches.",
+            "primaryButton": "TODO!!! Cancel Application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "scoringOk": {
             "navigationTitle": "Exkluzivně pro vás",
@@ -912,6 +913,26 @@
             "interestRate": "Roční úroková sazba",
             "rpsn": "Roční procentní sazba nákladů",
             "total": "Celkem zaplatíte"
+        },
+        "scoringInfoSheet": {
+            "title": "How we assess your creditworthiness",
+            "items": [
+                {
+                    "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                },
+                {
+                    "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                },
+                {
+                    "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                },
+                {
+                    "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                },
+                {
+                    "title": "You can ask a bank employee to review the decision at any of our branches."
+                }
+            ]
         },
         "manualCheck": {
             "title": "Vaši žádost musíme prověřit, a to může chvíli trvat",
