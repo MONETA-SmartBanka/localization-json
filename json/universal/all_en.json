@@ -541,6 +541,68 @@
                     }
                 },
                 {
+                    "codes": ["567"],
+                    "showRepresentativeExample": true,
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "titleWithoutBonus": "Interest rate {0}",
+                    "description": "The bonus is valid for the entire guarantee period.",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Interest bonus",
+                    "guarantee": "Interest bonus guarantee",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "From {dateFrom}, it will change to <b>{rate} p.a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p.a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p.a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "extension": "We are extending the <b>{rate} p.a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p.a.</b> rate <b>until {dateTo}</b>.",
+                        "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
+                        "representativeExample": "Representative example for a balance of <b>CZK 500,000</b>:\n\nThe first <b>CZK 250,000</b> earns <b>4.5 % p.a.</b>\nThe remaining <b>CZK 250,000</b> earns <b>3.7 % p.a.</b>",
+                        "representativeExampleEUR": "Representative example for a balance of <b>EUR 40,230</b>:\n\n<b>EUR 10,000</b> earns 4.5 %.\n<b>EUR 10,000</b> earns 3.7 %.\n<b>EUR 20,000</b> earns 3.5 %.\n<b>EUR 230</b> earns 0.01 %."
+                    },
+                    "secondBonus": {
+                        "title": "Second interest bonus"
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "entireBalance": "For the entire balance",
+                        "upTo": "Up to {0}",
+                        "range": "{0} - {1}",
+                        "above": "Above {0}"
+                    }
+                },
+                {
+                    "codes": ["575"],
+                    "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
+                    "titleWithoutBonus": "Interest rate {0}",
+                    "description": "The bonus is valid for the entire guarantee period.",
+                    "standardRate": "Standard interest rate",
+                    "bonusRate": "Interest bonus",
+                    "guarantee": "Interest bonus guarantee",
+                    "rateValue": "{0} p.a.",
+                    "infoMessages": {
+                        "change": "From {dateFrom}, it will change to <b>{rate} p.a.</b>.",
+                        "changeWithGuarantee": "From {dateFrom}, it will change to <b>{rate} p.a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "changeWithGuaranteeDashboard": "From {dateFrom}, appreciation will change to <b>{rate} p.a.</b>, guaranteed until <b>{dateTo}</b>.",
+                        "extension": "We are extending the <b>{rate} p.a.</b> rate <b>until {dateTo}</b>.",
+                        "extensionDashboard": "We are extending the <b>{rate} p.a.</b> rate <b>until {dateTo}</b>.",
+                        "interestTiers": "Your money earns interest based on the balance tiers it falls into. For more information, please refer to the <a href=\"https://www.moneta.cz/dokumenty-ke-stazeni/sazebniky\">interest rate list</a>.",
+                        "representativeExample": "Representative example for a balance of <b>CZK 1,005,725</b>:\n\n<b>CZK 1,000,000</b> earns 2.6 %.\n<b>CZK 5,725</b> earns 0.5 %.",
+                        "representativeExampleEUR": "Representative example for a balance of <b>EUR 4,200</b>:\n\n<b>EUR 4,000</b> earns 2.6 %.\n<b>EUR 200</b> earns 0.5 %."
+                    },
+                    "secondBonus": {
+                        "title": "Second interest bonus"
+                    },
+                    "tiersTitle": "Annual yield",
+                    "tiers": {
+                        "entireBalance": "For the entire balance",
+                        "upTo": "Up to {0}",
+                        "range": "{0} - {1}",
+                        "above": "Above {0}"
+                    },
+                    "showRepresentativeExample": false
+                },
+                {
                     "codes": ["default"],
                     "title": "The {0} interest rate consists of a standard interest rate and an interest bonus",
                     "titleWithoutBonus": "Interest rate {0}",
@@ -1285,6 +1347,7 @@
                     "primaryButton": {
                         "actionType": "APPPAGE",
                         "actionLabelText": "Spořit s úrokem 3,5 % p. a.",
+                        "actionData": "SAVINGSACCOUNT",
                         "conversionDeeplink": "SACONVERSION_RETENTION",
                         "ibRoute": "/savings/savingsAccountPromo",
                         "ibAnalyticsCode": "Retention Savings Banner VIP"

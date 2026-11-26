@@ -1365,6 +1365,60 @@
             "abilityCategory": "expenses_categorization",
             "abilityTitle": "Kdy se platba objeví v kategorii?",
             "abilitySortOrder": 500
+        },
+        {
+            "id": "Notifications_CZ",
+            "title": "Oznámení Vás upozorní na každou platbu",
+            "detail": "Nastavte si oznámení o platbách kartou, převodech i neprovedených transakcích a mějte lepší přehled o svých penězích. Snadno tak poznáte, kdyby se dělo něco neobvyklého.",
+            "imageURL": "/cbl_images/popup-news/v98/notifications_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "security",
+            "abilityTitle": "Oznámení",
+            "abilitySortOrder": 9500
+        },
+        {
+            "id": "EurFunds_CZ",
+            "title": "Nově můžete investovat také do eurových fondů",
+            "detail": "Rozšířili jsme naši nabídku o pečlivě vybrané fondy v eurech. Hodnotu svých investic si navíc můžete zobrazit v EUR i v Kč.",
+            "imageURL": "/cbl_images/popup-news/v98/eur_funds_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "EUR fondy",
+            "abilitySortOrder": 9600,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "INVESTMENTS",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "ThirdPartyCC_CZ",
+            "title": "Potřebujete sdílet svou kreditní kartu s někým jiným? Pořiďte jim druhou",
+            "detail": "Stačí vybrat, kdo ji bude používat, a sjednání dokončit ve Smart Bance. Podobně jako u debetní karty.",
+            "imageURL": "/cbl_images/popup-news/v98/third_party_cc_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Kreditní karta pro 3.osobu",
+            "abilitySortOrder": 9700,
+            "primaryButton": {
+                "actionType": "APPPAGE",
+                "actionData": "CARD_ISSUANCE",
+                "actionLabelText": "Zjistit více"
+            }
+        },
+        {
+            "id": "MortgageRefix_CZ",
+            "title": "Končí fixace Vaší hypotéky? Nastavte si ve Smart Bance novou",
+            "detail": "Porovnejte si nabídky pro další období, vyberte délku fixace a úrokovou sazbu, která Vám vyhovuje. Jednoduše a online.",
+            "imageURL": "/cbl_images/popup-news/v98/mortgage_refix_CZ.png",
+            "minAppVersion": "99.0.0",
+            "shouldCheckEligibility": false,
+            "abilityCategory": "products",
+            "abilityTitle": "Refixace hypotéky",
+            "abilitySortOrder": 9800
         }
     ]
 }
