@@ -19,10 +19,11 @@
             "primaryButton": "Back to Balance Overview"
         },
         "scoringLessDisagree": {
-            "title": "This is the maximum credit limit we can offer to you right now",
-            "detail": "At the moment, weďż˝re unable to offer you a higher credit limit.  \nIf you change your mind and decide to accept the lower amount, weďż˝ll be happy to proceed.",
-            "secondaryButton": "Cancel application",
-            "primaryButton": "Proceed with {0}"
+            "title": "We can only offer you this amount",
+            "detail": "If you change your mind, you’re welcome to accept our offer.\n\nAfter assessing your creditworthiness, we can’t offer you the loan amount you requested. We used automated data processing in our assessment.\n\nYou can visit any of our branches and ask a member of our staff to review the decision.",
+            "secondaryButton": "End application",
+            "primaryButton": "Continue with application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "precontractDisagree": {
             "title": "Your consent is required",
@@ -69,6 +70,26 @@
             "branch": "Visit a branch",
             "buttonWhatIsCreditCard": "How does a credit card work?"
         },
+        "scoringInfoSheet": {
+            "title": "How we assess your creditworthiness",
+            "items": [
+                {
+                    "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                },
+                {
+                    "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                },
+                {
+                    "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                },
+                {
+                    "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                },
+                {
+                    "title": "You can ask a bank employee to review the decision at any of our branches."
+                }
+            ]
+        },
         "howItWorks": {
             "title": "How does a credit card work?",
             "subtitle": "You get up to 55 days interest-free to either pay off the full balance or just part of it.",
@@ -99,9 +120,31 @@
                 "Plus, you’ll get 1% cashback on a category of your choice, up to CZK 500 per month, forever.",
                 "You can earn up to CZK 6,000.",
                 "Interest-free period of up to 50 days.",
-                "You can start shopping immediately after adding the card to Google Pay or Apple Pay."
+                "You can start shopping immediately after adding the card to Google Pay or Apple Pay.\n\nNabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů."
             ],
             "bulletItems": [
+                {
+                    "text": "Get 10% back on clothes and shoes worldwide",
+                    "description": "For the first 6 months after getting the card, you can earn up to CZK 500 a month, up to CZK 3,000 in total."
+                },
+                {
+                    "text": "Plus, you’ll get 1% cashback on a category of your choice, up to CZK 500 per month, forever.",
+                    "description": null
+                },
+                {
+                    "text": "You can earn up to CZK 6,000.",
+                    "description": null
+                },
+                {
+                    "text": "Interest-free period of up to 50 days.",
+                    "description": null
+                },
+                {
+                    "text": "You can start shopping immediately after adding the card to Google Pay or Apple Pay.\n\nNabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů.",
+                    "description": null
+                }
+            ],
+            "bulletItemsV2": [
                 {
                     "text": "Get 10% back on clothes and shoes worldwide",
                     "description": "For the first 6 months after getting the card, you can earn up to CZK 500 a month, up to CZK 3,000 in total."
@@ -123,6 +166,7 @@
                     "description": null
                 }
             ],
+            "infoAutomatic": "We prepared this consumer loan offer for you using automated processing of your personal data.",
             "primaryButton": "Continue",
             "secondaryButton": "How does it work?"
         },
@@ -897,10 +941,10 @@
             "primaryButton": "Back to Overview"
         },
         "scoringNok": {
-            "title": "After reviewing your application, we are unable to offer you a credit card.",
-            "detail": "<b>If you have any questions about how to proceed, please contact us.</b>",
-            "callUs": "Call Helpline",
-            "primaryButton": "Cancel application"
+            "title": "After assessing your creditworthiness, we couldn’t approve your application",
+            "detail": "We used automated data processing to assess your application. You can visit any of our branches and ask a member of our staff to review the decision.\n\nIf you’re experiencing financial difficulties, you can also contact a debt advice service. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "primaryButton": "End application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "scoringOk": {
             "title": "All seems to be in order, let’s continue",

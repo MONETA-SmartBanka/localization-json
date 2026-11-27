@@ -82,12 +82,13 @@
             "secondaryButton": "Ukončit žádost"
         },
         "scoringDisagreement": {
-            "title": "Není to ono?",
-            "detail": "Sloučení půjček jsme Vám přizpůsobili na míru a nabízíme to nejlepší, co v tuto chvíli máme.\n\nMožná bychom Vám uměli lépe poradit na telefonu. Zavoláme si?",
-            "callUs": "Zavolejte nám na infolinku",
-            "branch": "Navštivte nás na pobočce",
-            "primaryButton": "Zpět",
-            "secondaryButton": "Ukončit žádost"
+            "title": "We can only offer you this amount",
+            "detail": "If you change your mind, you’re welcome to accept our offer.\n\nAfter assessing your creditworthiness, we can’t offer you the loan amount you requested. We used automated data processing in our assessment.\n\nYou can visit any of our branches and ask a member of our staff to review the decision.",
+            "callUs": "Call Helpline",
+            "branch": "Visit a branch",
+            "secondaryButton": "End application",
+            "primaryButton": "Continue with application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "repaymentContractDisagree": {
             "title": "Bez podpisu to bohužel nepůjde",
@@ -156,8 +157,36 @@
                 "Doložíte dokumenty k půjčkám jinde",
                 "Žádost zodpovědně vyhodnotíme",
                 "Vaše půjčky jinde zaplatíme",
-                "Zřídíme jednu sloučenou půjčku u nás"
+                "Zřídíme jednu sloučenou půjčku u nás\n\nNabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů."
             ],
+            "richBullets": [
+                {
+                    "image": "number1",
+                    "title": "Zkontrolujeme vaše půjčky",
+                    "subtitle": null
+                },
+                {
+                    "image": "number2",
+                    "title": "Můžete si půjčit také něco navíc"
+                },
+                {
+                    "image": "number3",
+                    "title": "Doložíte dokumenty k půjčkám jinde"
+                },
+                {
+                    "image": "number4",
+                    "title": "Žádost zodpovědně vyhodnotíme"
+                },
+                {
+                    "image": "number5",
+                    "title": "Vaše půjčky jinde zaplatíme"
+                },
+                {
+                    "image": "number6",
+                    "title": "Zřídíme jednu sloučenou půjčku u nás"
+                }
+            ],
+            "infoAutomatic": "Nabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů.",
             "secondaryButton": "Více informací",
             "secondaryButtonLink": "https://www.moneta.cz/pujcky-a-uvery/slouceni-pujcek",
             "primaryButton": "Jdeme na to"
@@ -843,10 +872,10 @@
             "detail": "Potrvá to jen chviličku."
         },
         "scoringNok": {
-            "title": "Po prověření Vaší žádosti Vám bohužel sloučení půjček nemůžeme nabídnout",
-            "detail": "Pokud máte dotaz, jak postupovat, kontaktujte nás.",
-            "callUs": "Zavolejte nám na infolinku",
-            "primaryButton": "Ukončit žádost"
+            "title": "After assessing your creditworthiness, we couldn’t approve your application",
+            "detail": "We used automated data processing to assess your application. You can visit any of our branches and ask a member of our staff to review the decision.\n\nIf you’re experiencing financial difficulties, you can also contact a debt advice service. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "primaryButton": "End application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "scoringOk": {
             "navigationTitle": "Exkluzivně pro vás",
@@ -917,6 +946,26 @@
             "interestRate": "Roční úroková sazba",
             "rpsn": "Roční procentní sazba nákladů",
             "total": "Celkem zaplatíte"
+        },
+        "scoringInfoSheet": {
+            "title": "How we assess your creditworthiness",
+            "items": [
+                {
+                    "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                },
+                {
+                    "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                },
+                {
+                    "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                },
+                {
+                    "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                },
+                {
+                    "title": "You can ask a bank employee to review the decision at any of our branches."
+                }
+            ]
         },
         "manualCheck": {
             "title": "Vaši žádost musíme prověřit, a to může chvíli trvat",

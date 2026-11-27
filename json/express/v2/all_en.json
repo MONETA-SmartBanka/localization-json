@@ -15,12 +15,11 @@
                 "primaryButton": "Back to Balance Overview"
             },
             "scoringLessDisagree": {
-                "title": "That is the best we can offer you at this moment",
-                "detail": "This is the amount which we are ready to loan you, should you reconsider and accept our offer.",
-                "callUs": "Call us at our helpline",
-                "branch": "Visit one of our branches",
-                "primaryButton": "Continue loan Application",
-                "secondaryButton": "Cancel Application"
+                "title": "We can only offer you this amount",
+                "detail": "If you change your mind, you’re welcome to accept our offer.\n\nAfter assessing your creditworthiness, we can’t offer you the loan amount you requested. We used automated data processing in our assessment.\n\nYou can visit any of our branches and ask a member of our staff to review the decision.",
+                "primaryButton": "Continue with application",
+                "secondaryButton": "End application",
+                "tertiaryButton": "How we assess your creditworthiness"
             },
             "branch": {
                 "title": "We are able to process business income in Internet Banka",
@@ -181,9 +180,17 @@
                 "bullets": [
                     "<b>Fully online - from application to agreement conclusion</b> Only visit a branch if absolutely necessary.",
                     "<b>Money in your account within 5 minutes</b> of agreement conclusion.",
-                    "<b>There is no rush</b> You can save your process for later and consult one of our bankers."
+                    "<b>There is no rush</b> You can save your process for later and consult one of our bankers.",
+                    "<b>Paying off a loan early is no problem with us.</b><br><br>We prepared this consumer loan offer for you using automated processing of your personal data."
                 ],
-                "detail": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a>. If you are disabled, there will be no payment in the event of an insurance claim.",
+                "bulletsV2": [
+                    "<b>Fully online - from application to agreement conclusion</b> Only visit a branch if absolutely necessary.",
+                    "<b>Money in your account within 5 minutes</b> of agreement conclusion.",
+                    "<b>There is no rush</b> You can save your process for later and consult one of our bankers.",
+                    "<b>Paying off a loan early is no problem with us.</b>"
+                ],
+                "footer": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the <a href=\"https://www.moneta.cz/documents/20143/11819172/mmb-brozura-pojisteni-schopnosti-splacet-uver.pdf\">Terms and Condition of Insurance</a>. If you are disabled, there will be no payment in the event of an insurance claim.",
+                "infoAutomatic": "We prepared this consumer loan offer for you using automated processing of your personal data.",
                 "ppiDocuments": "By clicking Continue, you confirm that you are not disabled and that you have read and understood the {0}. If you are disabled, there will be no payment in the event of an insurance claim.</a>",
                 "secondaryButton": "Loan Calculator",
                 "needMoreButton": "Do you need help?",
@@ -1426,10 +1433,10 @@
                 "primaryButton": "Back to Balance Overview"
             },
             "scoringNok": {
-                "title": "After reviewing your application we can not offer you a loan.",
-                "detail": "<b>If you have any questions, we are here to help.</b>",
-                "callUs": "Call our helpline",
-                "primaryButton": "Cancel Application"
+                "title": "After assessing your creditworthiness, we couldn’t approve your application",
+                "detail": "We used automated data processing to assess your application. You can visit any of our branches and ask a member of our staff to review the decision.\n\nIf you’re experiencing financial difficulties, you can also contact a debt advice service. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+                "primaryButton": "End application",
+                "tertiaryButton": "How we assess your creditworthiness"
             },
             "docScoringSame": {
                 "title": "Everything is OK. Let’s continue",
@@ -1647,6 +1654,26 @@
                 "elsewhere": "I have loans elsewhere that I want to consolidate as well",
                 "primaryButton": "Consolidate and apply for another loan",
                 "secondaryButton": "How it will be?"
+            },
+            "scoringInfoSheet": {
+                "title": "How we assess your creditworthiness",
+                "items": [
+                    {
+                        "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                    },
+                    {
+                        "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                    },
+                    {
+                        "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                    },
+                    {
+                        "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                    },
+                    {
+                        "title": "You can ask a bank employee to review the decision at any of our branches."
+                    }
+                ]
             }
         }
     }

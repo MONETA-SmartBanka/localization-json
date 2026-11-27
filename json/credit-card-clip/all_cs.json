@@ -6,10 +6,11 @@
             "primaryButton": "Přejít na Přehled"
         },
         "scoringLessDisagree": {
-            "title": "Chcete pokračovat s nižší částkou?",
-            "detail": "Vybranou částku vám momentálně nabídnout nemůžeme. Ale pořád můžete pokračovat s nižší částkou.",
-            "primaryButton": "Pokračovat s {0}",
-            "secondaryButton": "Ukončit žádost"
+            "title": "Můžeme Vám nabídnout pouze tuto částku",
+            "detail": "Pokud si to rozmyslíte a přijmete naši nabídku, budeme rádi.\n\nPo posouzení Vaší úvěruschopnosti Vám nemůžeme poskytnout úvěr v požadované výši. Při posouzení jsme využili automatizované zpracování údajů.\n\nPokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky.",
+            "primaryButton": "Pokračovat ve sjednání",
+            "secondaryButton": "Ukončit žádost",
+            "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
         },
         "branch": {
             "title": "Pojďme to vyřešit na pobočce",
@@ -40,6 +41,26 @@
             "secondaryButton": "Přejít na Přehled",
             "tertiaryButton": "Zrušit žádost"
         },
+        "scoringInfoSheet": {
+            "title": "Jak posuzujeme Vaši úvěruschopnost",
+            "items": [
+                {
+                    "title": "Při posouzení můžeme využít automatizované zpracování osobních údajů. Vycházíme přitom z informací uvedených v žádosti, z doložených dokumentů a z údajů, které můžeme ověřit z dalších dostupných zdrojů."
+                },
+                {
+                    "title": "Neúplné, nepřesné nebo neaktuální údaje mohou ovlivnit výsledek posouzení. Pokud o úvěr žádá více lidí společně, posuzujeme jejich úvěruschopnost dohromady."
+                },
+                {
+                    "title": "Vaše deklarované příjmy ověřujeme podle dokladů o příjmu nebo podle transakcí na účtech vedených u MONETA Money Bank či jiné banky. Ověřujeme také Vaše deklarované výdaje. Pokud se uvedená a zjištěná částka liší, počítáme s tou vyšší."
+                },
+                {
+                    "title": "Úvěry a další závazky mimo skupinu MONETA ověřujeme v Bankovním a Nebankovním registru klientských informací."
+                },
+                {
+                    "title": "Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky."
+                }
+            ]
+        },
         "maxLimitReached": {
             "title": "Dosáhli jste maximální částky, kterou vám u kreditní karty můžeme nabídnout.\n\nChcete si sjednat půjčku?",
             "primaryButton": {
@@ -67,7 +88,9 @@
                 "interestCashTitle": "Roční úroková sazba",
                 "interestCashDetail": "Pro hotovostní transakce"
             },
-            "info": "Kreditní karta vám fyzicky zůstane.\nNavýšíme pouze její úvěrový rámec.",
+            "info": "Kreditní karta vám fyzicky zůstane.\nNavýšíme pouze její úvěrový rámec.\n\nNabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů.",
+            "infoV2": "Kreditní karta vám fyzicky zůstane.\nNavýšíme pouze její úvěrový rámec.",
+            "infoAutomatic": "Nabídka spotřebitelského úvěru byla připravena na základě automatizovaného zpracování osobních údajů.",
             "primaryButton": "Pokračovat"
         },
         "szrCheck": {
@@ -629,10 +652,11 @@
             "primaryButton": "Zpět na Přehled"
         },
         "scoringNok": {
-            "title": "Po ověření žádosti vám bohužel kreditní kartu nemůžeme navýšit",
-            "detail": "{0}\n\nPokud máte dotaz, jak dál postupovat, kontaktujte nás.",
-            "branch": "Navštivte nás\nna pobočce",
-            "primaryButton": "Ukončit žádost"
+            "title": "Vaši žádost jsme po posouzení úvěruschopnosti nemohli schválit",
+            "detail": "{0}\n\nPři posouzení jsme využili automatizované zpracování údajů. Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky.\n\nPokud máte finanční potíže, můžete se obrátit také na poskytovatele dluhového poradenství. Kontaktní údaje jsou dostupné na <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "detailV2": "Při posouzení jsme využili automatizované zpracování údajů. Pokud chcete, můžete na kterékoliv naší pobočce požádat o přezkoumání rozhodnutí pracovníkem banky.\n\nPokud máte finanční potíže, můžete se obrátit také na poskytovatele dluhového poradenství. Kontaktní údaje jsou dostupné na <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "primaryButton": "Ukončit žádost",
+            "tertiaryButton": "Jak posuzujeme Vaši úvěruschopnost"
         },
         "documentUpload": {
             "uploadScenes": {

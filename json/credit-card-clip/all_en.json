@@ -6,10 +6,11 @@
             "primaryButton": "Back to Overview"
         },
         "scoringLessDisagree": {
-            "title": "Would you like to continue with a lower amount?",
-            "detail": "We are currently unable to offer you the selected amount. However, you may still continue with a lower amount.",
-            "primaryButton": "Continue with {0}",
-            "secondaryButton": "Cancel application"
+            "title": "We can only offer you this amount",
+            "detail": "If you change your mind, you’re welcome to accept our offer.\n\nAfter assessing your creditworthiness, we can’t offer you the loan amount you requested. We used automated data processing in our assessment.\n\nYou can visit any of our branches and ask a member of our staff to review the decision.",
+            "primaryButton": "Continue with application",
+            "secondaryButton": "End application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "branch": {
             "title": "Let’s meet in person",
@@ -40,6 +41,26 @@
             "secondaryButton": "Back to Overview",
             "tertiaryButton": "Cancel application"
         },
+        "scoringInfoSheet": {
+            "title": "How we assess your creditworthiness",
+            "items": [
+                {
+                    "title": "We may use automated processing of personal data as part of the assessment. We use information from your application, supporting documents and data we can verify from other available sources."
+                },
+                {
+                    "title": "Incomplete, inaccurate or outdated information may affect the result. If more than one person applies for the loan, we assess their creditworthiness jointly."
+                },
+                {
+                    "title": "We verify the income you enter using proof of income or transactions on accounts held with MONETA Money Bank or another bank. We also verify your expenses. If the amount you enter differs from the amount we identify, we use the higher figure."
+                },
+                {
+                    "title": "We check your loans and other financial commitments outside the MONETA Group against the Banking and Non-Banking Client Information Registers."
+                },
+                {
+                    "title": "You can ask a bank employee to review the decision at any of our branches."
+                }
+            ]
+        },
         "maxLimitReached": {
             "title": "You’ve reached the maximum amount we can offer you on your credit card.\n\nWould you like to apply for a loan?",
             "primaryButton": {
@@ -67,7 +88,9 @@
                 "interestCashTitle": "Annual interest rate",
                 "interestCashDetail": "For cash transactions"
             },
-            "info": "You will keep your physical credit card.\nOnly your credit limit will be increased.",
+            "info": "You will keep your physical credit card.\nOnly your credit limit will be increased.\n\nWe prepared this consumer loan offer for you using automated processing of your personal data.",
+            "infoV2": "You will keep your physical credit card.\nOnly your credit limit will be increased.",
+            "infoAutomatic": "We prepared this consumer loan offer for you using automated processing of your personal data.",
             "primaryButton": "Continue"
         },
         "szrCheck": {
@@ -629,10 +652,11 @@
             "primaryButton": "Back to Overview"
         },
         "scoringNok": {
-            "title": "Unfortunately, we cannot increase your credit card limit after reviewing your application",
-            "detail": "{0}\n\nIf you have any questions about next steps, please contact us.",
-            "branch": "Visit a branch",
-            "primaryButton": "Back to Overview"
+            "title": "After assessing your creditworthiness, we couldn’t approve your application",
+            "detail": "{0}\n\nWe used automated data processing to assess your application. You can visit any of our branches and ask a member of our staff to review the decision.\n\nIf you’re experiencing financial difficulties, you can also contact a debt advice service. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "detailV2": "We used automated data processing to assess your application. You can visit any of our branches and ask a member of our staff to review the decision.\n\nIf you’re experiencing financial difficulties, you can also contact a debt advice service. Contact details are available at <a href=\"https://financnigramotnost.gov.cz/\">https://financnigramotnost.gov.cz/</a>",
+            "primaryButton": "End application",
+            "tertiaryButton": "How we assess your creditworthiness"
         },
         "documentUpload": {
             "uploadScenes": {
