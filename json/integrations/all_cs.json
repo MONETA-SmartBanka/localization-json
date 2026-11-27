@@ -1,7 +1,7 @@
 {
     "integrations": {
         "title": "Chytré služby a slevy",
-        "availableServicesTitle": "Dostupné služby a slevy",
+        "availableServicesTitle": "Dostupné",
         "availableServices": [
             {
                 "id": "FAKTUROID",
@@ -45,32 +45,9 @@
                     "text": "Už slevy využíváte? Pak nabídku ignorujte.\nÚdaje brzy aktualizujeme."
                 },
                 "deepLink": ""
-            },
-            {
-                "id": "EVO_PAYMENTS",
-                "imageUrl": "/cbl_images/salespoints/nsb/4000002-atm-vertical-fill.png",
-                "title": "Platební terminál na 6 měsíců ZDARMA!",
-                "subtitle": "Začněte přijímat platby bez starosti!",
-                "bullets": [
-                    {
-                        "icon": "tickFill",
-                        "text": "Získáte k užívání terminál bez poplatku za pronájem, servis a implementaci po dobu 6 měsíců."
-                    }
-                ],
-                "primaryButton": {
-                    "icon": "linkExternalFill",
-                    "text": "Získat slevu",
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/ucty-a-karty/platebni-terminaly"
-                },
-                "message": {
-                    "icon": "circleInfo",
-                    "text": "Už slevy využíváte? To nás těší.\nStránku brzy aktualizujeme."
-                },
-                "deepLink": ""
             }
         ],
-        "activatedServicesTitle": "Aktivované služby a slevy",
+        "activatedServicesTitle": "Aktivované",
         "activatedServices": [
             {
                 "id": "FAKTUROID",
@@ -88,18 +65,6 @@
                     "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
                 },
                 "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-            },
-            {
-                "id": "EVO_PAYMENTS",
-                "imageUrl": "/cbl_images/salespoints/nsb/4000002-atm-vertical-fill.png",
-                "title": "Terminál na 6 měsíců ZDARMA",
-                "bullets": [
-                    {
-                        "icon": "tickFill",
-                        "text": "Sleva je aktivní!"
-                    }
-                ],
-                "deepLink": ""
             }
         ],
         "apiPartnersTitle": "API partneři"
