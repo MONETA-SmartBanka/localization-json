@@ -1,7 +1,7 @@
 {
     "integrations": {
-        "title": "Smart Services and Discounts",
-        "availableServicesTitle": "Available services and discounts",
+        "title": "Smart Services and Disounts",
+        "availableServicesTitle": "Available",
         "availableServices": [
             {
                 "id": "FAKTUROID",
@@ -45,32 +45,9 @@
                     "text": "If you are already using the discount, please disregard this offer.\nInformation might take a moment to update."
                 },
                 "deepLink": ""
-            },
-            {
-                "id": "EVO_PAYMENTS",
-                "imageUrl": "/cbl_images/salespoints/nsb/4000002-atm-vertical-fill.png",
-                "title": "Payment terminal FREE for 6 months",
-                "subtitle": "Start accepting payments with ease!",
-                "bullets": [
-                    {
-                        "icon": "tickFill",
-                        "text": "You’ll get the terminal with no rental, service, or setup fees for 6 months."
-                    }
-                ],
-                "primaryButton": {
-                    "icon": "linkExternalFill",
-                    "text": "Get the offer",
-                    "actionType": "OPENURL",
-                    "actionValue": "https://www.moneta.cz/ucty-a-karty/platebni-terminaly"
-                },
-                "message": {
-                    "icon": "circleInfo",
-                    "text": "Already using the discounts? We’re glad to hear that.\nWe’ll update this page soon."
-                },
-                "deepLink": ""
             }
         ],
-        "activatedServicesTitle": "Active services and discounts",
+        "activatedServicesTitle": "Active",
         "activatedServices": [
             {
                 "id": "FAKTUROID",
@@ -88,18 +65,6 @@
                     "actionValue": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
                 },
                 "deepLink": "INTEGRATIONS_FAKTUROID_INVOICES_OVERVIEW"
-            },
-            {
-                "id": "EVO_PAYMENTS",
-                "imageUrl": "/cbl_images/salespoints/nsb/4000002-atm-vertical-fill.png",
-                "title": "Payment terminal FREE for 6 months",
-                "bullets": [
-                    {
-                        "icon": "tickFill",
-                        "text": "The discount is active!"
-                    }
-                ],
-                "deepLink": ""
             }
         ],
         "apiPartnersTitle": "API partners"
