@@ -26,6 +26,16 @@
             },
             "primaryButton": "Rozumím"
         },
+        "recurring": {
+            "detail": {
+                "title": "Tuto transakci není možné reklamovat ve Smart Bance",
+                "reason": "Protože platba souvisí s předplatným nebo členstvím u obchodníka, obraťte se prosím přímo na jeho zákaznickou podporu.<br /><br />Chcete zablokovat budoucí platby? Otevřete <a href=\"smartbanka://open?ACTION=APPPAGE&URL=CARDONFILE&CARD_NUMBER_MASKED={cardNumberMasked}\">Předplatná a uložené karty</a> a u daného obchodníka zvolte <b>Pozastavit platby</b>.<br /><br />Pokud transakce proběhla až po zrušení předplatného, <a href=\"tel:+420224443636\">zavolejte nám</a>."
+            },
+            "list": {
+                "title": "Tuto transakci není možné reklamovat ve Smart Bance",
+                "reason": "Protože platba souvisí s předplatným nebo členstvím u obchodníka, obraťte se prosím přímo na jeho zákaznickou podporu.<br /><br />Máte obchodníka uloženého? Zkontrolujte si <a href=\"smartbanka://open?ACTION=APPPAGE&URL=CARDONFILE&CARD_NUMBER_MASKED={cardNumberMasked}\">Předplatná a uložené karty</a> a u daného obchodníka zvolte <b>Pozastavit platby</b>.<br /><br />Pokud jste se u obchodníka nikdy neregistroval*a nebo transakce proběhla až po zrušení předplatného, <a href=\"tel:+420224443636\">zavolejte nám</a>."
+            }
+        },
         "transactionHistory": {
             "title": "Chcete vybrat další transakce k reklamaci?",
             "loadMoreButton": "Zobrazit další transakce",

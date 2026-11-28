@@ -26,6 +26,16 @@
             },
             "primaryButton": "Confirm"
         },
+        "recurring": {
+            "detail": {
+                "title": "You can’t dispute this transaction in Smart Banka",
+                "reason": "Because this payment is linked to a subscription or membership with the merchant, please contact their customer support directly.<br /><br />Do you want to block future payments? Open <a href=\"smartbanka://open?ACTION=APPPAGE&URL=CARDONFILE&CARD_NUMBER_MASKED={cardNumberMasked}\">Subscriptions & Saved Cards</a> and select <b>Pause Payments</b> for this merchant.<br /><br />If the transaction was made after you cancelled the subscription, <a href=\"tel:+420224443636\">call us</a>."
+            },
+            "list": {
+                "title": "You can’t dispute this transaction in Smart Banka",
+                "reason": "Because this payment is linked to a subscription or membership with the merchant, please contact their customer support directly.<br /><br />You may have this merchant saved. Check <a href=\"smartbanka://open?ACTION=APPPAGE&URL=CARDONFILE&CARD_NUMBER_MASKED={cardNumberMasked}\">Subscriptions & Saved Cards</a> and select <b>Pause payments</b> for the relevant merchant.<br /><br />If you never registered with this merchant, or the transaction was made after you cancelled the subscription, please <a href=\"tel:+420224443636\">call us</a>."
+            }
+        },
         "transactionHistory": {
             "title": "Do you wish to dispute more transactions?",
             "loadMoreButton": "Show more transactions",
